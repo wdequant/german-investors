@@ -1,0 +1,140 @@
+{
+  "slug": "vsquared",
+  "affinity_company_id": 263310211,
+  "affinity_domain": "vsquared.vc",
+  "pipeline": [
+    {
+      "id": 313527153,
+      "name": "INBRAIN Neuroelectronics",
+      "domain": "inbrain-neuroelectronics.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 311995721,
+      "name": "Lace Lithography",
+      "domain": "lacelithography.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 308969076,
+      "name": "VÆRIDION",
+      "domain": "vaeridion.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311601134,
+      "name": "Belfort",
+      "domain": "belfortlabs.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311186555,
+      "name": "Morpheus Space",
+      "domain": "morpheus.space",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 310605935,
+      "name": "ABZ Innovation",
+      "domain": "abzinnovation.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308969272,
+      "name": "ARLQ",
+      "domain": "arlq.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 304689833,
+      "name": "NEURA Robotics",
+      "domain": "neura-robotics.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 302925324,
+      "name": "cylib",
+      "domain": "cylib.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 300074848,
+      "name": "Xavveo",
+      "domain": "xavveo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 310969436,
+      "name": "Pulsetrain",
+      "domain": "pulsetrain.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 296509815,
+      "name": "Safe Intelligence",
+      "domain": "safeintelligence.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728675,
+      "name": "ramblr",
+      "domain": "ramblr.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289986763,
+      "name": "OQmented",
+      "domain": "oqmented.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 295040060,
+      "name": "Atrandi Biosciences | Droplet Genomics",
+      "domain": "atrandi.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765263,
+      "name": "Hyperganic",
+      "domain": "hyperganic.com",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Lise Rechsteiner",
+      "externalEmail": "lise@vsquared.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Benedikt von Schoeler",
+      "externalEmail": "benedikt@vsquared.vc",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Michael Jobst",
+      "externalEmail": "michael@vsquared.vc",
+      "score": 0.92,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Gina Krymalowski",
+      "externalEmail": "gina@vsquared.vc",
+      "score": 0.38,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Gina Krymalowski",
+      "externalEmail": "gina@vsquared.vc",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ]
+}

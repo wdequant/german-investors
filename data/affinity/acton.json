@@ -1,0 +1,277 @@
+{
+  "slug": "acton",
+  "affinity_company_id": 1532729,
+  "affinity_domain": "actoncapital.com",
+  "pipeline": [
+    {
+      "id": 296915910,
+      "name": "JUPUS",
+      "domain": "jupus.de",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 302925348,
+      "name": "Formalize",
+      "domain": "formalize.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771373,
+      "name": "Henchman",
+      "domain": "henchman.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289770033,
+      "name": "paretos",
+      "domain": "paretos.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 287433080,
+      "name": "remberg",
+      "domain": "remberg.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766888,
+      "name": "Jus Mundi",
+      "domain": "jusmundi.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289768078,
+      "name": "Seatti",
+      "domain": "seatti.co",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283967159,
+      "name": "Hublo",
+      "domain": "hublo.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289768332,
+      "name": "everstox",
+      "domain": "everstox.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767200,
+      "name": "Othoz",
+      "domain": "ultramarin.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311249768,
+      "name": "Tomorro",
+      "domain": "tomorro.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 309892520,
+      "name": "Yoto",
+      "domain": "yotoplay.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289765565,
+      "name": "The Female Company",
+      "domain": "buy.thefemalecompany.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 304291437,
+      "name": "Plantura",
+      "domain": "plantura.garden",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767498,
+      "name": "7Learnings",
+      "domain": "7learnings.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767045,
+      "name": "Metalshub",
+      "domain": "metals-hub.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 225076011,
+      "name": "Klaus",
+      "domain": "klausapp.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766744,
+      "name": "Convelio",
+      "domain": "convelio.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766983,
+      "name": "Lemon One",
+      "domain": "lemonone.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768115,
+      "name": "Laserhub",
+      "domain": "laserhub.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765321,
+      "name": "Cluno",
+      "domain": "cluno.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 152838829,
+      "name": "Zenjob",
+      "domain": "zenjob.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764716,
+      "name": "Elder",
+      "domain": "elder.org",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761548,
+      "name": "COMATCH",
+      "domain": "comatch.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766823,
+      "name": "iwoca",
+      "domain": "iwoca.co.uk",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760759,
+      "name": "Mambu",
+      "domain": "mambu.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765230,
+      "name": "MPB",
+      "domain": "mpb.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765473,
+      "name": "audibene",
+      "domain": "audibene.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 1523759,
+      "name": "sofatutor",
+      "domain": "sofatutor.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763771,
+      "name": "Tictail",
+      "domain": "tictail.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 1592461,
+      "name": "Fashion For Home",
+      "domain": "fashionforhome.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764726,
+      "name": "Linas Matkasse",
+      "domain": "linasmatkasse.se",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761406,
+      "name": "Windeln.de",
+      "domain": "yuunic.de",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Julius Lühr",
+      "externalEmail": "jl@actoncapital.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Julius Lühr",
+      "externalEmail": "jl@actoncapital.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Christoph Braun",
+      "externalEmail": "cb@actoncapital.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Christoph Braun",
+      "externalEmail": "cb@actoncapital.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Dominik Alvermann",
+      "externalEmail": "da@actoncapital.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Joseph Hefele",
+      "externalEmail": "jh@actoncapital.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Julius Lühr",
+      "externalEmail": "jl@actoncapital.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Sam Brooks",
+      "external": "Fritz Oidtmann",
+      "externalEmail": "fo@actoncapital.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Fritz Oidtmann",
+      "externalEmail": "fo@actoncapital.com",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Fritz Oidtmann",
+      "externalEmail": "fo@actoncapital.com",
+      "score": 0.84,
+      "linkedin": false
+    }
+  ]
+}

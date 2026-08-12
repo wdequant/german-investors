@@ -1,0 +1,235 @@
+{
+  "slug": "commerzventures",
+  "affinity_company_id": 1724811,
+  "affinity_domain": "commerzventures.com",
+  "pipeline": [
+    {
+      "id": 307408626,
+      "name": "Concirrus",
+      "domain": "concirrus.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 300074747,
+      "name": "Alviere",
+      "domain": "alviere.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 293726960,
+      "name": "Mosaic Smart Data",
+      "domain": "mosaicsmartdata.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 290580512,
+      "name": "Deblock",
+      "domain": "deblock.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771022,
+      "name": "Climate X",
+      "domain": "climate-x.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 311300308,
+      "name": "unique.ai",
+      "domain": "unique.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767676,
+      "name": "ClimateView",
+      "domain": "climateview.global",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766758,
+      "name": "Afilio",
+      "domain": "afilio.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760460,
+      "name": "MoneyFellows",
+      "domain": "moneyfellows.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768233,
+      "name": "Doconomy",
+      "domain": "doconomy.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769297,
+      "name": "VOLT Open Banking",
+      "domain": "volt.io",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289769813,
+      "name": "lemon.markets",
+      "domain": "lemon.markets",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766643,
+      "name": "Curv",
+      "domain": "curv.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 298797390,
+      "name": "Runa",
+      "domain": "runa.io",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289764879,
+      "name": "By Miles",
+      "domain": "bymiles.co.uk",
+      "funnel": "Passed"
+    },
+    {
+      "id": 220204554,
+      "name": "Getsafe",
+      "domain": "hellogetsafe.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765987,
+      "name": "Hedvig",
+      "domain": "hedvig.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765849,
+      "name": "Instanda",
+      "domain": "instanda.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763164,
+      "name": "Flock Ltd.",
+      "domain": "flockcover.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760138,
+      "name": "OpenLegacy",
+      "domain": "openlegacy.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762687,
+      "name": "Bankin'",
+      "domain": "bankin.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764449,
+      "name": "PayKey",
+      "domain": "paykey.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760954,
+      "name": "Marqeta",
+      "domain": "marqeta.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761780,
+      "name": "Fraugster",
+      "domain": "fraugster.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766823,
+      "name": "iwoca",
+      "domain": "iwoca.co.uk",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760759,
+      "name": "Mambu",
+      "domain": "mambu.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Anna Faulkner",
+      "external": "Andreas Ioannou",
+      "externalEmail": "andreas@fintech.io",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Andreas Ioannou",
+      "externalEmail": "andreas@fintech.io",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Alexandre Moreillon",
+      "externalEmail": "alexandre@fivet.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Tony Zappala",
+      "external": "Heiko Schwender",
+      "externalEmail": "heiko.schwender@commerzventures.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Andreas Ioannou",
+      "externalEmail": "andreas@fintech.io",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Heiko Schwender",
+      "externalEmail": "heiko.schwender@commerzventures.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Andreas Ioannou",
+      "externalEmail": "andreas@fintech.io",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Heiko Schwender",
+      "externalEmail": "heiko.schwender@commerzventures.com",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Ricky Knox",
+      "externalEmail": "ricky@prosper.co.uk",
+      "score": 0.95,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Andreas Ioannou",
+      "externalEmail": "andreas@fintech.io",
+      "score": 0.86,
+      "linkedin": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "nap",
+  "affinity_company_id": 301291589,
+  "affinity_domain": "nap.vc",
+  "pipeline": [
+    {
+      "id": 312640291,
+      "name": "Zelara",
+      "domain": "zelara.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311601272,
+      "name": "Grand Financial Services Ireland",
+      "domain": "heygrand.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308610695,
+      "name": "VoiceLine",
+      "domain": "voiceline.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 309752647,
+      "name": "Logistica OS GmbH",
+      "domain": "logistica-os.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 301914828,
+      "name": "Sherpa",
+      "domain": "sherpa.cx",
+      "funnel": "Lead"
+    },
+    {
+      "id": 302925350,
+      "name": "UniteLabs",
+      "domain": "unitelabs.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 296915905,
+      "name": "companion.energy -",
+      "domain": "companion.energy",
+      "funnel": "Awaiting Reply"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Stefan Walter",
+      "externalEmail": "stefan@cavalry.vc",
+      "score": 0.35,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Claude Ritter",
+      "externalEmail": "claude@cavalry.vc",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "notes": "Company search term 'NAP vc' returned no results; resolved via domain search 'nap.vc' (company id 301291589). Top external contacts carry cavalry.vc emails (NAP founders are ex-Cavalry). Pipeline alias 'NAP' is a short token and may include unrelated investor-name matches."
+}

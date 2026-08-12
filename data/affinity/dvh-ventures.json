@@ -1,0 +1,109 @@
+{
+  "slug": "dvh-ventures",
+  "affinity_company_id": 1710830,
+  "affinity_domain": "dvhventures.de",
+  "pipeline": [
+    {
+      "id": 296915823,
+      "name": "Dermanostic",
+      "domain": "dermanostic.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 295039955,
+      "name": "juli",
+      "domain": "juli.co",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728614,
+      "name": "HealthCaters",
+      "domain": "healthcaters.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771605,
+      "name": "Polyteia",
+      "domain": "polyteia.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289768542,
+      "name": "Okko Health",
+      "domain": "okkohealth.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289764355,
+      "name": "COMPEON",
+      "domain": "compeon.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766707,
+      "name": "LiveEO",
+      "domain": "live-eo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765810,
+      "name": "Masterplan.com",
+      "domain": "masterplan.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763678,
+      "name": "HUMANOO",
+      "domain": "humanoo.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763518,
+      "name": "LIQID",
+      "domain": "liqid.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763242,
+      "name": "SMACC",
+      "domain": "smacc.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 1647422,
+      "name": "Lendstar",
+      "domain": "lendstar.io",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Helena Richardson",
+      "external": "Duc Tran",
+      "externalEmail": "tran@dvhventures.de",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Emily Tan",
+      "external": "Charlotte Küppers",
+      "externalEmail": "charlotte.degot@co2ai.com",
+      "score": 0.94,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Duc Tran",
+      "externalEmail": "tran@dvhventures.de",
+      "score": 0.43,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Charlotte Küppers",
+      "externalEmail": "charlotte.degot@co2ai.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ]
+}

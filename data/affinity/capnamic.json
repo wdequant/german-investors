@@ -1,0 +1,361 @@
+{
+  "slug": "capnamic",
+  "affinity_company_id": 1623057,
+  "affinity_domain": "capnamic.com",
+  "pipeline": [
+    {
+      "id": 312081863,
+      "name": "yasp.ai",
+      "domain": "yasp.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 311995801,
+      "name": "Biotactics",
+      "domain": "swarm-biotactics.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 302925387,
+      "name": "octonomy",
+      "domain": "octonomy.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 297318540,
+      "name": "Ordio",
+      "domain": "ordio.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763481,
+      "name": "Buena",
+      "domain": "home.ht",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 293727094,
+      "name": "Sunhat",
+      "domain": "getsunhat.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289772457,
+      "name": "QuantPi",
+      "domain": "quantpi.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771016,
+      "name": "freshflowai",
+      "domain": "freshflow.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 263464238,
+      "name": "35up",
+      "domain": "35up.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 287043659,
+      "name": "Marta",
+      "domain": "marta.de",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289769182,
+      "name": "how.fm",
+      "domain": "how.fm",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289763860,
+      "name": "Rencore",
+      "domain": "rencore.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770282,
+      "name": "cleverly.de",
+      "domain": "cleverly.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768445,
+      "name": "OCELL",
+      "domain": "ocell.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289768353,
+      "name": "Lumiform",
+      "domain": "lumiformapp.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770313,
+      "name": "reverse.supply",
+      "domain": "reverse.supply",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768076,
+      "name": "HiPeople",
+      "domain": "hipeople.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 123929077,
+      "name": "Innoactive",
+      "domain": "innoactive.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769886,
+      "name": "Cofenster",
+      "domain": "cofenster.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768332,
+      "name": "everstox",
+      "domain": "everstox.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765341,
+      "name": "Workpath",
+      "domain": "workpath.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765716,
+      "name": "Circula",
+      "domain": "circula.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769092,
+      "name": "Onedot",
+      "domain": "onedot.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767572,
+      "name": "Embold",
+      "domain": "embold.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767074,
+      "name": "Nomagic",
+      "domain": "nomagic.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 224173521,
+      "name": "Sharpist",
+      "domain": "sharpist.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763279,
+      "name": "Contiamo",
+      "domain": "contiamo.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 152848678,
+      "name": "unu UG",
+      "domain": "unumotors.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 288594832,
+      "name": "Capmo.de",
+      "domain": "capmo.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289762827,
+      "name": "parcelLab",
+      "domain": "parcellab.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765974,
+      "name": "aifora",
+      "domain": "aifora.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766039,
+      "name": "Statice",
+      "domain": "statice.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765401,
+      "name": "FATMAP",
+      "domain": "fatmap.com",
+      "funnel": "Reach Out Now"
+    },
+    {
+      "id": 220204554,
+      "name": "Getsafe",
+      "domain": "hellogetsafe.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762347,
+      "name": "Userlane",
+      "domain": "userlane.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764782,
+      "name": "Wundertax",
+      "domain": "wundertax.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763292,
+      "name": "The ADEX",
+      "domain": "theadex.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 299897276,
+      "name": "Agorize",
+      "domain": "agorize.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765183,
+      "name": "CrossEngage",
+      "domain": "crossengage.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769093,
+      "name": "Staffbase",
+      "domain": "staffbase.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762163,
+      "name": "CHRONEXT",
+      "domain": "chronext.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762266,
+      "name": "HappyCar",
+      "domain": "happycar.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765335,
+      "name": "Picanova",
+      "domain": "picanova.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761419,
+      "name": "Zeotap",
+      "domain": "zeotap.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763666,
+      "name": "COBI",
+      "domain": "cobi.bike",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764920,
+      "name": "Tausendkind",
+      "domain": "tausendkind.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 1604294,
+      "name": "iWelcome",
+      "domain": "iwelcome.com",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Christian Siegele",
+      "externalEmail": "christian.siegele@capnamic.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Dorothea Gotthardt",
+      "externalEmail": "dorothea.gotthardt@quantpi.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Alexandra Kurmulis",
+      "externalEmail": "alexandra@capnamic.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Christian Siegele",
+      "externalEmail": "christian.siegele@capnamic.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Sam Brooks",
+      "external": "Christian Siegele",
+      "externalEmail": "christian.siegele@capnamic.com",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Benjamin Kleinschnitz",
+      "externalEmail": "benjamin@capnamic.com",
+      "score": 0.93,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Franz Diekmann",
+      "externalEmail": "franz@capnamic.com",
+      "score": 0.92,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Alexandra Kurmulis",
+      "externalEmail": "alexandra@capnamic.com",
+      "score": 0.91,
+      "linkedin": false
+    },
+    {
+      "internal": "Anna Faulkner",
+      "external": "Jason Grüninger",
+      "externalEmail": "jg@capnamic.com",
+      "score": 0.9,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Thorben Rothe",
+      "externalEmail": "t.rothe@iriscapital.com",
+      "score": 0.9,
+      "linkedin": false
+    }
+  ]
+}

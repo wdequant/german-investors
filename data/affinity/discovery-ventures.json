@@ -1,0 +1,120 @@
+{
+  "slug": "discovery-ventures",
+  "affinity_company_id": 293411511,
+  "affinity_domain": "discovery-ventures.com",
+  "pipeline": [
+    {
+      "id": 311995623,
+      "name": "Warehousing1",
+      "domain": "warehousing1.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308783480,
+      "name": "ARX",
+      "domain": "arx-robotics.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 299504551,
+      "name": "Plato",
+      "domain": "platoapp.ai",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 295217960,
+      "name": "Naro",
+      "domain": "naroiq.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729639,
+      "name": "Due",
+      "domain": "opendue.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772580,
+      "name": "VALVE Space",
+      "domain": "valvespace.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770868,
+      "name": "bunch",
+      "domain": "bunch.capital",
+      "funnel": "Lead"
+    },
+    {
+      "id": 287181440,
+      "name": "Ultimate",
+      "domain": "ultimate.money",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772381,
+      "name": "Baobab",
+      "domain": "baobab.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772560,
+      "name": "Trezy",
+      "domain": "trezy.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770541,
+      "name": "hakuna",
+      "domain": "hellohakuna.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 284532581,
+      "name": "Hakuna",
+      "domain": "en.hellohakuna.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 288811074,
+      "name": "Knowunity",
+      "domain": "knowunity.de",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289767712,
+      "name": "Levity",
+      "domain": "levity.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289765393,
+      "name": "i2x",
+      "domain": "i2x.ai",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Finn Weise",
+      "externalEmail": "finn@discovery-ventures.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Finn Weise",
+      "externalEmail": "finn@discovery-ventures.com",
+      "score": 0.72,
+      "linkedin": false
+    },
+    {
+      "internal": "Anna Faulkner",
+      "external": "Jasper Masemann",
+      "externalEmail": "jasper@cherry.vc",
+      "score": 0.34,
+      "linkedin": false
+    }
+  ]
+}

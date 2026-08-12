@@ -1,0 +1,51 @@
+{
+  "slug": "10x-founders",
+  "affinity_company_id": 268045752,
+  "affinity_domain": "10xfounders.com",
+  "pipeline": [],
+  "relationships": [
+    {
+      "internal": "David Blyghton",
+      "external": "Nico Schoenenberger",
+      "externalEmail": "nico.schoenenberger@10xfounders.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Karim Jalbout",
+      "externalEmail": "kjalbout@googlemail.com",
+      "score": 0.96,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Omar Hedeya",
+      "externalEmail": "omar.hedeya@10xfounders.com",
+      "score": 0.73,
+      "linkedin": false
+    },
+    {
+      "internal": "Rachel Marcinek",
+      "external": "Karim Jalbout",
+      "externalEmail": "kjalbout@googlemail.com",
+      "score": 0.4,
+      "linkedin": false
+    },
+    {
+      "internal": "Efosa Ayanru",
+      "external": "Nico Schoenenberger",
+      "externalEmail": "nico.schoenenberger@10xfounders.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Julian Wachtel",
+      "externalEmail": "julian.wachtel@10xfounders.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "notes": "Pipeline overlap search on list 9387 with investor alias '10x Founders' returned 0 entries (totalCount=0) - no tracked pipeline companies list '10x Founders' as an investor."
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "burda",
+  "affinity_company_id": 118307095,
+  "affinity_domain": "burdaprincipalinvestments.com",
+  "pipeline": [
+    {
+      "id": 312898583,
+      "name": "Revibe",
+      "domain": "revibe.me",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 294581782,
+      "name": "Fleek",
+      "domain": "joinfleek.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293728822,
+      "name": "NeoTaste",
+      "domain": "neotaste.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727973,
+      "name": "Imperia",
+      "domain": "imperiascm.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 288342790,
+      "name": "Aleph Alpha",
+      "domain": "aleph-alpha.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 302925281,
+      "name": "nebenan.de",
+      "domain": "nebenan.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283295330,
+      "name": "arive",
+      "domain": "getarive.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769289,
+      "name": "felmo",
+      "domain": "felmo.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765866,
+      "name": "Oddbox",
+      "domain": "oddbox.co.uk",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762576,
+      "name": "Vinted",
+      "domain": "vinted.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763057,
+      "name": "Bloom & Wild",
+      "domain": "bloomandwild.com",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Thomas Juvin",
+      "externalEmail": "thomas.juvin@burda.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Moro Francesco",
+      "externalEmail": "francesco.moro@burda.com",
+      "score": 0.84,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Otero Alejandra",
+      "externalEmail": "alejandra.oteroarenzana@burda.com",
+      "score": 0.8,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Frank Luisa",
+      "externalEmail": "luisa.frank@burda.com",
+      "score": 0.77,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Düsberg Luisa",
+      "externalEmail": "luisa.duesberg@burda.com",
+      "score": 0.74,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Moro Francesco",
+      "externalEmail": "francesco.moro@burda.com",
+      "score": 0.48,
+      "linkedin": false
+    },
+    {
+      "internal": "Isabel Wright",
+      "external": "Amelia Townsend",
+      "externalEmail": "amelia.townsend@unilever.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Teichmann Christian",
+      "externalEmail": "ckt@burda.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ]
+}
