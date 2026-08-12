@@ -1,0 +1,51 @@
+{
+  "slug": "voima",
+  "affinity_company_id": 221192946,
+  "affinity_domain": "voimaventures.com",
+  "pipeline": [
+    {
+      "id": 313527204,
+      "name": "QuantrolOx",
+      "domain": "quantrolox.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 309752588,
+      "name": "gosta labs",
+      "domain": "gostalabs.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 299470845,
+      "name": "Skyfora",
+      "domain": "skyfora.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 295039877,
+      "name": "Sooma",
+      "domain": "soomamedical.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293727542,
+      "name": "Kuva Space",
+      "domain": "kuvaspace.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289986747,
+      "name": "MVision AI",
+      "domain": "mvision.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289772293,
+      "name": "Hormona - Take control of your hormones",
+      "domain": "hormona.io",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [],
+  "notes": "Ambiguity guard (marked) trivially satisfied: keyword B (7) identical to strict-filter A (7), so every entry passed the exact 'Voima Ventures' investor filter. No relationships in Affinity; dormant check on voimaventures.com returned no last-contact or first-email data (never contacted / no logged interactions)."
+}

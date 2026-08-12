@@ -1,0 +1,29 @@
+{
+  "slug": "ilkka-paananen",
+  "affinity_person_id": 23375612,
+  "pipeline": [
+    {"id": 304114783, "name": "Ovido", "domain": "ovido.eu", "funnel": "Pre-lead"},
+    {"id": 301135234, "name": "nexos.ai", "domain": "nexos.ai", "funnel": "Awaiting Reply"},
+    {"id": 300074846, "name": "Taito.ai", "domain": "taito.ai", "funnel": "Pre-lead"},
+    {"id": 294012528, "name": "Arcane", "domain": "tryarcane.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293729305, "name": "Ontik", "domain": "ontik.io", "funnel": "Awaiting Reply"},
+    {"id": 293727093, "name": "Limbic", "domain": "limbic.ai", "funnel": "Awaiting Reply"},
+    {"id": 293727394, "name": "Isometric", "domain": "isometric.com", "funnel": "Lead"},
+    {"id": 293729531, "name": "Vibe", "domain": "vibe.co", "funnel": "Deprioritised (free for all)"},
+    {"id": 289772737, "name": "Slay", "domain": "slay.cool", "funnel": "Pre-lead"},
+    {"id": 289772709, "name": "getpaid", "domain": "getpaid.io", "funnel": "Lead"},
+    {"id": 288957669, "name": "Droppe", "domain": "droppe.fi", "funnel": "Lead"},
+    {"id": 289772186, "name": "Noice", "domain": "noice.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 284476594, "name": "kevin.", "domain": "kevin.eu", "funnel": "Passed"},
+    {"id": 289767998, "name": "Linear", "domain": "linear.app", "funnel": "Passed"},
+    {"id": 293729542, "name": "Reface", "domain": "reface.ai", "funnel": "Deprioritised (free for all)"},
+    {"id": 289769205, "name": "Dance", "domain": "dance.co", "funnel": "Passed"},
+    {"id": 223157380, "name": "Hopin", "domain": "hopin.to", "funnel": "Passed"}
+  ],
+  "relationships": [
+    {"internal": "Tony Zappala", "score": 0.88, "linkedin": false},
+    {"internal": "David Blyghton", "score": 0.33, "linkedin": false},
+    {"internal": "Irena Goldenberg", "score": 0.33, "linkedin": false},
+    {"internal": "Helena Richardson", "score": 0.32, "linkedin": false}
+  ]
+}

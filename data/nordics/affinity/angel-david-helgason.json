@@ -1,0 +1,28 @@
+{
+  "slug": "david-helgason",
+  "affinity_person_id": 7998386,
+  "pipeline": [
+    {"id": 284216352, "name": "Rocky Road", "domain": "rockyroad.io", "funnel": "Pre-lead"},
+    {"id": 291148559, "name": "Scriptic", "domain": "scriptic.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293727576, "name": "Electric Noir Studios", "domain": "scriptic.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293727394, "name": "Isometric", "domain": "isometric.com", "funnel": "Lead"},
+    {"id": 289772388, "name": "Algorithmiq", "domain": "algorithmiq.fi", "funnel": "Lead"},
+    {"id": 289769862, "name": "Flowrite", "domain": "flowrite.com", "funnel": "Pre-lead"},
+    {"id": 282589361, "name": "Noah", "domain": "noah.com", "funnel": "Awaiting Reply"},
+    {"id": 289765907, "name": "FRVR", "domain": "frvr.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289764616, "name": "Dazzle Rocks", "domain": "dazzle.rocks", "funnel": "Deprioritised (free for all)"},
+    {"id": 293729542, "name": "Reface", "domain": "reface.ai", "funnel": "Deprioritised (free for all)"},
+    {"id": 289766585, "name": "LifeX", "domain": "joinlifex.com", "funnel": "Lead"},
+    {"id": 289766601, "name": "Garden", "domain": "garden.io", "funnel": "Passed"},
+    {"id": 289768566, "name": "Preply", "domain": "preply.com", "funnel": "Passed"},
+    {"id": 289764386, "name": "Resolution Games", "domain": "resolutiongames.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289763240, "name": "Labster", "domain": "labster.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289764341, "name": "Yousician", "domain": "yousician.com", "funnel": "Lead"}
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": ["David Blyghton", "Irena Goldenberg", "Susanne Silver"],
+    "last": "2017-05",
+    "context": "Email 'Re: TechBBQ's annual Investor Dinner' (Copenhagen investor dinner thread; Helgason cc'd)"
+  }
+}

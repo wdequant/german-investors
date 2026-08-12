@@ -1,0 +1,662 @@
+{
+  "slug": "northzone",
+  "affinity_company_id": 1515854,
+  "affinity_domain": "northzone.com",
+  "pipeline": [
+    {
+      "id": 1520501,
+      "name": "Videoplaza",
+      "domain": "videoplaza.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 1567393,
+      "name": "iZettle",
+      "domain": "izettle.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 1748798,
+      "name": "Fuse",
+      "domain": "fusetools.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 2162786,
+      "name": "ChapDrive",
+      "domain": "chapdrive.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 152146073,
+      "name": "Spacemaker AI",
+      "domain": "spacemaker.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 152838233,
+      "name": "Personio",
+      "domain": "personio.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 223157380,
+      "name": "Hopin",
+      "domain": "hopin.to",
+      "funnel": "Passed"
+    },
+    {
+      "id": 265063397,
+      "name": "Wagestream",
+      "domain": "wagestream.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 282136831,
+      "name": "Holidu",
+      "domain": "holidu.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 284767925,
+      "name": "Stockeld Dreamery",
+      "domain": "stockeld.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 285381991,
+      "name": "Kota",
+      "domain": "kota.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289117170,
+      "name": "Solvimon",
+      "domain": "solvimon.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289760041,
+      "name": "Zopa",
+      "domain": "zopa.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760049,
+      "name": "MarketFinance",
+      "domain": "marketfinance.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760156,
+      "name": "Qapital",
+      "domain": "qapital.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760610,
+      "name": "Jukely",
+      "domain": "jukely.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760617,
+      "name": "Seriously",
+      "domain": "bestfiends.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760640,
+      "name": "fuboTV",
+      "domain": "fubo.tv",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760792,
+      "name": "Supponor",
+      "domain": "supponor.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760852,
+      "name": "Safello",
+      "domain": "safello.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761180,
+      "name": "Space Ape",
+      "domain": "spaceapegames.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761207,
+      "name": "Soundtrack Your Brand",
+      "domain": "soundtrackyourbrand.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289761418,
+      "name": "Sourcepoint",
+      "domain": "sourcepoint.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289761699,
+      "name": "CornerJob",
+      "domain": "cornerjob.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761791,
+      "name": "Napatech",
+      "domain": "napatech.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761792,
+      "name": "Zervant",
+      "domain": "zervant.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761978,
+      "name": "Distribusion Technologies",
+      "domain": "distribusion.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762017,
+      "name": "Red Points",
+      "domain": "redpoints.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762180,
+      "name": "Lemoncat",
+      "domain": "ww1.lemoncat.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762460,
+      "name": "Matsmart",
+      "domain": "matsmart.se",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762742,
+      "name": "NA-KD.com",
+      "domain": "na-kd.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762842,
+      "name": "Klarna",
+      "domain": "klarna.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763226,
+      "name": "TrueLayer",
+      "domain": "truelayer.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763240,
+      "name": "Labster",
+      "domain": "labster.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763500,
+      "name": "Fishbrain",
+      "domain": "fishbrain.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763505,
+      "name": "AllUnite",
+      "domain": "allunite.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763630,
+      "name": "Aidence",
+      "domain": "aidence.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764198,
+      "name": "Lesara",
+      "domain": "lesara.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764607,
+      "name": "Klang Games",
+      "domain": "klang-games.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765029,
+      "name": "Anyfin",
+      "domain": "anyfin.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765372,
+      "name": "Katana MRP",
+      "domain": "katanamrp.com",
+      "funnel": "Deal"
+    },
+    {
+      "id": 289766077,
+      "name": "Disperse.io",
+      "domain": "disperse.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766219,
+      "name": "Bunch",
+      "domain": "mini.party",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766257,
+      "name": "Microverse",
+      "domain": "microverse.org",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766258,
+      "name": "TIER Mobility",
+      "domain": "tier.app",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766454,
+      "name": "Nextday Property",
+      "domain": "nested.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766564,
+      "name": "SellersFunding",
+      "domain": "sellersfi.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766612,
+      "name": "Homa Games",
+      "domain": "homagames.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766766,
+      "name": "Medwing",
+      "domain": "medwing.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766893,
+      "name": "Stonly",
+      "domain": "stonly.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767237,
+      "name": "Jow",
+      "domain": "jow.fr",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767533,
+      "name": "Filed",
+      "domain": "filed.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768592,
+      "name": "Forto",
+      "domain": "forto.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768697,
+      "name": "HappyOrNot",
+      "domain": "happy-or-not.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769011,
+      "name": "Magic",
+      "domain": "magic.link",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769024,
+      "name": "Pollen",
+      "domain": "pollen.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769048,
+      "name": "Finom",
+      "domain": "finom.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769145,
+      "name": "Kahoot!",
+      "domain": "kahoot.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769206,
+      "name": "Trustpilot",
+      "domain": "trustpilot.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769234,
+      "name": "Einride",
+      "domain": "einride.tech",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769308,
+      "name": "Depict.ai",
+      "domain": "depict.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769472,
+      "name": "Infogrid",
+      "domain": "infogrid.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769541,
+      "name": "Wallapop",
+      "domain": "wallapop.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769739,
+      "name": "Heygo",
+      "domain": "heygo.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769795,
+      "name": "Soveren",
+      "domain": "soveren.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770103,
+      "name": "groprotocol",
+      "domain": "app.gro.xyz",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770276,
+      "name": "Sqore",
+      "domain": "sqore.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770361,
+      "name": "Fiberplane",
+      "domain": "fiberplane.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770378,
+      "name": "Defacto",
+      "domain": "getdefacto.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770654,
+      "name": "GOALS",
+      "domain": "playgoals.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770671,
+      "name": "Ravio",
+      "domain": "ravio.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770920,
+      "name": "IDoven",
+      "domain": "idoven.ai",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 289771902,
+      "name": "Breakroom",
+      "domain": "breakroom.cc",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772151,
+      "name": "automaited",
+      "domain": "automaited.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 289772431,
+      "name": "Rayon",
+      "domain": "rayon.design",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772669,
+      "name": "Tana",
+      "domain": "tana.inc",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729464,
+      "name": "Quench",
+      "domain": "quench.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 294012526,
+      "name": "Mimo",
+      "domain": "mimohq.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295039840,
+      "name": "Yonder",
+      "domain": "yonder.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 295908693,
+      "name": "Spektr",
+      "domain": "spektr.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 295908814,
+      "name": "Tuza",
+      "domain": "tuza.co.uk",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 297295069,
+      "name": "Tandem Health",
+      "domain": "tandemhealth.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 298262405,
+      "name": "Crossbow Technologies",
+      "domain": "xbow.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 301577762,
+      "name": "logicstar ai",
+      "domain": "logicstar.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 302925417,
+      "name": "Murphy",
+      "domain": "getmurphy.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 307408019,
+      "name": "CuspAI",
+      "domain": "cuspai.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 307435423,
+      "name": "Universal Avenue",
+      "domain": "universalavenue.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 307488841,
+      "name": "Riffusion",
+      "domain": "riff.new",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 308453797,
+      "name": "Iconic AI",
+      "domain": "iconicgames.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308969278,
+      "name": "OpenFX",
+      "domain": "openfx.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 309752650,
+      "name": "duvo.ai",
+      "domain": "duvo.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 310606032,
+      "name": "Brickanta",
+      "domain": "brickanta.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 311186484,
+      "name": "Solve",
+      "domain": "solve.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311186672,
+      "name": "Seamflow",
+      "domain": "seamflow.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312898681,
+      "name": "MicroAGI",
+      "domain": "microagi.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 313469782,
+      "name": "Agon",
+      "domain": "agon.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 313527240,
+      "name": "Yope",
+      "domain": "yope.app",
+      "funnel": "Pre-lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "David Blyghton",
+      "external": "Gareth Jefferies",
+      "externalEmail": "gareth@rtp.vc",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Kilian Pender",
+      "externalEmail": "kilian@birchwaycapital.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Deepka Rana",
+      "externalEmail": "deepka@northzone.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Manavi Mehra",
+      "externalEmail": "manavi@northzone.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Gareth Jefferies",
+      "externalEmail": "jefferies.gareth@gmail.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Maxine Rior",
+      "externalEmail": "maxine@northzone.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Alexander Agureev",
+      "externalEmail": "alex@northzone.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Ronan Shally",
+      "external": "Jackson Heddy",
+      "externalEmail": "jackson@northzone.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Sanjot Malhi",
+      "externalEmail": "sanjot@northzone.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Sam Endacott",
+      "externalEmail": "sam@firstminute.capital",
+      "score": 1.00,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A (exact investor Northzone/Northzone Ventures) totalCount 1 (Infogrid, contained in B); Query B keyword totalCount 99. Union deduped to 97 unique companies (Klarna and Universal Avenue each had two list entries; kept latest createdAt, both same funnel). All entries verified to carry a Northzone-token investor value."
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "ali-omar",
+  "affinity_person_id": null,
+  "pipeline": [
+    {"id": 311924999, "name": "RetailGrid", "domain": "retailgrid.io", "funnel": "Pre-lead"},
+    {"id": 289763517, "name": "Lumoa", "domain": "lumoa.me", "funnel": "Deprioritised (free for all)"},
+    {"id": 289766154, "name": "Meeshkan", "domain": "meeshkan.com", "funnel": "Lead"}
+  ],
+  "relationships": [],
+  "notes": "No matching Affinity person record found. Search 'Ali Omar' returned two reversed-name 'Omar Ali' contacts (omar@incrementumcapital.com, omar.ali@kpmg.co.uk) - neither matches the expected medgroup/caleido email domains, so both rejected as different people. Searches on 'medgroup', 'caleido' and a broad 'Omar' scan also produced no match."
+}

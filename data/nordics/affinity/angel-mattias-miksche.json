@@ -1,0 +1,14 @@
+{
+  "slug": "mattias-miksche",
+  "affinity_person_id": 8976577,
+  "pipeline": [
+    {"id": 293727391, "name": "Fast Travel Games", "domain": "fasttravelgames.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 284461991, "name": "Anotherblock", "domain": "anotherblock.com", "funnel": "Deprioritised (free for all)"}
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": ["Sam Brooks"],
+    "last": "2018-04",
+    "context": "Email 'Re: Final version this week - Deck' with Sam Brooks (HEM fundraise; Miksche cc'd alongside HEM founders)"
+  }
+}

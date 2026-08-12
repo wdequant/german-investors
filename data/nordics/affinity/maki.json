@@ -1,0 +1,186 @@
+{
+  "slug": "maki",
+  "affinity_company_id": 148154680,
+  "affinity_domain": "maki.vc",
+  "pipeline": [
+    {
+      "id": 313527424,
+      "name": "QMill",
+      "domain": "qmill.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 313527161,
+      "name": "Volare",
+      "domain": "volare.fi",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312898547,
+      "name": "Ever",
+      "domain": "evercars.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 308453831,
+      "name": "Sera",
+      "domain": "seraleads.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 307488841,
+      "name": "Riffusion",
+      "domain": "riff.new",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 302925369,
+      "name": "Distance",
+      "domain": "distance.tech",
+      "funnel": "Lead"
+    },
+    {
+      "id": 302234883,
+      "name": "TrackSights",
+      "domain": "tracksights.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 297318406,
+      "name": "CardioSignals",
+      "domain": "cardiosignal.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296915968,
+      "name": "Magic Feedback",
+      "domain": "magicfeedback.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 295039958,
+      "name": "baseimmune",
+      "domain": "baseimmune.co.uk",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293728168,
+      "name": "FinanceKey",
+      "domain": "financekey.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772321,
+      "name": "Quanscient",
+      "domain": "quanscient.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772231,
+      "name": "pixieraycom",
+      "domain": "pixieray.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772048,
+      "name": "Yaak Technologies",
+      "domain": "yaak.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771541,
+      "name": "Disior",
+      "domain": "disior.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289771304,
+      "name": "Rentle",
+      "domain": "rentle.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770454,
+      "name": "Zevoy",
+      "domain": "zevoy.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770380,
+      "name": "Lollipop",
+      "domain": "lollipopai.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768129,
+      "name": "Happeo",
+      "domain": "happeo.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767993,
+      "name": "Calqulate",
+      "domain": "calqulate.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767793,
+      "name": "Mainframe Industries",
+      "domain": "themainframe.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767435,
+      "name": "IQM",
+      "domain": "iqm.tech",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764620,
+      "name": "ultimate.ai",
+      "domain": "ultimate.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763701,
+      "name": "Enfuce",
+      "domain": "enfuce.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 287993298,
+      "name": "Jennis",
+      "domain": "jennis.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 286651299,
+      "name": "CarbonCloud",
+      "domain": "carboncloud.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 280601862,
+      "name": "Ogoship",
+      "domain": "ogoship.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Ella Eskelinen",
+      "externalEmail": "ella@datacrunch.io",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Ella Eskelinen",
+      "externalEmail": "ella@datacrunch.io",
+      "score": 0.86,
+      "linkedin": false
+    }
+  ],
+  "notes": "Ambiguity guard applied: keyword B (36) re-run with investors field; kept 27 entries whose investors clearly name Maki VC/Maki.vc/Maki Ventures. Dropped 9 false positives: Archy Dental, MAKIINA, Blify (investor is 'Maki People'), Makin' 3D, wiiisdom, Maki People (company itself), MAK IT, Kano Computing, MakieLab. Guard added Ever, Sera, Disior ('MAKI Ventures Oy'), CarbonCloud over strict-filter A (23). Note: top relationship contact Ella Eskelinen's primary email is @datacrunch.io (Affinity associates her with the Maki.vc org)."
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "sophia-bendz",
+  "affinity_person_id": 8145932,
+  "pipeline": [
+    {"id": 311995828, "name": "Scape", "domain": "scape.app", "funnel": "Pre-lead"},
+    {"id": 289772070, "name": "Wikifarmer", "domain": "wikifarmer.com", "funnel": "Lead"},
+    {"id": 284799463, "name": "Airly", "domain": "airly.eu", "funnel": "Deprioritised (free for all)"},
+    {"id": 265614407, "name": "Juni", "domain": "juni.co", "funnel": "Deprioritised (free for all)"},
+    {"id": 289766585, "name": "LifeX", "domain": "joinlifex.com", "funnel": "Lead"},
+    {"id": 289763480, "name": "Aiden", "domain": "aiden.ai", "funnel": "Passed"}
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": ["Irena Goldenberg", "Susanne Silver"],
+    "last": "2016-11",
+    "context": "Email 'RE: Stockholm next week?' from Irena Goldenberg (cc Susanne Silver); relationship began via a Jan 2016 intro call with Irena"
+  }
+}

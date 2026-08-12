@@ -1,0 +1,149 @@
+{
+  "slug": "luminar",
+  "affinity_company_id": 141753104,
+  "affinity_domain": "luminarventures.com",
+  "pipeline": [
+    {
+      "id": 313527569,
+      "name": "fikajobs",
+      "domain": "fikajobs.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 313527134,
+      "name": "Workera",
+      "domain": "workera.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 312445015,
+      "name": "Redpine Technology AB",
+      "domain": "redpine.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311600931,
+      "name": "IPercept Technology",
+      "domain": "ipercept.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 311995895,
+      "name": "Berget AI",
+      "domain": "berget.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289768208,
+      "name": "Mindler",
+      "domain": "mindler.se",
+      "funnel": "Passed"
+    },
+    {
+      "id": 304361001,
+      "name": "Opper AI",
+      "domain": "opper.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 284216352,
+      "name": "Rocky Road",
+      "domain": "rockyroad.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729562,
+      "name": "DeckMatch",
+      "domain": "deckmatch.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729267,
+      "name": "Motorica.ai",
+      "domain": "motorica.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293727781,
+      "name": "Open Payments",
+      "domain": "openpayments.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771916,
+      "name": "Teemyco",
+      "domain": "teemyco.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 285233021,
+      "name": "Insurely",
+      "domain": "insurely.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289770498,
+      "name": "Carla",
+      "domain": "carla.se",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770443,
+      "name": "Vibrant Payments",
+      "domain": "vibrant.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764619,
+      "name": "Heja",
+      "domain": "heja.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 221114719,
+      "name": "Omocom",
+      "domain": "omocom.se",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767296,
+      "name": "PerceptiLabs",
+      "domain": "perceptilabs.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767678,
+      "name": "Normative.io",
+      "domain": "normative.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763952,
+      "name": "&frankly",
+      "domain": "andfrankly.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 284390220,
+      "name": "Insurello",
+      "domain": "insurello.se",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764274,
+      "name": "Albacross",
+      "domain": "albacross.com",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Tyrone Tee",
+      "external": "Eira Tobrand",
+      "externalEmail": "eira.tobrand@luminarventures.com",
+      "score": 0.99,
+      "linkedin": false
+    }
+  ],
+  "notes": "Union of A (20) and B (22); B added Workera and Normative.io. Org record is the Swedish seed fund luminarventures.com, not lidar company Luminar Technologies."
+}

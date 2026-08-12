@@ -1,0 +1,63 @@
+{
+  "slug": "gorilla",
+  "affinity_company_id": 263634985,
+  "affinity_domain": "gorillacapital.fi",
+  "pipeline": [
+    {
+      "id": 298262490,
+      "name": "Clevenio.com",
+      "domain": "clevenio.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 295908597,
+      "name": "Teamspective",
+      "domain": "teamspective.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771811,
+      "name": "Xiphera",
+      "domain": "xiphera.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771799,
+      "name": "Screenful",
+      "domain": "screenful.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729308,
+      "name": "Upsy Shopping Helper",
+      "domain": "upsyshopping.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764591,
+      "name": "Serviceform",
+      "domain": "serviceform.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767989,
+      "name": "Montonio Finance",
+      "domain": "montonio.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766566,
+      "name": "Jungle AI",
+      "domain": "jungle.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 220926489,
+      "name": "Talbit",
+      "domain": "talbit.fi",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [],
+  "notes": "Query A and Query B returned identical sets (9). No relationships in Affinity; dormant check on gorillacapital.fi returned no last-contact or first-email data (never contacted / no logged interactions)."
+}

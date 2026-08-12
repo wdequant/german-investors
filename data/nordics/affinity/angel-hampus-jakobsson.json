@@ -1,0 +1,12 @@
+{
+  "slug": "hampus-jakobsson",
+  "affinity_person_id": 193658730,
+  "pipeline": [
+    {"id": 289766585, "name": "LifeX", "domain": "joinlifex.com", "funnel": "Lead"},
+    {"id": 289765481, "name": "Tame", "domain": "tame.events", "funnel": "Deprioritised (free for all)"}
+  ],
+  "relationships": [
+    {"internal": "Harry Williams", "score": 0.76, "linkedin": false},
+    {"internal": "Helena Richardson", "score": 0.76, "linkedin": false}
+  ]
+}

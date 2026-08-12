@@ -1,0 +1,167 @@
+{
+  "slug": "superhero",
+  "affinity_company_id": 59485092,
+  "affinity_domain": "superherocapital.com",
+  "pipeline": [
+    {
+      "id": 313489355,
+      "name": "sigvi",
+      "domain": "sigvi.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308875358,
+      "name": "Skene",
+      "domain": "skene.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312898513,
+      "name": "Cactos",
+      "domain": "cactos.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 297054073,
+      "name": "Behavix",
+      "domain": "behavix.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 308453773,
+      "name": "MX Labs",
+      "domain": "shen.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 297748785,
+      "name": "Speakly",
+      "domain": "speakly.me",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 296915843,
+      "name": "Envelope",
+      "domain": "envelope.vision",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 312130032,
+      "name": "CyberUpgrade",
+      "domain": "copla.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293729544,
+      "name": "Videobot",
+      "domain": "videobot.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293727966,
+      "name": "Sniffie",
+      "domain": "pricen.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 290516343,
+      "name": "Doublepoint",
+      "domain": "doublepoint.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729314,
+      "name": "Epicbrief",
+      "domain": "epicbrief.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293726850,
+      "name": "MyDello",
+      "domain": "mydello.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289986804,
+      "name": "Hamina Wireless",
+      "domain": "hamina.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 287159593,
+      "name": "mjuk",
+      "domain": "mjukhome.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770094,
+      "name": "Vapaus.io",
+      "domain": "vapaus.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289765985,
+      "name": "ReceiptHero",
+      "domain": "getreceipthero.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769619,
+      "name": "Linear",
+      "domain": "linear.fi",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764608,
+      "name": "Zenniz",
+      "domain": "zenniz.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766654,
+      "name": "Singa",
+      "domain": "singa.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 286528727,
+      "name": "Fractory",
+      "domain": "fractory.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767365,
+      "name": "ZITICITY",
+      "domain": "ziticity.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769484,
+      "name": "Flowplayer",
+      "domain": "flowplayer.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762046,
+      "name": "Leadfeeder",
+      "domain": "leadfeeder.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764547,
+      "name": "Valohai",
+      "domain": "valohai.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Moaffak Ahmed",
+      "externalEmail": "moaffak@gmail.com",
+      "score": 0.35,
+      "linkedin": false
+    }
+  ],
+  "notes": "Ambiguity guard applied (B=25 vs A=1): all 25 keyword-B entries have an investor value explicitly naming 'SuperHero Capital'/'Superhero Capital' - the strict A filter missed the camel-case 'SuperHero Capital' spelling used by enrichment. One relationship row excluded per instructions (internal: Emily Tan)."
+}

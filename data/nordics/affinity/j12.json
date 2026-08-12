@@ -1,0 +1,139 @@
+{
+  "slug": "j12",
+  "affinity_company_id": 204039698,
+  "affinity_domain": "j12ventures.com",
+  "pipeline": [
+    {
+      "id": 311600931,
+      "name": "IPercept Technology",
+      "domain": "ipercept.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 311519792,
+      "name": "Galdera Labs",
+      "domain": "galderalabs.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312445075,
+      "name": "BrandBucket Inc",
+      "domain": "kovant.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 300254328,
+      "name": "Spaak Technologies",
+      "domain": "spaak.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296510007,
+      "name": "ayora - empowering lawyers as revenue managers",
+      "domain": "ayora.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728191,
+      "name": "Tendium",
+      "domain": "tendium.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 291936334,
+      "name": "Rely.io",
+      "domain": "rely.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289986747,
+      "name": "MVision AI",
+      "domain": "mvision.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289772110,
+      "name": "Ostrom",
+      "domain": "ostrom.de",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289772726,
+      "name": "dema.ai",
+      "domain": "dema.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772184,
+      "name": "Buddywise",
+      "domain": "buddywise.co",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771821,
+      "name": "Jeff",
+      "domain": "jeff-app.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772115,
+      "name": "Treyd",
+      "domain": "treyd.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 302054629,
+      "name": "Lassie",
+      "domain": "teamlassie.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 284461991,
+      "name": "Anotherblock",
+      "domain": "anotherblock.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283995057,
+      "name": "VALIDIO",
+      "domain": "validio.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765422,
+      "name": "Airmee",
+      "domain": "airmee.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763918,
+      "name": "Camphouse",
+      "domain": "mediatool.com",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Helena Richardson",
+      "external": "Caroline Hultman",
+      "externalEmail": "caroline@j12ventures.com",
+      "score": 0.95,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Maja Shapiro",
+      "externalEmail": "maja@j12ventures.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "Tyrone Tee",
+      "external": "Maja Shapiro",
+      "externalEmail": "maja@j12ventures.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A and Query B returned identical sets (18)."
+}

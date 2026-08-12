@@ -1,0 +1,14 @@
+{
+  "slug": "sebastian-knutsson",
+  "affinity_person_id": 235962492,
+  "pipeline": [
+    {"id": 313527569, "name": "fikajobs", "domain": "fikajobs.ai", "funnel": "Pre-lead"},
+    {"id": 311995828, "name": "Scape", "domain": "scape.app", "funnel": "Pre-lead"},
+    {"id": 284461991, "name": "Anotherblock", "domain": "anotherblock.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289769863, "name": "Contact", "domain": "contact.xyz", "funnel": "Lead"},
+    {"id": 289766223, "name": "Voi Technology", "domain": "voi.com", "funnel": "Passed"},
+    {"id": 263771069, "name": "Simple Feast", "domain": "simplefeast.com", "funnel": "Deprioritised (free for all)"}
+  ],
+  "relationships": [],
+  "notes": "Person record exists (zebkei@gmail.com) but has zero interaction history - no emails, events or chats with Highland, so no dormant relationship either."
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "skyfall",
+  "affinity_company_id": 290578543,
+  "affinity_domain": "skyfall.vc",
+  "pipeline": [
+    {
+      "id": 313527148,
+      "name": "Orca",
+      "domain": "getorca.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 312444969,
+      "name": "Hive Autonomy",
+      "domain": "hiveautonomy.no",
+      "funnel": "Lead"
+    },
+    {
+      "id": 311390343,
+      "name": "Stendr",
+      "domain": "stendr.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 307488841,
+      "name": "Riffusion",
+      "domain": "riff.new",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 300446976,
+      "name": "Sonair.com",
+      "domain": "sonair.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 300074836,
+      "name": "SportAI",
+      "domain": "sportai.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729562,
+      "name": "DeckMatch",
+      "domain": "deckmatch.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296915928,
+      "name": "Cardboard",
+      "domain": "cardboard.inc",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293727797,
+      "name": "Preppio - Science-Driven Onboarding",
+      "domain": "preppio.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289157069,
+      "name": "Enode",
+      "domain": "enode.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 288482499,
+      "name": "Sloyd",
+      "domain": "sloyd.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771188,
+      "name": "Kosli",
+      "domain": "kosli.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770737,
+      "name": "Optio Incentives",
+      "domain": "optioincentives.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 289772414,
+      "name": "Presail",
+      "domain": "presail.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770427,
+      "name": "GamerPay",
+      "domain": "gamerpay.gg",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767104,
+      "name": "Vev",
+      "domain": "vev.design",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Harry Williams",
+      "external": "Cecilie Skjong",
+      "externalEmail": "cecilie@skyfall.vc",
+      "score": 0.7,
+      "linkedin": false
+    }
+  ],
+  "notes": "Ambiguity guard applied (marked): all 16 keyword-B entries have investor values naming 'Skyfall'/'Skyfall Ventures'; guard added Hive Autonomy, Stendr, Sonair, Optio Incentives, GamerPay over strict-filter A (11). Affinity org record is skyfall.vc (domains include skyfallventures.no) - the Norwegian fund; expected skyfallventures.com not present in CRM."
+}

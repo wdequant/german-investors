@@ -1,0 +1,17 @@
+{
+  "slug": "risto-siilasmaa",
+  "affinity_person_id": 63867026,
+  "pipeline": [
+    {"id": 293727581, "name": "Inven", "domain": "inven.ai", "funnel": "Lead"},
+    {"id": 289772022, "name": "The Upright Project", "domain": "uprightproject.com", "funnel": "Qualified Lead"},
+    {"id": 289766154, "name": "Meeshkan", "domain": "meeshkan.com", "funnel": "Lead"},
+    {"id": 289764481, "name": "Aiven", "domain": "aiven.io", "funnel": "Passed"}
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": ["Irena Goldenberg"],
+    "last": "2020-12",
+    "context": "Email 'Re: Redlane - Executed Majority SHA and Minority SHA' (Wolt/Redlane Series G legal thread; Siilasmaa and Irena Goldenberg among ~80 recipients)"
+  },
+  "notes": "Only Highland exposure is as a co-recipient on large Wolt/Redlane deal-doc threads (Dec 2020), not a direct relationship."
+}

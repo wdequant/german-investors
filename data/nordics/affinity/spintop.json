@@ -1,0 +1,101 @@
+{
+  "slug": "spintop",
+  "affinity_company_id": 1627746,
+  "affinity_domain": "spintopventures.com",
+  "pipeline": [
+    {
+      "id": 305791368,
+      "name": "Hubert",
+      "domain": "hubert.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 296915951,
+      "name": "Viss.AI",
+      "domain": "viss.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293727903,
+      "name": "Once Upon Publishing AB",
+      "domain": "onceupon.photo",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293728030,
+      "name": "EmbeDL",
+      "domain": "embedl.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289772124,
+      "name": "Scrintal",
+      "domain": "scrintal.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772254,
+      "name": "Adway AI",
+      "domain": "adway.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770892,
+      "name": "PinMeTo",
+      "domain": "pinmeto.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769404,
+      "name": "Alexis",
+      "domain": "alexishr.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769958,
+      "name": "Nomono AS",
+      "domain": "nomono.co",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766891,
+      "name": "IPRally",
+      "domain": "iprally.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769486,
+      "name": "Cambri",
+      "domain": "cambri.io",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 268142232,
+      "name": "Worldfavor",
+      "domain": "worldfavor.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764616,
+      "name": "Dazzle Rocks",
+      "domain": "dazzle.rocks",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764401,
+      "name": "Crosser",
+      "domain": "crosser.io",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Tyrone Tee",
+      "external": "Moa Kronborg",
+      "externalEmail": "moa.kronborg@spintopventures.com",
+      "score": 0.98,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A and Query B returned identical sets (14)."
+}

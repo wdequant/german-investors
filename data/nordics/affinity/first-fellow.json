@@ -1,0 +1,77 @@
+{
+  "slug": "first-fellow",
+  "affinity_company_id": 100246149,
+  "affinity_domain": "firstfellow.com",
+  "pipeline": [
+    {
+      "id": 312445098,
+      "name": "CRACI Corporation Oy",
+      "domain": "craci.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311601208,
+      "name": "Endform",
+      "domain": "endform.dev",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728168,
+      "name": "FinanceKey",
+      "domain": "financekey.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772321,
+      "name": "Quanscient",
+      "domain": "quanscient.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772048,
+      "name": "Yaak Technologies",
+      "domain": "yaak.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772022,
+      "name": "The Upright Project",
+      "domain": "uprightproject.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289772231,
+      "name": "pixieraycom",
+      "domain": "pixieray.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 304266030,
+      "name": "ePassi",
+      "domain": "epassi.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765999,
+      "name": "aito.ai",
+      "domain": "aito.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766154,
+      "name": "Meeshkan",
+      "domain": "meeshkan.com",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Harry Williams",
+      "external": "Kim Groop",
+      "externalEmail": "kim.groop@firstfellow.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "notes": "Union of A (8) and B (10); B added CRACI Corporation Oy and Quanscient (investor value 'Maki.vc And First Fellow')."
+}
