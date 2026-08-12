@@ -401,7 +401,7 @@ input[type=search]{width:200px}
 .plist{display:flex;flex-direction:column;gap:4px}
 .plist a{color:var(--accent-ink);text-decoration:none}
 .plist a:hover{text-decoration:underline}
-.plist .st{display:inline-block;min-width:104px;font-size:11px;color:var(--muted)}
+.plist .st{display:inline-block;min-width:120px;margin-right:8px;font-size:11px;color:var(--muted)}
 .tmcols{display:flex;gap:26px;flex-wrap:wrap}
 .tmcols .tm{min-width:190px}
 .tmcols h6{font-size:12.5px;color:var(--accent-ink);margin-bottom:4px}
@@ -537,7 +537,7 @@ function detailHTML(e){
     for(const [k,label] of [...BUCKETS,["portfolio","Portfolio company"],["closed","Passed / deprioritised"]]){
       const list = e.buckets[k]; if(!list||!list.length) continue;
       h += `<h5 id="sec-${e.slug}-${k}">${label} (${list.length})</h5><div class="plist">`+
-        list.map(p=>`<span><span class="st">${p.funnel||'—'}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span style="color:var(--muted)">${p.domain||''}</span></span>`).join('')+`</div>`;
+        list.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span style="color:var(--muted)">${p.domain||''}</span></span>`).join('')+`</div>`;
     }
   } else { h += `<h5>Pipeline overlap</h5><div class="meta-line">None of their portfolio is in our pipeline list.</div>`; }
   if(e.cells){
