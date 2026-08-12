@@ -1,0 +1,112 @@
+{
+  "slug": "psv",
+  "affinity_company_id": 121553662,
+  "affinity_domain": "preseedventures.dk",
+  "pipeline": [
+    {
+      "id": 295040031,
+      "name": "Serverpod",
+      "domain": "serverpod.dev",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728350,
+      "name": "Cogo",
+      "domain": "cogoapp.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 295908693,
+      "name": "Spektr",
+      "domain": "spektr.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 292808825,
+      "name": "Marts",
+      "domain": "marts.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727910,
+      "name": "Woba",
+      "domain": "woba.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772048,
+      "name": "Yaak Technologies",
+      "domain": "yaak.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771136,
+      "name": "Heyhack",
+      "domain": "auth.heyhack.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764842,
+      "name": "Motosumo",
+      "domain": "motosumo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767945,
+      "name": "Oveo",
+      "domain": "viio.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289766163,
+      "name": "Abzu",
+      "domain": "abzu.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770427,
+      "name": "GamerPay",
+      "domain": "gamerpay.gg",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768590,
+      "name": "Modl.ai",
+      "domain": "modl.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 313527417,
+      "name": "HelloFlow",
+      "domain": "helloflow.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767418,
+      "name": "Proper",
+      "domain": "helloproper.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765984,
+      "name": "Dreamdata",
+      "domain": "dreamdata.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766586,
+      "name": "Good Monday",
+      "domain": "goodmonday.io",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": [
+      "Gajan Rajanathan"
+    ],
+    "last": "2020-02",
+    "context": "RE: PHONE CALL: Anders Kjaer (PreSeed) / Gajan Rajanathan (Highland Europe)"
+  },
+  "notes": "Query A totalCount 15; Query B keyword totalCount 16. Union = 16 (B adds Serverpod via combined-string investor value Greens Ventures And Preseed Ventures). Spektr also lists Psv Tech as investor. No current relationships; last contact Feb 2020 with Anders Kjaer (ak@preseedventures.dk)."
+}

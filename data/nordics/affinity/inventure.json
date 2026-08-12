@@ -1,0 +1,338 @@
+{
+  "slug": "inventure",
+  "affinity_company_id": 1533906,
+  "affinity_domain": "inventure.vc",
+  "pipeline": [
+    {
+      "id": 312898422,
+      "name": "Biomatter",
+      "domain": "biomatter.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 302234663,
+      "name": "Encube Technologies",
+      "domain": "getencube.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 296509806,
+      "name": "Samphire Neuroscience",
+      "domain": "samphireneuro.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296915952,
+      "name": "Leya AI",
+      "domain": "leyaai.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 300074819,
+      "name": "Reveel",
+      "domain": "reveel.guide",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729312,
+      "name": "Capalo AI",
+      "domain": "capaloai.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293728611,
+      "name": "My Site",
+      "domain": "starcart.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729162,
+      "name": "UltiHash",
+      "domain": "ultihash.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293728209,
+      "name": "ReOrbit",
+      "domain": "reorbit.space",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729205,
+      "name": "Value.Space",
+      "domain": "value.space",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 295908710,
+      "name": "toddle",
+      "domain": "toddle.dev",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771539,
+      "name": "Yogaia",
+      "domain": "yogaia.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289986776,
+      "name": "Zefram",
+      "domain": "zefram.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771977,
+      "name": "Finch 3D",
+      "domain": "finch3d.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772709,
+      "name": "getpaid",
+      "domain": "getpaid.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772388,
+      "name": "Algorithmiq",
+      "domain": "algorithmiq.fi",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770885,
+      "name": "UpCloud",
+      "domain": "upcloud.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289771477,
+      "name": "Commsignia",
+      "domain": "commsignia.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 287159762,
+      "name": "Solsten",
+      "domain": "solsten.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 285641974,
+      "name": "ONEiO",
+      "domain": "oneio.cloud",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 292763550,
+      "name": "Yeply",
+      "domain": "yeply.fi",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770198,
+      "name": "ANYDAY",
+      "domain": "anyday.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766163,
+      "name": "Abzu",
+      "domain": "abzu.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768604,
+      "name": "Platypus",
+      "domain": "platypus.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 214001190,
+      "name": "Zaver",
+      "domain": "zaver.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 221114719,
+      "name": "Omocom",
+      "domain": "omocom.se",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765494,
+      "name": "Nordigen",
+      "domain": "ww1.nordigen.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767364,
+      "name": "Material Exchange",
+      "domain": "material-exchange.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766993,
+      "name": "DrugStars",
+      "domain": "drugstars.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767966,
+      "name": "Howspace",
+      "domain": "howspace.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763778,
+      "name": "Whatagraph",
+      "domain": "whatagraph.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764305,
+      "name": "Klevu",
+      "domain": "klevu.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766015,
+      "name": "Stravito",
+      "domain": "stravito.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 287276962,
+      "name": "Hopsworks",
+      "domain": "logicalclocks.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 220387964,
+      "name": "Code Scene",
+      "domain": "codescene.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 284390220,
+      "name": "Insurello",
+      "domain": "insurello.se",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 152837077,
+      "name": "AImotive",
+      "domain": "adasworks.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760422,
+      "name": "Wirepas",
+      "domain": "wirepas.com",
+      "funnel": "Portfolio Company"
+    },
+    {
+      "id": 289764593,
+      "name": "Detectify",
+      "domain": "detectify.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 112951102,
+      "name": "Noona Healthcare",
+      "domain": "noona.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763759,
+      "name": "Scoro",
+      "domain": "scoro.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761467,
+      "name": "Umbra",
+      "domain": "umbra3d.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762424,
+      "name": "Miradore",
+      "domain": "miradore.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760746,
+      "name": "Jobbatical",
+      "domain": "jobbatical.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768439,
+      "name": "Lingvist",
+      "domain": "lingvist.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761033,
+      "name": "ThingLink",
+      "domain": "thinglink.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760481,
+      "name": "Freespee",
+      "domain": "freespee.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761495,
+      "name": "Now Interact",
+      "domain": "nowinteract.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289768591,
+      "name": "Thirdpresence",
+      "domain": "thirdpresence.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767302,
+      "name": "Eliademy",
+      "domain": "eliademy.com",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Helena Richardson",
+      "external": "Tatiana Shalalvand",
+      "externalEmail": "tatiana.shalalvand@kinnevik.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Linus Dahg",
+      "externalEmail": "linus@inventure.vc",
+      "score": 0.94,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Magda Lukaszewicz",
+      "externalEmail": "magda@balderton.com",
+      "score": 0.67,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Kevin Lösch",
+      "externalEmail": "kevin@inventure.vc",
+      "score": 0.53,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A totalCount 44; Query B keyword totalCount 62. Of the 18 keyword-only extras, 6 genuine Inventure (Nordic fund) variants kept (Samphire Neuroscience, Reveel, ReOrbit, Algorithmiq, Zaver, Jobbatical - values Inventure VC / inventure / Inventure Vc); 12 dropped as other funds: Inventures Collective (Edgeless Systems, CitizenLab, OncoDNA, Cognigy, APROPLAN), InVenture/Inventure Partners (refurbed, MILES, CHRONEXT, Ometria), InVentures/INventures/Inventures (Monite, edrone, VirtuOz). Union = 50."
+}

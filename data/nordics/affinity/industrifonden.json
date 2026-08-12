@@ -1,0 +1,263 @@
+{
+  "slug": "industrifonden",
+  "affinity_company_id": 1526137,
+  "affinity_domain": "industrifonden.com",
+  "pipeline": [
+    {
+      "id": 313527564,
+      "name": "Echandia",
+      "domain": "echandia.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 313527295,
+      "name": "Pixelgen Technologies",
+      "domain": "pixelgen.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 295908253,
+      "name": "Limina Financial Systems",
+      "domain": "limina.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 294581861,
+      "name": "Vesiro",
+      "domain": "vesiro.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729294,
+      "name": "Fibbl",
+      "domain": "fibbl.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727391,
+      "name": "Fast Travel Games",
+      "domain": "fasttravelgames.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727344,
+      "name": "Telness Technologies",
+      "domain": "telnesstech.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727315,
+      "name": "Apica",
+      "domain": "apica.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 1546897,
+      "name": "Apica",
+      "domain": "apicasystem.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 293727781,
+      "name": "Open Payments",
+      "domain": "openpayments.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772279,
+      "name": "AlixLabs",
+      "domain": "alixlabs.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772076,
+      "name": "Viking Analytics AB",
+      "domain": "vikinganalytics.se",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289766975,
+      "name": "EnginZyme",
+      "domain": "enginzyme.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769032,
+      "name": "Occtoo",
+      "domain": "occtoo.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770248,
+      "name": "digip.protects",
+      "domain": "digip.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289766239,
+      "name": "NuvoAir",
+      "domain": "nuvoair.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766120,
+      "name": "Ingrid Cloud",
+      "domain": "ingridcloud.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289761796,
+      "name": "DbVis Software",
+      "domain": "dbvis.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764442,
+      "name": "TrusTrace",
+      "domain": "trustrace.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766635,
+      "name": "Combinostics",
+      "domain": "combinostics.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289763753,
+      "name": "Nextory",
+      "domain": "nextory.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 287276962,
+      "name": "Hopsworks",
+      "domain": "logicalclocks.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764401,
+      "name": "Crosser",
+      "domain": "crosser.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760255,
+      "name": "Soundtrap",
+      "domain": "soundtrap.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 152837059,
+      "name": "AdFenix",
+      "domain": "adfenix.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760156,
+      "name": "Qapital",
+      "domain": "qapital.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763493,
+      "name": "DPOrganizer",
+      "domain": "dporganizer.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763539,
+      "name": "Barnebys",
+      "domain": "barnebys.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761207,
+      "name": "Soundtrack Your Brand",
+      "domain": "soundtrackyourbrand.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289763773,
+      "name": "Funnel",
+      "domain": "funnel.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289759949,
+      "name": "inRiver",
+      "domain": "inriver.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763500,
+      "name": "Fishbrain",
+      "domain": "fishbrain.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769638,
+      "name": "Anyfi Networks",
+      "domain": "anyfinetworks.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 163297439,
+      "name": "Apica",
+      "domain": "apicasystems.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760808,
+      "name": "eBuilder",
+      "domain": "ebuilder.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761495,
+      "name": "Now Interact",
+      "domain": "nowinteract.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764352,
+      "name": "TrialBee",
+      "domain": "trialbee.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764219,
+      "name": "Zaplox AB (publ)",
+      "domain": "zaplox.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 221745970,
+      "name": "Meniga",
+      "domain": "meniga.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764910,
+      "name": "Foap AB",
+      "domain": "foap.com",
+      "funnel": null
+    },
+    {
+      "id": 289763246,
+      "name": "Keybroker",
+      "domain": "keybroker.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Harry Williams",
+      "external": "Caroline Wadstein",
+      "externalEmail": "caroline.wadstein@industrifonden.com",
+      "score": 0.74,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A totalCount 41; Query B keyword totalCount 41 (identical sets). 41 unique companies; Foap AB has a null funnel value. A second Industrifonden org exists in Affinity (id 291831679, industrifonden.se); primary industrifonden.com org used."
+}

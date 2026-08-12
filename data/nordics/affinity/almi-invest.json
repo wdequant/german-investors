@@ -1,34 +1,136 @@
 {
-  "slug": "almi-invest",
-  "affinity_company_id": 263510079,
-  "affinity_domain": "almi.se",
-  "pipeline": [
-    {"id": 313527352, "name": "NFA Forestry Automation", "domain": "nordicforestryautomation.com", "funnel": "Pre-lead"},
-    {"id": 311995783, "name": "Digiclean Solutions", "domain": "digicleansolutions.com", "funnel": "Pre-lead"},
-    {"id": 311186691, "name": "Fintower", "domain": "fintower.ai", "funnel": "Pre-lead"},
-    {"id": 305791387, "name": "Flox", "domain": "floxrobotics.com", "funnel": "Pre-lead"},
-    {"id": 296509853, "name": "RemotiveLabs", "domain": "remotivelabs.com", "funnel": "Pre-lead"},
-    {"id": 295908253, "name": "Limina Financial Systems", "domain": "limina.com", "funnel": "Passed"},
-    {"id": 1546897, "name": "Apica", "domain": "apicasystem.com", "funnel": "Passed"},
-    {"id": 293727302, "name": "Bower", "domain": "getbower.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293728104, "name": "CorPower Ocean", "domain": "corpowerocean.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772279, "name": "AlixLabs", "domain": "alixlabs.com", "funnel": "Pre-lead"},
-    {"id": 289771559, "name": "46elks", "domain": "46elks.com", "funnel": "Passed"},
-    {"id": 289770892, "name": "PinMeTo", "domain": "pinmeto.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772427, "name": "Circulate", "domain": "circulatepackaging.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766975, "name": "EnginZyme", "domain": "enginzyme.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770597, "name": "Vividye AB", "domain": "vividye.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766307, "name": "Debricked", "domain": "debricked.com", "funnel": "Passed"},
-    {"id": 289766559, "name": "Ekkono Solutions", "domain": "ekkono.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 289764401, "name": "Crosser", "domain": "crosser.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289763500, "name": "Fishbrain", "domain": "fishbrain.com", "funnel": "Passed"},
-    {"id": 289768063, "name": "Virtusize", "domain": "virtusize.com", "funnel": "Passed"}
-  ],
-  "relationships": [],
-  "dormant": {
-    "internal": ["harry@highlandeurope.com"],
-    "last": "2022-01",
-    "context": "Harry Williams emailed Egil Edvardsen (egil.edvardsen@almiinvest.se) re 'Alma <> Highland Europe'; thread ran Nov 2021 to Jan 2022, nothing since."
+ "slug": "almi-invest",
+ "affinity_company_id": 263510079,
+ "affinity_domain": "almi.se",
+ "pipeline": [
+  {
+   "id": 313527352,
+   "name": "NFA Forestry Automation",
+   "domain": "nordicforestryautomation.com",
+   "funnel": "Pre-lead"
   },
-  "notes": "Per-row rule applied: kept only entries with an investor value containing 'almi invest' (incl. 'Almi Invest Greentech') — all 20 keyword matches qualified. Affinity org 263510079 'Almi Företagspartner' (almi.se + almiinvest.se) used; a separate sparse 'Almi Invest' record (alminvest.com, id 291891604) exists with no relationships."
+  {
+   "id": 311995783,
+   "name": "Digiclean Solutions",
+   "domain": "digicleansolutions.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 311186691,
+   "name": "Fintower",
+   "domain": "fintower.ai",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 305791387,
+   "name": "Flox",
+   "domain": "floxrobotics.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 296509853,
+   "name": "RemotiveLabs",
+   "domain": "remotivelabs.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 295908253,
+   "name": "Limina Financial Systems",
+   "domain": "limina.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 1546897,
+   "name": "Apica",
+   "domain": "apicasystem.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 293727302,
+   "name": "Bower",
+   "domain": "getbower.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 293728104,
+   "name": "CorPower Ocean",
+   "domain": "corpowerocean.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289772279,
+   "name": "AlixLabs",
+   "domain": "alixlabs.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 289771559,
+   "name": "46elks",
+   "domain": "46elks.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289770892,
+   "name": "PinMeTo",
+   "domain": "pinmeto.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289772427,
+   "name": "Circulate",
+   "domain": "circulatepackaging.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766975,
+   "name": "EnginZyme",
+   "domain": "enginzyme.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289770597,
+   "name": "Vividye AB",
+   "domain": "vividye.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766307,
+   "name": "Debricked",
+   "domain": "debricked.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289766559,
+   "name": "Ekkono Solutions",
+   "domain": "ekkono.ai",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289764401,
+   "name": "Crosser",
+   "domain": "crosser.io",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289763500,
+   "name": "Fishbrain",
+   "domain": "fishbrain.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289768063,
+   "name": "Virtusize",
+   "domain": "virtusize.com",
+   "funnel": "Passed"
+  }
+ ],
+ "relationships": [],
+ "dormant": {
+  "internal": [
+   "Harry Williams"
+  ],
+  "last": "2022-01",
+  "context": "Harry Williams emailed Egil Edvardsen (egil.edvardsen@almiinvest.se) re 'Alma <> Highland Europe'; thread ran Nov 2021 to Jan 2022, nothing since."
+ },
+ "notes": "Per-row rule applied: kept only entries with an investor value containing 'almi invest' (incl. 'Almi Invest Greentech') — all 20 keyword matches qualified. Affinity org 263510079 'Almi Företagspartner' (almi.se + almiinvest.se) used; a separate sparse 'Almi Invest' record (alminvest.com, id 291891604) exists with no relationships."
 }

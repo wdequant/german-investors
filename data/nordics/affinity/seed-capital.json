@@ -1,0 +1,242 @@
+{
+  "slug": "seed-capital",
+  "affinity_company_id": 1522385,
+  "affinity_domain": "seedcapital.dk",
+  "pipeline": [
+    {
+      "id": 312898585,
+      "name": "Oplane",
+      "domain": "oplane.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311600955,
+      "name": "Moxso",
+      "domain": "moxso.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 311186645,
+      "name": "Complir",
+      "domain": "complir.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 298733552,
+      "name": "Tembi",
+      "domain": "tembi.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295040061,
+      "name": "Landfolk",
+      "domain": "landfolk.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 303608665,
+      "name": "Understory",
+      "domain": "understory.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295039836,
+      "name": "Pluto Markets",
+      "domain": "pluto.markets",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 292545333,
+      "name": "Embla",
+      "domain": "joinembla.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727308,
+      "name": "FLATPAY",
+      "domain": "flatpay.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766833,
+      "name": "Talenthub.io",
+      "domain": "talenthub.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289767422,
+      "name": "SUPERB",
+      "domain": "superbexperience.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767403,
+      "name": "Lift Relations",
+      "domain": "liftrelations.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765356,
+      "name": "ComplyCloud ApS",
+      "domain": "complycloud.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768517,
+      "name": "PerchHQ",
+      "domain": "perchhq.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 308453845,
+      "name": "BotXO",
+      "domain": "botxo.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764296,
+      "name": "OrderYoyo",
+      "domain": "orderyoyo.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764590,
+      "name": "Veo",
+      "domain": "veo.co",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289766993,
+      "name": "DrugStars",
+      "domain": "drugstars.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766586,
+      "name": "Good Monday",
+      "domain": "goodmonday.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 286788047,
+      "name": "Risika",
+      "domain": "risika.dk",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764496,
+      "name": "Airtame",
+      "domain": "airtame.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769537,
+      "name": "Forecast",
+      "domain": "forecast.app",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765893,
+      "name": "Tonsser",
+      "domain": "tonsser.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763571,
+      "name": "Dixa",
+      "domain": "dixa.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761794,
+      "name": "Cardlay",
+      "domain": "cardlay.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762035,
+      "name": "Relink",
+      "domain": "relinklabs.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762694,
+      "name": "Tattoodo",
+      "domain": "tattoodo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761793,
+      "name": "Lunar",
+      "domain": "lunar.app",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768315,
+      "name": "Templafy",
+      "domain": "templafy.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760883,
+      "name": "Coinify",
+      "domain": "coinify.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 1602175,
+      "name": "Firmafon",
+      "domain": "firmafon.dk",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764233,
+      "name": "shipbeat",
+      "domain": "shipbeat.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761485,
+      "name": "Vivino",
+      "domain": "vivino.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769206,
+      "name": "Trustpilot",
+      "domain": "trustpilot.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Harry Williams",
+      "external": "Tine Marie Kjærgaard Lindgreen",
+      "externalEmail": "tli@seedcapital.dk",
+      "score": 0.86,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Peter Egehoved",
+      "externalEmail": "peter.egehoved@dreamdata.io",
+      "score": 0.40,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Peter Egehoved",
+      "externalEmail": "peter.egehoved@dreamdata.io",
+      "score": 0.10,
+      "linkedin": false
+    },
+    {
+      "internal": "Efosa Ayanru",
+      "external": "Peter Egehoved",
+      "externalEmail": "peter.egehoved@dreamdata.io",
+      "score": 0.10,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A totalCount 31; Query B keyword totalCount 38 (below 3x guard threshold, but token filter applied since seed-capital is a flagged generic term). Dropped 4 B-only false positives lacking a contiguous seed-capital token: RobosizeME (Seedtwo Capital), Dathena (SEEDS Capital), Pulpo (SeedRocket 4 Founders Capital), Holded (Seedrocket 4Founders Capital). Kept Complir (Jhj Seed Capital) and PerchHQ (Boston Seed Capital) per the literal token rule though they may be unrelated funds; Forecast (SEED Capital Denmark) is genuine. Union = 34. One relationship row excluded (ex-staff Emily Tan)."
+}
