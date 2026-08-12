@@ -7,7 +7,7 @@
       "id": 307408626,
       "name": "Concirrus",
       "domain": "concirrus.com",
-      "funnel": "Passed"
+      "funnel": "Pre-lead"
     },
     {
       "id": 300074747,
@@ -16,15 +16,33 @@
       "funnel": "Passed"
     },
     {
+      "id": 296915916,
+      "name": "Gradient Labs",
+      "domain": "gradient-labs.ai",
+      "funnel": "Lead"
+    },
+    {
       "id": 293726960,
       "name": "Mosaic Smart Data",
       "domain": "mosaicsmartdata.com",
       "funnel": "Lead"
     },
     {
+      "id": 293727094,
+      "name": "Sunhat",
+      "domain": "getsunhat.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
       "id": 290580512,
       "name": "Deblock",
       "domain": "deblock.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771360,
+      "name": "Artificial Labs",
+      "domain": "artificial.io",
       "funnel": "Lead"
     },
     {
@@ -49,6 +67,12 @@
       "id": 289766758,
       "name": "Afilio",
       "domain": "afilio.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770377,
+      "name": "helu.",
+      "domain": "helu.io",
       "funnel": "Deprioritised (free for all)"
     },
     {
@@ -79,6 +103,12 @@
       "id": 289766643,
       "name": "Curv",
       "domain": "curv.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766283,
+      "name": "Cledara",
+      "domain": "cledara.com",
       "funnel": "Passed"
     },
     {

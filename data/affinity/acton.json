@@ -46,6 +46,12 @@
       "funnel": "Deprioritised (free for all)"
     },
     {
+      "id": 289768118,
+      "name": "Stotles",
+      "domain": "stotles.com",
+      "funnel": "Reach Out Now"
+    },
+    {
       "id": 283967159,
       "name": "Hublo",
       "domain": "hublo.com",
@@ -187,6 +193,12 @@
       "id": 1592461,
       "name": "Fashion For Home",
       "domain": "fashionforhome.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 304286869,
+      "name": "KupiVIP",
+      "domain": "kupivip.ru",
       "funnel": "Passed"
     },
     {

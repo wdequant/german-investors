@@ -2,7 +2,110 @@
   "slug": "10x-founders",
   "affinity_company_id": 268045752,
   "affinity_domain": "10xfounders.com",
-  "pipeline": [],
+  "pipeline": [
+    {
+      "id": 302792086,
+      "name": "Qorelo",
+      "domain": "qorelo.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308969272,
+      "name": "ARLQ",
+      "domain": "arlq.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 302925324,
+      "name": "cylib",
+      "domain": "cylib.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 299470951,
+      "name": "Beyond Presence (YC S24)",
+      "domain": "beyondpresence.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 300074853,
+      "name": "WorkerHero",
+      "domain": "workerhero.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 296915993,
+      "name": "mimic robotics",
+      "domain": "mimicrobotics.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 296915892,
+      "name": "fynk",
+      "domain": "fynk.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 296509768,
+      "name": "Cerrion",
+      "domain": "cerrion.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 295908798,
+      "name": "Nodeshift",
+      "domain": "nodeshift.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293728209,
+      "name": "ReOrbit",
+      "domain": "reorbit.space",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771391,
+      "name": "Raus",
+      "domain": "raus.life",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772343,
+      "name": "Valuecase",
+      "domain": "valuecase.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772592,
+      "name": "Kertos",
+      "domain": "kertos.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764739,
+      "name": "node.energy",
+      "domain": "node.energy",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 279438211,
+      "name": "Fernride",
+      "domain": "fernride.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767706,
+      "name": "simpleclub",
+      "domain": "simpleclub.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768662,
+      "name": "Blobr",
+      "domain": "blobr.io",
+      "funnel": "Pre-lead"
+    }
+  ],
   "relationships": [
     {
       "internal": "David Blyghton",

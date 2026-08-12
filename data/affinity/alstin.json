@@ -1,160 +1,178 @@
 {
- "slug": "alstin",
- "affinity_company_id": 299981974,
- "affinity_domain": "alstin.capital",
- "pipeline": [
-  {
-   "id": 308610695,
-   "name": "VoiceLine",
-   "domain": "voiceline.ai",
-   "funnel": "Awaiting Reply"
-  },
-  {
-   "id": 308453843,
-   "name": "neuraltrust",
-   "domain": "neuraltrust.ai",
-   "funnel": "Lead"
-  },
-  {
-   "id": 298262425,
-   "name": "FLOWIT",
-   "domain": "flowit.ai",
-   "funnel": "Pre-lead"
-  },
-  {
-   "id": 296915917,
-   "name": "Round",
-   "domain": "roundtreasury.com",
-   "funnel": "Pre-lead"
-  },
-  {
-   "id": 294581851,
-   "name": "Timefold",
-   "domain": "timefold.ai",
-   "funnel": "Lead"
-  },
-  {
-   "id": 289772565,
-   "name": "Secfix",
-   "domain": "secfix.com",
-   "funnel": "Pre-lead"
-  },
-  {
-   "id": 289772583,
-   "name": "Bits Technology",
-   "domain": "bits.bi",
-   "funnel": "Pre-lead"
-  },
-  {
-   "id": 289770787,
-   "name": "deskbird",
-   "domain": "deskbird.com",
-   "funnel": "Qualified Lead"
-  },
-  {
-   "id": 286529400,
-   "name": "NOBr",
-   "domain": "norbr.com",
-   "funnel": "Awaiting Reply"
-  },
-  {
-   "id": 313527138,
-   "name": "contentbird",
-   "domain": "contentbird.io",
-   "funnel": "Deprioritised (free for all)"
-  },
-  {
-   "id": 289770233,
-   "name": "Climatiq",
-   "domain": "climatiq.io",
-   "funnel": "Hard to crack"
-  },
-  {
-   "id": 285900007,
-   "name": "retraced",
-   "domain": "retraced.com",
-   "funnel": "Lead"
-  },
-  {
-   "id": 284272881,
-   "name": "Pliant",
-   "domain": "getpliant.com",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289765716,
-   "name": "Circula",
-   "domain": "circula.com",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289763387,
-   "name": "Alyne",
-   "domain": "alyne.com",
-   "funnel": "Deprioritised (free for all)"
-  },
-  {
-   "id": 289765931,
-   "name": "Usercentrics",
-   "domain": "usercentrics.com",
-   "funnel": "Deprioritised (free for all)"
-  },
-  {
-   "id": 289760174,
-   "name": "Blacklane",
-   "domain": "blacklane.com",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289760594,
-   "name": "Stocard",
-   "domain": "stocardapp.com",
-   "funnel": "Lead"
-  }
- ],
- "relationships": [
-  {
-   "internal": "Eoghan Dorman",
-   "external": "Andreas Schenk",
-   "externalEmail": "andreas.schenk@alstin.capital",
-   "score": 0.98,
-   "linkedin": false
-  },
-  {
-   "internal": "Helena Richardson",
-   "external": "Lukas Bennemann",
-   "externalEmail": "lukas@wunderland.capital",
-   "score": 0.97,
-   "linkedin": false
-  },
-  {
-   "internal": "Jacob Bernstein",
-   "external": "Benjamin Kleinschnitz",
-   "externalEmail": "benjamin@capnamic.com",
-   "score": 0.93,
-   "linkedin": false
-  },
-  {
-   "internal": "Eoghan Dorman",
-   "external": "Christina Schmidt",
-   "externalEmail": "christina@yzr.vc",
-   "score": 0.77,
-   "linkedin": false
-  },
-  {
-   "internal": "Ronan Shally",
-   "external": "Lukas Bennemann",
-   "externalEmail": "lukas@wunderland.capital",
-   "score": 0.7,
-   "linkedin": false
-  },
-  {
-   "internal": "Sam Brooks",
-   "external": "Benjamin Kleinschnitz",
-   "externalEmail": "benjamin@capnamic.com",
-   "score": 0.33,
-   "linkedin": false
-  }
- ],
- "notes": "Added manually on request; pipeline/relationships captured from Affinity queries 12 Aug 2026. Some associated contacts have moved on (Kleinschnitz now Alstin per Harmonic; Bennemann at Wunderland)."
+  "slug": "alstin",
+  "affinity_company_id": 299981974,
+  "affinity_domain": "alstin.capital",
+  "pipeline": [
+    {
+      "id": 308610695,
+      "name": "VoiceLine",
+      "domain": "voiceline.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 311186717,
+      "name": "Blockbrain GmbH",
+      "domain": "blockbrain.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 308453843,
+      "name": "neuraltrust",
+      "domain": "neuraltrust.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 298262425,
+      "name": "FLOWIT",
+      "domain": "flowit.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296915917,
+      "name": "Round",
+      "domain": "roundtreasury.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 294581851,
+      "name": "Timefold",
+      "domain": "timefold.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772565,
+      "name": "Secfix",
+      "domain": "secfix.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772583,
+      "name": "Bits Technology",
+      "domain": "bits.bi",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770787,
+      "name": "deskbird",
+      "domain": "deskbird.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 286529400,
+      "name": "NOBr",
+      "domain": "norbr.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 313527138,
+      "name": "contentbird",
+      "domain": "contentbird.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770233,
+      "name": "Climatiq",
+      "domain": "climatiq.io",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 285900007,
+      "name": "retraced",
+      "domain": "retraced.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 284272881,
+      "name": "Pliant",
+      "domain": "getpliant.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 284338975,
+      "name": "Nuri",
+      "domain": "nuri.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765716,
+      "name": "Circula",
+      "domain": "circula.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763387,
+      "name": "Alyne",
+      "domain": "alyne.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765931,
+      "name": "Usercentrics",
+      "domain": "usercentrics.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763682,
+      "name": "Fliit",
+      "domain": "fliit.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760174,
+      "name": "Blacklane",
+      "domain": "blacklane.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760594,
+      "name": "Stocard",
+      "domain": "stocardapp.com",
+      "funnel": "Lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Andreas Schenk",
+      "externalEmail": "andreas.schenk@alstin.capital",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Lukas Bennemann",
+      "externalEmail": "lukas@wunderland.capital",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Benjamin Kleinschnitz",
+      "externalEmail": "benjamin@capnamic.com",
+      "score": 0.93,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Christina Schmidt",
+      "externalEmail": "christina@yzr.vc",
+      "score": 0.77,
+      "linkedin": false
+    },
+    {
+      "internal": "Ronan Shally",
+      "external": "Lukas Bennemann",
+      "externalEmail": "lukas@wunderland.capital",
+      "score": 0.7,
+      "linkedin": false
+    },
+    {
+      "internal": "Sam Brooks",
+      "external": "Benjamin Kleinschnitz",
+      "externalEmail": "benjamin@capnamic.com",
+      "score": 0.33,
+      "linkedin": false
+    }
+  ],
+  "notes": "Added manually on request; pipeline/relationships captured from Affinity queries 12 Aug 2026. Some associated contacts have moved on (Kleinschnitz now Alstin per Harmonic; Bennemann at Wunderland)."
 }
