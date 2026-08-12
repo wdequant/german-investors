@@ -310,7 +310,7 @@ def top_people(e, aff_rels):
         p["contacts"] = p["contacts"][:3]
         p["harmonic"] = round(p["harmonic"], 1)
         p["aff"] = round(p["aff"], 2)
-    return ranked[:4]
+    return ranked  # full list; display layer slices
 
 for e in entities:
     slug = e["slug"]
@@ -356,7 +356,13 @@ import importlib.util as _ilu
 _spec = _ilu.spec_from_file_location("viz3_template", os.path.join(os.path.dirname(os.path.abspath(__file__)), "viz3_template.py"))
 _tpl = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_tpl)
 
-payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team,
+# roster for the personal-view dropdown: investment team + Affinity-only partners
+roster = [m["name"] for m in team]
+for extra in ["Fergal Mullen", "Laurence Garrett", "Ronan Shally"]:
+    if extra not in roster:
+        roster.append(extra)
+
+payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
            "affinityOrg": AFFINITY_ORG, "entities": entities}
 DATA = json.dumps(payload, ensure_ascii=False)
 html = _tpl.TEMPLATE.replace("__DATA__", DATA).replace("__GENERATED__", payload["generated"])

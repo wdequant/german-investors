@@ -27,6 +27,7 @@ body{background:var(--page);color:var(--ink);
 .appbar .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:14px 28px}
 .brand{font-weight:650;font-size:15px;letter-spacing:-.01em;white-space:nowrap}
 .brand small{color:var(--muted);font-weight:500;margin-left:8px;letter-spacing:.1em;text-transform:uppercase;font-size:10px}
+.appbar select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;padding:7px 10px;font-size:13px;max-width:190px}
 .appbar input[type=search]{flex:0 1 260px;margin-left:auto;background:var(--surface);color:var(--ink);
   border:1px solid var(--hair);border-radius:8px;padding:7px 12px;font-size:13px}
 .btn{background:var(--ink);color:var(--page);border:0;border-radius:8px;padding:8px 14px;font-size:12.5px;
@@ -118,6 +119,7 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 
 <div class="appbar"><div class="in">
   <span class="brand">Coverage<small>Germany</small></span>
+  <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
   <input type="search" id="q" placeholder="Filter funds & angels…">
   <button class="btn" id="export" hidden>Export CSV</button>
 </div></div>
@@ -156,7 +158,27 @@ tickets, so treat angel overlap as a floor.</p>
 <script>
 const D = __DATA__;
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
-const state = {sort:"gap", q:""};
+const state = {sort:"gap", q:"", person:""};
+function personSignal(e, name){
+  const p = (e.top_people||[]).find(x=>x.name===name);
+  const dorm = e.dormant && e.dormant.internal.includes(name) ? e.dormant : null;
+  return {aff: p?p.aff:0, h: p?p.harmonic:0, contacts: p?p.contacts:[], dorm};
+}
+function personCov(e, name){
+  const s = personSignal(e, name);
+  let a = s.aff;
+  if(s.dorm){ const age = 2026 - parseInt(s.dorm.last.slice(0,4));
+    a = Math.max(a, age<=1?0.22:age<=3?0.15:age<=6?0.10:0.06); }
+  const hn = Math.min(1, Math.sqrt(s.h)/Math.sqrt(30));
+  return Math.round(100*(0.55*hn + 0.45*a));
+}
+function eff(e){
+  if(!state.person) return {cov:e.connectivity, tier:e.tier, gap:e.gap, sig:null};
+  const cov = personCov(e, state.person);
+  const tier = cov>=50?'strong':cov>=22?'medium':'weak';
+  const gap = Math.round((e.relevance?e.relevance.total:0)*(1-cov/100));
+  return {cov, tier, gap, sig: personSignal(e, state.person)};
+}
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
 const pipeCount = e => BUCKETS.reduce((m,[k])=>m+e.buckets[k].length,0);
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
@@ -172,7 +194,7 @@ function ring(v, tier){
 
 function scoreboard(){
   const f = D.entities.filter(e=>e.kind==='fund');
-  const gaps = f.filter(e=>e.tier==='weak' && e.relevance.total>=60);
+  const gaps = f.filter(e=>eff(e).tier==='weak' && e.relevance.total>=60);
   const live = D.entities.reduce((n,e)=>n+pipeCount(e),0);
   const hard = D.entities.reduce((n,e)=>n+e.buckets.hard.length,0);
   const co = f.filter(e=>e.coinvest.length).length;
@@ -181,15 +203,15 @@ function scoreboard(){
     <div class="s"><b>${co}</b><span>co-invested with</span></div>
     <div class="s"><b>${live}</b><span>live pipeline overlaps</span></div>
     <div class="s warn"><b>${hard}</b><span>hard-to-cracks reachable</span></div>
-    <div class="s crit"><b>${gaps.length}</b><span>relevant funds uncovered</span></div>`;
+    <div class="s crit"><b>${gaps.length}</b><span>${state.person?'uncovered by '+state.person.split(' ')[0]:'relevant funds uncovered'}</span></div>`;
 }
 
 const COLS = [
   {k:"name", label:"Investor", sort:(a,b)=>a.name.localeCompare(b.name)},
-  {k:"connectivity", label:"Coverage", sort:(a,b)=>b.connectivity-a.connectivity},
+  {k:"connectivity", label:"Coverage", sort:(a,b)=>eff(b).cov-eff(a).cov},
   {k:"relevance", label:"Relevance", sort:(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)},
   {k:"pipeline", label:"Pipeline overlap", sort:(a,b)=>pipeCount(b)-pipeCount(a)},
-  {k:"gap", label:"Strongest paths in", sort:(a,b)=>(b.gap||0)-(a.gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
+  {k:"gap", label:"Strongest paths in", sort:(a,b)=>(eff(b).gap||0)-(eff(a).gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
 ];
 function headHTML(){
   return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
@@ -201,6 +223,16 @@ function chipHTML(e){
   }).join('');
 }
 function ptsHTML(e){
+  if(state.person){
+    const s = personSignal(e, state.person);
+    const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
+    if(!s.contacts.length && !dormP) return `<div class="pts"><span style="color:var(--muted)">No personal coverage</span></div>`;
+    return `<div class="pts">`+s.contacts.map(k=>{
+      const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener"><b>${k.person}</b></a>`:`<b>${k.person}</b>`;
+      const extra = k.pct!=null?` <span class="pct">${k.pct}%</span>`:(k.title?` <span class="via">· ${k.title}</span>`:'');
+      return `<span class="pt">${nm}${extra}</span>`;
+    }).join('')+dormP+`</div>`;
+  }
   const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · last touch ${e.dormant.last}</span></span>` : '';
   if(!e.points.length && !dorm) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
   if(!e.points.length) return `<div class="pts">${dorm}</div>`;
@@ -211,6 +243,7 @@ function ptsHTML(e){
   }).join('')+(e.dormant?`<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>`:'')+`</div>`;
 }
 function rowHTML(e){
+  const v = eff(e);
   const rel = e.relevance? e.relevance.total : null;
   const co = e.coinvest.length?`<span class="badge co">✓ co-invested ×${e.coinvest.length}</span>`:'';
   const meta = e.kind==='fund'
@@ -220,8 +253,8 @@ function rowHTML(e){
     ? `<b>${rel}</b><span class="rb"><i style="width:${rel}%"></i></span>`
     : `<span style="color:var(--muted);font-size:12px">${e.num_investments!=null? e.num_investments+' tracked deals':'—'}</span>`;
   return `<tr class="mainrow" data-slug="${e.slug}">
-    <td><div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div><div class="fmeta">${meta}</div></td>
-    <td><div class="covcell">${ring(e.connectivity, e.tier)}<b>${e.connectivity}</b></div></td>
+    <td><div class="fname ${v.tier}"><span class="tdot"></span>${e.name}</div><div class="fmeta">${meta}</div></td>
+    <td><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b></div></td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
@@ -246,7 +279,8 @@ function detailHTML(e){
   if(!any) h += `<h5>Pipeline overlap</h5><div class="meta-line">None of their portfolio is in our pipeline list.</div>`;
   if(e.dormant) h += `<h5>Dormant tie</h5><div class="meta-line">⏱ ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last touch ${e.dormant.last}).</div>`;
   if(e.top_people && e.top_people.length){
-    h += `<h5>Best Highland coverage</h5><div class="tmcols">`+e.top_people.map(p=>{
+    const shown = state.person ? e.top_people.filter(p=>p.name===state.person).concat(e.top_people.filter(p=>p.name!==state.person).slice(0,3)) : e.top_people.slice(0,4);
+    h += `<h5>Best Highland coverage${state.person?` — viewing as ${state.person}`:''}</h5><div class="tmcols">`+shown.map(p=>{
       const strength = p.aff>0 ? `${Math.round(p.aff*100)}%` : (p.harmonic>0 ? 'network only' : '');
       return `<div class="tm"><h6>${p.name} <span style="color:var(--muted)">${strength}</span></h6>`+
         p.contacts.map(k=>{
@@ -285,6 +319,9 @@ function render(){
   bindTable(ft); bindTable(at);
 }
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
+const va = document.getElementById('viewas');
+D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
+va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
 
 // CSV export via downloads capability
 function csv(){
