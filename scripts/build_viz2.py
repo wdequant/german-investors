@@ -39,6 +39,7 @@ CATEGORY = {
     "10x Founders": "vc", "Dieter von Holtzbrinck Ventures": "vc",
     "Vsquared Ventures": "vc", "Discovery Ventures": "vc", "10x Group": "vc",
     "Burda Principal Investments": "cvc", "CommerzVentures": "cvc",
+    "Alstin Capital": "vc",  # added manually on request (outside the top-30 cut)
 }
 FUND_SLUG = {
     "Global Founders Capital": "gfc", "HTGF | High-Tech Gründerfonds": "htgf",
@@ -55,7 +56,7 @@ FUND_SLUG = {
     "Capnamic": "capnamic", "Burda Principal Investments": "burda",
     "NAP (New Amsterdam Partners)": "nap", "CommerzVentures": "commerzventures",
     "MIG Capital": "mig-capital", "10x Founders": "10x-founders",
-    "Acton Capital": "acton",
+    "Acton Capital": "acton", "Alstin Capital": "alstin",
 }
 CRYPTO = {"1kx"}
 
