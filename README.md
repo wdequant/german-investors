@@ -47,10 +47,10 @@ Live map: `viz/index.html` (published as a Claude artifact; same URL redeployed 
 ## Rebuild
 
 ```
-python3 scripts/build_viz2.py   # regenerates viz/index.html from data/
+python3 scripts/build_viz3.py   # regenerates viz/index.html from data/ (v3 app-frame design)
 ```
 
-`scripts/build_viz.py` is the v1 full-74 heatmap generator, kept for reference.
+`scripts/build_viz.py` (v1 heatmap) and `scripts/build_viz2.py` (v2 cards) are kept for reference; the v3 template lives in `scripts/viz3_template.py`.
 
 ## Caveats
 

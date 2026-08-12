@@ -1,0 +1,2703 @@
+{
+  "count": 329,
+  "companies": [
+    {
+      "id": 133415287,
+      "name": "Ava Security",
+      "domain": "ava.uk",
+      "domains": [
+        "ava.uk"
+      ]
+    },
+    {
+      "id": 206257445,
+      "name": "Userflow",
+      "domain": "getuserflow.com",
+      "domains": [
+        "getuserflow.com"
+      ]
+    },
+    {
+      "id": 220435248,
+      "name": "NextCloud",
+      "domain": "nextcloud.com",
+      "domains": [
+        "nextcloud.com",
+        "nextcloud.co"
+      ]
+    },
+    {
+      "id": 283327084,
+      "name": "Reactev",
+      "domain": "reactev.com",
+      "domains": [
+        "reactev.com"
+      ]
+    },
+    {
+      "id": 284086647,
+      "name": "Haysto",
+      "domain": "haysto.com",
+      "domains": [
+        "haysto.com"
+      ]
+    },
+    {
+      "id": 284540973,
+      "name": "Raycast",
+      "domain": "raycast.app",
+      "domains": [
+        "raycast.app",
+        "raycast.co.uk",
+        "raycast.com"
+      ]
+    },
+    {
+      "id": 286484464,
+      "name": "Rever",
+      "domain": "itsrever.com",
+      "domains": [
+        "itsrever.com"
+      ]
+    },
+    {
+      "id": 287114450,
+      "name": "Fabriq",
+      "domain": "fabriq.tech",
+      "domains": [
+        "fabriq.tech",
+        "fabriq.fr"
+      ]
+    },
+    {
+      "id": 288005559,
+      "name": "Vanti Analytics",
+      "domain": "vanti-analytics.com",
+      "domains": [
+        "vanti-analytics.com",
+        "vanti.ai"
+      ]
+    },
+    {
+      "id": 288053271,
+      "name": "NEXT BASKET",
+      "domain": "nextbasket.com",
+      "domains": [
+        "nextbasket.com"
+      ]
+    },
+    {
+      "id": 288176663,
+      "name": "Appsec Phoenix",
+      "domain": "phoenix.security",
+      "domains": [
+        "appsecphoenix.com",
+        "phoenix.security"
+      ]
+    },
+    {
+      "id": 288424302,
+      "name": "FoodFlow",
+      "domain": "foodflow.fr",
+      "domains": [
+        "foodflow.fr"
+      ]
+    },
+    {
+      "id": 289164397,
+      "name": "Opisto",
+      "domain": "opisto.com",
+      "domains": [
+        "opisto.com"
+      ]
+    },
+    {
+      "id": 289759841,
+      "name": "The Neat Company",
+      "domain": "neat.com",
+      "domains": [
+        "neat.com"
+      ]
+    },
+    {
+      "id": 289759920,
+      "name": "Corporater",
+      "domain": "corporater.com",
+      "domains": [
+        "corporater.com"
+      ]
+    },
+    {
+      "id": 289760121,
+      "name": "BC Platforms",
+      "domain": "bcplatforms.com",
+      "domains": [
+        "bcplatforms.com"
+      ]
+    },
+    {
+      "id": 289760229,
+      "name": "Btwentyfour",
+      "domain": "btwentyfour.com",
+      "domains": [
+        "btwentyfour.com"
+      ]
+    },
+    {
+      "id": 289760324,
+      "name": "Virtual College",
+      "domain": "virtual-college.co.uk",
+      "domains": [
+        "virtual-college.co.uk"
+      ]
+    },
+    {
+      "id": 289761544,
+      "name": "Embotech",
+      "domain": "embotech.com",
+      "domains": [
+        "embotech.com"
+      ]
+    },
+    {
+      "id": 289761956,
+      "name": "Myra Security",
+      "domain": "myrasecurity.com",
+      "domains": [
+        "myrasecurity.com"
+      ]
+    },
+    {
+      "id": 289762467,
+      "name": "ArangoDB",
+      "domain": "arango.ai",
+      "domains": [
+        "arangodb.com",
+        "arango.ai"
+      ]
+    },
+    {
+      "id": 289762846,
+      "name": "Minderest",
+      "domain": "minderest.com",
+      "domains": [
+        "minderest.com"
+      ]
+    },
+    {
+      "id": 289763159,
+      "name": "Yomoni",
+      "domain": "yomoni.fr",
+      "domains": [
+        "yomoni.fr"
+      ]
+    },
+    {
+      "id": 289763199,
+      "name": "Betty Blocks",
+      "domain": "bettyblocks.com",
+      "domains": [
+        "bettyblocks.com"
+      ]
+    },
+    {
+      "id": 289763231,
+      "name": "Suade",
+      "domain": "suade.org",
+      "domains": [
+        "suade.org"
+      ]
+    },
+    {
+      "id": 289763238,
+      "name": "TrekkSoft",
+      "domain": "trekksoft.com",
+      "domains": [
+        "trekksoft.com"
+      ]
+    },
+    {
+      "id": 289763342,
+      "name": "Pabau",
+      "domain": "pabau.com",
+      "domains": [
+        "pabau.com"
+      ]
+    },
+    {
+      "id": 289763407,
+      "name": "OptimoRoute Inc.",
+      "domain": "optimoroute.com",
+      "domains": [
+        "optimoroute.com"
+      ]
+    },
+    {
+      "id": 289763583,
+      "name": "Scalingo",
+      "domain": "scalingo.com",
+      "domains": [
+        "scalingo.com"
+      ]
+    },
+    {
+      "id": 289763606,
+      "name": "Limitless",
+      "domain": "limitlesstech.com",
+      "domains": [
+        "limitlesstech.com",
+        "belimitless.io"
+      ]
+    },
+    {
+      "id": 289763705,
+      "name": "Dib Travel",
+      "domain": "dibtravel.com",
+      "domains": [
+        "dibtravel.com"
+      ]
+    },
+    {
+      "id": 289763857,
+      "name": "digitalML",
+      "domain": "digitalml.com",
+      "domains": [
+        "digitalml.com"
+      ]
+    },
+    {
+      "id": 289763953,
+      "name": "axelor",
+      "domain": "axelor.com",
+      "domains": [
+        "axelor.com"
+      ]
+    },
+    {
+      "id": 289764261,
+      "name": "Omnia Retail",
+      "domain": "omniaretail.com",
+      "domains": [
+        "omniaretail.com"
+      ]
+    },
+    {
+      "id": 289764484,
+      "name": "AccuRx",
+      "domain": "accurx.com",
+      "domains": [
+        "accurx.com"
+      ]
+    },
+    {
+      "id": 289764674,
+      "name": "XXII",
+      "domain": "xxii.fr",
+      "domains": [
+        "xxii.fr",
+        "xxiigroup.com"
+      ]
+    },
+    {
+      "id": 289764692,
+      "name": "StudyTube",
+      "domain": "studytube.com",
+      "domains": [
+        "studytube.nl",
+        "studytube.com"
+      ]
+    },
+    {
+      "id": 289764702,
+      "name": "Scopeworker",
+      "domain": "scopeworker.com",
+      "domains": [
+        "scopeworker.com"
+      ]
+    },
+    {
+      "id": 289764724,
+      "name": "Shapr3D",
+      "domain": "shapr3d.com",
+      "domains": [
+        "shapr3d.com"
+      ]
+    },
+    {
+      "id": 289764766,
+      "name": "Cube RM",
+      "domain": "cuberm.com",
+      "domains": [
+        "cuberm.com"
+      ]
+    },
+    {
+      "id": 289765070,
+      "name": "Ledgy",
+      "domain": "ledgy.com",
+      "domains": [
+        "ledgy.com"
+      ]
+    },
+    {
+      "id": 289765088,
+      "name": "Gatling Corp",
+      "domain": "gatling.io",
+      "domains": [
+        "gatling.io"
+      ]
+    },
+    {
+      "id": 289765328,
+      "name": "DeepL",
+      "domain": "deepl.com",
+      "domains": [
+        "deepl.com"
+      ]
+    },
+    {
+      "id": 289765331,
+      "name": "Salt Edge Inc.",
+      "domain": "saltedge.com",
+      "domains": [
+        "saltedge.com"
+      ]
+    },
+    {
+      "id": 289765551,
+      "name": "Euregon",
+      "domain": "euregon.de",
+      "domains": [
+        "euregon.de"
+      ]
+    },
+    {
+      "id": 289765711,
+      "name": "Baanx Group",
+      "domain": "baanx.com",
+      "domains": [
+        "baanx.com"
+      ]
+    },
+    {
+      "id": 289765734,
+      "name": "Databox",
+      "domain": "databox.com",
+      "domains": [
+        "databox.com"
+      ]
+    },
+    {
+      "id": 289766479,
+      "name": "realworld one",
+      "domain": "realworld-one.com",
+      "domains": [
+        "realworld-one.com"
+      ]
+    },
+    {
+      "id": 289766692,
+      "name": "7bridges",
+      "domain": "the7bridges.com",
+      "domains": [
+        "the7bridges.com"
+      ]
+    },
+    {
+      "id": 289767011,
+      "name": "Onomondo",
+      "domain": "onomondo.com",
+      "domains": [
+        "onomondo.com"
+      ]
+    },
+    {
+      "id": 289767399,
+      "name": "VIKTOR",
+      "domain": "viktor.ai",
+      "domains": [
+        "viktor.ai"
+      ]
+    },
+    {
+      "id": 289767433,
+      "name": "Systeme.io",
+      "domain": "systeme.io",
+      "domains": [
+        "systeme.io"
+      ]
+    },
+    {
+      "id": 289768038,
+      "name": "env0",
+      "domain": "env0.com",
+      "domains": [
+        "env0.com"
+      ]
+    },
+    {
+      "id": 289768133,
+      "name": "Data Legal Drive",
+      "domain": "datalegaldrive.com",
+      "domains": [
+        "datalegaldrive.com"
+      ]
+    },
+    {
+      "id": 289768199,
+      "name": "Dataedo",
+      "domain": "dataedo.com",
+      "domains": [
+        "dataedo.com"
+      ]
+    },
+    {
+      "id": 289768229,
+      "name": "HappyPal",
+      "domain": "happypal.fr",
+      "domains": [
+        "happypal.fr"
+      ]
+    },
+    {
+      "id": 289768302,
+      "name": "Uhubs",
+      "domain": "uhubs.co.uk",
+      "domains": [
+        "uhubs.co.uk",
+        "uhubs.ai"
+      ]
+    },
+    {
+      "id": 289768493,
+      "name": "Qovery",
+      "domain": "qovery.com",
+      "domains": [
+        "qovery.com"
+      ]
+    },
+    {
+      "id": 289768558,
+      "name": "Count",
+      "domain": "count.co",
+      "domains": [
+        "count.co"
+      ]
+    },
+    {
+      "id": 289768638,
+      "name": "Homesearch",
+      "domain": "homesearch.co.uk",
+      "domains": [
+        "homesearch.co.uk"
+      ]
+    },
+    {
+      "id": 289768671,
+      "name": "Paybyrd",
+      "domain": "paybyrd.com",
+      "domains": [
+        "paybyrd.com"
+      ]
+    },
+    {
+      "id": 289768688,
+      "name": "tl;dv",
+      "domain": "tldv.io",
+      "domains": [
+        "tldv.io"
+      ]
+    },
+    {
+      "id": 289769044,
+      "name": "Readdle",
+      "domain": "readdle.com",
+      "domains": [
+        "readdle.com"
+      ]
+    },
+    {
+      "id": 289769058,
+      "name": "MapTiler",
+      "domain": "maptiler.com",
+      "domains": [
+        "maptiler.com"
+      ]
+    },
+    {
+      "id": 289769171,
+      "name": "Pimcore",
+      "domain": "pimcore.com",
+      "domains": [
+        "pimcore.com"
+      ]
+    },
+    {
+      "id": 289769194,
+      "name": "GLIMPS",
+      "domain": "glimps.re",
+      "domains": [
+        "glimps.fr",
+        "glimps.re"
+      ]
+    },
+    {
+      "id": 289769246,
+      "name": "Soda",
+      "domain": "soda.io",
+      "domains": [
+        "soda.io",
+        "sodadata.io"
+      ]
+    },
+    {
+      "id": 289769299,
+      "name": "Tensorleap",
+      "domain": "tensorleap.ai",
+      "domains": [
+        "tensorleap.ai"
+      ]
+    },
+    {
+      "id": 289769363,
+      "name": "Chance",
+      "domain": "chance.co",
+      "domains": [
+        "chance.co"
+      ]
+    },
+    {
+      "id": 289769394,
+      "name": "Lightlytics",
+      "domain": "stream.security",
+      "domains": [
+        "lightlytics.com",
+        "stream.security"
+      ]
+    },
+    {
+      "id": 289769411,
+      "name": "Ecologi",
+      "domain": "ecologi.com",
+      "domains": [
+        "ecologi.com"
+      ]
+    },
+    {
+      "id": 289769420,
+      "name": "MyInvestor",
+      "domain": "myinvestor.es",
+      "domains": [
+        "myinvestor.es"
+      ]
+    },
+    {
+      "id": 289769428,
+      "name": "Appwrite",
+      "domain": "appwrite.io",
+      "domains": [
+        "appwrite.io"
+      ]
+    },
+    {
+      "id": 289769452,
+      "name": "Inflo",
+      "domain": "inflosoftware.com",
+      "domains": [
+        "inflosoftware.com"
+      ]
+    },
+    {
+      "id": 289769812,
+      "name": "Respire",
+      "domain": "respire.co",
+      "domains": [
+        "respire.co"
+      ]
+    },
+    {
+      "id": 289769913,
+      "name": "Glera Games",
+      "domain": "glera-games.com",
+      "domains": [
+        "glera-games.com"
+      ]
+    },
+    {
+      "id": 289769935,
+      "name": "DeepJudge",
+      "domain": "deepjudge.ai",
+      "domains": [
+        "deepjudge.ai"
+      ]
+    },
+    {
+      "id": 289769939,
+      "name": "Conduktor",
+      "domain": "conduktor.io",
+      "domains": [
+        "conduktor.io"
+      ]
+    },
+    {
+      "id": 289769946,
+      "name": "Humaans",
+      "domain": "humaans.io",
+      "domains": [
+        "humaans.io"
+      ]
+    },
+    {
+      "id": 289770076,
+      "name": "LiveFlow",
+      "domain": "liveflow.com",
+      "domains": [
+        "liveflow.io",
+        "liveflow.com"
+      ]
+    },
+    {
+      "id": 289770081,
+      "name": "BIMcollab",
+      "domain": "bimcollab.com",
+      "domains": [
+        "bimcollab.com"
+      ]
+    },
+    {
+      "id": 289770156,
+      "name": "Carbo",
+      "domain": "hellocarbo.com",
+      "domains": [
+        "hellocarbo.com"
+      ]
+    },
+    {
+      "id": 289770186,
+      "name": "xata",
+      "domain": "xata.io",
+      "domains": [
+        "xata.io"
+      ]
+    },
+    {
+      "id": 289770233,
+      "name": "Climatiq",
+      "domain": "climatiq.io",
+      "domains": [
+        "climatiq.io"
+      ]
+    },
+    {
+      "id": 289770247,
+      "name": "Reishunger",
+      "domain": "reishunger.de",
+      "domains": [
+        "reishunger.de"
+      ]
+    },
+    {
+      "id": 289770412,
+      "name": "Indeez",
+      "domain": "indeez.eu",
+      "domains": [
+        "indeez.eu"
+      ]
+    },
+    {
+      "id": 289770474,
+      "name": "Luca",
+      "domain": "info.lucaedu.com",
+      "domains": [
+        "lucaedu.com",
+        "info.lucaedu.com"
+      ]
+    },
+    {
+      "id": 289770530,
+      "name": "Ondorse",
+      "domain": "ondorse.co",
+      "domains": [
+        "ondorse.co"
+      ]
+    },
+    {
+      "id": 289770575,
+      "name": "nagish",
+      "domain": "nagish.com",
+      "domains": [
+        "talknagish.com",
+        "nagish.com"
+      ]
+    },
+    {
+      "id": 289770641,
+      "name": "Klar",
+      "domain": "getklar.com",
+      "domains": [
+        "getklar.com"
+      ]
+    },
+    {
+      "id": 289770675,
+      "name": "Addland",
+      "domain": "tytl.com",
+      "domains": [
+        "addland.com",
+        "tytl.com"
+      ]
+    },
+    {
+      "id": 289770737,
+      "name": "Optio Incentives",
+      "domain": "optioincentives.com",
+      "domains": [
+        "optioincentives.no",
+        "optioincentives.com"
+      ]
+    },
+    {
+      "id": 289770739,
+      "name": "xpate",
+      "domain": "xpate.com",
+      "domains": [
+        "xpate.com"
+      ]
+    },
+    {
+      "id": 289770777,
+      "name": "Storware",
+      "domain": "storware.eu",
+      "domains": [
+        "storware.eu"
+      ]
+    },
+    {
+      "id": 289770781,
+      "name": "eazyBI",
+      "domain": "eazybi.com",
+      "domains": [
+        "eazybi.com"
+      ]
+    },
+    {
+      "id": 289770828,
+      "name": "BITA",
+      "domain": "bitadata.com",
+      "domains": [
+        "bitadata.com",
+        "bita.io"
+      ]
+    },
+    {
+      "id": 289770888,
+      "name": "Shelf",
+      "domain": "shelf.io",
+      "domains": [
+        "shelf.io"
+      ]
+    },
+    {
+      "id": 289770890,
+      "name": "Supernova",
+      "domain": "supernova.io",
+      "domains": [
+        "supernova.io"
+      ]
+    },
+    {
+      "id": 289770920,
+      "name": "IDoven",
+      "domain": "idoven.ai",
+      "domains": [
+        "idoven.ai"
+      ]
+    },
+    {
+      "id": 289770938,
+      "name": "Timi",
+      "domain": "timi.eu",
+      "domains": [
+        "timi.eu"
+      ]
+    },
+    {
+      "id": 289770952,
+      "name": "EvaluAgent",
+      "domain": "evaluagent.com",
+      "domains": [
+        "evaluagent.com"
+      ]
+    },
+    {
+      "id": 289771037,
+      "name": "AtomInvest",
+      "domain": "atominvest.co",
+      "domains": [
+        "atominvest.co"
+      ]
+    },
+    {
+      "id": 289771057,
+      "name": "2solar",
+      "domain": "2solar.nl",
+      "domains": [
+        "2solar.nl",
+        "2solar.com"
+      ]
+    },
+    {
+      "id": 289771160,
+      "name": "One World GTM",
+      "domain": "owgtm.com",
+      "domains": [
+        "owgtm.com"
+      ]
+    },
+    {
+      "id": 289771172,
+      "name": "LeanLinking",
+      "domain": "leanlinking.com",
+      "domains": [
+        "leanlinking.com"
+      ]
+    },
+    {
+      "id": 289771177,
+      "name": "Fennoa Oy",
+      "domain": "fennoa.com",
+      "domains": [
+        "fennoa.com"
+      ]
+    },
+    {
+      "id": 289771184,
+      "name": "Equadis",
+      "domain": "equadis.com",
+      "domains": [
+        "equadis.com"
+      ]
+    },
+    {
+      "id": 289771400,
+      "name": "Clarisights",
+      "domain": "clarisights.com",
+      "domains": [
+        "clarisights.com"
+      ]
+    },
+    {
+      "id": 289771401,
+      "name": "VESTBERRY",
+      "domain": "vestberry.com",
+      "domains": [
+        "vestberry.com"
+      ]
+    },
+    {
+      "id": 289771403,
+      "name": "Focal Point Positioning",
+      "domain": "focalpointpositioning.com",
+      "domains": [
+        "focalpointpositioning.com"
+      ]
+    },
+    {
+      "id": 289771420,
+      "name": "Accredible",
+      "domain": "accredible.com",
+      "domains": [
+        "accredible.com"
+      ]
+    },
+    {
+      "id": 289771521,
+      "name": "Zerynth",
+      "domain": "zerynth.com",
+      "domains": [
+        "zerynth.com"
+      ]
+    },
+    {
+      "id": 289771603,
+      "name": "Skillup",
+      "domain": "skillup.co",
+      "domains": [
+        "skillup.co"
+      ]
+    },
+    {
+      "id": 289771797,
+      "name": "Omnidoc",
+      "domain": "omnidoc.fr",
+      "domains": [
+        "omnidoc.fr"
+      ]
+    },
+    {
+      "id": 289771990,
+      "name": "Eschbach",
+      "domain": "eschbach.com",
+      "domains": [
+        "eschbach.com"
+      ]
+    },
+    {
+      "id": 289772051,
+      "name": "Absolute Collagen",
+      "domain": "absolutecollagen.com",
+      "domains": [
+        "absolutecollagen.com"
+      ]
+    },
+    {
+      "id": 289772151,
+      "name": "automaited",
+      "domain": "automaited.com",
+      "domains": [
+        "automaited.com"
+      ]
+    },
+    {
+      "id": 289772230,
+      "name": "Lottie",
+      "domain": "lottie.org",
+      "domains": [
+        "lottie.org"
+      ]
+    },
+    {
+      "id": 289772508,
+      "name": "Silverstream",
+      "domain": "silverstream-tech.com",
+      "domains": [
+        "silverstream-tech.com"
+      ]
+    },
+    {
+      "id": 289953096,
+      "name": "Mozilla.ai",
+      "domain": "mozilla.ai",
+      "domains": [
+        "mozilla.ai"
+      ]
+    },
+    {
+      "id": 290276597,
+      "name": "Bastion",
+      "domain": "bastion.tech",
+      "domains": [
+        "bastion.tech"
+      ]
+    },
+    {
+      "id": 292419566,
+      "name": "Energy & Meteo Systems",
+      "domain": "emsys-renewables.com",
+      "domains": [
+        "energymeteo.com",
+        "energymeteo.de",
+        "emsys-renewables.com"
+      ]
+    },
+    {
+      "id": 292582800,
+      "name": "FutureLog",
+      "domain": "futurelog.ch",
+      "domains": [
+        "futurelog.ch",
+        "futurelog.com"
+      ]
+    },
+    {
+      "id": 292584545,
+      "name": "Pelico",
+      "domain": "pelico.ai",
+      "domains": [
+        "pelico.ai",
+        "pelico.io"
+      ]
+    },
+    {
+      "id": 293475181,
+      "name": "KUBUS",
+      "domain": "kubusinfo.nl",
+      "domains": [
+        "kubusinfo.nl",
+        "kubusinfo.be"
+      ]
+    },
+    {
+      "id": 293726777,
+      "name": "Kato",
+      "domain": "kato.app",
+      "domains": [
+        "getleast.com",
+        "kato.app"
+      ]
+    },
+    {
+      "id": 293726891,
+      "name": "Arkamys",
+      "domain": "arkamys.com",
+      "domains": [
+        "arkamys.com"
+      ]
+    },
+    {
+      "id": 293726945,
+      "name": "Fiken",
+      "domain": "fiken.no",
+      "domains": [
+        "fiken.no"
+      ]
+    },
+    {
+      "id": 293726949,
+      "name": "Restb.ai",
+      "domain": "restb.ai",
+      "domains": [
+        "restb.ai"
+      ]
+    },
+    {
+      "id": 293726951,
+      "name": "Wynter",
+      "domain": "wynter.com",
+      "domains": [
+        "wynter.com",
+        "copytesting.com"
+      ]
+    },
+    {
+      "id": 293726976,
+      "name": "EOS Data Analytics",
+      "domain": "eos.com",
+      "domains": [
+        "eos.com"
+      ]
+    },
+    {
+      "id": 293727009,
+      "name": "Ninety Percent of Everything",
+      "domain": "90poe.io",
+      "domains": [
+        "90poe.io"
+      ]
+    },
+    {
+      "id": 293727056,
+      "name": "interStis",
+      "domain": "interstis.fr",
+      "domains": [
+        "interstis.fr"
+      ]
+    },
+    {
+      "id": 293727067,
+      "name": "Trustmi Networks",
+      "domain": "trustmi.ai",
+      "domains": [
+        "trustmi.ai"
+      ]
+    },
+    {
+      "id": 293727086,
+      "name": "LocalStack",
+      "domain": "localstack.cloud",
+      "domains": [
+        "localstack.cloud"
+      ]
+    },
+    {
+      "id": 293727262,
+      "name": "Enerdata",
+      "domain": "enerdata.net",
+      "domains": [
+        "enerdata.net"
+      ]
+    },
+    {
+      "id": 293727283,
+      "name": "AILY LABS",
+      "domain": "ailylabs.com",
+      "domains": [
+        "ailylabs.com"
+      ]
+    },
+    {
+      "id": 293727294,
+      "name": "Surreal UK",
+      "domain": "eatsurreal.co.uk",
+      "domains": [
+        "eatsurreal.co.uk"
+      ]
+    },
+    {
+      "id": 293727296,
+      "name": "Evea",
+      "domain": "evea-conseil.com",
+      "domains": [
+        "evea-conseil.com"
+      ]
+    },
+    {
+      "id": 293727326,
+      "name": "swissQuant Group AG",
+      "domain": "swissquant.com",
+      "domains": [
+        "swissquant.com"
+      ]
+    },
+    {
+      "id": 293727331,
+      "name": "Clinithink",
+      "domain": "clinithink.com",
+      "domains": [
+        "clinithink.com"
+      ]
+    },
+    {
+      "id": 293727379,
+      "name": "The Gang Sweden",
+      "domain": "thegang.io",
+      "domains": [
+        "thegang.io"
+      ]
+    },
+    {
+      "id": 293727418,
+      "name": "Smartcat",
+      "domain": "smartcat.com",
+      "domains": [
+        "smartcat.com",
+        "smartcat.pro"
+      ]
+    },
+    {
+      "id": 293727430,
+      "name": "TramitApp",
+      "domain": "tramitapp.com",
+      "domains": [
+        "tramitapp.com"
+      ]
+    },
+    {
+      "id": 293727515,
+      "name": "Definely",
+      "domain": "definely.com",
+      "domains": [
+        "definely.com",
+        "trydefine.com"
+      ]
+    },
+    {
+      "id": 293727554,
+      "name": "Chromatic",
+      "domain": "chromatic.com",
+      "domains": [
+        "chromatic.com"
+      ]
+    },
+    {
+      "id": 293727560,
+      "name": "StrangeBee",
+      "domain": "strangebee.com",
+      "domains": [
+        "strangebee.com"
+      ]
+    },
+    {
+      "id": 293727596,
+      "name": "CoverGo",
+      "domain": "covergo.com",
+      "domains": [
+        "covergo.com"
+      ]
+    },
+    {
+      "id": 293727614,
+      "name": "Translated.",
+      "domain": "translated.com",
+      "domains": [
+        "translated.com",
+        "translated.net"
+      ]
+    },
+    {
+      "id": 293727625,
+      "name": "LabOS",
+      "domain": "labos.co",
+      "domains": [
+        "labos.co"
+      ]
+    },
+    {
+      "id": 293727650,
+      "name": "PractITest",
+      "domain": "practitest.com",
+      "domains": [
+        "practitest.com"
+      ]
+    },
+    {
+      "id": 293727658,
+      "name": "Feeld",
+      "domain": "feeld.co",
+      "domains": [
+        "feeld.co"
+      ]
+    },
+    {
+      "id": 293727864,
+      "name": "Xensam Ltd.",
+      "domain": "xensam.com",
+      "domains": [
+        "xensam.com"
+      ]
+    },
+    {
+      "id": 293727872,
+      "name": "Green Eagle Solutions",
+      "domain": "greeneaglesolutions.com",
+      "domains": [
+        "greeneaglesolutions.com"
+      ]
+    },
+    {
+      "id": 293727890,
+      "name": "Bizneo HR",
+      "domain": "bizneo.com",
+      "domains": [
+        "bizneo.com"
+      ]
+    },
+    {
+      "id": 293727897,
+      "name": "Software Group",
+      "domain": "softwaregroup.com",
+      "domains": [
+        "softwaregroup.com"
+      ]
+    },
+    {
+      "id": 293727909,
+      "name": "AuctioNet.com",
+      "domain": "auctionet.com",
+      "domains": [
+        "auctionet.com"
+      ]
+    },
+    {
+      "id": 293727925,
+      "name": "Upciti",
+      "domain": "upciti.com",
+      "domains": [
+        "upciti.com"
+      ]
+    },
+    {
+      "id": 293727936,
+      "name": "Open Energy Market",
+      "domain": "true.tech",
+      "domains": [
+        "openenergymarket.com",
+        "truezero.tech",
+        "true.tech"
+      ]
+    },
+    {
+      "id": 293727976,
+      "name": "KYOS Energy Analytics",
+      "domain": "kyos.com",
+      "domains": [
+        "kyos.com"
+      ]
+    },
+    {
+      "id": 293727982,
+      "name": "Aptus.AI",
+      "domain": "aptus.ai",
+      "domains": [
+        "aptus.ai"
+      ]
+    },
+    {
+      "id": 293728025,
+      "name": "Ubiq.ai",
+      "domain": "ubiq.ai",
+      "domains": [
+        "ubiq.ai",
+        "necture.com"
+      ]
+    },
+    {
+      "id": 293728089,
+      "name": "Kaedim",
+      "domain": "kaedim3d.com",
+      "domains": [
+        "kaedim3d.com"
+      ]
+    },
+    {
+      "id": 293728138,
+      "name": "Ad Scientiam",
+      "domain": "adscientiam.com",
+      "domains": [
+        "adscientiam.com"
+      ]
+    },
+    {
+      "id": 293728191,
+      "name": "Tendium",
+      "domain": "tendium.com",
+      "domains": [
+        "tendium.ai",
+        "tendium.com"
+      ]
+    },
+    {
+      "id": 293728292,
+      "name": "viso.ai",
+      "domain": "viso.ai",
+      "domains": [
+        "viso.ai"
+      ]
+    },
+    {
+      "id": 293728553,
+      "name": "Qbiq",
+      "domain": "qbiq.ai",
+      "domains": [
+        "qbiq.ai"
+      ]
+    },
+    {
+      "id": 293728592,
+      "name": "Avelios",
+      "domain": "avelios.com",
+      "domains": [
+        "avelios.com"
+      ]
+    },
+    {
+      "id": 293728608,
+      "name": "Vermiculus Financial Technology AB",
+      "domain": "vermiculus.se",
+      "domains": [
+        "vermiculus.se"
+      ]
+    },
+    {
+      "id": 293728633,
+      "name": "GoodFit.io",
+      "domain": "goodfit.io",
+      "domains": [
+        "goodfit.io"
+      ]
+    },
+    {
+      "id": 293728730,
+      "name": "Untamed",
+      "domain": "untamed.com",
+      "domains": [
+        "untamedcatfood.com",
+        "untamed.com"
+      ]
+    },
+    {
+      "id": 293728891,
+      "name": "SAPI",
+      "domain": "sapi.com",
+      "domains": [
+        "sapi.com"
+      ]
+    },
+    {
+      "id": 293728971,
+      "name": "Floy",
+      "domain": "floy.com",
+      "domains": [
+        "floy.com"
+      ]
+    },
+    {
+      "id": 293729085,
+      "name": "Jamble",
+      "domain": "jamble.com",
+      "domains": [
+        "jambleapp.com",
+        "jamble.com"
+      ]
+    },
+    {
+      "id": 293729234,
+      "name": "Billy Grace",
+      "domain": "billygrace.com",
+      "domains": [
+        "billygrace.com"
+      ]
+    },
+    {
+      "id": 293729253,
+      "name": "Risk Smart Consulting Incorporated",
+      "domain": "risksmart.com",
+      "domains": [
+        "risksmart.com",
+        "risksmart.co.uk"
+      ]
+    },
+    {
+      "id": 293729287,
+      "name": "bliro.io",
+      "domain": "bliro.io",
+      "domains": [
+        "bliro.io"
+      ]
+    },
+    {
+      "id": 293729437,
+      "name": "doinstruct Software",
+      "domain": "doinstruct.com",
+      "domains": [
+        "doinstruct.com"
+      ]
+    },
+    {
+      "id": 293729558,
+      "name": "complyance.com",
+      "domain": "complyance.com",
+      "domains": [
+        "complyance.com"
+      ]
+    },
+    {
+      "id": 293729605,
+      "name": "Rollstack",
+      "domain": "rollstack.com",
+      "domains": [
+        "rollstack.com"
+      ]
+    },
+    {
+      "id": 294012238,
+      "name": "Provenir",
+      "domain": "provenir.com",
+      "domains": [
+        "provenir.com"
+      ]
+    },
+    {
+      "id": 294012255,
+      "name": "Banfico",
+      "domain": "banfico.com",
+      "domains": [
+        "banfico.com"
+      ]
+    },
+    {
+      "id": 294012380,
+      "name": "suena",
+      "domain": "suena.energy",
+      "domains": [
+        "suena.energy"
+      ]
+    },
+    {
+      "id": 294581556,
+      "name": "D. Louise",
+      "domain": "dlouise.co.uk",
+      "domains": [
+        "dlouise.co.uk"
+      ]
+    },
+    {
+      "id": 294581588,
+      "name": "reev",
+      "domain": "reev.com",
+      "domains": [
+        "reev.com"
+      ]
+    },
+    {
+      "id": 294581620,
+      "name": "AirportLabs",
+      "domain": "airportlabs.com",
+      "domains": [
+        "airportlabs.com"
+      ]
+    },
+    {
+      "id": 294581820,
+      "name": "einwert",
+      "domain": "einwert.com",
+      "domains": [
+        "einwert.com"
+      ]
+    },
+    {
+      "id": 294581882,
+      "name": "Comand",
+      "domain": "comand.ai",
+      "domains": [
+        "comand.ai"
+      ]
+    },
+    {
+      "id": 295039830,
+      "name": "BlueKanGo",
+      "domain": "bluekango.com",
+      "domains": [
+        "bluekango.com"
+      ]
+    },
+    {
+      "id": 295039848,
+      "name": "Scorebuddy",
+      "domain": "scorebuddycx.com",
+      "domains": [
+        "scorebuddyqa.com",
+        "scorebuddy.co.uk",
+        "scorebuddycx.com"
+      ]
+    },
+    {
+      "id": 295039868,
+      "name": "AxxonSoft",
+      "domain": "axxonsoft.com",
+      "domains": [
+        "axxonsoft.com"
+      ]
+    },
+    {
+      "id": 295039884,
+      "name": "Synaptec",
+      "domain": "synapt.ec",
+      "domains": [
+        "synapt.ec"
+      ]
+    },
+    {
+      "id": 295039921,
+      "name": "hellotax",
+      "domain": "hellotax.com",
+      "domains": [
+        "hellotax.com"
+      ]
+    },
+    {
+      "id": 295039925,
+      "name": "Bien'ici",
+      "domain": "bienici.com",
+      "domains": [
+        "bienici.com"
+      ]
+    },
+    {
+      "id": 295039959,
+      "name": "Albato",
+      "domain": "albato.com",
+      "domains": [
+        "albato.com"
+      ]
+    },
+    {
+      "id": 295039985,
+      "name": "encentive",
+      "domain": "encentive.de",
+      "domains": [
+        "encentive.de"
+      ]
+    },
+    {
+      "id": 295040016,
+      "name": "Aligne",
+      "domain": "aligne.co",
+      "domains": [
+        "aligne.co"
+      ]
+    },
+    {
+      "id": 295908248,
+      "name": "VisibleThread",
+      "domain": "visiblethread.com",
+      "domains": [
+        "visiblethread.com"
+      ]
+    },
+    {
+      "id": 295908255,
+      "name": "Adagio",
+      "domain": "adagio.io",
+      "domains": [
+        "adagio.io"
+      ]
+    },
+    {
+      "id": 295908268,
+      "name": "IDWise",
+      "domain": "idwise.com",
+      "domains": [
+        "idwise.com"
+      ]
+    },
+    {
+      "id": 295908270,
+      "name": "Ventrata",
+      "domain": "ventrata.com",
+      "domains": [
+        "ventrata.com"
+      ]
+    },
+    {
+      "id": 295908314,
+      "name": "Eneida",
+      "domain": "eneida.io",
+      "domains": [
+        "eneida.io"
+      ]
+    },
+    {
+      "id": 295908342,
+      "name": "Ocean Infinity",
+      "domain": "oceaninfinity.com",
+      "domains": [
+        "oceaninfinity.com"
+      ]
+    },
+    {
+      "id": 295908445,
+      "name": "Intellimind",
+      "domain": "intellimind.com",
+      "domains": [
+        "intellimind.com"
+      ]
+    },
+    {
+      "id": 295908448,
+      "name": "Palisis",
+      "domain": "palisis.com",
+      "domains": [
+        "palisis.com"
+      ]
+    },
+    {
+      "id": 295908467,
+      "name": "indigitall",
+      "domain": "indigitall.com",
+      "domains": [
+        "indigitall.com"
+      ]
+    },
+    {
+      "id": 295908569,
+      "name": "Connectif Artificial Intelligence",
+      "domain": "connectif.ai",
+      "domains": [
+        "connectif.ai"
+      ]
+    },
+    {
+      "id": 295908604,
+      "name": "Oxalys",
+      "domain": "oxalys.fr",
+      "domains": [
+        "oxalys.fr"
+      ]
+    },
+    {
+      "id": 295908635,
+      "name": "SuiviDeFlotte.net",
+      "domain": "suivideflotte.net",
+      "domains": [
+        "suivideflotte.net"
+      ]
+    },
+    {
+      "id": 295908638,
+      "name": "Payabl.",
+      "domain": "payabl.com",
+      "domains": [
+        "payabl.com"
+      ]
+    },
+    {
+      "id": 295908641,
+      "name": "Deftpower",
+      "domain": "deftpower.com",
+      "domains": [
+        "deftpower.com"
+      ]
+    },
+    {
+      "id": 295908693,
+      "name": "Spektr",
+      "domain": "spektr.com",
+      "domains": [
+        "spektr.com"
+      ]
+    },
+    {
+      "id": 295908699,
+      "name": "Wenodo",
+      "domain": "wenodo.com",
+      "domains": [
+        "wenodo.com"
+      ]
+    },
+    {
+      "id": 295908726,
+      "name": "Upheal.io",
+      "domain": "upheal.io",
+      "domains": [
+        "upheal.io"
+      ]
+    },
+    {
+      "id": 295908765,
+      "name": "Reverso",
+      "domain": "reverso.net",
+      "domains": [
+        "reverso.net"
+      ]
+    },
+    {
+      "id": 295908775,
+      "name": "Trig",
+      "domain": "trig.ai",
+      "domains": [
+        "trypavlov.com",
+        "trig.ai"
+      ]
+    },
+    {
+      "id": 295908776,
+      "name": "Purse (Ex UpStream Pay)",
+      "domain": "purse.eu",
+      "domains": [
+        "purse.eu"
+      ]
+    },
+    {
+      "id": 295908814,
+      "name": "Tuza",
+      "domain": "tuza.co.uk",
+      "domains": [
+        "tuza.co.uk"
+      ]
+    },
+    {
+      "id": 296026324,
+      "name": "elevait",
+      "domain": "elevait.de",
+      "domains": [
+        "elevait.de"
+      ]
+    },
+    {
+      "id": 296509441,
+      "name": "dino",
+      "domain": "dinostays.com",
+      "domains": [
+        "dinostays.com"
+      ]
+    },
+    {
+      "id": 296509566,
+      "name": "uman.ai",
+      "domain": "uman.ai",
+      "domains": [
+        "uman.ai"
+      ]
+    },
+    {
+      "id": 296509706,
+      "name": "Meticulous",
+      "domain": "meticulous.ai",
+      "domains": [
+        "meticulous.ai"
+      ]
+    },
+    {
+      "id": 296509733,
+      "name": "Ceartas DMCA",
+      "domain": "ceartas.io",
+      "domains": [
+        "ceartas.io"
+      ]
+    },
+    {
+      "id": 296509770,
+      "name": "Onyxia",
+      "domain": "onyxia.io",
+      "domains": [
+        "onyxia.io"
+      ]
+    },
+    {
+      "id": 296509778,
+      "name": "Swiss GRC",
+      "domain": "swissgrc.com",
+      "domains": [
+        "swissgrc.com"
+      ]
+    },
+    {
+      "id": 296509916,
+      "name": "Solve Intelligence",
+      "domain": "solveintelligence.com",
+      "domains": [
+        "solveintelligence.com"
+      ]
+    },
+    {
+      "id": 296915670,
+      "name": "ChurchDesk",
+      "domain": "churchdesk.com",
+      "domains": [
+        "churchdesk.com"
+      ]
+    },
+    {
+      "id": 296915745,
+      "name": "Aptivio",
+      "domain": "aptiv.io",
+      "domains": [
+        "aptiv.io"
+      ]
+    },
+    {
+      "id": 296915823,
+      "name": "Dermanostic",
+      "domain": "dermanostic.com",
+      "domains": [
+        "dermanostic.com"
+      ]
+    },
+    {
+      "id": 296915834,
+      "name": "Wild Balance",
+      "domain": "wildbalance.es",
+      "domains": [
+        "wildbalance.es"
+      ]
+    },
+    {
+      "id": 296915883,
+      "name": "Sorsix",
+      "domain": "sorsix.com",
+      "domains": [
+        "sorsix.com"
+      ]
+    },
+    {
+      "id": 296915896,
+      "name": "Panax",
+      "domain": "panax.com",
+      "domains": [
+        "thepanax.com",
+        "panax.com"
+      ]
+    },
+    {
+      "id": 297318298,
+      "name": "BLIK",
+      "domain": "blik.com",
+      "domains": [
+        "blik.com"
+      ]
+    },
+    {
+      "id": 297318299,
+      "name": "Robaws",
+      "domain": "robaws.com",
+      "domains": [
+        "robaws.com"
+      ]
+    },
+    {
+      "id": 297318314,
+      "name": "Spike API",
+      "domain": "spikeapi.com",
+      "domains": [
+        "spikeapi.com"
+      ]
+    },
+    {
+      "id": 297318328,
+      "name": "Emma & Noah",
+      "domain": "emmanoah.de",
+      "domains": [
+        "emmanoah.de"
+      ]
+    },
+    {
+      "id": 297318503,
+      "name": "Carv",
+      "domain": "carv.com",
+      "domains": [
+        "carv.com"
+      ]
+    },
+    {
+      "id": 297318558,
+      "name": "Inforcer",
+      "domain": "inforcer.com",
+      "domains": [
+        "inforcer.com"
+      ]
+    },
+    {
+      "id": 297748760,
+      "name": "Aphex",
+      "domain": "aphex.co",
+      "domains": [
+        "aphex.co"
+      ]
+    },
+    {
+      "id": 297748864,
+      "name": "DFYNE",
+      "domain": "dfyne.com",
+      "domains": [
+        "dfyne.com"
+      ]
+    },
+    {
+      "id": 298262388,
+      "name": "Hellotickets",
+      "domain": "hellotickets.com",
+      "domains": [
+        "hellotickets.com"
+      ]
+    },
+    {
+      "id": 298262390,
+      "name": "Sitemate",
+      "domain": "sitemate.com",
+      "domains": [
+        "sitemate.com"
+      ]
+    },
+    {
+      "id": 298262479,
+      "name": "Ferry (ex Thirdrails)",
+      "domain": "deployferry.io",
+      "domains": [
+        "deployferry.io"
+      ]
+    },
+    {
+      "id": 298262481,
+      "name": "Blockaid",
+      "domain": "blockaid.io",
+      "domains": [
+        "blockaid.io"
+      ]
+    },
+    {
+      "id": 298365998,
+      "name": "Seabery",
+      "domain": "seabery.es",
+      "domains": [
+        "seabery.es",
+        "seaberyat.com",
+        "seabery.us"
+      ]
+    },
+    {
+      "id": 298565345,
+      "name": "Seal",
+      "domain": "seal.run",
+      "domains": [
+        "seal.run",
+        "opvia.io",
+        "opvia.bio"
+      ]
+    },
+    {
+      "id": 298733326,
+      "name": "Gurtam Inc",
+      "domain": "gurtam.com",
+      "domains": [
+        "gurtam.com"
+      ]
+    },
+    {
+      "id": 298733419,
+      "name": "Oculo",
+      "domain": "oculo.ai",
+      "domains": [
+        "oculo.ai"
+      ]
+    },
+    {
+      "id": 298733430,
+      "name": "SurgAR",
+      "domain": "surgar-surgery.com",
+      "domains": [
+        "surgar-surgery.com"
+      ]
+    },
+    {
+      "id": 298733510,
+      "name": "Akt London",
+      "domain": "aktlondon.com",
+      "domains": [
+        "aktlondon.com"
+      ]
+    },
+    {
+      "id": 298733512,
+      "name": "Klara",
+      "domain": "klarahr.com",
+      "domains": [
+        "klarahr.com"
+      ]
+    },
+    {
+      "id": 298733564,
+      "name": "Filiz",
+      "domain": "filiz.io",
+      "domains": [
+        "filiz.io"
+      ]
+    },
+    {
+      "id": 298733597,
+      "name": "Saturn",
+      "domain": "saturnos.com",
+      "domains": [
+        "saturnos.com"
+      ]
+    },
+    {
+      "id": 298733621,
+      "name": "The Mobile-First Company",
+      "domain": "themobilefirstcompany.com",
+      "domains": [
+        "themobilefirstcompany.com",
+        "themobilefirst.co"
+      ]
+    },
+    {
+      "id": 299184205,
+      "name": "Klimato",
+      "domain": "klimato.com",
+      "domains": [
+        "klimato.com",
+        "klimato.se",
+        "klimato.co"
+      ]
+    },
+    {
+      "id": 299470801,
+      "name": "Airplane Solutions",
+      "domain": "airplane.solutions",
+      "domains": [
+        "airplane.solutions"
+      ]
+    },
+    {
+      "id": 299470883,
+      "name": "HeyReach (by Howitzer)",
+      "domain": "heyreach.io",
+      "domains": [
+        "heyreach.io"
+      ]
+    },
+    {
+      "id": 299504551,
+      "name": "Plato",
+      "domain": "platoapp.ai",
+      "domains": [
+        "platoapp.ai",
+        "platoapp.com"
+      ]
+    },
+    {
+      "id": 299705952,
+      "name": "Prelude",
+      "domain": "prelude.so",
+      "domains": [
+        "prelude.so"
+      ]
+    },
+    {
+      "id": 300074696,
+      "name": "Odd Muse",
+      "domain": "oddmuse.co.uk",
+      "domains": [
+        "oddmuse.co.uk"
+      ]
+    },
+    {
+      "id": 300074705,
+      "name": "GoodNotes",
+      "domain": "goodnotes.com",
+      "domains": [
+        "goodnotes.com"
+      ]
+    },
+    {
+      "id": 300074720,
+      "name": "Alcatraz",
+      "domain": "alcatraz.ai",
+      "domains": [
+        "alcatraz.ai",
+        "rock.alcatraz.ai"
+      ]
+    },
+    {
+      "id": 300446956,
+      "name": "Friendly Captcha",
+      "domain": "friendlycaptcha.com",
+      "domains": [
+        "friendlycaptcha.com"
+      ]
+    },
+    {
+      "id": 300446961,
+      "name": "HeyTrade",
+      "domain": "heytrade.com",
+      "domains": [
+        "heytrade.com"
+      ]
+    },
+    {
+      "id": 300446971,
+      "name": "Kiosk",
+      "domain": "meetkiosk.com",
+      "domains": [
+        "meetkiosk.com"
+      ]
+    },
+    {
+      "id": 301135047,
+      "name": "Vroomly",
+      "domain": "vroomly.com",
+      "domains": [
+        "vroomly.com"
+      ]
+    },
+    {
+      "id": 301135132,
+      "name": "TrustUp",
+      "domain": "trustup.be",
+      "domains": [
+        "trustup.be"
+      ]
+    },
+    {
+      "id": 301135155,
+      "name": "Bonx",
+      "domain": "bonx.com",
+      "domains": [
+        "bonx.tech",
+        "bonx.com"
+      ]
+    },
+    {
+      "id": 301135181,
+      "name": "Tallow + Ash",
+      "domain": "tallow-ash.com",
+      "domains": [
+        "tallow-ash.com"
+      ]
+    },
+    {
+      "id": 301399120,
+      "name": "Stacks",
+      "domain": "stacks.ai",
+      "domains": [
+        "stacks.ai"
+      ]
+    },
+    {
+      "id": 301577647,
+      "name": "EVERTRUST",
+      "domain": "evertrust.io",
+      "domains": [
+        "evertrust.io"
+      ]
+    },
+    {
+      "id": 301577658,
+      "name": "AXULUS",
+      "domain": "axulus.io",
+      "domains": [
+        "axulus.io"
+      ]
+    },
+    {
+      "id": 301577673,
+      "name": "Tecalis",
+      "domain": "tecalis.com",
+      "domains": [
+        "tecalis.com"
+      ]
+    },
+    {
+      "id": 301577680,
+      "name": "TrustFlight",
+      "domain": "trustflight.com",
+      "domains": [
+        "trustflight.com",
+        "trustflight.io"
+      ]
+    },
+    {
+      "id": 301577752,
+      "name": "Opal",
+      "domain": "opal.so",
+      "domains": [
+        "opal.so",
+        "opalapp.com"
+      ]
+    },
+    {
+      "id": 301621724,
+      "name": "Raison",
+      "domain": "raison.ai",
+      "domains": [
+        "raison.ai",
+        "raison.app"
+      ]
+    },
+    {
+      "id": 302641602,
+      "name": "Adzap",
+      "domain": "zap.ad",
+      "domains": [
+        "zap.ad"
+      ]
+    },
+    {
+      "id": 302925264,
+      "name": "Zota",
+      "domain": "zota.com",
+      "domains": [
+        "zota.com",
+        "zotapay.com"
+      ]
+    },
+    {
+      "id": 302925273,
+      "name": "Hospitable",
+      "domain": "hospitable.com",
+      "domains": [
+        "hospitable.com"
+      ]
+    },
+    {
+      "id": 303536532,
+      "name": "PropertyExpert GmbH",
+      "domain": "propertyexpert.com",
+      "domains": [
+        "propertyexpert.ai",
+        "propertyexpert.de",
+        "propertyexpert.com"
+      ]
+    },
+    {
+      "id": 304289769,
+      "name": "Fleeti",
+      "domain": "fleeti.co",
+      "domains": [
+        "fleeti.co"
+      ]
+    },
+    {
+      "id": 304361010,
+      "name": "P. Louise Cosmetics",
+      "domain": "plouise.co.uk",
+      "domains": [
+        "plouise.co.uk"
+      ]
+    },
+    {
+      "id": 305263347,
+      "name": "TryHackMe",
+      "domain": "tryhackme.com",
+      "domains": [
+        "tryhackme.com"
+      ]
+    },
+    {
+      "id": 305791358,
+      "name": "Lolo",
+      "domain": "lolo.co",
+      "domains": [
+        "lolo.co"
+      ]
+    },
+    {
+      "id": 305791370,
+      "name": "Restream",
+      "domain": "restream.io",
+      "domains": [
+        "restream.io"
+      ]
+    },
+    {
+      "id": 305791372,
+      "name": "Beacon",
+      "domain": "beaconcrm.org",
+      "domains": [
+        "beaconcrm.org"
+      ]
+    },
+    {
+      "id": 306306604,
+      "name": "Orbio AI",
+      "domain": "orbio.work",
+      "domains": [
+        "orbio.work"
+      ]
+    },
+    {
+      "id": 307488841,
+      "name": "Riffusion",
+      "domain": "riff.new",
+      "domains": [
+        "riff.new",
+        "databutton.com",
+        "databutton.io"
+      ]
+    },
+    {
+      "id": 307552474,
+      "name": "MPowered Mortgages",
+      "domain": "mpowered.co.uk",
+      "domains": [
+        "mpowered.co.uk",
+        "mqube.com"
+      ]
+    },
+    {
+      "id": 308453601,
+      "name": "Qarma Inspect",
+      "domain": "qarmainspect.com",
+      "domains": [
+        "qarmainspect.com"
+      ]
+    },
+    {
+      "id": 308453627,
+      "name": "Gearbox Innovations",
+      "domain": "gearboxinnovations.com",
+      "domains": [
+        "gearboxinnovations.com"
+      ]
+    },
+    {
+      "id": 308453676,
+      "name": "Qovoltis",
+      "domain": "qovoltis.com",
+      "domains": [
+        "qovoltis.com"
+      ]
+    },
+    {
+      "id": 308453684,
+      "name": "narvi.com",
+      "domain": "narvi.com",
+      "domains": [
+        "narvi.com"
+      ]
+    },
+    {
+      "id": 308453718,
+      "name": "Cure.51",
+      "domain": "cure51.com",
+      "domains": [
+        "cure51.com"
+      ]
+    },
+    {
+      "id": 308453734,
+      "name": "Look Up Space",
+      "domain": "lookupspace.com",
+      "domains": [
+        "lookupspace.com"
+      ]
+    },
+    {
+      "id": 308453737,
+      "name": "PURESEOUL",
+      "domain": "pureseoul.co.uk",
+      "domains": [
+        "pureseoul.co.uk"
+      ]
+    },
+    {
+      "id": 308453801,
+      "name": "kustom.co",
+      "domain": "kustom.co",
+      "domains": [
+        "kustom.co"
+      ]
+    },
+    {
+      "id": 308658247,
+      "name": "Beside Software",
+      "domain": "beside.com",
+      "domains": [
+        "beside.com",
+        "interfaceai.com"
+      ]
+    },
+    {
+      "id": 308969026,
+      "name": "Vok Bikes",
+      "domain": "vokbikes.com",
+      "domains": [
+        "vokbikes.com"
+      ]
+    },
+    {
+      "id": 308969109,
+      "name": "AQUATY",
+      "domain": "aquaty.capital",
+      "domains": [
+        "aquaty.capital",
+        "aquaty.vc"
+      ]
+    },
+    {
+      "id": 308969195,
+      "name": "Clover Security",
+      "domain": "clover.security",
+      "domains": [
+        "clover.security"
+      ]
+    },
+    {
+      "id": 308969284,
+      "name": "Reindeer AI",
+      "domain": "reindeer.ai",
+      "domains": [
+        "reindeer.ai"
+      ]
+    },
+    {
+      "id": 308969313,
+      "name": "Tsuga",
+      "domain": "tsuga.com",
+      "domains": [
+        "tsuga.com"
+      ]
+    },
+    {
+      "id": 309752513,
+      "name": "Volta Energy",
+      "domain": "volta-energy.com",
+      "domains": [
+        "volta-energy.com"
+      ]
+    },
+    {
+      "id": 309752572,
+      "name": "Submagic",
+      "domain": "submagic.co",
+      "domains": [
+        "submagic.co"
+      ]
+    },
+    {
+      "id": 309752574,
+      "name": "Altegio",
+      "domain": "alteg.io",
+      "domains": [
+        "alteg.io"
+      ]
+    },
+    {
+      "id": 309752593,
+      "name": "primesec",
+      "domain": "primesec.ai",
+      "domains": [
+        "primesec.ai"
+      ]
+    },
+    {
+      "id": 309752614,
+      "name": "Tournated",
+      "domain": "tournated.com",
+      "domains": [
+        "tournated.com"
+      ]
+    },
+    {
+      "id": 309752642,
+      "name": "Forgis",
+      "domain": "forgis.com",
+      "domains": [
+        "forgis.com"
+      ]
+    },
+    {
+      "id": 310605973,
+      "name": "Delos",
+      "domain": "delos.so",
+      "domains": [
+        "delos.so"
+      ]
+    },
+    {
+      "id": 310606049,
+      "name": "Mathew",
+      "domain": "mathew.ai",
+      "domains": [
+        "mathew.ai"
+      ]
+    },
+    {
+      "id": 311186480,
+      "name": "Glacier",
+      "domain": "glacier.eco",
+      "domains": [
+        "glacier.eco"
+      ]
+    },
+    {
+      "id": 311186539,
+      "name": "Kenko - la mutuelle des salariés, simple et personnalisée",
+      "domain": "kenko.fr",
+      "domains": [
+        "kenko.fr"
+      ]
+    },
+    {
+      "id": 311186564,
+      "name": "fore ai",
+      "domain": "foreai.co",
+      "domains": [
+        "foreai.co"
+      ]
+    },
+    {
+      "id": 311186664,
+      "name": "Rizlum AI",
+      "domain": "rizlum.ai",
+      "domains": [
+        "rizlum.ai"
+      ]
+    },
+    {
+      "id": 311186678,
+      "name": "COTINGA",
+      "domain": "cotinga.com",
+      "domains": [
+        "cotinga.com"
+      ]
+    },
+    {
+      "id": 311600950,
+      "name": "Gemineers",
+      "domain": "gemineers.com",
+      "domains": [
+        "gemineers.com"
+      ]
+    },
+    {
+      "id": 311601032,
+      "name": "Sentient",
+      "domain": "sentientplus.com",
+      "domains": [
+        "sentientplus.com"
+      ]
+    },
+    {
+      "id": 311601066,
+      "name": "Didero",
+      "domain": "didero.ai",
+      "domains": [
+        "didero.ai"
+      ]
+    },
+    {
+      "id": 311601175,
+      "name": "Mantic",
+      "domain": "mantic.com",
+      "domains": [
+        "mantic.com"
+      ]
+    },
+    {
+      "id": 311601192,
+      "name": "Agaton",
+      "domain": "agaton.ai",
+      "domains": [
+        "agaton.ai",
+        "withastrid.ai"
+      ]
+    },
+    {
+      "id": 311995619,
+      "name": "B2Wise",
+      "domain": "b2wise.com",
+      "domains": [
+        "b2wise.com"
+      ]
+    },
+    {
+      "id": 311995834,
+      "name": "Onyx Security",
+      "domain": "onyx.security",
+      "domains": [
+        "onyx.security"
+      ]
+    },
+    {
+      "id": 312097273,
+      "name": "SeeChange",
+      "domain": "seechange.ai",
+      "domains": [
+        "seechange.ai",
+        "seechange.com"
+      ]
+    },
+    {
+      "id": 312444852,
+      "name": "Juno",
+      "domain": "juno.legal",
+      "domains": [
+        "juno.legal"
+      ]
+    },
+    {
+      "id": 312445010,
+      "name": "Boxly",
+      "domain": "boxly.ai",
+      "domains": [
+        "boxly.ai"
+      ]
+    },
+    {
+      "id": 312716308,
+      "name": "Clarus Software Limited",
+      "domain": "claruswms.com",
+      "domains": [
+        "claruswms.com",
+        "claruswms.co.uk"
+      ]
+    },
+    {
+      "id": 312898497,
+      "name": "Claviate",
+      "domain": "claviate.com",
+      "domains": [
+        "claviate.com"
+      ]
+    },
+    {
+      "id": 312898559,
+      "name": "beebolt",
+      "domain": "beebolt.com",
+      "domains": [
+        "beebolt.com"
+      ]
+    }
+  ]
+}
