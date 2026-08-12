@@ -1,0 +1,320 @@
+{
+  "slug": "lifeline",
+  "affinity_company_id": 1553149,
+  "affinity_domain": "lifelineventures.com",
+  "pipeline": [
+    {
+      "id": 313527133,
+      "name": "Hyperion Robotics",
+      "domain": "hyperionrobotics.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 313527205,
+      "name": "CurifyLabs",
+      "domain": "curifylabs.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311891630,
+      "name": "Proteins.1",
+      "domain": "proteins1.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312898547,
+      "name": "Ever",
+      "domain": "evercars.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 312445098,
+      "name": "CRACI Corporation Oy",
+      "domain": "craci.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311439301,
+      "name": "Elea & Lili",
+      "domain": "elealili.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 310556460,
+      "name": "Verda Innovations",
+      "domain": "verda.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 304114783,
+      "name": "Ovido",
+      "domain": "ovido.eu",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 302925232,
+      "name": "Seaber",
+      "domain": "seaber.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 305263425,
+      "name": "Bought",
+      "domain": "bought.app",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 300074839,
+      "name": "In Parallel",
+      "domain": "in-parallel.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 297318444,
+      "name": "Metroc.ai palvelu",
+      "domain": "metroc.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 300074833,
+      "name": "Realm",
+      "domain": "withrealm.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 295908232,
+      "name": "Measurlabs",
+      "domain": "measurlabs.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727581,
+      "name": "Inven",
+      "domain": "inven.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293726955,
+      "name": "Vensum Power",
+      "domain": "vensum.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 295908710,
+      "name": "toddle",
+      "domain": "toddle.dev",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772700,
+      "name": "Synergi",
+      "domain": "synergi.so",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 288957669,
+      "name": "Droppe",
+      "domain": "droppe.fi",
+      "funnel": "Lead"
+    },
+    {
+      "id": 287159593,
+      "name": "mjuk",
+      "domain": "mjukhome.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772104,
+      "name": "Mobal",
+      "domain": "mobal.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770766,
+      "name": "Metacore",
+      "domain": "metacoregames.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765267,
+      "name": "Solar Foods",
+      "domain": "solarfoods.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 287223536,
+      "name": "Veri",
+      "domain": "veristable.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769862,
+      "name": "Flowrite",
+      "domain": "flowrite.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289765985,
+      "name": "ReceiptHero",
+      "domain": "getreceipthero.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765585,
+      "name": "Risk Ledger",
+      "domain": "riskledger.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289768722,
+      "name": "ICEYE",
+      "domain": "iceye.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764724,
+      "name": "Shapr3D",
+      "domain": "shapr3d.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 289764597,
+      "name": "Blok",
+      "domain": "blok.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764481,
+      "name": "Aiven",
+      "domain": "aiven.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761398,
+      "name": "ŌURA",
+      "domain": "ouraring.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 200342759,
+      "name": "Digital Workforce",
+      "domain": "digitalworkforce.fi",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762350,
+      "name": "AREX Markets",
+      "domain": "arex.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289761729,
+      "name": "Kontena",
+      "domain": "kontena.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764316,
+      "name": "Varjo",
+      "domain": "varjo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765337,
+      "name": "Sharetribe",
+      "domain": "sharetribe.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761467,
+      "name": "Umbra",
+      "domain": "umbra3d.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761156,
+      "name": "Enevo",
+      "domain": "enevo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764902,
+      "name": "ZenRobotics",
+      "domain": "zenrobotics.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Petteri Koponen",
+      "externalEmail": "petteri@lifelineventures.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Timo Ahopelto",
+      "externalEmail": "timo@lifelineventures.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Tuomo Vähäpassi",
+      "externalEmail": "tuomo.vahapassi@lifeline-spac1.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Mikko Vesterinen",
+      "externalEmail": "mikko.vesterinen@lifeline-spac1.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Juha Lindfors",
+      "externalEmail": "juha@lifelineventures.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Juha Lindfors",
+      "externalEmail": "juha@lifelineventures.com",
+      "score": 0.76,
+      "linkedin": false
+    },
+    {
+      "internal": "Isabel Wright",
+      "external": "Saana Sairanen",
+      "externalEmail": "saana@lifelineventures.com",
+      "score": 0.57,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Saana Sairanen",
+      "externalEmail": "saana@lifelineventures.com",
+      "score": 0.49,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Rilla Saukkonen",
+      "externalEmail": "rilla@lifelineventures.com",
+      "score": 0.45,
+      "linkedin": false
+    },
+    {
+      "internal": "Tom Neuberger",
+      "external": "Petteri Koponen",
+      "externalEmail": "petteri@lifelineventures.com",
+      "score": 0.35,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A totalCount 36; Query B keyword totalCount 40. All A entries contained in B; the 4 keyword-only extras (Proteins.1, Ovido, Metacore, Risk Ledger) all carry genuine Lifeline Ventures investor mentions (combined-string or case variants). No duplicate entities."
+}

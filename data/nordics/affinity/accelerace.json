@@ -1,0 +1,10 @@
+{
+  "slug": "accelerace",
+  "affinity_company_id": 1597171,
+  "affinity_domain": "accelerace.io",
+  "pipeline": [
+    {"id": 296915670, "name": "ChurchDesk", "domain": "churchdesk.com", "funnel": "Hard to crack"}
+  ],
+  "relationships": [],
+  "notes": "No relationships and no interaction history (last-contact and first-email both empty) — no dormant block; Highland has never corresponded with Accelerace per Affinity."
+}

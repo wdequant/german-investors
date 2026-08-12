@@ -1,0 +1,698 @@
+{
+  "slug": "creandum",
+  "affinity_company_id": 1519024,
+  "affinity_domain": "creandum.com",
+  "pipeline": [
+    {
+      "id": 1519023,
+      "name": "Xtract",
+      "domain": "xtract.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 1520501,
+      "name": "Videoplaza",
+      "domain": "videoplaza.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 1567393,
+      "name": "iZettle",
+      "domain": "izettle.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 78842939,
+      "name": "Appear TV",
+      "domain": "appeartv.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 152838597,
+      "name": "TaxFix",
+      "domain": "taxfix.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 212160478,
+      "name": "Pleo",
+      "domain": "pleo.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 220137093,
+      "name": "Billie",
+      "domain": "billie.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 225076011,
+      "name": "Klaus",
+      "domain": "klausapp.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 268232585,
+      "name": "kive",
+      "domain": "kive.ai",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 278666987,
+      "name": "Bokio",
+      "domain": "bokio.co.uk",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 284559222,
+      "name": "Monta",
+      "domain": "monta.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 285398724,
+      "name": "Osu",
+      "domain": "payosu.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 286529390,
+      "name": "Bucket",
+      "domain": "bucket.co",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289157069,
+      "name": "Enode",
+      "domain": "enode.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289760007,
+      "name": "Depop",
+      "domain": "depop.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760542,
+      "name": "Omniata",
+      "domain": "omniata.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760768,
+      "name": "Planday",
+      "domain": "planday.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760813,
+      "name": "Clustree",
+      "domain": "clustree.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760943,
+      "name": "KnCMiner",
+      "domain": "kncminer.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761207,
+      "name": "Soundtrack Your Brand",
+      "domain": "soundtrackyourbrand.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289761485,
+      "name": "Vivino",
+      "domain": "vivino.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761625,
+      "name": "Instabridge",
+      "domain": "www2.instabridge.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761870,
+      "name": "Bolt",
+      "domain": "bolt.eu",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761978,
+      "name": "Distribusion Technologies",
+      "domain": "distribusion.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761990,
+      "name": "Cint",
+      "domain": "cint.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762539,
+      "name": "Wrapp",
+      "domain": "wrapp.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762552,
+      "name": "SEON. Fraud Fighters",
+      "domain": "seon.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763216,
+      "name": "Xeneta",
+      "domain": "xeneta.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763311,
+      "name": "Epidemic Sound",
+      "domain": "epidemicsound.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763766,
+      "name": "Tide",
+      "domain": "tide.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763771,
+      "name": "Tictail",
+      "domain": "tictail.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763868,
+      "name": "YuLife",
+      "domain": "yulife.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764291,
+      "name": "8fit",
+      "domain": "8fit.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764386,
+      "name": "Resolution Games",
+      "domain": "resolutiongames.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764563,
+      "name": "Firstvet",
+      "domain": "firstvet.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764724,
+      "name": "Shapr3D",
+      "domain": "shapr3d.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 289764726,
+      "name": "Linas Matkasse",
+      "domain": "linasmatkasse.se",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764805,
+      "name": "Autobutler",
+      "domain": "autobutler.dk",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764892,
+      "name": "Leapsome",
+      "domain": "leapsome.com",
+      "funnel": "Reach Out Now"
+    },
+    {
+      "id": 289765096,
+      "name": "Comtravo",
+      "domain": "comtravo.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289765255,
+      "name": "SafetyWing",
+      "domain": "safetywing.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765264,
+      "name": "Mavenoid",
+      "domain": "mavenoid.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765929,
+      "name": "TWAICE",
+      "domain": "twaice.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766223,
+      "name": "Voi Technology",
+      "domain": "voi.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766246,
+      "name": "Argent",
+      "domain": "argent.xyz",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289766374,
+      "name": "Cake bikes",
+      "domain": "ridecake.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766586,
+      "name": "Good Monday",
+      "domain": "goodmonday.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766679,
+      "name": "Cargo.one",
+      "domain": "cargo.one",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766991,
+      "name": "Trade Republic",
+      "domain": "traderepublic.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767929,
+      "name": "Lokalise",
+      "domain": "lokalise.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768077,
+      "name": "Swan",
+      "domain": "swan.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768168,
+      "name": "Craft",
+      "domain": "craft.do",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768235,
+      "name": "Neo4j",
+      "domain": "neo4j.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768560,
+      "name": "Fitbay",
+      "domain": "fitbay.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289768578,
+      "name": "CAST.AI",
+      "domain": "cast.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768665,
+      "name": "Bokio",
+      "domain": "bokio.se",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769140,
+      "name": "CarOnSale",
+      "domain": "caronsale.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769145,
+      "name": "Kahoot!",
+      "domain": "kahoot.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769168,
+      "name": "Amie",
+      "domain": "amie.so",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289769217,
+      "name": "KRY",
+      "domain": "kry.se",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769273,
+      "name": "Laka",
+      "domain": "laka.co",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769360,
+      "name": "Favro",
+      "domain": "favro.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769489,
+      "name": "Abacum",
+      "domain": "abacum.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769678,
+      "name": "Vue Storefront",
+      "domain": "vuestorefront.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769813,
+      "name": "lemon.markets",
+      "domain": "lemon.markets",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769892,
+      "name": "Dija",
+      "domain": "dijanow.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289770322,
+      "name": "Packfleet",
+      "domain": "packfleet.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289770336,
+      "name": "BetterStack",
+      "domain": "betterstack.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770406,
+      "name": "Passionfroot",
+      "domain": "passionfroot.me",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289770691,
+      "name": "Embat",
+      "domain": "embat.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770852,
+      "name": "Topi",
+      "domain": "topi.eu",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770853,
+      "name": "Mason",
+      "domain": "mason.app",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770986,
+      "name": "Timberhub",
+      "domain": "timberhub.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771848,
+      "name": "Unitary",
+      "domain": "unitary.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772053,
+      "name": "Foresight Works",
+      "domain": "foresight.works",
+      "funnel": "Deal"
+    },
+    {
+      "id": 289772245,
+      "name": "Scarlet",
+      "domain": "scarletcomply.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772371,
+      "name": "Sibill",
+      "domain": "sibill.com",
+      "funnel": "Deal"
+    },
+    {
+      "id": 290592857,
+      "name": "Twirl",
+      "domain": "twirldata.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 291490187,
+      "name": "atla",
+      "domain": "atla-ai.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293726953,
+      "name": "Lindus Health",
+      "domain": "lindushealth.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 293727225,
+      "name": "sereact",
+      "domain": "sereact.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727289,
+      "name": "Kosmik",
+      "domain": "kosmik.app",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729041,
+      "name": "Rillet",
+      "domain": "rillet.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729437,
+      "name": "doinstruct Software",
+      "domain": "doinstruct.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 294012407,
+      "name": "Visibly.",
+      "domain": "visiblyhq.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 294581878,
+      "name": "Fuse Energy",
+      "domain": "fuseenergy.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 294890340,
+      "name": "Lovable",
+      "domain": "lovable.dev",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 295908793,
+      "name": "Appcharge",
+      "domain": "appcharge.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 296365577,
+      "name": "Maisa",
+      "domain": "maisa.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 296509768,
+      "name": "Cerrion",
+      "domain": "cerrion.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 296509780,
+      "name": "Tola",
+      "domain": "usetola.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 296915945,
+      "name": "Capimoney",
+      "domain": "capimoney.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 301135218,
+      "name": "Vocal Ai",
+      "domain": "getvocal.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 301135234,
+      "name": "nexos.ai",
+      "domain": "nexos.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 305263421,
+      "name": "Jack & Jill AI",
+      "domain": "jackandjill.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 306306576,
+      "name": "Superscale",
+      "domain": "superscale.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 306306635,
+      "name": "Conduct AI Ltd.",
+      "domain": "conduct.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 308453808,
+      "name": "Junction",
+      "domain": "junction.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 308453833,
+      "name": "Vesence",
+      "domain": "vesence.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 308969324,
+      "name": "Spiich",
+      "domain": "spiich.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311601111,
+      "name": "hostedai",
+      "domain": "hosted.ai",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 312541120,
+      "name": "plancraft",
+      "domain": "plancraft.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 313469843,
+      "name": "Kurrent",
+      "domain": "kurrent.io",
+      "funnel": "Pre-lead"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Simon Schmincke",
+      "externalEmail": "simon@creandum.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Ellen Lee",
+      "externalEmail": "ellen@creandum.com",
+      "score": 1.00,
+      "linkedin": false
+    },
+    {
+      "internal": "Tyrone Tee",
+      "external": "Cameron Sellers",
+      "externalEmail": "cameron.sellers@creandum.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Carl Fritjofsson",
+      "externalEmail": "carl@creandum.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Isabelle Sandblom",
+      "externalEmail": "isabelle@creandum.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Beatrice Rellman",
+      "externalEmail": "beatrice@creandum.com",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Alex Lunnon",
+      "externalEmail": "alex@fleet.co",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Karim Jalbout",
+      "externalEmail": "kjalbout@googlemail.com",
+      "score": 0.96,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Carl Fritjofsson",
+      "externalEmail": "carl@creandum.com",
+      "score": 0.95,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Beatrice Rellman",
+      "externalEmail": "beatrice@creandum.com",
+      "score": 0.95,
+      "linkedin": false
+    }
+  ],
+  "notes": "Query A totalCount 97; Query B keyword totalCount 107 (2 pages). All 97 exact-Creandum entries contained in B; every B entry carries a Creandum investor value. Union deduped 107 to 103 unique companies (Xtract, Cint, Argent, Kurrent each had two list entries; kept latest createdAt, all non-null funnel)."
+}
