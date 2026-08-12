@@ -1,0 +1,93 @@
+[
+ {
+  "name": "Stan",
+  "full": "Stan Laurent",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16473"
+ },
+ {
+  "name": "Tony Zappala",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16474"
+ },
+ {
+  "name": "Gaj Rajanathan",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16475"
+ },
+ {
+  "name": "Jean Tardy-Joubert",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16476"
+ },
+ {
+  "name": "Irena Goldenberg",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16478"
+ },
+ {
+  "name": "Sam Brooks",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16471"
+ },
+ {
+  "name": "David Blyghton",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16472"
+ },
+ {
+  "name": "Jacob Bernstein",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:16133"
+ },
+ {
+  "name": "Helena Richardson",
+  "role": "partner",
+  "user_urn": "urn:harmonic:user:14809"
+ },
+ {
+  "name": "Tom Neuberger",
+  "role": "senior",
+  "user_urn": "urn:harmonic:user:14095"
+ },
+ {
+  "name": "Eoghan Dorman",
+  "role": "senior",
+  "user_urn": "urn:harmonic:user:14810"
+ },
+ {
+  "name": "Harry Williams",
+  "role": "senior",
+  "user_urn": "urn:harmonic:user:16137"
+ },
+ {
+  "name": "Lucinda Maxwell",
+  "role": "associate",
+  "user_urn": "urn:harmonic:user:14097"
+ },
+ {
+  "name": "Aude Flecchia",
+  "role": "associate",
+  "user_urn": "urn:harmonic:user:21032"
+ },
+ {
+  "name": "Tyrone Tee",
+  "role": "associate",
+  "user_urn": "urn:harmonic:user:21031"
+ },
+ {
+  "name": "Efosa Ayanru",
+  "role": "associate",
+  "user_urn": "urn:harmonic:user:14096"
+ },
+ {
+  "name": "Will de Quant",
+  "role": "associate",
+  "user_urn": "urn:harmonic:user:16136"
+ },
+ {
+  "name": "Samuel Meijer",
+  "role": "analyst",
+  "user_urn": "urn:harmonic:user:20266"
+ }
+]

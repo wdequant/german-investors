@@ -1,0 +1,138 @@
+[
+ {
+  "urn": "urn:harmonic:investor:157899",
+  "name": "HV",
+  "companies": [
+   "urn:harmonic:company:1763",
+   "urn:harmonic:company:2242532",
+   "urn:harmonic:company:437313",
+   "urn:harmonic:company:1449357"
+  ],
+  "company_names": [
+   "n8n",
+   "Nabla",
+   "OUTFITTERY",
+   "Wooga"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:133306",
+  "name": "HTGF | High-Tech Gründerfonds",
+  "companies": [
+   "urn:harmonic:company:36487183",
+   "urn:harmonic:company:437313",
+   "urn:harmonic:company:1454463"
+  ],
+  "company_names": [
+   "EGYM",
+   "OUTFITTERY",
+   "JUNIQE"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:134249",
+  "name": "Atlantic",
+  "companies": [
+   "urn:harmonic:company:2138697",
+   "urn:harmonic:company:784939"
+  ],
+  "company_names": [
+   "GetYourGuide",
+   "Meditopia"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:165531",
+  "name": "Dieter von Holtzbrinck Ventures",
+  "companies": [
+   "urn:harmonic:company:437313",
+   "urn:harmonic:company:1449357"
+  ],
+  "company_names": [
+   "OUTFITTERY",
+   "Wooga"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:165740",
+  "name": "Acton Capital",
+  "companies": [
+   "urn:harmonic:company:703771",
+   "urn:harmonic:company:1553351"
+  ],
+  "company_names": [
+   "SoSafe",
+   "Finanzcheck.de"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:169728",
+  "name": "Possible Ventures",
+  "companies": [
+   "urn:harmonic:company:4296427"
+  ],
+  "company_names": [
+   "Podimo"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:142901",
+  "name": "GV",
+  "companies": [
+   "urn:harmonic:company:3245781"
+  ],
+  "company_names": [
+   "Nothing"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:165163",
+  "name": "Bayern Kapital",
+  "companies": [
+   "urn:harmonic:company:36487183"
+  ],
+  "company_names": [
+   "EGYM"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:238928",
+  "name": "CommerzVentures",
+  "companies": [
+   "urn:harmonic:company:1464637"
+  ],
+  "company_names": [
+   "FINBOURNE"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:244979",
+  "name": "Vorwerk Ventures",
+  "companies": [
+   "urn:harmonic:company:1454463"
+  ],
+  "company_names": [
+   "JUNIQE"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:171491",
+  "name": "IBB Ventures",
+  "companies": [
+   "urn:harmonic:company:437313"
+  ],
+  "company_names": [
+   "OUTFITTERY"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:131890",
+  "name": "Global Founders Capital",
+  "companies": [
+   "urn:harmonic:company:703771"
+  ],
+  "company_names": [
+   "SoSafe"
+  ]
+ }
+]
