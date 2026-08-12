@@ -16,7 +16,8 @@
     "entry_stage_focus": "SERIES_A,SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "MULTI_FOCUS",
-    "name": "Global Founders Capital"
+    "name": "Global Founders Capital",
+    "europe_share": 30.9
   },
   {
     "urn": "urn:harmonic:investor:133306",
@@ -35,7 +36,8 @@
     "entry_stage_focus": "SEED,PRE_SEED",
     "sector_focus": "Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "Germany",
-    "name": "HTGF | High-Tech Gründerfonds"
+    "name": "HTGF | High-Tech Gründerfonds",
+    "europe_share": 97.0
   },
   {
     "urn": "urn:harmonic:investor:157899",
@@ -54,7 +56,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "HV Capital"
+    "name": "HV Capital",
+    "europe_share": 87.1
   },
   {
     "urn": "urn:harmonic:investor:121064",
@@ -73,7 +76,8 @@
     "entry_stage_focus": "PRE_SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "Earlybird Venture Capital"
+    "name": "Earlybird Venture Capital",
+    "europe_share": 76.2
   },
   {
     "urn": "urn:harmonic:investor:199053",
@@ -92,7 +96,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "MULTI_FOCUS",
-    "name": "Point Nine"
+    "name": "Point Nine",
+    "europe_share": 64.2
   },
   {
     "urn": "urn:harmonic:investor:225907",
@@ -111,7 +116,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "United States",
-    "name": "468 Capital"
+    "name": "468 Capital",
+    "europe_share": 33.5
   },
   {
     "urn": "urn:harmonic:investor:217558",
@@ -130,7 +136,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "MULTI_FOCUS",
-    "name": "Picus Capital"
+    "name": "Picus Capital",
+    "europe_share": 48.0
   },
   {
     "urn": "urn:harmonic:investor:228370",
@@ -149,7 +156,8 @@
     "entry_stage_focus": "SEED,PRE_SEED",
     "sector_focus": "Communications & Information Technology,Business Services",
     "country_focus": "MULTI_FOCUS",
-    "name": "Cherry Ventures"
+    "name": "Cherry Ventures",
+    "europe_share": 83.6
   },
   {
     "urn": "urn:harmonic:investor:142901",
@@ -168,7 +176,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "United States",
-    "name": "GV (data-quality flag: likely mis-mapped record)"
+    "name": "GV (data-quality flag: likely mis-mapped record)",
+    "europe_share": 9.7
   },
   {
     "urn": "urn:harmonic:investor:165163",
@@ -187,7 +196,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "Germany",
-    "name": "Bayern Kapital"
+    "name": "Bayern Kapital",
+    "europe_share": 98.5
   },
   {
     "urn": "urn:harmonic:investor:201430",
@@ -206,7 +216,8 @@
     "entry_stage_focus": "SEED,PRE_SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "United Kingdom",
-    "name": "Project A"
+    "name": "Project A",
+    "europe_share": 82.2
   },
   {
     "urn": "urn:harmonic:investor:171491",
@@ -225,7 +236,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Consumer Products & Services,Business Services",
     "country_focus": "Germany",
-    "name": "IBB Ventures"
+    "name": "IBB Ventures",
+    "europe_share": 98.2
   },
   {
     "urn": "urn:harmonic:investor:134249",
@@ -244,7 +256,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "Atlantic Labs"
+    "name": "Atlantic Labs",
+    "europe_share": 92.2
   },
   {
     "urn": "urn:harmonic:investor:230004",
@@ -263,7 +276,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Financial Services,Media & Entertainment",
     "country_focus": "United States",
-    "name": "1kx"
+    "name": "1kx",
+    "europe_share": 24.5
   },
   {
     "urn": "urn:harmonic:investor:157091",
@@ -282,7 +296,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Consumer Products & Services,Life Sciences & Healthcare,Education & Research",
     "country_focus": "United States",
-    "name": "TA Ventures"
+    "name": "TA Ventures",
+    "europe_share": 46.2
   },
   {
     "urn": "urn:harmonic:investor:191261",
@@ -301,7 +316,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Business Services",
     "country_focus": "United States",
-    "name": "Rocket Internet SE"
+    "name": "Rocket Internet SE",
+    "europe_share": 56.0
   },
   {
     "urn": "urn:harmonic:investor:208196",
@@ -320,7 +336,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "MULTI_FOCUS",
-    "name": "Redstone"
+    "name": "Redstone",
+    "europe_share": 88.4
   },
   {
     "urn": "urn:harmonic:investor:130466",
@@ -339,7 +356,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "United States",
-    "name": "Bosch Ventures"
+    "name": "Bosch Ventures",
+    "europe_share": 40.0
   },
   {
     "urn": "urn:harmonic:investor:131396",
@@ -358,7 +376,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "United States",
-    "name": "BlueYard Capital"
+    "name": "BlueYard Capital",
+    "europe_share": 47.4
   },
   {
     "urn": "urn:harmonic:investor:169728",
@@ -377,7 +396,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Energy & Utilities,Materials,Life Sciences & Healthcare",
     "country_focus": "Germany",
-    "name": "Possible Ventures"
+    "name": "Possible Ventures",
+    "europe_share": 60.6
   },
   {
     "urn": "urn:harmonic:investor:228365",
@@ -396,7 +416,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Social Impact,Agriculture",
     "country_focus": "Germany",
-    "name": "Capnamic"
+    "name": "Capnamic",
+    "europe_share": 93.2
   },
   {
     "urn": "urn:harmonic:investor:164975",
@@ -415,7 +436,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing,Energy & Utilities",
     "country_focus": "Germany",
-    "name": "UVC Partners"
+    "name": "UVC Partners",
+    "europe_share": 95.5
   },
   {
     "urn": "urn:harmonic:investor:216669",
@@ -434,7 +456,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "Angel Invest"
+    "name": "Angel Invest",
+    "europe_share": 82.3
   },
   {
     "urn": "urn:harmonic:investor:194546",
@@ -453,7 +476,8 @@
     "entry_stage_focus": "SEED,SERIES_A",
     "sector_focus": "Life Sciences & Healthcare,Materials",
     "country_focus": "Germany",
-    "name": "MIG Capital"
+    "name": "MIG Capital",
+    "europe_share": 92.7
   },
   {
     "urn": "urn:harmonic:investor:165740",
@@ -472,7 +496,8 @@
     "entry_stage_focus": "SERIES_B,SERIES_A",
     "sector_focus": "Business Services,Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "France",
-    "name": "Acton Capital"
+    "name": "Acton Capital",
+    "europe_share": 79.1
   },
   {
     "urn": "urn:harmonic:investor:236531",
@@ -491,7 +516,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Business Services,Financial Services,Real Estate & Construction",
     "country_focus": "France",
-    "name": "Foundamental"
+    "name": "Foundamental",
+    "europe_share": 27.8
   },
   {
     "urn": "urn:harmonic:investor:330804",
@@ -510,7 +536,8 @@
     "entry_stage_focus": "SEED,PRE_SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "NAP (New Amsterdam Partners)"
+    "name": "NAP (New Amsterdam Partners)",
+    "europe_share": 89.4
   },
   {
     "urn": "urn:harmonic:investor:196391",
@@ -529,7 +556,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Consumer Products & Services,Life Sciences & Healthcare",
     "country_focus": "Germany",
-    "name": "FoodLabs"
+    "name": "FoodLabs",
+    "europe_share": 88.3
   },
   {
     "urn": "urn:harmonic:investor:220500",
@@ -548,7 +576,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "10x Founders"
+    "name": "10x Founders",
+    "europe_share": 69.8
   },
   {
     "urn": "urn:harmonic:investor:165531",
@@ -567,7 +596,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Life Sciences & Healthcare,Consumer Products & Services",
     "country_focus": "Germany",
-    "name": "Dieter von Holtzbrinck Ventures"
+    "name": "Dieter von Holtzbrinck Ventures",
+    "europe_share": 92.1
   },
   {
     "urn": "urn:harmonic:investor:244979",
@@ -586,7 +616,8 @@
     "entry_stage_focus": "PRE_SEED",
     "sector_focus": "Life Sciences & Healthcare,Communications & Information Technology,Consumer Products & Services",
     "country_focus": "Germany",
-    "name": "Vorwerk Ventures"
+    "name": "Vorwerk Ventures",
+    "europe_share": 97.7
   },
   {
     "urn": "urn:harmonic:investor:163755",
@@ -605,7 +636,8 @@
     "entry_stage_focus": "SEED,PRE_SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "United Kingdom",
-    "name": "Fly Ventures"
+    "name": "Fly Ventures",
+    "europe_share": 84.1
   },
   {
     "urn": "urn:harmonic:investor:160350",
@@ -624,7 +656,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Life Sciences & Healthcare,Communications & Information Technology,Agriculture,Cybersecurity,Business Services,Industrial & Manufacturing",
     "country_focus": "Austria,United States",
-    "name": "SquareOne Venture Capital"
+    "name": "SquareOne Venture Capital",
+    "europe_share": 83.1
   },
   {
     "urn": "urn:harmonic:investor:261629",
@@ -643,7 +676,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing,Energy & Utilities",
     "country_focus": "United States",
-    "name": "Hitachi Ventures"
+    "name": "Hitachi Ventures",
+    "europe_share": 24.1
   },
   {
     "urn": "urn:harmonic:investor:238928",
@@ -662,7 +696,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Financial Services,Communications & Information Technology,Business Services",
     "country_focus": "United Kingdom",
-    "name": "CommerzVentures"
+    "name": "CommerzVentures",
+    "europe_share": 72.0
   },
   {
     "urn": "urn:harmonic:investor:123296",
@@ -681,7 +716,8 @@
     "entry_stage_focus": "M_AND_A,SEED",
     "sector_focus": "Media & Entertainment,Real Estate & Construction,Communications & Information Technology",
     "country_focus": "United States",
-    "name": "Axel Springer"
+    "name": "Axel Springer",
+    "europe_share": 48.1
   },
   {
     "urn": "urn:harmonic:investor:142367",
@@ -700,7 +736,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Media & Entertainment,Business Services",
     "country_focus": "Spain,Germany",
-    "name": "Cusp Capital"
+    "name": "Cusp Capital",
+    "europe_share": 75.3
   },
   {
     "urn": "urn:harmonic:investor:147503",
@@ -719,7 +756,8 @@
     "entry_stage_focus": "M_AND_A,PRE_SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing",
     "country_focus": "MULTI_FOCUS",
-    "name": "Siemens"
+    "name": "Siemens",
+    "europe_share": 33.7
   },
   {
     "urn": "urn:harmonic:investor:246416",
@@ -738,7 +776,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing,Life Sciences & Healthcare,Business Services",
     "country_focus": "Germany,Ireland",
-    "name": "Senovo"
+    "name": "Senovo",
+    "europe_share": 79.7
   },
   {
     "urn": "urn:harmonic:investor:207221",
@@ -757,7 +796,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Industrial & Manufacturing,Financial Services",
     "country_focus": "United States",
-    "name": "Porsche Ventures"
+    "name": "Porsche Ventures",
+    "europe_share": 36.1
   },
   {
     "urn": "urn:harmonic:investor:211595",
@@ -776,7 +816,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing",
     "country_focus": "MULTI_FOCUS",
-    "name": "Vsquared Ventures"
+    "name": "Vsquared Ventures",
+    "europe_share": 83.6
   },
   {
     "urn": "urn:harmonic:investor:192348",
@@ -795,7 +836,8 @@
     "entry_stage_focus": "SEED,SERIES_A_EXTENSION,PRE_SEED",
     "sector_focus": "Financial Services,Communications & Information Technology,Consumer Products & Services",
     "country_focus": "United States",
-    "name": "Moonrock Capital"
+    "name": "Moonrock Capital",
+    "europe_share": 34.8
   },
   {
     "urn": "urn:harmonic:investor:160700",
@@ -814,7 +856,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Transportation & Logistics,Industrial & Manufacturing",
     "country_focus": "Germany",
-    "name": "Matterwave Ventures"
+    "name": "Matterwave Ventures",
+    "europe_share": 98.5
   },
   {
     "urn": "urn:harmonic:investor:151955",
@@ -833,7 +876,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Media & Entertainment,Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "STS Ventures"
+    "name": "STS Ventures",
+    "europe_share": 93.3
   },
   {
     "urn": "urn:harmonic:investor:235168",
@@ -852,7 +896,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Consumer Products & Services",
     "country_focus": "Germany",
-    "name": "Burda Principal Investments"
+    "name": "Burda Principal Investments",
+    "europe_share": 53.1
   },
   {
     "urn": "urn:harmonic:investor:21701",
@@ -871,7 +916,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "MULTI_FOCUS",
-    "name": "Mario Götze"
+    "name": "Mario Götze",
+    "europe_share": 78.2
   },
   {
     "urn": "urn:harmonic:investor:214532",
@@ -890,7 +936,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Consumer Products & Services,Industrial & Manufacturing,Government & Public Sector",
     "country_focus": "Spain,Germany",
-    "name": "10x Group"
+    "name": "10x Group",
+    "europe_share": 41.8
   },
   {
     "urn": "urn:harmonic:investor:239499",
@@ -909,7 +956,8 @@
     "entry_stage_focus": "SERIES_A,SEED",
     "sector_focus": "Communications & Information Technology,Business Services,Cybersecurity",
     "country_focus": "Germany",
-    "name": "Alstin Capital"
+    "name": "Alstin Capital",
+    "europe_share": 89.8
   },
   {
     "urn": "urn:harmonic:investor:171606",
@@ -928,7 +976,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Business Services,Communications & Information Technology,Business services",
     "country_focus": "Germany",
-    "name": "Discovery Ventures"
+    "name": "Discovery Ventures",
+    "europe_share": 79.2
   },
   {
     "urn": "urn:harmonic:investor:171982",
@@ -947,7 +996,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Energy & Utilities,Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "AENU"
+    "name": "AENU",
+    "europe_share": 81.1
   },
   {
     "urn": "urn:harmonic:investor:191480",
@@ -966,7 +1016,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Real Estate & Construction,Communications & Information Technology,Industrial & Manufacturing",
     "country_focus": "Austria",
-    "name": "Capmont Technology"
+    "name": "Capmont Technology",
+    "europe_share": 81.6
   },
   {
     "urn": "urn:harmonic:investor:192737",
@@ -985,7 +1036,8 @@
     "entry_stage_focus": "PRE_SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing,Cybersecurity,Business Services",
     "country_focus": "Germany",
-    "name": "D11Z. Ventures"
+    "name": "D11Z. Ventures",
+    "europe_share": 94.0
   },
   {
     "urn": "urn:harmonic:investor:145025",
@@ -1004,7 +1056,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Life Sciences & Healthcare,Communications & Information Technology",
     "country_focus": "MULTI_FOCUS",
-    "name": "Bertelsmann Investments"
+    "name": "Bertelsmann Investments",
+    "europe_share": 35.3
   },
   {
     "urn": "urn:harmonic:investor:228918",
@@ -1023,7 +1076,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Life Sciences & Healthcare,Communications & Information Technology,Consumer Products & Services",
     "country_focus": "United Kingdom,Germany",
-    "name": "Lunar Ventures"
+    "name": "Lunar Ventures",
+    "europe_share": 70.5
   },
   {
     "urn": "urn:harmonic:investor:233900",
@@ -1042,7 +1096,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology",
     "country_focus": "MULTI_FOCUS",
-    "name": "another.vc"
+    "name": "another.vc",
+    "europe_share": 93.2
   },
   {
     "urn": "urn:harmonic:investor:192238",
@@ -1061,7 +1116,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Financial Services,Media & Entertainment,Business Services,Hospitality & Tourism,Communications & Information Technology",
     "country_focus": "United Arab Emirates,United States",
-    "name": "X Ventures"
+    "name": "X Ventures",
+    "europe_share": 51.4
   },
   {
     "urn": "urn:harmonic:investor:215973",
@@ -1080,7 +1136,8 @@
     "entry_stage_focus": "SEED,PRE_SEED",
     "sector_focus": "Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "United States,Switzerland",
-    "name": "Amino Collective"
+    "name": "Amino Collective",
+    "europe_share": 70.5
   },
   {
     "urn": "urn:harmonic:investor:177539",
@@ -1099,7 +1156,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Financial Services",
     "country_focus": "United States",
-    "name": "Inflection.xyz"
+    "name": "Inflection.xyz",
+    "europe_share": 58.1
   },
   {
     "urn": "urn:harmonic:investor:186187",
@@ -1118,7 +1176,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Social Impact,Industrial & Manufacturing,Education & Research,Materials,Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "SB21"
+    "name": "SB21",
+    "europe_share": 100.0
   },
   {
     "urn": "urn:harmonic:investor:192906",
@@ -1137,7 +1196,8 @@
     "entry_stage_focus": "SERIES_A,SEED",
     "sector_focus": "Consumer Products & Services,Agriculture",
     "country_focus": "Germany",
-    "name": "Simon Capital"
+    "name": "Simon Capital",
+    "europe_share": 94.4
   },
   {
     "urn": "urn:harmonic:investor:234405",
@@ -1156,7 +1216,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing,Energy & Utilities,Materials",
     "country_focus": "MULTI_FOCUS",
-    "name": "World Fund"
+    "name": "World Fund",
+    "europe_share": 91.7
   },
   {
     "urn": "urn:harmonic:investor:124523",
@@ -1175,7 +1236,8 @@
     "entry_stage_focus": "SERIES_C,SERIES_A",
     "sector_focus": "Communications & Information Technology,Industrial & Manufacturing,Life sciences & healthcare,Social Impact,Industrial and manufacturing,Transportation & Logistics",
     "country_focus": "Germany,United Kingdom",
-    "name": "Bosch"
+    "name": "Bosch",
+    "europe_share": 27.0
   },
   {
     "urn": "urn:harmonic:investor:142342",
@@ -1194,7 +1256,8 @@
     "entry_stage_focus": "SERIES_C,SERIES_A",
     "sector_focus": "Financial Services,Communications & Information Technology",
     "country_focus": "United States,Denmark",
-    "name": "Deutsche Börse"
+    "name": "Deutsche Börse",
+    "europe_share": 57.1
   },
   {
     "urn": "urn:harmonic:investor:234829",
@@ -1213,7 +1276,8 @@
     "entry_stage_focus": "PRE_SEED",
     "sector_focus": "Life Sciences & Healthcare",
     "country_focus": "Switzerland,Germany",
-    "name": "OCCIDENT"
+    "name": "OCCIDENT",
+    "europe_share": 100.0
   },
   {
     "urn": "urn:harmonic:investor:140468",
@@ -1232,7 +1296,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Energy & Utilities,Social Impact,Transportation & Logistics",
     "country_focus": "Germany",
-    "name": "kopa ventures"
+    "name": "kopa ventures",
+    "europe_share": 100.0
   },
   {
     "urn": "urn:harmonic:investor:2865",
@@ -1251,7 +1316,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Consumer Products & Services,Life Sciences & Healthcare",
     "country_focus": "Germany,United Kingdom",
-    "name": "Hanno Renner (Personio)"
+    "name": "Hanno Renner (Personio)",
+    "europe_share": 90.3
   },
   {
     "urn": "urn:harmonic:investor:240132",
@@ -1270,7 +1336,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Consumer Products & Services,Social Impact,Energy & Utilities",
     "country_focus": "United States,United Kingdom",
-    "name": "DöhlerGroup"
+    "name": "DöhlerGroup",
+    "europe_share": 61.3
   },
   {
     "urn": "urn:harmonic:investor:228921",
@@ -1289,7 +1356,8 @@
     "entry_stage_focus": "PRE_SEED",
     "sector_focus": "Communications & Information Technology,Life Sciences & Healthcare",
     "country_focus": "Germany",
-    "name": "Merantix Capital"
+    "name": "Merantix Capital",
+    "europe_share": 93.5
   },
   {
     "urn": "urn:harmonic:investor:175662",
@@ -1308,7 +1376,8 @@
     "entry_stage_focus": "SEED,SERIES_A",
     "sector_focus": "Communications & Information Technology,Transportation & Logistics",
     "country_focus": "Germany",
-    "name": "Heliad"
+    "name": "Heliad",
+    "europe_share": 83.9
   },
   {
     "urn": "urn:harmonic:investor:387858",
@@ -1327,7 +1396,8 @@
     "entry_stage_focus": "SERIES_A,SEED",
     "sector_focus": "Communications & Information Technology,Transportation & Logistics,Consumer Products & Services,Social Impact,Media & Entertainment,Real Estate & Construction,Hospitality & Tourism",
     "country_focus": "Germany",
-    "name": "Reimann Investors"
+    "name": "Reimann Investors",
+    "europe_share": 96.8
   },
   {
     "urn": "urn:harmonic:investor:130115",
@@ -1346,7 +1416,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Communications & Information Technology,Cybersecurity,Industrial & Manufacturing,Consulting",
     "country_focus": "Ireland,United States",
-    "name": "System.One"
+    "name": "System.One",
+    "europe_share": 72.4
   },
   {
     "urn": "urn:harmonic:investor:146338",
@@ -1365,7 +1436,8 @@
     "entry_stage_focus": "SEED",
     "sector_focus": "Industrial & Manufacturing,Industrial and manufacturing,Communications & Information Technology,Energy & Utilities,Energy and utilities",
     "country_focus": "Germany",
-    "name": "FinLab AG"
+    "name": "FinLab AG",
+    "europe_share": 79.3
   },
   {
     "urn": "urn:harmonic:investor:248078",
@@ -1384,7 +1456,8 @@
     "entry_stage_focus": "SERIES_A",
     "sector_focus": "Business Services,Communications & Information Technology",
     "country_focus": "Germany",
-    "name": "Julius Göllner (ARRtist)"
+    "name": "Julius Göllner (ARRtist)",
+    "europe_share": 100.0
   },
   {
     "urn": "urn:harmonic:investor:39935",
@@ -1403,6 +1476,7 @@
     "entry_stage_focus": "PRE_SEED",
     "sector_focus": "Transportation & Logistics,Industrial & Manufacturing,Cybersecurity",
     "country_focus": "Germany",
-    "name": "Matthias Hilpert (MH2 Capital)"
+    "name": "Matthias Hilpert (MH2 Capital)",
+    "europe_share": 92.0
   }
 ]

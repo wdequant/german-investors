@@ -143,11 +143,10 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 
 <p class="note"><b>Method.</b> Universe: top 30 of the 74-investor Harmonic saved search by
 ½·investments + ½·unicorns (normalised), plus Alstin (added manually) and nine angels resolved in
-Harmonic. Relevance = stage fit 30 · sector fit 30 · activity 20 · graduation 20. Coverage = 55%
+Harmonic. Relevance = stage fit 25 · sector fit 25 · Europe portfolio share 20 · activity 15 · graduation 15. Coverage = 55%
 Harmonic team-network (contact seniority × email/calendar evidence) + 45% Affinity partnership
 relationships (incl. Laurence, Fergal, Ronan). Pipeline chips = companies in the Highland Companies
-list whose investor set includes the fund or its vehicles; Lead includes Qualified Lead and Deal;
-passed/deprioritised sit in the drill-down only. Dormant ties (⏱) are real interaction histories whose Affinity score has decayed to zero — they floor the coverage score and are shown as re-warmable paths. Percentages are Affinity interaction scores; names
+list whose investor set includes the fund or its vehicles; Lead includes Qualified Lead and Deal; passed and deprioritised companies are excluded throughout. Dormant ties (⏱) are real interaction histories whose Affinity score has decayed to zero — they floor the coverage score and are shown as re-warmable paths. Percentages are Affinity interaction scores; names
 link to LinkedIn, companies to Affinity. Angel pipeline matching includes known vehicles
 (Companion-M, Interface Capital, MH2) — Affinity's investor enrichment still under-captures angel
 tickets, so treat angel overlap as a floor.</p>
@@ -233,11 +232,11 @@ function detailHTML(e){
   let h='';
   if(e.kind==='fund'){
     const r=e.relevance;
-    h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · activity ${r.activity} · graduation ${r.grad})
+    h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · Europe ${r.geo} at ${Math.round(r.europe)}% · activity ${r.activity} · graduation ${r.grad})
       · ${e.num_investments??'—'} investments · ${e.unicorns??0} unicorns · last investment ${e.last_investment||'—'}
       ${e.coinvest.length?` · <b style="color:var(--covered-ink)">co-invested:</b> ${e.coinvest.join(', ')}`:''}</div>`;
   }
-  const secs = [...BUCKETS,["portfolio","Portfolio company"],["closed","Passed / deprioritised"]];
+  const secs = [...BUCKETS,["portfolio","Portfolio company"]];
   let any=false;
   for(const [k,label] of secs){
     const list=e.buckets[k]; if(!list||!list.length) continue; any=true;
@@ -246,16 +245,16 @@ function detailHTML(e){
   }
   if(!any) h += `<h5>Pipeline overlap</h5><div class="meta-line">None of their portfolio is in our pipeline list.</div>`;
   if(e.dormant) h += `<h5>Dormant tie</h5><div class="meta-line">⏱ ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last touch ${e.dormant.last}).</div>`;
-  if(e.cells){
-    const best = D.team.map(m=>({m,c:e.cells[m.name]})).filter(x=>x.c.score>0).sort((a,b)=>b.c.score-a.c.score);
-    if(best.length){
-      h += `<h5>Harmonic network, by team member</h5><div class="tmcols">`+best.map(({m,c})=>
-        `<div class="tm"><h6>${m.name} <span style="color:var(--muted)">(${c.score})</span></h6>`+
-        c.contacts.map(k=>{
+  if(e.top_people && e.top_people.length){
+    h += `<h5>Best Highland coverage</h5><div class="tmcols">`+e.top_people.map(p=>{
+      const strength = p.aff>0 ? `${Math.round(p.aff*100)}%` : (p.harmonic>0 ? 'network only' : '');
+      return `<div class="tm"><h6>${p.name} <span style="color:var(--muted)">${strength}</span></h6>`+
+        p.contacts.map(k=>{
           const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
-          return `<div>${nm} <span class="t">· ${k.title}${k.external?' (adjacent)':''} · ${(k.sources||[]).map(s=>({LINKEDIN:'LI',EMAIL:'Email',CALENDAR:'Cal'})[s]||s).join(' · ')}</span></div>`;
-        }).join('')+`</div>`).join('')+`</div>`;
-    }
+          const extra = k.pct!=null?` · ${k.pct}%`:(k.title?` · ${k.title}`:'');
+          return `<div>${nm}<span class="t">${extra}</span></div>`;
+        }).join('')+`</div>`;
+    }).join('')+`</div>`;
   }
   return h;
 }
