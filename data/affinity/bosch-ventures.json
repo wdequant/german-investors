@@ -3,20 +3,90 @@
   "affinity_company_id": 297975510,
   "affinity_domain": "bosch.ventures",
   "pipeline": [
-    {"id": 293727558, "name": "Arduino", "domain": "arduino.cc", "funnel": "Passed"},
-    {"id": 289764473, "name": "Optomed", "domain": "optomed.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289767244, "name": "Veego", "domain": "veego.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289760196, "name": "SiteAware", "domain": "siteaware.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 222262564, "name": "Sunlight.io", "domain": "sunlight.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 152837077, "name": "AImotive", "domain": "adasworks.com", "funnel": "Passed"},
-    {"id": 289765472, "name": "Prophesee", "domain": "prophesee.ai", "funnel": "Passed"},
-    {"id": 221891124, "name": "Iguazio", "domain": "iguazio.com", "funnel": "Passed"},
-    {"id": 313527358, "name": "SecurityMatters", "domain": "secmatters.com", "funnel": "Passed"},
-    {"id": 289764776, "name": "WaveOptics", "domain": "waveoptics.ar", "funnel": "Passed"},
-    {"id": 289759916, "name": "Emperra", "domain": "emperra.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289763896, "name": "Intrinsic ID", "domain": "intrinsic-id.com", "funnel": "Lead"},
-    {"id": 281908643, "name": "Teralytics", "domain": "teralytics.net", "funnel": "Lead"},
-    {"id": 295039899, "name": "XMOS", "domain": "xmos.com", "funnel": "Passed"}
+    {
+      "id": 293727558,
+      "name": "Arduino",
+      "domain": "arduino.cc",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764473,
+      "name": "Optomed",
+      "domain": "optomed.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767244,
+      "name": "Veego",
+      "domain": "veego.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760196,
+      "name": "SiteAware",
+      "domain": "siteaware.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 222262564,
+      "name": "Sunlight.io",
+      "domain": "sunlight.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 152837077,
+      "name": "AImotive",
+      "domain": "adasworks.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765472,
+      "name": "Prophesee",
+      "domain": "prophesee.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 221891124,
+      "name": "Iguazio",
+      "domain": "iguazio.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 313527358,
+      "name": "SecurityMatters",
+      "domain": "secmatters.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764776,
+      "name": "WaveOptics",
+      "domain": "waveoptics.ar",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289759916,
+      "name": "Emperra",
+      "domain": "emperra.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763896,
+      "name": "Intrinsic ID",
+      "domain": "intrinsic-id.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 281908643,
+      "name": "Teralytics",
+      "domain": "teralytics.net",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295039899,
+      "name": "XMOS",
+      "domain": "xmos.com",
+      "funnel": "Passed"
+    }
   ],
   "relationships": [],
   "notes": "get_company_relationships for bosch ventures (Affinity company 297975510, bosch.ventures) returned no relationships. This was the only Affinity match for 'Bosch Ventures' (no bosch-ventures.com entry found)."

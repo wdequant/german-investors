@@ -3,68 +3,413 @@
   "affinity_company_id": 1779229,
   "affinity_domain": "atlanticlabs.de",
   "pipeline": [
-    {"id": 311995651, "name": "Doctor One", "domain": "doctor.one", "funnel": "Pre-lead"},
-    {"id": 308969293, "name": "Pletor", "domain": "pletor.ai", "funnel": "Lead"},
-    {"id": 304299980, "name": "Arbio Group", "domain": "arbio-group.com", "funnel": "Lead"},
-    {"id": 304361018, "name": "Omnisent", "domain": "omnisent.ai", "funnel": "Lead"},
-    {"id": 303536537, "name": "Scrypt Asset Management", "domain": "scrypt.swiss", "funnel": "Awaiting Reply"},
-    {"id": 301577761, "name": "Prior Labs", "domain": "priorlabs.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 301577698, "name": "volytica diagnostics", "domain": "volytica.com", "funnel": "Awaiting Reply"},
-    {"id": 297748895, "name": "SynthFlow AI", "domain": "synthflow.ai", "funnel": "Lead"},
-    {"id": 295039996, "name": "EMBEA", "domain": "embea.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 294710743, "name": "SecondCircle", "domain": "secondcircle.bio", "funnel": "Awaiting Reply"},
-    {"id": 296915932, "name": "Purpose", "domain": "purpose-green.com", "funnel": "Pre-lead"},
-    {"id": 293727275, "name": "Zero44", "domain": "zero44.eu", "funnel": "Pre-lead"},
-    {"id": 293729301, "name": "Exazyme", "domain": "exazyme.com", "funnel": "Pre-lead"},
-    {"id": 293728578, "name": "Vyoma", "domain": "vyoma.space", "funnel": "Reach Out Now"},
-    {"id": 293727049, "name": "Levy Health", "domain": "levy.health", "funnel": "Deprioritised (free for all)"},
-    {"id": 289988070, "name": "Turbine", "domain": "turbine.ai", "funnel": "Passed"},
-    {"id": 289771215, "name": "Picterra", "domain": "picterra.ch", "funnel": "Deprioritised (free for all)"},
-    {"id": 282654911, "name": "Momo", "domain": "getmomo.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772679, "name": "SureIn", "domain": "surein.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772581, "name": "Apryl Fertility Benefits", "domain": "progynyglobal.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769224, "name": "Heyflow", "domain": "heyflow.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770577, "name": "Kadmos", "domain": "kadmos.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 283051792, "name": "nilo.health", "domain": "nilohealth.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766677, "name": "Mobius Labs", "domain": "mobiuslabs.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770350, "name": "Meetsales", "domain": "meetsales.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289048963, "name": "Bliq", "domain": "bliq.ai", "funnel": "Lead"},
-    {"id": 293727636, "name": "Jodel", "domain": "jodel.com", "funnel": "Passed"},
-    {"id": 289765186, "name": "Keatz", "domain": "keatz.com", "funnel": "Passed"},
-    {"id": 282157569, "name": "decentriq", "domain": "decentriq.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769511, "name": "Aeditive", "domain": "aeditive.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289764530, "name": "Wandelbots", "domain": "wandelbots.com", "funnel": "Passed"},
-    {"id": 289766335, "name": "Stenon", "domain": "stenon.io", "funnel": "Passed"},
-    {"id": 222087616, "name": "Choco", "domain": "choco.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769893, "name": "Plantix", "domain": "plantix.net", "funnel": "Passed"},
-    {"id": 289766766, "name": "Medwing", "domain": "medwing.com", "funnel": "Passed"},
-    {"id": 152838562, "name": "Styla", "domain": "styla.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770358, "name": "American Peat Technology", "domain": "peat.technology", "funnel": "Passed"},
-    {"id": 212159252, "name": "kreatize", "domain": "kreatize.com", "funnel": "Lead"},
-    {"id": 289769726, "name": "Rows", "domain": "rows.com", "funnel": "Passed"},
-    {"id": 289764973, "name": "dentolo", "domain": "dentolo.de", "funnel": "Passed"},
-    {"id": 289764090, "name": "Bunch", "domain": "bunch.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765321, "name": "Cluno", "domain": "cluno.com", "funnel": "Passed"},
-    {"id": 289766724, "name": "Cara Care", "domain": "cara.care", "funnel": "Deprioritised (free for all)"},
-    {"id": 289764343, "name": "Mimi Hearing Technologies", "domain": "mimi.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 152838829, "name": "Zenjob", "domain": "zenjob.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289761389, "name": "Klara", "domain": "klara.com", "funnel": "Passed"},
-    {"id": 310518565, "name": "Caspar", "domain": "caspar-health.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289761548, "name": "COMATCH", "domain": "comatch.com", "funnel": "Lead"},
-    {"id": 289762783, "name": "Campanda", "domain": "campanda.com", "funnel": "Passed"},
-    {"id": 289763235, "name": "EyeEm", "domain": "eyeem.com", "funnel": "Passed"},
-    {"id": 289760939, "name": "SoundCloud", "domain": "soundcloud.com", "funnel": "Passed"}
+    {
+      "id": 311995651,
+      "name": "Doctor One",
+      "domain": "doctor.one",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308969293,
+      "name": "Pletor",
+      "domain": "pletor.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 304299980,
+      "name": "Arbio Group",
+      "domain": "arbio-group.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 304361018,
+      "name": "Omnisent",
+      "domain": "omnisent.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 303536537,
+      "name": "Scrypt Asset Management",
+      "domain": "scrypt.swiss",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 301577761,
+      "name": "Prior Labs",
+      "domain": "priorlabs.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 301577698,
+      "name": "volytica diagnostics",
+      "domain": "volytica.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 297748895,
+      "name": "SynthFlow AI",
+      "domain": "synthflow.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295039996,
+      "name": "EMBEA",
+      "domain": "embea.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 294710743,
+      "name": "SecondCircle",
+      "domain": "secondcircle.bio",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 296915932,
+      "name": "Purpose",
+      "domain": "purpose-green.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293727275,
+      "name": "Zero44",
+      "domain": "zero44.eu",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729301,
+      "name": "Exazyme",
+      "domain": "exazyme.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728578,
+      "name": "Vyoma",
+      "domain": "vyoma.space",
+      "funnel": "Reach Out Now"
+    },
+    {
+      "id": 293727049,
+      "name": "Levy Health",
+      "domain": "levy.health",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289988070,
+      "name": "Turbine",
+      "domain": "turbine.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289771215,
+      "name": "Picterra",
+      "domain": "picterra.ch",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 282654911,
+      "name": "Momo",
+      "domain": "getmomo.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772679,
+      "name": "SureIn",
+      "domain": "surein.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772581,
+      "name": "Apryl Fertility Benefits",
+      "domain": "progynyglobal.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769224,
+      "name": "Heyflow",
+      "domain": "heyflow.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770577,
+      "name": "Kadmos",
+      "domain": "kadmos.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770448,
+      "name": "The Plate",
+      "domain": "theplate.org",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283051792,
+      "name": "nilo.health",
+      "domain": "nilohealth.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766677,
+      "name": "Mobius Labs",
+      "domain": "mobiuslabs.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770350,
+      "name": "Meetsales",
+      "domain": "meetsales.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766879,
+      "name": "Fazla Gıda",
+      "domain": "fazlagida.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767216,
+      "name": "Sanity Group",
+      "domain": "sanitygroup.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289048963,
+      "name": "Bliq",
+      "domain": "bliq.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727636,
+      "name": "Jodel",
+      "domain": "jodel.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769323,
+      "name": "Gorillas",
+      "domain": "gorillas.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765186,
+      "name": "Keatz",
+      "domain": "keatz.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766089,
+      "name": "Meatable",
+      "domain": "meatable.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 282157569,
+      "name": "decentriq",
+      "domain": "decentriq.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769511,
+      "name": "Aeditive",
+      "domain": "aeditive.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764530,
+      "name": "Wandelbots",
+      "domain": "wandelbots.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766335,
+      "name": "Stenon",
+      "domain": "stenon.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 222087616,
+      "name": "Choco",
+      "domain": "choco.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769893,
+      "name": "Plantix",
+      "domain": "plantix.net",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766766,
+      "name": "Medwing",
+      "domain": "medwing.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 152838562,
+      "name": "Styla",
+      "domain": "styla.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770358,
+      "name": "American Peat Technology",
+      "domain": "peat.technology",
+      "funnel": "Passed"
+    },
+    {
+      "id": 212159252,
+      "name": "kreatize",
+      "domain": "kreatize.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769726,
+      "name": "Rows",
+      "domain": "rows.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764973,
+      "name": "dentolo",
+      "domain": "dentolo.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764090,
+      "name": "Bunch",
+      "domain": "bunch.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765321,
+      "name": "Cluno",
+      "domain": "cluno.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766724,
+      "name": "Cara Care",
+      "domain": "cara.care",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289764343,
+      "name": "Mimi Hearing Technologies",
+      "domain": "mimi.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 152838829,
+      "name": "Zenjob",
+      "domain": "zenjob.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289761389,
+      "name": "Klara",
+      "domain": "klara.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 310518565,
+      "name": "Caspar",
+      "domain": "caspar-health.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289761548,
+      "name": "COMATCH",
+      "domain": "comatch.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762783,
+      "name": "Campanda",
+      "domain": "campanda.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763235,
+      "name": "EyeEm",
+      "domain": "eyeem.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760939,
+      "name": "SoundCloud",
+      "domain": "soundcloud.com",
+      "funnel": "Passed"
+    }
   ],
   "relationships": [
-    {"internal": "Fergal Mullen", "external": "Christophe Maire", "externalEmail": "christophe@atlantic.vc", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Christophe Maire", "externalEmail": "christophe@atlantic.vc", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Sophie Rowe", "externalEmail": "sophie@atlanticlabs.de", "score": 1.0, "linkedin": false},
-    {"internal": "Fergal Mullen", "external": "Carina Hüls", "externalEmail": "carina@atlanticlabs.de", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Bastian Bullmann", "externalEmail": "bastian@atlanticlabs.de", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Carina Hüls", "externalEmail": "carina@atlanticlabs.de", "score": 1.0, "linkedin": false},
-    {"internal": "Aude Flecchia", "external": "Alice Catineau", "externalEmail": "alice@atlantic.vc", "score": 0.98, "linkedin": false},
-    {"internal": "Fergal Mullen", "external": "Bastian Bullmann", "externalEmail": "bastian@atlanticlabs.de", "score": 0.97, "linkedin": false},
-    {"internal": "Helena Richardson", "external": "Christophe Maire", "externalEmail": "christophe@atlantic.vc", "score": 0.97, "linkedin": false},
-    {"internal": "Aude Flecchia", "external": "Anne-Sophie Krechting", "externalEmail": "anne-sophie@atlantic.vc", "score": 0.78, "linkedin": false}
+    {
+      "internal": "Fergal Mullen",
+      "external": "Christophe Maire",
+      "externalEmail": "christophe@atlantic.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Christophe Maire",
+      "externalEmail": "christophe@atlantic.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Sophie Rowe",
+      "externalEmail": "sophie@atlanticlabs.de",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Carina Hüls",
+      "externalEmail": "carina@atlanticlabs.de",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Bastian Bullmann",
+      "externalEmail": "bastian@atlanticlabs.de",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Carina Hüls",
+      "externalEmail": "carina@atlanticlabs.de",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Alice Catineau",
+      "externalEmail": "alice@atlantic.vc",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Bastian Bullmann",
+      "externalEmail": "bastian@atlanticlabs.de",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Christophe Maire",
+      "externalEmail": "christophe@atlantic.vc",
+      "score": 0.97,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Anne-Sophie Krechting",
+      "externalEmail": "anne-sophie@atlantic.vc",
+      "score": 0.78,
+      "linkedin": false
+    }
   ]
 }

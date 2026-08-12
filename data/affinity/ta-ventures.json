@@ -1,82 +1,262 @@
 {
- "slug": "ta-ventures",
- "affinity_company_id": 1565141,
- "affinity_domain": "taventures.vc",
- "pipeline": [
-  {
-   "id": 313527307,
-   "name": "CUBE3 AI",
-   "domain": "cube3.ai",
-   "funnel": "Lead"
-  },
-  {
-   "id": 301135101,
-   "name": "Seafair",
-   "domain": "seafair.io",
-   "funnel": "Pre-lead"
-  },
-  {
-   "id": 289772236,
-   "name": "Forget.finance",
-   "domain": "forget.finance",
-   "funnel": "Deprioritised (free for all)"
-  },
-  {
-   "id": 289770683,
-   "name": "UTORG",
-   "domain": "utorg.pro",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289770549,
-   "name": "FintechFarm",
-   "domain": "fintech-farm.com",
-   "funnel": "Qualified Lead"
-  },
-  {
-   "id": 289766557,
-   "name": "Bipi",
-   "domain": "bipicar.com",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289769173,
-   "name": "Clark",
-   "domain": "clark.de",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289765183,
-   "name": "CrossEngage",
-   "domain": "crossengage.io",
-   "funnel": "Deprioritised (free for all)"
-  },
-  {
-   "id": 289762102,
-   "name": "Makerist",
-   "domain": "makerist.de",
-   "funnel": "Lead"
-  },
-  {
-   "id": 289760946,
-   "name": "Auctionata",
-   "domain": "auctionata.com",
-   "funnel": "Passed"
-  },
-  {
-   "id": 289760032,
-   "name": "Azimo",
-   "domain": "azimo.com",
-   "funnel": "Lead"
-  }
- ],
- "relationships": [],
- "notes": "get_company_relationships for TA Ventures (Affinity company 1565141, taventures.vc) returned no relationships.",
- "dormant": {
-  "internal": [
-   "Laurence Garrett"
+  "slug": "ta-ventures",
+  "affinity_company_id": 1565141,
+  "affinity_domain": "taventures.vc",
+  "pipeline": [
+    {
+      "id": 300403075,
+      "name": "Majestic Labs ai",
+      "domain": "majestic-labs.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 313527339,
+      "name": "i V e r i f y",
+      "domain": "iverify.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 313527307,
+      "name": "CUBE3 AI",
+      "domain": "cube3.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 312444968,
+      "name": "Yuki",
+      "domain": "yukidata.com",
+      "funnel": "Reach Out Now"
+    },
+    {
+      "id": 308617772,
+      "name": "Zenyard Ltd.",
+      "domain": "zenyard.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 309752571,
+      "name": "GreenJets",
+      "domain": "greenjets.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 302925265,
+      "name": "Ladder",
+      "domain": "joinladder.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 301135101,
+      "name": "Seafair",
+      "domain": "seafair.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 298733447,
+      "name": "Dyania Health",
+      "domain": "dyaniahealth.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 297318356,
+      "name": "Liftango",
+      "domain": "liftango.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770533,
+      "name": "Scribe Security",
+      "domain": "scribesecurity.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295040230,
+      "name": "Octup",
+      "domain": "octup.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 294581702,
+      "name": "WINT - Water Intelligence",
+      "domain": "wint.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293776779,
+      "name": "ArmorCode",
+      "domain": "armorcode.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293727082,
+      "name": "Cyclops Security",
+      "domain": "cyclops.security",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293726970,
+      "name": "XTEND REALITY EXPANSION LTD",
+      "domain": "xtend.me",
+      "funnel": "Passed"
+    },
+    {
+      "id": 293726956,
+      "name": "atly",
+      "domain": "atly.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772236,
+      "name": "Forget.finance",
+      "domain": "forget.finance",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771025,
+      "name": "Fairgen",
+      "domain": "fairgen.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771092,
+      "name": "Tatio",
+      "domain": "tatio.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770683,
+      "name": "UTORG",
+      "domain": "utorg.pro",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768058,
+      "name": "Fibery",
+      "domain": "fibery.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770549,
+      "name": "FintechFarm",
+      "domain": "fintech-farm.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 284101887,
+      "name": "Anchor",
+      "domain": "sayanchor.com",
+      "funnel": "Deal"
+    },
+    {
+      "id": 289766159,
+      "name": "Cyabra",
+      "domain": "cyabra.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283003082,
+      "name": "Remilk",
+      "domain": "remilk.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769003,
+      "name": "Swimm",
+      "domain": "swimm.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766512,
+      "name": "Medorion",
+      "domain": "medorion.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764895,
+      "name": "Gaviti",
+      "domain": "gaviti.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767521,
+      "name": "Manna Drone Delivery",
+      "domain": "manna.aero",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289761058,
+      "name": "Shopic",
+      "domain": "shopic.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 222032948,
+      "name": "Jolt.io",
+      "domain": "jolt.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766557,
+      "name": "Bipi",
+      "domain": "bipicar.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769173,
+      "name": "Clark",
+      "domain": "clark.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765697,
+      "name": "Voyage Control",
+      "domain": "voyagecontrol.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765183,
+      "name": "CrossEngage",
+      "domain": "crossengage.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289762542,
+      "name": "zooz",
+      "domain": "zooz.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762160,
+      "name": "BOOK A TIGER",
+      "domain": "bookatiger.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289762102,
+      "name": "Makerist",
+      "domain": "makerist.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289760946,
+      "name": "Auctionata",
+      "domain": "auctionata.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289760032,
+      "name": "Azimo",
+      "domain": "azimo.com",
+      "funnel": "Lead"
+    }
   ],
-  "last": "2016-11",
-  "context": "NOAH meeting thread with Viktoriya Tigipko"
- }
+  "relationships": [],
+  "notes": "get_company_relationships for TA Ventures (Affinity company 1565141, taventures.vc) returned no relationships.",
+  "dormant": {
+    "internal": [
+      "Laurence Garrett"
+    ],
+    "last": "2016-11",
+    "context": "NOAH meeting thread with Viktoriya Tigipko"
+  }
 }

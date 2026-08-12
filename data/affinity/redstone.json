@@ -3,16 +3,217 @@
   "affinity_company_id": 1669166,
   "affinity_domain": "redstone.vc",
   "pipeline": [
-    {"id": 299470844, "name": "Kvantify", "domain": "kvantify.com", "funnel": "Lead"},
-    {"id": 293729097, "name": "Empion", "domain": "empion.io", "funnel": "Awaiting Reply"},
-    {"id": 289764370, "name": "BERGFÜRST", "domain": "de.bergfuerst.com", "funnel": "Lead"}
+    {
+      "id": 298282588,
+      "name": "Annette",
+      "domain": "annette.care",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312899006,
+      "name": "Nomerra",
+      "domain": "nomerra.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312898502,
+      "name": "Talentir",
+      "domain": "talentir.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 300838968,
+      "name": "profitize",
+      "domain": "profitize.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312445099,
+      "name": "INXM",
+      "domain": "inxm.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311035717,
+      "name": "Waniwani",
+      "domain": "waniwani.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 311601176,
+      "name": "Noteless",
+      "domain": "noteless.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 298669798,
+      "name": "Encosa Energy",
+      "domain": "encosa.energy",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 310606044,
+      "name": "SolvaPay",
+      "domain": "solvapay.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 305263428,
+      "name": "Credibur",
+      "domain": "credibur.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 305263427,
+      "name": "CommerceClarity",
+      "domain": "commerceclarity.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 303536576,
+      "name": "ALLSIDES (Covision Lab)",
+      "domain": "allsides.tech",
+      "funnel": "Lead"
+    },
+    {
+      "id": 301135222,
+      "name": "Aslan",
+      "domain": "aslan.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 300074761,
+      "name": "Wave Photonics",
+      "domain": "wavephotonics.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 299470844,
+      "name": "Kvantify",
+      "domain": "kvantify.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 295217960,
+      "name": "Naro",
+      "domain": "naroiq.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293729097,
+      "name": "Empion",
+      "domain": "empion.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 294012466,
+      "name": "My Site",
+      "domain": "drem.se",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729181,
+      "name": "Stylib",
+      "domain": "stylib.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293728073,
+      "name": "ContractHero",
+      "domain": "contracthero.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293728115,
+      "name": "Ochy running",
+      "domain": "ochy.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771290,
+      "name": "Orus",
+      "domain": "orus.eu",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770879,
+      "name": "Sunhero",
+      "domain": "sunhero.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772284,
+      "name": "Redkik",
+      "domain": "redkik.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772592,
+      "name": "Kertos",
+      "domain": "kertos.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767728,
+      "name": "Backbone",
+      "domain": "bkbn.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 303544860,
+      "name": "UpHill Health",
+      "domain": "uphillhealth.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764370,
+      "name": "BERGFÜRST",
+      "domain": "de.bergfuerst.com",
+      "funnel": "Lead"
+    }
   ],
   "relationships": [
-    {"internal": "Aude Flecchia", "external": "Moritz Gillmair", "externalEmail": "moritz.gillmair@redstone.vc", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Marco Stutz", "externalEmail": "marco.stutz@redstone.vc", "score": 1.0, "linkedin": false},
-    {"internal": "Aude Flecchia", "external": "Marco Stutz", "externalEmail": "marco.stutz@redstone.vc", "score": 0.98, "linkedin": false},
-    {"internal": "Harry Williams", "external": "Mikael Myllymäki", "externalEmail": "mikael.myllymaki@redstone.vc", "score": 0.83, "linkedin": false},
-    {"internal": "Eoghan Dorman", "external": "Marco Stutz", "externalEmail": "marco.stutz@redstone.vc", "score": 0.7, "linkedin": false},
-    {"internal": "Anna Faulkner", "external": "Richard Würl", "externalEmail": "richard.wuerl@redstone.vc", "score": 0.63, "linkedin": false}
+    {
+      "internal": "Aude Flecchia",
+      "external": "Moritz Gillmair",
+      "externalEmail": "moritz.gillmair@redstone.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Marco Stutz",
+      "externalEmail": "marco.stutz@redstone.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Marco Stutz",
+      "externalEmail": "marco.stutz@redstone.vc",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Mikael Myllymäki",
+      "externalEmail": "mikael.myllymaki@redstone.vc",
+      "score": 0.83,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Marco Stutz",
+      "externalEmail": "marco.stutz@redstone.vc",
+      "score": 0.7,
+      "linkedin": false
+    },
+    {
+      "internal": "Anna Faulkner",
+      "external": "Richard Würl",
+      "externalEmail": "richard.wuerl@redstone.vc",
+      "score": 0.63,
+      "linkedin": false
+    }
   ]
 }

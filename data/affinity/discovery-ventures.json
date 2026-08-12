@@ -92,6 +92,12 @@
       "name": "i2x",
       "domain": "i2x.ai",
       "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763692,
+      "name": "Academia.edu",
+      "domain": "academia.edu",
+      "funnel": "Passed"
     }
   ],
   "relationships": [

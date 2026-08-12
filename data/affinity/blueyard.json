@@ -3,27 +3,149 @@
   "affinity_company_id": 2178222,
   "affinity_domain": "blueyard.com",
   "pipeline": [
-    {"id": 307379211, "name": "ZeroPhase", "domain": "zerophase.de", "funnel": "Pre-lead"},
-    {"id": 308969051, "name": "Corintis", "domain": "corintis.com", "funnel": "Qualified Lead"},
-    {"id": 305791399, "name": "Sensible biotechnologies", "domain": "sensible.bio", "funnel": "Pre-lead"},
-    {"id": 305263360, "name": "Chemify", "domain": "chemify.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 303596181, "name": "Manex AI", "domain": "manex.ai", "funnel": "Awaiting Reply"},
-    {"id": 293727618, "name": "Spaceknow", "domain": "spaceknow.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293726857, "name": "White Violet", "domain": "violet.co", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769290, "name": "Wonder", "domain": "wonder.me", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766089, "name": "Meatable", "domain": "meatable.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289761883, "name": "VECTARY", "domain": "vectary.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769205, "name": "Dance", "domain": "dance.co", "funnel": "Passed"},
-    {"id": 222087602, "name": "Next Matter", "domain": "nextmatter.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765837, "name": "Pitch", "domain": "pitch.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766970, "name": "GRID", "domain": "grid.is", "funnel": "Passed"},
-    {"id": 289761859, "name": "Greta", "domain": "greta.io", "funnel": "Passed"},
-    {"id": 280588728, "name": "deepstreamHub", "domain": "deepstreamhub.com", "funnel": "Lead"}
+    {
+      "id": 313527495,
+      "name": "aerska",
+      "domain": "aerska.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 307379211,
+      "name": "ZeroPhase",
+      "domain": "zerophase.de",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308969051,
+      "name": "Corintis",
+      "domain": "corintis.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 305791399,
+      "name": "Sensible biotechnologies",
+      "domain": "sensible.bio",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 305263360,
+      "name": "Chemify",
+      "domain": "chemify.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 303596181,
+      "name": "Manex AI",
+      "domain": "manex.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293727618,
+      "name": "Spaceknow",
+      "domain": "spaceknow.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729403,
+      "name": "Rapidata",
+      "domain": "rapidata.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293726857,
+      "name": "White Violet",
+      "domain": "violet.co",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766727,
+      "name": "Cryptio",
+      "domain": "cryptio.co",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289769290,
+      "name": "Wonder",
+      "domain": "wonder.me",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766089,
+      "name": "Meatable",
+      "domain": "meatable.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289761883,
+      "name": "VECTARY",
+      "domain": "vectary.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769205,
+      "name": "Dance",
+      "domain": "dance.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 222087602,
+      "name": "Next Matter",
+      "domain": "nextmatter.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765837,
+      "name": "Pitch",
+      "domain": "pitch.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766970,
+      "name": "GRID",
+      "domain": "grid.is",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289761859,
+      "name": "Greta",
+      "domain": "greta.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 280588728,
+      "name": "deepstreamHub",
+      "domain": "deepstreamhub.com",
+      "funnel": "Lead"
+    }
   ],
   "relationships": [
-    {"internal": "Harry Williams", "external": "Mike Wax", "externalEmail": "mike@blueyard.com", "score": 0.82, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Jason Whitmire", "externalEmail": "jason@blueyard.com", "score": 0.43, "linkedin": false},
-    {"internal": "Harry Williams", "external": "Christine Fuchs", "externalEmail": "christine@blueyard.com", "score": 0.38, "linkedin": false},
-    {"internal": "Fergal Mullen", "external": "Ciarán O'Leary", "externalEmail": "ciaran@blueyard.com", "score": 0.1, "linkedin": false}
+    {
+      "internal": "Harry Williams",
+      "external": "Mike Wax",
+      "externalEmail": "mike@blueyard.com",
+      "score": 0.82,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Jason Whitmire",
+      "externalEmail": "jason@blueyard.com",
+      "score": 0.43,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Christine Fuchs",
+      "externalEmail": "christine@blueyard.com",
+      "score": 0.38,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Ciarán O'Leary",
+      "externalEmail": "ciaran@blueyard.com",
+      "score": 0.1,
+      "linkedin": false
+    }
   ]
 }

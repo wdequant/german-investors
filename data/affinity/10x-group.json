@@ -1,16 +1,23 @@
 {
- "slug": "10x-group",
- "affinity_company_id": 116047345,
- "affinity_domain": "10x.group",
- "pipeline": [],
- "relationships": [],
- "notes": "Pipeline search on list 9387 for investor '10x Group' returned 0 entries. get_company_relationships for 10x Group (Affinity company 116047345, 10x.group) returned no relationships.",
- "dormant": {
-  "internal": [
-   "Sam Brooks",
-   "Ronan Shally"
+  "slug": "10x-group",
+  "affinity_company_id": 116047345,
+  "affinity_domain": "10x.group",
+  "pipeline": [
+    {
+      "id": 289769593,
+      "name": "finway",
+      "domain": "finway.de",
+      "funnel": "Deprioritised (free for all)"
+    }
   ],
-  "last": "2026-03",
-  "context": "co-shareholders via Lookiero/Outfittery Group updates"
- }
+  "relationships": [],
+  "notes": "Pipeline search on list 9387 for investor '10x Group' returned 0 entries. get_company_relationships for 10x Group (Affinity company 116047345, 10x.group) returned no relationships.",
+  "dormant": {
+    "internal": [
+      "Sam Brooks",
+      "Ronan Shally"
+    ],
+    "last": "2026-03",
+    "context": "co-shareholders via Lookiero/Outfittery Group updates"
+  }
 }

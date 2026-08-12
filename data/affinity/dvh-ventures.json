@@ -74,6 +74,12 @@
       "name": "Lendstar",
       "domain": "lendstar.io",
       "funnel": "Lead"
+    },
+    {
+      "id": 289761898,
+      "name": "OptioPay",
+      "domain": "clink.me",
+      "funnel": "Passed"
     }
   ],
   "relationships": [

@@ -3,23 +3,100 @@
   "affinity_company_id": 160422807,
   "affinity_domain": "1kx.network",
   "pipeline": [
-    {"id": 311601145, "name": "Filmine", "domain": "ramo.io", "funnel": "Pre-lead"},
-    {"id": 308453670, "name": "RedStone", "domain": "redstone.finance", "funnel": "Awaiting Reply"},
-    {"id": 302234880, "name": "Combinder", "domain": "combinder.io", "funnel": "Pre-lead"},
-    {"id": 300074827, "name": "Kulipa", "domain": "kulipa.xyz", "funnel": "Pre-lead"},
-    {"id": 292221080, "name": "rhinestone.wtf", "domain": "rhinestone.wtf", "funnel": "Pre-lead"},
-    {"id": 297318382, "name": "Arweave", "domain": "arweave.org", "funnel": "Deprioritised (free for all)"},
-    {"id": 293729327, "name": "fxhash", "domain": "fxhash.xyz", "funnel": "Deprioritised (free for all)"},
-    {"id": 289615376, "name": "Impossible Cloud", "domain": "impossiblecloud.com", "funnel": "Qualified Lead"},
-    {"id": 289766801, "name": "Nexus Mutual", "domain": "nexusmutual.io", "funnel": "Pre-lead"},
-    {"id": 289766727, "name": "Cryptio", "domain": "cryptio.co", "funnel": "Qualified Lead"},
-    {"id": 289768646, "name": "Transak", "domain": "transak.com", "funnel": "Qualified Lead"},
-    {"id": 288839968, "name": "Nym Technologies", "domain": "nymtech.net", "funnel": "Deprioritised (free for all)"},
-    {"id": 289760118, "name": "Qredo", "domain": "qredo.com", "funnel": "Passed"}
+    {
+      "id": 311601145,
+      "name": "Filmine",
+      "domain": "ramo.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308453670,
+      "name": "RedStone",
+      "domain": "redstone.finance",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 302234880,
+      "name": "Combinder",
+      "domain": "combinder.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 300074827,
+      "name": "Kulipa",
+      "domain": "kulipa.xyz",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 292221080,
+      "name": "rhinestone.wtf",
+      "domain": "rhinestone.wtf",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 297318382,
+      "name": "Arweave",
+      "domain": "arweave.org",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729327,
+      "name": "fxhash",
+      "domain": "fxhash.xyz",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289615376,
+      "name": "Impossible Cloud",
+      "domain": "impossiblecloud.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289766801,
+      "name": "Nexus Mutual",
+      "domain": "nexusmutual.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289766727,
+      "name": "Cryptio",
+      "domain": "cryptio.co",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289768646,
+      "name": "Transak",
+      "domain": "transak.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 288839968,
+      "name": "Nym Technologies",
+      "domain": "nymtech.net",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289760118,
+      "name": "Qredo",
+      "domain": "qredo.com",
+      "funnel": "Passed"
+    }
   ],
   "relationships": [
-    {"internal": "Isabel Wright", "external": "Diana Biggs", "externalEmail": "db@1kx.capital", "score": 0.43, "linkedin": false},
-    {"internal": "Fergal Mullen", "external": "Lasse Clausen", "externalEmail": "l@1kx.capital", "score": 0.3, "linkedin": false}
+    {
+      "internal": "Isabel Wright",
+      "external": "Diana Biggs",
+      "externalEmail": "db@1kx.capital",
+      "score": 0.43,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Lasse Clausen",
+      "externalEmail": "l@1kx.capital",
+      "score": 0.3,
+      "linkedin": false
+    }
   ],
   "notes": "Two Affinity 1kx records exist (1kx.network id 160422807 and 1kx.capital id 291970880); used 1kx.network per instructions. Its relationship contacts carry 1kx.capital email addresses."
 }

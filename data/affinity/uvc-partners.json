@@ -3,37 +3,251 @@
   "affinity_company_id": 1638288,
   "affinity_domain": "uvcpartners.com",
   "pipeline": [
-    {"id": 311791525, "name": "alqem", "domain": "alqem.ai", "funnel": "Pre-lead"},
-    {"id": 312898422, "name": "Biomatter", "domain": "biomatter.ai", "funnel": "Awaiting Reply"},
-    {"id": 312444908, "name": "planqc", "domain": "planqc.eu", "funnel": "Qualified Lead"},
-    {"id": 312444873, "name": "Qant Pty Ltd", "domain": "qant.com", "funnel": "Pre-lead"},
-    {"id": 295908740, "name": "CYCLIZE", "domain": "cyclize.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 293728960, "name": "Reverion", "domain": "reverion.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772325, "name": "DeepDrive -", "domain": "deepdrive.tech", "funnel": "Pre-lead"},
-    {"id": 289772236, "name": "Forget.finance", "domain": "forget.finance", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772576, "name": "Reel", "domain": "reel.energy", "funnel": "Lead"},
-    {"id": 289763860, "name": "Rencore", "domain": "rencore.com", "funnel": "Lead"},
-    {"id": 123929077, "name": "Innoactive", "domain": "innoactive.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765935, "name": "fruitcore robotics", "domain": "fruitcore-robotics.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289763321, "name": "Enscape", "domain": "enscape3d.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765097, "name": "Wire", "domain": "wire.com", "funnel": "Passed"},
-    {"id": 289766591, "name": "HQS Quantum Simulations", "domain": "quantumsimulations.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289763504, "name": "FAZUA", "domain": "fazua.com", "funnel": "Passed"},
-    {"id": 289764065, "name": "Everskill", "domain": "everskill.de", "funnel": "Lead"},
-    {"id": 289764346, "name": "shyftplan", "domain": "shyftplan.com", "funnel": "Passed"},
-    {"id": 289764479, "name": "Blickfeld", "domain": "blickfeld.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289767191, "name": "Ciara", "domain": "getciara.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765393, "name": "i2x", "domain": "i2x.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 289762852, "name": "3YOURMIND", "domain": "3yourmind.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 222108084, "name": "Vimcar", "domain": "vimcar.de", "funnel": "Lead"},
-    {"id": 291949358, "name": "Konux", "domain": "konux.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289763763, "name": "Loyalty Prime", "domain": "loyaltyprime.com", "funnel": "Lead"},
-    {"id": 1576787, "name": "Veact", "domain": "veact.net", "funnel": "Lead"}
+    {
+      "id": 311791525,
+      "name": "alqem",
+      "domain": "alqem.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312898422,
+      "name": "Biomatter",
+      "domain": "biomatter.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 312444908,
+      "name": "planqc",
+      "domain": "planqc.eu",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 312444873,
+      "name": "Qant Pty Ltd",
+      "domain": "qant.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 295908740,
+      "name": "CYCLIZE",
+      "domain": "cyclize.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293728960,
+      "name": "Reverion",
+      "domain": "reverion.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772325,
+      "name": "DeepDrive -",
+      "domain": "deepdrive.tech",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772236,
+      "name": "Forget.finance",
+      "domain": "forget.finance",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772576,
+      "name": "Reel",
+      "domain": "reel.energy",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763860,
+      "name": "Rencore",
+      "domain": "rencore.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 123929077,
+      "name": "Innoactive",
+      "domain": "innoactive.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765935,
+      "name": "fruitcore robotics",
+      "domain": "fruitcore-robotics.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763321,
+      "name": "Enscape",
+      "domain": "enscape3d.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765097,
+      "name": "Wire",
+      "domain": "wire.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766591,
+      "name": "HQS Quantum Simulations",
+      "domain": "quantumsimulations.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763504,
+      "name": "FAZUA",
+      "domain": "fazua.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764065,
+      "name": "Everskill",
+      "domain": "everskill.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764346,
+      "name": "shyftplan",
+      "domain": "shyftplan.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764479,
+      "name": "Blickfeld",
+      "domain": "blickfeld.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289767191,
+      "name": "Ciara",
+      "domain": "getciara.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765393,
+      "name": "i2x",
+      "domain": "i2x.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289762852,
+      "name": "3YOURMIND",
+      "domain": "3yourmind.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 222108084,
+      "name": "Vimcar",
+      "domain": "vimcar.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 291949358,
+      "name": "Konux",
+      "domain": "konux.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763763,
+      "name": "Loyalty Prime",
+      "domain": "loyaltyprime.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 1576787,
+      "name": "Veact",
+      "domain": "veact.net",
+      "funnel": "Lead"
+    },
+    {
+      "id": 312445063,
+      "name": "kausable",
+      "domain": "kausable.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 298733378,
+      "name": "Enginsight",
+      "domain": "enginsight.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289771330,
+      "name": "Predium",
+      "domain": "predium.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289772423,
+      "name": "Certivity",
+      "domain": "certivity.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727564,
+      "name": "Synera (formerly known as ELISE)",
+      "domain": "synera.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770033,
+      "name": "paretos",
+      "domain": "paretos.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769802,
+      "name": "tacto",
+      "domain": "tacto.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767342,
+      "name": "Hypatos",
+      "domain": "hypatos.ai",
+      "funnel": "Passed"
+    },
+    {
+      "id": 288594832,
+      "name": "Capmo.de",
+      "domain": "capmo.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765929,
+      "name": "TWAICE",
+      "domain": "twaice.com",
+      "funnel": "Passed"
+    }
   ],
   "relationships": [
-    {"internal": "Helena Richardson", "external": "Benjamin Erhart", "externalEmail": "erhart@uvcpartners.com", "score": 0.96, "linkedin": false},
-    {"internal": "Harry Williams", "external": "Andreas Unseld", "externalEmail": "unseld@uvcpartners.com", "score": 0.84, "linkedin": false},
-    {"internal": "Efosa Ayanru", "external": "Marc Kühn", "externalEmail": "marc.kuehn@uvcpartners.com", "score": 0.75, "linkedin": false},
-    {"internal": "Harry Williams", "external": "Renate Fuhrich", "externalEmail": "fuhrich@uvcpartners.com", "score": 0.1, "linkedin": false}
+    {
+      "internal": "Helena Richardson",
+      "external": "Benjamin Erhart",
+      "externalEmail": "erhart@uvcpartners.com",
+      "score": 0.96,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Andreas Unseld",
+      "externalEmail": "unseld@uvcpartners.com",
+      "score": 0.84,
+      "linkedin": false
+    },
+    {
+      "internal": "Efosa Ayanru",
+      "external": "Marc Kühn",
+      "externalEmail": "marc.kuehn@uvcpartners.com",
+      "score": 0.75,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Renate Fuhrich",
+      "externalEmail": "fuhrich@uvcpartners.com",
+      "score": 0.1,
+      "linkedin": false
+    }
   ]
 }

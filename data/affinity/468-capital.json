@@ -3,50 +3,266 @@
   "affinity_company_id": 271670660,
   "affinity_domain": "468cap.com",
   "pipeline": [
-    {"id": 313527434, "name": "arc-intelligence", "domain": "arc-intelligence.de", "funnel": "Pre-lead"},
-    {"id": 303536546, "name": "Alaan", "domain": "alaan.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 302925323, "name": "Terra.One", "domain": "terra.one", "funnel": "Lead"},
-    {"id": 300446960, "name": "Akhetonics", "domain": "akhetonics.com", "funnel": "Awaiting Reply"},
-    {"id": 300074820, "name": "YonedaLabs", "domain": "yonedalabs.com", "funnel": "Pre-lead"},
-    {"id": 298733525, "name": "assetbird", "domain": "assetbird.de", "funnel": "Pre-lead"},
-    {"id": 295908757, "name": "acto (formerly: insightsON)", "domain": "heyacto.com", "funnel": "Lead"},
-    {"id": 294581820, "name": "einwert", "domain": "einwert.com", "funnel": "Hard to crack"},
-    {"id": 293729342, "name": "DinMo", "domain": "dinmo.com", "funnel": "Awaiting Reply"},
-    {"id": 293729287, "name": "bliro.io", "domain": "bliro.io", "funnel": "Hard to crack"},
-    {"id": 293728857, "name": "metergrid", "domain": "metergrid.de", "funnel": "Lead"},
-    {"id": 293729483, "name": "HoneyHive", "domain": "honeyhive.ai", "funnel": "Pre-lead"},
-    {"id": 293727282, "name": "ZERO Systems", "domain": "hercules.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 293727201, "name": "Cleanhub", "domain": "cleanhub.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293729445, "name": "Minoa", "domain": "minoa.io", "funnel": "Pre-lead"},
-    {"id": 293728861, "name": "cartken", "domain": "cartken.com", "funnel": "Lead"},
-    {"id": 293726835, "name": "Bardeen", "domain": "bardeen.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 289772110, "name": "Ostrom", "domain": "ostrom.de", "funnel": "Qualified Lead"},
-    {"id": 289772148, "name": "Frequenz.io", "domain": "frequenz.com", "funnel": "Qualified Lead"},
-    {"id": 289772689, "name": "Jua", "domain": "jua.ai", "funnel": "Lead"},
-    {"id": 289770778, "name": "Pop Market", "domain": "popmarket.gr", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770893, "name": "AskUI", "domain": "askui.com", "funnel": "Lead"},
-    {"id": 283391447, "name": "arive", "domain": "ariveapp.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765805, "name": "OpenReplay Blog", "domain": "openreplay.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 283656018, "name": "Mayd", "domain": "getmayd.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769291, "name": "Workist", "domain": "workist.com", "funnel": "Lead"},
-    {"id": 283295330, "name": "arive", "domain": "getarive.com", "funnel": "Lead"},
-    {"id": 289769924, "name": "asistensi", "domain": "asistensi.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766040, "name": "Linearity", "domain": "linearity.io", "funnel": "Passed"},
-    {"id": 289769289, "name": "felmo", "domain": "felmo.de", "funnel": "Passed"},
-    {"id": 289769517, "name": "Klima", "domain": "klima.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769727, "name": "Razor Group", "domain": "razor-group.com", "funnel": "Passed"},
-    {"id": 289768399, "name": "QuestDB", "domain": "questdb.com", "funnel": "Lead"},
-    {"id": 289769354, "name": "Fixably", "domain": "fixably.com", "funnel": "Passed"},
-    {"id": 289766601, "name": "Garden", "domain": "garden.io", "funnel": "Passed"},
-    {"id": 289764292, "name": "Rasa", "domain": "rasa.com", "funnel": "Lead"}
+    {
+      "id": 313527434,
+      "name": "arc-intelligence",
+      "domain": "arc-intelligence.de",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 303536546,
+      "name": "Alaan",
+      "domain": "alaan.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 302925323,
+      "name": "Terra.One",
+      "domain": "terra.one",
+      "funnel": "Lead"
+    },
+    {
+      "id": 300446960,
+      "name": "Akhetonics",
+      "domain": "akhetonics.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 300074820,
+      "name": "YonedaLabs",
+      "domain": "yonedalabs.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 298733525,
+      "name": "assetbird",
+      "domain": "assetbird.de",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 295908757,
+      "name": "acto (formerly: insightsON)",
+      "domain": "heyacto.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 294581820,
+      "name": "einwert",
+      "domain": "einwert.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 293729342,
+      "name": "DinMo",
+      "domain": "dinmo.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293729287,
+      "name": "bliro.io",
+      "domain": "bliro.io",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 293728857,
+      "name": "metergrid",
+      "domain": "metergrid.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293729483,
+      "name": "HoneyHive",
+      "domain": "honeyhive.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293727282,
+      "name": "ZERO Systems",
+      "domain": "hercules.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727201,
+      "name": "Cleanhub",
+      "domain": "cleanhub.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729445,
+      "name": "Minoa",
+      "domain": "minoa.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728861,
+      "name": "cartken",
+      "domain": "cartken.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293726835,
+      "name": "Bardeen",
+      "domain": "bardeen.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289772110,
+      "name": "Ostrom",
+      "domain": "ostrom.de",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289772148,
+      "name": "Frequenz.io",
+      "domain": "frequenz.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289772689,
+      "name": "Jua",
+      "domain": "jua.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770778,
+      "name": "Pop Market",
+      "domain": "popmarket.gr",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770893,
+      "name": "AskUI",
+      "domain": "askui.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 283391447,
+      "name": "arive",
+      "domain": "ariveapp.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765805,
+      "name": "OpenReplay Blog",
+      "domain": "openreplay.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283656018,
+      "name": "Mayd",
+      "domain": "getmayd.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769291,
+      "name": "Workist",
+      "domain": "workist.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 283295330,
+      "name": "arive",
+      "domain": "getarive.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769924,
+      "name": "asistensi",
+      "domain": "asistensi.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766040,
+      "name": "Linearity",
+      "domain": "linearity.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769289,
+      "name": "felmo",
+      "domain": "felmo.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769517,
+      "name": "Klima",
+      "domain": "klima.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769727,
+      "name": "Razor Group",
+      "domain": "razor-group.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768399,
+      "name": "QuestDB",
+      "domain": "questdb.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769354,
+      "name": "Fixably",
+      "domain": "fixably.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766601,
+      "name": "Garden",
+      "domain": "garden.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764292,
+      "name": "Rasa",
+      "domain": "rasa.com",
+      "funnel": "Lead"
+    }
   ],
   "relationships": [
-    {"internal": "Gajan Rajanathan", "external": "Bardo Droege", "externalEmail": "bardo@468cap.com", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Bernhard Janke", "externalEmail": "bernhard@468cap.com", "score": 1.0, "linkedin": false},
-    {"internal": "Eoghan Dorman", "external": "Diogo Cunha", "externalEmail": "diogo@468cap.com", "score": 0.99, "linkedin": false},
-    {"internal": "Eoghan Dorman", "external": "Bardo Droege", "externalEmail": "bardo@468cap.com", "score": 0.78, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Flo Leibert", "externalEmail": "flo@leibert.de", "score": 0.1, "linkedin": false},
-    {"internal": "Eoghan Dorman", "external": "Diogo Cunha", "externalEmail": "diogo@katooapp.com", "score": 0.1, "linkedin": false}
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Bardo Droege",
+      "externalEmail": "bardo@468cap.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Bernhard Janke",
+      "externalEmail": "bernhard@468cap.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Diogo Cunha",
+      "externalEmail": "diogo@468cap.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Bardo Droege",
+      "externalEmail": "bardo@468cap.com",
+      "score": 0.78,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Flo Leibert",
+      "externalEmail": "flo@leibert.de",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Diogo Cunha",
+      "externalEmail": "diogo@katooapp.com",
+      "score": 0.1,
+      "linkedin": false
+    }
   ],
   "notes": "Pipeline: 36 list entries, 36 unique companies (two distinct 'arive' entity records both kept). Relationships: only 6 exist in Affinity for this company."
 }

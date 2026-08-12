@@ -10,6 +10,12 @@
       "funnel": "Awaiting Reply"
     },
     {
+      "id": 313527541,
+      "name": "Hyperscale Power",
+      "domain": "hyperscale-power.com",
+      "funnel": "Pre-lead"
+    },
+    {
       "id": 311995721,
       "name": "Lace Lithography",
       "domain": "lacelithography.com",
@@ -19,6 +25,12 @@
       "id": 308969076,
       "name": "VÆRIDION",
       "domain": "vaeridion.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 297887952,
+      "name": "lendurai",
+      "domain": "lendurai.com",
       "funnel": "Pre-lead"
     },
     {
@@ -88,15 +100,51 @@
       "funnel": "Deprioritised (free for all)"
     },
     {
+      "id": 289315380,
+      "name": "The Exploration Company",
+      "domain": "exploration.space",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289753432,
+      "name": "ConstellR",
+      "domain": "constellr.space",
+      "funnel": "Qualified Lead"
+    },
+    {
       "id": 295040060,
       "name": "Atrandi Biosciences | Droplet Genomics",
       "domain": "atrandi.com",
       "funnel": "Deprioritised (free for all)"
     },
     {
+      "id": 289762232,
+      "name": "Micropsi Industries",
+      "domain": "micropsi-industries.com",
+      "funnel": "Passed"
+    },
+    {
       "id": 289765263,
       "name": "Hyperganic",
       "domain": "hyperganic.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289768584,
+      "name": "Zama",
+      "domain": "zama.org",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289767435,
+      "name": "IQM",
+      "domain": "iqm.tech",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766296,
+      "name": "SimScale",
+      "domain": "simscale.com",
       "funnel": "Deprioritised (free for all)"
     }
   ],

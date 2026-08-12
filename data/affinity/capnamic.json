@@ -40,6 +40,12 @@
       "funnel": "Awaiting Reply"
     },
     {
+      "id": 289771361,
+      "name": "Dexory",
+      "domain": "dexory.com",
+      "funnel": "Lead"
+    },
+    {
       "id": 289772457,
       "name": "QuantPi",
       "domain": "quantpi.com",
@@ -122,6 +128,12 @@
       "name": "everstox",
       "domain": "everstox.com",
       "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769693,
+      "name": "ACCURE - Battery Intelligence",
+      "domain": "accure.net",
+      "funnel": "Lead"
     },
     {
       "id": 289765341,
@@ -277,7 +289,7 @@
       "id": 289764920,
       "name": "Tausendkind",
       "domain": "tausendkind.de",
-      "funnel": "Passed"
+      "funnel": "Lead"
     },
     {
       "id": 1604294,

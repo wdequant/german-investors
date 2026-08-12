@@ -3,108 +3,630 @@
   "affinity_company_id": 1794543,
   "affinity_domain": "cherry.vc",
   "pipeline": [
-    {"id": 312546529, "name": "Zaro", "domain": "zaro.ai", "funnel": "Awaiting Reply"},
-    {"id": 312898446, "name": "Robeauté", "domain": "robeaute.com", "funnel": "Lead"},
-    {"id": 312444873, "name": "Qant Pty Ltd", "domain": "qant.com", "funnel": "Pre-lead"},
-    {"id": 312445099, "name": "INXM", "domain": "inxm.ai", "funnel": "Pre-lead"},
-    {"id": 311995886, "name": "getstructured", "domain": "getstructured.ai", "funnel": "Pre-lead"},
-    {"id": 311995946, "name": "manifold", "domain": "manifold.security", "funnel": "Awaiting Reply"},
-    {"id": 311590112, "name": "Riplo", "domain": "riplo.ai", "funnel": "Pre-lead"},
-    {"id": 311600984, "name": "OASYS Now", "domain": "oasysnow.com", "funnel": "Pre-lead"},
-    {"id": 311995909, "name": "entire", "domain": "entire.io", "funnel": "Pre-lead"},
-    {"id": 308969319, "name": "Sphinx Labs", "domain": "sphinxhq.com", "funnel": "Awaiting Reply"},
-    {"id": 305263401, "name": "kiku", "domain": "getkiku.com", "funnel": "Pre-lead"},
-    {"id": 305263411, "name": "Phoebe", "domain": "phoebe.ai", "funnel": "Awaiting Reply"},
-    {"id": 304361015, "name": "Maze", "domain": "mazehq.com", "funnel": "Lead"},
-    {"id": 303536578, "name": "Alta Ares", "domain": "altaares.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 305263429, "name": "Forgent Ai", "domain": "forgent.ai", "funnel": "Pre-lead"},
-    {"id": 303536577, "name": "Cortea AI", "domain": "cortea.ai", "funnel": "Lead"},
-    {"id": 301489684, "name": "Copower", "domain": "copower.energy", "funnel": "Pre-lead"},
-    {"id": 301577676, "name": "integral.de", "domain": "integral.de", "funnel": "Lead"},
-    {"id": 300446952, "name": "Telli Marin", "domain": "telli.com", "funnel": "Lead"},
-    {"id": 299504551, "name": "Plato", "domain": "platoapp.ai", "funnel": "Hard to crack"},
-    {"id": 296509780, "name": "Tola", "domain": "usetola.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 302925384, "name": "Alice.tech", "domain": "alice.tech", "funnel": "Pre-lead"},
-    {"id": 296915895, "name": "Trace.Space", "domain": "trace.space", "funnel": "Pre-lead"},
-    {"id": 296509758, "name": "Pemo", "domain": "pemo.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 296509959, "name": "Dash0", "domain": "dash0.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293179493, "name": "Octomind", "domain": "octomind.dev", "funnel": "Deprioritised (free for all)"},
-    {"id": 293727108, "name": "HOLOGATE", "domain": "hologate.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293729549, "name": "Versed", "domain": "versed.game", "funnel": "Passed"},
-    {"id": 293728738, "name": "Julienne Bruno", "domain": "juliennebruno.com", "funnel": "Awaiting Reply"},
-    {"id": 304701836, "name": "Light", "domain": "light.inc", "funnel": "Qualified Lead"},
-    {"id": 293727036, "name": "Frond", "domain": "frond.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293499226, "name": "Meander", "domain": "meander.so", "funnel": "Lead"},
-    {"id": 289766531, "name": "Deeploi", "domain": "deeploi.io", "funnel": "Lead"},
-    {"id": 289505627, "name": "Advastore", "domain": "advastore.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289315380, "name": "The Exploration Company", "domain": "exploration.space", "funnel": "Lead"},
-    {"id": 289772512, "name": "Medoma", "domain": "medoma.com", "funnel": "Awaiting Reply"},
-    {"id": 304393059, "name": "Flinn Comply", "domain": "flinn.ai", "funnel": "Lead"},
-    {"id": 289772583, "name": "Bits Technology", "domain": "bits.bi", "funnel": "Pre-lead"},
-    {"id": 289770868, "name": "bunch", "domain": "bunch.capital", "funnel": "Lead"},
-    {"id": 289770872, "name": "Soba World", "domain": "soba.xyz", "funnel": "Lead"},
-    {"id": 291974632, "name": "Planet A Foods", "domain": "planet-a-foods.com", "funnel": "Lead"},
-    {"id": 289770193, "name": "Ninetailed", "domain": "ninetailed.io", "funnel": "Lead"},
-    {"id": 283966204, "name": "Fullview", "domain": "fullview.so", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770671, "name": "Ravio", "domain": "ravio.com", "funnel": "Lead"},
-    {"id": 289770654, "name": "GOALS", "domain": "playgoals.com", "funnel": "Lead"},
-    {"id": 293727564, "name": "Synera (formerly known as ELISE)", "domain": "synera.ai", "funnel": "Lead"},
-    {"id": 289770641, "name": "Klar", "domain": "getklar.com", "funnel": "Hard to crack"},
-    {"id": 289768076, "name": "HiPeople", "domain": "hipeople.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765998, "name": "Luminovo", "domain": "luminovo.com", "funnel": "Awaiting Reply"},
-    {"id": 289770233, "name": "Climatiq", "domain": "climatiq.io", "funnel": "Hard to crack"},
-    {"id": 284750184, "name": "Qlub", "domain": "qlub.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769802, "name": "tacto", "domain": "tacto.ai", "funnel": "Lead"},
-    {"id": 284277886, "name": "Maple Finance", "domain": "maple.finance", "funnel": "Deprioritised (free for all)"},
-    {"id": 283695501, "name": "mondu", "domain": "mondu.ai", "funnel": "Deprioritised (free for all)"},
-    {"id": 289770466, "name": "Weflow", "domain": "getweflow.com", "funnel": "Pre-lead"},
-    {"id": 289767535, "name": "NumaStays", "domain": "numastays.com", "funnel": "Passed"},
-    {"id": 289770144, "name": "FORMEL Skin", "domain": "formelskin.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766758, "name": "Afilio", "domain": "afilio.de", "funnel": "Deprioritised (free for all)"},
-    {"id": 260491725, "name": "Infarm", "domain": "infarm.de", "funnel": "Passed"},
-    {"id": 265614407, "name": "Juni", "domain": "juni.co", "funnel": "Deprioritised (free for all)"},
-    {"id": 282249358, "name": "Superlist", "domain": "superlistapp.com", "funnel": "Pre-lead"},
-    {"id": 289767216, "name": "Sanity Group", "domain": "sanitygroup.com", "funnel": "Passed"},
-    {"id": 289768528, "name": "Ben", "domain": "thanksben.com", "funnel": "Qualified Lead"},
-    {"id": 289770870, "name": "Moss", "domain": "getmoss.com", "funnel": "Qualified Lead"},
-    {"id": 289767358, "name": "Voliro Airborne Robotics", "domain": "voliro.com", "funnel": "Lead"},
-    {"id": 289769767, "name": "SellerX", "domain": "sellerx.com", "funnel": "Passed"},
-    {"id": 289769737, "name": "Saleor Commerce", "domain": "saleor.io", "funnel": "Awaiting Reply"},
-    {"id": 289766335, "name": "Stenon", "domain": "stenon.io", "funnel": "Passed"},
-    {"id": 300186336, "name": "Cosuno", "domain": "cosuno.de", "funnel": "Lead"},
-    {"id": 289766590, "name": "Qualifyze", "domain": "qualifyze.com", "funnel": "Passed"},
-    {"id": 289766585, "name": "LifeX", "domain": "joinlifex.com", "funnel": "Lead"},
-    {"id": 289764650, "name": "Morressier", "domain": "morressier.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289762152, "name": "Weengs", "domain": "weengs.co.uk", "funnel": "Passed"},
-    {"id": 289764018, "name": "Curio", "domain": "curio.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766766, "name": "Medwing", "domain": "medwing.com", "funnel": "Passed"},
-    {"id": 200351320, "name": "Eastnine", "domain": "eastnine.fit", "funnel": "Passed"},
-    {"id": 289765987, "name": "Hedvig", "domain": "hedvig.com", "funnel": "Lead"},
-    {"id": 289766406, "name": "Manual", "domain": "manual.co", "funnel": "Passed"},
-    {"id": 152838562, "name": "Styla", "domain": "styla.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289763449, "name": "Homelike", "domain": "thehomelike.com", "funnel": "Lead"},
-    {"id": 289769726, "name": "Rows", "domain": "rows.com", "funnel": "Passed"},
-    {"id": 289764167, "name": "AMBOSS", "domain": "amboss.com", "funnel": "Passed"},
-    {"id": 289764881, "name": "Drover", "domain": "joindrover.com", "funnel": "Passed"},
-    {"id": 1809599, "name": "Move24", "domain": "move24.com", "funnel": "Passed"},
-    {"id": 220094371, "name": "Joblift", "domain": "joblift.de", "funnel": "Lead"},
-    {"id": 289763688, "name": "Caroobi", "domain": "caroobi.com", "funnel": "Lead"},
-    {"id": 289768592, "name": "Forto", "domain": "forto.com", "funnel": "Passed"},
-    {"id": 289763242, "name": "SMACC", "domain": "smacc.io", "funnel": "Lead"},
-    {"id": 289762009, "name": "TourRadar", "domain": "tourradar.com", "funnel": "Lead"},
-    {"id": 289764950, "name": "Watchmaster", "domain": "watchmaster.com", "funnel": "Lead"}
+    {
+      "id": 312546529,
+      "name": "Zaro",
+      "domain": "zaro.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 312898446,
+      "name": "Robeauté",
+      "domain": "robeaute.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 312444873,
+      "name": "Qant Pty Ltd",
+      "domain": "qant.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 312445099,
+      "name": "INXM",
+      "domain": "inxm.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311995886,
+      "name": "getstructured",
+      "domain": "getstructured.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311995946,
+      "name": "manifold",
+      "domain": "manifold.security",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 311590112,
+      "name": "Riplo",
+      "domain": "riplo.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311600984,
+      "name": "OASYS Now",
+      "domain": "oasysnow.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311995909,
+      "name": "entire",
+      "domain": "entire.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 308969319,
+      "name": "Sphinx Labs",
+      "domain": "sphinxhq.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 305263401,
+      "name": "kiku",
+      "domain": "getkiku.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 305263411,
+      "name": "Phoebe",
+      "domain": "phoebe.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 304361015,
+      "name": "Maze",
+      "domain": "mazehq.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 303536578,
+      "name": "Alta Ares",
+      "domain": "altaares.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 305263429,
+      "name": "Forgent Ai",
+      "domain": "forgent.ai",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 303536577,
+      "name": "Cortea AI",
+      "domain": "cortea.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 301489684,
+      "name": "Copower",
+      "domain": "copower.energy",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 301577676,
+      "name": "integral.de",
+      "domain": "integral.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 300446952,
+      "name": "Telli Marin",
+      "domain": "telli.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 299504551,
+      "name": "Plato",
+      "domain": "platoapp.ai",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 296509780,
+      "name": "Tola",
+      "domain": "usetola.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 302925384,
+      "name": "Alice.tech",
+      "domain": "alice.tech",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296915895,
+      "name": "Trace.Space",
+      "domain": "trace.space",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 296509758,
+      "name": "Pemo",
+      "domain": "pemo.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 296509959,
+      "name": "Dash0",
+      "domain": "dash0.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293179493,
+      "name": "Octomind",
+      "domain": "octomind.dev",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727334,
+      "name": "Swap",
+      "domain": "swap-commerce.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293727108,
+      "name": "HOLOGATE",
+      "domain": "hologate.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293729549,
+      "name": "Versed",
+      "domain": "versed.game",
+      "funnel": "Passed"
+    },
+    {
+      "id": 293728738,
+      "name": "Julienne Bruno",
+      "domain": "juliennebruno.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 304701836,
+      "name": "Light",
+      "domain": "light.inc",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 293727036,
+      "name": "Frond",
+      "domain": "frond.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 293499226,
+      "name": "Meander",
+      "domain": "meander.so",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766531,
+      "name": "Deeploi",
+      "domain": "deeploi.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289505627,
+      "name": "Advastore",
+      "domain": "advastore.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289315380,
+      "name": "The Exploration Company",
+      "domain": "exploration.space",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772512,
+      "name": "Medoma",
+      "domain": "medoma.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 304393059,
+      "name": "Flinn Comply",
+      "domain": "flinn.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772583,
+      "name": "Bits Technology",
+      "domain": "bits.bi",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770868,
+      "name": "bunch",
+      "domain": "bunch.capital",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770872,
+      "name": "Soba World",
+      "domain": "soba.xyz",
+      "funnel": "Lead"
+    },
+    {
+      "id": 291974632,
+      "name": "Planet A Foods",
+      "domain": "planet-a-foods.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770193,
+      "name": "Ninetailed",
+      "domain": "ninetailed.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 283966204,
+      "name": "Fullview",
+      "domain": "fullview.so",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770671,
+      "name": "Ravio",
+      "domain": "ravio.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770654,
+      "name": "GOALS",
+      "domain": "playgoals.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727564,
+      "name": "Synera (formerly known as ELISE)",
+      "domain": "synera.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770641,
+      "name": "Klar",
+      "domain": "getklar.com",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 289768076,
+      "name": "HiPeople",
+      "domain": "hipeople.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765998,
+      "name": "Luminovo",
+      "domain": "luminovo.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289770233,
+      "name": "Climatiq",
+      "domain": "climatiq.io",
+      "funnel": "Hard to crack"
+    },
+    {
+      "id": 284750184,
+      "name": "Qlub",
+      "domain": "qlub.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769802,
+      "name": "tacto",
+      "domain": "tacto.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 284277886,
+      "name": "Maple Finance",
+      "domain": "maple.finance",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283695501,
+      "name": "mondu",
+      "domain": "mondu.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770466,
+      "name": "Weflow",
+      "domain": "getweflow.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289767535,
+      "name": "NumaStays",
+      "domain": "numastays.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289770144,
+      "name": "FORMEL Skin",
+      "domain": "formelskin.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289766758,
+      "name": "Afilio",
+      "domain": "afilio.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 260491725,
+      "name": "Infarm",
+      "domain": "infarm.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 265614407,
+      "name": "Juni",
+      "domain": "juni.co",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 282249358,
+      "name": "Superlist",
+      "domain": "superlistapp.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289767216,
+      "name": "Sanity Group",
+      "domain": "sanitygroup.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289768528,
+      "name": "Ben",
+      "domain": "thanksben.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289770870,
+      "name": "Moss",
+      "domain": "getmoss.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289767358,
+      "name": "Voliro Airborne Robotics",
+      "domain": "voliro.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769767,
+      "name": "SellerX",
+      "domain": "sellerx.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289769737,
+      "name": "Saleor Commerce",
+      "domain": "saleor.io",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289766335,
+      "name": "Stenon",
+      "domain": "stenon.io",
+      "funnel": "Passed"
+    },
+    {
+      "id": 300186336,
+      "name": "Cosuno",
+      "domain": "cosuno.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766590,
+      "name": "Qualifyze",
+      "domain": "qualifyze.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766585,
+      "name": "LifeX",
+      "domain": "joinlifex.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764650,
+      "name": "Morressier",
+      "domain": "morressier.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289762152,
+      "name": "Weengs",
+      "domain": "weengs.co.uk",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764018,
+      "name": "Curio",
+      "domain": "curio.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765929,
+      "name": "TWAICE",
+      "domain": "twaice.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289766766,
+      "name": "Medwing",
+      "domain": "medwing.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 200351320,
+      "name": "Eastnine",
+      "domain": "eastnine.fit",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765987,
+      "name": "Hedvig",
+      "domain": "hedvig.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289766406,
+      "name": "Manual",
+      "domain": "manual.co",
+      "funnel": "Passed"
+    },
+    {
+      "id": 152838562,
+      "name": "Styla",
+      "domain": "styla.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763449,
+      "name": "Homelike",
+      "domain": "thehomelike.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289769726,
+      "name": "Rows",
+      "domain": "rows.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764167,
+      "name": "AMBOSS",
+      "domain": "amboss.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289764881,
+      "name": "Drover",
+      "domain": "joindrover.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 1809599,
+      "name": "Move24",
+      "domain": "move24.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 220094371,
+      "name": "Joblift",
+      "domain": "joblift.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289763688,
+      "name": "Caroobi",
+      "domain": "caroobi.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289768592,
+      "name": "Forto",
+      "domain": "forto.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289763242,
+      "name": "SMACC",
+      "domain": "smacc.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289762009,
+      "name": "TourRadar",
+      "domain": "tourradar.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289764950,
+      "name": "Watchmaster",
+      "domain": "watchmaster.com",
+      "funnel": "Lead"
+    }
   ],
   "relationships": [
-    {"internal": "William De Quant", "external": "Alexander Schmitt", "externalEmail": "aschmitt@lsvp.com", "score": 1.0, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Cherry Ventures", "externalEmail": "events@cherry.vc", "score": 1.0, "linkedin": false},
-    {"internal": "David Blyghton", "external": "Alexander Schmitt", "externalEmail": "aschmitt@lsvp.com", "score": 0.99, "linkedin": false},
-    {"internal": "William De Quant", "external": "Nadja Reischel", "externalEmail": "nadja@cherry.vc", "score": 0.99, "linkedin": false},
-    {"internal": "Stan Laurent", "external": "Dinika Mahtani", "externalEmail": "dinika@cherry.vc", "score": 0.99, "linkedin": false},
-    {"internal": "Aude Flecchia", "external": "Leonor Landeau", "externalEmail": "leonor.landeau@cherry.vc", "score": 0.98, "linkedin": false},
-    {"internal": "Helena Richardson", "external": "Dinika Mahtani", "externalEmail": "dinika@cherry.vc", "score": 0.98, "linkedin": false},
-    {"internal": "Eoghan Dorman", "external": "Max Brückner", "externalEmail": "max@cherry.vc", "score": 0.87, "linkedin": false},
-    {"internal": "Lucinda Maxwell", "external": "Nadja Reischel", "externalEmail": "nadja@cherry.vc", "score": 0.87, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Christian Meermann", "externalEmail": "christian@cherry.vc", "score": 0.78, "linkedin": false}
+    {
+      "internal": "William De Quant",
+      "external": "Alexander Schmitt",
+      "externalEmail": "aschmitt@lsvp.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Cherry Ventures",
+      "externalEmail": "events@cherry.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Alexander Schmitt",
+      "externalEmail": "aschmitt@lsvp.com",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Nadja Reischel",
+      "externalEmail": "nadja@cherry.vc",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Dinika Mahtani",
+      "externalEmail": "dinika@cherry.vc",
+      "score": 0.99,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Leonor Landeau",
+      "externalEmail": "leonor.landeau@cherry.vc",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Dinika Mahtani",
+      "externalEmail": "dinika@cherry.vc",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Max Brückner",
+      "externalEmail": "max@cherry.vc",
+      "score": 0.87,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Nadja Reischel",
+      "externalEmail": "nadja@cherry.vc",
+      "score": 0.87,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Christian Meermann",
+      "externalEmail": "christian@cherry.vc",
+      "score": 0.78,
+      "linkedin": false
+    }
   ],
   "notes": "Pipeline: 90 list entries, 90 unique companies (no duplicates)."
 }
