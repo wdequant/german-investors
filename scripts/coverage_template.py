@@ -327,17 +327,7 @@ function render(){
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
 const va = document.getElementById('viewas');
 D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
-va.addEventListener('change',()=>{state.person=va.value; const seg = document.getElementById('regionseg');
-REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=D.regions[r].label;b.dataset.r=r;
-  if(r===region)b.classList.add('on');
-  b.addEventListener('click',()=>{region=r;seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
-  seg.appendChild(b);});
-function labels(){
-  const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
-  document.getElementById('pagetitle').innerHTML = `Who covers the ${D.regions[region].adj} ecosystem — and&nbsp;who&nbsp;doesn’t`;
-  document.getElementById('subcount').textContent = `The ${f} ${D.regions[region].label} funds that matter most plus ${a} super-angels.`;
-}
-labels(); scoreboard(); render();});
+va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
 
 // CSV export via downloads capability
 function csv(){
