@@ -1,0 +1,97 @@
+{
+ "10096": {
+  "name": "Ilkka Paananen",
+  "via": [
+   {
+    "user": "Helena Richardson",
+    "sources": [
+     "EMAIL"
+    ]
+   },
+   {
+    "user": "Sam Brooks",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "15384": {
+  "name": "Cristina Stenbeck",
+  "via": []
+ },
+ "24223": {
+  "name": "Ali Omar",
+  "via": [
+   {
+    "user": "Irena Goldenberg",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "8383": {
+  "name": "Charlie Songhurst",
+  "via": []
+ },
+ "10475": {
+  "name": "Sophia Bendz",
+  "via": [
+   {
+    "user": "Irena Goldenberg",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "9931": {
+  "name": "Mattias Miksche",
+  "via": []
+ },
+ "9759": {
+  "name": "David Helgason",
+  "via": []
+ },
+ "15312": {
+  "name": "Hampus Jakobsson",
+  "via": [
+   {
+    "user": "Abhishek Lahoti",
+    "sources": [
+     "EMAIL"
+    ]
+   },
+   {
+    "user": "Harry Williams",
+    "sources": [
+     "LINKEDIN",
+     "EMAIL",
+     "CALENDAR"
+    ]
+   },
+   {
+    "user": "Helena Richardson",
+    "sources": [
+     "EMAIL"
+    ]
+   },
+   {
+    "user": "Tyrone Tee",
+    "sources": [
+     "EMAIL",
+     "CALENDAR"
+    ]
+   }
+  ]
+ },
+ "155417937": {
+  "name": "Risto Siilasmaa",
+  "via": []
+ },
+ "168205136": {
+  "name": "Sebastian Knutsson",
+  "via": []
+ }
+}

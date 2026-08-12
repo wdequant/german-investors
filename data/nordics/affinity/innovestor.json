@@ -1,0 +1,26 @@
+{
+  "slug": "innovestor",
+  "affinity_company_id": 114714199,
+  "affinity_domain": "innovestor.fi",
+  "pipeline": [
+    {"id": 311924999, "name": "RetailGrid", "domain": "retailgrid.io", "funnel": "Pre-lead"},
+    {"id": 311281710, "name": "Bahn Express", "domain": "bahnexpress.com", "funnel": "Awaiting Reply"},
+    {"id": 301135226, "name": "MailMoo", "domain": "mailmoo.io", "funnel": "Pre-lead"},
+    {"id": 295908639, "name": "SynergyXR", "domain": "synergyxr.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293729312, "name": "Capalo AI", "domain": "capaloai.com", "funnel": "Lead"},
+    {"id": 293729114, "name": "One.com", "domain": "cronvall.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293729139, "name": "Kausal", "domain": "kausal.tech", "funnel": "Lead"},
+    {"id": 293727735, "name": "SpinDrive", "domain": "spindrive.fi", "funnel": "Pre-lead"},
+    {"id": 289771550, "name": "Shipit", "domain": "shipit.fi", "funnel": "Deprioritised (free for all)"},
+    {"id": 289767664, "name": "PromoRepublic", "domain": "promorepublic.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 280601862, "name": "Ogoship", "domain": "ogoship.com", "funnel": "Passed"},
+    {"id": 289769619, "name": "Linear", "domain": "linear.fi", "funnel": "Lead"},
+    {"id": 289768705, "name": "Efecte", "domain": "efecte.com", "funnel": "Passed"},
+    {"id": 289760393, "name": "IndoorAtlas", "domain": "indooratlas.com", "funnel": "Lead"},
+    {"id": 289761707, "name": "Etuma", "domain": "etuma.com", "funnel": "Passed"}
+  ],
+  "relationships": [
+    {"internal": "Harry Williams", "external": "Tuomas Rekonen", "externalEmail": "tuomas@endeit.com", "score": 0.76, "linkedin": false}
+  ],
+  "notes": "Affinity org 114714199 'Innovestor' (primary domain innovestorgroup.com, also innovestor.fi) picked over 116047384 'Innovestor Ventures'. IndoorAtlas had two list entries; deduped. Sole relationship contact Tuomas Rekonen now carries an endeit.com email."
+}

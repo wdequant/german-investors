@@ -1,0 +1,14 @@
+{
+  "slug": "sting",
+  "affinity_company_id": 163279012,
+  "affinity_domain": "sting.co",
+  "pipeline": [
+    {"id": 289771030, "name": "Datia", "domain": "datia.app", "funnel": "Passed"},
+    {"id": 289769909, "name": "Earthbanc", "domain": "earthbanc.io", "funnel": "Lead"},
+    {"id": 289763539, "name": "Barnebys", "domain": "barnebys.com", "funnel": "Lead"}
+  ],
+  "relationships": [
+    {"internal": "William De Quant", "external": "Charlotte Ekelund", "externalEmail": "charlotte.ekelund@sting.co", "score": 0.98, "linkedin": false}
+  ],
+  "notes": "Affinity org record for sting.co is named 'Propel Capital'. Ambiguity guard applied: Query B match 'Stingray Marine Solutions' excluded (no Sting investor value); kept entries with investor value 'Sting'/'Sting Accelerator'."
+}

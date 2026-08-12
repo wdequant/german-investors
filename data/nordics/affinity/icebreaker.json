@@ -1,0 +1,38 @@
+{
+  "slug": "icebreaker",
+  "affinity_company_id": 118306509,
+  "affinity_domain": "icebreaker.vc",
+  "pipeline": [
+    {"id": 312898585, "name": "Oplane", "domain": "oplane.io", "funnel": "Pre-lead"},
+    {"id": 312445049, "name": "Clock&Cloud", "domain": "clockcloud.ai", "funnel": "Pre-lead"},
+    {"id": 301577740, "name": "Grid Raven", "domain": "gridraven.com", "funnel": "Lead"},
+    {"id": 293727524, "name": "Valpas", "domain": "valpashotels.com", "funnel": "Awaiting Reply"},
+    {"id": 293728209, "name": "ReOrbit", "domain": "reorbit.space", "funnel": "Deprioritised (free for all)"},
+    {"id": 289772124, "name": "Scrintal", "domain": "scrintal.com", "funnel": "Pre-lead"},
+    {"id": 289771230, "name": "apiable.io", "domain": "apiable.io", "funnel": "Deprioritised (free for all)"},
+    {"id": 301320442, "name": "Helppy", "domain": "helppy.com", "funnel": "Lead"},
+    {"id": 289768630, "name": "Aibidia", "domain": "aibidia.com", "funnel": "Qualified Lead"},
+    {"id": 289766167, "name": "Logmore", "domain": "logmore.com", "funnel": "Lead"},
+    {"id": 289769681, "name": "Tesseract Group Oy", "domain": "tesseractinvestment.com", "funnel": "Pre-lead"},
+    {"id": 289770095, "name": "Single.Earth", "domain": "single.earth", "funnel": "Deprioritised (free for all)"},
+    {"id": 289767562, "name": "Modash.io", "domain": "modash.io", "funnel": "Lead"},
+    {"id": 289766891, "name": "IPRally", "domain": "iprally.com", "funnel": "Lead"},
+    {"id": 289764544, "name": "Sellforte", "domain": "sellforte.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289768249, "name": "Cachet", "domain": "cachet.me", "funnel": "Deprioritised (free for all)"},
+    {"id": 289769354, "name": "Fixably", "domain": "fixably.com", "funnel": "Passed"},
+    {"id": 289764609, "name": "Flowhaven, Licensing Suite", "domain": "flowhaven.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289763517, "name": "Lumoa", "domain": "lumoa.me", "funnel": "Deprioritised (free for all)"},
+    {"id": 225076011, "name": "Klaus", "domain": "klausapp.com", "funnel": "Passed"},
+    {"id": 289765376, "name": "Dashbird", "domain": "dashbird.io", "funnel": "Deprioritised (free for all)"},
+    {"id": 289764578, "name": "Hoxhunt", "domain": "hoxhunt.com", "funnel": "Lead"},
+    {"id": 289764574, "name": "Kodit.io", "domain": "rivehomes.com", "funnel": "Lead"}
+  ],
+  "relationships": [
+    {"internal": "Harry Williams", "external": "Mikko Suonenlahti", "externalEmail": "mikko@suonenlahti.com", "score": 0.67, "linkedin": false},
+    {"internal": "Eoghan Dorman", "external": "Tunde Adekeye", "externalEmail": "tunde@pitchdoctor.app", "score": 0.43, "linkedin": false},
+    {"internal": "Laurence Garrett", "external": "Mikko Suonenlahti", "externalEmail": "mikko@suonenlahti.com", "score": 0.10, "linkedin": false},
+    {"internal": "Eoghan Dorman", "external": "Lasse Lehtinen", "externalEmail": "lasse@icebreaker.vc", "score": 0.10, "linkedin": false},
+    {"internal": "Abhishek Lahoti", "external": "Tunde Adekeye", "externalEmail": "tunde@pitchdoctor.app", "score": 0.10, "linkedin": false}
+  ],
+  "notes": "Ambiguity guard applied (B totalCount 24 vs A 3): all keyword-B entries carried an investor value containing 'icebreaker' (Icebreaker VC / Icebreaker Ventures / Icebreaker.vc), so all kept. Helppy had two list entries; kept latest (Lead, 2022-08-18)."
+}

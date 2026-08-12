@@ -1,0 +1,68 @@
+[
+ {
+  "urn": "urn:harmonic:investor:11",
+  "name": "Ilkka Paananen",
+  "companies": [
+   "urn:harmonic:company:4295354",
+   "urn:harmonic:company:12460765",
+   "urn:harmonic:company:802379"
+  ],
+  "company_names": [
+   "Wolt",
+   "Zwift",
+   "Supermetrics"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:174217",
+  "name": "EQT Ventures",
+  "companies": [
+   "urn:harmonic:company:3245781",
+   "urn:harmonic:company:4295354"
+  ],
+  "company_names": [
+   "Nothing",
+   "Wolt"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:199852",
+  "name": "byFounders",
+  "companies": [
+   "urn:harmonic:company:105727"
+  ],
+  "company_names": [
+   "Cobalt"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:225739",
+  "name": "Northzone",
+  "companies": [
+   "urn:harmonic:company:437313"
+  ],
+  "company_names": [
+   "OUTFITTERY"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:177998",
+  "name": "Creandum",
+  "companies": [
+   "urn:harmonic:company:784939"
+  ],
+  "company_names": [
+   "Meditopia"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:205046",
+  "name": "Lifeline Ventures",
+  "companies": [
+   "urn:harmonic:company:4295354"
+  ],
+  "company_names": [
+   "Wolt"
+  ]
+ }
+]

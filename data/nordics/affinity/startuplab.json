@@ -1,0 +1,15 @@
+{
+  "slug": "startuplab",
+  "affinity_company_id": 88688193,
+  "affinity_domain": "startuplab.no",
+  "pipeline": [
+    {"id": 312898639, "name": "Cloudgeni", "domain": "cloudgeni.ai", "funnel": "Pre-lead"},
+    {"id": 311390343, "name": "Stendr", "domain": "stendr.com", "funnel": "Pre-lead"},
+    {"id": 302234859, "name": "VISOID", "domain": "visoid.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 300074808, "name": "Fortifai", "domain": "fortifai.co", "funnel": "Pre-lead"},
+    {"id": 295040253, "name": "Otee.io", "domain": "otee.com", "funnel": "Pre-lead"}
+  ],
+  "relationships": [
+    {"internal": "Harry Williams", "external": "Iris Auran", "externalEmail": "iris.auran@hafslund.no", "score": 0.57, "linkedin": false}
+  ]
+}

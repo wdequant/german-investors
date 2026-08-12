@@ -1,0 +1,15 @@
+{
+  "slug": "almi",
+  "affinity_company_id": 263510079,
+  "affinity_domain": "almi.se",
+  "pipeline": [
+    {"id": 163297439, "name": "Apica", "domain": "apicasystems.com", "funnel": "Lead"}
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": ["Harry Williams"],
+    "last": "2022-01",
+    "context": "RE: Alma <> Highland Europe (email to Egil Edvardsen, almiinvest.se)"
+  },
+  "notes": "Query A (investor filter 'Almi') returned 0; Query B keyword returned 22. Ambiguity guard applied: 20 entries matched only via 'Almi Invest' / 'ALMI Invest Greentech' values and were excluded per the almi-invest exclusion rule; GYANA matched only 'Almington Capital' (not a token match) and was dropped. Only Apica (Almi Foretags) retained. Note: a separate 'Almi Invest' org exists in Affinity (id 291891604, alminvest.com)."
+}

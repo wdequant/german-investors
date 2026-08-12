@@ -1,0 +1,27 @@
+{
+  "slug": "investinor",
+  "affinity_company_id": 1538739,
+  "affinity_domain": "investinor.no",
+  "pipeline": [
+    {"id": 305791402, "name": "Muybridge", "domain": "muybridge.com", "funnel": "Lead"},
+    {"id": 300446976, "name": "Sonair.com", "domain": "sonair.com", "funnel": "Pre-lead"},
+    {"id": 282436868, "name": "Fonn", "domain": "fonn.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293727756, "name": "Intelecy", "domain": "intelecy.com", "funnel": "Awaiting Reply"},
+    {"id": 289771544, "name": "Shoreline", "domain": "shorelinewind.com", "funnel": "Passed"},
+    {"id": 289771684, "name": "Heimdall Power", "domain": "heimdallpower.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 285425124, "name": "Modulize", "domain": "modulize.com", "funnel": "Pre-lead"},
+    {"id": 285271493, "name": "Ignite Procurement", "domain": "ignite.no", "funnel": "Deprioritised (free for all)"},
+    {"id": 289769958, "name": "Nomono AS", "domain": "nomono.co", "funnel": "Deprioritised (free for all)"},
+    {"id": 287717218, "name": "Cavai®", "domain": "cavai.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 294272400, "name": "Memory (Timely App)", "domain": "memory.ai", "funnel": "Deprioritised (free for all)"},
+    {"id": 289764981, "name": "Unacast", "domain": "unacast.com", "funnel": "Lead"},
+    {"id": 289764125, "name": "Swarm64", "domain": "swarm64.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289763216, "name": "Xeneta", "domain": "xeneta.com", "funnel": "Passed"},
+    {"id": 1556962, "name": "bMenu", "domain": "bmenu.com", "funnel": "Passed"},
+    {"id": 2162786, "name": "ChapDrive", "domain": "chapdrive.com", "funnel": "Passed"}
+  ],
+  "relationships": [
+    {"internal": "Harry Williams", "external": "Johan Gjesdahl", "externalEmail": "johan@alliance.vc", "score": 0.76, "linkedin": false}
+  ],
+  "notes": "Memory (Timely App) appeared twice on the list (two list entries, same entity); deduped. Sole relationship contact Johan Gjesdahl carries an alliance.vc email but is linked to the Investinor org in Affinity."
+}
