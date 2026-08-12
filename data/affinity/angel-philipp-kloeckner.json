@@ -1,0 +1,20 @@
+{
+  "slug": "philipp-kloeckner",
+  "affinity_person_id": null,
+  "pipeline": [
+    {
+      "id": 289770868,
+      "name": "bunch",
+      "domain": "bunch.capital",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772065,
+      "name": "Trade Machines FI GmbH",
+      "domain": "trademachines.com",
+      "funnel": "Deprioritised (free for all)"
+    }
+  ],
+  "relationships": [],
+  "notes": "No matching person in Affinity (searched 'Philipp Klöckner', 'Philipp Kloeckner', 'Klöckner', 'Klockner')."
+}

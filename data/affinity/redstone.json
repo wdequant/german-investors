@@ -1,0 +1,18 @@
+{
+  "slug": "redstone",
+  "affinity_company_id": 1669166,
+  "affinity_domain": "redstone.vc",
+  "pipeline": [
+    {"id": 299470844, "name": "Kvantify", "domain": "kvantify.com", "funnel": "Lead"},
+    {"id": 293729097, "name": "Empion", "domain": "empion.io", "funnel": "Awaiting Reply"},
+    {"id": 289764370, "name": "BERGFÜRST", "domain": "de.bergfuerst.com", "funnel": "Lead"}
+  ],
+  "relationships": [
+    {"internal": "Aude Flecchia", "external": "Moritz Gillmair", "externalEmail": "moritz.gillmair@redstone.vc", "score": 1.0, "linkedin": false},
+    {"internal": "Gajan Rajanathan", "external": "Marco Stutz", "externalEmail": "marco.stutz@redstone.vc", "score": 1.0, "linkedin": false},
+    {"internal": "Aude Flecchia", "external": "Marco Stutz", "externalEmail": "marco.stutz@redstone.vc", "score": 0.98, "linkedin": false},
+    {"internal": "Harry Williams", "external": "Mikael Myllymäki", "externalEmail": "mikael.myllymaki@redstone.vc", "score": 0.83, "linkedin": false},
+    {"internal": "Eoghan Dorman", "external": "Marco Stutz", "externalEmail": "marco.stutz@redstone.vc", "score": 0.7, "linkedin": false},
+    {"internal": "Anna Faulkner", "external": "Richard Würl", "externalEmail": "richard.wuerl@redstone.vc", "score": 0.63, "linkedin": false}
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "mario-goetze",
+  "affinity_person_id": 92142768,
+  "pipeline": [
+    {
+      "id": 311601260,
+      "name": "Huskey Security",
+      "domain": "huskeys.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 311186672,
+      "name": "Seamflow",
+      "domain": "seamflow.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 309752587,
+      "name": "Input",
+      "domain": "lemni.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 306306579,
+      "name": "revel8",
+      "domain": "revel8.ai",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293729563,
+      "name": "UNARIC",
+      "domain": "unaric.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 311777654,
+      "name": "Helical",
+      "domain": "helical.bio",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 294012386,
+      "name": "allO",
+      "domain": "allo.restaurant",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 293729545,
+      "name": "LANCH",
+      "domain": "lanch.jobs.personio.de",
+      "funnel": "Passed"
+    },
+    {
+      "id": 293728857,
+      "name": "metergrid",
+      "domain": "metergrid.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 304701836,
+      "name": "Light",
+      "domain": "light.inc",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289772294,
+      "name": "ScorePlay",
+      "domain": "scoreplay.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772502,
+      "name": "Netbird",
+      "domain": "netbird.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289772737,
+      "name": "Slay",
+      "domain": "slay.cool",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289771267,
+      "name": "Virtex Stadium",
+      "domain": "virtexstadium.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289771407,
+      "name": "secjur",
+      "domain": "secjur.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289768609,
+      "name": "Freeverse.io",
+      "domain": "laosnetwork.io",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 288811074,
+      "name": "Knowunity",
+      "domain": "knowunity.de",
+      "funnel": "Qualified Lead"
+    }
+  ],
+  "relationships": [],
+  "notes": "Person found as 'Mario Goetze' (m.goetze@companion-m.com); umlaut search returned no hit. No relationships with interaction history or LinkedIn connections recorded in Affinity."
+}

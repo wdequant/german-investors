@@ -1,0 +1,74 @@
+{
+  "slug": "hanno-renner",
+  "affinity_person_id": 7990982,
+  "pipeline": [
+    {
+      "id": 292793196,
+      "name": "Pivot",
+      "domain": "home.pivotapp.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 293727286,
+      "name": "Langdock",
+      "domain": "langdock.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 290902318,
+      "name": "Axle",
+      "domain": "axle.energy",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 289772236,
+      "name": "Forget.finance",
+      "domain": "forget.finance",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770836,
+      "name": "ORBEM",
+      "domain": "orbem.ai",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289765998,
+      "name": "Luminovo",
+      "domain": "luminovo.com",
+      "funnel": "Awaiting Reply"
+    },
+    {
+      "id": 284559409,
+      "name": "Zavvy",
+      "domain": "zavvy.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289769168,
+      "name": "Amie",
+      "domain": "amie.so",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 283051792,
+      "name": "nilo.health",
+      "domain": "nilohealth.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769346,
+      "name": "Localyze",
+      "domain": "localyze.com",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289765755,
+      "name": "Demodesk",
+      "domain": "demodesk.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [],
+  "notes": "Person found (hanno@personio.de). No relationships with interaction history or LinkedIn connections recorded in Affinity."
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "christian-vollmann",
+  "affinity_person_id": null,
+  "pipeline": [
+    {
+      "id": 313527294,
+      "name": "Holy Technologies",
+      "domain": "holy-technologies.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 293728044,
+      "name": "ecoworks",
+      "domain": "ecoworks.tech",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 310777816,
+      "name": "Himala",
+      "domain": "himala.ai",
+      "funnel": "Lead"
+    },
+    {
+      "id": 287043659,
+      "name": "Marta",
+      "domain": "marta.de",
+      "funnel": "Qualified Lead"
+    },
+    {
+      "id": 289767910,
+      "name": "Thinksurance",
+      "domain": "thinksurance.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 283108697,
+      "name": "Bitbond",
+      "domain": "bitbond.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289763281,
+      "name": "ResearchGate",
+      "domain": "researchgate.net",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [],
+  "notes": "No matching person in Affinity (searched 'Christian Vollmann' and surname 'Vollmann'; only unrelated Dirk Vollmann found)."
+}

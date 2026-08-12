@@ -1,0 +1,32 @@
+{
+  "slug": "verena-pausder",
+  "affinity_person_id": null,
+  "pipeline": [
+    {
+      "id": 310605908,
+      "name": "Tomorrow University of Applied Sciences",
+      "domain": "tomorrow.university",
+      "funnel": "Lead"
+    },
+    {
+      "id": 296509857,
+      "name": "BLING Sthlm",
+      "domain": "bling.de",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289770282,
+      "name": "cleverly.de",
+      "domain": "cleverly.de",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 288811074,
+      "name": "Knowunity",
+      "domain": "knowunity.de",
+      "funnel": "Qualified Lead"
+    }
+  ],
+  "relationships": [],
+  "notes": "No matching person in Affinity (searched 'Verena Pausder' and surname 'Pausder')."
+}

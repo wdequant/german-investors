@@ -1,0 +1,30 @@
+{
+  "slug": "possible-ventures",
+  "affinity_company_id": 283327459,
+  "affinity_domain": "possible.ventures",
+  "pipeline": [
+    {"id": 311601070, "name": "InSpacePropulsion Technologies (ISPTech)", "domain": "isptech.space", "funnel": "Pre-lead"},
+    {"id": 308570065, "name": "Telura Energy", "domain": "telura.com", "funnel": "Pre-lead"},
+    {"id": 311995801, "name": "Biotactics", "domain": "swarm-biotactics.com", "funnel": "Pre-lead"},
+    {"id": 305263360, "name": "Chemify", "domain": "chemify.io", "funnel": "Deprioritised (free for all)"},
+    {"id": 296509890, "name": "Sumday", "domain": "sumday.io", "funnel": "Pre-lead"},
+    {"id": 293729515, "name": "Tilebox", "domain": "tilebox.com", "funnel": "Pre-lead"},
+    {"id": 291408660, "name": "Cello", "domain": "cello.so", "funnel": "Lead"},
+    {"id": 291145673, "name": "Cakewalk", "domain": "cakewalk.security", "funnel": "Pre-lead"},
+    {"id": 293728960, "name": "Reverion", "domain": "reverion.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 293727049, "name": "Levy Health", "domain": "levy.health", "funnel": "Deprioritised (free for all)"},
+    {"id": 289986762, "name": "Cala", "domain": "eatcala.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289772210, "name": "Smitten", "domain": "smitten.fun", "funnel": "Pre-lead"},
+    {"id": 289315380, "name": "The Exploration Company", "domain": "exploration.space", "funnel": "Lead"},
+    {"id": 289772300, "name": "Crowd.dev", "domain": "crowd.dev", "funnel": "Deprioritised (free for all)"},
+    {"id": 289770836, "name": "ORBEM", "domain": "orbem.ai", "funnel": "Deprioritised (free for all)"},
+    {"id": 289771341, "name": "Spoke", "domain": "spoke.ai", "funnel": "Pre-lead"},
+    {"id": 289769224, "name": "Heyflow", "domain": "heyflow.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289769844, "name": "AVI medical", "domain": "avimedical.com", "funnel": "Deprioritised (free for all)"},
+    {"id": 289764253, "name": "AnyDesk", "domain": "anydesk.com", "funnel": "Passed"},
+    {"id": 289762748, "name": "Automata", "domain": "automata.tech", "funnel": "Deprioritised (free for all)"},
+    {"id": 282136831, "name": "Holidu", "domain": "holidu.com", "funnel": "Lead"}
+  ],
+  "relationships": [],
+  "notes": "Pipeline deduplicated: Cello (entity 291408660) appeared on two list entries, both with funnel Lead; kept one. 21 unique companies from 22 list entries. get_company_relationships for Possible Ventures (Affinity company 283327459, possible.ventures) returned no relationships."
+}

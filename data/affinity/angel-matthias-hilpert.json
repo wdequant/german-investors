@@ -1,0 +1,50 @@
+{
+  "slug": "matthias-hilpert",
+  "affinity_person_id": null,
+  "pipeline": [
+    {
+      "id": 311601179,
+      "name": "Hive Robotics",
+      "domain": "hive-robotics.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289766074,
+      "name": "Restack",
+      "domain": "restack.io",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289768118,
+      "name": "Stotles",
+      "domain": "stotles.com",
+      "funnel": "Reach Out Now"
+    },
+    {
+      "id": 289767640,
+      "name": "Archlet",
+      "domain": "archlet.io",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289767968,
+      "name": "Back",
+      "domain": "backhq.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 265123807,
+      "name": "lengoo",
+      "domain": "lengoo.com",
+      "funnel": "Passed"
+    },
+    {
+      "id": 289765033,
+      "name": "I-surance",
+      "domain": "ww1.i-surance.ch",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [],
+  "notes": "No matching person in Affinity (searched 'Matthias Hilpert' and surname 'Hilpert'; only unrelated Johannes Hilpert of Paul Hastings found)."
+}

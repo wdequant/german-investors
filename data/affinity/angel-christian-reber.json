@@ -1,0 +1,50 @@
+{
+  "slug": "christian-reber",
+  "affinity_person_id": 28112519,
+  "pipeline": [
+    {
+      "id": 309752587,
+      "name": "Input",
+      "domain": "lemni.com",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770853,
+      "name": "Mason",
+      "domain": "mason.app",
+      "funnel": "Pre-lead"
+    },
+    {
+      "id": 289770272,
+      "name": "Crew.work",
+      "domain": "crew.work",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289770033,
+      "name": "paretos",
+      "domain": "paretos.com",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772242,
+      "name": "PocketLaw",
+      "domain": "pocketlaw.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769517,
+      "name": "Klima",
+      "domain": "klima.com",
+      "funnel": "Deprioritised (free for all)"
+    },
+    {
+      "id": 289769726,
+      "name": "Rows",
+      "domain": "rows.com",
+      "funnel": "Passed"
+    }
+  ],
+  "relationships": [],
+  "notes": "Person found (christian@pitch.io, Pitch founder; distinct from Christian Rebernik). No relationships with interaction history or LinkedIn connections recorded in Affinity."
+}

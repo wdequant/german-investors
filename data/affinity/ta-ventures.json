@@ -1,0 +1,20 @@
+{
+  "slug": "ta-ventures",
+  "affinity_company_id": 1565141,
+  "affinity_domain": "taventures.vc",
+  "pipeline": [
+    {"id": 313527307, "name": "CUBE3 AI", "domain": "cube3.ai", "funnel": "Lead"},
+    {"id": 301135101, "name": "Seafair", "domain": "seafair.io", "funnel": "Pre-lead"},
+    {"id": 289772236, "name": "Forget.finance", "domain": "forget.finance", "funnel": "Deprioritised (free for all)"},
+    {"id": 289770683, "name": "UTORG", "domain": "utorg.pro", "funnel": "Passed"},
+    {"id": 289770549, "name": "FintechFarm", "domain": "fintech-farm.com", "funnel": "Qualified Lead"},
+    {"id": 289766557, "name": "Bipi", "domain": "bipicar.com", "funnel": "Passed"},
+    {"id": 289769173, "name": "Clark", "domain": "clark.de", "funnel": "Passed"},
+    {"id": 289765183, "name": "CrossEngage", "domain": "crossengage.io", "funnel": "Deprioritised (free for all)"},
+    {"id": 289762102, "name": "Makerist", "domain": "makerist.de", "funnel": "Lead"},
+    {"id": 289760946, "name": "Auctionata", "domain": "auctionata.com", "funnel": "Passed"},
+    {"id": 289760032, "name": "Azimo", "domain": "azimo.com", "funnel": "Lead"}
+  ],
+  "relationships": [],
+  "notes": "get_company_relationships for TA Ventures (Affinity company 1565141, taventures.vc) returned no relationships."
+}

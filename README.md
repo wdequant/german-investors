@@ -1,73 +1,62 @@
 # Highland VC Connectivity Map — Germany
 
 A tool that visualises Highland Europe's connectivity into a country's early-stage VC
-ecosystem, starting with Germany. For every relevant early-stage fund it answers:
+ecosystem, starting with Germany. For every fund/angel that matters it answers:
 
-1. **Who is the best-connected Highland investor into this fund?**
-2. **Have we co-invested with this fund before?**
-3. **Where are our coverage gaps?** (relevant fund × weak relationships → highlighted)
+1. **How relevant are they** to businesses Highland may eventually invest in?
+2. **How well do we cover them** — and who is the best-connected Highland person?
+3. **Have we co-invested** with them before?
+4. **Where does their portfolio sit in our pipeline** (pre-lead → reach out → awaiting
+   reply → lead → hard to crack), with Affinity links per company?
 
-## Data sources (validated)
+Live map: `viz/index.html` (published as a Claude artifact; same URL redeployed on rebuild).
 
-| Question | Source | Status |
+## Universe (v2)
+
+- Source: Harmonic saved search `urn:harmonic:saved_search:245331` (74 German investors),
+  full pull in `data/germany-investors.json`.
+- Condensed to the **top 30 VC/CVC/state funds** by a hybrid score:
+  `½ · normalised(investment count) + ½ · normalised(unicorn count)`.
+- Plus **9 super-angels**: Götze, Renner, Göllner, Hilpert (from the saved search) +
+  Klöckner, Vollmann, Pausder, Koç, Reber (resolved directly in Harmonic).
+- Excluded: corporates investing off balance sheet (Siemens, Bosch, Axel Springer, …),
+  the mis-mapped "GV" record, and everything outside the top-30 cut.
+
+## Data layers
+
+| Layer | Source | Files |
 |---|---|---|
-| Universe of German funds | Harmonic saved search `urn:harmonic:saved_search:245331` (74 investors) | ✅ pulled → `data/germany-investors.json` |
-| Who knows whom at each fund | Harmonic `get_company_connections` — per-teammate connections into fund personnel, with sources (EMAIL / CALENDAR / LINKEDIN) and the contact's role at the fund | ✅ validated (Cherry Ventures: 25 connected people across 7+ Highland team members) |
-| Co-investment history | Harmonic `get_investors` on Highland Europe (`urn:harmonic:investor:198178`) with `co_investors` field group — 331 co-investors incl. HV (4 shared companies), HTGF (3), Atlantic Labs (2), DvH (2) | ✅ validated |
-| Relationship recency/strength (optional enrichment) | Harmonic `connection_fields: correspondence` (latest email + meeting per teammate) and/or Affinity relationship data | ⬜ decide |
+| Fund stats (stage/sector/activity/unicorns) | Harmonic saved search | `data/germany-investors.json` |
+| Team network (who knows whom, per teammate, with LinkedIn) | Harmonic `get_company_connections` / `get_person_connections`, 18 investment-team users | `data/connections.json`, `data/highland-team.json` |
+| Co-investment history | Harmonic co-investor record for Highland Europe | `data/coinvestments.json` |
+| Partnership relationships (incl. Laurence, Fergal, Ronan — no Harmonic sync needed) | Affinity `get_company_relationships` / `get_person_relationships` | `data/affinity/<slug>.json` |
+| Pipeline overlap by funnel stage | Affinity list 9387 ("Highland Companies"), `Funnel` field `field-81237`, filtered on the enriched `Investors` field | `data/affinity/<slug>.json` |
 
-## Methodology
+## Scores
 
-### 1. Relevance score — "is this a fund we should have covered?"
+- **Relevance (0–100)** — funds only: stage fit (Seed/A entry, 30) + sector fit vs the
+  software/internet thesis (30) + activity recency (20) + graduation quality (20).
+- **Coverage (0–100)**: `0.55 · harmonic + 0.45 · affinity`, where harmonic = normalised
+  (0.7·√best-teammate-cell + 0.3·√team-total; cell = Σ contact-seniority × source-weight)
+  and affinity = max partnership interaction score + 0.06 per strong (≥0.5) relationship.
+- **Colour coding** replaces the old gap flag: fund names render green (≥50), amber
+  (22–49) or red (<22) by coverage.
+- Funnel buckets: Lead includes Qualified Lead and Deal; Passed/Deprioritised only in
+  the drill-down.
 
-Filters first (drop or tag):
-- **Bad records** — e.g. `GV` (urn 131890…142901) is a mis-mapped record (Google Ventures
-  stats attached to a Ludwigsburg company). Manual exclude list.
-- **Entity type** — tag angels (Götze, Renner, Göllner, Hilpert), corporate balance-sheet
-  investors (Siemens, Bosch, Axel Springer, Deutsche Börse, Döhler), and state/public funds
-  (HTGF, Bayern Kapital, IBB) separately from institutional VCs. Default view = institutional
-  VC + dedicated CVC funds; toggles for the rest.
+## Rebuild
 
-Then score each remaining fund 0–100 on "produces companies Highland would fund later":
-- **Stage fit (30%)** — entry stage focus is Seed / Series A (the sweet spot: their winners
-  raise the Series B/C growth rounds Highland leads).
-- **Sector fit (30%)** — share of portfolio in software / internet / tech sectors Highland
-  invests in (Communications & IT, Business Services, FinServ software, …). Penalise pure
-  crypto (1kx, Moonrock, Inflection.xyz) and pure biotech (OCCIDENT, Amino, MIG) portfolios.
-- **Activity (20%)** — new investments in the last 12 months; most recent investment date.
-- **Graduation quality (20%)** — how often their portfolio raises downstream growth rounds
-  (unicorn count, follow-on/graduation signals; can be computed precisely from portfolio
-  funding data later).
+```
+python3 scripts/build_viz2.py   # regenerates viz/index.html from data/
+```
 
-### 2. Connectivity score — per (fund × Highland investor)
+`scripts/build_viz.py` is the v1 full-74 heatmap generator, kept for reference.
 
-From `get_company_connections` on each fund's company URN:
-- Count distinct people known at the fund, weighted by **contact seniority** (Partner/GP > Principal > Associate > non-investment staff)
-- Weight by **connection source** (CALENDAR+EMAIL ≫ LINKEDIN-only)
-- Optional: recency of last interaction via `correspondence` fields
+## Caveats
 
-Fund-level connectivity = max over Highland investors (who's the door-opener), plus breadth
-(how many of us know them).
-
-### 3. Co-investment flag
-
-From Highland's co-investor list: shared portfolio companies per fund → strongest possible
-relationship signal, displayed as a badge with the shared company names.
-
-### 4. Gap highlighting
-
-`gap = relevance × (1 − normalised connectivity)`. High-relevance, low-connectivity funds
-get the red treatment.
-
-## Repo layout
-
-- `docs/harmonic-api-reference.md` — Harmonic API reference (uploaded)
-- `data/germany-investors.json` — the 74 funds from the saved search, with stage/sector/
-  activity stats (names resolved via `get_investors`)
-- Next: `data/connections/` (per-fund network pulls), scoring script, visualisation
-
-## Open questions
-
-See the discussion in the working session — key decisions: exact relevance weights,
-Harmonic-vs-Affinity as the relationship source of truth, and visual design (matrix/heatmap
-vs. network graph).
+- Harmonic network only sees synced users; Fergal/Laurence appear via Affinity only.
+- Pipeline matching relies on Affinity's enriched Investors text (alias lists per fund);
+  a fund written differently in Affinity than our aliases will be missed.
+- Affinity person records don't exist for most of the super-angels — their coverage
+  score is genuinely near-zero, which is itself the finding.
+- Affinity company links assume the `highlandeurope.affinity.co` workspace URL.

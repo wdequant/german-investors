@@ -1,0 +1,26 @@
+{
+  "slug": "julius-goellner",
+  "affinity_person_id": null,
+  "pipeline": [
+    {
+      "id": 291408660,
+      "name": "Cello",
+      "domain": "cello.so",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289772205,
+      "name": "PLANTED.GREEN",
+      "domain": "planted.green",
+      "funnel": "Lead"
+    },
+    {
+      "id": 289771016,
+      "name": "freshflowai",
+      "domain": "freshflow.ai",
+      "funnel": "Awaiting Reply"
+    }
+  ],
+  "relationships": [],
+  "notes": "No matching person in Affinity (searched 'Julius Göllner', 'Julius Goellner', 'Göllner', 'Gollner'; only unrelated Helena/Nicholas Gollner found). Cello appeared twice on the pipeline list and was deduplicated (same funnel 'Lead')."
+}
