@@ -82,5 +82,12 @@
   }
  ],
  "relationships": [],
- "notes": "Person found (christian@pitch.io, Pitch founder; distinct from Christian Rebernik). No relationships with interaction history or LinkedIn connections recorded in Affinity. Includes Interface Capital vehicle matches. Hard-to-crack overlaps recovered via Harmonic portfolio match (Affinity investor enrichment misses angel tickets)."
+ "notes": "Person found (christian@pitch.io, Pitch founder; distinct from Christian Rebernik). No relationships with interaction history or LinkedIn connections recorded in Affinity. Includes Interface Capital vehicle matches. Hard-to-crack overlaps recovered via Harmonic portfolio match (Affinity investor enrichment misses angel tickets).",
+ "dormant": {
+  "internal": [
+   "Gaj Rajanathan"
+  ],
+  "last": "2022-09",
+  "context": "Gaj's 'Re-connecting / Berlin' thread 2019-2022"
+ }
 }

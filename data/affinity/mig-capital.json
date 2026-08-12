@@ -1,69 +1,76 @@
 {
-  "slug": "mig-capital",
-  "affinity_company_id": 1534112,
-  "affinity_domain": "mig.ag",
-  "pipeline": [
-    {
-      "id": 308453734,
-      "name": "Look Up Space",
-      "domain": "lookupspace.com",
-      "funnel": "Hard to crack"
-    },
-    {
-      "id": 296509908,
-      "name": "Inbolt",
-      "domain": "inbolt.com",
-      "funnel": "Lead"
-    },
-    {
-      "id": 295908568,
-      "name": "Innatera Nanosystems",
-      "domain": "innatera.com",
-      "funnel": "Pre-lead"
-    },
-    {
-      "id": 289763332,
-      "name": "AMSilk",
-      "domain": "amsilk.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289766244,
-      "name": "Temedica",
-      "domain": "temedica.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289766624,
-      "name": "wealthpilot",
-      "domain": "wealthpilot.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289767435,
-      "name": "IQM",
-      "domain": "iqm.tech",
-      "funnel": "Passed"
-    },
-    {
-      "id": 289764343,
-      "name": "Mimi Hearing Technologies",
-      "domain": "mimi.io",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 291949358,
-      "name": "Konux",
-      "domain": "konux.de",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289759864,
-      "name": "NavVis",
-      "domain": "navvis.com",
-      "funnel": "Passed"
-    }
+ "slug": "mig-capital",
+ "affinity_company_id": 1534112,
+ "affinity_domain": "mig.ag",
+ "pipeline": [
+  {
+   "id": 308453734,
+   "name": "Look Up Space",
+   "domain": "lookupspace.com",
+   "funnel": "Hard to crack"
+  },
+  {
+   "id": 296509908,
+   "name": "Inbolt",
+   "domain": "inbolt.com",
+   "funnel": "Lead"
+  },
+  {
+   "id": 295908568,
+   "name": "Innatera Nanosystems",
+   "domain": "innatera.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 289763332,
+   "name": "AMSilk",
+   "domain": "amsilk.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766244,
+   "name": "Temedica",
+   "domain": "temedica.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766624,
+   "name": "wealthpilot",
+   "domain": "wealthpilot.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289767435,
+   "name": "IQM",
+   "domain": "iqm.tech",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289764343,
+   "name": "Mimi Hearing Technologies",
+   "domain": "mimi.io",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 291949358,
+   "name": "Konux",
+   "domain": "konux.de",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289759864,
+   "name": "NavVis",
+   "domain": "navvis.com",
+   "funnel": "Passed"
+  }
+ ],
+ "relationships": [],
+ "notes": "Company search term 'MIG Capital' returned only 'Mighty Capital'; resolved via domain search 'mig.ag' (company id 1534112, name 'MIG'). get_company_relationships for this company returned zero relationships - no team interaction history recorded in Affinity.",
+ "dormant": {
+  "internal": [
+   "Harry Williams"
   ],
-  "relationships": [],
-  "notes": "Company search term 'MIG Capital' returned only 'Mighty Capital'; resolved via domain search 'mig.ag' (company id 1534112, name 'MIG'). get_company_relationships for this company returned zero relationships - no team interaction history recorded in Affinity."
+  "last": "2022-09",
+  "context": "Liva Healthcare thread with Boris Bernstein"
+ }
 }

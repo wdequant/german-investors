@@ -76,5 +76,13 @@
   }
  ],
  "relationships": [],
- "notes": "Person found (hanno@personio.de). No relationships with interaction history or LinkedIn connections recorded in Affinity. Hard-to-crack overlaps recovered via Harmonic portfolio match (Affinity investor enrichment misses angel tickets)."
+ "notes": "Person found (hanno@personio.de). No relationships with interaction history or LinkedIn connections recorded in Affinity. Hard-to-crack overlaps recovered via Harmonic portfolio match (Affinity investor enrichment misses angel tickets).",
+ "dormant": {
+  "internal": [
+   "David Blyghton",
+   "Helena Richardson"
+  ],
+  "last": "2019-10",
+  "context": "David's intro Feb 2018; last meeting with Helena Oct 2019"
+ }
 }

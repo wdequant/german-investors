@@ -4,7 +4,7 @@
 TEMPLATE = r"""<title>Germany Coverage Map</title>
 <style>
 :root{
-  color-scheme:light;
+  color-scheme:only light;
   --page:#f2f3f1; --surface:#fbfbfa; --raise:#ffffff;
   --ink:#17191a; --ink2:#55595c; --muted:#8b8f8a;
   --hair:#e2e4df; --hair2:#ecede9;
@@ -18,41 +18,6 @@ TEMPLATE = r"""<title>Germany Coverage Map</title>
   --c-lead:#e1efe3; --c-lead-ink:#135f2a;
   --c-hard:#f8e2df; --c-hard-ink:#a92c2c;
   --shadow:0 1px 2px rgba(18,20,22,.05), 0 12px 32px rgba(18,20,22,.06);
-}
-@media (prefers-color-scheme: dark){
-  :root:where(:not([data-theme="light"])){
-    color-scheme:dark;
-    --page:#0f1110; --surface:#181a19; --raise:#1e201f;
-    --ink:#f0f1ef; --ink2:#b3b6b1; --muted:#7f827d;
-    --hair:#292b29; --hair2:#222423;
-    --accent:#5b8ae6; --accent-ink:#8fb2f0; --accent-soft:#1b2options0;
-    --accent-soft:#1c2740;
-    --covered:#2f9a4d; --covered-ink:#54c274;
-    --thin:#d9a13b; --thin-ink:#dfae57;
-    --gap:#e05c5c; --gap-ink:#e87a7a;
-    --c-prelead:#222423; --c-prelead-ink:#b3b6b1;
-    --c-reachout:#1b2536; --c-reachout-ink:#8fb2f0;
-    --c-awaiting:#2d2515; --c-awaiting-ink:#dfae57;
-    --c-lead:#1a2a1d; --c-lead-ink:#54c274;
-    --c-hard:#301c1a; --c-hard-ink:#e87a7a;
-    --shadow:none;
-  }
-}
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --page:#0f1110; --surface:#181a19; --raise:#1e201f;
-  --ink:#f0f1ef; --ink2:#b3b6b1; --muted:#7f827d;
-  --hair:#292b29; --hair2:#222423;
-  --accent:#5b8ae6; --accent-ink:#8fb2f0; --accent-soft:#1c2740;
-  --covered:#2f9a4d; --covered-ink:#54c274;
-  --thin:#d9a13b; --thin-ink:#dfae57;
-  --gap:#e05c5c; --gap-ink:#e87a7a;
-  --c-prelead:#222423; --c-prelead-ink:#b3b6b1;
-  --c-reachout:#1b2536; --c-reachout-ink:#8fb2f0;
-  --c-awaiting:#2d2515; --c-awaiting-ink:#dfae57;
-  --c-lead:#1a2a1d; --c-lead-ink:#54c274;
-  --c-hard:#301c1a; --c-hard-ink:#e87a7a;
-  --shadow:none;
 }
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
@@ -123,6 +88,8 @@ tbody tr.mainrow:hover td{background:var(--hair2)}
 .pts .via{color:var(--muted)}
 .pts a{color:var(--accent-ink);text-decoration:none}
 .pts a:hover{text-decoration:underline}
+.pts .dorm{color:var(--thin-ink)}
+.pts .dorm b{color:var(--thin-ink)}
 .pts .pct{font-variant-numeric:tabular-nums;color:var(--covered-ink);font-weight:650;font-size:11.5px}
 tr.detailrow{display:none}
 tr.detailrow.open{display:table-row}
@@ -180,7 +147,7 @@ Harmonic. Relevance = stage fit 30 · sector fit 30 · activity 20 · graduation
 Harmonic team-network (contact seniority × email/calendar evidence) + 45% Affinity partnership
 relationships (incl. Laurence, Fergal, Ronan). Pipeline chips = companies in the Highland Companies
 list whose investor set includes the fund or its vehicles; Lead includes Qualified Lead and Deal;
-passed/deprioritised sit in the drill-down only. Percentages are Affinity interaction scores; names
+passed/deprioritised sit in the drill-down only. Dormant ties (⏱) are real interaction histories whose Affinity score has decayed to zero — they floor the coverage score and are shown as re-warmable paths. Percentages are Affinity interaction scores; names
 link to LinkedIn, companies to Affinity. Angel pipeline matching includes known vehicles
 (Companion-M, Interface Capital, MH2) — Affinity's investor enrichment still under-captures angel
 tickets, so treat angel overlap as a floor.</p>
@@ -235,12 +202,14 @@ function chipHTML(e){
   }).join('');
 }
 function ptsHTML(e){
-  if(!e.points.length) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
+  const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · last touch ${e.dormant.last}</span></span>` : '';
+  if(!e.points.length && !dorm) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
+  if(!e.points.length) return `<div class="pts">${dorm}</div>`;
   return `<div class="pts">`+e.points.map(p=>{
     const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
     const pct = p.pct!=null?` <span class="pct">${p.pct}%</span>`:'';
     return `<span class="pt">${nm} <span class="via">↔ ${p.internal}</span>${pct}</span>`;
-  }).join('')+`</div>`;
+  }).join('')+(e.dormant?`<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>`:'')+`</div>`;
 }
 function rowHTML(e){
   const rel = e.relevance? e.relevance.total : null;
@@ -276,6 +245,7 @@ function detailHTML(e){
       list.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span style="color:var(--muted)">${p.domain||''}</span></span>`).join('')+`</div>`;
   }
   if(!any) h += `<h5>Pipeline overlap</h5><div class="meta-line">None of their portfolio is in our pipeline list.</div>`;
+  if(e.dormant) h += `<h5>Dormant tie</h5><div class="meta-line">⏱ ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last touch ${e.dormant.last}).</div>`;
   if(e.cells){
     const best = D.team.map(m=>({m,c:e.cells[m.name]})).filter(x=>x.c.score>0).sort((a,b)=>b.c.score-a.c.score);
     if(best.length){

@@ -210,6 +210,7 @@ for name, cat in CATEGORY.items():
     rels = aff.get("relationships") or []
     aff_max = max((r.get("score") or 0 for r in rels), default=0)
     aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
+    dormant = aff.get("dormant")
 
     # top connection points: affinity interaction rels first, then harmonic
     points, seen = [], set()
@@ -251,6 +252,7 @@ for name, cat in CATEGORY.items():
         "points": points, "buckets": buckets,
         "coinvest": (co or {}).get("company_names", []),
         "affinity_company_id": aff.get("affinity_company_id"),
+        "dormant": dormant,
     })
 
 # angels
@@ -259,6 +261,7 @@ for a in ANGELS:
     rels = aff.get("relationships") or []
     aff_max = max((r.get("score") or 0 for r in rels), default=0)
     aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
+    dormant = aff.get("dormant")
     points = [{"external": a["name"], "internal": r.get("internal"),
                "pct": round((r.get("score") or 0) * 100), "linkedin": a["li"], "src": "affinity"}
               for r in sorted(rels, key=lambda r: -(r.get("score") or 0)) if (r.get("score") or 0) > 0][:3]
@@ -269,15 +272,22 @@ for a in ANGELS:
         "relevance": None, "cells": None, "harmonic_raw": 0,
         "aff_max": aff_max, "aff_strong": aff_strong,
         "points": points, "buckets": buckets, "coinvest": [],
-        "affinity_company_id": None,
+        "affinity_company_id": None, "dormant": dormant,
     })
 
 # ---------------- connectivity blend ------------------------------------------
 funds = [e for e in entities if e["kind"] == "fund"]
 hmax = max(e["harmonic_raw"] for e in funds) or 1
+def dormant_weight(d):
+    if not d:
+        return 0.0
+    yr = int(d["last"][:4])
+    age = 2026 - yr
+    return 0.22 if age <= 1 else 0.15 if age <= 3 else 0.10 if age <= 6 else 0.06
+
 for e in entities:
     hn = e["harmonic_raw"] / hmax  # 0..1
-    an = min(1.0, e["aff_max"] + 0.06 * e["aff_strong"])
+    an = min(1.0, max(e["aff_max"] + 0.06 * e["aff_strong"], dormant_weight(e.get("dormant"))))
     e["connectivity"] = round(100 * (0.55 * hn + 0.45 * an))
     del e["harmonic_raw"]
 for e in entities:

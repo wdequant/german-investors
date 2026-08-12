@@ -124,5 +124,13 @@
   }
  ],
  "relationships": [],
- "notes": "Person found as 'Mario Goetze' (m.goetze@companion-m.com); umlaut search returned no hit. No relationships with interaction history or LinkedIn connections recorded in Affinity. Includes Companion-M vehicle match. Hard-to-crack overlaps recovered via Harmonic portfolio match (Affinity investor enrichment misses angel tickets)."
+ "notes": "Person found as 'Mario Goetze' (m.goetze@companion-m.com); umlaut search returned no hit. No relationships with interaction history or LinkedIn connections recorded in Affinity. Includes Companion-M vehicle match. Hard-to-crack overlaps recovered via Harmonic portfolio match (Affinity investor enrichment misses angel tickets).",
+ "dormant": {
+  "internal": [
+   "Fergal Mullen",
+   "Ronan Shally"
+  ],
+  "last": "2022-08",
+  "context": "EIF intro to Fergal & Stan Nov 2021; Fund V LP thread Aug 2022"
+ }
 }
