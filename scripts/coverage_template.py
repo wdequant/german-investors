@@ -612,17 +612,32 @@ function tipCov(e){
     Recency decay <b>×${cp.decay??1}</b>${dorm}
     <div class="tf">Blend: 55% Harmonic + 45% Affinity, then × decay — a path untouched for over a year fades hard</div>`;
 }
+function tipRel(e){
+  const r = e.relevance;
+  if(!r) return `<div class="th">Relevance</div>No score — not enough Harmonic history for this profile.`;
+  if(r.angel) return `<div class="th">Relevance ${r.total}/100 — angel blend</div>
+    Deal velocity <b>${r.deals}</b><br>
+    Unicorn outcomes <b>${r.uni}</b><br>
+    Syndication with funds we cover <b>${r.synd}</b><br>
+    Presence on our pipeline cap tables <b>${r.pipe}</b>
+    <div class="tf">How upstream this angel is for Highland: how much they invest, how well it turns out, and how often it lands in front of us</div>`;
+  return `<div class="th">Relevance ${r.total}/100</div>
+    Stage fit <b>${r.stage}</b>/25 · Sector fit <b>${r.sector}</b>/25<br>
+    Europe share <b>${r.geo}</b>/20 <span style="color:var(--muted)">(${Math.round(r.europe)}% of recent deals in Europe)</span><br>
+    Activity <b>${r.activity}</b>/15 · Graduation to growth rounds <b>${r.grad}</b>/15
+    <div class="tf">How much this fund's portfolio should feed Highland's pipeline — independent of how well we know them</div>`;
+}
 document.addEventListener('mouseover',ev=>{
-  const p = ev.target.closest('.pct'), f = ev.target.closest('.flag'), c = ev.target.closest('td.covtd');
+  const p = ev.target.closest('.pct'), f = ev.target.closest('.flag'),
+        c = ev.target.closest('td.covtd'), rl = ev.target.closest('td.relcell');
+  const ent = t => { const tr = t.closest('tr.mainrow'); return tr && E().find(x=>x.slug===tr.dataset.slug); };
   if(f) showTip(f, tipFlag(f.dataset.moved));
   else if(p) showTip(p, TIP_PCT);
-  else if(c){
-    const tr = c.closest('tr.mainrow'), e = tr && E().find(x=>x.slug===tr.dataset.slug);
-    if(e) showTip(c.querySelector('.covcell')||c, tipCov(e));
-  }
+  else if(c){ const e = ent(c); if(e) showTip(c.querySelector('.covcell')||c, tipCov(e)); }
+  else if(rl){ const e = ent(rl); if(e) showTip(rl.querySelector('b')||rl, tipRel(e)); }
 });
 document.addEventListener('mouseout',ev=>{
-  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag')||ev.target.closest('td.covtd'))) tip.classList.remove('show');
+  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag')||ev.target.closest('td.covtd')||ev.target.closest('td.relcell'))) tip.classList.remove('show');
 });
 addEventListener('scroll',()=>tip.classList.remove('show'),true);
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
