@@ -201,7 +201,10 @@ relationships (incl. Laurence, Fergal, Ronan), multiplied by a recency decay (�
 older ×0.3); dormant ties floor the score and show as ⏱ re-warmable paths. Pipeline chips = companies on the
 Highland Companies list backed by the investor (Lead includes Qualified Lead and Deal; passed/deprioritised
 excluded). “Untracked” = their post-Feb-2025 European deals absent from our pipeline list. ⚠ marks a contact
-who appears to have left the fund. For a full meeting brief, ask Claude: “prep my meeting with [fund]”.
+who appears to have left the fund. Percentages next to people are <b>Affinity relationship strength</b> (0–100%):
+how warm that one-to-one connection is, driven by email &amp; meeting frequency and recency — 100% means an active
+recent dialogue, 10% a thin or faded thread. It is not a probability or ownership figure. Hover any % for this
+definition. For a full meeting brief, ask Claude: “prep my meeting with [fund]”.
 <span id="fresh"></span></p>
 </div>
 <div class="toast" id="toast"></div>
@@ -568,6 +571,11 @@ const va = document.getElementById('viewas');
 D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
 if(state.person) va.value=state.person;
 va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
+const PCT_DEF = 'Affinity relationship strength (0–100%): how warm this one-to-one connection is, from email & meeting frequency and recency. 100% = active recent dialogue; 10% = thin or faded thread.';
+document.addEventListener('mouseover',ev=>{
+  const t = ev.target.closest('.pct');
+  if(t && !t.title) t.title = PCT_DEF;
+});
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
 
 function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',2400)}
