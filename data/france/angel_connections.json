@@ -1,0 +1,159 @@
+{
+ "181085641": {
+  "name": "Xavier Niel",
+  "via": []
+ },
+ "10931": {
+  "name": "Thibaud Elziere",
+  "via": [
+   {
+    "user": "Tony Zappala",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "8330": {
+  "name": "Fabrice Grinda",
+  "via": [
+   {
+    "user": "Harry Williams",
+    "sources": [
+     "EMAIL"
+    ]
+   },
+   {
+    "user": "Tyrone Tee",
+    "sources": [
+     "CALENDAR",
+     "EMAIL"
+    ]
+   }
+  ]
+ },
+ "5483": {
+  "name": "Edward Lando",
+  "via": []
+ },
+ "11392": {
+  "name": "Eduardo Ronzano",
+  "via": [
+   {
+    "user": "Aude Flecchia",
+    "sources": [
+     "EMAIL"
+    ]
+   }
+  ]
+ },
+ "11822": {
+  "name": "Pierre Kosciusko-Morizet",
+  "via": [
+   {
+    "user": "Stan",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "8406": {
+  "name": "Olivier Pomel",
+  "via": [
+   {
+    "user": "Jean Tardy-Joubert",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "11809": {
+  "name": "Thierry Petit",
+  "via": []
+ },
+ "49440": {
+  "name": "Didier Valet",
+  "via": [
+   {
+    "user": "Abhishek Lahoti",
+    "sources": [
+     "EMAIL"
+    ]
+   }
+  ]
+ },
+ "115859914": {
+  "name": "Marc Simoncini",
+  "via": [
+   {
+    "user": "Stan",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "100567": {
+  "name": "Jean De La Rochebrochard",
+  "via": [
+   {
+    "user": "Tony Zappala",
+    "sources": [
+     "LINKEDIN"
+    ]
+   },
+   {
+    "user": "Gaj Rajanathan",
+    "sources": [
+     "LINKEDIN",
+     "CALENDAR",
+     "EMAIL"
+    ]
+   },
+   {
+    "user": "Stan",
+    "sources": [
+     "EMAIL"
+    ]
+   },
+   {
+    "user": "Isabel Wright",
+    "sources": [
+     "EMAIL"
+    ]
+   }
+  ]
+ },
+ "198856269": {
+  "name": "Antoine Martin",
+  "via": []
+ },
+ "9914": {
+  "name": "Oleg Tscheltzoff",
+  "via": [
+   {
+    "user": "Irena Goldenberg",
+    "sources": [
+     "LINKEDIN"
+    ]
+   }
+  ]
+ },
+ "17437": {
+  "name": "Florian Douetteau",
+  "via": []
+ },
+ "146467": {
+  "name": "Clem Delangue 🤗",
+  "via": [
+   {
+    "user": "Harry Williams",
+    "sources": [
+     "EMAIL"
+    ]
+   }
+  ]
+ }
+}
