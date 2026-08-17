@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enrich,
                              compute_bridges_and_synd, build_htc, angel_relevance,
                              affinity_sync)
-import assemble_germany, assemble_nordics
+import assemble_germany, assemble_nordics, assemble_france
 import importlib.util as _ilu
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,7 +22,8 @@ for part in ("a", "b"):
     for slug, d in (load_json(f"{ROOT}/data/enrich/partners-meta-germany-{part}.json", {}) or {}).items():
         pmeta_germany.setdefault(slug, {}).update(d)
 PMETA = {"germany": pmeta_germany,
-         "nordics": load_json(f"{ROOT}/data/enrich/partners-meta-nordics.json", {}) or {}}
+         "nordics": load_json(f"{ROOT}/data/enrich/partners-meta-nordics.json", {}) or {},
+         "france": load_json(f"{ROOT}/data/enrich/partners-meta-france.json", {}) or {}}
 
 
 def merge_10x(ents):
@@ -46,15 +47,24 @@ def merge_10x(ents):
 REGION_CFG = {
     "germany": {"label": "Germany", "adj": "German", "assemble": assemble_germany.assemble},
     "nordics": {"label": "Nordics", "adj": "Nordic", "assemble": assemble_nordics.assemble},
+    "france": {"label": "France", "adj": "French", "assemble": assemble_france.assemble},
 }
 
 regions = {}
 for key, cfg in REGION_CFG.items():
     ents = cfg["assemble"](team)
+    if not ents:
+        continue  # region data not yet collected
     if key == "germany":
         ents = merge_10x(ents)
-    enrich = load_json(f"{ROOT}/data/enrich/{key}.json", {})
-    recency = load_json(f"{ROOT}/data/enrich/recency-{key}.json", {})
+    if key == "france":  # france agents write split fragments to avoid collisions
+        enrich = {"funds": load_json(f"{ROOT}/data/enrich/france-funds.json", {}) or {},
+                  "angels": load_json(f"{ROOT}/data/enrich/france-angels.json", {}) or {}}
+        recency = {**(load_json(f"{ROOT}/data/enrich/recency-france-a.json", {}) or {}),
+                   **(load_json(f"{ROOT}/data/enrich/recency-france-b.json", {}) or {})}
+    else:
+        enrich = load_json(f"{ROOT}/data/enrich/{key}.json", {})
+        recency = load_json(f"{ROOT}/data/enrich/recency-{key}.json", {})
     apply_enrich(ents, enrich, recency, empflags, key, PMETA.get(key))
     added_by, rescued = affinity_sync(ents, aff_dump, key)
     if added_by or rescued:
