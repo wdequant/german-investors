@@ -304,7 +304,7 @@ function pathLine(p){
   const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
   const pct = p.pct!=null?` <span class="pct">${p.pct}%</span>`:'';
   const when = p.last?` <span class="when">· ${fmtD(p.last)}</span>`:'';
-  const moved = p.moved?` <span class="flag" title="appears to have moved to ${p.moved}">⚠</span>`:'';
+  const moved = p.moved?` <span class="flag" title="${flagDef(p.moved)}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
   return `<span class="pt${stale}">${nm} <span class="via">↔ ${p.internal}</span>${pct}${when}${moved}</span>`;
 }
@@ -414,7 +414,7 @@ function detailHTML(e){
         p.contacts.map(k=>{
           const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
           const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
-          const moved = k.moved?` <span class="flag" title="appears to have moved to ${k.moved}">⚠</span>`:'';
+          const moved = k.moved?` <span class="flag" title="${flagDef(k.moved)}">⚠</span>`:'';
           return `<div>${nm}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
@@ -474,7 +474,7 @@ function htcHTML(){
     <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
       <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
     <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${i.paths.map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" title="appears to have moved to ${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${i.paths.map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" title="${flagDef(p.moved)}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
     <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
   </tr>`).join('');
   document.getElementById('htctable').innerHTML =
@@ -572,6 +572,9 @@ D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textCo
 if(state.person) va.value=state.person;
 va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
 const PCT_DEF = 'Affinity relationship strength (0–100%): how warm this one-to-one connection is, from email & meeting frequency and recency. 100% = active recent dialogue; 10% = thin or faded thread.';
+function flagDef(moved){
+  return `Stale affiliation: Harmonic now lists this contact's primary role as ${moved}, so the relationship is still warm but may no longer open doors at this fund. Automated check — it can misread board seats as departures; flag it if wrong.`;
+}
 document.addEventListener('mouseover',ev=>{
   const t = ev.target.closest('.pct');
   if(t && !t.title) t.title = PCT_DEF;
