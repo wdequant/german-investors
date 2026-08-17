@@ -568,6 +568,18 @@ function readHash(){
   else if(m[2]) state.pendingOpen = m[2];
 }
 
+addEventListener('hashchange',()=>{  // deep links work without a reload
+  state.view = location.hash.includes('/htc') ? 'htc' : 'funds';
+  if(!location.hash.includes('?as=')) state.person = '';
+  state.open = '';
+  readHash();
+  document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on', x.dataset.r===state.region));
+  document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on', x.dataset.v===state.view));
+  const va2 = document.getElementById('viewas'); if(va2) va2.value = state.person||'';
+  labels(); scoreboard(); render();
+  if(state.pendingOpen){ const s=state.pendingOpen; state.pendingOpen='';
+    toggleRow(s); const el=document.querySelector(`tr[data-slug="${s}"]`); el&&el.scrollIntoView({block:'center'}); }
+});
 // ---------- boot ----------
 readHash();
 const seg = document.getElementById('regionseg');

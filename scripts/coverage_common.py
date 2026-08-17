@@ -265,6 +265,8 @@ def finalize(entities):
     funds = [e for e in entities if e["kind"] == "fund"]
     hmax = max((e["harmonic_raw"] for e in funds), default=1) or 1
     for e in entities:
+        if e.get("dormant") and not e["dormant"].get("last"):
+            e["dormant"] = None  # bare CRM record, no history: not a re-warmable path
         hn = e["harmonic_raw"] / hmax
         decay = recency_decay(e.get("fund_last"))
         a_raw = min(1.0, e["aff_max"] + 0.06 * e["aff_strong"])
