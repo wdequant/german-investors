@@ -43,6 +43,16 @@ body{background:var(--page);color:var(--ink);
 .btn{background:var(--ink);color:var(--page);border:0;border-radius:8px;padding:8px 14px;font-size:12.5px;
   font-weight:600;cursor:pointer;white-space:nowrap}
 .btn:hover{opacity:.88}
+.btn.ghost{background:var(--surface);color:var(--ink2);border:1px solid var(--hair)}
+.btn.ghost:hover{border-color:var(--accent);color:var(--accent-ink);opacity:1}
+#fbpop{position:fixed;top:64px;right:24px;z-index:70;max-width:320px;background:var(--raise);
+  border:1px solid var(--hair);border-radius:12px;box-shadow:var(--shadow);padding:16px 18px;font-size:12.5px;
+  color:var(--ink2);line-height:1.55}
+#fbpop .th{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:7px}
+#fbpop p{margin-bottom:9px}
+#fbpop b{color:var(--ink)}
+#fbpop a{color:var(--accent-ink)}
+@media (max-width:700px){ #fbpop{left:14px;right:14px;max-width:none;top:110px} .btn.ghost{padding:5px 10px;font-size:11.5px} }
 .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
 .hero{padding:38px 0 4px}
 .kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
@@ -241,6 +251,15 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
   <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
   <input type="search" id="q" placeholder="Filter…">
   <button class="btn" id="export" hidden>Export CSV</button>
+  <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
+  <div id="fbpop" hidden>
+    <div class="th">Feedback &amp; requests</div>
+    <p><b>Comment straight onto this page</b> — use the comment tool in the claude.ai bar above
+    (select any text or element and add a note). Will &amp; Claude review every thread, and you'll
+    get a reply on it when it ships.</p>
+    <p>Prefer email? <a id="fbmail" href="mailto:william@highlandeurope.com?subject=Sonar%20feedback&body=What%20I%27d%20like%3A%0A%0AWhere%20(region%20%2F%20fund%20%2F%20view)%3A%0A">Send it to Will</a>.</p>
+    <button class="minibtn" id="fbclose">Got it</button>
+  </div>
 </div></div>
 
 <div class="wrap">
@@ -659,6 +678,10 @@ function openSheet(slug){
   document.getElementById('sheet').scrollTop = 0;
   state.open = slug; updateHash();
 }
+document.getElementById('fb').addEventListener('click',()=>{
+  const p = document.getElementById('fbpop'); p.hidden = !p.hidden;
+});
+document.getElementById('fbclose').addEventListener('click',()=>{ document.getElementById('fbpop').hidden = true; });
 document.getElementById('sheetclose').addEventListener('click',()=>{
   document.getElementById('sheet').classList.remove('open'); state.open=''; updateHash();
 });
