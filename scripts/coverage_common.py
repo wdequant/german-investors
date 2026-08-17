@@ -420,6 +420,7 @@ FUND_ALIASES = {
     "j12": ["j12", "j12 ventures"],
     "almi": ["almi"],
     "almi-invest": ["almi invest"],
+    "heartcore": ["heartcore", "heartcore capital"],
 }
 
 

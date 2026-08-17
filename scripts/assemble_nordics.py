@@ -22,6 +22,10 @@ SLUG = {
     "Sophia Bendz": "sophia-bendz", "Mattias Miksche": "mattias-miksche",
     "David Helgason": "david-helgason", "Hampus Jakobsson": "hampus-jakobsson",
     "Risto Siilasmaa": "risto-siilasmaa", "Sebastian Knutsson": "sebastian-knutsson",
+    "Heartcore": "heartcore", "Heartcore Capital": "heartcore",
+    "Neil Murray": "neil-murray", "Bjarke Staun": "bjarke-staun",
+    "Bjarke Staun-Olsen": "bjarke-staun", "Marcus Krylborn": "marcus-krylborn",
+    "Tommy Ahlers": "tommy-ahlers",
 }
 ANGEL_NOTE = {
     "Ilkka Paananen": "CEO/co-founder Supercell, Illusian family office",
@@ -34,6 +38,11 @@ ANGEL_NOTE = {
     "Hampus Jakobsson": "TAT founder, GP Pale Blue Dot",
     "Risto Siilasmaa": "F-Secure founder, ex-Nokia chair, First Fellow",
     "Sebastian Knutsson": "King co-founder, Sweet Capital",
+    "Neil Murray": "The Nordic Web / Nordic Web Ventures; backed Lovable",
+    "Bjarke Staun": "ex-Creandum; Lovable, Tandem Health, Atlar, Spektr",
+    "Bjarke Staun-Olsen": "ex-Creandum; Lovable, Tandem Health, Atlar, Spektr",
+    "Marcus Krylborn": "Stockholm angel",
+    "Tommy Ahlers": "Podio/ZYB founder, ex-minister, Danish super-angel",
 }
 
 
