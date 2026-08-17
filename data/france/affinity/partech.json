@@ -1,0 +1,1180 @@
+{
+  "slug": "partech",
+  "affinity_company_id": 1514268,
+  "affinity_domain": "partechpartners.com",
+  "pipeline": [
+    {
+      "id": 1516338,
+      "name": "Qype",
+      "domain": "qype.co.uk",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 1721206,
+      "name": "Menlook",
+      "domain": "menlook.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 1728209,
+      "name": "Quasardb",
+      "domain": "quasardb.net",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 152838314,
+      "name": "PushDoctor",
+      "domain": "pushdoctor.co.uk",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 152838317,
+      "name": "Qapa",
+      "domain": "qapa.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 152838708,
+      "name": "UpSlide",
+      "domain": "upslide.net",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 203296767,
+      "name": "CoachHub",
+      "domain": "coachhub.io",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 222032115,
+      "name": "papernest",
+      "domain": "souscritoo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 223366285,
+      "name": "Nomad Homes",
+      "domain": "nomadhomes.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 224117946,
+      "name": "Kontainers",
+      "domain": "kontainers.co.uk",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 263792143,
+      "name": "ManoMano",
+      "domain": "manomano.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 282358373,
+      "name": "Agicap",
+      "domain": "agicap.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 283153432,
+      "name": "Maze",
+      "domain": "maze.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 284391952,
+      "name": "Foxintelligence",
+      "domain": "foxintelligence.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 285861561,
+      "name": "Ukio",
+      "domain": "stayukio.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 285900007,
+      "name": "retraced",
+      "domain": "retraced.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 287340828,
+      "name": "QUIBIM S.L.",
+      "domain": "quibim.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 288061106,
+      "name": "Bearer",
+      "domain": "bearer.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 288649374,
+      "name": "Joko",
+      "domain": "hellojoko.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 288973215,
+      "name": "cloudquery",
+      "domain": "cloudquery.io",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289315380,
+      "name": "The Exploration Company",
+      "domain": "exploration.space",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289319821,
+      "name": "La Vie",
+      "domain": "laviefoods.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289759830,
+      "name": "Akeneo",
+      "domain": "akeneo.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289759855,
+      "name": "Guardicore",
+      "domain": "guardicore.com",
+      "funnel": "Passed",
+      "country": "Israel"
+    },
+    {
+      "id": 289759914,
+      "name": "EcoVadis",
+      "domain": "ecovadis.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289759979,
+      "name": "Odaseva",
+      "domain": "odaseva.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289760083,
+      "name": "Sketchfab",
+      "domain": "sketchfab.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289760100,
+      "name": "Total Immersion",
+      "domain": "t-immersion.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760231,
+      "name": "SIGFOX",
+      "domain": "sigfox.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760460,
+      "name": "MoneyFellows",
+      "domain": "moneyfellows.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Egypt"
+    },
+    {
+      "id": 289760585,
+      "name": "Kantox",
+      "domain": "kantox.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289760601,
+      "name": "Dailymotion",
+      "domain": "dailymotion.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760904,
+      "name": "OpenIO",
+      "domain": "openio.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760909,
+      "name": "M-Files",
+      "domain": "m-files.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289760942,
+      "name": "MADE",
+      "domain": "made.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289760953,
+      "name": "TheGuarantors",
+      "domain": "theguarantors.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289761106,
+      "name": "Sendinblue",
+      "domain": "sendinblue.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289761387,
+      "name": "Auxmoney",
+      "domain": "auxmoney.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289761549,
+      "name": "Once",
+      "domain": "getonce.com",
+      "funnel": "Lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 289761578,
+      "name": "Lifen",
+      "domain": "lifen.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289761728,
+      "name": "Privitar",
+      "domain": "privitar.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289761783,
+      "name": "TVTY",
+      "domain": "tvty.tv",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289761871,
+      "name": "Glofox",
+      "domain": "glofox.com",
+      "funnel": "Passed",
+      "country": "Ireland"
+    },
+    {
+      "id": 289762008,
+      "name": "TerraPay",
+      "domain": "terrapay.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289762163,
+      "name": "CHRONEXT",
+      "domain": "chronext.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289762263,
+      "name": "Secret Sales",
+      "domain": "secretsales.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289762343,
+      "name": "Bestmile",
+      "domain": "bestmile.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289762742,
+      "name": "NA-KD.com",
+      "domain": "na-kd.com",
+      "funnel": "Passed",
+      "country": "Sweden"
+    },
+    {
+      "id": 289763303,
+      "name": "Bitrise",
+      "domain": "bitrise.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Hungary"
+    },
+    {
+      "id": 289763404,
+      "name": "NoviCap",
+      "domain": "novicap.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289763480,
+      "name": "Aiden",
+      "domain": "aiden.ai",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289763560,
+      "name": "Shippeo",
+      "domain": "shippeo.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763796,
+      "name": "Channable",
+      "domain": "channable.com",
+      "funnel": "Reach Out Now",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289764041,
+      "name": "CardioLogs",
+      "domain": "cardiologs.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764083,
+      "name": "Urban Sports Club",
+      "domain": "urbansportsclub.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289764167,
+      "name": "AMBOSS",
+      "domain": "amboss.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289764198,
+      "name": "Lesara",
+      "domain": "lesara.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289764244,
+      "name": "Peanut",
+      "domain": "peanut-app.io",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289764386,
+      "name": "Resolution Games",
+      "domain": "resolutiongames.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Sweden"
+    },
+    {
+      "id": 289764612,
+      "name": "Medigate",
+      "domain": "medigate.io",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289764613,
+      "name": "AlephD",
+      "domain": "alephd.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764629,
+      "name": "Oviva",
+      "domain": "oviva.com",
+      "funnel": "Passed",
+      "country": "Switzerland"
+    },
+    {
+      "id": 289764644,
+      "name": "Billogram",
+      "domain": "billogram.com",
+      "funnel": "Lead",
+      "country": "Sweden"
+    },
+    {
+      "id": 289764670,
+      "name": "Skello",
+      "domain": "skello.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764728,
+      "name": "Cubyn",
+      "domain": "cubyn.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764744,
+      "name": "Sensee",
+      "domain": "sensee.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764802,
+      "name": "Collectiv Food",
+      "domain": "collectivfood.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289764881,
+      "name": "Drover",
+      "domain": "joindrover.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289764926,
+      "name": "Digitail",
+      "domain": "digitail.io",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289765159,
+      "name": "HostnFly",
+      "domain": "hostnfly.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765232,
+      "name": "Ermeo",
+      "domain": "ermeo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765233,
+      "name": "Weglot",
+      "domain": "weglot.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289765283,
+      "name": "Candex Technologies",
+      "domain": "candex.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289765384,
+      "name": "magicplan",
+      "domain": "magicplan.app",
+      "funnel": "Passed",
+      "country": "Canada"
+    },
+    {
+      "id": 289765387,
+      "name": "TradeDepot",
+      "domain": "tradedepot.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Nigeria"
+    },
+    {
+      "id": 289765655,
+      "name": "PerfectStay",
+      "domain": "perfectstay.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765693,
+      "name": "Ubble.ai",
+      "domain": "ubble.ai",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289765799,
+      "name": "Blink",
+      "domain": "joinblink.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289765919,
+      "name": "Upmem",
+      "domain": "upmem.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765957,
+      "name": "Groover",
+      "domain": "groover.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766079,
+      "name": "Flatlooker",
+      "domain": "flatlooker.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766131,
+      "name": "Sorare",
+      "domain": "sorare.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766137,
+      "name": "Dejbox",
+      "domain": "dejbox.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766255,
+      "name": "Exein",
+      "domain": "exein.io",
+      "funnel": "Passed",
+      "country": "Italy"
+    },
+    {
+      "id": 289766291,
+      "name": "xFarm",
+      "domain": "xfarm.ag",
+      "funnel": "Lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 289766322,
+      "name": "AB Tasty",
+      "domain": "abtasty.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766385,
+      "name": "symmetrical.ai",
+      "domain": "symmetrical.ai",
+      "funnel": "Passed",
+      "country": "Poland"
+    },
+    {
+      "id": 289766443,
+      "name": "Mooncard",
+      "domain": "mooncard.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766503,
+      "name": "Demander Justice",
+      "domain": "demanderjustice.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766575,
+      "name": "Qplix",
+      "domain": "qplix.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289766629,
+      "name": "Upvest",
+      "domain": "upvest.co",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289766696,
+      "name": "V7",
+      "domain": "v7labs.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289766822,
+      "name": "Ambler",
+      "domain": "ambler.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766995,
+      "name": "Epsor",
+      "domain": "epsor.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289767089,
+      "name": "Prolific",
+      "domain": "prolific.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289767256,
+      "name": "avandeo",
+      "domain": "avandeo.de",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289767267,
+      "name": "Mindsay",
+      "domain": "mindsay.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767314,
+      "name": "KoRo",
+      "domain": "korodrogerie.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289767364,
+      "name": "Material Exchange",
+      "domain": "material-exchange.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Sweden"
+    },
+    {
+      "id": 289767373,
+      "name": "Alltricks",
+      "domain": "alltricks.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289767590,
+      "name": "Tinvio",
+      "domain": "tinvio.com",
+      "funnel": "Lead",
+      "country": "Singapore"
+    },
+    {
+      "id": 289767909,
+      "name": "Racktivity",
+      "domain": "racktivity.com",
+      "funnel": "Lead",
+      "country": "Belgium"
+    },
+    {
+      "id": 289768078,
+      "name": "Seatti",
+      "domain": "seatti.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289768330,
+      "name": "GOURMEY",
+      "domain": "gourmey.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768371,
+      "name": "Hoggo",
+      "domain": "hoggo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768475,
+      "name": "Kaizo",
+      "domain": "kaizo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289768668,
+      "name": "vyne",
+      "domain": "payvyne.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289768700,
+      "name": "Spoke",
+      "domain": "spoke.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289768939,
+      "name": "TestGorilla",
+      "domain": "testgorilla.com",
+      "funnel": "Lead",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289768952,
+      "name": "Dayuse.com",
+      "domain": "dayuse.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289769159,
+      "name": "Makersite",
+      "domain": "makersite.io",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289769179,
+      "name": "Platform.sh",
+      "domain": "platform.sh",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769395,
+      "name": "Fresha",
+      "domain": "fresha.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289769495,
+      "name": "Teads US",
+      "domain": "teads.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289769869,
+      "name": "Mercanis",
+      "domain": "mercanis.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289770279,
+      "name": "Plum",
+      "domain": "plum-kitchen.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770604,
+      "name": "Rohlik",
+      "domain": "rohlik.cz",
+      "funnel": "Passed",
+      "country": "Czechia"
+    },
+    {
+      "id": 289770690,
+      "name": "aumio",
+      "domain": "aumio.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289771290,
+      "name": "Orus",
+      "domain": "orus.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771392,
+      "name": "Lucky Cart",
+      "domain": "luckycart.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771477,
+      "name": "Commsignia",
+      "domain": "commsignia.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289771596,
+      "name": "Cintoo",
+      "domain": "cintoo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289771643,
+      "name": "GIREVE",
+      "domain": "gireve.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771843,
+      "name": "SustainCERT",
+      "domain": "sustain-cert.com",
+      "funnel": "Passed",
+      "country": "Luxembourg"
+    },
+    {
+      "id": 289772042,
+      "name": "Kenbi",
+      "domain": "kenbi.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289772436,
+      "name": "Monax",
+      "domain": "monax.io",
+      "funnel": "Reach Out Now",
+      "country": "United States"
+    },
+    {
+      "id": 291921843,
+      "name": "Bearer",
+      "domain": "bearer.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 293727043,
+      "name": "FYLD",
+      "domain": "fyld.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 293727081,
+      "name": "Lun",
+      "domain": "lun.energy",
+      "funnel": "Lead",
+      "country": "Denmark"
+    },
+    {
+      "id": 293727400,
+      "name": "Second: launch your service marketplace now",
+      "domain": "scnd.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293727540,
+      "name": "Shakers",
+      "domain": "shakersworks.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 293729284,
+      "name": "METYCLE",
+      "domain": "metycle.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 293729453,
+      "name": "La Solive",
+      "domain": "la-solive.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 293729487,
+      "name": "CO2 AI",
+      "domain": "co2ai.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293729573,
+      "name": "GIROPTIC",
+      "domain": "giroptic.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 294012517,
+      "name": "Pimento",
+      "domain": "pimento.design",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 296509616,
+      "name": "Plumerai",
+      "domain": "plumerai.com",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 297748881,
+      "name": "Pydantic Services Inc.",
+      "domain": "pydantic.dev",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 297748930,
+      "name": "Presti",
+      "domain": "presti.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 298262501,
+      "name": "Roger",
+      "domain": "goroger.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 300074740,
+      "name": "Pennylane",
+      "domain": "pennylane.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 300447016,
+      "name": "yampa",
+      "domain": "yampa.ai",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 301135154,
+      "name": "OpsMill",
+      "domain": "opsmill.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 302234825,
+      "name": "ai",
+      "domain": "ai-coustics.com",
+      "funnel": "Pre-lead",
+      "country": "Germany"
+    },
+    {
+      "id": 304669906,
+      "name": "LaFourchette",
+      "domain": "lafourchette.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 305263341,
+      "name": "IDECSI",
+      "domain": "idecsi.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 306306606,
+      "name": "Alpic",
+      "domain": "alpic.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 307389835,
+      "name": "Smartness",
+      "domain": "smartness.com",
+      "funnel": "Awaiting Reply",
+      "country": "Italy"
+    },
+    {
+      "id": 308969079,
+      "name": "Nawy",
+      "domain": "nawy.com",
+      "funnel": "Pre-lead",
+      "country": "Egypt"
+    },
+    {
+      "id": 309752600,
+      "name": "Track Titan",
+      "domain": "tracktitan.io",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 310888580,
+      "name": "Rivage",
+      "domain": "rivage.tech",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311186581,
+      "name": "RockFi",
+      "domain": "rockfi.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311601012,
+      "name": "Flease",
+      "domain": "flease.fr",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311995802,
+      "name": "NP Company",
+      "domain": "augurco.fr",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 312898583,
+      "name": "Revibe",
+      "domain": "revibe.me",
+      "funnel": "Pre-lead",
+      "country": "United Arab Emirates"
+    },
+    {
+      "id": 313527066,
+      "name": "Lima",
+      "domain": "meetlima.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 313527526,
+      "name": "Modeinspect",
+      "domain": "modeinspect.com",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Alexis Lancien",
+      "externalEmail": "alancien@partechpartners.com",
+      "score": 0.9996741499654996,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Paul Vider",
+      "externalEmail": "pvider@partechpartners.com",
+      "score": 0.9992081200393481,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Keji Mustapha",
+      "externalEmail": "kmustapha@partechpartners.com",
+      "score": 0.9990795014339315,
+      "linkedin": false
+    },
+    {
+      "internal": "Efosa Ayanru",
+      "external": "Mohamed Damak",
+      "externalEmail": "mdamak@partechpartners.com",
+      "score": 0.9989266639476454,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Lucas Liabeuf",
+      "externalEmail": "lucas.liabeuf@welii.io",
+      "score": 0.9984432537051743,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Elena Moneta",
+      "externalEmail": "emoneta@balderton.com",
+      "score": 0.9982522852218063,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Aya Murr",
+      "externalEmail": "amurr@partechpartners.com",
+      "score": 0.9977819202613414,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Louis Dessal",
+      "externalEmail": "ldessal@partechpartners.com",
+      "score": 0.9973544401437257,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Gabriel Matuschka",
+      "externalEmail": "gabriel@fly.vc",
+      "score": 0.9969769707194143,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Henri Tilloy",
+      "externalEmail": "henri@singular.vc",
+      "score": 0.9964544299417178,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 1514268 (partechpartners.com + partechventures.com). Top 10 of 20+ relationships kept; some externals are alumni now elsewhere (Balderton, fly.vc, Singular). Pipeline matched 'Partech' (157) plus Partech Africa/partners variants (3)."
+}

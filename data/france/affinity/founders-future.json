@@ -1,0 +1,186 @@
+{
+  "slug": "founders-future",
+  "affinity_company_id": 150131120,
+  "affinity_domain": "foundersfuture.com",
+  "pipeline": [
+    {
+      "id": 224173521,
+      "name": "Sharpist",
+      "domain": "sharpist.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 262503489,
+      "name": "comet",
+      "domain": "comet.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 284362973,
+      "name": "Memo Bank",
+      "domain": "memo.bank",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763515,
+      "name": "Bnext",
+      "domain": "bnext.es",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 289767189,
+      "name": "Jungle Concept S.A.",
+      "domain": "jungle.bio",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767243,
+      "name": "Kard",
+      "domain": "kard.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768679,
+      "name": "Waterdrop",
+      "domain": "waterdrop.com",
+      "funnel": "Passed",
+      "country": "Austria"
+    },
+    {
+      "id": 289770832,
+      "name": "Neat Protect",
+      "domain": "neat.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771249,
+      "name": "Riot",
+      "domain": "tryriot.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289771399,
+      "name": "jho.",
+      "domain": "jho.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772204,
+      "name": "900.care",
+      "domain": "900.care",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293729541,
+      "name": "Mimbi",
+      "domain": "mimbi.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 294581710,
+      "name": "Leeto",
+      "domain": "leeto.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 295040010,
+      "name": "Zealy.io",
+      "domain": "zealy.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 300446992,
+      "name": "Veeton",
+      "domain": "veeton.co",
+      "funnel": "Pre-lead",
+      "country": null
+    },
+    {
+      "id": 300447020,
+      "name": "Volta",
+      "domain": "voltasoftware.com",
+      "funnel": "Awaiting Reply",
+      "country": "Italy"
+    },
+    {
+      "id": 308453779,
+      "name": "GENIAL",
+      "domain": "wearegenial.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 309752579,
+      "name": "Didit",
+      "domain": "didit.me",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 311186542,
+      "name": "Raidium",
+      "domain": "raidium.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311249768,
+      "name": "Tomorro",
+      "domain": "tomorro.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 311957537,
+      "name": "Audion",
+      "domain": "audion.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 312898624,
+      "name": "Bon Vivant",
+      "domain": "verley-food.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 313527251,
+      "name": "Bohr Energie",
+      "domain": "bohr-energie.fr",
+      "funnel": "Pre-lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Harry Williams",
+      "external": "Thibault Magnen",
+      "externalEmail": "thibault@foundersfuture.com",
+      "score": 0.6162186043243266,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Paul Varasso",
+      "externalEmail": "paul@foundersfuture.com",
+      "score": 0.6,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 150131120 (foundersfuture.com). Only 2 live relationships, both via Harry Williams. Pipeline matched 'Founders Future' (23)."
+}

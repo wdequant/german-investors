@@ -1,0 +1,199 @@
+{
+  "slug": "newfund",
+  "affinity_company_id": 1554206,
+  "affinity_domain": "newfundcap.com",
+  "pipeline": [
+    {
+      "id": 1610937,
+      "name": "Limonetik",
+      "domain": "limonetik.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 121081307,
+      "name": "Kiute",
+      "domain": "kiute.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 209958911,
+      "name": "Moodwork",
+      "domain": "moodwork.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 219983069,
+      "name": "Cuure",
+      "domain": "cuure.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 287821215,
+      "name": "Olino (Riskee)",
+      "domain": "olino.fr",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289761709,
+      "name": "Aircall",
+      "domain": "aircall.io",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289765486,
+      "name": "Moodwork",
+      "domain": "moodwork.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765638,
+      "name": "AdVitam",
+      "domain": "advitam.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765689,
+      "name": "DATAGALAXY",
+      "domain": "datagalaxy.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766271,
+      "name": "Arenametrix",
+      "domain": "arenametrix.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768728,
+      "name": "Learnissimo",
+      "domain": "learnissimo.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289771585,
+      "name": "Fréquentiel",
+      "domain": "frequentiel.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771987,
+      "name": "Vendict",
+      "domain": "vendict.com",
+      "funnel": "Awaiting Reply",
+      "country": "Israel"
+    },
+    {
+      "id": 289772470,
+      "name": "Inarix",
+      "domain": "inarix.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 293727900,
+      "name": "Pliant.io",
+      "domain": "pliant.io",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 293845608,
+      "name": "SWAP Food",
+      "domain": "swapfood.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": null
+    },
+    {
+      "id": 295908234,
+      "name": "Ramify - Bien épargner, ça ne s'invente pas",
+      "domain": "ramify.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295908592,
+      "name": "Arkhn",
+      "domain": "arkhn.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 296509643,
+      "name": "ADAXIS",
+      "domain": "adaxis.eu",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 304289769,
+      "name": "Fleeti",
+      "domain": "fleeti.co",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 308453623,
+      "name": "Shotgun",
+      "domain": "shotgun.live",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 308453656,
+      "name": "Infinite Orbits",
+      "domain": "infiniteorbits.io",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 309752539,
+      "name": "ShareId",
+      "domain": "shareid.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 310606000,
+      "name": "haiku-corp.com",
+      "domain": "haiku.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 310968672,
+      "name": "Jinka",
+      "domain": "jinka.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 311186542,
+      "name": "Raidium",
+      "domain": "raidium.eu",
+      "funnel": "Lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": [
+      "Laurence Garrett",
+      "Will McMahon"
+    ],
+    "last": "2017-03",
+    "context": "Email 'RE: Highland meeting' from François Véron (Newfund) to Laurence Garrett, cc Will McMahon; thread started 6 Mar 2017 with a CustomerMatrix catch-up in Paris. No interactions since on any Newfund record."
+  },
+  "notes": "Company 1554206 (newfundcap.com); duplicates 291860046 (newfund.fr, holds the 2017 interaction history) and 159741031 (no domain). Zero live relationships on all three records - dormant since Mar 2017. Pipeline matched 'Newfund' (12 incl. case variants), 'Newfund Management' (6), 'Newfund Capital' (6), 'Newfund Ventures' (1), 'Newfund And Kurma Partners' (1)."
+}

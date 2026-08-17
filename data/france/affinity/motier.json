@@ -1,0 +1,340 @@
+{
+  "slug": "motier",
+  "affinity_company_id": 284933867,
+  "affinity_domain": "motier.vc",
+  "pipeline": [
+    {
+      "id": 285666513,
+      "name": "Glopal",
+      "domain": "glopal.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766280,
+      "name": "Avant Arte",
+      "domain": "avantarte.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289770116,
+      "name": "Omi",
+      "domain": "omi.so",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289770462,
+      "name": "LaCollection",
+      "domain": "lacollection.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289771318,
+      "name": "Arianee",
+      "domain": "arianee.org",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771795,
+      "name": "Choose SAS",
+      "domain": "appchoose.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772356,
+      "name": "jitter",
+      "domain": "jitter.video",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772507,
+      "name": "Autone",
+      "domain": "autone.io",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772745,
+      "name": "Elyn",
+      "domain": "elyn.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289986738,
+      "name": "dust.tt",
+      "domain": "dust.tt",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 290276597,
+      "name": "Bastion",
+      "domain": "bastion.tech",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 290621615,
+      "name": "Mistral AI",
+      "domain": "mistral.ai",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 290716214,
+      "name": "Fipto",
+      "domain": "fipto.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 292734704,
+      "name": "Omada",
+      "domain": "omadagame.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 292911522,
+      "name": "MarketLeap",
+      "domain": "marketleap.ai",
+      "funnel": "Awaiting Reply",
+      "country": "Luxembourg"
+    },
+    {
+      "id": 293405873,
+      "name": "hearthands.tech",
+      "domain": "hearthands.tech",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 293727230,
+      "name": "Filigran",
+      "domain": "filigran.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 293729448,
+      "name": "Beavr",
+      "domain": "beavr.tech",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 293729454,
+      "name": "Stacksync",
+      "domain": "stacksync.cloud",
+      "funnel": "Pre-lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 293729492,
+      "name": "Gladia.io",
+      "domain": "gladia.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293729531,
+      "name": "Vibe",
+      "domain": "vibe.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 294012538,
+      "name": "Poolside",
+      "domain": "poolside.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 294573835,
+      "name": "Twin",
+      "domain": "twin.so",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 294581865,
+      "name": "Ida",
+      "domain": "ai-ida.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 295178341,
+      "name": "Adaptive ML",
+      "domain": "adaptive-ml.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295908661,
+      "name": "Keyring Network",
+      "domain": "keyring.network",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 295908785,
+      "name": "Catalog",
+      "domain": "startcatalog.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 296108733,
+      "name": "Anyshift",
+      "domain": "anyshift.io",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 296509445,
+      "name": "Augment",
+      "domain": "augment.org",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 296509984,
+      "name": "Pruna AI",
+      "domain": "pruna.ai",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 297318808,
+      "name": "kelvin",
+      "domain": "go-kelvin.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 300074852,
+      "name": "Freqens",
+      "domain": "freqens.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 300692067,
+      "name": "CardNexus",
+      "domain": "cardnexus.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 305791424,
+      "name": "Linkup",
+      "domain": "linkup.so",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 306399831,
+      "name": "PaceUp",
+      "domain": "kotcha.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 308969201,
+      "name": "H-AI",
+      "domain": "hcompany.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 308969294,
+      "name": "Lucis",
+      "domain": "lucis.life",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 310605945,
+      "name": "finegrain",
+      "domain": "finegrain.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311055211,
+      "name": "Concord SAS",
+      "domain": "concord.ad",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311186529,
+      "name": "Skarlett",
+      "domain": "skarlett.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311249768,
+      "name": "Tomorro",
+      "domain": "tomorro.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 311601265,
+      "name": "Topograph",
+      "domain": "topograph.co",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311995744,
+      "name": "Flagcat",
+      "domain": "flagcat.studio",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 312445104,
+      "name": "Certo",
+      "domain": "askcerto.com",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Aude Flecchia",
+      "external": "Maxime Lhoustau",
+      "externalEmail": "maxime@motier.vc",
+      "score": 0.9828851195769255,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Laurine Moureaux",
+      "externalEmail": "laurine@motier.vc",
+      "score": 0.8554517744447956,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Laurine Moureaux",
+      "externalEmail": "laurine@motier.vc",
+      "score": 0.8439444915467244,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 284933867 (motier.vc). All 3 live relationships kept. Pipeline matched 'Motier Ventures' (44) and 'Motier VC' (1, dust.tt); no bare 'Motier' strings."
+}

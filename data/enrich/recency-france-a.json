@@ -1,0 +1,236 @@
+{
+  "kima": {
+    "fund_last": "2026-07-15",
+    "contacts": {
+      "Alexis Robert": {
+        "last": "2026-07-15",
+        "mismatch": false
+      },
+      "Jean de La Rochebrochard": {
+        "last": "2026-07-15",
+        "mismatch": true
+      },
+      "Felix Breucker": {
+        "last": "2026-06-12",
+        "mismatch": false
+      }
+    }
+  },
+  "eurazeo": {
+    "fund_last": "2026-08-13",
+    "contacts": {
+      "Borja Rosales": {
+        "last": "2025-01-07",
+        "mismatch": true
+      },
+      "Romain Mombert": {
+        "last": "2026-07-26",
+        "mismatch": false
+      },
+      "Anne-Charlotte Philbert": {
+        "last": "2026-07-17",
+        "mismatch": false
+      }
+    }
+  },
+  "partech": {
+    "fund_last": "2026-07-30",
+    "contacts": {
+      "Alexis Lancien": {
+        "last": "2026-05-15",
+        "mismatch": false
+      },
+      "Paul Vider": {
+        "last": "2026-02-25",
+        "mismatch": false
+      },
+      "Keji Mustapha": {
+        "last": "2026-06-25",
+        "mismatch": false
+      }
+    }
+  },
+  "aglae": {
+    "fund_last": "2026-05-07",
+    "contacts": {
+      "Kristina Chvilova": {
+        "last": "2026-05-07",
+        "mismatch": false
+      },
+      "Léa Verdillon": {
+        "last": "2025-04-23",
+        "mismatch": false
+      },
+      "Julie Roze": {
+        "last": "2024-03-06",
+        "mismatch": true
+      }
+    }
+  },
+  "elaia": {
+    "fund_last": "2026-07-27",
+    "contacts": {
+      "Gabriel Levy": {
+        "last": "2026-07-01",
+        "mismatch": true
+      },
+      "Louisa Mesnard": {
+        "last": "2026-06-15",
+        "mismatch": false
+      },
+      "Alexis Frentz": {
+        "last": "2026-06-12",
+        "mismatch": false
+      }
+    }
+  },
+  "sofinnova": {
+    "fund_last": "2025-09-11",
+    "contacts": {
+      "Nicolas Autret": {
+        "last": "2026-06-02",
+        "mismatch": true
+      },
+      "Alessio Beverina": {
+        "last": "2024-01-22",
+        "mismatch": true
+      },
+      "Nicolas Louvet": {
+        "last": "2025-07-16",
+        "mismatch": true
+      }
+    }
+  },
+  "xange": {
+    "fund_last": "2026-07-02",
+    "contacts": {
+      "Cyril Bertrand": {
+        "last": "2026-07-02",
+        "mismatch": false
+      },
+      "Rodolphe Menegaux": {
+        "last": "2026-08-13",
+        "mismatch": true
+      },
+      "Valérie Bures-Boenstroem": {
+        "last": "2026-06-08",
+        "mismatch": false
+      }
+    }
+  },
+  "alven": {
+    "fund_last": "2026-08-13",
+    "contacts": {
+      "Rodolphe Menegaux": {
+        "last": "2026-08-13",
+        "mismatch": false
+      },
+      "Thomas Cuvelier": {
+        "last": "2025-11-19",
+        "mismatch": true
+      },
+      "Bartosz Jakubowski": {
+        "last": "2024-06-13",
+        "mismatch": false
+      }
+    }
+  },
+  "cathay": {
+    "fund_last": "2026-07-06",
+    "contacts": {
+      "Jacky Abitbol": {
+        "last": "2026-07-30",
+        "mismatch": false
+      },
+      "Romain Dufourcq": {
+        "last": "2026-06-24",
+        "mismatch": false
+      },
+      "Marguerite de Tavernost": {
+        "last": "2026-06-12",
+        "mismatch": false
+      }
+    }
+  },
+  "newfund": {
+    "fund_last": "2017-03-16",
+    "contacts": {}
+  },
+  "founders-future": {
+    "fund_last": "2026-03-02",
+    "contacts": {
+      "Thibault Magnen": {
+        "last": "2026-03-02",
+        "mismatch": false
+      },
+      "Paul Varasso": {
+        "last": "2023-10-04",
+        "mismatch": false
+      }
+    }
+  },
+  "motier": {
+    "fund_last": "2025-12-19",
+    "contacts": {
+      "Maxime Lhoustau": {
+        "last": "2025-12-19",
+        "mismatch": false
+      },
+      "Laurine Moureaux": {
+        "last": "2025-12-08",
+        "mismatch": false
+      }
+    }
+  },
+  "serena": {
+    "fund_last": "2026-08-04",
+    "contacts": {
+      "Bertrand Diard": {
+        "last": "2026-02-19",
+        "mismatch": false
+      },
+      "Marie Brayer": {
+        "last": "2026-05-20",
+        "mismatch": true
+      },
+      "Paul Moriou": {
+        "last": "2026-07-26",
+        "mismatch": false
+      }
+    }
+  },
+  "seventure": {
+    "fund_last": "2026-07-20",
+    "contacts": {
+      "David Manjarres": {
+        "last": "2026-06-26",
+        "mismatch": false
+      },
+      "Ludovic Denis": {
+        "last": "2026-07-20",
+        "mismatch": false
+      },
+      "Bruno Rivet": {
+        "last": "2024-12-13",
+        "mismatch": false
+      }
+    }
+  },
+  "omnes": {
+    "fund_last": "2026-07-20",
+    "contacts": {
+      "Hugo Hubert": {
+        "last": "2026-05-13",
+        "mismatch": false
+      },
+      "Michel de Lempdes": {
+        "last": "2024-09-04",
+        "mismatch": false
+      },
+      "Renaud Poulard": {
+        "last": "2026-07-20",
+        "mismatch": false
+      }
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "slug": "seventure",
+  "affinity_company_id": 1546023,
+  "affinity_domain": "seventure.fr",
+  "pipeline": [
+    {
+      "id": 1541880,
+      "name": "Tigerlily",
+      "domain": "tigerlilyapps.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 1593628,
+      "name": "Testbirds",
+      "domain": "testbirds.de",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 1628410,
+      "name": "Studitemps",
+      "domain": "studitemps.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 1713563,
+      "name": "FeetMe",
+      "domain": "feetme.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 152837656,
+      "name": "fromAtoB GmbH",
+      "domain": "fromatob.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 152837780,
+      "name": "IDNow",
+      "domain": "idnow.io",
+      "funnel": "Passed",
+      "country": null
+    },
+    {
+      "id": 152838314,
+      "name": "PushDoctor",
+      "domain": "pushdoctor.co.uk",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 282656068,
+      "name": "SEKOIA",
+      "domain": "sekoia.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 285666513,
+      "name": "Glopal",
+      "domain": "glopal.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 287133359,
+      "name": "Pitchy",
+      "domain": "pitchy.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289319821,
+      "name": "La Vie",
+      "domain": "laviefoods.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289759958,
+      "name": "PrestaShop",
+      "domain": "prestashop.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289759960,
+      "name": "Mailjet",
+      "domain": "mailjet.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760058,
+      "name": "TransferGo",
+      "domain": "transfergo.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289761478,
+      "name": "TxCell",
+      "domain": "txcell.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762172,
+      "name": "Webdata Solutions",
+      "domain": "webdata-solutions.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289762677,
+      "name": "Expensya",
+      "domain": "expensya.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289763492,
+      "name": "Chronotruck",
+      "domain": "chronotruck.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764058,
+      "name": "machtfit",
+      "domain": "machtfit.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289764889,
+      "name": "Izicap",
+      "domain": "izicap.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289765073,
+      "name": "DayTwo",
+      "domain": "daytwo.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289765217,
+      "name": "ID5",
+      "domain": "id5.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289765583,
+      "name": "YesWeHack",
+      "domain": "yeswehack.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765830,
+      "name": "Launchmetrics",
+      "domain": "launchmetrics.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289766624,
+      "name": "wealthpilot",
+      "domain": "wealthpilot.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289767959,
+      "name": "navabi",
+      "domain": "navabi.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289768442,
+      "name": "Lecturio",
+      "domain": "lecturio.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289768719,
+      "name": "Hepster",
+      "domain": "hepster.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 293727097,
+      "name": "Citalid Cybersecurity",
+      "domain": "citalid.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 294012309,
+      "name": "Sinay",
+      "domain": "sinay.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 301135077,
+      "name": "Wultra",
+      "domain": "wultra.com",
+      "funnel": "Awaiting Reply",
+      "country": "Czechia"
+    },
+    {
+      "id": 301227203,
+      "name": "Sunrise",
+      "domain": "hellosunrise.com",
+      "funnel": "Lead",
+      "country": "Belgium"
+    },
+    {
+      "id": 301577672,
+      "name": "Reelevant",
+      "domain": "reelevant.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 303536523,
+      "name": "Sentryc",
+      "domain": "sentryc.com",
+      "funnel": "Awaiting Reply",
+      "country": "Germany"
+    },
+    {
+      "id": 304283503,
+      "name": "Lecturio",
+      "domain": "lecturio.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 311600945,
+      "name": "Karmen",
+      "domain": "karmen.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311995678,
+      "name": "Standing Ovation",
+      "domain": "standing-ovation.co",
+      "funnel": "Pre-lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Stan Laurent",
+      "external": "David Manjarres",
+      "externalEmail": "david.manjarres@seventure.fr",
+      "score": 0.9997797326676138,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Ludovic Denis",
+      "externalEmail": "ludovic.denis-ext@seventure.fr",
+      "score": 0.9996304011486641,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Bruno Rivet",
+      "externalEmail": "bruno.rivet@seventure.fr",
+      "score": 0.9837321445302559,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Bruno Rivet",
+      "externalEmail": "bruno.rivet@seventure.fr",
+      "score": 0.9503834987899196,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Guillaume Echaudemaison",
+      "externalEmail": "guillaume.echaudemaison@seventure.fr",
+      "score": 0.6277258872223979,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Ludovic Denis",
+      "externalEmail": "ludovic.denis-ext@seventure.fr",
+      "score": 0.3168601102189882,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Leonie Allaeys",
+      "externalEmail": "leonie.allaeys-ext@seventure.fr",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 1546023 (seventure.fr); duplicate 295924996 (seventure.com). All 7 live relationships kept. Pipeline matched 'Seventure Partners' (40 incl. Health for Life Capital string); no bare 'Seventure' strings."
+}

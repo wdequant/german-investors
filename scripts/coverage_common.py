@@ -249,7 +249,7 @@ def angel_relevance(deals, unicorns, synd_overlap, pipeline_active):
 
 
 def dormant_weight(d):
-    if not d:
+    if not d or not d.get("last"):  # bare CRM record with no interaction history
         return 0.0
     yr = int(str(d["last"])[:4])
     age = 2026 - yr

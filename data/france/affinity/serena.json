@@ -1,0 +1,368 @@
+{
+  "slug": "serena",
+  "affinity_company_id": 1534996,
+  "affinity_domain": "serena.vc",
+  "pipeline": [
+    {
+      "id": 1548055,
+      "name": "WorldStores",
+      "domain": "worldstores.co.uk",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 220453053,
+      "name": "iBanFirst",
+      "domain": "ibanfirst.com",
+      "funnel": "Passed",
+      "country": "Belgium"
+    },
+    {
+      "id": 238936135,
+      "name": "Implicity",
+      "domain": "implicity.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 283282781,
+      "name": "Monisnap",
+      "domain": "monisnap.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 284981733,
+      "name": "Boxy",
+      "domain": "getboxy.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289759958,
+      "name": "PrestaShop",
+      "domain": "prestashop.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289759979,
+      "name": "Odaseva",
+      "domain": "odaseva.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289760093,
+      "name": "Dataiku",
+      "domain": "dataiku.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289760300,
+      "name": "Bonitasoft",
+      "domain": "bonitasoft.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289761043,
+      "name": "Lengow",
+      "domain": "lengow.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289761425,
+      "name": "FINALCAD",
+      "domain": "finalcad.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289761578,
+      "name": "Lifen",
+      "domain": "lifen.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289761783,
+      "name": "TVTY",
+      "domain": "tvty.tv",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289762174,
+      "name": "Brigad",
+      "domain": "brigad.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762270,
+      "name": "CybelAngel",
+      "domain": "cybelangel.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762343,
+      "name": "Bestmile",
+      "domain": "bestmile.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289762553,
+      "name": "Privateaser",
+      "domain": "privateaser.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289762796,
+      "name": "TextMaster",
+      "domain": "textmaster.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763162,
+      "name": "iContainers",
+      "domain": "icontainers.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289764268,
+      "name": "Elium",
+      "domain": "elium.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Belgium"
+    },
+    {
+      "id": 289764626,
+      "name": "Inato",
+      "domain": "inato.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764696,
+      "name": "Habiteo",
+      "domain": "habiteo.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289767452,
+      "name": "Wecasa",
+      "domain": "wecasa.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767825,
+      "name": "Libeo",
+      "domain": "libeo.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768060,
+      "name": "Kardinal",
+      "domain": "kardinal.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769002,
+      "name": "Vekia",
+      "domain": "vekia.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769350,
+      "name": "Kili Technology",
+      "domain": "kili-technology.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769364,
+      "name": "Powder",
+      "domain": "powder.gg",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770277,
+      "name": "Electra",
+      "domain": "go-electra.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289772532,
+      "name": "Dotfile",
+      "domain": "dotfile.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772688,
+      "name": "Malt",
+      "domain": "malt.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 290716214,
+      "name": "Fipto",
+      "domain": "fipto.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293729236,
+      "name": "CarbonFarm",
+      "domain": "carbonfarm.tech",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 301135154,
+      "name": "OpsMill",
+      "domain": "opsmill.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 301624648,
+      "name": "Kleio",
+      "domain": "kleio.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 302189481,
+      "name": "DeepIP",
+      "domain": "deepip.ai",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 302925415,
+      "name": "Emmi.ai",
+      "domain": "emmi.ai",
+      "funnel": "Passed",
+      "country": "Austria"
+    },
+    {
+      "id": 304669906,
+      "name": "LaFourchette",
+      "domain": "lafourchette.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 306399831,
+      "name": "PaceUp",
+      "domain": "kotcha.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 309752554,
+      "name": "Bitstack",
+      "domain": "bitstack-app.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311354922,
+      "name": "Waiv",
+      "domain": "wearewaiv.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Bertrand Diard",
+      "externalEmail": "bertrand@serena.vc",
+      "score": 0.9999974946579131,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Marie Brayer",
+      "externalEmail": "marie@moxventures.com",
+      "score": 0.9999412650383139,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Paul Moriou",
+      "externalEmail": "paul@serena.vc",
+      "score": 0.9994828829376631,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Paul Moriou",
+      "externalEmail": "paul@serena.vc",
+      "score": 0.9990169574100873,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Marie Brayer",
+      "externalEmail": "marie@moxventures.com",
+      "score": 0.9929513791073649,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Marie Brayer",
+      "externalEmail": "marie@moxventures.com",
+      "score": 0.9916333754362364,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Marie Brayer",
+      "externalEmail": "marie@moxventures.com",
+      "score": 0.986345856939352,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Bertrand Diard",
+      "externalEmail": "bertrand@serena.vc",
+      "score": 0.9825557520357129,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Olivier Martret",
+      "externalEmail": "olivier@serena.vc",
+      "score": 0.9803653041744653,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Olivier Martret",
+      "externalEmail": "olivier@serena.vc",
+      "score": 0.9503834987899196,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 1534996 (serena.vc + serenacapital.com); stray duplicate 291898907. Top 10 of 15 kept. Pipeline: kept 'Serena Capital' (25), 'Serena Data Ventures' (2), 'Serena Vc' (1) and bare 'Serena' on non-US companies plus known French-Serena US-tagged portfolio (Dataiku, Odaseva, Implicity, DeepIP); excluded 'Serena Williams', 'Serena Ventures' (US fund) and bare 'Serena' on Bestmile (US-tagged, unverified)."
+}

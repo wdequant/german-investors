@@ -1,0 +1,599 @@
+{
+  "slug": "elaia",
+  "affinity_company_id": 284857327,
+  "affinity_domain": "elaia.fr",
+  "pipeline": [
+    {
+      "id": 1549181,
+      "name": "Orchestra Networks",
+      "domain": "orchestranetworks.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 79708559,
+      "name": "EasyRecrue",
+      "domain": "easyrecrue.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 220453053,
+      "name": "iBanFirst",
+      "domain": "ibanfirst.com",
+      "funnel": "Passed",
+      "country": "Belgium"
+    },
+    {
+      "id": 283177446,
+      "name": "Cyrebro",
+      "domain": "cyrebro.io",
+      "funnel": "Passed",
+      "country": "Israel"
+    },
+    {
+      "id": 285306801,
+      "name": "Transaction Connect now called Spaycial",
+      "domain": "spaycial.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 286544086,
+      "name": "Hyperlex",
+      "domain": "hyperlex.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 287828976,
+      "name": "SeqOne Genomics",
+      "domain": "seqone.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760100,
+      "name": "Total Immersion",
+      "domain": "t-immersion.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760231,
+      "name": "SIGFOX",
+      "domain": "sigfox.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760904,
+      "name": "OpenIO",
+      "domain": "openio.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289761082,
+      "name": "Tinyclues",
+      "domain": "tinyclues.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289761657,
+      "name": "Wyplay",
+      "domain": "wyplay.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762720,
+      "name": "SESAMm",
+      "domain": "sesamm.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763411,
+      "name": "Tilak",
+      "domain": "tilakhealthcare.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289763611,
+      "name": "Realytics",
+      "domain": "realytics.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763758,
+      "name": "Geoblink",
+      "domain": "geoblink.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 289764699,
+      "name": "ForePaaS",
+      "domain": "forepaas.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289765162,
+      "name": "Ornikar",
+      "domain": "ornikar.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765418,
+      "name": "Logpickr",
+      "domain": "logpickr.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289765518,
+      "name": "UWINLOC",
+      "domain": "uwinloc.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765709,
+      "name": "Elevo",
+      "domain": "elevo.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766168,
+      "name": "ZenChef",
+      "domain": "zenchef.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766584,
+      "name": "Gleamer",
+      "domain": "gleamer.ai",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766675,
+      "name": "Qantev",
+      "domain": "qantev.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767194,
+      "name": "Ryax Technologies",
+      "domain": "ryax.tech",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289767963,
+      "name": "Shift Technology",
+      "domain": "shift-technology.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768141,
+      "name": "Seyna",
+      "domain": "seyna.eu",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768279,
+      "name": "CodeNotary",
+      "domain": "codenotary.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289769072,
+      "name": "Alice & Bob",
+      "domain": "alice-bob.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769111,
+      "name": "Marfeel",
+      "domain": "marfeel.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289769275,
+      "name": "Mirakl",
+      "domain": "mirakl.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769288,
+      "name": "Continuity",
+      "domain": "continuity-tech.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289769495,
+      "name": "Teads US",
+      "domain": "teads.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289769926,
+      "name": "Tabnine",
+      "domain": "tabnine.com",
+      "funnel": "Awaiting Reply",
+      "country": "Israel"
+    },
+    {
+      "id": 289770217,
+      "name": "Sonio",
+      "domain": "sonio.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770400,
+      "name": "Spaycial",
+      "domain": "spaycial.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770412,
+      "name": "Indeez",
+      "domain": "indeez.eu",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 289771205,
+      "name": "Giskard AI",
+      "domain": "giskard.ai",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 289771361,
+      "name": "Dexory",
+      "domain": "dexory.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289771374,
+      "name": "Qbeast Analytics",
+      "domain": "qbeast.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289771693,
+      "name": "LynxCare",
+      "domain": "lynx.care",
+      "funnel": "Lead",
+      "country": "Belgium"
+    },
+    {
+      "id": 289771750,
+      "name": "Cosmian",
+      "domain": "cosmian.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771778,
+      "name": "Sim&Cure",
+      "domain": "sim-and-cure.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771841,
+      "name": "Aqemia",
+      "domain": "aqemia.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772040,
+      "name": "Mitiga Solutions",
+      "domain": "mitigasolutions.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 289772237,
+      "name": "Quantum Dice",
+      "domain": "quantum-dice.com",
+      "funnel": "Awaiting Reply",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772380,
+      "name": "Doccla",
+      "domain": "doccla.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772493,
+      "name": "Corporatings",
+      "domain": "corporatings.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772549,
+      "name": "DJUST",
+      "domain": "djust.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772662,
+      "name": "ncScale",
+      "domain": "ncscale.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 291626581,
+      "name": "Phospho",
+      "domain": "phospho.app",
+      "funnel": "Deprioritised (free for all)",
+      "country": null
+    },
+    {
+      "id": 293727358,
+      "name": "Sancare",
+      "domain": "sancare.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 293728661,
+      "name": "Aviwell",
+      "domain": "aviwell.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293728916,
+      "name": "FenTech",
+      "domain": "fentech.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293729196,
+      "name": "NANO",
+      "domain": "nanocorp.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 293729362,
+      "name": "Greenbids",
+      "domain": "greenbids.ai",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 293729531,
+      "name": "Vibe",
+      "domain": "vibe.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 294581787,
+      "name": "hema.to GmbH",
+      "domain": "hema.to",
+      "funnel": "Awaiting Reply",
+      "country": "Germany"
+    },
+    {
+      "id": 296509740,
+      "name": "Namla",
+      "domain": "namla.cloud",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 296915925,
+      "name": "NcodiN",
+      "domain": "ncodin.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 296915993,
+      "name": "mimic robotics",
+      "domain": "mimicrobotics.com",
+      "funnel": "Lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 297468483,
+      "name": "MomentsLab",
+      "domain": "momentslab.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 298733430,
+      "name": "SurgAR",
+      "domain": "surgar-surgery.com",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 299470858,
+      "name": "Dunia",
+      "domain": "dunia.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 299470923,
+      "name": ".txt",
+      "domain": "dottxt.co",
+      "funnel": "Awaiting Reply",
+      "country": "United States"
+    },
+    {
+      "id": 301135218,
+      "name": "Vocal Ai",
+      "domain": "getvocal.ai",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 305791424,
+      "name": "Linkup",
+      "domain": "linkup.so",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 308969057,
+      "name": "Hummink",
+      "domain": "hummink.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 308969201,
+      "name": "H-AI",
+      "domain": "hcompany.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 309752542,
+      "name": "Arsen",
+      "domain": "arsen.co",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 310646994,
+      "name": "OGOsecurity",
+      "domain": "ogosecurity.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311186487,
+      "name": "MyC",
+      "domain": "myc.doctor",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 313527127,
+      "name": "Primaa",
+      "domain": "primaalab.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 313527561,
+      "name": "Aylight AG",
+      "domain": "aylight.io",
+      "funnel": "Pre-lead",
+      "country": "Switzerland"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Gabriel Levy",
+      "externalEmail": "gabriel.levy@datadoghq.com",
+      "score": 0.9984037594316802,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Louisa Mesnard",
+      "externalEmail": "lmesnard@elaia.com",
+      "score": 0.9970801843660861,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Alexis Frentz",
+      "externalEmail": "afrentz@elaia.com",
+      "score": 0.9956799620225545,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Leonor Landeau",
+      "externalEmail": "leonor.landeau@cherry.vc",
+      "score": 0.9828851195769255,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Xavier Lazarus",
+      "externalEmail": "xlazarus@elaia.fr",
+      "score": 0.9826493966866149,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Sébastien Lefebvre",
+      "externalEmail": "slefebvre@elaia.fr",
+      "score": 0.9823247078815558,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Pauline Roux",
+      "externalEmail": "proux@elaia.com",
+      "score": 0.9803653041744653,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Xavier Lazarus",
+      "externalEmail": "xlazarus@elaia.fr",
+      "score": 0.9539309375480702,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Pauline Roux",
+      "externalEmail": "proux@elaia.com",
+      "score": 0.9475234661067261,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Sébastien Lefebvre",
+      "externalEmail": "slefebvre@elaia.fr",
+      "score": 0.9475234661067261,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 284857327 (elaia.fr + elaia.com). Top 10 kept (dropped 1 Isabel Wright row further down). Pipeline matched 'Elaia' (37), 'Elaia Partners' (43 incl. case variant), 'Elaia Ventures' (1), and 'Elaia And Swisscom Ventures'/'Elaia And Redalpine' combined strings (2)."
+}

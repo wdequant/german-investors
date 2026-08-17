@@ -1,0 +1,158 @@
+{
+  "slug": "sofinnova",
+  "affinity_company_id": 1515744,
+  "affinity_domain": "sofinnovapartners.com",
+  "pipeline": [
+    {
+      "id": 1533614,
+      "name": "Hyperion Therapeutics",
+      "domain": "hyperiontx.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289761657,
+      "name": "Wyplay",
+      "domain": "wyplay.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764439,
+      "name": "Synthace",
+      "domain": "synthace.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289765005,
+      "name": "Aledia",
+      "domain": "aledia.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766097,
+      "name": "myTomorrows",
+      "domain": "mytomorrows.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289766890,
+      "name": "NOVAMEAT",
+      "domain": "novameat.com",
+      "funnel": "Awaiting Reply",
+      "country": "Spain"
+    },
+    {
+      "id": 289766975,
+      "name": "EnginZyme",
+      "domain": "enginzyme.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Sweden"
+    },
+    {
+      "id": 289768176,
+      "name": "Kiro",
+      "domain": "kiro.bio",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289768988,
+      "name": "deepc",
+      "domain": "deepc.ai",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 293729593,
+      "name": "Inside Secure",
+      "domain": "insidesecure.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 295040265,
+      "name": "Bioptimus",
+      "domain": "bioptimus.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 298733606,
+      "name": "website-9",
+      "domain": "lecole.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 306306512,
+      "name": "Latent Labs",
+      "domain": "latentlabs.com",
+      "funnel": "Awaiting Reply",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 308453718,
+      "name": "Cure.51",
+      "domain": "cure51.com",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 310605937,
+      "name": "BrightHeart",
+      "domain": "brightheart.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 312898624,
+      "name": "Bon Vivant",
+      "domain": "verley-food.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 313527154,
+      "name": "Taptu",
+      "domain": "taptu.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Tony Zappala",
+      "external": "Nicolas Autret",
+      "externalEmail": "nicolas@waldencatalyst.com",
+      "score": 0.9685161198233474,
+      "linkedin": false
+    },
+    {
+      "internal": "Tony Zappala",
+      "external": "Alessio Beverina",
+      "externalEmail": "alessio.beverina@panakes.it",
+      "score": 0.37560498398195696,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Nicolas Louvet",
+      "externalEmail": "nicolas@coinhouse.com",
+      "score": 0.36394901878659935,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Nicolas Louvet",
+      "externalEmail": "nicolas@coinhouse.com",
+      "score": 0.3525491903182912,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 1515744 (sofinnovapartners.com); duplicate record 284968344 (sofinnova.fr) exists. All 4 live relationships kept - every external is a Sofinnova alumnus now elsewhere (Walden Catalyst, Panakes, Coinhouse). Pipeline matched only 'Sofinnova Partners' (17); no bare 'Sofinnova' strings and no Sofinnova Investments contamination."
+}

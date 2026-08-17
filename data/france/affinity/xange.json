@@ -1,0 +1,473 @@
+{
+  "slug": "xange",
+  "affinity_company_id": 1528702,
+  "affinity_domain": "xange.fr",
+  "pipeline": [
+    {
+      "id": 1514966,
+      "name": "Believe Digital",
+      "domain": "believedigital.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 1628410,
+      "name": "Studitemps",
+      "domain": "studitemps.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 224808717,
+      "name": "Currencycloud",
+      "domain": "currencycloud.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 238936135,
+      "name": "Implicity",
+      "domain": "implicity.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 260529472,
+      "name": "360Learning",
+      "domain": "en.360learning.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 282127394,
+      "name": "Coinhouse",
+      "domain": "coinhouse.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 286270893,
+      "name": "Animaj",
+      "domain": "animaj.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 288811074,
+      "name": "Knowunity",
+      "domain": "knowunity.de",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289759879,
+      "name": "ATEME",
+      "domain": "ateme.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289759958,
+      "name": "PrestaShop",
+      "domain": "prestashop.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760236,
+      "name": "Sculpteo",
+      "domain": "sculpteo.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760407,
+      "name": "Tellmeplus",
+      "domain": "tellmeplus.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760776,
+      "name": "Honeypot",
+      "domain": "honeypot.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289760885,
+      "name": "Lydia",
+      "domain": "lydia-app.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289761759,
+      "name": "La Ruche qui dit Oui !",
+      "domain": "laruchequiditoui.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762226,
+      "name": "Savedo",
+      "domain": "savedo.de",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289762469,
+      "name": "Agricool",
+      "domain": "agricool.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763070,
+      "name": "VOSS Solutions",
+      "domain": "voss-solutions.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289763213,
+      "name": "Welcome to the Jungle",
+      "domain": "welcometothejungle.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763526,
+      "name": "MobileTag",
+      "domain": "mobiletag.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763562,
+      "name": "Dolead",
+      "domain": "dolead.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764215,
+      "name": "Dynadmic",
+      "domain": "eu.dynadmic.com",
+      "funnel": "Lead",
+      "country": "Brazil"
+    },
+    {
+      "id": 289764282,
+      "name": "Apiax",
+      "domain": "apiax.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Switzerland"
+    },
+    {
+      "id": 289764670,
+      "name": "Skello",
+      "domain": "skello.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764745,
+      "name": "Wandercraft",
+      "domain": "wandercraft.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765150,
+      "name": "RunMyProcess",
+      "domain": "runmyprocess.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289765575,
+      "name": "Ouihelp",
+      "domain": "ouihelp.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289765687,
+      "name": "Synapse Medicine - Medication Intelligence",
+      "domain": "synapse-medicine.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765691,
+      "name": "Shine.fr",
+      "domain": "shine.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766168,
+      "name": "ZenChef",
+      "domain": "zenchef.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766322,
+      "name": "AB Tasty",
+      "domain": "abtasty.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766584,
+      "name": "Gleamer",
+      "domain": "gleamer.ai",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766780,
+      "name": "Sensorberg",
+      "domain": "sensorberg.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289767481,
+      "name": "eXo Platform",
+      "domain": "exoplatform.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768380,
+      "name": "Greenly",
+      "domain": "greenly.earth",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768675,
+      "name": "airfocus",
+      "domain": "airfocus.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289769857,
+      "name": "Stantum",
+      "domain": "stantum.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769888,
+      "name": "Cajoo",
+      "domain": "cajoo.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769911,
+      "name": "Worklife",
+      "domain": "worklife.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289770167,
+      "name": "WorkMotion",
+      "domain": "workmotion.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289770340,
+      "name": "Vertuoza",
+      "domain": "vertuoza.com",
+      "funnel": "Passed",
+      "country": "Belgium"
+    },
+    {
+      "id": 289770580,
+      "name": "Saporo",
+      "domain": "saporo.io",
+      "funnel": "Pre-lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 289770688,
+      "name": "AssoConnect",
+      "domain": "assoconnect.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771001,
+      "name": "Elba",
+      "domain": "elba.security",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289771065,
+      "name": "Request",
+      "domain": "request.finance",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772187,
+      "name": "<div>riots",
+      "domain": "divriots.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289772343,
+      "name": "Valuecase",
+      "domain": "valuecase.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289772613,
+      "name": "Reflect",
+      "domain": "getreflect.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293728301,
+      "name": "Silvr",
+      "domain": "silvr.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 293729492,
+      "name": "Gladia.io",
+      "domain": "gladia.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295908736,
+      "name": "Epoca",
+      "domain": "epoca.health",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 297318556,
+      "name": "Estuaire",
+      "domain": "estuaire.dev",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 298262502,
+      "name": "Le Fourgon",
+      "domain": "lefourgon.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 298733430,
+      "name": "SurgAR",
+      "domain": "surgar-surgery.com",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 304266008,
+      "name": "Neolane",
+      "domain": "neolane.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 311249768,
+      "name": "Tomorro",
+      "domain": "tomorro.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Cyril Bertrand",
+      "externalEmail": "cyril.bertrand@xange.fr",
+      "score": 0.9999975635504887,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Rodolphe Menegaux",
+      "externalEmail": "rodolphe@alven.co",
+      "score": 0.9998543054055692,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Valérie Bures-Boenstroem",
+      "externalEmail": "valerie@xange.vc",
+      "score": 0.9996687478112554,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Valérie Bures-Boenstroem",
+      "externalEmail": "valerie@xange.vc",
+      "score": 0.9981502618708274,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Pauline Paquet",
+      "externalEmail": "pauline@xange.vc",
+      "score": 0.9891993436429111,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Cyril Bertrand",
+      "externalEmail": "cyril.bertrand@xange.fr",
+      "score": 0.9541582045279189,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Pauline Paquet",
+      "externalEmail": "pauline@xange.vc",
+      "score": 0.9255496094404461,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Rodolphe Menegaux",
+      "externalEmail": "rodolphe@alven.co",
+      "score": 0.40802682781848604,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Rodolphe Menegaux",
+      "externalEmail": "rodolphe@alven.co",
+      "score": 0.3590995311166229,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Pauline Paquet",
+      "externalEmail": "pauline@xange.vc",
+      "score": 0.35413029098848614,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 1528702 (xange.fr); newer duplicate 291812202 (xange.vc) exists. Top 10 of 17 kept; Rodolphe Menegaux is ex-XAnge, now Alven. Pipeline matched 'XAnge' (50 incl. case variants) and 'XAnge Private Equity' (12)."
+}

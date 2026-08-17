@@ -1,0 +1,249 @@
+{
+  "slug": "omnes",
+  "affinity_company_id": 120608303,
+  "affinity_domain": "omnescapital.com",
+  "pipeline": [
+    {
+      "id": 1791449,
+      "name": "Babbler",
+      "domain": "babbler.us",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 152837058,
+      "name": "Adents",
+      "domain": "adents.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 223344267,
+      "name": "Wizaplace",
+      "domain": "wizacha.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 282656068,
+      "name": "SEKOIA",
+      "domain": "sekoia.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 284224089,
+      "name": "PeopleSpheres",
+      "domain": "peoplespheres.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 286330654,
+      "name": "Opensee",
+      "domain": "opensee.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 287828976,
+      "name": "SeqOne Genomics",
+      "domain": "seqone.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289315380,
+      "name": "The Exploration Company",
+      "domain": "exploration.space",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289761927,
+      "name": "Sentryo",
+      "domain": "sentryo.net",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762101,
+      "name": "Oxatis",
+      "domain": "oxatis.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289762687,
+      "name": "Bankin'",
+      "domain": "bankin.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764438,
+      "name": "Teach on Mars",
+      "domain": "teachonmars.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764474,
+      "name": "Therapixel",
+      "domain": "therapixel.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289766183,
+      "name": "Unseenlabs",
+      "domain": "unseenlabs.space",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766322,
+      "name": "AB Tasty",
+      "domain": "abtasty.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766675,
+      "name": "Qantev",
+      "domain": "qantev.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767159,
+      "name": "Tennaxia",
+      "domain": "tennaxia.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768330,
+      "name": "GOURMEY",
+      "domain": "gourmey.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769132,
+      "name": "Scality",
+      "domain": "scality.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289771603,
+      "name": "Skillup",
+      "domain": "skillup.co",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 289771695,
+      "name": "Iktos",
+      "domain": "iktos.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 291974632,
+      "name": "Planet A Foods",
+      "domain": "planet-a-foods.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 293726859,
+      "name": "Caracol",
+      "domain": "caracol-am.com",
+      "funnel": "Passed",
+      "country": "Italy"
+    },
+    {
+      "id": 297318456,
+      "name": "WhiteLab Genomics",
+      "domain": "whitelabgx.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 298733600,
+      "name": "Skynopy",
+      "domain": "skynopy.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 302234685,
+      "name": "Quantum Systems",
+      "domain": "quantum-systems.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 308783480,
+      "name": "ARX",
+      "domain": "arx-robotics.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 311186450,
+      "name": "Lithosquare",
+      "domain": "lithosquare.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Harry Williams",
+      "external": "Hugo Hubert",
+      "externalEmail": "hugo.hubert@omnescapital.com",
+      "score": 0.9873029518603018,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Michel de Lempdes",
+      "externalEmail": "michel.delempdes@omnescapital.com",
+      "score": 0.7277258872223978,
+      "linkedin": false
+    },
+    {
+      "internal": "Laurence Garrett",
+      "external": "Renaud Poulard",
+      "externalEmail": "renaud.poulard@omnescapital.com",
+      "score": 0.43191817430024815,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Alexandre Meiers",
+      "externalEmail": "alexandre.meiers@avolta.io",
+      "score": 0.3411423008406768,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Renaud Poulard",
+      "externalEmail": "renaud.poulard@omnescapital.com",
+      "score": 0.31993912922763323,
+      "linkedin": false
+    },
+    {
+      "internal": "Hannah Meehan",
+      "external": "Joost Notenboom",
+      "externalEmail": "joost.notenboom@omnescapital.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 120608303 (omnescapital.com); listless duplicate 159741020 ('Omnes Venture Capital', no domain). All 6 live relationships kept. Pipeline matched 'Omnes Capital' (28 incl. combined strings) and 'Omnes And Cnes' (1); no bare 'Omnes' strings."
+}

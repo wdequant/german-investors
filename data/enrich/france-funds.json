@@ -1,0 +1,3409 @@
+{
+ "kima": {
+  "website": "kimaventures.com",
+  "partners": [
+   {
+    "name": "Jean De La Rochebrochard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alexis Robert",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Chloe Timsit",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Y Combinator",
+   "Seedcamp",
+   "Motier Ventures",
+   "Founders Future",
+   "500 Global",
+   "Better Angle",
+   "Partech",
+   "Global Founders Capital",
+   "The Family",
+   "Alven"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "VerticalCompute",
+    "date": "2026-03-04",
+    "round": "SEED",
+    "country": "Belgium",
+    "domain": "verticalcompute.com",
+    "harmonic_company_id": 59314305
+   },
+   {
+    "name": "Charming Shoppes",
+    "date": "2025-12-18",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "charmingshoppes.com",
+    "harmonic_company_id": 3576952
+   },
+   {
+    "name": "Grafit",
+    "date": "2025-12-10",
+    "round": "SEED",
+    "country": "France",
+    "domain": "grafit.fr",
+    "harmonic_company_id": 62099833
+   },
+   {
+    "name": "Paage",
+    "date": "2025-11-12",
+    "round": "SEED",
+    "country": "France",
+    "domain": "paa.ge",
+    "harmonic_company_id": 61836969
+   },
+   {
+    "name": "Jean Chastel",
+    "date": "2025-10-07",
+    "round": "SEED",
+    "country": "United Kingdom",
+    "domain": "degaus.com",
+    "harmonic_company_id": 61693724
+   },
+   {
+    "name": "Maddyness",
+    "date": "2025-09-26",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "maddyness.com",
+    "harmonic_company_id": 8074400
+   },
+   {
+    "name": "One Biosciences",
+    "date": "2025-07-17",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "onebiosciences.fr",
+    "harmonic_company_id": 11126019
+   },
+   {
+    "name": "Fenix Energy",
+    "date": "2025-06-24",
+    "round": "SEED",
+    "country": "France",
+    "domain": "fenixenergy.fr",
+    "harmonic_company_id": 45197885
+   },
+   {
+    "name": "Galink",
+    "date": "2025-06-24",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "galink.com",
+    "harmonic_company_id": 57111228
+   },
+   {
+    "name": "AUSTRAL Dx",
+    "date": "2025-06-23",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "australdx.fr",
+    "harmonic_company_id": 12886755
+   },
+   {
+    "name": "Brink Therapeutics",
+    "date": "2025-04-16",
+    "round": "SEED",
+    "country": "France",
+    "domain": "brinktx.com",
+    "harmonic_company_id": 55629744
+   },
+   {
+    "name": "Moonwatt",
+    "date": "2025-03-04",
+    "round": "SEED",
+    "country": "Netherlands",
+    "domain": "moonwatt.com",
+    "harmonic_company_id": 57134421
+   },
+   {
+    "name": "Wavo",
+    "date": "2025-02-17",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "wavo.fr",
+    "harmonic_company_id": 11263914
+   }
+  ],
+  "recent_total": 116,
+  "recent_eu": 89
+ },
+ "eurazeo": {
+  "website": "eurazeo.com",
+  "partners": [
+   {
+    "name": "Wilfried Piskula",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nicolas Nedelec",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Christophe Simon",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Amandine Ayrem",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Bonamy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu B.",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maxime De Bentzmann",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Eric Gallerne",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Tim P. Jungblut",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sophie Flak",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Eric Sondag",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Louis Bô",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Clément Morin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Edouard Guigou",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Henri Domange",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Anne-Charlotte Philbert",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Michelle S.",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maxime Dufourt",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nicolas Debock",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Marina Treves",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Valerie Ducourty",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Hala Fadel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Antonin De Margerie",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maud Gillot",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Karolina Ewa Wojtas",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Idinvest Partners",
+   "Bpifrance",
+   "Kurma Partners",
+   "Partech",
+   "Kima Ventures",
+   "Ventech",
+   "Serena",
+   "Atomico",
+   "Accel",
+   "AGLAÉ VENTURES",
+   "Alven",
+   "Headline"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "LAURALU",
+    "date": "2026-06-22",
+    "round": "M_AND_A",
+    "country": "France",
+    "domain": "lauralu.com",
+    "harmonic_company_id": 7699633
+   },
+   {
+    "name": "Tacalyx GmbH",
+    "date": "2026-04-29",
+    "round": "SEED_EXTENSION",
+    "country": "Germany",
+    "domain": "tacalyx.com",
+    "harmonic_company_id": 1429845
+   },
+   {
+    "name": "VerticalCompute",
+    "date": "2026-03-04",
+    "round": "SEED",
+    "country": "Belgium",
+    "domain": "verticalcompute.com",
+    "harmonic_company_id": 59314305
+   },
+   {
+    "name": "Equativ",
+    "date": "2025-12-08",
+    "round": "DEBT",
+    "country": "France",
+    "domain": "equativ.com",
+    "harmonic_company_id": 6609022
+   },
+   {
+    "name": "Laigo Bio",
+    "date": "2025-12-04",
+    "round": "SEED",
+    "country": "Netherlands",
+    "domain": "laigobio.com",
+    "harmonic_company_id": 4137261
+   },
+   {
+    "name": "Space Cargo Unlimited",
+    "date": "2025-09-15",
+    "round": "SERIES_A",
+    "country": "Luxembourg",
+    "domain": "space-cu.com",
+    "harmonic_company_id": 2087911
+   },
+   {
+    "name": "NUCLIDIUM AG",
+    "date": "2025-07-10",
+    "round": "SERIES_B",
+    "country": "Switzerland",
+    "domain": "nuclidium.com",
+    "harmonic_company_id": 12464001
+   },
+   {
+    "name": "Maddyness",
+    "date": "2025-06-13",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "maddyness.com",
+    "harmonic_company_id": 8074400
+   },
+   {
+    "name": "aDryada",
+    "date": "2025-05-13",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "adryada.com",
+    "harmonic_company_id": 35686234
+   },
+   {
+    "name": "IXI",
+    "date": "2025-04-29",
+    "round": "SERIES_A",
+    "country": "Finland",
+    "domain": "ixieyewear.com",
+    "harmonic_company_id": 3175913
+   },
+   {
+    "name": "Ambos Energy",
+    "date": "2025-03-10",
+    "round": "SEED",
+    "country": "France",
+    "domain": "ambos-energy.com",
+    "harmonic_company_id": 60317079
+   },
+   {
+    "name": "Germitec",
+    "date": "2025-02-12",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "germitec.com",
+    "harmonic_company_id": 1469216
+   }
+  ],
+  "recent_total": 46,
+  "recent_eu": 38
+ },
+ "partech": {
+  "website": "partechpartners.com",
+  "partners": [
+   {
+    "name": "Jean-Marc Patouillaud",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nicolas El Baze",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jai Choi",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Philippe Collombel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Mark Menell",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jean Sini",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Romain Lavault",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bruno Cremel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Omri Benayoun",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "André François-Poncet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Boris Golden",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Emmanuel Delaveau",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Cyril Collon",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Reza Malekzadeh",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Tidjane Deme",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alison Imbert",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Simone Riva Violetta",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Rémi Said",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Christelle Pariat",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Tekton Ventures",
+   "Bpifrance",
+   "Kima Ventures",
+   "Y Combinator",
+   "Idinvest Partners",
+   "Spartech Ventures",
+   "Eurazeo",
+   "Elaia",
+   "Global Founders Capital",
+   "FJ Labs",
+   "Omnes",
+   "Sequoia Capital"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Brevo",
+    "date": "2025-12-04",
+    "round": "SERIES_C",
+    "country": "France",
+    "domain": "brevo.com",
+    "harmonic_company_id": 12839826
+   }
+  ],
+  "recent_total": 44,
+  "recent_eu": 29
+ },
+ "aglae": {
+  "website": "aglaeventures.com",
+  "partners": [
+   {
+    "name": "Cyril Guenoun",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Antoine Loison",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Miyuki Matsumoto",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Léa Verdillon",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Brendan Rempel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Kristina Chvilova",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alexis Bonillo",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Eurazeo",
+   "Bpifrance",
+   "Motier Ventures",
+   "Founders Future",
+   "FJ Labs",
+   "Alven",
+   "Financière Saint James",
+   "Coinbase",
+   "10X Capital"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "AMI - Advanced Machine Intelligence",
+    "date": "2026-03-09",
+    "round": "SEED",
+    "country": "France",
+    "domain": "amilabs.xyz",
+    "harmonic_company_id": 72022894
+   },
+   {
+    "name": "Paage",
+    "date": "2025-11-12",
+    "round": "SEED",
+    "country": "France",
+    "domain": "paa.ge",
+    "harmonic_company_id": 61836969
+   }
+  ],
+  "recent_total": 17,
+  "recent_eu": 6
+ },
+ "elaia": {
+  "website": "elaia.com",
+  "partners": [
+   {
+    "name": "Philippe Gire",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Xavier Lazarus",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Daniel Pilaud",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Christophe Primault",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pauline Roux",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Samantha J.",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Zeevi Michel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Marc Rougier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sacha Loiseau",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Anne-Sophie Carrese",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alexis Frentz",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Clément Vanden Driessche",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Florian Denis",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sébastien Lefebvre",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Delphine Villuendas",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Emmanuel Perez-Duarte",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Partech",
+   "Kima Ventures",
+   "Motier Ventures",
+   "Idinvest Partners",
+   "Acequia Capital",
+   "SWEN Capital Partners",
+   "XAnge",
+   "Eurazeo",
+   "UI Investissement",
+   "Omnes",
+   "Supernova Invest"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Proxima Fusion",
+    "date": "2026-07-07",
+    "round": "EARLY_STAGE",
+    "country": "Germany",
+    "domain": "proximafusion.com",
+    "harmonic_company_id": 12741862
+   },
+   {
+    "name": "Enodia Therapeutics",
+    "date": "2026-01-08",
+    "round": "SEED",
+    "country": "France",
+    "domain": "enodiatx.com",
+    "harmonic_company_id": 60786215
+   },
+   {
+    "name": "Zymvol Biomodeling",
+    "date": "2025-02-20",
+    "round": "SEED",
+    "country": "Spain",
+    "domain": "zymvol.com",
+    "harmonic_company_id": 1617826
+   }
+  ],
+  "recent_total": 22,
+  "recent_eu": 20
+ },
+ "sofinnova": {
+  "website": "sofinnovapartners.com",
+  "partners": [
+   {
+    "name": "Martin Rothman",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Graziano Seghezzi",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Antoine Papiernik",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Joe Anderson",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Joško Bobanović",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Anne Osdoit",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Henrijette Richter",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guillaume Baxter",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maina Bhaman",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Cédric Moreau",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Paola Pozzi",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Lucia Faccio",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Cécile Dupont Redon",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Michael Krel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Andrew Weiss",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Simon John Turner",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alex Leech",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Anta Gkelou",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Denis Lucquin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nooman Haque",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Edward Kliphuis",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Simon Turner",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Mano Iyer",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Coutet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maria Gabriella Camboni",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Novo Holdings",
+   "Sofinnova Investments",
+   "Gimv",
+   "Andera Partners",
+   "Forbion",
+   "Invus",
+   "Alexandria Venture Investments",
+   "M Ventures",
+   "Pfizer",
+   "Eli Lilly and Company",
+   "Seventure Partners"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Mironid® Limited",
+    "date": "2026-08-07",
+    "round": "SERIES_B",
+    "country": "United Kingdom",
+    "domain": "mironid.com",
+    "harmonic_company_id": 1535665
+   },
+   {
+    "name": "Bionyra",
+    "date": "2026-06-22",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "bionyra.com",
+    "harmonic_company_id": 65917278
+   },
+   {
+    "name": "Signadori Bio",
+    "date": "2026-05-06",
+    "round": "SEED_EXTENSION",
+    "country": "France",
+    "domain": "signadori.bio",
+    "harmonic_company_id": 60589563
+   },
+   {
+    "name": "CellCentric",
+    "date": "2026-05-06",
+    "round": "SERIES_D",
+    "country": "United Kingdom",
+    "domain": "cellcentric.com",
+    "harmonic_company_id": 4391470
+   },
+   {
+    "name": "Biotalys",
+    "date": "2026-05-06",
+    "round": "PUBLIC_EQUITY_OFFERING",
+    "country": "Belgium",
+    "domain": "biotalys.com",
+    "harmonic_company_id": 1422099
+   },
+   {
+    "name": "May Health",
+    "date": "2026-03-10",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "mayhealth.com",
+    "harmonic_company_id": 12524671
+   },
+   {
+    "name": "Neurent Medical",
+    "date": "2026-02-01",
+    "round": "SERIES_C",
+    "country": "Ireland",
+    "domain": "neuromark.com",
+    "harmonic_company_id": 65510836
+   },
+   {
+    "name": "Sensorion",
+    "date": "2026-01-28",
+    "round": "PUBLIC_EQUITY_OFFERING",
+    "country": "France",
+    "domain": "sensorion.com",
+    "harmonic_company_id": 2160211
+   },
+   {
+    "name": "DISCO Pharmaceuticals GmbH",
+    "date": "2025-12-11",
+    "round": "SEED",
+    "country": "Germany",
+    "domain": "discopharma.de",
+    "harmonic_company_id": 47059922
+   },
+   {
+    "name": "T-Therapeutics Ltd",
+    "date": "2025-11-13",
+    "round": "SERIES_A_EXTENSION",
+    "country": "United Kingdom",
+    "domain": "t-therapeutics.com",
+    "harmonic_company_id": 41844712
+   },
+   {
+    "name": "Qorium",
+    "date": "2025-11-11",
+    "round": "SERIES_A",
+    "country": "Netherlands",
+    "domain": "qorium.com",
+    "harmonic_company_id": 3205997
+   },
+   {
+    "name": "AAVantgarde",
+    "date": "2025-11-06",
+    "round": "SERIES_B",
+    "country": "Italy",
+    "domain": "aavantgarde.com",
+    "harmonic_company_id": 3186638
+   },
+   {
+    "name": "Artios",
+    "date": "2025-11-01",
+    "round": "SERIES_D",
+    "country": "United Kingdom",
+    "domain": "artios.com",
+    "harmonic_company_id": 3700154
+   },
+   {
+    "name": "Hemab Therapeutics",
+    "date": "2025-10-27",
+    "round": "SERIES_C",
+    "country": "Denmark",
+    "domain": "hemab.com",
+    "harmonic_company_id": 3240094
+   },
+   {
+    "name": "Elevara Medicines",
+    "date": "2025-10-23",
+    "round": "SERIES_A",
+    "country": "United Kingdom",
+    "domain": "elevara.com",
+    "harmonic_company_id": 64249647
+   }
+  ],
+  "recent_total": 35,
+  "recent_eu": 27
+ },
+ "xange": {
+  "website": "xange.vc",
+  "partners": [
+   {
+    "name": "Nicolas Rose",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Cyril Bertrand",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guilhem De Vregille",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Valerie B.",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guillaume Meulle",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Luc Jodet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alexis Du Peloux",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nadja Bresous Mehigan",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bernhard Schmid",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Kima Ventures",
+   "Mutuelles Impact",
+   "Siparex",
+   "La Poste Ventures",
+   "Seventure Partners",
+   "Founders Future",
+   "ISAI",
+   "Eurazeo",
+   "Ventech",
+   "Noshaq"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "VSORA",
+    "date": "2026-07-03",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "vsora.com",
+    "harmonic_company_id": 1504614
+   },
+   {
+    "name": "planetary",
+    "date": "2026-04-20",
+    "round": "DEBT",
+    "country": "Switzerland",
+    "domain": "planetarygroup.ch",
+    "harmonic_company_id": 4502382
+   },
+   {
+    "name": "MindDay",
+    "date": "2026-03-27",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "mindday.com",
+    "harmonic_company_id": 2041722
+   },
+   {
+    "name": "VerticalCompute",
+    "date": "2026-03-04",
+    "round": "SEED",
+    "country": "Belgium",
+    "domain": "verticalcompute.com",
+    "harmonic_company_id": 59314305
+   },
+   {
+    "name": "Ensweet - telerehabilitation solutions",
+    "date": "2025-05-20",
+    "round": "SEED",
+    "country": "France",
+    "domain": "ensweet.fr",
+    "harmonic_company_id": 3446858
+   },
+   {
+    "name": "Ethik IA",
+    "date": "2025-04-22",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "ethik-ia.fr",
+    "harmonic_company_id": 24774523
+   },
+   {
+    "name": "Lyv",
+    "date": "2025-02-04",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "lyv.app",
+    "harmonic_company_id": 10442163
+   }
+  ],
+  "recent_total": 21,
+  "recent_eu": 21
+ },
+ "alven": {
+  "website": "alven.co",
+  "partners": [
+   {
+    "name": "Charles Letourneur",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guillaume Aubin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alison Clarke",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "François Meteyer",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Rodolphe Menegaux",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bartosz Jakubowski",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Victor Charpentier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Thomas C.",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Bpifrance",
+   "Idinvest Partners",
+   "Point Nine",
+   "Eurazeo",
+   "Global Founders Capital",
+   "Serena",
+   "FJ Labs",
+   "Partech",
+   "AGLAÉ VENTURES"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Rainbow Standard",
+    "date": "2025-05-15",
+    "round": "SEED",
+    "country": "France",
+    "domain": "rainbowstandard.io",
+    "harmonic_company_id": 3931419
+   },
+   {
+    "name": "OpusMajor",
+    "date": "2025-03-12",
+    "round": "SEED",
+    "country": "France",
+    "domain": "opusmajor.io",
+    "harmonic_company_id": 60337115
+   }
+  ],
+  "recent_total": 20,
+  "recent_eu": 15
+ },
+ "cathay": {
+  "website": "cathayinnovation.com",
+  "partners": [
+   {
+    "name": "Rajive K.",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Lijun Ding",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Simon Wu",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Emanuele De Leonardis",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Daniel Balmisse",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nicolas D.",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Soulé",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Leon Chen  陈熠星",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Seaya",
+   "Bpifrance",
+   "Cathay Capital",
+   "HV",
+   "FJ Labs",
+   "Endeavor",
+   "Menlo Ventures",
+   "La Maison Partners",
+   "Groupe Macsf",
+   "Kfund",
+   "Idinvest Partners",
+   "Eurazeo"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "AMI - Advanced Machine Intelligence",
+    "date": "2026-03-09",
+    "round": "SEED",
+    "country": "France",
+    "domain": "amilabs.xyz",
+    "harmonic_company_id": 72022894
+   },
+   {
+    "name": "TISSIUM",
+    "date": "2025-12-31",
+    "round": "SERIES_D",
+    "country": "France",
+    "domain": "tissium.com",
+    "harmonic_company_id": 781348
+   }
+  ],
+  "recent_total": 17,
+  "recent_eu": 7
+ },
+ "newfund": {
+  "website": "newfundcap.com",
+  "partners": [
+   {
+    "name": "Henri Deshays",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Anne-Sophie Saint-Martin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Salim Hassad",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Kima Ventures",
+   "SKALEPARK",
+   "Alven",
+   "Evolem",
+   "Aquiti",
+   "Galion.exe",
+   "Techstars",
+   "Kurma Partners",
+   "RiverPark Ventures",
+   "Serena",
+   "Techmind"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "minimiil",
+    "date": "2026-04-24",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "minimiil.com",
+    "harmonic_company_id": 57767877
+   },
+   {
+    "name": "Newfund",
+    "date": "2026-04-14",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "newfundcap.com",
+    "harmonic_company_id": 617517
+   },
+   {
+    "name": "KERIA",
+    "date": "2025-12-12",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "keria.tech",
+    "harmonic_company_id": 65491879
+   },
+   {
+    "name": "AI-Stroke",
+    "date": "2025-11-01",
+    "round": "SEED",
+    "country": "France",
+    "domain": "ai-stroke.com",
+    "harmonic_company_id": 64546370
+   },
+   {
+    "name": "Purenat",
+    "date": "2025-10-07",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "pure-nat.com",
+    "harmonic_company_id": 12784342
+   },
+   {
+    "name": "Kikleo",
+    "date": "2025-10-06",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "kikleo.com",
+    "harmonic_company_id": 3408776
+   },
+   {
+    "name": "Maddyness",
+    "date": "2025-09-26",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "maddyness.com",
+    "harmonic_company_id": 8074400
+   },
+   {
+    "name": "NeoEarth",
+    "date": "2025-09-02",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "neoearth.fr",
+    "harmonic_company_id": 15792177
+   },
+   {
+    "name": "Olimpe Technology",
+    "date": "2025-07-04",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "olimpe-technology.com",
+    "harmonic_company_id": 62132878
+   },
+   {
+    "name": "ORIA Bioscience",
+    "date": "2025-06-25",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "oriabs.com",
+    "harmonic_company_id": 56575803
+   },
+   {
+    "name": "Inside Therapeutics (InsideTx)",
+    "date": "2025-06-06",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "insidetx.com",
+    "harmonic_company_id": 11550732
+   }
+  ],
+  "recent_total": 21,
+  "recent_eu": 16
+ },
+ "founders-future": {
+  "website": "foundersfuture.com",
+  "partners": [
+   {
+    "name": "Santiago Lefebvre",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Marc Menasé",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Rose-May Lucotte",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sophie Duval",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Louis Sautet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Benkerant",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Thomas Bajas",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Bpifrance",
+   "AA & Sons",
+   "XAnge",
+   "Pareto Holdings",
+   "Y Combinator",
+   "Better Angle",
+   "50 Partners",
+   "Andreessen Horowitz",
+   "Motier Ventures",
+   "AGLAÉ VENTURES",
+   "Purple Fund"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Audion Packaging Machines",
+    "date": "2026-04-27",
+    "round": "LATER_STAGE",
+    "country": "Netherlands",
+    "domain": "audion.com",
+    "harmonic_company_id": 9896346
+   },
+   {
+    "name": "AMI - Advanced Machine Intelligence",
+    "date": "2026-03-09",
+    "round": "SEED",
+    "country": "France",
+    "domain": "amilabs.xyz",
+    "harmonic_company_id": 72022894
+   },
+   {
+    "name": "auum",
+    "date": "2025-04-22",
+    "round": "SERIES_B",
+    "country": "France",
+    "domain": "auum.fr",
+    "harmonic_company_id": 2247532
+   },
+   {
+    "name": "Moonwatt",
+    "date": "2025-03-04",
+    "round": "SEED",
+    "country": "Netherlands",
+    "domain": "moonwatt.com",
+    "harmonic_company_id": 57134421
+   }
+  ],
+  "recent_total": 36,
+  "recent_eu": 23
+ },
+ "motier": {
+  "website": "motier.vc",
+  "partners": [
+   {
+    "name": "Clément Lamolinerie",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Financière Saint James",
+   "Bpifrance",
+   "Better Angle",
+   "Headline",
+   "Seedcamp",
+   "Sequoia Capital",
+   "Pareto Holdings",
+   "Elaia",
+   "AGLAÉ VENTURES",
+   "Purple Fund"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Grafit",
+    "date": "2025-12-10",
+    "round": "SEED",
+    "country": "France",
+    "domain": "grafit.fr",
+    "harmonic_company_id": 62099833
+   }
+  ],
+  "recent_total": 20,
+  "recent_eu": 18
+ },
+ "serena": {
+  "website": "serena.vc",
+  "partners": [
+   {
+    "name": "Marc Fournier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guillaume Decugis",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Xavier Lorphelin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Eric Gossart",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bertrand Diard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sébastien Le Roy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Paul Moriou",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Olivier Martret",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Stéphanie Nizard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Margaux Gregoir",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sylvie Nhansana",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Lavergne",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Charles Rousset",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Kima Ventures",
+   "Eurazeo",
+   "ISAI",
+   "Partech",
+   "Racine2",
+   "Alven",
+   "Idinvest Partners",
+   "CapHorn",
+   "Newfund",
+   "Founders Future"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Waiv, formerly Owkin Dx",
+    "date": "2026-03-12",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "waiv.com",
+    "harmonic_company_id": 78039921
+   },
+   {
+    "name": "AMI - Advanced Machine Intelligence",
+    "date": "2026-03-09",
+    "round": "SEED",
+    "country": "France",
+    "domain": "amilabs.xyz",
+    "harmonic_company_id": 72022894
+   },
+   {
+    "name": "Maddyness",
+    "date": "2025-09-26",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "maddyness.com",
+    "harmonic_company_id": 8074400
+   },
+   {
+    "name": "Goodvest",
+    "date": "2025-09-24",
+    "round": "SERIES_B",
+    "country": "France",
+    "domain": "goodvest.fr",
+    "harmonic_company_id": 3326903
+   },
+   {
+    "name": "Rainbow Standard",
+    "date": "2025-05-15",
+    "round": "SEED",
+    "country": "France",
+    "domain": "rainbowstandard.io",
+    "harmonic_company_id": 3931419
+   },
+   {
+    "name": "Autodm AI",
+    "date": "2025-03-04",
+    "round": "SEED",
+    "country": "France",
+    "domain": "autodm.ai",
+    "harmonic_company_id": 41460757
+   }
+  ],
+  "recent_total": 20,
+  "recent_eu": 16
+ },
+ "seventure": {
+  "website": "seventure.fr",
+  "partners": [
+   {
+    "name": "Pierre Erwes",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pascal Pierra",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nora Frey",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Annegret De Baey-Diepolder",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "David Manjarres",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Philippe Tramoy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Oxana Kukhaneva",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Laëtitia Gerbe",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "XAnge",
+   "Sofinnova Partners",
+   "Omnes",
+   "Partech",
+   "Crédit Mutuel Equity",
+   "HTGF | High-Tech Gründerfonds",
+   "b2venture",
+   "CM-CIC Capital Privé",
+   "Entrepreneur Invest",
+   "Bayern Kapital",
+   "Andera Partners"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Mediads",
+    "date": "2026-05-19",
+    "round": "SEED",
+    "country": "France",
+    "domain": "mediads.io",
+    "harmonic_company_id": 75896237
+   },
+   {
+    "name": "ErVimmune",
+    "date": "2026-01-01",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "ervimmune.com",
+    "harmonic_company_id": 11363396
+   },
+   {
+    "name": "Tubulis GmbH",
+    "date": "2025-10-15",
+    "round": "SERIES_C",
+    "country": "Germany",
+    "domain": "tubulis.com",
+    "harmonic_company_id": 1961866
+   },
+   {
+    "name": "Kapsera",
+    "date": "2025-10-03",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "kapsera.com",
+    "harmonic_company_id": 1430626
+   },
+   {
+    "name": "Animab",
+    "date": "2025-07-01",
+    "round": "SERIES_B",
+    "country": "Belgium",
+    "domain": "animab.com",
+    "harmonic_company_id": 1563453
+   },
+   {
+    "name": "Enterome",
+    "date": "2025-06-12",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "enterome.com",
+    "harmonic_company_id": 615636
+   },
+   {
+    "name": "SeaweedConcept",
+    "date": "2025-02-21",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "seaweedconcept.com",
+    "harmonic_company_id": 60055183
+   },
+   {
+    "name": "ekstere",
+    "date": "2025-02-12",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "ekstere.eco",
+    "harmonic_company_id": 59771290
+   },
+   {
+    "name": "Anybuddy",
+    "date": "2025-02-06",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "anybuddyapp.com",
+    "harmonic_company_id": 1937464
+   }
+  ],
+  "recent_total": 18,
+  "recent_eu": 17
+ },
+ "omnes": {
+  "website": "omnescapital.com",
+  "partners": [
+   {
+    "name": "Renaud Poulard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Michel De Lempdes",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Michael Pollan",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Fabien Collangettes",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Morgane Honikman",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Caroline Yametti",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "François-Xavier Dedde",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Benjamin Stremsdoerfer",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Simon Hardi",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Gonzague De Trémiolles",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jean-Baptiste Delattre",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Camille Mueller",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Crédit Agricole",
+   "Partech",
+   "Seventure Partners",
+   "Crédit Agricole Private Equity",
+   "Forbion",
+   "Crédit Mutuel Equity",
+   "ALLIANCE ENTREPRENDRE",
+   "Tikehau Ace Capital",
+   "BNP Paribas Développement",
+   "Turenne Groupe",
+   "SWEN Capital Partners"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "VSORA",
+    "date": "2026-07-03",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "vsora.com",
+    "harmonic_company_id": 1504614
+   },
+   {
+    "name": "Proxima Fusion",
+    "date": "2025-06-10",
+    "round": "SERIES_A",
+    "country": "Germany",
+    "domain": "proximafusion.com",
+    "harmonic_company_id": 12741862
+   }
+  ],
+  "recent_total": 11,
+  "recent_eu": 11
+ },
+ "demeter": {
+  "website": "demeter-im.com",
+  "partners": [
+   {
+    "name": "Stephane Villecroze",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jean Charles Scatena",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Natali Vounstn",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Stéphanie Guitton Chrétien",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Christophe Desrumaux",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Julien Coudy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Geoffroy Dubus",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Olivier Masseran",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Assia Gaouar",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Frederic Gilbert",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Banque des Territoires",
+   "emertec.fr",
+   "BNP Paribas",
+   "GO CAPITAL",
+   "BNP Paribas Développement",
+   "Demeter-Partners",
+   "Aquiti",
+   "NCI",
+   "Supernova Invest",
+   "INNO'VIN",
+   "INNOVACOM"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Jay&Joy",
+    "date": "2026-03-23",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "jay-joy.com",
+    "harmonic_company_id": 3633013
+   },
+   {
+    "name": "Amatera",
+    "date": "2026-03-04",
+    "round": "SEED",
+    "country": "France",
+    "domain": "amatera.bio",
+    "harmonic_company_id": 10811090
+   },
+   {
+    "name": "Viti-Tunnel",
+    "date": "2026-01-16",
+    "round": "CROWDFUNDING",
+    "country": "France",
+    "domain": "viti-tunnel.com",
+    "harmonic_company_id": 54777719
+   },
+   {
+    "name": "Quideos",
+    "date": "2026-01-09",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "quideos.com",
+    "harmonic_company_id": 12479803
+   },
+   {
+    "name": "ONSEN SAS",
+    "date": "2025-12-09",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "onsen-sas.com",
+    "harmonic_company_id": 65526835
+   },
+   {
+    "name": "Sirius NeoSight",
+    "date": "2025-02-05",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "sirius-neosight.com",
+    "harmonic_company_id": 54964525
+   }
+  ],
+  "recent_total": 9,
+  "recent_eu": 7
+ },
+ "daphni": {
+  "website": "daphni.com",
+  "partners": [],
+  "co_investors": [
+   "Kima Ventures",
+   "Partech",
+   "Eurazeo",
+   "Bpifrance",
+   "Founders Future",
+   "Motier Ventures",
+   "Global Founders Capital",
+   "Dastore",
+   "AGLAÉ VENTURES"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Leviathan Dynamics",
+    "date": "2026-03-27",
+    "round": "CROWDFUNDING",
+    "country": "France",
+    "domain": "leviathan-dynamics.com",
+    "harmonic_company_id": 1617837
+   },
+   {
+    "name": "EverDye",
+    "date": "2026-01-29",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "everdye.fr",
+    "harmonic_company_id": 6837414
+   },
+   {
+    "name": "OWLO",
+    "date": "2025-11-17",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "owlo.io",
+    "harmonic_company_id": 58144166
+   },
+   {
+    "name": "Maddyness",
+    "date": "2025-06-13",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "maddyness.com",
+    "harmonic_company_id": 8074400
+   },
+   {
+    "name": "Voltfang",
+    "date": "2025-06-12",
+    "round": "SERIES_B",
+    "country": "Germany",
+    "domain": "voltfang.de",
+    "harmonic_company_id": 3710463
+   },
+   {
+    "name": "Autodm AI",
+    "date": "2025-03-04",
+    "round": "SEED",
+    "country": "France",
+    "domain": "autodm.ai",
+    "harmonic_company_id": 41460757
+   },
+   {
+    "name": "Moonwatt",
+    "date": "2025-03-04",
+    "round": "SEED",
+    "country": "Netherlands",
+    "domain": "moonwatt.com",
+    "harmonic_company_id": 57134421
+   },
+   {
+    "name": "Flow48",
+    "date": "2025-02-25",
+    "round": "SERIES_A",
+    "country": "United Kingdom",
+    "domain": "flow48.com",
+    "harmonic_company_id": 4306811
+   },
+   {
+    "name": "Epyr",
+    "date": "2025-02-04",
+    "round": "PRE_SEED",
+    "country": "France",
+    "domain": "epyr.co",
+    "harmonic_company_id": 57098064
+   }
+  ],
+  "recent_total": 33,
+  "recent_eu": 30
+ },
+ "saint-james": {
+  "website": "finsj.com",
+  "partners": [],
+  "co_investors": [
+   "Kima Ventures",
+   "Motier Ventures",
+   "Bpifrance",
+   "Guibor",
+   "Michaël Benabou",
+   "AGLAÉ VENTURES",
+   "Seedcamp",
+   "Founders Future",
+   "Idinvest Partners"
+  ],
+  "recent_untracked_eu": [],
+  "recent_total": 3,
+  "recent_eu": 2
+ },
+ "50-partners": {
+  "website": "50partners.fr",
+  "partners": [
+   {
+    "name": "Stéphane Romanyszyn",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bruno Watine",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "\"Alexandre Pachulski, Ph.D.\"",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Fabrice Métayer",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Vincent Tricot",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Vincent Mady",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Eric Langrognet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Mathieu Tarnus",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Damien Cacaret",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jonathan Vidor",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Laurent Letourmy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Marc Sabatier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Cedric Sellin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Cyril Vermeulen",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alexis Hernot",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Francesco Maio",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Lionel Plessy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Audrey Louail",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Louis Prunel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Thierry Petit",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alain Sarfati",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Martin Comar",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Philippe Benquet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Arnaud Dartois",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Thibault Lamarque",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Kima Ventures",
+   "Founders Future",
+   "Better Angle",
+   "Banque des Territoires",
+   "Alven",
+   "Clover",
+   "Ring Capital",
+   "FJ Labs",
+   "XAnge"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Ublo",
+    "date": "2025-12-19",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "ublo.tech",
+    "harmonic_company_id": 8612805
+   },
+   {
+    "name": "Charming Shoppes",
+    "date": "2025-12-18",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "charmingshoppes.com",
+    "harmonic_company_id": 3576952
+   },
+   {
+    "name": "TerraGrow",
+    "date": "2025-09-26",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "terragrow.fr",
+    "harmonic_company_id": 64374229
+   },
+   {
+    "name": "nona",
+    "date": "2025-09-08",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "nona.fr",
+    "harmonic_company_id": 11132369
+   },
+   {
+    "name": "Suzaku",
+    "date": "2025-08-28",
+    "round": "SEED",
+    "country": "France",
+    "domain": "suzaku.network",
+    "harmonic_company_id": 59622631
+   },
+   {
+    "name": "cosma",
+    "date": "2025-06-30",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "cosma.tech",
+    "harmonic_company_id": 10961083
+   },
+   {
+    "name": "Delpha",
+    "date": "2025-06-04",
+    "round": "SEED",
+    "country": "France",
+    "domain": "delpha.io",
+    "harmonic_company_id": 3260527
+   },
+   {
+    "name": "Ensweet - telerehabilitation solutions",
+    "date": "2025-05-20",
+    "round": "SEED",
+    "country": "France",
+    "domain": "ensweet.fr",
+    "harmonic_company_id": 3446858
+   },
+   {
+    "name": "MEDICUD",
+    "date": "2025-04-09",
+    "round": "SEED",
+    "country": "Italy",
+    "domain": "medicud.ch",
+    "harmonic_company_id": 11092694
+   },
+   {
+    "name": "Jool",
+    "date": "2025-03-15",
+    "round": "SEED",
+    "country": "France",
+    "domain": "jool.co",
+    "harmonic_company_id": 41596590
+   },
+   {
+    "name": "CountAct 🦺",
+    "date": "2025-02-06",
+    "round": "ANGEL",
+    "country": "France",
+    "domain": "countact.fr",
+    "harmonic_company_id": 60470716
+   }
+  ],
+  "recent_total": 24,
+  "recent_eu": 22
+ },
+ "ventech": {
+  "website": "ventechvc.com",
+  "partners": [
+   {
+    "name": "Alain Caffi",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Eric Huet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jean Bourcereau",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Claire Houry",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Audrey Soussan",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Christian Claussen",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nicolas Barthalon",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Tero Mennander",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jack Martin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Mike Bernard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Stephan Wirries",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Ericson Martin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Charles Fourault",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "AFI Ventures",
+   "Bpifrance",
+   "Eurazeo",
+   "Idinvest Partners",
+   "Kima Ventures",
+   "360 Capital",
+   "Ventech China",
+   "XAnge",
+   "Auriga Partners",
+   "Sofinnova Partners",
+   "DN Capital",
+   "NRW.BANK"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "ENGO Controls Polska",
+    "date": "2026-07-17",
+    "round": "SEED",
+    "country": "Poland",
+    "domain": "engocontrols.com",
+    "harmonic_company_id": 37697123
+   },
+   {
+    "name": "CeLLife Technologies Ltd.",
+    "date": "2026-05-29",
+    "round": "EARLY_STAGE",
+    "country": "Finland",
+    "domain": "cellife.fi",
+    "harmonic_company_id": 20617064
+   },
+   {
+    "name": "DiappyMed",
+    "date": "2026-03-27",
+    "round": "SEED",
+    "country": "France",
+    "domain": "diappymed.com",
+    "harmonic_company_id": 4424392
+   },
+   {
+    "name": "Custom Surgical",
+    "date": "2026-02-19",
+    "round": "SERIES_A",
+    "country": "Germany",
+    "domain": "customsurgical.co",
+    "harmonic_company_id": 3710740
+   },
+   {
+    "name": "Ventech",
+    "date": "2025-09-01",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "ventechvc.com",
+    "harmonic_company_id": 702577
+   },
+   {
+    "name": "Maddyness",
+    "date": "2025-06-13",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "maddyness.com",
+    "harmonic_company_id": 8074400
+   }
+  ],
+  "recent_total": 20,
+  "recent_eu": 18
+ },
+ "breega": {
+  "website": "breega.com",
+  "partners": [
+   {
+    "name": "Laurent Ménière",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "François Paulus",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maximilien Bacot",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Melvyn Lubega",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Victor Drault",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Daniel Shellard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Vallin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sebastien Boucraut",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nour Alnuaimi",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "🌈Marjorie Vigne",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Tosin Faniro-Dada",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pauline Chau",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Benjamin Deplus",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Driss Ibenmansour",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Augustin Blanchard",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Kima Ventures",
+   "Seedcamp",
+   "Partech",
+   "360 Capital",
+   "Techstars",
+   "Samaipata",
+   "Speedinvest",
+   "Demeter",
+   "Plug and Play",
+   "Idinvest Partners",
+   "Attijariwafa Ventures"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Quideos",
+    "date": "2026-01-09",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "quideos.com",
+    "harmonic_company_id": 12479803
+   },
+   {
+    "name": "011h",
+    "date": "2025-10-10",
+    "round": "EARLY_STAGE",
+    "country": "Spain",
+    "domain": "011h.com",
+    "harmonic_company_id": 1676123
+   },
+   {
+    "name": "Brink Therapeutics",
+    "date": "2025-04-16",
+    "round": "SEED",
+    "country": "France",
+    "domain": "brinktx.com",
+    "harmonic_company_id": 55629744
+   },
+   {
+    "name": "Flow48",
+    "date": "2025-02-25",
+    "round": "SERIES_A",
+    "country": "United Kingdom",
+    "domain": "flow48.com",
+    "harmonic_company_id": 4306811
+   }
+  ],
+  "recent_total": 17,
+  "recent_eu": 9
+ },
+ "go-capital": {
+  "website": "gocapital.fr",
+  "partners": [
+   {
+    "name": "Frédéric Le Guillou",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Leila Nicolas Guerlain",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Emmanuelle Deponge",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Hervé Bachelot Lallier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Frederic Le Brun",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Erwan Jacquin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bruno Dizengremel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Laurent Sassier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guillaume Foillard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Bruno Guicheux",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Damien Jouanneau",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Go Capital LLC",
+   "ADNormandie",
+   "BNP Paribas Développement",
+   "Demeter",
+   "Crédit Agricole",
+   "Karista",
+   "INNOVACOM",
+   "Normandie Business Angels",
+   "Sodero",
+   "Angels Santé",
+   "UNEXO"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Axomove",
+    "date": "2026-04-22",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "axomove.com",
+    "harmonic_company_id": 4101651
+   },
+   {
+    "name": "Lifeaz",
+    "date": "2026-02-12",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "lifeaz.com",
+    "harmonic_company_id": 1852640
+   },
+   {
+    "name": "NeoXperiences",
+    "date": "2026-01-21",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "neoxperiences.com",
+    "harmonic_company_id": 29064829
+   },
+   {
+    "name": "Opsealog",
+    "date": "2026-01-20",
+    "round": "BUYOUT_LBO",
+    "country": "France",
+    "domain": "opsealog.com",
+    "harmonic_company_id": 6750048
+   },
+   {
+    "name": "Alkion BioInnovations",
+    "date": "2025-11-21",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "alkinnov.com",
+    "harmonic_company_id": 1525540
+   },
+   {
+    "name": "Aurora Cold Plasma Sterilisation",
+    "date": "2025-11-01",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "aurora-plasma-sterilisation.com",
+    "harmonic_company_id": 3957136
+   },
+   {
+    "name": "VitaDX",
+    "date": "2025-08-25",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "vitadx.com",
+    "harmonic_company_id": 1557704
+   },
+   {
+    "name": "Delivrone",
+    "date": "2025-07-16",
+    "round": "EARLY_STAGE",
+    "country": "United Kingdom",
+    "domain": "delivrone.fr",
+    "harmonic_company_id": 12887145
+   },
+   {
+    "name": "Expliseat",
+    "date": "2025-06-12",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "expliseat.com",
+    "harmonic_company_id": 1727658
+   },
+   {
+    "name": "MoEa",
+    "date": "2025-02-27",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "moea.io",
+    "harmonic_company_id": 10716537
+   },
+   {
+    "name": "Bioceanor",
+    "date": "2025-02-26",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "bioceanor.com",
+    "harmonic_company_id": 4630845
+   },
+   {
+    "name": "Sirius NeoSight",
+    "date": "2025-02-05",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "sirius-neosight.com",
+    "harmonic_company_id": 54964525
+   }
+  ],
+  "recent_total": 16,
+  "recent_eu": 16
+ },
+ "evolem": {
+  "website": "evolem.com",
+  "partners": [
+   {
+    "name": "Thomas Rival",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Samuel Saucourt",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Julien De Bussy",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Super Capital VC",
+   "Holnest",
+   "Bpifrance",
+   "Newfund",
+   "Crédit Agricole Création",
+   "Axeleo",
+   "Eurazeo",
+   "Crédit Agricole",
+   "KREAXI",
+   "Speedinvest",
+   "XAnge"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "TAS Cloud Services",
+    "date": "2026-05-21",
+    "round": "M_AND_A",
+    "country": "France",
+    "domain": "nubevia.com",
+    "harmonic_company_id": 17097902
+   },
+   {
+    "name": "Kimialys",
+    "date": "2025-12-05",
+    "round": "SERIES_A",
+    "country": "France",
+    "domain": "kimialys.com",
+    "harmonic_company_id": 3204456
+   },
+   {
+    "name": "Fungu'it",
+    "date": "2025-06-17",
+    "round": "SEED",
+    "country": "France",
+    "domain": "funguit.fr",
+    "harmonic_company_id": 5979024
+   },
+   {
+    "name": "Sirius NeoSight",
+    "date": "2025-02-05",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "sirius-neosight.com",
+    "harmonic_company_id": 54964525
+   }
+  ],
+  "recent_total": 5,
+  "recent_eu": 5
+ },
+ "bpifrance": {
+  "website": "bpifrance.fr",
+  "partners": [
+   {
+    "name": "Laurent Arthaud",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Gilles Schang",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Charlotte Corbaz",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Thierry Sommelet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Florent Debienne",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Ivan De Lastours",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Alexandre Ossola",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Adeline Lemaire",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Claire Dupré",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Stephane Bourles",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Rémi Berteloot",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Iris Amirault",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Florence Rachet",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "BNP Paribas",
+   "Eurazeo",
+   "BNP Paribas Développement",
+   "Crédit Agricole",
+   "Idinvest Partners",
+   "CIC",
+   "France 2030",
+   "Elaia",
+   "UI Investissement",
+   "IRDI Capital Investissement",
+   "Supernova Invest"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "Apolownia",
+    "date": "2026-07-31",
+    "round": "SEED",
+    "country": "France",
+    "domain": "apolownia.com",
+    "harmonic_company_id": 56607872
+   },
+   {
+    "name": "Twinsight",
+    "date": "2026-07-23",
+    "round": "SEED",
+    "country": "France",
+    "domain": "twinsight-medical.com",
+    "harmonic_company_id": 7611914
+   },
+   {
+    "name": "Brenus Pharma",
+    "date": "2026-07-21",
+    "round": "SERIES_A_EXTENSION",
+    "country": "France",
+    "domain": "brenus-pharma.com",
+    "harmonic_company_id": 4411921
+   },
+   {
+    "name": "Destia Oy",
+    "date": "2026-07-17",
+    "round": "PRIVATE_EQUITY",
+    "country": "Finland",
+    "domain": "destia.fi",
+    "harmonic_company_id": 2087639
+   },
+   {
+    "name": "ED Ouest Couverture",
+    "date": "2026-07-07",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "ed-ouest.fr",
+    "harmonic_company_id": 15722741
+   },
+   {
+    "name": "LJ TRUCKS",
+    "date": "2026-07-06",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "ljtrucks.fr",
+    "harmonic_company_id": 18498915
+   },
+   {
+    "name": "Elixir Aircraft",
+    "date": "2026-07-02",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "elixir-aircraft.com",
+    "harmonic_company_id": 3208313
+   },
+   {
+    "name": "HTDS",
+    "date": "2026-06-30",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "htds.fr",
+    "harmonic_company_id": 4621333
+   },
+   {
+    "name": "Lys Therapeutics",
+    "date": "2026-06-22",
+    "round": "EARLY_STAGE",
+    "country": "France",
+    "domain": "lystherapeutics.com",
+    "harmonic_company_id": 5528190
+   },
+   {
+    "name": "d'management group srl",
+    "date": "2026-06-19",
+    "round": "SERIES_B",
+    "country": "Italy",
+    "domain": "dmanagementgroup.com",
+    "harmonic_company_id": 18302730
+   },
+   {
+    "name": "LEMAN GROUP",
+    "date": "2026-06-19",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "leman-industrie.com",
+    "harmonic_company_id": 9256272
+   },
+   {
+    "name": "LEMAN",
+    "date": "2026-06-19",
+    "round": "PRIVATE_EQUITY",
+    "country": "Denmark",
+    "domain": "leman.com",
+    "harmonic_company_id": 151361
+   },
+   {
+    "name": "HIT Mag",
+    "date": "2026-06-11",
+    "round": "SEED",
+    "country": "France",
+    "domain": "hit-mag.fr",
+    "harmonic_company_id": 64492690
+   },
+   {
+    "name": "Satys",
+    "date": "2026-06-10",
+    "round": "DEBT",
+    "country": "France",
+    "domain": "satys.com",
+    "harmonic_company_id": 11308860
+   },
+   {
+    "name": "Rematch",
+    "date": "2026-06-10",
+    "round": "LATER_STAGE",
+    "country": "France",
+    "domain": "rematch.tv",
+    "harmonic_company_id": 1877110
+   }
+  ],
+  "recent_total": 217,
+  "recent_eu": 202
+ },
+ "singular": {
+  "website": "singular.vc",
+  "partners": [
+   {
+    "name": "Jeremy Uzan",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Raffi Kamber",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Henri Tilloy",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Laura Mcginnis",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Y Combinator",
+   "Seedcamp",
+   "Adjacent",
+   "Athletico Ventures",
+   "Hummingbird Ventures",
+   "Sequoia Scout",
+   "redalpine",
+   "Alven",
+   "CRV",
+   "Atlantic"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "FAIRMAT",
+    "date": "2025-04-02",
+    "round": "SERIES_B",
+    "country": "France",
+    "domain": "fairmat.tech",
+    "harmonic_company_id": 3507162
+   }
+  ],
+  "recent_total": 16,
+  "recent_eu": 14
+ },
+ "frst": {
+  "website": "frst.vc",
+  "partners": [
+   {
+    "name": "Bruno Raillard",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pierre Entremont",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Saturnin Pugnet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Grégoire Gambatto",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sylvain Gariel",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Bpifrance",
+   "Fabric Ventures",
+   "Eurazeo",
+   "Motier Ventures",
+   "Y Combinator",
+   "Blossom Capital",
+   "Global Founders Capital",
+   "Index Ventures",
+   "Seedcamp"
+  ],
+  "recent_untracked_eu": [],
+  "recent_total": 10,
+  "recent_eu": 6
+ },
+ "isai": {
+  "website": "isai.fr",
+  "partners": [
+   {
+    "name": "Christophe Poupinel",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pierre Martini",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "\"Philippe Bouissou, Ph.D.\"",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Paul Strachman",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nicolas Martineau",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Arnaud De Scorbiac",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Juliette Mopin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pierre Dumas",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Christophe Raynaud",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "William Vermont",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Jean-Patrice Anciaux",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Francois Collet",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Pierre Cousin",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Sébastien Ritter",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Aude Lapillonne",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Caroline Gibert",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Nelly Barbault",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Bpifrance",
+   "Kima Ventures",
+   "Serena",
+   "XAnge",
+   "Eurazeo",
+   "Educapital",
+   "Insight Partners",
+   "Wind",
+   "Alven",
+   "Pentagram Ventures",
+   "Financière Saint James"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "APL Data Center",
+    "date": "2026-04-16",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "apl-datacenter.com",
+    "harmonic_company_id": 8395469
+   }
+  ],
+  "recent_total": 16,
+  "recent_eu": 12
+ },
+ "otium": {
+  "website": "otiumcapital.com",
+  "partners": [
+   {
+    "name": "Cyrille Bessiere",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Aurelie Pasquet Bessiere",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Basile Paul-Petit",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Stanislas Thiéry",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Quentin Vanbever",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Otium Capital",
+   "Kima Ventures",
+   "The Family",
+   "Founders Future",
+   "FJ Labs",
+   "French Partners",
+   "Financière Saint James",
+   "Wind",
+   "TOMCAT INVEST"
+  ],
+  "recent_untracked_eu": [
+   {
+    "name": "e-peas",
+    "date": "2026-07-09",
+    "round": "LATER_STAGE",
+    "country": "Belgium",
+    "domain": "e-peas.com",
+    "harmonic_company_id": 774603
+   },
+   {
+    "name": "VSORA",
+    "date": "2026-07-03",
+    "round": "PRIVATE_EQUITY",
+    "country": "France",
+    "domain": "vsora.com",
+    "harmonic_company_id": 1504614
+   }
+  ],
+  "recent_total": 6,
+  "recent_eu": 4
+ },
+ "hexa": {
+  "website": "hexa.com",
+  "partners": [
+   {
+    "name": "Quentin Nickmans",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Thibault Chassagne",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Matthieu Vaxelaire",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Raphaël Vullierme",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Maxime Brousse",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Florent Quinti",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Guillaume Lerouge",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Julien Meraud",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Augustin Celier",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Michael Saifoudine",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Ugo Vollmer",
+    "title": null,
+    "linkedin": null
+   },
+   {
+    "name": "Peter Prem",
+    "title": null,
+    "linkedin": null
+   }
+  ],
+  "co_investors": [
+   "Kima Ventures",
+   "Index Ventures",
+   "Y Combinator",
+   "Alven",
+   "Speedinvest",
+   "AA & Sons",
+   "Serena",
+   "Partech"
+  ],
+  "recent_untracked_eu": [],
+  "recent_total": 17,
+  "recent_eu": 13
+ }
+}

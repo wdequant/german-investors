@@ -1,0 +1,333 @@
+{
+  "slug": "cathay",
+  "affinity_company_id": 136312719,
+  "affinity_domain": "cathayinnovation.com",
+  "pipeline": [
+    {
+      "id": 32363251,
+      "name": "Drivy",
+      "domain": "drivy.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 152837913,
+      "name": "Ledger",
+      "domain": "ledgerwallet.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 288153190,
+      "name": "BeemEnergy",
+      "domain": "beemenergy.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 288711552,
+      "name": "Your Asian E",
+      "domain": "mywaysia.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289760314,
+      "name": "Stratumn",
+      "domain": "stratumn.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760888,
+      "name": "datasine",
+      "domain": "datasine.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289761425,
+      "name": "FINALCAD",
+      "domain": "finalcad.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289761702,
+      "name": "FollowAnalytics",
+      "domain": "followanalytics.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289761862,
+      "name": "Trifacta",
+      "domain": "trifacta.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289762244,
+      "name": "Glovo",
+      "domain": "glovoapp.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289762353,
+      "name": "Qover",
+      "domain": "qover.com",
+      "funnel": "Lead",
+      "country": "Belgium"
+    },
+    {
+      "id": 289762839,
+      "name": "Kayrros",
+      "domain": "kayrros.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763644,
+      "name": "OnTruck",
+      "domain": "ontruck.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289764318,
+      "name": "Heetch",
+      "domain": "heetch.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764331,
+      "name": "Wallbox",
+      "domain": "wallbox.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289764495,
+      "name": "Owkin",
+      "domain": "owkin.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289764563,
+      "name": "Firstvet",
+      "domain": "firstvet.com",
+      "funnel": "Passed",
+      "country": "Sweden"
+    },
+    {
+      "id": 289764626,
+      "name": "Inato",
+      "domain": "inato.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765073,
+      "name": "DayTwo",
+      "domain": "daytwo.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289765174,
+      "name": "Saagie",
+      "domain": "saagie.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766452,
+      "name": "iziwork",
+      "domain": "iziwork.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766766,
+      "name": "Medwing",
+      "domain": "medwing.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289766876,
+      "name": "Nabla",
+      "domain": "nabla.com",
+      "funnel": "Portfolio Company",
+      "country": "United States"
+    },
+    {
+      "id": 289766963,
+      "name": "Savana",
+      "domain": "savanamed.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289768079,
+      "name": "Lana",
+      "domain": "lana.xyz",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 289769376,
+      "name": "Payflow",
+      "domain": "payflow.es",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289769489,
+      "name": "Abacum",
+      "domain": "abacum.io",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289770121,
+      "name": "Resilience",
+      "domain": "resilience.care",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289770275,
+      "name": "Cafler",
+      "domain": "cafler.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289770689,
+      "name": "Flowdesk",
+      "domain": "flowdesk.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770691,
+      "name": "Embat",
+      "domain": "embat.io",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289771369,
+      "name": "Colizey",
+      "domain": "colizey.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771841,
+      "name": "Aqemia",
+      "domain": "aqemia.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772761,
+      "name": "Imagino",
+      "domain": "imagino.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295040265,
+      "name": "Bioptimus",
+      "domain": "bioptimus.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 298733620,
+      "name": "Entalpic",
+      "domain": "entalpic.ai",
+      "funnel": "Lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Stan Laurent",
+      "external": "Jacky Abitbol",
+      "externalEmail": "jacky.abitbol@cathay.fr",
+      "score": 0.9996321021155589,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Romain Dufourcq",
+      "externalEmail": "romain.dufourcq@cathay.fr",
+      "score": 0.9983236218756361,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Jacky Abitbol",
+      "externalEmail": "jacky.abitbol@cathay.fr",
+      "score": 0.9959282842176851,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Jacky Abitbol",
+      "externalEmail": "jacky.abitbol@cathay.fr",
+      "score": 0.9882073935336677,
+      "linkedin": false
+    },
+    {
+      "internal": "Tony Zappala",
+      "external": "Jacky Abitbol",
+      "externalEmail": "jacky.abitbol@cathay.fr",
+      "score": 0.5998733630055358,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Marguerite de Tavernost",
+      "externalEmail": "marguerite@cathay.fr",
+      "score": 0.5173251314207251,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Denis Barrier",
+      "externalEmail": "denis.barrier@cathay.fr",
+      "score": 0.4176280219313161,
+      "linkedin": false
+    },
+    {
+      "internal": "Tony Zappala",
+      "external": "Colombe Moinet",
+      "externalEmail": "colombe.moinet@cathayinnovation.com",
+      "score": 0.35413029098848614,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Jacky Abitbol",
+      "externalEmail": "jacky.abitbol@cathay.fr",
+      "score": 0.34109867485277967,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Denis Barrier",
+      "externalEmail": "denis.barrier@cathay.fr",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 136312719 - Affinity record is named 'C ENTREPRENEURS' but carries cathayinnovation.com and the Cathay Innovation team (team emails split across cathay.fr / cathayinnovation.com). Top 10 kept after dropping 3 Emily Tan rows. Pipeline matched 'Cathay Innovation' only (36); plain 'Cathay'/'Cathay Capital' deliberately excluded."
+}

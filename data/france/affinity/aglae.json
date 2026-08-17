@@ -1,0 +1,235 @@
+{
+  "slug": "aglae",
+  "affinity_company_id": 124895297,
+  "affinity_domain": "aglaeventures.com",
+  "pipeline": [
+    {
+      "id": 152837992,
+      "name": "Meero",
+      "domain": "meero.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 263792143,
+      "name": "ManoMano",
+      "domain": "manomano.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 284760231,
+      "name": "Beamy",
+      "domain": "beamy.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 285499736,
+      "name": "PhotoRoom",
+      "domain": "photoroom.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289761391,
+      "name": "Chrono24",
+      "domain": "chrono24.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289763835,
+      "name": "Livestorm",
+      "domain": "livestorm.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289763937,
+      "name": "Prismic",
+      "domain": "prismic.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764670,
+      "name": "Skello",
+      "domain": "skello.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764975,
+      "name": "Emma",
+      "domain": "emma-app.com",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289764987,
+      "name": "Another Brain",
+      "domain": "anotherbrain.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766443,
+      "name": "Mooncard",
+      "domain": "mooncard.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766734,
+      "name": "Back Market",
+      "domain": "backmarket.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289767984,
+      "name": "MetaMap",
+      "domain": "getmati.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289768166,
+      "name": "Ankorstore",
+      "domain": "ankorstore.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768578,
+      "name": "CAST.AI",
+      "domain": "cast.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289769939,
+      "name": "Conduktor",
+      "domain": "conduktor.io",
+      "funnel": "Hard to crack",
+      "country": "United States"
+    },
+    {
+      "id": 289770462,
+      "name": "LaCollection",
+      "domain": "lacollection.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289770689,
+      "name": "Flowdesk",
+      "domain": "flowdesk.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771369,
+      "name": "Colizey",
+      "domain": "colizey.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 295040010,
+      "name": "Zealy.io",
+      "domain": "zealy.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 301577726,
+      "name": "Function",
+      "domain": "functionhealth.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 304287422,
+      "name": "MWM",
+      "domain": "musicworldmedia.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 308969201,
+      "name": "H-AI",
+      "domain": "hcompany.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 308969259,
+      "name": "The HumaNoid",
+      "domain": "thehumanoid.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Kristina Chvilova",
+      "externalEmail": "kristina@aglaeventures.com",
+      "score": 0.9979682018517894,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Kristina Chvilova",
+      "externalEmail": "kristina@aglaeventures.com",
+      "score": 0.9803653041744653,
+      "linkedin": false
+    },
+    {
+      "internal": "Tony Zappala",
+      "external": "Kristina Chvilova",
+      "externalEmail": "kristina@aglaeventures.com",
+      "score": 0.9599718944502644,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Léa Verdillon",
+      "externalEmail": "lea@aglaeventures.com",
+      "score": 0.9497553825013034,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Kristina Chvilova",
+      "externalEmail": "kristina@aglaeventures.com",
+      "score": 0.8115072828980713,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Léa Verdillon",
+      "externalEmail": "lea@aglaeventures.com",
+      "score": 0.7089257420525683,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Julie Roze",
+      "externalEmail": "julie.roze@korelyacapital.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Kristina Chvilova",
+      "externalEmail": "kristina@aglaeventures.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Company 124895297 (aglaeventures.com). All 8 live relationships kept. Pipeline matched 'Aglaé Ventures' (22) and 'Aglae Ventures' (5); no bare 'Aglae' strings found."
+}
