@@ -1,0 +1,602 @@
+{
+  "earlybird": {
+    "Dr. Hendrik Brandis": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/dbrandis",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2014-03-13",
+      "note": null
+    },
+    "Dr. Christian Nagel": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/chnagel",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2022-12-01",
+      "note": "last touch was Highland Toasts Berlin event"
+    },
+    "Evren Ucok": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/evrenucok",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    },
+    "Roland Manger": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/rolandmanger",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2022-03-08",
+      "note": null
+    },
+    "Lionel Carnot": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/lionel-carnot-8742563",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": "now Managing Director at Bay City Capital"
+    },
+    "Thom Rasche": {
+      "found": false
+    },
+    "Michael Schmitt": {
+      "found": false
+    },
+    "Rainer Christine": {
+      "found": false
+    },
+    "John Yianni": {
+      "found": false
+    },
+    "Dan Lupu": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/dan-lupu-62361",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    },
+    "Mehmet Sel Atici": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/msatici",
+      "known_internal": "Jean Tardy-Joubert",
+      "known_score": 0.998,
+      "last": "2026-04-27",
+      "note": "also Partner at Bek Ventures (primary email @bekventures.com)"
+    }
+  },
+  "gfc": {
+    "Michael Fowler": {
+      "found": false
+    },
+    "Don Stalter": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/donaldstalter",
+      "known_internal": "Gajan Rajanathan",
+      "known_score": 0.997,
+      "last": "2026-07-24",
+      "note": "now Partner at Sunshine Lake Capital (previously Global Founders Capital)"
+    },
+    "Fabricio Pettená": {
+      "found": false
+    },
+    "David Sainteff": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/sainteff",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    },
+    "Onur Erbay": {
+      "found": false
+    },
+    "Shao Lee": {
+      "found": false
+    },
+    "Glory Harimas Sihombing": {
+      "found": false
+    },
+    "Mariam Kremer": {
+      "found": true,
+      "linkedin": "https://www.linkedin.com/in/mariam-kremer-73245711b/",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2020-03-26",
+      "note": "no current org in Affinity; interviewed with Highland (David Blyghton) in 2020"
+    }
+  },
+  "htgf": {
+    "Alex Von Frankenberg": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/justdoitalex",
+      "known_internal": "Sam Brooks",
+      "known_score": 0.3,
+      "last": "2025-07-11",
+      "note": null
+    },
+    "Claas H. Nieraad": {
+      "found": false
+    },
+    "Bernd Goergen": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/bernd-goergen-a14262b4",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    },
+    "Romy Schnelle": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/romyschnelle",
+      "known_internal": "Irena Goldenberg",
+      "known_score": 0.1,
+      "last": "2025-06-16",
+      "note": null
+    },
+    "Angelika Vlachou": {
+      "found": false
+    },
+    "Curtis Macdonald": {
+      "found": false,
+      "note": "only Affinity match is at Invisible Technologies / Happiness Capital - likely homonym"
+    },
+    "Marco Winzer": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/marco-winzer-275a65130",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    },
+    "Markus Kreßmann": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/mkressmann",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2026-01-01",
+      "note": "in Affinity as 'Markus Kressmann'; on Project Saturn signing call with Irena"
+    },
+    "Dr. Tanja Emmerling": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/dr-tanja-emmerling-84593b20",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2020-01-24",
+      "note": null
+    },
+    "Klaus Lehmann": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/klaus-lehmann",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2014-08-16",
+      "note": null
+    },
+    "Frank Kerim Reinecke": {
+      "found": false
+    }
+  },
+  "hv-capital": {
+    "Lars Langusch": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/larslangusch",
+      "known_internal": "Fergal Mullen",
+      "known_score": 0.33,
+      "last": "2025-07-07",
+      "note": null
+    },
+    "Sven Achter": {
+      "found": true,
+      "linkedin": null,
+      "known_internal": null,
+      "known_score": null,
+      "last": "2019-06-25",
+      "note": null
+    },
+    "David Kuczek": {
+      "found": true,
+      "linkedin": null,
+      "known_internal": null,
+      "known_score": null,
+      "last": "2016-10-13",
+      "note": null
+    },
+    "Barbod Namini": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/barbodnamini",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2019-03-05",
+      "note": null
+    },
+    "Felix Klühr": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/felix-klühr-23292067",
+      "known_internal": "David Blyghton",
+      "known_score": 0.997,
+      "last": "2026-06-15",
+      "note": "in Affinity as 'Felix Kluehr'"
+    },
+    "Jan Miczaika": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/janmiczaika",
+      "known_internal": "Gajan Rajanathan",
+      "known_score": 0.1,
+      "last": "2025-07-07",
+      "note": null
+    },
+    "Martin Weber": {
+      "found": true,
+      "linkedin": null,
+      "known_internal": null,
+      "known_score": null,
+      "last": "2019-09-27",
+      "note": "hvventures.com record; previously Infarm"
+    }
+  },
+  "ibb-ventures": {
+    "Katrin Robeck": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/katrinrobeck",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    }
+  },
+  "mig-capital": {
+    "Matthias Kromayer": {
+      "found": false
+    },
+    "Matthias Guth": {
+      "found": false
+    },
+    "Kristian Schmidt-Garve": {
+      "found": false
+    },
+    "Oliver Kahl": {
+      "found": false
+    },
+    "Dr. Klaus Feix": {
+      "found": false
+    },
+    "Soren Hein": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/sorenhein",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": "gmail-only record, no org data in Affinity"
+    },
+    "Andreas Kastenbauer": {
+      "found": false
+    }
+  },
+  "nap": {
+    "Dominik Matyka": {
+      "found": true,
+      "linkedin": null,
+      "known_internal": null,
+      "known_score": null,
+      "last": "2015-12-28",
+      "note": "known from plista days (ex-CEO plista)"
+    },
+    "Markus Fuhrmann": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/markusfuhrmann",
+      "known_internal": "Gajan Rajanathan",
+      "known_score": 0.996,
+      "last": "2023-10-12",
+      "note": "currently CEO of GROPYUS"
+    },
+    "Rouven Dresselhaus": {
+      "found": false
+    },
+    "Marcel Hollerbach": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/marcelhollerbach",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2023-06-19",
+      "note": "Co-founder/CIO of Productsup"
+    },
+    "Mey Cezairli": {
+      "found": false
+    },
+    "James Johnson": {
+      "found": false,
+      "note": "only homonyms in Affinity (GoFreight, FIS)"
+    },
+    "Fabian Krautwurst": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/fabian-krautwurst",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2022-10-03",
+      "note": "previously Cavalry Ventures (record still on cavalry.vc email)"
+    }
+  },
+  "picus": {
+    "Kilian Thalhammer": {
+      "found": false
+    },
+    "Oliver Heinrich": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/oliverheinrich",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2024-07-08",
+      "note": null
+    },
+    "Andreas Schmidt": {
+      "found": false
+    },
+    "Florian Reichert": {
+      "found": false
+    },
+    "Damian Crowther": {
+      "found": false
+    },
+    "Kerstin Dittmar": {
+      "found": false
+    },
+    "Nicolai Frost Jacobsen": {
+      "found": false
+    },
+    "Ignacio Pérez Hallerbach": {
+      "found": false
+    },
+    "Andreas Stryz": {
+      "found": false
+    }
+  },
+  "point-nine": {
+    "Kolja Hebenstreit": {
+      "found": false
+    },
+    "Pawel Chudzinski": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/pchudzinski",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2014-12-19",
+      "note": null
+    },
+    "Christoph Janz": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/christophjanz",
+      "known_internal": "Gajan Rajanathan",
+      "known_score": 0.1,
+      "last": "2023-08-02",
+      "note": null
+    },
+    "Rodrigo Martinez": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/rodrigomrz",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2017-09-18",
+      "note": "now helloworld.vc (previously Point Nine)"
+    },
+    "Ricardo Sequerra Amram": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/ricardosequerra",
+      "known_internal": "Helena Richardson",
+      "known_score": 0.43,
+      "last": "2025-10-10",
+      "note": "earlier stints on Cherry emails in Affinity"
+    },
+    "Seth Dehart": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/sethdehart",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2023-01-16",
+      "note": "Advisor at Point Nine"
+    }
+  },
+  "possible-ventures": {
+    "Chris Hitchen": {
+      "found": false
+    },
+    "Thyra Seitz (Wegener)": {
+      "found": false
+    },
+    "Thomas Klews": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/thomas-klews-6263694b",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": "Affinity record via EQT (thomas.klews@eqt.de), no interaction history"
+    },
+    "Dr. Christoph Baumeister": {
+      "found": false
+    }
+  },
+  "project-a": {
+    "Thies Sander": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/thies-sander-5a789653",
+      "known_internal": "Stan Laurent",
+      "known_score": 0.41,
+      "last": "2023-09-28",
+      "note": null
+    },
+    "Ben Fischer": {
+      "found": false
+    },
+    "Malin Posern": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/malinposern",
+      "known_internal": "Tony Zappala",
+      "known_score": 0.66,
+      "last": "2026-06-24",
+      "note": "previously Index Ventures / Passion Capital"
+    },
+    "Thuy-Ngan Trinh": {
+      "found": false
+    }
+  },
+  "redstone": {
+    "Samuli Sirén": {
+      "found": false
+    },
+    "Kaj Hagros": {
+      "found": false
+    },
+    "Michael Brehm": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/michaelbrehm",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2019-09-09",
+      "note": "also i2x.ai (primary email)"
+    },
+    "Timo Fleig": {
+      "found": false
+    },
+    "Yucheng Shan": {
+      "found": false
+    },
+    "Mickaël Bellaïche": {
+      "found": false
+    },
+    "Martin Scherrer": {
+      "found": false
+    },
+    "Ben Scheidt": {
+      "found": false
+    },
+    "Mohamed F.": {
+      "found": false,
+      "note": "name too partial - only unrelated Mohameds in Affinity"
+    },
+    "Lukas André": {
+      "found": false
+    },
+    "Lars Haerle": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/lars-haerle-41a844",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2014-02-17",
+      "note": "previously IEG Investment Banking"
+    }
+  },
+  "ta-ventures": {
+    "Igor Buchatskiy": {
+      "found": false
+    },
+    "Viktoriya Tigipko": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/viktoriyatigipko",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2016-11-10",
+      "note": "Affinity shows current role as Chair of Ukrainian Startup Fund"
+    },
+    "Igor Semenov": {
+      "found": false
+    },
+    "Eveline Buchatskiy": {
+      "found": false
+    },
+    "Viroslava Novosylna": {
+      "found": false
+    },
+    "Colin Mcswiggen": {
+      "found": false
+    },
+    "Oleg Malenkov": {
+      "found": false
+    },
+    "Richard Armstrong": {
+      "found": false,
+      "note": "only match is a personal HCP contact - homonym"
+    },
+    "Yuriy Romanyukha": {
+      "found": false
+    },
+    "Maria Ren": {
+      "found": false
+    },
+    "Stepan Naumov": {
+      "found": false,
+      "note": "only match is at PGGM Investments with no history - unverified/likely homonym"
+    },
+    "Andrew Verbitsky": {
+      "found": false
+    }
+  },
+  "uvc-partners": {
+    "Helmut Schoenenberger": {
+      "found": false
+    },
+    "Dr. Ingo Potthof": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/dr-ingo-potthof-73428652",
+      "known_internal": null,
+      "known_score": null,
+      "last": null,
+      "note": null
+    },
+    "Johannes Von Borries": {
+      "found": false
+    },
+    "Oliver Schoppe": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/oschoppe",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2022-10-14",
+      "note": null
+    },
+    "Dr. Andreas Nauerz": {
+      "found": false
+    }
+  },
+  "vsquared": {
+    "Thomas Oehl": {
+      "found": false
+    },
+    "Lise Rechsteiner, Phd": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/lise-rechsteiner-phd-74035965",
+      "known_internal": "Gajan Rajanathan",
+      "known_score": 0.999,
+      "last": "2026-07-08",
+      "note": null
+    },
+    "Maria Juesas Portoles": {
+      "found": false
+    },
+    "Herbert Mangesius": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/herbertmangesius",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2019-07-24",
+      "note": "previously Vito Ventures (record on vito.vc email)"
+    },
+    "Maximilian Odendahl": {
+      "found": true,
+      "linkedin": "https://linkedin.com/in/maximilianodendahl",
+      "known_internal": null,
+      "known_score": null,
+      "last": "2017-08-15",
+      "note": "ex-CEO Silexica; Venture Partner at Vsquared"
+    },
+    "Patrick Tucci": {
+      "found": false
+    },
+    "Jakob Lingg": {
+      "found": false
+    }
+  }
+}
