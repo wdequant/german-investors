@@ -8,6 +8,9 @@ EX_STAFF = {"Emily Tan", "Anna Faulkner", "Zina Alfa", "Rachel Barbour-Fowles",
             "Isabel Wright"}
 NAME_MAP = {"Gajan Rajanathan": "Gaj Rajanathan", "William De Quant": "Will de Quant",
             "Stan Laurent": "Stan"}
+# User-confirmed corrections to the automated employment check: these contacts
+# are still at their fund (board seats / portfolio roles misread as departures).
+EMP_OVERRIDES = {"Alexander Joel-Carbonell"}  # led HV's investment in AMI, still at HV
 SECTOR_SOFTWARE = ("Communications & Information Technology", "Business Services")
 
 BUCKETS = [
@@ -308,13 +311,15 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
                 k["last"] = info.get("last")
                 k["mismatch"] = bool(info.get("mismatch"))
                 f = flags.get(k["person"]) or {}
-                k["moved"] = f.get("now") if f.get("status") == "moved" else None
+                k["moved"] = (f.get("now") if f.get("status") == "moved"
+                              and k["person"] not in EMP_OVERRIDES else None)
         for pt in e.get("points", []):
             info = cdates.get(pt["external"]) or {}
             pt["external"] = _strip_emoji(pt["external"])
             pt["last"] = info.get("last")
             f = flags.get(pt["external"]) or {}
-            pt["moved"] = f.get("now") if f.get("status") == "moved" else None
+            pt["moved"] = (f.get("now") if f.get("status") == "moved"
+                           and pt["external"] not in EMP_OVERRIDES else None)
             known.add(norm_name(pt["external"]))
         if e["kind"] == "fund":
             ef = efunds.get(slug, {})
