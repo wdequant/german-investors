@@ -10,7 +10,11 @@ NAME_MAP = {"Gajan Rajanathan": "Gaj Rajanathan", "William De Quant": "Will de Q
             "Stan Laurent": "Stan"}
 # User-confirmed corrections to the automated employment check: these contacts
 # are still at their fund (board seats / portfolio roles misread as departures).
-EMP_OVERRIDES = {"Alexander Joel-Carbonell"}  # led HV's investment in AMI, still at HV
+EMP_OVERRIDES = {
+    "Alexander Joel-Carbonell",   # led HV's investment in AMI, still at HV
+    "Jean de La Rochebrochard",   # still at Kima; runs Cassius and New Wave alongside
+    "Jean de la Rochebrochard",
+}
 SECTOR_SOFTWARE = ("Communications & Information Technology", "Business Services")
 
 BUCKETS = [

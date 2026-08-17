@@ -1,0 +1,353 @@
+{
+ "demeter": {
+  "Stephane Villecroze": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/stephane-villecroze-aba635b",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Demeter co-founder/CEO; in CRM with logged activity but no scored internal relationship"
+  },
+  "Jean Charles Scatena": {"found": false},
+  "Natali Vounstn": {"found": false},
+  "Stéphanie Guitton Chrétien": {"found": false},
+  "Christophe Desrumaux": {"found": false},
+  "Julien Coudy": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/julien-coudy-92b485",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner; Affinity enrichment shows current org DEMEA INVEST; old Highland thread (Helena Richardson, 2021) but no scored internal relationship"
+  },
+  "Geoffroy Dubus": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/geoffroydubus",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner; Affinity enrichment shows current org DEMEA INVEST; crossed paths at 2024 Plug and Play event, no scored internal relationship"
+  },
+  "Olivier Masseran": {"found": false},
+  "Assia Gaouar": {"found": false},
+  "Frederic Gilbert": {"found": false}
+ },
+ "daphni": {},
+ "saint-james": {},
+ "50-partners": {
+  "Stéphane Romanyszyn": {"found": false},
+  "Bruno Watine": {"found": false},
+  "\"Alexandre Pachulski, Ph.D.\"": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/alexandrepachulski",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Talentsoft co-founder (50 Partners mentor); Affinity enrichment lists current org Linktree (likely stale/incorrect)"
+  },
+  "Fabrice Métayer": {"found": false},
+  "Vincent Tricot": {"found": false},
+  "Vincent Mady": {"found": false},
+  "Eric Langrognet": {"found": false},
+  "Mathieu Tarnus": {"found": false},
+  "Damien Cacaret": {"found": false},
+  "Jonathan Vidor": {"found": false},
+  "Laurent Letourmy": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/letourmy",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Ysance founder (50 Partners mentor); Affinity shows current org Devoteam (acquired Ysance)"
+  },
+  "Marc Sabatier": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/msabatier-ceo-julhiet-sterwen",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Founding Partner & CEO Julhiet Sterwen (50 Partners mentor); no internal relationship"
+  }
+ },
+ "ventech": {
+  "Alain Caffi": {"found": false},
+  "Eric Huet": {"found": false},
+  "Claire Houry": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/clairehoury",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "General Partner, Ventech; no scored internal relationship"
+  },
+  "Audrey Soussan": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/audrey-soussan-0309b818",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "General Partner, Ventech; no scored internal relationship"
+  },
+  "Christian Claussen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/christian-claussen-6ab24",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "General Partner, Ventech (Munich; ex TVM Capital); no scored internal relationship"
+  },
+  "Tero Mennander": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/tero-mennander-a201a43",
+   "known_internal": "Jean Tardy-Joubert",
+   "known_score": 0.33,
+   "last": "2024-06-12",
+   "note": "General Partner, Ventech (Helsinki); William De Quant also 0.33; last touch June 2024 Paris meeting thread with Jean Bourcereau/Victor Jolly"
+  },
+  "Jack Martin": {"found": false},
+  "Mike Bernard": {"found": false},
+  "Stephan Wirries": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/wirries",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "General Partner, Ventech (Germany); no scored internal relationship"
+  },
+  "Ericson Martin": {"found": false},
+  "Charles Fourault": {"found": false}
+ },
+ "breega": {
+  "Laurent Ménière": {"found": false},
+  "François Paulus": {"found": false},
+  "Maximilien Bacot": {"found": false},
+  "Melvyn Lubega": {"found": false},
+  "Victor Drault": {"found": false},
+  "Daniel Shellard": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/daniel-shellard-0640415",
+   "known_internal": "David Blyghton",
+   "known_score": 1.0,
+   "last": "2025-07-21",
+   "note": "Same person as 'Dan Shellard' already in breega affinity file; Breega UK partner (Fiit founder); William De Quant 0.4; last thread Jul 2025 Breega UK <> Highland meeting"
+  },
+  "Matthieu Vallin": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/matthieu-vallin-b4772a40",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.51,
+   "last": "2024-03-07",
+   "note": "Moved: now VC investor at Octopus Ventures (record as Matt Vallin); last thread Mar 2024 medtech deal (GPx) with Gajan"
+  },
+  "Sebastien Boucraut": {"found": false},
+  "🌈Marjorie Vigne": {"found": false},
+  "Tosin Faniro-Dada": {"found": false},
+  "Pauline Chau": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/pauline-chau-45712967",
+   "known_internal": "Sam Brooks",
+   "known_score": 0.1,
+   "last": "2026-07-31",
+   "note": "Partner & CFO, Breega; Ronan Shally also 0.1; live co-investor thread (011h Fond-ICO convertible) as of Jul 2026"
+  },
+  "Benjamin Deplus": {"found": false}
+ },
+ "go-capital": {
+  "Frédéric Le Guillou": {"found": false},
+  "Leila Nicolas Guerlain": {"found": false},
+  "Emmanuelle Deponge": {"found": false},
+  "Hervé Bachelot Lallier": {"found": false},
+  "Frederic Le Brun": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/fredericlebrun",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Board member, GO CAPITAL per Affinity; also past Bpifrance and LeadX Capital emails; no scored internal relationship"
+  },
+  "Erwan Jacquin": {"found": false},
+  "Bruno Dizengremel": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/bruno-dizengremel-56685910",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "GO CAPITAL per Affinity (ex Innovacom); no scored internal relationship"
+  },
+  "Laurent Sassier": {"found": false},
+  "Guillaume Foillard": {"found": false},
+  "Bruno Guicheux": {"found": false},
+  "Damien Jouanneau": {"found": false}
+ },
+ "evolem": {
+  "Thomas Rival": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/thomas-rival-evolem",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Investor at Evolem (evolem.com email); Affinity enrichment lists current org Kimialys (likely portfolio board seat); no scored internal relationship"
+  },
+  "Samuel Saucourt": {"found": false},
+  "Julien De Bussy": {"found": false}
+ },
+ "bpifrance": {
+  "Laurent Arthaud": {"found": false},
+  "Gilles Schang": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/gilles-schang-5085033",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Deputy Managing Director, Bpifrance (Europe); no scored internal relationship"
+  },
+  "Charlotte Corbaz": {"found": false},
+  "Thierry Sommelet": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/thierrysommelet",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Director Direct Investments, Head of TMT, Bpifrance; no scored internal relationship"
+  },
+  "Florent Debienne": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/florent-debienne-7468aa10",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Director, Head of Technology Funds Investments, Bpifrance; no scored internal relationship"
+  },
+  "Ivan De Lastours": {"found": false},
+  "Alexandre Ossola": {"found": false},
+  "Adeline Lemaire": {"found": false},
+  "Claire Dupré": {"found": false},
+  "Stephane Bourles": {"found": false},
+  "Rémi Berteloot": {"found": false},
+  "Iris Amirault": {"found": false}
+ },
+ "singular": {
+  "Laura Mcginnis": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/lauramcginnis",
+   "known_internal": "Helena Richardson",
+   "known_score": 0.1,
+   "last": "2026-08-04",
+   "note": "Partner at Singular; Affinity email still lmcginnis@balderton.com (ex-Balderton); recent group VC thread Aug 2026"
+  }
+ },
+ "frst": {
+  "Pierre Entremont": {"found": false},
+  "Saturnin Pugnet": {"found": false},
+  "Grégoire Gambatto": {"found": false},
+  "Sylvain Gariel": {"found": false}
+ },
+ "isai": {
+  "Pierre Martini": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/pierre-martini-5ba36",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Partner, ISAI; no scored internal relationship"
+  },
+  "\"Philippe Bouissou, Ph.D.\"": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/phbouissou",
+   "known_internal": "Irena Goldenberg",
+   "known_score": 0.1,
+   "last": "2023-09-15",
+   "note": "ISAI venture partner / Blue Dot Partners (Palo Alto); last touch newsletter to Irena, Sep 2023"
+  },
+  "Paul Strachman": {"found": false},
+  "Nicolas Martineau": {"found": false},
+  "Arnaud De Scorbiac": {"found": false},
+  "Pierre Dumas": {"found": false},
+  "Jean-Patrice Anciaux": {
+   "found": false,
+   "note": "No search hit under this spelling, but 'Jeanpatrice Anciaux' already appears in isai affinity relationships - likely same person"
+  },
+  "Francois Collet": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/francoiscollet",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "General Partner, ISAI (Tech Growth); duplicate Affinity records (isai.fr / raise.co emails); no scored internal relationship"
+  },
+  "Pierre Cousin": {"found": false},
+  "Sébastien Ritter": {"found": false},
+  "Aude Lapillonne": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/aude-lapillonne-8009b124",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Investment Director, ISAI Tech Growth/LBO; no scored internal relationship"
+  },
+  "Caroline Gibert": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/caroline-gibert-748a7311",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner, Head of IR/ESG/Communication, ISAI; no scored internal relationship"
+  }
+ },
+ "otium": {
+  "Cyrille Bessiere": {"found": false},
+  "Aurelie Pasquet Bessiere": {"found": false},
+  "Basile Paul-Petit": {"found": false},
+  "Stanislas Thiéry": {"found": false},
+  "Quentin Vanbever": {"found": false}
+ },
+ "hexa": {
+  "Quentin Nickmans": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/quentinnickmans",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "eFounders/Hexa co-founder; Affinity enrichment shows Yousign board seat; no scored internal relationship"
+  },
+  "Thibault Chassagne": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/thibault-chassagne-4a64564",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner @ Hexa Scale (Virtuo founder, govirtuo.com email); Affinity org shows eFounders; no scored internal relationship"
+  },
+  "Matthieu Vaxelaire": {"found": false},
+  "Raphaël Vullierme": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/raphaelvullierme",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Luko co-founder (record via getluko.com email); no current org in Affinity; no scored internal relationship"
+  },
+  "Maxime Brousse": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/maximebrousse",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner at eFounders/Hexa (Selency/BrocanteLab founder); no scored internal relationship"
+  },
+  "Florent Quinti": {"found": false},
+  "Guillaume Lerouge": {"found": false},
+  "Julien Meraud": {"found": false},
+  "Augustin Celier": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/augustincelier",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner, Hexa (Uptime founder); Affinity org record 'HEXA COM'' on hexa.com domain; no scored internal relationship"
+  },
+  "Michael Saifoudine": {"found": false},
+  "Ugo Vollmer": {"found": false},
+  "Peter Prem": {"found": false}
+ }
+}
