@@ -1,0 +1,1100 @@
+{
+ "almi": {
+  "Anna Lundmarklundbergh": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "antler": {
+  "Mark Inkster": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Trond Riiber Knudsen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "John Nevado": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Steve Telburn": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Andreas Ehn": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/andreasehn",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "ex-Spotify CTO; in Affinity at Approach/A8n, Antler SEA fund investment committee; no Highland interaction history"
+  },
+  "Wafa Al Obaidat": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Bob Rosin": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jade Wang": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Karl-Christian Agerup": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/kcagerup",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Antler CIO; previously Northzone (kc@northzone.com); no Highland interaction history"
+  },
+  "Charlotte Mason": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/charlottesmason",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2025-07-09",
+   "note": "Antler Venture Partner; AltoVita advisory board meeting alongside Abhishek Lahoti Jul 2025; no scored relationship"
+  },
+  "Henrik Jensen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "only homonyms in Affinity (Fuzey CEO, Luxion professor) - not the Antler partner"
+  },
+  "Robert Suenderhauf": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "northzone": {
+  "Bjørn Stray": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/bjørn-stray-9a2135",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2018-04-03",
+   "note": "Northzone partner; old email history with Tony Zappala (2018); relationship decayed"
+  },
+  "Torleif Ahlsand": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/torleif-ahlsand-13273648",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2014-02-25",
+   "note": "Northzone GP; old Tony Zappala history (2014); relationship decayed"
+  },
+  "Pär-Jörgen Pärson": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/pär-jörgen-pärson-007501313",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-12-04",
+   "note": "Northzone partner; Jellysmack intro thread 2019; relationship decayed"
+  },
+  "Hans Otterling": {
+   "found": true,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": "2022-01-31",
+   "note": "Northzone GP; 011h thread with Sam Brooks 2022; Affinity enrichment stale (shows wrong LinkedIn/org)"
+  },
+  "Matthew Robins": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "only Matthew Robinson homonyms in Affinity (ContentSquare, Nested/Accel)"
+  },
+  "Michiel Kotting": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/kotting",
+   "known_internal": "Abhishek Lahoti",
+   "known_score": 0.96,
+   "last": "2026-02-20",
+   "note": "Northzone partner, ex-Accel; met Abhishek Lahoti Feb 2026"
+  },
+  "Jessica Schultz": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jessica-schultz-37a22724",
+   "known_internal": "Sam Brooks",
+   "known_score": 0.46,
+   "last": "2025-07-11",
+   "note": "Northzone partner; co-shareholder comms with Highland via Lookiero/Outfittery"
+  },
+  "Wendy Xiao": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/wendyxs",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-12-04",
+   "note": "in Affinity as Wendy Schadeck (wendy@northzone.com), Partner Northzone"
+  },
+  "Sam Endacott": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sam-endacott-79451684",
+   "known_internal": "David Blyghton",
+   "known_score": 1.0,
+   "last": "2026-07-21",
+   "note": "previously firstminute capital (joined Northzone as Partner Jun 2026), co-investor in n8n; very strong Highland ties (David Blyghton 1.0, Jacob Bernstein 0.38); dinner w/ Tom Neuberger Jul 2026"
+  },
+  "Stine Foss": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/stine-foss-97a13a",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Northzone CFO (also Norrsken22); no Highland interaction history"
+  }
+ },
+ "creandum": {
+  "Johan Brenner": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/johanbrenner",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-07-03",
+   "note": "Creandum GP; 2019 Creandum/Highland thread with Gajan and David Blyghton; relationship decayed"
+  },
+  "Staffan Helgesson": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/staffanhelgesson",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2024-12-16",
+   "note": "Creandum founder/GP; JPM VC Advisory Council circle incl. Laurence Garrett; no scored relationship"
+  },
+  "Fredrik Cassel": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/fredrikcassel",
+   "known_internal": "Isabel Wright",
+   "known_score": 0.1,
+   "last": "2024-05-22",
+   "note": "Creandum GP; invited to Highland office launch 2024"
+  },
+  "Daniel Blomquist": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/danielblomquist",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2021-10-28",
+   "note": "Creandum / Kauffman Fellows; 2021 thread w/ Ronan & Gajan; relationship decayed"
+  },
+  "Kilian Thalhammer": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Peter Specht": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/pspecht",
+   "known_internal": "Helena Richardson",
+   "known_score": 0.66,
+   "last": "2025-11-20",
+   "note": "Creandum Partner; active dialogue with Helena Richardson (Nov 2025)"
+  },
+  "Beau Brooks": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Maria Raga": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Lars Nordwall": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Hanel Baveja": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/hanelbaveja",
+   "known_internal": "Anna Faulkner",
+   "known_score": 0.76,
+   "last": "2025-09-09",
+   "note": "Creandum Partner; VC breakfast alongside Jacob Bernstein Sep 2025"
+  }
+ },
+ "lifeline": {
+  "Jyri Engeström": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Teemu Mattila": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/mattilateemu",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2023-01-31",
+   "note": "Lifeline Ventures / DN Capital; lunch with Gaj Jan 2023; relationship decayed"
+  },
+  "Elina Holkko": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "industrifonden": {
+  "Fredrik Lehmann": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Andreas Söneby": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "seed-capital": {
+  "Jordan Levy": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Affinity Jordan Levy is a US homonym (CapSource) - not Seed Capital"
+  },
+  "Anne Cathrine Wilhjelm": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Lars Andersen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/seedcapitallarsandersen",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2016-08-31",
+   "note": "Seed Capital GP; introduced Templafy to Irena Goldenberg 2016; relationship decayed"
+  },
+  "Jakob Fuglede Nielsen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Ulla Brockenhuus-Schack": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/ulla-brockenhuus-schack-6344925",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2024-10-07",
+   "note": "Seed Capital GP (Managing Partner until Jun 2024); WVC:E summit event with Anna Faulkner/Lucinda Maxwell; no scored relationship"
+  },
+  "Chris Porsgaard": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Christian Brøndum": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/christian-broendum-71584b",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2018-05-31",
+   "note": "ex-Planday CEO - Highland met re Planday Series C 2018 (Irena, David); now board at SUPERB/Dixa"
+  },
+  "Geeta Schmidt": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/geetaschmidt",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-08-20",
+   "note": "Seed Capital GP, ex-Humio CEO - Highland <> Humio dialogue 2019 (Rachel Marcinek)"
+  }
+ },
+ "psv": {
+  "Christel Piron": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Alexander Viterbo-Horten": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Anders Kjær": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/anders--kjaer",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2020-02-18",
+   "note": "Founder/Managing Partner PSV Hafnium (ex PreSeed Ventures); call with Gajan Feb 2020; relationship decayed"
+  },
+  "Richard Breiter": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Marianne Hyltoft": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Helle Uth": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Maria Emilie Danø Hoffmann": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "\"Maria Danø Hoffmann, Phd\"": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "same person as Maria Emilie Danø Hoffmann; not in Affinity"
+  },
+  "\"Maria Emilie Kath Danø, Phd\"": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "same person as Maria Emilie Danø Hoffmann; not in Affinity"
+  }
+ },
+ "inventure": {
+  "Sami Lampinen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sami-lampinen-1bb2a",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2022-02-25",
+   "note": "Inventure founding partner; on Wolt/DoorDash cap-table comms with Irena and Ronan; relationship decayed"
+  },
+  "Timo Tirkkonen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Tuomas Kosonen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/tuomaskosonen",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Inventure Partner; no Highland interaction history"
+  },
+  "Lauri Kokkila": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/kokkila",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2025-03-18",
+   "note": "Inventure Partner; cc'd on Algoritmiq intro to Harry Williams Mar 2025; no scored relationship"
+  }
+ },
+ "eqt-ventures": {
+  "Lars Jörnow": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/larsjornow",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2022-11-22",
+   "note": "EQT Ventures founding partner; Wolt & DoorDash closing dinner with Irena 2022; relationship decayed"
+  },
+  "İskender Dirik": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Tom Mendoza": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/tomaslmendoza",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2026-01-28",
+   "note": "EQT Ventures Partner; cc'd on Cleo intro to Gajan Jan 2026; no scored relationship"
+  },
+  "Ted Persson": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/tedwpersson",
+   "known_internal": "Tony Zappala",
+   "known_score": 0.9,
+   "last": "2026-07-24",
+   "note": "EQT Ventures Partner; sits on Nothing board alongside Tony Zappala (co-investors)"
+  },
+  "Gustav Von Sydow": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/vonsydow",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "EQT Ventures Partner (ex-Burt founder); no Highland interaction history"
+  },
+  "Rania Belkahia": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Sandra Malmberg 👋": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Doreen Huber": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/doreenhuber",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-12-08",
+   "note": "EQT Ventures Partner, ex-Lemoncat founder; 2019 B2bfood thread with Fergal Mullen; relationship decayed"
+  }
+ },
+ "icebreaker": {
+  "Aleksi Partanen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/partanenaleksi",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Icebreaker.vc; no Highland interaction history"
+  },
+  "Riku Seppälä": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/rikuvs",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Icebreaker.vc co-founder/GP (also OpenOcean); no Highland interaction history"
+  },
+  "Jesse Tinell": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "startuplab": {
+  "Anniken Holst": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Karl Liapunov": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Ola Thorud Jacobsen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Per Einar Dybvik": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "innovestor": {
+  "Milla Koistinaho": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Wilhelm Lindholm": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Tomi Asanti": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Matti Härkönen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Janne Juhola": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Hannu Jungman": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Marko Kuisma": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Myron Seto": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Pekka Simula": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Piia Maaranen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "alliance-vc": {
+  "Arne Tonning 🚀": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/arnetonning",
+   "known_internal": "Jacob Bernstein",
+   "known_score": 0.95,
+   "last": "2025-10-02",
+   "note": "Alliance Venture; recent Aquabyte discussion with Harry Williams & Jacob Bernstein Oct 2025"
+  },
+  "Henrik Torstensson": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/torstensson",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2016-02-23",
+   "note": "Alliance VC partner, ex-Lifesum CEO - Highland Lifesum dialogue 2016 (Irena, David); relationship decayed"
+  },
+  "Bente Loe": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Stine Mølgaard": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Anders Hallin": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/hallin",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2021-11-10",
+   "note": "Alliance Venture; 2021 email with Harry Williams; relationship decayed"
+  }
+ },
+ "norrsken": {
+  "Mark Somen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Luzana Costa": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Alex Bakir": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Sofia Lindelöw": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Elie Habimana": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "byfounders": {
+  "Tommy Andersen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Martin Krag": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Sara Rywe": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sararywe",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.38,
+   "last": "2025-02-25",
+   "note": "byFounders GP; flagged Digitail raise to Gajan/Anna Feb 2025"
+  }
+ },
+ "accelerace": {
+  "Mads Løntoft": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Claus Kristensen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "David Today Ventzel": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Peter Marculans": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "maki": {
+  "Pirkka Palomäki": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Tim Bolte": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Paavo Räisänen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Pauliina Martikainen-Rahnu": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/pauliina-martikainen",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "in Affinity as Pauliina Martikainen, Maki.vc; no Highland interaction history"
+  }
+ },
+ "spintop": {
+  "Erik Wenngren": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Sami Niemi": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Peter Carlsson": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "luminar": {
+  "Magnus Bergman": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/magnusbergman",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Luminar Ventures co-founder (also Nordic Venture Network); no Highland interaction history"
+  },
+  "Jacob Key": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Louise Hagen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Reid Jackson": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/reidjxn",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2022-10-04",
+   "note": "Luminar Ventures Partner (also OpenOcean); 2022 large VC event with Helena/Ronan; relationship decayed"
+  }
+ },
+ "gorilla": {
+  "Petri Lehmuskoski": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Minna Isotalus": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Petter Hattenbach": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jamie Reynolds": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "only James Reynolds (Goldman Sachs) homonyms in Affinity"
+  },
+  "Kirsi Vine-Haaparinne": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "voima": {
+  "Inka Mero": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Pontus Stråhlman": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jenny Engerfelt": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jussi Sainiemi": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jussi-sainiemi",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-06-20",
+   "note": "Voima Ventures partner, previously Tesi; cc'd on Oura intro to Gajan 2019; relationship decayed"
+  }
+ },
+ "superhero": {
+  "Juha Ruohonen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jakob Storå": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Audrius Milukas": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/audrius-milukas-69719b3",
+   "known_internal": "Harry Williams",
+   "known_score": 1.0,
+   "last": "2026-01-29",
+   "note": "Open Circle Capital MP / SME Bank founder; live SME Bank <> Highland dialogue (Lucinda Maxwell, Tony Zappala)"
+  },
+  "Ivo Remmelg": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Gytenis Galkis": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "skyfall": {
+  "Jon Kåre Stene": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Espen Malmo": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "j12": {
+  "Bo Mattsson": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Alexander Paterson Pochet": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Emmet King": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ }
+}
