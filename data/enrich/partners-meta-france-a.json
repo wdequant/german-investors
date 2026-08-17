@@ -1,0 +1,888 @@
+{
+ "kima": {
+  "Chloe Timsit": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "No Affinity record found"
+  }
+ },
+ "eurazeo": {
+  "Wilfried Piskula": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Nicolas Nedelec": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Christophe Simon": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Amandine Ayrem": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Matthieu Bonamy": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "No standalone record; his mbonamy@idinvest.com email is attached as an alias on Matthieu Baret's Affinity record (likely a merged/duplicate record)"
+  },
+  "Matthieu B.": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/matthieu-baret-a9944",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Resolved to Matthieu Baret, Managing Partner at Eurazeo (ex-Idinvest). In CRM but no meaningful Highland relationship - only large group events (last: Plug and Play pitch session, 2024-05-24)"
+  },
+  "Maxime De Bentzmann": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Eric Gallerne": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Tim P. Jungblut": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Sophie Flak": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sophie-flak-631a212",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Eurazeo Executive Board Member / Managing Partner Sustainability. In CRM but zero Highland interaction history"
+  },
+  "Eric Sondag": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Louis Bô": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/louisbo",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Director, Venture Capital at Eurazeo. In CRM but zero Highland interaction history"
+  }
+ },
+ "partech": {
+  "Jean-Marc Patouillaud": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jpatouillaud",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partech co-founder/GP (Partech emails on record); Affinity enrichment now lists him as Investor at Revolut. No Highland relationship history"
+  },
+  "Nicolas El Baze": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jai Choi": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Philippe Collombel": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/philippecollombel",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partech GP (Partech emails on record); enrichment shows board seat at Smartness. No Highland relationship history"
+  },
+  "Mark Menell": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/menell",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partech emails on record but enrichment shows Partner at Silicon Foundry - appears to have moved on from Partech. No Highland relationship history"
+  },
+  "Jean Sini": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jeansini",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Venture Partner at Partech. No Highland relationship history"
+  },
+  "Romain Lavault": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/lavault",
+   "known_internal": "Tony Zappala",
+   "known_score": 0.89,
+   "last": "2026-07-30",
+   "note": "General Partner at Partech. Active dialogue - Tony forwarded him deal info July 2026"
+  },
+  "Bruno Cremel": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/bruno-cremel-08559a87",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partech growth GP (Partech emails on record); enrichment shows Weglot board seat. No Highland relationship history"
+  },
+  "Omri Benayoun": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/omribenayoun",
+   "known_internal": "William De Quant",
+   "known_score": 0.98,
+   "last": "2026-06-02",
+   "note": "GP, Partech Growth Fund. Strongest Partech relationship: William 0.98, Sam Brooks 0.97, Jean Tardy-Joubert 0.95; last exchange June 2026 (Infinite Orbits teaser)"
+  },
+  "André François-Poncet": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/andré-françois-poncet-62a32823",
+   "known_internal": "Sam Brooks",
+   "known_score": 0.1,
+   "last": "2026-06-26",
+   "note": "Partner, Growth Equity at Partech. Weak ties (Sam Brooks and Harry Williams at 0.1); last touchpoint a William Blair track day William also attended, June 2026"
+  },
+  "Boris Golden": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/borisgolden",
+   "known_internal": "Stan Laurent",
+   "known_score": 0.99,
+   "last": "2025-08-26",
+   "note": "General Partner at Partech (seed). Very strong with Stan (0.99, 'Re: Maze' Aug 2025); Tony also knows him (0.52)"
+  },
+  "Emmanuel Delaveau": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/emmanueldelaveau",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "GP, BD / Investor Relations at Partech. No Highland relationship history"
+  }
+ },
+ "aglae": {
+  "Cyril Guenoun": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Antoine Loison": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/antoine-loison-756aaa151",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Aglae Ventures email on record alongside LVMH; enrichment shows Japhy board seat. No Highland relationship history"
+  },
+  "Miyuki Matsumoto": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/miyuki-matsumoto-7468162",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Partner, Head of US Investments at Aglae Ventures. No Highland relationship history"
+  },
+  "Brendan Rempel": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Alexis Bonillo": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "elaia": {
+  "Philippe Gire": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Daniel Pilaud": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Christophe Primault": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/primault",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Venture Partner at Elaia. No Highland relationship history"
+  },
+  "Samantha J.": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/samanthajerusalmy",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Resolved to Samantha Jerusalmy, Partner at Elaia (two duplicate Affinity records, elaia.fr and elaia.com). No Highland relationship history on either"
+  },
+  "Zeevi Michel": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Marc Rougier": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/marcrougier",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner at Elaia. No Highland relationship history"
+  },
+  "Sacha Loiseau": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Anne-Sophie Carrese": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Clément Vanden Driessche": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/clément-vanden-driessche-aa987634",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Affinity record shows him at Next47 (next47.com email) with NcodiN board seat - appears to have moved from Elaia. No Highland relationship history"
+  }
+ },
+ "sofinnova": {
+  "Martin Rothman": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Graziano Seghezzi": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Antoine Papiernik": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/antoine-papiernik-06075610",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Chairman and Managing Partner, Sofinnova Partners. In CRM but no Highland relationship history"
+  },
+  "Joe Anderson": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Only match is Joel Anderson (ZeroMark CEO) - homonym, not the Sofinnova partner"
+  },
+  "Joško Bobanović": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Anne Osdoit": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Henrijette Richter": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Guillaume Baxter": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Maina Bhaman": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Cédric Moreau": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Paola Pozzi": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Lucia Faccio": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Only match is Luciana Faccio (ACE & Company legal/compliance) - homonym"
+  }
+ },
+ "xange": {
+  "Nicolas Rose": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/rosenicolas",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Partner at XAnge (record stored as 'Rose Nicolas'). No Highland relationship history"
+  },
+  "Guilhem De Vregille": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Valerie B.": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Name truncated in source; no plausible XAnge match among Affinity homonyms"
+  },
+  "Guillaume Meulle": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/guillaumemeulle",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Ex-XAnge (xange.fr email); primary email now Iris Capital, enrichment shows Reflect board seat. No Highland relationship history"
+  },
+  "Luc Jodet": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Alexis Du Peloux": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Nadja Bresous Mehigan": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Bernhard Schmid": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/schmidbernhard",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Venture Partner / Advisor at XAnge (Germany). No Highland relationship history"
+  }
+ },
+ "alven": {
+  "Alison Clarke": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "François Meteyer": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/francoismeteyer",
+   "known_internal": "Stan Laurent",
+   "known_score": 0.43,
+   "last": "2025-09-12",
+   "note": "Seed Investor at Alven. Stan relationship (0.43); last exchange 'Congrats & catchup' Sept 2025"
+  },
+  "Thomas C.": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Name truncated in source; no plausible Alven match among Affinity homonyms"
+  }
+ },
+ "cathay": {
+  "Rajive K.": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Name truncated in source; searched as Rajive Keshup (Cathay Innovation partner) - no Affinity record"
+  },
+  "Lijun Ding": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Simon Wu": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sim0nwu",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner, Head of US Investments at Cathay Innovation. In CRM but no Highland relationship history"
+  },
+  "Emanuele De Leonardis": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Daniel Balmisse": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/daniel-balmisse-73a83b151",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Partner, Cathay Innosquare FoF (legacy CDC Entreprises email). No Highland relationship history"
+  },
+  "Nicolas D.": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Name truncated in source; searched as Nicolas du Cray (Cathay partner) - no Affinity record"
+  },
+  "Matthieu Soulé": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Leon Chen  陈熠星": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "No plausible Affinity match for Leon Chen at Cathay"
+  }
+ },
+ "newfund": {
+  "Henri Deshays": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Anne-Sophie Saint-Martin": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Salim Hassad": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "founders-future": {
+  "Santiago Lefebvre": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Marc Menasé": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Rose-May Lucotte": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Sophie Duval": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Louis Sautet": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Matthieu Benkerant": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Thomas Bajas": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "motier": {
+  "Clément Lamolinerie": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/clément-lamolinerie-8b39a2b",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Managing Partner at Motier Ventures. In CRM but no Highland relationship history"
+  }
+ },
+ "serena": {
+  "Marc Fournier": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/marcfournier1",
+   "known_internal": "Jean Tardy-Joubert",
+   "known_score": 0.36,
+   "last": "2026-07-20",
+   "note": "Serena co-founder/GP. Jean (0.36) and William (0.33) both know him; Highland invited to Serena Annual Investor Meeting (Oct 2026)"
+  },
+  "Guillaume Decugis": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/guillaumedecugis",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner, Data Ventures at Serena. No Highland relationship history"
+  },
+  "Xavier Lorphelin": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/xlorphelin",
+   "known_internal": "Tony Zappala",
+   "known_score": 0.42,
+   "last": "2026-07-30",
+   "note": "Serena co-founder/Managing Partner. Tony (0.42), Stan (0.41), Jacob (0.34); co-board with Stan on Descartes Underwriting (advisory cttee July 2026)"
+  },
+  "Eric Gossart": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/ericgossart",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner at Serena. No Highland relationship history"
+  },
+  "Sébastien Le Roy": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sebastienleroy1",
+   "known_internal": "Harry Williams",
+   "known_score": 0.1,
+   "last": "2025-06-17",
+   "note": "Partner at Serena. Weak ties (Harry and Jean at 0.1); Jean attended Serena FPCI closing lunch June 2025"
+  },
+  "Stéphanie Nizard": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/stéphanie-nizard-2420904",
+   "known_internal": "Jean Tardy-Joubert",
+   "known_score": 0.3,
+   "last": "2026-08-04",
+   "note": "Partner, Strategic Partnerships / BD at Serena. Jean relationship (0.30); recent Serena event invites Aug 2026"
+  },
+  "Margaux Gregoir": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/margauxgregoir",
+   "known_internal": "Harry Williams",
+   "known_score": 0.81,
+   "last": "2025-12-02",
+   "note": "Partner at Serena (ex-Alven, ex-Luko). Strong with Harry (0.81) - 1:1 meeting Dec 2025"
+  },
+  "Sylvie Nhansana": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sylvie-nhansana-b9a4433",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "serena.vc email on record but enrichment lists her as CEO at Qare / HealthHero. No Highland relationship history"
+  },
+  "Matthieu Lavergne": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "seventure": {
+  "Pierre Erwes": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Pascal Pierra": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Nora Frey": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Annegret De Baey-Diepolder": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Philippe Tramoy": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Oxana Kukhaneva": {
+   "found": true,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Bare Affinity record (personal gmail, no LinkedIn, no org enrichment); name is rare so likely the Seventure person, but record has no Highland interaction history"
+  },
+  "Laëtitia Gerbe": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "omnes": {
+  "Michael Pollan": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Fabien Collangettes": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Morgane Honikman": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Caroline Yametti": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "François-Xavier Dedde": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/françois-xavier-dedde-5909ab",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "Partner at Omnes Capital (record stored as 'Dedde Xavier'). No Highland relationship history"
+  },
+  "Benjamin Stremsdoerfer": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Simon Hardi": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Gonzague De Trémiolles": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jean-Baptiste Delattre": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Camille Mueller": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ }
+}
