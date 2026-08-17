@@ -546,6 +546,10 @@ ${sender}`);
 }
 
 // ---------- HTC view ----------
+function orderPaths(i){  // personal view: the viewer's own paths lead
+  const ps = i.paths||[];
+  return state.person ? [...ps].sort((a,b)=>(b.internal===state.person)-(a.internal===state.person)) : ps;
+}
 function htcHTML(){
   let rows = D.regions[state.region].htc;
   if(state.person) rows = rows.filter(c=>(c.owners||[]).some(o=>o===state.person || o.startsWith(state.person.split(' ')[0])));
@@ -557,7 +561,7 @@ function htcHTML(){
     <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
       <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
     <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${i.paths.map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${orderPaths(i).map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
     <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
   </tr>`).join('');
   document.getElementById('htctable').innerHTML =
@@ -595,7 +599,7 @@ function mCardHTML(e){
 }
 function mHtcCardHTML(c){
   const paths = c.investors.map(i=>(i.paths&&i.paths.length)
-    ? i.paths.slice(0,2).map(p=>`<div class="mpath"><b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}</div>`).join('') : '').join('');
+    ? orderPaths(i).slice(0,2).map(p=>`<div class="mpath"><b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}</div>`).join('') : '').join('');
   return `<div class="mcard" onclick="window.open('${affURL(c.id)}','_blank')">
     <div class="mtop"><div class="fname">${c.name}</div><span class="cc">${c.country||''}</span></div>
     <div class="mmeta">on cap table: ${c.investors.map(i=>i.name).join(', ')}${(c.owners||[]).length?` · owner: ${c.owners.join(', ')}`:''}</div>
