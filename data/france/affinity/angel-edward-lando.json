@@ -1,0 +1,218 @@
+{
+ "slug": "edward-lando",
+ "affinity_person_id": 144542326,
+ "pipeline": [
+  {
+   "id": 300447020,
+   "name": "Volta",
+   "domain": "voltasoftware.com",
+   "funnel": "Awaiting Reply",
+   "country": "Italy"
+  },
+  {
+   "id": 300447018,
+   "name": "Workflow",
+   "domain": "workflow.design",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 310605980,
+   "name": "Syntetica",
+   "domain": "syntetica.co",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 297511575,
+   "name": "Swaive",
+   "domain": "swaive.fr",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 302925288,
+   "name": "Sipay",
+   "domain": "sipay.com.tr",
+   "funnel": "Passed",
+   "country": "Türkiye"
+  },
+  {
+   "id": 293729543,
+   "name": "StackOne",
+   "domain": "stackone.com",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 309752582,
+   "name": "Marblism",
+   "domain": "marblism.com",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 294573835,
+   "name": "Twin",
+   "domain": "twin.so",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 294581844,
+   "name": "recraft.ai — creative design tool",
+   "domain": "recraft.ai",
+   "funnel": "Awaiting Reply",
+   "country": "United States"
+  },
+  {
+   "id": 290420985,
+   "name": "Everyman Health",
+   "domain": "everyman.health",
+   "funnel": "Pre-lead",
+   "country": "Switzerland"
+  },
+  {
+   "id": 296509445,
+   "name": "Augment",
+   "domain": "augment.org",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 293729645,
+   "name": "Lasso Security",
+   "domain": "lasso.security",
+   "funnel": "Passed",
+   "country": "Israel"
+  },
+  {
+   "id": 294581871,
+   "name": "e2b",
+   "domain": "e2b.dev",
+   "funnel": "Awaiting Reply",
+   "country": "United States"
+  },
+  {
+   "id": 311601235,
+   "name": "o",
+   "domain": "askollo.com",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 293726880,
+   "name": "triver",
+   "domain": "triver.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289768662,
+   "name": "Blobr",
+   "domain": "blobr.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289772532,
+   "name": "Dotfile",
+   "domain": "dotfile.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289772267,
+   "name": "Tropee",
+   "domain": "tropee.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289771416,
+   "name": "Kiliba",
+   "domain": "kiliba.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 297222800,
+   "name": "zevvy",
+   "domain": "zevvy.ch",
+   "funnel": "Pre-lead",
+   "country": "Switzerland"
+  },
+  {
+   "id": 301135165,
+   "name": "OurRitual",
+   "domain": "ourritual.com",
+   "funnel": "Lead",
+   "country": "Israel"
+  },
+  {
+   "id": 290580512,
+   "name": "Deblock",
+   "domain": "deblock.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289772607,
+   "name": "Brxs 1",
+   "domain": "brxsapp.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "Netherlands"
+  },
+  {
+   "id": 293728891,
+   "name": "SAPI",
+   "domain": "sapi.com",
+   "funnel": "Hard to crack",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770116,
+   "name": "Omi",
+   "domain": "omi.so",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289772602,
+   "name": "Scaler",
+   "domain": "scalerglobal.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 289772635,
+   "name": "JUST.",
+   "domain": "getjust.eu",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 295908653,
+   "name": "Flynt",
+   "domain": "goflynt.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 293728887,
+   "name": "NUMARQE",
+   "domain": "numarqe.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 312898495,
+   "name": "Gama",
+   "domain": "gamaspace.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "notes": "Person record exists (edward@lando.com) but has no interaction history and no relationship scores."
+}

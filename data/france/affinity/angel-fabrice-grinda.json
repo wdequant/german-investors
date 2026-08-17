@@ -1,0 +1,161 @@
+{
+ "slug": "fabrice-grinda",
+ "affinity_person_id": 8147146,
+ "pipeline": [
+  {
+   "id": 298733539,
+   "name": "Alpagga",
+   "domain": "alpagga.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289766717,
+   "name": "Simundia",
+   "domain": "simundia.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289767396,
+   "name": "Little Worker",
+   "domain": "littleworker.fr",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289763513,
+   "name": "FretLink",
+   "domain": "fretlink.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289762013,
+   "name": "Hometree",
+   "domain": "hometree.co.uk",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 302925391,
+   "name": "Diffusely",
+   "domain": "diffuse.ly",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289763500,
+   "name": "Fishbrain",
+   "domain": "fishbrain.com",
+   "funnel": "Passed",
+   "country": "Sweden"
+  },
+  {
+   "id": 289761227,
+   "name": "Clue",
+   "domain": "helloclue.com",
+   "funnel": "Lead",
+   "country": "Germany"
+  },
+  {
+   "id": 289760742,
+   "name": "Farfetch",
+   "domain": "farfetch.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289760627,
+   "name": "Shiftgig",
+   "domain": "shiftgig.com",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289763530,
+   "name": "Octoly",
+   "domain": "octoly.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289761391,
+   "name": "Chrono24",
+   "domain": "chrono24.com",
+   "funnel": "Lead",
+   "country": "Germany"
+  },
+  {
+   "id": 289762796,
+   "name": "TextMaster",
+   "domain": "textmaster.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289759957,
+   "name": "Olapic",
+   "domain": "olapic.com",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289760591,
+   "name": "DocPlanner",
+   "domain": "docplanner.com",
+   "funnel": "Lead",
+   "country": "Netherlands"
+  },
+  {
+   "id": 1757295,
+   "name": "eve Sleep",
+   "domain": "evemattress.co.uk",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289764701,
+   "name": "Ticketbis",
+   "domain": "ticketbis.net",
+   "funnel": "Passed",
+   "country": "Spain"
+  },
+  {
+   "id": 289764198,
+   "name": "Lesara",
+   "domain": "lesara.com",
+   "funnel": "Lead",
+   "country": "Germany"
+  },
+  {
+   "id": 289764749,
+   "name": "Dagne Dover",
+   "domain": "dagnedover.com",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 289761494,
+   "name": "LoveSpace",
+   "domain": "lovespace.co.uk",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 1652016,
+   "name": "Wheretoget",
+   "domain": "wheretoget.it",
+   "funnel": "Lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "score": 0.99,
+   "linkedin": false
+  }
+ ],
+ "notes": "Active: Fabrice/Tyrone FJ Labs <> Highland Europe call held 8 Apr 2026; last email 'Re: FW: List' Apr 2026."
+}

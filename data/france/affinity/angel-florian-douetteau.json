@@ -1,0 +1,154 @@
+{
+ "slug": "florian-douetteau",
+ "affinity_person_id": 7991259,
+ "pipeline": [
+  {
+   "id": 311995802,
+   "name": "NP Company",
+   "domain": "augurco.fr",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 305791424,
+   "name": "Linkup",
+   "domain": "linkup.so",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 307705745,
+   "name": "Formel",
+   "domain": "formel.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 303536584,
+   "name": "Doubleword",
+   "domain": "doubleword.ai",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 293729576,
+   "name": "qevlar",
+   "domain": "qevlar.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 301135216,
+   "name": "phacetlabs",
+   "domain": "phacetlabs.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 297318807,
+   "name": "Cu6e",
+   "domain": "getcube.ai",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 294573835,
+   "name": "Twin",
+   "domain": "twin.so",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 292584545,
+   "name": "Pelico",
+   "domain": "pelico.ai",
+   "funnel": "Hard to crack",
+   "country": null
+  },
+  {
+   "id": 289765590,
+   "name": "Castor",
+   "domain": "castordoc.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 293728546,
+   "name": "Quickwit",
+   "domain": "quickwit.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289763438,
+   "name": "Hugging Face",
+   "domain": "huggingface.co",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 289769947,
+   "name": "moka.care",
+   "domain": "moka.care",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769114,
+   "name": "api.video",
+   "domain": "api.video",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765940,
+   "name": "Strapi",
+   "domain": "strapi.io",
+   "funnel": "Reach Out Now",
+   "country": "France"
+  },
+  {
+   "id": 289769071,
+   "name": "Extrality",
+   "domain": "extrality.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289771750,
+   "name": "Cosmian",
+   "domain": "cosmian.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765805,
+   "name": "OpenReplay Blog",
+   "domain": "openreplay.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289768479,
+   "name": "Doctrine",
+   "domain": "doctrine.fr",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289760813,
+   "name": "Clustree",
+   "domain": "clustree.com",
+   "funnel": "Lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "dormant": {
+  "internal": [
+   "Tony Zappala"
+  ],
+  "last": "2018-11",
+  "context": "Email 'RE: Thanks' from Tony Zappala after an 8 Oct 2018 catch-up meeting; first contact Sep 2014 Dataiku intro via Nicolas Celier (Alven) to Irena Goldenberg"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "marc-simoncini",
+ "affinity_person_id": 8147267,
+ "pipeline": [
+  {
+   "id": 293838939,
+   "name": "Sora",
+   "domain": "sora.space",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 284362973,
+   "name": "Memo Bank",
+   "domain": "memo.bank",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769213,
+   "name": "Typology",
+   "domain": "typology.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 1743340,
+   "name": "Devialet",
+   "domain": "en.devialet.com",
+   "funnel": "Lead",
+   "country": null
+  },
+  {
+   "id": 289765162,
+   "name": "Ornikar",
+   "domain": "ornikar.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289765063,
+   "name": "Kukunu",
+   "domain": "kukunu.com",
+   "funnel": "Passed",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289761093,
+   "name": "Madvertise",
+   "domain": "madvertise.com",
+   "funnel": "Lead",
+   "country": "Germany"
+  }
+ ],
+ "relationships": [],
+ "notes": "Person record exists (m.simoncini@meetic-corp.com) but has no interaction history and no relationship scores. Harmonic personal record excludes most Jaïna Capital fund deals."
+}

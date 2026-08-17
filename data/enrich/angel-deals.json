@@ -62,7 +62,7 @@
    },
    {
     "name": "lemon.markets",
-    "why": "acquired by Deutsche B\u00f6rse",
+    "why": "acquired by Deutsche Börse",
     "harmonic_company_id": 464408
    },
    {
@@ -414,7 +414,7 @@
   "risto-siilasmaa": [
    {
     "name": "Wolt",
-    "why": "acquired by DoorDash (\u20ac7B)",
+    "why": "acquired by DoorDash (€7B)",
     "harmonic_company_id": 4295354
    },
    {
@@ -571,6 +571,398 @@
     "name": "GameAnalytics",
     "why": "acquired by Mobvista",
     "harmonic_company_id": 1531211
+   }
+  ]
+ },
+ "france": {
+  "xavier-niel": [
+   {
+    "name": "Mistral AI",
+    "why": "$4.0B raised, $13.7B valuation",
+    "harmonic_company_id": 12692147
+   },
+   {
+    "name": "Alan",
+    "why": "$1.9B raised (incl. debt), $6.2B valuation",
+    "harmonic_company_id": 32266482
+   },
+   {
+    "name": "Mirakl",
+    "why": "$1.1B raised, $3.5B valuation",
+    "harmonic_company_id": 514510
+   },
+   {
+    "name": "PayFit",
+    "why": "$497M raised, unicorn",
+    "harmonic_company_id": 10196571
+   },
+   {
+    "name": "Kyutai",
+    "why": "$330M raised (AI research lab he co-funded)",
+    "harmonic_company_id": 42047188
+   }
+  ],
+  "thibaud-elziere": [
+   {
+    "name": "Contentsquare",
+    "why": "$1.4B raised, $5.6B valuation",
+    "harmonic_company_id": 4298318
+   },
+   {
+    "name": "PayFit",
+    "why": "$497M raised, unicorn",
+    "harmonic_company_id": 10196571
+   },
+   {
+    "name": "Hugging Face",
+    "why": "$395M raised, $4.5B valuation",
+    "harmonic_company_id": 9013
+   },
+   {
+    "name": "Algolia",
+    "why": "$334M raised, $2.3B valuation",
+    "harmonic_company_id": 626500
+   },
+   {
+    "name": "Defacto",
+    "why": "$420M raised (incl. debt)",
+    "harmonic_company_id": 3566950
+   }
+  ],
+  "fabrice-grinda": [
+   {
+    "name": "Farfetch",
+    "why": "IPO'd (NYSE), $2.5B raised",
+    "harmonic_company_id": 10181334
+   },
+   {
+    "name": "Rappi",
+    "why": "$2.5B raised, decacorn-scale LatAm super-app",
+    "harmonic_company_id": 9616168
+   },
+   {
+    "name": "Kiavi (ex-LendingHome)",
+    "why": "$2.5B raised (incl. debt), exited",
+    "harmonic_company_id": 3841904
+   },
+   {
+    "name": "Dataminr",
+    "why": "$1.5B raised",
+    "harmonic_company_id": 148662
+   },
+   {
+    "name": "SeatGeek",
+    "why": "$883M raised, $1.2B valuation",
+    "harmonic_company_id": 3209419
+   }
+  ],
+  "edward-lando": [
+   {
+    "name": "Power",
+    "why": "acquired by Marqeta (~$275M)",
+    "harmonic_company_id": 3283173
+   },
+   {
+    "name": "Triver",
+    "why": "$191M raised (incl. debt)",
+    "harmonic_company_id": 12843237
+   },
+   {
+    "name": "Arch Lending",
+    "why": "$153M raised (incl. debt)",
+    "harmonic_company_id": 10868695
+   },
+   {
+    "name": "Sipay",
+    "why": "$93M raised, $875M valuation",
+    "harmonic_company_id": 3634122
+   },
+   {
+    "name": "Deblock",
+    "why": "$76M raised, $173M valuation",
+    "harmonic_company_id": 10830384
+   }
+  ],
+  "eduardo-ronzano": [
+   {
+    "name": "Paack",
+    "why": "$370M raised, $949M valuation",
+    "harmonic_company_id": 1370879
+   },
+   {
+    "name": "Spendesk",
+    "why": "$300M raised, unicorn ($1.1B)",
+    "harmonic_company_id": 421293
+   },
+   {
+    "name": "Meero",
+    "why": "$311M raised",
+    "harmonic_company_id": 4294470
+   },
+   {
+    "name": "Hokodo",
+    "why": "$176M raised (incl. debt)",
+    "harmonic_company_id": 776249
+   },
+   {
+    "name": "Planity",
+    "why": "$104M raised",
+    "harmonic_company_id": 1525902
+   }
+  ],
+  "pkm": [
+   {
+    "name": "Younited",
+    "why": "$1.3B raised, listed via SPAC (unicorn)",
+    "harmonic_company_id": 205055
+   },
+   {
+    "name": "Doctolib",
+    "why": "$814M raised, $6.4B valuation",
+    "harmonic_company_id": 14815310
+   },
+   {
+    "name": "BLADE",
+    "why": "$473M raised, NYSE-listed via SPAC",
+    "harmonic_company_id": 1399889
+   },
+   {
+    "name": "Shadow",
+    "why": "$105M raised, acquired (Octave Klaba)",
+    "harmonic_company_id": 1518142
+   },
+   {
+    "name": "Pretto",
+    "why": "$59M raised",
+    "harmonic_company_id": 1388906
+   }
+  ],
+  "olivier-pomel": [
+   {
+    "name": "Lovable",
+    "why": "$1.4B raised, $13.3B valuation",
+    "harmonic_company_id": 44580938
+   },
+   {
+    "name": "Nexthink",
+    "why": "$1.1B raised (incl. secondary), $3B valuation",
+    "harmonic_company_id": 432640
+   },
+   {
+    "name": "Dataiku",
+    "why": "$851M raised, $3.7B valuation",
+    "harmonic_company_id": 203516
+   },
+   {
+    "name": "Synthesia",
+    "why": "$538M raised, $4B valuation",
+    "harmonic_company_id": 106378
+   },
+   {
+    "name": "Miro",
+    "why": "$478M raised, $17.5B valuation",
+    "harmonic_company_id": 425866
+   }
+  ],
+  "thierry-petit": [
+   {
+    "name": "Back Market",
+    "why": "$1.1B raised, unicorn",
+    "harmonic_company_id": 186089
+   },
+   {
+    "name": "Accenta",
+    "why": "$136M raised (incl. debt)",
+    "harmonic_company_id": 1685339
+   },
+   {
+    "name": "Cubyn",
+    "why": "$79M raised",
+    "harmonic_company_id": 736185
+   },
+   {
+    "name": "Selency",
+    "why": "$59M raised",
+    "harmonic_company_id": 10215756
+   },
+   {
+    "name": "Memo Bank",
+    "why": "$46M raised",
+    "harmonic_company_id": 2161960
+   }
+  ],
+  "didier-valet": [
+   {
+    "name": "Mambu",
+    "why": "unicorn ($5.5B valuation), exited",
+    "harmonic_company_id": 436037
+   },
+   {
+    "name": "Pennylane",
+    "why": "$456M raised, $4.3B valuation",
+    "harmonic_company_id": 817321
+   },
+   {
+    "name": "Alma",
+    "why": "$362M raised (incl. debt), $788M valuation",
+    "harmonic_company_id": 11150708
+   },
+   {
+    "name": "Silvr",
+    "why": "$369M raised (incl. debt)",
+    "harmonic_company_id": 2035741
+   },
+   {
+    "name": "Leocare",
+    "why": "$137M raised, $638M valuation",
+    "harmonic_company_id": 1791352
+   }
+  ],
+  "marc-simoncini": [
+   {
+    "name": "Devialet",
+    "why": "$300M raised",
+    "harmonic_company_id": 1518218
+   },
+   {
+    "name": "Ornikar",
+    "why": "$174M raised, $750M valuation",
+    "harmonic_company_id": 1480796
+   },
+   {
+    "name": "Memo Bank",
+    "why": "$46M raised",
+    "harmonic_company_id": 2161960
+   },
+   {
+    "name": "Typology",
+    "why": "$26M raised",
+    "harmonic_company_id": 10938348
+   },
+   {
+    "name": "meltygroup",
+    "why": "exited (sold to Webedia group)",
+    "harmonic_company_id": 3629015
+   }
+  ],
+  "jdlr": [
+   {
+    "name": "Yope",
+    "why": "$20M raised, $62M valuation (personal/NJF deal)",
+    "harmonic_company_id": 3495432
+   },
+   {
+    "name": "Cappuccino.fm",
+    "why": "seed alongside a16z (personal deal)",
+    "harmonic_company_id": 3207339
+   }
+  ],
+  "antoine-martin": [
+   {
+    "name": "Mirage (ex-Captions)",
+    "why": "$179M raised",
+    "harmonic_company_id": 11680602
+   },
+   {
+    "name": "mobile.club",
+    "why": "$27M raised",
+    "harmonic_company_id": 1683075
+   },
+   {
+    "name": "Bellman",
+    "why": "$23M raised",
+    "harmonic_company_id": 1431271
+   },
+   {
+    "name": "Cycle",
+    "why": "acquired by Atlassian",
+    "harmonic_company_id": 678333
+   },
+   {
+    "name": "Cappuccino.fm",
+    "why": "seed alongside a16z",
+    "harmonic_company_id": 3207339
+   }
+  ],
+  "oleg-tscheltzoff": [
+   {
+    "name": "Delivery Hero",
+    "why": "IPO'd (Frankfurt)",
+    "harmonic_company_id": 336808
+   },
+   {
+    "name": "PayFit",
+    "why": "$497M raised, unicorn",
+    "harmonic_company_id": 10196571
+   },
+   {
+    "name": "Aircall",
+    "why": "$226M raised, unicorn",
+    "harmonic_company_id": 189778
+   },
+   {
+    "name": "Calm",
+    "why": "$219M raised, unicorn",
+    "harmonic_company_id": 108424
+   },
+   {
+    "name": "Aria",
+    "why": "$365M raised (incl. debt)",
+    "harmonic_company_id": 3248333
+   }
+  ],
+  "florian-douetteau": [
+   {
+    "name": "Hugging Face",
+    "why": "$395M raised, $4.5B valuation",
+    "harmonic_company_id": 9013
+   },
+   {
+    "name": "Pelico",
+    "why": "$72M raised",
+    "harmonic_company_id": 3682935
+   },
+   {
+    "name": "Strapi",
+    "why": "$45M raised",
+    "harmonic_company_id": 1400351
+   },
+   {
+    "name": "Qevlar AI",
+    "why": "$45M raised",
+    "harmonic_company_id": 12872334
+   },
+   {
+    "name": "CastorDoc",
+    "why": "acquired by Coalesce",
+    "harmonic_company_id": 4641146
+   }
+  ],
+  "clement-delangue": [
+   {
+    "name": "Perplexity",
+    "why": "$1.7B raised, $20B valuation",
+    "harmonic_company_id": 10327314
+   },
+   {
+    "name": "Sakana AI",
+    "why": "$371M raised, $2.6B valuation",
+    "harmonic_company_id": 24834858
+   },
+   {
+    "name": "Factory",
+    "why": "$340M raised, $4B valuation",
+    "harmonic_company_id": 12756714
+   },
+   {
+    "name": "Prime Intellect",
+    "why": "$283M raised, unicorn",
+    "harmonic_company_id": 47541121
+   },
+   {
+    "name": "Pika",
+    "why": "$135M raised",
+    "harmonic_company_id": 18293832
    }
   ]
  }

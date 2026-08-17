@@ -1,0 +1,147 @@
+{
+ "slug": "clement-delangue",
+ "affinity_person_id": 65688299,
+ "pipeline": [
+  {
+   "id": 312339081,
+   "name": "NanoClaw makers",
+   "domain": "nanoclaw.dev",
+   "funnel": "Pre-lead",
+   "country": null
+  },
+  {
+   "id": 311777654,
+   "name": "Helical",
+   "domain": "helical.bio",
+   "funnel": "Awaiting Reply",
+   "country": "Luxembourg"
+  },
+  {
+   "id": 311601199,
+   "name": "Boltz",
+   "domain": "boltz.bio",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 311995885,
+   "name": "Neuracore",
+   "domain": "neuracore.com",
+   "funnel": "Awaiting Reply",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 308658247,
+   "name": "Beside Software",
+   "domain": "beside.com",
+   "funnel": "Hard to crack",
+   "country": null
+  },
+  {
+   "id": 308453819,
+   "name": "Strawberry",
+   "domain": "strawberrybrowser.com",
+   "funnel": "Pre-lead",
+   "country": "Sweden"
+  },
+  {
+   "id": 303536584,
+   "name": "Doubleword",
+   "domain": "doubleword.ai",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 293728733,
+   "name": "Kestra",
+   "domain": "kestra.io",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 298262498,
+   "name": "Alinia",
+   "domain": "alinia.ai",
+   "funnel": "Reach Out Now",
+   "country": "Spain"
+  },
+  {
+   "id": 289771257,
+   "name": "Unify (Ivy)",
+   "domain": "lets-unify.ai",
+   "funnel": "Awaiting Reply",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 296549834,
+   "name": "Apex",
+   "domain": "apexhq.ai",
+   "funnel": "Deprioritised (free for all)",
+   "country": "Israel"
+  },
+  {
+   "id": 293729480,
+   "name": "Flower",
+   "domain": "flower.dev",
+   "funnel": "Awaiting Reply",
+   "country": "Germany"
+  },
+  {
+   "id": 294573835,
+   "name": "Twin",
+   "domain": "twin.so",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289772157,
+   "name": "GetLago",
+   "domain": "getlago.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 298733606,
+   "name": "website-9",
+   "domain": "lecole.ai",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 292903174,
+   "name": "QuackAI",
+   "domain": "quackai.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 307882563,
+   "name": "Amata",
+   "domain": "amata.ai",
+   "funnel": "Lead",
+   "country": null
+  },
+  {
+   "id": 293728707,
+   "name": "Scenario",
+   "domain": "scenario.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 289772126,
+   "name": "Routine",
+   "domain": "routine.co",
+   "funnel": "Pre-lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "dormant": {
+  "internal": [
+   "Harry Williams"
+  ],
+  "last": "2022-01",
+  "context": "Email 'RE: Hugging Face <> Highland Europe' from Harry Williams - outreach thread started Jan 2021, last touch Jan 2022"
+ }
+}

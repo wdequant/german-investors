@@ -1,0 +1,64 @@
+{
+ "slug": "thierry-petit",
+ "affinity_person_id": null,
+ "pipeline": [
+  {
+   "id": 293729453,
+   "name": "La Solive",
+   "domain": "la-solive.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 297565710,
+   "name": "Javelot",
+   "domain": "javelot.ag",
+   "funnel": "Deprioritised (free for all)",
+   "country": "Antigua and Barbuda"
+  },
+  {
+   "id": 284362973,
+   "name": "Memo Bank",
+   "domain": "memo.bank",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289765292,
+   "name": "Tiller Systems",
+   "domain": "tillersystems.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289764728,
+   "name": "Cubyn",
+   "domain": "cubyn.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289760748,
+   "name": "talent.io",
+   "domain": "talent.io",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289766734,
+   "name": "Back Market",
+   "domain": "backmarket.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 152838422,
+   "name": "Selency",
+   "domain": "selency.com",
+   "funnel": "Passed",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "notes": "No Affinity person record found for Thierry Petit (searched 'Thierry Petit' and 'showroomprive')."
+}

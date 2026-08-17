@@ -1,0 +1,31 @@
+{
+ "slug": "jdlr",
+ "affinity_person_id": 10311101,
+ "pipeline": [
+  {
+   "id": 285924796,
+   "name": "Salo Inc.",
+   "domain": "salo.tv",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  }
+ ],
+ "relationships": [
+  {
+   "internal": "Stan Laurent",
+   "score": 0.99,
+   "linkedin": false
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "score": 0.35,
+   "linkedin": false
+  },
+  {
+   "internal": "Aude Flecchia",
+   "score": 0.1,
+   "linkedin": false
+  }
+ ],
+ "notes": "Personal records only, per instruction (Kima Ventures is a separate fund row). Active: 'Highland x Kima - Zentropy' thread Jul 2026; co-board with Stan Laurent on Nabla (Board #12 upcoming Oct 2026). Second older Affinity record id 10311102 (jean@2lr.org / TheFamily / New Wave) last touched Sep 2021 (Stan Laurent coffee). Harmonic personal angel record (NJF-era) holds only 2 deals; Kima portfolio excluded."
+}

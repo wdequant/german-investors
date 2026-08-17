@@ -1,0 +1,308 @@
+{
+ "slug": "eduardo-ronzano",
+ "affinity_person_id": 31390531,
+ "pipeline": [
+  {
+   "id": 289768698,
+   "name": "Unlock",
+   "domain": "joinunlock.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 313527120,
+   "name": "Yavin",
+   "domain": "yavin.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289770272,
+   "name": "Crew.work",
+   "domain": "crew.work",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 285436574,
+   "name": "Bricks",
+   "domain": "bricks.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289770290,
+   "name": "tulipshare",
+   "domain": "tulipshare.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770340,
+   "name": "Vertuoza",
+   "domain": "vertuoza.com",
+   "funnel": "Passed",
+   "country": "Belgium"
+  },
+  {
+   "id": 293729550,
+   "name": "Data to design",
+   "domain": "usekernel.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770267,
+   "name": "Faume.co",
+   "domain": "faume.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289770061,
+   "name": "Purchasely / In-App Purchase",
+   "domain": "purchasely.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 285861081,
+   "name": "Kiln (FKA Skillz.io)",
+   "domain": "kiln.fi",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289770399,
+   "name": "Chaintrust",
+   "domain": "chaintrust.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289770121,
+   "name": "Resilience",
+   "domain": "resilience.care",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289769763,
+   "name": "Sharelock",
+   "domain": "sharelock.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289769957,
+   "name": "MentorShow",
+   "domain": "mentorshow.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289770035,
+   "name": "BLING",
+   "domain": "bling.eu",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769114,
+   "name": "api.video",
+   "domain": "api.video",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289768634,
+   "name": "NuxtJS",
+   "domain": "nuxtjs.org",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289772356,
+   "name": "jitter",
+   "domain": "jitter.video",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 301227203,
+   "name": "Sunrise",
+   "domain": "hellosunrise.com",
+   "funnel": "Lead",
+   "country": "Belgium"
+  },
+  {
+   "id": 289986762,
+   "name": "Cala",
+   "domain": "eatcala.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289766893,
+   "name": "Stonly",
+   "domain": "stonly.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 296915739,
+   "name": "cozycozy.com",
+   "domain": "cozycozy.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289765485,
+   "name": "Fairjungle",
+   "domain": "fairjungle.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289772187,
+   "name": "<div>riots",
+   "domain": "divriots.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 297318455,
+   "name": "Artifakt",
+   "domain": "artifakt.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289767977,
+   "name": "Sybel",
+   "domain": "sybel.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289766523,
+   "name": "OVRSEA",
+   "domain": "ovrsea.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765805,
+   "name": "OpenReplay Blog",
+   "domain": "openreplay.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289766583,
+   "name": "Hokodo",
+   "domain": "hokodo.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289765859,
+   "name": "Trustpair",
+   "domain": "trustpair.fr",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 284362973,
+   "name": "Memo Bank",
+   "domain": "memo.bank",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289766362,
+   "name": "Taster",
+   "domain": "taster.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 293727318,
+   "name": "Elum",
+   "domain": "elum-energy.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289764762,
+   "name": "Planity",
+   "domain": "planity.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289761482,
+   "name": "Spendesk",
+   "domain": "spendesk.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289764106,
+   "name": "SENCROP",
+   "domain": "sencrop.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289764908,
+   "name": "Paack",
+   "domain": "paack.co",
+   "funnel": "Lead",
+   "country": "Spain"
+  },
+  {
+   "id": 300446913,
+   "name": "CLIM B",
+   "domain": "climb.fr",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289762271,
+   "name": "Side",
+   "domain": "side.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289762352,
+   "name": "Tempow",
+   "domain": "tempow.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765292,
+   "name": "Tiller Systems",
+   "domain": "tillersystems.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 302925391,
+   "name": "Diffusely",
+   "domain": "diffuse.ly",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  }
+ ],
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "score": 0.44,
+   "linkedin": false
+  }
+ ],
+ "notes": "Active: 'Aude (Highland Europe) / Eduardo (Kolet)' thread, last email Jun 2026. History back to 2010 (Global Equities era, Fergal Mullen/Laurence Garrett)."
+}

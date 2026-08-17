@@ -1,0 +1,442 @@
+{
+ "slug": "thibaud-elziere",
+ "affinity_person_id": 10312795,
+ "pipeline": [
+  {
+   "id": 289771573,
+   "name": "HrFlow",
+   "domain": "hrflow.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 311186684,
+   "name": "DotBlocks",
+   "domain": "dotblocks.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 311601079,
+   "name": "baCta",
+   "domain": "bacta.bio",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 301135216,
+   "name": "phacetlabs",
+   "domain": "phacetlabs.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 297748930,
+   "name": "Presti",
+   "domain": "presti.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 298733600,
+   "name": "Skynopy",
+   "domain": "skynopy.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 300446992,
+   "name": "Veeton",
+   "domain": "veeton.co",
+   "funnel": "Pre-lead",
+   "country": null
+  },
+  {
+   "id": 298733621,
+   "name": "The Mobile-First Company",
+   "domain": "themobilefirstcompany.com",
+   "funnel": "Hard to crack",
+   "country": "United States"
+  },
+  {
+   "id": 311601058,
+   "name": "kolet.com",
+   "domain": "kolet.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 294573835,
+   "name": "Twin",
+   "domain": "twin.so",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 294012517,
+   "name": "Pimento",
+   "domain": "pimento.design",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 296509445,
+   "name": "Augment",
+   "domain": "augment.org",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289772294,
+   "name": "ScorePlay",
+   "domain": "scoreplay.io",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289986805,
+   "name": "Nelson Mobility",
+   "domain": "nelson-mobility.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 293727055,
+   "name": "Hyperline",
+   "domain": "hyperline.co",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289768662,
+   "name": "Blobr",
+   "domain": "blobr.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 285960589,
+   "name": "Cohort",
+   "domain": "cohort.xyz",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 285154318,
+   "name": "Simbel ecommerce",
+   "domain": "simbel.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289772613,
+   "name": "Reflect",
+   "domain": "getreflect.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289772431,
+   "name": "Rayon",
+   "domain": "rayon.design",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289770378,
+   "name": "Defacto",
+   "domain": "getdefacto.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 287114450,
+   "name": "Fabriq",
+   "domain": "fabriq.tech",
+   "funnel": "Hard to crack",
+   "country": "France"
+  },
+  {
+   "id": 300446913,
+   "name": "CLIM B",
+   "domain": "climb.fr",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289770044,
+   "name": "Jump",
+   "domain": "join-jump.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289768698,
+   "name": "Unlock",
+   "domain": "joinunlock.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770059,
+   "name": "Hera",
+   "domain": "hera.so",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 313527120,
+   "name": "Yavin",
+   "domain": "yavin.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289770340,
+   "name": "Vertuoza",
+   "domain": "vertuoza.com",
+   "funnel": "Passed",
+   "country": "Belgium"
+  },
+  {
+   "id": 293729550,
+   "name": "Data to design",
+   "domain": "usekernel.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770267,
+   "name": "Faume.co",
+   "domain": "faume.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289770061,
+   "name": "Purchasely / In-App Purchase",
+   "domain": "purchasely.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289770399,
+   "name": "Chaintrust",
+   "domain": "chaintrust.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289771318,
+   "name": "Arianee",
+   "domain": "arianee.org",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289769763,
+   "name": "Sharelock",
+   "domain": "sharelock.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 301577752,
+   "name": "Opal",
+   "domain": "opal.so",
+   "funnel": "Hard to crack",
+   "country": "United States"
+  },
+  {
+   "id": 296509443,
+   "name": "Interstellar Lab",
+   "domain": "interstellarlab.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289767466,
+   "name": "Bigblue",
+   "domain": "bigblue.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769408,
+   "name": "4.5.6 Skin",
+   "domain": "456skin.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289766043,
+   "name": "Exotrail",
+   "domain": "exotrail.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289768379,
+   "name": "Vybe",
+   "domain": "vybecard.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 284362973,
+   "name": "Memo Bank",
+   "domain": "memo.bank",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769114,
+   "name": "api.video",
+   "domain": "api.video",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289766666,
+   "name": "Didomi",
+   "domain": "didomi.io",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289768634,
+   "name": "NuxtJS",
+   "domain": "nuxtjs.org",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289770688,
+   "name": "AssoConnect",
+   "domain": "assoconnect.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289771638,
+   "name": "Gens de Confiance",
+   "domain": "gensdeconfiance.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289759947,
+   "name": "Algolia",
+   "domain": "algolia.com",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289986762,
+   "name": "Cala",
+   "domain": "eatcala.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 296915739,
+   "name": "cozycozy.com",
+   "domain": "cozycozy.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289765485,
+   "name": "Fairjungle",
+   "domain": "fairjungle.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 305860955,
+   "name": "PayFit",
+   "domain": "payfit.fr",
+   "funnel": "Passed",
+   "country": null
+  },
+  {
+   "id": 289772187,
+   "name": "<div>riots",
+   "domain": "divriots.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289767977,
+   "name": "Sybel",
+   "domain": "sybel.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289764354,
+   "name": "Virtuo",
+   "domain": "govirtuo.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289766523,
+   "name": "OVRSEA",
+   "domain": "ovrsea.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765361,
+   "name": "Cowboy",
+   "domain": "cowboy.com",
+   "funnel": "Passed",
+   "country": "Belgium"
+  },
+  {
+   "id": 263724121,
+   "name": "Yousign",
+   "domain": "yousign.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289762469,
+   "name": "Agricool",
+   "domain": "agricool.co",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 302925391,
+   "name": "Diffusely",
+   "domain": "diffuse.ly",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289764762,
+   "name": "Planity",
+   "domain": "planity.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289763438,
+   "name": "Hugging Face",
+   "domain": "huggingface.co",
+   "funnel": "Passed",
+   "country": "United States"
+  }
+ ],
+ "relationships": [],
+ "dormant": {
+  "internal": [
+   "Tony Zappala"
+  ],
+  "last": "2022-03",
+  "context": "Email 'Re: Upflow' from Elziere to Tony Zappala (cc Aashay Shah, Upflow founder Alexandre Louisy); relationship dates to Feb 2013 ('Re: Leaving Index Ventures')"
+ },
+ "notes": "Record under thibaud@e-founders.com; Harmonic portfolio is his personal angel record (eFounders/Hexa studio companies appear where he invested personally)."
+}

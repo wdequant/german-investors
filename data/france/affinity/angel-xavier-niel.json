@@ -1,0 +1,407 @@
+{
+ "slug": "xavier-niel",
+ "affinity_person_id": null,
+ "pipeline": [
+  {
+   "id": 309022427,
+   "name": "Gradium",
+   "domain": "gradium.ai",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 308969289,
+   "name": "genesis-ai",
+   "domain": "genesis-ai.company",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 296915726,
+   "name": "Mobile.club",
+   "domain": "mobile.club",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 297318807,
+   "name": "Cu6e",
+   "domain": "getcube.ai",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 308969201,
+   "name": "H-AI",
+   "domain": "hcompany.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 298733621,
+   "name": "The Mobile-First Company",
+   "domain": "themobilefirstcompany.com",
+   "funnel": "Hard to crack",
+   "country": "United States"
+  },
+  {
+   "id": 308453718,
+   "name": "Cure.51",
+   "domain": "cure51.com",
+   "funnel": "Hard to crack",
+   "country": "France"
+  },
+  {
+   "id": 295040265,
+   "name": "Bioptimus",
+   "domain": "bioptimus.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 292734704,
+   "name": "Omada",
+   "domain": "omadagame.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 290621615,
+   "name": "Mistral AI",
+   "domain": "mistral.ai",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 311186529,
+   "name": "Skarlett",
+   "domain": "skarlett.fr",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289772353,
+   "name": "Evy",
+   "domain": "evy.eu",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 288625844,
+   "name": "Benefiz",
+   "domain": "benefiz.fr",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 294871550,
+   "name": "Kinetix",
+   "domain": "kinetix.tech",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 286440905,
+   "name": "DFNS",
+   "domain": "dfns.co",
+   "funnel": "Lead",
+   "country": "Netherlands"
+  },
+  {
+   "id": 260528755,
+   "name": "Athenian",
+   "domain": "athenian.co",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 295908656,
+   "name": "Zoī",
+   "domain": "zoi.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 293726776,
+   "name": "Muzzo",
+   "domain": "muzzo.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289761872,
+   "name": "DICE",
+   "domain": "dice.fm",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 313527120,
+   "name": "Yavin",
+   "domain": "yavin.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289765070,
+   "name": "Ledgy",
+   "domain": "ledgy.com",
+   "funnel": "Hard to crack",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770227,
+   "name": "Claap",
+   "domain": "claap.io",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 283418003,
+   "name": "Acheel",
+   "domain": "acheel.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 305860955,
+   "name": "PayFit",
+   "domain": "payfit.fr",
+   "funnel": "Passed",
+   "country": null
+  },
+  {
+   "id": 289770121,
+   "name": "Resilience",
+   "domain": "resilience.care",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 284362973,
+   "name": "Memo Bank",
+   "domain": "memo.bank",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 220453053,
+   "name": "iBanFirst",
+   "domain": "ibanfirst.com",
+   "funnel": "Passed",
+   "country": "Belgium"
+  },
+  {
+   "id": 304287422,
+   "name": "MWM",
+   "domain": "musicworldmedia.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289768054,
+   "name": "Kimaï",
+   "domain": "kimai.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289765520,
+   "name": "Impala",
+   "domain": "impala.travel",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 296915739,
+   "name": "cozycozy.com",
+   "domain": "cozycozy.com",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 282349694,
+   "name": "SpaceFill",
+   "domain": "spacefill.fr",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289769213,
+   "name": "Typology",
+   "domain": "typology.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289771699,
+   "name": "Tracktor",
+   "domain": "tracktor.fr",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289766249,
+   "name": "Dreem",
+   "domain": "dreem.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289768479,
+   "name": "Doctrine",
+   "domain": "doctrine.fr",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 285401039,
+   "name": "Luko",
+   "domain": "luko.eu",
+   "funnel": "Deal",
+   "country": "France"
+  },
+  {
+   "id": 289771573,
+   "name": "HrFlow",
+   "domain": "hrflow.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289766461,
+   "name": "La Belle Vie",
+   "domain": "labellevie.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289765327,
+   "name": "Karos",
+   "domain": "karos.fr",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 287148049,
+   "name": "Alan",
+   "domain": "alan.eu",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 289762271,
+   "name": "Side",
+   "domain": "side.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 302925391,
+   "name": "Diffusely",
+   "domain": "diffuse.ly",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289769745,
+   "name": "hemea (ex-Travauxlib)",
+   "domain": "hemea.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765157,
+   "name": "Kactus",
+   "domain": "kactus.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 152838511,
+   "name": "Source(d)",
+   "domain": "sourced.tech",
+   "funnel": "Passed",
+   "country": "Spain"
+  },
+  {
+   "id": 289760240,
+   "name": "Klaxoon",
+   "domain": "klaxoon.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289760664,
+   "name": "Zenly",
+   "domain": "zenly.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289760834,
+   "name": "OpenClassrooms",
+   "domain": "openclassrooms.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289761957,
+   "name": "BRAND AND CELEBRITIES",
+   "domain": "brandandcelebrities.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289763281,
+   "name": "ResearchGate",
+   "domain": "researchgate.net",
+   "funnel": "Passed",
+   "country": "Germany"
+  },
+  {
+   "id": 289761557,
+   "name": "Save",
+   "domain": "save.co",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 1743340,
+   "name": "Devialet",
+   "domain": "en.devialet.com",
+   "funnel": "Lead",
+   "country": null
+  },
+  {
+   "id": 289760813,
+   "name": "Clustree",
+   "domain": "clustree.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 1674907,
+   "name": "Mailcloud",
+   "domain": "mailcloud.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289761847,
+   "name": "Stootie",
+   "domain": "stootie.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769275,
+   "name": "Mirakl",
+   "domain": "mirakl.com",
+   "funnel": "Passed",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "notes": "No Affinity person record found for Xavier Niel (searched 'Xavier Niel' and 'niel@'). Harmonic record is his personal angel profile, separate from Kima Ventures."
+}

@@ -1,0 +1,156 @@
+{
+ "slug": "oleg-tscheltzoff",
+ "affinity_person_id": 8143227,
+ "pipeline": [
+  {
+   "id": 311601160,
+   "name": "BELOY",
+   "domain": "beloy.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289770076,
+   "name": "LiveFlow",
+   "domain": "liveflow.io",
+   "funnel": "Hard to crack",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 293796686,
+   "name": "Aria",
+   "domain": "helloaria.eu",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 284362973,
+   "name": "Memo Bank",
+   "domain": "memo.bank",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289764380,
+   "name": "Wheely",
+   "domain": "wheely.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289768479,
+   "name": "Doctrine",
+   "domain": "doctrine.fr",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 305860955,
+   "name": "PayFit",
+   "domain": "payfit.fr",
+   "funnel": "Passed",
+   "country": null
+  },
+  {
+   "id": 289762352,
+   "name": "Tempow",
+   "domain": "tempow.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 293729573,
+   "name": "GIROPTIC",
+   "domain": "giroptic.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289763530,
+   "name": "Octoly",
+   "domain": "octoly.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289760748,
+   "name": "talent.io",
+   "domain": "talent.io",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289764907,
+   "name": "Hexa",
+   "domain": "hexa3d.io",
+   "funnel": "Lead",
+   "country": "Israel"
+  },
+  {
+   "id": 289761709,
+   "name": "Aircall",
+   "domain": "aircall.io",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 289761880,
+   "name": "StarOfService",
+   "domain": "starofservice.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289762257,
+   "name": "SimpliField",
+   "domain": "simplifield.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289760083,
+   "name": "Sketchfab",
+   "domain": "sketchfab.com",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 289764309,
+   "name": "SoCloz",
+   "domain": "socloz.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289770173,
+   "name": "Plizy",
+   "domain": "plizy.com",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289765007,
+   "name": "Jimmy Fairly",
+   "domain": "jimmyfairly.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289765052,
+   "name": "Kwaga",
+   "domain": "kwaga.com",
+   "funnel": "Lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "dormant": {
+  "internal": [
+   "Laurence Garrett",
+   "Fergal Mullen"
+  ],
+  "last": "2025-09",
+  "context": "Highland Europe LP since 2012 (subscription agreement via Laurence Garrett/Fergal Mullen); recent touchpoints are LP comms - last was Annual Meeting save-the-date from Isabel Wright (dropped as internal), Sep 2025"
+ },
+ "notes": "Only live relationship score was Isabel Wright (0.1), dropped as internal per instructions."
+}

@@ -1,0 +1,414 @@
+{
+ "slug": "olivier-pomel",
+ "affinity_person_id": 16509620,
+ "pipeline": [
+  {
+   "id": 312801687,
+   "name": "Tolmo",
+   "domain": "tolmo.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 313395156,
+   "name": "Arrakis Technologies",
+   "domain": "arrakistechnologies.ai",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 305446427,
+   "name": "Archestra",
+   "domain": "archestra.ai",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 312684017,
+   "name": "White Circle",
+   "domain": "whitecircle.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 311186665,
+   "name": "Tower",
+   "domain": "tower.dev",
+   "funnel": "Awaiting Reply",
+   "country": "Germany"
+  },
+  {
+   "id": 313527532,
+   "name": "Fundamental",
+   "domain": "fundamental.tech",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 311995909,
+   "name": "entire",
+   "domain": "entire.io",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 307705745,
+   "name": "Formel",
+   "domain": "formel.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 309022427,
+   "name": "Gradium",
+   "domain": "gradium.ai",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 310606033,
+   "name": "UMA",
+   "domain": "uma.bot",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 311186684,
+   "name": "DotBlocks",
+   "domain": "dotblocks.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 312898403,
+   "name": "Aisles",
+   "domain": "aisle.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 305263420,
+   "name": "Clarifeye",
+   "domain": "clarifeye.ai",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 289768493,
+   "name": "Qovery",
+   "domain": "qovery.com",
+   "funnel": "Hard to crack",
+   "country": "United States"
+  },
+  {
+   "id": 301135234,
+   "name": "nexos.ai",
+   "domain": "nexos.ai",
+   "funnel": "Awaiting Reply",
+   "country": "Lithuania"
+  },
+  {
+   "id": 308969269,
+   "name": "Arago AI",
+   "domain": "arago.inc",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 294890340,
+   "name": "Lovable",
+   "domain": "lovable.dev",
+   "funnel": "Deprioritised (free for all)",
+   "country": "Sweden"
+  },
+  {
+   "id": 305263419,
+   "name": "Altertable",
+   "domain": "altertable.ai",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 311171470,
+   "name": "OpenTaco",
+   "domain": "opentaco.dev",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 298733603,
+   "name": "Ankar.ai",
+   "domain": "ankar.ai",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 311186628,
+   "name": "Plakar",
+   "domain": "plakar.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 303536584,
+   "name": "Doubleword",
+   "domain": "doubleword.ai",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 293729576,
+   "name": "qevlar",
+   "domain": "qevlar.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289772297,
+   "name": "Eden AI",
+   "domain": "edenai.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 296509984,
+   "name": "Pruna AI",
+   "domain": "pruna.ai",
+   "funnel": "Lead",
+   "country": "Germany"
+  },
+  {
+   "id": 293728733,
+   "name": "Kestra",
+   "domain": "kestra.io",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289770575,
+   "name": "nagish",
+   "domain": "talknagish.com",
+   "funnel": "Hard to crack",
+   "country": "United States"
+  },
+  {
+   "id": 297318607,
+   "name": "Restate",
+   "domain": "restate.dev",
+   "funnel": "Lead",
+   "country": "Germany"
+  },
+  {
+   "id": 297318807,
+   "name": "Cu6e",
+   "domain": "getcube.ai",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 293729596,
+   "name": "agemo",
+   "domain": "agemo.ai",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 308453718,
+   "name": "Cure.51",
+   "domain": "cure51.com",
+   "funnel": "Hard to crack",
+   "country": "France"
+  },
+  {
+   "id": 289772355,
+   "name": "Mindflow",
+   "domain": "mindflow.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 294573835,
+   "name": "Twin",
+   "domain": "twin.so",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 312445090,
+   "name": "CodeWords",
+   "domain": "codewords.ai",
+   "funnel": "Pre-lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 298262405,
+   "name": "Crossbow Technologies",
+   "domain": "xbow.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 285424651,
+   "name": "Causaly",
+   "domain": "causaly.com",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289986738,
+   "name": "dust.tt",
+   "domain": "dust.tt",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289766850,
+   "name": "Synthesia",
+   "domain": "synthesia.io",
+   "funnel": "Passed",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289760093,
+   "name": "Dataiku",
+   "domain": "dataiku.com",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 289767120,
+   "name": "Fintecture",
+   "domain": "fintecture.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769808,
+   "name": "Ona (formerly Gitpod)",
+   "domain": "gitpod.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "Germany"
+  },
+  {
+   "id": 289770697,
+   "name": "Grafbase",
+   "domain": "grafbase.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 286824396,
+   "name": "Kurtosis",
+   "domain": "kurtosistech.com",
+   "funnel": "Pre-lead",
+   "country": "United States"
+  },
+  {
+   "id": 289763438,
+   "name": "Hugging Face",
+   "domain": "huggingface.co",
+   "funnel": "Passed",
+   "country": "United States"
+  },
+  {
+   "id": 293726989,
+   "name": "Supernova",
+   "domain": "supernova.ai",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289769795,
+   "name": "Soveren",
+   "domain": "soveren.io",
+   "funnel": "Lead",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289770391,
+   "name": "getprofian",
+   "domain": "profian.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289770129,
+   "name": "Taktile",
+   "domain": "taktile.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289764856,
+   "name": "Stream",
+   "domain": "getstream.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289769350,
+   "name": "Kili Technology",
+   "domain": "kili-technology.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289772669,
+   "name": "Tana",
+   "domain": "tana.inc",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 293728278,
+   "name": "Escape",
+   "domain": "escape.tech",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 224119125,
+   "name": "Evervault",
+   "domain": "evervault.io",
+   "funnel": "Awaiting Reply",
+   "country": "United States"
+  },
+  {
+   "id": 289762270,
+   "name": "CybelAngel",
+   "domain": "cybelangel.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 283153432,
+   "name": "Maze",
+   "domain": "maze.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289762357,
+   "name": "TypingDNA",
+   "domain": "typingdna.com",
+   "funnel": "Lead",
+   "country": "United States"
+  },
+  {
+   "id": 289762278,
+   "name": "Castle",
+   "domain": "castle.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  }
+ ],
+ "relationships": [],
+ "dormant": {
+  "internal": [
+   "Fergal Mullen",
+   "Ronan Shally"
+  ],
+  "last": "2023-06",
+  "context": "Nexthink investor-distribution threads where Pomel is cc'd as a Nexthink angel (first: Nov 2018 'Series C - Cap table V11'); no direct Datadog-side dialogue"
+ }
+}

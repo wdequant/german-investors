@@ -1,0 +1,204 @@
+{
+ "slug": "didier-valet",
+ "affinity_person_id": 230252896,
+ "pipeline": [
+  {
+   "id": 302925404,
+   "name": "Little John",
+   "domain": "little-john.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289766022,
+   "name": "Upflow",
+   "domain": "upflow.io",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 293729646,
+   "name": "Fence",
+   "domain": "fence.finance",
+   "funnel": "Awaiting Reply",
+   "country": "Spain"
+  },
+  {
+   "id": 293729458,
+   "name": "Plumery",
+   "domain": "plumery.com",
+   "funnel": "Lead",
+   "country": "Netherlands"
+  },
+  {
+   "id": 289771124,
+   "name": "Nilos",
+   "domain": "nilos.io",
+   "funnel": "Awaiting Reply",
+   "country": "Israel"
+  },
+  {
+   "id": 292911522,
+   "name": "MarketLeap",
+   "domain": "marketleap.ai",
+   "funnel": "Awaiting Reply",
+   "country": "Luxembourg"
+  },
+  {
+   "id": 289772635,
+   "name": "JUST.",
+   "domain": "getjust.eu",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289770378,
+   "name": "Defacto",
+   "domain": "getdefacto.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289772385,
+   "name": "THYNK.Cloud",
+   "domain": "thynk.cloud",
+   "funnel": "Deprioritised (free for all)",
+   "country": "Belgium"
+  },
+  {
+   "id": 312898624,
+   "name": "Bon Vivant",
+   "domain": "verley-food.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 298733454,
+   "name": "Qlower",
+   "domain": "qlower.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289772489,
+   "name": "Rollee",
+   "domain": "getrollee.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 284149104,
+   "name": "Qobra",
+   "domain": "qobra.co",
+   "funnel": "Deal",
+   "country": "France"
+  },
+  {
+   "id": 293396974,
+   "name": "Kubolabs",
+   "domain": "kubolabs.io",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 300074740,
+   "name": "Pennylane",
+   "domain": "pennylane.com",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289770668,
+   "name": "Bifröst",
+   "domain": "bifrost.re",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289760759,
+   "name": "Mambu",
+   "domain": "mambu.com",
+   "funnel": "Passed",
+   "country": "Netherlands"
+  },
+  {
+   "id": 289770345,
+   "name": "Shares",
+   "domain": "shares.io",
+   "funnel": "Reach Out Now",
+   "country": "France"
+  },
+  {
+   "id": 285253676,
+   "name": "finary",
+   "domain": "finary.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289769963,
+   "name": "teale",
+   "domain": "teale.io",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 287828553,
+   "name": "Rosaly",
+   "domain": "rosaly.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 286179734,
+   "name": "Biloba LLC",
+   "domain": "biloba.com",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 293728301,
+   "name": "Silvr",
+   "domain": "silvr.co",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289767639,
+   "name": "Mansa",
+   "domain": "getmansa.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 281480778,
+   "name": "Leocare",
+   "domain": "leocare.eu",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289767243,
+   "name": "Kard",
+   "domain": "kard.eu",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289768532,
+   "name": "Sarus",
+   "domain": "sarus.tech",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289766995,
+   "name": "Epsor",
+   "domain": "epsor.fr",
+   "funnel": "Lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "notes": "Person record exists (didier@varsity.vc) but has no interaction history and no relationship scores."
+}

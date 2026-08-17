@@ -1,0 +1,106 @@
+{
+ "slug": "pkm",
+ "affinity_person_id": 10352136,
+ "pipeline": [
+  {
+   "id": 293838939,
+   "name": "Sora",
+   "domain": "sora.space",
+   "funnel": "Awaiting Reply",
+   "country": "France"
+  },
+  {
+   "id": 289771699,
+   "name": "Tracktor",
+   "domain": "tracktor.fr",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289767452,
+   "name": "Wecasa",
+   "domain": "wecasa.fr",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289769824,
+   "name": "PowerZ",
+   "domain": "powerz.tech",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 310621398,
+   "name": "Alegria Solutions",
+   "domain": "alegria-solutions.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 293727355,
+   "name": "Syroco",
+   "domain": "syro.co",
+   "funnel": "Pre-lead",
+   "country": "France"
+  },
+  {
+   "id": 289767209,
+   "name": "Mytraffic",
+   "domain": "mytraffic.io",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289765575,
+   "name": "Ouihelp",
+   "domain": "ouihelp.fr",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289766515,
+   "name": "Pretto",
+   "domain": "pretto.fr",
+   "funnel": "Lead",
+   "country": "France"
+  },
+  {
+   "id": 289764338,
+   "name": "Patatam",
+   "domain": "patatam.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 152837475,
+   "name": "Doctolib",
+   "domain": "doctolib.com",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 289765019,
+   "name": "Gojob",
+   "domain": "gojob.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 307397621,
+   "name": "Tutteo",
+   "domain": "tutteo.com",
+   "funnel": "Awaiting Reply",
+   "country": "United Kingdom"
+  },
+  {
+   "id": 289766648,
+   "name": "Smartdate",
+   "domain": "smartdate.com",
+   "funnel": "Passed",
+   "country": "France"
+  }
+ ],
+ "relationships": [],
+ "notes": "Person record exists (pkm@priceminister.com) but has no interaction history and no relationship scores."
+}

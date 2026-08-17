@@ -1,0 +1,42 @@
+{
+ "slug": "antoine-martin",
+ "affinity_person_id": 192073465,
+ "pipeline": [
+  {
+   "id": 289767964,
+   "name": "Cycle",
+   "domain": "cycle.app",
+   "funnel": "Deprioritised (free for all)",
+   "country": "United States"
+  },
+  {
+   "id": 289770061,
+   "name": "Purchasely / In-App Purchase",
+   "domain": "purchasely.com",
+   "funnel": "Deprioritised (free for all)",
+   "country": "France"
+  },
+  {
+   "id": 289767443,
+   "name": "Bellman",
+   "domain": "bellman.immo",
+   "funnel": "Passed",
+   "country": "France"
+  },
+  {
+   "id": 296915726,
+   "name": "Mobile.club",
+   "domain": "mobile.club",
+   "funnel": "Lead",
+   "country": "France"
+  }
+ ],
+ "relationships": [
+  {
+   "internal": "Lucinda Maxwell",
+   "score": 0.1,
+   "linkedin": false
+  }
+ ],
+ "notes": "Lucinda Maxwell cold outreach thread on Amo (Apr 2024 - Jan 2025); no meetings held."
+}
