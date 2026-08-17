@@ -99,6 +99,7 @@ def assemble(team):
         co = coinvest.get(name)
         entities.append({
             "name": name, "slug": slug, "kind": kind, "category": inv["category"],
+            "li": inv.get("linkedin") if kind == "angel" else None,
             "city": (inv.get("city") or "") + (f" · {inv['cc']}" if inv.get("cc") else ""),
             "note": ANGEL_NOTE.get(name),
             "num_investments": inv.get("num_investments"), "unicorns": inv.get("num_unicorns"),

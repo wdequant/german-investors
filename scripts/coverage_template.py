@@ -128,6 +128,8 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 .plist .st{display:inline-block;min-width:112px;margin-right:8px;font-size:11px;color:var(--muted)}
 .plist .cc{color:var(--muted);font-size:10.5px}
 .plist .offr{opacity:.5}
+.pt.bridge{color:var(--ink2)}
+.fmeta .cc{color:var(--muted);font-size:11px}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
 .tmcols h6{font-size:12.5px;color:var(--accent-ink);margin-bottom:5px}
@@ -317,15 +319,23 @@ function ptsHTML(e){
       return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
     }).join('')+dormP;
     if(!mine){
+      const bits=[];
       const best = e.points && e.points[0];
-      mine = best ? `<span class="askx">ask <b>${best.internal}</b> (${best.external}${best.pct!=null?' · '+best.pct+'%':''})</span>`
-                  : `<span style="color:var(--muted)">no team path either</span>`;
+      if(best) bits.push(`<span class="askx">ask <b>${best.internal}</b> (${best.external}${best.pct!=null?' · '+best.pct+'%':''})</span>`);
+      if(!best && e.dormant) bits.push(`<span class="pt dorm" title="${e.dormant.context}">⏱ dormant — <b>${e.dormant.internal.join(' + ')}</b> <span class="via">· ${e.dormant.last}</span></span>`);
+      if(!best) bits.push(...bridgeLines(e));
+      mine = bits.join('') || `<span style="color:var(--muted)">no team path either</span>`;
     }
     return `<div class="pts">${mine}</div>`;
   }
   const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>` : '';
-  if(!e.points.length && !dorm) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
-  return `<div class="pts">`+e.points.map(pathLine).join('')+dorm+`</div>`;
+  const bridges = !e.points.length ? bridgeLines(e).join('') : '';
+  if(!e.points.length && !dorm && !bridges) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
+  return `<div class="pts">`+e.points.map(pathLine).join('')+dorm+bridges+`</div>`;
+}
+function bridgeLines(e){
+  return (e.bridges||[]).slice(0,2).map(b=>
+    `<span class="pt bridge">↪ via <b>${b.name}</b> <span class="via">(${b.internal}${b.pct!=null?' · '+b.pct+'%':''})</span></span>`);
 }
 function rowHTML(e){
   const v = eff(e);
@@ -334,9 +344,11 @@ function rowHTML(e){
   const unt = (e.untracked||[]).length?`<span class="badge unt">${e.untracked.length} untracked EU deals</span>`:'';
   const lastT = e.fund_last?`<span>last touch ${fmtD(e.fund_last)}</span>`:'';
   const noCrm = e.no_crm?`<a class="badge" href="${e.harmonic_url}" target="_blank" rel="noopener">no CRM record · Harmonic ↗</a>`:'';
+  const known = e.kind==='angel' && (e.notable||[]).length
+    ? `<span class="cc">known for: ${e.notable.slice(0,3).map(n=>n.name).join(', ')}</span>` : '';
   const meta = e.kind==='fund'
     ? `<span class="badge">${e.category.toUpperCase()}</span><span>${e.city||''}</span>${lastT}${co}${unt}`
-    : `<span>${e.note||''}</span>${lastT}${noCrm}`;
+    : `<span>${e.note||''}</span>${known}${lastT}${noCrm}`;
   const nm = e.kind==='angel' && e.li ? `<a href="${e.li}" target="_blank" rel="noopener">${e.name}</a>`
     : e.website ? `<a href="https://${e.website}" target="_blank" rel="noopener">${e.name}</a>` : e.name;
   const covTitle = e.cov_parts?`Harmonic ${Math.round(e.cov_parts.h*100)} · Affinity ${Math.round(e.cov_parts.a*100)} × decay ${e.cov_parts.decay}`:'';
@@ -360,6 +372,10 @@ function detailHTML(e){
   } else if(e.relevance){
     const r=e.relevance;
     h += `<div class="meta-line">Angel relevance ${r.total} (deals ${r.deals} · outcomes ${r.uni} · syndication ${r.synd} · our-pipeline presence ${r.pipe}) · ${e.num_investments??'—'} tracked deals</div>`;
+  }
+  if(e.kind==='angel' && (e.notable||[]).length){
+    h += `<h5>Why they're on the list — notable positions</h5><div class="plist">`+
+      e.notable.map(n=>`<span>${n.harmonic_company_id?`<a href="https://console.harmonic.ai/dashboard/company/${n.harmonic_company_id}" target="_blank" rel="noopener">${n.name}</a>`:`<b>${n.name}</b>`} <span class="cc">${n.why||''}</span></span>`).join('')+`</div>`;
   }
   if((e.untracked||[]).length){
     h += `<details class="sec"><summary>Recent EU deals we're not tracking <b>${e.untracked.length}</b>${e.recent_eu?`<span class="cnt">of ${e.recent_eu} recent EU deals</span>`:''}</summary><div class="plist">`+
@@ -418,12 +434,30 @@ function regionCountries(){
   return state.region==='germany' ? new Set(['Germany']) : new Set(['Sweden','Denmark','Norway','Finland','Iceland']);
 }
 function dormantMail(e){
-  const to = {"Gaj Rajanathan":"gajan","Harry Williams":"harry","Sam Brooks":"sam","Ronan Shally":"ronan",
+  const MAIL = {"Gaj Rajanathan":"gajan","Harry Williams":"harry","Sam Brooks":"sam","Ronan Shally":"ronan",
     "Fergal Mullen":"fergal","David Blyghton":"david","Helena Richardson":"helena","Laurence Garrett":"laurence",
-    "Irena Goldenberg":"irena"}[e.dormant.internal[0]];
-  const addr = to?`${to}@highlandeurope.com`:'';
-  const sub = encodeURIComponent(`Re-warm ${e.name}?`);
-  const body = encodeURIComponent(`You had a thread with ${e.name} (${e.dormant.context}; last touch ${e.dormant.last}). Worth re-warming? Coverage map flags them at ${e.connectivity}/100 with relevance ${e.relevance?e.relevance.total:'—'}.`);
+    "Irena Goldenberg":"irena","Will de Quant":"william"};
+  const d = e.dormant;
+  const first = d.internal[0].split(' ')[0];
+  const addr = (MAIL[d.internal[0]]||first.toLowerCase())+'@highlandeurope.com';
+  const others = d.internal.slice(1).map(n=>n.split(' ')[0]);
+  const yr = (d.last||'').slice(0,4);
+  const who = others.length?`you and ${others.join(' and ')} were in touch with`:`you were in touch with`;
+  const li = e.li?` (${e.li})`:'';
+  const pipe = pipeCount(e);
+  const fn = e.name.split(' ')[0];
+  const kind = e.kind==='angel'?`${fn} is one of the more active angels on our ${D.regions[state.region].adj} coverage map`:`${e.name} is one of the more relevant funds on our ${D.regions[state.region].adj} coverage map`;
+  const pipeBit = pipe?` — ${pipe} compan${pipe===1?'y':'ies'} on their cap tables overlap our pipeline —`:'';
+  const sender = state.person?state.person.split(' ')[0]:'';
+  const sub = encodeURIComponent(`${e.name} — worth re-warming?`);
+  const body = encodeURIComponent(
+`Hi ${first},
+
+Quick one — ${who} ${e.name}${li} back in ${yr} as far as I can tell, but nothing since ${fmtD(d.last)||d.last}.
+
+${kind}${pipeBit} and right now nobody at Highland has a live line in. Feels worth picking the thread back up — any appetite? Happy to run with it if you'd rather just make the intro.
+
+${sender}`);
   return `mailto:${addr}?subject=${sub}&body=${body}`;
 }
 

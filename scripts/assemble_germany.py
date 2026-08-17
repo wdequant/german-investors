@@ -102,6 +102,7 @@ def assemble(team):
                 "linkedin": a["li"], "src": "affinity"} for p in tp if p["aff"] > 0][:3]
         entities.append({
             "name": a["name"], "slug": a["slug"], "kind": "angel", "category": "angel",
+            "li": a["li"],
             "city": None, "note": a["note"], "num_investments": a["inv"],
             "unicorns": None, "last_investment": None,
             "relevance": None, "top_people": tp, "points": pts,

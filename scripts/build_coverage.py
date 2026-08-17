@@ -15,6 +15,7 @@ roster = [m["name"] for m in team] + ["Fergal Mullen", "Laurence Garrett", "Rona
 empflags = load_json(f"{ROOT}/data/enrich/employment-flags.json", {})
 htc_owners = load_json(f"{ROOT}/data/enrich/htc-owners.json", {})
 aff_dump = load_json(f"{ROOT}/data/affinity/_list-entries.json", {})
+angel_deals = load_json(f"{ROOT}/data/enrich/angel-deals.json", {})
 
 pmeta_germany = {}
 for part in ("a", "b"):
@@ -65,6 +66,7 @@ for key, cfg in REGION_CFG.items():
     # angel relevance + gap (needs syndication + pipeline counts)
     for e in ents:
         if e["kind"] == "angel":
+            e["notable"] = (angel_deals.get(key) or {}).get(e["slug"]) or []
             pipe_active = sum(len(e["buckets"][k]) for k in
                               ("prelead", "reachout", "awaiting", "lead", "hard"))
             synd = sum(1 for s in e.get("syndication", []) if s["tier"] == "strong")
