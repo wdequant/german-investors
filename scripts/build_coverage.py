@@ -21,9 +21,13 @@ pmeta_germany = {}
 for part in ("a", "b"):
     for slug, d in (load_json(f"{ROOT}/data/enrich/partners-meta-germany-{part}.json", {}) or {}).items():
         pmeta_germany.setdefault(slug, {}).update(d)
+pmeta_france = {}
+for part in ("a", "b"):
+    for slug, d in (load_json(f"{ROOT}/data/enrich/partners-meta-france-{part}.json", {}) or {}).items():
+        pmeta_france.setdefault(slug, {}).update(d)
 PMETA = {"germany": pmeta_germany,
          "nordics": load_json(f"{ROOT}/data/enrich/partners-meta-nordics.json", {}) or {},
-         "france": load_json(f"{ROOT}/data/enrich/partners-meta-france.json", {}) or {}}
+         "france": pmeta_france}
 
 
 def merge_10x(ents):
