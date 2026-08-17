@@ -440,7 +440,9 @@ function detailHTML(e){
   return h;
 }
 function regionCountries(){
-  return state.region==='germany' ? new Set(['Germany']) : new Set(['Sweden','Denmark','Norway','Finland','Iceland']);
+  if(state.region==='germany') return new Set(['Germany']);
+  if(state.region==='france') return new Set(['France','Belgium','Luxembourg','Monaco']);
+  return new Set(['Sweden','Denmark','Norway','Finland','Iceland']);
 }
 function dormantMail(e){
   const MAIL = {"Gaj Rajanathan":"gajan","Harry Williams":"harry","Sam Brooks":"sam","Ronan Shally":"ronan",
