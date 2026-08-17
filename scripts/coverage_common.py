@@ -548,6 +548,14 @@ def affinity_sync(entities, dump, region_key):
                 keep.append(u)
         if e.get("untracked") is not None:
             e["untracked"] = keep
+
+    # stamp Affinity owners onto every pipeline item (drives personal pipeline view)
+    id2own = {ent["id"]: [NAME_MAP.get(o, o) for o in (ent.get("owners") or [])
+                          if o not in EX_STAFF] for ent in entries}
+    for e in entities:
+        for lst in e["buckets"].values():
+            for p in lst:
+                p["own"] = id2own.get(p["id"], p.get("own") or [])
     return added_by, rescued
 
 

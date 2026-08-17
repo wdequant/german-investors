@@ -92,6 +92,9 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .chip.lead{background:var(--c-lead);color:var(--c-lead-ink)}
 .chip.hard{background:var(--c-hard);color:var(--c-hard-ink)}
 .chip:hover{border-color:currentColor}
+.chip .of{font-weight:400;opacity:.65;font-size:10.5px}
+.chip.dim{opacity:.45}
+.covcell .teamcov{color:var(--muted);font-size:10.5px;white-space:nowrap}
 .pts{font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:3px;min-width:220px}
 .pts .pt b{color:var(--ink);font-weight:570}
 .pts .via{color:var(--muted)}
@@ -228,7 +231,10 @@ const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
 const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:""};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
-const pipeCount = e => BUCKETS.reduce((m,[k])=>m+e.buckets[k].length,0);
+const isOwned = p => state.person && (p.own||[]).some(o=>o===state.person||o.startsWith(state.person.split(' ')[0]));
+const bucketN = (e,k) => state.person ? e.buckets[k].filter(isOwned).length : e.buckets[k].length;
+const pipeCount = e => BUCKETS.reduce((m,[k])=>m+bucketN(e,k),0);
+const pipeCountTeam = e => BUCKETS.reduce((m,[k])=>m+e.buckets[k].length,0);
 const fmtD = s => s ? new Date(s).toLocaleDateString('en-GB',{month:'short',year:'2-digit'}) : null;
 const isStale = s => !s || (Date.now()-new Date(s).getTime()) > 365*864e5;
 
@@ -272,7 +278,7 @@ function scoreboard(){
   document.getElementById('score').innerHTML = `
     <div class="s"><b>${f.length}+${E().length-f.length}</b><span>funds + angels</span></div>
     <div class="s"><b>${f.filter(e=>e.coinvest.length).length}</b><span>co-invested with</span></div>
-    <div class="s"><b>${live}</b><span>live pipeline overlaps</span></div>
+    <div class="s"><b>${live}</b><span>${state.person?state.person.split(' ')[0]+"'s pipeline overlaps":'live pipeline overlaps'}</span></div>
     <div class="s warn"><b>${hard}</b><span>hard-to-cracks reachable</span></div>
     <div class="s warn"><b>${unt}</b><span>untracked recent EU deals</span></div>
     <div class="s crit"><b>${gaps.length}</b><span>${state.person?'uncovered by '+state.person.split(' ')[0]:'relevant funds uncovered'}</span></div>`;
@@ -306,6 +312,14 @@ function headHTML(){
   return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
 }
 function chipHTML(e){
+  if(state.person){  // own count vs team count, side by side
+    const chips = BUCKETS.map(([k,label])=>{
+      const team = e.buckets[k].length; if(!team) return '';
+      const own = e.buckets[k].filter(isOwned).length;
+      return `<span class="chip ${k}${own?'':' dim'}" data-k="${k}"><b>${own}</b><span class="of">/${team}</span> ${label}</span>`;
+    }).join('');
+    return chips || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
+  }
   return BUCKETS.map(([k,label])=>{
     const n = e.buckets[k].length;
     return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
@@ -366,7 +380,7 @@ function rowHTML(e){
   const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div></td>
-    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b></div></td>
+    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b>${state.person?`<span class="teamcov">team ${e.connectivity}</span>`:''}</div></td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
@@ -395,12 +409,19 @@ function detailHTML(e){
   const secs = [...BUCKETS,["portfolio","Portfolio company"]];
   const isGlobal = (e.buckets.prelead.concat(e.buckets.lead)).some(p=>p.country!==undefined);
   const inRegion = p => !isGlobal || p.country===undefined || p.country===null || regionCountries().has(p.country);
+  const pitem = (p,cls) => `<span${cls?` class="${cls}"`:''}><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${(p.own||[]).length?` <span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</span>`;
   for(const [k,label] of secs){
     const list=e.buckets[k]; if(!list||!list.length) continue;
+    if(state.person){
+      const own = list.filter(isOwned), rest = list.filter(p=>!isOwned(p));
+      h += `<details class="sec" id="sec-${e.slug}-${k}"><summary>${label} <b>${own.length}</b><span class="cnt">of ${list.length} team-wide owned by ${state.person.split(' ')[0]}</span></summary><div class="plist">`+
+        own.map(p=>pitem(p,'')).join('')+rest.map(p=>pitem(p,'offr')).join('')+`</div></details>`;
+      continue;
+    }
     const inR = list.filter(inRegion), outR = list.filter(p=>!inRegion(p));
     h += `<details class="sec" id="sec-${e.slug}-${k}"><summary>${label} <b>${list.length}</b>${outR.length?`<span class="cnt">${inR.length} in region</span>`:''}</summary><div class="plist">`+
-      inR.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a></span>`).join('')+
-      outR.map(p=>`<span class="offr"><span class="st">${(p.funnel||'—')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.country||''}</span></span>`).join('')+`</div></details>`;
+      inR.map(p=>pitem(p,'')).join('')+
+      outR.map(p=>pitem(p,'offr')).join('')+`</div></details>`;
   }
   if(e.dormant){
     const mail = dormantMail(e);
