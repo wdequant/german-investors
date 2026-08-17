@@ -149,7 +149,7 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 .minibtn{border:1px solid var(--hair);background:var(--raise);color:var(--ink2);border-radius:7px;
   padding:4px 10px;font-size:11.5px;cursor:pointer;text-decoration:none;font-weight:550}
 .minibtn:hover{border-color:var(--accent);color:var(--accent-ink)}
-.note{font-size:12.5px;color:var(--muted);margin-top:48px;max-width:88ch;line-height:1.65;
+.note{font-size:12.5px;color:var(--muted);margin-top:48px;line-height:1.65;
   border-top:1px solid var(--hair);padding-top:18px}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--page);
   border-radius:8px;padding:10px 18px;font-size:13px;display:none;z-index:40}
