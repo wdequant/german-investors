@@ -220,9 +220,9 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
   #sheet.open{display:block}
   .sheethead{position:sticky;top:0;background:var(--page);border-bottom:1px solid var(--hair);
     display:flex;align-items:center;gap:10px;padding:13px 16px;z-index:5}
-  .sheethead .fname{flex:1;font-size:16px}
+  .sheethead .fname{flex:1;font-size:16px;padding-right:52px} /* keep clear of the host viewer's floating button */
   .sheethead button{background:var(--surface);border:1px solid var(--hair);border-radius:8px;
-    width:34px;height:34px;font-size:15px;color:var(--ink2);cursor:pointer;flex:none}
+    width:34px;height:34px;font-size:16px;color:var(--ink2);cursor:pointer;flex:none}
   .sheetstats{display:flex;gap:18px;padding:12px 16px;border-bottom:1px solid var(--hair);font-size:12px;color:var(--muted)}
   .sheetstats b{display:block;font-size:19px;color:var(--ink);font-variant-numeric:tabular-nums}
   .sheetbody{padding:14px 16px 60px}
@@ -271,7 +271,7 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 
 <div id="mlist"></div>
 <div id="sheet" role="dialog" aria-modal="true">
-  <div class="sheethead"><div class="fname" id="sheetname"></div><button id="sheetclose" aria-label="Close">✕</button></div>
+  <div class="sheethead"><button id="sheetclose" aria-label="Close">←</button><div class="fname" id="sheetname"></div></div>
   <div class="sheetstats" id="sheetstats"></div>
   <div class="sheetbody"><div class="detail" id="sheetdetail"></div></div>
 </div>
