@@ -1,0 +1,18 @@
+{
+  "slug": "tommy-ahlers",
+  "affinity_person_id": 144542443,
+  "pipeline": [
+    {"id": 289772147, "name": "Ento Labs", "domain": "ento.ai", "funnel": "Pre-lead", "country": "Denmark"},
+    {"id": 287456578, "name": "Worksome", "domain": "worksome.com", "funnel": "Deprioritised (free for all)", "country": "United States"},
+    {"id": 289761574, "name": "Lix Technologies", "domain": "lix.com", "funnel": "Passed", "country": "Denmark"},
+    {"id": 295908337, "name": "Blast", "domain": "blast.tv", "funnel": "Deprioritised (free for all)", "country": "United States"},
+    {"id": 304287733, "name": "Peakon", "domain": "peakon.com", "funnel": "Passed", "country": "United States"},
+    {"id": 289761811, "name": "GameAnalytics", "domain": "gameanalytics.com", "funnel": "Passed", "country": "United Kingdom"}
+  ],
+  "relationships": [
+    {"internal": "Will de Quant", "score": 0.33, "linkedin": false},
+    {"internal": "Helena Richardson", "score": 0.1, "linkedin": false},
+    {"internal": "Abhishek Lahoti", "score": 0.1, "linkedin": false}
+  ],
+  "notes": "Second Affinity person record exists under tommy@lookupventures.com (id 249897078); its only relationship is Isabel Wright (0.51), dropped as internal."
+}

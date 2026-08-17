@@ -1,0 +1,16 @@
+{
+  "slug": "marcus-krylborn",
+  "affinity_person_id": 249620693,
+  "pipeline": [
+    {"id": 305263401, "name": "kiku", "domain": "getkiku.com", "funnel": "Pre-lead", "country": "Denmark"},
+    {"id": 290358096, "name": "Strise", "domain": "strise.ai", "funnel": "Deprioritised (free for all)", "country": null},
+    {"id": 289771136, "name": "Heyhack", "domain": "heyhack.com", "funnel": "Deprioritised (free for all)", "country": "Denmark"},
+    {"id": 310605998, "name": "Star Cloud", "domain": "starcloud.com", "funnel": "Pre-lead", "country": "United States"},
+    {"id": 301086541, "name": "qodo", "domain": "qodo.ai", "funnel": "Deprioritised (free for all)", "country": "United States"},
+    {"id": 289772605, "name": "Magic", "domain": "magic.dev", "funnel": "Passed", "country": "United States"}
+  ],
+  "relationships": [
+    {"internal": "Will de Quant", "score": 1.0, "linkedin": false},
+    {"internal": "Helena Richardson", "score": 1.0, "linkedin": false}
+  ]
+}

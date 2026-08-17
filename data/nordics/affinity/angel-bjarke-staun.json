@@ -1,0 +1,23 @@
+{
+  "slug": "bjarke-staun",
+  "affinity_person_id": 144542297,
+  "pipeline": [
+    {"id": 308969324, "name": "Spiich", "domain": "spiich.ai", "funnel": "Pre-lead", "country": "Sweden"},
+    {"id": 305263428, "name": "Credibur", "domain": "credibur.com", "funnel": "Pre-lead", "country": "Germany"},
+    {"id": 294890340, "name": "Lovable", "domain": "lovable.dev", "funnel": "Deprioritised (free for all)", "country": "Sweden"},
+    {"id": 289771257, "name": "Unify (Ivy)", "domain": "unify.ai", "funnel": "Awaiting Reply", "country": "United Kingdom"},
+    {"id": 295039836, "name": "Pluto Markets", "domain": "pluto.markets", "funnel": "Awaiting Reply", "country": "Denmark"},
+    {"id": 289771136, "name": "Heyhack", "domain": "heyhack.com", "funnel": "Deprioritised (free for all)", "country": "Denmark"},
+    {"id": 289769028, "name": "MeetButter", "domain": "butter.us", "funnel": "Deprioritised (free for all)", "country": "Denmark"},
+    {"id": 310605998, "name": "Star Cloud", "domain": "starcloud.com", "funnel": "Pre-lead", "country": "United States"},
+    {"id": 297295069, "name": "Tandem Health", "domain": "tandemhealth.ai", "funnel": "Deprioritised (free for all)", "country": "Sweden"},
+    {"id": 289770880, "name": "ATLAR P/L", "domain": "atlar.com", "funnel": "Lead", "country": "Sweden"},
+    {"id": 295908693, "name": "Spektr", "domain": "spektr.com", "funnel": "Hard to crack", "country": "Denmark"},
+    {"id": 304701836, "name": "Light", "domain": "light.inc", "funnel": "Lead", "country": "Denmark"}
+  ],
+  "relationships": [
+    {"internal": "Will de Quant", "score": 0.99, "linkedin": false},
+    {"internal": "Helena Richardson", "score": 0.97, "linkedin": false},
+    {"internal": "Lucinda Maxwell", "score": 0.35, "linkedin": false}
+  ]
+}

@@ -1,127 +1,577 @@
 {
  "germany": {
   "mario-goetze": [
-   {"name": "Parloa", "why": "$567M raised, unicorn", "harmonic_company_id": 464412},
-   {"name": "Flatpay", "why": "$296M raised", "harmonic_company_id": 10879280},
-   {"name": "Knowunity", "why": "$54M raised", "harmonic_company_id": 2107094},
-   {"name": "Fyxer AI", "why": "$40M raised", "harmonic_company_id": 47855660},
-   {"name": "LANCH", "why": "$37M raised", "harmonic_company_id": 12860218}
+   {
+    "name": "Parloa",
+    "why": "$567M raised, unicorn",
+    "harmonic_company_id": 464412
+   },
+   {
+    "name": "Flatpay",
+    "why": "$296M raised",
+    "harmonic_company_id": 10879280
+   },
+   {
+    "name": "Knowunity",
+    "why": "$54M raised",
+    "harmonic_company_id": 2107094
+   },
+   {
+    "name": "Fyxer AI",
+    "why": "$40M raised",
+    "harmonic_company_id": 47855660
+   },
+   {
+    "name": "LANCH",
+    "why": "$37M raised",
+    "harmonic_company_id": 12860218
+   }
   ],
   "hanno-renner": [
-   {"name": "Parloa", "why": "$567M raised, unicorn", "harmonic_company_id": 464412},
-   {"name": "Gigs", "why": "$97M raised", "harmonic_company_id": 10192924},
-   {"name": "WorkMotion", "why": "$93M raised", "harmonic_company_id": 1790601},
-   {"name": "DataGuard", "why": "$82M raised", "harmonic_company_id": 3176535},
-   {"name": "Tacto", "why": "$61M raised", "harmonic_company_id": 1537112}
+   {
+    "name": "Parloa",
+    "why": "$567M raised, unicorn",
+    "harmonic_company_id": 464412
+   },
+   {
+    "name": "Gigs",
+    "why": "$97M raised",
+    "harmonic_company_id": 10192924
+   },
+   {
+    "name": "WorkMotion",
+    "why": "$93M raised",
+    "harmonic_company_id": 1790601
+   },
+   {
+    "name": "DataGuard",
+    "why": "$82M raised",
+    "harmonic_company_id": 3176535
+   },
+   {
+    "name": "Tacto",
+    "why": "$61M raised",
+    "harmonic_company_id": 1537112
+   }
   ],
   "julius-goellner": [
-   {"name": "Parloa", "why": "$567M raised, unicorn", "harmonic_company_id": 464412},
-   {"name": "lemon.markets", "why": "acquired by Deutsche Börse", "harmonic_company_id": 464408},
-   {"name": "Presize", "why": "acquired by Meta", "harmonic_company_id": 640481},
-   {"name": "JUPUS", "why": "$23M raised", "harmonic_company_id": 10682792},
-   {"name": "Friday Finance", "why": "$23M raised", "harmonic_company_id": 11104536}
+   {
+    "name": "Parloa",
+    "why": "$567M raised, unicorn",
+    "harmonic_company_id": 464412
+   },
+   {
+    "name": "lemon.markets",
+    "why": "acquired by Deutsche B\u00f6rse",
+    "harmonic_company_id": 464408
+   },
+   {
+    "name": "Presize",
+    "why": "acquired by Meta",
+    "harmonic_company_id": 640481
+   },
+   {
+    "name": "JUPUS",
+    "why": "$23M raised",
+    "harmonic_company_id": 10682792
+   },
+   {
+    "name": "Friday Finance",
+    "why": "$23M raised",
+    "harmonic_company_id": 11104536
+   }
   ],
   "matthias-hilpert": [
-   {"name": "Volocopter", "why": "$725M raised", "harmonic_company_id": 706557},
-   {"name": "TWAICE", "why": "$100M raised", "harmonic_company_id": 4294465},
-   {"name": "3scale", "why": "acquired by Red Hat", "harmonic_company_id": 2128190},
-   {"name": "Lengoo", "why": "acquired by Aleph Alpha", "harmonic_company_id": 437197},
-   {"name": "Cosuno", "why": "$45M raised", "harmonic_company_id": 1805026}
+   {
+    "name": "Volocopter",
+    "why": "$725M raised",
+    "harmonic_company_id": 706557
+   },
+   {
+    "name": "TWAICE",
+    "why": "$100M raised",
+    "harmonic_company_id": 4294465
+   },
+   {
+    "name": "3scale",
+    "why": "acquired by Red Hat",
+    "harmonic_company_id": 2128190
+   },
+   {
+    "name": "Lengoo",
+    "why": "acquired by Aleph Alpha",
+    "harmonic_company_id": 437197
+   },
+   {
+    "name": "Cosuno",
+    "why": "$45M raised",
+    "harmonic_company_id": 1805026
+   }
   ],
   "philipp-kloeckner": [
-   {"name": "Trade Republic", "why": "$1.3B raised, unicorn", "harmonic_company_id": 4295514},
-   {"name": "GetYourGuide", "why": "unicorn (advisor/shareholder)", "harmonic_company_id": 2138697},
-   {"name": "bunch", "why": "$58M raised", "harmonic_company_id": 4267615},
-   {"name": "Ostrom", "why": "$46M raised", "harmonic_company_id": 3224803},
-   {"name": "Vytal", "why": "$38M raised", "harmonic_company_id": 1601179}
+   {
+    "name": "Trade Republic",
+    "why": "$1.3B raised, unicorn",
+    "harmonic_company_id": 4295514
+   },
+   {
+    "name": "GetYourGuide",
+    "why": "unicorn (advisor/shareholder)",
+    "harmonic_company_id": 2138697
+   },
+   {
+    "name": "bunch",
+    "why": "$58M raised",
+    "harmonic_company_id": 4267615
+   },
+   {
+    "name": "Ostrom",
+    "why": "$46M raised",
+    "harmonic_company_id": 3224803
+   },
+   {
+    "name": "Vytal",
+    "why": "$38M raised",
+    "harmonic_company_id": 1601179
+   }
   ],
   "christian-vollmann": [
-   {"name": "trivago", "why": "IPO'd (Nasdaq)", "harmonic_company_id": 427217},
-   {"name": "ResearchGate", "why": "$88M raised", "harmonic_company_id": 464411},
-   {"name": "Movinga", "why": "$93M raised", "harmonic_company_id": 2163588},
-   {"name": "himala AI", "why": "$14M raised", "harmonic_company_id": 57143772}
+   {
+    "name": "trivago",
+    "why": "IPO'd (Nasdaq)",
+    "harmonic_company_id": 427217
+   },
+   {
+    "name": "ResearchGate",
+    "why": "$88M raised",
+    "harmonic_company_id": 464411
+   },
+   {
+    "name": "Movinga",
+    "why": "$93M raised",
+    "harmonic_company_id": 2163588
+   },
+   {
+    "name": "himala AI",
+    "why": "$14M raised",
+    "harmonic_company_id": 57143772
+   }
   ],
   "verena-pausder": [
-   {"name": "Dance", "why": "$107M raised", "harmonic_company_id": 800582},
-   {"name": "Knowunity", "why": "$54M raised", "harmonic_company_id": 2107094},
-   {"name": "Edurino", "why": "$35M raised", "harmonic_company_id": 2259676},
-   {"name": "Kitchen Stories", "why": "acquired by BSH (Bosch)", "harmonic_company_id": 2162835},
-   {"name": "simpleclub", "why": "$19M raised", "harmonic_company_id": 698452}
+   {
+    "name": "Dance",
+    "why": "$107M raised",
+    "harmonic_company_id": 800582
+   },
+   {
+    "name": "Knowunity",
+    "why": "$54M raised",
+    "harmonic_company_id": 2107094
+   },
+   {
+    "name": "Edurino",
+    "why": "$35M raised",
+    "harmonic_company_id": 2259676
+   },
+   {
+    "name": "Kitchen Stories",
+    "why": "acquired by BSH (Bosch)",
+    "harmonic_company_id": 2162835
+   },
+   {
+    "name": "simpleclub",
+    "why": "$19M raised",
+    "harmonic_company_id": 698452
+   }
   ],
   "hakan-koc": [
-   {"name": "Fresha", "why": "$295M raised", "harmonic_company_id": 1462757},
-   {"name": "Cosuno", "why": "$45M raised", "harmonic_company_id": 1805026},
-   {"name": "Karri", "why": "$3M raised (pre-seed)", "harmonic_company_id": 28651451}
+   {
+    "name": "Fresha",
+    "why": "$295M raised",
+    "harmonic_company_id": 1462757
+   },
+   {
+    "name": "Cosuno",
+    "why": "$45M raised",
+    "harmonic_company_id": 1805026
+   },
+   {
+    "name": "Karri",
+    "why": "$3M raised (pre-seed)",
+    "harmonic_company_id": 28651451
+   }
   ],
   "christian-reber": [
-   {"name": "RobCo", "why": "$279M raised", "harmonic_company_id": 10489499},
-   {"name": "paretos", "why": "$20M raised", "harmonic_company_id": 1681931},
-   {"name": "Akhetonics", "why": "$9M raised", "harmonic_company_id": 4116070}
+   {
+    "name": "RobCo",
+    "why": "$279M raised",
+    "harmonic_company_id": 10489499
+   },
+   {
+    "name": "paretos",
+    "why": "$20M raised",
+    "harmonic_company_id": 1681931
+   },
+   {
+    "name": "Akhetonics",
+    "why": "$9M raised",
+    "harmonic_company_id": 4116070
+   }
   ]
  },
  "nordics": {
   "ilkka-paananen": [
-   {"name": "Lovable", "why": "$1.4B raised, unicorn", "harmonic_company_id": 44580938},
-   {"name": "Linear", "why": "$134M raised, unicorn", "harmonic_company_id": 37098669},
-   {"name": "Nord Security", "why": "unicorn ($3B valuation)", "harmonic_company_id": 2213935},
-   {"name": "Gilion", "why": "$632M raised (incl. debt)", "harmonic_company_id": 3878389},
-   {"name": "IXI", "why": "$41M raised", "harmonic_company_id": 3175913}
+   {
+    "name": "Lovable",
+    "why": "$1.4B raised, unicorn",
+    "harmonic_company_id": 44580938
+   },
+   {
+    "name": "Linear",
+    "why": "$134M raised, unicorn",
+    "harmonic_company_id": 37098669
+   },
+   {
+    "name": "Nord Security",
+    "why": "unicorn ($3B valuation)",
+    "harmonic_company_id": 2213935
+   },
+   {
+    "name": "Gilion",
+    "why": "$632M raised (incl. debt)",
+    "harmonic_company_id": 3878389
+   },
+   {
+    "name": "IXI",
+    "why": "$41M raised",
+    "harmonic_company_id": 3175913
+   }
   ],
   "cristina-stenbeck": [
-   {"name": "Northvolt", "why": "$13.6B raised", "harmonic_company_id": 514754},
-   {"name": "Stegra", "why": "$10B raised", "harmonic_company_id": 56652496},
-   {"name": "Flink", "why": "$1.6B raised", "harmonic_company_id": 1538636},
-   {"name": "Voi", "why": "$644M raised", "harmonic_company_id": 2141366}
+   {
+    "name": "Northvolt",
+    "why": "$13.6B raised",
+    "harmonic_company_id": 514754
+   },
+   {
+    "name": "Stegra",
+    "why": "$10B raised",
+    "harmonic_company_id": 56652496
+   },
+   {
+    "name": "Flink",
+    "why": "$1.6B raised",
+    "harmonic_company_id": 1538636
+   },
+   {
+    "name": "Voi",
+    "why": "$644M raised",
+    "harmonic_company_id": 2141366
+   }
   ],
   "ali-omar": [
-   {"name": "Foodello (Fiksuruoka)", "why": "$28M raised", "harmonic_company_id": 1305059},
-   {"name": "Buddy Healthcare", "why": "exited", "harmonic_company_id": 733855},
-   {"name": "Woodly", "why": "$5M raised", "harmonic_company_id": 1649524}
+   {
+    "name": "Foodello (Fiksuruoka)",
+    "why": "$28M raised",
+    "harmonic_company_id": 1305059
+   },
+   {
+    "name": "Buddy Healthcare",
+    "why": "exited",
+    "harmonic_company_id": 733855
+   },
+   {
+    "name": "Woodly",
+    "why": "$5M raised",
+    "harmonic_company_id": 1649524
+   }
   ],
   "charlie-songhurst": [
-   {"name": "Lovable", "why": "$1.4B raised, unicorn", "harmonic_company_id": 44580938},
-   {"name": "Entrepreneur First", "why": "$371M raised", "harmonic_company_id": 701928},
-   {"name": "Granola", "why": "$192M raised", "harmonic_company_id": 56678874},
-   {"name": "Light", "why": "$43M raised", "harmonic_company_id": 10275083}
+   {
+    "name": "Lovable",
+    "why": "$1.4B raised, unicorn",
+    "harmonic_company_id": 44580938
+   },
+   {
+    "name": "Entrepreneur First",
+    "why": "$371M raised",
+    "harmonic_company_id": 701928
+   },
+   {
+    "name": "Granola",
+    "why": "$192M raised",
+    "harmonic_company_id": 56678874
+   },
+   {
+    "name": "Light",
+    "why": "$43M raised",
+    "harmonic_company_id": 10275083
+   }
   ],
   "sophia-bendz": [
-   {"name": "Sana", "why": "acquired by Workday ($1.1B)", "harmonic_company_id": 1712331},
-   {"name": "Hedvig", "why": "$99M raised", "harmonic_company_id": 1898727},
-   {"name": "Joint Academy", "why": "$55M raised", "harmonic_company_id": 65938602},
-   {"name": "Daye", "why": "$26M raised", "harmonic_company_id": 105780},
-   {"name": "Karma", "why": "$17M raised", "harmonic_company_id": 606728}
+   {
+    "name": "Sana",
+    "why": "acquired by Workday ($1.1B)",
+    "harmonic_company_id": 1712331
+   },
+   {
+    "name": "Hedvig",
+    "why": "$99M raised",
+    "harmonic_company_id": 1898727
+   },
+   {
+    "name": "Joint Academy",
+    "why": "$55M raised",
+    "harmonic_company_id": 65938602
+   },
+   {
+    "name": "Daye",
+    "why": "$26M raised",
+    "harmonic_company_id": 105780
+   },
+   {
+    "name": "Karma",
+    "why": "$17M raised",
+    "harmonic_company_id": 606728
+   }
   ],
   "mattias-miksche": [
-   {"name": "Lovable", "why": "pre-seed angel; $1.4B raised, unicorn", "harmonic_company_id": 44580938},
-   {"name": "Sana", "why": "acquired by Workday ($1.1B)", "harmonic_company_id": 1712331},
-   {"name": "Estrid", "why": "$70M raised", "harmonic_company_id": 56048103},
-   {"name": "Fishbrain", "why": "$66M raised", "harmonic_company_id": 435773},
-   {"name": "Detectify", "why": "$43M raised", "harmonic_company_id": 642232}
+   {
+    "name": "Lovable",
+    "why": "pre-seed angel; $1.4B raised, unicorn",
+    "harmonic_company_id": 44580938
+   },
+   {
+    "name": "Sana",
+    "why": "acquired by Workday ($1.1B)",
+    "harmonic_company_id": 1712331
+   },
+   {
+    "name": "Estrid",
+    "why": "$70M raised",
+    "harmonic_company_id": 56048103
+   },
+   {
+    "name": "Fishbrain",
+    "why": "$66M raised",
+    "harmonic_company_id": 435773
+   },
+   {
+    "name": "Detectify",
+    "why": "$43M raised",
+    "harmonic_company_id": 642232
+   }
   ],
   "david-helgason": [
-   {"name": "Lunar", "why": "$567M raised, unicorn", "harmonic_company_id": 34670012},
-   {"name": "Preply", "why": "$321M raised", "harmonic_company_id": 3252345},
-   {"name": "Labster", "why": "$151M raised", "harmonic_company_id": 573125},
-   {"name": "IXI", "why": "$41M raised", "harmonic_company_id": 3175913},
-   {"name": "Yousician", "why": "$29M raised", "harmonic_company_id": 578682}
+   {
+    "name": "Lunar",
+    "why": "$567M raised, unicorn",
+    "harmonic_company_id": 34670012
+   },
+   {
+    "name": "Preply",
+    "why": "$321M raised",
+    "harmonic_company_id": 3252345
+   },
+   {
+    "name": "Labster",
+    "why": "$151M raised",
+    "harmonic_company_id": 573125
+   },
+   {
+    "name": "IXI",
+    "why": "$41M raised",
+    "harmonic_company_id": 3175913
+   },
+   {
+    "name": "Yousician",
+    "why": "$29M raised",
+    "harmonic_company_id": 578682
+   }
   ],
   "hampus-jakobsson": [
-   {"name": "Clue", "why": "$57M raised", "harmonic_company_id": 2141321},
-   {"name": "Meru Health", "why": "$56M raised", "harmonic_company_id": 553352},
-   {"name": "Minut", "why": "$30M raised", "harmonic_company_id": 2110887},
-   {"name": "ClimateView", "why": "$29M raised", "harmonic_company_id": 1431118}
+   {
+    "name": "Clue",
+    "why": "$57M raised",
+    "harmonic_company_id": 2141321
+   },
+   {
+    "name": "Meru Health",
+    "why": "$56M raised",
+    "harmonic_company_id": 553352
+   },
+   {
+    "name": "Minut",
+    "why": "$30M raised",
+    "harmonic_company_id": 2110887
+   },
+   {
+    "name": "ClimateView",
+    "why": "$29M raised",
+    "harmonic_company_id": 1431118
+   }
   ],
   "risto-siilasmaa": [
-   {"name": "Wolt", "why": "acquired by DoorDash (€7B)", "harmonic_company_id": 4295354},
-   {"name": "Aiven", "why": "$420M raised, unicorn", "harmonic_company_id": 32403},
-   {"name": "Small Giant Games", "why": "acquired by Zynga ($700M)", "harmonic_company_id": 751140},
-   {"name": "Hoxhunt", "why": "$43M raised", "harmonic_company_id": 1369355}
+   {
+    "name": "Wolt",
+    "why": "acquired by DoorDash (\u20ac7B)",
+    "harmonic_company_id": 4295354
+   },
+   {
+    "name": "Aiven",
+    "why": "$420M raised, unicorn",
+    "harmonic_company_id": 32403
+   },
+   {
+    "name": "Small Giant Games",
+    "why": "acquired by Zynga ($700M)",
+    "harmonic_company_id": 751140
+   },
+   {
+    "name": "Hoxhunt",
+    "why": "$43M raised",
+    "harmonic_company_id": 1369355
+   }
   ],
   "sebastian-knutsson": [
-   {"name": "Voi", "why": "$644M raised", "harmonic_company_id": 2141366},
-   {"name": "Gilion", "why": "$632M raised (incl. debt)", "harmonic_company_id": 3878389},
-   {"name": "Ready Player Me", "why": "$72M raised", "harmonic_company_id": 640201},
-   {"name": "Estrid", "why": "$70M raised", "harmonic_company_id": 56048103}
+   {
+    "name": "Voi",
+    "why": "$644M raised",
+    "harmonic_company_id": 2141366
+   },
+   {
+    "name": "Gilion",
+    "why": "$632M raised (incl. debt)",
+    "harmonic_company_id": 3878389
+   },
+   {
+    "name": "Ready Player Me",
+    "why": "$72M raised",
+    "harmonic_company_id": 640201
+   },
+   {
+    "name": "Estrid",
+    "why": "$70M raised",
+    "harmonic_company_id": 56048103
+   }
+  ],
+  "neil-murray": [
+   {
+    "name": "Lovable",
+    "why": "$1.4B raised, unicorn ($13.3B valuation)",
+    "harmonic_company_id": 44580938
+   },
+   {
+    "name": "Sanity",
+    "why": "$173M raised",
+    "harmonic_company_id": 637114
+   },
+   {
+    "name": "Dreamdata",
+    "why": "$67M raised",
+    "harmonic_company_id": 1279571
+   },
+   {
+    "name": "SafetyWing",
+    "why": "$51M raised",
+    "harmonic_company_id": 613979
+   },
+   {
+    "name": "Uizard",
+    "why": "acquired by Miro",
+    "harmonic_company_id": 1369197
+   },
+   {
+    "name": "Butter",
+    "why": "acquired by Miro",
+    "harmonic_company_id": 2062926
+   }
+  ],
+  "bjarke-staun": [
+   {
+    "name": "Lovable",
+    "why": "$1.4B raised, unicorn ($13.3B valuation)",
+    "harmonic_company_id": 44580938
+   },
+   {
+    "name": "Starcloud",
+    "why": "$194M raised, unicorn ($1.1B valuation)",
+    "harmonic_company_id": 20517450
+   },
+   {
+    "name": "Tandem Health",
+    "why": "$159M raised",
+    "harmonic_company_id": 21692683
+   },
+   {
+    "name": "Light",
+    "why": "$43M raised",
+    "harmonic_company_id": 10275083
+   },
+   {
+    "name": "spektr",
+    "why": "$25M raised",
+    "harmonic_company_id": 21615468
+   },
+   {
+    "name": "Atlar",
+    "why": "$14M raised",
+    "harmonic_company_id": 4492878
+   }
+  ],
+  "marcus-krylborn": [
+   {
+    "name": "Magic.dev",
+    "why": "$1B raised, unicorn ($2.9B valuation)",
+    "harmonic_company_id": 11681922
+   },
+   {
+    "name": "Starcloud",
+    "why": "$194M raised, unicorn ($1.1B valuation)",
+    "harmonic_company_id": 20517450
+   },
+   {
+    "name": "Qodo",
+    "why": "$121M raised",
+    "harmonic_company_id": 56710775
+   },
+   {
+    "name": "Strise",
+    "why": "$16M raised",
+    "harmonic_company_id": 32433
+   },
+   {
+    "name": "Kiku",
+    "why": "$5M raised",
+    "harmonic_company_id": 58123623
+   }
+  ],
+  "tommy-ahlers": [
+   {
+    "name": "Peakon",
+    "why": "acquired by Workday ($700M)",
+    "harmonic_company_id": 435743
+   },
+   {
+    "name": "Podio",
+    "why": "acquired by Citrix",
+    "harmonic_company_id": 1448674
+   },
+   {
+    "name": "BLAST",
+    "why": "$55M raised",
+    "harmonic_company_id": 2172604
+   },
+   {
+    "name": "Worksome",
+    "why": "$37M raised",
+    "harmonic_company_id": 1753902
+   },
+   {
+    "name": "GameAnalytics",
+    "why": "acquired by Mobvista",
+    "harmonic_company_id": 1531211
+   }
   ]
  }
 }

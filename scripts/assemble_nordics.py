@@ -41,8 +41,8 @@ ANGEL_NOTE = {
     "Neil Murray": "The Nordic Web / Nordic Web Ventures; backed Lovable",
     "Bjarke Staun": "ex-Creandum; Lovable, Tandem Health, Atlar, Spektr",
     "Bjarke Staun-Olsen": "ex-Creandum; Lovable, Tandem Health, Atlar, Spektr",
-    "Marcus Krylborn": "Stockholm angel",
-    "Tommy Ahlers": "Podio/ZYB founder, ex-minister, Danish super-angel",
+    "Marcus Krylborn": "Snap Nordics GTM; a16z scout (ex-Sequoia); Starcloud, Magic.dev",
+    "Tommy Ahlers": "Podio/ZYB founder, Giant Ventures; ex-minister",
 }
 
 
@@ -62,6 +62,10 @@ def assemble(team):
         prefix = "angel-" if kind == "angel" else ""
         aff = load_json(f"{affdir}/{prefix}{slug}.json", {"pipeline": [], "relationships": []})
         rels = clean_rels(aff.get("relationships"))
+        if kind == "angel":  # person-level rels may omit external: it is the angel
+            for r in rels:
+                if not r.get("external"):
+                    r["external"] = name
         aff_max = max((r.get("score") or 0 for r in rels), default=0)
         aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
         dormant = aff.get("dormant")

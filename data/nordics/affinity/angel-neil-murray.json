@@ -1,0 +1,31 @@
+{
+  "slug": "neil-murray",
+  "affinity_person_id": 32231653,
+  "pipeline": [
+    {"id": 311186645, "name": "Complir", "domain": "complir.io", "funnel": "Pre-lead", "country": "Denmark"},
+    {"id": 310606054, "name": "paraglide", "domain": "paraglide.ai", "funnel": "Pre-lead", "country": "United Kingdom"},
+    {"id": 299470856, "name": "Midio", "domain": "midio.com", "funnel": "Pre-lead", "country": "Norway"},
+    {"id": 294890340, "name": "Lovable", "domain": "lovable.dev", "funnel": "Deprioritised (free for all)", "country": "Sweden"},
+    {"id": 293729162, "name": "UltiHash", "domain": "ultihash.io", "funnel": "Deprioritised (free for all)", "country": "United States"},
+    {"id": 289769028, "name": "MeetButter", "domain": "butter.us", "funnel": "Deprioritised (free for all)", "country": "Denmark"},
+    {"id": 287395372, "name": "All Gravy", "domain": "allgravy.com", "funnel": "Pre-lead", "country": "Denmark"},
+    {"id": 289772674, "name": "Steep", "domain": "steep.app", "funnel": "Pre-lead", "country": "Sweden"},
+    {"id": 284461991, "name": "Anotherblock", "domain": "anotherblock.com", "funnel": "Deprioritised (free for all)", "country": "Sweden"},
+    {"id": 289768097, "name": "Coherence", "domain": "coherence.io", "funnel": "Deprioritised (free for all)", "country": "Sweden"},
+    {"id": 289765255, "name": "SafetyWing", "domain": "safetywing.com", "funnel": "Deprioritised (free for all)", "country": "United States"},
+    {"id": 289772048, "name": "Yaak Technologies", "domain": "yaak.ai", "funnel": "Lead", "country": "Germany"},
+    {"id": 289765984, "name": "Dreamdata", "domain": "dreamdata.io", "funnel": "Passed", "country": "Denmark"},
+    {"id": 289764926, "name": "Digitail", "domain": "digitail.com", "funnel": "Lead", "country": "United States"},
+    {"id": 222126486, "name": "Kind", "domain": "kind.app", "funnel": "Deprioritised (free for all)", "country": "Sweden"},
+    {"id": 289766154, "name": "Meeshkan", "domain": "meeshkan.com", "funnel": "Lead", "country": "Finland"},
+    {"id": 152837388, "name": "Confrere", "domain": "confrere.com", "funnel": "Passed", "country": "Norway"},
+    {"id": 289769088, "name": "PortalOne, Inc", "domain": "portalone.com", "funnel": "Deprioritised (free for all)", "country": "Norway"},
+    {"id": 289764896, "name": "Uizard Technologies", "domain": "uizard.io", "funnel": "Deprioritised (free for all)", "country": "Denmark"},
+    {"id": 289764587, "name": "Sanity", "domain": "sanity.io", "funnel": "Deprioritised (free for all)", "country": "United States"}
+  ],
+  "relationships": [
+    {"internal": "Will de Quant", "score": 0.99, "linkedin": false},
+    {"internal": "Helena Richardson", "score": 0.98, "linkedin": false}
+  ],
+  "notes": "Pipeline includes The Nordic Web Ventures (his solo-GP fund) portfolio. Affinity 'Amie' (amie.so) excluded: name-only match against his 2018-backed amie.ai, judged a different company."
+}
