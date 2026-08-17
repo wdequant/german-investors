@@ -1,31 +1,377 @@
 {
-  "294581820": {"name": "einwert", "owners": ["William De Quant"], "country": "Germany"},
-  "293729287": {"name": "bliro.io", "owners": ["Samuel Meijer"], "country": "Germany"},
-  "289770233": {"name": "Climatiq", "owners": ["William De Quant"], "country": "Germany"},
-  "295039985": {"name": "encentive", "owners": ["Tyrone Tee"], "country": "Germany"},
-  "299504551": {"name": "Plato", "owners": ["William De Quant"], "country": "Germany"},
-  "289770641": {"name": "Klar", "owners": ["Emily Tan", "Lucinda Maxwell"], "country": "Germany"},
-  "296915823": {"name": "Dermanostic", "owners": ["Lucinda Maxwell"], "country": "Germany"},
-  "296509733": {"name": "Ceartas DMCA", "owners": ["Tyrone Tee"], "country": "Ireland"},
-  "297318503": {"name": "Carv", "owners": ["Efosa Ayanru"], "country": "Netherlands"},
-  "290276597": {"name": "Bastion", "owners": ["Lucinda Maxwell"], "country": "France"},
-  "289771603": {"name": "Skillup", "owners": ["William De Quant"], "country": "France"},
-  "289768558": {"name": "Count", "owners": ["Tyrone Tee"], "country": "United Kingdom"},
-  "293728592": {"name": "Avelios", "owners": ["William De Quant"], "country": "Germany"},
-  "293729437": {"name": "doinstruct Software", "owners": ["Harry Williams"], "country": "Germany"},
-  "308453734": {"name": "Look Up Space", "owners": ["Samuel Meijer"], "country": "France"},
-  "308969313": {"name": "Tsuga", "owners": ["Tyrone Tee"], "country": "France"},
-  "293727925": {"name": "Upciti", "owners": ["Anna Faulkner", "Lucinda Maxwell"], "country": "France"},
-  "289769246": {"name": "Soda", "owners": ["Harry Williams", "Helena Richardson"], "country": "Belgium"},
-  "289764724": {"name": "Shapr3D", "owners": ["Jacob Bernstein"], "country": "Hungary"},
-  "296915670": {"name": "ChurchDesk", "owners": ["Efosa Ayanru"], "country": "Denmark"},
-  "289770890": {"name": "Supernova", "owners": ["Tyrone Tee"], "country": "United States"},
-  "301399120": {"name": "Stacks", "owners": ["Tyrone Tee", "Helena Richardson"], "country": "United Kingdom"},
-  "293728191": {"name": "Tendium", "owners": ["Helena Richardson", "William De Quant"], "country": "Sweden"},
-  "307488841": {"name": "Riffusion", "owners": ["Efosa Ayanru"], "country": "Norway"},
-  "289770920": {"name": "IDoven", "owners": ["William De Quant"], "country": "Spain"},
-  "289772151": {"name": "automaited", "owners": ["William De Quant"], "country": "Germany"},
-  "295908693": {"name": "Spektr", "owners": ["Tyrone Tee", "Helena Richardson"], "country": "Denmark"},
-  "295908814": {"name": "Tuza", "owners": ["William De Quant"], "country": "United Kingdom"},
-  "289770737": {"name": "Optio Incentives", "owners": ["Tyrone Tee"], "country": "Norway"}
+ "294581820": {
+  "name": "einwert",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "Germany"
+ },
+ "293729287": {
+  "name": "bliro.io",
+  "owners": [
+   "Samuel Meijer"
+  ],
+  "country": "Germany"
+ },
+ "289770233": {
+  "name": "Climatiq",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "Germany"
+ },
+ "295039985": {
+  "name": "encentive",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "Germany"
+ },
+ "299504551": {
+  "name": "Plato",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "Germany"
+ },
+ "289770641": {
+  "name": "Klar",
+  "owners": [
+   "Emily Tan",
+   "Lucinda Maxwell"
+  ],
+  "country": "Germany"
+ },
+ "296915823": {
+  "name": "Dermanostic",
+  "owners": [
+   "Lucinda Maxwell"
+  ],
+  "country": "Germany"
+ },
+ "296509733": {
+  "name": "Ceartas DMCA",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "Ireland"
+ },
+ "297318503": {
+  "name": "Carv",
+  "owners": [
+   "Efosa Ayanru"
+  ],
+  "country": "Netherlands"
+ },
+ "290276597": {
+  "name": "Bastion",
+  "owners": [
+   "Lucinda Maxwell"
+  ],
+  "country": "France"
+ },
+ "289771603": {
+  "name": "Skillup",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "France"
+ },
+ "289768558": {
+  "name": "Count",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "United Kingdom"
+ },
+ "293728592": {
+  "name": "Avelios",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "Germany"
+ },
+ "293729437": {
+  "name": "doinstruct Software",
+  "owners": [
+   "Harry Williams"
+  ],
+  "country": "Germany"
+ },
+ "308453734": {
+  "name": "Look Up Space",
+  "owners": [
+   "Samuel Meijer"
+  ],
+  "country": "France"
+ },
+ "308969313": {
+  "name": "Tsuga",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "France"
+ },
+ "293727925": {
+  "name": "Upciti",
+  "owners": [
+   "Anna Faulkner",
+   "Lucinda Maxwell"
+  ],
+  "country": "France"
+ },
+ "289769246": {
+  "name": "Soda",
+  "owners": [
+   "Harry Williams",
+   "Helena Richardson"
+  ],
+  "country": "Belgium"
+ },
+ "289764724": {
+  "name": "Shapr3D",
+  "owners": [
+   "Jacob Bernstein"
+  ],
+  "country": "Hungary"
+ },
+ "296915670": {
+  "name": "ChurchDesk",
+  "owners": [
+   "Efosa Ayanru"
+  ],
+  "country": "Denmark"
+ },
+ "289770890": {
+  "name": "Supernova",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "United States"
+ },
+ "301399120": {
+  "name": "Stacks",
+  "owners": [
+   "Tyrone Tee",
+   "Helena Richardson"
+  ],
+  "country": "United Kingdom"
+ },
+ "293728191": {
+  "name": "Tendium",
+  "owners": [
+   "Helena Richardson",
+   "William De Quant"
+  ],
+  "country": "Sweden"
+ },
+ "307488841": {
+  "name": "Riffusion",
+  "owners": [
+   "Efosa Ayanru"
+  ],
+  "country": "Norway"
+ },
+ "289770920": {
+  "name": "IDoven",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "Spain"
+ },
+ "289772151": {
+  "name": "automaited",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "Germany"
+ },
+ "295908693": {
+  "name": "Spektr",
+  "owners": [
+   "Tyrone Tee",
+   "Helena Richardson"
+  ],
+  "country": "Denmark"
+ },
+ "295908814": {
+  "name": "Tuza",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "United Kingdom"
+ },
+ "289770737": {
+  "name": "Optio Incentives",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "Norway"
+ },
+ "289769939": {
+  "name": "Conduktor",
+  "owners": [
+   "Harry Williams"
+  ],
+  "country": "United States"
+ },
+ "289771797": {
+  "name": "Omnidoc",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "France"
+ },
+ "308658247": {
+  "name": "Beside Software",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": null
+ },
+ "293728891": {
+  "name": "SAPI",
+  "owners": [
+   "Efosa Ayanru"
+  ],
+  "country": "United Kingdom"
+ },
+ "292584545": {
+  "name": "Pelico",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": null
+ },
+ "289770076": {
+  "name": "LiveFlow",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "United Kingdom"
+ },
+ "289768493": {
+  "name": "Qovery",
+  "owners": [
+   "Gajan Rajanathan",
+   "Efosa Ayanru"
+  ],
+  "country": "United States"
+ },
+ "289770575": {
+  "name": "nagish",
+  "owners": [
+   "Lucinda Maxwell",
+   "Jacob Bernstein"
+  ],
+  "country": "United States"
+ },
+ "308453718": {
+  "name": "Cure.51",
+  "owners": [
+   "Samuel Meijer"
+  ],
+  "country": "France"
+ },
+ "298733621": {
+  "name": "The Mobile-First Company",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "United States"
+ },
+ "287114450": {
+  "name": "Fabriq",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "France"
+ },
+ "301577752": {
+  "name": "Opal",
+  "owners": [
+   "Aude Flecchia"
+  ],
+  "country": "United States"
+ },
+ "289765070": {
+  "name": "Ledgy",
+  "owners": [
+   "Susanne Silver",
+   "Niamh Coote",
+   "Stan Laurent"
+  ],
+  "country": "United Kingdom"
+ },
+ "298733430": {
+  "name": "SurgAR",
+  "owners": [
+   "Efosa Ayanru"
+  ],
+  "country": "France"
+ },
+ "289770412": {
+  "name": "Indeez",
+  "owners": [
+   "Emily Tan"
+  ],
+  "country": "France"
+ },
+ "289770530": {
+  "name": "Ondorse",
+  "owners": [
+   "Helena Richardson"
+  ],
+  "country": "France"
+ },
+ "294581882": {
+  "name": "Comand",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "France"
+ },
+ "298733564": {
+  "name": "Filiz",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "France"
+ },
+ "289764674": {
+  "name": "XXII",
+  "owners": [
+   "William De Quant"
+  ],
+  "country": "France"
+ },
+ "301135155": {
+  "name": "Bonx",
+  "owners": [
+   "Jacob Bernstein",
+   "Lucinda Maxwell"
+  ],
+  "country": "France"
+ },
+ "310605973": {
+  "name": "Delos",
+  "owners": [
+   "Tyrone Tee"
+  ],
+  "country": "France"
+ },
+ "304289769": {
+  "name": "Fleeti",
+  "owners": [
+   "Lucinda Maxwell"
+  ],
+  "country": "France"
+ },
+ "298733597": {
+  "name": "Saturn",
+  "owners": [
+   "Efosa Ayanru"
+  ],
+  "country": "United Kingdom"
+ }
 }
