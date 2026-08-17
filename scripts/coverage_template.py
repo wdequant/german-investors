@@ -363,11 +363,10 @@ function rowHTML(e){
     : `<span>${e.note||''}</span>${known}${lastT}${noCrm}`;
   const nm = e.kind==='angel' && e.li ? `<a href="${e.li}" target="_blank" rel="noopener">${e.name}</a>`
     : e.website ? `<a href="https://${e.website}" target="_blank" rel="noopener">${e.name}</a>` : e.name;
-  const covTitle = e.cov_parts?`Harmonic ${Math.round(e.cov_parts.h*100)} · Affinity ${Math.round(e.cov_parts.a*100)} × decay ${e.cov_parts.decay}`:'';
   const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div></td>
-    <td title="${covTitle}"><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b></div></td>
+    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b></div></td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
@@ -598,13 +597,32 @@ const tipFlag = moved => `<div class="th warn">⚠ Stale affiliation</div>
   Harmonic now lists their primary role as <b>${moved||'another firm'}</b>. The tie is still warm,
   but may no longer open doors at this fund.
   <div class="tf">Automated check — can misread board seats as departures; flag it if wrong.</div>`;
+function tipCov(e){
+  const v = eff(e);
+  if(state.person){
+    const fn = state.person.split(' ')[0];
+    return `<div class="th">Coverage ${v.cov}/100 — ${fn} only</div>
+      Recomputed from <b>${fn}'s own</b> Affinity relationships and Harmonic network with ${e.name} — the whole-team blend is ignored in this view.`;
+  }
+  const cp = e.cov_parts||{};
+  const dorm = cp.dorm?`<br>Dormant-tie floor <b>${Math.round(cp.dorm*100)}</b> <span style="color:var(--muted)">(an old thread keeps it above zero)</span>`:'';
+  return `<div class="th">Coverage ${v.cov}/100</div>
+    Harmonic team-network <b>${Math.round((cp.h||0)*100)}</b><br>
+    Affinity partnership relationships <b>${Math.round((cp.a||0)*100)}</b><br>
+    Recency decay <b>×${cp.decay??1}</b>${dorm}
+    <div class="tf">Blend: 55% Harmonic + 45% Affinity, then × decay — a path untouched for over a year fades hard</div>`;
+}
 document.addEventListener('mouseover',ev=>{
-  const p = ev.target.closest('.pct'), f = ev.target.closest('.flag');
+  const p = ev.target.closest('.pct'), f = ev.target.closest('.flag'), c = ev.target.closest('td.covtd');
   if(f) showTip(f, tipFlag(f.dataset.moved));
   else if(p) showTip(p, TIP_PCT);
+  else if(c){
+    const tr = c.closest('tr.mainrow'), e = tr && E().find(x=>x.slug===tr.dataset.slug);
+    if(e) showTip(c.querySelector('.covcell')||c, tipCov(e));
+  }
 });
 document.addEventListener('mouseout',ev=>{
-  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag'))) tip.classList.remove('show');
+  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag')||ev.target.closest('td.covtd'))) tip.classList.remove('show');
 });
 addEventListener('scroll',()=>tip.classList.remove('show'),true);
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
