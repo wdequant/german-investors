@@ -105,6 +105,15 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .pts .askx b{color:var(--ink2)}
 .pts .pct{font-variant-numeric:tabular-nums;color:var(--covered-ink);font-weight:650;font-size:11.5px}
 .flag{color:var(--gap-ink);font-size:10.5px;cursor:help}
+.pct{cursor:help}
+#tip{position:fixed;z-index:99;max-width:290px;background:var(--raise);border:1px solid var(--hair);
+  border-radius:10px;box-shadow:var(--shadow);padding:10px 13px;font-size:12px;line-height:1.5;color:var(--ink2);
+  pointer-events:none;opacity:0;visibility:hidden;transition:opacity .12s}
+#tip.show{opacity:1;visibility:visible}
+#tip .th{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:5px}
+#tip .th.warn{color:var(--gap-ink)}
+#tip b{color:var(--ink);font-weight:620}
+#tip .tf{margin-top:7px;padding-top:6px;border-top:1px solid var(--hair2);font-size:10.5px;color:var(--muted)}
 tr.detailrow{display:none}
 tr.detailrow.open{display:table-row}
 tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2px solid var(--ink)}
@@ -306,7 +315,7 @@ function pathLine(p){
   const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
   const pct = p.pct!=null?` <span class="pct">${p.pct}%</span>`:'';
   const when = p.last?` <span class="when">· ${fmtD(p.last)}</span>`:'';
-  const moved = p.moved?` <span class="flag" title="${flagDef(p.moved)}">⚠</span>`:'';
+  const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
   return `<span class="pt${stale}">${nm} <span class="via">↔ ${p.internal}</span>${pct}${when}${moved}</span>`;
 }
@@ -416,7 +425,7 @@ function detailHTML(e){
         p.contacts.map(k=>{
           const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
           const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
-          const moved = k.moved?` <span class="flag" title="${flagDef(k.moved)}">⚠</span>`:'';
+          const moved = k.moved?` <span class="flag" data-moved="${k.moved}">⚠</span>`:'';
           return `<div>${nm}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
@@ -476,7 +485,7 @@ function htcHTML(){
     <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
       <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
     <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${i.paths.map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" title="${flagDef(p.moved)}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${i.paths.map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
     <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
   </tr>`).join('');
   document.getElementById('htctable').innerHTML =
@@ -573,14 +582,31 @@ const va = document.getElementById('viewas');
 D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
 if(state.person) va.value=state.person;
 va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
-const PCT_DEF = 'Affinity relationship strength (0–100%): how warm this one-to-one connection is, from email & meeting frequency and recency. 100% = active recent dialogue; 10% = thin or faded thread.';
-function flagDef(moved){
-  return `Stale affiliation: Harmonic now lists this contact's primary role as ${moved}, so the relationship is still warm but may no longer open doors at this fund. Automated check — it can misread board seats as departures; flag it if wrong.`;
+const tip = document.createElement('div'); tip.id='tip'; document.body.appendChild(tip);
+function showTip(target, html){
+  tip.innerHTML = html; tip.classList.add('show');
+  tip.style.left='0px'; tip.style.top='0px';
+  const r = target.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight;
+  const x = Math.min(Math.max(8, r.left + r.width/2 - tw/2), innerWidth - tw - 8);
+  let y = r.top - th - 9; if(y < 8) y = r.bottom + 9;
+  tip.style.left = x+'px'; tip.style.top = y+'px';
 }
+const TIP_PCT = `<div class="th">Relationship strength</div>
+  Affinity score for this one-to-one connection, from <b>email &amp; meeting frequency</b> and <b>recency</b>.
+  <div class="tf"><b>100%</b> active recent dialogue &nbsp;·&nbsp; <b>10%</b> thin or faded thread</div>`;
+const tipFlag = moved => `<div class="th warn">⚠ Stale affiliation</div>
+  Harmonic now lists their primary role as <b>${moved||'another firm'}</b>. The tie is still warm,
+  but may no longer open doors at this fund.
+  <div class="tf">Automated check — can misread board seats as departures; flag it if wrong.</div>`;
 document.addEventListener('mouseover',ev=>{
-  const t = ev.target.closest('.pct');
-  if(t && !t.title) t.title = PCT_DEF;
+  const p = ev.target.closest('.pct'), f = ev.target.closest('.flag');
+  if(f) showTip(f, tipFlag(f.dataset.moved));
+  else if(p) showTip(p, TIP_PCT);
 });
+document.addEventListener('mouseout',ev=>{
+  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag'))) tip.classList.remove('show');
+});
+addEventListener('scroll',()=>tip.classList.remove('show'),true);
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
 
 function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',2400)}
