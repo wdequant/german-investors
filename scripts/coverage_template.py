@@ -1,6 +1,6 @@
 # Multi-region coverage map template v5. Consumed by build_coverage.py.
 
-TEMPLATE = r"""<title>Ecosystem Coverage Map</title>
+TEMPLATE = r"""<title>Highland VC Coverage Map</title>
 <style>
 :root{
   color-scheme:only light;
