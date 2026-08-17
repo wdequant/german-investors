@@ -38,7 +38,7 @@ body{background:var(--page);color:var(--ink);
 .hero{padding:38px 0 4px}
 .kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 h1{font-size:32px;font-weight:650;letter-spacing:-.022em;text-wrap:balance}
-.sub{color:var(--ink2);margin-top:10px;max-width:74ch;font-size:14px}
+.sub{color:var(--ink2);margin-top:10px;font-size:14px}
 .score{display:flex;margin:28px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
 .score .s{flex:1;padding:16px 20px 14px;border-left:1px solid var(--hair)}
 .score .s:first-child{border-left:0;padding-left:2px}
@@ -110,6 +110,17 @@ tr.detailrow.open{display:table-row}
 tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2px solid var(--ink)}
 .detail h5{font-size:10.5px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);margin:16px 0 8px}
 .detail h5:first-child{margin-top:0}
+.detail details.sec{border-top:1px solid var(--hair)}
+.detail details.sec summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:8px;
+  font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.11em;color:var(--ink2);padding:9px 0}
+.detail details.sec summary::-webkit-details-marker{display:none}
+.detail details.sec summary::before{content:'▸';color:var(--muted);font-size:11px}
+.detail details.sec[open] summary::before{content:'▾'}
+.detail details.sec summary b{color:var(--ink);font-size:12px}
+.detail details.sec summary .cnt{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;font-size:11.5px}
+.detail details.sec .plist{padding:2px 0 12px}
+#filters select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;
+  padding:5px 8px;font-size:12.5px;color:var(--ink2)}
 .meta-line{color:var(--muted);font-size:12.5px;margin-bottom:6px}
 .plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:4px 26px}
 .plist a{color:var(--accent-ink);text-decoration:none;font-weight:550}
@@ -259,14 +270,15 @@ function filtersHTML(){
   const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
   let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
   if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
-  h += `<span class="lbl">Sort</span><button class="fchip${state.sort==='gap'?' on':''}" data-sort="gap">Biggest gaps</button>`;
+  const SORTS=[["gap","Biggest gaps"],["connectivity","Coverage"],["relevance","Relevance"],["pipeline","Pipeline overlap"],["name","Name"]];
+  h += `<span class="lbl">Sort</span><select id="sortsel">`+SORTS.map(([k,l])=>`<option value="${k}"${state.sort===k?' selected':''}>${l}</option>`).join('')+`</select>`;
   document.getElementById('filters').innerHTML = h;
   document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
     if(b.dataset.cat!==undefined) state.cat = state.cat===b.dataset.cat?'':b.dataset.cat;
     if(b.dataset.cc!==undefined) state.cc = state.cc===b.dataset.cc?'':b.dataset.cc;
-    if(b.dataset.sort) state.sort='gap';
     render();
   }));
+  document.getElementById('sortsel').addEventListener('change',ev=>{ state.sort=ev.target.value; render(); });
 }
 
 const COLS = [
@@ -350,8 +362,8 @@ function detailHTML(e){
     h += `<div class="meta-line">Angel relevance ${r.total} (deals ${r.deals} · outcomes ${r.uni} · syndication ${r.synd} · our-pipeline presence ${r.pipe}) · ${e.num_investments??'—'} tracked deals</div>`;
   }
   if((e.untracked||[]).length){
-    h += `<h5>Recent EU deals we're not tracking (${e.untracked.length}${e.recent_eu?` of ${e.recent_eu} recent EU deals`:''})</h5><div class="plist">`+
-      e.untracked.map(u=>`<span><span class="st">${(u.date||'').slice(0,7)} · ${(u.round||'').replaceAll('_',' ').toLowerCase()}</span><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a> <span class="cc">${u.country||''}</span></span>`).join('')+`</div>`;
+    h += `<details class="sec"><summary>Recent EU deals we're not tracking <b>${e.untracked.length}</b>${e.recent_eu?`<span class="cnt">of ${e.recent_eu} recent EU deals</span>`:''}</summary><div class="plist">`+
+      e.untracked.map(u=>`<span><span class="st">${(u.date||'').slice(0,7)} · ${(u.round||'').replaceAll('_',' ').toLowerCase()}</span><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a> <span class="cc">${u.country||''}</span></span>`).join('')+`</div></details>`;
   }
   const secs = [...BUCKETS,["portfolio","Portfolio company"]];
   const isGlobal = (e.buckets.prelead.concat(e.buckets.lead)).some(p=>p.country!==undefined);
@@ -359,9 +371,9 @@ function detailHTML(e){
   for(const [k,label] of secs){
     const list=e.buckets[k]; if(!list||!list.length) continue;
     const inR = list.filter(inRegion), outR = list.filter(p=>!inRegion(p));
-    h += `<h5 id="sec-${e.slug}-${k}">${label} (${list.length}${outR.length?`, ${inR.length} in region`:''})</h5><div class="plist">`+
-      inR.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.domain||''}</span></span>`).join('')+
-      outR.map(p=>`<span class="offr"><span class="st">${(p.funnel||'—')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.country||''}</span></span>`).join('')+`</div>`;
+    h += `<details class="sec" id="sec-${e.slug}-${k}"><summary>${label} <b>${list.length}</b>${outR.length?`<span class="cnt">${inR.length} in region</span>`:''}</summary><div class="plist">`+
+      inR.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a></span>`).join('')+
+      outR.map(p=>`<span class="offr"><span class="st">${(p.funnel||'—')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.country||''}</span></span>`).join('')+`</div></details>`;
   }
   if(e.dormant){
     const mail = dormantMail(e);
@@ -391,9 +403,14 @@ function detailHTML(e){
         }).join('')+`</div>`;
     }).join('')+`</div>`;
   }
+  const liq = n => `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n+' '+e.name)}`;
+  if(e.partners_known && e.partners_known.length){
+    h += `<h5>Their partners we already know</h5><div class="plist">`+
+      e.partners_known.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a> <span class="via">↔ ${p.internal}</span>${p.score!=null?` <span class="pct">${Math.round(p.score*100)}%</span>`:''}${p.note?` <span class="cc">${p.note}</span>`:''}</span>`).join('')+`</div>`;
+  }
   if(e.partners_unknown && e.partners_unknown.length){
     h += `<h5>Their partners we don't know${e.partners_total?` (${e.partners_unknown.length} of ${e.partners_total} on roster)`:''}</h5><div class="plist">`+
-      e.partners_unknown.map(p=>`<span>${p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener">${p.name}</a>`:p.name} <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
+      e.partners_unknown.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
   }
   h += `<div class="meta-line" style="margin-top:14px">Full brief: ask Claude — “prep my meeting with ${e.name}”.</div>`;
   return h;
@@ -423,7 +440,7 @@ function htcHTML(){
     <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
       <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
     <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>i.best?`<span>${i.best.internal}${i.best.pct!=null?` <span class="pct">${i.best.pct}%</span>`:''}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${i.paths.map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" title="appears to have moved to ${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
     <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
   </tr>`).join('');
   document.getElementById('htctable').innerHTML =
@@ -477,7 +494,7 @@ function toggleRow(slug, chip){
     state.open = slug;
     if(chip && !chip.classList.contains('empty')){
       const sec=document.getElementById(`sec-${slug}-${chip.dataset.k}`);
-      if(sec) sec.scrollIntoView({behavior:'smooth', block:'center'});
+      if(sec){ sec.open=true; sec.scrollIntoView({behavior:'smooth', block:'center'}); }
     }
   } else state.open = '';
   updateHash();

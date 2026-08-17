@@ -3,7 +3,8 @@
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enrich,
-                             compute_bridges_and_synd, build_htc, angel_relevance)
+                             compute_bridges_and_synd, build_htc, angel_relevance,
+                             affinity_sync)
 import assemble_germany, assemble_nordics
 import importlib.util as _ilu
 
@@ -13,6 +14,33 @@ roster = [m["name"] for m in team] + ["Fergal Mullen", "Laurence Garrett", "Rona
 
 empflags = load_json(f"{ROOT}/data/enrich/employment-flags.json", {})
 htc_owners = load_json(f"{ROOT}/data/enrich/htc-owners.json", {})
+aff_dump = load_json(f"{ROOT}/data/affinity/_list-entries.json", {})
+
+pmeta_germany = {}
+for part in ("a", "b"):
+    for slug, d in (load_json(f"{ROOT}/data/enrich/partners-meta-germany-{part}.json", {}) or {}).items():
+        pmeta_germany.setdefault(slug, {}).update(d)
+PMETA = {"germany": pmeta_germany,
+         "nordics": load_json(f"{ROOT}/data/enrich/partners-meta-nordics.json", {}) or {}}
+
+
+def merge_10x(ents):
+    """10x Group is the predecessor angel vehicle of 10x Founders (same GPs) —
+    fold its Affinity pipeline into 10x Founders and drop the duplicate row."""
+    g = next((e for e in ents if e["slug"] == "10x-group"), None)
+    f = next((e for e in ents if e["slug"] == "10x-founders"), None)
+    if g and f:
+        seen = {p["id"] for k in f["buckets"] for p in f["buckets"][k]}
+        for k, lst in g["buckets"].items():
+            f["buckets"].setdefault(k, []).extend(p for p in lst if p["id"] not in seen)
+        f["coinvest"] = sorted(set(f["coinvest"]) | set(g["coinvest"]))
+        f["aff_max"] = max(f["aff_max"], g["aff_max"])
+        f["aff_strong"] = max(f["aff_strong"], g["aff_strong"])
+        f["harmonic_raw"] = max(f["harmonic_raw"], g["harmonic_raw"])
+        if not f.get("dormant"):
+            f["dormant"] = g.get("dormant")
+        ents.remove(g)
+    return ents
 
 REGION_CFG = {
     "germany": {"label": "Germany", "adj": "German", "assemble": assemble_germany.assemble},
@@ -22,9 +50,16 @@ REGION_CFG = {
 regions = {}
 for key, cfg in REGION_CFG.items():
     ents = cfg["assemble"](team)
+    if key == "germany":
+        ents = merge_10x(ents)
     enrich = load_json(f"{ROOT}/data/enrich/{key}.json", {})
     recency = load_json(f"{ROOT}/data/enrich/recency-{key}.json", {})
-    apply_enrich(ents, enrich, recency, empflags, key)
+    apply_enrich(ents, enrich, recency, empflags, key, PMETA.get(key))
+    added_by, rescued = affinity_sync(ents, aff_dump, key)
+    if added_by or rescued:
+        print(f"  [{key}] affinity sync: +{sum(added_by.values())} pipeline entries "
+              f"across {len(added_by)} funds; rescued from 'untracked': "
+              f"{sum(len(v) for v in rescued.values())} ({', '.join(n for v in rescued.values() for n in v[:2])[:120]})")
     finalize(ents)
     compute_bridges_and_synd(ents)
     # angel relevance + gap (needs syndication + pipeline counts)

@@ -262,7 +262,7 @@ def _strip_emoji(s):
     return "".join(ch for ch in (s or "") if ord(ch) < 0x2600).strip(" -·|")
 
 
-def apply_enrich(entities, enrich, recency, empflags, region_key):
+def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
     """Merge agent-collected enrichment into assembled entities (all optional)."""
     efunds = (enrich or {}).get("funds", {})
     eangels = (enrich or {}).get("angels", {})
@@ -302,8 +302,22 @@ def apply_enrich(entities, enrich, recency, empflags, region_key):
                 if n:
                     allp.append({**p_, "name": n})
             e["partners_total"] = len(allp)
-            e["partners_unknown"] = [p_ for p_ in allp if norm_name(p_.get("name")) not in known][:8]
-            e["untracked"] = (ef.get("recent_untracked_eu") or [])[:12]
+            meta = (pmeta or {}).get(slug, {})
+            p_known, p_unknown = [], []
+            for p_ in allp:
+                if norm_name(p_.get("name")) in known:
+                    continue
+                m = meta.get(p_["name"]) or {}
+                li = p_.get("linkedin") or m.get("linkedin")
+                if m.get("known_internal") and ((m.get("known_score") or 0) >= 0.1 or m.get("note")):
+                    p_known.append({"name": p_["name"], "linkedin": li,
+                                    "internal": m["known_internal"], "score": m.get("known_score"),
+                                    "last": m.get("last"), "note": m.get("note")})
+                else:
+                    p_unknown.append({**p_, "linkedin": li})
+            e["partners_known"] = p_known[:8]
+            e["partners_unknown"] = p_unknown[:8]
+            e["untracked"] = ef.get("recent_untracked_eu") or []
             e["recent_total"] = ef.get("recent_total")
             e["recent_eu"] = ef.get("recent_eu")
             e["co_investor_names"] = ef.get("co_investors") or []
@@ -343,6 +357,133 @@ def compute_bridges_and_synd(entities):
     return entities
 
 
+GENERIC_SUFFIX = {"capital", "partners", "ventures", "venture", "vc", "invest",
+                  "management", "fund", "funds", "gmbh", "ab", "oy", "as", "aps", "ag"}
+FUND_ALIASES = {
+    "gfc": ["global founders capital", "gfc"],
+    "htgf": ["htgf", "high tech grunderfonds", "high tech gruenderfonds"],
+    "hv-capital": ["hv capital", "hv holtzbrinck ventures", "holtzbrinck ventures", "hv ventures", "hv"],
+    "earlybird": ["earlybird", "earlybird venture capital", "earlybird vc"],
+    "point-nine": ["point nine", "point nine capital", "point 9"],
+    "cherry": ["cherry ventures", "cherry vc"],
+    "project-a": ["project a", "project a ventures"],
+    "ibb-ventures": ["ibb ventures", "ibb beteiligungsgesellschaft"],
+    "bosch-ventures": ["bosch ventures", "robert bosch venture capital", "rbvc"],
+    "uvc-partners": ["uvc partners", "unternehmertum venture capital"],
+    "mig-capital": ["mig capital", "mig ag", "mig fonds", "mig verwaltungs"],
+    "acton": ["acton capital", "acton capital partners", "acton"],
+    "dvh-ventures": ["dieter von holtzbrinck ventures", "dvh ventures"],
+    "vsquared": ["vsquared ventures", "vsquared", "v squared ventures"],
+    "burda": ["burda principal investments"],
+    "alstin": ["alstin capital", "alstin"],
+    "redstone": ["redstone", "redstone digital", "redstone vc"],
+    "10x-founders": ["10x founders", "10x group"],
+    "northzone": ["northzone", "northzone ventures"],
+    "lifeline": ["lifeline ventures"],
+    "seed-capital": ["seed capital", "seedcapital"],
+    "psv": ["psv", "psv tech", "psv ventures"],
+    "eqt-ventures": ["eqt ventures"],
+    "icebreaker": ["icebreaker vc", "icebreaker"],
+    "alliance-vc": ["alliance vc", "alliance venture"],
+    "norrsken": ["norrsken", "norrsken vc"],
+    "maki": ["maki vc", "maki"],
+    "first-fellow": ["first fellow partners", "first fellow"],
+    "j12": ["j12", "j12 ventures"],
+    "almi": ["almi"],
+    "almi-invest": ["almi invest"],
+}
+
+
+def _nrm_inv(s):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", norm_name(s))).strip()
+
+
+def affinity_sync(entities, dump, region_key):
+    """Reconcile fund pipelines against a full dump of the Affinity list:
+    union in every entry whose investors field names the fund (alias-matched,
+    longest alias wins so 'Almi Invest' never lands under 'Almi'), refresh
+    funnel stages from the dump, and rescue 'untracked' deals that are in
+    fact tracked in Affinity (moving them into the right funnel bucket)."""
+    if not dump or not dump.get("entries"):
+        return {}, {}
+    entries = dump["entries"]
+    by_domain, by_name = {}, {}
+    for ent in entries:
+        for d in (ent.get("domains") or []):
+            if d:
+                by_domain.setdefault(d.lower().removeprefix("www."), ent)
+        by_name.setdefault(_nrm_inv(ent.get("name")), ent)
+
+    funds = {e["slug"]: e for e in entities if e["kind"] == "fund"}
+    alias2slug = {}
+    for slug, e in funds.items():
+        als = {_nrm_inv(e["name"])} | {_nrm_inv(a) for a in FUND_ALIASES.get(slug, [])}
+        w = _nrm_inv(e["name"]).split()
+        if len(w) > 1 and w[-1] in GENERIC_SUFFIX:
+            als.add(" ".join(w[:-1]))
+        for a in als:
+            if a:
+                alias2slug.setdefault(a, set()).add(slug)
+
+    matched = {slug: {} for slug in funds}
+    for ent in entries:
+        for inv in (ent.get("investors") or []):
+            ni = _nrm_inv(inv)
+            if not ni:
+                continue
+            best = None
+            for a, slugs in alias2slug.items():
+                ok = ni == a or (ni.startswith(a + " ") and len(a.split()) >= 2)
+                if ok and (best is None or len(a) > len(best[0])):
+                    best = (a, slugs)
+            if best:
+                for slug in best[1]:
+                    matched[slug][ent["id"]] = ent
+
+    added_by = {}
+    for slug, ents in matched.items():
+        e = funds[slug]
+        pipe = {p["id"]: p for k in e["buckets"] for p in e["buckets"][k]}
+        added = 0
+        for cid, ent in ents.items():
+            f = ent.get("funnel")
+            if cid in pipe:
+                if f and pipe[cid].get("funnel") != f:
+                    pipe[cid]["funnel"] = f  # dump is today's Affinity state
+                continue
+            if not f or f == "Passed" or f.startswith("Deprioritised"):
+                continue
+            pipe[cid] = {"id": cid, "name": ent.get("name"),
+                         "domain": (ent.get("domains") or [None])[0],
+                         "funnel": f, "country": ent.get("country")}
+            added += 1
+        e["buckets"] = bucket_pipeline(list(pipe.values()))
+        if added:
+            added_by[slug] = added
+
+    rescued = {}
+    for e in entities:
+        keep = []
+        for u in (e.get("untracked") or []):
+            d = (u.get("domain") or "").lower().removeprefix("www.")
+            ent = (by_domain.get(d) if d else None) or by_name.get(_nrm_inv(u.get("name")))
+            if ent:  # in Affinity at all -> not 'untracked'
+                b = ("portfolio" if ent.get("funnel") == "Portfolio Company"
+                     else TEXT2BUCKET.get(ent.get("funnel")))
+                if b:
+                    pipe_ids = {p["id"] for k in e["buckets"] for p in e["buckets"][k]}
+                    if ent["id"] not in pipe_ids:
+                        e["buckets"][b].append({"id": ent["id"], "name": ent.get("name"),
+                                                "domain": d or None, "funnel": ent.get("funnel"),
+                                                "country": ent.get("country") or u.get("country")})
+                rescued.setdefault(e["slug"], []).append(u["name"])
+            else:
+                keep.append(u)
+        if e.get("untracked") is not None:
+            e["untracked"] = keep
+    return added_by, rescued
+
+
 def build_htc(entities, htc_owners):
     """Inverted hard-to-crack view: company -> investors on cap table -> best path."""
     ho = htc_owners or {}
@@ -351,11 +492,12 @@ def build_htc(entities, htc_owners):
         for p in e["buckets"].get("hard", []):
             c = companies.setdefault(p["id"], {"id": p["id"], "name": p["name"],
                                                "domain": p.get("domain"), "investors": []})
-            best = e["points"][0] if e.get("points") else None
+            paths = [{"internal": pt["internal"], "external": pt.get("external"),
+                      "pct": pt.get("pct"), "moved": pt.get("moved")}
+                     for pt in (e.get("points") or [])[:3]]
             c["investors"].append({"name": e["name"], "slug": e["slug"], "kind": e["kind"],
-                                   "tier": e["tier"],
-                                   "best": ({"internal": best["internal"], "pct": best.get("pct")}
-                                            if best else None)})
+                                   "tier": e["tier"], "best": paths[0] if paths else None,
+                                   "paths": paths})
     out = []
     for cid, c in companies.items():
         meta = ho.get(str(cid)) or ho.get(cid) or {}

@@ -1,0 +1,656 @@
+{
+ "10x-founders": {
+  "Andrej Henkler": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/andrej-henkler-021993",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Andreas Etten": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/andreasetten",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Robert Wuttke": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/robert-wuttke-357813",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2026-03-03",
+   "note": "email history w/ Tony Zappala since 2015; no scored relationships in Affinity"
+  },
+  "Jan Becker": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/janbecker",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Rupert Schaefer": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Patrick André Mielmann": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Felix Haas": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/felixhaas",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2016-06-06",
+   "note": "current org Bits & Pretzels (Chairman); 2016 thread w/ Will McMahon & Sam Brooks"
+  },
+  "Jan Reichelt": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jessica Lieber": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jessica-lieber-37247268",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "previously Next47 (Senior Associate), Partner at 10x Founders since 09/2025"
+  }
+ },
+ "10x-group": {
+  "Andreas Etten": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/andreasetten",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Robert Wuttke": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/robert-wuttke-357813",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2026-03-03",
+   "note": "email history w/ Tony Zappala since 2015; no scored relationships in Affinity"
+  },
+  "Jan Becker": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/janbecker",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Felix Haas": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/felixhaas",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2016-06-06",
+   "note": "current org Bits & Pretzels (Chairman); 2016 thread w/ Will McMahon & Sam Brooks"
+  }
+ },
+ "1kx": {
+  "Christopher Heymann": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Peter Pan": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "only Affinity match is an unrelated homonym"
+  },
+  "Wei Dai": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Clare He": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "468-capital": {
+  "Florian Leibert": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/fmeissner",
+   "known_internal": "Anna Faulkner",
+   "known_score": 0.947,
+   "last": "2026-02-15",
+   "note": "now Interface Capital / co-founder Aware (left 468); Affinity LinkedIn field looks mis-enriched (fmeissner)"
+  },
+  "Alexander Kudlich": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/alexanderkudlich",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2017-06-13",
+   "note": "Affinity current org Mayd (advisory board); prev Rocket Internet"
+  },
+  "Emanuel Pallua": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Bardo D.": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/bardodroege",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.996,
+   "last": "2024-09-27",
+   "note": "Bardo Droege, bardo@468cap.com; also Droege International Group"
+  },
+  "Ludwig Ensthaler": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Philipp Seifert": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/seifert-philipp",
+   "known_internal": "David Blyghton",
+   "known_score": 0.989,
+   "last": "2026-08-17",
+   "note": "now Partner at Capital 49 (prev 468 Capital, Sapphire Ventures)"
+  }
+ },
+ "acton": {
+  "Sebastian Wossagk": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/wossagk",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2018-07-16",
+   "note": "Managing Partner Acton; 2018 Zenjob thread w/ Fergal Mullen"
+  },
+  "Frank Seehaus": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/frank-seehaus-b028909",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-05-28",
+   "note": "Managing Partner Acton; Finanzcheck dinner w/ Fergal & Laurence 2019"
+  },
+  "Jan-Gisbert Schultze": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jan-gisbert-schultze",
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Hannes Blum": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Dr. Sophie Ahrens-Gruber": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Julius Luehr": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "alstin": {
+  "Dr. Andreas Schenk": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/andreas-schenk-vc",
+   "known_internal": "Eoghan Dorman",
+   "known_score": 0.976,
+   "last": "2026-07-15",
+   "note": "Partner Alstin Capital; Affinity current-org shows Secfix (board seat)"
+  }
+ },
+ "atlantic-labs": {
+  "Felix Petersen": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Marc-Olivier Luecke": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/marc-olivier-luecke-0507854",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.341,
+   "last": "2025-10-07",
+   "note": null
+  },
+  "Daniel Niemi": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/daniel-niemi-75649541",
+   "known_internal": "David Blyghton",
+   "known_score": 0.537,
+   "last": "2025-05-29",
+   "note": "prev NGP Capital; Affinity current-org shows Circle Health (portfolio)"
+  },
+  "Ruben Schultz": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "blueyard": {
+  "Peter Read": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/petermread",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.996,
+   "last": "2026-04-21",
+   "note": "Affinity shows Cortex Partner at Vitruvian Partners - possible homonym vs BlueYard listing, verify"
+  },
+  "Jason D. Whitmire": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/jasonwhitmire",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.432,
+   "last": "2026-03-09",
+   "note": "previously Earlybird"
+  },
+  "Philipp Banhardt": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Chad Fowler": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "David Byrd": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Benjamin Levy": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Katie Hewitt": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "only Affinity match is Robin AI Chief of Staff - likely homonym"
+  },
+  "Michael Wax": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/mikewax",
+   "known_internal": "Harry Williams",
+   "known_score": 0.816,
+   "last": "2026-07-23",
+   "note": "Forto co-founder/CEO, now GP at BlueYard (mike@blueyard.com)"
+  }
+ },
+ "bosch-ventures": {
+  "Gadi Toren": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jan Westerhues": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Hongquan Jiang": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/hongquan-jiang-77802a8",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2018-08-28",
+   "note": "now Managing Partner Boyuan Capital; Partner Robert Bosch Venture Capital"
+  },
+  "Philipp Rose": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Dr. Ingo Ramesohl": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Johannes Grabowski": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Xiaoguang Sun": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Adam Jackson": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Nicholas Wheeler": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "only Affinity match is Charles Tyrwhitt founder - homonym"
+  }
+ },
+ "burda": {
+  "Christian Teichmann": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/ckteichmann",
+   "known_internal": "Jacob Bernstein",
+   "known_score": 0.1,
+   "last": "2025-12-02",
+   "note": "CEO Burda Principal Investments / Executive Board Burda"
+  },
+  "Natalie Schmitke": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/natalieschmitke",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2022-12-06",
+   "note": "Managing Director Burda Principal Investments"
+  },
+  "John Greger": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Julian V.": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "truncated name - not searchable"
+  },
+  "Neil F.": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "truncated name - not searchable"
+  }
+ },
+ "capnamic": {
+  "Dino Bongartz": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Tobias Kobier": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Jörg Binnenbrücker": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/joerg1",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-05-16",
+   "note": "Founding Partner Capnamic; 2019 Adjust threads w/ Sam Brooks & Irena"
+  },
+  "Olaf Jacobi": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/olafjacobi",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2024-09-24",
+   "note": "LinkedIn headline now 'Partner at Basic Ventures'; multiple affiliations incl. Capnamic, ACCURE board"
+  },
+  "Christian Knott": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/chrlstian-knott",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2023-01-26",
+   "note": "Managing Partner Capnamic; Circula thread w/ Irena & Sam"
+  },
+  "Niklas Raberg": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/nraberg",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2024-05-23",
+   "note": "Partner Capnamic; Rencore intro to Sam & William 2024"
+  },
+  "Frederik Von Bossel": {
+   "found": true,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": "bare Affinity record - no org, LinkedIn or interaction data"
+  },
+  "Dr. Nils Eiteneyer": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "cherry": {
+  "Patience Agyei": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Filip Felician Dames": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/filipdames",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 0.341,
+   "last": "2026-06-03",
+   "note": "Founding Partner Cherry Ventures"
+  },
+  "Sophia Bendz": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/sophiabendz",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2016-11-04",
+   "note": "GP Cherry Ventures (ex Atomico/Spotify); old 2016 thread w/ Irena"
+  }
+ },
+ "commerzventures": {
+  "Stefan Tirtey": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/stirtey",
+   "known_internal": "Tony Zappala",
+   "known_score": 0.511,
+   "last": "2024-03-27",
+   "note": "CommerzVentures; Affinity current-org shows Volt (board observer)"
+  },
+  "Paul Morgenthaler": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/paulmorgenthaler-cov",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2022-08-31",
+   "note": "Managing Partner CommerzVentures"
+  },
+  "Christopher Lohmann": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "discovery-ventures": {
+  "Jan Deepen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/dr-jan-deepen-30937250",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-12-02",
+   "note": "SumUp/Zeitgold co-founder, Founding Partner Discovery Ventures; Affinity current-org Navan"
+  },
+  "Stefan Jeschonnek": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/stefanjeschonnek",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-12-09",
+   "note": "SumUp/Zeitgold co-founder, Founding Partner Discovery Ventures; orgs incl. Pennylane"
+  },
+  "Dr. Jan Deepen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/dr-jan-deepen-30937250",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2019-12-02",
+   "note": "duplicate of Jan Deepen (same Affinity record)"
+  },
+  "Tobias Weiper": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ },
+ "dvh-ventures": {
+  "Gabriel Grabner": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Peter Richarz": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Fabian Von Trotha": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  },
+  "Duc Quyen Tran": {
+   "found": false,
+   "linkedin": null,
+   "known_internal": null,
+   "known_score": null,
+   "last": null,
+   "note": null
+  }
+ }
+}
