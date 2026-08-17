@@ -7,79 +7,92 @@
       "id": 311601145,
       "name": "Filmine",
       "domain": "ramo.io",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "Canada"
     },
     {
       "id": 308453670,
       "name": "RedStone",
       "domain": "redstone.finance",
-      "funnel": "Awaiting Reply"
+      "funnel": "Awaiting Reply",
+      "country": "Switzerland"
     },
     {
       "id": 302234880,
       "name": "Combinder",
       "domain": "combinder.io",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "Austria"
     },
     {
       "id": 300074827,
       "name": "Kulipa",
       "domain": "kulipa.xyz",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "United States"
     },
     {
       "id": 292221080,
       "name": "rhinestone.wtf",
       "domain": "rhinestone.wtf",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
     },
     {
       "id": 297318382,
       "name": "Arweave",
       "domain": "arweave.org",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
     },
     {
       "id": 293729327,
       "name": "fxhash",
       "domain": "fxhash.xyz",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
     },
     {
       "id": 289615376,
       "name": "Impossible Cloud",
       "domain": "impossiblecloud.com",
-      "funnel": "Qualified Lead"
+      "funnel": "Qualified Lead",
+      "country": "Germany"
     },
     {
       "id": 289766801,
       "name": "Nexus Mutual",
       "domain": "nexusmutual.io",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
     },
     {
       "id": 289766727,
       "name": "Cryptio",
       "domain": "cryptio.co",
-      "funnel": "Qualified Lead"
+      "funnel": "Qualified Lead",
+      "country": "United States"
     },
     {
       "id": 289768646,
       "name": "Transak",
       "domain": "transak.com",
-      "funnel": "Qualified Lead"
+      "funnel": "Qualified Lead",
+      "country": "United States"
     },
     {
       "id": 288839968,
       "name": "Nym Technologies",
       "domain": "nymtech.net",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "Switzerland"
     },
     {
       "id": 289760118,
       "name": "Qredo",
       "domain": "qredo.com",
-      "funnel": "Passed"
+      "funnel": "Passed",
+      "country": "United Kingdom"
     }
   ],
   "relationships": [

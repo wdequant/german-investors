@@ -1,0 +1,3452 @@
+{
+ "funds": {
+  "gfc": {
+   "website": "globalfounderscapital.com",
+   "partners": [
+    {
+     "name": "Michael Fowler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Don Stalter",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Fabricio Pettená",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "David Sainteff",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Onur Erbay",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Shao Lee",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Cedric Asselman",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Glory Harimas Sihombing",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Glory Harimas Sihombing",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Mariam Kremer",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "Soma Capital",
+    "Rocket Internet SE",
+    "FJ Labs",
+    "Picus Capital",
+    "Liquid 2 Ventures",
+    "Goodwater Capital",
+    "Kima Ventures",
+    "Alumni Ventures",
+    "Peak XV Partners",
+    "Sequoia Capital",
+    "Tiger Global"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Riff",
+     "date": "2025-10-23",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "riff.ai",
+     "harmonic_company_id": 11056000
+    },
+    {
+     "name": "Shuttle",
+     "date": "2025-10-01",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "shuttle.dev",
+     "harmonic_company_id": 825240
+    },
+    {
+     "name": "Aspora",
+     "date": "2025-06-15",
+     "round": "SERIES_B",
+     "country": "United Kingdom",
+     "domain": "aspora.com",
+     "harmonic_company_id": 60863676
+    },
+    {
+     "name": "Orasio",
+     "date": "2025-05-01",
+     "round": "SEED",
+     "country": "France",
+     "domain": "orasio.com",
+     "harmonic_company_id": 61319657
+    }
+   ],
+   "recent_total": 13,
+   "recent_eu": 5
+  },
+  "htgf": {
+   "website": "htgf.de",
+   "partners": [
+    {
+     "name": "Alex Von Frankenberg",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Claas H. Nieraad",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Bernd Goergen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Romy Schnelle",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Angelika Vlachou",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Curtis Macdonald",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Marco Winzer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Yann Fiebig",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Markus Kreßmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Tanja Emmerling",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Klaus Lehmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Frank Kerim Reinecke",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Bayern Kapital",
+    "KfW",
+    "NRW.BANK",
+    "TGFS Technologiegründerfonds Sachsen",
+    "MBG Mittelständische Beteiligungsgesellschaft Baden-Württemberg GmbH",
+    "IBB Ventures",
+    "LBBW Venture Capital GmbH",
+    "eCAPITAL ENTREPRENEURIAL PARTNERS",
+    "IFB Innovationsstarter GmbH",
+    "Boehringer Ingelheim Venture Fund",
+    "Zürcher Kantonalbank",
+    "OCCIDENT"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Pixel-Flo Ltd.",
+     "date": "2026-07-09",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "pixel-flo.com",
+     "harmonic_company_id": 66575915
+    },
+    {
+     "name": "reverse.fashion",
+     "date": "2026-07-08",
+     "round": "SEED_EXTENSION",
+     "country": "Germany",
+     "domain": "reverse.fashion",
+     "harmonic_company_id": 56882407
+    },
+    {
+     "name": "Proxima Fusion",
+     "date": "2026-07-07",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "proximafusion.com",
+     "harmonic_company_id": 12741862
+    },
+    {
+     "name": "Auxilius",
+     "date": "2026-07-07",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "auxilius.ai",
+     "harmonic_company_id": 62774478
+    },
+    {
+     "name": "kausable",
+     "date": "2026-07-01",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "kausable.ai",
+     "harmonic_company_id": 62525773
+    },
+    {
+     "name": "Seqana",
+     "date": "2026-06-17",
+     "round": "LATER_STAGE",
+     "country": "Germany",
+     "domain": "seqana.com",
+     "harmonic_company_id": 4009906
+    },
+    {
+     "name": "CollimateHealth",
+     "date": "2026-06-15",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "collimatehealth.com",
+     "harmonic_company_id": 76472938
+    },
+    {
+     "name": "Tacalyx GmbH",
+     "date": "2026-04-29",
+     "round": "SEED_EXTENSION",
+     "country": "Germany",
+     "domain": "tacalyx.com",
+     "harmonic_company_id": 1429845
+    },
+    {
+     "name": "Primogene GmbH",
+     "date": "2026-04-29",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "primogene.bio",
+     "harmonic_company_id": 58496149
+    },
+    {
+     "name": "VREY",
+     "date": "2026-04-23",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "vrey.io",
+     "harmonic_company_id": 56481661
+    },
+    {
+     "name": "brainjo GmbH",
+     "date": "2026-04-20",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "brainjo.de",
+     "harmonic_company_id": 4425245
+    },
+    {
+     "name": "Pixel Photonics",
+     "date": "2026-04-13",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "pixelphotonics.com",
+     "harmonic_company_id": 4411412
+    },
+    {
+     "name": "Qurie GmbH",
+     "date": "2026-04-01",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "qurie.de",
+     "harmonic_company_id": 75891718
+    },
+    {
+     "name": "INCIRT",
+     "date": "2026-03-25",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "incirt.de",
+     "harmonic_company_id": 10884209
+    },
+    {
+     "name": "Umlaut.bio GmbH",
+     "date": "2026-03-23",
+     "round": "PRE_SEED",
+     "country": "Switzerland",
+     "domain": "umlaut.bio",
+     "harmonic_company_id": 56733685
+    }
+   ],
+   "recent_total": 29,
+   "recent_eu": 28
+  },
+  "hv-capital": {
+   "website": "hvcapital.com",
+   "partners": [
+    {
+     "name": "Lars Langusch",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sven Achter",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "David Kuczek",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Rainer Märkle",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Barbod Namini",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christian Saller",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Christian Saller",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Felix Klühr",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jan Miczaika",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Alexander Joel-Carbonell",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Fabian Gruner",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Martin Weber",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Dieter von Holtzbrinck Ventures",
+    "Rocket Internet SE",
+    "Kinnevik",
+    "Speedinvest",
+    "Tengelmann Ventures",
+    "Picus Capital",
+    "Lakestar",
+    "Headline",
+    "Vorwerk Ventures",
+    "Balderton",
+    "b2venture",
+    "Partech"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Ore Energy",
+     "date": "2026-08-04",
+     "round": "SERIES_A",
+     "country": "Netherlands",
+     "domain": "ore-energy.com",
+     "harmonic_company_id": 12019251
+    },
+    {
+     "name": "Isar Aerospace",
+     "date": "2026-06-09",
+     "round": "SERIES_D",
+     "country": "Germany",
+     "domain": "isaraerospace.com",
+     "harmonic_company_id": 1504891
+    },
+    {
+     "name": "FINN",
+     "date": "2026-06-01",
+     "round": "SERIES_D",
+     "country": "Germany",
+     "domain": "finn.com",
+     "harmonic_company_id": 7540092
+    },
+    {
+     "name": "AMI - Advanced Machine Intelligence",
+     "date": "2026-03-09",
+     "round": "SEED",
+     "country": "France",
+     "domain": "amilabs.xyz",
+     "harmonic_company_id": 72022894
+    },
+    {
+     "name": "Complyance",
+     "date": "2026-02-11",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "complyance.com",
+     "harmonic_company_id": 11000160
+    },
+    {
+     "name": "MPIRIQ",
+     "date": "2025-12-04",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "mpiriq.de",
+     "harmonic_company_id": 65397397
+    },
+    {
+     "name": "Ferroelectric Memory Company",
+     "date": "2025-11-13",
+     "round": "SERIES_C",
+     "country": "Germany",
+     "domain": "ferroelectric-memory.com",
+     "harmonic_company_id": 1522623
+    },
+    {
+     "name": "The Icon League",
+     "date": "2025-11-03",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "theiconleague.com",
+     "harmonic_company_id": 47694119
+    },
+    {
+     "name": "PACT",
+     "date": "2025-10-31",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "pact.earth",
+     "harmonic_company_id": 3600379
+    },
+    {
+     "name": "Bitlight Labs",
+     "date": "2025-09-19",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "bitlightlabs.com",
+     "harmonic_company_id": 43834172
+    },
+    {
+     "name": "Framer",
+     "date": "2025-08-28",
+     "round": "SERIES_D",
+     "country": "Netherlands",
+     "domain": "framer.com",
+     "harmonic_company_id": 696160
+    },
+    {
+     "name": "CarOnSale",
+     "date": "2025-07-07",
+     "round": "SERIES_C",
+     "country": "Germany",
+     "domain": "caronsale.com",
+     "harmonic_company_id": 1458758
+    }
+   ],
+   "recent_total": 29,
+   "recent_eu": 25
+  },
+  "earlybird": {
+   "website": "earlybird.com",
+   "partners": [
+    {
+     "name": "Dr. Hendrik Brandis",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Christian Nagel",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Evren Ucok",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Roland Manger",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lionel Carnot",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Thom Rasche",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Michael Schmitt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Rainer Christine",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "John Yianni",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Cem Sertoglu",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dan Lupu",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Mehmet Sel Atici",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Molten Ventures",
+    "Speedinvest",
+    "HTGF | High-Tech Gründerfonds",
+    "Leblon Capital",
+    "Wellington Partners",
+    "HV",
+    "Seedcamp",
+    "NRW.BANK",
+    "Target Partners",
+    "Earlybird Digital East Fund",
+    "Lakestar",
+    "Andrej Henkler"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Oris",
+     "date": "2026-07-21",
+     "round": "PRE_SEED",
+     "country": "Switzerland",
+     "domain": "oris.ch",
+     "harmonic_company_id": 3451588
+    },
+    {
+     "name": "ORiS - Space",
+     "date": "2026-07-21",
+     "round": "PRE_SEED",
+     "country": "Italy",
+     "domain": "oris-space.com",
+     "harmonic_company_id": 41368909
+    },
+    {
+     "name": "eleQtron",
+     "date": "2026-05-05",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "eleqtron.com",
+     "harmonic_company_id": 3958704
+    },
+    {
+     "name": "CONXAI",
+     "date": "2026-04-07",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "consai.tech",
+     "harmonic_company_id": 486377
+    },
+    {
+     "name": "terralayr",
+     "date": "2026-02-19",
+     "round": "EARLY_STAGE",
+     "country": "Switzerland",
+     "domain": "trlyr.com",
+     "harmonic_company_id": 10890838
+    },
+    {
+     "name": "Black Forest Labs",
+     "date": "2025-12-01",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "bfl.ai",
+     "harmonic_company_id": 47062238
+    },
+    {
+     "name": "Neuracore",
+     "date": "2025-11-27",
+     "round": "PRE_SEED",
+     "country": "United Kingdom",
+     "domain": "neuracore.com",
+     "harmonic_company_id": 58781233
+    },
+    {
+     "name": "Portal Biotech",
+     "date": "2025-06-30",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "portalbiotech.com",
+     "harmonic_company_id": 43226761
+    },
+    {
+     "name": "Brandback",
+     "date": "2025-06-12",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "brandback.ai",
+     "harmonic_company_id": 43206051
+    },
+    {
+     "name": "koppla",
+     "date": "2025-05-21",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "koppla.de",
+     "harmonic_company_id": 3075792
+    }
+   ],
+   "recent_total": 30,
+   "recent_eu": 24
+  },
+  "point-nine": {
+   "website": "pointnine.com",
+   "partners": [
+    {
+     "name": "Kolja Hebenstreit",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Pawel Chudzinski",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christoph Janz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Rodrigo Martinez",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Louis Coppey",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ricardo Sequerra Amram",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Seth Dehart",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Kima Ventures",
+    "Creandum",
+    "Point Nine",
+    "Insight Partners",
+    "Index Ventures",
+    "Alven",
+    "RTAventures VC",
+    "500 Global",
+    "Mariusz Gralewski",
+    "Matt Robinson",
+    "Y Combinator",
+    "Accel"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Forithmus",
+     "date": "2026-03-17",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "forithmus.com",
+     "harmonic_company_id": 72651824
+    }
+   ],
+   "recent_total": 17,
+   "recent_eu": 11
+  },
+  "468-capital": {
+   "website": "468cap.com",
+   "partners": [
+    {
+     "name": "Florian Leibert",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Alexander Kudlich",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Emanuel Pallua",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Bardo D.",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Bernhard Janke",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ludwig Ensthaler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Philipp Seifert",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "Pioneer Fund",
+    "MPGI",
+    "Presight Capital",
+    "Global Founders Capital",
+    "Alumni Ventures",
+    "Soma Capital",
+    "Pioneer Fund",
+    "Transpose Platform",
+    "Liquid 2 Ventures",
+    "General Catalyst",
+    "HV"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Twentyfour Industries",
+     "date": "2026-01-19",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "twentyfour.industries",
+     "harmonic_company_id": 59729485
+    },
+    {
+     "name": "QFEX",
+     "date": "2026-01-12",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "pfex.com",
+     "harmonic_company_id": 61290246
+    }
+   ],
+   "recent_total": 29,
+   "recent_eu": 3
+  },
+  "picus": {
+   "website": "picuscap.com",
+   "partners": [
+    {
+     "name": "Kilian Thalhammer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Robin Godenrath",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Oliver Heinrich",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Schmidt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Schmidt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Florian Reichert",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Damian Crowther",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Kerstin Dittmar",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Nicolai Frost Jacobsen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ignacio Pérez Hallerbach",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Stryz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Stryz",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Global Founders Capital",
+    "Y Combinator",
+    "FJ Labs",
+    "QED Investors",
+    "HV",
+    "Clocktower Ventures",
+    "Gilgamesh Ventures",
+    "DST Global",
+    "KASZEK",
+    "Liquid 2 Ventures",
+    "Kima Ventures",
+    "Norte Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "FINN",
+     "date": "2026-06-01",
+     "round": "SERIES_D",
+     "country": "Germany",
+     "domain": "finn.com",
+     "harmonic_company_id": 7540092
+    },
+    {
+     "name": "XO Market",
+     "date": "2026-04-30",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "xo.market",
+     "harmonic_company_id": 60539880
+    },
+    {
+     "name": "Silverflow",
+     "date": "2026-03-05",
+     "round": "SERIES_B",
+     "country": "Netherlands",
+     "domain": "silverflow.com",
+     "harmonic_company_id": 1429990
+    },
+    {
+     "name": "terralayr",
+     "date": "2026-02-19",
+     "round": "EARLY_STAGE",
+     "country": "Switzerland",
+     "domain": "trlyr.com",
+     "harmonic_company_id": 10890838
+    },
+    {
+     "name": "Visionaries",
+     "date": "2025-11-01",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "visionaries.vc",
+     "harmonic_company_id": 691840
+    },
+    {
+     "name": "StratifAI",
+     "date": "2025-09-30",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "stratifai.com",
+     "harmonic_company_id": 40565516
+    },
+    {
+     "name": "Quantile Energy",
+     "date": "2025-08-06",
+     "round": "EARLY_STAGE",
+     "country": "United Kingdom",
+     "domain": "quantileenergy.com",
+     "harmonic_company_id": 62124119
+    }
+   ],
+   "recent_total": 29,
+   "recent_eu": 16
+  },
+  "cherry": {
+   "website": "cherry.vc",
+   "partners": [
+    {
+     "name": "Patience Agyei",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christian Meermann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Filip Felician Dames",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sophia Bendz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dinika Mahtani",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "Atomico",
+    "Seedcamp",
+    "Speedinvest",
+    "Charlie Songhurst",
+    "TriplePoint Capital",
+    "Global Founders Capital",
+    "DN Capital",
+    "LocalGlobe",
+    "UVC Partners",
+    "Christian Reber",
+    "General Catalyst"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Proxima Fusion",
+     "date": "2026-07-07",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "proximafusion.com",
+     "harmonic_company_id": 12741862
+    },
+    {
+     "name": "Synera",
+     "date": "2026-04-14",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "synera.io",
+     "harmonic_company_id": 11060596
+    },
+    {
+     "name": "Heywa Labs",
+     "date": "2026-02-12",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "heywalabs.com",
+     "harmonic_company_id": 71318726
+    }
+   ],
+   "recent_total": 26,
+   "recent_eu": 18
+  },
+  "bayern-kapital": {
+   "website": "bayernkapital.de",
+   "partners": [],
+   "co_investors": [
+    "HTGF | High-Tech Gründerfonds",
+    "BayBG Bayerische Beteiligungsgesellschaft mbH",
+    "UVC Partners",
+    "KfW",
+    "Wachstumsfonds Bayern",
+    "MIG Capital",
+    "Seventure Partners",
+    "UnternehmerTUM Funding for Innovators",
+    "DeepTech & Climate Fonds (DTCF)",
+    "b2venture",
+    "EIC Fund",
+    "European Innovation Council and SMEs Executive Agency (EISMEA)"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "QuantumDiamonds",
+     "date": "2026-07-09",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "qd-st.com",
+     "harmonic_company_id": 61257412
+    },
+    {
+     "name": "Proxima Fusion",
+     "date": "2026-07-07",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "proximafusion.com",
+     "harmonic_company_id": 12741862
+    },
+    {
+     "name": "Maple Aviation",
+     "date": "2026-06-26",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "maple-aviation.com",
+     "harmonic_company_id": 76838975
+    },
+    {
+     "name": "NUCLIDIUM AG",
+     "date": "2026-05-29",
+     "round": "SERIES_B_EXTENSION",
+     "country": "Switzerland",
+     "domain": "nuclidium.com",
+     "harmonic_company_id": 12464001
+    },
+    {
+     "name": "Exergy3",
+     "date": "2026-04-21",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "exergy3.com",
+     "harmonic_company_id": 41379190
+    },
+    {
+     "name": "SPiNE Energy",
+     "date": "2026-04-16",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "spine.energy",
+     "harmonic_company_id": 39129536
+    },
+    {
+     "name": "Nature Robots",
+     "date": "2026-03-30",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "naturerobots.com",
+     "harmonic_company_id": 38277602
+    },
+    {
+     "name": "Noxon GmbH",
+     "date": "2026-03-02",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "noxon.io",
+     "harmonic_company_id": 10649827
+    },
+    {
+     "name": "driveblocks",
+     "date": "2026-02-10",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "driveblocks.ai",
+     "harmonic_company_id": 4132956
+    },
+    {
+     "name": "Twogee Biotech",
+     "date": "2026-01-29",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "twogee-biotech.com",
+     "harmonic_company_id": 58358077
+    },
+    {
+     "name": "Mozaik: Corporate Video Platform",
+     "date": "2026-01-28",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "mozaik-app.com",
+     "harmonic_company_id": 3225770
+    },
+    {
+     "name": "AVES Reality",
+     "date": "2026-01-14",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "avesreality.com",
+     "harmonic_company_id": 3674888
+    },
+    {
+     "name": "T-CURX GmbH",
+     "date": "2025-12-17",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "t-curx.com",
+     "harmonic_company_id": 10594243
+    },
+    {
+     "name": "Virtonomy.io",
+     "date": "2025-12-15",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "virtonomy.io",
+     "harmonic_company_id": 2096622
+    },
+    {
+     "name": "Amplifold",
+     "date": "2025-12-10",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "amplifold.com",
+     "harmonic_company_id": 65537225
+    }
+   ],
+   "recent_total": 30,
+   "recent_eu": 29
+  },
+  "project-a": {
+   "website": "project-a.vc",
+   "partners": [
+    {
+     "name": "Thies Sander",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ben Fischer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Malin Posern",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Thuy-Ngan Trinh",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Project A",
+    "Accel",
+    "SB21",
+    "Seedcamp",
+    "Creandum",
+    "HV",
+    "Discovery Ventures",
+    "helloworld",
+    "Discovery Ventures Inc.",
+    "Moonfire",
+    "Global Founders Capital",
+    "Vsquared Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Nexcade",
+     "date": "2026-07-08",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "nexcade.ai",
+     "harmonic_company_id": 57322895
+    },
+    {
+     "name": "STARK",
+     "date": "2025-08-21",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "stark-defence.com",
+     "harmonic_company_id": 55453570
+    },
+    {
+     "name": "Atmen",
+     "date": "2025-06-03",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "atmen.co",
+     "harmonic_company_id": 10529295
+    },
+    {
+     "name": "VESTIGAS",
+     "date": "2025-04-09",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "vestigas.com",
+     "harmonic_company_id": 3511994
+    },
+    {
+     "name": "Montamo",
+     "date": "2025-04-01",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "montamo.com",
+     "harmonic_company_id": 39618235
+    },
+    {
+     "name": "Dalma.",
+     "date": "2025-03-17",
+     "round": "SERIES_B",
+     "country": "France",
+     "domain": "dalma.co",
+     "harmonic_company_id": 2031235
+    }
+   ],
+   "recent_total": 23,
+   "recent_eu": 22
+  },
+  "ibb-ventures": {
+   "website": "ibbventures.de",
+   "partners": [
+    {
+     "name": "Katrin Robeck",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "HTGF | High-Tech Gründerfonds",
+    "Investitionsbank Berlin",
+    "Redstone",
+    "WestTech Ventures",
+    "Dieter von Holtzbrinck Ventures",
+    "Business Angels Club Berlin-Brandenburg e.V. (BACB)",
+    "Land Berlin",
+    "SB21",
+    "Plug and Play",
+    "468 Capital",
+    "Hevella Beteiligungen GmbH",
+    "Creathor Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "beatsquares",
+     "date": "2026-07-20",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "beatsquares.com",
+     "harmonic_company_id": 61708441
+    },
+    {
+     "name": "NextGO Epi",
+     "date": "2026-07-14",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "nextgoepi.com",
+     "harmonic_company_id": 56849168
+    },
+    {
+     "name": "Freshflow",
+     "date": "2026-06-03",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "freshflow.ai",
+     "harmonic_company_id": 4525693
+    },
+    {
+     "name": "Remi Health",
+     "date": "2026-03-25",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "myremi.com",
+     "harmonic_company_id": 9695410
+    },
+    {
+     "name": "Level Nine",
+     "date": "2026-03-17",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "levelninelabs.com",
+     "harmonic_company_id": 12579764
+    },
+    {
+     "name": "hellomed",
+     "date": "2026-02-09",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "hellomed.com",
+     "harmonic_company_id": 11224982
+    },
+    {
+     "name": "NENNA.AI",
+     "date": "2026-01-20",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "nenna.ai",
+     "harmonic_company_id": 48628510
+    },
+    {
+     "name": "Jurafuchs",
+     "date": "2025-12-18",
+     "round": "LATER_STAGE",
+     "country": "Germany",
+     "domain": "jurafuchs.de",
+     "harmonic_company_id": 1730652
+    },
+    {
+     "name": "Joy_",
+     "date": "2025-12-09",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "givingjoy.de",
+     "harmonic_company_id": 12822852
+    },
+    {
+     "name": "AnyTax",
+     "date": "2025-10-29",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "anytax.io",
+     "harmonic_company_id": 56296752
+    },
+    {
+     "name": "MOTOR Ai",
+     "date": "2025-07-14",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "motor-ai.com",
+     "harmonic_company_id": 1586358
+    },
+    {
+     "name": "Yuno",
+     "date": "2025-07-01",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "get-yuno.com",
+     "harmonic_company_id": 3566093
+    },
+    {
+     "name": "Tuktoro® by a2zebra",
+     "date": "2025-06-18",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "tuktoro.com",
+     "harmonic_company_id": 19412456
+    },
+    {
+     "name": "Lumoview Building Analytics GmbH",
+     "date": "2025-06-02",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "lumoview.com",
+     "harmonic_company_id": 1815627
+    },
+    {
+     "name": "Spark e-Fuels",
+     "date": "2025-02-12",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "sparkefuels.com",
+     "harmonic_company_id": 10265389
+    }
+   ],
+   "recent_total": 22,
+   "recent_eu": 22
+  },
+  "atlantic-labs": {
+   "website": "atlantic.vc",
+   "partners": [
+    {
+     "name": "Felix Petersen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christophe Maire",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Marc-Olivier Luecke",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Daniel Niemi",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ruben Schultz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Carina Hüls",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Christophe Maire",
+    "Groupe Arnault",
+    "Cherry Ventures",
+    "Christian Dahlen",
+    "b2venture",
+    "Accel",
+    "Visionaries",
+    "Acton Capital",
+    "HV",
+    "Possible Ventures",
+    "Mosaic Ventures",
+    "Kima Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "NewOrbit Space",
+     "date": "2026-06-08",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "neworbit.space",
+     "harmonic_company_id": 3240147
+    },
+    {
+     "name": "PAVE Space",
+     "date": "2026-03-25",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "pave.space",
+     "harmonic_company_id": 65365875
+    },
+    {
+     "name": "Laminar (YC S24)",
+     "date": "2026-03-17",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "laminar.sh",
+     "harmonic_company_id": 63106702
+    },
+    {
+     "name": "Circle Health",
+     "date": "2026-02-11",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "circle.health",
+     "harmonic_company_id": 57795707
+    },
+    {
+     "name": "Mirelo",
+     "date": "2025-12-15",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "mirelo.ai",
+     "harmonic_company_id": 45973444
+    },
+    {
+     "name": "BYVIDA",
+     "date": "2025-12-09",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "byvida.de",
+     "harmonic_company_id": 59942401
+    },
+    {
+     "name": "Voltrac",
+     "date": "2025-11-18",
+     "round": "SEED",
+     "country": "Spain",
+     "domain": "voltrac.eu",
+     "harmonic_company_id": 51868300
+    },
+    {
+     "name": "Every Health",
+     "date": "2025-10-23",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "every.health",
+     "harmonic_company_id": 41045921
+    },
+    {
+     "name": "Arbio",
+     "date": "2025-10-14",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "arbio.com",
+     "harmonic_company_id": 4170692
+    },
+    {
+     "name": "Yuno",
+     "date": "2025-07-01",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "get-yuno.com",
+     "harmonic_company_id": 3566093
+    },
+    {
+     "name": "Harmattan AI",
+     "date": "2025-03-08",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "harmattan.ai",
+     "harmonic_company_id": 59789675
+    }
+   ],
+   "recent_total": 20,
+   "recent_eu": 16
+  },
+  "1kx": {
+   "website": "1kx.capital",
+   "partners": [
+    {
+     "name": "Lasse Clausen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christopher Heymann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Peter Pan",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Wei Dai",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Clare He",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Coinbase",
+    "Maven 11",
+    "Hashed",
+    "CoinFund",
+    "DCG",
+    "Robot Ventures",
+    "Blockchain Capital",
+    "Polychain Capital",
+    "Placeholder",
+    "Fenbushi Capital",
+    "Collab+Currency",
+    "Tribute Labs"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Impossible Cloud Network",
+     "date": "2025-07-04",
+     "round": "EARLY_STAGE",
+     "country": "Switzerland",
+     "domain": "icn.global",
+     "harmonic_company_id": 57926797
+    },
+    {
+     "name": "VOYA Games",
+     "date": "2025-05-21",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "voya.games",
+     "harmonic_company_id": 48687254
+    },
+    {
+     "name": "Decen Space",
+     "date": "2025-04-17",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "decenspace.com",
+     "harmonic_company_id": 60548201
+    },
+    {
+     "name": "Gunzilla Games",
+     "date": "2025-04-10",
+     "round": "STRATEGIC",
+     "country": "Germany",
+     "domain": "gunzillagames.com",
+     "harmonic_company_id": 1632440
+    },
+    {
+     "name": "Autonolas",
+     "date": "2025-02-04",
+     "round": "EARLY_STAGE",
+     "country": "United Kingdom",
+     "domain": "olas.network",
+     "harmonic_company_id": 29863264
+    }
+   ],
+   "recent_total": 27,
+   "recent_eu": 7
+  },
+  "ta-ventures": {
+   "website": "taventures.vc",
+   "partners": [
+    {
+     "name": "Igor Buchatskiy",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Viktoriya Tigipko",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Igor Semenov",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Eveline Buchatskiy",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Viroslava Novosylna",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Colin Mcswiggen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Oleg Malenkov",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Richard Armstrong",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Yuriy Romanyukha",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Maria Ren",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stepan Naumov",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andrew Verbitsky",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "ICLUB",
+    "FJ Labs",
+    "u.ventures",
+    "Fabrice Grinda",
+    "Global Founders Capital",
+    "Teodoro D'Ambrosio",
+    "500 Global",
+    "Willow Growth Partners",
+    "HV",
+    "Headline",
+    "Picus Capital",
+    "TEC Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Liki24.com",
+     "date": "2025-07-03",
+     "round": "SERIES_A",
+     "country": "Ukraine",
+     "domain": "liki24.ro",
+     "harmonic_company_id": 792901
+    },
+    {
+     "name": "Pleso Therapy",
+     "date": "2025-05-19",
+     "round": "SEED",
+     "country": "Ukraine",
+     "domain": "pleso.me",
+     "harmonic_company_id": 5469656
+    }
+   ],
+   "recent_total": 11,
+   "recent_eu": 2
+  },
+  "redstone": {
+   "website": "redstone.vc",
+   "partners": [
+    {
+     "name": "Samuli Sirén",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Kaj Hagros",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Michael Brehm",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Timo Fleig",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Yucheng Shan",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Mickaël Bellaïche",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Martin Scherrer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ben Scheidt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Mohamed F.",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lukas André",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lars Haerle",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Marco Stutz",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "VR Ventures",
+    "Future Industry Ventures",
+    "IBB Ventures",
+    "coparion",
+    "Euregio Plus SGR S.p.A. / AG",
+    "Business Joensuu Oy",
+    "HTGF | High-Tech Gründerfonds",
+    "EnjoyVenture",
+    "Schwarzwälder Bote Mediengruppe",
+    "QAI Ventures",
+    "Pi Labs",
+    "Partech"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Homaio",
+     "date": "2026-03-18",
+     "round": "SEED",
+     "country": "France",
+     "domain": "homaio.com",
+     "harmonic_company_id": 12789513
+    },
+    {
+     "name": "Carbonaide",
+     "date": "2026-01-28",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "carbonaide.com",
+     "harmonic_company_id": 12178969
+    },
+    {
+     "name": "FICUS HEALTH",
+     "date": "2025-12-11",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "ficus-health.de",
+     "harmonic_company_id": 56762644
+    },
+    {
+     "name": "Mirantus Health",
+     "date": "2025-11-20",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "mirantus.com",
+     "harmonic_company_id": 11068823
+    },
+    {
+     "name": "BTRY",
+     "date": "2025-11-06",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "btry.ch",
+     "harmonic_company_id": 40833490
+    },
+    {
+     "name": "Tethys Robotics",
+     "date": "2025-10-30",
+     "round": "LATER_STAGE",
+     "country": "Switzerland",
+     "domain": "tethys-robotics.ch",
+     "harmonic_company_id": 4860385
+    },
+    {
+     "name": "Ventive",
+     "date": "2025-10-01",
+     "round": "PRIVATE_EQUITY",
+     "country": "Italy",
+     "domain": "ventivegroup.com",
+     "harmonic_company_id": 4285254
+    },
+    {
+     "name": "Covision Quality",
+     "date": "2025-03-31",
+     "round": "EARLY_STAGE",
+     "country": "Italy",
+     "domain": "covisionquality.com",
+     "harmonic_company_id": 4327409
+    }
+   ],
+   "recent_total": 19,
+   "recent_eu": 18
+  },
+  "bosch-ventures": {
+   "website": "bosch.ventures",
+   "partners": [
+    {
+     "name": "Gadi Toren",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jan Westerhues",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Hongquan Jiang",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Philipp Rose",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Ingo Ramesohl",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Johannes Grabowski",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Xiaoguang Sun",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Adam Jackson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Nicholas Wheeler",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Bosch Global Software Technologies",
+    "Dell Technologies Capital",
+    "Samsung Catalyst Fund",
+    "Molten Ventures",
+    "Bosch",
+    "BMW i Ventures",
+    "Alumni Ventures",
+    "Intel Capital",
+    "NVIDIA",
+    "Dell Technologies",
+    "Atlantic Bridge",
+    "Pitango"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Quantum Motion",
+     "date": "2026-05-07",
+     "round": "SERIES_C",
+     "country": "United Kingdom",
+     "domain": "quantummotion.com",
+     "harmonic_company_id": 1676243
+    },
+    {
+     "name": "Qdrant",
+     "date": "2026-03-12",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "qdrant.tech",
+     "harmonic_company_id": 3076221
+    },
+    {
+     "name": "Ferroelectric Memory Company",
+     "date": "2025-11-13",
+     "round": "SERIES_C",
+     "country": "Germany",
+     "domain": "ferroelectric-memory.com",
+     "harmonic_company_id": 1522623
+    },
+    {
+     "name": "SCINTIL Photonics",
+     "date": "2025-09-09",
+     "round": "SERIES_B",
+     "country": "France",
+     "domain": "scintil-photonics.com",
+     "harmonic_company_id": 1430026
+    },
+    {
+     "name": "4.screen",
+     "date": "2025-07-11",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "4screen.com",
+     "harmonic_company_id": 1960498
+    },
+    {
+     "name": "Rabot Energy",
+     "date": "2025-07-07",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "rabot.energy",
+     "harmonic_company_id": 6624362
+    },
+    {
+     "name": "CamGraPhIC Ltd",
+     "date": "2025-03-24",
+     "round": "SERIES_A",
+     "country": "Italy",
+     "domain": "camgraphic-technology.com",
+     "harmonic_company_id": 3740972
+    },
+    {
+     "name": "2D Photonics",
+     "date": "2025-02-01",
+     "round": "SERIES_A",
+     "country": "Italy",
+     "domain": "2dphotonics.com",
+     "harmonic_company_id": 60210850
+    }
+   ],
+   "recent_total": 19,
+   "recent_eu": 8
+  },
+  "blueyard": {
+   "website": "blueyard.com",
+   "partners": [
+    {
+     "name": "Peter Read",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ciarán O'Leary",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jason D. Whitmire",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Philipp Banhardt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Chad Fowler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "David Byrd",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Benjamin Levy",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Katie Hewitt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Michael Wax",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Acequia Capital",
+    "Protocol Labs",
+    "Possible Ventures",
+    "Coinbase",
+    "Charlie Songhurst",
+    "Andreessen Horowitz",
+    "Liquid 2 Ventures",
+    "EQT Ventures",
+    "Inflection.xyz",
+    "Sentinel Global",
+    "BACKED VC",
+    "Amino Collective"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "ETHGas",
+     "date": "2025-12-20",
+     "round": "SEED",
+     "country": "Gibraltar",
+     "domain": "ethgas.com",
+     "harmonic_company_id": 60121674
+    }
+   ],
+   "recent_total": 16,
+   "recent_eu": 8
+  },
+  "possible-ventures": {
+   "website": "possible.ventures",
+   "partners": [
+    {
+     "name": "Chris Hitchen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Thyra Seitz (Wegener)",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Thomas Klews",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Christoph Baumeister",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Acequia Capital",
+    "EQT Ventures",
+    "Climate Capital",
+    "Blackbird",
+    "BlueYard Capital",
+    "Tiny Supercomputer Investment Company",
+    "Inventures Investment Partners, impact Venture Capital",
+    "byFounders",
+    "Chris Hitchen",
+    "Inveon - Digital Commerce Solutions",
+    "Atlantic",
+    "83NORTH"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "mkind",
+     "date": "2026-06-25",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "mkind.ai",
+     "harmonic_company_id": 76794515
+    },
+    {
+     "name": "Coherence Neuro",
+     "date": "2025-11-04",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "coherenceneuro.com",
+     "harmonic_company_id": 12473032
+    },
+    {
+     "name": "enaDyne",
+     "date": "2025-09-25",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "enadyne.de",
+     "harmonic_company_id": 4081245
+    },
+    {
+     "name": "FLOWBIO",
+     "date": "2025-02-28",
+     "round": "EARLY_STAGE",
+     "country": "United Kingdom",
+     "domain": "flowbio.com",
+     "harmonic_company_id": 1430853
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 7
+  },
+  "capnamic": {
+   "website": "capnamic.com",
+   "partners": [
+    {
+     "name": "Dino Bongartz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christian Siegele",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Tobias Kobier",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jörg Binnenbrücker",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Olaf Jacobi",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christian Knott",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Niklas Raberg",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Frederik Von Bossel",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Nils Eiteneyer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Nils Eiteneyer",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "IRIS",
+    "Iris Capital",
+    "NRW.BANK",
+    "Insight Partners",
+    "UVC Partners",
+    "Endeit Capital",
+    "HTGF | High-Tech Gründerfonds",
+    "42CAP",
+    "Earlybird Venture Capital",
+    "Robert Maier",
+    "Partech",
+    "IBB Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Omegga",
+     "date": "2026-04-24",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "omegga.eu",
+     "harmonic_company_id": 54614105
+    },
+    {
+     "name": "Omegga",
+     "date": "2026-04-24",
+     "round": "LATER_STAGE",
+     "country": "Germany",
+     "domain": "omegga.com",
+     "harmonic_company_id": 11429566
+    },
+    {
+     "name": "Loopario | vormals Logistikbude",
+     "date": "2026-03-18",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "loopario.com",
+     "harmonic_company_id": 77805811
+    },
+    {
+     "name": "SenseUP Biotechnology",
+     "date": "2026-01-15",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "senseup-biotech.com",
+     "harmonic_company_id": 2066010
+    },
+    {
+     "name": "Tanso",
+     "date": "2025-08-05",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "tanso.de",
+     "harmonic_company_id": 3362485
+    },
+    {
+     "name": "Filics",
+     "date": "2025-07-07",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "filics.eu",
+     "harmonic_company_id": 3436986
+    },
+    {
+     "name": "POLARIS Raumflugzeuge GmbH",
+     "date": "2025-06-13",
+     "round": "SEED_EXTENSION",
+     "country": "Germany",
+     "domain": "polaris-raumflugzeuge.de",
+     "harmonic_company_id": 4465321
+    },
+    {
+     "name": "experial",
+     "date": "2025-03-27",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "experial.ai",
+     "harmonic_company_id": 17101775
+    },
+    {
+     "name": "Rex",
+     "date": "2025-03-08",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "rex.app",
+     "harmonic_company_id": 3610790
+    }
+   ],
+   "recent_total": 19,
+   "recent_eu": 18
+  },
+  "uvc-partners": {
+   "website": "uvcpartners.com",
+   "partners": [
+    {
+     "name": "Helmut Schoenenberger",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Ingo Potthof",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Unseld",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Johannes Von Borries",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Benjamin Erhart",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Oliver Schoppe",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Andreas Nauerz",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Bayern Kapital",
+    "HTGF | High-Tech Gründerfonds",
+    "Plug and Play",
+    "b2venture",
+    "Cherry Ventures",
+    "Verve Ventures",
+    "Capnamic",
+    "Earlybird Venture Capital",
+    "HV",
+    "GRAZIA EQUITY",
+    "coparion",
+    "Senovo"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Proxima Fusion",
+     "date": "2026-07-07",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "proximafusion.com",
+     "harmonic_company_id": 12741862
+    },
+    {
+     "name": "Isar Aerospace",
+     "date": "2026-06-09",
+     "round": "SERIES_D",
+     "country": "Germany",
+     "domain": "isaraerospace.com",
+     "harmonic_company_id": 1504891
+    },
+    {
+     "name": "FINN",
+     "date": "2026-06-01",
+     "round": "SERIES_D",
+     "country": "Germany",
+     "domain": "finn.com",
+     "harmonic_company_id": 7540092
+    },
+    {
+     "name": "Patronus Group",
+     "date": "2026-04-28",
+     "round": "PRIVATE_EQUITY",
+     "country": "Germany",
+     "domain": "patronus-group.com",
+     "harmonic_company_id": 3858535
+    },
+    {
+     "name": "Synera",
+     "date": "2026-04-14",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "synera.io",
+     "harmonic_company_id": 11060596
+    },
+    {
+     "name": "Litherm Technologies GmbH",
+     "date": "2026-03-03",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "litherm.com",
+     "harmonic_company_id": 72051561
+    },
+    {
+     "name": "Metafuels",
+     "date": "2026-02-20",
+     "round": "SERIES_A1",
+     "country": "Switzerland",
+     "domain": "metafuels.ch",
+     "harmonic_company_id": 4653189
+    },
+    {
+     "name": "Sonia",
+     "date": "2025-11-27",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "sonia.so",
+     "harmonic_company_id": 48630160
+    },
+    {
+     "name": "Tanso",
+     "date": "2025-08-05",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "tanso.de",
+     "harmonic_company_id": 3362485
+    },
+    {
+     "name": "Radical Dot",
+     "date": "2025-03-03",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "radicaldot.com",
+     "harmonic_company_id": 50888445
+    }
+   ],
+   "recent_total": 17,
+   "recent_eu": 16
+  },
+  "mig-capital": {
+   "website": "mig.ag",
+   "partners": [
+    {
+     "name": "Matthias Kromayer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Matthias Guth",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Kristian Schmidt-Garve",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Oliver Kahl",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Klaus Feix",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Soren Hein",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Kastenbauer",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "HTGF | High-Tech Gründerfonds",
+    "HMW Kapitalanlagen",
+    "KfW",
+    "Bayern Kapital",
+    "SALVIA GmbH",
+    "Wellington Partners",
+    "EIC Fund",
+    "BayBG Bayerische Beteiligungsgesellschaft mbH",
+    "NRW.BANK",
+    "Santoholding",
+    "Santo Venture Capital",
+    "Kurma Partners"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Zadient Technologies",
+     "date": "2025-11-20",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "zadient.com",
+     "harmonic_company_id": 1790879
+    },
+    {
+     "name": "ASTRA Therapeutics",
+     "date": "2025-07-24",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "astratherapeutics.com",
+     "harmonic_company_id": 12583895
+    },
+    {
+     "name": "Maddyness",
+     "date": "2025-06-13",
+     "round": "LATER_STAGE",
+     "country": "France",
+     "domain": "maddyness.com",
+     "harmonic_company_id": 8074400
+    },
+    {
+     "name": "Liva Healthcare",
+     "date": "2025-02-05",
+     "round": "LATER_STAGE",
+     "country": "Denmark",
+     "domain": "livahealthcare.com",
+     "harmonic_company_id": 4165196
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 9
+  },
+  "acton": {
+   "website": "actoncapital.com",
+   "partners": [
+    {
+     "name": "Sebastian Wossagk",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Frank Seehaus",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christoph Braun",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christoph Braun",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jan-Gisbert Schultze",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Fritz Oidtmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dominik Alvermann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Hannes Blum",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Sophie Ahrens-Gruber",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Julius Luehr",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Joseph Hefele",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Global Founders Capital",
+    "b2venture",
+    "FJ Labs",
+    "Hubert Burda Media",
+    "Point Nine",
+    "Atlantic",
+    "HTGF | High-Tech Gründerfonds",
+    "Rocket Internet SE",
+    "DN Capital",
+    "Index Ventures",
+    "Burda Principal Investments",
+    "CommerzVentures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "SÊMEIA",
+     "date": "2026-05-12",
+     "round": "STRATEGIC",
+     "country": "France",
+     "domain": "semeia.io",
+     "harmonic_company_id": 3192685
+    },
+    {
+     "name": "Eolas Medical",
+     "date": "2026-01-01",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "eolasmedical.com",
+     "harmonic_company_id": 11349684
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 9
+  },
+  "nap": {
+   "website": "nap.vc",
+   "partners": [
+    {
+     "name": "Dominik Matyka",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Markus Fuhrmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Rouven Dresselhaus",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Marcel Hollerbach",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stefan Walter",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Mey Cezairli",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "James Johnson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Claude Ritter",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Fabian Krautwurst",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Cavalry Ventures",
+    "Angel Invest",
+    "Übermorgen Ventures",
+    "Felix Jahn",
+    "SB21",
+    "Felix Jahn Beteiligungen",
+    "DN Capital",
+    "HV",
+    "Merantix Capital",
+    "Cherry Ventures",
+    "Target Global",
+    "RM Equity Partners"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Almetra",
+     "date": "2026-06-25",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "almetra.ai",
+     "harmonic_company_id": 76773162
+    },
+    {
+     "name": "SPREAD AI",
+     "date": "2026-04-29",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "spread.ai",
+     "harmonic_company_id": 1729951
+    },
+    {
+     "name": "Patronus Group",
+     "date": "2026-04-28",
+     "round": "PRIVATE_EQUITY",
+     "country": "Germany",
+     "domain": "patronus-group.com",
+     "harmonic_company_id": 3858535
+    },
+    {
+     "name": "Verna",
+     "date": "2026-01-13",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "verna.earth",
+     "harmonic_company_id": 10694874
+    },
+    {
+     "name": "Ascentra",
+     "date": "2025-12-02",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "ascentralabs.ai",
+     "harmonic_company_id": 64438757
+    },
+    {
+     "name": "Magemetrics",
+     "date": "2025-07-01",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "magemetrics.com",
+     "harmonic_company_id": 61357483
+    },
+    {
+     "name": "beSirius",
+     "date": "2025-04-15",
+     "round": "SEED",
+     "country": "Netherlands",
+     "domain": "besirius.io",
+     "harmonic_company_id": 60813555
+    }
+   ],
+   "recent_total": 13,
+   "recent_eu": 13
+  },
+  "10x-founders": {
+   "website": "10xfounders.com",
+   "partners": [
+    {
+     "name": "Andrej Henkler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Etten",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Robert Wuttke",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jan Becker",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Rupert Schaefer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Patrick André Mielmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Felix Haas",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jan Reichelt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jessica Lieber",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "HV",
+    "Speedinvest",
+    "Bonsai Partners",
+    "Angel Invest",
+    "Oliver Jung",
+    "Gradient",
+    "Verena Pausder",
+    "Picus Capital",
+    "Founders Fund",
+    "Dr. Matthias Knecht",
+    "Inovo.vc"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Logicc",
+     "date": "2026-04-20",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "logicc.com",
+     "harmonic_company_id": 59354953
+    },
+    {
+     "name": "smatch",
+     "date": "2026-01-08",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "smatch.com",
+     "harmonic_company_id": 10888893
+    },
+    {
+     "name": "Filics",
+     "date": "2025-07-07",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "filics.eu",
+     "harmonic_company_id": 3436986
+    },
+    {
+     "name": "Lyceum",
+     "date": "2025-06-24",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "lyceum.technology",
+     "harmonic_company_id": 61799517
+    },
+    {
+     "name": "Flank",
+     "date": "2025-06-05",
+     "round": "PRIVATE_EQUITY",
+     "country": "Germany",
+     "domain": "flank.ai",
+     "harmonic_company_id": 65538595
+    },
+    {
+     "name": "Way – Powering Smarter Fleets",
+     "date": "2025-05-27",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "way.cloud",
+     "harmonic_company_id": 61596135
+    },
+    {
+     "name": "Floy GmbH",
+     "date": "2025-02-14",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "floy.com",
+     "harmonic_company_id": 3935503
+    }
+   ],
+   "recent_total": 18,
+   "recent_eu": 13
+  },
+  "dvh-ventures": {
+   "website": "dvhventures.de",
+   "partners": [
+    {
+     "name": "Gabriel Grabner",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Peter Richarz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Fabian Von Trotha",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Duc Quyen Tran",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "HV",
+    "Speedinvest",
+    "IBB Ventures",
+    "Rocket Internet SE",
+    "Beurer",
+    "BONVENTURE",
+    "Global Founders Capital",
+    "Michael Grabner Media GmbH",
+    "Cherry Ventures",
+    "crossventures ag",
+    "Rocket Internet",
+    "b2venture"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "BONVENTURE",
+     "date": "2026-02-05",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "bonventure.de",
+     "harmonic_company_id": 699733
+    },
+    {
+     "name": "Gardia",
+     "date": "2026-02-05",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "gardia.net",
+     "harmonic_company_id": 8523143
+    },
+    {
+     "name": "Tuktoro® by a2zebra",
+     "date": "2025-06-18",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "tuktoro.com",
+     "harmonic_company_id": 19412456
+    },
+    {
+     "name": "Buynomics",
+     "date": "2025-03-20",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "buynomics.com",
+     "harmonic_company_id": 1577203
+    },
+    {
+     "name": "HelloBetter",
+     "date": "2025-03-05",
+     "round": "LATER_STAGE",
+     "country": "Germany",
+     "domain": "hellobetter.de",
+     "harmonic_company_id": 1602148
+    }
+   ],
+   "recent_total": 7,
+   "recent_eu": 6
+  },
+  "commerzventures": {
+   "website": "commerzventures.com",
+   "partners": [
+    {
+     "name": "Heiko Schwender",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stefan Tirtey",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Paul Morgenthaler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Paul Morgenthaler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christopher Lohmann",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Speedinvest",
+    "Octopus Ventures",
+    "Commerce Ventures",
+    "Endeavor Catalyst",
+    "Mastercard",
+    "Vitruvian Partners",
+    "Capnamic",
+    "Acton Capital",
+    "Headline",
+    "Admaius Capital Partners",
+    "Citi",
+    "83NORTH"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Unique",
+     "date": "2025-02-27",
+     "round": "SERIES_A",
+     "country": "Switzerland",
+     "domain": "unique.ch",
+     "harmonic_company_id": 1471177
+    }
+   ],
+   "recent_total": 7,
+   "recent_eu": 6
+  },
+  "vsquared": {
+   "website": "vsquared.vc",
+   "partners": [
+    {
+     "name": "Thomas Oehl",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Benedikt Von Schoeler",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lise Rechsteiner, Phd",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Maria Juesas Portoles",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Herbert Mangesius",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Maximilian Odendahl",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Michael Jobst",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Patrick Tucci",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jakob Lingg",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "HV",
+    "World Fund",
+    "Metaplanet",
+    "Porsche Ventures",
+    "Project A",
+    "Lakestar",
+    "Maki.vc",
+    "SALVIA GmbH",
+    "10x Founders",
+    "Onsight Ventures",
+    "AV",
+    "ABACON"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Apollo Generators",
+     "date": "2026-04-01",
+     "round": "SEED",
+     "country": "France",
+     "domain": "apollo-generators.com",
+     "harmonic_company_id": 63175536
+    },
+    {
+     "name": "MegaCool Technologies",
+     "date": "2026-03-02",
+     "round": "SEED",
+     "country": "Belgium",
+     "domain": "megacool-technologies.com",
+     "harmonic_company_id": 62118592
+    },
+    {
+     "name": "AlphaLum",
+     "date": "2026-01-15",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "alphalum.com",
+     "harmonic_company_id": 60657061
+    },
+    {
+     "name": "Upheat Solutions",
+     "date": "2025-12-15",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "upheat.com",
+     "harmonic_company_id": 61248496
+    },
+    {
+     "name": "Ferroelectric Memory Company",
+     "date": "2025-11-13",
+     "round": "SERIES_C",
+     "country": "Germany",
+     "domain": "ferroelectric-memory.com",
+     "harmonic_company_id": 1522623
+    },
+    {
+     "name": "Hedera Dx",
+     "date": "2025-05-27",
+     "round": "SERIES_A",
+     "country": "Switzerland",
+     "domain": "hederadx.com",
+     "harmonic_company_id": 4134276
+    }
+   ],
+   "recent_total": 17,
+   "recent_eu": 15
+  },
+  "burda": {
+   "website": "burdaprincipalinvestments.com",
+   "partners": [
+    {
+     "name": "Christian Teichmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christian Teichmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Natalie Schmitke",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Thomas Juvin",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "John Greger",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Julian V.",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Neil F.",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Hubert Burda Media",
+    "Index Ventures",
+    "General Catalyst",
+    "Accel",
+    "468 Capital",
+    "HV",
+    "UVC Partners",
+    "Union Square Ventures",
+    "Acton Capital",
+    "Vorwerk Ventures",
+    "Lightspeed Venture Partners",
+    "Cherry Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Proxima Fusion",
+     "date": "2026-07-07",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "proximafusion.com",
+     "harmonic_company_id": 12741862
+    },
+    {
+     "name": "welevel",
+     "date": "2026-05-27",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "welevel.com",
+     "harmonic_company_id": 3177924
+    },
+    {
+     "name": "Patronus Group",
+     "date": "2026-04-28",
+     "round": "PRIVATE_EQUITY",
+     "country": "Germany",
+     "domain": "patronus-group.com",
+     "harmonic_company_id": 3858535
+    },
+    {
+     "name": "buycycle.",
+     "date": "2025-06-03",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "buycycle.com",
+     "harmonic_company_id": 10520623
+    }
+   ],
+   "recent_total": 9,
+   "recent_eu": 6
+  },
+  "10x-group": {
+   "website": "10x.group",
+   "partners": [
+    {
+     "name": "Andreas Etten",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Robert Wuttke",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jan Becker",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Felix Haas",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "FundersClub",
+    "Leblon Capital",
+    "Launch Capital",
+    "Rocket Internet SE",
+    "HV",
+    "Zillionize",
+    "Bonsai Partners",
+    "NATO Innovation Fund (NIF)",
+    "Wefunder",
+    "Andrej Henkler",
+    "Lakestar"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "TYTAN Technologies",
+     "date": "2026-02-24",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "tytan-technologies.com",
+     "harmonic_company_id": 43763466
+    },
+    {
+     "name": "Lookiero",
+     "date": "2026-01-08",
+     "round": "PRIVATE_EQUITY",
+     "country": "Spain",
+     "domain": "lookiero.com",
+     "harmonic_company_id": 1535774
+    }
+   ],
+   "recent_total": 2,
+   "recent_eu": 2
+  },
+  "alstin": {
+   "website": "alstin.capital",
+   "partners": [
+    {
+     "name": "Dr. Andreas Schenk",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Bayern Kapital",
+    "Upper90",
+    "neosfer",
+    "NAP",
+    "seed + speed Ventures",
+    "PortfoLion Capital Partners",
+    "Cherry Ventures",
+    "LBBW Venture Capital GmbH",
+    "HTGF | High-Tech Gründerfonds",
+    "Bayerische Beteiligungsgesellschaft",
+    "Gabriel Grabner",
+    "Smartfin"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Agaton",
+     "date": "2026-02-19",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "agaton.ai",
+     "harmonic_company_id": 57286355
+    },
+    {
+     "name": "etalytics",
+     "date": "2025-10-21",
+     "round": "SERIES_A_EXTENSION",
+     "country": "Germany",
+     "domain": "etalytics.com",
+     "harmonic_company_id": 11293586
+    }
+   ],
+   "recent_total": 13,
+   "recent_eu": 12
+  },
+  "discovery-ventures": {
+   "website": "discovery-ventures.com",
+   "partners": [
+    {
+     "name": "Jan Deepen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stefan Jeschonnek",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Dr. Jan Deepen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jasper Masemann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Tobias Weiper",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Discovery Ventures Inc.",
+    "Project A",
+    "HV",
+    "Stefan Jeschonnek",
+    "Jan Deepen",
+    "Tiny Supercomputer Investment Company",
+    "Fabric Ventures",
+    "Speedinvest",
+    "Cherry Ventures",
+    "Lightspeed Venture Partners",
+    "Atlantic",
+    "SumUp"
+   ],
+   "recent_untracked_eu": [],
+   "recent_total": 2,
+   "recent_eu": 2
+  }
+ },
+ "angels": {
+  "mario-goetze": {
+   "co_investors": [
+    "Cherry Ventures",
+    "20VC",
+    "HV",
+    "another.vc",
+    "Christian Reber",
+    "Verena Pausder",
+    "Maex Ament",
+    "Possible Ventures",
+    "Kima Ventures",
+    "Y Combinator",
+    "Michael Wax",
+    "Andre Schürrle"
+   ]
+  },
+  "hanno-renner": {
+   "co_investors": [
+    "Michael Wax",
+    "La Famiglia",
+    "Bastian Nominacher",
+    "Y Combinator",
+    "Erik Muttersbach",
+    "Jonas Rieke",
+    "Cherry Ventures",
+    "Daniel Dines",
+    "Personio",
+    "Speedinvest",
+    "Picus Capital",
+    "Visionaries"
+   ]
+  },
+  "julius-goellner": {
+   "co_investors": [
+    "aws Gründungsfonds",
+    "Frank Piotraschke",
+    "TVF | TechVision Fonds",
+    "neoteq ventures",
+    "eNugget Ventures",
+    "Felix Schürholz",
+    "Nina Kani",
+    "SIVentures (prev. Smart Infrastructure Ventures)",
+    "Andreas Kupke",
+    "b2venture",
+    "Calm/Storm",
+    "HTGF | High-Tech Gründerfonds"
+   ]
+  },
+  "matthias-hilpert": {
+   "co_investors": [
+    "Cherry Ventures",
+    "b2venture",
+    "Speedinvest",
+    "Point Nine",
+    "HV",
+    "Charlie Songhurst",
+    "La Famiglia",
+    "Index Ventures",
+    "Jerry Murdock",
+    "DB Schenker",
+    "Christian Strobl",
+    "SquareOne Venture Capital"
+   ]
+  },
+  "christian-vollmann": {
+   "co_investors": [
+    "PT1",
+    "Florian Heinemann",
+    "Philipp Kreibohm",
+    "Lukas Brosseder",
+    "Stefan Wiskemann",
+    "Martina Merz",
+    "Felix Jahn",
+    "David Khalil",
+    "Heilemann Ventures",
+    "Earlybird Venture Capital",
+    "Global Founders Capital",
+    "Speedinvest"
+   ]
+  },
+  "christian-reber": {
+   "co_investors": [
+    "Christian Reber",
+    "Sequoia Capital",
+    "Atomico",
+    "HodlCo",
+    "Paul Klanschek",
+    "Common Magic",
+    "Andreessen Horowitz",
+    "byFounders",
+    "Stefan Mueller",
+    "Immad Akhund",
+    "Torsten Reil",
+    "Start-up BW Young Talents"
+   ]
+  }
+ }
+}

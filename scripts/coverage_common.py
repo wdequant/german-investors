@@ -192,6 +192,36 @@ def points_from(rels, cells, li_by_person):
     return points[:3]
 
 
+def recency_decay(last):
+    """Decay factor for affinity strength by time since last touch.
+    None (unknown) is treated gently; >1y decays considerably per spec."""
+    if not last:
+        return 0.85
+    try:
+        d = datetime.fromisoformat(str(last)[:10] + "T00:00:00+00:00")
+    except ValueError:
+        return 0.85
+    days = (TODAY - d).days
+    if days <= 180:
+        return 1.0
+    if days <= 365:
+        return 0.9
+    if days <= 730:
+        return 0.5
+    return 0.3
+
+
+def angel_relevance(deals, unicorns, synd_overlap, pipeline_active):
+    """0-100 relevance for angels: deal velocity, outcomes, syndication with
+    our mapped funds, and presence on our pipeline cap tables."""
+    d = min(25, (deals or 0) * 0.5)
+    u = min(15, (unicorns or 0) * 4)
+    sy = min(30, synd_overlap * 7)
+    pl = min(30, pipeline_active * 1.5)
+    return {"total": round(d + u + sy + pl), "deals": round(d, 1), "uni": round(u, 1),
+            "synd": round(sy, 1), "pipe": round(pl, 1)}
+
+
 def dormant_weight(d):
     if not d:
         return 0.0
@@ -201,13 +231,17 @@ def dormant_weight(d):
 
 
 def finalize(entities):
-    """Blend connectivity, compute gap + tier. Mutates and returns entities."""
+    """Blend connectivity (with recency decay), compute gap + tier."""
     funds = [e for e in entities if e["kind"] == "fund"]
     hmax = max((e["harmonic_raw"] for e in funds), default=1) or 1
     for e in entities:
         hn = e["harmonic_raw"] / hmax
-        an = min(1.0, max(e["aff_max"] + 0.06 * e["aff_strong"], dormant_weight(e.get("dormant"))))
+        decay = recency_decay(e.get("fund_last"))
+        a_raw = min(1.0, e["aff_max"] + 0.06 * e["aff_strong"])
+        an = max(a_raw * decay, dormant_weight(e.get("dormant")))
         e["connectivity"] = round(100 * (0.55 * hn + 0.45 * an))
+        e["cov_parts"] = {"h": round(hn, 2), "a": round(a_raw, 2), "decay": decay,
+                          "dorm": dormant_weight(e.get("dormant"))}
         del e["harmonic_raw"]
     for e in entities:
         r = (e["relevance"] or {}).get("total", 0)
@@ -221,3 +255,114 @@ def load_json(path, default=None):
     if os.path.exists(path):
         return json.load(open(path))
     return default
+
+
+def _strip_emoji(s):
+    """Drop non-BMP symbols/emoji (Harmonic names sometimes carry them)."""
+    return "".join(ch for ch in (s or "") if ord(ch) < 0x2600).strip(" -·|")
+
+
+def apply_enrich(entities, enrich, recency, empflags, region_key):
+    """Merge agent-collected enrichment into assembled entities (all optional)."""
+    efunds = (enrich or {}).get("funds", {})
+    eangels = (enrich or {}).get("angels", {})
+    rec = recency or {}
+    emp = (empflags or {}).get(region_key, {})
+    for e in entities:
+        slug = e["slug"]
+        rkey = slug if e["kind"] == "fund" else f"angel-{slug}"
+        r = rec.get(rkey, {})
+        e["fund_last"] = r.get("fund_last")
+        cdates = r.get("contacts", {})
+        flags = emp.get(slug, {})
+        known = set()
+        for p_ in e.get("top_people", []):
+            for k in p_["contacts"]:
+                orig = k["person"]
+                k["person"] = _strip_emoji(orig)
+                known.add(norm_name(k["person"]))
+                info = cdates.get(orig) or cdates.get(k["person"]) or {}
+                k["last"] = info.get("last")
+                k["mismatch"] = bool(info.get("mismatch"))
+                f = flags.get(k["person"]) or {}
+                k["moved"] = f.get("now") if f.get("status") == "moved" else None
+        for pt in e.get("points", []):
+            info = cdates.get(pt["external"]) or {}
+            pt["external"] = _strip_emoji(pt["external"])
+            pt["last"] = info.get("last")
+            f = flags.get(pt["external"]) or {}
+            pt["moved"] = f.get("now") if f.get("status") == "moved" else None
+            known.add(norm_name(pt["external"]))
+        if e["kind"] == "fund":
+            ef = efunds.get(slug, {})
+            e["website"] = ef.get("website")
+            allp = []
+            for p_ in (ef.get("partners") or []):
+                n = _strip_emoji(p_.get("name") or "")
+                if n:
+                    allp.append({**p_, "name": n})
+            e["partners_total"] = len(allp)
+            e["partners_unknown"] = [p_ for p_ in allp if norm_name(p_.get("name")) not in known][:8]
+            e["untracked"] = (ef.get("recent_untracked_eu") or [])[:12]
+            e["recent_total"] = ef.get("recent_total")
+            e["recent_eu"] = ef.get("recent_eu")
+            e["co_investor_names"] = ef.get("co_investors") or []
+        else:
+            ea = eangels.get(slug, {})
+            e["co_investor_names"] = ea.get("co_investors") or []
+    return entities
+
+
+def compute_bridges_and_synd(entities):
+    """After finalize: for weak/medium entities, suggest routes via covered
+    entities that co-invest with them; for angels, record syndication overlap."""
+    by_norm = {norm_name(e["name"]): e for e in entities}
+    # crude alias: also index without legal suffixes
+    for e in entities:
+        for e2name in list(by_norm):
+            pass
+    for e in entities:
+        overlaps = []
+        for cn in e.get("co_investor_names", []):
+            t = by_norm.get(norm_name(cn))
+            if t and t["slug"] != e["slug"]:
+                overlaps.append(t)
+        if e["kind"] == "angel":
+            e["syndication"] = [{"name": t["name"], "slug": t["slug"], "tier": t["tier"],
+                                 "via": (t["points"][0]["internal"] if t["points"] else None)}
+                                for t in overlaps][:5]
+        if e["tier"] in ("weak", "medium"):
+            bridges = [t for t in overlaps if t["tier"] == "strong" and t["points"]]
+            bridges.sort(key=lambda t: -t["connectivity"])
+            e["bridges"] = [{"name": t["name"], "slug": t["slug"],
+                             "internal": t["points"][0]["internal"],
+                             "pct": t["points"][0]["pct"]} for t in bridges[:3]]
+        else:
+            e["bridges"] = []
+        e.pop("co_investor_names", None)
+    return entities
+
+
+def build_htc(entities, htc_owners):
+    """Inverted hard-to-crack view: company -> investors on cap table -> best path."""
+    ho = htc_owners or {}
+    companies = {}
+    for e in entities:
+        for p in e["buckets"].get("hard", []):
+            c = companies.setdefault(p["id"], {"id": p["id"], "name": p["name"],
+                                               "domain": p.get("domain"), "investors": []})
+            best = e["points"][0] if e.get("points") else None
+            c["investors"].append({"name": e["name"], "slug": e["slug"], "kind": e["kind"],
+                                   "tier": e["tier"],
+                                   "best": ({"internal": best["internal"], "pct": best.get("pct")}
+                                            if best else None)})
+    out = []
+    for cid, c in companies.items():
+        meta = ho.get(str(cid)) or ho.get(cid) or {}
+        c["owners"] = [NAME_MAP.get(o, o) for o in (meta.get("owners") or [])
+                       if o not in EX_STAFF]
+        c["country"] = meta.get("country")
+        c["reachable"] = any(i["best"] for i in c["investors"])
+        out.append(c)
+    out.sort(key=lambda c: (-c["reachable"], -len(c["investors"])))
+    return out

@@ -1,0 +1,3243 @@
+{
+ "funds": {
+  "almi": {
+   "website": "almi.se",
+   "partners": [
+    {
+     "name": "Anna Lundmarklundbergh",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Almi Invest",
+    "Chalmers Ventures",
+    "Partnerinvest Norr",
+    "STOAF",
+    "Sting",
+    "Norrlandsfonden",
+    "EIT InnoEnergy",
+    "Industrifonden",
+    "LiU Invest",
+    "Spintop Ventures",
+    "Inlandsinnovation AB"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Fintower",
+     "date": "2026-02-05",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "fintower.ai",
+     "harmonic_company_id": 65709635
+    },
+    {
+     "name": "Polar Light Technologies",
+     "date": "2026-01-12",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "polar-light-technologies.com",
+     "harmonic_company_id": 4233527
+    },
+    {
+     "name": "Konvolo",
+     "date": "2025-11-12",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "konvolo.com",
+     "harmonic_company_id": 59131572
+    },
+    {
+     "name": "DREV",
+     "date": "2025-11-05",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "drev.tech",
+     "harmonic_company_id": 37389916
+    },
+    {
+     "name": "FirstQFM",
+     "date": "2025-10-10",
+     "round": "PRE_SEED",
+     "country": "Sweden",
+     "domain": "firstqfm.com",
+     "harmonic_company_id": 63910903
+    },
+    {
+     "name": "Standab - Micromobility Charging as a Service",
+     "date": "2025-09-10",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "standab.com",
+     "harmonic_company_id": 9751322
+    },
+    {
+     "name": "Flox Intelligence",
+     "date": "2025-08-07",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "floxintelligence.com",
+     "harmonic_company_id": 3996114
+    },
+    {
+     "name": "Epigenica",
+     "date": "2025-06-30",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "epigenica.se",
+     "harmonic_company_id": 36022936
+    },
+    {
+     "name": "TERRABARRIER",
+     "date": "2025-03-15",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "terrabarrier.com",
+     "harmonic_company_id": 54991503
+    },
+    {
+     "name": "Paindrainer AB",
+     "date": "2025-03-04",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "paindrainer.com",
+     "harmonic_company_id": 1879643
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 10
+  },
+  "antler": {
+   "website": "antler.co",
+   "partners": [
+    {
+     "name": "Mark Inkster",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Trond Riiber Knudsen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "John Nevado",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Steve Telburn",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Ehn",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Wafa Al Obaidat",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Bob Rosin",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jade Wang",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Karl-Christian Agerup",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Charlotte Mason",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Henrik Jensen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Robert Suenderhauf",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Startuplab",
+    "Plug and Play",
+    "Black Nova Venture Capital",
+    "Hustle Fund",
+    "Brisbane Angels",
+    "Peak XV Partners",
+    "Y Combinator",
+    "Goodwater Capital",
+    "Techstars",
+    "Global Founders Capital",
+    "Venture Catalysts++ | India's 1st Multi-Stage VC",
+    "LVT Capital - Blockchain Advisory & Capital"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "VISOID",
+     "date": "2026-08-10",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "visoid.com",
+     "harmonic_company_id": 39800968
+    },
+    {
+     "name": "Mentalytics",
+     "date": "2026-07-02",
+     "round": "ACCELERATOR_INCUBATOR",
+     "country": "Sweden",
+     "domain": "brymapp.com",
+     "harmonic_company_id": 9538794
+    },
+    {
+     "name": "Dream",
+     "date": "2026-06-18",
+     "round": "SERIES_C",
+     "country": "Israel",
+     "domain": "dreamgroup.com",
+     "harmonic_company_id": 12479706
+    },
+    {
+     "name": "Tonada",
+     "date": "2026-06-17",
+     "round": "PRE_SEED",
+     "country": "Sweden",
+     "domain": "tonada.ai",
+     "harmonic_company_id": 64253248
+    },
+    {
+     "name": "Sonik (ex Referly)",
+     "date": "2026-06-01",
+     "round": "SEED",
+     "country": "France",
+     "domain": "referly.io",
+     "harmonic_company_id": 48792276
+    },
+    {
+     "name": "siliXon",
+     "date": "2026-05-21",
+     "round": "SEED",
+     "country": "Ireland",
+     "domain": "silixon.io",
+     "harmonic_company_id": 65267259
+    },
+    {
+     "name": "Alcolase",
+     "date": "2026-05-17",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "alcolase.com",
+     "harmonic_company_id": 13094801
+    },
+    {
+     "name": "Kabloie",
+     "date": "2026-05-04",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "kabloie.com",
+     "harmonic_company_id": 60926307
+    },
+    {
+     "name": "Ralio",
+     "date": "2026-04-14",
+     "round": "PRE_SEED",
+     "country": "United Kingdom",
+     "domain": "ralio.co",
+     "harmonic_company_id": 61416574
+    }
+   ],
+   "recent_total": 40,
+   "recent_eu": 16
+  },
+  "northzone": {
+   "website": "northzone.com",
+   "partners": [
+    {
+     "name": "Bjørn Stray",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Torleif Ahlsand",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Pär-Jörgen Pärson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Hans Otterling",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Matthew Robins",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Michiel Kotting",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jessica Schultz",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Wendy Xiao",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Wendy Xiao",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sam Endacott",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stine Foss",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sanjot Malhi",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Accel",
+    "Creandum",
+    "Seedcamp",
+    "Index Ventures",
+    "Global Founders Capital",
+    "Tiger Global",
+    "General Catalyst",
+    "Headline",
+    "FJ Labs",
+    "LocalGlobe",
+    "EQT Ventures",
+    "Conor Venture Partners"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "CuspAI",
+     "date": "2026-07-20",
+     "round": "SERIES_B",
+     "country": "United Kingdom",
+     "domain": "cusp.ai",
+     "harmonic_company_id": 54896609
+    },
+    {
+     "name": "AirForestry",
+     "date": "2026-02-24",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "airforestry.com",
+     "harmonic_company_id": 3853171
+    },
+    {
+     "name": "Black Forest Labs",
+     "date": "2025-12-01",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "bfl.ai",
+     "harmonic_company_id": 47062238
+    },
+    {
+     "name": "Riff",
+     "date": "2025-10-23",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "riff.ai",
+     "harmonic_company_id": 11056000
+    },
+    {
+     "name": "Axon Labs",
+     "date": "2025-09-09",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "axonlabs.co",
+     "harmonic_company_id": 72988373
+    },
+    {
+     "name": "CarOnSale",
+     "date": "2025-07-07",
+     "round": "SERIES_C",
+     "country": "Germany",
+     "domain": "caronsale.com",
+     "harmonic_company_id": 1458758
+    }
+   ],
+   "recent_total": 29,
+   "recent_eu": 18
+  },
+  "creandum": {
+   "website": "creandum.com",
+   "partners": [
+    {
+     "name": "Johan Brenner",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Staffan Helgesson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Fredrik Cassel",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Daniel Blomquist",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Simon Schmincke",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Kilian Thalhammer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Peter Specht",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Carl Fritjofsson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Beau Brooks",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Maria Raga",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lars Nordwall",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Hanel Baveja",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Index Ventures",
+    "Accel",
+    "Point Nine",
+    "Northzone",
+    "Balderton",
+    "Y Combinator",
+    "Speedinvest",
+    "Atomico",
+    "HV",
+    "Chris Murphy",
+    "Kfund",
+    "GP Bullhound"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "OLIX",
+     "date": "2026-08-03",
+     "round": "SERIES_B",
+     "country": "United Kingdom",
+     "domain": "olix.com",
+     "harmonic_company_id": 66588277
+    },
+    {
+     "name": "Causa Prima",
+     "date": "2026-06-16",
+     "round": "PRE_SEED",
+     "country": "Germany",
+     "domain": "causaprima.ai",
+     "harmonic_company_id": 70244022
+    },
+    {
+     "name": "Midas",
+     "date": "2026-03-30",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "midas.app",
+     "harmonic_company_id": 44163564
+    },
+    {
+     "name": "PAVE Space",
+     "date": "2026-03-25",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "pave.space",
+     "harmonic_company_id": 65365875
+    },
+    {
+     "name": "terralayr",
+     "date": "2026-02-19",
+     "round": "EARLY_STAGE",
+     "country": "Switzerland",
+     "domain": "trlyr.com",
+     "harmonic_company_id": 10890838
+    },
+    {
+     "name": "Complyance",
+     "date": "2026-02-11",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "complyance.com",
+     "harmonic_company_id": 11000160
+    },
+    {
+     "name": "Fuse Energy",
+     "date": "2025-12-18",
+     "round": "SERIES_B",
+     "country": "United Kingdom",
+     "domain": "getfuse.com",
+     "harmonic_company_id": 56641138
+    },
+    {
+     "name": "Black Forest Labs",
+     "date": "2025-12-01",
+     "round": "SERIES_B",
+     "country": "Germany",
+     "domain": "bfl.ai",
+     "harmonic_company_id": 47062238
+    }
+   ],
+   "recent_total": 27,
+   "recent_eu": 19
+  },
+  "lifeline": {
+   "website": "lifelineventures.com",
+   "partners": [
+    {
+     "name": "Petteri Koponen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Timo Ahopelto",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Juha Lindfors",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jyri Engeström",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Teemu Mattila",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Elina Holkko",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Business Finland",
+    "Tesi",
+    "Illusian",
+    "Inventure",
+    "Wave Ventures",
+    "VTT",
+    "Initial Capital",
+    "Finnvera",
+    "Risto Siilasmaa",
+    "Morrow Ventures Oy",
+    "First Fellow Partners",
+    "Jyri Engeström"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "NewOrbit Space",
+     "date": "2026-06-08",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "neworbit.space",
+     "harmonic_company_id": 3240147
+    },
+    {
+     "name": "Reduciner",
+     "date": "2026-05-05",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "reduciner.com",
+     "harmonic_company_id": 62939477
+    },
+    {
+     "name": "ConfidentialMind",
+     "date": "2026-04-07",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "confidentialmind.com",
+     "harmonic_company_id": 12836927
+    },
+    {
+     "name": "INCIRT",
+     "date": "2026-03-25",
+     "round": "EARLY_STAGE",
+     "country": "Germany",
+     "domain": "incirt.de",
+     "harmonic_company_id": 10884209
+    },
+    {
+     "name": "Elva",
+     "date": "2026-03-10",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "withelva.com",
+     "harmonic_company_id": 63752185
+    },
+    {
+     "name": "Saltz.app",
+     "date": "2026-03-09",
+     "round": "SERIES_A",
+     "country": "Lithuania",
+     "domain": "saltz.app",
+     "harmonic_company_id": 48386832
+    },
+    {
+     "name": "Photoncycle",
+     "date": "2026-03-04",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "photoncycle.com",
+     "harmonic_company_id": 12524059
+    },
+    {
+     "name": "Time Atlas Labs",
+     "date": "2025-09-17",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "timeatlaslabs.com",
+     "harmonic_company_id": 57172185
+    },
+    {
+     "name": "Kova Labs",
+     "date": "2025-08-04",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "kovahq.com",
+     "harmonic_company_id": 62994790
+    },
+    {
+     "name": "Spacent",
+     "date": "2025-07-01",
+     "round": "LATER_STAGE",
+     "country": "Finland",
+     "domain": "spacent.com",
+     "harmonic_company_id": 33618259
+    },
+    {
+     "name": "Steady Energy",
+     "date": "2025-07-01",
+     "round": "SERIES_B_EXTENSION",
+     "country": "Finland",
+     "domain": "steadyenergy.com",
+     "harmonic_company_id": 15260985
+    },
+    {
+     "name": "TILT Biotherapeutics Ltd",
+     "date": "2025-05-13",
+     "round": "SERIES_B",
+     "country": "Finland",
+     "domain": "tiltbio.com",
+     "harmonic_company_id": 1561210
+    },
+    {
+     "name": "Soldera",
+     "date": "2025-03-25",
+     "round": "SEED",
+     "country": "Estonia",
+     "domain": "soldera.org",
+     "harmonic_company_id": 48623032
+    },
+    {
+     "name": "DEEP Measures",
+     "date": "2025-02-21",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "deepmeasures.health",
+     "harmonic_company_id": 10971703
+    }
+   ],
+   "recent_total": 26,
+   "recent_eu": 23
+  },
+  "industrifonden": {
+   "website": "industrifonden.com",
+   "partners": [
+    {
+     "name": "Fredrik Lehmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Andreas Söneby",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "SEB Venture Capital",
+    "Navigare Ventures",
+    "HealthCap",
+    "Almi",
+    "Chalmers Ventures",
+    "Fairpoint Capital",
+    "Novo Holdings",
+    "SEB",
+    "Northzone",
+    "Sunstone Life Science Ventures",
+    "Almi Invest",
+    "Ysios Capital"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Cellevate AB",
+     "date": "2026-04-09",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "cellevate.com",
+     "harmonic_company_id": 1639554
+    },
+    {
+     "name": "Melt&Marble",
+     "date": "2025-12-08",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "meltandmarble.com",
+     "harmonic_company_id": 2088035
+    },
+    {
+     "name": "BOOST Pharma",
+     "date": "2025-11-03",
+     "round": "LATER_STAGE",
+     "country": "Denmark",
+     "domain": "boostpharma.com",
+     "harmonic_company_id": 9126872
+    },
+    {
+     "name": "Arevo",
+     "date": "2025-10-10",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "arevo.se",
+     "harmonic_company_id": 21568683
+    },
+    {
+     "name": "Yangi®",
+     "date": "2025-09-09",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "yangi.se",
+     "harmonic_company_id": 7778716
+    },
+    {
+     "name": "TrackPaw",
+     "date": "2025-08-18",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "trackpaw.se",
+     "harmonic_company_id": 7490743
+    },
+    {
+     "name": "Zymego",
+     "date": "2025-06-26",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "zymego.com",
+     "harmonic_company_id": 3709438
+    },
+    {
+     "name": "Avidicare",
+     "date": "2025-05-20",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "avidicare.com",
+     "harmonic_company_id": 1728791
+    },
+    {
+     "name": "Tribune Therapeutics",
+     "date": "2025-03-26",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "tribunetx.com",
+     "harmonic_company_id": 3091274
+    },
+    {
+     "name": "Novatron Fusion Group AB",
+     "date": "2025-03-19",
+     "round": "SERIES_A1",
+     "country": "Sweden",
+     "domain": "novatronfusion.com",
+     "harmonic_company_id": 11223969
+    },
+    {
+     "name": "Gårdsfisk",
+     "date": "2025-03-11",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "gardsfisk.se",
+     "harmonic_company_id": 1544057
+    },
+    {
+     "name": "Senseworks.io",
+     "date": "2025-02-14",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "senseworks.io",
+     "harmonic_company_id": 2069041
+    },
+    {
+     "name": "Agteria",
+     "date": "2025-02-12",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "agteria.com",
+     "harmonic_company_id": 49312743
+    }
+   ],
+   "recent_total": 18,
+   "recent_eu": 17
+  },
+  "seed-capital": {
+   "website": "seedcapital.dk",
+   "partners": [
+    {
+     "name": "Jordan Levy",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Anne Cathrine Wilhjelm",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lars Andersen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lars Andersen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jakob Fuglede Nielsen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ulla Brockenhuus-Schack",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Chris Porsgaard",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Christian Brøndum",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Geeta Schmidt",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "PSV",
+    "EIFO",
+    "Accelerace",
+    "Seed Capital",
+    "Vaekstfonden",
+    "VF Venture",
+    "Heartcore Capital",
+    "SeedCapital.com",
+    "Alexander Aghassipour",
+    "Novo Holdings",
+    "Balderton",
+    "Chr. Augustinus Fabrikker"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Norlix",
+     "date": "2026-03-12",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "norlix.com",
+     "harmonic_company_id": 72366062
+    },
+    {
+     "name": "Cernel",
+     "date": "2026-02-23",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "cernel.com",
+     "harmonic_company_id": 57253741
+    },
+    {
+     "name": "Blackbird Coffee",
+     "date": "2026-02-06",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "blackbirdcoffee.dk",
+     "harmonic_company_id": 61097631
+    },
+    {
+     "name": "Fortiv",
+     "date": "2026-02-05",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "fortiv.io",
+     "harmonic_company_id": 59929242
+    },
+    {
+     "name": "Embankment",
+     "date": "2025-12-01",
+     "round": "SERIES_A",
+     "country": "Denmark",
+     "domain": "embankment.com",
+     "harmonic_company_id": 24750765
+    },
+    {
+     "name": "Observe Medical",
+     "date": "2025-06-11",
+     "round": "PUBLIC_EQUITY_OFFERING",
+     "country": "Norway",
+     "domain": "observemedical.com",
+     "harmonic_company_id": 1562336
+    }
+   ],
+   "recent_total": 9,
+   "recent_eu": 9
+  },
+  "psv": {
+   "website": "psv.xyz",
+   "partners": [
+    {
+     "name": "Christel Piron",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Alexander Viterbo-Horten",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Anders Kjær",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Richard Breiter",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Marianne Hyltoft",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Helle Uth",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Maria Emilie Danø Hoffmann",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "\"Maria Danø Hoffmann, Phd\"",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "\"Maria Emilie Kath Danø, Phd\"",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "\"Maria Emilie Kath Danø, Phd\"",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Seed Capital",
+    "EIFO",
+    "Vaekstfonden",
+    "Preqin",
+    "The Nordic Web Ventures",
+    "Futuristic.vc",
+    "The Footprint Firm",
+    "Tiny Supercomputer Investment Company",
+    "Accelerace",
+    "Inventure",
+    "Seedcamp",
+    "byFounders"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "InfiniNode Technologies",
+     "date": "2026-07-16",
+     "round": "GRANT",
+     "country": "Sweden",
+     "domain": "infininode.com",
+     "harmonic_company_id": 60965460
+    },
+    {
+     "name": "Acodyne",
+     "date": "2026-06-22",
+     "round": "PRE_SEED",
+     "country": "Denmark",
+     "domain": "acodyne.com",
+     "harmonic_company_id": 72304743
+    },
+    {
+     "name": "Newly",
+     "date": "2026-03-23",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "newly.app",
+     "harmonic_company_id": 72321216
+    },
+    {
+     "name": "KIME",
+     "date": "2026-01-26",
+     "round": "PRE_SEED",
+     "country": "Denmark",
+     "domain": "kime.ai",
+     "harmonic_company_id": 63855235
+    },
+    {
+     "name": "SisuSemi",
+     "date": "2025-12-30",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "sisusemi.com",
+     "harmonic_company_id": 60351649
+    },
+    {
+     "name": "NobodyWho",
+     "date": "2025-12-17",
+     "round": "PRE_SEED",
+     "country": "Denmark",
+     "domain": "nobodywho.ooo",
+     "harmonic_company_id": 65616134
+    },
+    {
+     "name": "ENERIN AS",
+     "date": "2025-11-27",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "enerin.no",
+     "harmonic_company_id": 7931657
+    },
+    {
+     "name": "Noahs",
+     "date": "2025-11-26",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "noahs.global",
+     "harmonic_company_id": 4873872
+    },
+    {
+     "name": "Jabbr",
+     "date": "2025-10-16",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "jabbr.ai",
+     "harmonic_company_id": 12956399
+    },
+    {
+     "name": "Teton",
+     "date": "2025-09-08",
+     "round": "SERIES_A",
+     "country": "Denmark",
+     "domain": "teton.ai",
+     "harmonic_company_id": 1454339
+    },
+    {
+     "name": "Lightpost One",
+     "date": "2025-09-07",
+     "round": "SEED",
+     "country": "Ireland",
+     "domain": "rool.dev",
+     "harmonic_company_id": 63702715
+    },
+    {
+     "name": "Interhuman AI",
+     "date": "2025-08-24",
+     "round": "PRE_SEED",
+     "country": "Denmark",
+     "domain": "interhuman.ai",
+     "harmonic_company_id": 54808066
+    },
+    {
+     "name": "Kiku",
+     "date": "2025-07-16",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "getkiku.com",
+     "harmonic_company_id": 58123623
+    },
+    {
+     "name": "Augmented Hearing",
+     "date": "2025-05-20",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "augmentedhearing.io",
+     "harmonic_company_id": 11352087
+    },
+    {
+     "name": "Alice",
+     "date": "2025-05-07",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "alice.tech",
+     "harmonic_company_id": 54991295
+    }
+   ],
+   "recent_total": 20,
+   "recent_eu": 17
+  },
+  "inventure": {
+   "website": "inventure.vc",
+   "partners": [
+    {
+     "name": "Sami Lampinen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Timo Tirkkonen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Tuomas Kosonen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Linus Dahg",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Lauri Kokkila",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Magda Lukaszewicz",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Tesi",
+    "Business Finland",
+    "Lifeline Ventures",
+    "PSV",
+    "First Fellow Partners",
+    "Josefin Landgard",
+    "Norrsken",
+    "Aerion Partners",
+    "Illusian",
+    "byFounders",
+    "Day One Capital",
+    "The Nordic Web Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Lassie",
+     "date": "2026-02-12",
+     "round": "SERIES_C",
+     "country": "Sweden",
+     "domain": "lassie.co",
+     "harmonic_company_id": 34926995
+    },
+    {
+     "name": "Hamina Wireless",
+     "date": "2025-07-18",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "hamina.com",
+     "harmonic_company_id": 10265402
+    },
+    {
+     "name": "Hedera Dx",
+     "date": "2025-05-27",
+     "round": "SERIES_A",
+     "country": "Switzerland",
+     "domain": "hederadx.com",
+     "harmonic_company_id": 4134276
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 9
+  },
+  "eqt-ventures": {
+   "website": "eqtventures.com",
+   "partners": [
+    {
+     "name": "Lars Jörnow",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "İskender Dirik",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Tom Mendoza",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ted Persson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Kaushik Subramanian",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Gustav Von Sydow",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Rania Belkahia",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sandra Malmberg 👋",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Doreen Huber",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "EQT Group",
+    "Possible Ventures",
+    "HV",
+    "Northzone",
+    "Balderton",
+    "General Catalyst",
+    "Menlo Ventures",
+    "Accel",
+    "Mehdi Ghissassi",
+    "Plug and Play",
+    "Seedcamp"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Isar Aerospace",
+     "date": "2026-06-09",
+     "round": "SERIES_D",
+     "country": "Germany",
+     "domain": "isaraerospace.com",
+     "harmonic_company_id": 1504891
+    },
+    {
+     "name": "Ineffable Intelligence",
+     "date": "2026-04-17",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "ineffable.ai",
+     "harmonic_company_id": 71698027
+    },
+    {
+     "name": "Candela",
+     "date": "2026-03-18",
+     "round": "PRIVATE_EQUITY",
+     "country": "Sweden",
+     "domain": "candela.com",
+     "harmonic_company_id": 3274357
+    },
+    {
+     "name": "Ylookup",
+     "date": "2026-01-01",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "ylookup.ai",
+     "harmonic_company_id": 68621245
+    },
+    {
+     "name": "Sifflet",
+     "date": "2025-06-19",
+     "round": "EARLY_STAGE",
+     "country": "France",
+     "domain": "siffletdata.com",
+     "harmonic_company_id": 3302374
+    },
+    {
+     "name": "Payrails",
+     "date": "2025-06-12",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "payrails.com",
+     "harmonic_company_id": 3860465
+    },
+    {
+     "name": "Kota",
+     "date": "2025-05-22",
+     "round": "SERIES_A",
+     "country": "Ireland",
+     "domain": "kota.io",
+     "harmonic_company_id": 37484120
+    },
+    {
+     "name": "MARVEL X LIMITED",
+     "date": "2025-05-13",
+     "round": "LATER_STAGE",
+     "country": "United Kingdom",
+     "domain": "marvelx.com",
+     "harmonic_company_id": 30020727
+    },
+    {
+     "name": "Marvel Fusion",
+     "date": "2025-03-01",
+     "round": "SERIES_B_EXTENSION",
+     "country": "Germany",
+     "domain": "marvelfusion.com",
+     "harmonic_company_id": 1305508
+    }
+   ],
+   "recent_total": 26,
+   "recent_eu": 20
+  },
+  "sting": {
+   "website": "sting.co",
+   "partners": [],
+   "co_investors": [
+    "Propel Capital",
+    "Almi",
+    "Mattias Weinhandl",
+    "SDA – Software Development Academy",
+    "Simon Josefsson",
+    "Soläng Invest",
+    "Luminar Ventures",
+    "Industrifonden",
+    "Vinnova",
+    "Add Health Media AB",
+    "Propel"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Coly",
+     "date": "2025-10-31",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "coly.io",
+     "harmonic_company_id": 3251799
+    }
+   ],
+   "recent_total": 1,
+   "recent_eu": 1
+  },
+  "investinor": {
+   "website": "investinor.no",
+   "partners": [],
+   "co_investors": [
+    "Alliance VC",
+    "ProVenture",
+    "SINTEF",
+    "MP PENSJON PK",
+    "Sintef Venture",
+    "Sarsia",
+    "Skagerak Capital",
+    "Idékapital",
+    "Industrifonden",
+    "TRK Group AS",
+    "SNÖ Ventures",
+    "CoFounder"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Planktonic AS",
+     "date": "2025-08-22",
+     "round": "LATER_STAGE",
+     "country": "Norway",
+     "domain": "planktonic.no",
+     "harmonic_company_id": 1576333
+    },
+    {
+     "name": "Two",
+     "date": "2025-07-11",
+     "round": "STRATEGIC",
+     "country": "Norway",
+     "domain": "two.inc",
+     "harmonic_company_id": 7489988
+    },
+    {
+     "name": "Kongsberg Ferrotech",
+     "date": "2025-07-09",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "kferrotech.no",
+     "harmonic_company_id": 34618691
+    },
+    {
+     "name": "Farmforce",
+     "date": "2025-06-12",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "farmforce.com",
+     "harmonic_company_id": 12467339
+    },
+    {
+     "name": "Tribune Therapeutics",
+     "date": "2025-03-26",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "tribunetx.com",
+     "harmonic_company_id": 3091274
+    },
+    {
+     "name": "LayerOne",
+     "date": "2025-03-19",
+     "round": "LATER_STAGE",
+     "country": "Norway",
+     "domain": "layeronematerials.com",
+     "harmonic_company_id": 7944643
+    }
+   ],
+   "recent_total": 9,
+   "recent_eu": 8
+  },
+  "icebreaker": {
+   "website": "icebreaker.vc",
+   "partners": [
+    {
+     "name": "Lasse Lehtinen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Aleksi Partanen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Aleksi Partanen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Riku Seppälä",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jesse Tinell",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Business Finland",
+    "Global Founders Capital",
+    "Ragnar Sass",
+    "Ali Omar",
+    "Spintop Ventures",
+    "Voima Ventures",
+    "Chalmers Ventures",
+    "Antler",
+    "LIFT99",
+    "Sting",
+    "Leena Niemistö",
+    "Lemonade Stand"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Cytely",
+     "date": "2025-10-24",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "cytely.io",
+     "harmonic_company_id": 39806175
+    },
+    {
+     "name": "Shook Digital",
+     "date": "2025-07-15",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "shook.digital",
+     "harmonic_company_id": 2248402
+    },
+    {
+     "name": "Zymego",
+     "date": "2025-06-26",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "zymego.com",
+     "harmonic_company_id": 3709438
+    },
+    {
+     "name": "Mai",
+     "date": "2025-06-18",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "sell.mairesale.com",
+     "harmonic_company_id": 4392246
+    },
+    {
+     "name": "Crewpoint",
+     "date": "2025-05-30",
+     "round": "SEED",
+     "country": "Estonia",
+     "domain": "crewpoint.com",
+     "harmonic_company_id": 60988434
+    },
+    {
+     "name": "Fleetbrains",
+     "date": "2025-03-18",
+     "round": "PRE_SEED",
+     "country": "Estonia",
+     "domain": "fleetbrains.com",
+     "harmonic_company_id": 59719454
+    }
+   ],
+   "recent_total": 12,
+   "recent_eu": 11
+  },
+  "startuplab": {
+   "website": "startuplab.no",
+   "partners": [
+    {
+     "name": "Anniken Holst",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Karl Liapunov",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ola Thorud Jacobsen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Per Einar Dybvik",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Antler",
+    "Stratel AS",
+    "TRK Group AS",
+    "RunwayFBU",
+    "Trond Riiber Knudsen",
+    "FIRDA",
+    "Investinor",
+    "Momentum",
+    "OBOS",
+    "Y Combinator",
+    "Skyfall Ventures",
+    "CTO Roundtable"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Space Lab",
+     "date": "2026-04-29",
+     "round": "PRE_SEED",
+     "country": "Norway",
+     "domain": "spacelab.tech",
+     "harmonic_company_id": 64598744
+    },
+    {
+     "name": "Photoncycle",
+     "date": "2026-03-04",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "photoncycle.com",
+     "harmonic_company_id": 12524059
+    },
+    {
+     "name": "Odins.ai",
+     "date": "2026-02-16",
+     "round": "EARLY_STAGE",
+     "country": "Norway",
+     "domain": "odins.ai",
+     "harmonic_company_id": 54613833
+    },
+    {
+     "name": "Norwegian Mycelium (NoMy)",
+     "date": "2025-05-26",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "nomy.no",
+     "harmonic_company_id": 3273472
+    },
+    {
+     "name": "Volve",
+     "date": "2025-05-11",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "volvetech.com",
+     "harmonic_company_id": 47272531
+    },
+    {
+     "name": "Chargitect",
+     "date": "2025-03-04",
+     "round": "PRE_SEED",
+     "country": "Norway",
+     "domain": "chargitect.com",
+     "harmonic_company_id": 40137204
+    }
+   ],
+   "recent_total": 9,
+   "recent_eu": 9
+  },
+  "innovestor": {
+   "website": "innovestorgroup.com",
+   "partners": [
+    {
+     "name": "Milla Koistinaho",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Wilhelm Lindholm",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Tomi Asanti",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Matti Härkönen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Janne Juhola",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Hannu Jungman",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Marko Kuisma",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Myron Seto",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Pekka Simula",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Piia Maaranen",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Innovestor Ventures",
+    "Business Finland",
+    "Finnvera",
+    "EIFO",
+    "Hadean Ventures",
+    "Industrifonden",
+    "Tesi",
+    "Lifeline Ventures",
+    "Tekes",
+    "Investinor",
+    "M Ventures",
+    "Stephen Industries"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Cornea Sense",
+     "date": "2026-07-15",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "corneasense.com",
+     "harmonic_company_id": 57014665
+    },
+    {
+     "name": "Bahn Express",
+     "date": "2025-12-17",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "bahnexpress.fi",
+     "harmonic_company_id": 56746700
+    },
+    {
+     "name": "Cronvall",
+     "date": "2025-11-13",
+     "round": "LATER_STAGE",
+     "country": "Finland",
+     "domain": "cronvall.fi",
+     "harmonic_company_id": 3631579
+    },
+    {
+     "name": "Amplifiles",
+     "date": "2025-09-02",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "amplifiles.ai",
+     "harmonic_company_id": 48951463
+    },
+    {
+     "name": "Gesynta Pharma AB",
+     "date": "2025-07-22",
+     "round": "SERIES_B_EXTENSION",
+     "country": "Sweden",
+     "domain": "gesynta.se",
+     "harmonic_company_id": 791072
+    },
+    {
+     "name": "CloEE | SKYDECK'24",
+     "date": "2025-06-23",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "cloee.ai",
+     "harmonic_company_id": 11217874
+    },
+    {
+     "name": "Tribune Therapeutics",
+     "date": "2025-03-26",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "tribunetx.com",
+     "harmonic_company_id": 3091274
+    },
+    {
+     "name": "NXT:FWD",
+     "date": "2025-02-26",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "nxtfwd.com",
+     "harmonic_company_id": 11135756
+    }
+   ],
+   "recent_total": 13,
+   "recent_eu": 11
+  },
+  "alliance-vc": {
+   "website": "alliance.vc",
+   "partners": [
+    {
+     "name": "Arne Tonning 🚀",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Johan Gjesdahl",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Henrik Torstensson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Bente Loe",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stine Mølgaard",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Anders Hallin",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Stine Mølgaard",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Investinor",
+    "Luminar Ventures",
+    "HOFFMAN TED G",
+    "Antler",
+    "RENAULT NISSAN MITSUBISHI ALLIANCE, INDIA",
+    "Y Combinator",
+    "Skyfall Ventures",
+    "Alliance Venture",
+    "Greens Ventures",
+    "Blockchain Builders",
+    "New Enterprise Associates (NEA)",
+    "Northzone"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Lightbringer",
+     "date": "2026-06-16",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "lightbringer.com",
+     "harmonic_company_id": 12886305
+    },
+    {
+     "name": "Newcode.ai",
+     "date": "2026-03-17",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "newcode.ai",
+     "harmonic_company_id": 10561209
+    },
+    {
+     "name": "Hemi Health",
+     "date": "2026-02-20",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "hemihealth.com",
+     "harmonic_company_id": 37230439
+    }
+   ],
+   "recent_total": 11,
+   "recent_eu": 6
+  },
+  "norrsken": {
+   "website": "norrsken.org",
+   "partners": [
+    {
+     "name": "Mark Somen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Luzana Costa",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Alex Bakir",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sofia Lindelöw",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Elie Habimana",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Norrsken Evolve",
+    "Techstars",
+    "Giant Ventures",
+    "Speedinvest",
+    "Partech",
+    "Mudcake",
+    "Lowercarbon Capital",
+    "EQT Ventures",
+    "Inbox Capital",
+    "Johan Attby",
+    "Eurazeo",
+    "Resilience17"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "terralayr",
+     "date": "2026-01-19",
+     "round": "SERIES_A",
+     "country": "Switzerland",
+     "domain": "trlyr.com",
+     "harmonic_company_id": 10890838
+    },
+    {
+     "name": "Chainreactor",
+     "date": "2025-08-18",
+     "round": "ACCELERATOR_INCUBATOR",
+     "country": "Portugal",
+     "domain": "chainreactor.bio",
+     "harmonic_company_id": 55733060
+    },
+    {
+     "name": "FION Energy",
+     "date": "2025-08-18",
+     "round": "ACCELERATOR_INCUBATOR",
+     "country": "Germany",
+     "domain": "fion-energy.com",
+     "harmonic_company_id": 12633161
+    },
+    {
+     "name": "Flox Intelligence",
+     "date": "2025-08-07",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "floxintelligence.com",
+     "harmonic_company_id": 3996114
+    },
+    {
+     "name": "Jälle Technologies",
+     "date": "2025-07-16",
+     "round": "PRE_SEED",
+     "country": "Estonia",
+     "domain": "jalletech.com",
+     "harmonic_company_id": 62365583
+    }
+   ],
+   "recent_total": 15,
+   "recent_eu": 13
+  },
+  "byfounders": {
+   "website": "byfounders.vc",
+   "partners": [
+    {
+     "name": "Tommy Andersen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Eric Lagier",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Martin Krag",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sara Rywe",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Possible Ventures",
+    "The Nordic Web Ventures",
+    "EIFO",
+    "Tiny Supercomputer Investment Company",
+    "Luminar Ventures",
+    "Antler",
+    "Acequia Capital",
+    "PSV",
+    "Partech",
+    "Creandum",
+    "Illusian",
+    "Y Combinator"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "VISOID",
+     "date": "2026-08-10",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "visoid.com",
+     "harmonic_company_id": 39800968
+    },
+    {
+     "name": "Fload",
+     "date": "2026-05-19",
+     "round": "PRE_SEED",
+     "country": "United Kingdom",
+     "domain": "fload.com",
+     "harmonic_company_id": 66032171
+    },
+    {
+     "name": "Spiral Hydrogen",
+     "date": "2026-04-30",
+     "round": "PRE_SEED",
+     "country": "Estonia",
+     "domain": "spiralhydrogen.com",
+     "harmonic_company_id": 58758284
+    },
+    {
+     "name": "Loki Robotics",
+     "date": "2026-04-15",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "lokirobotics.co",
+     "harmonic_company_id": 61371327
+    },
+    {
+     "name": "Apylon",
+     "date": "2026-03-03",
+     "round": "EARLY_STAGE",
+     "country": "Denmark",
+     "domain": "apylon.co",
+     "harmonic_company_id": 72267302
+    },
+    {
+     "name": "Intric",
+     "date": "2026-02-06",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "intric.ai",
+     "harmonic_company_id": 70966202
+    },
+    {
+     "name": "Skye",
+     "date": "2025-12-17",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "skye.energy",
+     "harmonic_company_id": 62010805
+    },
+    {
+     "name": "Sumary",
+     "date": "2025-11-18",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "sumary.com",
+     "harmonic_company_id": 64821746
+    },
+    {
+     "name": "Parahelp",
+     "date": "2025-09-11",
+     "round": "SERIES_A",
+     "country": "Denmark",
+     "domain": "parahelp.com",
+     "harmonic_company_id": 35042652
+    },
+    {
+     "name": "Ento",
+     "date": "2025-06-26",
+     "round": "LATER_STAGE",
+     "country": "Denmark",
+     "domain": "ento.ai",
+     "harmonic_company_id": 3395525
+    },
+    {
+     "name": "IXI",
+     "date": "2025-04-29",
+     "round": "SERIES_A",
+     "country": "Finland",
+     "domain": "ixieyewear.com",
+     "harmonic_company_id": 3175913
+    }
+   ],
+   "recent_total": 21,
+   "recent_eu": 21
+  },
+  "almi-invest": {
+   "website": "almiinvest.se",
+   "partners": [],
+   "co_investors": [
+    "Almi",
+    "Chalmers Ventures",
+    "Navigare Ventures",
+    "Simon Josefsson",
+    "Industrifonden",
+    "STOAF",
+    "Spintop Ventures",
+    "Unconventional Ventures",
+    "Fairpoint Capital",
+    "Sting",
+    "LiU Invest",
+    "Impact Shakers"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "InfiniNode Technologies",
+     "date": "2026-07-16",
+     "round": "GRANT",
+     "country": "Sweden",
+     "domain": "infininode.com",
+     "harmonic_company_id": 60965460
+    },
+    {
+     "name": "Arkeon Technologies",
+     "date": "2026-06-12",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "arkeontech.com",
+     "harmonic_company_id": 63702167
+    },
+    {
+     "name": "HAGA.BIO",
+     "date": "2026-06-03",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "voxlbio.com",
+     "harmonic_company_id": 57209942
+    },
+    {
+     "name": "Paindrainer AB",
+     "date": "2026-05-20",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "paindrainer.com",
+     "harmonic_company_id": 1879643
+    },
+    {
+     "name": "pickel",
+     "date": "2026-05-12",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "pickel.ai",
+     "harmonic_company_id": 64467296
+    },
+    {
+     "name": "Acerna",
+     "date": "2026-05-12",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "acerna.se",
+     "harmonic_company_id": 75761285
+    },
+    {
+     "name": "Hexagem AB",
+     "date": "2026-05-07",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "hexagem.se",
+     "harmonic_company_id": 1543994
+    },
+    {
+     "name": "Cordicity",
+     "date": "2026-05-06",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "cordicity.com",
+     "harmonic_company_id": 38929969
+    },
+    {
+     "name": "Enairon",
+     "date": "2026-05-04",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "enairon.com",
+     "harmonic_company_id": 3372016
+    },
+    {
+     "name": "FlexO2",
+     "date": "2026-04-21",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "flexo2.com",
+     "harmonic_company_id": 25583840
+    },
+    {
+     "name": "Cellevate AB",
+     "date": "2026-04-09",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "cellevate.com",
+     "harmonic_company_id": 1639554
+    },
+    {
+     "name": "Payer - B2B Invoicing & Payments",
+     "date": "2026-04-08",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "payer.eu",
+     "harmonic_company_id": 1795610
+    },
+    {
+     "name": "Flox Intelligence",
+     "date": "2026-02-25",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "floxintelligence.com",
+     "harmonic_company_id": 3996114
+    },
+    {
+     "name": "Vascurie AB",
+     "date": "2026-02-24",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": null,
+     "harmonic_company_id": 71880176
+    },
+    {
+     "name": "Dalarna Science Park",
+     "date": "2026-02-17",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "dalarnasciencepark.se",
+     "harmonic_company_id": 10070943
+    }
+   ],
+   "recent_total": 30,
+   "recent_eu": 29
+  },
+  "accelerace": {
+   "website": "accelerace.io",
+   "partners": [
+    {
+     "name": "Mads Løntoft",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Claus Kristensen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "David Today Ventzel",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Peter Marculans",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Seed Capital",
+    "CAPNOVA A/S",
+    "PSV",
+    "Nupark Accelerace",
+    "Overkill Ventures",
+    "Syddansk Innovation A/S",
+    "Nicolaj Højer Nielsen",
+    "Innovation Fund Denmark",
+    "Borean Innovation",
+    "i3 Equity Partners",
+    "Novo Holdings",
+    "Jacob Knobel"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "MederiAI",
+     "date": "2025-03-28",
+     "round": "ACCELERATOR_INCUBATOR",
+     "country": "Denmark",
+     "domain": "mederiai.com",
+     "harmonic_company_id": 60999306
+    }
+   ],
+   "recent_total": 1,
+   "recent_eu": 1
+  },
+  "maki": {
+   "website": "maki.vc",
+   "partners": [
+    {
+     "name": "Pirkka Palomäki",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Tim Bolte",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Paavo Räisänen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Pauliina Martikainen-Rahnu",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Business Finland",
+    "Tesi",
+    "Sondo",
+    "Illusian",
+    "Clubhouse",
+    "Skyfall Ventures",
+    "First Fellow Partners",
+    "European Innovation Council and SMEs Executive Agency (EISMEA)",
+    "foobar.vc",
+    "Northzone",
+    "Vsquared Ventures",
+    "Global Founders Capital"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Aavuus",
+     "date": "2026-06-09",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "aavuus.com",
+     "harmonic_company_id": 63228190
+    },
+    {
+     "name": "Metaktik",
+     "date": "2026-03-31",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "metaktik.com",
+     "harmonic_company_id": 72997408
+    },
+    {
+     "name": "Upheat Solutions",
+     "date": "2025-12-15",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "upheat.com",
+     "harmonic_company_id": 61248496
+    },
+    {
+     "name": "Riff",
+     "date": "2025-10-23",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "riff.ai",
+     "harmonic_company_id": 11056000
+    },
+    {
+     "name": "EverDye",
+     "date": "2025-06-25",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "everdye.fr",
+     "harmonic_company_id": 6837414
+    },
+    {
+     "name": "ONiO",
+     "date": "2025-06-18",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "onio.com",
+     "harmonic_company_id": 2140956
+    },
+    {
+     "name": "Deepdots",
+     "date": "2025-06-02",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "deepdots.com",
+     "harmonic_company_id": 61517496
+    },
+    {
+     "name": "Lightsonic",
+     "date": "2025-05-07",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "lightsonic.ai",
+     "harmonic_company_id": 55656013
+    },
+    {
+     "name": "IXI",
+     "date": "2025-04-29",
+     "round": "SERIES_A",
+     "country": "Finland",
+     "domain": "ixieyewear.com",
+     "harmonic_company_id": 3175913
+    }
+   ],
+   "recent_total": 17,
+   "recent_eu": 13
+  },
+  "spintop": {
+   "website": "spintopventures.com",
+   "partners": [
+    {
+     "name": "Erik Wenngren",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Sami Niemi",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Peter Carlsson",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Almi",
+    "Almi Invest",
+    "Partnerinvest Norr",
+    "Icebreaker.vc",
+    "OpenOcean",
+    "Luminar Ventures",
+    "Schibsted Growth",
+    "Antler",
+    "Runa Capital",
+    "Starbright Invest",
+    "Tesi",
+    "Sisu Game Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Tonada",
+     "date": "2026-06-17",
+     "round": "PRE_SEED",
+     "country": "Sweden",
+     "domain": "tonada.ai",
+     "harmonic_company_id": 64253248
+    },
+    {
+     "name": "WeWillWrite",
+     "date": "2025-11-05",
+     "round": "LATER_STAGE",
+     "country": "Norway",
+     "domain": "wewillwrite.com",
+     "harmonic_company_id": 46832725
+    },
+    {
+     "name": "Meetric",
+     "date": "2025-10-02",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "meetric.com",
+     "harmonic_company_id": 10354546
+    },
+    {
+     "name": "Standab - Micromobility Charging as a Service",
+     "date": "2025-09-10",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "standab.com",
+     "harmonic_company_id": 9751322
+    },
+    {
+     "name": "Seven Stars",
+     "date": "2025-02-25",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "sevenstars.games",
+     "harmonic_company_id": 48630640
+    },
+    {
+     "name": "ReCarber",
+     "date": "2025-02-10",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "recarber.com",
+     "harmonic_company_id": 59711036
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 9
+  },
+  "luminar": {
+   "website": "luminarventures.com",
+   "partners": [
+    {
+     "name": "Magnus Bergman",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jacob Key",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Louise Hagen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Reid Jackson",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Brightly Ventures",
+    "byFounders",
+    "Alliance VC",
+    "Antler",
+    "Max Ventures",
+    "Acequia Capital",
+    "Sting",
+    "Bonnier Capital",
+    "J12",
+    "Spintop Ventures",
+    "Wave Ventures",
+    "NordicNinja VC"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Lightbringer",
+     "date": "2026-06-16",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "lightbringer.com",
+     "harmonic_company_id": 12886305
+    },
+    {
+     "name": "Photoncycle",
+     "date": "2026-03-04",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "photoncycle.com",
+     "harmonic_company_id": 12524059
+    },
+    {
+     "name": "FirstQFM",
+     "date": "2025-10-10",
+     "round": "PRE_SEED",
+     "country": "Sweden",
+     "domain": "firstqfm.com",
+     "harmonic_company_id": 63910903
+    },
+    {
+     "name": "Ivy Interactive",
+     "date": "2025-06-02",
+     "round": "PRE_SEED",
+     "country": "Sweden",
+     "domain": "ivy.app",
+     "harmonic_company_id": 21541261
+    },
+    {
+     "name": "ReCarber",
+     "date": "2025-02-10",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "recarber.com",
+     "harmonic_company_id": 59711036
+    }
+   ],
+   "recent_total": 14,
+   "recent_eu": 11
+  },
+  "gorilla": {
+   "website": "gorillacapital.fi",
+   "partners": [
+    {
+     "name": "Petri Lehmuskoski",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Minna Isotalus",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Petter Hattenbach",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jamie Reynolds",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Kirsi Vine-Haaparinne",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Business Finland",
+    "Gorilla Capital",
+    "Sofokus Ventures",
+    "Ali Omar",
+    "Korpun Siemen Oy",
+    "Monttu Ventures",
+    "Spintop Ventures",
+    "Almi Invest",
+    "FoundersEdge",
+    "Tommy Nordahl",
+    "Startup Wise Guys",
+    "Almi"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Mobal",
+     "date": "2025-11-27",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "mobal.io",
+     "harmonic_company_id": 2039718
+    },
+    {
+     "name": "Buility",
+     "date": "2025-11-12",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "buility.com",
+     "harmonic_company_id": 12884952
+    },
+    {
+     "name": "Konvolo",
+     "date": "2025-11-12",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "konvolo.com",
+     "harmonic_company_id": 59131572
+    },
+    {
+     "name": "Dashboa",
+     "date": "2025-10-01",
+     "round": "SERIES_3",
+     "country": "Finland",
+     "domain": "dashboa.com",
+     "harmonic_company_id": 34762585
+    },
+    {
+     "name": "Virtual Days",
+     "date": "2025-08-18",
+     "round": "LATER_STAGE",
+     "country": "Sweden",
+     "domain": "virtualdays.com",
+     "harmonic_company_id": 12872566
+    },
+    {
+     "name": "Rebelvolt",
+     "date": "2025-08-07",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "rebelvolt.com",
+     "harmonic_company_id": 63798980
+    },
+    {
+     "name": "Spacent",
+     "date": "2025-07-01",
+     "round": "LATER_STAGE",
+     "country": "Finland",
+     "domain": "spacent.com",
+     "harmonic_company_id": 33618259
+    },
+    {
+     "name": "Agenton AI",
+     "date": "2025-06-10",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "agenton.ai",
+     "harmonic_company_id": 62065704
+    }
+   ],
+   "recent_total": 9,
+   "recent_eu": 9
+  },
+  "first-fellow": {
+   "website": "firstfellow.com",
+   "partners": [
+    {
+     "name": "Kim Groop",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Risto Siilasmaa",
+    "Lifeline Ventures",
+    "Maki.vc",
+    "Inventure",
+    "Tesi",
+    "Tiny Supercomputer Investment Company",
+    "Kim Groop",
+    "Wave Ventures",
+    "Illusian",
+    "Ilkka Paananen",
+    "Hannu Turunen",
+    "Business Finland"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Elva",
+     "date": "2026-03-10",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "withelva.com",
+     "harmonic_company_id": 63752185
+    },
+    {
+     "name": "Nimble Fox",
+     "date": "2025-09-25",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "nimblefox.ai",
+     "harmonic_company_id": 64501916
+    },
+    {
+     "name": "Hamina Wireless",
+     "date": "2025-07-18",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "hamina.com",
+     "harmonic_company_id": 10265402
+    },
+    {
+     "name": "IXI",
+     "date": "2025-04-29",
+     "round": "SERIES_A",
+     "country": "Finland",
+     "domain": "ixieyewear.com",
+     "harmonic_company_id": 3175913
+    }
+   ],
+   "recent_total": 8,
+   "recent_eu": 8
+  },
+  "voima": {
+   "website": "voimaventures.com",
+   "partners": [
+    {
+     "name": "Inka Mero",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Pontus Stråhlman",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jenny Engerfelt",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jussi Sainiemi",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Voima Ventures",
+    "Business Finland",
+    "Tesi",
+    "Petteri Lahtela",
+    "Nordic Foodtech VC",
+    "Lifeline Ventures",
+    "Icebreaker.vc",
+    "Bust",
+    "Stephen Industries",
+    "Takoa Invest",
+    "Octopus Ventures",
+    "Exceptional Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Reduciner",
+     "date": "2026-05-05",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "reduciner.com",
+     "harmonic_company_id": 62939477
+    },
+    {
+     "name": "TheStorage",
+     "date": "2026-04-01",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "thestorage.fi",
+     "harmonic_company_id": 52170157
+    },
+    {
+     "name": "Photoncycle",
+     "date": "2026-03-04",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "photoncycle.com",
+     "harmonic_company_id": 12524059
+    },
+    {
+     "name": "AGATE Sensors",
+     "date": "2025-09-09",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "agatesensors.com",
+     "harmonic_company_id": 61399532
+    },
+    {
+     "name": "Farang",
+     "date": "2025-08-27",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "farang.com",
+     "harmonic_company_id": 61499094
+    },
+    {
+     "name": "Epigenica",
+     "date": "2025-06-30",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "epigenica.se",
+     "harmonic_company_id": 36022936
+    },
+    {
+     "name": "Alba Health",
+     "date": "2025-05-27",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "albahealth.co",
+     "harmonic_company_id": 12474672
+    },
+    {
+     "name": "StemSight",
+     "date": "2025-02-13",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "stemsight.fi",
+     "harmonic_company_id": 3334797
+    }
+   ],
+   "recent_total": 13,
+   "recent_eu": 11
+  },
+  "superhero": {
+   "website": "superherocapital.com",
+   "partners": [
+    {
+     "name": "Juha Ruohonen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jakob Storå",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Audrius Milukas",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Ivo Remmelg",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Gytenis Galkis",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Business Finland",
+    "Superhero Capital",
+    "Trind Ventures",
+    "Morrow Ventures Oy",
+    "NGL Ventures",
+    "Startup Wise Guys",
+    "Lifeline Ventures",
+    "Superangel",
+    "Contriber",
+    "FOV Ventures",
+    "Naava",
+    "Tesi"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "SeeTrue Technologies",
+     "date": "2026-08-06",
+     "round": "LATER_STAGE",
+     "country": "Finland",
+     "domain": "seetruetechnologies.com",
+     "harmonic_company_id": 6494869
+    },
+    {
+     "name": "TheStorage",
+     "date": "2026-04-01",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "thestorage.fi",
+     "harmonic_company_id": 52170157
+    },
+    {
+     "name": "Homie",
+     "date": "2026-01-13",
+     "round": "PRE_SEED",
+     "country": "Finland",
+     "domain": "usehomie.com",
+     "harmonic_company_id": 58361237
+    },
+    {
+     "name": "Supernaut",
+     "date": "2025-10-17",
+     "round": "PRE_SEED",
+     "country": "Lithuania",
+     "domain": "supernaut.ai",
+     "harmonic_company_id": 59826258
+    },
+    {
+     "name": "Renow",
+     "date": "2025-06-17",
+     "round": "SEED",
+     "country": "Finland",
+     "domain": "renow.ai",
+     "harmonic_company_id": 12456797
+    },
+    {
+     "name": "Furro",
+     "date": "2025-06-03",
+     "round": "EARLY_STAGE",
+     "country": "Finland",
+     "domain": "furro.com",
+     "harmonic_company_id": 62590373
+    },
+    {
+     "name": "VUGENE",
+     "date": "2025-05-06",
+     "round": "EARLY_STAGE",
+     "country": "Lithuania",
+     "domain": "vugene.com",
+     "harmonic_company_id": 61191023
+    }
+   ],
+   "recent_total": 14,
+   "recent_eu": 12
+  },
+  "skyfall": {
+   "website": "skyfall.vc",
+   "partners": [
+    {
+     "name": "Jon Kåre Stene",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Espen Malmo",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Sondo",
+    "Maki.vc",
+    "Global Founders Capital",
+    "Alliance VC",
+    "Trond Knudsen",
+    "Andreessen Horowitz",
+    "Illusian",
+    "MP PENSJON PK",
+    "Startuplab",
+    "Skyfall Ventures",
+    "Northzone",
+    "Aleksander Leonard Larsen"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "CYBRET AI",
+     "date": "2025-12-12",
+     "round": "EARLY_STAGE",
+     "country": "Sweden",
+     "domain": "cybret.ai",
+     "harmonic_company_id": 64431181
+    },
+    {
+     "name": "WeWillWrite",
+     "date": "2025-11-05",
+     "round": "LATER_STAGE",
+     "country": "Norway",
+     "domain": "wewillwrite.com",
+     "harmonic_company_id": 46832725
+    },
+    {
+     "name": "Riff",
+     "date": "2025-10-23",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "riff.ai",
+     "harmonic_company_id": 11056000
+    },
+    {
+     "name": "We Are Learning",
+     "date": "2025-09-02",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "wearelearning.com",
+     "harmonic_company_id": 63050243
+    }
+   ],
+   "recent_total": 10,
+   "recent_eu": 6
+  },
+  "j12": {
+   "website": "j12ventures.com",
+   "partners": [
+    {
+     "name": "Bo Mattsson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Alexander Paterson Pochet",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Emmet King",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "DHS Venture Partners",
+    "Antler",
+    "FJ Labs",
+    "Eric Quidenus-Wahlforss",
+    "Lasse Espeholt",
+    "Mattias Miksche",
+    "Luminar Ventures",
+    "Per Hallius",
+    "NEXTBLUE",
+    "Y Combinator",
+    "Peter Grosskopf"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Camphouse",
+     "date": "2026-06-09",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "camphouse.io",
+     "harmonic_company_id": 60269781
+    },
+    {
+     "name": "Verda",
+     "date": "2025-09-08",
+     "round": "SERIES_A",
+     "country": "Finland",
+     "domain": "verda.com",
+     "harmonic_company_id": 3672650
+    },
+    {
+     "name": "CYBR",
+     "date": "2025-04-29",
+     "round": "SERIES_A",
+     "country": "Norway",
+     "domain": "cybr.ai",
+     "harmonic_company_id": 59535538
+    }
+   ],
+   "recent_total": 9,
+   "recent_eu": 9
+  }
+ },
+ "angels": {
+  "ilkka-paananen": {
+   "co_investors": [
+    "Illusian",
+    "firstminute capital",
+    "Accel",
+    "Miki Kuusi",
+    "Lifeline Ventures",
+    "David Helgason",
+    "Sebastian Siemiatkowski",
+    "Seedcamp",
+    "Kima Ventures",
+    "Mikko Kodisoja",
+    "Atomico",
+    "Andreessen Horowitz"
+   ]
+  },
+  "cristina-stenbeck": {
+   "co_investors": [
+    "Susanna Campbell",
+    "Sophia Bendz",
+    "Allison Pickens",
+    "Atomico",
+    "Tiny Supercomputer Investment Company",
+    "Cherry Ventures",
+    "EIT InnoEnergy",
+    "Stena Metall Group",
+    "Emilia De Poret",
+    "Luke Griffiths",
+    "Daniel Ek",
+    "IMAS Foundation"
+   ]
+  },
+  "ali-omar": {
+   "co_investors": [
+    "Henry Nilert",
+    "Reima Linnanvirta",
+    "Pekka Ylitalo",
+    "Business Finland",
+    "FoundersEdge",
+    "Gorilla Capital",
+    "Icebreaker.vc",
+    "Spartamed",
+    "Jari Paakkarinen",
+    "Stefan Lindberg (林渤方)",
+    "Mikael Hed",
+    "Innovestor"
+   ]
+  },
+  "charlie-songhurst": {
+   "co_investors": [
+    "Acequia Capital",
+    "Entrepreneur First",
+    "Charles Songhurst",
+    "Seedcamp",
+    "Tiny Supercomputer Investment Company",
+    "Y Combinator",
+    "BACKED VC",
+    "Nicolas Berggruen",
+    "Lunar Ventures",
+    "Adrian Aoun",
+    "Chris Mairs Cbe"
+   ]
+  },
+  "sophia-bendz": {
+   "co_investors": [
+    "Hampus Jakobsson",
+    "Cherry Ventures",
+    "Susanna Campbell",
+    "Almi",
+    "Cristina Stenbeck",
+    "Max Ventures",
+    "Mattias Miksche",
+    "Josefin Landgard",
+    "Camsten AB",
+    "Filip Larsson 🚀",
+    "Neudi & C:o AB",
+    "Ludvig Linge"
+   ]
+  },
+  "mattias-miksche": {
+   "co_investors": [
+    "DHS Venture Partners",
+    "Henrik Torstensson",
+    "Mathias Ackermand",
+    "Sophia Bendz",
+    "J12",
+    "Hampus Jakobsson",
+    "Fredrik Uhrström",
+    "Karaoke Club",
+    "Almi",
+    "Greens Ventures",
+    "byFounders",
+    "Antler"
+   ]
+  },
+  "david-helgason": {
+   "co_investors": [
+    "Sisu Game Ventures",
+    "Index Ventures",
+    "Ilkka Paananen",
+    "Chris Murphy",
+    "Seedcamp",
+    "PSV",
+    "Supercell",
+    "Hilmar Pétursson",
+    "Nordic Makers",
+    "Cherry Ventures",
+    "Moaffak Ahmed",
+    "Illusian"
+   ]
+  },
+  "hampus-jakobsson": {
+   "co_investors": [
+    "Sophia Bendz",
+    "Erik Byrenius",
+    "Tim Jackson",
+    "Tommy Andersen",
+    "Christian Jantzen",
+    "Lean Investments LP",
+    "The Nordic Web Ventures",
+    "Thomas Madsen-Mygdal",
+    "Nordic Makers",
+    "Google",
+    "Andreas Ehn",
+    "Connect Ventures"
+   ]
+  },
+  "risto-siilasmaa": {
+   "co_investors": [
+    "First Fellow Partners",
+    "Lifeline Ventures",
+    "Inventure",
+    "Tesi",
+    "Earlybird Venture Capital",
+    "Christian Jantzen",
+    "Keith Boesky",
+    "Planet A",
+    "Broadway Video",
+    "Sofia Bank Plc",
+    "Gregory Milken",
+    "FR8"
+   ]
+  },
+  "sebastian-knutsson": {
+   "co_investors": [
+    "Riccardo Zacconi",
+    "VNV Global AB",
+    "Sequoia Capital",
+    "Luminar Ventures",
+    "Ilkka Paananen",
+    "Y Combinator",
+    "LocalGlobe",
+    "Alliance VC",
+    "Kima Ventures",
+    "Inception Fund",
+    "BLING",
+    "Thomas Hartwig"
+   ]
+  }
+ }
+}

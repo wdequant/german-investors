@@ -1,0 +1,357 @@
+{
+  "almi": {
+    "fund_last": "2022-01-14",
+    "contacts": {}
+  },
+  "antler": {
+    "fund_last": "2026-08-12",
+    "contacts": {
+      "David Spindler": {
+        "last": "2023-10-15",
+        "mismatch": true
+      },
+      "Rita Cherradi": {
+        "last": "2026-06-15",
+        "mismatch": true
+      },
+      "Stephen Wilks": {
+        "last": "2026-06-24",
+        "mismatch": true
+      }
+    }
+  },
+  "northzone": {
+    "fund_last": "2026-08-14",
+    "contacts": {
+      "Gareth Jefferies": {
+        "last": "2024-10-11",
+        "mismatch": true
+      },
+      "Kilian Pender": {
+        "last": "2026-06-25",
+        "mismatch": true
+      },
+      "Deepka Rana": {
+        "last": "2025-10-16",
+        "mismatch": false
+      }
+    }
+  },
+  "creandum": {
+    "fund_last": "2026-07-31",
+    "contacts": {
+      "Simon Schmincke": {
+        "last": "2025-04-25",
+        "mismatch": false
+      },
+      "Ellen Lee": {
+        "last": "2024-05-10",
+        "mismatch": false
+      },
+      "Cameron Sellers": {
+        "last": "2025-12-04",
+        "mismatch": false
+      }
+    }
+  },
+  "lifeline": {
+    "fund_last": "2026-04-29",
+    "contacts": {
+      "Petteri Koponen": {
+        "last": "2026-04-29",
+        "mismatch": false
+      },
+      "Timo Ahopelto": {
+        "last": "2025-10-28",
+        "mismatch": false
+      },
+      "Tuomo Vähäpassi": {
+        "last": "2025-01-30",
+        "mismatch": true
+      }
+    }
+  },
+  "industrifonden": {
+    "fund_last": "2024-09-18",
+    "contacts": {
+      "Caroline Wadstein": {
+        "last": "2024-09-18",
+        "mismatch": false
+      }
+    }
+  },
+  "seed-capital": {
+    "fund_last": "2026-04-08",
+    "contacts": {
+      "Tine Marie Kjærgaard Lindgreen": {
+        "last": "2026-04-08",
+        "mismatch": false
+      },
+      "Peter Egehoved": {
+        "last": "2025-07-08",
+        "mismatch": true
+      }
+    }
+  },
+  "psv": {
+    "fund_last": "2020-02-18",
+    "contacts": {}
+  },
+  "inventure": {
+    "fund_last": "2026-08-05",
+    "contacts": {
+      "Tatiana Shalalvand": {
+        "last": "2026-04-10",
+        "mismatch": true
+      },
+      "Linus Dahg": {
+        "last": "2024-10-03",
+        "mismatch": false
+      },
+      "Magda Lukaszewicz": {
+        "last": "2026-08-05",
+        "mismatch": true
+      }
+    }
+  },
+  "eqt-ventures": {
+    "fund_last": "2026-07-24",
+    "contacts": {
+      "Kaushik Subramanian": {
+        "last": "2026-03-24",
+        "mismatch": false
+      },
+      "Nitya Hinduja": {
+        "last": "2026-07-02",
+        "mismatch": true
+      },
+      "Natasha Niksic": {
+        "last": "2025-06-26",
+        "mismatch": true
+      }
+    }
+  },
+  "sting": {
+    "fund_last": "2023-12-18",
+    "contacts": {
+      "Charlotte Ekelund": {
+        "last": "2023-12-18",
+        "mismatch": false
+      }
+    }
+  },
+  "investinor": {
+    "fund_last": "2019-05-30",
+    "contacts": {
+      "Johan Gjesdahl": {
+        "last": "2024-03-07",
+        "mismatch": true
+      }
+    }
+  },
+  "icebreaker": {
+    "fund_last": "2024-09-19",
+    "contacts": {
+      "Mikko Suonenlahti": {
+        "last": "2026-05-25",
+        "mismatch": true
+      },
+      "Tunde Adekeye": {
+        "last": "2025-03-14",
+        "mismatch": true
+      },
+      "Lasse Lehtinen": {
+        "last": "2024-09-19",
+        "mismatch": false
+      }
+    }
+  },
+  "startuplab": {
+    "fund_last": null,
+    "contacts": {
+      "Iris Auran": {
+        "last": "2024-07-15",
+        "mismatch": true
+      }
+    }
+  },
+  "innovestor": {
+    "fund_last": "2025-11-19",
+    "contacts": {
+      "Tuomas Rekonen": {
+        "last": "2024-06-27",
+        "mismatch": true
+      }
+    }
+  },
+  "alliance-vc": {
+    "fund_last": "2025-10-02",
+    "contacts": {
+      "Arne Tonning": {
+        "last": "2025-10-02",
+        "mismatch": false
+      },
+      "Johan Gjesdahl": {
+        "last": "2024-03-07",
+        "mismatch": false
+      }
+    }
+  },
+  "norrsken": {
+    "fund_last": "2026-07-08",
+    "contacts": {
+      "Alexander Danielsson": {
+        "last": "2026-03-05",
+        "mismatch": false
+      },
+      "Cecilia Ma": {
+        "last": "2026-04-09",
+        "mismatch": false
+      },
+      "Estelle Kulow": {
+        "last": "2026-07-08",
+        "mismatch": false
+      }
+    }
+  },
+  "byfounders": {
+    "fund_last": "2026-08-11",
+    "contacts": {
+      "Johan Jessen": {
+        "last": "2026-07-09",
+        "mismatch": false
+      },
+      "Eric Lagier": {
+        "last": "2026-08-11",
+        "mismatch": false
+      },
+      "Magnus Hambleton": {
+        "last": "2026-01-15",
+        "mismatch": true
+      }
+    }
+  },
+  "almi-invest": {
+    "fund_last": "2022-01-14",
+    "contacts": {}
+  },
+  "accelerace": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "maki": {
+    "fund_last": "2021-11-30",
+    "contacts": {
+      "Ella Eskelinen": {
+        "last": "2026-02-03",
+        "mismatch": true
+      }
+    }
+  },
+  "spintop": {
+    "fund_last": "2026-05-26",
+    "contacts": {
+      "Moa Kronborg": {
+        "last": "2026-05-26",
+        "mismatch": false
+      }
+    }
+  },
+  "luminar": {
+    "fund_last": "2026-04-23",
+    "contacts": {
+      "Eira Tobrand": {
+        "last": "2026-04-23",
+        "mismatch": false
+      }
+    }
+  },
+  "gorilla": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "first-fellow": {
+    "fund_last": "2025-03-20",
+    "contacts": {
+      "Kim Groop": {
+        "last": "2025-03-20",
+        "mismatch": false
+      }
+    }
+  },
+  "voima": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "superhero": {
+    "fund_last": "2024-03-26",
+    "contacts": {
+      "Moaffak Ahmed": {
+        "last": "2024-03-26",
+        "mismatch": true
+      }
+    }
+  },
+  "skyfall": {
+    "fund_last": "2025-02-04",
+    "contacts": {
+      "Cecilie Skjong": {
+        "last": "2025-02-04",
+        "mismatch": false
+      }
+    }
+  },
+  "j12": {
+    "fund_last": "2025-10-28",
+    "contacts": {
+      "Caroline Hultman": {
+        "last": "2024-02-20",
+        "mismatch": false
+      },
+      "Maja Shapiro": {
+        "last": "2025-10-28",
+        "mismatch": false
+      }
+    }
+  },
+  "angel-ilkka-paananen": {
+    "fund_last": "2026-06-04",
+    "contacts": {}
+  },
+  "angel-cristina-stenbeck": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "angel-ali-omar": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "angel-charlie-songhurst": {
+    "fund_last": "2018-10-30",
+    "contacts": {}
+  },
+  "angel-sophia-bendz": {
+    "fund_last": "2016-11-04",
+    "contacts": {}
+  },
+  "angel-mattias-miksche": {
+    "fund_last": "2018-04-26",
+    "contacts": {}
+  },
+  "angel-david-helgason": {
+    "fund_last": "2017-05-30",
+    "contacts": {}
+  },
+  "angel-hampus-jakobsson": {
+    "fund_last": "2026-01-28",
+    "contacts": {}
+  },
+  "angel-risto-siilasmaa": {
+    "fund_last": "2020-12-30",
+    "contacts": {}
+  },
+  "angel-sebastian-knutsson": {
+    "fund_last": null,
+    "contacts": {}
+  }
+}

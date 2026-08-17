@@ -1,0 +1,412 @@
+{
+  "gfc": {
+    "fund_last": "2026-08-03",
+    "contacts": {
+      "Levin Bunz": {
+        "last": "2026-04-21",
+        "mismatch": true
+      },
+      "Alexandre Charlet": {
+        "last": "2026-06-05",
+        "mismatch": true
+      },
+      "Julia Morrongiello": {
+        "last": "2026-04-01",
+        "mismatch": true
+      }
+    }
+  },
+  "htgf": {
+    "fund_last": "2026-07-03",
+    "contacts": {
+      "Ulrich Schmitt": {
+        "last": "2026-01-01",
+        "mismatch": false
+      },
+      "Niels Sharman": {
+        "last": "2024-10-30",
+        "mismatch": false
+      },
+      "Christian Arndt": {
+        "last": "2026-07-03",
+        "mismatch": false
+      }
+    }
+  },
+  "hv-capital": {
+    "fund_last": "2026-07-31",
+    "contacts": {
+      "Alexander Joel-Carbonell": {
+        "last": "2026-07-31",
+        "mismatch": false
+      },
+      "Christian Saller": {
+        "last": "2026-07-29",
+        "mismatch": false
+      }
+    }
+  },
+  "earlybird": {
+    "fund_last": "2026-07-30",
+    "contacts": {
+      "Moritz von Klot": {
+        "last": "2026-06-30",
+        "mismatch": false
+      },
+      "Mehmet Atici": {
+        "last": "2026-04-27",
+        "mismatch": true
+      },
+      "Jay Harris-Theis": {
+        "last": "2026-07-14",
+        "mismatch": false
+      }
+    }
+  },
+  "point-nine": {
+    "fund_last": "2026-06-23",
+    "contacts": {
+      "Puren Uçar": {
+        "last": "2026-03-31",
+        "mismatch": false
+      },
+      "Julia Morrongiello": {
+        "last": "2026-04-01",
+        "mismatch": true
+      },
+      "Anique Goemans": {
+        "last": "2024-11-12",
+        "mismatch": false
+      }
+    }
+  },
+  "468-capital": {
+    "fund_last": "2024-12-16",
+    "contacts": {
+      "Bardo Droege": {
+        "last": "2024-09-27",
+        "mismatch": false
+      },
+      "Bernhard Janke": {
+        "last": "2024-12-16",
+        "mismatch": false
+      },
+      "Diogo Cunha": {
+        "last": "2024-08-29",
+        "mismatch": false
+      }
+    }
+  },
+  "picus": {
+    "fund_last": "2026-08-11",
+    "contacts": {
+      "Robin Godenrath": {
+        "last": "2026-08-11",
+        "mismatch": false
+      },
+      "Luis Antonio Zarate Serrano": {
+        "last": "2024-07-09",
+        "mismatch": false
+      }
+    }
+  },
+  "cherry": {
+    "fund_last": "2026-07-23",
+    "contacts": {
+      "Alexander Schmitt": {
+        "last": "2026-04-01",
+        "mismatch": true
+      },
+      "Cherry Ventures": {
+        "last": "2026-06-10",
+        "mismatch": false
+      }
+    }
+  },
+  "bayern-kapital": {
+    "fund_last": "2026-06-25",
+    "contacts": {
+      "Bernd Schafberger": {
+        "last": "2026-06-18",
+        "mismatch": false
+      },
+      "Matthias Buchinger": {
+        "last": "2026-04-20",
+        "mismatch": false
+      }
+    }
+  },
+  "project-a": {
+    "fund_last": "2024-11-27",
+    "contacts": {
+      "Florian Heinemann": {
+        "last": "2025-09-12",
+        "mismatch": true
+      },
+      "Marjorie Lengereau": {
+        "last": "2026-08-04",
+        "mismatch": true
+      },
+      "Enrico Mellis": {
+        "last": "2025-06-19",
+        "mismatch": true
+      }
+    }
+  },
+  "ibb-ventures": {
+    "fund_last": "2026-05-07",
+    "contacts": {
+      "Clemens Kabel": {
+        "last": "2026-05-07",
+        "mismatch": false
+      },
+      "Markus Lehmann": {
+        "last": "2025-03-06",
+        "mismatch": false
+      }
+    }
+  },
+  "atlantic-labs": {
+    "fund_last": "2026-07-31",
+    "contacts": {
+      "Christophe Maire": {
+        "last": "2026-08-14",
+        "mismatch": true
+      },
+      "Sophie Rowe": {
+        "last": "2025-04-30",
+        "mismatch": false
+      }
+    }
+  },
+  "1kx": {
+    "fund_last": null,
+    "contacts": {
+      "Diana Biggs": {
+        "last": "2024-09-11",
+        "mismatch": true
+      },
+      "Lasse Clausen": {
+        "last": "2024-05-03",
+        "mismatch": true
+      }
+    }
+  },
+  "ta-ventures": {
+    "fund_last": "2016-11-10",
+    "contacts": {}
+  },
+  "redstone": {
+    "fund_last": "2026-07-24",
+    "contacts": {
+      "Moritz Gillmair": {
+        "last": "2026-07-10",
+        "mismatch": false
+      },
+      "Marco Stutz": {
+        "last": "2026-01-30",
+        "mismatch": false
+      }
+    }
+  },
+  "bosch-ventures": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "blueyard": {
+    "fund_last": "2026-07-23",
+    "contacts": {
+      "Mike Wax": {
+        "last": "2026-07-23",
+        "mismatch": false
+      },
+      "Jason Whitmire": {
+        "last": "2026-03-09",
+        "mismatch": false
+      },
+      "Christine Fuchs": {
+        "last": "2026-07-14",
+        "mismatch": false
+      }
+    }
+  },
+  "possible-ventures": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "capnamic": {
+    "fund_last": "2026-08-07",
+    "contacts": {
+      "Christian Siegele": {
+        "last": "2025-07-17",
+        "mismatch": false
+      },
+      "Dorothea Gotthardt": {
+        "last": "2026-01-26",
+        "mismatch": true
+      },
+      "Alexandra Kurmulis": {
+        "last": "2026-06-11",
+        "mismatch": false
+      }
+    }
+  },
+  "uvc-partners": {
+    "fund_last": "2026-05-19",
+    "contacts": {
+      "Benjamin Erhart": {
+        "last": "2024-01-18",
+        "mismatch": false
+      },
+      "Andreas Unseld": {
+        "last": "2026-05-19",
+        "mismatch": false
+      },
+      "Marc Kühn": {
+        "last": "2025-10-28",
+        "mismatch": false
+      }
+    }
+  },
+  "mig-capital": {
+    "fund_last": "2022-09-01",
+    "contacts": {}
+  },
+  "acton": {
+    "fund_last": "2026-07-30",
+    "contacts": {
+      "Julius Lühr": {
+        "last": "2026-07-30",
+        "mismatch": false
+      },
+      "Christoph Braun": {
+        "last": "2026-07-30",
+        "mismatch": false
+      }
+    }
+  },
+  "nap": {
+    "fund_last": "2025-09-12",
+    "contacts": {
+      "Stefan Walter": {
+        "last": "2024-09-13",
+        "mismatch": true
+      },
+      "Claude Ritter": {
+        "last": "2024-09-13",
+        "mismatch": true
+      }
+    }
+  },
+  "10x-founders": {
+    "fund_last": "2026-05-07",
+    "contacts": {
+      "Nico Schoenenberger": {
+        "last": "2026-05-07",
+        "mismatch": false
+      },
+      "Karim Jalbout": {
+        "last": "2025-10-24",
+        "mismatch": true
+      },
+      "Omar Hedeya": {
+        "last": "2025-08-28",
+        "mismatch": false
+      }
+    }
+  },
+  "dvh-ventures": {
+    "fund_last": "2026-01-23",
+    "contacts": {
+      "Duc Tran": {
+        "last": "2026-01-23",
+        "mismatch": false
+      },
+      "Charlotte Küppers": {
+        "last": "2025-03-12",
+        "mismatch": true
+      }
+    }
+  },
+  "commerzventures": {
+    "fund_last": "2026-05-22",
+    "contacts": {
+      "Andreas Ioannou": {
+        "last": "2026-07-31",
+        "mismatch": true
+      },
+      "Alexandre Moreillon": {
+        "last": "2026-01-15",
+        "mismatch": true
+      },
+      "Heiko Schwender": {
+        "last": "2026-05-22",
+        "mismatch": false
+      }
+    }
+  },
+  "vsquared": {
+    "fund_last": "2026-07-08",
+    "contacts": {
+      "Lise Rechsteiner": {
+        "last": "2026-07-08",
+        "mismatch": false
+      },
+      "Benedikt von Schoeler": {
+        "last": "2025-10-27",
+        "mismatch": false
+      },
+      "Michael Jobst": {
+        "last": "2024-06-26",
+        "mismatch": false
+      }
+    }
+  },
+  "burda": {
+    "fund_last": null,
+    "contacts": {
+      "Thomas Juvin": {
+        "last": "2025-12-02",
+        "mismatch": true
+      },
+      "Moro Francesco": {
+        "last": "2025-03-04",
+        "mismatch": true
+      },
+      "Otero Alejandra": {
+        "last": "2025-04-09",
+        "mismatch": true
+      }
+    }
+  },
+  "10x-group": {
+    "fund_last": "2026-03-03",
+    "contacts": {}
+  },
+  "alstin": {
+    "fund_last": "2026-07-15",
+    "contacts": {
+      "Andreas Schenk": {
+        "last": "2026-07-15",
+        "mismatch": false
+      },
+      "Lukas Bennemann": {
+        "last": "2026-03-11",
+        "mismatch": true
+      },
+      "Benjamin Kleinschnitz": {
+        "last": "2024-11-11",
+        "mismatch": true
+      }
+    }
+  },
+  "discovery-ventures": {
+    "fund_last": "2024-06-04",
+    "contacts": {
+      "Finn Weise": {
+        "last": "2024-06-04",
+        "mismatch": false
+      }
+    }
+  }
+}

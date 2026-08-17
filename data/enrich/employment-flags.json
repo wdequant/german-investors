@@ -1,0 +1,438 @@
+{
+  "germany": {
+    "10x-founders": {
+      "Nico Schoenenberger": {
+        "status": "current",
+        "now": null
+      },
+      "Karim Jalbout": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "1kx": {
+      "Diana Biggs": {
+        "status": "moved",
+        "now": "Nausicaa (Founder & Principal)"
+      },
+      "Lasse Clausen": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "468-capital": {
+      "Bardo Droege": {
+        "status": "current",
+        "now": null
+      },
+      "Bernhard Janke": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "acton": {
+      "Julius Lühr": {
+        "status": "current",
+        "now": null
+      },
+      "Christoph Braun": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "alstin": {
+      "Andreas Schenk": {
+        "status": "current",
+        "now": null
+      },
+      "Lukas Bennemann": {
+        "status": "moved",
+        "now": "Wunderland Capital (Founding Partner)"
+      }
+    },
+    "atlantic-labs": {
+      "Christophe Maire": {
+        "status": "unknown",
+        "now": null
+      },
+      "Sophie Rowe": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "bayern-kapital": {
+      "Bernd Schafberger": {
+        "status": "current",
+        "now": null
+      },
+      "Matthias Buchinger": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "blueyard": {
+      "Mike Wax": {
+        "status": "current",
+        "now": null
+      },
+      "Jason Whitmire": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "burda": {
+      "Thomas Juvin": {
+        "status": "current",
+        "now": null
+      },
+      "Moro Francesco": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "capnamic": {
+      "Christian Siegele": {
+        "status": "unknown",
+        "now": null
+      },
+      "Dorothea Gotthardt": {
+        "status": "moved",
+        "now": "QuantPi (COO)"
+      }
+    },
+    "cherry": {
+      "Alexander Schmitt": {
+        "status": "moved",
+        "now": "Lightspeed Venture Partners"
+      },
+      "Cherry Ventures": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "commerzventures": {
+      "Andreas Ioannou": {
+        "status": "unknown",
+        "now": null
+      },
+      "Alexandre Moreillon": {
+        "status": "moved",
+        "now": "FiveT Hydrogen AG (Investment Director)"
+      }
+    },
+    "discovery-ventures": {
+      "Finn Weise": {
+        "status": "moved",
+        "now": "Thrivo Wealth Partners (Geschäftsführer)"
+      },
+      "Jasper Masemann": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "dvh-ventures": {
+      "Duc Tran": {
+        "status": "current",
+        "now": null
+      },
+      "Charlotte Küppers": {
+        "status": "moved",
+        "now": "LOOSH (Co-Founder & CMO)"
+      }
+    },
+    "earlybird": {
+      "Moritz von Klot": {
+        "status": "moved",
+        "now": "Edmund (Investor)"
+      },
+      "Mehmet Atici": {
+        "status": "moved",
+        "now": "Bek Ventures (rebranded Earlybird Digital East Fund)"
+      }
+    },
+    "gfc": {
+      "Levin Bunz": {
+        "status": "moved",
+        "now": "Heartcore Capital (Partner)"
+      },
+      "Alexandre Charlet": {
+        "status": "moved",
+        "now": "Hedosophia (Partner)"
+      }
+    },
+    "htgf": {
+      "Ulrich Schmitt": {
+        "status": "current",
+        "now": null
+      },
+      "Niels Sharman": {
+        "status": "moved",
+        "now": "shiftingbio (Founder)"
+      }
+    },
+    "hv-capital": {
+      "Alexander Joel-Carbonell": {
+        "status": "moved",
+        "now": "AMI - Advanced Machine Intelligence (Co-Lead/Investor)"
+      },
+      "Christian Saller": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "ibb-ventures": {
+      "Clemens Kabel": {
+        "status": "unknown",
+        "now": null
+      },
+      "Markus Lehmann": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "nap": {
+      "Stefan Walter": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "picus": {
+      "Robin Godenrath": {
+        "status": "unknown",
+        "now": null
+      },
+      "Luis Antonio Zarate Serrano": {
+        "status": "moved",
+        "now": "Piana (Chief of Staff)"
+      }
+    },
+    "point-nine": {
+      "Puren Uçar": {
+        "status": "current",
+        "now": null
+      },
+      "Julia Morrongiello": {
+        "status": "moved",
+        "now": "BVNK (VP Corporate Development & Strategy)"
+      }
+    },
+    "project-a": {
+      "Florian Heinemann": {
+        "status": "unknown",
+        "now": null
+      },
+      "Marjorie Lengereau": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "redstone": {
+      "Moritz Gillmair": {
+        "status": "moved",
+        "now": "Waniwani (Investor)"
+      },
+      "Marco Stutz": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "uvc-partners": {
+      "Benjamin Erhart": {
+        "status": "unknown",
+        "now": null
+      },
+      "Andreas Unseld": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "vsquared": {
+      "Lise Rechsteiner": {
+        "status": "current",
+        "now": null
+      },
+      "Benedikt von Schoeler": {
+        "status": "current",
+        "now": null
+      }
+    }
+  },
+  "nordics": {
+    "alliance-vc": {
+      "Arne Tonning": {
+        "status": "unknown",
+        "now": null
+      },
+      "Johan Gjesdahl": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "antler": {
+      "David Spindler": {
+        "status": "unknown",
+        "now": null
+      },
+      "Rita Cherradi": {
+        "status": "moved",
+        "now": "Sie Ventures (Investor)"
+      }
+    },
+    "byfounders": {
+      "Johan Jessen": {
+        "status": "current",
+        "now": null
+      },
+      "Eric Lagier": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "creandum": {
+      "Simon Schmincke": {
+        "status": "current",
+        "now": null
+      },
+      "Ellen Lee": {
+        "status": "moved",
+        "now": "Modal (Marketing/Growth)"
+      }
+    },
+    "eqt-ventures": {
+      "Kaushik Subramanian": {
+        "status": "unknown",
+        "now": null
+      },
+      "Nitya Hinduja": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "icebreaker": {
+      "Mikko Suonenlahti": {
+        "status": "unknown",
+        "now": null
+      },
+      "Tunde Adekeye": {
+        "status": "moved",
+        "now": "Novee (Chief of Staff)"
+      }
+    },
+    "industrifonden": {
+      "Caroline Wadstein": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "innovestor": {
+      "Tuomas Rekonen": {
+        "status": "moved",
+        "now": "Endeit Capital"
+      }
+    },
+    "inventure": {
+      "Tatiana Shalalvand": {
+        "status": "moved",
+        "now": "Kinnevik (Venture Investor)"
+      },
+      "Linus Dahg": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "investinor": {
+      "Johan Gjesdahl": {
+        "status": "moved",
+        "now": "Alliance Venture (Managing Partner)"
+      }
+    },
+    "j12": {
+      "Caroline Hultman": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "lifeline": {
+      "Petteri Koponen": {
+        "status": "unknown",
+        "now": null
+      },
+      "Timo Ahopelto": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "luminar": {
+      "Eira Tobrand": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "maki": {
+      "Ella Eskelinen": {
+        "status": "moved",
+        "now": "Verda (Chief of Staff)"
+      }
+    },
+    "norrsken": {
+      "Alexander Danielsson": {
+        "status": "current",
+        "now": null
+      },
+      "Cecilia Ma": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "northzone": {
+      "Gareth Jefferies": {
+        "status": "moved",
+        "now": "RTP Global (Partner)"
+      },
+      "Kilian Pender": {
+        "status": "moved",
+        "now": "Birchway (Founding Partner)"
+      }
+    },
+    "seed-capital": {
+      "Tine Marie Kjærgaard Lindgreen": {
+        "status": "unknown",
+        "now": null
+      },
+      "Peter Egehoved": {
+        "status": "moved",
+        "now": "Dreamdata (CFO/COO)"
+      }
+    },
+    "skyfall": {
+      "Cecilie Skjong": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "spintop": {
+      "Moa Kronborg": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "startuplab": {
+      "Iris Auran": {
+        "status": "current",
+        "now": null
+      }
+    },
+    "sting": {
+      "Charlotte Ekelund": {
+        "status": "unknown",
+        "now": null
+      }
+    },
+    "superhero": {
+      "Moaffak Ahmed": {
+        "status": "moved",
+        "now": "Independent investor (former Founding Partner, Superhero Capital)"
+      }
+    }
+  }
+}

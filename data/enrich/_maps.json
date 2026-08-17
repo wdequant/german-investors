@@ -1,0 +1,374 @@
+{
+ "germany_funds": {
+  "gfc": {
+   "urn": "urn:harmonic:investor:131890",
+   "company_id": 2139534,
+   "name": "Global Founders Capital"
+  },
+  "htgf": {
+   "urn": "urn:harmonic:investor:133306",
+   "company_id": 2161881,
+   "name": "HTGF | High-Tech Gründerfonds"
+  },
+  "hv-capital": {
+   "urn": "urn:harmonic:investor:157899",
+   "company_id": 682285,
+   "name": "HV Capital"
+  },
+  "earlybird": {
+   "urn": "urn:harmonic:investor:121064",
+   "company_id": 2141065,
+   "name": "Earlybird Venture Capital"
+  },
+  "point-nine": {
+   "urn": "urn:harmonic:investor:199053",
+   "company_id": 615787,
+   "name": "Point Nine"
+  },
+  "468-capital": {
+   "urn": "urn:harmonic:investor:225907",
+   "company_id": 1725304,
+   "name": "468 Capital"
+  },
+  "picus": {
+   "urn": "urn:harmonic:investor:217558",
+   "company_id": 745517,
+   "name": "Picus Capital"
+  },
+  "cherry": {
+   "urn": "urn:harmonic:investor:228370",
+   "company_id": 630007,
+   "name": "Cherry Ventures"
+  },
+  "bayern-kapital": {
+   "urn": "urn:harmonic:investor:165163",
+   "company_id": 1500931,
+   "name": "Bayern Kapital"
+  },
+  "project-a": {
+   "urn": "urn:harmonic:investor:201430",
+   "company_id": 428325,
+   "name": "Project A"
+  },
+  "ibb-ventures": {
+   "urn": "urn:harmonic:investor:171491",
+   "company_id": 636772,
+   "name": "IBB Ventures"
+  },
+  "atlantic-labs": {
+   "urn": "urn:harmonic:investor:134249",
+   "company_id": 1497092,
+   "name": "Atlantic Labs"
+  },
+  "1kx": {
+   "urn": "urn:harmonic:investor:230004",
+   "company_id": 2140682,
+   "name": "1kx"
+  },
+  "ta-ventures": {
+   "urn": "urn:harmonic:investor:157091",
+   "company_id": 668371,
+   "name": "TA Ventures"
+  },
+  "redstone": {
+   "urn": "urn:harmonic:investor:208196",
+   "company_id": 1575902,
+   "name": "Redstone"
+  },
+  "bosch-ventures": {
+   "urn": "urn:harmonic:investor:130466",
+   "company_id": 10002134,
+   "name": "Bosch Ventures"
+  },
+  "blueyard": {
+   "urn": "urn:harmonic:investor:131396",
+   "company_id": 25692,
+   "name": "BlueYard Capital"
+  },
+  "possible-ventures": {
+   "urn": "urn:harmonic:investor:169728",
+   "company_id": 3488819,
+   "name": "Possible Ventures"
+  },
+  "capnamic": {
+   "urn": "urn:harmonic:investor:228365",
+   "company_id": 692191,
+   "name": "Capnamic"
+  },
+  "uvc-partners": {
+   "urn": "urn:harmonic:investor:164975",
+   "company_id": 675207,
+   "name": "UVC Partners"
+  },
+  "mig-capital": {
+   "urn": "urn:harmonic:investor:194546",
+   "company_id": 1504831,
+   "name": "MIG Capital"
+  },
+  "acton": {
+   "urn": "urn:harmonic:investor:165740",
+   "company_id": 717928,
+   "name": "Acton Capital"
+  },
+  "nap": {
+   "urn": "urn:harmonic:investor:330804",
+   "company_id": 59625284,
+   "name": "NAP (New Amsterdam Partners)"
+  },
+  "10x-founders": {
+   "urn": "urn:harmonic:investor:220500",
+   "company_id": 10315251,
+   "name": "10x Founders"
+  },
+  "dvh-ventures": {
+   "urn": "urn:harmonic:investor:165531",
+   "company_id": 1504865,
+   "name": "Dieter von Holtzbrinck Ventures"
+  },
+  "commerzventures": {
+   "urn": "urn:harmonic:investor:238928",
+   "company_id": 3402936,
+   "name": "CommerzVentures"
+  },
+  "vsquared": {
+   "urn": "urn:harmonic:investor:211595",
+   "company_id": 1499374,
+   "name": "Vsquared Ventures"
+  },
+  "burda": {
+   "urn": "urn:harmonic:investor:235168",
+   "company_id": 1490180,
+   "name": "Burda Principal Investments"
+  },
+  "10x-group": {
+   "urn": "urn:harmonic:investor:214532",
+   "company_id": 1498944,
+   "name": "10x Group"
+  },
+  "alstin": {
+   "urn": "urn:harmonic:investor:239499",
+   "company_id": 1522640,
+   "name": "Alstin Capital"
+  },
+  "discovery-ventures": {
+   "urn": "urn:harmonic:investor:171606",
+   "company_id": 4039341,
+   "name": "Discovery Ventures"
+  }
+ },
+ "nordics_funds": {
+  "almi": {
+   "urn": "urn:harmonic:investor:141815",
+   "company_id": 8867828,
+   "name": "Almi"
+  },
+  "antler": {
+   "urn": "urn:harmonic:investor:217016",
+   "company_id": 518845,
+   "name": "Antler"
+  },
+  "northzone": {
+   "urn": "urn:harmonic:investor:225739",
+   "company_id": 761875,
+   "name": "Northzone"
+  },
+  "creandum": {
+   "urn": "urn:harmonic:investor:177998",
+   "company_id": 639148,
+   "name": "Creandum"
+  },
+  "lifeline": {
+   "urn": "urn:harmonic:investor:205046",
+   "company_id": 760662,
+   "name": "Lifeline Ventures"
+  },
+  "industrifonden": {
+   "urn": "urn:harmonic:investor:210359",
+   "company_id": 1498533,
+   "name": "Industrifonden"
+  },
+  "seed-capital": {
+   "urn": "urn:harmonic:investor:185987",
+   "company_id": 656212,
+   "name": "Seed Capital"
+  },
+  "psv": {
+   "urn": "urn:harmonic:investor:200528",
+   "company_id": 654814,
+   "name": "PSV"
+  },
+  "inventure": {
+   "urn": "urn:harmonic:investor:127382",
+   "company_id": 709515,
+   "name": "Inventure"
+  },
+  "eqt-ventures": {
+   "urn": "urn:harmonic:investor:174217",
+   "company_id": 673870,
+   "name": "EQT Ventures"
+  },
+  "sting": {
+   "urn": "urn:harmonic:investor:132202",
+   "company_id": 4432524,
+   "name": "Sting"
+  },
+  "investinor": {
+   "urn": "urn:harmonic:investor:120738",
+   "company_id": 1509068,
+   "name": "Investinor"
+  },
+  "icebreaker": {
+   "urn": "urn:harmonic:investor:167687",
+   "company_id": 1515630,
+   "name": "Icebreaker.vc"
+  },
+  "startuplab": {
+   "urn": "urn:harmonic:investor:181135",
+   "company_id": 10664625,
+   "name": "Startuplab"
+  },
+  "innovestor": {
+   "urn": "urn:harmonic:investor:207005",
+   "company_id": 3090429,
+   "name": "Innovestor"
+  },
+  "alliance-vc": {
+   "urn": "urn:harmonic:investor:180928",
+   "company_id": 766862,
+   "name": "Alliance VC"
+  },
+  "norrsken": {
+   "urn": "urn:harmonic:investor:119417",
+   "company_id": 700289,
+   "name": "Norrsken"
+  },
+  "byfounders": {
+   "urn": "urn:harmonic:investor:199852",
+   "company_id": 716306,
+   "name": "byFounders"
+  },
+  "almi-invest": {
+   "urn": "urn:harmonic:investor:324727",
+   "company_id": 60099356,
+   "name": "Almi Invest"
+  },
+  "accelerace": {
+   "urn": "urn:harmonic:investor:152362",
+   "company_id": 1504301,
+   "name": "Accelerace"
+  },
+  "maki": {
+   "urn": "urn:harmonic:investor:211297",
+   "company_id": 2171405,
+   "name": "Maki.vc"
+  },
+  "spintop": {
+   "urn": "urn:harmonic:investor:226294",
+   "company_id": 1502692,
+   "name": "Spintop Ventures"
+  },
+  "luminar": {
+   "urn": "urn:harmonic:investor:133924",
+   "company_id": 757993,
+   "name": "Luminar Ventures"
+  },
+  "gorilla": {
+   "urn": "urn:harmonic:investor:141409",
+   "company_id": 34452573,
+   "name": "Gorilla Capital"
+  },
+  "first-fellow": {
+   "urn": "urn:harmonic:investor:224619",
+   "company_id": 1504842,
+   "name": "First Fellow Partners"
+  },
+  "voima": {
+   "urn": "urn:harmonic:investor:141397",
+   "company_id": 757956,
+   "name": "Voima Ventures"
+  },
+  "superhero": {
+   "urn": "urn:harmonic:investor:176272",
+   "company_id": 1497318,
+   "name": "Superhero Capital"
+  },
+  "skyfall": {
+   "urn": "urn:harmonic:investor:156983",
+   "company_id": 1541191,
+   "name": "Skyfall Ventures"
+  },
+  "j12": {
+   "urn": "urn:harmonic:investor:150561",
+   "company_id": 708608,
+   "name": "J12"
+  }
+ },
+ "nordics_angels": {
+  "ilkka-paananen": {
+   "urn": "urn:harmonic:investor:11",
+   "name": "Ilkka Paananen"
+  },
+  "cristina-stenbeck": {
+   "urn": "urn:harmonic:investor:3588",
+   "name": "Cristina Stenbeck"
+  },
+  "ali-omar": {
+   "urn": "urn:harmonic:investor:26951",
+   "name": "Ali Omar"
+  },
+  "charlie-songhurst": {
+   "urn": "urn:harmonic:investor:5748",
+   "name": "Charlie Songhurst"
+  },
+  "sophia-bendz": {
+   "urn": "urn:harmonic:investor:44112",
+   "name": "Sophia Bendz"
+  },
+  "mattias-miksche": {
+   "urn": "urn:harmonic:investor:40204",
+   "name": "Mattias Miksche"
+  },
+  "david-helgason": {
+   "urn": "urn:harmonic:investor:57382",
+   "name": "David Helgason"
+  },
+  "hampus-jakobsson": {
+   "urn": "urn:harmonic:investor:23263",
+   "name": "Hampus Jakobsson"
+  },
+  "risto-siilasmaa": {
+   "urn": "urn:harmonic:investor:30552",
+   "name": "Risto Siilasmaa"
+  },
+  "sebastian-knutsson": {
+   "urn": "urn:harmonic:investor:56096",
+   "name": "Sebastian Knutsson"
+  }
+ },
+ "germany_angels": {
+  "mario-goetze": {
+   "urn": "urn:harmonic:investor:21701",
+   "name": "Mario Götze"
+  },
+  "hanno-renner": {
+   "urn": "urn:harmonic:investor:2865",
+   "name": "Hanno Renner"
+  },
+  "julius-goellner": {
+   "urn": "urn:harmonic:investor:248078",
+   "name": "Julius Göllner"
+  },
+  "matthias-hilpert": {
+   "urn": "urn:harmonic:investor:39935",
+   "name": "Matthias Hilpert"
+  },
+  "christian-vollmann": {
+   "urn": "urn:harmonic:investor:36046",
+   "name": "Christian Vollmann"
+  },
+  "christian-reber": {
+   "urn": "urn:harmonic:investor:226388",
+   "name": "Christian Reber (Interface Capital)"
+  }
+ }
+}

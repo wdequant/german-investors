@@ -1,4 +1,4 @@
-# Multi-region coverage map template. Consumed by build_coverage.py.
+# Multi-region coverage map template v5. Consumed by build_coverage.py.
 
 TEMPLATE = r"""<title>Ecosystem Coverage Map</title>
 <style>
@@ -23,50 +23,58 @@ html{scroll-behavior:smooth}
 body{background:var(--page);color:var(--ink);
   font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding-bottom:110px}
 .appbar{position:sticky;top:0;z-index:20;background:var(--page);border-bottom:1px solid var(--hair)}
-.appbar .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:14px 28px}
+.appbar .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:12px 28px;flex-wrap:wrap}
 .brand{font-weight:650;font-size:15px;letter-spacing:-.01em;white-space:nowrap}
-.brand small{color:var(--muted);font-weight:500;margin-left:8px;letter-spacing:.1em;text-transform:uppercase;font-size:10px}
 .seg{display:flex;border:1px solid var(--hair);border-radius:8px;overflow:hidden}
 .seg button{background:var(--surface);color:var(--ink2);border:0;padding:7px 14px;font-size:13px;cursor:pointer;font-weight:550}
 .seg button.on{background:var(--ink);color:var(--surface)}
-.appbar select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;padding:7px 10px;font-size:13px;max-width:190px}
-.appbar input[type=search]{flex:0 1 260px;margin-left:auto;background:var(--surface);color:var(--ink);
+.appbar select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;padding:7px 10px;font-size:13px;max-width:180px}
+.appbar input[type=search]{flex:0 1 220px;margin-left:auto;background:var(--surface);color:var(--ink);
   border:1px solid var(--hair);border-radius:8px;padding:7px 12px;font-size:13px}
 .btn{background:var(--ink);color:var(--page);border:0;border-radius:8px;padding:8px 14px;font-size:12.5px;
   font-weight:600;cursor:pointer;white-space:nowrap}
 .btn:hover{opacity:.88}
 .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
-.hero{padding:44px 0 6px}
+.hero{padding:38px 0 4px}
 .kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
-h1{font-size:34px;font-weight:650;letter-spacing:-.022em;text-wrap:balance}
-.sub{color:var(--ink2);margin-top:12px;max-width:70ch;font-size:14.5px}
-.score{display:flex;margin:34px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
-.score .s{flex:1;padding:18px 22px 16px;border-left:1px solid var(--hair)}
+h1{font-size:32px;font-weight:650;letter-spacing:-.022em;text-wrap:balance}
+.sub{color:var(--ink2);margin-top:10px;max-width:74ch;font-size:14px}
+.score{display:flex;margin:28px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.score .s{flex:1;padding:16px 20px 14px;border-left:1px solid var(--hair)}
 .score .s:first-child{border-left:0;padding-left:2px}
-.score b{display:block;font-size:30px;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-.02em;line-height:1.1}
-.score span{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em}
+.score b{display:block;font-size:28px;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-.02em;line-height:1.1}
+.score span{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.1em}
 .score .s.crit b{color:var(--gap-ink)} .score .s.warn b{color:var(--thin-ink)}
-.sechead{margin:44px 0 4px;display:flex;align-items:baseline;gap:14px}
+.filters{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0 4px;font-size:12px}
+.fchip{border:1px solid var(--hair);background:var(--surface);color:var(--ink2);border-radius:14px;
+  padding:4px 12px;font-size:12px;cursor:pointer;font-weight:550}
+.fchip.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink)}
+.filters .lbl{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:10px;margin-left:6px}
+.sechead{margin:40px 0 4px;display:flex;align-items:baseline;gap:14px}
 .sechead h2{font-size:13px;font-weight:650;text-transform:uppercase;letter-spacing:.12em}
 .sechead p{font-size:12.5px;color:var(--muted)}
 table{border-collapse:collapse;width:100%}
-thead th{position:sticky;top:57px;z-index:5;background:var(--page);text-align:left;
+thead th{position:sticky;top:53px;z-index:5;background:var(--page);text-align:left;
   font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600;
-  padding:14px 12px 10px;border-bottom:1px solid var(--ink);cursor:pointer;user-select:none;white-space:nowrap}
-thead th:hover{color:var(--ink)}
-thead th.on{color:var(--ink)}
-thead th.on::after{content:" ↓";color:var(--accent-ink)}
-tbody td{padding:14px 12px;border-bottom:1px solid var(--hair);vertical-align:middle}
+  padding:14px 12px 10px;border-bottom:1px solid var(--ink);white-space:nowrap}
+thead th.sortable{cursor:pointer;user-select:none}
+thead th.sortable:hover{color:var(--ink)}
+thead th.on{color:var(--ink)} thead th.on::after{content:" ↓";color:var(--accent-ink)}
+tbody td{padding:13px 12px;border-bottom:1px solid var(--hair);vertical-align:middle}
 tbody tr.mainrow{cursor:pointer}
 tbody tr.mainrow:hover td{background:var(--hair2)}
+tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .fname{font-weight:620;font-size:14.5px;letter-spacing:-.005em;display:flex;align-items:center;gap:8px}
 .fname .tdot{width:8px;height:8px;border-radius:50%;flex:none}
+.fname a{color:inherit;text-decoration:none}
+.fname a:hover{text-decoration:underline}
 .fname.strong{color:var(--covered-ink)} .fname.strong .tdot{background:var(--covered)}
 .fname.medium{color:var(--thin-ink)} .fname.medium .tdot{background:var(--thin)}
 .fname.weak{color:var(--gap-ink)} .fname.weak .tdot{background:var(--gap)}
 .fmeta{font-size:11.5px;color:var(--muted);margin-top:3px;padding-left:16px;display:flex;gap:8px;flex-wrap:wrap}
 .badge{font-size:10px;border-radius:9px;padding:1px 7px;background:var(--hair2);color:var(--ink2);white-space:nowrap;letter-spacing:.03em}
 .badge.co{color:var(--covered-ink);border:1px solid var(--covered);background:transparent}
+.badge.unt{color:var(--accent-ink);border:1px solid var(--accent);background:transparent}
 .covcell{display:flex;align-items:center;gap:10px;font-variant-numeric:tabular-nums}
 .covcell svg{flex:none}
 .covcell b{font-size:16px;font-weight:650}
@@ -84,16 +92,19 @@ tbody tr.mainrow:hover td{background:var(--hair2)}
 .chip.lead{background:var(--c-lead);color:var(--c-lead-ink)}
 .chip.hard{background:var(--c-hard);color:var(--c-hard-ink)}
 .chip:hover{border-color:currentColor}
-.chip.empty{opacity:.32;cursor:default}
-.chip.empty:hover{border-color:transparent}
 .pts{font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:3px;min-width:220px}
 .pts .pt b{color:var(--ink);font-weight:570}
 .pts .via{color:var(--muted)}
 .pts a{color:var(--accent-ink);text-decoration:none}
 .pts a:hover{text-decoration:underline}
-.pts .dorm{color:var(--thin-ink)}
-.pts .dorm b{color:var(--thin-ink)}
+.pts .when{color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.pts .pt.stale{opacity:.55}
+.pts .pt.stale .when{color:var(--thin-ink)}
+.pts .dorm{color:var(--thin-ink)} .pts .dorm b{color:var(--thin-ink)}
+.pts .askx{color:var(--muted);font-style:italic}
+.pts .askx b{color:var(--ink2)}
 .pts .pct{font-variant-numeric:tabular-nums;color:var(--covered-ink);font-weight:650;font-size:11.5px}
+.flag{color:var(--gap-ink);font-size:10.5px;cursor:help}
 tr.detailrow{display:none}
 tr.detailrow.open{display:table-row}
 tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2px solid var(--ink)}
@@ -104,67 +115,99 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 .plist a{color:var(--accent-ink);text-decoration:none;font-weight:550}
 .plist a:hover{text-decoration:underline}
 .plist .st{display:inline-block;min-width:112px;margin-right:8px;font-size:11px;color:var(--muted)}
+.plist .cc{color:var(--muted);font-size:10.5px}
+.plist .offr{opacity:.5}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
 .tmcols h6{font-size:12.5px;color:var(--accent-ink);margin-bottom:5px}
 .tmcols div{font-size:12px;color:var(--ink2);padding:1.5px 0}
 .tmcols .t{color:var(--muted)}
 .tmcols a{color:var(--accent-ink);text-decoration:none}
+.actionrow{margin-top:6px;display:flex;gap:10px}
+.minibtn{border:1px solid var(--hair);background:var(--raise);color:var(--ink2);border-radius:7px;
+  padding:4px 10px;font-size:11.5px;cursor:pointer;text-decoration:none;font-weight:550}
+.minibtn:hover{border-color:var(--accent);color:var(--accent-ink)}
 .note{font-size:12.5px;color:var(--muted);margin-top:48px;max-width:88ch;line-height:1.65;
   border-top:1px solid var(--hair);padding-top:18px}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--page);
   border-radius:8px;padding:10px 18px;font-size:13px;display:none;z-index:40}
-@media (max-width:900px){ .chips{max-width:none} thead{display:none}
-  tbody tr.mainrow{display:grid;grid-template-columns:1fr auto;padding:10px 0}
-  tbody td{border:0;padding:6px 10px} tbody tr.mainrow{border-bottom:1px solid var(--hair)} }
+.htc-inv{display:flex;flex-direction:column;gap:2px;font-size:12px}
+.htc-inv .nm{font-weight:570}
+.htc-inv .nm.strong{color:var(--covered-ink)} .htc-inv .nm.medium{color:var(--thin-ink)} .htc-inv .nm.weak{color:var(--gap-ink)}
+@media (max-width:900px){
+  thead{display:none}
+  tbody tr.mainrow{display:block;padding:12px 4px;border-bottom:1px solid var(--hair)}
+  tbody tr.mainrow td{display:block;border:0;padding:4px 6px}
+  tbody tr.mainrow td:nth-child(2){display:inline-block}
+  tbody tr.mainrow td:nth-child(3){display:inline-block}
+  .chips{max-width:none}
+  .score{flex-wrap:wrap} .score .s{min-width:45%}
+  .appbar input[type=search]{flex:1 1 100%;margin-left:0;order:9}
+}
 </style>
 
 <div class="appbar"><div class="in">
   <span class="brand">Coverage</span>
   <div class="seg" id="regionseg"></div>
+  <div class="seg" id="viewseg">
+    <button data-v="funds" class="on">Investors</button><button data-v="htc">Hard to crack</button>
+  </div>
   <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
-  <input type="search" id="q" placeholder="Filter funds & angels…">
+  <input type="search" id="q" placeholder="Filter…">
   <button class="btn" id="export" hidden>Export CSV</button>
 </div></div>
 
 <div class="wrap">
 <div class="hero">
-  <div class="kicker">Highland Europe · relationship intelligence · __GENERATED__</div>
+  <div class="kicker" id="kick">Highland Europe · relationship intelligence · __GENERATED__</div>
   <h1 id="pagetitle"></h1>
-  <p class="sub"><span id="subcount"></span> Coverage blends the team's Harmonic
-  network with Affinity relationships across the whole partnership. Names are coloured by coverage —
-  <b style="color:var(--covered-ink)">covered</b>, <b style="color:var(--thin-ink)">thin</b>,
-  <b style="color:var(--gap-ink)">gap</b>. Funnel chips show where each investor's portfolio sits in our
-  pipeline; click a row for the full dossier.</p>
+  <p class="sub"><span id="subcount"></span> Coverage blends the team's Harmonic network with Affinity
+  relationships across the whole partnership, decayed by recency — a path untouched for over a year fades.
+  Names are coloured by coverage: <b style="color:var(--covered-ink)">covered</b>,
+  <b style="color:var(--thin-ink)">thin</b>, <b style="color:var(--gap-ink)">gap</b>.
+  Click a fund row for the dossier; use <b>View as</b> to see it through one person's relationships.</p>
 </div>
 
 <div class="score" id="score"></div>
 
-<div class="sechead"><h2>Funds</h2><p>click column headers to sort · click a row for detail</p></div>
+<div id="fundsview">
+<div class="filters" id="filters"></div>
+<div class="sechead"><h2>Funds</h2><p id="fundhint">sort via column headers · click a row for detail</p></div>
 <table id="fundtable"></table>
-
-<div class="sechead"><h2>Super-angels</h2><p>coverage is Affinity-led — Harmonic barely sees angels</p></div>
+<div class="sechead"><h2>Super-angels</h2><p>vital upstream nodes — ranked by their own relevance blend</p></div>
 <table id="angeltable"></table>
+</div>
 
-<p class="note"><b>Method.</b> Universe: top 30 of the 74-investor Harmonic saved search by
-½·investments + ½·unicorns (normalised), plus Alstin (added manually) and nine angels resolved in
-Harmonic. Relevance = stage fit 25 · sector fit 25 · Europe portfolio share 20 · activity 15 · graduation 15. Coverage = 55%
-Harmonic team-network (contact seniority × email/calendar evidence) + 45% Affinity partnership
-relationships (incl. Laurence, Fergal, Ronan). Pipeline chips = companies in the Highland Companies
-list whose investor set includes the fund or its vehicles; Lead includes Qualified Lead and Deal; passed and deprioritised companies are excluded throughout. Dormant ties (⏱) are real interaction histories whose Affinity score has decayed to zero — they floor the coverage score and are shown as re-warmable paths. Percentages are Affinity interaction scores; names
-link to LinkedIn, companies to Affinity. Angel pipeline matching includes known vehicles
-(Companion-M, Interface Capital, MH2) — Affinity's investor enrichment still under-captures angel
-tickets, so treat angel overlap as a floor.</p>
+<div id="htcview" style="display:none">
+<div class="sechead"><h2>Hard to crack — reachable via mapped investors</h2><p id="htchint"></p></div>
+<table id="htctable"></table>
+</div>
+
+<p class="note" id="method"><b>Method.</b> Relevance (funds) = stage fit 25 · sector fit 25 · Europe share 20 ·
+activity 15 · graduation 15. Relevance (angels) = deal velocity + unicorns + syndication with covered funds +
+presence on our pipeline cap tables. Coverage = 55% Harmonic team-network + 45% Affinity partnership
+relationships (incl. Laurence, Fergal, Ronan), multiplied by a recency decay (≤6m ×1.0 · ≤1y ×0.9 · ≤2y ×0.5 ·
+older ×0.3); dormant ties floor the score and show as ⏱ re-warmable paths. Pipeline chips = companies on the
+Highland Companies list backed by the investor (Lead includes Qualified Lead and Deal; passed/deprioritised
+excluded). “Untracked” = their post-Feb-2025 European deals absent from our pipeline list. ⚠ marks a contact
+who appears to have left the fund. For a full meeting brief, ask Claude: “prep my meeting with [fund]”.
+<span id="fresh"></span></p>
 </div>
 <div class="toast" id="toast"></div>
 
 <script>
 const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
-let region = REGIONS[0];
-const E = () => D.regions[region].entities;
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
-const state = {sort:"gap", q:"", person:""};
+const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
+const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:""};
+const E = () => D.regions[state.region].entities;
+const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
+const pipeCount = e => BUCKETS.reduce((m,[k])=>m+e.buckets[k].length,0);
+const fmtD = s => s ? new Date(s).toLocaleDateString('en-GB',{month:'short',year:'2-digit'}) : null;
+const isStale = s => !s || (Date.now()-new Date(s).getTime()) > 365*864e5;
+
+// ---------- personal mode ----------
 function personSignal(e, name){
   const p = (e.top_people||[]).find(x=>x.name===name);
   const dorm = e.dormant && e.dormant.internal.includes(name) ? e.dormant : null;
@@ -172,7 +215,7 @@ function personSignal(e, name){
 }
 function personCov(e, name){
   const s = personSignal(e, name);
-  let a = s.aff;
+  let a = s.aff * (e.cov_parts ? e.cov_parts.decay : 1);
   if(s.dorm){ const age = 2026 - parseInt(s.dorm.last.slice(0,4));
     a = Math.max(a, age<=1?0.22:age<=3?0.15:age<=6?0.10:0.06); }
   const hn = Math.min(1, Math.sqrt(s.h)/Math.sqrt(30));
@@ -185,9 +228,6 @@ function eff(e){
   const gap = Math.round((e.relevance?e.relevance.total:0)*(1-cov/100));
   return {cov, tier, gap, sig: personSignal(e, state.person)};
 }
-const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
-const pipeCount = e => BUCKETS.reduce((m,[k])=>m+e.buckets[k].length,0);
-const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
 
 function ring(v, tier){
   const r=13, c=2*Math.PI*r, o=c*(1-v/100);
@@ -202,65 +242,96 @@ function scoreboard(){
   const f = E().filter(e=>e.kind==='fund');
   const gaps = f.filter(e=>eff(e).tier==='weak' && e.relevance.total>=60);
   const live = E().reduce((n,e)=>n+pipeCount(e),0);
-  const hard = E().reduce((n,e)=>n+e.buckets.hard.length,0);
-  const co = f.filter(e=>e.coinvest.length).length;
+  const hard = D.regions[state.region].htc.length;
+  const unt = f.reduce((n,e)=>n+((e.untracked||[]).length),0);
   document.getElementById('score').innerHTML = `
     <div class="s"><b>${f.length}+${E().length-f.length}</b><span>funds + angels</span></div>
-    <div class="s"><b>${co}</b><span>co-invested with</span></div>
+    <div class="s"><b>${f.filter(e=>e.coinvest.length).length}</b><span>co-invested with</span></div>
     <div class="s"><b>${live}</b><span>live pipeline overlaps</span></div>
     <div class="s warn"><b>${hard}</b><span>hard-to-cracks reachable</span></div>
+    <div class="s warn"><b>${unt}</b><span>untracked recent EU deals</span></div>
     <div class="s crit"><b>${gaps.length}</b><span>${state.person?'uncovered by '+state.person.split(' ')[0]:'relevant funds uncovered'}</span></div>`;
 }
 
+// ---------- filters ----------
+function filtersHTML(){
+  const ccs = [...new Set(E().filter(e=>e.kind==='fund').map(e=>(e.city||'').split('·').pop().trim()).filter(Boolean))].sort();
+  const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
+  let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
+  if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
+  h += `<span class="lbl">Sort</span><button class="fchip${state.sort==='gap'?' on':''}" data-sort="gap">Biggest gaps</button>`;
+  document.getElementById('filters').innerHTML = h;
+  document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
+    if(b.dataset.cat!==undefined) state.cat = state.cat===b.dataset.cat?'':b.dataset.cat;
+    if(b.dataset.cc!==undefined) state.cc = state.cc===b.dataset.cc?'':b.dataset.cc;
+    if(b.dataset.sort) state.sort='gap';
+    render();
+  }));
+}
+
 const COLS = [
-  {k:"name", label:"Investor", sort:(a,b)=>a.name.localeCompare(b.name)},
-  {k:"connectivity", label:"Coverage", sort:(a,b)=>eff(b).cov-eff(a).cov},
-  {k:"relevance", label:"Relevance", sort:(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)},
-  {k:"pipeline", label:"Pipeline overlap", sort:(a,b)=>pipeCount(b)-pipeCount(a)},
-  {k:"gap", label:"Strongest paths in", sort:(a,b)=>(eff(b).gap||0)-(eff(a).gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
+  {k:"name", label:"Investor", sortable:true, sort:(a,b)=>a.name.localeCompare(b.name)},
+  {k:"connectivity", label:"Coverage", sortable:true, sort:(a,b)=>eff(b).cov-eff(a).cov},
+  {k:"relevance", label:"Relevance", sortable:true, sort:(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)},
+  {k:"pipeline", label:"Pipeline overlap", sortable:true, sort:(a,b)=>pipeCount(b)-pipeCount(a)},
+  {k:"gap", label:"Strongest paths in", sortable:false, sort:(a,b)=>(eff(b).gap||0)-(eff(a).gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
 ];
 function headHTML(){
-  return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
+  return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
 }
 function chipHTML(e){
   return BUCKETS.map(([k,label])=>{
     const n = e.buckets[k].length;
-    return `<span class="chip ${k}${n?'':' empty'}" data-k="${k}"><b>${n}</b> ${label}</span>`;
-  }).join('');
+    return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
+  }).join('') || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
+}
+function pathLine(p){
+  const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
+  const pct = p.pct!=null?` <span class="pct">${p.pct}%</span>`:'';
+  const when = p.last?` <span class="when">· ${fmtD(p.last)}</span>`:'';
+  const moved = p.moved?` <span class="flag" title="appears to have moved to ${p.moved}">⚠</span>`:'';
+  const stale = p.last && isStale(p.last) ? ' stale' : '';
+  return `<span class="pt${stale}">${nm} <span class="via">↔ ${p.internal}</span>${pct}${when}${moved}</span>`;
 }
 function ptsHTML(e){
+  const v = eff(e);
   if(state.person){
-    const s = personSignal(e, state.person);
+    const s = v.sig;
     const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
-    if(!s.contacts.length && !dormP) return `<div class="pts"><span style="color:var(--muted)">No personal coverage</span></div>`;
-    return `<div class="pts">`+s.contacts.map(k=>{
+    let mine = s.contacts.map(k=>{
       const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener"><b>${k.person}</b></a>`:`<b>${k.person}</b>`;
       const extra = k.pct!=null?` <span class="pct">${k.pct}%</span>`:(k.title?` <span class="via">· ${k.title}</span>`:'');
-      return `<span class="pt">${nm}${extra}</span>`;
-    }).join('')+dormP+`</div>`;
+      const when = k.last?` <span class="when">· ${fmtD(k.last)}</span>`:'';
+      return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
+    }).join('')+dormP;
+    if(!mine){
+      const best = e.points && e.points[0];
+      mine = best ? `<span class="askx">ask <b>${best.internal}</b> (${best.external}${best.pct!=null?' · '+best.pct+'%':''})</span>`
+                  : `<span style="color:var(--muted)">no team path either</span>`;
+    }
+    return `<div class="pts">${mine}</div>`;
   }
-  const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · last touch ${e.dormant.last}</span></span>` : '';
+  const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>` : '';
   if(!e.points.length && !dorm) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
-  if(!e.points.length) return `<div class="pts">${dorm}</div>`;
-  return `<div class="pts">`+e.points.map(p=>{
-    const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
-    const pct = p.pct!=null?` <span class="pct">${p.pct}%</span>`:'';
-    return `<span class="pt">${nm} <span class="via">↔ ${p.internal}</span>${pct}</span>`;
-  }).join('')+(e.dormant?`<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>`:'')+`</div>`;
+  return `<div class="pts">`+e.points.map(pathLine).join('')+dorm+`</div>`;
 }
 function rowHTML(e){
   const v = eff(e);
   const rel = e.relevance? e.relevance.total : null;
   const co = e.coinvest.length?`<span class="badge co">✓ co-invested ×${e.coinvest.length}</span>`:'';
+  const unt = (e.untracked||[]).length?`<span class="badge unt">${e.untracked.length} untracked EU deals</span>`:'';
+  const lastT = e.fund_last?`<span>last touch ${fmtD(e.fund_last)}</span>`:'';
+  const noCrm = e.no_crm?`<a class="badge" href="${e.harmonic_url}" target="_blank" rel="noopener">no CRM record · Harmonic ↗</a>`:'';
   const meta = e.kind==='fund'
-    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${e.city||''}</span>${co}`
-    : `<span>${e.note||''}</span>`;
-  const relCell = e.kind==='fund'
-    ? `<b>${rel}</b><span class="rb"><i style="width:${rel}%"></i></span>`
-    : `<span style="color:var(--muted);font-size:12px">${e.num_investments!=null? e.num_investments+' tracked deals':'—'}</span>`;
-  return `<tr class="mainrow" data-slug="${e.slug}">
-    <td><div class="fname ${v.tier}"><span class="tdot"></span>${e.name}</div><div class="fmeta">${meta}</div></td>
-    <td><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b></div></td>
+    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${e.city||''}</span>${lastT}${co}${unt}`
+    : `<span>${e.note||''}</span>${lastT}${noCrm}`;
+  const nm = e.kind==='angel' && e.li ? `<a href="${e.li}" target="_blank" rel="noopener">${e.name}</a>`
+    : e.website ? `<a href="https://${e.website}" target="_blank" rel="noopener">${e.name}</a>` : e.name;
+  const covTitle = e.cov_parts?`Harmonic ${Math.round(e.cov_parts.h*100)} · Affinity ${Math.round(e.cov_parts.a*100)} × decay ${e.cov_parts.decay}`:'';
+  const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
+  return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
+    <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div></td>
+    <td title="${covTitle}"><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b></div></td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
@@ -274,16 +345,38 @@ function detailHTML(e){
     h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · Europe ${r.geo} at ${Math.round(r.europe)}% · activity ${r.activity} · graduation ${r.grad})
       · ${e.num_investments??'—'} investments · ${e.unicorns??0} unicorns · last investment ${e.last_investment||'—'}
       ${e.coinvest.length?` · <b style="color:var(--covered-ink)">co-invested:</b> ${e.coinvest.join(', ')}`:''}</div>`;
+  } else if(e.relevance){
+    const r=e.relevance;
+    h += `<div class="meta-line">Angel relevance ${r.total} (deals ${r.deals} · outcomes ${r.uni} · syndication ${r.synd} · our-pipeline presence ${r.pipe}) · ${e.num_investments??'—'} tracked deals</div>`;
+  }
+  if((e.untracked||[]).length){
+    h += `<h5>Recent EU deals we're not tracking (${e.untracked.length}${e.recent_eu?` of ${e.recent_eu} recent EU deals`:''})</h5><div class="plist">`+
+      e.untracked.map(u=>`<span><span class="st">${(u.date||'').slice(0,7)} · ${(u.round||'').replaceAll('_',' ').toLowerCase()}</span><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a> <span class="cc">${u.country||''}</span></span>`).join('')+`</div>`;
   }
   const secs = [...BUCKETS,["portfolio","Portfolio company"]];
-  let any=false;
+  const isGlobal = (e.buckets.prelead.concat(e.buckets.lead)).some(p=>p.country!==undefined);
+  const inRegion = p => !isGlobal || p.country===undefined || p.country===null || regionCountries().has(p.country);
   for(const [k,label] of secs){
-    const list=e.buckets[k]; if(!list||!list.length) continue; any=true;
-    h += `<h5 id="sec-${e.slug}-${k}">${label} (${list.length})</h5><div class="plist">`+
-      list.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span style="color:var(--muted)">${p.domain||''}</span></span>`).join('')+`</div>`;
+    const list=e.buckets[k]; if(!list||!list.length) continue;
+    const inR = list.filter(inRegion), outR = list.filter(p=>!inRegion(p));
+    h += `<h5 id="sec-${e.slug}-${k}">${label} (${list.length}${outR.length?`, ${inR.length} in region`:''})</h5><div class="plist">`+
+      inR.map(p=>`<span><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.domain||''}</span></span>`).join('')+
+      outR.map(p=>`<span class="offr"><span class="st">${(p.funnel||'—')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.country||''}</span></span>`).join('')+`</div>`;
   }
-  if(!any) h += `<h5>Pipeline overlap</h5><div class="meta-line">None of their portfolio is in our pipeline list.</div>`;
-  if(e.dormant) h += `<h5>Dormant tie</h5><div class="meta-line">⏱ ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last touch ${e.dormant.last}).</div>`;
+  if(e.dormant){
+    const mail = dormantMail(e);
+    h += `<h5>Dormant tie</h5><div class="meta-line">⏱ ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last touch ${e.dormant.last}).</div>
+      <div class="actionrow"><a class="minibtn" href="${mail}">✉ nudge ${e.dormant.internal[0].split(' ')[0]} to re-warm</a>
+      <button class="minibtn" data-copy="${e.slug}">copy context</button></div>`;
+  }
+  if(e.bridges && e.bridges.length){
+    h += `<h5>Routes in via covered co-investors</h5><div class="meta-line">`+
+      e.bridges.map(b=>`via <b>${b.name}</b> (${b.internal}${b.pct!=null?' · '+b.pct+'%':''})`).join(' &nbsp;·&nbsp; ')+`</div>`;
+  }
+  if(e.syndication && e.syndication.length){
+    h += `<h5>Syndicates most with</h5><div class="meta-line">`+
+      e.syndication.map(s=>`<b>${s.name}</b>${s.tier==='strong'&&s.via?` (covered — ${s.via} can intro)`:''}`).join(' · ')+`</div>`;
+  }
   if(e.top_people && e.top_people.length){
     const shown = state.person ? e.top_people.filter(p=>p.name===state.person).concat(e.top_people.filter(p=>p.name!==state.person).slice(0,3)) : e.top_people.slice(0,4);
     h += `<h5>Best Highland coverage${state.person?` — viewing as ${state.person}`:''}</h5><div class="tmcols">`+shown.map(p=>{
@@ -292,79 +385,170 @@ function detailHTML(e){
         p.contacts.map(k=>{
           const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
           const extra = k.pct!=null?` · ${k.pct}%`:(k.title?` · ${k.title}`:'');
-          return `<div>${nm}<span class="t">${extra}</span></div>`;
+          const when = k.last?` · ${fmtD(k.last)}`:'';
+          const moved = k.moved?` <span class="flag" title="appears to have moved to ${k.moved}">⚠</span>`:'';
+          return `<div>${nm}<span class="t">${extra}${when}</span>${moved}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
   }
+  if(e.partners_unknown && e.partners_unknown.length){
+    h += `<h5>Their partners we don't know${e.partners_total?` (${e.partners_unknown.length} of ${e.partners_total} on roster)`:''}</h5><div class="plist">`+
+      e.partners_unknown.map(p=>`<span>${p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener">${p.name}</a>`:p.name} <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
+  }
+  h += `<div class="meta-line" style="margin-top:14px">Full brief: ask Claude — “prep my meeting with ${e.name}”.</div>`;
   return h;
 }
+function regionCountries(){
+  return state.region==='germany' ? new Set(['Germany']) : new Set(['Sweden','Denmark','Norway','Finland','Iceland']);
+}
+function dormantMail(e){
+  const to = {"Gaj Rajanathan":"gajan","Harry Williams":"harry","Sam Brooks":"sam","Ronan Shally":"ronan",
+    "Fergal Mullen":"fergal","David Blyghton":"david","Helena Richardson":"helena","Laurence Garrett":"laurence",
+    "Irena Goldenberg":"irena"}[e.dormant.internal[0]];
+  const addr = to?`${to}@highlandeurope.com`:'';
+  const sub = encodeURIComponent(`Re-warm ${e.name}?`);
+  const body = encodeURIComponent(`You had a thread with ${e.name} (${e.dormant.context}; last touch ${e.dormant.last}). Worth re-warming? Coverage map flags them at ${e.connectivity}/100 with relevance ${e.relevance?e.relevance.total:'—'}.`);
+  return `mailto:${addr}?subject=${sub}&body=${body}`;
+}
+
+// ---------- HTC view ----------
+function htcHTML(){
+  let rows = D.regions[state.region].htc;
+  if(state.person) rows = rows.filter(c=>(c.owners||[]).some(o=>o===state.person || o.startsWith(state.person.split(' ')[0])));
+  if(state.q) rows = rows.filter(c=>c.name.toLowerCase().includes(state.q));
+  document.getElementById('htchint').textContent = state.person
+    ? `companies owned by ${state.person} in Affinity, reachable via mapped investors`
+    : `every hard-to-crack with a mapped investor on its cap table — sorted by reachability`;
+  const body = rows.map(c=>`<tr>
+    <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
+      <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>i.best?`<span>${i.best.internal}${i.best.pct!=null?` <span class="pct">${i.best.pct}%</span>`:''}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
+    <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
+  </tr>`).join('');
+  document.getElementById('htctable').innerHTML =
+    `<thead><tr><th>Company</th><th>On cap table</th><th>Our path via them</th><th>Affinity owner</th></tr></thead><tbody>${body||'<tr><td colspan="4" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
+}
+
+// ---------- render ----------
+function srt(list){ const col = COLS.find(c=>c.k===state.sort)||COLS[4]; return [...list].sort(col.sort); }
+function visible(){
+  return E().filter(e=>(!state.q||e.name.toLowerCase().includes(state.q))
+    && (!state.cat || e.kind!=='fund' || e.category===state.cat)
+    && (!state.cc || e.kind!=='fund' || (e.city||'').endsWith(state.cc)));
+}
+function render(){
+  document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
+  document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
+  if(state.view==='htc'){ htcHTML(); return; }
+  filtersHTML();
+  const vis = visible();
+  const ft=document.getElementById('fundtable'), at=document.getElementById('angeltable');
+  ft.innerHTML = headHTML()+`<tbody>`+srt(vis.filter(e=>e.kind==='fund')).map(rowHTML).join('')+`</tbody>`;
+  at.innerHTML = headHTML()+`<tbody>`+srt(vis.filter(e=>e.kind==='angel')).map(rowHTML).join('')+`</tbody>`;
+  [ft,at].forEach(bindTable);
+  updateHash();
+}
 function bindTable(tbl){
-  tbl.querySelectorAll('thead th').forEach(th=>th.addEventListener('click',()=>{
-    state.sort = th.dataset.k; render();
+  tbl.querySelectorAll('thead th.sortable').forEach(th=>th.addEventListener('click',()=>{state.sort=th.dataset.k;render();}));
+  tbl.querySelectorAll('tr.mainrow').forEach(r=>{
+    const open = ev=>{
+      if(ev.target.closest('a')||ev.target.closest('button')) return;
+      const slug=r.dataset.slug;
+      toggleRow(slug, ev.target.closest('.chip'));
+    };
+    r.addEventListener('click', open);
+    r.addEventListener('keydown', ev=>{ if(ev.key==='Enter') open(ev); });
+  });
+  tbl.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
+    const e=E().find(x=>x.slug===b.dataset.copy);
+    navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}). Coverage ${e.connectivity}, relevance ${e.relevance?e.relevance.total:'—'}.`);
+    toast('Copied');
   }));
-  tbl.querySelectorAll('tr.mainrow').forEach(r=>r.addEventListener('click',ev=>{
-    if(ev.target.closest('a')) return;
-    const slug=r.dataset.slug, e=E().find(x=>x.slug===slug);
-    const det=document.getElementById('d-'+slug);
-    const chip=ev.target.closest('.chip');
-    if(!det.classList.contains('open')){ det.querySelector('.detail').innerHTML=detailHTML(e); det.classList.add('open'); }
-    else if(!chip){ det.classList.remove('open'); return; }
+}
+function toggleRow(slug, chip){
+  const e=E().find(x=>x.slug===slug); if(!e) return;
+  const det=document.getElementById('d-'+slug); if(!det) return;
+  const wasOpen = det.classList.contains('open');
+  document.querySelectorAll('tr.detailrow.open').forEach(x=>x.classList.remove('open'));
+  if(!wasOpen){ det.querySelector('.detail').innerHTML=detailHTML(e); det.classList.add('open');
+    det.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
+      navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
+    state.open = slug;
     if(chip && !chip.classList.contains('empty')){
       const sec=document.getElementById(`sec-${slug}-${chip.dataset.k}`);
       if(sec) sec.scrollIntoView({behavior:'smooth', block:'center'});
     }
-  }));
+  } else state.open = '';
+  updateHash();
 }
-function render(){
-  const q=state.q;
-  const col = COLS.find(c=>c.k===state.sort)||COLS[4];
-  const vis = E().filter(e=>!q||e.name.toLowerCase().includes(q));
-  const ft=document.getElementById('fundtable'), at=document.getElementById('angeltable');
-  ft.innerHTML = headHTML()+`<tbody>`+vis.filter(e=>e.kind==='fund').sort(col.sort).map(rowHTML).join('')+`</tbody>`;
-  at.innerHTML = headHTML()+`<tbody>`+vis.filter(e=>e.kind==='angel').sort(col.sort).map(rowHTML).join('')+`</tbody>`;
-  bindTable(ft); bindTable(at);
+function labels(){
+  const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
+  document.getElementById('pagetitle').textContent = `Highland's ${D.regions[state.region].adj} VC Ecosystem Coverage`;
+  document.getElementById('subcount').textContent = `The ${f} ${D.regions[state.region].label} funds that matter most plus ${a} super-angels.`;
+  document.getElementById('fresh').innerHTML = ' Data as of: '+Object.entries(D.freshness).map(([k,v])=>`${k} — ${v}`).join(' · ')+'.';
 }
-document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
+// ---------- hash routing ----------
+function updateHash(){
+  let h = '#'+state.region;
+  if(state.view==='htc') h+='/htc';
+  else if(state.open) h+='/'+state.open;
+  if(state.person) h+='?as='+encodeURIComponent(state.person);
+  history.replaceState(null,'',h);
+}
+function readHash(){
+  const m = location.hash.match(/^#([a-z]+)(?:\/([a-z0-9-]+))?(?:\?as=(.+))?$/i);
+  if(!m) return;
+  if(REGIONS.includes(m[1])) state.region=m[1];
+  if(m[3]) state.person = decodeURIComponent(m[3]);
+  if(m[2]==='htc') state.view='htc';
+  else if(m[2]) state.pendingOpen = m[2];
+}
+
+// ---------- boot ----------
+readHash();
+const seg = document.getElementById('regionseg');
+REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=D.regions[r].label;b.dataset.r=r;
+  if(r===state.region)b.classList.add('on');
+  b.addEventListener('click',()=>{state.region=r;state.open='';seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
+  seg.appendChild(b);});
+document.querySelectorAll('#viewseg button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('#viewseg button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); state.view=b.dataset.v; render(); updateHash();
+}));
 const va = document.getElementById('viewas');
 D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
+if(state.person) va.value=state.person;
 va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
 
-// CSV export via downloads capability
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',2400)}
 function csv(){
-  const rows=[["name","kind","category","city","relevance","coverage","tier","gap","coinvested",
-    ...BUCKETS.map(([k])=>k),"top_path_external","top_path_internal","top_path_pct"]];
+  const rows=[["name","kind","category","city","relevance","coverage","tier","gap","last_touch","coinvested","untracked_eu",
+    ...BUCKETS.map(([k])=>k),"top_path_external","top_path_internal","top_path_pct","top_path_last"]];
   for(const e of E()){
     const p=e.points[0]||{};
-    rows.push([e.name,e.kind,e.category||'',e.city||'',e.relevance?e.relevance.total:'',e.connectivity,e.tier,e.gap??'',
-      e.coinvest.join('; '),...BUCKETS.map(([k])=>e.buckets[k].length),p.external||'',p.internal||'',p.pct??'']);
+    rows.push([e.name,e.kind,e.category||'',e.city||'',e.relevance?e.relevance.total:'',eff(e).cov,eff(e).tier,eff(e).gap??'',
+      e.fund_last||'',e.coinvest.join('; '),(e.untracked||[]).length,...BUCKETS.map(([k])=>e.buckets[k].length),
+      p.external||'',p.internal||'',p.pct??'',p.last||'']);
   }
   return rows.map(r=>r.map(v=>`"${String(v).replaceAll('"','""')}"`).join(',')).join('\n');
 }
-function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',2600)}
 if (window.claude && window.claude.downloads){
   const btn=document.getElementById('export'); btn.hidden=false;
   btn.addEventListener('click', async ()=>{
     const data=csv();
-    try{ await window.claude.downloads.save({filename:"germany-coverage.csv", data}); toast("Saved"); }
+    try{ await window.claude.downloads.save({filename:`coverage-${state.region}.csv`, data}); toast("Saved"); }
     catch(err){
       if(err && err.code==='extension_not_enabled'){
-        try{ await window.claude.downloads.save({filename:"germany-coverage.txt", data}); toast("Saved as .txt"); }
+        try{ await window.claude.downloads.save({filename:`coverage-${state.region}.txt`, data}); toast("Saved as .txt"); }
         catch(e2){ if(e2&&e2.code!=='declined') toast("Export unavailable"); }
       } else if(err && err.code==='rate_limited'){ toast("Try again in a moment");
       } else if(err && err.code!=='declined'){ toast("Export unavailable"); }
     }
   });
 }
-const seg = document.getElementById('regionseg');
-REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=D.regions[r].label;b.dataset.r=r;
-  if(r===region)b.classList.add('on');
-  b.addEventListener('click',()=>{region=r;seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
-  seg.appendChild(b);});
-function labels(){
-  const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
-  document.getElementById('pagetitle').innerHTML = `Who covers the ${D.regions[region].adj} ecosystem — and&nbsp;who&nbsp;doesn’t`;
-  document.getElementById('subcount').textContent = `The ${f} ${D.regions[region].label} funds that matter most plus ${a} super-angels.`;
-}
 labels(); scoreboard(); render();
+if(state.pendingOpen){ setTimeout(()=>{ toggleRow(state.pendingOpen); const el=document.querySelector(`tr[data-slug="${state.pendingOpen}"]`); el&&el.scrollIntoView({block:'center'}); }, 50); }
 </script>
 """

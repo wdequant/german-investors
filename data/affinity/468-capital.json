@@ -7,217 +7,253 @@
       "id": 313527434,
       "name": "arc-intelligence",
       "domain": "arc-intelligence.de",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "Germany"
     },
     {
       "id": 303536546,
       "name": "Alaan",
       "domain": "alaan.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Arab Emirates"
     },
     {
       "id": 302925323,
       "name": "Terra.One",
       "domain": "terra.one",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Germany"
     },
     {
       "id": 300446960,
       "name": "Akhetonics",
       "domain": "akhetonics.com",
-      "funnel": "Awaiting Reply"
+      "funnel": "Awaiting Reply",
+      "country": "Germany"
     },
     {
       "id": 300074820,
       "name": "YonedaLabs",
       "domain": "yonedalabs.com",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "United States"
     },
     {
       "id": 298733525,
       "name": "assetbird",
       "domain": "assetbird.de",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "Germany"
     },
     {
       "id": 295908757,
       "name": "acto (formerly: insightsON)",
       "domain": "heyacto.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Germany"
     },
     {
       "id": 294581820,
       "name": "einwert",
       "domain": "einwert.com",
-      "funnel": "Hard to crack"
+      "funnel": "Hard to crack",
+      "country": "Germany"
     },
     {
       "id": 293729342,
       "name": "DinMo",
       "domain": "dinmo.com",
-      "funnel": "Awaiting Reply"
+      "funnel": "Awaiting Reply",
+      "country": "France"
     },
     {
       "id": 293729287,
       "name": "bliro.io",
       "domain": "bliro.io",
-      "funnel": "Hard to crack"
+      "funnel": "Hard to crack",
+      "country": "Germany"
     },
     {
       "id": 293728857,
       "name": "metergrid",
       "domain": "metergrid.de",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Germany"
     },
     {
       "id": 293729483,
       "name": "HoneyHive",
       "domain": "honeyhive.ai",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "United States"
     },
     {
       "id": 293727282,
       "name": "ZERO Systems",
       "domain": "hercules.ai",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
     },
     {
       "id": 293727201,
       "name": "Cleanhub",
       "domain": "cleanhub.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
     },
     {
       "id": 293729445,
       "name": "Minoa",
       "domain": "minoa.io",
-      "funnel": "Pre-lead"
+      "funnel": "Pre-lead",
+      "country": "United States"
     },
     {
       "id": 293728861,
       "name": "cartken",
       "domain": "cartken.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "United States"
     },
     {
       "id": 293726835,
       "name": "Bardeen",
       "domain": "bardeen.ai",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
     },
     {
       "id": 289772110,
       "name": "Ostrom",
       "domain": "ostrom.de",
-      "funnel": "Qualified Lead"
+      "funnel": "Qualified Lead",
+      "country": "Germany"
     },
     {
       "id": 289772148,
       "name": "Frequenz.io",
       "domain": "frequenz.com",
-      "funnel": "Qualified Lead"
+      "funnel": "Qualified Lead",
+      "country": "Germany"
     },
     {
       "id": 289772689,
       "name": "Jua",
       "domain": "jua.ai",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Switzerland"
     },
     {
       "id": 289770778,
       "name": "Pop Market",
       "domain": "popmarket.gr",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "Greece"
     },
     {
       "id": 289770893,
       "name": "AskUI",
       "domain": "askui.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Germany"
     },
     {
       "id": 283391447,
       "name": "arive",
       "domain": "ariveapp.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": null
     },
     {
       "id": 289765805,
       "name": "OpenReplay Blog",
       "domain": "openreplay.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
     },
     {
       "id": 283656018,
       "name": "Mayd",
       "domain": "getmayd.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
     },
     {
       "id": 289769291,
       "name": "Workist",
       "domain": "workist.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Germany"
     },
     {
       "id": 283295330,
       "name": "arive",
       "domain": "getarive.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "Germany"
     },
     {
       "id": 289769924,
       "name": "asistensi",
       "domain": "asistensi.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
     },
     {
       "id": 289766040,
       "name": "Linearity",
       "domain": "linearity.io",
-      "funnel": "Passed"
+      "funnel": "Passed",
+      "country": "Germany"
     },
     {
       "id": 289769289,
       "name": "felmo",
       "domain": "felmo.de",
-      "funnel": "Passed"
+      "funnel": "Passed",
+      "country": "Germany"
     },
     {
       "id": 289769517,
       "name": "Klima",
       "domain": "klima.com",
-      "funnel": "Deprioritised (free for all)"
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
     },
     {
       "id": 289769727,
       "name": "Razor Group",
       "domain": "razor-group.com",
-      "funnel": "Passed"
+      "funnel": "Passed",
+      "country": "Germany"
     },
     {
       "id": 289768399,
       "name": "QuestDB",
       "domain": "questdb.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "United States"
     },
     {
       "id": 289769354,
       "name": "Fixably",
       "domain": "fixably.com",
-      "funnel": "Passed"
+      "funnel": "Passed",
+      "country": "Finland"
     },
     {
       "id": 289766601,
       "name": "Garden",
       "domain": "garden.io",
-      "funnel": "Passed"
+      "funnel": "Passed",
+      "country": "Germany"
     },
     {
       "id": 289764292,
       "name": "Rasa",
       "domain": "rasa.com",
-      "funnel": "Lead"
+      "funnel": "Lead",
+      "country": "United States"
     }
   ],
   "relationships": [
