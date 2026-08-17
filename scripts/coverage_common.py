@@ -559,6 +559,55 @@ def affinity_sync(entities, dump, region_key):
     return added_by, rescued
 
 
+def inject_htc_captables(entities, captables, htc_owners=None):
+    """Add missing investor <-> hard-to-crack links using Harmonic cap tables:
+    Affinity's investor enrichment misses many real backers (e.g. Serena on
+    Pelico), so a fund can be invested in one of our HTCs without its Affinity
+    pipeline showing it. Harmonic's cap table is the source of truth here."""
+    if not captables:
+        return 0
+    ho = htc_owners or {}
+    ents = {e["slug"]: e for e in entities}
+    alias2slug = {}
+    for e in entities:
+        als = {_nrm_inv(e["name"])}
+        if e["kind"] == "fund":
+            als |= {_nrm_inv(a) for a in FUND_ALIASES.get(e["slug"], [])}
+            w = _nrm_inv(e["name"]).split()
+            if len(w) > 1 and w[-1] in GENERIC_SUFFIX:
+                als.add(" ".join(w[:-1]))
+        for a in als:
+            if a:
+                alias2slug.setdefault(a, set()).add(e["slug"])
+    added = 0
+    for cid_s, c in captables.items():
+        cid = int(cid_s) if str(cid_s).isdigit() else cid_s
+        meta = ho.get(str(cid)) or {}
+        for inv in c.get("investors") or []:
+            ni = _nrm_inv(inv)
+            if not ni:
+                continue
+            best = None
+            for a, slugs in alias2slug.items():
+                ok = ni == a or (ni.startswith(a + " ") and len(a.split()) >= 2)
+                if ok and (best is None or len(a) > len(best[0])):
+                    best = (a, slugs)
+            if not best:
+                continue
+            for slug in best[1]:
+                e = ents[slug]
+                allids = {p["id"] for k in e["buckets"] for p in e["buckets"][k]}
+                if cid in allids:
+                    continue
+                e["buckets"]["hard"].append({
+                    "id": cid, "name": c.get("name"), "domain": c.get("domain"),
+                    "funnel": "Hard to crack", "country": meta.get("country"),
+                    "own": [NAME_MAP.get(o, o) for o in (meta.get("owners") or [])
+                            if o not in EX_STAFF]})
+                added += 1
+    return added
+
+
 def build_htc(entities, htc_owners):
     """Inverted hard-to-crack view: company -> investors on cap table -> best path."""
     ho = htc_owners or {}

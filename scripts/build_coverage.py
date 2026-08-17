@@ -4,7 +4,7 @@ import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enrich,
                              compute_bridges_and_synd, build_htc, angel_relevance,
-                             affinity_sync)
+                             affinity_sync, inject_htc_captables)
 import assemble_germany, assemble_nordics, assemble_france
 import importlib.util as _ilu
 
@@ -71,6 +71,10 @@ for key, cfg in REGION_CFG.items():
         recency = load_json(f"{ROOT}/data/enrich/recency-{key}.json", {})
     apply_enrich(ents, enrich, recency, empflags, key, PMETA.get(key))
     added_by, rescued = affinity_sync(ents, aff_dump, key)
+    htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
+                                     htc_owners)
+    if htc_added:
+        print(f"  [{key}] harmonic cap tables: +{htc_added} hard-to-crack links")
     if added_by or rescued:
         print(f"  [{key}] affinity sync: +{sum(added_by.values())} pipeline entries "
               f"across {len(added_by)} funds; rescued from 'untracked': "
