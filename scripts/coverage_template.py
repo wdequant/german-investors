@@ -312,7 +312,7 @@ function ptsHTML(e){
     const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
     let mine = s.contacts.map(k=>{
       const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener"><b>${k.person}</b></a>`:`<b>${k.person}</b>`;
-      const extra = k.pct!=null?` <span class="pct">${k.pct}%</span>`:(k.title?` <span class="via">· ${k.title}</span>`:'');
+      const extra = (k.title?` <span class="via">· ${k.title}</span>`:'')+(k.pct!=null?` <span class="pct">${k.pct}%</span>`:'');
       const when = k.last?` <span class="when">· ${fmtD(k.last)}</span>`:'';
       return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
     }).join('')+dormP;
@@ -396,10 +396,9 @@ function detailHTML(e){
       return `<div class="tm"><h6>${p.name} <span style="color:var(--muted)">${strength}</span></h6>`+
         p.contacts.map(k=>{
           const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
-          const extra = k.pct!=null?` · ${k.pct}%`:(k.title?` · ${k.title}`:'');
-          const when = k.last?` · ${fmtD(k.last)}`:'';
+          const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
           const moved = k.moved?` <span class="flag" title="appears to have moved to ${k.moved}">⚠</span>`:'';
-          return `<div>${nm}<span class="t">${extra}${when}</span>${moved}</div>`;
+          return `<div>${nm}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
   }

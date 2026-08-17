@@ -1,7 +1,7 @@
 """Assemble the Germany region entities from data/* (top-31 funds + 9 angels)."""
 import math, os
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, norm_name)
+                             points_from, load_json, norm_name, clean_rels)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -64,7 +64,7 @@ def assemble(team):
         slug = FUND_SLUG[name]
         cid = int(inv["company_urn"].rsplit(":", 1)[1])
         aff = load_json(f"{affdir}/{slug}.json", {"pipeline": [], "relationships": []})
-        rels = aff.get("relationships") or []
+        rels = clean_rels(aff.get("relationships"))
         aff_max = max((r.get("score") or 0 for r in rels), default=0)
         aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
 
@@ -94,7 +94,7 @@ def assemble(team):
 
     for a in ANGELS:
         aff = load_json(f"{affdir}/angel-{a['slug']}.json", {"pipeline": [], "relationships": []})
-        rels = aff.get("relationships") or []
+        rels = clean_rels(aff.get("relationships"))
         aff_max = max((r.get("score") or 0 for r in rels), default=0)
         aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
         tp = top_people(None, rels)

@@ -1,7 +1,7 @@
 """Assemble the Nordics region entities from data/nordics/*."""
 import math, os
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, norm_name)
+                             points_from, load_json, norm_name, clean_rels)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -52,7 +52,7 @@ def assemble(team):
         kind = inv["kind"]
         prefix = "angel-" if kind == "angel" else ""
         aff = load_json(f"{affdir}/{prefix}{slug}.json", {"pipeline": [], "relationships": []})
-        rels = [r for r in (aff.get("relationships") or [])]
+        rels = clean_rels(aff.get("relationships"))
         aff_max = max((r.get("score") or 0 for r in rels), default=0)
         aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
         dormant = aff.get("dormant")

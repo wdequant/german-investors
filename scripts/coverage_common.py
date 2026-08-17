@@ -4,7 +4,8 @@ from datetime import datetime, timezone
 
 TODAY = datetime(2026, 8, 12, tzinfo=timezone.utc)
 AFFINITY_ORG = "highland"  # tenant subdomain per Affinity get_current_user
-EX_STAFF = {"Emily Tan", "Anna Faulkner", "Zina Alfa", "Rachel Barbour-Fowles"}
+EX_STAFF = {"Emily Tan", "Anna Faulkner", "Zina Alfa", "Rachel Barbour-Fowles",
+            "Isabel Wright"}
 NAME_MAP = {"Gajan Rajanathan": "Gaj Rajanathan", "William De Quant": "Will de Quant",
             "Stan Laurent": "Stan"}
 SECTOR_SOFTWARE = ("Communications & Information Technology", "Business Services")
@@ -21,6 +22,21 @@ TEXT2BUCKET = {t: key for key, _, texts in BUCKETS for t in texts}
 
 def norm_name(s):
     return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+
+
+def dedup_key(s):
+    """Person-dedupe key that also collapses German transliterations, so
+    'Julius Lühr' (Affinity) and 'Julius Luehr' (Harmonic) merge."""
+    n = norm_name(s)
+    for a, b in (("ue", "u"), ("oe", "o"), ("ae", "a"), ("ss", "s")):
+        n = n.replace(a, b)
+    return re.sub(r"[^a-z ]", "", n).strip()
+
+
+def clean_rels(rels):
+    """Drop Affinity relationships held only by ex-staff before any scoring."""
+    return [r for r in (rels or [])
+            if NAME_MAP.get(r.get("internal"), r.get("internal")) not in EX_STAFF]
 
 
 def contact_weight(title, external=False):
@@ -148,7 +164,14 @@ def top_people(cells, aff_rels):
             for k in c["contacts"][:3]:
                 if k["external"] or k["w"] < 2:
                     continue
-                if not any(norm_name(x["person"]) == norm_name(k["person"]) for x in p["contacts"]):
+                m = next((x for x in p["contacts"]
+                          if dedup_key(x["person"]) == dedup_key(k["person"])), None)
+                if m:  # same human from both sources: merge title/linkedin in
+                    if not m.get("title"):
+                        m["title"] = k["title"]
+                    if not m.get("linkedin"):
+                        m["linkedin"] = k.get("linkedin")
+                else:
                     p["contacts"].append({"person": k["person"], "pct": None,
                                           "title": k["title"], "linkedin": k.get("linkedin")})
     ranked = sorted(people.values(), key=lambda p: (-p["aff"], -p["harmonic"]))
@@ -168,7 +191,7 @@ def points_from(rels, cells, li_by_person):
         nm = NAME_MAP.get(r.get("internal"), r.get("internal"))
         if nm in EX_STAFF:
             continue
-        key = norm_name(r.get("external", ""))
+        key = dedup_key(r.get("external", ""))
         if key in seen:
             continue
         seen.add(key)
@@ -309,7 +332,8 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
                     continue
                 m = meta.get(p_["name"]) or {}
                 li = p_.get("linkedin") or m.get("linkedin")
-                if m.get("known_internal") and ((m.get("known_score") or 0) >= 0.1 or m.get("note")):
+                if (m.get("known_internal") and m["known_internal"] not in EX_STAFF
+                        and ((m.get("known_score") or 0) >= 0.1 or m.get("note"))):
                     p_known.append({"name": p_["name"], "linkedin": li,
                                     "internal": m["known_internal"], "score": m.get("known_score"),
                                     "last": m.get("last"), "note": m.get("note")})
