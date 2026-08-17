@@ -1,4 +1,5 @@
 <title>Highland VC Coverage Map</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 :root{
   color-scheme:only light;
@@ -167,6 +168,48 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
   .score{flex-wrap:wrap} .score .s{min-width:45%}
   .appbar input[type=search]{flex:1 1 100%;margin-left:0;order:9}
 }
+/* ---------- mobile experience (cards + dossier sheet) ---------- */
+#mlist{display:none}
+@media (max-width:700px){
+  #fundsview table, #fundsview .sechead, #htcview table, #htcview .sechead{display:none}
+  #mlist{display:block;padding-bottom:40px}
+  .wrap{padding:0 14px}
+  .hero{padding:20px 0 2px} h1{font-size:23px}
+  .sub{font-size:13px}
+  .appbar .in{padding:10px 14px;gap:8px}
+  .appbar select{max-width:140px;flex:1}
+  .score{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:0;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .score::-webkit-scrollbar{display:none}
+  .score .s{min-width:128px;flex:none;padding:12px 14px 10px}
+  .score b{font-size:22px}
+  .mhead{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:20px 0 8px}
+  .mcard{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:10px;cursor:pointer}
+  .mcard:active{background:var(--hair2)}
+  .mtop{display:flex;align-items:center;gap:10px}
+  .mtop .fname{flex:1;font-size:15px}
+  .mcov{display:flex;align-items:center;gap:7px;font-variant-numeric:tabular-nums}
+  .mcov b{font-size:15px;font-weight:650}
+  .mcov .teamcov{color:var(--muted);font-size:10px}
+  .mmeta{font-size:11px;color:var(--muted);margin:3px 0 7px;padding-left:18px;display:flex;gap:7px;flex-wrap:wrap}
+  .mpath{font-size:12px;color:var(--ink2);padding-left:18px;margin-bottom:7px}
+  .mpath b{color:var(--ink);font-weight:570}
+  .mpath.dorm{color:var(--thin-ink)} .mpath.dorm b{color:var(--thin-ink)}
+  .mchips{display:flex;gap:5px;flex-wrap:wrap;padding-left:18px}
+  .mchips .chip{font-size:10.5px;padding:2px 7px;cursor:default}
+  #sheet{position:fixed;inset:0;background:var(--page);z-index:60;overflow-y:auto;display:none;-webkit-overflow-scrolling:touch}
+  #sheet.open{display:block}
+  .sheethead{position:sticky;top:0;background:var(--page);border-bottom:1px solid var(--hair);
+    display:flex;align-items:center;gap:10px;padding:13px 16px;z-index:5}
+  .sheethead .fname{flex:1;font-size:16px}
+  .sheethead button{background:var(--surface);border:1px solid var(--hair);border-radius:8px;
+    width:34px;height:34px;font-size:15px;color:var(--ink2);cursor:pointer;flex:none}
+  .sheetstats{display:flex;gap:18px;padding:12px 16px;border-bottom:1px solid var(--hair);font-size:12px;color:var(--muted)}
+  .sheetstats b{display:block;font-size:19px;color:var(--ink);font-variant-numeric:tabular-nums}
+  .sheetbody{padding:14px 16px 60px}
+  .sheetbody .plist{grid-template-columns:1fr}
+  .sheetbody .tmcols{gap:16px}
+  #tip{max-width:82vw}
+}
 </style>
 
 <div class="appbar"><div class="in">
@@ -204,6 +247,13 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 <div id="htcview" style="display:none">
 <div class="sechead"><h2>Hard to crack — reachable via mapped investors</h2><p id="htchint"></p></div>
 <table id="htctable"></table>
+</div>
+
+<div id="mlist"></div>
+<div id="sheet" role="dialog" aria-modal="true">
+  <div class="sheethead"><div class="fname" id="sheetname"></div><button id="sheetclose" aria-label="Close">✕</button></div>
+  <div class="sheetstats" id="sheetstats"></div>
+  <div class="sheetbody"><div class="detail" id="sheetdetail"></div></div>
 </div>
 
 <p class="note" id="method"><b>Method.</b> Relevance (funds) = stage fit 25 · sector fit 25 · Europe share 20 ·
@@ -512,6 +562,84 @@ function htcHTML(){
     `<thead><tr><th>Company</th><th>On cap table</th><th>Our path via them</th><th>Affinity owner</th></tr></thead><tbody>${body||'<tr><td colspan="4" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
 }
 
+// ---------- mobile experience ----------
+const isMobile = () => matchMedia('(max-width:700px)').matches;
+function mPathLine(e){
+  const v = eff(e);
+  if(state.person){
+    const k = v.sig.contacts[0];
+    if(k) return `<div class="mpath"><b>${k.person}</b>${k.pct!=null?` <span class="pct">${k.pct}%</span>`:''}${k.last?` <span class="when">· ${fmtD(k.last)}</span>`:''}</div>`;
+    const best = e.points && e.points[0];
+    if(best) return `<div class="mpath askx">ask <b>${best.internal}</b> (${best.external})</div>`;
+  }
+  const p0 = e.points && e.points[0];
+  if(p0) return `<div class="mpath"><b>${p0.external}</b> <span class="via">↔ ${p0.internal}</span>${p0.pct!=null?` <span class="pct">${p0.pct}%</span>`:''}${p0.moved?' <span class="flag">⚠</span>':''}</div>`;
+  if(e.dormant) return `<div class="mpath dorm">⏱ <b>${e.dormant.internal.join(' + ')}</b> dormant · ${e.dormant.last}</div>`;
+  if(e.bridges && e.bridges.length) return `<div class="mpath">↪ via <b>${e.bridges[0].name}</b> <span class="via">(${e.bridges[0].internal})</span></div>`;
+  return `<div class="mpath" style="color:var(--muted)">No mapped way in yet</div>`;
+}
+function mCardHTML(e){
+  const v = eff(e); const rel = e.relevance?e.relevance.total:null;
+  const meta = e.kind==='fund'
+    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${(e.city||'').split('·')[0].trim()}</span>${rel!=null?`<span>rel ${rel}</span>`:''}${(e.untracked||[]).length?`<span class="badge unt">${e.untracked.length} untracked</span>`:''}`
+    : `<span>${e.note||''}</span>${(e.notable||[]).length?`<span class="cc">known for: ${e.notable.slice(0,2).map(n=>n.name).join(', ')}</span>`:''}`;
+  return `<div class="mcard" data-slug="${e.slug}" tabindex="0">
+    <div class="mtop"><div class="fname ${v.tier}"><span class="tdot"></span>${e.name}</div>
+      <div class="mcov">${ring(v.cov, v.tier)}<b>${v.cov}</b>${state.person?`<span class="teamcov">team ${e.connectivity}</span>`:''}</div></div>
+    <div class="mmeta">${meta}</div>
+    ${mPathLine(e)}
+    <div class="mchips">${chipHTML(e)}</div>
+  </div>`;
+}
+function mHtcCardHTML(c){
+  const paths = c.investors.map(i=>(i.paths&&i.paths.length)
+    ? i.paths.slice(0,2).map(p=>`<div class="mpath"><b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}</div>`).join('') : '').join('');
+  return `<div class="mcard" onclick="window.open('${affURL(c.id)}','_blank')">
+    <div class="mtop"><div class="fname">${c.name}</div><span class="cc">${c.country||''}</span></div>
+    <div class="mmeta">on cap table: ${c.investors.map(i=>i.name).join(', ')}${(c.owners||[]).length?` · owner: ${c.owners.join(', ')}`:''}</div>
+    ${paths||'<div class="mpath" style="color:var(--muted)">no mapped path yet</div>'}
+  </div>`;
+}
+function renderMobile(){
+  const el = document.getElementById('mlist');
+  if(state.view==='htc'){
+    let rows = D.regions[state.region].htc;
+    if(state.person) rows = rows.filter(c=>(c.owners||[]).some(o=>o===state.person||o.startsWith(state.person.split(' ')[0])));
+    if(state.q) rows = rows.filter(c=>c.name.toLowerCase().includes(state.q));
+    el.innerHTML = `<div class="mhead">Hard to crack — tap for Affinity</div>`+
+      (rows.map(mHtcCardHTML).join('')||'<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');
+    return;
+  }
+  const vis = visible();
+  el.innerHTML = `<div class="mhead">Funds</div>`+srt(vis.filter(e=>e.kind==='fund')).map(mCardHTML).join('')+
+    `<div class="mhead">Super-angels</div>`+srt(vis.filter(e=>e.kind==='angel')).map(mCardHTML).join('');
+  el.querySelectorAll('.mcard[data-slug]').forEach(c=>{
+    const open = ()=>openSheet(c.dataset.slug);
+    c.addEventListener('click',ev=>{ if(!ev.target.closest('a')) open(); });
+    c.addEventListener('keydown',ev=>{ if(ev.key==='Enter') open(); });
+  });
+}
+function openSheet(slug){
+  const e = E().find(x=>x.slug===slug); if(!e) return;
+  const v = eff(e);
+  document.getElementById('sheetname').innerHTML = `<span class="fname ${v.tier}"><span class="tdot"></span>${e.name}</span>`;
+  document.getElementById('sheetstats').innerHTML = `
+    <span><b>${v.cov}</b>coverage${state.person?` · team ${e.connectivity}`:''}</span>
+    <span><b>${e.relevance?e.relevance.total:'—'}</b>relevance</span>
+    <span><b>${pipeCount(e)}</b>${state.person?state.person.split(' ')[0]+"'s":'live'} pipeline</span>`;
+  const det = document.getElementById('sheetdetail');
+  det.innerHTML = detailHTML(e);
+  det.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
+    navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
+  document.getElementById('sheet').classList.add('open');
+  document.getElementById('sheet').scrollTop = 0;
+  state.open = slug; updateHash();
+}
+document.getElementById('sheetclose').addEventListener('click',()=>{
+  document.getElementById('sheet').classList.remove('open'); state.open=''; updateHash();
+});
+matchMedia('(max-width:700px)').addEventListener('change',()=>render());
+
 // ---------- render ----------
 function srt(list){ const col = COLS.find(c=>c.k===state.sort)||COLS[4]; return [...list].sort(col.sort); }
 function visible(){
@@ -520,8 +648,14 @@ function visible(){
     && (!state.cc || e.kind!=='fund' || (e.city||'').endsWith(state.cc)));
 }
 function render(){
+  const mob = isMobile();
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
+  if(mob){
+    if(state.view==='funds') filtersHTML();
+    renderMobile(); updateHash(); return;
+  }
+  document.getElementById('sheet').classList.remove('open');
   if(state.view==='htc'){ htcHTML(); return; }
   filtersHTML();
   const vis = visible();
@@ -549,6 +683,7 @@ function bindTable(tbl){
   }));
 }
 function toggleRow(slug, chip){
+  if(isMobile()){ openSheet(slug); return; }
   const e=E().find(x=>x.slug===slug); if(!e) return;
   const det=document.getElementById('d-'+slug); if(!det) return;
   const wasOpen = det.classList.contains('open');
