@@ -1,0 +1,889 @@
+{
+  "293728592": {
+    "name": "Avelios",
+    "domain": "avelios.com",
+    "harmonic_company_id": 34983006,
+    "investors": [
+      "HTGF | High-Tech Gründerfonds",
+      "SAP",
+      "Sequoia Capital",
+      "Revent",
+      "EIC Accelerator",
+      "Sequoia",
+      "Fresenius Group"
+    ]
+  },
+  "293729437": {
+    "name": "doinstruct Software",
+    "domain": "doinstruct.com",
+    "harmonic_company_id": 10474762,
+    "investors": [
+      "HTGF | High-Tech Gründerfonds",
+      "HV",
+      "Creandum",
+      "D11Z. Ventures",
+      "Spotify",
+      "Andreas Hettich",
+      "Dr. Andreas Hettich",
+      "Bastian Karweg"
+    ]
+  },
+  "299504551": {
+    "name": "Plato",
+    "domain": "platoapp.ai",
+    "harmonic_company_id": 56298550,
+    "investors": [
+      "German Government",
+      "Personio",
+      "sennder",
+      "SAP",
+      "M12, Microsoft's Venture Fund",
+      "Discovery Ventures",
+      "Forto",
+      "NVIDIA",
+      "D11Z. Ventures",
+      "Celonis",
+      "Atomico",
+      "Microsoft",
+      "Cherry Ventures",
+      "Discovery Ventures Inc.",
+      "Hanno Renner",
+      "Charlie Songhurst",
+      "Fabian Q. Veit",
+      "Mario Götze",
+      "David Clarke",
+      "Patrick Thelen",
+      "Julius Koehler",
+      "Michael Wax",
+      "Benedikt Sauter",
+      "Yash Zaveri",
+      "Roxane Hassler",
+      "Michael Haufler",
+      "Maximilian Lude",
+      "Dr. Leopold von Schlenk-Barnsdorf",
+      "Dr. Maximilian Lude"
+    ]
+  },
+  "296915823": {
+    "name": "Dermanostic",
+    "domain": "dermanostic.com",
+    "harmonic_company_id": 1843579,
+    "investors": [
+      "Google for Startups",
+      "Dieter von Holtzbrinck Ventures",
+      "NRW.BANK",
+      "Mello GmbH",
+      "Beiersdorf",
+      "Oscar & Paul",
+      "Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes NRW",
+      "Tina Mueller"
+    ]
+  },
+  "289770233": {
+    "name": "Climatiq",
+    "domain": "climatiq.io",
+    "harmonic_company_id": 3105932,
+    "investors": [
+      "FundFire",
+      "Datadog",
+      "Singular",
+      "Angel Invest",
+      "Cherry Ventures",
+      "Snyk",
+      "Alstin Capital",
+      "Gleb Tritus",
+      "Paul Forster"
+    ]
+  },
+  "289770641": {
+    "name": "Klar",
+    "domain": "getklar.com",
+    "harmonic_company_id": 3478527,
+    "investors": [
+      "DTC Ventures",
+      "OMR",
+      "Cherry Ventures",
+      "Benjamin Kremer",
+      "Benedikt Sauter",
+      "Philipp Triebel",
+      "Malte Horeyseck",
+      "Samir El-Sabini",
+      "Moritz Philipp Weisbrodt"
+    ]
+  },
+  "295039985": {
+    "name": "encentive",
+    "domain": "encentive.de",
+    "harmonic_company_id": 3615951,
+    "investors": [
+      "SIVentures (prev. Smart Infrastructure Ventures)",
+      "Vireo Ventures",
+      "Oma Ventures",
+      "General Catalyst",
+      "Summiteer",
+      "Interface Capital",
+      "Giuseppe Calo | Venture Building & Innovation Programs",
+      "Hello World (Detroit)",
+      "Mario Götze",
+      "Stefan Müller",
+      "Bernhard Niesner",
+      "Christian Reber",
+      "Stefan Mueller"
+    ]
+  },
+  "293727925": {
+    "name": "Upciti",
+    "domain": "upciti.com",
+    "harmonic_company_id": 656844,
+    "investors": [
+      "Notion Capital",
+      "Demeter",
+      "INNOVACOM",
+      "Point Nine",
+      "Chalfen Ventures",
+      "NCI",
+      "WaterStart"
+    ]
+  },
+  "289769246": {
+    "name": "Soda",
+    "domain": "soda.io",
+    "harmonic_company_id": 1449425,
+    "investors": [
+      "Hummingbird Ventures",
+      "Zero Prime Ventures",
+      "Point Nine",
+      "Singular",
+      "Innoviris",
+      "DCF Group",
+      "Gloria Baeuerlein"
+    ]
+  },
+  "289764724": {
+    "name": "Shapr3D",
+    "domain": "shapr3d.com",
+    "harmonic_company_id": 106305,
+    "investors": [
+      "EBRD",
+      "InReach Ventures",
+      "Speedinvest",
+      "Creandum",
+      "Columbia Lake Partners",
+      "Point Nine",
+      "Lifeline Ventures",
+      "EBRD VC",
+      "Thrive Capital",
+      "Adjacent"
+    ]
+  },
+  "296509733": {
+    "name": "Ceartas DMCA",
+    "domain": "ceartas.io",
+    "harmonic_company_id": 4465982,
+    "investors": [
+      "Earlybird Venture Capital",
+      "Airbridge Equity Partners",
+      "Leblon Capital",
+      "Upside",
+      "Dogpatch Labs",
+      "Upside Partnership",
+      "NDRC",
+      "Michele Attisani",
+      "Thomas Hesse",
+      "Niccolo Maisto",
+      "Andrej Henkler",
+      "Ryan Morrison",
+      "Marc Dassler",
+      "Vishal A",
+      "Jonathan Smyth"
+    ]
+  },
+  "297318503": {
+    "name": "Carv",
+    "domain": "carv.com",
+    "harmonic_company_id": 4421603,
+    "investors": [
+      "Global Founders Capital",
+      "TMI Investments"
+    ]
+  },
+  "290276597": {
+    "name": "Bastion",
+    "domain": "bastion.tech",
+    "harmonic_company_id": 11467070,
+    "investors": [
+      "Global Founders Capital",
+      "Motier Ventures",
+      "Frst",
+      "Kima Ventures",
+      "Joshua Motta",
+      "Renaud Deraison",
+      "Denis Duverne",
+      "Gaelle Olivier"
+    ]
+  },
+  "289771603": {
+    "name": "Skillup",
+    "domain": "skillup.co",
+    "harmonic_company_id": 1594795,
+    "investors": [
+      "Global Founders Capital",
+      "Kerala Ventures",
+      "Omnes",
+      "SWEN Capital Partners",
+      "Hi inov - Dentressangle"
+    ]
+  },
+  "289768558": {
+    "name": "Count",
+    "domain": "count.co",
+    "harmonic_company_id": 697099,
+    "investors": [
+      "Global Founders Capital",
+      "TheVentureCity",
+      "LocalGlobe",
+      "upfund",
+      "Charlie Songhurst"
+    ]
+  },
+  "294581820": {
+    "name": "einwert",
+    "domain": "einwert.com",
+    "harmonic_company_id": 4294267,
+    "investors": [
+      "infinitas capital",
+      "Ventech",
+      "Wecken & Cie.",
+      "468 Capital",
+      "Auxxo Female Catalyst Fund",
+      "UnternehmerTUM Accelerator (formerly XPRENEURS)",
+      "Oliver Manojlovic",
+      "Dr. Stephan Rohr",
+      "Martin Linder",
+      "Juergen Roth",
+      "Peter Bosch",
+      "Michael Rambow",
+      "Ulrich Gros"
+    ]
+  },
+  "293729287": {
+    "name": "bliro.io",
+    "domain": "bliro.io",
+    "harmonic_company_id": 3613213,
+    "investors": [
+      "LEA Partners",
+      "468 Capital",
+      "Rockstart"
+    ]
+  },
+  "308969313": {
+    "name": "Tsuga",
+    "domain": "tsuga.com",
+    "harmonic_company_id": 50427967,
+    "investors": [
+      "QuantumLight",
+      "Singular",
+      "Databricks",
+      "General Catalyst",
+      "Picus Capital",
+      "Databricks Ventures",
+      "DST Global",
+      "Jonathan Benhamou",
+      "Philippe Corrot",
+      "Amjad Masad",
+      "Olivier Bonnet",
+      "Charles Gorintin"
+    ]
+  },
+  "308453734": {
+    "name": "Look Up Space",
+    "domain": "lookupspace.com",
+    "harmonic_company_id": 14105266,
+    "investors": [
+      "European Union",
+      "Karista",
+      "La French Tech",
+      "France 2030",
+      "EIC Fund",
+      "Kfund",
+      "Leadwind",
+      "Gregory Wyler",
+      "ETF Partners - The Environmental Technologies Fund",
+      "MIG Capital",
+      "Expansion Ventures",
+      "EIC Accelerator",
+      "European Innovation Council",
+      "Hélène Huby",
+      "Jean-Baptiste Djebbari"
+    ]
+  },
+  "307488841": {
+    "name": "Riffusion",
+    "domain": "riff.new",
+    "harmonic_company_id": 63632280,
+    "investors": [
+      "Google",
+      "Spark Capital",
+      "South Park Commons",
+      "Greycroft",
+      "Felicis",
+      "Burst Capital",
+      "Sky9 Capital"
+    ]
+  },
+  "289770737": {
+    "name": "Optio Incentives",
+    "domain": "optioincentives.com",
+    "harmonic_company_id": 11056447,
+    "investors": [
+      "CCAP Investments & Advisory",
+      "Skyfall Ventures",
+      "Futurum Ventures",
+      "Bent M Skisaker",
+      "CCAP",
+      "Wiski Capital"
+    ]
+  },
+  "296915670": {
+    "name": "ChurchDesk",
+    "domain": "churchdesk.com",
+    "harmonic_company_id": 1666638,
+    "investors": [
+      "Mangrove Capital Partners",
+      "Accelerace",
+      "Klaus Nyengaard",
+      "Osprey Investors"
+    ]
+  },
+  "289770890": {
+    "name": "Supernova",
+    "domain": "supernova.io",
+    "harmonic_company_id": 107331,
+    "investors": [
+      "Y Combinator",
+      "Taiwania Capital",
+      "Hitus 1 Ventures",
+      "KAYA VC",
+      "EQT Ventures",
+      "Wing Venture Capital",
+      "Reflex Capital",
+      "Credo Ventures",
+      "Big Sur Ventures",
+      "J&T Ventures",
+      "Good Tiding Holding",
+      "Jude Gomila",
+      "Jakub Nešetřil",
+      "Martin Rajcan"
+    ]
+  },
+  "301399120": {
+    "name": "Stacks",
+    "domain": "stacks.ai",
+    "harmonic_company_id": 57232525,
+    "investors": [
+      "EQT Group",
+      "s16vc - Founders for Founders Fund",
+      "EQT Ventures",
+      "Lightspeed Venture Partners",
+      "General Catalyst",
+      "Luxalis Capital",
+      "Travis Foxhall",
+      "Mike Taylor",
+      "Simone Rüschenberg"
+    ]
+  },
+  "293728191": {
+    "name": "Tendium",
+    "domain": "tendium.com",
+    "harmonic_company_id": 1226717,
+    "investors": [
+      "DHS Venture Partners"
+    ]
+  },
+  "295908693": {
+    "name": "Spektr",
+    "domain": "spektr.com",
+    "harmonic_company_id": 21615468,
+    "investors": [
+      "New Enterprise Associates (NEA)",
+      "PSV",
+      "Seedcamp",
+      "Northzone",
+      "PreSeed Ventures"
+    ]
+  },
+  "289770920": {
+    "name": "IDoven",
+    "domain": "idoven.ai",
+    "harmonic_company_id": 2026502,
+    "investors": [
+      "LEVEL BUSINESS ANGELS",
+      "Insight Partners",
+      "Google for Startups",
+      "Unlimited",
+      "Luis Sanz",
+      "Wayra",
+      "European Innovation Council and SMEs Executive Agency (EISMEA)",
+      "Accel",
+      "Northzone",
+      "Enisa | Empresa Nacional de Innovación",
+      "Gasol16 Ventures",
+      "EIT Health",
+      "Salica Investments",
+      "Vlad Lata",
+      "Diego Piacentini",
+      "Adam Chekroud",
+      "Brad Fluegel",
+      "Sebastian J Gunningham",
+      "Iker Casillas",
+      "Ron Vianu"
+    ]
+  },
+  "289772151": {
+    "name": "automaited",
+    "domain": "automaited.com",
+    "harmonic_company_id": 19391400,
+    "investors": [
+      "TVF | TechVision Fonds",
+      "Visionaries",
+      "Headline",
+      "Northzone"
+    ]
+  },
+  "295908814": {
+    "name": "Tuza",
+    "domain": "tuza.co.uk",
+    "harmonic_company_id": 47190615,
+    "investors": [
+      "Entrepreneur First",
+      "Notion Capital",
+      "Triple Point",
+      "Connect Ventures",
+      "TriplePoint Capital",
+      "Northzone",
+      "Tiny Supercomputer Investment Company",
+      "Charlie Songhurst",
+      "Chris Adelsbach OBE",
+      "Chris Mairs CBE",
+      "Freddy Kelly"
+    ]
+  },
+  "289770474": {
+    "name": "Luca",
+    "domain": "lucaedu.com",
+    "harmonic_company_id": 2101415,
+    "investors": [
+      "Shilling VC",
+      "Explorer",
+      "Motive Partners",
+      "Heartcore Capital",
+      "6 Degrees Capital",
+      "Brian Requarth",
+      "Diogo Mónica",
+      "Vasco Pedro",
+      "Hugo Arévalo Álvarez-Arenas"
+    ]
+  },
+  "292584545": {
+    "name": "Pelico",
+    "domain": "pelico.ai",
+    "harmonic_company_id": 3682935,
+    "investors": [
+      "La Famiglia",
+      "Serena",
+      "ISAI",
+      "Carsten Thoma",
+      "83NORTH",
+      "General Catalyst",
+      "AE Ventures",
+      "Bastian Nominacher",
+      "Charles Miglietti",
+      "Adrien Nussenbaum",
+      "Jonathan Benhamou",
+      "Alexis L.",
+      "Clément Buyse",
+      "Florian Douetteau"
+    ]
+  },
+  "289770530": {
+    "name": "Ondorse",
+    "domain": "ondorse.co",
+    "harmonic_company_id": 4071574,
+    "investors": [
+      "ISAI",
+      "Eurazeo",
+      "Stripe",
+      "iBanFirst",
+      "Qonto"
+    ]
+  },
+  "294581882": {
+    "name": "Comand",
+    "domain": "comand.ai",
+    "harmonic_company_id": 18284356,
+    "investors": [
+      "Blossom Capital",
+      "Saab Sensis Corporation",
+      "Frst",
+      "Saab",
+      "Expeditions",
+      "Kima Ventures",
+      "Shape VC",
+      "Eurazeo",
+      "Tiny Supercomputer Investment Company"
+    ]
+  },
+  "289771797": {
+    "name": "Omnidoc",
+    "domain": "omnidoc.fr",
+    "harmonic_company_id": 3183634,
+    "investors": [
+      "Newfund",
+      "Alven",
+      "Kurma Partners",
+      "Bpifrance"
+    ]
+  },
+  "293728891": {
+    "name": "SAPI",
+    "domain": "sapi.com",
+    "harmonic_company_id": 6490052,
+    "investors": [
+      "Hudson Cove Capital Management",
+      "Passion Capital",
+      "Syndicate One",
+      "Jon Oringer",
+      "Start Capital",
+      "Triple-A",
+      "Raffaele Terrone",
+      "Michele Attisani",
+      "Martin Kissinger",
+      "Niccolo Maisto",
+      "Tom Blomfield",
+      "Lopo Champalimaud",
+      "Luca Martinetti",
+      "Oscar Pierre",
+      "Will Neale",
+      "Edward Lando"
+    ]
+  },
+  "289769939": {
+    "name": "Conduktor",
+    "domain": "conduktor.io",
+    "harmonic_company_id": 2129540,
+    "investors": [
+      "Founders Future",
+      "M12, Microsoft's Venture Fund",
+      "Ansa Capital",
+      "RTP Global",
+      "Frontline Ventures",
+      "Canvas Prime",
+      "Microsoft",
+      "AGLAÉ VENTURES",
+      "Accel",
+      "Kima Ventures",
+      "Charles Zedlewski"
+    ]
+  },
+  "304289769": {
+    "name": "Fleeti",
+    "domain": "fleeti.co",
+    "harmonic_company_id": 3557433,
+    "investors": [
+      "Newfund",
+      "Groupe Clim",
+      "MapInvest",
+      "SKALEPARK",
+      "Proparco",
+      "Pg Développement",
+      "Janngo.africa"
+    ]
+  },
+  "289768493": {
+    "name": "Qovery",
+    "domain": "qovery.com",
+    "harmonic_company_id": 814056,
+    "investors": [
+      "IRIS",
+      "Techstars",
+      "Jonathan Cherki",
+      "Speedinvest",
+      "Crane Venture Partners",
+      "Irregular Expressions",
+      "Sébastien Pahl",
+      "Marie Outtier",
+      "Valentine Baudouin",
+      "Alexis L.",
+      "Olivier Pomel",
+      "Matthieu Vaxelaire",
+      "Ott Kaukver"
+    ]
+  },
+  "289770575": {
+    "name": "nagish",
+    "domain": "talknagish.com",
+    "harmonic_company_id": 3241877,
+    "investors": [
+      "Contour Venture Partners",
+      "K5 Global",
+      "Techstars",
+      "Precursor Ventures",
+      "Cardumen Capital",
+      "Canaan",
+      "Vertex Ventures US",
+      "General Catalyst",
+      "Vertex Ventures Israel",
+      "Tokyo Black",
+      "Olivier Pomel"
+    ]
+  },
+  "308453718": {
+    "name": "Cure.51",
+    "domain": "cure51.com",
+    "harmonic_company_id": 11493979,
+    "investors": [
+      "LifeX Ventures",
+      "Sofinnova Partners",
+      "Datadog",
+      "Xavier Niel",
+      "Hitachi Ventures",
+      "Olivier Pomel"
+    ]
+  },
+  "289770076": {
+    "name": "LiveFlow",
+    "domain": "liveflow.io",
+    "harmonic_company_id": 1695367,
+    "investors": [
+      "Y Combinator",
+      "Seedcamp",
+      "WndrCo",
+      "Valar Ventures LLC",
+      "Moonfire",
+      "Futuristic.vc",
+      "avra",
+      "Oleg Tscheltzoff",
+      "Constantin Bisanz",
+      "Lars Fjeldsoe-Nielsen",
+      "Johan Lorenzen",
+      "Victor Jacobsson",
+      "Phillip Chambers",
+      "Tomer London",
+      "Oliver Jung",
+      "Bradley Horowitz",
+      "Tom Wilson"
+    ]
+  },
+  "298733621": {
+    "name": "The Mobile-First Company",
+    "domain": "themobilefirstcompany.com",
+    "harmonic_company_id": 47175674,
+    "investors": [
+      "Emblem",
+      "Base10 Partners",
+      "Lightspeed Venture Partners",
+      "Rodolphe A.",
+      "Thibaud Elziere",
+      "Jean-Baptiste Hironde",
+      "Paul Vidal",
+      "Xavier Niel"
+    ]
+  },
+  "289765070": {
+    "name": "Ledgy",
+    "domain": "ledgy.com",
+    "harmonic_company_id": 1430573,
+    "investors": [
+      "cabiedes & partners SCR",
+      "New Enterprise Associates (NEA)",
+      "Speedinvest",
+      "Paul Sevinc",
+      "20VC",
+      "UNIQA Ventures",
+      "Adrian Bührer",
+      "Vi Partners",
+      "Creathor Ventures",
+      "Luis Cabiedes",
+      "Sequoia Capital",
+      "Visionaries",
+      "b2venture",
+      "The Delta",
+      "Crew Capital",
+      "SHAPE Capital Partners",
+      "Daniel Dines",
+      "Harry Stebbings",
+      "Myke Naef",
+      "Mathilde Collin",
+      "Daniel Gutenberg",
+      "Xavier Niel"
+    ]
+  },
+  "287114450": {
+    "name": "Fabriq",
+    "domain": "fabriq.tech",
+    "harmonic_company_id": 32874491,
+    "investors": [
+      "Expedition Growth Capital",
+      "Contribution",
+      "OSS Ventures",
+      "Henri Castries",
+      "Matthieu Vaxelaire",
+      "Thibaud Elziere",
+      "Christophe Chausson",
+      "Patrick Asdaghi",
+      "Gabriel Caillaux",
+      "Romain Raffard"
+    ]
+  },
+  "301577752": {
+    "name": "Opal",
+    "domain": "opal.so",
+    "harmonic_company_id": 802326,
+    "investors": [
+      "Motier Ventures",
+      "Secocha Ventures",
+      "Speedinvest",
+      "Alejandro Zubillaga",
+      "ISAI",
+      "Kinled Holding Ltd",
+      "Adjacent",
+      "Steve Schlafman",
+      "Nico Wittenborn",
+      "Harry Stebbings",
+      "James Beshara",
+      "Alban Denoyel",
+      "Thibaud Elziere",
+      "Jean-Charles Samuelian-Werve",
+      "Kevin Carter"
+    ]
+  },
+  "308658247": {
+    "name": "Beside Software",
+    "domain": "beside.com",
+    "harmonic_company_id": 53988340,
+    "investors": [
+      "EQT Group",
+      "Index Ventures",
+      "NextView Ventures",
+      "Factorial Capital",
+      "EQT Ventures",
+      "ISAI",
+      "Volo Ventures",
+      "Mathilde Collin",
+      "Clem Delangue",
+      "Stewart Butterfield",
+      "Pierre Valade",
+      "Jean-Charles Samuelian-Werve"
+    ]
+  },
+  "298733564": {
+    "name": "Filiz",
+    "domain": "filiz.io",
+    "harmonic_company_id": 5142096,
+    "investors": [
+      "Hexa"
+    ]
+  },
+  "298733430": {
+    "name": "SurgAR",
+    "domain": "surgar-surgery.com",
+    "harmonic_company_id": 3211292,
+    "investors": [
+      "SOFIMAC INVESTMENT MANAGERS",
+      "D-Novafund",
+      "Elaia",
+      "Banque Populaire Grand Ouest",
+      "Crédit Agricole Nord de France",
+      "UI Investissement",
+      "Gsurge Consulting",
+      "KREAXI",
+      "BNP Paribas",
+      "Crédit Agricole Assurances",
+      "Malakoff Humanis",
+      "Clermont Auvergne Innovation",
+      "Crédit Agricole CIB",
+      "XAnge",
+      "Bpifrance",
+      "Mutuelles Impact",
+      "Crédit Agricole Création",
+      "Région Auvergne-Rhône-Alpes",
+      "Banque Populaire Auvergne Rhône Alpes",
+      "CHU de Clermont-Ferrand",
+      "jacques gardette",
+      "Thierry Joubert",
+      "Pierre-Jean Lamps"
+    ]
+  },
+  "298733597": {
+    "name": "Saturn",
+    "domain": "saturnos.com",
+    "harmonic_company_id": 21580842,
+    "investors": [
+      "Y Combinator",
+      "7BC Venture Capital",
+      "Singular",
+      "WndrCo",
+      "Pioneer Fund",
+      "Shapers",
+      "Zeno Ventures"
+    ]
+  },
+  "289770412": {
+    "name": "Indeez",
+    "domain": "indeez.eu",
+    "harmonic_company_id": 61443115,
+    "investors": [
+      "Mosaic Ventures",
+      "Elaia",
+      "Christopher Varelas",
+      "Oleg Tscheltzoff",
+      "Curtis Scott",
+      "Julien Codorniou",
+      "Frédéric Tardy",
+      "Dr. Andreas Neuber",
+      "Jon McNeill",
+      "Christof Kutscher",
+      "Ministère de léconomie et des finances"
+    ]
+  },
+  "289764674": {
+    "name": "XXII",
+    "domain": "xxii.fr",
+    "harmonic_company_id": 12482542,
+    "investors": [
+      "Fonds Innovation Défense",
+      "CIB Développement organisationnel",
+      "Techmind",
+      "Groupe Duval",
+      "574 Invest",
+      "Kima Ventures",
+      "Bpifrance",
+      "Sopra Steria Ventures"
+    ]
+  },
+  "301135155": {
+    "name": "Bonx",
+    "domain": "bonx.tech",
+    "harmonic_company_id": 60736991,
+    "investors": [
+      "Purple Fund",
+      "Dynamo Ventures",
+      "Lakestar",
+      "Prequel Ventures",
+      "Kima Ventures",
+      "OSS Ventures",
+      "BNVT Capital",
+      "Louis Pfitzner"
+    ]
+  },
+  "310605973": {
+    "name": "Delos",
+    "domain": "delos.so",
+    "harmonic_company_id": 60614650,
+    "investors": [
+      "Inovia Capital",
+      "20VC",
+      "Kima Ventures"
+    ]
+  }
+}
