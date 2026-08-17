@@ -1,21 +1,24 @@
-<title>Highland VC Coverage Map</title>
+<title>Sonar</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,650&display=swap" rel="stylesheet">
 <style>
 :root{
   color-scheme:only light;
-  --page:#f2f3f1; --surface:#fbfbfa; --raise:#ffffff;
-  --ink:#17191a; --ink2:#55595c; --muted:#8b8f8a;
-  --hair:#e2e4df; --hair2:#ecede9;
-  --accent:#2a5fd0; --accent-ink:#1e4aa8; --accent-soft:#e8eefb;
-  --covered:#1d7a38; --covered-ink:#135f2a;
-  --thin:#c98a00; --thin-ink:#8a6100;
-  --gap:#c03434; --gap-ink:#a92c2c;
-  --c-prelead:#ecede9; --c-prelead-ink:#55595c;
-  --c-reachout:#e3ebf7; --c-reachout-ink:#1e4aa8;
-  --c-awaiting:#f6ecd2; --c-awaiting-ink:#8a6100;
-  --c-lead:#e1efe3; --c-lead-ink:#135f2a;
-  --c-hard:#f8e2df; --c-hard-ink:#a92c2c;
-  --shadow:0 1px 2px rgba(18,20,22,.05), 0 12px 32px rgba(18,20,22,.06);
+  --page:#f5f4ef; --surface:#fcfbf7; --raise:#ffffff;
+  --ink:#182420; --ink2:#4f5b55; --muted:#8b928b;
+  --hair:#e3e2d8; --hair2:#edece3;
+  --accent:#1e5c45; --accent-ink:#174a38; --accent-soft:#e6efe9;
+  --covered:#1e6b47; --covered-ink:#155234;
+  --thin:#b3801c; --thin-ink:#8a6100;
+  --gap:#a8402f; --gap-ink:#933527;
+  --c-prelead:#edece3; --c-prelead-ink:#4f5b55;
+  --c-reachout:#e2eae6; --c-reachout-ink:#174a38;
+  --c-awaiting:#f4ecd4; --c-awaiting-ink:#8a6100;
+  --c-lead:#e2ede4; --c-lead-ink:#155234;
+  --c-hard:#f6e3dd; --c-hard-ink:#933527;
+  --shadow:0 1px 2px rgba(24,36,32,.05), 0 12px 32px rgba(24,36,32,.06);
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
 }
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
@@ -23,7 +26,9 @@ body{background:var(--page);color:var(--ink);
   font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding-bottom:110px}
 .appbar{position:sticky;top:0;z-index:20;background:var(--page);border-bottom:1px solid var(--hair)}
 .appbar .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:12px 28px;flex-wrap:wrap}
-.brand{font-weight:650;font-size:15px;letter-spacing:-.01em;white-space:nowrap}
+.brand{font-weight:650;font-size:17px;letter-spacing:-.005em;white-space:nowrap;font-family:var(--serif)}
+.brand .by{font-family:system-ui,sans-serif;font-size:10px;color:var(--muted);letter-spacing:.1em;
+  text-transform:uppercase;display:block;line-height:1;margin-top:1px}
 .seg{display:flex;border:1px solid var(--hair);border-radius:8px;overflow:hidden}
 .seg button{background:var(--surface);color:var(--ink2);border:0;padding:7px 14px;font-size:13px;cursor:pointer;font-weight:550}
 .seg button.on{background:var(--ink);color:var(--surface)}
@@ -36,7 +41,7 @@ body{background:var(--page);color:var(--ink);
 .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
 .hero{padding:38px 0 4px}
 .kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
-h1{font-size:32px;font-weight:650;letter-spacing:-.022em;text-wrap:balance}
+h1{font-size:34px;font-weight:650;letter-spacing:-.012em;text-wrap:balance;font-family:var(--serif)}
 .sub{color:var(--ink2);margin-top:10px;font-size:14px}
 .score{display:flex;margin:28px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
 .score .s{flex:1;padding:16px 20px 14px;border-left:1px solid var(--hair)}
@@ -213,7 +218,7 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 </style>
 
 <div class="appbar"><div class="in">
-  <span class="brand">Coverage</span>
+  <span class="brand">Sonar<span class="by">Highland Europe</span></span>
   <div class="seg" id="regionseg"></div>
   <div class="seg" id="viewseg">
     <button data-v="funds" class="on">Investors</button><button data-v="htc">Hard to crack</button>
