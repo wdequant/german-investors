@@ -1,0 +1,128 @@
+[
+ {
+  "urn": "urn:harmonic:investor:239498",
+  "name": "Eurazeo",
+  "companies": [
+   "urn:harmonic:company:800883",
+   "urn:harmonic:company:4298318",
+   "urn:harmonic:company:1867347",
+   "urn:harmonic:company:637529"
+  ],
+  "company_names": [
+   "Descartes Underwriting",
+   "Contentsquare",
+   "Adjust",
+   "Socialpoint"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:222368",
+  "name": "Bpifrance",
+  "companies": [
+   "urn:harmonic:company:1727614",
+   "urn:harmonic:company:4298318",
+   "urn:harmonic:company:1525840",
+   "urn:harmonic:company:4148326"
+  ],
+  "company_names": [
+   "Deepki",
+   "Contentsquare",
+   "Combo",
+   "Talentsoft"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:148668",
+  "name": "Cathay Innovation",
+  "companies": [
+   "urn:harmonic:company:2242532",
+   "urn:harmonic:company:800883"
+  ],
+  "company_names": [
+   "Nabla",
+   "Descartes Underwriting"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:176042",
+  "name": "Serena",
+  "companies": [
+   "urn:harmonic:company:800883",
+   "urn:harmonic:company:60036309"
+  ],
+  "company_names": [
+   "Descartes Underwriting",
+   "Alkemics (now part of Salsify)"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:207234",
+  "name": "Partech",
+  "companies": [
+   "urn:harmonic:company:486126"
+  ],
+  "company_names": [
+   "Jellysmack"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:158267",
+  "name": "Alven",
+  "companies": [
+   "urn:harmonic:company:4294884"
+  ],
+  "company_names": [
+   "JobTeaser"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:163091",
+  "name": "Seventure Partners",
+  "companies": [
+   "urn:harmonic:company:4294884"
+  ],
+  "company_names": [
+   "JobTeaser"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:169522",
+  "name": "Omnes",
+  "companies": [
+   "urn:harmonic:company:1507163"
+  ],
+  "company_names": [
+   "Intersec"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:44934",
+  "name": "Thibaud Elziere",
+  "companies": [
+   "urn:harmonic:company:4298318"
+  ],
+  "company_names": [
+   "Contentsquare"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:44349",
+  "name": "Fabrice Grinda",
+  "companies": [
+   "urn:harmonic:company:1504546"
+  ],
+  "company_names": [
+   "Le Collectionist"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:34816",
+  "name": "Olivier Pomel",
+  "companies": [
+   "urn:harmonic:company:432640"
+  ],
+  "company_names": [
+   "Nexthink"
+  ]
+ }
+]
