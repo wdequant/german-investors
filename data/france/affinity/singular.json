@@ -1,0 +1,277 @@
+{
+  "slug": "singular",
+  "affinity_company_id": 223428705,
+  "affinity_domain": "singular.vc",
+  "pipeline": [
+    {
+      "id": 284149104,
+      "name": "Qobra",
+      "domain": "qobra.co",
+      "funnel": "Deal",
+      "country": "France"
+    },
+    {
+      "id": 289763928,
+      "name": "Gtmhub",
+      "domain": "gtmhub.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289766612,
+      "name": "Homa Games",
+      "domain": "homagames.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768125,
+      "name": "Wethenew",
+      "domain": "wethenew.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769246,
+      "name": "Soda",
+      "domain": "soda.io",
+      "funnel": "Hard to crack",
+      "country": "Belgium"
+    },
+    {
+      "id": 289769697,
+      "name": "tinybird",
+      "domain": "tinybird.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289769947,
+      "name": "moka.care",
+      "domain": "moka.care",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289770121,
+      "name": "Resilience",
+      "domain": "resilience.care",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289770144,
+      "name": "FORMEL Skin",
+      "domain": "formelskin.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289770233,
+      "name": "Climatiq",
+      "domain": "climatiq.io",
+      "funnel": "Hard to crack",
+      "country": "Germany"
+    },
+    {
+      "id": 289770345,
+      "name": "Shares",
+      "domain": "shares.io",
+      "funnel": "Reach Out Now",
+      "country": "France"
+    },
+    {
+      "id": 289770512,
+      "name": "Sparta Commodities",
+      "domain": "spartacommodities.com",
+      "funnel": "Passed",
+      "country": "Switzerland"
+    },
+    {
+      "id": 289771290,
+      "name": "Orus",
+      "domain": "orus.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771334,
+      "name": "Continuum Industries",
+      "domain": "continuum.industries",
+      "funnel": "Awaiting Reply",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772106,
+      "name": "STRM Privacy",
+      "domain": "strmprivacy.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289772112,
+      "name": "Basecamp Research",
+      "domain": "basecamp-research.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772385,
+      "name": "THYNK.Cloud",
+      "domain": "thynk.cloud",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Belgium"
+    },
+    {
+      "id": 290800709,
+      "name": "Life5",
+      "domain": "life5.es",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 293729531,
+      "name": "Vibe",
+      "domain": "vibe.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 293729620,
+      "name": "Osium AI -",
+      "domain": "osium.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 295040231,
+      "name": "orakl-oncology.com",
+      "domain": "orakl-oncology.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 295908766,
+      "name": "Spore Biotechnologies - Lighting-up Microbiology",
+      "domain": "spore.bio",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 297318519,
+      "name": "Apoha",
+      "domain": "apoha.com",
+      "funnel": "Awaiting Reply",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 297748895,
+      "name": "SynthFlow AI",
+      "domain": "synthflow.ai",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 298733597,
+      "name": "Saturn",
+      "domain": "saturnos.com",
+      "funnel": "Hard to crack",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 299470896,
+      "name": "Lupa",
+      "domain": "lupapets.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 305263408,
+      "name": "Peec AI",
+      "domain": "peec.ai",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 308969313,
+      "name": "Tsuga",
+      "domain": "tsuga.com",
+      "funnel": "Hard to crack",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Aude Flecchia",
+      "external": "Maud Larbey",
+      "externalEmail": "maud@singular.vc",
+      "score": 0.999081625596753,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Henri Tilloy",
+      "externalEmail": "henri@singular.vc",
+      "score": 0.9964544299417178,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Jeremy Uzan",
+      "externalEmail": "jeremy@singular.vc",
+      "score": 0.9825873060456851,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Maud Larbey",
+      "externalEmail": "maud@singular.vc",
+      "score": 0.8439444915467244,
+      "linkedin": false
+    },
+    {
+      "internal": "Efosa Ayanru",
+      "external": "Lorenzo Cerchi",
+      "externalEmail": "lorenzo@singular.vc",
+      "score": 0.760163095871051,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Eva Mayoud",
+      "externalEmail": "eva@singular.vc",
+      "score": 0.7554517744447956,
+      "linkedin": false
+    },
+    {
+      "internal": "Tony Zappala",
+      "external": "Raffi Kamber",
+      "externalEmail": "raffi@singular.vc",
+      "score": 0.5714098855048537,
+      "linkedin": false
+    },
+    {
+      "internal": "Efosa Ayanru",
+      "external": "Jeremy Uzan",
+      "externalEmail": "jeremy@singular.vc",
+      "score": 0.399036591829163,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Helene Brouillard",
+      "externalEmail": "helene@singular.vc",
+      "score": 0.35413029098848614,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Nahu Ghebremichael",
+      "externalEmail": "nahu@singular.vc",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on exact alias 'Singular' only (no prefix matching) to avoid Singular Ventures/SingularDTV false positives; portfolio spot-check (Qobra, tinybird, Homa Games, Resilience, moka.care) confirms the Paris fund. Affinity company Singular (singular.vc). Top 10 kept after dropping Emily Tan row; Jeremy Uzan and Raffi Kamber both present. Live: last contact 2026-08-10 (Tony Zappala x Raffi Kamber re Tsuga)."
+}

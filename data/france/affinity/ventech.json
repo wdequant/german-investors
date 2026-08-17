@@ -1,0 +1,508 @@
+{
+  "slug": "ventech",
+  "affinity_company_id": 1517459,
+  "affinity_domain": "ventechvc.com",
+  "pipeline": [
+    {
+      "id": 1514966,
+      "name": "Believe Digital",
+      "domain": "believedigital.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 152837372,
+      "name": "Codasip Software",
+      "domain": "codasip.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 152837756,
+      "name": "Hostmaker.com",
+      "domain": "hostmaker.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 152837829,
+      "name": "InterCloud",
+      "domain": "intercloud.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 281480778,
+      "name": "Leocare",
+      "domain": "leocare.eu",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289759838,
+      "name": "Withings",
+      "domain": "withings.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289759879,
+      "name": "ATEME",
+      "domain": "ateme.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760300,
+      "name": "Bonitasoft",
+      "domain": "bonitasoft.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760326,
+      "name": "Speexx",
+      "domain": "speexx.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289760407,
+      "name": "Tellmeplus",
+      "domain": "tellmeplus.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760481,
+      "name": "Freespee",
+      "domain": "freespee.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289760541,
+      "name": "inSided",
+      "domain": "insided.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289760581,
+      "name": "Shopmium",
+      "domain": "shopmium.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289760748,
+      "name": "talent.io",
+      "domain": "talent.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760830,
+      "name": "Botify",
+      "domain": "botify.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289762670,
+      "name": "Unilend",
+      "domain": "unilend.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289762832,
+      "name": "Storetail",
+      "domain": "storetail.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763370,
+      "name": "Oktogo",
+      "domain": "oktogo.ru",
+      "funnel": "Passed",
+      "country": "Russia"
+    },
+    {
+      "id": 289763423,
+      "name": "Microoled",
+      "domain": "microoled.net",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763578,
+      "name": "Adikteev",
+      "domain": "adikteev.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763703,
+      "name": "4stop",
+      "domain": "4stop.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289763812,
+      "name": "misterb&b",
+      "domain": "misterbandb.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764088,
+      "name": "Capcito",
+      "domain": "capcito.com",
+      "funnel": "Passed",
+      "country": "Sweden"
+    },
+    {
+      "id": 289764185,
+      "name": "mediarithmics",
+      "domain": "mediarithmics.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764274,
+      "name": "Albacross",
+      "domain": "albacross.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Sweden"
+    },
+    {
+      "id": 289764590,
+      "name": "Veo",
+      "domain": "veo.co",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289765183,
+      "name": "CrossEngage",
+      "domain": "crossengage.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289765335,
+      "name": "Picanova",
+      "domain": "picanova.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289765433,
+      "name": "Antidot",
+      "domain": "antidot.net",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765789,
+      "name": "N.Rich Inc.",
+      "domain": "n.rich",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Finland"
+    },
+    {
+      "id": 289766118,
+      "name": "365talents",
+      "domain": "365talents.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289766380,
+      "name": "Reynen Court",
+      "domain": "reynencourt.com",
+      "funnel": "Passed",
+      "country": "Netherlands"
+    },
+    {
+      "id": 289766480,
+      "name": "Frontastic",
+      "domain": "frontastic.cloud",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289766672,
+      "name": "Chainstack",
+      "domain": "chainstack.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Singapore"
+    },
+    {
+      "id": 289766677,
+      "name": "Mobius Labs",
+      "domain": "mobiuslabs.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289768208,
+      "name": "Mindler",
+      "domain": "mindler.se",
+      "funnel": "Passed",
+      "country": "Sweden"
+    },
+    {
+      "id": 289769100,
+      "name": "Vestiaire Collective",
+      "domain": "vestiairecollective.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769193,
+      "name": "Farmitoo",
+      "domain": "farmitoo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769468,
+      "name": "Webedia",
+      "domain": "webedia-group.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769518,
+      "name": "Chattermill",
+      "domain": "chattermill.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289770179,
+      "name": "StickyADS.tv",
+      "domain": "stickyads.tv",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289771615,
+      "name": "Fluid Topics",
+      "domain": "fluidtopics.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771953,
+      "name": "Open as App",
+      "domain": "openasapp.com",
+      "funnel": "Pre-lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289772536,
+      "name": "Lyntics",
+      "domain": "lyntics.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 293727236,
+      "name": "Treon",
+      "domain": "treon.fi",
+      "funnel": "Awaiting Reply",
+      "country": "Finland"
+    },
+    {
+      "id": 293727581,
+      "name": "Inven",
+      "domain": "inven.ai",
+      "funnel": "Lead",
+      "country": "Finland"
+    },
+    {
+      "id": 293729332,
+      "name": "StarHive",
+      "domain": "starhive.com",
+      "funnel": "Pre-lead",
+      "country": "Sweden"
+    },
+    {
+      "id": 294581820,
+      "name": "einwert",
+      "domain": "einwert.com",
+      "funnel": "Hard to crack",
+      "country": "Germany"
+    },
+    {
+      "id": 295908636,
+      "name": "Green PRAXIS",
+      "domain": "greenpraxis.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 296915924,
+      "name": "Wirkaufens",
+      "domain": "wirkaufens.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 297318556,
+      "name": "Estuaire",
+      "domain": "estuaire.dev",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 297748887,
+      "name": "Korint",
+      "domain": "korint.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 297928659,
+      "name": "Engo Eyewear powered by Activelook",
+      "domain": "engoeyewear.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 299470855,
+      "name": "DRIMCo GmbH",
+      "domain": "drimco.net",
+      "funnel": "Awaiting Reply",
+      "country": "Germany"
+    },
+    {
+      "id": 302925271,
+      "name": "OKAPI:Orbits",
+      "domain": "okapiorbits.space",
+      "funnel": "Pre-lead",
+      "country": "Germany"
+    },
+    {
+      "id": 304299816,
+      "name": "FinTecSystems",
+      "domain": "fintecsystems.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 311186550,
+      "name": "Nova Carbon",
+      "domain": "nova-carbon.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311601014,
+      "name": "Bounti",
+      "domain": "bounti.co",
+      "funnel": "Pre-lead",
+      "country": "Germany"
+    },
+    {
+      "id": 311995682,
+      "name": "Mendo",
+      "domain": "mendo.cloud",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 312444967,
+      "name": "Olyzon",
+      "domain": "olyzon.tv",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 312898587,
+      "name": "Lissi",
+      "domain": "lissi.id",
+      "funnel": "Pre-lead",
+      "country": "Germany"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Tyrone Tee",
+      "external": "Benjamin Bieler",
+      "externalEmail": "benjamin.bieler@ventechvc.com",
+      "score": 0.9983236218756361,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Victor Jolly",
+      "externalEmail": "victor.jolly@ventechvc.com",
+      "score": 0.9982623795137406,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Jean Bourcereau",
+      "externalEmail": "jean.bourcereau@ventechvc.com",
+      "score": 0.9817586075524335,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Salle Paris",
+      "externalEmail": "salle_paris@ventechvc.com",
+      "score": 0.9803653041744653,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Jean Bourcereau",
+      "externalEmail": "jean.bourcereau@ventechvc.com",
+      "score": 0.9526800952741974,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Victor Jolly",
+      "externalEmail": "victor.jolly@ventechvc.com",
+      "score": 0.9497553825013034,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Salle Paris",
+      "externalEmail": "salle_paris@ventechvc.com",
+      "score": 0.9475234661067261,
+      "linkedin": false
+    },
+    {
+      "internal": "Laurence Garrett",
+      "external": "Manon Truchy",
+      "externalEmail": "mtruchy@ardentadvisors.com",
+      "score": 0.8,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Nicolas Barthalon",
+      "externalEmail": "nicolas.barthalon@ventechvc.com",
+      "score": 0.5112871582822052,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Yakun Wang",
+      "externalEmail": "yakun.wang@ventechvc.com",
+      "score": 0.43191817430024815,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on alias Ventech (prefix; incl. 'Ventech Vc', 'Ventech And Educapital'). Affinity company Ventech (ventechvc.com); Ventech China (ventechchina.com) is a separate record and was not used. Top 10 of 12 relationships kept; note 'Salle Paris' (salle_paris@ventechvc.com) is a Ventech meeting-room account that Affinity scores as a contact. Live: last contact 2026-04-14 coffee Tyrone Tee x Benjamin Bieler."
+}

@@ -1,0 +1,333 @@
+{
+  "slug": "breega",
+  "affinity_company_id": 262915260,
+  "affinity_domain": "breega.com",
+  "pipeline": [
+    {
+      "id": 152837717,
+      "name": "Gymlib",
+      "domain": "gymlib.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 220453053,
+      "name": "iBanFirst",
+      "domain": "ibanfirst.com",
+      "funnel": "Passed",
+      "country": "Belgium"
+    },
+    {
+      "id": 284149104,
+      "name": "Qobra",
+      "domain": "qobra.co",
+      "funnel": "Deal",
+      "country": "France"
+    },
+    {
+      "id": 285398724,
+      "name": "Osu",
+      "domain": "payosu.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 285861561,
+      "name": "Ukio",
+      "domain": "stayukio.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289470473,
+      "name": "Carbonmaps",
+      "domain": "carbonmaps.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289746742,
+      "name": "Kovalee.app",
+      "domain": "kovalee.app",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289760477,
+      "name": "Cuvva",
+      "domain": "cuvva.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289760881,
+      "name": "Moneybox",
+      "domain": "moneyboxapp.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289761928,
+      "name": "Lemonway",
+      "domain": "lemonway.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763513,
+      "name": "FretLink",
+      "domain": "fretlink.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764106,
+      "name": "SENCROP",
+      "domain": "sencrop.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764306,
+      "name": "21Buttons",
+      "domain": "21buttons.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289765019,
+      "name": "Gojob",
+      "domain": "gojob.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765693,
+      "name": "Ubble.ai",
+      "domain": "ubble.ai",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289765859,
+      "name": "Trustpair",
+      "domain": "trustpair.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766666,
+      "name": "Didomi",
+      "domain": "didomi.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289767357,
+      "name": "NEOBRAIN",
+      "domain": "neobrain.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767825,
+      "name": "Libeo",
+      "domain": "libeo.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767888,
+      "name": "reciTAL",
+      "domain": "recital.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768161,
+      "name": "Coverflex",
+      "domain": "coverflex.com",
+      "funnel": "Passed",
+      "country": "Portugal"
+    },
+    {
+      "id": 289768674,
+      "name": "Exotec",
+      "domain": "exotec.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769072,
+      "name": "Alice & Bob",
+      "domain": "alice-bob.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769744,
+      "name": "CrowdSec",
+      "domain": "crowdsec.net",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769763,
+      "name": "Sharelock",
+      "domain": "sharelock.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770044,
+      "name": "Jump",
+      "domain": "join-jump.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289770175,
+      "name": "Dalma",
+      "domain": "dalma.co",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289770326,
+      "name": "Keebo",
+      "domain": "keebo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289771103,
+      "name": "Send Technology Solutions Ltd",
+      "domain": "send.technology",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772581,
+      "name": "Apryl Fertility Benefits",
+      "domain": "apryl.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 293726776,
+      "name": "Muzzo",
+      "domain": "muzzo.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293726842,
+      "name": "EyeLights",
+      "domain": "eye-lights.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 296510002,
+      "name": "malibou",
+      "domain": "malibou.co",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 298733620,
+      "name": "Entalpic",
+      "domain": "entalpic.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 308969070,
+      "name": "InSpek",
+      "domain": "inspek-solutions.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311186580,
+      "name": "Ensol",
+      "domain": "goensol.com",
+      "funnel": "Lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "David Blyghton",
+      "external": "Ben Marrel",
+      "externalEmail": "ben.marrel@breega.com",
+      "score": 0.9979121142137575,
+      "linkedin": false
+    },
+    {
+      "internal": "David Blyghton",
+      "external": "Dan Shellard",
+      "externalEmail": "dan.shellard@breega.com",
+      "score": 0.9979121142137575,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Ben Marrel",
+      "externalEmail": "ben.marrel@breega.com",
+      "score": 0.9935230306529653,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Nour Alnuaimi",
+      "externalEmail": "nour.alnuaimi@breega.com",
+      "score": 0.9889706093003161,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Shim Jounghyun",
+      "externalEmail": "shim.jounghyun@breega.com",
+      "score": 0.9880086013094272,
+      "linkedin": false
+    },
+    {
+      "internal": "Tyrone Tee",
+      "external": "Shim Jounghyun",
+      "externalEmail": "shim.jounghyun@breega.com",
+      "score": 0.9803653041744653,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Augustin Blanchard",
+      "externalEmail": "ablanchard@tikehaucapital.com",
+      "score": 0.9717028519052485,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Augustin Blanchard",
+      "externalEmail": "ablanchard@tikehaucapital.com",
+      "score": 0.970912499714501,
+      "linkedin": false
+    },
+    {
+      "internal": "Abhishek Lahoti",
+      "external": "Arnaud Hochart",
+      "externalEmail": "arnaud.hochart@breega.com",
+      "score": 0.9599718944502644,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Dan Shellard",
+      "externalEmail": "dan.shellard@breega.com",
+      "score": 0.4,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on aliases Breega/Breega Capital (incl. 'Breega And Supernova Invest'). Affinity company Breega (breega.com). Top 10 kept after dropping Anna Faulkner rows; Augustin Blanchard (Tikehau) appears on the Breega record via shared deal threads. Live: last contact 2026-07-31 (011h/Fond-ICO co-investor email thread incl. Sam Brooks, Ronan Shally)."
+}

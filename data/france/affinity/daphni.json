@@ -1,0 +1,382 @@
+{
+  "slug": "daphni",
+  "affinity_company_id": 1787584,
+  "affinity_domain": "daphni.com",
+  "pipeline": [
+    {
+      "id": 124897296,
+      "name": "Antescofo",
+      "domain": "antescofo.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 262503489,
+      "name": "comet",
+      "domain": "comet.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 281480778,
+      "name": "Leocare",
+      "domain": "leocare.eu",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 284362973,
+      "name": "Memo Bank",
+      "domain": "memo.bank",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 284391952,
+      "name": "Foxintelligence",
+      "domain": "foxintelligence.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 285052008,
+      "name": "Witco",
+      "domain": "witco.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 286270893,
+      "name": "Animaj",
+      "domain": "animaj.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289470473,
+      "name": "Carbonmaps",
+      "domain": "carbonmaps.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289761578,
+      "name": "Lifen",
+      "domain": "lifen.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289762469,
+      "name": "Agricool",
+      "domain": "agricool.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763513,
+      "name": "FretLink",
+      "domain": "fretlink.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764987,
+      "name": "Another Brain",
+      "domain": "anotherbrain.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765691,
+      "name": "Shine.fr",
+      "domain": "shine.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766230,
+      "name": "Double",
+      "domain": "withdouble.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289766709,
+      "name": "Stockly",
+      "domain": "stockly.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289766734,
+      "name": "Back Market",
+      "domain": "backmarket.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289767154,
+      "name": "PASQAL",
+      "domain": "pasqal.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767462,
+      "name": "ZOE",
+      "domain": "joinzoe.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289769745,
+      "name": "hemea (ex-Travauxlib)",
+      "domain": "hemea.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769918,
+      "name": "starton",
+      "domain": "starton.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289770267,
+      "name": "Faume.co",
+      "domain": "faume.co",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771019,
+      "name": "apiday",
+      "domain": "apiday.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772635,
+      "name": "JUST.",
+      "domain": "getjust.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772726,
+      "name": "dema.ai",
+      "domain": "dema.ai",
+      "funnel": "Lead",
+      "country": "Sweden"
+    },
+    {
+      "id": 294581865,
+      "name": "Ida",
+      "domain": "ai-ida.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 296509984,
+      "name": "Pruna AI",
+      "domain": "pruna.ai",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 296915739,
+      "name": "cozycozy.com",
+      "domain": "cozycozy.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 298733603,
+      "name": "Ankar.ai",
+      "domain": "ankar.ai",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 300447034,
+      "name": "Albatross AI",
+      "domain": "usealbatross.ai",
+      "funnel": "Pre-lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 301624648,
+      "name": "Kleio",
+      "domain": "kleio.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 304301206,
+      "name": "Aguablanca",
+      "domain": "aguablanca.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 305263405,
+      "name": "KERYS Software",
+      "domain": "kerys.software",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 309752647,
+      "name": "Logistica OS GmbH",
+      "domain": "logistica-os.com",
+      "funnel": "Pre-lead",
+      "country": "Germany"
+    },
+    {
+      "id": 310237824,
+      "name": "TerraSpark",
+      "domain": "terraspark.energy",
+      "funnel": "Pre-lead",
+      "country": "Luxembourg"
+    },
+    {
+      "id": 311118593,
+      "name": "Alpa",
+      "domain": "getalpa.com",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 311186450,
+      "name": "Lithosquare",
+      "domain": "lithosquare.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 311186681,
+      "name": "Rocapine",
+      "domain": "rocapi.ne",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311601058,
+      "name": "kolet.com",
+      "domain": "kolet.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311601079,
+      "name": "baCta",
+      "domain": "bacta.bio",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311601110,
+      "name": "Edumapper",
+      "domain": "edumapper.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 312445104,
+      "name": "Certo",
+      "domain": "askcerto.com",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 312898523,
+      "name": "Astral Systems",
+      "domain": "astralsystems.com",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 312898600,
+      "name": "Ternary Therapeutics",
+      "domain": "ternarytx.co.uk",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "William De Quant",
+      "external": "Stanislas Lot",
+      "externalEmail": "stanislas@daphni.com",
+      "score": 0.9999684707854959,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Kyang Yung",
+      "externalEmail": "kyang@coalition.vc",
+      "score": 0.9959282842176851,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Pierre-Eric Leibovici",
+      "externalEmail": "pel@daphni.com",
+      "score": 0.9937696311205302,
+      "linkedin": false
+    },
+    {
+      "internal": "Irena Goldenberg",
+      "external": "Jonas Simonin",
+      "externalEmail": "jonas@daphni.com",
+      "score": 0.9927314886078933,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Pierre-Yves Meerschman",
+      "externalEmail": "pym@daphni.com",
+      "score": 0.9818807479431183,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Stanislas Lot",
+      "externalEmail": "stanislas@daphni.com",
+      "score": 0.9608853305356984,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Pierre-Yves Meerschman",
+      "externalEmail": "pym@daphni.com",
+      "score": 0.9475234661067261,
+      "linkedin": false
+    },
+    {
+      "internal": "Tom Neuberger",
+      "external": "Pierre-Eric Leibovici",
+      "externalEmail": "pel@daphni.com",
+      "score": 0.7277258872223978,
+      "linkedin": false
+    },
+    {
+      "internal": "Tom Neuberger",
+      "external": "Jonas Simonin",
+      "externalEmail": "jonas@daphni.com",
+      "score": 0.7,
+      "linkedin": false
+    },
+    {
+      "internal": "Tom Neuberger",
+      "external": "Kyang Yung",
+      "externalEmail": "kyang@coalition.vc",
+      "score": 0.3411423008406768,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on alias Daphni (incl. 'Daphni SAS', 'Daphni And Motier Ventures' co-investor strings). Affinity company Daphni (daphni.com). Top 10 of 12 qualifying relationships kept after dropping Emily Tan and Anna Faulkner rows; Kyang Yung now at Coalition (ex-daphni contact on record). Live: last contact 2026-06-16 meeting (Irena Goldenberg/Tom Neuberger with Pierre-Eric Leibovici, Jonas Simonin)."
+}

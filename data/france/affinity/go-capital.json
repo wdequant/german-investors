@@ -1,0 +1,65 @@
+{
+  "slug": "go-capital",
+  "affinity_company_id": 1534172,
+  "affinity_domain": "gocapital.fr",
+  "pipeline": [
+    {
+      "id": 289764094,
+      "name": "Energiency",
+      "domain": "energiency.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 289766037,
+      "name": "BuyCo",
+      "domain": "buyco.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770881,
+      "name": "Zest",
+      "domain": "zestmeup.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771317,
+      "name": "QOS Energy",
+      "domain": "qosenergy.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 294012283,
+      "name": "Secure-IC",
+      "domain": "secure-ic.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 297318376,
+      "name": "Dealt",
+      "domain": "dealt.fr",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 301577672,
+      "name": "Reelevant",
+      "domain": "reelevant.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    }
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": [
+      "Tony Zappala"
+    ],
+    "last": "2021-05",
+    "context": "Last contact 18 May 2021: email 'Alkemics' from Frederic Le Brun (GO Capital) to Tony Zappala. History dates back to 2015 deal correspondence (Talentsoft-era threads); no meetings ever logged and no live relationship scores remain."
+  },
+  "notes": "Pipeline matched on alias GO Capital. Affinity company GO CAPITAL (gocapital.fr). No live relationship scores; dormant on Tony Zappala since May 2021 (Frederic Le Brun email 'Alkemics')."
+}

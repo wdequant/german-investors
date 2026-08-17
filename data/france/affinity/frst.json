@@ -1,0 +1,200 @@
+{
+  "slug": "frst",
+  "affinity_company_id": 221254684,
+  "affinity_domain": "frst.vc",
+  "pipeline": [
+    {
+      "id": 285378836,
+      "name": "Attention",
+      "domain": "attention.tech",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 286249905,
+      "name": "Formance",
+      "domain": "formance.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289765590,
+      "name": "Castor",
+      "domain": "castordoc.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289769588,
+      "name": "Polar Analytics",
+      "domain": "polaranalytics.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": null
+    },
+    {
+      "id": 289769888,
+      "name": "Cajoo",
+      "domain": "cajoo.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770277,
+      "name": "Electra",
+      "domain": "go-electra.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289770290,
+      "name": "tulipshare",
+      "domain": "tulipshare.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289771249,
+      "name": "Riot",
+      "domain": "tryriot.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289771290,
+      "name": "Orus",
+      "domain": "orus.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772366,
+      "name": "Maki People",
+      "domain": "makipeople.com",
+      "funnel": "Awaiting Reply",
+      "country": "United States"
+    },
+    {
+      "id": 290276597,
+      "name": "Bastion",
+      "domain": "bastion.tech",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 293728278,
+      "name": "Escape",
+      "domain": "escape.tech",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 294012458,
+      "name": "Piana",
+      "domain": "getpiana.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 294012538,
+      "name": "Poolside",
+      "domain": "poolside.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 294581865,
+      "name": "Ida",
+      "domain": "ai-ida.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 295908768,
+      "name": "Pelikan Mobility",
+      "domain": "pelikan-mobility.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 300262154,
+      "name": "Command",
+      "domain": "command.ai",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 302925375,
+      "name": "Spiko",
+      "domain": "spiko.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 302925403,
+      "name": "Be Parallel",
+      "domain": "beparallel.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 305534713,
+      "name": "Elastics Trading Co.",
+      "domain": "elastics.ai",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 306300503,
+      "name": "Pigment",
+      "domain": "pigment.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 308969287,
+      "name": "Freeda",
+      "domain": "freeda.so",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311777654,
+      "name": "Helical",
+      "domain": "helical.bio",
+      "funnel": "Awaiting Reply",
+      "country": "Luxembourg"
+    },
+    {
+      "id": 311995934,
+      "name": "Condor Energy",
+      "domain": "condor.energy",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 312680074,
+      "name": "KelAI",
+      "domain": "kelaitech.com",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Aude Flecchia",
+      "external": "Samuel Fitoussi",
+      "externalEmail": "samuel@frst.vc",
+      "score": 0.9991669648273579,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Bruno Raillard",
+      "externalEmail": "bruno@frst.vc",
+      "score": 0.8277258872223978,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on alias Frst/FRST (incl. 'Frst Capital', 'Frst VC'). Affinity company Frst (frst.vc). Only 2 relationships exist, both kept (Aude Flecchia x Samuel Fitoussi, Harry Williams x Bruno Raillard). Live: last contact 2026-07-15 meeting Harry Williams x Bruno Raillard."
+}

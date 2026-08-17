@@ -1,0 +1,172 @@
+{
+  "demeter": {
+    "fund_last": "2024-06-28",
+    "contacts": {
+      "Olivier Bordelanne": {
+        "last": "2023-12-21",
+        "mismatch": true
+      },
+      "Eric Marty": {
+        "last": "2023-12-19",
+        "mismatch": true
+      },
+      "Valentine Clinkspoor": {
+        "last": "2023-12-19",
+        "mismatch": true
+      }
+    }
+  },
+  "daphni": {
+    "fund_last": "2026-06-16",
+    "contacts": {
+      "Stanislas Lot": {
+        "last": "2024-10-16",
+        "mismatch": false
+      },
+      "Kyang Yung": {
+        "last": "2025-03-19",
+        "mismatch": false
+      },
+      "Pierre-Eric Leibovici": {
+        "last": "2026-06-16",
+        "mismatch": false
+      }
+    }
+  },
+  "saint-james": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "50-partners": {
+    "fund_last": "2018-11-08",
+    "contacts": {
+      "Jean Lebrument": {
+        "last": "2023-12-13",
+        "mismatch": true
+      },
+      "Kevin Bourgeois": {
+        "last": "2023-08-15",
+        "mismatch": true
+      }
+    }
+  },
+  "ventech": {
+    "fund_last": "2026-04-14",
+    "contacts": {
+      "Benjamin Bieler": {
+        "last": "2026-04-14",
+        "mismatch": false
+      },
+      "Victor Jolly": {
+        "last": "2024-06-12",
+        "mismatch": false
+      },
+      "Jean Bourcereau": {
+        "last": "2024-06-12",
+        "mismatch": false
+      }
+    }
+  },
+  "breega": {
+    "fund_last": "2026-07-31",
+    "contacts": {
+      "Ben Marrel": {
+        "last": "2026-07-31",
+        "mismatch": false
+      },
+      "Dan Shellard": {
+        "last": "2025-07-21",
+        "mismatch": false
+      },
+      "Nour Alnuaimi": {
+        "last": "2026-06-30",
+        "mismatch": false
+      }
+    }
+  },
+  "go-capital": {
+    "fund_last": "2021-05-18",
+    "contacts": {}
+  },
+  "evolem": {
+    "fund_last": null,
+    "contacts": {}
+  },
+  "bpifrance": {
+    "fund_last": "2026-08-14",
+    "contacts": {
+      "Caroline Lebel": {
+        "last": "2026-07-31",
+        "mismatch": true
+      },
+      "Mamoun Idrissi": {
+        "last": "2026-05-07",
+        "mismatch": true
+      },
+      "Ugo Varrasso": {
+        "last": "2026-07-02",
+        "mismatch": true
+      }
+    }
+  },
+  "singular": {
+    "fund_last": "2026-08-10",
+    "contacts": {
+      "Maud Larbey": {
+        "last": "2026-05-21",
+        "mismatch": true
+      },
+      "Henri Tilloy": {
+        "last": "2026-08-08",
+        "mismatch": true
+      },
+      "Jeremy Uzan": {
+        "last": "2026-06-15",
+        "mismatch": true
+      }
+    }
+  },
+  "frst": {
+    "fund_last": "2026-07-15",
+    "contacts": {
+      "Samuel Fitoussi": {
+        "last": "2026-06-26",
+        "mismatch": false
+      },
+      "Bruno Raillard": {
+        "last": "2026-07-15",
+        "mismatch": false
+      }
+    }
+  },
+  "isai": {
+    "fund_last": "2026-08-07",
+    "contacts": {
+      "William Vermont": {
+        "last": "2026-04-01",
+        "mismatch": true
+      },
+      "Christophe Poupinel": {
+        "last": "2026-02-11",
+        "mismatch": true
+      },
+      "Christophe Raynaud": {
+        "last": "2026-06-09",
+        "mismatch": true
+      }
+    }
+  },
+  "otium": {
+    "fund_last": "2025-06-06",
+    "contacts": {
+      "Pierre Menard": {
+        "last": "2024-02-14",
+        "mismatch": true
+      }
+    }
+  },
+  "hexa": {
+    "fund_last": "2013-04-09",
+    "contacts": {}
+  }
+}

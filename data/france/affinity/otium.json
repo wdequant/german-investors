@@ -1,0 +1,123 @@
+{
+  "slug": "otium",
+  "affinity_company_id": 208433259,
+  "affinity_domain": "otiumventure.com",
+  "pipeline": [
+    {
+      "id": 152838511,
+      "name": "Source(d)",
+      "domain": "sourced.tech",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 262503489,
+      "name": "comet",
+      "domain": "comet.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 285462714,
+      "name": "Amenitiz",
+      "domain": "amenitiz.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 289760314,
+      "name": "Stratumn",
+      "domain": "stratumn.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763530,
+      "name": "Octoly",
+      "domain": "octoly.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763560,
+      "name": "Shippeo",
+      "domain": "shippeo.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764495,
+      "name": "Owkin",
+      "domain": "owkin.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289764765,
+      "name": "Feed.",
+      "domain": "feed.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289766314,
+      "name": "HARi&CO",
+      "domain": "hari-co.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766367,
+      "name": "ProovStation",
+      "domain": "proovstation.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768580,
+      "name": "Katoo",
+      "domain": "katooapp.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Spain"
+    },
+    {
+      "id": 289771416,
+      "name": "Kiliba",
+      "domain": "kiliba.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289772635,
+      "name": "JUST.",
+      "domain": "getjust.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293728301,
+      "name": "Silvr",
+      "domain": "silvr.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 311186580,
+      "name": "Ensol",
+      "domain": "goensol.com",
+      "funnel": "Lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Pierre Menard",
+      "externalEmail": "pierre.menard@otiumcapital.com",
+      "score": 0.37560498398195696,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on aliases Otium Capital/Otium (incl. legacy 'Otium Venture'). Affinity company Otium Capital (otiumventure.com + otiumcapital.com domains). Single live relationship (Jean Tardy-Joubert x Pierre Menard, 0.38); last contact 2025-06-06 Ecorobotix Q&A session (Tony Zappala, Tom Neuberger with Olivier Nantois of Otium)."
+}

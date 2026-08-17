@@ -1,0 +1,179 @@
+{
+  "slug": "demeter",
+  "affinity_company_id": 162559770,
+  "affinity_domain": "demeter-im.com",
+  "pipeline": [
+    {
+      "id": 284821033,
+      "name": "Tchek",
+      "domain": "tchek.fr",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289760677,
+      "name": "Opendatasoft",
+      "domain": "opendatasoft.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289763719,
+      "name": "Naïo Technologies",
+      "domain": "naio-technologies.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764106,
+      "name": "SENCROP",
+      "domain": "sencrop.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764848,
+      "name": "Cityscoot",
+      "domain": "cityscoot.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765005,
+      "name": "Aledia",
+      "domain": "aledia.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765749,
+      "name": "Zenpark",
+      "domain": "zenpark.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289766117,
+      "name": "envelio",
+      "domain": "envelio.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289766165,
+      "name": "Plan A",
+      "domain": "plana.earth",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289766593,
+      "name": "Foodvisor",
+      "domain": "foodvisor.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767189,
+      "name": "Jungle Concept S.A.",
+      "domain": "jungle.bio",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767440,
+      "name": "Pony",
+      "domain": "getapony.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771643,
+      "name": "GIREVE",
+      "domain": "gireve.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772683,
+      "name": "CarbonWorks",
+      "domain": "carbonworks.bio",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772686,
+      "name": "Hyperplan",
+      "domain": "hyperplan.fr",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293125604,
+      "name": "Outsight",
+      "domain": "outsight.ai",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295039993,
+      "name": "Crop.Zone",
+      "domain": "crop.zone",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 301135121,
+      "name": "AISPRID",
+      "domain": "aisprid.com",
+      "funnel": "Lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Olivier Bordelanne",
+      "externalEmail": "olivier.bordelanne@demeter-im.com",
+      "score": 0.9546060265637623,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Olivier Bordelanne",
+      "externalEmail": "olivier.bordelanne@demeter-im.com",
+      "score": 0.31645668419661044,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Eric Marty",
+      "externalEmail": "eric.marty@demeter-im.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Valentine Clinkspoor",
+      "externalEmail": "valentine.clinkspoor@demeter-im.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Eric Marty",
+      "externalEmail": "eric.marty@demeter-im.com",
+      "score": 0.1,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Valentine Clinkspoor",
+      "externalEmail": "valentine.clinkspoor@demeter-im.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on investor aliases Demeter/Demeter Partners/Demeter IM (prefix, case/punct-insensitive) against _list-entries.json. Affinity company Demeter (demeter-im.com). Relationships are Demeter IM team members; internal exclusions applied. Fund last-contact 2024-06-28 (Digital Equity Club meeting incl. Tony Zappala)."
+}

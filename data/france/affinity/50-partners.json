@@ -1,0 +1,144 @@
+{
+  "slug": "50-partners",
+  "affinity_company_id": 1649629,
+  "affinity_domain": "50partners.fr",
+  "pipeline": [
+    {
+      "id": 197480471,
+      "name": "Supermood",
+      "domain": "supermood.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289762174,
+      "name": "Brigad",
+      "domain": "brigad.co",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763020,
+      "name": "DataDome",
+      "domain": "datadome.co",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289764094,
+      "name": "Energiency",
+      "domain": "energiency.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 289764632,
+      "name": "Woleet",
+      "domain": "woleet.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765824,
+      "name": "Wakeo",
+      "domain": "wakeo.co",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289767213,
+      "name": "Deliver.ee",
+      "domain": "deliver.ee",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771795,
+      "name": "Choose SAS",
+      "domain": "appchoose.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772297,
+      "name": "Eden AI",
+      "domain": "edenai.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772493,
+      "name": "Corporatings",
+      "domain": "corporatings.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 290914803,
+      "name": "Kamino Retail",
+      "domain": "kaminoretail.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293728021,
+      "name": "Cryptr",
+      "domain": "cryptr.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 295908746,
+      "name": "Surge",
+      "domain": "surge.care",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 295908823,
+      "name": "Corma",
+      "domain": "corma.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 311601085,
+      "name": "Ewake",
+      "domain": "ewake.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 313527127,
+      "name": "Primaa",
+      "domain": "primaalab.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "William De Quant",
+      "external": "Jean Lebrument",
+      "externalEmail": "jean@brigad.co",
+      "score": 0.9827400871398451,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Jean Lebrument",
+      "externalEmail": "jean@brigad.co",
+      "score": 0.9503834987899196,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Kevin Bourgeois",
+      "externalEmail": "kevin@supermood.com",
+      "score": 0.1,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on aliases 50 Partners/50Partners (incl. '50 Partners Santé'). Affinity company 50 Partners (50partners.fr). Only 3 relationships exist, all kept; strongest contacts are portfolio founders (Jean Lebrument, Brigad) rather than fund staff. Fund last-contact 2018-11-08 (large multi-attendee event)."
+}

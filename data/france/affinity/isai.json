@@ -1,0 +1,452 @@
+{
+  "slug": "isai",
+  "affinity_company_id": 1527466,
+  "affinity_domain": "isai.fr",
+  "pipeline": [
+    {
+      "id": 1552846,
+      "name": "Boticca",
+      "domain": "boticca.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 220300485,
+      "name": "Copado",
+      "domain": "copado.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 260529472,
+      "name": "360Learning",
+      "domain": "en.360learning.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 284388048,
+      "name": "Fleet",
+      "domain": "fleet.co",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 284760231,
+      "name": "Beamy",
+      "domain": "beamy.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 286544086,
+      "name": "Hyperlex",
+      "domain": "hyperlex.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 288256080,
+      "name": "Canopy",
+      "domain": "gocanopy.tech",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289760005,
+      "name": "Vade Secure",
+      "domain": "vadesecure.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289760239,
+      "name": "BlaBlaCar",
+      "domain": "blablacar.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289760581,
+      "name": "Shopmium",
+      "domain": "shopmium.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289760710,
+      "name": "Devo Spain",
+      "domain": "devo.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289761082,
+      "name": "Tinyclues",
+      "domain": "tinyclues.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289761566,
+      "name": "Invivox",
+      "domain": "invivox.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762010,
+      "name": "CodinGame",
+      "domain": "codingame.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289762553,
+      "name": "Privateaser",
+      "domain": "privateaser.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289762677,
+      "name": "Expensya",
+      "domain": "expensya.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289762832,
+      "name": "Storetail",
+      "domain": "storetail.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289763020,
+      "name": "DataDome",
+      "domain": "datadome.co",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289763578,
+      "name": "Adikteev",
+      "domain": "adikteev.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289763654,
+      "name": "Quitoque",
+      "domain": "quitoque.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764041,
+      "name": "CardioLogs",
+      "domain": "cardiologs.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289764094,
+      "name": "Energiency",
+      "domain": "energiency.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 289764500,
+      "name": "Zelros",
+      "domain": "zelros.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764549,
+      "name": "SnapCall",
+      "domain": "snapcall.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289764997,
+      "name": "legalstart.fr",
+      "domain": "legalstart.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765319,
+      "name": "InsideBoard",
+      "domain": "insideboard.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766016,
+      "name": "Pricemoov",
+      "domain": "pricemoov.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766317,
+      "name": "Teemo",
+      "domain": "teemo.co",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289766722,
+      "name": "Snipfeed",
+      "domain": "snipfeed.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289767452,
+      "name": "Wecasa",
+      "domain": "wecasa.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289768012,
+      "name": "Koyeb",
+      "domain": "koyeb.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 289768250,
+      "name": "Upfluence",
+      "domain": "upfluence.com",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289769176,
+      "name": "Prose",
+      "domain": "prose.com",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 289769343,
+      "name": "blackshark.ai",
+      "domain": "blackshark.ai",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Austria"
+    },
+    {
+      "id": 289769963,
+      "name": "teale",
+      "domain": "teale.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289770179,
+      "name": "StickyADS.tv",
+      "domain": "stickyads.tv",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289770530,
+      "name": "Ondorse",
+      "domain": "ondorse.co",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 289770688,
+      "name": "AssoConnect",
+      "domain": "assoconnect.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770689,
+      "name": "Flowdesk",
+      "domain": "flowdesk.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771068,
+      "name": "Obat",
+      "domain": "obat.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771318,
+      "name": "Arianee",
+      "domain": "arianee.org",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771390,
+      "name": "Axeptio",
+      "domain": "axeptio.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289771773,
+      "name": "CitizenPlane",
+      "domain": "citizenplane.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772053,
+      "name": "Foresight Works",
+      "domain": "foresight.works",
+      "funnel": "Deal",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772378,
+      "name": "Beebs",
+      "domain": "beebs.app",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289772624,
+      "name": "Naboo.app",
+      "domain": "naboo.app",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289772688,
+      "name": "Malt",
+      "domain": "malt.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 293728044,
+      "name": "ecoworks",
+      "domain": "ecoworks.tech",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 293728301,
+      "name": "Silvr",
+      "domain": "silvr.co",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 293728733,
+      "name": "Kestra",
+      "domain": "kestra.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 293729516,
+      "name": "Inicio / Recrute",
+      "domain": "go-inicio.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 306306611,
+      "name": "Temelion",
+      "domain": "temelion.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 312898583,
+      "name": "Revibe",
+      "domain": "revibe.me",
+      "funnel": "Pre-lead",
+      "country": "United Arab Emirates"
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Helena Richardson",
+      "external": "William Vermont",
+      "externalEmail": "william@isai.fr",
+      "score": 0.9970850599049917,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Christophe Poupinel",
+      "externalEmail": "cp@isai.fr",
+      "score": 0.9850840190165606,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Christophe Poupinel",
+      "externalEmail": "cp@isai.fr",
+      "score": 0.9803653041744653,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Christophe Raynaud",
+      "externalEmail": "christopheraynaud75@gmail.com",
+      "score": 0.9788325245629416,
+      "linkedin": false
+    },
+    {
+      "internal": "Helena Richardson",
+      "external": "Jeanpatrice Anciaux",
+      "externalEmail": "jp@isai.fr",
+      "score": 0.9740964356856556,
+      "linkedin": false
+    },
+    {
+      "internal": "Laurence Garrett",
+      "external": "Christophe Poupinel",
+      "externalEmail": "cp@isai.fr",
+      "score": 0.9692166097005185,
+      "linkedin": false
+    },
+    {
+      "internal": "Laurence Garrett",
+      "external": "Christophe Raynaud",
+      "externalEmail": "christopheraynaud75@gmail.com",
+      "score": 0.9358662277929437,
+      "linkedin": false
+    },
+    {
+      "internal": "Eoghan Dorman",
+      "external": "Jeanpatrice Anciaux",
+      "externalEmail": "jp@isai.fr",
+      "score": 0.7716703787691223,
+      "linkedin": false
+    },
+    {
+      "internal": "Jean Tardy-Joubert",
+      "external": "Christophe Raynaud",
+      "externalEmail": "christopheraynaud75@gmail.com",
+      "score": 0.5752179635005374,
+      "linkedin": false
+    },
+    {
+      "internal": "William De Quant",
+      "external": "Juliette Mopin",
+      "externalEmail": "juliette@isai.fr",
+      "score": 0.37560498398195696,
+      "linkedin": false
+    }
+  ],
+  "dormant": null,
+  "notes": "Pipeline matched on aliases ISAI/Isai Gestion (incl. ISAI Expansion/Build/Cap Venture fund names). Affinity company Isai (isai.fr). Top 10 of 12 relationships kept; Christophe Raynaud tracked on a personal gmail. Live: last contact 2026-08-07 (Eoghan Dorman email to Jean-Patrice Anciaux)."
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "evolem",
+  "affinity_company_id": 152146389,
+  "affinity_domain": "evolem.com",
+  "pipeline": [
+    {
+      "id": 284760231,
+      "name": "Beamy",
+      "domain": "beamy.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289762067,
+      "name": "Innovorder",
+      "domain": "innovorder.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289765689,
+      "name": "DATAGALAXY",
+      "domain": "datagalaxy.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769369,
+      "name": "Smartway",
+      "domain": "smartway.ai",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289769963,
+      "name": "teale",
+      "domain": "teale.io",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771390,
+      "name": "Axeptio",
+      "domain": "axeptio.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772613,
+      "name": "Reflect",
+      "domain": "getreflect.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293728990,
+      "name": "Fairlyne",
+      "domain": "fairlyne.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 293729100,
+      "name": "Riverse",
+      "domain": "riverse.io",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 300074804,
+      "name": "Jimini AI",
+      "domain": "jimini.ai",
+      "funnel": "Pre-lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": [],
+    "last": null,
+    "context": "Affinity company record exists (evolem.com) but has zero interaction history: no emails, no events, no last-contact and no team relationships recorded."
+  },
+  "notes": "Pipeline matched on alias Evolem (incl. 'Evolem Funds', 'Evolem Start'). Affinity company Evolem (evolem.com) exists but is a bare record: no interactions or relationships ever logged, hence dormant with no internal owner or date."
+}

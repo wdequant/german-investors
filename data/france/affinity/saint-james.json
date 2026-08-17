@@ -1,0 +1,112 @@
+{
+  "slug": "saint-james",
+  "affinity_company_id": 136335492,
+  "affinity_domain": "finsj.com",
+  "pipeline": [
+    {
+      "id": 289764298,
+      "name": "Wing",
+      "domain": "wing.eu",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766864,
+      "name": "Make.org",
+      "domain": "make.org",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767294,
+      "name": "Goshaba",
+      "domain": "goshaba.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289767443,
+      "name": "Bellman",
+      "domain": "bellman.immo",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289768693,
+      "name": "Qilibri",
+      "domain": "qilibri.fr",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289769114,
+      "name": "api.video",
+      "domain": "api.video",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289770116,
+      "name": "Omi",
+      "domain": "omi.so",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289771787,
+      "name": "Mapstr",
+      "domain": "mapstr.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289772507,
+      "name": "Autone",
+      "domain": "autone.io",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772745,
+      "name": "Elyn",
+      "domain": "elyn.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 296509445,
+      "name": "Augment",
+      "domain": "augment.org",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 300074852,
+      "name": "Freqens",
+      "domain": "freqens.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 305263341,
+      "name": "IDECSI",
+      "domain": "idecsi.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 311995951,
+      "name": "Cleo Labs",
+      "domain": "cleolabs.co",
+      "funnel": "Pre-lead",
+      "country": "France"
+    }
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": [],
+    "last": null,
+    "context": "Affinity company record exists (Financiere Saint James, finsj.com) but carries no interaction history at all: first/last email, events and last-contact are all empty and no team relationships are recorded."
+  },
+  "notes": "Pipeline matched on aliases Financière/Financiere Saint James and Saint James (prefix). Affinity company Financiere Saint James (finsj.com) found via semantic search only; record is a bare shell with no interaction history, hence dormant with no internal owner or date."
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "hexa",
+  "affinity_company_id": 1570456,
+  "affinity_domain": "efounders.com",
+  "pipeline": [
+    {
+      "id": 284391952,
+      "name": "Foxintelligence",
+      "domain": "foxintelligence.fr",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 287638066,
+      "name": "Marble",
+      "domain": "checkmarble.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 289761482,
+      "name": "Spendesk",
+      "domain": "spendesk.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289761709,
+      "name": "Aircall",
+      "domain": "aircall.io",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289764841,
+      "name": "Forest Admin",
+      "domain": "forestadmin.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289764865,
+      "name": "Slite",
+      "domain": "slite.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 289766022,
+      "name": "Upflow",
+      "domain": "upflow.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289766121,
+      "name": "Mention",
+      "domain": "mention.com",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289767964,
+      "name": "Cycle",
+      "domain": "cycle.app",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289768077,
+      "name": "Swan",
+      "domain": "swan.io",
+      "funnel": "Passed",
+      "country": "France"
+    },
+    {
+      "id": 289772532,
+      "name": "Dotfile",
+      "domain": "dotfile.com",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295040047,
+      "name": "Roundtable",
+      "domain": "roundtable.eu",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 295908784,
+      "name": "Okko",
+      "domain": "getokko.app",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 296510019,
+      "name": "Dialog",
+      "domain": "askdialog.com",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 298733564,
+      "name": "Filiz",
+      "domain": "filiz.io",
+      "funnel": "Hard to crack",
+      "country": "France"
+    },
+    {
+      "id": 302243330,
+      "name": "DermaScan",
+      "domain": "dermascan.fr",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 302925403,
+      "name": "Be Parallel",
+      "domain": "beparallel.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 309752601,
+      "name": "Basalt",
+      "domain": "getbasalt.ai",
+      "funnel": "Pre-lead",
+      "country": "United States"
+    },
+    {
+      "id": 310888580,
+      "name": "Rivage",
+      "domain": "rivage.tech",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 311601162,
+      "name": "Probo",
+      "domain": "getprobo.com",
+      "funnel": "Lead",
+      "country": "United States"
+    }
+  ],
+  "relationships": [],
+  "dormant": {
+    "internal": [
+      "Tony Zappala"
+    ],
+    "last": "2013-04",
+    "context": "Tracked in Affinity under the legacy eFounders record (efounders.com); last contact 9 Apr 2013, email from co-founder Thibaud Elziere to Tony Zappala (cc Quentin Nickmans). No interactions since the eFounders-to-Hexa rebrand; hexa.com in Affinity is an unrelated company (HEXA COM')."
+  },
+  "notes": "Pipeline matched on aliases Hexa/eFounders (13 'Hexa' + 9 'eFounders' investor strings; portfolio spot-check — Spendesk, Aircall, Slite, Upflow, Swan, Cycle, Dotfile — confirms the studio). Affinity tracks the fund under the legacy eFounders record (efounders.com, id 1570456); hexa.com in Affinity is an unrelated company ('HEXA COM''). No live relationships; dormant on Tony Zappala since Apr 2013 (Thibaud Elziere)."
+}
