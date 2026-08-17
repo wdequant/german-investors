@@ -1096,5 +1096,39 @@
    "last": null,
    "note": null
   }
+ },
+ "heartcore": {
+  "Christian Jepsen": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/cljepsen",
+   "known_internal": null,
+   "known_score": null,
+   "last": "2017-04-05",
+   "note": "Heartcore/ex-Sunstone GP, now SoundBoks board; old Fergal Mullen threads (Blackwood Seven 2016, Natural Cycles 2017); relationship decayed"
+  },
+  "Max Niederhofer": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/maxniederhofer",
+   "known_internal": "Fergal Mullen",
+   "known_score": 0.43,
+   "last": "2026-02-13",
+   "note": "Heartcore partner; recent personal email history with Fergal Mullen (Feb 2026); LinkedIn ties to Sam Brooks, Tony Zappala, Irena Goldenberg"
+  },
+  "Signe Marie Sveinbjørnsson": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/signemariesveinbjørnsson",
+   "known_internal": "Hannah Meehan",
+   "known_score": 0.43,
+   "last": "2025-12-10",
+   "note": "Heartcore Partner & COO; Dec 2025 thank-you thread with Will de Quant/Helena Richardson/Fergal Mullen (Jimmy and Laerke cc'd); Affinity enrichment stale (shows Nalik Ventures NED)"
+  },
+  "Levin Bunz": {
+   "found": true,
+   "linkedin": "https://linkedin.com/in/levinbunz",
+   "known_internal": "Gajan Rajanathan",
+   "known_score": 1.0,
+   "last": "2026-04-21",
+   "note": "now a Heartcore partner (Affinity still shows Calibration VC, ex-GFC); Highland knows him well from his GFC days - Gaj Rajanathan ~100% (coffee Dec 2025, email Apr 2026)"
+  }
  }
 }

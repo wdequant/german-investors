@@ -5510,5 +5510,423 @@
     ]
    }
   ]
+ },
+ "624015": {
+  "id": 624015,
+  "name": "Heartcore",
+  "connections": [
+   {
+    "person": "Björn Nilsen",
+    "title": null,
+    "linkedin": "https://linkedin.com/in/björn-nilsen-817b1691",
+    "via": [
+     {
+      "user": "Tom Neuberger",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Paulina Koschitz",
+    "title": "Venture Capitalist",
+    "linkedin": "https://linkedin.com/in/paulinakoschitz",
+    "via": [
+     {
+      "user": "Tom Neuberger",
+      "sources": [
+       "EMAIL",
+       "CALENDAR"
+      ]
+     },
+     {
+      "user": "Stan",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "EMAIL",
+       "CALENDAR",
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Christian Jepsen",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/cljepsen",
+    "via": [
+     {
+      "user": "Stan",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Jimmy Fussing Nielsen",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/jimmyfussing",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL",
+       "LINKEDIN",
+       "CALENDAR"
+      ]
+     },
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Aude Flecchia",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Stan",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Signe Marie Sveinbjørnsson",
+    "title": "Partner & COO",
+    "linkedin": "https://linkedin.com/in/signemariesveinbjørnsson",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL",
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Stan",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Michael Baczyk",
+    "title": "Investor",
+    "linkedin": "https://linkedin.com/in/michael-baczyk",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Signe Kaae Veistrup",
+    "title": "Legal Assistant",
+    "linkedin": "https://linkedin.com/in/signe-kaae-veistrup-869b171a5",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Kenza Zayani",
+    "title": "Investor",
+    "linkedin": "https://linkedin.com/in/kenza-zayani",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Mikkel Louekari Randsborg",
+    "title": "Head of Transactions, Senior Legal Counsel",
+    "linkedin": "https://linkedin.com/in/mikkel-louekari-randsborg-4ab276191",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Laerke Hansen",
+    "title": "Principal",
+    "linkedin": "https://linkedin.com/in/lærke-hansen",
+    "via": [
+     {
+      "user": "Lucinda Maxwell",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Yacine Ghalim",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/yacineghalim",
+    "via": [
+     {
+      "user": "Aude Flecchia",
+      "sources": [
+       "EMAIL",
+       "CALENDAR"
+      ]
+     },
+     {
+      "user": "Stan",
+      "sources": [
+       "EMAIL",
+       "CALENDAR"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL",
+       "LINKEDIN",
+       "CALENDAR"
+      ]
+     },
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Naza Metghalchi",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/naza-metghalchi",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Max Niederhofer",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/maxniederhofer",
+    "via": [
+     {
+      "user": "Stan",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Sam Brooks",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Bodi Tent",
+    "title": "Investment Team",
+    "linkedin": "https://linkedin.com/in/boditent",
+    "via": [
+     {
+      "user": "Tyrone Tee",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Magnus Melau",
+    "title": "ESG & Finance Manager",
+    "linkedin": "https://linkedin.com/in/magnus-melau-424aa0a2",
+    "via": [
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "EMAIL",
+       "CALENDAR",
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Levin Bunz",
+    "title": "Investor",
+    "linkedin": "https://linkedin.com/in/levinbunz",
+    "via": [
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   }
+  ]
  }
 }

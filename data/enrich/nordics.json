@@ -3077,6 +3077,67 @@
    ],
    "recent_total": 9,
    "recent_eu": 9
+  },
+  "heartcore": {
+   "website": "heartcore.com",
+   "partners": [
+    {
+     "name": "Christian Jepsen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Jimmy Fussing Nielsen",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Max Niederhofer",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Yacine Ghalim",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Signe Marie Sveinbjørnsson",
+     "title": null,
+     "linkedin": null
+    },
+    {
+     "name": "Naza Metghalchi",
+     "title": null,
+     "linkedin": null
+    }
+   ],
+   "co_investors": [
+    "Partech",
+    "Balderton",
+    "Eurazeo",
+    "Kima Ventures",
+    "Sunstone Life Science Ventures",
+    "Creandum",
+    "Headline",
+    "Bpifrance",
+    "Cherry Ventures",
+    "EIFO",
+    "Global Founders Capital",
+    "EQT Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "IXI",
+     "date": "2025-04-29",
+     "round": "SERIES_A",
+     "country": "Finland",
+     "domain": "ixieyewear.com",
+     "harmonic_company_id": 3175913
+    }
+   ],
+   "recent_total": 20,
+   "recent_eu": 9
   }
  },
  "angels": {

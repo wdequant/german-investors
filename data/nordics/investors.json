@@ -739,5 +739,24 @@
   "last_investment": "2026-07-24",
   "europe_share": 76.7,
   "linkedin": "https://linkedin.com/in/sebastianknutsson"
+ },
+ {
+  "urn": "urn:harmonic:investor:233101",
+  "name": "Heartcore",
+  "kind": "fund",
+  "category": "vc",
+  "cc": "DK",
+  "company_id": 624015,
+  "person_id": null,
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "entry_stage_focus": "SEED",
+  "sector_focus": "Communications & Information Technology",
+  "num_investments": 224,
+  "num_unicorns": 7,
+  "follow_on_rate": 0.43902439024390244,
+  "last_investment": "2026-07-16",
+  "europe_share": 61.5,
+  "linkedin": "https://linkedin.com/company/heartcorecapital"
  }
 ]

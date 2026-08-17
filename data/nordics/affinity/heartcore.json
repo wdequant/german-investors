@@ -1,0 +1,472 @@
+{
+  "slug": "heartcore",
+  "affinity_company_id": 220244517,
+  "affinity_domain": "heartcore.com",
+  "pipeline": [
+    {
+      "id": 311507303,
+      "name": "egide-tech",
+      "domain": "egide-tech.com",
+      "funnel": "Pre-lead",
+      "country": "France"
+    },
+    {
+      "id": 312066152,
+      "name": "Davis",
+      "domain": "meetdavis.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 312444897,
+      "name": "PhaseTree",
+      "domain": "phasetree.ai",
+      "funnel": "Pre-lead",
+      "country": "Denmark"
+    },
+    {
+      "id": 302234863,
+      "name": "wingbits.com",
+      "domain": "wingbits.com",
+      "funnel": "Lead",
+      "country": "Sweden"
+    },
+    {
+      "id": 298733449,
+      "name": "Quell",
+      "domain": "playquell.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 292221080,
+      "name": "rhinestone.wtf",
+      "domain": "rhinestone.wtf",
+      "funnel": "Pre-lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 294581615,
+      "name": "CarbonPool",
+      "domain": "carbonpool.earth",
+      "funnel": "Pre-lead",
+      "country": "Switzerland"
+    },
+    {
+      "id": 298733600,
+      "name": "Skynopy",
+      "domain": "skynopy.com",
+      "funnel": "Awaiting Reply",
+      "country": "France"
+    },
+    {
+      "id": 294012512,
+      "name": "quesma.com",
+      "domain": "quesma.com",
+      "funnel": "Pre-lead",
+      "country": "Poland"
+    },
+    {
+      "id": 293728647,
+      "name": "Byway",
+      "domain": "byway.travel",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 293727391,
+      "name": "Fast Travel Games",
+      "domain": "fasttravelgames.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Sweden"
+    },
+    {
+      "id": 263080659,
+      "name": "Quell",
+      "domain": "quell.tech",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289772042,
+      "name": "Kenbi",
+      "domain": "kenbi.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289770766,
+      "name": "Metacore",
+      "domain": "metacoregames.com",
+      "funnel": "Passed",
+      "country": "Finland"
+    },
+    {
+      "id": 268232585,
+      "name": "kive",
+      "domain": "kive.ai",
+      "funnel": "Lead",
+      "country": "Sweden"
+    },
+    {
+      "id": 289770474,
+      "name": "Luca",
+      "domain": "lucaedu.com",
+      "funnel": "Hard to crack",
+      "country": "Mexico"
+    },
+    {
+      "id": 289765856,
+      "name": "Orbex Space",
+      "domain": "orbex.space",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289768454,
+      "name": "MAJORITY",
+      "domain": "majority.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 285861561,
+      "name": "Ukio",
+      "domain": "stayukio.com",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 289770144,
+      "name": "FORMEL Skin",
+      "domain": "formelskin.de",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Germany"
+    },
+    {
+      "id": 289769786,
+      "name": "Zefir",
+      "domain": "zefir.fr",
+      "funnel": "Lead",
+      "country": "France"
+    },
+    {
+      "id": 289770264,
+      "name": "LIKEMINDED",
+      "domain": "likeminded.care",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289769903,
+      "name": "Layerise",
+      "domain": "layerise.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Denmark"
+    },
+    {
+      "id": 289768300,
+      "name": "Finematter",
+      "domain": "finematter.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289768466,
+      "name": "Front of the Pack",
+      "domain": "fotp.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289768330,
+      "name": "GOURMEY",
+      "domain": "gourmey.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "France"
+    },
+    {
+      "id": 1718318,
+      "name": "Ministry of Games - MOG",
+      "domain": "ministryofgames.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Finland"
+    },
+    {
+      "id": 289766362,
+      "name": "Taster",
+      "domain": "taster.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289767644,
+      "name": "Weezy",
+      "domain": "weezy.co.uk",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289763415,
+      "name": "TrapLight Games",
+      "domain": "traplightgames.com",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Finland"
+    },
+    {
+      "id": 289766329,
+      "name": "Prezi",
+      "domain": "prezi.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289769537,
+      "name": "Forecast",
+      "domain": "forecast.app",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 220947097,
+      "name": "Kaia Health",
+      "domain": "kaiahealth.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289768235,
+      "name": "Neo4j",
+      "domain": "neo4j.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289765385,
+      "name": "Aula",
+      "domain": "aula.education",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289761397,
+      "name": "Dubsmash",
+      "domain": "dubsmash.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 152838834,
+      "name": "Zolar Systems",
+      "domain": "zolar.de",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 152838511,
+      "name": "Source(d)",
+      "domain": "sourced.tech",
+      "funnel": "Passed",
+      "country": "Spain"
+    },
+    {
+      "id": 152837590,
+      "name": "Exporo",
+      "domain": "exporo.com",
+      "funnel": "Passed",
+      "country": "Germany"
+    },
+    {
+      "id": 289762767,
+      "name": "Kontakt.io",
+      "domain": "kontakt.io",
+      "funnel": "Lead",
+      "country": "United States"
+    },
+    {
+      "id": 289760256,
+      "name": "TravelPerk",
+      "domain": "travelperk.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289762142,
+      "name": "Blackwood Seven",
+      "domain": "blackwoodseven.com",
+      "funnel": "Lead",
+      "country": "Denmark"
+    },
+    {
+      "id": 304287733,
+      "name": "Peakon",
+      "domain": "peakon.com",
+      "funnel": "Passed",
+      "country": "United States"
+    },
+    {
+      "id": 289760617,
+      "name": "Seriously",
+      "domain": "seriously.com",
+      "funnel": "Passed",
+      "country": "Finland"
+    },
+    {
+      "id": 289760739,
+      "name": "Tyba",
+      "domain": "tyba.com",
+      "funnel": "Lead",
+      "country": "Spain"
+    },
+    {
+      "id": 289764443,
+      "name": "Natural Cycles",
+      "domain": "naturalcycles.com",
+      "funnel": "Passed",
+      "country": "Sweden"
+    },
+    {
+      "id": 289760151,
+      "name": "Aire",
+      "domain": "aire.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "United States"
+    },
+    {
+      "id": 289761811,
+      "name": "GameAnalytics",
+      "domain": "gameanalytics.com",
+      "funnel": "Passed",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289760481,
+      "name": "Freespee",
+      "domain": "freespee.com",
+      "funnel": "Lead",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 289764233,
+      "name": "shipbeat",
+      "domain": "shipbeat.com",
+      "funnel": "Lead",
+      "country": "Denmark"
+    },
+    {
+      "id": 289760682,
+      "name": "Crate.io",
+      "domain": "crate.io",
+      "funnel": "Deprioritised (free for all)",
+      "country": "Austria"
+    },
+    {
+      "id": 289765862,
+      "name": "addwish",
+      "domain": "addwish.com",
+      "funnel": "Lead",
+      "country": "Denmark"
+    },
+    {
+      "id": 204040862,
+      "name": "Tink",
+      "domain": "tink.se",
+      "funnel": "Passed",
+      "country": "Sweden"
+    },
+    {
+      "id": 289764948,
+      "name": "Memorado",
+      "domain": "memorado.com",
+      "funnel": "Lead",
+      "country": "Germany"
+    },
+    {
+      "id": 289763991,
+      "name": "Layar",
+      "domain": "layar.com",
+      "funnel": "Passed",
+      "country": "Netherlands"
+    },
+    {
+      "id": 152838098,
+      "name": "Neo Technology",
+      "domain": "neotechnology.com",
+      "funnel": "Passed",
+      "country": null
+    }
+  ],
+  "relationships": [
+    {
+      "internal": "Helena Richardson",
+      "external": "Deepka Rana",
+      "externalEmail": "deepka@northzone.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Gajan Rajanathan",
+      "external": "Levin Bunz",
+      "externalEmail": "levin@calibration.vc",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Fergal Mullen",
+      "external": "Jimmy Nielsen",
+      "externalEmail": "jimmy@heartcore.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Tyrone Tee",
+      "external": "Bodi Tent",
+      "externalEmail": "btent@accel.com",
+      "score": 1.0,
+      "linkedin": false
+    },
+    {
+      "internal": "Stan Laurent",
+      "external": "Yacine Ghalim",
+      "externalEmail": "yacine@heartcore.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Aude Flecchia",
+      "external": "Yacine Ghalim",
+      "externalEmail": "yacine@heartcore.com",
+      "score": 0.98,
+      "linkedin": false
+    },
+    {
+      "internal": "Jacob Bernstein",
+      "external": "Naza Metghalchi",
+      "externalEmail": "naza@eqtventures.com",
+      "score": 0.96,
+      "linkedin": false
+    },
+    {
+      "internal": "Lucinda Maxwell",
+      "external": "Lærke Hansen",
+      "externalEmail": "laerke@heartcore.com",
+      "score": 0.83,
+      "linkedin": false
+    },
+    {
+      "internal": "Harry Williams",
+      "external": "Yacine Ghalim",
+      "externalEmail": "yacine@heartcore.com",
+      "score": 0.81,
+      "linkedin": false
+    },
+    {
+      "internal": "Tom Neuberger",
+      "external": "Björn Nilsen",
+      "externalEmail": "bjorn@heartcore.com",
+      "score": 0.65,
+      "linkedin": false
+    }
+  ],
+  "notes": "Matched investor values 'Heartcore Capital' (31 entries), 'heartcore' (1), 'Snz And Heartcore' (1, Wingbits) plus legacy 'Sunstone Capital' (28) - Heartcore rebranded from Sunstone Capital's tech/consumer practice in 2019 and all plain 'Sunstone Capital' entries are tech/consumer deals (Prezi, Neo4j, Natural Cycles, TravelPerk, Peakon, Tink...), so kept. Skipped UserZoom: its 'Sunstone Capital' tag sits alongside 'TC Growth Partners (now Sunstone Capital Partners)' = US Sunstone Partners, not the Heartcore lineage. Four entries (TrapLight Games, TravelPerk, Natural Cycles, Tink) carry both Sunstone and Heartcore tags on the same list entry - counted once each; no duplicate list entries found. Union deduped to 56 unique companies. Relationships: top 10 by score after dropping departed internals (Emily Tan, Anna Faulkner, Isabel Wright appeared in results; Zina Alfa, Rachel Barbour-Fowles did not); live relationships strong - no dormant fallback needed."
+}
