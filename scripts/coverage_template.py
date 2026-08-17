@@ -254,9 +254,10 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
   <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
   <div id="fbpop" hidden>
     <div class="th">Feedback &amp; requests</div>
-    <p><b>Comment straight onto this page</b> — use the comment tool in the claude.ai bar above
-    (select any text or element and add a note). Will &amp; Claude review every thread, and you'll
-    get a reply on it when it ships.</p>
+    <p><b>Comment straight onto this page</b> — in the black claude.ai bar at the very top,
+    tap the <b>speech-bubble icon</b> (next to your avatar), then tap or select anything on this
+    page and write your note. Will &amp; Claude review every thread, and you'll get a reply on it
+    when it ships.</p>
     <p>Prefer email? <a id="fbmail" href="mailto:william@highlandeurope.com?subject=Sonar%20feedback&body=What%20I%27d%20like%3A%0A%0AWhere%20(region%20%2F%20fund%20%2F%20view)%3A%0A">Send it to Will</a>.</p>
     <button class="minibtn" id="fbclose">Got it</button>
   </div>
