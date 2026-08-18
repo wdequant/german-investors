@@ -1,0 +1,3343 @@
+{
+ "germany": {
+  "60863676": {
+   "name": "Aspora",
+   "domain": "aspora.com",
+   "country": "United Kingdom",
+   "date": "2025-06-15",
+   "round": "SERIES_B",
+   "funds": [
+    "gfc"
+   ]
+  },
+  "66575915": {
+   "name": "Pixel-Flo Ltd.",
+   "domain": "pixel-flo.com",
+   "country": "United Kingdom",
+   "date": "2026-07-09",
+   "round": "SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "56882407": {
+   "name": "reverse.fashion",
+   "domain": "reverse.fashion",
+   "country": "Germany",
+   "date": "2026-07-08",
+   "round": "SEED_EXTENSION",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "12741862": {
+   "name": "Proxima Fusion",
+   "domain": "proximafusion.com",
+   "country": "Germany",
+   "date": "2026-07-07",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "htgf",
+    "cherry",
+    "bayern-kapital",
+    "uvc-partners",
+    "burda"
+   ]
+  },
+  "76472938": {
+   "name": "CollimateHealth",
+   "domain": "collimatehealth.com",
+   "country": "Germany",
+   "date": "2026-06-15",
+   "round": "SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "1429845": {
+   "name": "Tacalyx GmbH",
+   "domain": "tacalyx.com",
+   "country": "Germany",
+   "date": "2026-04-29",
+   "round": "SEED_EXTENSION",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "58496149": {
+   "name": "Primogene GmbH",
+   "domain": "primogene.bio",
+   "country": "Germany",
+   "date": "2026-04-29",
+   "round": "SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "4425245": {
+   "name": "brainjo GmbH",
+   "domain": "brainjo.de",
+   "country": "Germany",
+   "date": "2026-04-20",
+   "round": "SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "4411412": {
+   "name": "Pixel Photonics",
+   "domain": "pixelphotonics.com",
+   "country": "Germany",
+   "date": "2026-04-13",
+   "round": "SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "75891718": {
+   "name": "Qurie GmbH",
+   "domain": "qurie.de",
+   "country": "Germany",
+   "date": "2026-04-01",
+   "round": "SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "10884209": {
+   "name": "INCIRT",
+   "domain": "incirt.de",
+   "country": "Germany",
+   "date": "2026-03-25",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "56733685": {
+   "name": "Umlaut.bio GmbH",
+   "domain": "umlaut.bio",
+   "country": "Switzerland",
+   "date": "2026-03-23",
+   "round": "PRE_SEED",
+   "funds": [
+    "htgf"
+   ]
+  },
+  "1504891": {
+   "name": "Isar Aerospace",
+   "domain": "isaraerospace.com",
+   "country": "Germany",
+   "date": "2026-06-09",
+   "round": "SERIES_D",
+   "funds": [
+    "hv-capital",
+    "uvc-partners"
+   ]
+  },
+  "72022894": {
+   "name": "AMI - Advanced Machine Intelligence",
+   "domain": "amilabs.xyz",
+   "country": "France",
+   "date": "2026-03-09",
+   "round": "SEED",
+   "funds": [
+    "hv-capital"
+   ]
+  },
+  "1522623": {
+   "name": "Ferroelectric Memory Company",
+   "domain": "ferroelectric-memory.com",
+   "country": "Germany",
+   "date": "2025-11-13",
+   "round": "SERIES_C",
+   "funds": [
+    "hv-capital",
+    "bosch-ventures",
+    "vsquared"
+   ]
+  },
+  "47694119": {
+   "name": "The Icon League",
+   "domain": "theiconleague.com",
+   "country": "Germany",
+   "date": "2025-11-03",
+   "round": "SERIES_A",
+   "funds": [
+    "hv-capital"
+   ]
+  },
+  "3600379": {
+   "name": "PACT",
+   "domain": "pact.earth",
+   "country": "United Kingdom",
+   "date": "2025-10-31",
+   "round": "SERIES_A",
+   "funds": [
+    "hv-capital"
+   ]
+  },
+  "43834172": {
+   "name": "Bitlight Labs",
+   "domain": "bitlightlabs.com",
+   "country": "United Kingdom",
+   "date": "2025-09-19",
+   "round": "SEED",
+   "funds": [
+    "hv-capital"
+   ]
+  },
+  "3958704": {
+   "name": "eleQtron",
+   "domain": "eleqtron.com",
+   "country": "Germany",
+   "date": "2026-05-05",
+   "round": "SERIES_A",
+   "funds": [
+    "earlybird"
+   ]
+  },
+  "486377": {
+   "name": "CONXAI",
+   "domain": "consai.tech",
+   "country": "Germany",
+   "date": "2026-04-07",
+   "round": "SERIES_A",
+   "funds": [
+    "earlybird"
+   ]
+  },
+  "43226761": {
+   "name": "Portal Biotech",
+   "domain": "portalbiotech.com",
+   "country": "United Kingdom",
+   "date": "2025-06-30",
+   "round": "SERIES_A",
+   "funds": [
+    "earlybird"
+   ]
+  },
+  "3075792": {
+   "name": "koppla",
+   "domain": "koppla.de",
+   "country": "Germany",
+   "date": "2025-05-21",
+   "round": "SEED",
+   "funds": [
+    "earlybird"
+   ]
+  },
+  "59729485": {
+   "name": "Twentyfour Industries",
+   "domain": "twentyfour.industries",
+   "country": "Germany",
+   "date": "2026-01-19",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "468-capital"
+   ]
+  },
+  "691840": {
+   "name": "Visionaries",
+   "domain": "visionaries.vc",
+   "country": "Germany",
+   "date": "2025-11-01",
+   "round": "PRE_SEED",
+   "funds": [
+    "picus"
+   ]
+  },
+  "62124119": {
+   "name": "Quantile Energy",
+   "domain": "quantileenergy.com",
+   "country": "United Kingdom",
+   "date": "2025-08-06",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "picus"
+   ]
+  },
+  "76838975": {
+   "name": "Maple Aviation",
+   "domain": "maple-aviation.com",
+   "country": "Germany",
+   "date": "2026-06-26",
+   "round": "SEED",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "12464001": {
+   "name": "NUCLIDIUM AG",
+   "domain": "nuclidium.com",
+   "country": "Switzerland",
+   "date": "2026-05-29",
+   "round": "SERIES_B_EXTENSION",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "41379190": {
+   "name": "Exergy3",
+   "domain": "exergy3.com",
+   "country": "United Kingdom",
+   "date": "2026-04-21",
+   "round": "SEED",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "39129536": {
+   "name": "SPiNE Energy",
+   "domain": "spine.energy",
+   "country": "Germany",
+   "date": "2026-04-16",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "10649827": {
+   "name": "Noxon GmbH",
+   "domain": "noxon.io",
+   "country": "Germany",
+   "date": "2026-03-02",
+   "round": "SEED",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "58358077": {
+   "name": "Twogee Biotech",
+   "domain": "twogee-biotech.com",
+   "country": "Germany",
+   "date": "2026-01-29",
+   "round": "SEED",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "3225770": {
+   "name": "Mozaik: Corporate Video Platform",
+   "domain": "mozaik-app.com",
+   "country": "Germany",
+   "date": "2026-01-28",
+   "round": "SEED",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "10594243": {
+   "name": "T-CURX GmbH",
+   "domain": "t-curx.com",
+   "country": "Germany",
+   "date": "2025-12-17",
+   "round": "SERIES_A",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "65537225": {
+   "name": "Amplifold",
+   "domain": "amplifold.com",
+   "country": "Germany",
+   "date": "2025-12-10",
+   "round": "SEED",
+   "funds": [
+    "bayern-kapital"
+   ]
+  },
+  "55453570": {
+   "name": "STARK",
+   "domain": "stark-defence.com",
+   "country": "Germany",
+   "date": "2025-08-21",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "project-a"
+   ]
+  },
+  "39618235": {
+   "name": "Montamo",
+   "domain": "montamo.com",
+   "country": "Germany",
+   "date": "2025-04-01",
+   "round": "SEED",
+   "funds": [
+    "project-a"
+   ]
+  },
+  "61708441": {
+   "name": "beatsquares",
+   "domain": "beatsquares.com",
+   "country": "Germany",
+   "date": "2026-07-20",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "56849168": {
+   "name": "NextGO Epi",
+   "domain": "nextgoepi.com",
+   "country": "Germany",
+   "date": "2026-07-14",
+   "round": "PRE_SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "9695410": {
+   "name": "Remi Health",
+   "domain": "myremi.com",
+   "country": "Germany",
+   "date": "2026-03-25",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "12579764": {
+   "name": "Level Nine",
+   "domain": "levelninelabs.com",
+   "country": "Germany",
+   "date": "2026-03-17",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "11224982": {
+   "name": "hellomed",
+   "domain": "hellomed.com",
+   "country": "Germany",
+   "date": "2026-02-09",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "48628510": {
+   "name": "NENNA.AI",
+   "domain": "nenna.ai",
+   "country": "Germany",
+   "date": "2026-01-20",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "1730652": {
+   "name": "Jurafuchs",
+   "domain": "jurafuchs.de",
+   "country": "Germany",
+   "date": "2025-12-18",
+   "round": "LATER_STAGE",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "56296752": {
+   "name": "AnyTax",
+   "domain": "anytax.io",
+   "country": "Germany",
+   "date": "2025-10-29",
+   "round": "PRE_SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "3566093": {
+   "name": "Yuno",
+   "domain": "get-yuno.com",
+   "country": "Germany",
+   "date": "2025-07-01",
+   "round": "SERIES_A",
+   "funds": [
+    "ibb-ventures",
+    "atlantic-labs"
+   ]
+  },
+  "19412456": {
+   "name": "Tuktoro® by a2zebra",
+   "domain": "tuktoro.com",
+   "country": "Germany",
+   "date": "2025-06-18",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures",
+    "dvh-ventures"
+   ]
+  },
+  "1815627": {
+   "name": "Lumoview Building Analytics GmbH",
+   "domain": "lumoview.com",
+   "country": "Germany",
+   "date": "2025-06-02",
+   "round": "SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "10265389": {
+   "name": "Spark e-Fuels",
+   "domain": "sparkefuels.com",
+   "country": "Germany",
+   "date": "2025-02-12",
+   "round": "PRE_SEED",
+   "funds": [
+    "ibb-ventures"
+   ]
+  },
+  "57795707": {
+   "name": "Circle Health",
+   "domain": "circle.health",
+   "country": "Germany",
+   "date": "2026-02-11",
+   "round": "SEED",
+   "funds": [
+    "atlantic-labs"
+   ]
+  },
+  "59942401": {
+   "name": "BYVIDA",
+   "domain": "byvida.de",
+   "country": "Germany",
+   "date": "2025-12-09",
+   "round": "PRE_SEED",
+   "funds": [
+    "atlantic-labs"
+   ]
+  },
+  "41045921": {
+   "name": "Every Health",
+   "domain": "every.health",
+   "country": "Germany",
+   "date": "2025-10-23",
+   "round": "SEED",
+   "funds": [
+    "atlantic-labs"
+   ]
+  },
+  "57926797": {
+   "name": "Impossible Cloud Network",
+   "domain": "icn.global",
+   "country": "Switzerland",
+   "date": "2025-07-04",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "1kx"
+   ]
+  },
+  "48687254": {
+   "name": "VOYA Games",
+   "domain": "voya.games",
+   "country": "Germany",
+   "date": "2025-05-21",
+   "round": "SEED",
+   "funds": [
+    "1kx"
+   ]
+  },
+  "60548201": {
+   "name": "Decen Space",
+   "domain": "decenspace.com",
+   "country": "Germany",
+   "date": "2025-04-17",
+   "round": "PRE_SEED",
+   "funds": [
+    "1kx"
+   ]
+  },
+  "29863264": {
+   "name": "Autonolas",
+   "domain": "olas.network",
+   "country": "United Kingdom",
+   "date": "2025-02-04",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "1kx"
+   ]
+  },
+  "792901": {
+   "name": "Liki24.com",
+   "domain": "liki24.ro",
+   "country": "Ukraine",
+   "date": "2025-07-03",
+   "round": "SERIES_A",
+   "funds": [
+    "ta-ventures"
+   ]
+  },
+  "5469656": {
+   "name": "Pleso Therapy",
+   "domain": "pleso.me",
+   "country": "Ukraine",
+   "date": "2025-05-19",
+   "round": "SEED",
+   "funds": [
+    "ta-ventures"
+   ]
+  },
+  "12178969": {
+   "name": "Carbonaide",
+   "domain": "carbonaide.com",
+   "country": "Finland",
+   "date": "2026-01-28",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "56762644": {
+   "name": "FICUS HEALTH",
+   "domain": "ficus-health.de",
+   "country": "Germany",
+   "date": "2025-12-11",
+   "round": "SEED",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "11068823": {
+   "name": "Mirantus Health",
+   "domain": "mirantus.com",
+   "country": "Germany",
+   "date": "2025-11-20",
+   "round": "SEED",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "40833490": {
+   "name": "BTRY",
+   "domain": "btry.ch",
+   "country": "Switzerland",
+   "date": "2025-11-06",
+   "round": "SEED",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "4860385": {
+   "name": "Tethys Robotics",
+   "domain": "tethys-robotics.ch",
+   "country": "Switzerland",
+   "date": "2025-10-30",
+   "round": "LATER_STAGE",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "4285254": {
+   "name": "Ventive",
+   "domain": "ventivegroup.com",
+   "country": "Italy",
+   "date": "2025-10-01",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "4327409": {
+   "name": "Covision Quality",
+   "domain": "covisionquality.com",
+   "country": "Italy",
+   "date": "2025-03-31",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "redstone"
+   ]
+  },
+  "1430026": {
+   "name": "SCINTIL Photonics",
+   "domain": "scintil-photonics.com",
+   "country": "France",
+   "date": "2025-09-09",
+   "round": "SERIES_B",
+   "funds": [
+    "bosch-ventures"
+   ]
+  },
+  "3740972": {
+   "name": "CamGraPhIC Ltd",
+   "domain": "camgraphic-technology.com",
+   "country": "Italy",
+   "date": "2025-03-24",
+   "round": "SERIES_A",
+   "funds": [
+    "bosch-ventures"
+   ]
+  },
+  "60210850": {
+   "name": "2D Photonics",
+   "domain": "2dphotonics.com",
+   "country": "Italy",
+   "date": "2025-02-01",
+   "round": "SERIES_A",
+   "funds": [
+    "bosch-ventures"
+   ]
+  },
+  "60121674": {
+   "name": "ETHGas",
+   "domain": "ethgas.com",
+   "country": "Gibraltar",
+   "date": "2025-12-20",
+   "round": "SEED",
+   "funds": [
+    "blueyard"
+   ]
+  },
+  "4081245": {
+   "name": "enaDyne",
+   "domain": "enadyne.de",
+   "country": "Germany",
+   "date": "2025-09-25",
+   "round": "SEED",
+   "funds": [
+    "possible-ventures"
+   ]
+  },
+  "77805811": {
+   "name": "Loopario | vormals Logistikbude",
+   "domain": "loopario.com",
+   "country": "Germany",
+   "date": "2026-03-18",
+   "round": "SERIES_A",
+   "funds": [
+    "capnamic"
+   ]
+  },
+  "2066010": {
+   "name": "SenseUP Biotechnology",
+   "domain": "senseup-biotech.com",
+   "country": "Germany",
+   "date": "2026-01-15",
+   "round": "SEED",
+   "funds": [
+    "capnamic"
+   ]
+  },
+  "4465321": {
+   "name": "POLARIS Raumflugzeuge GmbH",
+   "domain": "polaris-raumflugzeuge.de",
+   "country": "Germany",
+   "date": "2025-06-13",
+   "round": "SEED_EXTENSION",
+   "funds": [
+    "capnamic"
+   ]
+  },
+  "17101775": {
+   "name": "experial",
+   "domain": "experial.ai",
+   "country": "Germany",
+   "date": "2025-03-27",
+   "round": "PRE_SEED",
+   "funds": [
+    "capnamic"
+   ]
+  },
+  "72051561": {
+   "name": "Litherm Technologies GmbH",
+   "domain": "litherm.com",
+   "country": "Germany",
+   "date": "2026-03-03",
+   "round": "SEED",
+   "funds": [
+    "uvc-partners"
+   ]
+  },
+  "4653189": {
+   "name": "Metafuels",
+   "domain": "metafuels.ch",
+   "country": "Switzerland",
+   "date": "2026-02-20",
+   "round": "SERIES_A1",
+   "funds": [
+    "uvc-partners"
+   ]
+  },
+  "50888445": {
+   "name": "Radical Dot",
+   "domain": "radicaldot.com",
+   "country": "Germany",
+   "date": "2025-03-03",
+   "round": "PRE_SEED",
+   "funds": [
+    "uvc-partners"
+   ]
+  },
+  "1790879": {
+   "name": "Zadient Technologies",
+   "domain": "zadient.com",
+   "country": "France",
+   "date": "2025-11-20",
+   "round": "SERIES_A",
+   "funds": [
+    "mig-capital"
+   ]
+  },
+  "12583895": {
+   "name": "ASTRA Therapeutics",
+   "domain": "astratherapeutics.com",
+   "country": "Switzerland",
+   "date": "2025-07-24",
+   "round": "SEED",
+   "funds": [
+    "mig-capital"
+   ]
+  },
+  "8074400": {
+   "name": "Maddyness",
+   "domain": "maddyness.com",
+   "country": "France",
+   "date": "2025-06-13",
+   "round": "LATER_STAGE",
+   "funds": [
+    "mig-capital"
+   ]
+  },
+  "699733": {
+   "name": "BONVENTURE",
+   "domain": "bonventure.de",
+   "country": "Germany",
+   "date": "2026-02-05",
+   "round": "SERIES_A",
+   "funds": [
+    "dvh-ventures"
+   ]
+  },
+  "60657061": {
+   "name": "AlphaLum",
+   "domain": "alphalum.com",
+   "country": "Switzerland",
+   "date": "2026-01-15",
+   "round": "SEED",
+   "funds": [
+    "vsquared"
+   ]
+  },
+  "61248496": {
+   "name": "Upheat Solutions",
+   "domain": "upheat.com",
+   "country": "Finland",
+   "date": "2025-12-15",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "vsquared"
+   ]
+  },
+  "4134276": {
+   "name": "Hedera Dx",
+   "domain": "hederadx.com",
+   "country": "Switzerland",
+   "date": "2025-05-27",
+   "round": "SERIES_A",
+   "funds": [
+    "vsquared"
+   ]
+  },
+  "3177924": {
+   "name": "welevel",
+   "domain": "welevel.com",
+   "country": "Germany",
+   "date": "2026-05-27",
+   "round": "SERIES_A",
+   "funds": [
+    "burda"
+   ]
+  }
+ },
+ "nordics": {
+  "4233527": {
+   "name": "Polar Light Technologies",
+   "domain": "polar-light-technologies.com",
+   "country": "Sweden",
+   "date": "2026-01-12",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi"
+   ]
+  },
+  "59131572": {
+   "name": "Konvolo",
+   "domain": "konvolo.com",
+   "country": "Sweden",
+   "date": "2025-11-12",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "almi",
+    "gorilla"
+   ]
+  },
+  "37389916": {
+   "name": "DREV",
+   "domain": "drev.tech",
+   "country": "Sweden",
+   "date": "2025-11-05",
+   "round": "SEED",
+   "funds": [
+    "almi"
+   ]
+  },
+  "63910903": {
+   "name": "FirstQFM",
+   "domain": "firstqfm.com",
+   "country": "Sweden",
+   "date": "2025-10-10",
+   "round": "PRE_SEED",
+   "funds": [
+    "almi",
+    "luminar"
+   ]
+  },
+  "9751322": {
+   "name": "Standab - Micromobility Charging as a Service",
+   "domain": "standab.com",
+   "country": "Sweden",
+   "date": "2025-09-10",
+   "round": "SERIES_A",
+   "funds": [
+    "almi",
+    "spintop"
+   ]
+  },
+  "36022936": {
+   "name": "Epigenica",
+   "domain": "epigenica.se",
+   "country": "Sweden",
+   "date": "2025-06-30",
+   "round": "SEED",
+   "funds": [
+    "almi",
+    "voima"
+   ]
+  },
+  "54991503": {
+   "name": "TERRABARRIER",
+   "domain": "terrabarrier.com",
+   "country": "Sweden",
+   "date": "2025-03-15",
+   "round": "SEED",
+   "funds": [
+    "almi"
+   ]
+  },
+  "1879643": {
+   "name": "Paindrainer AB",
+   "domain": "paindrainer.com",
+   "country": "Sweden",
+   "date": "2026-05-20",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi",
+    "almi-invest"
+   ]
+  },
+  "9538794": {
+   "name": "Mentalytics",
+   "domain": "brymapp.com",
+   "country": "Sweden",
+   "date": "2026-07-02",
+   "round": "ACCELERATOR_INCUBATOR",
+   "funds": [
+    "antler"
+   ]
+  },
+  "12479706": {
+   "name": "Dream",
+   "domain": "dreamgroup.com",
+   "country": "Israel",
+   "date": "2026-06-18",
+   "round": "SERIES_C",
+   "funds": [
+    "antler"
+   ]
+  },
+  "48792276": {
+   "name": "Sonik (ex Referly)",
+   "domain": "referly.io",
+   "country": "France",
+   "date": "2026-06-01",
+   "round": "SEED",
+   "funds": [
+    "antler"
+   ]
+  },
+  "13094801": {
+   "name": "Alcolase",
+   "domain": "alcolase.com",
+   "country": "Denmark",
+   "date": "2026-05-17",
+   "round": "SEED",
+   "funds": [
+    "antler"
+   ]
+  },
+  "60926307": {
+   "name": "Kabloie",
+   "domain": "kabloie.com",
+   "country": "Sweden",
+   "date": "2026-05-04",
+   "round": "SEED",
+   "funds": [
+    "antler"
+   ]
+  },
+  "3853171": {
+   "name": "AirForestry",
+   "domain": "airforestry.com",
+   "country": "Sweden",
+   "date": "2026-02-24",
+   "round": "LATER_STAGE",
+   "funds": [
+    "northzone"
+   ]
+  },
+  "62939477": {
+   "name": "Reduciner",
+   "domain": "reduciner.com",
+   "country": "Finland",
+   "date": "2026-05-05",
+   "round": "SEED",
+   "funds": [
+    "lifeline",
+    "voima"
+   ]
+  },
+  "10884209": {
+   "name": "INCIRT",
+   "domain": "incirt.de",
+   "country": "Germany",
+   "date": "2026-03-25",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "lifeline"
+   ]
+  },
+  "12524059": {
+   "name": "Photoncycle",
+   "domain": "photoncycle.com",
+   "country": "Norway",
+   "date": "2026-03-04",
+   "round": "SERIES_A",
+   "funds": [
+    "lifeline",
+    "startuplab",
+    "luminar",
+    "voima"
+   ]
+  },
+  "57172185": {
+   "name": "Time Atlas Labs",
+   "domain": "timeatlaslabs.com",
+   "country": "Finland",
+   "date": "2025-09-17",
+   "round": "SEED",
+   "funds": [
+    "lifeline"
+   ]
+  },
+  "62994790": {
+   "name": "Kova Labs",
+   "domain": "kovahq.com",
+   "country": "Finland",
+   "date": "2025-08-04",
+   "round": "PRE_SEED",
+   "funds": [
+    "lifeline"
+   ]
+  },
+  "33618259": {
+   "name": "Spacent",
+   "domain": "spacent.com",
+   "country": "Finland",
+   "date": "2025-07-01",
+   "round": "LATER_STAGE",
+   "funds": [
+    "lifeline",
+    "gorilla"
+   ]
+  },
+  "15260985": {
+   "name": "Steady Energy",
+   "domain": "steadyenergy.com",
+   "country": "Finland",
+   "date": "2025-07-01",
+   "round": "SERIES_B_EXTENSION",
+   "funds": [
+    "lifeline"
+   ]
+  },
+  "1561210": {
+   "name": "TILT Biotherapeutics Ltd",
+   "domain": "tiltbio.com",
+   "country": "Finland",
+   "date": "2025-05-13",
+   "round": "SERIES_B",
+   "funds": [
+    "lifeline"
+   ]
+  },
+  "48623032": {
+   "name": "Soldera",
+   "domain": "soldera.org",
+   "country": "Estonia",
+   "date": "2025-03-25",
+   "round": "SEED",
+   "funds": [
+    "lifeline"
+   ]
+  },
+  "1639554": {
+   "name": "Cellevate AB",
+   "domain": "cellevate.com",
+   "country": "Sweden",
+   "date": "2026-04-09",
+   "round": "LATER_STAGE",
+   "funds": [
+    "industrifonden",
+    "almi-invest"
+   ]
+  },
+  "2088035": {
+   "name": "Melt&Marble",
+   "domain": "meltandmarble.com",
+   "country": "Sweden",
+   "date": "2025-12-08",
+   "round": "SERIES_A",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "9126872": {
+   "name": "BOOST Pharma",
+   "domain": "boostpharma.com",
+   "country": "Denmark",
+   "date": "2025-11-03",
+   "round": "LATER_STAGE",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "21568683": {
+   "name": "Arevo",
+   "domain": "arevo.se",
+   "country": "Sweden",
+   "date": "2025-10-10",
+   "round": "LATER_STAGE",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "7778716": {
+   "name": "Yangi®",
+   "domain": "yangi.se",
+   "country": "Sweden",
+   "date": "2025-09-09",
+   "round": "SERIES_A",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "7490743": {
+   "name": "TrackPaw",
+   "domain": "trackpaw.se",
+   "country": "Sweden",
+   "date": "2025-08-18",
+   "round": "SEED",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "1728791": {
+   "name": "Avidicare",
+   "domain": "avidicare.com",
+   "country": "Sweden",
+   "date": "2025-05-20",
+   "round": "LATER_STAGE",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "3091274": {
+   "name": "Tribune Therapeutics",
+   "domain": "tribunetx.com",
+   "country": "Sweden",
+   "date": "2025-03-26",
+   "round": "SERIES_A",
+   "funds": [
+    "industrifonden",
+    "investinor",
+    "innovestor"
+   ]
+  },
+  "11223969": {
+   "name": "Novatron Fusion Group AB",
+   "domain": "novatronfusion.com",
+   "country": "Sweden",
+   "date": "2025-03-19",
+   "round": "SERIES_A1",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "1544057": {
+   "name": "Gårdsfisk",
+   "domain": "gardsfisk.se",
+   "country": "Sweden",
+   "date": "2025-03-11",
+   "round": "SERIES_A",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "49312743": {
+   "name": "Agteria",
+   "domain": "agteria.com",
+   "country": "Sweden",
+   "date": "2025-02-12",
+   "round": "SEED",
+   "funds": [
+    "industrifonden"
+   ]
+  },
+  "61097631": {
+   "name": "Blackbird Coffee",
+   "domain": "blackbirdcoffee.dk",
+   "country": "Denmark",
+   "date": "2026-02-06",
+   "round": "SEED",
+   "funds": [
+    "seed-capital"
+   ]
+  },
+  "1562336": {
+   "name": "Observe Medical",
+   "domain": "observemedical.com",
+   "country": "Norway",
+   "date": "2025-06-11",
+   "round": "PUBLIC_EQUITY_OFFERING",
+   "funds": [
+    "seed-capital"
+   ]
+  },
+  "60965460": {
+   "name": "InfiniNode Technologies",
+   "domain": "infininode.com",
+   "country": "Sweden",
+   "date": "2026-07-16",
+   "round": "GRANT",
+   "funds": [
+    "psv",
+    "almi-invest"
+   ]
+  },
+  "63855235": {
+   "name": "KIME",
+   "domain": "kime.ai",
+   "country": "Denmark",
+   "date": "2026-01-26",
+   "round": "PRE_SEED",
+   "funds": [
+    "psv"
+   ]
+  },
+  "60351649": {
+   "name": "SisuSemi",
+   "domain": "sisusemi.com",
+   "country": "Finland",
+   "date": "2025-12-30",
+   "round": "SEED",
+   "funds": [
+    "psv"
+   ]
+  },
+  "4873872": {
+   "name": "Noahs",
+   "domain": "noahs.global",
+   "country": "Denmark",
+   "date": "2025-11-26",
+   "round": "SEED",
+   "funds": [
+    "psv"
+   ]
+  },
+  "12956399": {
+   "name": "Jabbr",
+   "domain": "jabbr.ai",
+   "country": "Denmark",
+   "date": "2025-10-16",
+   "round": "SEED",
+   "funds": [
+    "psv"
+   ]
+  },
+  "63702715": {
+   "name": "Lightpost One",
+   "domain": "rool.dev",
+   "country": "Ireland",
+   "date": "2025-09-07",
+   "round": "SEED",
+   "funds": [
+    "psv"
+   ]
+  },
+  "4134276": {
+   "name": "Hedera Dx",
+   "domain": "hederadx.com",
+   "country": "Switzerland",
+   "date": "2025-05-27",
+   "round": "SERIES_A",
+   "funds": [
+    "inventure"
+   ]
+  },
+  "1504891": {
+   "name": "Isar Aerospace",
+   "domain": "isaraerospace.com",
+   "country": "Germany",
+   "date": "2026-06-09",
+   "round": "SERIES_D",
+   "funds": [
+    "eqt-ventures"
+   ]
+  },
+  "3274357": {
+   "name": "Candela",
+   "domain": "candela.com",
+   "country": "Sweden",
+   "date": "2026-03-18",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "eqt-ventures"
+   ]
+  },
+  "30020727": {
+   "name": "MARVEL X LIMITED",
+   "domain": "marvelx.com",
+   "country": "United Kingdom",
+   "date": "2025-05-13",
+   "round": "LATER_STAGE",
+   "funds": [
+    "eqt-ventures"
+   ]
+  },
+  "1305508": {
+   "name": "Marvel Fusion",
+   "domain": "marvelfusion.com",
+   "country": "Germany",
+   "date": "2025-03-01",
+   "round": "SERIES_B_EXTENSION",
+   "funds": [
+    "eqt-ventures"
+   ]
+  },
+  "3251799": {
+   "name": "Coly",
+   "domain": "coly.io",
+   "country": "Sweden",
+   "date": "2025-10-31",
+   "round": "LATER_STAGE",
+   "funds": [
+    "sting"
+   ]
+  },
+  "1576333": {
+   "name": "Planktonic AS",
+   "domain": "planktonic.no",
+   "country": "Norway",
+   "date": "2025-08-22",
+   "round": "LATER_STAGE",
+   "funds": [
+    "investinor"
+   ]
+  },
+  "34618691": {
+   "name": "Kongsberg Ferrotech",
+   "domain": "kferrotech.no",
+   "country": "Norway",
+   "date": "2025-07-09",
+   "round": "SEED",
+   "funds": [
+    "investinor"
+   ]
+  },
+  "7944643": {
+   "name": "LayerOne",
+   "domain": "layeronematerials.com",
+   "country": "Norway",
+   "date": "2025-03-19",
+   "round": "LATER_STAGE",
+   "funds": [
+    "investinor"
+   ]
+  },
+  "39806175": {
+   "name": "Cytely",
+   "domain": "cytely.io",
+   "country": "Sweden",
+   "date": "2025-10-24",
+   "round": "SEED",
+   "funds": [
+    "icebreaker"
+   ]
+  },
+  "4392246": {
+   "name": "Mai",
+   "domain": "sell.mairesale.com",
+   "country": "Sweden",
+   "date": "2025-06-18",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "icebreaker"
+   ]
+  },
+  "60988434": {
+   "name": "Crewpoint",
+   "domain": "crewpoint.com",
+   "country": "Estonia",
+   "date": "2025-05-30",
+   "round": "SEED",
+   "funds": [
+    "icebreaker"
+   ]
+  },
+  "59719454": {
+   "name": "Fleetbrains",
+   "domain": "fleetbrains.com",
+   "country": "Estonia",
+   "date": "2025-03-18",
+   "round": "PRE_SEED",
+   "funds": [
+    "icebreaker"
+   ]
+  },
+  "64598744": {
+   "name": "Space Lab",
+   "domain": "spacelab.tech",
+   "country": "Norway",
+   "date": "2026-04-29",
+   "round": "PRE_SEED",
+   "funds": [
+    "startuplab"
+   ]
+  },
+  "3273472": {
+   "name": "Norwegian Mycelium (NoMy)",
+   "domain": "nomy.no",
+   "country": "Norway",
+   "date": "2025-05-26",
+   "round": "SEED",
+   "funds": [
+    "startuplab"
+   ]
+  },
+  "40137204": {
+   "name": "Chargitect",
+   "domain": "chargitect.com",
+   "country": "Norway",
+   "date": "2025-03-04",
+   "round": "PRE_SEED",
+   "funds": [
+    "startuplab"
+   ]
+  },
+  "57014665": {
+   "name": "Cornea Sense",
+   "domain": "corneasense.com",
+   "country": "Finland",
+   "date": "2026-07-15",
+   "round": "PRE_SEED",
+   "funds": [
+    "innovestor"
+   ]
+  },
+  "3631579": {
+   "name": "Cronvall",
+   "domain": "cronvall.fi",
+   "country": "Finland",
+   "date": "2025-11-13",
+   "round": "LATER_STAGE",
+   "funds": [
+    "innovestor"
+   ]
+  },
+  "48951463": {
+   "name": "Amplifiles",
+   "domain": "amplifiles.ai",
+   "country": "Finland",
+   "date": "2025-09-02",
+   "round": "PRE_SEED",
+   "funds": [
+    "innovestor"
+   ]
+  },
+  "791072": {
+   "name": "Gesynta Pharma AB",
+   "domain": "gesynta.se",
+   "country": "Sweden",
+   "date": "2025-07-22",
+   "round": "SERIES_B_EXTENSION",
+   "funds": [
+    "innovestor"
+   ]
+  },
+  "11217874": {
+   "name": "CloEE | SKYDECK'24",
+   "domain": "cloee.ai",
+   "country": "Finland",
+   "date": "2025-06-23",
+   "round": "PRE_SEED",
+   "funds": [
+    "innovestor"
+   ]
+  },
+  "11135756": {
+   "name": "NXT:FWD",
+   "domain": "nxtfwd.com",
+   "country": "Finland",
+   "date": "2025-02-26",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "innovestor"
+   ]
+  },
+  "37230439": {
+   "name": "Hemi Health",
+   "domain": "hemihealth.com",
+   "country": "Denmark",
+   "date": "2026-02-20",
+   "round": "SEED",
+   "funds": [
+    "alliance-vc"
+   ]
+  },
+  "55733060": {
+   "name": "Chainreactor",
+   "domain": "chainreactor.bio",
+   "country": "Portugal",
+   "date": "2025-08-18",
+   "round": "ACCELERATOR_INCUBATOR",
+   "funds": [
+    "norrsken"
+   ]
+  },
+  "12633161": {
+   "name": "FION Energy",
+   "domain": "fion-energy.com",
+   "country": "Germany",
+   "date": "2025-08-18",
+   "round": "ACCELERATOR_INCUBATOR",
+   "funds": [
+    "norrsken"
+   ]
+  },
+  "62365583": {
+   "name": "Jälle Technologies",
+   "domain": "jalletech.com",
+   "country": "Estonia",
+   "date": "2025-07-16",
+   "round": "PRE_SEED",
+   "funds": [
+    "norrsken"
+   ]
+  },
+  "58758284": {
+   "name": "Spiral Hydrogen",
+   "domain": "spiralhydrogen.com",
+   "country": "Estonia",
+   "date": "2026-04-30",
+   "round": "PRE_SEED",
+   "funds": [
+    "byfounders"
+   ]
+  },
+  "3175913": {
+   "name": "IXI",
+   "domain": "ixieyewear.com",
+   "country": "Finland",
+   "date": "2025-04-29",
+   "round": "SERIES_A",
+   "funds": [
+    "byfounders",
+    "maki",
+    "first-fellow",
+    "heartcore"
+   ]
+  },
+  "63702167": {
+   "name": "Arkeon Technologies",
+   "domain": "arkeontech.com",
+   "country": "Sweden",
+   "date": "2026-06-12",
+   "round": "SEED",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "57209942": {
+   "name": "HAGA.BIO",
+   "domain": "voxlbio.com",
+   "country": "Sweden",
+   "date": "2026-06-03",
+   "round": "SEED",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "64467296": {
+   "name": "pickel",
+   "domain": "pickel.ai",
+   "country": "Sweden",
+   "date": "2026-05-12",
+   "round": "SEED",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "75761285": {
+   "name": "Acerna",
+   "domain": "acerna.se",
+   "country": "Sweden",
+   "date": "2026-05-12",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "1543994": {
+   "name": "Hexagem AB",
+   "domain": "hexagem.se",
+   "country": "Sweden",
+   "date": "2026-05-07",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "38929969": {
+   "name": "Cordicity",
+   "domain": "cordicity.com",
+   "country": "Sweden",
+   "date": "2026-05-06",
+   "round": "SEED",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "3372016": {
+   "name": "Enairon",
+   "domain": "enairon.com",
+   "country": "Sweden",
+   "date": "2026-05-04",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "25583840": {
+   "name": "FlexO2",
+   "domain": "flexo2.com",
+   "country": "Sweden",
+   "date": "2026-04-21",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "71880176": {
+   "name": "Vascurie AB",
+   "domain": null,
+   "country": "Sweden",
+   "date": "2026-02-24",
+   "round": "SEED",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "10070943": {
+   "name": "Dalarna Science Park",
+   "domain": "dalarnasciencepark.se",
+   "country": "Sweden",
+   "date": "2026-02-17",
+   "round": "LATER_STAGE",
+   "funds": [
+    "almi-invest"
+   ]
+  },
+  "60999306": {
+   "name": "MederiAI",
+   "domain": "mederiai.com",
+   "country": "Denmark",
+   "date": "2025-03-28",
+   "round": "ACCELERATOR_INCUBATOR",
+   "funds": [
+    "accelerace"
+   ]
+  },
+  "63228190": {
+   "name": "Aavuus",
+   "domain": "aavuus.com",
+   "country": "Finland",
+   "date": "2026-06-09",
+   "round": "SEED",
+   "funds": [
+    "maki"
+   ]
+  },
+  "72997408": {
+   "name": "Metaktik",
+   "domain": "metaktik.com",
+   "country": "Finland",
+   "date": "2026-03-31",
+   "round": "SEED",
+   "funds": [
+    "maki"
+   ]
+  },
+  "61248496": {
+   "name": "Upheat Solutions",
+   "domain": "upheat.com",
+   "country": "Finland",
+   "date": "2025-12-15",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "maki"
+   ]
+  },
+  "6837414": {
+   "name": "EverDye",
+   "domain": "everdye.fr",
+   "country": "France",
+   "date": "2025-06-25",
+   "round": "SERIES_A",
+   "funds": [
+    "maki"
+   ]
+  },
+  "2140956": {
+   "name": "ONiO",
+   "domain": "onio.com",
+   "country": "Norway",
+   "date": "2025-06-18",
+   "round": "SERIES_A",
+   "funds": [
+    "maki"
+   ]
+  },
+  "61517496": {
+   "name": "Deepdots",
+   "domain": "deepdots.com",
+   "country": "Denmark",
+   "date": "2025-06-02",
+   "round": "SEED",
+   "funds": [
+    "maki"
+   ]
+  },
+  "55656013": {
+   "name": "Lightsonic",
+   "domain": "lightsonic.ai",
+   "country": "Norway",
+   "date": "2025-05-07",
+   "round": "SEED",
+   "funds": [
+    "maki"
+   ]
+  },
+  "46832725": {
+   "name": "WeWillWrite",
+   "domain": "wewillwrite.com",
+   "country": "Norway",
+   "date": "2025-11-05",
+   "round": "LATER_STAGE",
+   "funds": [
+    "spintop",
+    "skyfall"
+   ]
+  },
+  "10354546": {
+   "name": "Meetric",
+   "domain": "meetric.com",
+   "country": "Sweden",
+   "date": "2025-10-02",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "spintop"
+   ]
+  },
+  "48630640": {
+   "name": "Seven Stars",
+   "domain": "sevenstars.games",
+   "country": "Finland",
+   "date": "2025-02-25",
+   "round": "SEED",
+   "funds": [
+    "spintop"
+   ]
+  },
+  "59711036": {
+   "name": "ReCarber",
+   "domain": "recarber.com",
+   "country": "Sweden",
+   "date": "2025-02-10",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "spintop",
+    "luminar"
+   ]
+  },
+  "21541261": {
+   "name": "Ivy Interactive",
+   "domain": "ivy.app",
+   "country": "Sweden",
+   "date": "2025-06-02",
+   "round": "PRE_SEED",
+   "funds": [
+    "luminar"
+   ]
+  },
+  "12884952": {
+   "name": "Buility",
+   "domain": "buility.com",
+   "country": "Sweden",
+   "date": "2025-11-12",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "gorilla"
+   ]
+  },
+  "12872566": {
+   "name": "Virtual Days",
+   "domain": "virtualdays.com",
+   "country": "Sweden",
+   "date": "2025-08-18",
+   "round": "LATER_STAGE",
+   "funds": [
+    "gorilla"
+   ]
+  },
+  "63798980": {
+   "name": "Rebelvolt",
+   "domain": "rebelvolt.com",
+   "country": "Finland",
+   "date": "2025-08-07",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "gorilla"
+   ]
+  },
+  "62065704": {
+   "name": "Agenton AI",
+   "domain": "agenton.ai",
+   "country": "Finland",
+   "date": "2025-06-10",
+   "round": "PRE_SEED",
+   "funds": [
+    "gorilla"
+   ]
+  },
+  "64501916": {
+   "name": "Nimble Fox",
+   "domain": "nimblefox.ai",
+   "country": "Finland",
+   "date": "2025-09-25",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "first-fellow"
+   ]
+  },
+  "52170157": {
+   "name": "TheStorage",
+   "domain": "thestorage.fi",
+   "country": "Finland",
+   "date": "2026-04-01",
+   "round": "SEED",
+   "funds": [
+    "voima",
+    "superhero"
+   ]
+  },
+  "61399532": {
+   "name": "AGATE Sensors",
+   "domain": "agatesensors.com",
+   "country": "Finland",
+   "date": "2025-09-09",
+   "round": "SEED",
+   "funds": [
+    "voima"
+   ]
+  },
+  "61499094": {
+   "name": "Farang",
+   "domain": "farang.com",
+   "country": "Sweden",
+   "date": "2025-08-27",
+   "round": "SEED",
+   "funds": [
+    "voima"
+   ]
+  },
+  "3334797": {
+   "name": "StemSight",
+   "domain": "stemsight.fi",
+   "country": "Finland",
+   "date": "2025-02-13",
+   "round": "SEED",
+   "funds": [
+    "voima"
+   ]
+  },
+  "6494869": {
+   "name": "SeeTrue Technologies",
+   "domain": "seetruetechnologies.com",
+   "country": "Finland",
+   "date": "2026-08-06",
+   "round": "LATER_STAGE",
+   "funds": [
+    "superhero"
+   ]
+  },
+  "58361237": {
+   "name": "Homie",
+   "domain": "usehomie.com",
+   "country": "Finland",
+   "date": "2026-01-13",
+   "round": "PRE_SEED",
+   "funds": [
+    "superhero"
+   ]
+  },
+  "59826258": {
+   "name": "Supernaut",
+   "domain": "supernaut.ai",
+   "country": "Lithuania",
+   "date": "2025-10-17",
+   "round": "PRE_SEED",
+   "funds": [
+    "superhero"
+   ]
+  },
+  "12456797": {
+   "name": "Renow",
+   "domain": "renow.ai",
+   "country": "Finland",
+   "date": "2025-06-17",
+   "round": "SEED",
+   "funds": [
+    "superhero"
+   ]
+  },
+  "62590373": {
+   "name": "Furro",
+   "domain": "furro.com",
+   "country": "Finland",
+   "date": "2025-06-03",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "superhero"
+   ]
+  },
+  "61191023": {
+   "name": "VUGENE",
+   "domain": "vugene.com",
+   "country": "Lithuania",
+   "date": "2025-05-06",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "superhero"
+   ]
+  },
+  "63050243": {
+   "name": "We Are Learning",
+   "domain": "wearelearning.com",
+   "country": "Norway",
+   "date": "2025-09-02",
+   "round": "SEED",
+   "funds": [
+    "skyfall"
+   ]
+  }
+ },
+ "france": {
+  "59314305": {
+   "name": "VerticalCompute",
+   "domain": "verticalcompute.com",
+   "country": "Belgium",
+   "date": "2026-03-04",
+   "round": "SEED",
+   "funds": [
+    "kima",
+    "eurazeo",
+    "xange"
+   ]
+  },
+  "3576952": {
+   "name": "Charming Shoppes",
+   "domain": "charmingshoppes.com",
+   "country": "France",
+   "date": "2025-12-18",
+   "round": "LATER_STAGE",
+   "funds": [
+    "kima",
+    "50-partners"
+   ]
+  },
+  "62099833": {
+   "name": "Grafit",
+   "domain": "grafit.fr",
+   "country": "France",
+   "date": "2025-12-10",
+   "round": "SEED",
+   "funds": [
+    "kima",
+    "motier"
+   ]
+  },
+  "61836969": {
+   "name": "Paage",
+   "domain": "paa.ge",
+   "country": "France",
+   "date": "2025-11-12",
+   "round": "SEED",
+   "funds": [
+    "kima",
+    "aglae"
+   ]
+  },
+  "61693724": {
+   "name": "Jean Chastel",
+   "domain": "degaus.com",
+   "country": "United Kingdom",
+   "date": "2025-10-07",
+   "round": "SEED",
+   "funds": [
+    "kima"
+   ]
+  },
+  "8074400": {
+   "name": "Maddyness",
+   "domain": "maddyness.com",
+   "country": "France",
+   "date": "2025-09-26",
+   "round": "LATER_STAGE",
+   "funds": [
+    "kima",
+    "eurazeo",
+    "newfund",
+    "serena",
+    "daphni",
+    "ventech"
+   ]
+  },
+  "11126019": {
+   "name": "One Biosciences",
+   "domain": "onebiosciences.fr",
+   "country": "France",
+   "date": "2025-07-17",
+   "round": "SERIES_A",
+   "funds": [
+    "kima"
+   ]
+  },
+  "45197885": {
+   "name": "Fenix Energy",
+   "domain": "fenixenergy.fr",
+   "country": "France",
+   "date": "2025-06-24",
+   "round": "SEED",
+   "funds": [
+    "kima"
+   ]
+  },
+  "57111228": {
+   "name": "Galink",
+   "domain": "galink.com",
+   "country": "France",
+   "date": "2025-06-24",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "kima"
+   ]
+  },
+  "12886755": {
+   "name": "AUSTRAL Dx",
+   "domain": "australdx.fr",
+   "country": "France",
+   "date": "2025-06-23",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "kima"
+   ]
+  },
+  "55629744": {
+   "name": "Brink Therapeutics",
+   "domain": "brinktx.com",
+   "country": "France",
+   "date": "2025-04-16",
+   "round": "SEED",
+   "funds": [
+    "kima",
+    "breega"
+   ]
+  },
+  "57134421": {
+   "name": "Moonwatt",
+   "domain": "moonwatt.com",
+   "country": "Netherlands",
+   "date": "2025-03-04",
+   "round": "SEED",
+   "funds": [
+    "kima",
+    "founders-future",
+    "daphni"
+   ]
+  },
+  "11263914": {
+   "name": "Wavo",
+   "domain": "wavo.fr",
+   "country": "France",
+   "date": "2025-02-17",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "kima"
+   ]
+  },
+  "7699633": {
+   "name": "LAURALU",
+   "domain": "lauralu.com",
+   "country": "France",
+   "date": "2026-06-22",
+   "round": "M_AND_A",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "1429845": {
+   "name": "Tacalyx GmbH",
+   "domain": "tacalyx.com",
+   "country": "Germany",
+   "date": "2026-04-29",
+   "round": "SEED_EXTENSION",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "6609022": {
+   "name": "Equativ",
+   "domain": "equativ.com",
+   "country": "France",
+   "date": "2025-12-08",
+   "round": "DEBT",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "4137261": {
+   "name": "Laigo Bio",
+   "domain": "laigobio.com",
+   "country": "Netherlands",
+   "date": "2025-12-04",
+   "round": "SEED",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "2087911": {
+   "name": "Space Cargo Unlimited",
+   "domain": "space-cu.com",
+   "country": "Luxembourg",
+   "date": "2025-09-15",
+   "round": "SERIES_A",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "12464001": {
+   "name": "NUCLIDIUM AG",
+   "domain": "nuclidium.com",
+   "country": "Switzerland",
+   "date": "2025-07-10",
+   "round": "SERIES_B",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "35686234": {
+   "name": "aDryada",
+   "domain": "adryada.com",
+   "country": "France",
+   "date": "2025-05-13",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "3175913": {
+   "name": "IXI",
+   "domain": "ixieyewear.com",
+   "country": "Finland",
+   "date": "2025-04-29",
+   "round": "SERIES_A",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "60317079": {
+   "name": "Ambos Energy",
+   "domain": "ambos-energy.com",
+   "country": "France",
+   "date": "2025-03-10",
+   "round": "SEED",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "1469216": {
+   "name": "Germitec",
+   "domain": "germitec.com",
+   "country": "France",
+   "date": "2025-02-12",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "eurazeo"
+   ]
+  },
+  "12839826": {
+   "name": "Brevo",
+   "domain": "brevo.com",
+   "country": "France",
+   "date": "2025-12-04",
+   "round": "SERIES_C",
+   "funds": [
+    "partech"
+   ]
+  },
+  "72022894": {
+   "name": "AMI - Advanced Machine Intelligence",
+   "domain": "amilabs.xyz",
+   "country": "France",
+   "date": "2026-03-09",
+   "round": "SEED",
+   "funds": [
+    "aglae",
+    "cathay",
+    "founders-future",
+    "serena"
+   ]
+  },
+  "12741862": {
+   "name": "Proxima Fusion",
+   "domain": "proximafusion.com",
+   "country": "Germany",
+   "date": "2026-07-07",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "elaia",
+    "omnes"
+   ]
+  },
+  "60786215": {
+   "name": "Enodia Therapeutics",
+   "domain": "enodiatx.com",
+   "country": "France",
+   "date": "2026-01-08",
+   "round": "SEED",
+   "funds": [
+    "elaia"
+   ]
+  },
+  "1617826": {
+   "name": "Zymvol Biomodeling",
+   "domain": "zymvol.com",
+   "country": "Spain",
+   "date": "2025-02-20",
+   "round": "SEED",
+   "funds": [
+    "elaia"
+   ]
+  },
+  "1535665": {
+   "name": "Mironid® Limited",
+   "domain": "mironid.com",
+   "country": "United Kingdom",
+   "date": "2026-08-07",
+   "round": "SERIES_B",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "65917278": {
+   "name": "Bionyra",
+   "domain": "bionyra.com",
+   "country": "France",
+   "date": "2026-06-22",
+   "round": "SERIES_A",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "60589563": {
+   "name": "Signadori Bio",
+   "domain": "signadori.bio",
+   "country": "France",
+   "date": "2026-05-06",
+   "round": "SEED_EXTENSION",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "4391470": {
+   "name": "CellCentric",
+   "domain": "cellcentric.com",
+   "country": "United Kingdom",
+   "date": "2026-05-06",
+   "round": "SERIES_D",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "1422099": {
+   "name": "Biotalys",
+   "domain": "biotalys.com",
+   "country": "Belgium",
+   "date": "2026-05-06",
+   "round": "PUBLIC_EQUITY_OFFERING",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "12524671": {
+   "name": "May Health",
+   "domain": "mayhealth.com",
+   "country": "France",
+   "date": "2026-03-10",
+   "round": "LATER_STAGE",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "65510836": {
+   "name": "Neurent Medical",
+   "domain": "neuromark.com",
+   "country": "Ireland",
+   "date": "2026-02-01",
+   "round": "SERIES_C",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "2160211": {
+   "name": "Sensorion",
+   "domain": "sensorion.com",
+   "country": "France",
+   "date": "2026-01-28",
+   "round": "PUBLIC_EQUITY_OFFERING",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "47059922": {
+   "name": "DISCO Pharmaceuticals GmbH",
+   "domain": "discopharma.de",
+   "country": "Germany",
+   "date": "2025-12-11",
+   "round": "SEED",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "41844712": {
+   "name": "T-Therapeutics Ltd",
+   "domain": "t-therapeutics.com",
+   "country": "United Kingdom",
+   "date": "2025-11-13",
+   "round": "SERIES_A_EXTENSION",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "3205997": {
+   "name": "Qorium",
+   "domain": "qorium.com",
+   "country": "Netherlands",
+   "date": "2025-11-11",
+   "round": "SERIES_A",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "3186638": {
+   "name": "AAVantgarde",
+   "domain": "aavantgarde.com",
+   "country": "Italy",
+   "date": "2025-11-06",
+   "round": "SERIES_B",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "3700154": {
+   "name": "Artios",
+   "domain": "artios.com",
+   "country": "United Kingdom",
+   "date": "2025-11-01",
+   "round": "SERIES_D",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "3240094": {
+   "name": "Hemab Therapeutics",
+   "domain": "hemab.com",
+   "country": "Denmark",
+   "date": "2025-10-27",
+   "round": "SERIES_C",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "64249647": {
+   "name": "Elevara Medicines",
+   "domain": "elevara.com",
+   "country": "United Kingdom",
+   "date": "2025-10-23",
+   "round": "SERIES_A",
+   "funds": [
+    "sofinnova"
+   ]
+  },
+  "1504614": {
+   "name": "VSORA",
+   "domain": "vsora.com",
+   "country": "France",
+   "date": "2026-07-03",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "xange",
+    "omnes",
+    "otium"
+   ]
+  },
+  "4502382": {
+   "name": "planetary",
+   "domain": "planetarygroup.ch",
+   "country": "Switzerland",
+   "date": "2026-04-20",
+   "round": "DEBT",
+   "funds": [
+    "xange"
+   ]
+  },
+  "2041722": {
+   "name": "MindDay",
+   "domain": "mindday.com",
+   "country": "France",
+   "date": "2026-03-27",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "xange"
+   ]
+  },
+  "3446858": {
+   "name": "Ensweet - telerehabilitation solutions",
+   "domain": "ensweet.fr",
+   "country": "France",
+   "date": "2025-05-20",
+   "round": "SEED",
+   "funds": [
+    "xange",
+    "50-partners"
+   ]
+  },
+  "24774523": {
+   "name": "Ethik IA",
+   "domain": "ethik-ia.fr",
+   "country": "France",
+   "date": "2025-04-22",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "xange"
+   ]
+  },
+  "10442163": {
+   "name": "Lyv",
+   "domain": "lyv.app",
+   "country": "France",
+   "date": "2025-02-04",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "xange"
+   ]
+  },
+  "3931419": {
+   "name": "Rainbow Standard",
+   "domain": "rainbowstandard.io",
+   "country": "France",
+   "date": "2025-05-15",
+   "round": "SEED",
+   "funds": [
+    "alven",
+    "serena"
+   ]
+  },
+  "60337115": {
+   "name": "OpusMajor",
+   "domain": "opusmajor.io",
+   "country": "France",
+   "date": "2025-03-12",
+   "round": "SEED",
+   "funds": [
+    "alven"
+   ]
+  },
+  "781348": {
+   "name": "TISSIUM",
+   "domain": "tissium.com",
+   "country": "France",
+   "date": "2025-12-31",
+   "round": "SERIES_D",
+   "funds": [
+    "cathay"
+   ]
+  },
+  "57767877": {
+   "name": "minimiil",
+   "domain": "minimiil.com",
+   "country": "France",
+   "date": "2026-04-24",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "617517": {
+   "name": "Newfund",
+   "domain": "newfundcap.com",
+   "country": "France",
+   "date": "2026-04-14",
+   "round": "LATER_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "65491879": {
+   "name": "KERIA",
+   "domain": "keria.tech",
+   "country": "France",
+   "date": "2025-12-12",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "64546370": {
+   "name": "AI-Stroke",
+   "domain": "ai-stroke.com",
+   "country": "France",
+   "date": "2025-11-01",
+   "round": "SEED",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "12784342": {
+   "name": "Purenat",
+   "domain": "pure-nat.com",
+   "country": "France",
+   "date": "2025-10-07",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "3408776": {
+   "name": "Kikleo",
+   "domain": "kikleo.com",
+   "country": "France",
+   "date": "2025-10-06",
+   "round": "SERIES_A",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "15792177": {
+   "name": "NeoEarth",
+   "domain": "neoearth.fr",
+   "country": "France",
+   "date": "2025-09-02",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "62132878": {
+   "name": "Olimpe Technology",
+   "domain": "olimpe-technology.com",
+   "country": "France",
+   "date": "2025-07-04",
+   "round": "LATER_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "56575803": {
+   "name": "ORIA Bioscience",
+   "domain": "oriabs.com",
+   "country": "France",
+   "date": "2025-06-25",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "11550732": {
+   "name": "Inside Therapeutics (InsideTx)",
+   "domain": "insidetx.com",
+   "country": "France",
+   "date": "2025-06-06",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "newfund"
+   ]
+  },
+  "9896346": {
+   "name": "Audion Packaging Machines",
+   "domain": "audion.com",
+   "country": "Netherlands",
+   "date": "2026-04-27",
+   "round": "LATER_STAGE",
+   "funds": [
+    "founders-future"
+   ]
+  },
+  "2247532": {
+   "name": "auum",
+   "domain": "auum.fr",
+   "country": "France",
+   "date": "2025-04-22",
+   "round": "SERIES_B",
+   "funds": [
+    "founders-future"
+   ]
+  },
+  "78039921": {
+   "name": "Waiv, formerly Owkin Dx",
+   "domain": "waiv.com",
+   "country": "France",
+   "date": "2026-03-12",
+   "round": "SERIES_A",
+   "funds": [
+    "serena"
+   ]
+  },
+  "3326903": {
+   "name": "Goodvest",
+   "domain": "goodvest.fr",
+   "country": "France",
+   "date": "2025-09-24",
+   "round": "SERIES_B",
+   "funds": [
+    "serena"
+   ]
+  },
+  "41460757": {
+   "name": "Autodm AI",
+   "domain": "autodm.ai",
+   "country": "France",
+   "date": "2025-03-04",
+   "round": "SEED",
+   "funds": [
+    "serena",
+    "daphni"
+   ]
+  },
+  "75896237": {
+   "name": "Mediads",
+   "domain": "mediads.io",
+   "country": "France",
+   "date": "2026-05-19",
+   "round": "SEED",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "11363396": {
+   "name": "ErVimmune",
+   "domain": "ervimmune.com",
+   "country": "France",
+   "date": "2026-01-01",
+   "round": "SERIES_A",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "1961866": {
+   "name": "Tubulis GmbH",
+   "domain": "tubulis.com",
+   "country": "Germany",
+   "date": "2025-10-15",
+   "round": "SERIES_C",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "1430626": {
+   "name": "Kapsera",
+   "domain": "kapsera.com",
+   "country": "France",
+   "date": "2025-10-03",
+   "round": "LATER_STAGE",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "1563453": {
+   "name": "Animab",
+   "domain": "animab.com",
+   "country": "Belgium",
+   "date": "2025-07-01",
+   "round": "SERIES_B",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "615636": {
+   "name": "Enterome",
+   "domain": "enterome.com",
+   "country": "France",
+   "date": "2025-06-12",
+   "round": "LATER_STAGE",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "60055183": {
+   "name": "SeaweedConcept",
+   "domain": "seaweedconcept.com",
+   "country": "France",
+   "date": "2025-02-21",
+   "round": "SERIES_A",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "59771290": {
+   "name": "ekstere",
+   "domain": "ekstere.eco",
+   "country": "France",
+   "date": "2025-02-12",
+   "round": "LATER_STAGE",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "1937464": {
+   "name": "Anybuddy",
+   "domain": "anybuddyapp.com",
+   "country": "France",
+   "date": "2025-02-06",
+   "round": "LATER_STAGE",
+   "funds": [
+    "seventure"
+   ]
+  },
+  "3633013": {
+   "name": "Jay&Joy",
+   "domain": "jay-joy.com",
+   "country": "France",
+   "date": "2026-03-23",
+   "round": "LATER_STAGE",
+   "funds": [
+    "demeter"
+   ]
+  },
+  "10811090": {
+   "name": "Amatera",
+   "domain": "amatera.bio",
+   "country": "France",
+   "date": "2026-03-04",
+   "round": "SEED",
+   "funds": [
+    "demeter"
+   ]
+  },
+  "54777719": {
+   "name": "Viti-Tunnel",
+   "domain": "viti-tunnel.com",
+   "country": "France",
+   "date": "2026-01-16",
+   "round": "CROWDFUNDING",
+   "funds": [
+    "demeter"
+   ]
+  },
+  "12479803": {
+   "name": "Quideos",
+   "domain": "quideos.com",
+   "country": "France",
+   "date": "2026-01-09",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "demeter",
+    "breega"
+   ]
+  },
+  "65526835": {
+   "name": "ONSEN SAS",
+   "domain": "onsen-sas.com",
+   "country": "France",
+   "date": "2025-12-09",
+   "round": "LATER_STAGE",
+   "funds": [
+    "demeter"
+   ]
+  },
+  "54964525": {
+   "name": "Sirius NeoSight",
+   "domain": "sirius-neosight.com",
+   "country": "France",
+   "date": "2025-02-05",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "demeter",
+    "go-capital",
+    "evolem"
+   ]
+  },
+  "1617837": {
+   "name": "Leviathan Dynamics",
+   "domain": "leviathan-dynamics.com",
+   "country": "France",
+   "date": "2026-03-27",
+   "round": "CROWDFUNDING",
+   "funds": [
+    "daphni"
+   ]
+  },
+  "6837414": {
+   "name": "EverDye",
+   "domain": "everdye.fr",
+   "country": "France",
+   "date": "2026-01-29",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "daphni"
+   ]
+  },
+  "58144166": {
+   "name": "OWLO",
+   "domain": "owlo.io",
+   "country": "France",
+   "date": "2025-11-17",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "daphni"
+   ]
+  },
+  "3710463": {
+   "name": "Voltfang",
+   "domain": "voltfang.de",
+   "country": "Germany",
+   "date": "2025-06-12",
+   "round": "SERIES_B",
+   "funds": [
+    "daphni"
+   ]
+  },
+  "4306811": {
+   "name": "Flow48",
+   "domain": "flow48.com",
+   "country": "United Kingdom",
+   "date": "2025-02-25",
+   "round": "SERIES_A",
+   "funds": [
+    "daphni",
+    "breega"
+   ]
+  },
+  "57098064": {
+   "name": "Epyr",
+   "domain": "epyr.co",
+   "country": "France",
+   "date": "2025-02-04",
+   "round": "PRE_SEED",
+   "funds": [
+    "daphni"
+   ]
+  },
+  "8612805": {
+   "name": "Ublo",
+   "domain": "ublo.tech",
+   "country": "France",
+   "date": "2025-12-19",
+   "round": "LATER_STAGE",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "64374229": {
+   "name": "TerraGrow",
+   "domain": "terragrow.fr",
+   "country": "France",
+   "date": "2025-09-26",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "11132369": {
+   "name": "nona",
+   "domain": "nona.fr",
+   "country": "France",
+   "date": "2025-09-08",
+   "round": "LATER_STAGE",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "59622631": {
+   "name": "Suzaku",
+   "domain": "suzaku.network",
+   "country": "France",
+   "date": "2025-08-28",
+   "round": "SEED",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "10961083": {
+   "name": "cosma",
+   "domain": "cosma.tech",
+   "country": "France",
+   "date": "2025-06-30",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "3260527": {
+   "name": "Delpha",
+   "domain": "delpha.io",
+   "country": "France",
+   "date": "2025-06-04",
+   "round": "SEED",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "11092694": {
+   "name": "MEDICUD",
+   "domain": "medicud.ch",
+   "country": "Italy",
+   "date": "2025-04-09",
+   "round": "SEED",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "41596590": {
+   "name": "Jool",
+   "domain": "jool.co",
+   "country": "France",
+   "date": "2025-03-15",
+   "round": "SEED",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "60470716": {
+   "name": "CountAct 🦺",
+   "domain": "countact.fr",
+   "country": "France",
+   "date": "2025-02-06",
+   "round": "ANGEL",
+   "funds": [
+    "50-partners"
+   ]
+  },
+  "37697123": {
+   "name": "ENGO Controls Polska",
+   "domain": "engocontrols.com",
+   "country": "Poland",
+   "date": "2026-07-17",
+   "round": "SEED",
+   "funds": [
+    "ventech"
+   ]
+  },
+  "20617064": {
+   "name": "CeLLife Technologies Ltd.",
+   "domain": "cellife.fi",
+   "country": "Finland",
+   "date": "2026-05-29",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "ventech"
+   ]
+  },
+  "4424392": {
+   "name": "DiappyMed",
+   "domain": "diappymed.com",
+   "country": "France",
+   "date": "2026-03-27",
+   "round": "SEED",
+   "funds": [
+    "ventech"
+   ]
+  },
+  "3710740": {
+   "name": "Custom Surgical",
+   "domain": "customsurgical.co",
+   "country": "Germany",
+   "date": "2026-02-19",
+   "round": "SERIES_A",
+   "funds": [
+    "ventech"
+   ]
+  },
+  "702577": {
+   "name": "Ventech",
+   "domain": "ventechvc.com",
+   "country": "France",
+   "date": "2025-09-01",
+   "round": "LATER_STAGE",
+   "funds": [
+    "ventech"
+   ]
+  },
+  "1676123": {
+   "name": "011h",
+   "domain": "011h.com",
+   "country": "Spain",
+   "date": "2025-10-10",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "breega"
+   ]
+  },
+  "4101651": {
+   "name": "Axomove",
+   "domain": "axomove.com",
+   "country": "France",
+   "date": "2026-04-22",
+   "round": "SERIES_A",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "1852640": {
+   "name": "Lifeaz",
+   "domain": "lifeaz.com",
+   "country": "France",
+   "date": "2026-02-12",
+   "round": "LATER_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "29064829": {
+   "name": "NeoXperiences",
+   "domain": "neoxperiences.com",
+   "country": "France",
+   "date": "2026-01-21",
+   "round": "LATER_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "6750048": {
+   "name": "Opsealog",
+   "domain": "opsealog.com",
+   "country": "France",
+   "date": "2026-01-20",
+   "round": "BUYOUT_LBO",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "1525540": {
+   "name": "Alkion BioInnovations",
+   "domain": "alkinnov.com",
+   "country": "France",
+   "date": "2025-11-21",
+   "round": "LATER_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "3957136": {
+   "name": "Aurora Cold Plasma Sterilisation",
+   "domain": "aurora-plasma-sterilisation.com",
+   "country": "France",
+   "date": "2025-11-01",
+   "round": "LATER_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "1557704": {
+   "name": "VitaDX",
+   "domain": "vitadx.com",
+   "country": "France",
+   "date": "2025-08-25",
+   "round": "LATER_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "12887145": {
+   "name": "Delivrone",
+   "domain": "delivrone.fr",
+   "country": "United Kingdom",
+   "date": "2025-07-16",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "1727658": {
+   "name": "Expliseat",
+   "domain": "expliseat.com",
+   "country": "France",
+   "date": "2025-06-12",
+   "round": "LATER_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "10716537": {
+   "name": "MoEa",
+   "domain": "moea.io",
+   "country": "France",
+   "date": "2025-02-27",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "4630845": {
+   "name": "Bioceanor",
+   "domain": "bioceanor.com",
+   "country": "France",
+   "date": "2025-02-26",
+   "round": "SERIES_A",
+   "funds": [
+    "go-capital"
+   ]
+  },
+  "17097902": {
+   "name": "TAS Cloud Services",
+   "domain": "nubevia.com",
+   "country": "France",
+   "date": "2026-05-21",
+   "round": "M_AND_A",
+   "funds": [
+    "evolem"
+   ]
+  },
+  "3204456": {
+   "name": "Kimialys",
+   "domain": "kimialys.com",
+   "country": "France",
+   "date": "2025-12-05",
+   "round": "SERIES_A",
+   "funds": [
+    "evolem"
+   ]
+  },
+  "5979024": {
+   "name": "Fungu'it",
+   "domain": "funguit.fr",
+   "country": "France",
+   "date": "2025-06-17",
+   "round": "SEED",
+   "funds": [
+    "evolem"
+   ]
+  },
+  "56607872": {
+   "name": "Apolownia",
+   "domain": "apolownia.com",
+   "country": "France",
+   "date": "2026-07-31",
+   "round": "SEED",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "7611914": {
+   "name": "Twinsight",
+   "domain": "twinsight-medical.com",
+   "country": "France",
+   "date": "2026-07-23",
+   "round": "SEED",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "4411921": {
+   "name": "Brenus Pharma",
+   "domain": "brenus-pharma.com",
+   "country": "France",
+   "date": "2026-07-21",
+   "round": "SERIES_A_EXTENSION",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "2087639": {
+   "name": "Destia Oy",
+   "domain": "destia.fi",
+   "country": "Finland",
+   "date": "2026-07-17",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "15722741": {
+   "name": "ED Ouest Couverture",
+   "domain": "ed-ouest.fr",
+   "country": "France",
+   "date": "2026-07-07",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "18498915": {
+   "name": "LJ TRUCKS",
+   "domain": "ljtrucks.fr",
+   "country": "France",
+   "date": "2026-07-06",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "3208313": {
+   "name": "Elixir Aircraft",
+   "domain": "elixir-aircraft.com",
+   "country": "France",
+   "date": "2026-07-02",
+   "round": "LATER_STAGE",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "4621333": {
+   "name": "HTDS",
+   "domain": "htds.fr",
+   "country": "France",
+   "date": "2026-06-30",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "5528190": {
+   "name": "Lys Therapeutics",
+   "domain": "lystherapeutics.com",
+   "country": "France",
+   "date": "2026-06-22",
+   "round": "EARLY_STAGE",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "18302730": {
+   "name": "d'management group srl",
+   "domain": "dmanagementgroup.com",
+   "country": "Italy",
+   "date": "2026-06-19",
+   "round": "SERIES_B",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "9256272": {
+   "name": "LEMAN GROUP",
+   "domain": "leman-industrie.com",
+   "country": "France",
+   "date": "2026-06-19",
+   "round": "LATER_STAGE",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "151361": {
+   "name": "LEMAN",
+   "domain": "leman.com",
+   "country": "Denmark",
+   "date": "2026-06-19",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "64492690": {
+   "name": "HIT Mag",
+   "domain": "hit-mag.fr",
+   "country": "France",
+   "date": "2026-06-11",
+   "round": "SEED",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "11308860": {
+   "name": "Satys",
+   "domain": "satys.com",
+   "country": "France",
+   "date": "2026-06-10",
+   "round": "DEBT",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "1877110": {
+   "name": "Rematch",
+   "domain": "rematch.tv",
+   "country": "France",
+   "date": "2026-06-10",
+   "round": "LATER_STAGE",
+   "funds": [
+    "bpifrance"
+   ]
+  },
+  "3507162": {
+   "name": "FAIRMAT",
+   "domain": "fairmat.tech",
+   "country": "France",
+   "date": "2025-04-02",
+   "round": "SERIES_B",
+   "funds": [
+    "singular"
+   ]
+  },
+  "8395469": {
+   "name": "APL Data Center",
+   "domain": "apl-datacenter.com",
+   "country": "France",
+   "date": "2026-04-16",
+   "round": "PRIVATE_EQUITY",
+   "funds": [
+    "isai"
+   ]
+  },
+  "774603": {
+   "name": "e-peas",
+   "domain": "e-peas.com",
+   "country": "Belgium",
+   "date": "2026-07-09",
+   "round": "LATER_STAGE",
+   "funds": [
+    "otium"
+   ]
+  }
+ }
+}

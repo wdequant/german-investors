@@ -185,6 +185,8 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 .plist .offr{opacity:.5}
 .pt.bridge{color:var(--ink2)}
 .livebadge{color:var(--covered-ink);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.gpos{color:var(--covered-ink);font-weight:650}
+#unttable .num{font-variant-numeric:tabular-nums}
 .fmeta .cc{color:var(--muted);font-size:11px}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
@@ -216,7 +218,8 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 /* ---------- mobile experience (cards + dossier sheet) ---------- */
 #mlist{display:none}
 @media (max-width:700px){
-  #fundsview table, #fundsview .sechead, #htcview table, #htcview .sechead{display:none}
+  #fundsview table, #fundsview .sechead, #htcview table, #htcview .sechead,
+  #untview table, #untview .sechead{display:none}
   #mlist{display:block;padding-bottom:40px}
   .wrap{padding:0 14px}
   .hero{padding:20px 0 2px} h1{font-size:23px}
@@ -271,7 +274,7 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
   <span class="brand"><span class="mark">S</span><span>Sonar<span class="by">Highland Europe</span></span></span>
   <div class="seg" id="regionseg"></div>
   <div class="seg" id="viewseg">
-    <button data-v="funds" class="on">Investors</button><button data-v="htc">Hard to crack</button>
+    <button data-v="funds" class="on">Investors</button><button data-v="htc">Hard to crack</button><button data-v="unt">Untracked</button>
   </div>
   <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
   <input type="search" id="q" placeholder="Filter…">
@@ -312,6 +315,11 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 <div id="htcview" style="display:none">
 <div class="sechead"><h2>Hard to crack — reachable via mapped investors</h2><p id="htchint"></p></div>
 <table id="htctable"></table>
+</div>
+
+<div id="untview" style="display:none">
+<div class="sechead"><h2>Untracked dealflow — deals we have no CRM record for</h2><p id="unthint"></p></div>
+<table id="unttable"></table>
 </div>
 
 <div id="mlist"></div>
@@ -694,6 +702,13 @@ function mHtcCardHTML(c){
 }
 function renderMobile(){
   const el = document.getElementById('mlist');
+  if(state.view==='unt'){
+    const rows = untRows();
+    el.innerHTML = `<div class="mhead">Untracked dealflow — ${rows.length} companies</div>`+
+      (rows.map(mUntCardHTML).join('')||'<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');
+    bindAddAff(el);
+    return;
+  }
   if(state.view==='htc'){
     let rows = D.regions[state.region].htc;
     if(state.person) rows = rows.filter(c=>(c.owners||[]).some(o=>o===state.person||o.startsWith(state.person.split(' ')[0])));
@@ -735,6 +750,69 @@ document.getElementById('sheetclose').addEventListener('click',()=>{
   document.getElementById('sheet').classList.remove('open'); state.open=''; stopLive(); updateHash();
 });
 matchMedia('(max-width:700px)').addEventListener('change',()=>render());
+
+// ---------- untracked dealflow view ----------
+const fmtMoney = v => v==null?'—':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
+function untRows(){
+  const prof = D.untProfiles||{};
+  const byId = {};
+  for(const e of E()){
+    for(const u of e.untracked||[]){
+      const cid = u.harmonic_company_id; if(!cid) continue;
+      const r = byId[cid] || (byId[cid] = {...u, funds: [], p: prof[cid]||prof[String(cid)]||{}});
+      r.funds.push(e);
+      if((u.date||'') > (r.date||'')){ r.date = u.date; r.round = u.round; }
+    }
+  }
+  let rows = Object.values(byId).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  if(state.q) rows = rows.filter(r=>(r.name||'').toLowerCase().includes(state.q)
+    || (r.p.founders||[]).some(f=>(f.name||'').toLowerCase().includes(state.q)));
+  return rows;
+}
+function untHTML(){
+  const rows = untRows();
+  document.getElementById('unthint').textContent =
+    `${rows.length} companies our tracked ${D.regions[state.region].label} investors backed recently — none in Affinity yet`;
+  const body = rows.map(r=>{
+    const p = r.p, hg = p.headcount_growth;
+    const founders = (p.founders||[]).map(f=>`<div>${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="t"> · ${f.title||''}</span></div>`).join('')||'<span style="color:var(--muted)">—</span>';
+    const funds = r.funds.map(e=>`<span class="nm ${e.tier}">${e.name}</span>`).join('');
+    const growth = hg&&hg.pct!=null?`<span class="${hg.pct>=30?'gpos':''}">${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window}</span>`:'';
+    return `<tr>
+      <td><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${r.harmonic_company_id}" target="_blank" rel="noopener">${r.name}</a></div>
+        <div class="fmeta"><span>${p.hq||r.country||''}</span></div></td>
+      <td><span class="st" style="min-width:0">${(p.stage||r.round||'—').replaceAll('_',' ').toLowerCase()}</span><div class="fmeta">${(r.date||'').slice(0,7)}</div></td>
+      <td class="num">${fmtMoney(p.funding_total_usd)}</td>
+      <td class="num">${p.headcount!=null?p.headcount:'—'}${growth?`<div class="fmeta">${growth}</div>`:''}</td>
+      <td><div class="tmcols" style="gap:0"><div class="tm" style="min-width:0">${founders}</div></div></td>
+      <td><div class="htc-inv">${funds}</div></td>
+      <td><button class="minibtn addaff" data-dom="${r.domain||''}" data-nm="${r.name}">＋ Affinity</button></td>
+    </tr>`;
+  }).join('');
+  document.getElementById('unttable').innerHTML =
+    `<thead><tr><th>Company</th><th>Stage · date</th><th>Raised</th><th>Headcount</th><th>Founders / CEO</th><th>Backed by</th><th></th></tr></thead><tbody>${body||'<tr><td colspan="7" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
+  bindAddAff(document.getElementById('unttable'));
+}
+function bindAddAff(root){
+  root.querySelectorAll('.addaff').forEach(b=>b.addEventListener('click',ev=>{
+    ev.stopPropagation();
+    const v = b.dataset.dom || b.dataset.nm;
+    navigator.clipboard?.writeText(v);
+    toast(`Copied ${v} — paste into Affinity's Add Company`);
+    window.open(`https://${D.affinityOrg}.affinity.co/lists/9387`,'_blank');
+  }));
+}
+function mUntCardHTML(r){
+  const p = r.p, hg = p.headcount_growth;
+  return `<div class="mcard">
+    <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${r.harmonic_company_id}" target="_blank" rel="noopener">${r.name}</a></div>
+      <span class="cc">${(r.date||'').slice(0,7)}</span></div>
+    <div class="mmeta"><span>${p.hq||r.country||''}</span><span>${(p.stage||r.round||'').replaceAll('_',' ').toLowerCase()}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span>${p.headcount} ppl${hg&&hg.pct!=null?` (${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window})`:''}</span>`:''}</div>
+    ${(p.founders||[]).length?`<div class="mpath">${p.founders.map(f=>f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' · ')}</div>`:''}
+    <div class="mmeta">backed by: ${r.funds.map(e=>e.name).join(', ')}</div>
+    <div class="actionrow"><button class="minibtn addaff" data-dom="${r.domain||''}" data-nm="${r.name}">＋ Affinity</button></div>
+  </div>`;
+}
 
 // ---------- live sync (viewer's Affinity connector via window.claude.mcp) ----------
 const LIVE_BUCKET = {'Pre-lead':'prelead','Reach Out Now':'reachout','Awaiting Reply':'awaiting',
@@ -826,12 +904,14 @@ function render(){
   if(!state.open) stopLive();
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
+  document.getElementById('untview').style.display = state.view==='unt'?'':'none';
   if(mob){
     if(state.view==='funds') filtersHTML();
     renderMobile(); updateHash(); return;
   }
   document.getElementById('sheet').classList.remove('open');
   if(state.view==='htc'){ htcHTML(); return; }
+  if(state.view==='unt'){ untHTML(); return; }
   filtersHTML();
   const vis = visible();
   const ft=document.getElementById('fundtable'), at=document.getElementById('angeltable');
@@ -885,6 +965,7 @@ function labels(){
 function updateHash(){
   let h = '#'+state.region;
   if(state.view==='htc') h+='/htc';
+  else if(state.view==='unt') h+='/unt';
   else if(state.open) h+='/'+state.open;
   if(state.person) h+='?as='+encodeURIComponent(state.person);
   history.replaceState(null,'',h);
@@ -895,11 +976,12 @@ function readHash(){
   if(REGIONS.includes(m[1])) state.region=m[1];
   if(m[3]) state.person = decodeURIComponent(m[3]);
   if(m[2]==='htc') state.view='htc';
+  else if(m[2]==='unt') state.view='unt';
   else if(m[2]) state.pendingOpen = m[2];
 }
 
 addEventListener('hashchange',()=>{  // deep links work without a reload
-  state.view = location.hash.includes('/htc') ? 'htc' : 'funds';
+  state.view = location.hash.includes('/htc') ? 'htc' : location.hash.includes('/unt') ? 'unt' : 'funds';
   if(!location.hash.includes('?as=')) state.person = '';
   state.open = '';
   readHash();
