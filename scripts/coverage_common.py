@@ -719,6 +719,21 @@ def attach_dealflow(entities, dealflow, dump):
             rows.append({**d,
                          "funnel": (ent.get("funnel") or "In CRM") if ent else None,
                          "affinity_id": ent.get("id") if ent else None})
+        # merge in untracked EU deals older than the recent-12 window, so the
+        # table's untracked count matches the row badge
+        have_ids = {r.get("harmonic_company_id") for r in rows}
+        have_doms = {(r.get("domain") or "").lower().removeprefix("www.") for r in rows if r.get("domain")}
+        for u in e.get("untracked") or []:
+            dom = (u.get("domain") or "").lower().removeprefix("www.")
+            if u.get("harmonic_company_id") in have_ids or (dom and dom in have_doms):
+                continue
+            rows.append({"name": u.get("name"), "domain": u.get("domain"),
+                         "harmonic_company_id": u.get("harmonic_company_id"),
+                         "country": u.get("country"), "date": u.get("date"),
+                         "round": u.get("round"), "round_size_usd": None,
+                         "total_funding_usd": None, "valuation_usd": None,
+                         "funnel": None, "affinity_id": None})
+        rows.sort(key=lambda r: r.get("date") or "", reverse=True)
         e["dealflow"] = rows
     return entities
 

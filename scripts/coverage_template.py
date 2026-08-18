@@ -525,7 +525,9 @@ function detailHTML(e){
   if((e.dealflow||[]).length){
     const money = v => v==null?'—':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
     const unt = e.dealflow.filter(x=>!x.funnel).length;
-    h += `<details class="sec dfsec" id="sec-${e.slug}-df"><summary>Recent dealflow <b>${e.dealflow.length}</b>${unt?`<span class="cnt">${unt} not in our pipeline</span>`:''}</summary>
+    const eu = (e.untracked||[]).length;
+    const untLbl = unt ? `${unt} not in our pipeline${eu&&eu!==unt?` (${eu} EU)`:''}` : '';
+    h += `<details class="sec dfsec" id="sec-${e.slug}-df"><summary>Recent dealflow <b>${e.dealflow.length}</b>${untLbl?`<span class="cnt">${untLbl}</span>`:''}</summary>
       <div class="dfwrap"><table class="df"><thead><tr><th>Company</th><th>Round</th><th>Date</th><th>Size</th><th>Total raised</th><th>Valuation</th><th>Status</th></tr></thead><tbody>`+
       e.dealflow.map(x=>`<tr>
         <td><a href="https://console.harmonic.ai/dashboard/company/${x.harmonic_company_id}" target="_blank" rel="noopener">${x.name}</a> <span class="cc">${x.country||''}</span></td>
