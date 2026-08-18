@@ -188,7 +188,9 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 .gpos{color:var(--covered-ink);font-weight:650}
 #unttable .num{font-variant-numeric:tabular-nums}
 .hc{color:var(--accent-ink);font-weight:650}
-.udesc{font-size:12px;color:var(--ink2);max-width:260px}
+.udesc{font-size:11.5px;color:var(--ink2);max-width:230px;min-width:170px;white-space:normal !important;line-height:1.4}
+#unttable .df td{padding-right:8px}
+#unttable .df .minibtn{padding:3px 8px;font-size:11px;white-space:nowrap}
 .fmeta .cc{color:var(--muted);font-size:11px}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
