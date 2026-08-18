@@ -245,6 +245,17 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
   .score .s{min-width:128px;flex:none;padding:12px 14px 10px}
   .score b{font-size:22px}
   .mhead{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:20px 0 8px}
+  details.munt{background:var(--surface);border:1px solid var(--hair);border-radius:12px;margin-bottom:10px;overflow:hidden}
+  details.munt summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:13px 14px}
+  details.munt summary::-webkit-details-marker{display:none}
+  details.munt summary::before{content:'▸';color:var(--muted);font-size:12px;flex:none}
+  details.munt[open] summary::before{content:'▾'}
+  details.munt summary .fname{flex:1;font-size:15px}
+  details.munt summary:active{background:var(--hair2)}
+  details.munt .muntbody{padding:2px 10px 10px;border-top:1px solid var(--hair)}
+  details.munt .mcard{border:0;border-bottom:1px solid var(--hair);border-radius:0;margin:0;cursor:default;padding:11px 4px}
+  details.munt .mcard:last-child{border-bottom:0}
+  details.munt .mcard:active{background:none}
   .mcard{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:10px;cursor:pointer}
   .mcard:active{background:var(--hair2)}
   .mtop{display:flex;align-items:center;gap:10px}
@@ -848,7 +859,7 @@ function mUntCards(){
         <div class="actionrow">${affBtn(p,u)}</div>
       </div>`;
     }).join('');
-    return `<div class="mhead">${e.name} \u2014 ${e.untracked.length} untracked</div>`+cards;
+    return `<details class="munt"${state.q?' open':''}><summary><span class="fname">${e.name}</span><span class="badge unt">${e.untracked.length} untracked</span></summary><div class="muntbody">${cards}</div></details>`;
   }).join('');
 }
 
