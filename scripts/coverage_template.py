@@ -703,9 +703,7 @@ function mHtcCardHTML(c){
 function renderMobile(){
   const el = document.getElementById('mlist');
   if(state.view==='unt'){
-    const rows = untRows();
-    el.innerHTML = `<div class="mhead">Untracked dealflow — ${rows.length} companies</div>`+
-      (rows.map(mUntCardHTML).join('')||'<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');
+    el.innerHTML = mUntCards() || '<div class="mpath" style="color:var(--muted)">Nothing matches.</div>';
     bindAddAff(el);
     return;
   }
@@ -752,66 +750,92 @@ document.getElementById('sheetclose').addEventListener('click',()=>{
 matchMedia('(max-width:700px)').addEventListener('change',()=>render());
 
 // ---------- untracked dealflow view ----------
-const fmtMoney = v => v==null?'—':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
-function untRows(){
-  const prof = D.untProfiles||{};
-  const byId = {};
-  for(const e of E()){
-    for(const u of e.untracked||[]){
-      const cid = u.harmonic_company_id; if(!cid) continue;
-      const r = byId[cid] || (byId[cid] = {...u, funds: [], p: prof[cid]||prof[String(cid)]||{}});
-      r.funds.push(e);
-      if((u.date||'') > (r.date||'')){ r.date = u.date; r.round = u.round; }
-    }
-  }
-  let rows = Object.values(byId).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
-  if(state.q) rows = rows.filter(r=>(r.name||'').toLowerCase().includes(state.q)
-    || (r.p.founders||[]).some(f=>(f.name||'').toLowerCase().includes(state.q)));
-  return rows;
+const fmtMoney = v => (v==null||v===0)?'\u2014':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
+const fmtStage = st => (st||'').replaceAll('_',' ').toLowerCase().replace(/(^|\s)\S/g, c=>c.toUpperCase()).replace('Pre Seed','Pre-seed') || '\u2014';
+function untFunds(){
+  let fs = E().filter(e=>e.kind==='fund' && (e.untracked||[]).length);
+  if(state.q) fs = fs.filter(e=>e.name.toLowerCase().includes(state.q)
+    || (e.untracked||[]).some(u=>(u.name||'').toLowerCase().includes(state.q)));
+  return fs.sort((a,b)=>(b.untracked||[]).length-(a.untracked||[]).length);
 }
-function untHTML(){
-  const rows = untRows();
-  document.getElementById('unthint').textContent =
-    `${rows.length} companies our tracked ${D.regions[state.region].label} investors backed recently — none in Affinity yet`;
-  const body = rows.map(r=>{
-    const p = r.p, hg = p.headcount_growth;
-    const founders = (p.founders||[]).map(f=>`<div>${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="t"> · ${f.title||''}</span></div>`).join('')||'<span style="color:var(--muted)">—</span>';
-    const funds = r.funds.map(e=>`<span class="nm ${e.tier}">${e.name}</span>`).join('');
-    const growth = hg&&hg.pct!=null?`<span class="${hg.pct>=30?'gpos':''}">${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window}</span>`:'';
+function untCompanyRows(e){
+  const prof = D.untProfiles||{};
+  return (e.untracked||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(u=>{
+    const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
+    const hg = p.headcount_growth;
+    const growth = hg&&hg.pct!=null?` <span class="${hg.pct>=30?'gpos':'cc'}">${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window}</span>`:'';
+    const founders = (p.founders||[]).slice(0,3).map(f=>
+      `${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="cc">${f.title?` \u00b7 ${f.title.replace('Co-Founder','Co-founder')}`:''}</span>`).join('<br>')||'<span class="cc">\u2014</span>';
     return `<tr>
-      <td><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${r.harmonic_company_id}" target="_blank" rel="noopener">${r.name}</a></div>
-        <div class="fmeta"><span>${p.hq||r.country||''}</span></div></td>
-      <td><span class="st" style="min-width:0">${(p.stage||r.round||'—').replaceAll('_',' ').toLowerCase()}</span><div class="fmeta">${(r.date||'').slice(0,7)}</div></td>
+      <td><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
+      <td style="white-space:nowrap">${fmtStage(p.stage||u.round)} <span class="cc">\u00b7 ${(u.date||'').slice(0,7)}</span></td>
       <td class="num">${fmtMoney(p.funding_total_usd)}</td>
-      <td class="num">${p.headcount!=null?p.headcount:'—'}${growth?`<div class="fmeta">${growth}</div>`:''}</td>
-      <td><div class="tmcols" style="gap:0"><div class="tm" style="min-width:0">${founders}</div></div></td>
-      <td><div class="htc-inv">${funds}</div></td>
-      <td><button class="minibtn addaff" data-dom="${r.domain||''}" data-nm="${r.name}">＋ Affinity</button></td>
+      <td class="num" style="white-space:nowrap">${p.headcount!=null?p.headcount:'\u2014'}${growth}</td>
+      <td>${founders}</td>
+      <td><button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button></td>
     </tr>`;
   }).join('');
+}
+function untHTML(){
+  const fs = untFunds();
+  const total = fs.reduce((n,e)=>n+e.untracked.length,0);
+  document.getElementById('unthint').textContent =
+    `${total} recent deals by tracked ${D.regions[state.region].label} investors with no Affinity record \u2014 click a fund`;
+  const body = fs.map(e=>{
+    const v = eff(e);
+    const latest = e.untracked.reduce((m,u)=>(u.date||'')>m?u.date:m,'');
+    const preview = e.untracked.slice(0,3).map(u=>u.name).join(', ');
+    return `<tr class="mainrow" data-uslug="${e.slug}" tabindex="0">
+      <td><div class="fname ${v.tier}"><span class="tdot"></span>${e.name}</div>
+        <div class="fmeta"><span class="badge">${e.category.toUpperCase()}</span><span>${(e.city||'').split('\u00b7')[0].trim()}</span></div></td>
+      <td><span class="badge unt">${e.untracked.length} untracked</span></td>
+      <td class="num">${latest?latest.slice(0,7):'\u2014'}</td>
+      <td style="font-size:12px;color:var(--ink2)">${preview}${e.untracked.length>3?` <span class="cc">+${e.untracked.length-3} more</span>`:''}</td>
+    </tr>
+    <tr class="detailrow" id="ud-${e.slug}"><td colspan="4"><div class="detail"><div class="dfwrap"><table class="df">
+      <thead><tr><th>Company</th><th>Stage \u00b7 date</th><th>Raised</th><th>Headcount</th><th>Founders / CEO</th><th></th></tr></thead>
+      <tbody>${untCompanyRows(e)}</tbody></table></div></div></td></tr>`;
+  }).join('');
   document.getElementById('unttable').innerHTML =
-    `<thead><tr><th>Company</th><th>Stage · date</th><th>Raised</th><th>Headcount</th><th>Founders / CEO</th><th>Backed by</th><th></th></tr></thead><tbody>${body||'<tr><td colspan="7" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
-  bindAddAff(document.getElementById('unttable'));
+    `<thead><tr><th>Investor</th><th>Untracked deals</th><th>Most recent</th><th>Latest companies</th></tr></thead><tbody>${body||'<tr><td colspan="4" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
+  const tbl = document.getElementById('unttable');
+  tbl.querySelectorAll('tr.mainrow').forEach(r=>{
+    const open = ev=>{ if(ev.target.closest('a')||ev.target.closest('.addaff')) return;
+      const det = document.getElementById('ud-'+r.dataset.uslug);
+      const was = det.classList.contains('open');
+      tbl.querySelectorAll('tr.detailrow.open').forEach(x=>x.classList.remove('open'));
+      if(!was) det.classList.add('open');
+    };
+    r.addEventListener('click', open);
+    r.addEventListener('keydown', ev=>{ if(ev.key==='Enter') open(ev); });
+  });
+  bindAddAff(tbl);
 }
 function bindAddAff(root){
   root.querySelectorAll('.addaff').forEach(b=>b.addEventListener('click',ev=>{
     ev.stopPropagation();
     const v = b.dataset.dom || b.dataset.nm;
     navigator.clipboard?.writeText(v);
-    toast(`Copied ${v} — paste into Affinity's Add Company`);
+    toast(`Copied ${v} \u2014 paste into Affinity's Add Company`);
     window.open(`https://${D.affinityOrg}.affinity.co/lists/9387`,'_blank');
   }));
 }
-function mUntCardHTML(r){
-  const p = r.p, hg = p.headcount_growth;
-  return `<div class="mcard">
-    <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${r.harmonic_company_id}" target="_blank" rel="noopener">${r.name}</a></div>
-      <span class="cc">${(r.date||'').slice(0,7)}</span></div>
-    <div class="mmeta"><span>${p.hq||r.country||''}</span><span>${(p.stage||r.round||'').replaceAll('_',' ').toLowerCase()}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span>${p.headcount} ppl${hg&&hg.pct!=null?` (${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window})`:''}</span>`:''}</div>
-    ${(p.founders||[]).length?`<div class="mpath">${p.founders.map(f=>f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' · ')}</div>`:''}
-    <div class="mmeta">backed by: ${r.funds.map(e=>e.name).join(', ')}</div>
-    <div class="actionrow"><button class="minibtn addaff" data-dom="${r.domain||''}" data-nm="${r.name}">＋ Affinity</button></div>
-  </div>`;
+function mUntCards(){
+  const prof = D.untProfiles||{};
+  return untFunds().map(e=>{
+    const cards = e.untracked.map(u=>{
+      const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
+      const hg = p.headcount_growth;
+      return `<div class="mcard">
+        <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a></div>
+          <span class="cc">${(u.date||'').slice(0,7)}</span></div>
+        <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span>${p.headcount} ppl${hg&&hg.pct!=null?` (${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window})`:''}</span>`:''}</div>
+        ${(p.founders||[]).length?`<div class="mpath">${p.founders.map(f=>f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')}</div>`:''}
+        <div class="actionrow"><button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button></div>
+      </div>`;
+    }).join('');
+    return `<div class="mhead">${e.name} \u2014 ${e.untracked.length} untracked</div>`+cards;
+  }).join('');
 }
 
 // ---------- live sync (viewer's Affinity connector via window.claude.mcp) ----------
