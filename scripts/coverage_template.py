@@ -155,6 +155,14 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 .detail details.sec summary b{color:var(--ink);font-size:12px}
 .detail details.sec summary .cnt{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;font-size:11.5px}
 .detail details.sec .plist{padding:2px 0 12px}
+.detail details.dfsec{background:var(--accent-soft);border-top:0;border-radius:9px;padding:0 13px;margin:12px 0 6px}
+.detail details.dfsec summary{color:var(--accent-ink)}
+.detail details.dfsec summary::before{color:var(--accent-ink)}
+.detail details.dfsec summary b{color:var(--accent-ink)}
+.detail details.dfsec summary .cnt{color:var(--accent-ink);opacity:.7}
+.detail details.dfsec + details.sec{border-top:0}
+table.df thead th{border-bottom-color:rgba(31,40,196,.18)}
+table.df td{border-bottom-color:rgba(31,40,196,.1)}
 .dfwrap{overflow-x:auto;padding:2px 0 12px}
 table.df{width:100%;border-collapse:collapse;font-size:12px}
 table.df thead th{position:static;padding:5px 10px 5px 0;border-bottom:1px solid var(--hair);
@@ -515,7 +523,7 @@ function detailHTML(e){
   if((e.dealflow||[]).length){
     const money = v => v==null?'—':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
     const unt = e.dealflow.filter(x=>!x.funnel).length;
-    h += `<details class="sec" id="sec-${e.slug}-df"><summary>Recent dealflow <b>${e.dealflow.length}</b>${unt?`<span class="cnt">${unt} not in our pipeline</span>`:''}</summary>
+    h += `<details class="sec dfsec" id="sec-${e.slug}-df"><summary>Recent dealflow <b>${e.dealflow.length}</b>${unt?`<span class="cnt">${unt} not in our pipeline</span>`:''}</summary>
       <div class="dfwrap"><table class="df"><thead><tr><th>Company</th><th>Round</th><th>Date</th><th>Size</th><th>Total raised</th><th>Valuation</th><th>Status</th></tr></thead><tbody>`+
       e.dealflow.map(x=>`<tr>
         <td><a href="https://console.harmonic.ai/dashboard/company/${x.harmonic_company_id}" target="_blank" rel="noopener">${x.name}</a> <span class="cc">${x.country||''}</span></td>
