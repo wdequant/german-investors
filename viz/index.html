@@ -36,7 +36,8 @@ body{background:var(--page);color:var(--ink);
 .seg button{background:var(--surface);color:var(--ink2);border:0;padding:7px 14px;font-size:13px;cursor:pointer;font-weight:550}
 .seg button.on{background:var(--ink);color:var(--surface)}
 .appbar select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;padding:7px 10px;font-size:13px;max-width:180px}
-.appbar input[type=search]{flex:0 1 220px;margin-left:auto;background:var(--surface);color:var(--ink);
+.appbar input[type=search]{flex:1 1 110px;min-width:100px;max-width:220px;margin-left:auto;
+  background:var(--surface);color:var(--ink);
   border:1px solid var(--hair);border-radius:8px;padding:7px 12px;font-size:13px}
 .btn{background:var(--ink);color:var(--page);border:0;border-radius:8px;padding:8px 14px;font-size:12.5px;
   font-weight:600;cursor:pointer;white-space:nowrap}
@@ -252,8 +253,8 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
   </div>
   <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
   <input type="search" id="q" placeholder="Filter…">
-  <button class="btn" id="export" hidden>Export CSV</button>
   <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
+  <button class="btn" id="export" hidden>Export CSV</button>
   <div id="fbpop" hidden>
     <div class="th">Feedback &amp; requests</div>
     <p><b>Comment straight onto this page</b> — in the black claude.ai bar at the very top,
