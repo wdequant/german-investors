@@ -187,6 +187,8 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 .livebadge{color:var(--covered-ink);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .gpos{color:var(--covered-ink);font-weight:650}
 #unttable .num{font-variant-numeric:tabular-nums}
+.hc{color:var(--accent-ink);font-weight:650}
+.udesc{font-size:12px;color:var(--ink2);max-width:260px}
 .fmeta .cc{color:var(--muted);font-size:11px}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
@@ -758,21 +760,30 @@ function untFunds(){
     || (e.untracked||[]).some(u=>(u.name||'').toLowerCase().includes(state.q)));
   return fs.sort((a,b)=>(b.untracked||[]).length-(a.untracked||[]).length);
 }
+const growthColor = pct => {
+  const t = (Math.max(-25, Math.min(100, pct)) + 25) / 125;   // -25% -> 0, 100%+ -> 1
+  return `hsl(${Math.round(8 + t*(145-8))},60%,30%)`;         // dark red -> dark green
+};
+const growthHTML = hg => hg&&hg.pct!=null
+  ? ` <span style="color:${growthColor(hg.pct)};font-weight:650">${hg.pct>0?'+':''}${Math.round(hg.pct)}%</span>` : '';
+const affBtn = (p,u) => p.affinity_id
+  ? `<a class="minibtn" href="https://${D.affinityOrg}.affinity.co/companies/${p.affinity_id}" target="_blank" rel="noopener">Affinity \u2197</a>`
+  : `<button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button>`;
 function untCompanyRows(e){
   const prof = D.untProfiles||{};
   return (e.untracked||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(u=>{
     const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
-    const hg = p.headcount_growth;
-    const growth = hg&&hg.pct!=null?` <span class="${hg.pct>=30?'gpos':'cc'}">${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window}</span>`:'';
     const founders = (p.founders||[]).slice(0,3).map(f=>
       `${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="cc">${f.title?` \u00b7 ${f.title.replace('Co-Founder','Co-founder')}`:''}</span>`).join('<br>')||'<span class="cc">\u2014</span>';
     return `<tr>
       <td><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
-      <td style="white-space:nowrap">${fmtStage(p.stage||u.round)} <span class="cc">\u00b7 ${(u.date||'').slice(0,7)}</span></td>
+      <td class="udesc">${p.desc||''}</td>
+      <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
+      <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
       <td class="num">${fmtMoney(p.funding_total_usd)}</td>
-      <td class="num" style="white-space:nowrap">${p.headcount!=null?p.headcount:'\u2014'}${growth}</td>
+      <td class="num" style="white-space:nowrap">${p.headcount!=null?`<b class="hc">${p.headcount}</b>`:'\u2014'}${growthHTML(p.headcount_growth)}</td>
       <td>${founders}</td>
-      <td><button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button></td>
+      <td>${affBtn(p,u)}</td>
     </tr>`;
   }).join('');
 }
@@ -793,7 +804,7 @@ function untHTML(){
       <td style="font-size:12px;color:var(--ink2)">${preview}${e.untracked.length>3?` <span class="cc">+${e.untracked.length-3} more</span>`:''}</td>
     </tr>
     <tr class="detailrow" id="ud-${e.slug}"><td colspan="4"><div class="detail"><div class="dfwrap"><table class="df">
-      <thead><tr><th>Company</th><th>Stage \u00b7 date</th><th>Raised</th><th>Headcount</th><th>Founders / CEO</th><th></th></tr></thead>
+      <thead><tr><th>Company</th><th>What they do</th><th>Stage</th><th>Latest round</th><th>Raised</th><th>Headcount</th><th>Founders / CEO</th><th></th></tr></thead>
       <tbody>${untCompanyRows(e)}</tbody></table></div></div></td></tr>`;
   }).join('');
   document.getElementById('unttable').innerHTML =
@@ -825,13 +836,13 @@ function mUntCards(){
   return untFunds().map(e=>{
     const cards = e.untracked.map(u=>{
       const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
-      const hg = p.headcount_growth;
       return `<div class="mcard">
         <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a></div>
           <span class="cc">${(u.date||'').slice(0,7)}</span></div>
-        <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span>${p.headcount} ppl${hg&&hg.pct!=null?` (${hg.pct>0?'+':''}${Math.round(hg.pct)}% ${hg.window})`:''}</span>`:''}</div>
+        ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
+        <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
         ${(p.founders||[]).length?`<div class="mpath">${p.founders.map(f=>f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')}</div>`:''}
-        <div class="actionrow"><button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button></div>
+        <div class="actionrow">${affBtn(p,u)}</div>
       </div>`;
     }).join('');
     return `<div class="mhead">${e.name} \u2014 ${e.untracked.length} untracked</div>`+cards;
