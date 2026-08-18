@@ -6,7 +6,7 @@ import glob as _glob
 from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enrich,
                              compute_bridges_and_synd, build_htc, angel_relevance,
                              affinity_sync, inject_htc_captables,
-                             collect_linkedin, backfill_linkedin)
+                             collect_linkedin, backfill_linkedin, attach_dealflow)
 import assemble_germany, assemble_nordics, assemble_france
 import importlib.util as _ilu
 
@@ -88,6 +88,7 @@ for key, cfg in REGION_CFG.items():
     if li_filled:
         print(f"  [{key}] linkedin backfill: +{li_filled} URLs from cross-source index")
     added_by, rescued = affinity_sync(ents, aff_dump, key)
+    attach_dealflow(ents, load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}), aff_dump)
     htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
                                      htc_owners)
     if htc_added:

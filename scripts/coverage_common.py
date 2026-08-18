@@ -700,6 +700,29 @@ def affinity_sync(entities, dump, region_key):
     return added_by, rescued
 
 
+def attach_dealflow(entities, dealflow, dump):
+    """Attach each fund's recent deals (Harmonic) annotated with our Affinity
+    funnel status, matched against the full list dump by domain then name."""
+    by_domain, by_name = {}, {}
+    for ent in (dump or {}).get("entries") or []:
+        for d in ent.get("domains") or []:
+            if d:
+                by_domain.setdefault(d.lower().removeprefix("www."), ent)
+        by_name.setdefault(_nrm_inv(ent.get("name")), ent)
+    for e in entities:
+        if e["kind"] != "fund":
+            continue
+        rows = []
+        for d in (dealflow or {}).get(e["slug"]) or []:
+            dom = (d.get("domain") or "").lower().removeprefix("www.")
+            ent = (by_domain.get(dom) if dom else None) or by_name.get(_nrm_inv(d.get("name")))
+            rows.append({**d,
+                         "funnel": (ent.get("funnel") or "In CRM") if ent else None,
+                         "affinity_id": ent.get("id") if ent else None})
+        e["dealflow"] = rows
+    return entities
+
+
 def inject_htc_captables(entities, captables, htc_owners=None):
     """Add missing investor <-> hard-to-crack links using Harmonic cap tables:
     Affinity's investor enrichment misses many real backers (e.g. Serena on

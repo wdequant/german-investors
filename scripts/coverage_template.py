@@ -155,6 +155,17 @@ tr.detailrow>td{background:var(--surface);padding:20px 22px 24px;border-bottom:2
 .detail details.sec summary b{color:var(--ink);font-size:12px}
 .detail details.sec summary .cnt{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;font-size:11.5px}
 .detail details.sec .plist{padding:2px 0 12px}
+.dfwrap{overflow-x:auto;padding:2px 0 12px}
+table.df{width:100%;border-collapse:collapse;font-size:12px}
+table.df thead th{position:static;padding:5px 10px 5px 0;border-bottom:1px solid var(--hair);
+  font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;background:transparent}
+table.df td{padding:5px 10px 5px 0;border-bottom:1px solid var(--hair2);white-space:nowrap}
+table.df td a{color:var(--accent-ink);text-decoration:none;font-weight:550}
+table.df td a:hover{text-decoration:underline}
+table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
+.dfst{font-size:10.5px;border-radius:8px;padding:2px 8px;white-space:nowrap;font-weight:550}
+.dfst.in{background:var(--c-lead);color:var(--c-lead-ink) !important;text-decoration:none}
+.dfst.out{background:var(--c-hard);color:var(--c-hard-ink)}
 #filters select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;
   padding:5px 8px;font-size:12.5px;color:var(--ink2)}
 .meta-line{color:var(--muted);font-size:12.5px;margin-bottom:6px}
@@ -501,7 +512,21 @@ function detailHTML(e){
     h += `<h5>Why they're on the list — notable positions</h5><div class="plist">`+
       e.notable.map(n=>`<span>${n.harmonic_company_id?`<a href="https://console.harmonic.ai/dashboard/company/${n.harmonic_company_id}" target="_blank" rel="noopener">${n.name}</a>`:`<b>${n.name}</b>`} <span class="cc">${n.why||''}</span></span>`).join('')+`</div>`;
   }
-  if((e.untracked||[]).length){
+  if((e.dealflow||[]).length){
+    const money = v => v==null?'—':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
+    const unt = e.dealflow.filter(x=>!x.funnel).length;
+    h += `<details class="sec" id="sec-${e.slug}-df"><summary>Recent dealflow <b>${e.dealflow.length}</b>${unt?`<span class="cnt">${unt} not in our pipeline</span>`:''}</summary>
+      <div class="dfwrap"><table class="df"><thead><tr><th>Company</th><th>Round</th><th>Date</th><th>Size</th><th>Total raised</th><th>Valuation</th><th>Status</th></tr></thead><tbody>`+
+      e.dealflow.map(x=>`<tr>
+        <td><a href="https://console.harmonic.ai/dashboard/company/${x.harmonic_company_id}" target="_blank" rel="noopener">${x.name}</a> <span class="cc">${x.country||''}</span></td>
+        <td><span class="st" style="min-width:0">${(x.round||'—').replaceAll('_',' ').toLowerCase()}</span></td>
+        <td class="num">${(x.date||'').slice(0,7)}</td>
+        <td class="num">${money(x.round_size_usd)}</td>
+        <td class="num">${money(x.total_funding_usd)}</td>
+        <td class="num">${money(x.valuation_usd)}</td>
+        <td>${x.funnel?`<a class="dfst in" href="${affURL(x.affinity_id)}" target="_blank" rel="noopener">${x.funnel.replace(' (free for all)','')}</a>`:`<span class="dfst out">not tracked</span>`}</td>
+      </tr>`).join('')+`</tbody></table></div></details>`;
+  } else if((e.untracked||[]).length){
     h += `<details class="sec"><summary>Recent EU deals we're not tracking <b>${e.untracked.length}</b>${e.recent_eu?`<span class="cnt">of ${e.recent_eu} recent EU deals</span>`:''}</summary><div class="plist">`+
       e.untracked.map(u=>`<span><span class="st">${(u.date||'').slice(0,7)} · ${(u.round||'').replaceAll('_',' ').toLowerCase()}</span><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a> <span class="cc">${u.country||''}</span></span>`).join('')+`</div></details>`;
   }
