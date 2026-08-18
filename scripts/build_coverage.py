@@ -131,6 +131,11 @@ freshness = {
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
            "affinityOrg": AFFINITY_ORG, "regions": regions, "freshness": freshness,
            "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {}}
+from coverage_common import _strip_emoji
+for _v in payload["untProfiles"].values():  # Harmonic names can carry emoji/mangled chars
+    for _f in _v.get("founders") or []:
+        if _f.get("name"):
+            _f["name"] = _strip_emoji(_f["name"].replace("�", ""))
 html = (_tpl.TEMPLATE
         .replace("__DATA__", json.dumps(payload, ensure_ascii=False))
         .replace("__GENERATED__", payload["generated"]))
