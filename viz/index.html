@@ -200,6 +200,8 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 .minibtn{border:1px solid var(--hair);background:var(--raise);color:var(--ink2);border-radius:7px;
   padding:4px 10px;font-size:11.5px;cursor:pointer;text-decoration:none;font-weight:550}
 .minibtn:hover{border-color:var(--accent);color:var(--accent-ink)}
+.minibtn.prep{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+.minibtn.prep:hover{opacity:.9;color:#fff}
 .note{font-size:12.5px;color:var(--muted);margin-top:48px;line-height:1.65;
   border-top:1px solid var(--hair);padding-top:18px}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--page);
@@ -276,7 +278,7 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
   <span class="brand"><span class="mark">S</span><span>Sonar<span class="by">Highland Europe</span></span></span>
   <div class="seg" id="regionseg"></div>
   <div class="seg" id="viewseg">
-    <button data-v="funds" class="on">Investors</button><button data-v="htc">Hard to crack</button><button data-v="unt">Untracked</button>
+    <button data-v="funds" class="on">Investors</button><button data-v="htc">H2C paths</button><button data-v="unt">Untracked</button>
   </div>
   <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
   <input type="search" id="q" placeholder="Filter…">
@@ -315,7 +317,7 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 </div>
 
 <div id="htcview" style="display:none">
-<div class="sechead"><h2>Hard to crack — reachable via mapped investors</h2><p id="htchint"></p></div>
+<div class="sechead"><h2>H2C paths — hard-to-cracks reachable via mapped investors</h2><p id="htchint"></p></div>
 <table id="htctable"></table>
 </div>
 
@@ -341,7 +343,7 @@ excluded). “Untracked” = their post-Feb-2025 European deals absent from our 
 who appears to have left the fund. Percentages next to people are <b>Affinity relationship strength</b> (0–100%):
 how warm that one-to-one connection is, driven by email &amp; meeting frequency and recency — 100% means an active
 recent dialogue, 10% a thin or faded thread. It is not a probability or ownership figure. Hover any % for this
-definition. For a full meeting brief, ask Claude: “prep my meeting with [fund]”.
+definition. Every fund dossier has a “Prep brief in Claude” button that opens Claude with the meeting-prep request prefilled.
 <span id="fresh"></span></p>
 </div>
 <div class="toast" id="toast"></div>
@@ -605,7 +607,7 @@ function detailHTML(e){
     h += `<h5>Their partners we don't know${e.partners_total?` (${e.partners_unknown.length} of ${e.partners_total} on roster)`:''}</h5><div class="plist">`+
       e.partners_unknown.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a>${emIcon(p)} <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
   }
-  h += `<div class="meta-line" style="margin-top:14px">Full brief: ask Claude — “prep my meeting with ${e.name}”.</div>`;
+  h += `<div class="actionrow" style="margin-top:14px"><a class="minibtn prep" href="https://claude.ai/new?q=${encodeURIComponent('Prep my meeting with '+e.name)}" target="_blank" rel="noopener">⚡ Prep brief in Claude</a><span class="cc" style="align-self:center">opens Claude with the meeting-prep request ready to send</span></div>`;
   return h;
 }
 function regionCountries(){
