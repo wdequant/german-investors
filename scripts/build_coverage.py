@@ -2,9 +2,11 @@
 """Build the multi-region coverage map (Germany + Nordics) -> viz/index.html"""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import glob as _glob
 from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enrich,
                              compute_bridges_and_synd, build_htc, angel_relevance,
-                             affinity_sync, inject_htc_captables)
+                             affinity_sync, inject_htc_captables,
+                             collect_linkedin, backfill_linkedin)
 import assemble_germany, assemble_nordics, assemble_france
 import importlib.util as _ilu
 
@@ -16,6 +18,18 @@ empflags = load_json(f"{ROOT}/data/enrich/employment-flags.json", {})
 htc_owners = load_json(f"{ROOT}/data/enrich/htc-owners.json", {})
 aff_dump = load_json(f"{ROOT}/data/affinity/_list-entries.json", {})
 angel_deals = load_json(f"{ROOT}/data/enrich/angel-deals.json", {})
+
+# global cross-source LinkedIn index: harvest every name->URL pair we hold
+LI_INDEX = {}
+for _f in (["data/connections.json", "data/nordics/connections.json",
+            "data/france/connections.json", "data/nordics/investors.json",
+            "data/france/investors.json"]
+           + [p.removeprefix(f"{ROOT}/") for p in
+              _glob.glob(f"{ROOT}/data/enrich/partners-meta-*.json")
+              + _glob.glob(f"{ROOT}/data/enrich/*-funds.json")
+              + [f"{ROOT}/data/enrich/germany.json", f"{ROOT}/data/enrich/nordics.json"]]):
+    collect_linkedin(load_json(f"{ROOT}/{_f}", {}), LI_INDEX)
+print(f"linkedin index: {len(LI_INDEX)} names")
 
 pmeta_germany = {}
 for part in ("a", "b"):
@@ -70,6 +84,9 @@ for key, cfg in REGION_CFG.items():
         enrich = load_json(f"{ROOT}/data/enrich/{key}.json", {})
         recency = load_json(f"{ROOT}/data/enrich/recency-{key}.json", {})
     apply_enrich(ents, enrich, recency, empflags, key, PMETA.get(key))
+    li_filled = backfill_linkedin(ents, LI_INDEX)
+    if li_filled:
+        print(f"  [{key}] linkedin backfill: +{li_filled} URLs from cross-source index")
     added_by, rescued = affinity_sync(ents, aff_dump, key)
     htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
                                      htc_owners)

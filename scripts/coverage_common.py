@@ -31,13 +31,17 @@ def norm_name(s):
     return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
 
 
+_HONORIFICS = {"dr", "prof", "phd", "mba", "mr", "mrs", "ms", "ing", "dipl", "med"}
+
+
 def dedup_key(s):
-    """Person-dedupe key that also collapses German transliterations, so
-    'Julius Lühr' (Affinity) and 'Julius Luehr' (Harmonic) merge."""
+    """Person-dedupe key: collapses German transliterations ('Lühr'/'Luehr')
+    and drops honorifics ('Dr. Bernd Schafberger' == 'Bernd Schafberger')."""
     n = norm_name(s)
     for a, b in (("ue", "u"), ("oe", "o"), ("ae", "a"), ("ss", "s")):
         n = n.replace(a, b)
-    return re.sub(r"[^a-z ]", "", n).strip()
+    toks = [t for t in re.sub(r"[^a-z ]", "", n).split() if t not in _HONORIFICS]
+    return " ".join(toks)
 
 
 EMAIL_PATTERNS = {
@@ -100,6 +104,60 @@ def same_person(a, b):
     if not ta or not tb:
         return False
     return ta == tb or (len(ta & tb) >= 2 and (ta <= tb or tb <= ta))
+
+
+def collect_linkedin(obj, idx):
+    """Recursively harvest name->LinkedIn URL pairs from any of our data files."""
+    if isinstance(obj, dict):
+        li = obj.get("linkedin")
+        if isinstance(li, str) and "linkedin" in li:
+            for nk in ("person", "name", "external"):
+                if isinstance(obj.get(nk), str) and obj[nk]:
+                    idx.setdefault(dedup_key(obj[nk]), li)
+                    break
+        for v in obj.values():
+            collect_linkedin(v, idx)
+    elif isinstance(obj, list):
+        for x in obj:
+            collect_linkedin(x, idx)
+
+
+def backfill_linkedin(entities, li_index):
+    """Fill missing LinkedIn URLs on paths, contacts and partner lists from the
+    global cross-source index (exact key first, then same-person fuzzy match)."""
+    items = list(li_index.items())
+    cache = {}
+    def find(name):
+        k = dedup_key(name or "")
+        if not k:
+            return None
+        if k in cache:
+            return cache[k]
+        v = li_index.get(k)
+        if not v:
+            for kk, url in items:
+                if same_person(kk, k):
+                    v = url
+                    break
+        cache[k] = v
+        return v
+    filled = 0
+    for e in entities:
+        for pt in e.get("points") or []:
+            if not pt.get("linkedin"):
+                v = find(pt.get("external"))
+                if v: pt["linkedin"] = v; filled += 1
+        for p in e.get("top_people") or []:
+            for k in p["contacts"]:
+                if not k.get("linkedin"):
+                    v = find(k["person"])
+                    if v: k["linkedin"] = v; filled += 1
+        for lst in (e.get("partners_known"), e.get("partners_unknown")):
+            for p in lst or []:
+                if not p.get("linkedin"):
+                    v = find(p["name"])
+                    if v: p["linkedin"] = v; filled += 1
+    return filled
 
 
 def clean_rels(rels):
@@ -196,7 +254,7 @@ def harmonic_cells(conn, team_order):
         for c in conn["connections"]:
             cw = contact_weight(c.get("title"), c.get("external", False))
             if c.get("linkedin") and c.get("person"):
-                li_by_person[norm_name(c["person"])] = c["linkedin"]
+                li_by_person[dedup_key(c["person"])] = c["linkedin"]
             for via in c.get("via", []):
                 u = via.get("user")
                 if u not in cells:

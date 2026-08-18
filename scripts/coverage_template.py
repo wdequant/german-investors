@@ -417,13 +417,14 @@ function chipHTML(e){
     return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
   }).join('') || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
 }
+const liSearch = (n,f) => `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n+' '+(f||''))}`;
 const emIcon = p => {
   const em = p.email || p.email_guess;
   if(!em) return '';
   return `<span class="em${p.email?'':' guess'}" data-em="${em}"${p.email?'':' data-guess="1"'}>✉</span>`;
 };
-function pathLine(p){
-  const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
+function pathLine(p, ctx){
+  const nm = `<a href="${p.linkedin||liSearch(p.external,ctx)}" target="_blank" rel="noopener"><b>${p.external}</b></a>`;
   const pct = (p.email?emIcon(p):'')+(p.pct!=null?` <span class="pct">${p.pct}%</span>`:'');
   const when = p.last?` <span class="when">· ${fmtD(p.last)}</span>`:'';
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
@@ -436,7 +437,7 @@ function ptsHTML(e){
     const s = v.sig;
     const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
     let mine = s.contacts.map(k=>{
-      const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener"><b>${k.person}</b></a>`:`<b>${k.person}</b>`;
+      const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener"><b>${k.person}</b></a>`;
       const extra = (k.email?emIcon(k):'')+(k.title?` <span class="via">· ${k.title}</span>`:'')+(k.pct!=null?` <span class="pct">${k.pct}%</span>`:'');
       const when = k.last?` <span class="when">· ${fmtD(k.last)}</span>`:'';
       return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
@@ -454,7 +455,7 @@ function ptsHTML(e){
   const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>` : '';
   const bridges = !e.points.length ? bridgeLines(e).join('') : '';
   if(!e.points.length && !dorm && !bridges) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
-  return `<div class="pts">`+e.points.map(pathLine).join('')+dorm+bridges+`</div>`;
+  return `<div class="pts">`+e.points.map(p=>pathLine(p,e.name)).join('')+dorm+bridges+`</div>`;
 }
 function bridgeLines(e){
   return (e.bridges||[]).slice(0,2).map(b=>
@@ -540,14 +541,14 @@ function detailHTML(e){
       const strength = p.aff>0 ? `${Math.round(p.aff*100)}%` : (p.harmonic>0 ? 'network only' : '');
       return `<div class="tm"><h6>${p.name} <span style="color:var(--muted)">${strength}</span></h6>`+
         p.contacts.map(k=>{
-          const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
+          const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener">${k.person}</a>`;
           const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
           const moved = k.moved?` <span class="flag" data-moved="${k.moved}">⚠</span>`:'';
           return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
   }
-  const liq = n => `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n+' '+e.name)}`;
+  const liq = n => liSearch(n, e.name);
   if(e.partners_known && e.partners_known.length){
     h += `<h5>Their partners we already know</h5><div class="plist">`+
       e.partners_known.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a>${emIcon(p)} <span class="via">↔ ${p.internal}</span>${p.score!=null?` <span class="pct">${Math.round(p.score*100)}%</span>`:''}${p.note?` <span class="cc">${p.note}</span>`:''}</span>`).join('')+`</div>`;

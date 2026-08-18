@@ -1,7 +1,7 @@
 """Assemble the Germany region entities from data/* (top-31 funds + 9 angels)."""
 import math, os
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, norm_name, clean_rels)
+                             points_from, load_json, norm_name, dedup_key, clean_rels)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -77,7 +77,7 @@ def assemble(team):
         for p in tp:
             for k in p["contacts"]:
                 if not k.get("linkedin"):
-                    k["linkedin"] = li.get(norm_name(k["person"]))
+                    k["linkedin"] = li.get(dedup_key(k["person"]))
         co = coinvest.get(inv["urn"])
         entities.append({
             "name": name.replace(" | High-Tech Gründerfonds", ""), "slug": slug, "kind": "fund",

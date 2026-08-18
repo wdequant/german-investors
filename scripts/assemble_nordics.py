@@ -1,7 +1,7 @@
 """Assemble the Nordics region entities from data/nordics/*."""
 import math, os
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, norm_name, clean_rels)
+                             points_from, load_json, norm_name, dedup_key, clean_rels)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -81,7 +81,7 @@ def assemble(team):
             # angels: harmonic person connections -> pseudo-cells (person-level, seniority=3)
             cells = {u: {"score": 0.0, "contacts": []} for u in team_order}
             ac = angel_conn.get(str(inv["person_id"])) or angel_conn.get(inv["person_id"])
-            li = {norm_name(name): inv.get("linkedin")} if inv.get("linkedin") else {}
+            li = {dedup_key(name): inv.get("linkedin")} if inv.get("linkedin") else {}
             if ac:
                 from coverage_common import source_weight
                 for v in ac.get("via", []):
@@ -102,7 +102,7 @@ def assemble(team):
         for p in tp:
             for k in p["contacts"]:
                 if not k.get("linkedin"):
-                    k["linkedin"] = li.get(norm_name(k["person"]))
+                    k["linkedin"] = li.get(dedup_key(k["person"]))
         pts = points_from(rels, cells, li)
         if kind == "angel" and not pts and any(c["score"] > 0 for c in cells.values()):
             best = sorted(((c["score"], u) for u, c in cells.items()), reverse=True)[:3]
