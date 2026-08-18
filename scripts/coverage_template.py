@@ -610,7 +610,7 @@ function detailHTML(e){
       e.partners_unknown.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a>${emIcon(p)} <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
   }
   {const pr = 'Use the fund-portfolio-prep skill: prep my meeting with '+e.name;
-  h += `<div class="actionrow" style="margin-top:14px"><a class="minibtn prep" href="https://claude.ai/new?q=${encodeURIComponent(pr)}" target="_blank" rel="noopener">⚡ Prep brief in Claude</a><a class="minibtn prepcopy" href="#" data-prep="${pr.replace(/"/g,'&quot;')}">copy prompt for Cowork</a><span class="cc" style="align-self:center">prefills the prep request — just hit send</span></div>`;}
+  h += `<div class="actionrow" style="margin-top:14px"><a class="minibtn prep" href="https://claude.ai/new?q=${encodeURIComponent(pr)}" target="_blank" rel="noopener">⚡ Prep brief in Claude</a><span class="cc" style="align-self:center">prefills the prep request — just hit send</span></div>`;}
   return h;
 }
 function regionCountries(){
@@ -1097,10 +1097,6 @@ const tipEmail = el => `<div class="th${el.dataset.guess?' warn':''}">${el.datas
   <b>${el.dataset.em}</b><br>${el.dataset.guess?`Inferred from this fund's email format — not confirmed, sanity-check before sending.`:'From Affinity.'}
   <div class="tf">Click to copy to clipboard</div>`;
 document.addEventListener('click',ev=>{
-  const pc = ev.target.closest('.prepcopy');
-  if(pc){ ev.preventDefault(); ev.stopPropagation();
-    navigator.clipboard?.writeText(pc.dataset.prep);
-    toast('Copied — paste into Cowork and send'); return; }
   const el = ev.target.closest('.em');
   if(!el) return;
   ev.stopPropagation(); ev.preventDefault();
