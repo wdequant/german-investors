@@ -184,6 +184,7 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 .plist .cc{color:var(--muted);font-size:10.5px}
 .plist .offr{opacity:.5}
 .pt.bridge{color:var(--ink2)}
+.livebadge{color:var(--covered-ink);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .fmeta .cc{color:var(--muted);font-size:11px}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
@@ -507,6 +508,7 @@ function rowHTML(e){
 }
 function detailHTML(e){
   let h='';
+  if(e.liveAt) h += `<div class="meta-line"><span class="livebadge">${liveLabel(e)}</span> <span class="cc">pipeline refreshed from your Affinity connector</span></div>`;
   if(e.kind==='fund'){
     const r=e.relevance;
     h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · Europe ${r.geo} at ${Math.round(r.europe)}% · activity ${r.activity} · graduation ${r.grad})
@@ -721,16 +723,94 @@ function openSheet(slug){
     navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
   document.getElementById('sheet').classList.add('open');
   document.getElementById('sheet').scrollTop = 0;
-  state.open = slug; updateHash();
+  state.open = slug; startLive(e); updateHash();
 }
 document.getElementById('fb').addEventListener('click',()=>{
   const p = document.getElementById('fbpop'); p.hidden = !p.hidden;
 });
 document.getElementById('fbclose').addEventListener('click',()=>{ document.getElementById('fbpop').hidden = true; });
 document.getElementById('sheetclose').addEventListener('click',()=>{
-  document.getElementById('sheet').classList.remove('open'); state.open=''; updateHash();
+  document.getElementById('sheet').classList.remove('open'); state.open=''; stopLive(); updateHash();
 });
 matchMedia('(max-width:700px)').addEventListener('change',()=>render());
+
+// ---------- live sync (viewer's Affinity connector via window.claude.mcp) ----------
+const LIVE_BUCKET = {'Pre-lead':'prelead','Reach Out Now':'reachout','Awaiting Reply':'awaiting',
+  'Lead':'lead','Qualified Lead':'lead','Deal':'lead','Hard to crack':'hard','Portfolio Company':'portfolio'};
+let liveSub = null;   // {slug, unsub}
+const nrmInv = s => (s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g,'')
+  .replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();
+function aliasHit(inv, aliases){
+  const ni = nrmInv(inv);
+  return aliases.some(a => ni===a || (ni.startsWith(a+' ') && a.split(' ').length>=2));
+}
+function stopLive(){ if(liveSub){ liveSub.unsub(); liveSub=null; } }
+function startLive(e){
+  stopLive();
+  if(!window.claude || window.claude.mcp===undefined || e.kind!=='fund' || !e.liveTerm) return;
+  if(!e._baked) e._baked = JSON.parse(JSON.stringify(e.buckets));
+  const input = {list_id: 9387, limit: 100,
+    field_ids: ["field-81237","field-81239","affinity-data-investors"],
+    search_criteria: {search: {term: e.liveTerm, fieldIds: ["affinity-data-investors"]}}};
+  const unsub = window.claude.mcp.watchTool('Affinity','search_list_entries', input, ev=>{
+    if(liveSub && liveSub.slug!==e.slug) return;
+    if(ev.type==='error'){
+      const c = ev.error.code;
+      if(['needs_reauth','server_not_connected','blocked_by_policy','approval_required',
+          'not_granted','capability_disabled','capability_removed','not_in_manifest',
+          'selection_required'].includes(c)){
+        e.buckets = JSON.parse(JSON.stringify(e._baked)); e.liveAt = null; e.liveOff = true;
+        rerenderOpen(e);
+      } // transient errors: keep last-good data, no UI churn
+      return;
+    }
+    const rows = (ev.result.payload && ev.result.payload.data) || [];
+    const seenIds = new Set();
+    let changed = false;
+    const allItems = {};
+    for(const k in e.buckets) for(const p of e.buckets[k]) allItems[p.id] = {k, p};
+    for(const r of rows){
+      const ent = r.entity || {}; const f = {};
+      for(const fl of ent.fields||[]) f[fl.id] = fl.value && fl.value.data;
+      const invs = f['affinity-data-investors'];
+      if(!Array.isArray(invs) || !invs.some(x=>aliasHit(x, e.liveAliases))) continue;
+      seenIds.add(ent.id);
+      const funnel = f['field-81237'] && f['field-81237'].text;
+      const bk = LIVE_BUCKET[funnel];
+      const own = Array.isArray(f['field-81239']) ? f['field-81239'].map(o=>((o.firstName||'')+' '+(o.lastName||'')).trim()) : [];
+      const cur = allItems[ent.id];
+      if(cur){
+        if(cur.p.funnel!==funnel){
+          e.buckets[cur.k] = e.buckets[cur.k].filter(x=>x.id!==ent.id);
+          if(bk){ cur.p.funnel = funnel; e.buckets[bk].push(cur.p); }
+          changed = true;
+        }
+        if(own.length){ cur.p.own = own; }
+      } else if(bk){
+        e.buckets[bk].push({id: ent.id, name: ent.name, domain: ent.domain, funnel, country: null, own});
+        changed = true;
+      }
+    }
+    const at = (ev.result.cache && ev.result.cache.storedAt) || Date.now();
+    if(changed || !e.liveAt){ e.liveAt = at; e.liveOff = false; rerenderOpen(e); }
+    else { e.liveAt = at; const b = document.querySelector('.livebadge'); if(b) b.textContent = liveLabel(e); }
+  }, {cache: {staleTime: 60000}, refetchInterval: 120000});
+  liveSub = {slug: e.slug, unsub};
+}
+const liveLabel = e => `● live · Affinity · ${new Date(e.liveAt).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'})}`;
+function rerenderOpen(e){
+  if(isMobile()){
+    const sheet = document.getElementById('sheet');
+    if(sheet.classList.contains('open') && state.open===e.slug){
+      document.getElementById('sheetdetail').innerHTML = detailHTML(e);
+    }
+    return;
+  }
+  const det = document.querySelector(`#d-${CSS.escape(e.slug)}.open .detail`);
+  if(det) det.innerHTML = detailHTML(e);
+  const row = document.querySelector(`tr.mainrow[data-slug="${e.slug}"]`);
+  if(row && row.children[3]) row.children[3].innerHTML = `<div class="chips">${chipHTML(e)}</div>`;
+}
 
 // ---------- render ----------
 function srt(list){ const col = COLS.find(c=>c.k===state.sort)||COLS[4]; return [...list].sort(col.sort); }
@@ -741,6 +821,7 @@ function visible(){
 }
 function render(){
   const mob = isMobile();
+  if(!state.open) stopLive();
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
   if(mob){
@@ -784,11 +865,12 @@ function toggleRow(slug, chip){
     det.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
       navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
     state.open = slug;
+    startLive(e);
     if(chip && !chip.classList.contains('empty')){
       const sec=document.getElementById(`sec-${slug}-${chip.dataset.k}`);
       if(sec){ sec.open=true; sec.scrollIntoView({behavior:'smooth', block:'center'}); }
     }
-  } else state.open = '';
+  } else { state.open = ''; stopLive(); }
   updateHash();
 }
 function labels(){

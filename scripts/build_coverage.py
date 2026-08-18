@@ -88,6 +88,12 @@ for key, cfg in REGION_CFG.items():
     if li_filled:
         print(f"  [{key}] linkedin backfill: +{li_filled} URLs from cross-source index")
     added_by, rescued = affinity_sync(ents, aff_dump, key)
+    from coverage_common import FUND_ALIASES, _nrm_inv
+    for e in ents:  # live-sync metadata: query term + aliases for client-side matching
+        if e["kind"] == "fund":
+            als = sorted({_nrm_inv(a) for a in [e["name"]] + FUND_ALIASES.get(e["slug"], []) if _nrm_inv(a)})
+            e["liveAliases"] = als
+            e["liveTerm"] = min((a for a in als if len(a) >= 4), key=len, default=e["name"])
     attach_dealflow(ents, load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}), aff_dump)
     htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
                                      htc_owners)
