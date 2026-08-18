@@ -523,7 +523,7 @@ function detailHTML(e){
         <td class="num">${(x.date||'').slice(0,7)}</td>
         <td class="num">${money(x.round_size_usd)}</td>
         <td class="num">${money(x.total_funding_usd)}</td>
-        <td class="num">${money(x.valuation_usd)}</td>
+        <td class="num">${money(x.valuation_usd)}${x.valuation_usd&&x.valuation_est?' <span class="cc">est.</span>':''}</td>
         <td>${x.funnel?`<a class="dfst in" href="${affURL(x.affinity_id)}" target="_blank" rel="noopener">${x.funnel.replace(' (free for all)','')}</a>`:`<span class="dfst out">not tracked</span>`}</td>
       </tr>`).join('')+`</tbody></table></div></details>`;
   } else if((e.untracked||[]).length){
