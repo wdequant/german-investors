@@ -127,8 +127,10 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .pts .askx b{color:var(--ink2)}
 .pts .pct{font-variant-numeric:tabular-nums;color:var(--covered-ink);font-weight:650;font-size:11.5px}
 .flag{color:var(--gap-ink);font-size:10.5px;cursor:help}
-a.em{text-decoration:none;font-size:11px;opacity:.55;margin-left:2px}
-a.em:hover{opacity:1;text-decoration:none}
+.em{font-size:11px;opacity:.55;margin-left:2px;cursor:pointer;user-select:none}
+.em:hover{opacity:1}
+.em.guess{color:var(--thin-ink);position:relative}
+.em.guess::after{content:'?';font-size:8px;vertical-align:super;margin-left:1px}
 .pct{cursor:help}
 #tip{position:fixed;z-index:99;max-width:290px;background:var(--raise);border:1px solid var(--hair);
   border-radius:10px;box-shadow:var(--shadow);padding:10px 13px;font-size:12px;line-height:1.5;color:var(--ink2);
@@ -415,7 +417,11 @@ function chipHTML(e){
     return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
   }).join('') || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
 }
-const emIcon = p => p.email?`<a class="em" href="mailto:${p.email}" title="${p.email}">✉</a>`:'';
+const emIcon = p => {
+  const em = p.email || p.email_guess;
+  if(!em) return '';
+  return `<span class="em${p.email?'':' guess'}" data-em="${em}"${p.email?'':' data-guess="1"'}>✉</span>`;
+};
 function pathLine(p){
   const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
   const pct = (p.email?emIcon(p):'')+(p.pct!=null?` <span class="pct">${p.pct}%</span>`:'');
@@ -544,11 +550,11 @@ function detailHTML(e){
   const liq = n => `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n+' '+e.name)}`;
   if(e.partners_known && e.partners_known.length){
     h += `<h5>Their partners we already know</h5><div class="plist">`+
-      e.partners_known.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a> <span class="via">↔ ${p.internal}</span>${p.score!=null?` <span class="pct">${Math.round(p.score*100)}%</span>`:''}${p.note?` <span class="cc">${p.note}</span>`:''}</span>`).join('')+`</div>`;
+      e.partners_known.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a>${emIcon(p)} <span class="via">↔ ${p.internal}</span>${p.score!=null?` <span class="pct">${Math.round(p.score*100)}%</span>`:''}${p.note?` <span class="cc">${p.note}</span>`:''}</span>`).join('')+`</div>`;
   }
   if(e.partners_unknown && e.partners_unknown.length){
     h += `<h5>Their partners we don't know${e.partners_total?` (${e.partners_unknown.length} of ${e.partners_total} on roster)`:''}</h5><div class="plist">`+
-      e.partners_unknown.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a> <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
+      e.partners_unknown.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a>${emIcon(p)} <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
   }
   h += `<div class="meta-line" style="margin-top:14px">Full brief: ask Claude — “prep my meeting with ${e.name}”.</div>`;
   return h;
@@ -846,7 +852,19 @@ function tipRel(e){
     Activity <b>${r.activity}</b>/15 · Graduation to growth rounds <b>${r.grad}</b>/15
     <div class="tf">How much this fund's portfolio should feed Highland's pipeline — independent of how well we know them</div>`;
 }
+const tipEmail = el => `<div class="th${el.dataset.guess?' warn':''}">${el.dataset.guess?'Email — unverified guess':'Email'}</div>
+  <b>${el.dataset.em}</b><br>${el.dataset.guess?`Inferred from this fund's email format — not confirmed, sanity-check before sending.`:'From Affinity.'}
+  <div class="tf">Click to copy to clipboard</div>`;
+document.addEventListener('click',ev=>{
+  const el = ev.target.closest('.em');
+  if(!el) return;
+  ev.stopPropagation(); ev.preventDefault();
+  navigator.clipboard?.writeText(el.dataset.em);
+  toast(`Copied ${el.dataset.em}`);
+}, true);
 document.addEventListener('mouseover',ev=>{
+  const em = ev.target.closest('.em');
+  if(em){ showTip(em, tipEmail(em)); return; }
   const p = ev.target.closest('.pct'), f = ev.target.closest('.flag'),
         c = ev.target.closest('td.covtd'), rl = ev.target.closest('td.relcell');
   const ent = t => { const tr = t.closest('tr.mainrow'); return tr && E().find(x=>x.slug===tr.dataset.slug); };
@@ -856,7 +874,7 @@ document.addEventListener('mouseover',ev=>{
   else if(rl){ const e = ent(rl); if(e) showTip(rl.querySelector('b')||rl, tipRel(e)); }
 });
 document.addEventListener('mouseout',ev=>{
-  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag')||ev.target.closest('td.covtd')||ev.target.closest('td.relcell'))) tip.classList.remove('show');
+  if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag')||ev.target.closest('td.covtd')||ev.target.closest('td.relcell')||ev.target.closest('.em'))) tip.classList.remove('show');
 });
 addEventListener('scroll',()=>tip.classList.remove('show'),true);
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});

@@ -40,6 +40,68 @@ def dedup_key(s):
     return re.sub(r"[^a-z ]", "", n).strip()
 
 
+EMAIL_PATTERNS = {
+    "first": lambda f, l: f, "last": lambda f, l: l,
+    "first.last": lambda f, l: f + "." + l, "firstlast": lambda f, l: f + l,
+    "f.last": lambda f, l: f[0] + "." + l, "flast": lambda f, l: f[0] + l,
+    "first_last": lambda f, l: f + "_" + l, "first-last": lambda f, l: f + "-" + l,
+    "firstl": lambda f, l: f + l[0],
+}
+
+
+def _name_parts(name):
+    t = re.sub(r"[^a-z ]", "", norm_name(name)).split()
+    return (t[0], t[-1]) if len(t) >= 2 else None
+
+
+def infer_email_format(samples, website=None):
+    """From (name, email) pairs, find the fund's own domain and the address
+    pattern the samples agree on. Returns (pattern, domain) or None. Prefers
+    the fund's website domain; any other domain needs >=2 agreeing samples
+    (guards against a lone alumni/portfolio address like @coinhouse.com)."""
+    doms = {}
+    for nme, em in samples:
+        if em and "@" in em:
+            doms.setdefault(em.split("@")[1].lower(), []).append((nme, em))
+    if not doms:
+        return None
+    wroot = (website or "").lower().removeprefix("www.").split("/")[0]
+    wbase = wroot.split(".")[0] if wroot else None
+    own = [d for d in doms if wroot and (d == wroot or (wbase and wbase in d))]
+    if own:
+        dom = max(own, key=lambda d: len(doms[d]))
+        ss = doms[dom]
+    else:
+        dom, ss = max(doms.items(), key=lambda kv: len(kv[1]))
+        if len(ss) < 2:
+            return None
+    pats = []
+    for nme, em in ss:
+        parts = _name_parts(nme)
+        if not parts:
+            continue
+        local = em.split("@")[0].lower()
+        for pid, fn in EMAIL_PATTERNS.items():
+            if local == fn(*parts):
+                pats.append(pid)
+                break
+    if not pats:
+        return None
+    top = max(set(pats), key=pats.count)
+    # accept when every recognisable sample agrees (1 sample is enough)
+    return (top, dom) if pats.count(top) == len(pats) else None
+
+
+def same_person(a, b):
+    """True when two name strings plausibly denote one human: identical after
+    transliteration, or one is the other plus middle names (Duc Tran vs
+    Duc Quyen Tran)."""
+    ta, tb = set(dedup_key(a).split()), set(dedup_key(b).split())
+    if not ta or not tb:
+        return False
+    return ta == tb or (len(ta & tb) >= 2 and (ta <= tb or tb <= ta))
+
+
 def clean_rels(rels):
     """Drop Affinity relationships held only by ex-staff before any scoring."""
     return [r for r in (rels or [])
@@ -173,7 +235,7 @@ def top_people(cells, aff_rels):
                 if k["external"] or k["w"] < 2:
                     continue
                 m = next((x for x in p["contacts"]
-                          if dedup_key(x["person"]) == dedup_key(k["person"])), None)
+                          if same_person(x["person"], k["person"])), None)
                 if m:  # same human from both sources: merge title/linkedin in
                     if not m.get("title"):
                         m["title"] = k["title"]
@@ -192,17 +254,18 @@ def top_people(cells, aff_rels):
 
 def points_from(rels, cells, li_by_person):
     """Top-3 'strongest paths in' for the team view."""
-    points, seen = [], set()
+    points, seen = [], []
     for r in sorted(rels or [], key=lambda r: -(r.get("score") or 0)):
         if (r.get("score") or 0) <= 0:
             continue
         nm = NAME_MAP.get(r.get("internal"), r.get("internal"))
         if nm in EX_STAFF:
             continue
-        key = dedup_key(r.get("external", ""))
-        if key in seen:
+        ext = r.get("external", "")
+        if any(same_person(ext, s) for s in seen):
             continue
-        seen.add(key)
+        seen.append(ext)
+        key = dedup_key(ext)
         points.append({"external": r.get("external"), "internal": nm,
                        "pct": round((r.get("score") or 0) * 100),
                        "email": r.get("externalEmail") or None,
@@ -215,10 +278,9 @@ def points_from(rels, cells, li_by_person):
                     continue
                 hc.append((k["w"], k, u))
     for w, k, u in sorted(hc, key=lambda x: -x[0]):
-        key = norm_name(k["person"])
-        if key in seen:
+        if any(same_person(k["person"], s) for s in seen):
             continue
-        seen.add(key)
+        seen.append(k["person"])
         points.append({"external": k["person"], "internal": u, "pct": None,
                        "title": k["title"], "linkedin": k.get("linkedin"), "src": "harmonic"})
     return points[:3]
@@ -357,6 +419,20 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
                                     "last": m.get("last"), "note": m.get("note")})
                 else:
                     p_unknown.append({**p_, "linkedin": li})
+            # learn the fund's email format from verified contacts, apply to
+            # partners we lack an address for (marked unverified in the UI)
+            samples = [(k["person"], k["email"]) for p_ in e.get("top_people", [])
+                       for k in p_["contacts"]
+                       if k.get("email") and not k.get("moved") and not k.get("mismatch")]
+            samples += [(pt["external"], pt["email"]) for pt in e.get("points", [])
+                        if pt.get("email") and not pt.get("moved")]
+            fmt = infer_email_format(samples, e.get("website"))
+            e["email_fmt"] = f"{fmt[0]}@{fmt[1]}" if fmt else None
+            if fmt:
+                for p_ in p_known + p_unknown:
+                    parts = _name_parts(p_["name"])
+                    if parts and not p_.get("email"):
+                        p_["email_guess"] = EMAIL_PATTERNS[fmt[0]](*parts) + "@" + fmt[1]
             e["partners_known"] = p_known[:8]
             e["partners_unknown"] = p_unknown[:8]
             e["untracked"] = ef.get("recent_untracked_eu") or []
