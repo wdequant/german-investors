@@ -127,6 +127,8 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .pts .askx b{color:var(--ink2)}
 .pts .pct{font-variant-numeric:tabular-nums;color:var(--covered-ink);font-weight:650;font-size:11.5px}
 .flag{color:var(--gap-ink);font-size:10.5px;cursor:help}
+a.em{text-decoration:none;font-size:11px;opacity:.55;margin-left:2px}
+a.em:hover{opacity:1;text-decoration:none}
 .pct{cursor:help}
 #tip{position:fixed;z-index:99;max-width:290px;background:var(--raise);border:1px solid var(--hair);
   border-radius:10px;box-shadow:var(--shadow);padding:10px 13px;font-size:12px;line-height:1.5;color:var(--ink2);
@@ -413,9 +415,10 @@ function chipHTML(e){
     return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
   }).join('') || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
 }
+const emIcon = p => p.email?`<a class="em" href="mailto:${p.email}" title="${p.email}">✉</a>`:'';
 function pathLine(p){
   const nm = p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener"><b>${p.external}</b></a>`:`<b>${p.external}</b>`;
-  const pct = p.pct!=null?` <span class="pct">${p.pct}%</span>`:'';
+  const pct = (p.email?emIcon(p):'')+(p.pct!=null?` <span class="pct">${p.pct}%</span>`:'');
   const when = p.last?` <span class="when">· ${fmtD(p.last)}</span>`:'';
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
@@ -428,7 +431,7 @@ function ptsHTML(e){
     const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
     let mine = s.contacts.map(k=>{
       const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener"><b>${k.person}</b></a>`:`<b>${k.person}</b>`;
-      const extra = (k.title?` <span class="via">· ${k.title}</span>`:'')+(k.pct!=null?` <span class="pct">${k.pct}%</span>`:'');
+      const extra = (k.email?emIcon(k):'')+(k.title?` <span class="via">· ${k.title}</span>`:'')+(k.pct!=null?` <span class="pct">${k.pct}%</span>`:'');
       const when = k.last?` <span class="when">· ${fmtD(k.last)}</span>`:'';
       return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
     }).join('')+dormP;
@@ -534,7 +537,7 @@ function detailHTML(e){
           const nm = k.linkedin?`<a href="${k.linkedin}" target="_blank" rel="noopener">${k.person}</a>`:k.person;
           const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
           const moved = k.moved?` <span class="flag" data-moved="${k.moved}">⚠</span>`:'';
-          return `<div>${nm}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
+          return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
   }
@@ -599,7 +602,7 @@ function htcHTML(){
     <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
       <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
     <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${orderPaths(i).map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
+    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${orderPaths(i).map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.email?emIcon(p):''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
     <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
   </tr>`).join('');
   document.getElementById('htctable').innerHTML =
@@ -617,7 +620,7 @@ function mPathLine(e){
     if(best) return `<div class="mpath askx">ask <b>${best.internal}</b> (${best.external})</div>`;
   }
   const p0 = e.points && e.points[0];
-  if(p0) return `<div class="mpath"><b>${p0.external}</b> <span class="via">↔ ${p0.internal}</span>${p0.pct!=null?` <span class="pct">${p0.pct}%</span>`:''}${p0.moved?' <span class="flag">⚠</span>':''}</div>`;
+  if(p0) return `<div class="mpath"><b>${p0.external}</b>${p0.email?emIcon(p0):''} <span class="via">↔ ${p0.internal}</span>${p0.pct!=null?` <span class="pct">${p0.pct}%</span>`:''}${p0.moved?' <span class="flag">⚠</span>':''}</div>`;
   if(e.dormant) return `<div class="mpath dorm">⏱ <b>${e.dormant.internal.join(' + ')}</b> dormant · ${e.dormant.last}</div>`;
   if(e.bridges && e.bridges.length) return `<div class="mpath">↪ via <b>${e.bridges[0].name}</b> <span class="via">(${e.bridges[0].internal})</span></div>`;
   return `<div class="mpath" style="color:var(--muted)">No mapped way in yet</div>`;
@@ -637,7 +640,7 @@ function mCardHTML(e){
 }
 function mHtcCardHTML(c){
   const paths = c.investors.map(i=>(i.paths&&i.paths.length)
-    ? orderPaths(i).slice(0,2).map(p=>`<div class="mpath"><b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}</div>`).join('') : '').join('');
+    ? orderPaths(i).slice(0,2).map(p=>`<div class="mpath"><b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.email?emIcon(p):''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}</div>`).join('') : '').join('');
   return `<div class="mcard" onclick="window.open('${affURL(c.id)}','_blank')">
     <div class="mtop"><div class="fname">${c.name}</div><span class="cc">${c.country||''}</span></div>
     <div class="mmeta">on cap table: ${c.investors.map(i=>i.name).join(', ')}${(c.owners||[]).length?` · owner: ${c.owners.join(', ')}`:''}</div>

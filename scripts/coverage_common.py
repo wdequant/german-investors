@@ -161,7 +161,8 @@ def top_people(cells, aff_rels):
         sc = r.get("score") or 0
         p["aff"] = max(p["aff"], sc)
         if r.get("external") and sc > 0:
-            p["contacts"].append({"person": r["external"], "pct": round(sc * 100), "linkedin": None})
+            p["contacts"].append({"person": r["external"], "pct": round(sc * 100),
+                                  "email": r.get("externalEmail") or None, "linkedin": None})
     if cells:
         for u, c in cells.items():
             if c["score"] <= 0 or u in EX_STAFF:
@@ -204,6 +205,7 @@ def points_from(rels, cells, li_by_person):
         seen.add(key)
         points.append({"external": r.get("external"), "internal": nm,
                        "pct": round((r.get("score") or 0) * 100),
+                       "email": r.get("externalEmail") or None,
                        "linkedin": li_by_person.get(key), "src": "affinity"})
     hc = []
     if cells:
@@ -622,7 +624,8 @@ def build_htc(entities, htc_owners):
             c = companies.setdefault(p["id"], {"id": p["id"], "name": p["name"],
                                                "domain": p.get("domain"), "investors": []})
             paths = [{"internal": pt["internal"], "external": pt.get("external"),
-                      "pct": pt.get("pct"), "moved": pt.get("moved")}
+                      "pct": pt.get("pct"), "moved": pt.get("moved"),
+                      "email": pt.get("email")}
                      for pt in (e.get("points") or [])[:3]]
             c["investors"].append({"name": e["name"], "slug": e["slug"], "kind": e["kind"],
                                    "tier": e["tier"], "best": paths[0] if paths else None,
