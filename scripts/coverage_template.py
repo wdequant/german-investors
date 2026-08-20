@@ -193,11 +193,14 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 #untfilters select{border:1px solid var(--hair);background:var(--surface);border-radius:8px;padding:3px 7px;font:inherit;font-size:12px;color:var(--ink)}
 th.sk{cursor:pointer;user-select:none;white-space:nowrap}
 th.sk:hover{color:var(--accent-ink)}
-.ubak{max-width:170px;min-width:110px;white-space:normal !important;line-height:1.35}
+.ubak{max-width:140px;min-width:100px;white-space:normal !important;line-height:1.35}
+.ufo{max-width:150px;white-space:normal !important;line-height:1.35}
+.btnstack{display:inline-flex;flex-direction:column;gap:4px;align-items:stretch}
+.btnstack .minibtn{text-align:center;justify-content:center}
 .hc{color:var(--accent-ink);font-weight:650}
-.udesc{font-size:11.5px;color:var(--ink2);max-width:230px;min-width:170px;white-space:normal !important;line-height:1.4}
-#unttable .df td{padding-right:8px}
-#unttable .df .minibtn{padding:3px 8px;font-size:11px;white-space:nowrap}
+.udesc{font-size:11.5px;color:var(--ink2);max-width:185px;min-width:150px;white-space:normal !important;line-height:1.4}
+#unttable .df td,#unttable.df td{padding-right:8px}
+#unttable .df .minibtn,#unttable.df .minibtn{padding:3px 8px;font-size:11px;white-space:nowrap}
 .fmeta .cc{color:var(--muted);font-size:11px}
 .tmcols{display:flex;gap:28px;flex-wrap:wrap}
 .tmcols .tm{min-width:200px}
@@ -806,6 +809,9 @@ const growthColor = pct => {
 };
 const growthHTML = hg => hg&&hg.pct!=null
   ? ` <span style="color:${growthColor(hg.pct)};font-weight:650">${hg.pct>0?'+':''}${Math.round(hg.pct)}%</span>` : '';
+const untURL = u => u.domain ? `https://${u.domain}`
+  : `https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}`;
+const harmBtn = u => `<a class="minibtn" href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">Harmonic ↗</a>`;
 const affBtn = (p,u) => p.affinity_id
   ? `<a class="minibtn" href="https://${D.affinityOrg}.affinity.co/companies/${p.affinity_id}" target="_blank" rel="noopener">Affinity \u2197</a>`
   : `<button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button>`;
@@ -816,14 +822,14 @@ function untCompanyRows(e){
     const founders = (p.founders||[]).slice(0,3).map(f=>
       `${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="cc">${f.title?` \u00b7 ${f.title.replace('Co-Founder','Co-founder')}`:''}</span>`).join('<br>')||'<span class="cc">\u2014</span>';
     return `<tr>
-      <td><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
+      <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
       <td class="udesc">${p.desc||''}</td>
       <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
       <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
       <td class="num">${fmtMoney(p.funding_total_usd)}</td>
       <td class="num" style="white-space:nowrap">${p.headcount!=null?`<b class="hc">${p.headcount}</b>`:'\u2014'}${growthHTML(p.headcount_growth)}</td>
       <td>${founders}</td>
-      <td>${affBtn(p,u)}</td>
+      <td><span class="btnstack">${harmBtn(u)}${affBtn(p,u)}</span></td>
     </tr>`;
   }).join('');
 }
@@ -864,7 +870,7 @@ function untCompanyTable(){
     const founders = (p.founders||[]).filter(f=>f.name && !seenF.has(f.name) && seenF.add(f.name)).slice(0,2).map(f=>
       f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')||'<span class="cc">\u2014</span>';
     return `<tr>
-      <td><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
+      <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
       <td class="udesc">${p.desc||''}</td>
       <td class="ubak" style="font-size:12px;color:var(--ink2)">${r.invs.join(', ')}</td>
       <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
@@ -872,8 +878,8 @@ function untCompanyTable(){
       <td class="num">${fmtMoney(p.funding_total_usd)}</td>
       <td class="num">${p.headcount!=null?`<b class="hc">${p.headcount}</b>`:'\u2014'}</td>
       <td class="num" style="white-space:nowrap">${growthHTML(p.headcount_growth)||'\u2014'}</td>
-      <td>${founders}</td>
-      <td>${affBtn(p,u)}</td></tr>`;
+      <td class="ufo">${founders}</td>
+      <td><span class="btnstack">${harmBtn(u)}${affBtn(p,u)}</span></td></tr>`;
   }).join('');
   const tbl = document.getElementById('unttable');
   tbl.className = 'df';
@@ -940,12 +946,12 @@ function mUntCards(){
     const cards = e.untracked.map(u=>{
       const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
       return `<div class="mcard">
-        <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a></div>
+        <div class="mtop"><div class="fname"><a href="${untURL(u)}" target="_blank" rel="noopener">${u.name}</a></div>
           <span class="cc">${(u.date||'').slice(0,7)}</span></div>
         ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
         <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
         ${(p.founders||[]).length?`<div class="mpath">${p.founders.map(f=>f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')}</div>`:''}
-        <div class="actionrow">${affBtn(p,u)}</div>
+        <div class="actionrow">${harmBtn(u)} ${affBtn(p,u)}</div>
       </div>`;
     }).join('');
     return `<details class="munt"${state.q?' open':''}><summary><span class="fname">${e.name}</span><span class="badge unt">${e.untracked.length} untracked</span></summary><div class="muntbody">${cards}</div></details>`;
@@ -958,12 +964,12 @@ function mUntCompanyCards(){
   const cards = untCompanies().map(r=>{
     const p=r.p, u=r.u;
     return `<div class="mcard" style="cursor:default">
-      <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a></div>
+      <div class="mtop"><div class="fname"><a href="${untURL(u)}" target="_blank" rel="noopener">${u.name}</a></div>
         <span class="cc">${(u.date||'').slice(0,7)}</span></div>
       ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
       <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
       <div class="mpath cc">Backed by ${r.invs.join(', ')}</div>
-      <div class="actionrow">${affBtn(p,u)}</div>
+      <div class="actionrow">${harmBtn(u)} ${affBtn(p,u)}</div>
     </div>`;
   }).join('');
   return chips+cards;
