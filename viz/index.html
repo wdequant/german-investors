@@ -185,6 +185,13 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 .livebadge{color:var(--covered-ink);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .gpos{color:var(--covered-ink);font-weight:650}
 #unttable .num{font-variant-numeric:tabular-nums}
+#untview{overflow-x:auto}
+.untbar{display:flex;gap:14px;align-items:center;margin:10px 0 2px;flex-wrap:wrap}
+#untfilters label{margin-right:8px;font-size:12px}
+#untfilters select{border:1px solid var(--hair);background:var(--surface);border-radius:8px;padding:3px 7px;font:inherit;font-size:12px;color:var(--ink)}
+th.sk{cursor:pointer;user-select:none;white-space:nowrap}
+th.sk:hover{color:var(--accent-ink)}
+.ubak{max-width:170px;min-width:110px;white-space:normal !important;line-height:1.35}
 .hc{color:var(--accent-ink);font-weight:650}
 .udesc{font-size:11.5px;color:var(--ink2);max-width:230px;min-width:170px;white-space:normal !important;line-height:1.4}
 #unttable .df td{padding-right:8px}
@@ -269,6 +276,8 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
   .mpath.dorm{color:var(--thin-ink)} .mpath.dorm b{color:var(--thin-ink)}
   .mchips{display:flex;gap:5px;flex-wrap:wrap;padding-left:18px}
   .mchips .chip{font-size:10.5px;padding:2px 7px;cursor:default}
+  .suntchip{cursor:pointer !important}
+  .suntchip.on{background:var(--ink);color:var(--page);border-color:var(--ink)}
   #sheet{position:fixed;inset:0;background:var(--page);z-index:60;overflow-y:auto;display:none;-webkit-overflow-scrolling:touch}
   #sheet.open{display:block}
   .sheethead{position:sticky;top:0;background:var(--page);border-bottom:1px solid var(--hair);
@@ -333,7 +342,11 @@ table.df .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
 </div>
 
 <div id="untview" style="display:none">
-<div class="sechead"><h2>Untracked dealflow — deals we have no CRM record for</h2><p id="unthint"></p></div>
+<div class="sechead"><h2>Untracked dealflow — deals we have no CRM record for</h2>
+<div class="untbar"><div class="seg" id="untmode"><button data-um="fund" class="on">By fund</button><button data-um="company">By company</button></div>
+<span id="untfilters" hidden><label class="cc">Min FTE <select id="unthc"><option value="0">any</option><option value="10">10+</option><option value="25">25+</option><option value="50">50+</option><option value="100">100+</option></select></label>
+<label class="cc">Growth <select id="untgr"><option value="">any</option><option value="0">&gt;0%</option><option value="25">&gt;25%</option><option value="50">&gt;50%</option><option value="100">&gt;100%</option></select></label></span></div>
+<p id="unthint"></p></div>
 <table id="unttable"></table>
 </div>
 
@@ -364,7 +377,8 @@ const D = {"generated": "12 Aug 2026", "team": [{"name": "Stan", "full": "Stan L
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:""};
+const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:"",
+  untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
 const isOwned = p => state.person && (p.own||[]).some(o=>o===state.person||o.startsWith(state.person.split(' ')[0]));
@@ -719,7 +733,17 @@ function mHtcCardHTML(c){
 function renderMobile(){
   const el = document.getElementById('mlist');
   if(state.view==='unt'){
-    el.innerHTML = mUntCards() || '<div class="mpath" style="color:var(--muted)">Nothing matches.</div>';
+    const seg = `<div class="seg" id="msegunt" style="display:inline-flex;margin-bottom:10px">
+      <button data-um="fund"${state.untMode==='fund'?' class="on"':''}>By fund</button>
+      <button data-um="company"${state.untMode==='company'?' class="on"':''}>By company</button></div>`;
+    const bodyHtml = state.untMode==='company' ? mUntCompanyCards() : mUntCards();
+    el.innerHTML = seg + (bodyHtml || '<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');
+    el.querySelectorAll('#msegunt button').forEach(b=>b.addEventListener('click',()=>{
+      state.untMode=b.dataset.um; renderMobile();}));
+    el.querySelectorAll('.suntchip').forEach(c=>c.addEventListener('click',()=>{
+      const k=c.dataset.sk;
+      if(state.untSort.k===k) state.untSort.d*=-1; else state.untSort={k,d:-1};
+      renderMobile();}));
     bindAddAff(el);
     return;
   }
@@ -801,7 +825,70 @@ function untCompanyRows(e){
     </tr>`;
   }).join('');
 }
+function untCompanies(){
+  const prof = D.untProfiles||{};
+  const by = new Map();
+  E().filter(e=>e.kind==='fund'&&(e.untracked||[]).length).forEach(e=>{
+    (e.untracked||[]).forEach(u=>{
+      const id = u.harmonic_company_id;
+      let r = by.get(id);
+      if(!r){ r = {u, p: prof[id]||prof[String(id)]||{}, invs:[]}; by.set(id, r); }
+      if(!r.invs.includes(e.name)) r.invs.push(e.name);
+      if((u.date||'') > (r.u.date||'')) r.u = u;
+    });
+  });
+  let rows = [...by.values()];
+  if(state.q) rows = rows.filter(r=>(r.u.name||'').toLowerCase().includes(state.q)
+    || (r.p.desc||'').toLowerCase().includes(state.q)
+    || r.invs.some(n=>n.toLowerCase().includes(state.q)));
+  if(state.untHC) rows = rows.filter(r=>(r.p.headcount||0)>=state.untHC);
+  if(state.untGR!=null) rows = rows.filter(r=>r.p.headcount_growth && r.p.headcount_growth.pct>state.untGR);
+  const key = r => ({date: r.u.date||'', raised: r.p.funding_total_usd||0,
+    hc: r.p.headcount!=null?r.p.headcount:-1,
+    gr: (r.p.headcount_growth&&r.p.headcount_growth.pct!=null)?r.p.headcount_growth.pct:-1e9,
+    name: (r.u.name||'').toLowerCase()})[state.untSort.k];
+  rows.sort((a,b)=>{const ka=key(a),kb=key(b); return (ka<kb?-1:ka>kb?1:0)*state.untSort.d;});
+  return rows;
+}
+function untCompanyTable(){
+  const rows = untCompanies();
+  document.getElementById('unthint').textContent =
+    `${rows.length} untracked ${D.regions[state.region].label} companies \u2014 click a column header to sort`;
+  const arrow = k => state.untSort.k===k ? (state.untSort.d<0?' \u25be':' \u25b4') : '';
+  const th = (label,k) => `<th class="sk" data-sk="${k}">${label}${arrow(k)}</th>`;
+  const body = rows.map(r=>{
+    const p=r.p, u=r.u;
+    const seenF = new Set();
+    const founders = (p.founders||[]).filter(f=>f.name && !seenF.has(f.name) && seenF.add(f.name)).slice(0,2).map(f=>
+      f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')||'<span class="cc">\u2014</span>';
+    return `<tr>
+      <td><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
+      <td class="udesc">${p.desc||''}</td>
+      <td class="ubak" style="font-size:12px;color:var(--ink2)">${r.invs.join(', ')}</td>
+      <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
+      <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
+      <td class="num">${fmtMoney(p.funding_total_usd)}</td>
+      <td class="num">${p.headcount!=null?`<b class="hc">${p.headcount}</b>`:'\u2014'}</td>
+      <td class="num" style="white-space:nowrap">${growthHTML(p.headcount_growth)||'\u2014'}</td>
+      <td>${founders}</td>
+      <td>${affBtn(p,u)}</td></tr>`;
+  }).join('');
+  const tbl = document.getElementById('unttable');
+  tbl.className = 'df';
+  tbl.innerHTML = `<thead><tr>${th('Company','name')}<th>What they do</th><th>Backed by</th><th>Stage</th>${th('Latest round','date')}${th('Raised','raised')}${th('FTE','hc')}${th('Growth','gr')}<th>Founders / CEO</th><th></th></tr></thead>
+    <tbody>${body||`<tr><td colspan="10" style="color:var(--muted)">Nothing matches.</td></tr>`}</tbody>`;
+  tbl.querySelectorAll('th.sk').forEach(h=>h.addEventListener('click',()=>{
+    const k = h.dataset.sk;
+    if(state.untSort.k===k) state.untSort.d*=-1;
+    else state.untSort = {k, d: k==='name'?1:-1};
+    untCompanyTable();
+  }));
+  bindAddAff(tbl);
+}
 function untHTML(){
+  document.getElementById('untfilters').hidden = state.untMode!=='company';
+  if(state.untMode==='company'){ untCompanyTable(); return; }
+  document.getElementById('unttable').className = '';
   const fs = untFunds();
   const total = fs.reduce((n,e)=>n+e.untracked.length,0);
   document.getElementById('unthint').textContent =
@@ -861,6 +948,23 @@ function mUntCards(){
     }).join('');
     return `<details class="munt"${state.q?' open':''}><summary><span class="fname">${e.name}</span><span class="badge unt">${e.untracked.length} untracked</span></summary><div class="muntbody">${cards}</div></details>`;
   }).join('');
+}
+function mUntCompanyCards(){
+  const sorts = [['date','Newest'],['hc','FTE'],['gr','Growth'],['raised','Raised']];
+  const chips = `<div class="mchips" style="padding-left:0;margin-bottom:12px">`+
+    sorts.map(([k,l])=>`<span class="chip suntchip${state.untSort.k===k?' on':''}" data-sk="${k}">${l}${state.untSort.k===k?(state.untSort.d<0?' ▾':' ▴'):''}</span>`).join('')+`</div>`;
+  const cards = untCompanies().map(r=>{
+    const p=r.p, u=r.u;
+    return `<div class="mcard" style="cursor:default">
+      <div class="mtop"><div class="fname"><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a></div>
+        <span class="cc">${(u.date||'').slice(0,7)}</span></div>
+      ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
+      <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
+      <div class="mpath cc">Backed by ${r.invs.join(', ')}</div>
+      <div class="actionrow">${affBtn(p,u)}</div>
+    </div>`;
+  }).join('');
+  return chips+cards;
 }
 
 // ---------- live sync (viewer's Affinity connector via window.claude.mcp) ----------
@@ -1052,6 +1156,14 @@ document.querySelectorAll('#viewseg button').forEach(b=>b.addEventListener('clic
   document.querySelectorAll('#viewseg button').forEach(x=>x.classList.remove('on'));
   b.classList.add('on'); state.view=b.dataset.v; render(); updateHash();
 }));
+document.querySelectorAll('#untmode button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('#untmode button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); state.untMode=b.dataset.um; untHTML();
+}));
+document.getElementById('unthc').addEventListener('change',ev=>{
+  state.untHC = +ev.target.value; untHTML();});
+document.getElementById('untgr').addEventListener('change',ev=>{
+  state.untGR = ev.target.value===''?null:+ev.target.value; untHTML();});
 const va = document.getElementById('viewas');
 D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
 if(state.person) va.value=state.person;
