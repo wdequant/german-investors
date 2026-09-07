@@ -1,0 +1,5 @@
+{
+  "name": "sonar-web",
+  "private": true,
+  "type": "module"
+}

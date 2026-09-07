@@ -1,0 +1,42 @@
+name: Build & deploy Sonar
+
+on:
+  push:
+    branches: [main, claude/highland-vc-connectivity-viz-9cykqj]
+  schedule:
+    - cron: '30 5 * * *'   # nightly rebuild, 05:30 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: sonar-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build Sonar
+        run: python3 scripts/build_coverage.py
+
+      - name: Stage build output
+        run: cp viz/index.html deploy/public/index.html
+
+      - name: Deploy to Vercel
+        if: ${{ secrets.VERCEL_TOKEN != '' }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        working-directory: deploy
+        run: |
+          npm i -g vercel@latest
+          vercel link --yes --project sonar --token "$VERCEL_TOKEN"
+          vercel deploy --prod --yes --token "$VERCEL_TOKEN"
+
+      - name: Note when the Vercel token is missing
+        if: ${{ secrets.VERCEL_TOKEN == '' }}
+        run: echo "VERCEL_TOKEN secret not set — built successfully but skipped deploy. Add the secret (see deploy/README.md) to enable deploys."
