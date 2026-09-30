@@ -1,0 +1,37 @@
+name: Smoke test login
+
+on:
+  workflow_dispatch:
+    inputs:
+      password:
+        description: 'Password to test with'
+        required: true
+        type: string
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mask password
+        run: echo "::add-mask::${{ inputs.password }}"
+      - name: Probe login flow
+        env:
+          PW: ${{ inputs.password }}
+        run: |
+          set -uo pipefail
+          B=https://sonar-highland.vercel.app
+          echo "== GET / (no cookie: expect 302 or 307 to /api/login)"
+          curl -sS -o /dev/null -w "%{http_code} -> %{redirect_url}\n" "$B/"
+          echo "== GET /api/login (expect 200 html form)"
+          curl -sS -o /tmp/form.html -w "%{http_code}\n" "$B/api/login"
+          grep -o '<form[^>]*>' /tmp/form.html || echo "NO FORM TAG FOUND"
+          grep -o '<button[^>]*>' /tmp/form.html || echo "NO BUTTON FOUND"
+          echo "== POST wrong password (expect 302 -> /api/login?e)"
+          curl -sS -o /dev/null -w "%{http_code} -> %{redirect_url}\n" -X POST --data-urlencode "password=wrong" "$B/api/login"
+          echo "== POST right password (expect 302 -> / with set-cookie)"
+          curl -sS -o /dev/null -D /tmp/h.txt -w "%{http_code} -> %{redirect_url}\n" -X POST --data-urlencode "password=$PW" "$B/api/login"
+          grep -ci '^set-cookie: sonar_session=' /tmp/h.txt && echo "session cookie SET" || echo "NO SESSION COOKIE"
+          echo "== full round trip with cookie jar (expect final 200)"
+          curl -sS -c /tmp/jar -o /dev/null -X POST --data-urlencode "password=$PW" "$B/api/login"
+          curl -sS -b /tmp/jar -o /tmp/page.html -w "GET / with cookie: %{http_code}\n" "$B/"
+          grep -c "Sonar" /tmp/page.html >/dev/null && echo "app page served" || echo "APP PAGE NOT SERVED"
