@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_SCOPE: ${{ vars.VERCEL_SCOPE }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,8 +35,10 @@ jobs:
         working-directory: deploy
         run: |
           npm i -g vercel@latest
-          vercel link --yes --project sonar --token "$VERCEL_TOKEN"
-          vercel deploy --prod --yes --token "$VERCEL_TOKEN"
+          SCOPE=()
+          [ -n "$VERCEL_SCOPE" ] && SCOPE=(--scope "$VERCEL_SCOPE")
+          vercel link --yes --project sonar --token "$VERCEL_TOKEN" "${SCOPE[@]}"
+          vercel deploy --prod --yes --token "$VERCEL_TOKEN" "${SCOPE[@]}"
 
       - name: Note when the Vercel token is missing
         if: ${{ env.VERCEL_TOKEN == '' }}
