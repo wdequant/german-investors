@@ -14,6 +14,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_SCOPE: ${{ vars.VERCEL_SCOPE || 'highland-europe' }}
@@ -23,6 +25,33 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Refresh Affinity dump (uses key stored in Vercel, if present)
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          TEAM_ID=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v2/teams/$VERCEL_SCOPE" | python3 -c 'import sys,json;print(json.load(sys.stdin)["id"])')
+          ENV_ID=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v9/projects/sonar/env?teamId=$TEAM_ID" \
+            | python3 -c 'import sys,json;print(next((e["id"] for e in json.load(sys.stdin)["envs"] if e["key"]=="AFFINITY_API_KEY"),""))' || true)
+          if [ -z "$ENV_ID" ]; then echo "no AFFINITY_API_KEY in Vercel yet — building from committed dump"; exit 0; fi
+          AFFINITY_API_KEY=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v1/projects/sonar/env/$ENV_ID?teamId=$TEAM_ID&decrypt=true" \
+            | python3 -c 'import sys,json;print(json.load(sys.stdin).get("value",""))')
+          if [ -z "$AFFINITY_API_KEY" ]; then echo "could not decrypt key — building from committed dump"; exit 0; fi
+          echo "::add-mask::$AFFINITY_API_KEY"
+          export AFFINITY_API_KEY
+          python3 scripts/fetch_affinity_dump.py
+          if ! git diff --quiet -- data/affinity/_list-entries.json; then
+            git config user.name "sonar-bot"
+            git config user.email "sonar-bot@users.noreply.github.com"
+            git add data/affinity/_list-entries.json
+            git commit -m "Nightly Affinity dump refresh"
+            git push
+          else
+            echo "dump unchanged"
+          fi
 
       - name: Build Sonar
         run: python3 scripts/build_coverage.py

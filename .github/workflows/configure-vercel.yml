@@ -1,7 +1,7 @@
 name: Configure Vercel & deploy
 
-# One-shot configurator, triggered manually: writes SONAR_PASSWORD + SESSION_SECRET
-# into the Vercel project, then builds and deploys so the settings take effect.
+# One-shot configurator, triggered manually: writes whichever settings are provided
+# as inputs into the Vercel project, then builds and deploys so they take effect.
 # NOTE: turning OFF Vercel Authentication (Settings → Deployment Protection) is left
 # as a deliberate manual step in the dashboard — that toggle removes a security layer,
 # so a human flips it.
@@ -10,8 +10,16 @@ on:
   workflow_dispatch:
     inputs:
       sonar_password:
-        description: 'Team password to set (leave logic of sharing it to Will)'
-        required: true
+        description: 'Team password to set (leave empty to keep current; setting it logs everyone out)'
+        required: false
+        type: string
+      affinity_api_key:
+        description: 'Affinity API key (leave empty to keep current)'
+        required: false
+        type: string
+      harmonic_api_key:
+        description: 'Harmonic API key (leave empty to keep current)'
+        required: false
         type: string
 
 jobs:
@@ -21,25 +29,41 @@ jobs:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_SCOPE: ${{ vars.VERCEL_SCOPE || 'highland-europe' }}
     steps:
-      - name: Mask password in logs
-        run: echo "::add-mask::${{ inputs.sonar_password }}"
+      - name: Mask inputs in logs
+        run: |
+          [ -n "${{ inputs.sonar_password }}" ] && echo "::add-mask::${{ inputs.sonar_password }}" || true
+          [ -n "${{ inputs.affinity_api_key }}" ] && echo "::add-mask::${{ inputs.affinity_api_key }}" || true
+          [ -n "${{ inputs.harmonic_api_key }}" ] && echo "::add-mask::${{ inputs.harmonic_api_key }}" || true
 
       - uses: actions/checkout@v4
 
-      - name: Configure Vercel project env vars
+      - name: Write provided settings to Vercel project env
         env:
-          SONAR_PASSWORD: ${{ inputs.sonar_password }}
+          IN_PW: ${{ inputs.sonar_password }}
+          IN_AFF: ${{ inputs.affinity_api_key }}
+          IN_HAR: ${{ inputs.harmonic_api_key }}
         run: |
           set -euo pipefail
           TEAM_ID=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
             "https://api.vercel.com/v2/teams/$VERCEL_SCOPE" | python3 -c 'import sys,json;print(json.load(sys.stdin)["id"])')
-          echo "team id resolved"
-          SESSION_SECRET=$(openssl rand -hex 32)
-          curl -sf -X POST -H "Authorization: Bearer $VERCEL_TOKEN" -H "content-type: application/json" \
-            "https://api.vercel.com/v10/projects/sonar/env?teamId=$TEAM_ID&upsert=true" \
-            -d "[{\"key\":\"SONAR_PASSWORD\",\"value\":\"$SONAR_PASSWORD\",\"type\":\"encrypted\",\"target\":[\"production\",\"preview\"]},
-                 {\"key\":\"SESSION_SECRET\",\"value\":\"$SESSION_SECRET\",\"type\":\"encrypted\",\"target\":[\"production\",\"preview\"]}]" > /dev/null
-          echo "env vars set"
+          BODY=$(python3 -c "
+          import json, os, secrets
+          envs = []
+          def add(k, v): envs.append({'key': k, 'value': v, 'type': 'encrypted', 'target': ['production', 'preview']})
+          if os.environ.get('IN_PW'):
+              add('SONAR_PASSWORD', os.environ['IN_PW']); add('SESSION_SECRET', secrets.token_hex(32))
+          if os.environ.get('IN_AFF'):
+              add('AFFINITY_API_KEY', os.environ['IN_AFF'])
+          if os.environ.get('IN_HAR'):
+              add('HARMONIC_API_KEY', os.environ['IN_HAR'])
+          print(json.dumps(envs))
+          ")
+          if [ "$BODY" = "[]" ]; then echo "no settings provided — skipping env write"; else
+            curl -sf -X POST -H "Authorization: Bearer $VERCEL_TOKEN" -H "content-type: application/json" \
+              "https://api.vercel.com/v10/projects/sonar/env?teamId=$TEAM_ID&upsert=true" \
+              -d "$BODY" > /dev/null
+            echo "env vars written: $(echo "$BODY" | python3 -c 'import sys,json;print(",".join(e["key"] for e in json.load(sys.stdin)))')"
+          fi
 
       - uses: actions/setup-python@v5
         with:
