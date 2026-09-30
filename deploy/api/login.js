@@ -22,11 +22,13 @@ input{width:100%;box-sizing:border-box;padding:10px 12px;font-size:15px;border:1
 input:focus{outline:none;border-color:#2733f0}
 button{width:100%;padding:10px;font-size:14px;font-weight:600;color:#fff;background:#2733f0;
   border:0;border-radius:9px;cursor:pointer}
-.err{color:#a33;font-size:12.5px;margin:-4px 0 12px}
-</style></head><body><form class="card" method="POST" action="/api/login">
+.err{background:#fbeaea;border:1px solid #e3b8b8;color:#8c2f2f;font-size:13px;
+  padding:9px 12px;border-radius:8px;margin:0 0 14px}
+</style></head><body><form class="card" method="POST" action="/api/login"
+  onsubmit="var b=this.querySelector('button');b.disabled=true;b.textContent='Checking…'">
 <span class="mark">S</span>
 <h1>Sonar</h1><p>Highland Europe · relationship intelligence</p>
-${err ? '<div class="err">Wrong password — try again.</div>' : ''}
+${err ? '<div class="err">Wrong password — check for autofill of an old one, then try again.</div>' : ''}
 <input type="password" name="password" placeholder="Team password" autofocus autocomplete="current-password">
 <button type="submit">Enter</button>
 </form></body></html>`;
