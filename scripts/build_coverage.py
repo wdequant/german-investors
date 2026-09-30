@@ -123,9 +123,15 @@ _spec = _ilu.spec_from_file_location("coverage_template",
         os.path.join(os.path.dirname(os.path.abspath(__file__)), "coverage_template.py"))
 _tpl = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_tpl)
 
+_dump_date = (aff_dump or {}).get("fetched") or "17 Aug 2026"
+try:
+    from datetime import date as _date
+    _dump_date = _date.fromisoformat(_dump_date).strftime("%d %b %Y")
+except ValueError:
+    pass
 freshness = {
     "Harmonic universe & network": "12 Aug 2026",
-    "Affinity relationships & pipeline": "17 Aug 2026",
+    "Affinity relationships & pipeline": _dump_date,
     "Partner rosters, recent deals, recency": "17 Aug 2026",
 }
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,

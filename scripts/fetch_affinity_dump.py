@@ -86,7 +86,7 @@ while url:
     pages += 1
     for row in page.get("data", []):
         ent = row.get("entity") or {}
-        fields = {f.get("id"): f.get("value") for f in (row.get("fields") or [])}
+        fields = {f.get("id"): f.get("value") for f in (ent.get("fields") or [])}
         funnel_names = names(fields.get("field-81237"))
         entries.append({
             "id": ent.get("id"),

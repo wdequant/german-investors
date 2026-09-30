@@ -27,7 +27,7 @@ html{scroll-behavior:smooth}
 body{background:var(--page);color:var(--ink);
   font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding-bottom:110px}
 .appbar{position:sticky;top:0;z-index:20;background:var(--page);border-bottom:1px solid var(--hair)}
-.appbar .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:12px 28px;flex-wrap:wrap}
+.appbar .in{max-width:1760px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:12px 28px;flex-wrap:wrap}
 .brand{font-weight:600;font-size:16px;letter-spacing:-.005em;white-space:nowrap;font-family:var(--display);
   display:flex;align-items:center;gap:8px}
 .brand .mark{width:22px;height:22px;border-radius:4px;background:var(--accent);color:#fff;flex:none;
@@ -54,11 +54,11 @@ body{background:var(--page);color:var(--ink);
 #fbpop b{color:var(--ink)}
 #fbpop a{color:var(--accent-ink)}
 @media (max-width:700px){ #fbpop{left:14px;right:14px;max-width:none;top:110px} .btn.ghost{padding:5px 10px;font-size:11.5px} }
-.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+.wrap{max-width:1760px;margin:0 auto;padding:0 28px}
 .hero{padding:38px 0 4px}
 .kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 h1{font-size:33px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-family:var(--display)}
-.sub{color:var(--ink2);margin-top:10px;font-size:14px}
+.sub{color:var(--ink2);margin-top:10px;font-size:14px;max-width:980px}
 .score{display:flex;margin:28px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
 .score .s{flex:1;padding:16px 20px 14px;border-left:1px solid var(--hair)}
 .score .s:first-child{border-left:0;padding-left:2px}
@@ -214,7 +214,7 @@ th.sk:hover{color:var(--accent-ink)}
 .minibtn:hover{border-color:var(--accent);color:var(--accent-ink)}
 .minibtn.prep{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
 .minibtn.prep:hover{opacity:.9;color:#fff}
-.note{font-size:12.5px;color:var(--muted);margin-top:48px;line-height:1.65;
+.note{font-size:12.5px;color:var(--muted);margin-top:48px;line-height:1.65;max-width:1100px;
   border-top:1px solid var(--hair);padding-top:18px}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--page);
   border-radius:8px;padding:10px 18px;font-size:13px;display:none;z-index:40}
@@ -550,7 +550,7 @@ function rowHTML(e){
 }
 function detailHTML(e){
   let h='';
-  if(e.liveAt) h += `<div class="meta-line"><span class="livebadge">${liveLabel(e)}</span> <span class="cc">pipeline refreshed from your Affinity connector</span></div>`;
+  if(e.liveAt) h += `<div class="meta-line"><span class="livebadge">${liveLabel(e)}</span> <span class="cc">${window.claude?'pipeline refreshed from your Affinity connector':'checked live against Affinity & Harmonic just now'}</span></div>`;
   if(e.kind==='fund'){
     const r=e.relevance;
     h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · Europe ${r.geo} at ${Math.round(r.europe)}% · activity ${r.activity} · graduation ${r.grad})
@@ -988,7 +988,9 @@ function aliasHit(inv, aliases){
 function stopLive(){ if(liveSub){ liveSub.unsub(); liveSub=null; } }
 function startLive(e){
   stopLive();
-  if(!window.claude || window.claude.mcp===undefined || e.kind!=='fund' || !e.liveTerm) return;
+  if(e.kind!=='fund') return;
+  if(!window.claude || window.claude.mcp===undefined){ startWebLive(e); return; }
+  if(!e.liveTerm) return;
   if(!e._baked) e._baked = JSON.parse(JSON.stringify(e.buckets));
   const input = {list_id: 9387, limit: 100,
     field_ids: ["field-81237","field-81239","affinity-data-investors"],
@@ -1039,6 +1041,57 @@ function startLive(e){
   liveSub = {slug: e.slug, unsub};
 }
 const liveLabel = e => `● live · Affinity · ${new Date(e.liveAt).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'})}`;
+// ---------- website live path: same-origin /api/live (Affinity + Harmonic) ----------
+function startWebLive(e){
+  if(location.protocol!=='https:' && location.protocol!=='http:') return;
+  if(!e._baked) e._baked = JSON.parse(JSON.stringify(e.buckets));
+  const tick = () => webLiveTick(e).catch(()=>{});
+  tick();
+  const iv = setInterval(()=>{ if(liveSub && liveSub.slug===e.slug) tick(); }, 120000);
+  liveSub = {slug: e.slug, unsub: ()=>clearInterval(iv)};
+}
+async function webLiveTick(e){
+  const idSet = new Set();
+  for(const k in e.buckets) for(const p of e.buckets[k]) if(p.id) idSet.add(p.id);
+  const ids = [...idSet].slice(0,60);
+  const doms = [...new Set((e.untracked||[]).map(u=>u.domain).filter(Boolean))].slice(0,25);
+  if(!ids.length && !doms.length) return;
+  const r = await fetch(`/api/live?ids=${ids.join(',')}&domains=${encodeURIComponent(doms.join(','))}`);
+  if(!r.ok){ if(r.status===401||r.status===503) e.liveOff = true; return; }
+  const d = await r.json();
+  if(!liveSub || liveSub.slug!==e.slug) return;
+  let changed = false;
+  const allItems = {};
+  for(const k in e.buckets) for(const p of e.buckets[k]) allItems[p.id] = {k, p};
+  for(const idS in (d.affinity||{})){
+    const info = d.affinity[idS], cur = allItems[+idS];
+    if(!cur || !info.tracked || !info.funnel) continue;
+    const bk = LIVE_BUCKET[info.funnel];
+    if(cur.p.funnel!==info.funnel){
+      e.buckets[cur.k] = e.buckets[cur.k].filter(x=>x.id!==+idS);
+      if(bk){ cur.p.funnel = info.funnel; e.buckets[bk].push(cur.p); }
+      changed = true;
+    }
+    if(info.owners && info.owners.length) cur.p.own = info.owners;
+  }
+  const prof = D.untProfiles||{};
+  for(const u of e.untracked||[]){
+    const h = (d.harmonic||{})[u.domain];
+    if(!h) continue;
+    const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)];
+    if(!p) continue;
+    if(h.headcount!=null && p.headcount!==h.headcount){ p.headcount = h.headcount; changed = true; }
+    const raised = h.last_funding_at && h.last_funding_at.slice(0,10);
+    if(raised && raised > (u.date||'')){
+      u.date = raised; if(h.last_funding_type) u.round = h.last_funding_type;
+      if(h.funding_total!=null) p.funding_total_usd = h.funding_total;
+      changed = true;
+    }
+  }
+  e.liveAt = Date.now(); e.liveOff = false;
+  if(changed) rerenderOpen(e);
+  else { const b = document.querySelector('.livebadge'); if(b) b.textContent = liveLabel(e); }
+}
 function rerenderOpen(e){
   if(isMobile()){
     const sheet = document.getElementById('sheet');
