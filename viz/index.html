@@ -78,30 +78,38 @@ thead th{position:sticky;top:53px;z-index:5;background:var(--page);text-align:le
 thead th.sortable{cursor:pointer;user-select:none}
 thead th.sortable:hover{color:var(--ink)}
 thead th.on{color:var(--ink)} thead th.on::after{content:" ↓";color:var(--accent-ink)}
-tbody td{padding:13px 12px;border-bottom:1px solid var(--hair);vertical-align:middle}
+tbody td{padding:16px 14px;border-bottom:1px solid var(--hair);vertical-align:middle}
 tbody tr.mainrow{cursor:pointer}
 tbody tr.mainrow:hover td{background:var(--hair2)}
+tbody tr.mainrow td:first-child{box-shadow:inset 2px 0 0 transparent}
+tbody tr.mainrow:hover td:first-child{box-shadow:inset 2px 0 0 var(--accent)}
+thead th{position:sticky;top:0;background:var(--page);z-index:4}
 tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
-.fname{font-weight:620;font-size:14.5px;letter-spacing:-.005em;display:flex;align-items:center;gap:8px}
+.fname{font-weight:650;font-size:15.5px;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
 .fname .tdot{width:8px;height:8px;border-radius:50%;flex:none}
 .fname a{color:inherit;text-decoration:none}
 .fname a:hover{text-decoration:underline}
 .fname.strong{color:var(--covered-ink)} .fname.strong .tdot{background:var(--covered)}
 .fname.medium{color:var(--thin-ink)} .fname.medium .tdot{background:var(--thin)}
 .fname.weak{color:var(--gap-ink)} .fname.weak .tdot{background:var(--gap)}
-.fmeta{font-size:11.5px;color:var(--muted);margin-top:3px;padding-left:16px;display:flex;gap:8px;flex-wrap:wrap}
+.fmeta{font-size:11.5px;color:var(--muted);margin-top:4px;padding-left:17px;display:flex;gap:0;flex-wrap:wrap;align-items:baseline}
+.fmeta>*+*::before{content:"·";margin:0 7px;color:var(--hair)}
+.fmeta .badge{background:none;padding:0;border-radius:0;letter-spacing:.08em;font-weight:600}
+.fmeta .badge.co{color:var(--covered-ink);background:none;border:0}
+.fmeta .badge.unt{color:var(--accent-ink);background:none;border:0;font-weight:600}
 .badge{font-size:10px;border-radius:9px;padding:1px 7px;background:var(--hair2);color:var(--ink2);white-space:nowrap;letter-spacing:.03em}
 .badge.co{color:var(--covered-ink);border:1px solid var(--covered);background:transparent}
 .badge.unt{color:var(--accent-ink);border:1px solid var(--accent);background:transparent}
-.covcell{display:flex;align-items:center;gap:10px;font-variant-numeric:tabular-nums}
+.covcell{position:relative;display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+.covcell>b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 .covcell svg{flex:none}
-.covcell b{font-size:16px;font-weight:650}
+.covcell b{font-size:13.5px;font-weight:700}
 .relcell{font-variant-numeric:tabular-nums}
 .relcell b{font-size:14.5px;font-weight:620}
 .relcell .rb{display:block;width:64px;height:3px;background:var(--hair);border-radius:2px;margin-top:5px;overflow:hidden}
 .relcell .rb i{display:block;height:100%;background:var(--ink2);border-radius:2px}
 .chips{display:flex;gap:6px;flex-wrap:wrap;max-width:430px}
-.chip{font-size:11.5px;border-radius:8px;padding:3px 9px;cursor:pointer;border:1px solid transparent;
+.chip{font-size:11px;border-radius:6px;padding:2px 8px;cursor:pointer;border:1px solid transparent;
   font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:550}
 .chip b{font-weight:650}
 .chip.prelead{background:var(--c-prelead);color:var(--c-prelead-ink)}
@@ -113,7 +121,12 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .chip .of{font-weight:400;opacity:.65;font-size:10.5px}
 .chip.dim{opacity:.45}
 .covcell .teamcov{color:var(--muted);font-size:10.5px;white-space:nowrap}
-.pts{font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:3px;min-width:220px}
+.pts{font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:5px;min-width:260px;max-width:520px}
+.pts .pt{display:flex;align-items:baseline;gap:8px}
+.pts .pt .ptl{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pts .pt .ptr{flex:none;display:flex;align-items:baseline;gap:7px;font-variant-numeric:tabular-nums}
+.pts .pt .ptr .sbar{width:44px;height:3px;border-radius:2px;background:var(--hair);overflow:hidden;align-self:center}
+.pts .pt .ptr .sbar i{display:block;height:100%;background:var(--covered);border-radius:2px}
 .pts .pt b{color:var(--ink);font-weight:570}
 .pts .via{color:var(--muted)}
 .pts a{color:var(--accent-ink);text-decoration:none}
@@ -413,13 +426,13 @@ function eff(e){
   return {cov, tier, gap, sig: personSignal(e, state.person)};
 }
 
-function ring(v, tier){
-  const r=13, c=2*Math.PI*r, o=c*(1-v/100);
-  return `<svg width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="coverage ${v}">
-    <circle cx="16" cy="16" r="${r}" fill="none" stroke="var(--hair)" stroke-width="4"/>
-    <circle cx="16" cy="16" r="${r}" fill="none" stroke="${TIER[tier]}" stroke-width="4"
+function ring(v, tier, sz){
+  const S = sz||32, r = S===32?13:(S/2-3.5), c=2*Math.PI*r, o=c*(1-v/100), m=S/2;
+  return `<svg width="${S}" height="${S}" viewBox="0 0 ${S} ${S}" role="img" aria-label="coverage ${v}">
+    <circle cx="${m}" cy="${m}" r="${r}" fill="none" stroke="var(--hair)" stroke-width="3.5"/>
+    <circle cx="${m}" cy="${m}" r="${r}" fill="none" stroke="${TIER[tier]}" stroke-width="3.5"
       stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${o.toFixed(1)}"
-      stroke-linecap="round" transform="rotate(-90 16 16)"/></svg>`;
+      stroke-linecap="round" transform="rotate(-90 ${m} ${m})"/></svg>`;
 }
 
 function scoreboard(){
@@ -486,11 +499,11 @@ const emIcon = p => {
 };
 function pathLine(p, ctx){
   const nm = `<a href="${p.linkedin||liSearch(p.external,ctx)}" target="_blank" rel="noopener"><b>${p.external}</b></a>`;
-  const pct = (p.email?emIcon(p):'')+(p.pct!=null?` <span class="pct">${p.pct}%</span>`:'');
-  const when = p.last?` <span class="when">· ${fmtD(p.last)}</span>`:'';
+  const when = p.last?`<span class="when">${fmtD(p.last)}</span>`:'';
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
-  return `<span class="pt${stale}">${nm} <span class="via">↔ ${p.internal}</span>${pct}${when}${moved}</span>`;
+  const bar = p.pct!=null?`<span class="sbar"><i style="width:${p.pct}%"></i></span>`:'';
+  return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${p.internal}</span>${p.email?emIcon(p):''}${moved}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
 }
 function ptsHTML(e){
   const v = eff(e);
@@ -539,7 +552,7 @@ function rowHTML(e){
   const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div></td>
-    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier)}<b>${v.cov}</b>${state.person?`<span class="teamcov">team ${e.connectivity}</span>`:''}</div></td>
+    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div>${state.person?`<div class="teamcov" style="margin-top:2px">team ${e.connectivity}</div>`:''}</td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
