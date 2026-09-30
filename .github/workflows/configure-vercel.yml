@@ -1,0 +1,59 @@
+name: Configure Vercel & deploy
+
+# One-shot configurator, triggered manually: writes SONAR_PASSWORD + SESSION_SECRET
+# into the Vercel project, then builds and deploys so the settings take effect.
+# NOTE: turning OFF Vercel Authentication (Settings → Deployment Protection) is left
+# as a deliberate manual step in the dashboard — that toggle removes a security layer,
+# so a human flips it.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sonar_password:
+        description: 'Team password to set (leave logic of sharing it to Will)'
+        required: true
+        type: string
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_SCOPE: ${{ vars.VERCEL_SCOPE || 'highland-europe' }}
+    steps:
+      - name: Mask password in logs
+        run: echo "::add-mask::${{ inputs.sonar_password }}"
+
+      - uses: actions/checkout@v4
+
+      - name: Configure Vercel project env vars
+        env:
+          SONAR_PASSWORD: ${{ inputs.sonar_password }}
+        run: |
+          set -euo pipefail
+          TEAM_ID=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v2/teams/$VERCEL_SCOPE" | python3 -c 'import sys,json;print(json.load(sys.stdin)["id"])')
+          echo "team id resolved"
+          SESSION_SECRET=$(openssl rand -hex 32)
+          curl -sf -X POST -H "Authorization: Bearer $VERCEL_TOKEN" -H "content-type: application/json" \
+            "https://api.vercel.com/v10/projects/sonar/env?teamId=$TEAM_ID&upsert=true" \
+            -d "[{\"key\":\"SONAR_PASSWORD\",\"value\":\"$SONAR_PASSWORD\",\"type\":\"encrypted\",\"target\":[\"production\",\"preview\"]},
+                 {\"key\":\"SESSION_SECRET\",\"value\":\"$SESSION_SECRET\",\"type\":\"encrypted\",\"target\":[\"production\",\"preview\"]}]" > /dev/null
+          echo "env vars set"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build Sonar
+        run: python3 scripts/build_coverage.py
+
+      - name: Stage build output
+        run: cp viz/index.html deploy/public/index.html
+
+      - name: Deploy to Vercel
+        working-directory: deploy
+        run: |
+          npm i -g vercel@latest
+          vercel link --yes --project sonar --token "$VERCEL_TOKEN" --scope "$VERCEL_SCOPE"
+          vercel deploy --prod --yes --token "$VERCEL_TOKEN" --scope "$VERCEL_SCOPE"
