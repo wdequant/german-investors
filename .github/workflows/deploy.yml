@@ -27,7 +27,7 @@ jobs:
           python-version: '3.11'
 
       - name: Refresh Affinity dump (uses key stored in Vercel, if present)
-        if: ${{ env.VERCEL_TOKEN != '' }}
+        if: ${{ env.VERCEL_TOKEN != '' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
         run: |
           set -euo pipefail
           TEAM_ID=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
