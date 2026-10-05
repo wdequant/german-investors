@@ -57,7 +57,19 @@ body{background:var(--page);color:var(--ink);
 .kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 h1{font-size:33px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-family:var(--display)}
 .sub{color:var(--ink2);margin-top:10px;font-size:14px;max-width:980px}
-.score{display:flex;margin:28px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.regionnav{display:flex;gap:8px;margin:18px 0 10px;flex-wrap:wrap}
+.regionnav button{background:var(--surface);color:var(--ink2);border:1px solid var(--hair);border-radius:10px;
+  padding:10px 24px;font-size:15px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
+.regionnav button:hover{border-color:var(--ink2)}
+.regionnav button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.subline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.about summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px;font-weight:600;list-style:none;white-space:nowrap}
+.about summary::before{content:"ⓘ ";font-weight:400}
+.about summary::-webkit-details-marker{display:none}
+.about .aboutbody{margin-top:8px;max-width:860px;color:var(--ink2);font-size:13.5px;line-height:1.55;
+  border:1px solid var(--hair);border-radius:10px;padding:12px 14px;background:var(--surface)}
+.score{display:flex;margin:22px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.score .s.go{cursor:pointer} .score .s.go:hover b{text-decoration:underline}
 .score .s{flex:1;padding:16px 20px 14px;border-left:1px solid var(--hair)}
 .score .s:first-child{border-left:0;padding-left:2px}
 .score b{display:block;font-size:28px;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-.02em;line-height:1.1}
@@ -353,7 +365,6 @@ th.sk:hover{color:var(--accent-ink)}
 
 <div class="appbar"><div class="in">
   <span class="brand"><span class="mark">S</span><span>Sonar<span class="by">Highland Europe</span></span></span>
-  <div class="seg" id="regionseg"></div>
   <div class="seg" id="viewseg">
     <button data-v="funds" class="on">Investors</button><button data-v="htc">H2C paths</button><button data-v="unt">Untracked Dealflow</button>
   </div>
@@ -376,13 +387,16 @@ th.sk:hover{color:var(--accent-ink)}
 <div class="hero">
   <div class="kicker" id="kick">Highland Europe · relationship intelligence · 05 Oct 2026</div>
   <h1 id="pagetitle"></h1>
-  <p class="sub"><span id="subcount"></span> Read each fund left to right: <b>why they matter</b> —
-  the top of their portfolio through our Unframe lens; <b>where we stand</b> —
-  <b style="color:var(--covered-ink)">covered</b>, <b style="color:var(--thin-ink)">thin</b> or
-  <b style="color:var(--gap-ink)">gap</b>, blending the team's Harmonic network with Affinity
-  relationships and decayed by recency; and <b>your next move</b> — the warm path to use, the tie to
-  re-warm, or the co-investor bridge to ask for. Click a row for the dossier; use <b>View as</b> to see
-  it through one person's relationships.</p>
+  <div id="regionseg" class="regionnav"></div>
+  <p class="sub subline"><span id="subcount"></span>
+  <details class="about"><summary>How to read this page</summary><div class="aboutbody">
+  Read each fund left to right: <b>why they matter</b> — the top of their portfolio through our Unframe
+  lens; <b>where we stand</b> — <b style="color:var(--covered-ink)">covered</b>,
+  <b style="color:var(--thin-ink)">thin</b> or <b style="color:var(--gap-ink)">gap</b>, blending the
+  team's Harmonic network with Affinity relationships and decayed by recency — a path untouched for over
+  a year fades; and <b>your next move</b> — the warm path to use, the tie to re-warm, or the co-investor
+  bridge to ask for. Click a row for the dossier; use <b>View as</b> to see it through one person's
+  relationships.</div></details></p>
 </div>
 
 <div class="score" id="score"></div>
@@ -485,17 +499,18 @@ function ring(v, tier, sz){
 function scoreboard(){
   const f = E().filter(e=>e.kind==='fund');
   const gaps = f.filter(e=>eff(e).tier==='weak' && e.relevance.total>=60);
-  const live = E().reduce((n,e)=>n+pipeCount(e),0);
   const hard = D.regions[state.region].htc.length;
   const unt = f.reduce((n,e)=>n+((e.untracked||[]).length),0);
   document.getElementById('score').innerHTML = `
-    <div class="s"><b>${f.length}+${E().length-f.length}</b><span>funds + angels</span></div>
-    <div class="s"><b>${f.filter(e=>e.coinvest.length).length}</b><span>co-invested with</span></div>
-    ${D.regions[state.region].ufHigh?`<div class="s"><b>${D.regions[state.region].ufHigh}</b><span>high-priority cos backed · Unframe</span></div>`:''}
-    <div class="s"><b>${live}</b><span>${state.person?state.person.split(' ')[0]+"'s pipeline overlaps":'live pipeline overlaps'}</span></div>
-    <div class="s warn"><b>${hard}</b><span>hard-to-cracks reachable</span></div>
-    <div class="s warn"><b>${unt}</b><span>untracked recent EU deals</span></div>
-    <div class="s crit"><b>${gaps.length}</b><span>${state.person?'uncovered by '+state.person.split(' ')[0]:'relevant funds uncovered'}</span></div>`;
+    <div class="s crit go" data-go="gaps"><b>${gaps.length}</b><span>${state.person?'relevant funds '+state.person.split(' ')[0]+" can't reach":'relevant funds worth time — no warm path'}</span></div>
+    <div class="s warn go" data-go="htc"><b>${hard}</b><span>hard-to-crack companies reachable via these funds</span></div>
+    <div class="s warn go" data-go="unt"><b>${unt}</b><span>recent EU deals we're not tracking</span></div>`;
+  document.querySelectorAll('#score .s.go').forEach(t=>t.addEventListener('click',()=>{
+    const g=t.dataset.go;
+    if(g==='gaps'){ state.view='funds'; state.sort='gap'; render();
+      document.getElementById('starthere')?.scrollIntoView({behavior:'smooth',block:'start'}); }
+    else { state.view=g; document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on',x.dataset.v===g)); render(); updateHash(); }
+  }));
 }
 
 // ---------- filters ----------
@@ -686,7 +701,7 @@ function detailHTML(e){
   const secs = [...BUCKETS,["portfolio","Portfolio company"]];
   const isGlobal = (e.buckets.prelead.concat(e.buckets.lead)).some(p=>p.country!==undefined);
   const inRegion = p => !isGlobal || p.country===undefined || p.country===null || regionCountries().has(p.country);
-  const pitem = (p,cls) => `<span${cls?` class="${cls}"`:''}><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${ufBadge(p.uf)}${(p.own||[]).length?` <span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</span>`;
+  const pitem = (p,cls) => `<span${cls?` class="${cls}"`:''}><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${ufBadge(p.uf)}${(p.own||[]).length?` <span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</span>`;
   for(const [k,label] of secs){
     let list=e.buckets[k]; if(!list||!list.length) continue;
     list = list.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1));  // Unframe-rated first, highest priority leading
@@ -1322,7 +1337,7 @@ function toggleRow(slug, chip){
 function labels(){
   const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
   document.getElementById('pagetitle').textContent = `Highland's ${D.regions[state.region].adj} VC Ecosystem Coverage`;
-  document.getElementById('subcount').textContent = `The ${f} ${D.regions[state.region].label} funds that matter most plus ${a} super-angels.`;
+  document.getElementById('subcount').textContent = `The ${f} ${D.regions[state.region].label} funds that matter most${a?` plus ${a} super-angels`:''}.`;
   document.getElementById('fresh').innerHTML = ' Data as of: '+Object.entries(D.freshness).map(([k,v])=>`${k} — ${v}`).join(' · ')+'.';
 }
 // ---------- hash routing ----------
