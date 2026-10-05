@@ -177,12 +177,18 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .covtop{display:flex;align-items:center;gap:7px}
 td.covtd{min-width:150px}
 th.mytd{color:var(--accent-ink)}
-td.mytd{padding:10px 8px}
-.mycard{background:var(--accent-soft);border:1px solid #c9cdf7;border-radius:14px;padding:11px 13px}
-tr.mainrow:hover td.mytd{background:var(--hair2)}
+td.covtd{padding:12px 8px}
+.covcard{display:flex;gap:13px;align-items:flex-start;background:var(--raise);border:1px solid var(--hair2);
+  border-radius:14px;padding:12px 14px;min-height:138px;width:212px;box-sizing:border-box}
+.covcard.mine{background:var(--accent-soft);border-color:#c9cdf7}
+.covL{display:flex;flex-direction:column;align-items:center;gap:6px;flex:none}
+.covlbl{font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
+  text-align:center;max-width:66px;line-height:1.35}
+.covcard.mine .covlbl{color:var(--accent-ink)}
 tr.detailrow td{background:none;box-shadow:none}
-.chips.mini{margin-top:8px;gap:4px;max-width:210px}
-.chips.mini .chip{font-size:10.5px;padding:2px 9px}
+.covcard .chips.mini{flex-direction:column;align-items:flex-start;margin:2px 0 0}
+.chips.mini{gap:4px;max-width:210px}
+.chips.mini .chip{font-size:10.5px;padding:2px 9px;white-space:nowrap}
 .nochip{color:var(--muted);font-size:11.5px}
 .pgroup{border:1px solid var(--hair2);border-radius:14px;padding:10px 14px;margin:8px 0;background:var(--raise)}
 .pgroup.mine{background:var(--accent-soft);border-color:#c9cdf7}
@@ -978,16 +984,16 @@ function rowHTML(e){
   const proof = e.kind==='fund' && e.uf && (e.uf.top||[]).length
     ? `<div class="fmeta ufproof"><span class="cc">Top of portfolio:</span>`+
       e.uf.top.map(t=>`<span class="ufco">${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
-  const covWord = {strong:'covered',medium:'thin',weak:'gap'}[e.tier]||'';
+  const covCard = (cls, cov, tier, lbl, chips) => `<div class="covcard ${cls}">
+    <div class="covL"><div class="covcell">${ring(cov, tier, 38)}<b>${cov}</b></div><div class="covlbl">${lbl}</div></div>
+    <div class="chips mini">${chips}</div></div>`;
   const myCell = state.person
-    ? `<div class="mycard"><div class="covtop"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div><span class="covword ${v.tier}">you</span></div>
-       <div class="chips mini">${chipHTML(e,'mine')}</div></div>`
+    ? covCard('mine', v.cov, v.tier, 'my coverage', chipHTML(e,'mine'))
     : `<span class="nochip">pick who you are ↑</span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
     <td class="relcell">${relCell}</td>
-    <td class="covtd"><div class="covtop"><div class="covcell">${ring(e.connectivity, e.tier, 38)}<b>${e.connectivity}</b></div>
-      <span class="covword ${e.tier}">${covWord}</span></div><div class="chips mini">${chipHTML(e,'team')}</div></td>
+    <td class="covtd">${covCard('', e.connectivity, e.tier, 'team coverage', chipHTML(e,'team'))}</td>
     <td class="covtd mytd">${myCell}</td>
     <td>${ptsHTML(e)}</td>
   </tr>
