@@ -1050,5 +1050,281 @@
    "round_size_usd": 5000000,
    "total_funding_usd": 5000000
   }
- ]
+ ],
+ "index-us": [
+  {
+   "name": "Parallel",
+   "domain": "beparallel.com",
+   "harmonic_company_id": 76496952,
+   "country": "France",
+   "date": "2026-03-01",
+   "round": "SERIES_A",
+   "round_size_usd": 20460364,
+   "total_funding_usd": 24460364
+  },
+  {
+   "name": "Duna",
+   "domain": "duna.com",
+   "harmonic_company_id": 63505545,
+   "country": "Netherlands",
+   "date": "2026-02-04",
+   "round": "SERIES_A",
+   "round_size_usd": 35403660,
+   "total_funding_usd": 47512529
+  },
+  {
+   "name": "Mirelo",
+   "domain": "mirelo.ai",
+   "harmonic_company_id": 45973444,
+   "country": "Germany",
+   "date": "2025-12-15",
+   "round": "SEED",
+   "round_size_usd": 41000000,
+   "total_funding_usd": 44878000
+  },
+  {
+   "name": "Spiich Labs",
+   "domain": "spiich.ai",
+   "harmonic_company_id": 60662036,
+   "country": "Sweden",
+   "date": "2025-11-12",
+   "round": "PRE_SEED",
+   "round_size_usd": 695493,
+   "total_funding_usd": 4109975
+  },
+  {
+   "name": "nexos.ai",
+   "domain": "nexos.ai",
+   "harmonic_company_id": 48196299,
+   "country": "Lithuania",
+   "date": "2025-09-29",
+   "round": "SERIES_A",
+   "round_size_usd": 40309050,
+   "total_funding_usd": 48309050
+  },
+  {
+   "name": "Spiko",
+   "domain": "spiko.io",
+   "harmonic_company_id": 40444224,
+   "country": "France",
+   "date": "2025-07-17",
+   "round": "SERIES_A",
+   "round_size_usd": 22000000,
+   "total_funding_usd": 26325164
+  },
+  {
+   "name": "Hyperline",
+   "domain": "hyperline.co",
+   "harmonic_company_id": 12479943,
+   "country": "France",
+   "date": "2025-01-16",
+   "round": "SEED_EXTENSION",
+   "round_size_usd": 9972191,
+   "total_funding_usd": 14372191
+  },
+  {
+   "name": "BIT ODD",
+   "domain": "bit-odd.com",
+   "harmonic_company_id": 4260328,
+   "country": "Finland",
+   "date": "2024-11-14",
+   "round": "SEED",
+   "round_size_usd": 17888148,
+   "total_funding_usd": 23149753
+  }
+ ],
+ "founders-fund": [
+  {
+   "name": "Onodrim Industries",
+   "domain": "onodrim.com",
+   "harmonic_company_id": 65976460,
+   "country": "Netherlands",
+   "date": "2026-02-13",
+   "round": "SEED",
+   "round_size_usd": 47422600,
+   "total_funding_usd": 47422600
+  },
+  {
+   "name": "STARK",
+   "domain": "stark-defence.com",
+   "harmonic_company_id": 55453570,
+   "country": "Germany",
+   "date": "2026-02-01",
+   "round": "ANGEL",
+   "round_size_usd": null,
+   "total_funding_usd": 646265900
+  },
+  {
+   "name": "CUE Labs",
+   "domain": "cue.dev",
+   "harmonic_company_id": 63516601,
+   "country": "Switzerland",
+   "date": "2025-10-30",
+   "round": "SEED",
+   "round_size_usd": 10000000,
+   "total_funding_usd": 10000000
+  },
+  {
+   "name": "Ubyx Inc.",
+   "domain": "ubyx.xyz",
+   "harmonic_company_id": 58763262,
+   "country": "United Kingdom",
+   "date": "2025-06-17",
+   "round": "SEED",
+   "round_size_usd": 10000000,
+   "total_funding_usd": 10000000
+  },
+  {
+   "name": "Magdrive",
+   "domain": "magdrive.space",
+   "harmonic_company_id": 1464601,
+   "country": "United Kingdom",
+   "date": "2025-02-25",
+   "round": "SEED",
+   "round_size_usd": 10500000,
+   "total_funding_usd": 16036150
+  }
+ ],
+ "khosla": [
+  {
+   "name": "GRAI",
+   "domain": "grai.fm",
+   "harmonic_company_id": 61301282,
+   "country": "Poland",
+   "date": "2026-04-21",
+   "round": "SEED",
+   "round_size_usd": 9000000,
+   "total_funding_usd": 9000000
+  },
+  {
+   "name": "Gigi",
+   "domain": "gigi.co",
+   "harmonic_company_id": 55493668,
+   "country": "France",
+   "date": "2025-09-22",
+   "round": "SEED_EXTENSION",
+   "round_size_usd": 3000000,
+   "total_funding_usd": 8000000
+  },
+  {
+   "name": "Genesis AI",
+   "domain": "genesis.ai",
+   "harmonic_company_id": 12541121,
+   "country": "France",
+   "date": "2025-07-01",
+   "round": "SEED",
+   "round_size_usd": 105000000,
+   "total_funding_usd": 105000000
+  },
+  {
+   "name": "Mitra bio",
+   "domain": "mitrabio.tech",
+   "harmonic_company_id": 1730284,
+   "country": "United Kingdom",
+   "date": "2024-12-18",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 4800000,
+   "total_funding_usd": 6170000
+  },
+  {
+   "name": "silana",
+   "domain": "wearesilana.com",
+   "harmonic_company_id": 10331573,
+   "country": "Austria",
+   "date": "2024-11-30",
+   "round": "SEED",
+   "round_size_usd": 5530000,
+   "total_funding_usd": 8430369
+  },
+  {
+   "name": "Genie AI",
+   "domain": "genieai.co",
+   "harmonic_company_id": 435479,
+   "country": "United Kingdom",
+   "date": "2024-10-01",
+   "round": "SERIES_A",
+   "round_size_usd": 17701856,
+   "total_funding_usd": 22220010
+  }
+ ],
+ "kleiner-perkins": [
+  {
+   "name": "Juna AI",
+   "domain": "juna.ai",
+   "harmonic_company_id": 56445934,
+   "country": "Germany",
+   "date": "2024-11-18",
+   "round": "SEED",
+   "round_size_usd": 7500000,
+   "total_funding_usd": 7500000
+  }
+ ],
+ "felicis": [
+  {
+   "name": "Magentic",
+   "domain": "magentic.com",
+   "harmonic_company_id": 37070569,
+   "country": "United Kingdom",
+   "date": "2026-09-17",
+   "round": "SERIES_A",
+   "round_size_usd": 18000000,
+   "total_funding_usd": 23500000
+  },
+  {
+   "name": "DeepJudge",
+   "domain": "deepjudge.ai",
+   "harmonic_company_id": 1791696,
+   "country": "Switzerland",
+   "date": "2025-11-04",
+   "round": "SERIES_A",
+   "round_size_usd": 41200000,
+   "total_funding_usd": 51900000
+  }
+ ],
+ "nea": [
+  {
+   "name": "Valarian",
+   "domain": "valarian.com",
+   "harmonic_company_id": 40953922,
+   "country": "United Kingdom",
+   "date": "2026-07-13",
+   "round": "SERIES_A",
+   "round_size_usd": 50000000,
+   "total_funding_usd": 68554000
+  },
+  {
+   "name": "spektr",
+   "domain": "spektr.com",
+   "harmonic_company_id": 21615468,
+   "country": "Denmark",
+   "date": "2026-04-15",
+   "round": "SERIES_A",
+   "round_size_usd": 20000000,
+   "total_funding_usd": 25398340
+  },
+  {
+   "name": "DJUST",
+   "domain": "djust.io",
+   "harmonic_company_id": 3205034,
+   "country": "France",
+   "date": "2025-10-01",
+   "round": "SERIES_A_EXTENSION",
+   "round_size_usd": 8213457,
+   "total_funding_usd": 25964557
+  },
+  {
+   "name": "Orbis Medicines",
+   "domain": "orbismedicines.com",
+   "harmonic_company_id": 4488584,
+   "country": "Denmark",
+   "date": "2025-01-06",
+   "round": "SERIES_A",
+   "round_size_usd": 93446820,
+   "total_funding_usd": 121572268
+  }
+ ],
+ "_gaps": {
+  "kleiner-perkins": "Second in-window Harmonic match (Biz AI Last, Romania) excluded as junk data per evidence-pass verdict; only Juna AI verifies at round level",
+  "note": "Deal lists are round-level verified: a company counts only if a Seed/Series A family round since 2024-10-01 names the fund in its own investor list. eu_deals_24m in investors.json is the broader Harmonic faceted count from the evidence pass and is intentionally higher."
+ }
 }

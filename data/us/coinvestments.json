@@ -52,5 +52,31 @@
    "Unframe",
    "NewVoiceMedia"
   ]
+ },
+ {
+  "urn": "urn:harmonic:investor:147739",
+  "name": "Index Ventures",
+  "companies": [
+   "urn:harmonic:company:12584727",
+   "urn:harmonic:company:432640",
+   "urn:harmonic:company:60036309",
+   "urn:harmonic:company:1462862"
+  ],
+  "company_names": [
+   "Wordsmith AI",
+   "Nexthink",
+   "Alkemics (now part of Salsify)",
+   "Photobox"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:164082",
+  "name": "Felicis",
+  "companies": [
+   "urn:harmonic:company:1763"
+  ],
+  "company_names": [
+   "n8n.io"
+  ]
  }
 ]

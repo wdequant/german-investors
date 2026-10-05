@@ -653,6 +653,449 @@
      "harmonic_company_id": 66669448
     }
    ]
+  },
+  "index-us": {
+   "website": "indexventures.com",
+   "partners": [
+    {
+     "name": "Danny Rimer",
+     "title": "Partner, Index Ventures (London)",
+     "linkedin": "https://linkedin.com/in/dannyrimer"
+    },
+    {
+     "name": "Jan Hammer",
+     "title": "Partner at Index Ventures (London)",
+     "linkedin": "https://linkedin.com/in/hammerjan"
+    },
+    {
+     "name": "Hannah Seal",
+     "title": "Partner, Index Ventures (London)",
+     "linkedin": "https://linkedin.com/in/hannahseal"
+    },
+    {
+     "name": "Neil Rimer",
+     "title": "Co-founder & Partner, Index Ventures (Geneva)",
+     "linkedin": "https://linkedin.com/in/neilrimer"
+    },
+    {
+     "name": "Stephane Kurgan",
+     "title": "Venture Partner, Index Ventures (London)",
+     "linkedin": "https://linkedin.com/in/stephane-kurgan-149181"
+    },
+    {
+     "name": "Martin Mignot",
+     "title": "Partner at Index Ventures (New York, ex-London)",
+     "linkedin": "https://linkedin.com/in/martinmignot"
+    },
+    {
+     "name": "Shardul Shah",
+     "title": "Partner at Index Ventures",
+     "linkedin": "https://linkedin.com/in/shardul-shah-3589062"
+    },
+    {
+     "name": "Nina Achadjian",
+     "title": "Partner at Index Ventures",
+     "linkedin": "https://linkedin.com/in/nina-achadjian"
+    },
+    {
+     "name": "Dick Costolo",
+     "title": "Venture Partner at Index Ventures",
+     "linkedin": "https://linkedin.com/in/dick-costolo"
+    }
+   ],
+   "co_investors": [
+    "Sequoia Capital",
+    "Andreessen Horowitz",
+    "SV Angel",
+    "Accel",
+    "Greylock Partners",
+    "Y Combinator",
+    "LocalGlobe",
+    "Benchmark",
+    "Redpoint",
+    "Coatue Management"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Parallel",
+     "date": "2026-03-01",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "beparallel.com",
+     "harmonic_company_id": 76496952
+    },
+    {
+     "name": "Duna",
+     "date": "2026-02-04",
+     "round": "SERIES_A",
+     "country": "Netherlands",
+     "domain": "duna.com",
+     "harmonic_company_id": 63505545
+    },
+    {
+     "name": "Mirelo",
+     "date": "2025-12-15",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "mirelo.ai",
+     "harmonic_company_id": 45973444
+    },
+    {
+     "name": "Spiich Labs",
+     "date": "2025-11-12",
+     "round": "PRE_SEED",
+     "country": "Sweden",
+     "domain": "spiich.ai",
+     "harmonic_company_id": 60662036
+    }
+   ]
+  },
+  "founders-fund": {
+   "website": "foundersfund.com",
+   "partners": [
+    {
+     "name": "Trae Stephens",
+     "title": "Partner, Founders Fund",
+     "linkedin": "https://linkedin.com/in/trae-stephens-485a811"
+    },
+    {
+     "name": "Napoleon Ta",
+     "title": "Partner at Founders Fund",
+     "linkedin": "https://linkedin.com/in/napoleonta"
+    },
+    {
+     "name": "Delian Asparouhov",
+     "title": "Partner at Founders Fund",
+     "linkedin": "https://linkedin.com/in/delian-asparouhov-87447742"
+    },
+    {
+     "name": "Scott Nolan",
+     "title": "Partner, Founders Fund / General Matter",
+     "linkedin": "https://linkedin.com/in/scottpnolan"
+    },
+    {
+     "name": "Matias Van Thienen",
+     "title": "Partner at Founders Fund",
+     "linkedin": "https://linkedin.com/in/mvanthienen"
+    },
+    {
+     "name": "Joey Krug",
+     "title": "Partner at Founders Fund",
+     "linkedin": "https://linkedin.com/in/joeykrug"
+    },
+    {
+     "name": "Lauren Gross",
+     "title": "Partner & COO at Founders Fund",
+     "linkedin": "https://linkedin.com/in/lauren-gross-20492032"
+    }
+   ],
+   "co_investors": [
+    "Khosla Ventures",
+    "Andreessen Horowitz",
+    "General Catalyst",
+    "SV Angel",
+    "8VC",
+    "Sequoia Capital",
+    "Lux Capital",
+    "Y Combinator",
+    "Felicis"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Onodrim Industries",
+     "date": "2026-02-13",
+     "round": "SEED",
+     "country": "Netherlands",
+     "domain": "onodrim.com",
+     "harmonic_company_id": 65976460
+    },
+    {
+     "name": "STARK",
+     "date": "2026-02-01",
+     "round": "ANGEL",
+     "country": "Germany",
+     "domain": "stark-defence.com",
+     "harmonic_company_id": 55453570
+    },
+    {
+     "name": "CUE Labs",
+     "date": "2025-10-30",
+     "round": "SEED",
+     "country": "Switzerland",
+     "domain": "cue.dev",
+     "harmonic_company_id": 63516601
+    }
+   ]
+  },
+  "khosla": {
+   "website": "khoslaventures.com",
+   "partners": [
+    {
+     "name": "Vinod Khosla",
+     "title": "Founder, Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/vinod-khosla-65387416"
+    },
+    {
+     "name": "Samir Kaul",
+     "title": "General Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/samir-kaul-9227b64"
+    },
+    {
+     "name": "David Weiden",
+     "title": "Founding Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/davidweiden"
+    },
+    {
+     "name": "Sven Strohband",
+     "title": "Managing Director, Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/sven-strohband-348b841"
+    },
+    {
+     "name": "Kanu Gulati",
+     "title": "Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/kanugulati"
+    },
+    {
+     "name": "Alice Brooks",
+     "title": "Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/alice-brooks-1786992a"
+    },
+    {
+     "name": "Brian Byun",
+     "title": "Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/brianbyun"
+    },
+    {
+     "name": "Vijit Sabnis",
+     "title": "Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/vijitsabniskhoslaventures"
+    },
+    {
+     "name": "Bruce Armstrong",
+     "title": "Operating Partner at Khosla Ventures",
+     "linkedin": "https://linkedin.com/in/brucearmstrong"
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "Founders Fund",
+    "General Catalyst",
+    "Andreessen Horowitz",
+    "SV Angel",
+    "Alumni Ventures",
+    "Sequoia Capital",
+    "Lightspeed Venture Partners",
+    "Kleiner Perkins",
+    "GV (Google Ventures)"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "GRAI",
+     "date": "2026-04-21",
+     "round": "SEED",
+     "country": "Poland",
+     "domain": "grai.fm",
+     "harmonic_company_id": 61301282
+    }
+   ]
+  },
+  "kleiner-perkins": {
+   "website": "kleinerperkins.com",
+   "partners": [
+    {
+     "name": "Mamoon Hamid",
+     "title": "Partner at Kleiner Perkins",
+     "linkedin": "https://linkedin.com/in/mamoonha"
+    },
+    {
+     "name": "Ilya Fushman",
+     "title": "Partner at Kleiner Perkins",
+     "linkedin": "https://linkedin.com/in/ilyafushman"
+    },
+    {
+     "name": "Josh Coyne",
+     "title": "Partner at Kleiner Perkins",
+     "linkedin": "https://linkedin.com/in/joshuacoyne"
+    },
+    {
+     "name": "Ted Schlein",
+     "title": "General Partner, Kleiner Perkins / Ballistic Ventures",
+     "linkedin": "https://linkedin.com/in/ted-schlein-5630184b"
+    },
+    {
+     "name": "Jason Zhao",
+     "title": "Partner at Kleiner Perkins",
+     "linkedin": "https://linkedin.com/in/jasonxzhao"
+    }
+   ],
+   "co_investors": [
+    "Sequoia Capital",
+    "Andreessen Horowitz",
+    "GV (Google Ventures)",
+    "New Enterprise Associates (NEA)",
+    "DAG Ventures",
+    "Accel",
+    "Y Combinator",
+    "Lightspeed Venture Partners",
+    "Khosla Ventures",
+    "IVP"
+   ],
+   "recent_untracked_eu": []
+  },
+  "felicis": {
+   "website": "felicis.com",
+   "partners": [
+    {
+     "name": "Aydin Senkut",
+     "title": "Founder & Managing Partner, Felicis",
+     "linkedin": "https://linkedin.com/in/aydins"
+    },
+    {
+     "name": "Sundeep Peechu",
+     "title": "Managing Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/speechu"
+    },
+    {
+     "name": "Viviana Faga",
+     "title": "General Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/vivianafaga"
+    },
+    {
+     "name": "Michelle Delcambre",
+     "title": "General Partner & Managing Director at Felicis",
+     "linkedin": "https://linkedin.com/in/michelledelcambre"
+    },
+    {
+     "name": "Jake Storm",
+     "title": "General Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/jakestorm"
+    },
+    {
+     "name": "James Detweiler",
+     "title": "General Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/detweiler"
+    },
+    {
+     "name": "Peter Deng",
+     "title": "General Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/peterxdeng"
+    },
+    {
+     "name": "Katie Riester",
+     "title": "Managing Director at Felicis",
+     "linkedin": "https://linkedin.com/in/katie-riester-91793b8"
+    },
+    {
+     "name": "Niki Pezeshki",
+     "title": "Senior Venture Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/nikipezeshki"
+    },
+    {
+     "name": "Tobi Coker",
+     "title": "Partner at Felicis",
+     "linkedin": "https://linkedin.com/in/tobi-coker"
+    }
+   ],
+   "co_investors": [
+    "SV Angel",
+    "Andreessen Horowitz",
+    "First Round Capital",
+    "Y Combinator",
+    "Founders Fund",
+    "Sequoia Capital",
+    "General Catalyst",
+    "Khosla Ventures",
+    "GV (Google Ventures)",
+    "Menlo Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Magentic",
+     "date": "2026-09-17",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "magentic.com",
+     "harmonic_company_id": 37070569
+    },
+    {
+     "name": "DeepJudge",
+     "date": "2025-11-04",
+     "round": "SERIES_A",
+     "country": "Switzerland",
+     "domain": "deepjudge.ai",
+     "harmonic_company_id": 1791696
+    }
+   ]
+  },
+  "nea": {
+   "website": "nea.com",
+   "partners": [
+    {
+     "name": "Rick Yang",
+     "title": "Partner at NEA",
+     "linkedin": "https://linkedin.com/in/rickcyang"
+    },
+    {
+     "name": "Aaron Jacobson",
+     "title": "Partner at NEA",
+     "linkedin": "https://linkedin.com/in/aaronejacobson"
+    },
+    {
+     "name": "Ali Behbahani",
+     "title": "General Partner (Healthcare) at NEA",
+     "linkedin": "https://linkedin.com/in/ali-behbahani-3bb3591"
+    },
+    {
+     "name": "Ed Mathers",
+     "title": "Partner at NEA",
+     "linkedin": "https://linkedin.com/in/ed-mathers-71418b14"
+    },
+    {
+     "name": "Liza Landsman",
+     "title": "General Partner at NEA",
+     "linkedin": "https://linkedin.com/in/liza-landsman-she-her-83138b"
+    },
+    {
+     "name": "Scott Gottlieb",
+     "title": "Partner at NEA",
+     "linkedin": "https://linkedin.com/in/scottgottliebmd"
+    },
+    {
+     "name": "Carmen Chang",
+     "title": "General Partner, NEA",
+     "linkedin": "https://linkedin.com/in/carmen-chang-94222211"
+    }
+   ],
+   "co_investors": [
+    "NEA",
+    "Andreessen Horowitz",
+    "Kleiner Perkins",
+    "Accel",
+    "Greylock Partners",
+    "Sequoia Capital",
+    "SV Angel",
+    "Intel Capital",
+    "GV (Google Ventures)",
+    "Lightspeed Venture Partners"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Valarian",
+     "date": "2026-07-13",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "valarian.com",
+     "harmonic_company_id": 40953922
+    },
+    {
+     "name": "spektr",
+     "date": "2026-04-15",
+     "round": "SERIES_A",
+     "country": "Denmark",
+     "domain": "spektr.com",
+     "harmonic_company_id": 21615468
+    }
+   ]
   }
  }
 }
