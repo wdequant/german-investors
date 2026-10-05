@@ -17962,5 +17962,4163 @@
   "hc_yoy": -38,
   "name": "Sia/Stratumn",
   "stage": "EXITED"
+ },
+ "strawberrybrowser.com": {
+  "desc": "Strawberry is a browser that integrates AI agents to assist users by automating tasks such as data entry, meeting notes, and content creation while learning from user hab",
+  "founded": 2023,
+  "funding_usd": 6000000,
+  "hc": 26,
+  "hc_yoy": 189,
+  "name": "Strawberry",
+  "stage": "SEED"
+ },
+ "streethub.com": {
+  "desc": "The company offers a service that curates and delivers luxury hampers filled with premium products sourced from grocery retailers, including items like wines, artisan che",
+  "founded": 2013,
+  "funding_usd": 40160000,
+  "hc": 15,
+  "hc_yoy": 15,
+  "name": "Trouva",
+  "stage": "EXITED"
+ },
+ "strive.school": {
+  "desc": "EPICODE Institute of Technology is the Higher Education Institute that combines hands-on learning with real connections to companies.",
+  "founded": 2018,
+  "funding_usd": 150000,
+  "hc": 44,
+  "hc_yoy": null,
+  "name": "Strive School",
+  "stage": "EXITED"
+ },
+ "struck.eu": {
+  "desc": "Struck provides an AI platform that streamlines building compliance by offering instant, location-specific regulatory insights, significantly reducing the time required f",
+  "founded": 2024,
+  "funding_usd": 2414342,
+  "hc": 18,
+  "hc_yoy": 64,
+  "name": "Struck",
+  "stage": "SEED"
+ },
+ "studytube.nl": {
+  "desc": "The company offers a skill-based learning platform designed to streamline the organization of learning and development for teams, enabling efficient management of trainin",
+  "founded": 2009,
+  "funding_usd": 48396606,
+  "hc": 204,
+  "hc_yoy": -2,
+  "name": "Studytube",
+  "stage": "SERIES_B"
+ },
+ "stuffle.it": {
+  "name": null
+ },
+ "stylight.com": {
+  "desc": "Stylight operates as an online shopping platform that aggregates fashion, beauty, and home decor products from over 1000 shops and brands, allowing users to compare items",
+  "founded": 2008,
+  "funding_usd": 56400000,
+  "hc": 27,
+  "hc_yoy": -27,
+  "name": "Stylight",
+  "stage": "EXITED"
+ },
+ "stylistpick.com": {
+  "desc": "Polatrik offers a comprehensive online gaming platform that features a wide array of slot games from multiple providers, integrating various gaming technologies to enhanc",
+  "founded": 2010,
+  "funding_usd": 20000000,
+  "hc": 13,
+  "hc_yoy": -7,
+  "name": "Foot Fashion",
+  "stage": "SERIES_B"
+ },
+ "suade.org": {
+  "desc": "Suade Labs offers a regulatory reporting platform designed for financial institutions, utilizing an intelligent data-driven approach that integrates financial, risk, and ",
+  "founded": 2014,
+  "funding_usd": 226000,
+  "hc": 138,
+  "hc_yoy": 35,
+  "name": "Suade",
+  "stage": "SERIES_A"
+ },
+ "submagic.co": {
+  "desc": "Submagic offers an AI-driven video editing platform that automates various aspects of video production, including captioning, trimming, and content creation.",
+  "founded": 2023,
+  "funding_usd": null,
+  "hc": 23,
+  "hc_yoy": 44,
+  "name": "Submagic",
+  "stage": null
+ },
+ "subsets.com": {
+  "desc": "Subsets offers an AI-driven lifecycle growth platform designed for subscription media businesses, enabling them to enhance retention and engagement through automated expe",
+  "founded": 2022,
+  "funding_usd": 2150000,
+  "hc": 13,
+  "hc_yoy": 62,
+  "name": "Subsets",
+  "stage": "PRE_SEED"
+ },
+ "suena.energy": {
+  "desc": "The company provides an AI-based platform for optimizing and trading battery storage systems and renewable energy, utilizing advanced algorithms and real-time forecasting",
+  "founded": 2020,
+  "funding_usd": 15395143,
+  "hc": 65,
+  "hc_yoy": 51,
+  "name": "suena energy",
+  "stage": "SERIES_A"
+ },
+ "suitepad.de": {
+  "desc": "The main product is an in-room tablet designed for the hotel industry, which integrates functionalities such as a guest directory, booking tool, hotel phone, and TV contr",
+  "founded": 2012,
+  "funding_usd": 3276600,
+  "hc": 43,
+  "hc_yoy": -22,
+  "name": "SuitePad",
+  "stage": "SERIES_A"
+ },
+ "suivideflotte.net": {
+  "desc": "SuiviDeFlotte provides a comprehensive fleet management solution that includes real-time vehicle tracking and maintenance monitoring for various types of vehicles and mac",
+  "founded": 2000,
+  "funding_usd": null,
+  "hc": 61,
+  "hc_yoy": 0,
+  "name": "SuiviDeFlotte.net",
+  "stage": null
+ },
+ "sumary.com": {
+  "desc": "Sumary provides an automated platform for finance and accounting that integrates with existing accounting systems to streamline workflows, verify transactions, and genera",
+  "founded": 2024,
+  "funding_usd": 4170000,
+  "hc": 18,
+  "hc_yoy": 157,
+  "name": "Sumary",
+  "stage": "SEED"
+ },
+ "sunflower-labs.com": {
+  "desc": "Sunflower Labs offers an autonomous drone security system designed to monitor and protect commercial, industrial, and residential properties.",
+  "founded": 2016,
+  "funding_usd": 45052975,
+  "hc": 33,
+  "hc_yoy": 14,
+  "name": "Sunflower Labs",
+  "stage": "SERIES_B"
+ },
+ "sunriserobotics.co": {
+  "desc": "Sunrise Robotics develops intelligent, autonomous robotic cells designed to enhance manufacturing processes by providing real-time perception and dynamic response capabil",
+  "founded": 2023,
+  "funding_usd": 8415520,
+  "hc": 52,
+  "hc_yoy": 148,
+  "name": "Sunrise Robotics",
+  "stage": null
+ },
+ "sunsave.energy": {
+  "desc": "Sunsave provides a solar subscription service that allows UK households to access solar energy without any upfront costs, utilizing advanced solar panel and battery techn",
+  "founded": 2021,
+  "funding_usd": 164110751,
+  "hc": 76,
+  "hc_yoy": 95,
+  "name": "Sunsave",
+  "stage": "SERIES_A"
+ },
+ "super.ai": {
+  "desc": "super.AI offers an Intelligent Document Processing (IDP) solution that automates the extraction and processing of information from various business documents, utilizing m",
+  "founded": 2017,
+  "funding_usd": 30299987,
+  "hc": 41,
+  "hc_yoy": 11,
+  "name": "super.AI",
+  "stage": "SERIES_A"
+ },
+ "super.work": {
+  "desc": "The main product is an AI knowledge base that ensures documentation accuracy by syncing with various workplace tools and detecting knowledge drift.",
+  "founded": 2024,
+  "funding_usd": null,
+  "hc": 17,
+  "hc_yoy": 70,
+  "name": "Super.work",
+  "stage": null
+ },
+ "superannotate.com": {
+  "desc": "SuperAnnotate provides an AI data infrastructure that supports the creation, evaluation, and enhancement of datasets across various modalities, including text, image, vid",
+  "founded": 2018,
+  "funding_usd": 83489995,
+  "hc": 431,
+  "hc_yoy": 47,
+  "name": "SuperAnnotate",
+  "stage": "SERIES_B"
+ },
+ "supercede.com": {
+  "desc": "Supercede offers a reinsurance intelligence platform designed to enhance decision-making by providing real-time visibility and clarity throughout the placement process, i",
+  "founded": 2019,
+  "funding_usd": 21636789,
+  "hc": 27,
+  "hc_yoy": -10,
+  "name": "Supercede",
+  "stage": "SERIES_A"
+ },
+ "superlinked.com": {
+  "desc": "The company offers an open-source inference engine designed for self-hosting various models that facilitate embeddings, reranking, and data extraction, enabling users to ",
+  "founded": 2018,
+  "funding_usd": 10564000,
+  "hc": 15,
+  "hc_yoy": -40,
+  "name": "Superlinked",
+  "stage": "SEED"
+ },
+ "superlistapp.com": {
+  "desc": "Superlist is a task management and to-do list application that integrates tasks, notes, and plans into a single workspace, utilizing AI technologies to convert voice reco",
+  "founded": 2020,
+  "funding_usd": 14983477,
+  "hc": 13,
+  "hc_yoy": -7,
+  "name": "Superlist",
+  "stage": "SEED"
+ },
+ "supernormal.com": {
+  "desc": "Supernormal offers AI-driven tools designed to streamline the workflow of agencies and client-facing teams by automatically capturing context from meetings and emails to ",
+  "founded": 2019,
+  "funding_usd": 11931660,
+  "hc": 29,
+  "hc_yoy": -6,
+  "name": "Supernormal",
+  "stage": "SEED"
+ },
+ "supernova.io": {
+  "desc": "The main product is a design system and knowledge management platform that centralizes and documents design and engineering knowledge, including tokens, components, rules",
+  "founded": 2016,
+  "funding_usd": 24104694,
+  "hc": 74,
+  "hc_yoy": 54,
+  "name": "Supernova Studio",
+  "stage": "SERIES_A"
+ },
+ "superpayments.com": {
+  "desc": "Super Payments offers a payment network that eliminates processing fees by utilizing data and AI technologies to facilitate transactions across various payment methods, i",
+  "founded": 2022,
+  "funding_usd": 28888875,
+  "hc": 61,
+  "hc_yoy": 42,
+  "name": "Super Payments",
+  "stage": "PRE_SEED"
+ },
+ "superscale.ai": {
+  "desc": "Superscale AI",
+  "founded": 2024,
+  "funding_usd": 5000000,
+  "hc": 18,
+  "hc_yoy": -5,
+  "name": "Superscale AI",
+  "stage": "PRE_SEED"
+ },
+ "supersonik.ai": {
+  "desc": "The company provides an AI-driven platform for personalized and interactive product demonstrations that adapt in real-time to user interactions.",
+  "founded": 2025,
+  "funding_usd": 5000000,
+  "hc": 40,
+  "hc_yoy": 344,
+  "name": "Supersonik",
+  "stage": "SEED"
+ },
+ "surf.ai": {
+  "desc": "The main product is an operations platform designed to enhance security by proactively managing vulnerabilities across identity, cloud, and SaaS environments using specia",
+  "founded": 2024,
+  "funding_usd": 57000000,
+  "hc": 67,
+  "hc_yoy": 16,
+  "name": "Surf AI",
+  "stage": "SERIES_A"
+ },
+ "surgar-surgery.com": {
+  "desc": "SURGAR develops augmented reality surgical guidance solutions that enhance minimally invasive surgery by overlaying reconstructed inner anatomical structures onto real-ti",
+  "founded": 2019,
+  "funding_usd": 15284041,
+  "hc": 32,
+  "hc_yoy": -27,
+  "name": "SURGAR",
+  "stage": "SERIES_A"
+ },
+ "surge.care": {
+  "desc": "SurgeCare offers a biomarker discovery platform that utilizes a unique biological fingerprinting technology called Stabl, developed through extensive research in multiomi",
+  "founded": 2021,
+  "funding_usd": 10697337,
+  "hc": 27,
+  "hc_yoy": 80,
+  "name": "SurgeCare",
+  "stage": "SEED"
+ },
+ "svix.com": {
+  "desc": "Svix offers a webhooks-as-a-service platform that simplifies the process of sending webhooks, providing features such as automatic retries, security measures against comm",
+  "founded": 2021,
+  "funding_usd": 13111993,
+  "hc": 11,
+  "hc_yoy": 22,
+  "name": "Svix",
+  "stage": "SEED"
+ },
+ "swaive.fr": {
+  "desc": "Swaive offers financial products that allow users to earn interest on their savings through various term accounts, ensuring capital and interest are guaranteed.",
+  "founded": 2024,
+  "funding_usd": 2402523,
+  "hc": 8,
+  "hc_yoy": 33,
+  "name": "Swaive",
+  "stage": "PRE_SEED"
+ },
+ "swarm-biotactics.com": {
+  "desc": "SWARM Biotactics develops bio-robotic systems that integrate living organisms with advanced engineering to create programmable autonomous swarms capable of operating in c",
+  "founded": 2024,
+  "funding_usd": 14715634,
+  "hc": 67,
+  "hc_yoy": 139,
+  "name": "SWARM Biotactics",
+  "stage": "SEED"
+ },
+ "swissgrc.com": {
+  "desc": "Swiss GRC offers a comprehensive software solution for Governance, Risk, and Compliance (GRC) that includes various modules such as Risk Management, Internal Controls Man",
+  "founded": 2016,
+  "funding_usd": null,
+  "hc": 77,
+  "hc_yoy": 31,
+  "name": "Swiss GRC",
+  "stage": null
+ },
+ "swissquant.com": {
+  "desc": "The company specializes in developing software solutions and data analytics tools tailored for the financial industry, focusing on enhancing performance, risk management,",
+  "founded": 2005,
+  "funding_usd": null,
+  "hc": 48,
+  "hc_yoy": -24,
+  "name": "swissQuant",
+  "stage": null
+ },
+ "swooshtransfer.com": {
+  "desc": "The primary offering is a global payment platform that enables secure cross-border transactions, particularly for the education and healthcare sectors.",
+  "founded": 2020,
+  "funding_usd": null,
+  "hc": 20,
+  "hc_yoy": 5,
+  "name": "SwooshTransfer Ltd",
+  "stage": null
+ },
+ "syftapp.com": {
+  "desc": "Indeed Flex offers a platform for temporary staffing that connects job seekers with employers through an app, utilizing technologies such as AI for smart matching, workfo",
+  "founded": 2015,
+  "funding_usd": 3440000,
+  "hc": 977,
+  "hc_yoy": 0,
+  "name": "Indeed Flex",
+  "stage": "EXITED"
+ },
+ "symphera.io": {
+  "desc": "Symphera has developed an all-in-one surgical system designed to streamline minimally-invasive procedures by integrating multiple surgical tools into a single device, the",
+  "founded": 2021,
+  "funding_usd": 2669601,
+  "hc": 13,
+  "hc_yoy": 18,
+  "name": "Symphera",
+  "stage": "SEED"
+ },
+ "symterra.co.uk": {
+  "desc": "SymTerra is a communication and reporting tool designed for on-site project teams, enabling real-time data capture and structured reporting through features like AI-gener",
+  "founded": 2021,
+  "funding_usd": 3165279,
+  "hc": 16,
+  "hc_yoy": 100,
+  "name": "SymTerra",
+  "stage": "SEED"
+ },
+ "synera.ai": {
+  "name": null
+ },
+ "synera.io": {
+  "desc": "Synera offers an agentic AI platform designed for engineering teams, enabling automation across the product development chain by integrating with CAD, simulation, costing",
+  "founded": 2018,
+  "funding_usd": 58121009,
+  "hc": 119,
+  "hc_yoy": 83,
+  "name": "Synera",
+  "stage": "SERIES_B"
+ },
+ "synergi.so": {
+  "desc": "Synergi offers a smart charging and energy management app that connects various home devices, including electric vehicles, heat pumps, and solar panels, to optimize energ",
+  "founded": 2022,
+  "funding_usd": 2790307,
+  "hc": 13,
+  "hc_yoy": -19,
+  "name": "Synergi",
+  "stage": "SEED"
+ },
+ "syntetica.co": {
+  "desc": "Syntetica specializes in producing low-carbon, virgin-quality recycled nylon polymers, utilizing green chemistry to convert waste materials into sustainable textile solut",
+  "founded": 2023,
+  "funding_usd": 64388580,
+  "hc": 23,
+  "hc_yoy": 64,
+  "name": "Syntetica",
+  "stage": "SERIES_A"
+ },
+ "synthax.ai": {
+  "desc": "Synthax offers an AI-driven operating system designed for outpatient clinics, automating routine administrative tasks such as appointment scheduling and clinical document",
+  "founded": 2025,
+  "funding_usd": 667775,
+  "hc": 6,
+  "hc_yoy": 50,
+  "name": "Synthax",
+  "stage": "PRE_SEED"
+ },
+ "synthflow.ai": {
+  "desc": "Synthflow develops AI agents designed for enterprise-level customer support, focusing on automating voice and chat interactions in production environments.",
+  "founded": 2022,
+  "funding_usd": 29100000,
+  "hc": 55,
+  "hc_yoy": -21,
+  "name": "Synthflow AI",
+  "stage": "SERIES_A"
+ },
+ "syro.co": {
+  "desc": "Syroco offers a voyage optimization platform for maritime operations that utilizes ship-specific digital twins, high-fidelity weather data, and AI-driven simulations to e",
+  "founded": 2018,
+  "funding_usd": 13618104,
+  "hc": 46,
+  "hc_yoy": 7,
+  "name": "Syroco",
+  "stage": "SERIES_A"
+ },
+ "systeme.io": {
+  "desc": "The main product is an all-in-one platform designed for online entrepreneurs, integrating functionalities such as sales funnel creation, email marketing, online course ma",
+  "founded": 2016,
+  "funding_usd": null,
+  "hc": 222,
+  "hc_yoy": 20,
+  "name": "systeme.io",
+  "stage": null
+ },
+ "syte.ms": {
+  "desc": "The company offers an AI-driven platform that enables real estate developers, investors, and architects to assess the construction potential of properties quickly, factor",
+  "founded": 2021,
+  "funding_usd": 19221618,
+  "hc": 51,
+  "hc_yoy": 31,
+  "name": "syte",
+  "stage": "SERIES_A"
+ },
+ "t-immersion.com": {
+  "desc": "Acep Trylive, a division of the Acep group, specializes in augmented reality simulation and lens measurement for vision, offering assistive technologies for frame selecti",
+  "founded": 1999,
+  "funding_usd": 12522919,
+  "hc": 22,
+  "hc_yoy": 0,
+  "name": "Total Immersion",
+  "stage": "SERIES_D"
+ },
+ "tabnine.com": {
+  "desc": "Tabnine offers an AI coding platform that operates within an organization's environment, providing real-time code assistance and automated workflows by integrating with d",
+  "founded": 2013,
+  "funding_usd": 63050000,
+  "hc": 46,
+  "hc_yoy": -29,
+  "name": "Tabnine",
+  "stage": "EXITED"
+ },
+ "tactic.fyi": {
+  "desc": "The main product is a no-code AI platform that generates unique customer insights by scraping and analyzing data from various sources, including web, CRM, and third-party",
+  "founded": 2011,
+  "funding_usd": 4635000,
+  "hc": 6,
+  "hc_yoy": 0,
+  "name": "Tactic",
+  "stage": "SEED"
+ },
+ "tacto.ai": {
+  "desc": "Tacto offers a Procurement Intelligence Platform designed for industrial companies, leveraging AI to enhance procurement processes by integrating internal ERP data with e",
+  "founded": 2020,
+  "funding_usd": 61008050,
+  "hc": 150,
+  "hc_yoy": 20,
+  "name": "Tacto",
+  "stage": "SERIES_A"
+ },
+ "taito.ai": {
+  "desc": "Taito.ai offers an AI-driven people operations platform that automates employee records, time-off management, attendance tracking, document generation, and performance re",
+  "founded": 2024,
+  "funding_usd": 2700000,
+  "hc": 9,
+  "hc_yoy": -10,
+  "name": "Taito.ai",
+  "stage": "SEED"
+ },
+ "talentbin.com": {
+  "desc": "The talent search engine for the entire web | Find passive candidates where they are active online b",
+  "founded": 2009,
+  "funding_usd": 3200000,
+  "hc": 1,
+  "hc_yoy": 0,
+  "name": "TalentBin",
+  "stage": "EXITED"
+ },
+ "talenthub.io": {
+  "desc": "Starred offers a hiring intelligence platform designed for talent acquisition leaders, enabling them to leverage structured insights from candidates, hiring managers, and",
+  "founded": 2013,
+  "funding_usd": 10930000,
+  "hc": 51,
+  "hc_yoy": -2,
+  "name": "Starred.com",
+  "stage": "EXITED"
+ },
+ "talentir.com": {
+  "desc": "Talentir offers a global payouts platform that automates the payout process, allowing for real-time transactions in various currencies, including stablecoins, while manag",
+  "founded": 2022,
+  "funding_usd": 5544164,
+  "hc": 15,
+  "hc_yoy": 7,
+  "name": "Talentir",
+  "stage": "SEED"
+ },
+ "talentium.io": {
+  "desc": "The main product is an AI-driven recruitment tool that enhances the hiring process by searching over 850 million profiles to identify suitable candidates who may not have",
+  "founded": 2023,
+  "funding_usd": 3614639,
+  "hc": 28,
+  "hc_yoy": 87,
+  "name": "Talentium",
+  "stage": "PRE_SEED"
+ },
+ "talentry.com": {
+  "desc": "The main product is a talent acquisition platform that enhances candidate experiences by integrating human and artificial intelligence, offering tools for talent sourcing",
+  "founded": 2013,
+  "funding_usd": 9253073,
+  "hc": 45,
+  "hc_yoy": 0,
+  "name": "Talentry by CleverConnect",
+  "stage": "EXITED"
+ },
+ "talknagish.com": {
+  "desc": "Rylo offers a free call captioning and live transcription app designed to enhance communication for the Deaf and hard of hearing community by providing real-time text tra",
+  "founded": 2015,
+  "funding_usd": 137192684,
+  "hc": 1,
+  "hc_yoy": 0,
+  "name": "Rylo Inc.",
+  "stage": "EXITED"
+ },
+ "tallow-ash.com": {
+  "desc": "The company offers laundry detergents formulated with luxury fragrances and planet-friendly, vegan, and cruelty-free ingredients, developed by chemists and master perfume",
+  "founded": 2023,
+  "funding_usd": 1653579,
+  "hc": 33,
+  "hc_yoy": 57,
+  "name": "Tallow + Ash",
+  "stage": "PRE_SEED"
+ },
+ "talpasolutions.eu": {
+  "desc": "The main product is an industrial intelligence platform that integrates machine data, telematics, and operational context to enhance decision-making and improve fleet per",
+  "founded": 2015,
+  "funding_usd": 30737266,
+  "hc": 54,
+  "hc_yoy": -18,
+  "name": "talpasolutions",
+  "stage": "SERIES_B"
+ },
+ "tamtam.ai": {
+  "desc": "The main product is an AI-driven lead generation tool that builds customized lead lists by analyzing unique buying signals from past successful deals, integrating with CR",
+  "founded": 2023,
+  "funding_usd": 3399588,
+  "hc": 35,
+  "hc_yoy": 25,
+  "name": "Tamtam",
+  "stage": "SEED"
+ },
+ "tandem.chat": {
+  "desc": "The main product is a virtual office platform designed for remote teams, facilitating synchronous collaboration through features such as video conferencing, instant scree",
+  "founded": 2017,
+  "funding_usd": 7500000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Tandem",
+  "stage": "SEED"
+ },
+ "tangled.org": {
+  "desc": "The company offers a next-generation social coding platform designed to enhance collaboration among developers by allowing them to share and govern their code within a co",
+  "founded": 2025,
+  "funding_usd": 4459205,
+  "hc": 7,
+  "hc_yoy": 250,
+  "name": "Tangled",
+  "stage": "SEED"
+ },
+ "tanium.com": {
+  "desc": "Tanium offers a unified platform for Autonomous IT that provides real-time endpoint intelligence and control, enabling organizations to manage and secure their endpoints ",
+  "founded": 2007,
+  "funding_usd": 928841870,
+  "hc": 2254,
+  "hc_yoy": 0,
+  "name": "Tanium",
+  "stage": null
+ },
+ "tanso.de": {
+  "desc": "Tanso offers sustainability software focused on CO₂ accounting and ESG reporting, utilizing AI-driven data management to streamline compliance processes and enhance effic",
+  "founded": 2021,
+  "funding_usd": 20177340,
+  "hc": 61,
+  "hc_yoy": 15,
+  "name": "Tanso",
+  "stage": "SERIES_A"
+ },
+ "tapline.io": {
+  "desc": "Tapline offers a financing solution for subscription-based businesses, allowing them to trade future subscription revenues for immediate capital without diluting equity.",
+  "founded": 2021,
+  "funding_usd": 54489208,
+  "hc": 5,
+  "hc_yoy": -50,
+  "name": "Tapline",
+  "stage": "EXITED"
+ },
+ "tarci.io": {
+  "desc": "Tarci offers a Continuous Intelligence Engine that compiles and analyzes dynamic data from numerous sources to provide actionable insights about small and medium-sized bu",
+  "founded": 2018,
+  "funding_usd": 17000000,
+  "hc": 16,
+  "hc_yoy": -16,
+  "name": "Tarci",
+  "stage": "SERIES_A"
+ },
+ "taster.com": {
+  "desc": "Taster develops and operates a range of fast-food brands, leveraging a full-stack platform that includes culinary expertise, high-quality sourcing, and advanced operation",
+  "founded": 2017,
+  "funding_usd": 56534290,
+  "hc": 253,
+  "hc_yoy": 22,
+  "name": "Taster",
+  "stage": "SERIES_B"
+ },
+ "tattoodo.com": {
+  "desc": "The main service offered is a platform that connects users with verified tattoo artists, facilitating the booking process for various tattoo styles.",
+  "founded": 2013,
+  "funding_usd": 22801931,
+  "hc": 98,
+  "hc_yoy": -2,
+  "name": "Tattoodo",
+  "stage": null
+ },
+ "tausendkind.de": {
+  "desc": "tausendkind offers an online platform that provides a range of products for infants and children, including clothing, toys, and decor.",
+  "founded": 2010,
+  "funding_usd": 18372491,
+  "hc": 14,
+  "hc_yoy": -12,
+  "name": "tausendkind",
+  "stage": "SEED"
+ },
+ "taxdoo.com": {
+  "desc": "The main product is a cloud-based solution designed for online merchants and tax consultants, which automates VAT processes across EU countries and the UK, providing a si",
+  "founded": 2016,
+  "funding_usd": 85979937,
+  "hc": 39,
+  "hc_yoy": -67,
+  "name": "Taxdoo",
+  "stage": "SERIES_B"
+ },
+ "taxfix.de": {
+  "desc": "Taxfix offers a digital tax solution that simplifies the tax filing process for individuals and self-employed users, utilizing AI-driven technology to provide personalize",
+  "founded": 2016,
+  "funding_usd": 330000000,
+  "hc": 379,
+  "hc_yoy": 2,
+  "name": "Taxfix",
+  "stage": "SERIES_D"
+ },
+ "taxnova.ai": {
+  "desc": "Taxnova offers a platform that automates the R&D tax claim process by integrating with engineering and financial data systems to identify and size eligible projects, sign",
+  "founded": 2025,
+  "funding_usd": 1500000,
+  "hc": 9,
+  "hc_yoy": 80,
+  "name": "Taxnova",
+  "stage": "PRE_SEED"
+ },
+ "taykey.com": {
+  "desc": "The main product is a real-time data analytics solution that processes vast amounts of digital activity to identify audience interests and trends.",
+  "founded": 2009,
+  "funding_usd": 32000000,
+  "hc": 6,
+  "hc_yoy": 0,
+  "name": "Taykey (Acquired by Innovid)",
+  "stage": "EXITED"
+ },
+ "tchek.fr": {
+  "desc": "The main product is an AI-driven vehicle inspection technology that utilizes advanced computer vision to detect damages on vehicles, assess their condition, and provide d",
+  "founded": 2016,
+  "funding_usd": 4233310,
+  "hc": 17,
+  "hc_yoy": -11,
+  "name": "Tchek.ai",
+  "stage": "SEED"
+ },
+ "teads.com": {
+  "desc": "Teads offers an omnichannel advertising platform that integrates premium media, data-driven creative, and predictive AI technology to optimize advertising outcomes across",
+  "founded": 2004,
+  "funding_usd": 124107289,
+  "hc": 1803,
+  "hc_yoy": -2,
+  "name": "Teads",
+  "stage": "EXITED"
+ },
+ "teale.io": {
+  "desc": "Teale offers a mental health support solution that includes a personalized application providing access to over 1,000 resources, free consultations with psychologists and",
+  "founded": 2021,
+  "funding_usd": 13324473,
+  "hc": 95,
+  "hc_yoy": 19,
+  "name": "teale",
+  "stage": "SERIES_A"
+ },
+ "tebi.com": {
+  "desc": "Tebi is an all-in-one hospitality platform that integrates essential business tools such as Point of Sale, Reservations, Payments, Kitchen Display Systems, and Inventory ",
+  "founded": 2020,
+  "funding_usd": 56078000,
+  "hc": 126,
+  "hc_yoy": 107,
+  "name": "Tebi",
+  "stage": "SERIES_B"
+ },
+ "teemo.co": {
+  "desc": "Near, the world’s largest source of intelligence on People, Places, and Products, is the global leader in Data Intelligence empowering organizations of all sizes to make ",
+  "founded": 2014,
+  "funding_usd": 1873060,
+  "hc": 35,
+  "hc_yoy": -5,
+  "name": "Near France",
+  "stage": "EXITED"
+ },
+ "teemyco.com": {
+  "desc": "Teemyco provides an AI-powered virtual office platform that enhances collaboration for remote teams through features like spatial presence, smart rooms for spontaneous di",
+  "founded": 2019,
+  "funding_usd": 5365798,
+  "hc": 1,
+  "hc_yoy": -75,
+  "name": "Teemyco",
+  "stage": "SEED"
+ },
+ "telgea.com": {
+  "desc": "Telgea offers a mobile network service designed for multinational corporations, enabling them to manage local mobile plans across various countries through a single platf",
+  "founded": 2023,
+  "funding_usd": 8000000,
+  "hc": 23,
+  "hc_yoy": -4,
+  "name": "Telgea",
+  "stage": "SEED"
+ },
+ "teller.io": {
+  "desc": "Teller provides an API that allows developers to connect applications to users' bank accounts, facilitating account verification, balance checks, transaction history retr",
+  "founded": 2014,
+  "funding_usd": 4000000,
+  "hc": 24,
+  "hc_yoy": 9,
+  "name": "Teller",
+  "stage": "SEED"
+ },
+ "telli.com": {
+  "desc": "The main product is an AI-driven voice platform designed to enhance customer communication through automated phone calls, utilizing technologies such as natural language ",
+  "founded": 2024,
+  "funding_usd": 19100000,
+  "hc": 39,
+  "hc_yoy": 129,
+  "name": "telli",
+  "stage": "SEED"
+ },
+ "tellmeplus.com": {
+  "desc": "Tellmeplus specializes in offering Predictive Objects, a software platform that utilizes artificial intelligence for predictive analytics, optimizing asset and process pe",
+  "founded": 2010,
+  "funding_usd": 4974000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Tellmeplus",
+  "stage": "PRE_SEED"
+ },
+ "telnesstech.com": {
+  "desc": "The main product of the company is Seamless OS, a fully automated, cloud-native operating system designed for mobile virtual network operators (MVNOs) that simplifies tel",
+  "founded": 2020,
+  "funding_usd": 16077178,
+  "hc": 33,
+  "hc_yoy": -23,
+  "name": "Telness Tech",
+  "stage": "SERIES_A"
+ },
+ "telura.com": {
+  "desc": "Telura specializes in geothermal energy solutions, utilizing advanced electric impulse drilling technology that employs high-voltage pulses to fracture rock and facilitat",
+  "founded": 2025,
+  "funding_usd": 5000000,
+  "hc": 13,
+  "hc_yoy": 1200,
+  "name": "Telura",
+  "stage": "PRE_SEED"
+ },
+ "tem.energy": {
+  "desc": "The company offers a modern transaction system for energy that simplifies the buying and selling process, aiming to reduce inefficiencies and hidden costs in the energy m",
+  "founded": 2021,
+  "funding_usd": 91918365,
+  "hc": 239,
+  "hc_yoy": 166,
+  "name": "tem",
+  "stage": "SERIES_B"
+ },
+ "temaetfs.com": {
+  "desc": "Tema offers a range of exchange-traded funds (ETFs) designed to provide exposure to various investment themes, including disruptive growth and durable core solutions.",
+  "founded": 2022,
+  "funding_usd": null,
+  "hc": 31,
+  "hc_yoy": 55,
+  "name": "Tema ETFs",
+  "stage": null
+ },
+ "tembi.io": {
+  "desc": "Tembi provides a market intelligence platform that continuously monitors and indexes e-commerce webshops, capturing data on product assortments, pricing, delivery options",
+  "founded": 2022,
+  "funding_usd": 3638593,
+  "hc": 29,
+  "hc_yoy": -3,
+  "name": "Tembi - Market Intelligence",
+  "stage": "SEED"
+ },
+ "temelion.ai": {
+  "desc": "Temelion offers AI-driven tools that automate the creation and verification of technical documentation for pre-construction workflows, aimed at improving compliance and a",
+  "founded": 2024,
+  "funding_usd": 3777683,
+  "hc": 8,
+  "hc_yoy": 33,
+  "name": "Temelion",
+  "stage": "SEED"
+ },
+ "templafy.com": {
+  "desc": "The company offers a document generation platform that utilizes AI agents to create high-quality, compliant, and on-brand documents by integrating approved content, enter",
+  "founded": 2013,
+  "funding_usd": 196356418,
+  "hc": 197,
+  "hc_yoy": -15,
+  "name": "Templafy",
+  "stage": "SERIES_D"
+ },
+ "tendium.ai": {
+  "desc": "Tendium provides a cloud-based platform designed for bidding and proposal management, specifically targeting public sector sales by streamlining the process of identifyin",
+  "founded": 2018,
+  "funding_usd": 1770000,
+  "hc": 108,
+  "hc_yoy": 32,
+  "name": "Tendium",
+  "stage": "PRE_SEED"
+ },
+ "tendium.com": {
+  "desc": "Tendium provides a cloud-based platform designed for bidding and proposal management, specifically targeting public sector sales by streamlining the process of identifyin",
+  "founded": 2018,
+  "funding_usd": 1770000,
+  "hc": 108,
+  "hc_yoy": 32,
+  "name": "Tendium",
+  "stage": "PRE_SEED"
+ },
+ "tengo.cc": {
+  "desc": "Tengo offers a platform that utilizes artificial intelligence to streamline the public procurement process, enabling users to identify relevant tenders and generate tailo",
+  "founded": 2023,
+  "funding_usd": 3218382,
+  "hc": 17,
+  "hc_yoy": -15,
+  "name": "Tengo",
+  "stage": "SEED"
+ },
+ "tenorhq.com": {
+  "desc": "Tenor offers an AI coaching platform designed to enhance workforce effectiveness through methods such as role-play and real-world feedback, aimed at developing employee c",
+  "founded": 2023,
+  "funding_usd": 5400000,
+  "hc": 21,
+  "hc_yoy": 50,
+  "name": "Tenor",
+  "stage": "SEED"
+ },
+ "tensorleap.ai": {
+  "desc": "Tensorleap offers a deep-learning debugging and explainability platform designed to enhance the reliability and interpretability of AI models in real-world applications.",
+  "founded": 2019,
+  "funding_usd": 13200000,
+  "hc": 20,
+  "hc_yoy": -5,
+  "name": "Tensorleap",
+  "stage": "SEED"
+ },
+ "teralytics.net": {
+  "desc": "Teralytics provides a platform that leverages big data and advanced machine learning to deliver insights into human mobility, utilizing diverse data sources including cus",
+  "founded": 2010,
+  "funding_usd": 18550000,
+  "hc": 16,
+  "hc_yoy": -16,
+  "name": "Teralytics",
+  "stage": "SERIES_D"
+ },
+ "terasi.io": {
+  "desc": "TERASi provides ultra-compact, high-frequency wireless solutions that deliver secure gigabit-speed data links using mm-wave frequencies and highly directive beams, design",
+  "founded": 2020,
+  "funding_usd": 13843432,
+  "hc": 22,
+  "hc_yoy": 38,
+  "name": "TERASi",
+  "stage": "SEED"
+ },
+ "ternarytx.co.uk": {
+  "desc": "TernaryTx specializes in designing molecular glue therapeutics using an AI-driven platform that integrates machine learning and physics-based methods.",
+  "founded": 2024,
+  "funding_usd": 5418906,
+  "hc": 13,
+  "hc_yoy": 62,
+  "name": "Ternary Therapeutics",
+  "stage": "SEED"
+ },
+ "terra.one": {
+  "desc": "The company specializes in the development and operation of large-scale battery storage systems designed to stabilize regional power grids, featuring a capacity of 30 MWh",
+  "founded": 2021,
+  "funding_usd": 184885650,
+  "hc": 55,
+  "hc_yoy": 15,
+  "name": "Terra One",
+  "stage": "SEED"
+ },
+ "terraspark.energy": {
+  "desc": "TerraSpark specializes in Space-Based Solar Power (SBSP), capturing solar energy in Low Earth Orbit and transmitting it to Earth as low-density radiowaves, which are conv",
+  "founded": 2025,
+  "funding_usd": 7223115,
+  "hc": 27,
+  "hc_yoy": 238,
+  "name": "TerraSpark",
+  "stage": "SEED"
+ },
+ "tesseractinvestment.com": {
+  "desc": "Tesseract offers two main services: regulated discretionary portfolio management through dedicated client vaults and unregulated infrastructure lending to institutional b",
+  "founded": 2009,
+  "funding_usd": 25371782,
+  "hc": 25,
+  "hc_yoy": -4,
+  "name": "Tesseract",
+  "stage": "SERIES_A"
+ },
+ "testgorilla.com": {
+  "desc": "The main product is a skills-based hiring platform that offers a variety of assessments, including over 350 science-backed tests, 100+ AI interviews, resume scoring, and ",
+  "founded": 2019,
+  "funding_usd": 82300000,
+  "hc": 288,
+  "hc_yoy": -13,
+  "name": "TestGorilla",
+  "stage": "SERIES_A"
+ },
+ "testkube.io": {
+  "desc": "Testkube is a Kubernetes-native testing platform that enables teams to run and manage tests across various environments, whether in the cloud or on-premises.",
+  "founded": 2021,
+  "funding_usd": 8000000,
+  "hc": 28,
+  "hc_yoy": 65,
+  "name": "Testkube",
+  "stage": "SERIES_A"
+ },
+ "teton.ai": {
+  "desc": "Teton offers an advanced resident monitoring platform that utilizes AI and a sensor system to provide real-time insights into room activity, enabling care teams to respon",
+  "founded": 2020,
+  "funding_usd": 28832532,
+  "hc": 101,
+  "hc_yoy": 94,
+  "name": "Teton",
+  "stage": "SERIES_A"
+ },
+ "tetrax.ai": {
+  "desc": "TetraxAI offers an AI-powered platform designed for due diligence in renewable energy projects, significantly reducing transaction review times by automating the analysis",
+  "founded": 2024,
+  "funding_usd": 1434086,
+  "hc": 10,
+  "hc_yoy": 43,
+  "name": "TetraxAI-Ultrafast Renewables M&A",
+  "stage": "PRE_SEED"
+ },
+ "textmaster.com": {
+  "desc": "The main product is a translation platform that utilizes a combination of real-time translation memory, interactive glossaries, and complex file segmentation to improve t",
+  "founded": 2010,
+  "funding_usd": 8451776,
+  "hc": 164,
+  "hc_yoy": -21,
+  "name": "TextMaster",
+  "stage": "EXITED"
+ },
+ "thanksben.com": {
+  "desc": "Ben offers an AI-native platform designed to streamline global employee benefits management, addressing complexities such as fragmented data and compliance across multipl",
+  "founded": 2019,
+  "funding_usd": 45845372,
+  "hc": 122,
+  "hc_yoy": 0,
+  "name": "Ben",
+  "stage": "SERIES_B"
+ },
+ "the7bridges.com": {
+  "desc": "7bridges offers a supply chain management platform that integrates complex supply chain data to enhance operational performance and resilience.",
+  "founded": 2015,
+  "funding_usd": 21727889,
+  "hc": 25,
+  "hc_yoy": -31,
+  "name": "7bridges",
+  "stage": "EXITED"
+ },
+ "theblandcompany.co": {
+  "desc": "The company specializes in developing high-performance, functional proteins derived from agricultural byproducts, designed to replicate the performance of eggs in food ap",
+  "founded": 2024,
+  "funding_usd": 52670000,
+  "hc": 7,
+  "hc_yoy": 40,
+  "name": "Bland Company",
+  "stage": "SERIES_C"
+ },
+ "thegang.io": {
+  "desc": "The company specializes in game development across various platforms, including mobile, Roblox, and browser-based games, while also offering backend systems and hybrid ap",
+  "founded": 2019,
+  "funding_usd": null,
+  "hc": 142,
+  "hc_yoy": -11,
+  "name": "The Gang",
+  "stage": null
+ },
+ "theguarantors.com": {
+  "desc": "The company offers AI-powered lease guarantee solutions that facilitate renter approvals while providing property operators with coverage against defaults, damages, and v",
+  "founded": 2014,
+  "funding_usd": 111700000,
+  "hc": 310,
+  "hc_yoy": 23,
+  "name": "TheGuarantors",
+  "stage": "EXITED"
+ },
+ "thehomelike.com": {
+  "desc": "The main product is an online marketplace for long-term furnished apartment rentals, specifically designed for expatriates and working professionals seeking accommodation",
+  "founded": 2014,
+  "funding_usd": 32892363,
+  "hc": 66,
+  "hc_yoy": 27,
+  "name": "Homelike",
+  "stage": "EXITED"
+ },
+ "theker.ai": {
+  "desc": "THEKER Robotics specializes in the design, manufacturing, and marketing of autonomous machines and robots aimed at process automation in the industrial sector, utilizing ",
+  "founded": 2020,
+  "funding_usd": 107514724,
+  "hc": 57,
+  "hc_yoy": 185,
+  "name": "THEKER Robotics",
+  "stage": "SERIES_A"
+ },
+ "themobilefirstcompany.com": {
+  "desc": "The company offers a mobile-first AI software suite designed for small teams, featuring applications that manage calls, track expenses, and handle invoicing, all integrat",
+  "founded": 2023,
+  "funding_usd": 15777455,
+  "hc": 45,
+  "hc_yoy": 45,
+  "name": "The Mobile-First Company",
+  "stage": "SEED"
+ },
+ "theorg.com": {
+  "desc": "The company offers a platform that provides access to comprehensive organizational chart data, enabling users to identify relevant buyers, talent, and investment opportun",
+  "founded": 2017,
+  "funding_usd": 33307484,
+  "hc": 16,
+  "hc_yoy": -20,
+  "name": "The Org",
+  "stage": "SERIES_B"
+ },
+ "thepanax.com": {
+  "desc": "Panax offers an AI-native treasury management platform that integrates data from banks and ERP systems to enhance cash operations through real-time insights and automated",
+  "founded": 2022,
+  "funding_usd": 15500000,
+  "hc": 55,
+  "hc_yoy": -18,
+  "name": "Panax",
+  "stage": "SERIES_A"
+ },
+ "therapixel.com": {
+  "desc": "Therapixel specializes in artificial intelligence for medical imaging, focusing on a software solution that enhances breast cancer screening through advanced algorithms c",
+  "founded": 2013,
+  "funding_usd": 22223040,
+  "hc": 55,
+  "hc_yoy": 6,
+  "name": "Therapixel",
+  "stage": "SERIES_B"
+ },
+ "theremia.health": {
+  "desc": "Theremia develops a precision medicine platform that utilizes advanced AI technologies to optimize drug treatments for neurological and psychiatric conditions by tailorin",
+  "founded": 2023,
+  "funding_usd": 3238938,
+  "hc": 24,
+  "hc_yoy": 71,
+  "name": "Theremia",
+  "stage": "SEED"
+ },
+ "thestorefront.com": {
+  "desc": "The company offers a technology platform that facilitates the rental of retail spaces, including pop-up shops and event venues, allowing brands to easily access and activ",
+  "founded": 2006,
+  "funding_usd": 8900000,
+  "hc": 37,
+  "hc_yoy": -3,
+  "name": "Storefront",
+  "stage": "EXITED"
+ },
+ "thinglink.com": {
+  "desc": "The company offers an AI-powered platform designed for creating immersive and spatial learning experiences, utilizing images, videos, 360-degree media, and 3D models to b",
+  "founded": 2010,
+  "funding_usd": 4300000,
+  "hc": 27,
+  "hc_yoy": -16,
+  "name": "ThingLink",
+  "stage": "SEED"
+ },
+ "thingtrax.com": {
+  "desc": "Thingtrax offers a vision AI platform that utilizes computer vision-driven AI agents to monitor production processes in real-time, enabling autonomous operational actions",
+  "founded": 2015,
+  "funding_usd": 10117026,
+  "hc": 64,
+  "hc_yoy": -14,
+  "name": "Thingtrax",
+  "stage": "SEED"
+ },
+ "thisisglow.com": {
+  "desc": "Glow Digital Media offers a mobile-first social ad management platform, specializing in campaign management and optimization for major social media channels.",
+  "founded": 2008,
+  "funding_usd": 8300000,
+  "hc": 9,
+  "hc_yoy": 29,
+  "name": "Glow Digital Media",
+  "stage": "EXITED"
+ },
+ "thoughtmachine.net": {
+  "desc": "The main product is a core banking platform designed to be cloud-native, utilizing microservices and an API-based architecture, which allows for easy configuration to mee",
+  "founded": 2014,
+  "funding_usd": 691260901,
+  "hc": 522,
+  "hc_yoy": 1,
+  "name": "Thought Machine",
+  "stage": "SERIES_E"
+ },
+ "throxy.com": {
+  "desc": "Throxy provides a Service-as-a-Software solution that integrates deep research, custom logic, and AI-human workflows to streamline outbound sales processes, specifically ",
+  "founded": 2023,
+  "funding_usd": 6754020,
+  "hc": 91,
+  "hc_yoy": 469,
+  "name": "Throxy",
+  "stage": "SEED"
+ },
+ "tibber.com": {
+  "desc": "Tibber offers a digital ecosystem that connects home energy consumers to an app, enabling automated operation and insights to optimize energy usage and costs.",
+  "founded": 2015,
+  "funding_usd": 358891775,
+  "hc": 293,
+  "hc_yoy": -11,
+  "name": "Tibber",
+  "stage": "SERIES_C"
+ },
+ "tictail.com": {
+  "desc": "Graphic arts company",
+  "founded": 2007,
+  "funding_usd": null,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "David Callow Illustration Co.",
+  "stage": null
+ },
+ "tidalflow.com": {
+  "desc": "Creators of Lila AI, the #1 app on the App Store for women to navigate and thrive in perimenopause.",
+  "founded": 2023,
+  "funding_usd": 1700000,
+  "hc": 4,
+  "hc_yoy": -33,
+  "name": "Tidalflow AI",
+  "stage": "SEED"
+ },
+ "tidely.com": {
+  "desc": "Tidely offers a software solution for liquidity management that enables small and medium-sized enterprises to plan and control their financial resources in real time, int",
+  "founded": 2020,
+  "funding_usd": 5147286,
+  "hc": 24,
+  "hc_yoy": 0,
+  "name": "Tidely",
+  "stage": "SEED"
+ },
+ "tilebox.com": {
+  "desc": "The main product is a geospatial workflow orchestration framework that enables users to build, run, and manage workflows using satellite data across various environments,",
+  "founded": 2021,
+  "funding_usd": 1700000,
+  "hc": 3,
+  "hc_yoy": -40,
+  "name": "Tilebox",
+  "stage": "PRE_SEED"
+ },
+ "tillersystems.com": {
+  "desc": "Tiller Systems provides a point-of-sale software solution for iPad that facilitates order taking, payment processing, stock management, and data analytics.",
+  "founded": 2014,
+  "funding_usd": 26920537,
+  "hc": 20,
+  "hc_yoy": 33,
+  "name": "Tiller by SumUp",
+  "stage": "EXITED"
+ },
+ "tilt.app": {
+  "desc": "Tilt offers a live commerce platform that enables sellers to engage with buyers in real time through live streaming, allowing for immediate interaction and transactions.",
+  "founded": 2021,
+  "funding_usd": 47000000,
+  "hc": 68,
+  "hc_yoy": 17,
+  "name": "Tilt",
+  "stage": "SERIES_A"
+ },
+ "timberhub.com": {
+  "desc": "Timberhub offers a digital marketplace for timber procurement that connects buyers with verified suppliers, incorporating built-in EUDR compliance and automated workflows",
+  "founded": 2021,
+  "funding_usd": 7130778,
+  "hc": 8,
+  "hc_yoy": -33,
+  "name": "Timberhub",
+  "stage": "SEED"
+ },
+ "timefold.ai": {
+  "desc": "The main product is an intelligent scheduling optimization platform designed to assist software developers and IT teams in managing complex workforce systems through an A",
+  "founded": 2022,
+  "funding_usd": 21843854,
+  "hc": 40,
+  "hc_yoy": 33,
+  "name": "Timefold",
+  "stage": "SERIES_A"
+ },
+ "timi.eu": {
+  "desc": "TIMi offers a comprehensive analytics framework that enables users to manipulate large datasets, compute complex KPIs, and create predictive models without requiring spec",
+  "founded": 2007,
+  "funding_usd": null,
+  "hc": 85,
+  "hc_yoy": 4,
+  "name": "TIMi",
+  "stage": null
+ },
+ "tinvio.com": {
+  "desc": "Tinvio provides a platform that integrates order management, invoicing, and payment processing within a chat-based interface, aimed at enhancing B2B transactions for smal",
+  "founded": 2019,
+  "funding_usd": 18500000,
+  "hc": 45,
+  "hc_yoy": -15,
+  "name": "Tinvio",
+  "stage": "SERIES_A"
+ },
+ "tinyclues.com": {
+  "desc": "Tinyclues offers a CRM marketing technology platform that leverages deep learning to enhance audience segmentation and campaign planning for B2C sectors like retail and h",
+  "founded": 2010,
+  "funding_usd": 25409000,
+  "hc": 15,
+  "hc_yoy": null,
+  "name": "Tinyclues - acquired by Splio",
+  "stage": "SERIES_B"
+ },
+ "tiramizoo.com": {
+  "desc": "The company offers a transport management system designed to optimize and control last-mile deliveries, fleet management, and driver operations.",
+  "founded": 2009,
+  "funding_usd": null,
+  "hc": 29,
+  "hc_yoy": 7,
+  "name": "Tiramizoo GmbH",
+  "stage": null
+ },
+ "tldv.io": {
+  "desc": "The main product is an AI-driven meeting notetaker that captures, summarizes, and automates workflows for meetings conducted on platforms like Zoom, Google Meet, and Micr",
+  "founded": 2020,
+  "funding_usd": 5595003,
+  "hc": 60,
+  "hc_yoy": 30,
+  "name": "tl;dv - AI Meeting Assistant",
+  "stage": "SEED"
+ },
+ "token.io": {
+  "desc": "Token.io provides a Pay by Bank infrastructure that facilitates direct bank payments, enabling real-time transactions and reducing costs associated with traditional payme",
+  "founded": 2014,
+  "funding_usd": 90600000,
+  "hc": 94,
+  "hc_yoy": -8,
+  "name": "Token.io",
+  "stage": "SERIES_C"
+ },
+ "tolmo.com": {
+  "desc": "Tolmo offers an agent-driven security platform that utilizes a fleet of AI security agents to monitor and secure production environments across various layers, including ",
+  "founded": 2026,
+  "funding_usd": 22500000,
+  "hc": 11,
+  "hc_yoy": 83,
+  "name": "Tolmo",
+  "stage": "SEED"
+ },
+ "tomorrow.university": {
+  "desc": "Tomorrow University of Applied Sciences (ToU)*, is the first European startup to launch a world-leading institution focused on educating future generations to create solu",
+  "founded": 2020,
+  "funding_usd": 15139520,
+  "hc": 10,
+  "hc_yoy": 25,
+  "name": "Tomorrow University of Applied Sciences",
+  "stage": "SERIES_A"
+ },
+ "tomorrowthings.com": {
+  "desc": "The main product is an operating system and SaaS platform designed to integrate machines into a digital ecosystem, facilitating the development and deployment of industri",
+  "founded": 2021,
+  "funding_usd": 1641748,
+  "hc": 17,
+  "hc_yoy": 31,
+  "name": "Tomorrow Things",
+  "stage": "SEED"
+ },
+ "tonada.ai": {
+  "desc": "Tonada provides a system that generates original music tailored to individual brands, ensuring a unique sound that adapts in real-time to various data inputs such as POS ",
+  "founded": 2025,
+  "funding_usd": 2992002,
+  "hc": 10,
+  "hc_yoy": 67,
+  "name": "Tonada",
+  "stage": "PRE_SEED"
+ },
+ "tonkean.com": {
+  "desc": "Tonkean offers an AI-powered process orchestration platform that automates the intake, triage, and resolution of requests across various enterprise functions, including p",
+  "founded": 2015,
+  "funding_usd": 83200000,
+  "hc": 72,
+  "hc_yoy": -8,
+  "name": "Tonkean",
+  "stage": "EXITED"
+ },
+ "tonsser.com": {
+  "desc": "The Tonsser app enables young football players to track their performance through video and statistical analysis, allowing them to create personalized player profiles.",
+  "founded": 2013,
+  "funding_usd": 12799770,
+  "hc": 30,
+  "hc_yoy": -17,
+  "name": "Tonsser",
+  "stage": "SERIES_A"
+ },
+ "top10.com": {
+  "desc": "Top10.com is a comparison platform that evaluates a wide range of products and services, utilizing thorough research and analysis of specifications, user feedback, and in",
+  "founded": 2009,
+  "funding_usd": 12400000,
+  "hc": 21,
+  "hc_yoy": 0,
+  "name": "Top10",
+  "stage": "SERIES_B"
+ },
+ "topk.io": {
+  "desc": "TopK offers a search platform designed for accuracy-critical AI applications, integrating retrieval, embeddings, and storage to facilitate search over both structured and",
+  "founded": 2024,
+  "funding_usd": 5500000,
+  "hc": 7,
+  "hc_yoy": 0,
+  "name": "TopK",
+  "stage": "SEED"
+ },
+ "topograph.co": {
+  "desc": "Topograph provides a data layer for Know Your Business (KYB) processes, offering real-time access to official company data and documents from over 100 public registers th",
+  "founded": 2024,
+  "funding_usd": 2315406,
+  "hc": 10,
+  "hc_yoy": 67,
+  "name": "Topograph",
+  "stage": "SEED"
+ },
+ "toriihq.com": {
+  "desc": "Torii offers a SaaS management platform that automates the discovery, optimization, and compliance of SaaS applications, enabling organizations to manage their entire Saa",
+  "founded": 2017,
+  "funding_usd": 64950000,
+  "hc": 155,
+  "hc_yoy": 7,
+  "name": "Torii",
+  "stage": "SERIES_B"
+ },
+ "tourhero.com": {
+  "desc": "The main product is a platform that facilitates the planning and hosting of group trips, retreats, and adventures across over 80 destinations, utilizing an AI-powered sys",
+  "founded": 2020,
+  "funding_usd": null,
+  "hc": 20,
+  "hc_yoy": -69,
+  "name": "TourHero",
+  "stage": "PRE_SEED"
+ },
+ "tourlane.com": {
+  "desc": "Tourlane offers a platform for planning customized multi-stop travel itineraries, utilizing innovative technology to streamline the process and enhance user experience.",
+  "founded": 2015,
+  "funding_usd": 127265215,
+  "hc": 564,
+  "hc_yoy": -3,
+  "name": "Tourlane",
+  "stage": "SERIES_D"
+ },
+ "tourradar.com": {
+  "desc": "TourRadar offers a comprehensive platform that facilitates the booking of multi-day organized adventures, connecting travelers with over 2,500 operators and providing acc",
+  "founded": 2010,
+  "funding_usd": 85150000,
+  "hc": 166,
+  "hc_yoy": 28,
+  "name": "TourRadar",
+  "stage": "SERIES_C"
+ },
+ "tower.dev": {
+  "desc": "Tower provides a fully-managed data infrastructure platform that orchestrates data pipelines and integrates data agents, utilizing technologies such as Apache Iceberg for",
+  "founded": 2024,
+  "funding_usd": 12800000,
+  "hc": 7,
+  "hc_yoy": -30,
+  "name": "Tower.dev (acquired by MotherDuck)",
+  "stage": "EXITED"
+ },
+ "traba.work": {
+  "desc": "The company provides a staffing solution that connects businesses with skilled workers across various sectors, including manufacturing and logistics, utilizing an AI oper",
+  "founded": 2021,
+  "funding_usd": 43600000,
+  "hc": 378,
+  "hc_yoy": 6,
+  "name": "Traba",
+  "stage": "SERIES_A"
+ },
+ "trace.so": {
+  "desc": "The company offers a workflow automation platform that integrates an AI orchestration layer to manage task routing between human agents and AI, enhancing operational effi",
+  "founded": 2017,
+  "funding_usd": 3500000,
+  "hc": 3,
+  "hc_yoy": 0,
+  "name": "Trace",
+  "stage": "SEED"
+ },
+ "trace.space": {
+  "desc": "The main product is an integrated systems engineering platform that connects requirements, design parameters, tests, and product configurations within a flexible graph st",
+  "founded": 2022,
+  "funding_usd": 5500000,
+  "hc": 14,
+  "hc_yoy": 17,
+  "name": "Trace.Space",
+  "stage": "SEED"
+ },
+ "tracebit.com": {
+  "desc": "Tracebit offers a deception technology that deploys canaries throughout cloud environments to detect intrusions by generating actionable alerts when attackers engage in l",
+  "founded": 2022,
+  "funding_usd": 25000000,
+  "hc": 45,
+  "hc_yoy": 61,
+  "name": "Tracebit",
+  "stage": "SERIES_A"
+ },
+ "traceless.eu": {
+  "desc": "The company produces a novel, nature-based material derived from agricultural plant residues, designed to replace conventional plastics in various applications, particula",
+  "founded": 2020,
+  "funding_usd": 58064414,
+  "hc": 84,
+  "hc_yoy": 8,
+  "name": "traceless materials",
+  "stage": "SERIES_A"
+ },
+ "traceloop.com": {
+  "desc": "Traceloop offers a platform designed for monitoring large language model (LLM) applications in production, enabling users to detect anomalies and manage the evaluation, f",
+  "founded": 2022,
+  "funding_usd": 6600000,
+  "hc": 1,
+  "hc_yoy": -83,
+  "name": "Traceloop from ServiceNow",
+  "stage": "EXITED"
+ },
+ "tracksights.com": {
+  "desc": "TrackSights offers an AI-powered platform that provides high-quality automotive market data and automated workflows, enabling users to make informed decisions regarding v",
+  "founded": 2024,
+  "funding_usd": 1048916,
+  "hc": 8,
+  "hc_yoy": 14,
+  "name": "TrackSights",
+  "stage": "PRE_SEED"
+ },
+ "tracktitan.io": {
+  "desc": "The main product offers a platform for sim racers that integrates telemetry data to provide detailed analysis of racing performance, utilizing 3D and video replays to vis",
+  "founded": 2020,
+  "funding_usd": 8282682,
+  "hc": 34,
+  "hc_yoy": 143,
+  "name": "Track Titan",
+  "stage": "SEED"
+ },
+ "traide.ai": {
+  "desc": "The company offers an AI-driven platform designed to enhance customs compliance by automating the classification of products according to complex tariff systems and regul",
+  "founded": 2021,
+  "funding_usd": null,
+  "hc": 25,
+  "hc_yoy": 67,
+  "name": "traide AI",
+  "stage": "SEED"
+ },
+ "tramitapp.com": {
+  "desc": "The main product is a Human Resources Management software that utilizes artificial intelligence to streamline workforce management, including features for time tracking, ",
+  "founded": 2016,
+  "funding_usd": 1809000,
+  "hc": 46,
+  "hc_yoy": 39,
+  "name": "TramitApp",
+  "stage": "PRE_SEED"
+ },
+ "tranch.com": {
+  "desc": "Tranch provides a fully-integrated invoice management and payment solution designed for businesses, particularly in the services sector, enabling them to automate invoici",
+  "founded": 2021,
+  "funding_usd": 105571249,
+  "hc": 4,
+  "hc_yoy": -43,
+  "name": "Tranch",
+  "stage": "EXITED"
+ },
+ "tranched.fi": {
+  "desc": "The company offers a protocol for real-time on-chain securitisation, enabling fintech lenders and professional investors to execute institutional-grade transactions signi",
+  "founded": 2023,
+  "funding_usd": 9810000,
+  "hc": 17,
+  "hc_yoy": -6,
+  "name": "Tranched",
+  "stage": "PRE_SEED"
+ },
+ "transak.com": {
+  "desc": "Transak provides a payment infrastructure that facilitates the integration of traditional money with stablecoins and cryptocurrencies through a single API, enabling vario",
+  "founded": 2019,
+  "funding_usd": 46215000,
+  "hc": 34,
+  "hc_yoy": 3,
+  "name": "Transak",
+  "stage": null
+ },
+ "travelcircus.de": {
+  "desc": "Travelcircus is an online booking platform that offers travel packages by combining tickets for popular events, such as theme parks and concerts, with premium hotel accom",
+  "founded": 2014,
+  "funding_usd": 7717035,
+  "hc": 63,
+  "hc_yoy": -3,
+  "name": "Travelcircus",
+  "stage": "SERIES_A"
+ },
+ "travelperk.com": {
+  "desc": "The main product is an integrated platform that automates travel, expenses, and event management, utilizing AI to enforce policies, track budgets, and streamline invoice ",
+  "founded": 2014,
+  "funding_usd": 1351002308,
+  "hc": 2245,
+  "hc_yoy": 28,
+  "name": "TravelPerk",
+  "stage": "SERIES_E"
+ },
+ "trawa.de": {
+  "desc": "The company offers a digital platform for energy management that utilizes AI-based technology to analyze electricity consumption, optimize energy procurement, and provide",
+  "founded": 2022,
+  "funding_usd": 40555646,
+  "hc": 115,
+  "hc_yoy": 60,
+  "name": "trawa",
+  "stage": "SERIES_A"
+ },
+ "traxlo.com": {
+  "desc": "Traxlo offers a pay-per-task labor infrastructure designed for grocery stores and warehouses, enabling local gig workers to complete various tasks such as stock replenish",
+  "founded": 2020,
+  "funding_usd": 3007389,
+  "hc": 17,
+  "hc_yoy": 6,
+  "name": "Traxlo",
+  "stage": "SEED"
+ },
+ "traxpay.com": {
+  "desc": "Traxpay provides a Dynamic Financing Platform that offers modular solutions for Supply Chain Finance, focusing on the management of working capital, liabilities, receivab",
+  "founded": 2009,
+  "funding_usd": 30140000,
+  "hc": 24,
+  "hc_yoy": -14,
+  "name": "Traxpay",
+  "stage": "SERIES_C"
+ },
+ "tray.io": {
+  "desc": "Tray.ai offers an AI orchestration platform that integrates AI agents, enterprise systems, and data, enabling organizations to build, run, and govern AI applications reli",
+  "founded": 2012,
+  "funding_usd": 175550000,
+  "hc": 131,
+  "hc_yoy": -8,
+  "name": "Tray.ai",
+  "stage": "SERIES_C"
+ },
+ "traza.ai": {
+  "desc": "The company offers AI-driven automation solutions for procurement and supply chain processes, enabling organizations to streamline manual tasks and enhance operational ef",
+  "founded": 2025,
+  "funding_usd": 5020000,
+  "hc": 7,
+  "hc_yoy": 0,
+  "name": "Traza",
+  "stage": "PRE_SEED"
+ },
+ "trekksoft.com": {
+  "desc": "TrekkSoft offers a software suite specifically designed for tour operators, which includes a booking engine, back office management tools, a channel manager, a point of s",
+  "founded": 2009,
+  "funding_usd": 3423398,
+  "hc": 31,
+  "hc_yoy": 0,
+  "name": "TrekkSoft",
+  "stage": "SEED"
+ },
+ "treon.fi": {
+  "desc": "Treon is a global leader in AI‑driven Smart Industry technologies, enabling industrial organizations to boost productivity, enhance operational visibility, and strengthen",
+  "founded": 2016,
+  "funding_usd": 14966706,
+  "hc": 95,
+  "hc_yoy": 10,
+  "name": "Treon",
+  "stage": "SERIES_A"
+ },
+ "trezy.io": {
+  "desc": "The main product is a cash flow management software that provides real-time tracking of financial positions, AI-powered forecasting for up to 12 months, and automated per",
+  "founded": 2020,
+  "funding_usd": 4306234,
+  "hc": 12,
+  "hc_yoy": 0,
+  "name": "Trezy",
+  "stage": "SEED"
+ },
+ "tribun.health": {
+  "desc": "Tribun Health offers a digital pathology platform that integrates image management, telepathology, digital slide archiving, and artificial intelligence to streamline work",
+  "founded": 2011,
+  "funding_usd": 38834193,
+  "hc": 50,
+  "hc_yoy": -19,
+  "name": "Tribun Health",
+  "stage": "SERIES_A"
+ },
+ "trifacta.com": {
+  "desc": "Trifacta, now part of Alteryx, offers data wrangling solutions that facilitate the exploration and preparation of data for analysis, enabling users to enhance the efficie",
+  "founded": 2012,
+  "funding_usd": 224300000,
+  "hc": 42,
+  "hc_yoy": -7,
+  "name": "Trifacta",
+  "stage": "EXITED"
+ },
+ "trigger.dev": {
+  "desc": "Trigger.dev offers an open-source platform for creating durable AI agents and workflows using TypeScript, enabling the execution of long-running tasks with features like ",
+  "founded": 2022,
+  "funding_usd": 19000000,
+  "hc": 14,
+  "hc_yoy": 180,
+  "name": "Trigger.dev",
+  "stage": "SERIES_A"
+ },
+ "tripaneer.com": {
+  "desc": "Tripaneer operates a marketplace that facilitates the discovery, planning, and booking of diverse travel experiences, including wellness retreats, adventure tours, and va",
+  "founded": 2012,
+  "funding_usd": 1650000,
+  "hc": 96,
+  "hc_yoy": -3,
+  "name": "Tripaneer",
+  "stage": "PRE_SEED"
+ },
+ "triver.com": {
+  "desc": "Triver offers a cashflow streaming service that allows small businesses to convert unpaid invoices into immediate cash, facilitating financial flexibility without the nee",
+  "founded": 2022,
+  "funding_usd": 201443468,
+  "hc": 40,
+  "hc_yoy": 29,
+  "name": "Triver",
+  "stage": "SERIES_B"
+ },
+ "tropee.com": {
+  "desc": "Dropee specializes in the automated creation of applications using a proprietary AI technology stack, enabling the development of apps from concept to code without human ",
+  "founded": 2020,
+  "funding_usd": 5100000,
+  "hc": 5,
+  "hc_yoy": -58,
+  "name": "Dropee",
+  "stage": "SEED"
+ },
+ "trouva.com": {
+  "desc": "The company offers a service that curates and delivers luxury hampers filled with premium products sourced from grocery retailers, including items like wines, artisan che",
+  "founded": 2013,
+  "funding_usd": 40160000,
+  "hc": 15,
+  "hc_yoy": 15,
+  "name": "Trouva",
+  "stage": "EXITED"
+ },
+ "truemetrics.io": {
+  "desc": "The main product offers precise location data for parking spots and building entrances, enabling logistics companies to enhance last-mile delivery efficiency by reducing ",
+  "founded": 2021,
+  "funding_usd": 529666,
+  "hc": 7,
+  "hc_yoy": -22,
+  "name": "truemetrics",
+  "stage": "PRE_SEED"
+ },
+ "trufa.net": {
+  "desc": "Trufa provides a SaaS solution utilizing advanced analytics for data-driven decision-making and autonomous strategy proposals, enabling companies to optimize operational ",
+  "founded": 2013,
+  "funding_usd": 12317303,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Trufa",
+  "stage": "EXITED"
+ },
+ "trustflight.com": {
+  "desc": "TrustFlight offers an integrated aerospace safety intelligence platform that enhances safety, compliance, and risk management through real-time data and connected workflo",
+  "founded": 2017,
+  "funding_usd": null,
+  "hc": 101,
+  "hc_yoy": 4,
+  "name": "TrustFlight",
+  "stage": null
+ },
+ "trustmi.ai": {
+  "desc": "Trustmi offers a cybersecurity solution that utilizes Behavioral AI to detect and prevent social engineering fraud, specifically targeting threats like Business/Vendor Em",
+  "founded": 2021,
+  "funding_usd": 21000000,
+  "hc": 59,
+  "hc_yoy": 13,
+  "name": "Trustmi",
+  "stage": "SERIES_A"
+ },
+ "trustnxt.com": {
+  "desc": "TrustNXT offers a decentralized data integrity solution that transforms unverified data into mathematically proven facts, enabling secure operations for autonomous system",
+  "founded": 2024,
+  "funding_usd": 1865040,
+  "hc": 10,
+  "hc_yoy": 25,
+  "name": "TrustNXT",
+  "stage": "PRE_SEED"
+ },
+ "trustup.be": {
+  "desc": "The main product is a platform that connects users with verified tradespeople for various construction and renovation tasks, utilizing a mobile app to enhance responsiven",
+  "founded": 2016,
+  "funding_usd": 6914741,
+  "hc": 91,
+  "hc_yoy": 18,
+  "name": "Trustup",
+  "stage": "SEED"
+ },
+ "tryarchitect.com": {
+  "desc": "The main product is a negotiation tool that operates within a chat interface, allowing users to shop normally while it seeks competitive offers from brands to secure disc",
+  "founded": 2015,
+  "funding_usd": 4750207,
+  "hc": 42,
+  "hc_yoy": 147,
+  "name": "Architect",
+  "stage": "SEED"
+ },
+ "tryguac.co": {
+  "desc": "The company offers an AI-powered forecasting and replenishment solution specifically designed for fresh grocery items, utilizing a proprietary algorithm that analyzes ove",
+  "founded": 2023,
+  "funding_usd": 2800000,
+  "hc": 9,
+  "hc_yoy": -10,
+  "name": "Guac",
+  "stage": "SEED"
+ },
+ "tryhackme.com": {
+  "desc": "TryHackMe is a browser-based cyber security training platform that offers hands-on learning through real-world scenarios, utilizing personal virtual machines that can be ",
+  "founded": 2015,
+  "funding_usd": null,
+  "hc": 3451,
+  "hc_yoy": 20,
+  "name": "TryHackMe",
+  "stage": null
+ },
+ "trypavlov.com": {
+  "desc": "Trig offers an AI-driven platform designed to manage and enhance customer relationships throughout their lifecycle, focusing on onboarding, activation, adoption, retentio",
+  "founded": 2023,
+  "funding_usd": 8000000,
+  "hc": 29,
+  "hc_yoy": 190,
+  "name": "Trig",
+  "stage": "SEED"
+ },
+ "tryterra.co": {
+  "desc": "Terra offers an API that facilitates the integration of health and fitness data from over 500 wearables and applications, enabling developers to access standardized metri",
+  "founded": 2020,
+  "funding_usd": 2925000,
+  "hc": 20,
+  "hc_yoy": 18,
+  "name": "Terra API",
+  "stage": "SEED"
+ },
+ "tsuga.com": {
+  "desc": "Tsuga offers an enterprise observability platform that operates within a customer's cloud environment, allowing organizations to maintain control over their data while pr",
+  "founded": 2024,
+  "funding_usd": 45000000,
+  "hc": 51,
+  "hc_yoy": 82,
+  "name": "Tsuga",
+  "stage": "SERIES_A"
+ },
+ "tulipshare.com": {
+  "desc": "Tulipshare provides a platform for activist investors to engage with large corporations, advocating for enhanced environmental and social governance through shareholder p",
+  "founded": 2020,
+  "funding_usd": 11800000,
+  "hc": 4,
+  "hc_yoy": -56,
+  "name": "Tulipshare",
+  "stage": "SEED"
+ },
+ "tulyp.io": {
+  "desc": "Tulyp offers a real-time foreign exchange risk management platform designed for finance teams in SMEs and MidCaps, providing a consolidated view of FX exposure across mul",
+  "founded": 2021,
+  "funding_usd": 1630134,
+  "hc": 6,
+  "hc_yoy": -25,
+  "name": "Tulyp",
+  "stage": "SEED"
+ },
+ "turneo.com": {
+  "desc": "Turneo offers a digital platform that enables hotels to manage and sell their services and experiences through a seamless booking system integrated across various guest t",
+  "founded": 2022,
+  "funding_usd": 3087718,
+  "hc": 14,
+  "hc_yoy": -12,
+  "name": "Turneo",
+  "stage": "SEED"
+ },
+ "tutteo.com": {
+  "desc": "We build delightful products that transform how music enthusiasts learn, write, share, and consume music.",
+  "founded": null,
+  "funding_usd": null,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Tutteo",
+  "stage": null
+ },
+ "tuza.co.uk": {
+  "desc": "Tuza offers an AI-native sales and boarding platform designed for payment service providers and acquirers, facilitating digital pricing, distribution, and onboarding proc",
+  "founded": 2023,
+  "funding_usd": 7099368,
+  "hc": 29,
+  "hc_yoy": 32,
+  "name": "Tuza",
+  "stage": "SEED"
+ },
+ "tvty.tv": {
+  "desc": "TVTY provides a platform that enables marketers to measure and optimize the effectiveness of their TV advertising campaigns by analyzing their impact on various business ",
+  "founded": 2009,
+  "funding_usd": 13524917,
+  "hc": 12,
+  "hc_yoy": 9,
+  "name": "Nielsen | TVTY",
+  "stage": "EXITED"
+ },
+ "twenga-solutions.com": {
+  "desc": "Twenga Solutions offers a performance-based traffic acquisition service that utilizes a machine learning platform to enhance visibility for e-commerce products through pr",
+  "founded": 2006,
+  "funding_usd": 14720000,
+  "hc": 24,
+  "hc_yoy": 0,
+  "name": "Twenga Solutions",
+  "stage": "SERIES_A"
+ },
+ "twentyfour.industries": {
+  "desc": "Twentyfour Industries specializes in the design, manufacturing, and deployment of drones tailored for European and allied partners, focusing on cost-effective solutions a",
+  "founded": 2024,
+  "funding_usd": 11800000,
+  "hc": 35,
+  "hc_yoy": 338,
+  "name": "Twentyfour Industries",
+  "stage": "SEED"
+ },
+ "twig.bio": {
+  "desc": "The company specializes in bioengineering to develop high-yield, low-cost, scalable ingredients through an automated lab that utilizes advanced AI technologies for rapid ",
+  "founded": 2022,
+  "funding_usd": 3752394,
+  "hc": 17,
+  "hc_yoy": 6,
+  "name": "twig",
+  "stage": "SEED"
+ },
+ "twin.so": {
+  "desc": "The main product is an AI automation platform that enables users to create autonomous agents capable of web scraping, browser automation, and multi-channel outreach, inte",
+  "founded": 2023,
+  "funding_usd": 13379877,
+  "hc": 22,
+  "hc_yoy": 29,
+  "name": "Twin",
+  "stage": "SEED"
+ },
+ "twin1.ai": {
+  "desc": "Twin1 AI provides a digital twin solution that acts as an AI extension of professionals, enabling them to respond to queries, retrieve knowledge, and coordinate tasks acr",
+  "founded": 2025,
+  "funding_usd": 20000000,
+  "hc": 17,
+  "hc_yoy": 112,
+  "name": "Twin1 AI",
+  "stage": "SEED"
+ },
+ "tyba.com": {
+  "desc": "The primary offering is a recruitment platform tailored for startups and Internet companies, which employs advanced matching algorithms to enhance the hiring process acro",
+  "founded": 2010,
+  "funding_usd": 4739038,
+  "hc": 15,
+  "hc_yoy": 0,
+  "name": "Tyba",
+  "stage": "EXITED"
+ },
+ "typingdna.com": {
+  "desc": "The company offers a typing-based authentication solution that utilizes artificial intelligence to recognize users by their typing patterns, enabling secure access withou",
+  "founded": 2016,
+  "funding_usd": 8820000,
+  "hc": 60,
+  "hc_yoy": 0,
+  "name": "TypingDNA",
+  "stage": "SERIES_A"
+ },
+ "typology.com": {
+  "desc": "Typology offers a range of vegan skincare products formulated to address specific skin concerns, utilizing ingredients such as peptides, vitamin C, niacinamide, and hyalu",
+  "founded": 2018,
+  "funding_usd": 26100000,
+  "hc": 150,
+  "hc_yoy": 0,
+  "name": "Typology",
+  "stage": "SEED"
+ },
+ "tyten.ai": {
+  "desc": "The main product is an AI-driven platform that automates back-office operations for facilities management, including helpdesk intake, work order creation, and compliance ",
+  "founded": 2024,
+  "funding_usd": 992625,
+  "hc": 5,
+  "hc_yoy": 150,
+  "name": "TYTEN",
+  "stage": "SEED"
+ },
+ "tzafon.ai": {
+  "desc": "Tzafon develops scalable computing systems and trains foundation models designed for computer use and real-world interactions, focusing on advancements in machine intelli",
+  "founded": 2024,
+  "funding_usd": 14700000,
+  "hc": 20,
+  "hc_yoy": -5,
+  "name": "Tzafon",
+  "stage": "PRE_SEED"
+ },
+ "ubermetrics-technologies.com": {
+  "desc": "Ubermetrics offers an AI-powered content intelligence platform that captures and processes data from over 460 million online and offline sources in real-time, utilizing m",
+  "founded": 2010,
+  "funding_usd": 750000,
+  "hc": 14,
+  "hc_yoy": -7,
+  "name": "Ubermetrics Technologies GmbH",
+  "stage": "EXITED"
+ },
+ "ubicloud.com": {
+  "desc": "Ubicloud offers an open-source cloud service that provides infrastructure as a service (IaaS) on bare metal providers, enabling users to set up dedicated virtual machines",
+  "founded": 2023,
+  "funding_usd": 20500000,
+  "hc": 18,
+  "hc_yoy": 0,
+  "name": "Ubicloud (YC W24)",
+  "stage": "SEED"
+ },
+ "ubiops.com": {
+  "desc": "UbiOps offers a software platform designed for the orchestration and serving of AI models, enabling organizations to run and manage production-grade AI applications acros",
+  "founded": 2016,
+  "funding_usd": 2218601,
+  "hc": 30,
+  "hc_yoy": 36,
+  "name": "UbiOps - Private AI on any infra",
+  "stage": "PRE_SEED"
+ },
+ "ubiq.ai": {
+  "desc": "Ubiq offers a SaaS platform that maximizes fleet utilization and automates operations using real-time data, along with a crowdsourced service ecosystem called StreetCrowd",
+  "founded": 2015,
+  "funding_usd": 12489422,
+  "hc": 27,
+  "hc_yoy": 0,
+  "name": "Ubiq.ai",
+  "stage": "SERIES_A"
+ },
+ "ubyx.xyz": {
+  "desc": "Ubyx provides a clearing system designed to facilitate the redemption of tokenized money, such as stablecoins, at par value through a network that connects multiple issue",
+  "founded": 2025,
+  "funding_usd": 10000000,
+  "hc": 16,
+  "hc_yoy": 60,
+  "name": "Ubyx Inc.",
+  "stage": "SEED"
+ },
+ "ufodrive.com": {
+  "desc": "The company offers a fully electric car rental service that utilizes a smartphone app for a self-service experience, allowing users to book, pick up, and return vehicles ",
+  "founded": 2018,
+  "funding_usd": 31780720,
+  "hc": 21,
+  "hc_yoy": -12,
+  "name": "UFODRIVE",
+  "stage": "SERIES_A"
+ },
+ "uhubs.co.uk": {
+  "desc": "Uhubs offers a revenue enablement platform that utilizes data-driven diagnostics to identify coaching and pipeline gaps within sales teams, enhancing their performance th",
+  "founded": 2019,
+  "funding_usd": 1036541,
+  "hc": 21,
+  "hc_yoy": 11,
+  "name": "Uhubs",
+  "stage": "SEED"
+ },
+ "ulmon.com": {
+  "desc": "CityMaps2Go is an offline mapping application designed for travelers, allowing them to create lists of preferred destinations and access curated travel content without ne",
+  "founded": 2010,
+  "funding_usd": 1600000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Ulmon GmbH",
+  "stage": "EXITED"
+ },
+ "ultramarin.ai": {
+  "desc": "Ultramarin offers AI-driven forecasting models for global stock markets, utilizing artificial intelligence and quantitative asset management techniques to analyze large d",
+  "founded": 2016,
+  "funding_usd": 29147597,
+  "hc": 37,
+  "hc_yoy": 16,
+  "name": "Ultramarin",
+  "stage": "SERIES_A"
+ },
+ "uma.bot": {
+  "desc": "The company develops general-purpose mobile and humanoid robots designed to exhibit human-level dexterity and a comprehensive understanding of the physical environment.",
+  "founded": 2025,
+  "funding_usd": null,
+  "hc": 30,
+  "hc_yoy": 400,
+  "name": "UMA",
+  "stage": "SEED"
+ },
+ "uman.ai": {
+  "desc": "The company offers an AI platform designed for complex B2B sales teams, facilitating the entire sales process from prospecting to account management.",
+  "founded": 2019,
+  "funding_usd": 2694039,
+  "hc": 87,
+  "hc_yoy": 19,
+  "name": "uman",
+  "stage": "SEED"
+ },
+ "unacast.com": {
+  "desc": "Unacast provides a comprehensive location intelligence platform that transforms raw human mobility data into actionable insights for various sectors, utilizing privacy-co",
+  "founded": 2014,
+  "funding_usd": 96605000,
+  "hc": 64,
+  "hc_yoy": -11,
+  "name": "Unacast",
+  "stage": "SERIES_B"
+ },
+ "unaric.com": {
+  "desc": "Unaric develops a suite of applications designed to enhance the Salesforce platform across various industries, including healthcare, financial services, manufacturing, an",
+  "founded": 2022,
+  "funding_usd": 47900000,
+  "hc": 62,
+  "hc_yoy": 7,
+  "name": "UNARIC",
+  "stage": "SEED"
+ },
+ "understory.io": {
+  "desc": "None",
+  "founded": 2023,
+  "funding_usd": 18598404,
+  "hc": 77,
+  "hc_yoy": 51,
+  "name": "Understory",
+  "stage": "SERIES_A"
+ },
+ "unify.ai": {
+  "desc": "The company offers AI agents designed to automate various tasks across administrative, sales, accounting, and operational functions, adapting to user needs and improving ",
+  "founded": 2022,
+  "funding_usd": 8500000,
+  "hc": 28,
+  "hc_yoy": -43,
+  "name": "Unify",
+  "stage": "SEED"
+ },
+ "unilend.fr": {
+  "desc": "The company offers a digital platform for crowdlending, enabling individuals to finance French small and medium-sized enterprises (SMEs) directly, with investment opportu",
+  "founded": 2013,
+  "funding_usd": 119459508,
+  "hc": 11,
+  "hc_yoy": 22,
+  "name": "PretUp",
+  "stage": "SERIES_C"
+ },
+ "unique.ai": {
+  "name": null
+ },
+ "unitary.ai": {
+  "desc": "Automate manual workflows with zero engineering effort or upfront costs.",
+  "founded": 2017,
+  "funding_usd": 24585503,
+  "hc": 72,
+  "hc_yoy": 60,
+  "name": "Unitary",
+  "stage": "SERIES_A"
+ },
+ "unitelabs.io": {
+  "desc": "UniteLabs provides a lab automation operating system that integrates over 200 devices into automated workflows using Python, enabling seamless control and scalability acr",
+  "founded": 2022,
+  "funding_usd": 3053265,
+  "hc": 30,
+  "hc_yoy": 67,
+  "name": "UniteLabs",
+  "stage": "PRE_SEED"
+ },
+ "universalavenue.com": {
+  "desc": "Velory offers an IT lifecycle management platform that integrates the management of hardware, software, and mobile subscriptions into a single system, facilitating stream",
+  "founded": 2014,
+  "funding_usd": 31043590,
+  "hc": 53,
+  "hc_yoy": 15,
+  "name": "Velory",
+  "stage": "SERIES_B"
+ },
+ "unleash.so": {
+  "desc": "The company offers an AI-powered customer service platform that integrates various communication channels to manage and resolve customer inquiries efficiently, utilizing ",
+  "founded": 2019,
+  "funding_usd": null,
+  "hc": 31,
+  "hc_yoy": -56,
+  "name": "Unleash (Acq. by Zendesk)",
+  "stage": null
+ },
+ "unmind.com": {
+  "desc": "Unmind is your mental health partner for enterprise transformation.",
+  "founded": 2016,
+  "funding_usd": 124186369,
+  "hc": 204,
+  "hc_yoy": 8,
+  "name": "Unmind",
+  "stage": "SERIES_C"
+ },
+ "unobravo.com": {
+  "desc": "Unobravo offers an online psychology service that connects users with psychologists through video calls, utilizing a questionnaire to match individuals with the most suit",
+  "founded": 2019,
+  "funding_usd": 17565414,
+  "hc": 3773,
+  "hc_yoy": 8,
+  "name": "Unobravo",
+  "stage": "SERIES_A"
+ },
+ "unravelapp.com": {
+  "desc": "The main product is a travel commerce platform that integrates immersive discovery, AI-guided planning, and a comprehensive inventory of travel options directly into exis",
+  "founded": 2020,
+  "funding_usd": 8460561,
+  "hc": 79,
+  "hc_yoy": 49,
+  "name": "Unravel",
+  "stage": "SERIES_A"
+ },
+ "untamedcatfood.com": {
+  "desc": "The main product is a cat food that emphasizes a diet rich in real, human-grade meats and wild fish, designed to meet the biological needs of cats without fillers like gr",
+  "founded": 2019,
+  "funding_usd": 27180907,
+  "hc": 88,
+  "hc_yoy": 52,
+  "name": "Untamed | B Corp™",
+  "stage": "SERIES_B"
+ },
+ "unumotors.com": {
+  "desc": "The main product is an electric scooter designed for urban mobility, featuring a powerful electric motor and a unique battery design that allows for portability.",
+  "founded": 2013,
+  "funding_usd": 44651388,
+  "hc": 6,
+  "hc_yoy": 0,
+  "name": "unu",
+  "stage": "SERIES_B"
+ },
+ "upciti.com": {
+  "desc": "Upciti offers a comprehensive solution that utilizes privacy-first sensors to monitor various urban metrics, including parking occupancy, mobility patterns, energy consum",
+  "founded": 2017,
+  "funding_usd": 33942820,
+  "hc": 45,
+  "hc_yoy": 18,
+  "name": "Upciti",
+  "stage": "SERIES_A"
+ },
+ "upfluence.com": {
+  "desc": "The company offers an influencer marketing platform designed specifically for eCommerce and social commerce, utilizing social data and brand affinity to facilitate partne",
+  "founded": 2012,
+  "funding_usd": 9440000,
+  "hc": 123,
+  "hc_yoy": 2,
+  "name": "Upfluence",
+  "stage": "SERIES_A"
+ },
+ "upheal.io": {
+  "desc": "Upheal offers an AI-native electronic health record (EHR) system designed for therapists, which automates the creation of progress notes, billing processes, and complianc",
+  "founded": 2021,
+  "funding_usd": 14353950,
+  "hc": 44,
+  "hc_yoy": -15,
+  "name": "Upheal",
+  "stage": "SERIES_A"
+ },
+ "uphillhealth.com": {
+  "desc": "UpHill Health offers an intelligent automated platform designed to enhance clinical capacity by streamlining workflows through the integration of hospital data and patien",
+  "founded": 2015,
+  "funding_usd": 12479811,
+  "hc": 52,
+  "hc_yoy": 4,
+  "name": "UpHill Health",
+  "stage": "SERIES_A"
+ },
+ "uplane.com": {
+  "desc": "Uplane offers a comprehensive marketing software that automates the creation and management of brand-compliant ads and landing pages, utilizing first-party data, CRM, and",
+  "founded": 2025,
+  "funding_usd": 5000000,
+  "hc": 19,
+  "hc_yoy": 850,
+  "name": "Uplane",
+  "stage": "SEED"
+ },
+ "upmarket.cloud": {
+  "desc": "The company offers an AI-driven guest management system that automates various aspects of guest operations, including identity verification, compliance, communication, an",
+  "founded": 2023,
+  "funding_usd": 110128,
+  "hc": 18,
+  "hc_yoy": 50,
+  "name": "UpMarket",
+  "stage": "PRE_SEED"
+ },
+ "upmem.com": {
+  "desc": "UPMEM specializes in Processing-In-Memory (PIM) technologies, developing a scalable engine designed to enhance computing efficiency and performance, particularly for appl",
+  "founded": 2015,
+  "funding_usd": 8010004,
+  "hc": 6,
+  "hc_yoy": 0,
+  "name": "UPMEM",
+  "stage": "SERIES_A"
+ },
+ "uprightproject.com": {
+  "desc": "Upright has developed a proprietary AI engine specifically designed to quantify the sustainability impacts, risks, and opportunities of companies, utilizing a model train",
+  "founded": 2017,
+  "funding_usd": 5868109,
+  "hc": 40,
+  "hc_yoy": -11,
+  "name": "The Upright Project",
+  "stage": "SEED"
+ },
+ "upstash.com": {
+  "desc": "Upstash offers a serverless data platform that includes solutions for Redis, vector databases, and messaging, designed for high performance and scalability without the ne",
+  "founded": 2021,
+  "funding_usd": 11900000,
+  "hc": 22,
+  "hc_yoy": 5,
+  "name": "Upstash",
+  "stage": "SERIES_A"
+ },
+ "upstream.do": {
+  "desc": "Upstream offers an inbox management solution that organizes emails by priority, allowing users to focus on important messages while filtering out less relevant content.",
+  "founded": 2023,
+  "funding_usd": 3500000,
+  "hc": 9,
+  "hc_yoy": -10,
+  "name": "Upstream",
+  "stage": "PRE_SEED"
+ },
+ "upway.fr": {
+  "desc": "Upway specializes in reconditioned electric bikes, offering a variety of models including city bikes, cargo bikes, folding bikes, and mountain bikes, designed for diverse",
+  "founded": 2019,
+  "funding_usd": 121300002,
+  "hc": 308,
+  "hc_yoy": 66,
+  "name": "Upway",
+  "stage": "SERIES_C"
+ },
+ "useagave.com": {
+  "desc": "Agave provides an AI-driven financial operations platform specifically designed for the construction industry, integrating with existing systems to streamline accounting ",
+  "founded": 2021,
+  "funding_usd": 18400000,
+  "hc": 92,
+  "hc_yoy": 51,
+  "name": "Agave",
+  "stage": "SERIES_A"
+ },
+ "usealbatross.ai": {
+  "desc": "Albatross offers an AI platform designed for real-time product discovery, utilizing perception models that analyze live user interactions to understand intent and adapt u",
+  "founded": 2024,
+  "funding_usd": 16000000,
+  "hc": 28,
+  "hc_yoy": 65,
+  "name": "Albatross AI",
+  "stage": "SERIES_A"
+ },
+ "usebounce.com": {
+  "desc": "The company offers a global luggage storage service, providing over 35,000 locations in 4,000 cities for travelers to securely store their bags.",
+  "founded": 2017,
+  "funding_usd": 34200000,
+  "hc": 169,
+  "hc_yoy": 5,
+  "name": "Bounce",
+  "stage": "SERIES_B"
+ },
+ "usecascade.ai": {
+  "desc": "Cascade offers an AI-powered platform designed for the architecture, engineering, and construction (AEC) industry, focusing on predictive intelligence and opportunity dis",
+  "founded": 2025,
+  "funding_usd": 4000000,
+  "hc": 8,
+  "hc_yoy": 167,
+  "name": "Cascade",
+  "stage": "SEED"
+ },
+ "usefini.com": {
+  "desc": "Fini AI provides an AI-driven customer support agent that integrates across voice, chat, and email channels, achieving high accuracy and resolution rates while automating",
+  "founded": 2022,
+  "funding_usd": 4100000,
+  "hc": 105,
+  "hc_yoy": 228,
+  "name": "Fini",
+  "stage": "SEED"
+ },
+ "usemast.com": {
+  "desc": "Mast is an API-first origination platform designed for banks and lenders, enabling AI agents to manage the lending process from application to completion while adhering t",
+  "founded": 2020,
+  "funding_usd": 1647671,
+  "hc": 31,
+  "hc_yoy": -9,
+  "name": "Mast",
+  "stage": "SEED"
+ },
+ "usepassionfruit.com": {
+  "desc": "The main product is an AI-driven marketing workspace that automates various marketing tasks, leveraging insights from real-world campaigns to optimize performance across ",
+  "founded": 2021,
+  "funding_usd": 13300000,
+  "hc": 91,
+  "hc_yoy": 21,
+  "name": "Passionfruit",
+  "stage": "SERIES_A"
+ },
+ "useshiplog.com": {
+  "desc": "Shiplog offers a platform that integrates customer data and AI to create live profiles for accounts, enabling businesses to understand customer behavior and identify crit",
+  "founded": 2026,
+  "funding_usd": 1000000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Shiplog (F/AI F26)",
+  "stage": "PRE_SEED"
+ },
+ "usesmileid.com": {
+  "desc": "The company offers AI-powered identity verification solutions that include real-time digital KYC, user onboarding, document verification, and anti-fraud measures, specifi",
+  "founded": 2016,
+  "funding_usd": 41150000,
+  "hc": 58,
+  "hc_yoy": -5,
+  "name": "Smile ID",
+  "stage": "SERIES_B"
+ },
+ "uwinloc.com": {
+  "desc": "RFiD Discovery specializes in integrated location tracking solutions that leverage technologies such as active and passive RFID, BLE, UWB, GPS, and Wi-Fi to enhance visib",
+  "founded": 2015,
+  "funding_usd": 13917515,
+  "hc": 22,
+  "hc_yoy": null,
+  "name": "UWINLOC",
+  "stage": "EXITED"
+ },
+ "v-sim.co.uk": {
+  "desc": "Vsim develops a physics simulation platform designed to enhance robotics research by enabling AI agents to learn complex tasks in accurately simulated environments.",
+  "founded": 2022,
+  "funding_usd": 24000000,
+  "hc": 17,
+  "hc_yoy": 13,
+  "name": "Vsim",
+  "stage": "SEED"
+ },
+ "vaeridion.com": {
+  "desc": "The main product is a 100% electric aircraft designed for regional missions, capable of carrying up to 11 passengers over a range of 400 km while adhering to IFR conditio",
+  "founded": 2021,
+  "funding_usd": 17993913,
+  "hc": 82,
+  "hc_yoy": 24,
+  "name": "VÆRIDION",
+  "stage": "SERIES_A"
+ },
+ "valarian.com": {
+  "desc": "Valarian's primary product, ACRA, is a secure control architecture designed to manage and protect high-consequence workloads across various environments, including cloud ",
+  "founded": 2019,
+  "funding_usd": 68554000,
+  "hc": 29,
+  "hc_yoy": 45,
+  "name": "Valarian",
+  "stage": "SERIES_A"
+ },
+ "valdera.com": {
+  "desc": "Valdera offers an AI-powered sourcing platform designed to facilitate the buying and selling of chemicals and raw materials, streamlining supplier discovery, qualificatio",
+  "founded": 2020,
+  "funding_usd": 20500000,
+  "hc": 48,
+  "hc_yoy": 45,
+  "name": "Valdera",
+  "stage": "SERIES_A"
+ },
+ "validio.io": {
+  "desc": "Validio is a data management platform that automates data quality, observability, lineage, and cataloging, utilizing AI-powered anomaly detection and self-learning models",
+  "founded": 2019,
+  "funding_usd": 47859578,
+  "hc": 47,
+  "hc_yoy": 31,
+  "name": "Validio",
+  "stage": "SERIES_A"
+ },
+ "valpashotels.com": {
+  "desc": "Valpas offers a certification service for hotels focused on bed bug safety, utilizing patented in-room technology that operates continuously to prevent infestations from ",
+  "founded": 2013,
+  "funding_usd": 14799754,
+  "hc": 24,
+  "hc_yoy": 41,
+  "name": "Valpas",
+  "stage": "SEED"
+ },
+ "vanti-analytics.com": {
+  "desc": "The main product is a mobile application designed for sports betting and online casino gaming, specifically targeting users in Indonesia.",
+  "founded": 2019,
+  "funding_usd": 22000000,
+  "hc": 9,
+  "hc_yoy": 0,
+  "name": "Vanti",
+  "stage": "EXITED"
+ },
+ "vara.ai": {
+  "desc": "Vara AI offers an autonomous AI platform designed for breast cancer screening, which enhances the accuracy and efficiency of mammography readings by integrating AI-assist",
+  "founded": 2017,
+  "funding_usd": 24091590,
+  "hc": 48,
+  "hc_yoy": 9,
+  "name": "Vara",
+  "stage": "SERIES_A"
+ },
+ "varjo.com": {
+  "desc": "Varjo specializes in high-resolution virtual and mixed reality technologies designed for simulation and training in demanding industries such as defense, aerospace, and e",
+  "founded": 2016,
+  "funding_usd": 171657266,
+  "hc": 206,
+  "hc_yoy": -1,
+  "name": "Varjo",
+  "stage": null
+ },
+ "veact.net": {
+  "desc": "Veact offers a web-based automotive marketing platform that utilizes data-driven insights to enhance sales and customer engagement for OEMs and dealerships.",
+  "founded": 2010,
+  "funding_usd": 3040485,
+  "hc": 110,
+  "hc_yoy": 1,
+  "name": "Veact GmbH",
+  "stage": "EXITED"
+ },
+ "vectoflow.com": {
+  "desc": "Vectoflow specializes in aerodynamic measurement devices, offering customizable multi-hole probes and air data systems that measure static and total pressure, velocity, a",
+  "founded": 2014,
+  "funding_usd": 4389547,
+  "hc": 28,
+  "hc_yoy": 4,
+  "name": "Vectoflow",
+  "stage": "SERIES_A"
+ },
+ "vectorview.ai": {
+  "desc": "Andon Labs focuses on developing autonomous organizations powered by AI, utilizing benchmarks and real-world deployments to test and refine AI capabilities.",
+  "founded": 2023,
+  "funding_usd": 500000,
+  "hc": 10,
+  "hc_yoy": 150,
+  "name": "Andon Labs",
+  "stage": "PRE_SEED"
+ },
+ "veeton.co": {
+  "desc": "Veeton provides a platform that leverages diffusion-based AI technology to generate high-quality, photorealistic imagery for the fashion industry, enabling brands to crea",
+  "founded": 2023,
+  "funding_usd": 2161461,
+  "hc": 10,
+  "hc_yoy": -33,
+  "name": "Veeton",
+  "stage": "PRE_SEED"
+ },
+ "vega-alts.com": {
+  "desc": "Vega offers an AI-native operating system designed for investor relations in private markets, providing a comprehensive infrastructure that supports the entire investor l",
+  "founded": 2022,
+  "funding_usd": 29810000,
+  "hc": 145,
+  "hc_yoy": 8,
+  "name": "Vega",
+  "stage": "SERIES_A"
+ },
+ "velatir.com": {
+  "desc": "Velatir provides a suite of tools designed to integrate human oversight into AI-driven workflows, ensuring compliance with regulations like the EU AI Act while enhancing ",
+  "founded": 2025,
+  "funding_usd": 7430195,
+  "hc": 27,
+  "hc_yoy": 800,
+  "name": "Velatir",
+  "stage": "SEED"
+ },
+ "vendict.com": {
+  "desc": "Vendict offers an AI-native platform designed to automate and streamline governance, risk, and compliance (GRC) processes, including security questionnaires, audits, and ",
+  "founded": 2020,
+  "funding_usd": 19500000,
+  "hc": 40,
+  "hc_yoy": -15,
+  "name": "Vendict",
+  "stage": "SERIES_A"
+ },
+ "venice.io": {
+  "desc": "Venice offers a Privileged Access Management platform designed to achieve Zero Standing Privilege through Just-in-Time access across hybrid, cloud, and on-premises enviro",
+  "founded": 2023,
+  "funding_usd": 33000000,
+  "hc": 67,
+  "hc_yoy": 103,
+  "name": "Venice",
+  "stage": "SERIES_A"
+ },
+ "vensum.com": {
+  "desc": "The company specializes in compact power converters that utilize Software-Defined Power Conversion (SDPC) technology, incorporating Zero Voltage Switching (ZVS) and Zero ",
+  "founded": 2018,
+  "funding_usd": 4750492,
+  "hc": 18,
+  "hc_yoy": 20,
+  "name": "Vensum Power",
+  "stage": "SEED"
+ },
+ "ventrata.com": {
+  "desc": "Ventrata provides a booking and ticketing system designed for tour operators and attractions, enabling them to manage sales channels from a unified platform.",
+  "founded": 2016,
+  "funding_usd": 1075762,
+  "hc": 159,
+  "hc_yoy": 47,
+  "name": "Ventrata",
+  "stage": "PRE_SEED"
+ },
+ "veo.co": {
+  "desc": "Veo offers a sports camera solution that records and livestreams matches while utilizing built-in AI to automatically track events and measure players' physical performan",
+  "founded": 2015,
+  "funding_usd": 113167694,
+  "hc": 390,
+  "hc_yoy": 6,
+  "name": "Veo Technologies",
+  "stage": "SERIES_C"
+ },
+ "verbit.ai": {
+  "desc": "Verbit offers a voice AI platform that combines automatic speech recognition technology with human transcription services to provide accurate transcription, captioning, a",
+  "founded": 2016,
+  "funding_usd": 432000000,
+  "hc": 1581,
+  "hc_yoy": 0,
+  "name": "Verbit.ai",
+  "stage": "SERIES_E"
+ },
+ "verley-food.com": {
+  "desc": "Verley Food specializes in developing functional dairy proteins through precision fermentation technology, which allows for the production of dairy proteins identical to ",
+  "founded": 2021,
+  "funding_usd": 59843905,
+  "hc": 75,
+  "hc_yoy": 7,
+  "name": "Verley",
+  "stage": "SERIES_A"
+ },
+ "verna.earth": {
+  "desc": "Verna offers a software platform designed to facilitate nature recovery by addressing biodiversity data challenges and managing projects from planning to execution.",
+  "founded": 2020,
+  "funding_usd": 5046205,
+  "hc": 33,
+  "hc_yoy": 14,
+  "name": "Verna",
+  "stage": "SEED"
+ },
+ "verse.me": {
+  "desc": "Verse offered a digital wallet service that facilitated instant and secure peer-to-peer payments across select European countries, operating as an EU-licensed electronic ",
+  "founded": 2014,
+  "funding_usd": 38920000,
+  "hc": 18,
+  "hc_yoy": -36,
+  "name": "Verse",
+  "stage": "EXITED"
+ },
+ "versiro.com": {
+  "desc": "Versiro offers a software platform that generates real-time price forecasts and optimization tools specifically designed for power traders, enabling them to make informed",
+  "founded": 2022,
+  "funding_usd": 2474928,
+  "hc": 9,
+  "hc_yoy": 0,
+  "name": "Versiro",
+  "stage": "SEED"
+ },
+ "versus.com": {
+  "desc": "Versus is a global comparison platform that provides objective comparisons across over 100 categories, including consumer electronics, software, and services, by gatherin",
+  "founded": 2011,
+  "funding_usd": 3779810,
+  "hc": 6,
+  "hc_yoy": -57,
+  "name": "versus.com",
+  "stage": "SERIES_A"
+ },
+ "vertama.com": {
+  "desc": "Vertama offers a digital platform that facilitates end-to-end communication between healthcare facilities and authorities, focusing on automating reporting processes to m",
+  "founded": 2019,
+  "funding_usd": null,
+  "hc": 8,
+  "hc_yoy": 14,
+  "name": "Vertama",
+  "stage": "SEED"
+ },
+ "verticalcompute.com": {
+  "desc": "The company specializes in vertically integrated memory technology designed to address memory bottlenecks in data-intensive applications.",
+  "founded": 2024,
+  "funding_usd": 88113760,
+  "hc": 34,
+  "hc_yoy": 55,
+  "name": "VerticalCompute",
+  "stage": "SEED"
+ },
+ "vertice.one": {
+  "desc": "Vertice offers an intelligent procurement platform designed for modern enterprises, integrating AI-powered insights and agentic workflows to enhance the efficiency of fin",
+  "founded": 2021,
+  "funding_usd": 101000000,
+  "hc": 558,
+  "hc_yoy": 40,
+  "name": "Vertice",
+  "stage": "SERIES_C"
+ },
+ "vesence.com": {
+  "desc": "Vesence offers an agent-native desktop platform that integrates various tools and applications, allowing users to manage documents, emails, and calendars in a single work",
+  "founded": 2024,
+  "funding_usd": 9500000,
+  "hc": 9,
+  "hc_yoy": 800,
+  "name": "Vesence",
+  "stage": "SEED"
+ },
+ "vesiro.com": {
+  "desc": "Vesiro offers a plugin designed to enhance the performance of Elasticsearch by reducing query latency and increasing throughput, allowing users to operate with fewer serv",
+  "founded": 2021,
+  "funding_usd": 2429187,
+  "hc": 9,
+  "hc_yoy": 50,
+  "name": "Vesiro",
+  "stage": "SEED"
+ },
+ "vestigas.com": {
+  "desc": "VESTIGAS offers a digital platform designed for the construction industry that automates the processing of delivery documents, including delivery notes and invoices, sign",
+  "founded": 2021,
+  "funding_usd": 9002472,
+  "hc": 53,
+  "hc_yoy": 36,
+  "name": "VESTIGAS",
+  "stage": "SEED"
+ },
+ "viboo.io": {
+  "desc": "The company provides a cloud-based Building Management System that utilizes predictive room control technology to optimize heating energy consumption by 20-40% while enha",
+  "founded": 2021,
+  "funding_usd": 5666309,
+  "hc": 39,
+  "hc_yoy": 70,
+  "name": "viboo",
+  "stage": "SEED"
+ },
+ "vibrant.io": {
+  "desc": "The company offers a unified payment platform that integrates in-store and online payment solutions, enabling businesses to manage transactions seamlessly across various ",
+  "founded": 2020,
+  "funding_usd": 6120940,
+  "hc": 23,
+  "hc_yoy": 0,
+  "name": "Vibrant.io",
+  "stage": null
+ },
+ "viddy.com": {
+  "desc": "Viddy is a video tool designed for creating and editing interpersonal video content, facilitating seamless conversations and interviews through automated editing capabili",
+  "founded": 2010,
+  "funding_usd": 37500000,
+  "hc": 1,
+  "hc_yoy": null,
+  "name": "Supernova, Inc.",
+  "stage": "EXITED"
+ },
+ "videobot.com": {
+  "desc": "Videobot is an omnichannel interactive video experience application designed to increase engagement.",
+  "founded": 2022,
+  "funding_usd": 5075186,
+  "hc": 20,
+  "hc_yoy": -38,
+  "name": "Videobot",
+  "stage": "SEED"
+ },
+ "vidlab7.com": {
+  "desc": "Moonscale offers AI Sales Advisors that engage with website visitors to qualify leads and convert them into revenue through real-time interactions, product pitches, and d",
+  "founded": 2023,
+  "funding_usd": 3892955,
+  "hc": 9,
+  "hc_yoy": -44,
+  "name": "Moonscale",
+  "stage": "SEED"
+ },
+ "viio.io": {
+  "desc": "Viio offers a SaaS Spend Management platform that provides businesses with centralized visibility and control over their software investments, enabling them to discover, ",
+  "founded": 2019,
+  "funding_usd": 5060534,
+  "hc": 29,
+  "hc_yoy": -9,
+  "name": "Viio",
+  "stage": "PRE_SEED"
+ },
+ "vikinganalytics.se": {
+  "desc": "Viking Analytics offers an AI-powered platform for predictive maintenance that utilizes sensor-agnostic technology to analyze vibration data and monitor machine health, e",
+  "founded": 2017,
+  "funding_usd": 4729344,
+  "hc": 17,
+  "hc_yoy": 0,
+  "name": "Viking Analytics",
+  "stage": "SERIES_A"
+ },
+ "viktor.ai": {
+  "desc": "VIKTOR.AI offers a platform that automates engineering workflows through AI-powered applications and agents, enabling tasks such as structural design checks, hydraulic ca",
+  "founded": 2012,
+  "funding_usd": 82376605,
+  "hc": 43,
+  "hc_yoy": -30,
+  "name": "VIKTOR",
+  "stage": "SERIES_A"
+ },
+ "vimcar.de": {
+  "desc": "Vimcar offers a digital fleet management solution that includes an automated digital logbook for seamless and compliant documentation of vehicle journeys, alongside real-",
+  "founded": 2013,
+  "funding_usd": 18500000,
+  "hc": 41,
+  "hc_yoy": 21,
+  "name": "Vimcar",
+  "stage": "SERIES_A"
+ },
+ "vind.ai": {
+  "desc": "The main product is a digital platform designed for wind project site assessments and development, featuring over 6000 built-in data layers for global coverage and advanc",
+  "founded": 2022,
+  "funding_usd": 3314880,
+  "hc": 28,
+  "hc_yoy": 33,
+  "name": "Vind AI",
+  "stage": "SEED"
+ },
+ "vipshop.com": {
+  "desc": "VIP.com operates a flash sales platform that specializes in offering a wide range of products, including fashion apparel, cosmetics, and home goods, at discounted prices ",
+  "founded": 2008,
+  "funding_usd": 532936673,
+  "hc": 3838,
+  "hc_yoy": 8,
+  "name": "VIP.com 唯品会",
+  "stage": "EXITED"
+ },
+ "virtonomy.io": {
+  "desc": "Virtonomy offers a digital twin and simulation platform that enables medical device developers to conduct virtual trials using a database of over 2,500 digital patient tw",
+  "founded": 2019,
+  "funding_usd": 70734646,
+  "hc": 19,
+  "hc_yoy": 0,
+  "name": "Virtonomy.io",
+  "stage": "SERIES_A"
+ },
+ "virtual-college.co.uk": {
+  "desc": "Upskill your workforce with high-quality digital learning experiences.",
+  "founded": 1995,
+  "funding_usd": null,
+  "hc": 89,
+  "hc_yoy": 6,
+  "name": "Virtual College",
+  "stage": null
+ },
+ "visiblethread.com": {
+  "desc": "The main product is a comprehensive RFP software platform that manages the entire RFP lifecycle, including opportunity identification, proposal generation, and contract m",
+  "founded": 2008,
+  "funding_usd": 2292000,
+  "hc": 57,
+  "hc_yoy": 4,
+  "name": "VisibleThread",
+  "stage": null
+ },
+ "visiolab.io": {
+  "desc": "VisioLab offers an AI-powered self-checkout system designed for high-traffic venues, integrating visual recognition, point of sale, and payment processing into a single c",
+  "founded": 2019,
+  "funding_usd": 14462769,
+  "hc": 45,
+  "hc_yoy": 55,
+  "name": "VisioLab",
+  "stage": "SERIES_A"
+ },
+ "viss.ai": {
+  "desc": "Incredible develops AI models specifically designed for executing business tasks, including processing large datasets and managing complex workflows through integrations ",
+  "founded": 2024,
+  "funding_usd": 4212017,
+  "hc": 13,
+  "hc_yoy": 0,
+  "name": "VISS.AI",
+  "stage": "SEED"
+ },
+ "vitvio.com": {
+  "desc": "VitVio's main product leverages 3D spatial intelligence and ambient sensing to automate surgical workflows in real time, continuously mapping the operating room's context",
+  "founded": 2022,
+  "funding_usd": 10000000,
+  "hc": 28,
+  "hc_yoy": 22,
+  "name": "VitVio",
+  "stage": "SEED"
+ },
+ "vivense.com": {
+  "desc": "Vivense offers a comprehensive e-commerce platform for home products, featuring a curated selection of furniture and decor items, alongside interior design services.",
+  "founded": 2013,
+  "funding_usd": 135000000,
+  "hc": 374,
+  "hc_yoy": -6,
+  "name": "Vivense",
+  "stage": "EXITED"
+ },
+ "vivino.com": {
+  "desc": "Vivino operates as an online wine marketplace that utilizes crowd-sourced data to provide personalized wine recommendations, enhancing the purchasing experience for users",
+  "founded": 2009,
+  "funding_usd": 232138729,
+  "hc": 280,
+  "hc_yoy": -1,
+  "name": "Vivino",
+  "stage": "SERIES_D"
+ },
+ "vizzia.com": {
+  "desc": "Vizzia provides a mobile solution designed to detect illegal waste deposits, employing advanced imaging technology and proprietary algorithms to enhance detection accurac",
+  "founded": 2020,
+  "funding_usd": 57876042,
+  "hc": 128,
+  "hc_yoy": 113,
+  "name": "Vizzia",
+  "stage": "SERIES_B"
+ },
+ "vlyfoods.com": {
+  "desc": "The company specializes in creating dairy alternatives derived from pea protein, focusing on high nutritional value by incorporating plant protein, fiber, and healthy fat",
+  "founded": 2018,
+  "funding_usd": 13104978,
+  "hc": 52,
+  "hc_yoy": 18,
+  "name": "vly",
+  "stage": "SERIES_A"
+ },
+ "vocca.ai": {
+  "desc": "Vocca provides an AI-driven solution for healthcare communication, automating patient calls, appointment scheduling, and reminders to enhance operational efficiency.",
+  "founded": 2024,
+  "funding_usd": 5500000,
+  "hc": 40,
+  "hc_yoy": 43,
+  "name": "Vocca",
+  "stage": "SEED"
+ },
+ "voiceline.ai": {
+  "desc": "VoiceLine offers an AI Assistant designed for field sales teams, focusing on automating administrative tasks and enhancing productivity through voice interaction.",
+  "founded": 2020,
+  "funding_usd": 27088299,
+  "hc": 62,
+  "hc_yoy": 94,
+  "name": "VoiceLine",
+  "stage": "SERIES_A"
+ },
+ "volare.fi": {
+  "desc": "The company produces sustainable protein, oil, and fertilizers derived from black soldier flies, which serve as high-quality ingredients for aquafeeds, pet food, and agri",
+  "founded": 2021,
+  "funding_usd": 39915888,
+  "hc": 14,
+  "hc_yoy": 0,
+  "name": "Volare Solutions",
+  "stage": "SERIES_A"
+ },
+ "voliro.com": {
+  "desc": "Voliro develops an omnidirectional aerial robot designed for contact-based industrial inspections, capable of performing Non-Destructive Testing (NDT) and ultrasonic thic",
+  "founded": 2018,
+  "funding_usd": 50217013,
+  "hc": 48,
+  "hc_yoy": 7,
+  "name": "Voliro",
+  "stage": "SERIES_A"
+ },
+ "volt.io": {
+  "desc": "Volt offers a global real-time payment network that facilitates account-to-account transactions, enabling merchants to send and receive payments instantly across borders ",
+  "founded": 2018,
+  "funding_usd": 87818103,
+  "hc": 81,
+  "hc_yoy": -43,
+  "name": "Volt.io",
+  "stage": "SERIES_B"
+ },
+ "volta-energy.com": {
+  "desc": "Volta Energy provides mobile energy solutions that utilize solar energy and battery technology to meet on-site energy demands, aiming to replace traditional fossil fuel-p",
+  "founded": 2017,
+  "funding_usd": 47802856,
+  "hc": 45,
+  "hc_yoy": -4,
+  "name": "Volta Energy NL",
+  "stage": "SERIES_B"
+ },
+ "volta.com": {
+  "desc": "Volta provides a fully vertically integrated AI infrastructure platform that combines institutional capital, powered land, self-built data centers, and dedicated compute ",
+  "founded": 2026,
+  "funding_usd": 300000000,
+  "hc": 62,
+  "hc_yoy": 35,
+  "name": "Volta",
+  "stage": "SERIES_A"
+ },
+ "voltasoftware.com": {
+  "desc": "Volta offers an intelligent automation platform designed to streamline commercial operations for distributors and B2B brands by automating the collection, analysis, and p",
+  "founded": 2024,
+  "funding_usd": 12100541,
+  "hc": 33,
+  "hc_yoy": 27,
+  "name": "Volta Software",
+  "stage": "SEED"
+ },
+ "volteras.com": {
+  "desc": "Volteras offers a data infrastructure that provides secure, real-time access to OEM-grade connected vehicle information, enabling functionalities such as live location tr",
+  "founded": 2020,
+  "funding_usd": 14000000,
+  "hc": 17,
+  "hc_yoy": -6,
+  "name": "Volteras",
+  "stage": "SERIES_A"
+ },
+ "voltrac.eu": {
+  "desc": "Voltrac develops autonomous electrified vehicles designed for agricultural and defense logistics applications, featuring swappable batteries and a unique propulsion syste",
+  "founded": 2024,
+  "funding_usd": 12571811,
+  "hc": 20,
+  "hc_yoy": 150,
+  "name": "Voltrac",
+  "stage": "SEED"
+ },
+ "volvetech.com": {
+  "desc": "The main product is an AI-driven platform designed for tendering and preconstruction in the construction industry, which transforms comprehensive project document sets in",
+  "founded": 2024,
+  "funding_usd": 3964270,
+  "hc": 17,
+  "hc_yoy": 183,
+  "name": "Volve",
+  "stage": "SEED"
+ },
+ "volytica.com": {
+  "desc": "The company offers a software platform for independent battery health monitoring, utilizing AI and electrochemistry-based algorithms to analyze real-time data from batter",
+  "founded": 2019,
+  "funding_usd": 8101484,
+  "hc": 27,
+  "hc_yoy": -18,
+  "name": "volytica diagnostics",
+  "stage": "SERIES_A"
+ },
+ "voss-solutions.com": {
+  "desc": "VOSS Solutions is the leading and award-winning provider of digital workplace management technology, enabling customers to significantly increase the levels of AI, automa",
+  "founded": 2003,
+  "funding_usd": 38876951,
+  "hc": 232,
+  "hc_yoy": 41,
+  "name": "VOSS",
+  "stage": "SERIES_C"
+ },
+ "vrey.io": {
+  "desc": "The company provides a solar energy solution tailored for multi-family buildings, allowing landlords to deliver solar power to tenants while adhering to financial and reg",
+  "founded": 2024,
+  "funding_usd": 3855588,
+  "hc": 30,
+  "hc_yoy": 200,
+  "name": "VREY",
+  "stage": "SEED"
+ },
+ "vroomly.com": {
+  "desc": "The main service offered is an online platform that allows users to compare prices and book appointments for automotive repairs and maintenance at certified garages.",
+  "founded": 2016,
+  "funding_usd": 8512347,
+  "hc": 135,
+  "hc_yoy": 32,
+  "name": "Vroomly",
+  "stage": "SERIES_A"
+ },
+ "vsora.com": {
+  "desc": "VSORA specializes in ultra-efficient AI inference processors designed for cloud and data center environments, with its flagship product featuring advanced chiplet archite",
+  "founded": 2015,
+  "funding_usd": 65080000,
+  "hc": 56,
+  "hc_yoy": 93,
+  "name": "VSORA",
+  "stage": "SERIES_A"
+ },
+ "wakeo.co": {
+  "desc": "The company offers a SaaS platform that provides real-time visibility into multimodal transport flows, integrating data from various transport providers to enhance supply",
+  "founded": 2016,
+  "funding_usd": 32766999,
+  "hc": 60,
+  "hc_yoy": -10,
+  "name": "Wakeo",
+  "stage": "SERIES_B"
+ },
+ "wallapop.com": {
+  "desc": "Wallapop is a platform that facilitates the buying and selling of reused consumer goods, creating an ecosystem for sustainable consumption.",
+  "founded": 2013,
+  "funding_usd": 348496116,
+  "hc": 482,
+  "hc_yoy": 9,
+  "name": "Wallapop",
+  "stage": "EXITED"
+ },
+ "walletstudio.com": {
+  "desc": "The main product is a no-code SaaS platform that allows businesses to create and manage digital wallet experiences through Apple Wallet and Google Wallet, enabling seamle",
+  "founded": 2022,
+  "funding_usd": 8000000,
+  "hc": 25,
+  "hc_yoy": 4,
+  "name": "Miss Moneypenny Technologies",
+  "stage": "SEED"
+ },
+ "wandera.com": {
+  "desc": "Wandera offers a zero trust cloud security solution that utilizes a cloud-based Software Defined Perimeter (SDP) to secure application access and protect both cloud and e",
+  "founded": 2012,
+  "funding_usd": 50500000,
+  "hc": 17,
+  "hc_yoy": null,
+  "name": "Wandera, a Jamf company",
+  "stage": "EXITED"
+ },
+ "waniwani.ai": {
+  "desc": "Waniwani provides a platform that allows companies to distribute and optimize their offerings directly within large language models (LLMs), facilitating discovery and pur",
+  "founded": 2026,
+  "funding_usd": 8000000,
+  "hc": 12,
+  "hc_yoy": 100,
+  "name": "Waniwani",
+  "stage": "SEED"
+ },
+ "warehousing1.com": {
+  "desc": "The main product is a digital portal that facilitates the management of fulfillment and warehousing operations, offering real-time visibility into inventory and logistics",
+  "founded": 2018,
+  "funding_usd": 10863670,
+  "hc": 25,
+  "hc_yoy": -11,
+  "name": "Warehousing1",
+  "stage": "SERIES_A"
+ },
+ "wasp-lang.dev": {
+  "desc": "The main product is a full-stack framework designed for web application development, utilizing TypeScript, React, Node.js, and Prisma, which integrates authentication, jo",
+  "founded": 2020,
+  "funding_usd": 5325000,
+  "hc": 11,
+  "hc_yoy": 10,
+  "name": "Wasp",
+  "stage": "SEED"
+ },
+ "wasp.sh": {
+  "desc": "The main product is a full-stack framework designed for web application development, utilizing TypeScript, React, Node.js, and Prisma, which integrates authentication, jo",
+  "founded": 2020,
+  "funding_usd": 5325000,
+  "hc": 11,
+  "hc_yoy": 10,
+  "name": "Wasp",
+  "stage": "SEED"
+ },
+ "wassist.app": {
+  "desc": "The main product is a platform that enables businesses to engage with customers through WhatsApp, facilitating hyper-personalized conversations and allowing for seamless ",
+  "founded": 2026,
+  "funding_usd": 1100000,
+  "hc": 2,
+  "hc_yoy": 100,
+  "name": "Wassist",
+  "stage": "PRE_SEED"
+ },
+ "watchmaster.com": {
+  "desc": "Watchmaster operates as a marketplace for certified pre-owned luxury watches, employing an in-house refurbishment and certification process to ensure the authenticity and",
+  "founded": 2015,
+  "funding_usd": 51137236,
+  "hc": 20,
+  "hc_yoy": null,
+  "name": "Watchmaster",
+  "stage": "SERIES_C"
+ },
+ "watershed.com": {
+  "desc": "Watershed offers a sustainability AI platform that facilitates data collection, cleaning, and analysis to help organizations manage their emissions and improve sustainabi",
+  "founded": 2019,
+  "funding_usd": 254506570,
+  "hc": 90,
+  "hc_yoy": 15,
+  "name": "Watershed",
+  "stage": "SERIES_C"
+ },
+ "way.cloud": {
+  "desc": "Way offers an AI-native fleet management software that enables real-time monitoring, reporting, and management of commercial fleets without the need for additional hardwa",
+  "founded": 2023,
+  "funding_usd": 2944708,
+  "hc": 10,
+  "hc_yoy": 100,
+  "name": "Way – Powering Smarter Fleets",
+  "stage": "PRE_SEED"
+ },
+ "way.security": {
+  "desc": "Way Security provides a solution that enforces existing identity and access management (IAM) tools across all applications and identities within an organization, ensuring",
+  "founded": 2024,
+  "funding_usd": 30500000,
+  "hc": 26,
+  "hc_yoy": -4,
+  "name": "Way Security",
+  "stage": "SEED"
+ },
+ "way.so": {
+  "desc": "The main product automates IT support by utilizing a combination of AI and human expertise to resolve IT issues quickly, with 74% of requests addressed in under 15 minute",
+  "founded": 2022,
+  "funding_usd": 1297402,
+  "hc": 1,
+  "hc_yoy": 0,
+  "name": "Way",
+  "stage": "PRE_SEED"
+ },
+ "weareblend.ai": {
+  "desc": "The main product is a bite-sized video training platform designed for frontline teams, focusing on compliance and skill development through micro-learning techniques.",
+  "founded": 2022,
+  "funding_usd": 439320,
+  "hc": 7,
+  "hc_yoy": 0,
+  "name": "Blend",
+  "stage": "PRE_SEED"
+ },
+ "wearefutura.com": {
+  "desc": "Futura offers personalized educational pathways that adapt to individual student needs, utilizing a combination of expert educators and integrated artificial intelligence",
+  "founded": null,
+  "funding_usd": 16900947,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Futura",
+  "stage": "SERIES_A"
+ },
+ "wearegenial.com": {
+  "desc": "The company offers customized AI solutions through a platform that enables the development, deployment, and management of AI agents tailored to various business functions",
+  "founded": 2017,
+  "funding_usd": 1884096,
+  "hc": 36,
+  "hc_yoy": 20,
+  "name": "GENIAL",
+  "stage": "SEED"
+ },
+ "wearepeachies.com": {
+  "desc": "Peachies offers a premium nappy subscription service featuring nappies designed for enhanced leak protection and comfort, utilizing advanced materials such as super soft ",
+  "founded": 2021,
+  "funding_usd": 4652535,
+  "hc": 13,
+  "hc_yoy": 0,
+  "name": "PEACHIES | B Corp™",
+  "stage": "SEED"
+ },
+ "wearewaiv.com": {
+  "desc": "Waiv develops AI-powered diagnostic tests aimed at enhancing biomarker discovery and optimizing diagnostic workflows in oncology, built on over seven years of medical-AI ",
+  "founded": 2026,
+  "funding_usd": 33000000,
+  "hc": 51,
+  "hc_yoy": 2,
+  "name": "Waiv, formerly Owkin Dx",
+  "stage": "SERIES_A"
+ },
+ "weekdone.com": {
+  "desc": "The main product is a software solution designed for managing Objectives and Key Results (OKRs), facilitating goal alignment, progress tracking, and weekly status reporti",
+  "founded": 2012,
+  "funding_usd": 290000,
+  "hc": 5,
+  "hc_yoy": 0,
+  "name": "Weekdone",
+  "stage": "SEED"
+ },
+ "wellabe.de": {
+  "desc": "The primary service offered includes on-site health check-ups and digital prevention programs that leverage mobile laboratories for real-time health data collection.",
+  "founded": 2018,
+  "funding_usd": 3636915,
+  "hc": 20,
+  "hc_yoy": null,
+  "name": "wellabe",
+  "stage": "SERIES_A"
+ },
+ "weltsparen.de": {
+  "desc": "The main product is a financial platform that offers a variety of savings and investment options, including accounts for daily and fixed-term deposits, as well as asset m",
+  "founded": 2012,
+  "funding_usd": 270768155,
+  "hc": 3,
+  "hc_yoy": 0,
+  "name": "WeltSparen",
+  "stage": "SERIES_E"
+ },
+ "wenodo.com": {
+  "desc": "Wenodo offers a comprehensive suite of digital tools designed for the hospitality sector, focusing on cloud accounting, automated procure-to-pay workflows, and integrated",
+  "founded": 2020,
+  "funding_usd": null,
+  "hc": 173,
+  "hc_yoy": 12,
+  "name": "Wenodo",
+  "stage": null
+ },
+ "wesustain.com": {
+  "desc": "The main product is a cloud-based software platform that facilitates the management of health, safety, and environmental issues, emphasizing occupational health, industri",
+  "founded": 2010,
+  "funding_usd": 4985600,
+  "hc": 1,
+  "hc_yoy": null,
+  "name": "WeSustain",
+  "stage": "EXITED"
+ },
+ "whereby.com": {
+  "desc": "Whereby provides a real-time video calling service that can be easily integrated into websites and applications through its comprehensive API and SDK, allowing for custom",
+  "founded": 2013,
+  "funding_usd": 11982430,
+  "hc": 45,
+  "hc_yoy": -10,
+  "name": "Whereby",
+  "stage": "SERIES_A"
+ },
+ "wheretoget.it": {
+  "desc": "Wheretoget is an online platform that aggregates fashion, beauty, and lifestyle products, offering a curated selection of clothing, shoes, bags, and accessories.",
+  "founded": 2011,
+  "funding_usd": 2525000,
+  "hc": 3,
+  "hc_yoy": 0,
+  "name": "Wheretoget",
+  "stage": "SEED"
+ },
+ "whimsical.com": {
+  "desc": "Whimsical offers a collaborative whiteboard platform designed for product builders, enabling users to create diagrams and wireframes for design and documentation purposes",
+  "founded": 2017,
+  "funding_usd": 30000000,
+  "hc": 29,
+  "hc_yoy": -26,
+  "name": "Whimsical",
+  "stage": "SERIES_A"
+ },
+ "whisper.security": {
+  "desc": "Whisper offers a real-time infrastructure intelligence platform that unifies fragmented internet data, including routing, DNS, hosting, and ownership information, into a ",
+  "founded": 2024,
+  "funding_usd": 1857118,
+  "hc": 10,
+  "hc_yoy": 43,
+  "name": "Whisper",
+  "stage": "PRE_SEED"
+ },
+ "whitecircle.com": {
+  "desc": "The main product is a control layer for AI that enables companies to test, protect, observe, and enhance AI interactions by managing unsafe inputs, preventing unauthorize",
+  "founded": 2022,
+  "funding_usd": 11000000,
+  "hc": 31,
+  "hc_yoy": 244,
+  "name": "White Circle",
+  "stage": "SEED"
+ },
+ "whitelabgx.com": {
+  "desc": "WhiteLab Genomics specializes in the development of genomic medicines by utilizing a proprietary AI platform that integrates computational and structural biology to optim",
+  "founded": 2018,
+  "funding_usd": 10500000,
+  "hc": 47,
+  "hc_yoy": 12,
+  "name": "WhiteLab Genomics",
+  "stage": "SERIES_A"
+ },
+ "whitetruffle.com": {
+  "desc": "WhiteTruffle provides a platform that matches candidates with tech companies using machine learning algorithms to curate job opportunities based on expertise, culture, an",
+  "founded": 2010,
+  "funding_usd": 1600000,
+  "hc": 6,
+  "hc_yoy": 20,
+  "name": "Whitetruffle",
+  "stage": "EXITED"
+ },
+ "wibbitz.com": {
+  "desc": "The main product is an online video editor that allows users to create and edit videos directly in their browser, featuring tools for cropping, trimming, adding text, sou",
+  "founded": 2009,
+  "funding_usd": 31449000,
+  "hc": 11,
+  "hc_yoy": -27,
+  "name": "Wibbitz",
+  "stage": "SERIES_C"
+ },
+ "wikifarmer.com": {
+  "desc": "Wikifarmer offers a digital ecosystem that includes a B2B marketplace connecting agricultural suppliers directly with buyers, alongside a comprehensive agricultural knowl",
+  "founded": 2017,
+  "funding_usd": 17062106,
+  "hc": 77,
+  "hc_yoy": -3,
+  "name": "Wikifarmer",
+  "stage": "SEED"
+ },
+ "wildbalance.es": {
+  "desc": "Wild Balance offers raw and natural food for pets, sourced directly from local farms.",
+  "founded": 2019,
+  "funding_usd": 3840000,
+  "hc": 23,
+  "hc_yoy": 15,
+  "name": "Wild Balance",
+  "stage": null
+ },
+ "wildmoka.com": {
+  "desc": "The main product is a cloud-based platform that facilitates the clipping, editing, and distribution of live video content, utilizing AI, video recognition, and machine le",
+  "founded": 2013,
+  "funding_usd": 10204150,
+  "hc": 15,
+  "hc_yoy": 0,
+  "name": "Wildmoka",
+  "stage": "EXITED"
+ },
+ "willo.tech": {
+  "desc": "Willo is developing a wireless power technology that enables cable-free energy delivery, functioning similarly to Wi-Fi but for power transmission, allowing for 360° ener",
+  "founded": 2024,
+  "funding_usd": 3455674,
+  "hc": 6,
+  "hc_yoy": 20,
+  "name": "Willo",
+  "stage": "PRE_SEED"
+ },
+ "willo.video": {
+  "desc": "Willo offers a candidate screening platform designed to streamline the hiring process by enabling teams to assess candidates at scale through structured responses and evi",
+  "founded": 2018,
+  "funding_usd": 10258547,
+  "hc": 49,
+  "hc_yoy": 88,
+  "name": "Willo®",
+  "stage": null
+ },
+ "wingback.com": {
+  "desc": "Wingback offers a low-code platform that enables SaaS companies to create and manage complex pricing models, including hybrid and usage-based pricing, without requiring t",
+  "founded": 2021,
+  "funding_usd": 1900000,
+  "hc": 4,
+  "hc_yoy": -56,
+  "name": "Wingback (YC W22)",
+  "stage": "PRE_SEED"
+ },
+ "wingbits.com": {
+  "desc": "Wingbits offers a flight tracking network that utilizes custom, cryptographically secure ADS-B hardware to provide real-time and historical airspace intelligence with hig",
+  "founded": 2023,
+  "funding_usd": 9266277,
+  "hc": 18,
+  "hc_yoy": -18,
+  "name": "Wingbits",
+  "stage": "SEED"
+ },
+ "winn.ai": {
+  "desc": "WINN.AI offers a Revenue Execution Platform that provides real-time guidance to sales representatives during calls, ensuring adherence to playbooks and automating adminis",
+  "founded": 2021,
+  "funding_usd": 35000000,
+  "hc": 63,
+  "hc_yoy": 21,
+  "name": "WINN.AI",
+  "stage": "SERIES_A"
+ },
+ "wirepas.com": {
+  "desc": "Wirepas offers a platform for ultra-resilient, infinitely scalable mesh networks designed for extensive industrial and commercial applications, enabling connectivity for ",
+  "founded": 2010,
+  "funding_usd": 86544260,
+  "hc": 84,
+  "hc_yoy": 0,
+  "name": "Wirepas",
+  "stage": "SERIES_E"
+ },
+ "wisembly.com": {
+  "desc": "Wisembly offers an all-in-one web application designed for organizing and managing hybrid events, incorporating features for both in-person and remote participation.",
+  "founded": 2010,
+  "funding_usd": 4373099,
+  "hc": 13,
+  "hc_yoy": -13,
+  "name": "Wisembly",
+  "stage": "EXITED"
+ },
+ "witco.io": {
+  "desc": "Witco's product focuses on optimizing workplace productivity and comfort through streamlining various aspects of the modern business environment.",
+  "founded": 2016,
+  "funding_usd": 16944000,
+  "hc": 50,
+  "hc_yoy": -6,
+  "name": "Witco",
+  "stage": "SERIES_A"
+ },
+ "withelva.com": {
+  "desc": "Elva offers a technology-driven solution for employee relocation and immigration, streamlining the process by managing permits, compliance, and housing logistics.",
+  "founded": 2025,
+  "funding_usd": 1513202,
+  "hc": 14,
+  "hc_yoy": 27,
+  "name": "Elva",
+  "stage": "PRE_SEED"
+ },
+ "withporters.com": {
+  "desc": "Porters offers an AI-native platform designed to automate and manage complex banking operations, including account seizure processing, insolvency management, and chargeba",
+  "founded": 2025,
+  "funding_usd": 3206422,
+  "hc": 8,
+  "hc_yoy": 167,
+  "name": "Porters",
+  "stage": "PRE_SEED"
+ },
+ "withpretzel.com": {
+  "desc": "The main product offers a payment processing solution that enables businesses to handle subscriptions, one-time payments, and complex billing scenarios with real-time usa",
+  "founded": 2023,
+  "funding_usd": 500000,
+  "hc": 4,
+  "hc_yoy": 33,
+  "name": "Pretzel AI (YC W24)",
+  "stage": "PRE_SEED"
+ },
+ "withrealm.com": {
+  "desc": "Realm develops AI-driven tools designed to streamline the creation of sales deliverables and responses to requests for proposals (RFPs) by leveraging a company's existing",
+  "founded": 2023,
+  "funding_usd": 6349866,
+  "hc": 16,
+  "hc_yoy": 60,
+  "name": "Realm",
+  "stage": "SEED"
+ },
+ "wochit.com": {
+  "desc": "Wochit offers an AI-powered video creation platform designed for efficient and scalable video production, enabling users to create, version, and publish content easily th",
+  "founded": 2011,
+  "funding_usd": 28750000,
+  "hc": 27,
+  "hc_yoy": -16,
+  "name": "Wochit",
+  "stage": "SERIES_C"
+ },
+ "wondercraft.ai": {
+  "desc": "The main product is an AI-driven video studio that facilitates the creation of professional videos by integrating various AI technologies, including voice cloning, text-t",
+  "founded": 2022,
+  "funding_usd": 3500000,
+  "hc": 43,
+  "hc_yoy": -19,
+  "name": "Wondercraft",
+  "stage": "SEED"
+ },
+ "wonnda.com": {
+  "desc": "Wonnda is a B2B platform that connects brands and retailers with a network of over 20,000 vetted private label and contract manufacturers across various FMCG categories, ",
+  "founded": 2022,
+  "funding_usd": 1072558,
+  "hc": 8,
+  "hc_yoy": 0,
+  "name": "Wonnda",
+  "stage": "PRE_SEED"
+ },
+ "woofz.com": {
+  "desc": "Nove8 develops mobile applications aimed at enhancing the relationship between pet owners and their animals, with its flagship product focusing on dog training and wellne",
+  "founded": 2024,
+  "funding_usd": null,
+  "hc": 108,
+  "hc_yoy": 93,
+  "name": "nove8",
+  "stage": null
+ },
+ "wooga.com": {
+  "desc": "Each of our 250 Woogas play an important role in growing our success as a mobile games company and in shaping our company culture.",
+  "founded": 2009,
+  "funding_usd": 31428370,
+  "hc": 311,
+  "hc_yoy": -12,
+  "name": "Wooga",
+  "stage": "EXITED"
+ },
+ "woolandthegang.com": {
+  "desc": "Wool and the Gang offers a variety of DIY fashion products, including knitting, crochet, macrame, and embroidery kits, designed for users of all skill levels.",
+  "founded": 2008,
+  "funding_usd": 4339189,
+  "hc": 18,
+  "hc_yoy": -18,
+  "name": "Wool and the Gang",
+  "stage": "EXITED"
+ },
+ "workbounce.com": {
+  "desc": "The main product is a Voice of Customer insights platform that integrates with existing data sources such as CRMs, call recordings, and messaging tools to extract actiona",
+  "founded": 2020,
+  "funding_usd": 2700000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Workbounce (acquired by ZoomInfo)",
+  "stage": "EXITED"
+ },
+ "workerbase.com": {
+  "desc": "Workerbase provides a platform that digitizes manufacturing operations through automated workflows, enabling frontline workers to utilize AI-powered digital tools for tas",
+  "founded": 2017,
+  "funding_usd": 12874835,
+  "hc": 40,
+  "hc_yoy": 3,
+  "name": "Workerbase",
+  "stage": "SERIES_A"
+ },
+ "workerhero.com": {
+  "desc": "WorkerHero is a job search platform tailored for blue-collar workers in the DACH region, featuring a streamlined application process and transparent salary information.",
+  "founded": 2021,
+  "funding_usd": 5028648,
+  "hc": 41,
+  "hc_yoy": -34,
+  "name": "WorkerHero",
+  "stage": "SERIES_A"
+ },
+ "workflow.design": {
+  "desc": "The main product is a design feedback tool that facilitates the collection, organization, and management of feedback on various creative assets such as websites, videos, ",
+  "founded": 2023,
+  "funding_usd": 3000000,
+  "hc": 16,
+  "hc_yoy": -11,
+  "name": "Workflow",
+  "stage": "PRE_SEED"
+ },
+ "workist.com": {
+  "desc": "The main product is an AI-driven agent designed to automate sales operations by handling tasks such as order entry, quote proposals, and data validation, thereby reducing",
+  "founded": 2019,
+  "funding_usd": 11367511,
+  "hc": 50,
+  "hc_yoy": -2,
+  "name": "Workist",
+  "stage": "SERIES_A"
+ },
+ "worldover.io": {
+  "desc": "Worldover offers an AI operating system that integrates various operational functions such as R&D, product lifecycle management, materials requirements planning, and qual",
+  "founded": 2022,
+  "funding_usd": 6693000,
+  "hc": 27,
+  "hc_yoy": 80,
+  "name": "Worldover",
+  "stage": "SEED"
+ },
+ "worldremit.com": {
+  "desc": "The company offers a digital platform for international money transfers, enabling users to send money online through various methods such as bank transfers, cash pickups,",
+  "founded": 2009,
+  "funding_usd": 1150400000,
+  "hc": 351,
+  "hc_yoy": -10,
+  "name": "WorldRemit",
+  "stage": "SERIES_F"
+ },
+ "wrapp.com": {
+  "desc": "The company offers a performance marketing solution that leverages real-time transaction data to enhance customer engagement and loyalty by enabling targeted marketing ba",
+  "founded": 2011,
+  "funding_usd": 20500000,
+  "hc": 14,
+  "hc_yoy": 0,
+  "name": "Meniga Rewards",
+  "stage": "EXITED"
+ },
+ "wrxflo.com": {
+  "desc": "WrxFlo offers a supply chain management platform that integrates various data sources, including ERP and MES systems, to provide real-time insights and streamline operati",
+  "founded": 2019,
+  "funding_usd": 3420246,
+  "hc": 55,
+  "hc_yoy": 25,
+  "name": "WrxFlo",
+  "stage": "PRE_SEED"
+ },
+ "wultra.com": {
+  "desc": "Wultra provides post-quantum digital identity solutions designed for banks and fintechs, focusing on secure user authentication, mobile-first identity verification, and e",
+  "founded": 2014,
+  "funding_usd": 11988419,
+  "hc": 43,
+  "hc_yoy": 30,
+  "name": "Wultra",
+  "stage": "SERIES_A"
+ },
+ "wynter.com": {
+  "desc": "Wynter offers a platform for on-demand messaging and market research specifically designed for B2B contexts, enabling users to conduct message tests, preference tests, an",
+  "founded": 2019,
+  "funding_usd": null,
+  "hc": 180,
+  "hc_yoy": 18,
+  "name": "Wynter",
+  "stage": null
+ },
+ "xata.io": {
+  "desc": "Xata provides a Postgres platform designed for scalability, enabling organizations to manage database challenges such as zero-downtime schema changes and realistic data t",
+  "founded": 2020,
+  "funding_usd": 35000000,
+  "hc": 26,
+  "hc_yoy": 8,
+  "name": "Xata.io",
+  "stage": "SERIES_A"
+ },
+ "xavveo.com": {
+  "desc": "Xavveo develops advanced photonic radar technology utilizing micro-antenna modules and AI-powered perception to enable precise environmental detection in challenging cond",
+  "founded": 2023,
+  "funding_usd": 9402096,
+  "hc": 28,
+  "hc_yoy": 65,
+  "name": "Xavveo",
+  "stage": "SEED"
+ },
+ "xensam.com": {
+  "desc": "Xensam offers an AI-powered Software Asset Management platform that enables businesses to optimize and manage software across hybrid IT environments with minimal technica",
+  "founded": 2016,
+  "funding_usd": 39826060,
+  "hc": 99,
+  "hc_yoy": 6,
+  "name": "Xensam",
+  "stage": null
+ },
+ "xfarm.ag": {
+  "desc": "xFarm provides a comprehensive farm management software that integrates various tools for planning, monitoring, and reporting agricultural activities, utilizing connected",
+  "founded": 2015,
+  "funding_usd": 60929307,
+  "hc": 268,
+  "hc_yoy": 11,
+  "name": "xFarm Technologies",
+  "stage": "SERIES_C"
+ },
+ "xnomad.co": {
+  "desc": "We are xNomad, a marketplace platform for short-term retail space.",
+  "founded": 2019,
+  "funding_usd": 4159123,
+  "hc": 14,
+  "hc_yoy": -22,
+  "name": "xNomad",
+  "stage": "SEED"
+ },
+ "xo-life.com": {
+  "desc": "XO Life offers a digital platform designed to connect patients with pharmaceutical and healthcare providers, facilitating enhanced treatment support and information shari",
+  "founded": 2017,
+  "funding_usd": 14666293,
+  "hc": 30,
+  "hc_yoy": -3,
+  "name": "XO Life",
+  "stage": "SERIES_A"
+ },
+ "xo.market": {
+  "desc": "The primary service offered is the creation of permissionless conviction markets, allowing users to trade based on their beliefs with real-time pricing that reflects trad",
+  "founded": 2025,
+  "funding_usd": 6500000,
+  "hc": 19,
+  "hc_yoy": 0,
+  "name": "XO Market",
+  "stage": "SEED"
+ },
+ "xpate.com": {
+  "desc": "xpate is the payments platform that prioritises simplicity, speed and user experience.",
+  "founded": 2018,
+  "funding_usd": null,
+  "hc": 78,
+  "hc_yoy": 22,
+  "name": "xpate",
+  "stage": null
+ },
+ "xxii.fr": {
+  "desc": "The main product is a real-time video analysis software that transforms physical environments into actionable data, enabling the detection and analysis of various situati",
+  "founded": 2015,
+  "funding_usd": 25354775,
+  "hc": 89,
+  "hc_yoy": -7,
+  "name": "XXII",
+  "stage": "SERIES_A"
+ },
+ "y42.com": {
+  "desc": "Y42 offers a Turnkey Data Orchestration Platform designed to streamline the building, monitoring, and maintenance of data flows, enabling efficient analytics and AI appli",
+  "founded": 2020,
+  "funding_usd": 33900000,
+  "hc": 17,
+  "hc_yoy": -45,
+  "name": "Y42",
+  "stage": "OUT_OF_BUSINESS"
+ },
+ "yaak.ai": {
+  "desc": "Yaak's main product is the Spatial Intelligence Kit (SIK), which enables the transformation of various physical assets, such as pallet jacks and forklifts, into autonomou",
+  "founded": 2019,
+  "funding_usd": 8293967,
+  "hc": 27,
+  "hc_yoy": 4,
+  "name": "Yaak",
+  "stage": "SEED"
+ },
+ "yampa.ai": {
+  "desc": "Yampa offers autonomous AI agents designed to automate and manage end-to-end customer care processes, enhancing service quality and operational efficiency.",
+  "founded": 2024,
+  "funding_usd": 3143961,
+  "hc": 16,
+  "hc_yoy": 7,
+  "name": "Yampa",
+  "stage": "SEED"
+ },
+ "yapily.com": {
+  "desc": "Yapily provides an open banking infrastructure platform that enables secure access to financial data and the initiation of payments through simple APIs, facilitating low-",
+  "founded": 2017,
+  "funding_usd": 70814000,
+  "hc": 142,
+  "hc_yoy": 16,
+  "name": "Yapily",
+  "stage": "SERIES_B"
+ },
+ "yasp.ai": {
+  "desc": "Yasp.ai offers an Agentic AI Compiler designed to optimize AI model training and deployment by automating the process across various hardware systems, eliminating the nee",
+  "founded": 2023,
+  "funding_usd": 4898014,
+  "hc": 28,
+  "hc_yoy": 65,
+  "name": "yasp",
+  "stage": "SEED"
+ },
+ "yasu.cloud": {
+  "desc": "Yasu is a cloud cost intelligence platform that utilizes AI agents to analyze and prevent cloud spending waste by integrating directly into CI/CD pipelines, providing rea",
+  "founded": 2025,
+  "funding_usd": 1086976,
+  "hc": 2,
+  "hc_yoy": 100,
+  "name": "Yasu",
+  "stage": "PRE_SEED"
+ },
+ "yavin.com": {
+  "desc": "The company offers modern point-of-sale solutions that include a range of advanced payment terminals and mobile payment options, enabling businesses to accept various pay",
+  "founded": 2018,
+  "funding_usd": 7013550,
+  "hc": 70,
+  "hc_yoy": 9,
+  "name": "Yavin",
+  "stage": "SEED"
+ },
+ "yayzy.com": {
+  "desc": "Yayzy offers a platform that enables banks and FinTechs to automatically track carbon emissions and calculate real-time carbon footprints through a proprietary algorithm ",
+  "founded": 2019,
+  "funding_usd": 1808068,
+  "hc": 2,
+  "hc_yoy": -50,
+  "name": "Yayzy",
+  "stage": "OUT_OF_BUSINESS"
+ },
+ "yieldclub.io": {
+  "desc": "YieldClub is a mobile application that enables users to earn high yields on their investments through stablecoins, offering annual percentage yields (APY) ranging from 5%",
+  "founded": 2025,
+  "funding_usd": 2500000,
+  "hc": 4,
+  "hc_yoy": 0,
+  "name": "YieldClub",
+  "stage": "PRE_SEED"
+ },
+ "ylookup.ai": {
+  "desc": "Ylookup offers an agentic workflow engine designed for fund and corporate services, focusing on automating data processing tasks such as data extraction from various indu",
+  "founded": 2025,
+  "funding_usd": 3000000,
+  "hc": 12,
+  "hc_yoy": 71,
+  "name": "Ylookup",
+  "stage": "SEED"
+ },
+ "yomoni.fr": {
+  "desc": "Yomoni specializes in wealth management through the use of exchange-traded funds (ETFs), offering digital investment solutions designed to optimize savings for clients.",
+  "founded": 2014,
+  "funding_usd": 44556974,
+  "hc": 95,
+  "hc_yoy": 14,
+  "name": "Yomoni",
+  "stage": "SERIES_A"
+ },
+ "yonder.com": {
+  "desc": "The company offers a rewards program through credit and debit cards that allows users to earn points on their purchases, which can be redeemed for various dining, travel,",
+  "founded": 2020,
+  "funding_usd": 152612449,
+  "hc": 106,
+  "hc_yoy": 18,
+  "name": "Yonder",
+  "stage": "SERIES_B"
+ },
+ "yonedalabs.com": {
+  "desc": "Yoneda Labs specializes in utilizing artificial intelligence to optimize chemical reactions, significantly enhancing the efficiency of drug development processes.",
+  "founded": 2023,
+  "funding_usd": 4500000,
+  "hc": 5,
+  "hc_yoy": 0,
+  "name": "YonedaLabs (YC W24)",
+  "stage": "SEED"
+ },
+ "yope.app": {
+  "desc": "The main product offers a collaborative platform for users to create a shared timeline of memories through daily photo check-ins, allowing groups to stay connected and re",
+  "founded": 2020,
+  "funding_usd": 20250000,
+  "hc": 49,
+  "hc_yoy": 17,
+  "name": "Yope",
+  "stage": "SEED"
+ },
+ "yotoplay.com": {
+  "desc": "Yoto offers an interactive audio platform designed for children, featuring audio players that operate without screens, allowing kids to control their listening experience",
+  "founded": 2015,
+  "funding_usd": 54064100,
+  "hc": 329,
+  "hc_yoy": 25,
+  "name": "Yoto",
+  "stage": "SERIES_B"
+ },
+ "yourdaye.com": {
+  "desc": "The company offers innovative gynae health products, including a pain-relieving tampon designed to alleviate menstrual cramps and a second-generation tampon that enables ",
+  "founded": 2017,
+  "funding_usd": 25797510,
+  "hc": 111,
+  "hc_yoy": 17,
+  "name": "Daye",
+  "stage": "SERIES_A"
+ },
+ "yousician.com": {
+  "desc": "Yousician offers a music learning platform that utilizes proprietary audio recognition technology to provide real-time feedback for users learning to play various instrum",
+  "founded": 2010,
+  "funding_usd": 29400000,
+  "hc": 126,
+  "hc_yoy": -10,
+  "name": "Yousician",
+  "stage": "SERIES_B"
+ },
+ "yousign.com": {
+  "desc": "Youtrust offers a digital trust platform that provides electronic signatures, identity and document verification, and e-seals, all designed to comply with European legal ",
+  "founded": 2011,
+  "funding_usd": 40843649,
+  "hc": 248,
+  "hc_yoy": 3,
+  "name": "Yousign",
+  "stage": "SERIES_A"
+ },
+ "youth-healthtech.com": {
+  "desc": "YOUTH offers a health screening service that utilizes data from smartphone sensors and machine learning algorithms to assess health status quickly.",
+  "founded": 2023,
+  "funding_usd": 4500000,
+  "hc": 13,
+  "hc_yoy": 18,
+  "name": "Youth AI",
+  "stage": "SEED"
+ },
+ "yukidata.com": {
+  "desc": "Yuki provides an automated cost optimization platform for data environments like Snowflake and BigQuery, enabling dynamic management of compute resources without manual i",
+  "founded": 2023,
+  "funding_usd": 6000000,
+  "hc": 28,
+  "hc_yoy": 133,
+  "name": "Yuki",
+  "stage": "SEED"
+ },
+ "yuunic.de": {
+  "desc": "I am Yuunic.",
+  "founded": null,
+  "funding_usd": null,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Yuunic",
+  "stage": null
+ },
+ "zap.ad": {
+  "desc": "Adzap provides a full-service user acquisition solution specifically designed for PC and console games, utilizing advanced adtech to enhance player targeting and retarget",
+  "founded": 2024,
+  "funding_usd": 750000,
+  "hc": 7,
+  "hc_yoy": 17,
+  "name": "Adzap",
+  "stage": "PRE_SEED"
+ },
+ "zaplox.com": {
+  "desc": "Zaplox offers a SaaS platform that provides digital guest solutions for the hospitality industry, including features such as self-service check-in and mobile keys.",
+  "founded": 2010,
+  "funding_usd": 5516318,
+  "hc": 9,
+  "hc_yoy": 0,
+  "name": "Zaplox",
+  "stage": "SEED"
+ },
+ "zaro.ai": {
+  "desc": "Zaro provides a unified workspace that integrates AI agents and applications to automate business processes, allowing users to manage data from various sources in a singl",
+  "founded": 2026,
+  "funding_usd": 5100000,
+  "hc": 9,
+  "hc_yoy": 12,
+  "name": "Zaro.ai",
+  "stage": "PRE_SEED"
+ },
+ "zaver.com": {
+  "desc": "Zaver provides a comprehensive payment solution that integrates various payment options, enabling seamless transactions across multiple sales channels, including e-commer",
+  "founded": 2015,
+  "funding_usd": 31363133,
+  "hc": 70,
+  "hc_yoy": 11,
+  "name": "Zaver",
+  "stage": "SERIES_A"
+ },
+ "zaver.io": {
+  "desc": "Zaver provides a comprehensive payment solution that integrates various payment options, enabling seamless transactions across multiple sales channels, including e-commer",
+  "founded": 2015,
+  "funding_usd": 31363133,
+  "hc": 70,
+  "hc_yoy": 11,
+  "name": "Zaver",
+  "stage": "SERIES_A"
+ },
+ "zavvy.io": {
+  "desc": "Helping you build engaging learning journeys for your employees - automated and integrated into the workflow.",
+  "founded": 2021,
+  "funding_usd": 4000000,
+  "hc": 8,
+  "hc_yoy": 60,
+  "name": "Zavvy",
+  "stage": "EXITED"
+ },
+ "zazume.com": {
+  "desc": "Zazume provides a digital platform that facilitates rental management through services such as guaranteed rent, tenant search, and rental management software.",
+  "founded": 2020,
+  "funding_usd": 8359046,
+  "hc": 42,
+  "hc_yoy": 31,
+  "name": "Zazume",
+  "stage": "SERIES_A"
+ },
+ "zed.dev": {
+  "desc": "Zed Industries develops a minimal code editor designed for speed and collaboration, leveraging technologies such as Rust for efficient performance across multiple CPU cor",
+  "founded": 2021,
+  "funding_usd": 44962478,
+  "hc": 54,
+  "hc_yoy": 80,
+  "name": "Zed Industries",
+  "stage": "SERIES_B"
+ },
+ "zefir.fr": {
+  "desc": "Zefir offers a platform for collective real estate sales that leverages artificial intelligence to enhance the efficiency of property transactions, enabling homes to be s",
+  "founded": 2002,
+  "funding_usd": 56870157,
+  "hc": 130,
+  "hc_yoy": 44,
+  "name": "Zefir",
+  "stage": "SERIES_B"
+ },
+ "zefram.com": {
+  "desc": "At Stealth Black, we're building products that assist us humans (especially in a business-to-business context) to have higher-quality conversations and to find solutions ",
+  "founded": 2020,
+  "funding_usd": 1340942,
+  "hc": 9,
+  "hc_yoy": 0,
+  "name": "Stealth Black Oy",
+  "stage": "SEED"
+ },
+ "zeit-ai.com": {
+  "desc": "Zeit AI offers an autonomous data engineering solution that integrates various business systems, such as ERP and CRM, to automate data analytics and generate operational ",
+  "founded": 2024,
+  "funding_usd": 6314025,
+  "hc": 15,
+  "hc_yoy": 114,
+  "name": "Zeit AI (YC S24)",
+  "stage": "SEED"
+ },
+ "zelara.ai": {
+  "desc": "Zelara offers an AI-driven lifecycle system that personalizes customer interactions by generating tailored content and optimizing communication timing based on real-time ",
+  "founded": 2025,
+  "funding_usd": 3404679,
+  "hc": 10,
+  "hc_yoy": 100,
+  "name": "Zelara",
+  "stage": "PRE_SEED"
+ },
+ "zellerfeld.com": {
+  "desc": "Zellerfeld specializes in the production of fully 3D-printed shoes, utilizing an online platform that allows designers to create and sell customized footwear.",
+  "founded": 2016,
+  "funding_usd": 114318722,
+  "hc": 91,
+  "hc_yoy": 72,
+  "name": "Zellerfeld Shoe Company Inc.",
+  "stage": "SERIES_A"
+ },
+ "zelros.com": {
+  "desc": "Earnix is ​​the leader in intelligent and strategic decision-making solutions for pricing, rate deployment, subscription and offer personalization.",
+  "founded": 2001,
+  "funding_usd": 16500000,
+  "hc": 18,
+  "hc_yoy": -31,
+  "name": "Zelros by Earnix",
+  "stage": "EXITED"
+ },
+ "zelt.app": {
+  "desc": "Zelt offers an all-in-one HR and finance platform designed for mid-sized businesses, integrating functionalities such as payroll, benefits administration, time off manage",
+  "founded": 2020,
+  "funding_usd": 10452150,
+  "hc": 46,
+  "hc_yoy": 24,
+  "name": "Zelt",
+  "stage": "SEED"
+ },
+ "zencargo.com": {
+  "desc": "Zencargo offers a digital platform for supply chain management and freight forwarding, utilizing AI-powered capabilities to provide real-time visibility, SKU-level insigh",
+  "founded": 2016,
+  "funding_usd": 68026940,
+  "hc": 146,
+  "hc_yoy": 15,
+  "name": "Zencargo",
+  "stage": "SERIES_B"
+ },
+ "zendesk.com": {
+  "desc": "Zendesk offers an AI-first service platform designed to enhance customer and employee service by managing inquiries across multiple channels, including messaging, voice, ",
+  "founded": 2005,
+  "funding_usd": 237300000,
+  "hc": 7674,
+  "hc_yoy": 6,
+  "name": "Zendesk",
+  "stage": "EXITED"
+ },
+ "zenefits.com": {
+  "desc": "TriNet offers comprehensive HR solutions for small and medium-sized businesses, including payroll processing, benefits management, and compliance support, all delivered t",
+  "founded": 2012,
+  "funding_usd": 583600000,
+  "hc": 211,
+  "hc_yoy": -11,
+  "name": "TriNet Zenefits",
+  "stage": "EXITED"
+ },
+ "zenly.com": {
+  "desc": "The company's main product is a location-based app designed to help users track their friends' whereabouts and activities, with a focus on strengthening connections and s",
+  "founded": 2011,
+  "funding_usd": 34144000,
+  "hc": 15,
+  "hc_yoy": 7,
+  "name": "Zenly",
+  "stage": "EXITED"
+ },
+ "zenlytic.com": {
+  "desc": "Zenlytic provides an AI-driven data analysis tool that integrates with various platforms like Claude, ChatGPT, Teams, and Slack, enabling users to access consistent and g",
+  "founded": 2018,
+  "funding_usd": 15400000,
+  "hc": 23,
+  "hc_yoy": 44,
+  "name": "Zenlytic",
+  "stage": "SERIES_A"
+ },
+ "zenmate.com": {
+  "desc": "ZenMate offers a Virtual Private Network (VPN) service that encrypts users' internet connections to enhance privacy and security while browsing online.",
+  "founded": 2013,
+  "funding_usd": 5600000,
+  "hc": 4,
+  "hc_yoy": -20,
+  "name": "ZenMate",
+  "stage": "EXITED"
+ },
+ "zenpark.com": {
+  "desc": "Zenpark offers a platform for reserving and renting parking spaces on an hourly, daily, or monthly basis, utilizing a patented technology that connects users with availab",
+  "founded": 2011,
+  "funding_usd": 20756797,
+  "hc": 29,
+  "hc_yoy": -37,
+  "name": "Zenpark",
+  "stage": "EXITED"
+ },
+ "zenpayroll.com": {
+  "desc": "Gusto provides an integrated platform that automates payroll, benefits, and HR services for small businesses, processing significant payroll volumes and offering employee",
+  "founded": 2011,
+  "funding_usd": 1050757743,
+  "hc": 5228,
+  "hc_yoy": 44,
+  "name": "Gusto",
+  "stage": "SERIES_E"
+ },
+ "zenyard.ai": {
+  "desc": "Zenyard offers AI-powered tools for reverse engineering and malware analysis, enabling development teams to assess the safety of third-party software by transforming comp",
+  "founded": 2025,
+  "funding_usd": null,
+  "hc": 8,
+  "hc_yoy": 14,
+  "name": "Zenyard",
+  "stage": "PRE_SEED"
+ },
+ "zero44.eu": {
+  "desc": "ZERO44 offers a software solution that integrates vessel data, contracts, and carbon registries into a unified carbon ledger, facilitating compliance with carbon regulati",
+  "founded": 2022,
+  "funding_usd": 3598025,
+  "hc": 15,
+  "hc_yoy": -21,
+  "name": "ZERO44",
+  "stage": "SEED"
+ },
+ "zeroheight.com": {
+  "desc": "The main product is a design system platform that enables teams to create, manage, and maintain design systems by consolidating styles, tokens, guidelines, code, componen",
+  "founded": 2015,
+  "funding_usd": 10698274,
+  "hc": 54,
+  "hc_yoy": 2,
+  "name": "zeroheight",
+  "stage": "SERIES_A"
+ },
+ "zerophase.de": {
+  "desc": "ZeroPhase develops a software-defined communication system designed for unmanned platforms, focusing on ultra-long-range, high-throughput data links that ensure reliable ",
+  "founded": 2025,
+  "funding_usd": 6802796,
+  "hc": 13,
+  "hc_yoy": 117,
+  "name": "ZeroPhase",
+  "stage": "SEED"
+ },
+ "zervant.com": {
+  "desc": "Zervant offers an integrated platform that simplifies financial administration for small business owners, providing tools for invoicing, accounting, payroll, banking, and",
+  "founded": 2010,
+  "funding_usd": 14678352,
+  "hc": 6,
+  "hc_yoy": -14,
+  "name": "Zervant by Shine",
+  "stage": "SERIES_B"
+ },
+ "zerynth.com": {
+  "desc": "Zerynth offers an industrial platform that facilitates the digital transformation of manufacturing processes by connecting machines, data, and people through IoT hardware",
+  "founded": 2015,
+  "funding_usd": 7865846,
+  "hc": 44,
+  "hc_yoy": 16,
+  "name": "Zerynth",
+  "stage": "SERIES_A"
+ },
+ "zevvy.ch": {
+  "desc": "Zevvy offers an online platform designed for managing and billing energy and ancillary costs specifically for apartment building owners, utilizing automation technologies",
+  "founded": 2017,
+  "funding_usd": 2023504,
+  "hc": 7,
+  "hc_yoy": 0,
+  "name": "zevvy",
+  "stage": "SEED"
+ },
+ "zml.ai": {
+  "desc": "ZML offers a production inference stack designed to optimize AI workloads across various hardware platforms without the need for code rewriting.",
+  "founded": 2023,
+  "funding_usd": 20488302,
+  "hc": 18,
+  "hc_yoy": 64,
+  "name": "ZML",
+  "stage": "SERIES_A"
+ },
+ "zocks.io": {
+  "desc": "Zocks is an AI assistant designed for financial advisors, automating tasks such as meeting notes, client emails, and form completion by integrating with CRM systems to en",
+  "founded": 2022,
+  "funding_usd": 64300000,
+  "hc": 198,
+  "hc_yoy": 154,
+  "name": "Zocks | AI for Advisors",
+  "stage": "SERIES_B"
+ },
+ "zoominsoftware.com": {
+  "desc": "Zoomin offers an intelligent platform that consolidates various forms of documentation, such as manuals and support articles, into a unified source of information accessi",
+  "founded": 2014,
+  "funding_usd": 73000000,
+  "hc": 47,
+  "hc_yoy": -20,
+  "name": "Zoomin",
+  "stage": "EXITED"
+ },
+ "zooz.com": {
+  "desc": "PayU Enterprise offers a payment platform designed for enterprise merchants, featuring a control center for managing payment operations, customizable checkout options, an",
+  "founded": 2010,
+  "funding_usd": 39500000,
+  "hc": 30,
+  "hc_yoy": -40,
+  "name": "PayU Enterprise (Formerly ZOOZ)",
+  "stage": "EXITED"
+ },
+ "zopa.com": {
+  "desc": "Zopa offers a range of financial products including personal loans, credit cards, and fixed-term savings accounts, utilizing advanced technology to streamline the borrowi",
+  "founded": 2004,
+  "funding_usd": 1064734738,
+  "hc": 1043,
+  "hc_yoy": 19,
+  "name": "Zopa Bank",
+  "stage": null
+ },
+ "zygon.tech": {
+  "desc": "Zygon offers a comprehensive identity governance solution that automates access management and streamlines the identity lifecycle across various applications, including t",
+  "founded": 2022,
+  "funding_usd": 3000000,
+  "hc": 3,
+  "hc_yoy": -57,
+  "name": "Zygon",
+  "stage": "SEED"
+ },
+ "zylon.ai": {
+  "desc": "PrivateGPT provides an open-source API layer designed for building private AI applications that run locally, enabling developers to create production-ready applications w",
+  "founded": 2023,
+  "funding_usd": 3200000,
+  "hc": 12,
+  "hc_yoy": 9,
+  "name": "Zylon",
+  "stage": "PRE_SEED"
+ },
+ "zymego.com": {
+  "desc": "Zymego provides a healthtech solution that automates the management of appointment cancellations, enabling healthcare providers to fill empty slots quickly and efficientl",
+  "founded": 2020,
+  "funding_usd": 5779029,
+  "hc": 19,
+  "hc_yoy": 27,
+  "name": "Zymego",
+  "stage": null
+ },
+ "zyper.co": {
+  "desc": "Zyper is a P2P software platform that helps you identify, manage and maintain the top 1% of your brand fans.",
+  "founded": null,
+  "funding_usd": null,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Zyper",
+  "stage": null
  }
 }
