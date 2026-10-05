@@ -96,7 +96,22 @@ for key, cfg in REGION_CFG.items():
             als = sorted({_nrm_inv(a) for a in [e["name"]] + FUND_ALIASES.get(e["slug"], []) if _nrm_inv(a)})
             e["liveAliases"] = als
             e["liveTerm"] = min((a for a in als if len(a) >= 4), key=len, default=e["name"])
-    attach_dealflow(ents, load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}), aff_dump)
+    # dealflow blocklist: Harmonic occasionally mis-merges a startup's round onto
+    # an unrelated corporate record (e.g. E.ON SE carrying an Aug-26 "seed");
+    # verified bad ids are filtered everywhere a deal row can surface.
+    _df_block = {b.get("harmonic_company_id")
+                 for b in load_json(f"{ROOT}/data/enrich/dealflow-blocklist.json", []) or []}
+    _df = load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}) or {}
+    if _df_block:
+        _df = {s: ([x for x in rows if isinstance(x, dict)
+                    and x.get("harmonic_company_id") not in _df_block]
+                   if isinstance(rows, list) else rows)
+               for s, rows in _df.items()}
+        for e in ents:
+            if e.get("untracked"):
+                e["untracked"] = [u for u in e["untracked"]
+                                  if u.get("harmonic_company_id") not in _df_block]
+    attach_dealflow(ents, _df, aff_dump)
     htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
                                      htc_owners)
     # Unframe combined priority: brain score blended equally with note priority and
