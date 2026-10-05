@@ -1642,8 +1642,8 @@ function toggleRow(slug, chip){
 }
 function labels(){
   const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
-  document.getElementById('pagetitle').textContent = `Highland's ${D.regions[state.region].adj} VC Ecosystem Coverage`;
-  document.getElementById('subcount').textContent = `The ${f} ${D.regions[state.region].label} funds that matter most${a?` plus ${a} super-angels`:''}.`;
+  document.getElementById('pagetitle').textContent = `${D.regions[state.region].label} coverage`;
+  document.getElementById('subcount').textContent = `The ${f} funds that matter most${a?` plus ${a} super-angels`:''}.`;
   document.getElementById('fresh').innerHTML = ' Data as of: '+Object.entries(D.freshness).map(([k,v])=>`${k} — ${v}`).join(' · ')+'.';
 }
 // ---------- hash routing ----------
