@@ -9875,6 +9875,900 @@
   "name": "KAZIMI",
   "stage": "PRE_SEED"
  },
+ "keel.so": {
+  "desc": "Keel is an operations platform designed to provide businesses with customizable tools for managing complex workflows, including order management, inventory tracking, and ",
+  "founded": 2022,
+  "funding_usd": 5974415,
+  "hc": 9,
+  "hc_yoy": -31,
+  "name": "Keel",
+  "stage": "SEED"
+ },
+ "keenable.ai": {
+  "desc": "Keenable develops AI infrastructure focused on enhancing web search and knowledge access for large-scale AI applications, aiming to provide efficient systems that allow A",
+  "founded": 2025,
+  "funding_usd": 26000000,
+  "hc": 16,
+  "hc_yoy": 1500,
+  "name": "Keenable.ai",
+  "stage": "SEED"
+ },
+ "keephq.dev": {
+  "desc": "Keep offers an open-source AIOps platform designed for managing alerts and events at scale, integrating with various monitoring systems and providing a unified interface ",
+  "founded": 2023,
+  "funding_usd": 3200000,
+  "hc": 4,
+  "hc_yoy": 33,
+  "name": "Keep",
+  "stage": "EXITED"
+ },
+ "kelaitech.com": {
+  "desc": "KelAI offers an AI-driven investment research engine designed for institutional investors, enabling the investigation, validation, and scaling of investment ideas through",
+  "founded": 2025,
+  "funding_usd": 5500000,
+  "hc": 4,
+  "hc_yoy": 100,
+  "name": "KelAI Capital",
+  "stage": "SEED"
+ },
+ "kenshoo.com": {
+  "desc": "Skai offers an omnichannel platform for commerce media that centralizes various media data, enabling brands to activate campaigns across multiple channels and measure the",
+  "founded": 2006,
+  "funding_usd": 51000000,
+  "hc": 692,
+  "hc_yoy": -3,
+  "name": "Skai",
+  "stage": "SERIES_F"
+ },
+ "kertos.io": {
+  "desc": "Kertos offers a compliance automation platform that integrates various regulatory frameworks, including ISO 27001, DSGVO, and NIS2, to streamline compliance management th",
+  "founded": 2021,
+  "funding_usd": 22038029,
+  "hc": 74,
+  "hc_yoy": 45,
+  "name": "Kertos",
+  "stage": "SERIES_A"
+ },
+ "kerys.software": {
+  "desc": "The main product is a virtualization solution that allows users to seamlessly switch between isolated work environments while ensuring data security and operational effic",
+  "founded": 2024,
+  "funding_usd": 7318269,
+  "hc": 18,
+  "hc_yoy": 38,
+  "name": "KERYS Software",
+  "stage": "PRE_SEED"
+ },
+ "kestra.io": {
+  "desc": "Kestra is an open-source orchestration platform designed for managing workflows across data, AI, infrastructure, and business processes, utilizing a declarative approach ",
+  "founded": 2019,
+  "funding_usd": 36000000,
+  "hc": 69,
+  "hc_yoy": 28,
+  "name": "Kestra",
+  "stage": "SERIES_A"
+ },
+ "ketryx.com": {
+  "desc": "Ketryx offers an AI-driven platform designed for the product lifecycle management of regulated industries, focusing on automating documentation, ensuring traceability, an",
+  "founded": 2021,
+  "funding_usd": 57049994,
+  "hc": 130,
+  "hc_yoy": 23,
+  "name": "Ketryx",
+  "stage": "SERIES_B"
+ },
+ "kewazo.com": {
+  "desc": "KEWAZO offers a robotic solution designed for heavy industry, specifically a battery-powered, remote-controlled lifting robot that automates material handling on construc",
+  "founded": 2016,
+  "funding_usd": 40023755,
+  "hc": 43,
+  "hc_yoy": 16,
+  "name": "KEWAZO",
+  "stage": "SERIES_A"
+ },
+ "keyring.network": {
+  "desc": "Keyring Network provides a compliance solution for financial institutions to securely access decentralized finance (DeFi) through a framework that utilizes zero-knowledge",
+  "founded": 2021,
+  "funding_usd": 7000000,
+  "hc": 13,
+  "hc_yoy": 0,
+  "name": "Keyring Network",
+  "stage": "SEED"
+ },
+ "kimai.com": {
+  "desc": "The company specializes in fine jewelry crafted exclusively from lab-grown diamonds and 18k recycled gold, emphasizing high quality and low environmental impact.",
+  "founded": 2018,
+  "funding_usd": 1517811,
+  "hc": 10,
+  "hc_yoy": -17,
+  "name": "Kimai",
+  "stage": "SEED"
+ },
+ "kime.ai": {
+  "desc": "KIME offers an agentic operating system designed to enhance brand visibility across various AI platforms, utilizing continuous analysis to identify opportunities for impr",
+  "founded": 2025,
+  "funding_usd": 2372452,
+  "hc": 20,
+  "hc_yoy": 233,
+  "name": "KIME",
+  "stage": "PRE_SEED"
+ },
+ "kinnu.xyz": {
+  "desc": "Kinnu offers an AI-powered learning platform designed to enhance the speed and efficiency of knowledge acquisition through cognitive science, memory techniques, and motiv",
+  "founded": 2021,
+  "funding_usd": 8900000,
+  "hc": 14,
+  "hc_yoy": 0,
+  "name": "Kinnu",
+  "stage": "SEED"
+ },
+ "kiro.bio": {
+  "desc": "Kiro provides a platform that leverages artificial intelligence to enhance the interpretation of medical biology results, presenting them in a visual and interactive form",
+  "founded": 2019,
+  "funding_usd": 17443302,
+  "hc": 54,
+  "hc_yoy": -2,
+  "name": "Kiro",
+  "stage": "SERIES_A"
+ },
+ "kive.ai": {
+  "desc": "Kive offers an AI-driven platform for generating product photography and brand visuals, enabling users to create high-quality images quickly and efficiently.",
+  "founded": 2018,
+  "funding_usd": 8823100,
+  "hc": 20,
+  "hc_yoy": 67,
+  "name": "Kive",
+  "stage": "SEED"
+ },
+ "kiwi.com": {
+  "desc": "Kiwi.com offers a travel technology platform that utilizes an advanced algorithm to optimize flight search results, enabling users to discover unique route options and co",
+  "founded": 2012,
+  "funding_usd": 107160710,
+  "hc": 723,
+  "hc_yoy": -25,
+  "name": "Kiwi.com",
+  "stage": null
+ },
+ "kiwicrate.com": {
+  "desc": "KiwiCo offers subscription-based crates that provide hands-on projects focused on science, art, and engineering, catering to various age groups.",
+  "founded": 2011,
+  "funding_usd": 10132760,
+  "hc": 141,
+  "hc_yoy": 5,
+  "name": "KiwiCo, Inc.",
+  "stage": "SERIES_A"
+ },
+ "klaimee.ai": {
+  "desc": "Klaimee provides insurance specifically designed for autonomous AI agents, integrating risk assessment, underwriting, and claims infrastructure to address liability cover",
+  "founded": 2026,
+  "funding_usd": 6000000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Klaimee (YC P26)",
+  "stage": "SEED"
+ },
+ "klearly.eu": {
+  "desc": "Klearly offers a digital payment solution that enables small and medium-sized businesses in Europe to accept payments through smartphones and tablets, effectively transfo",
+  "founded": 2021,
+  "funding_usd": 22401656,
+  "hc": 62,
+  "hc_yoy": 107,
+  "name": "Klearly",
+  "stage": "SERIES_A"
+ },
+ "kleio.ai": {
+  "desc": "Autodm AI provides a Conversational AI platform that utilizes Generative AI and natural language processing to enhance customer interactions by capturing user intent and ",
+  "founded": 2023,
+  "funding_usd": 3251628,
+  "hc": 11,
+  "hc_yoy": -8,
+  "name": "Autodm AI",
+  "stage": "SEED"
+ },
+ "klineo.fr": {
+  "desc": "Klineo provides a platform that utilizes artificial intelligence algorithms to match cancer patients with relevant clinical trials, streamlining the identification proces",
+  "founded": 2021,
+  "funding_usd": 3234725,
+  "hc": 13,
+  "hc_yoy": 0,
+  "name": "Klineo",
+  "stage": "SEED"
+ },
+ "klu.ai": {
+  "desc": "Klu.ai offers a platform for developing and optimizing applications that utilize large language models (LLMs), featuring tools for collaborative prompt design, model fine",
+  "founded": 2020,
+  "funding_usd": 1690715,
+  "hc": 1,
+  "hc_yoy": -50,
+  "name": "Klu.ai",
+  "stage": "PRE_SEED"
+ },
+ "klu.so": {
+  "desc": "Klu is a meeting automation platform that integrates with calendar systems to automatically track meetings, transcribe discussions, summarize key points, and extract acti",
+  "founded": 2022,
+  "funding_usd": 125000,
+  "hc": 14,
+  "hc_yoy": 0,
+  "name": "Klu",
+  "stage": "PRE_SEED"
+ },
+ "knowunity.de": {
+  "desc": "The main product is an AI-powered learning companion designed to assist students with a wide range of subjects by providing study materials, personalized study plans, and",
+  "founded": 2019,
+  "funding_usd": 53959568,
+  "hc": 151,
+  "hc_yoy": 13,
+  "name": "Knowunity",
+  "stage": "SERIES_B"
+ },
+ "koalitycode.com": {
+  "desc": "This website is for sale! koalitycode.com is your first and best source for all the information you are looking for.",
+  "founded": 2012,
+  "funding_usd": 1800000,
+  "hc": 5,
+  "hc_yoy": 0,
+  "name": "Koality",
+  "stage": "SEED"
+ },
+ "kobojo.com": {
+  "desc": "The main product is a multiplayer game featuring hand-drawn graphics and intricate gameplay mechanics designed for a wide audience.",
+  "founded": 2007,
+  "funding_usd": 14700000,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Kobojo",
+  "stage": "SERIES_B"
+ },
+ "kog.ai": {
+  "desc": "Kog offers a real-time AI platform centered around its Kog Inference Engine, which is designed to optimize GPU performance for rapid token generation, achieving speeds of",
+  "founded": 2023,
+  "funding_usd": null,
+  "hc": 20,
+  "hc_yoy": -9,
+  "name": "Kog",
+  "stage": "SEED"
+ },
+ "kohort.io": {
+  "desc": "Kohort offers a growth platform for mobile gaming studios that integrates user acquisition optimization, cohort-based lifetime value forecasting, and non-dilutive financi",
+  "founded": 2018,
+  "funding_usd": 14870000,
+  "hc": 26,
+  "hc_yoy": 0,
+  "name": "Kohort",
+  "stage": "SERIES_A"
+ },
+ "kolet.com": {
+  "desc": "Kolet offers a travel eSIM that provides global data connectivity across 190 destinations, allowing users to activate their service in under two minutes without the need ",
+  "founded": 2024,
+  "funding_usd": 16584655,
+  "hc": 33,
+  "hc_yoy": 38,
+  "name": "Kolet",
+  "stage": "SERIES_A"
+ },
+ "komi.io": {
+  "desc": "KOMI provides a comprehensive platform that connects creators and brands, facilitating creator marketing through an end-to-end workflow solution that includes AI-powered ",
+  "founded": 2019,
+  "funding_usd": 18595000,
+  "hc": 82,
+  "hc_yoy": 2,
+  "name": "KOMI",
+  "stage": "SERIES_A"
+ },
+ "komodor.com": {
+  "desc": "Komodor offers an Autonomous AI SRE Platform designed to detect, resolve, and prevent production issues in cloud-native environments, utilizing advanced AI technologies f",
+  "founded": 2020,
+  "funding_usd": 67000000,
+  "hc": 116,
+  "hc_yoy": 29,
+  "name": "Komodor",
+  "stage": "SERIES_B"
+ },
+ "kontainers.co.uk": {
+  "name": null
+ },
+ "kontakt.io": {
+  "desc": "Kontakt.io offers an AI-driven platform designed to enhance healthcare operations by providing real-time insights and predictive analytics for asset management, patient f",
+  "founded": 2013,
+  "funding_usd": 68297964,
+  "hc": 160,
+  "hc_yoy": 14,
+  "name": "Kontakt.io",
+  "stage": "SERIES_C"
+ },
+ "kontext.security": {
+  "desc": "Kontext provides a runtime security layer for AI agents, enabling real-time control over agent actions by evaluating their intent and enforcing authorization before any p",
+  "founded": 2025,
+  "funding_usd": 4000000,
+  "hc": 4,
+  "hc_yoy": 33,
+  "name": "Kontext",
+  "stage": "SEED"
+ },
+ "korint.io": {
+  "desc": "Korint offers an AI-native insurance platform that encompasses policy administration, distribution, pricing, and claims management, designed to integrate seamlessly with ",
+  "founded": 2022,
+  "funding_usd": 7730582,
+  "hc": 25,
+  "hc_yoy": 47,
+  "name": "Korint Insurtech",
+  "stage": "SEED"
+ },
+ "kosli.com": {
+  "desc": "Kosli provides governance infrastructure for the software development lifecycle (SDLC) specifically designed for regulated industries, enabling the engineering of control",
+  "founded": 2019,
+  "funding_usd": 13450000,
+  "hc": 31,
+  "hc_yoy": 15,
+  "name": "Kosli",
+  "stage": "SERIES_A"
+ },
+ "kota.io": {
+  "desc": "Kota provides a global benefits management platform that consolidates various employee benefits, such as health insurance and retirement plans, while ensuring compliance ",
+  "founded": 2022,
+  "funding_usd": 22244702,
+  "hc": 204,
+  "hc_yoy": 55,
+  "name": "Kota",
+  "stage": "SERIES_A"
+ },
+ "kotcha.com": {
+  "desc": "Kotcha offers a personalized adaptive training app for runners, utilizing a method that incorporates tailored training plans based on individual performance metrics and g",
+  "founded": 2025,
+  "funding_usd": 4062964,
+  "hc": 13,
+  "hc_yoy": 225,
+  "name": "Kotcha",
+  "stage": "PRE_SEED"
+ },
+ "kovant.com": {
+  "desc": "Kovant offers a platform that deploys autonomous AI agents to enhance enterprise supply-chain operations, functioning as digital workers with built-in governance and over",
+  "founded": 2024,
+  "funding_usd": 3460333,
+  "hc": 12,
+  "hc_yoy": 200,
+  "name": "Kovant",
+  "stage": "SEED"
+ },
+ "koyeb.com": {
+  "desc": "Koyeb offers a serverless platform designed for running AI applications, enabling the deployment of workloads across CPUs, GPUs, and accelerators without the need for inf",
+  "founded": 2019,
+  "funding_usd": 13680000,
+  "hc": 18,
+  "hc_yoy": -28,
+  "name": "Koyeb",
+  "stage": "EXITED"
+ },
+ "kreatize.com": {
+  "desc": "KREATIZE offers a cloud-based software solution designed for the procurement and analysis of mechanical components, leveraging a network of over 40 certified manufacturin",
+  "founded": 2015,
+  "funding_usd": 6344000,
+  "hc": 2,
+  "hc_yoy": -67,
+  "name": "KREATIZE GmbH",
+  "stage": null
+ },
+ "kubolabs.io": {
+  "desc": "Kubo Labs offers tools designed to identify and resolve issues within Kubernetes clusters, specifically through KuboVisor for real-time detection of security and performa",
+  "founded": 2019,
+  "funding_usd": 1718220,
+  "hc": 2,
+  "hc_yoy": -60,
+  "name": "Kubo Labs",
+  "stage": "EXITED"
+ },
+ "kubusinfo.nl": {
+  "desc": "KUBUS specializes in BIM software solutions, providing tools that facilitate collaborative design and construction processes, including a cloud-based issue management sys",
+  "founded": 1992,
+  "funding_usd": null,
+  "hc": 97,
+  "hc_yoy": -8,
+  "name": "KUBUS BV",
+  "stage": null
+ },
+ "kudo.ai": {
+  "desc": "The company offers a platform for live speech translation and captions, enabling multilingual communication in virtual or hybrid meetings and events through AI-powered sp",
+  "founded": 2016,
+  "funding_usd": 27000000,
+  "hc": 191,
+  "hc_yoy": 6,
+  "name": "KUDO",
+  "stage": "SERIES_A"
+ },
+ "kudoway.com": {
+  "desc": "The company offers a platform for live speech translation and captions, enabling multilingual communication in virtual or hybrid meetings and events through AI-powered sp",
+  "founded": 2016,
+  "funding_usd": 27000000,
+  "hc": 191,
+  "hc_yoy": 6,
+  "name": "KUDO",
+  "stage": "SERIES_A"
+ },
+ "kulipa.xyz": {
+  "desc": "Kulipa offers a payment infrastructure that utilizes stablecoins to facilitate global transactions, enabling the issuance of both physical and virtual cards linked to sel",
+  "founded": 2023,
+  "funding_usd": 9240000,
+  "hc": 21,
+  "hc_yoy": -5,
+  "name": "Kulipa",
+  "stage": "SEED"
+ },
+ "kumuluswater.com": {
+  "desc": "Your drinking water from air.",
+  "founded": 2020,
+  "funding_usd": 4619295,
+  "hc": 30,
+  "hc_yoy": 3,
+  "name": "Kumulus Water",
+  "stage": "SEED"
+ },
+ "kuro.technology": {
+  "desc": "Kuro offers an AI-driven automation platform designed specifically for general contractors, enabling the integration of fragmented project data into actionable insights w",
+  "founded": 2024,
+  "funding_usd": 11236585,
+  "hc": 21,
+  "hc_yoy": 91,
+  "name": "Kuro",
+  "stage": "PRE_SEED"
+ },
+ "kurtosistech.com": {
+  "desc": "Kurtosis offers an open-source development environment engine specifically designed for blockchain infrastructure, enabling teams to manage and deploy containerized appli",
+  "founded": 2020,
+  "funding_usd": 22500000,
+  "hc": 2,
+  "hc_yoy": -60,
+  "name": "Kurtosis Technologies",
+  "stage": "SERIES_A"
+ },
+ "kustom.co": {
+  "desc": "Kustom is one of Europe’s leading checkout solutions, helping merchants grow through a high-conversion, low-complexity, and highly customizable setup.",
+  "founded": 2024,
+  "funding_usd": 39235603,
+  "hc": 127,
+  "hc_yoy": 18,
+  "name": "Kustom",
+  "stage": "SERIES_A"
+ },
+ "kuvaspace.com": {
+  "desc": "The main product is a planetary intelligence platform that utilizes a network of satellites to provide near real-time insights into various sectors, including agriculture",
+  "founded": 2016,
+  "funding_usd": 34259605,
+  "hc": 56,
+  "hc_yoy": 22,
+  "name": "Kuva Space",
+  "stage": "SERIES_A"
+ },
+ "kvantify.com": {
+  "desc": "Kvantify develops software that integrates quantum and classical computing to enhance molecular discovery, particularly in drug development.",
+  "founded": 2022,
+  "funding_usd": 64981570,
+  "hc": 56,
+  "hc_yoy": 4,
+  "name": "Kvantify",
+  "stage": "SEED"
+ },
+ "kwaga.com": {
+  "desc": "The company specializes in developing advanced technologies to enhance email inboxes and address books, focusing on increasing their intelligence and efficiency.",
+  "founded": 2008,
+  "funding_usd": 3418231,
+  "hc": 4,
+  "hc_yoy": 0,
+  "name": "Kwaga",
+  "stage": "SERIES_B"
+ },
+ "kyber.tech": {
+  "desc": "Kyber provides real-time infrastructure for controlling various machines, including robots, drones, and remote desktops, with an average latency of 8 milliseconds, enabli",
+  "founded": 2022,
+  "funding_usd": 5000000,
+  "hc": 30,
+  "hc_yoy": 11,
+  "name": "Kyber",
+  "stage": "SEED"
+ },
+ "kyos.com": {
+  "desc": "KYOS provides advanced valuation and optimization solutions for energy and commodity markets through a comprehensive software platform that integrates portfolio managemen",
+  "founded": 2008,
+  "funding_usd": null,
+  "hc": 49,
+  "hc_yoy": 14,
+  "name": "KYOS Energy Consulting B.V.",
+  "stage": null
+ },
+ "la-solive.com": {
+  "desc": "The main service offered involves training courses focused on the energy renovation of buildings, equipping participants with practical skills and technical knowledge nec",
+  "founded": 2021,
+  "funding_usd": 5927142,
+  "hc": 10,
+  "hc_yoy": -9,
+  "name": "La Solive",
+  "stage": "SERIES_A"
+ },
+ "labellevie.com": {
+  "desc": "The company offers an online grocery delivery service that provides a wide selection of products, including organic options, with a focus on fast delivery in the Paris re",
+  "founded": 2014,
+  "funding_usd": 50031883,
+  "hc": 216,
+  "hc_yoy": -6,
+  "name": "Labellevie.com",
+  "stage": "SERIES_B"
+ },
+ "lablabee.com": {
+  "desc": "LabLabee provides an AI-driven platform designed for telecom teams, focusing on hands-on labs, digital twins, and AI agents to facilitate testing and troubleshooting.",
+  "founded": 2020,
+  "funding_usd": 4916557,
+  "hc": 39,
+  "hc_yoy": -2,
+  "name": "LabLabee",
+  "stage": "SEED"
+ },
+ "labos.co": {
+  "desc": "LabOS offers a cloud-based laboratory information system designed to streamline workflows across various lab departments, utilizing advanced technologies such as AI and m",
+  "founded": 1996,
+  "funding_usd": null,
+  "hc": 194,
+  "hc_yoy": -3,
+  "name": "LabOS",
+  "stage": null
+ },
+ "labrys.tech": {
+  "desc": "Labrys Technologies offers Axiom, a mobile-first platform designed to cryptographically verify users and media, facilitate coordination among distributed teams, and suppo",
+  "founded": 2020,
+  "funding_usd": 25500000,
+  "hc": 37,
+  "hc_yoy": 19,
+  "name": "Labrys",
+  "stage": "SERIES_A"
+ },
+ "lacelithography.com": {
+  "desc": "Lace Lithography develops BEUV (Beyond-EUV) atom lithography systems aimed at advancing chip patterning technology for future semiconductor production.",
+  "founded": 2023,
+  "funding_usd": 80000000,
+  "hc": 56,
+  "hc_yoy": 60,
+  "name": "Lace Lithography",
+  "stage": "SERIES_A"
+ },
+ "lacollection.io": {
+  "desc": "The company offers a digital art platform that facilitates the promotion and sale of digital artworks, leveraging partnerships with museums and artists to enhance the exp",
+  "founded": 2021,
+  "funding_usd": 10400000,
+  "hc": 5,
+  "hc_yoy": -38,
+  "name": "laCollection.io",
+  "stage": "SEED"
+ },
+ "lafraise.pro": {
+  "desc": "The main product is a digital platform that streamlines the management and signing of dental quotes, enhancing patient engagement through features like online consent, se",
+  "founded": 2024,
+  "funding_usd": 3500000,
+  "hc": 20,
+  "hc_yoy": 300,
+  "name": "La Fraise",
+  "stage": "SEED"
+ },
+ "laminar.sh": {
+  "desc": "Laminar is an open-source observability platform designed for monitoring AI agents, automatically capturing various operational metrics such as LLM calls, tool interactio",
+  "founded": 2024,
+  "funding_usd": 3500000,
+  "hc": 5,
+  "hc_yoy": 25,
+  "name": "Laminar (YC S24)",
+  "stage": "SEED"
+ },
+ "lamudi.com": {
+  "desc": "Lamudi operates online property marketplaces that facilitate the buying, selling, and renting of residential and commercial real estate across multiple countries.",
+  "founded": 2013,
+  "funding_usd": 56400000,
+  "hc": 196,
+  "hc_yoy": -10,
+  "name": "Lamudi",
+  "stage": "SERIES_B"
+ },
+ "landacquisition.com": {
+  "desc": "The company offers a service that facilitates the acquisition of funding for technical businesses, specifically targeting the installation of solar energy systems on comm",
+  "founded": 2021,
+  "funding_usd": null,
+  "hc": 59,
+  "hc_yoy": 392,
+  "name": "Landacquisition.com GmbH",
+  "stage": null
+ },
+ "landh.tech": {
+  "desc": "Depi provides a security solution that identifies vulnerabilities within software dependencies, packages, and CI/CD pipelines, focusing on the maintainers associated with",
+  "founded": 2023,
+  "funding_usd": 5900000,
+  "hc": 13,
+  "hc_yoy": 0,
+  "name": "Depi",
+  "stage": "PRE_SEED"
+ },
+ "landmark.games": {
+  "desc": "The company develops free-to-play mobile games that emphasize social interactions and multiplayer experiences, leveraging proprietary technology to improve player connect",
+  "founded": 2021,
+  "funding_usd": 5660000,
+  "hc": 14,
+  "hc_yoy": 0,
+  "name": "Landmark Games",
+  "stage": "SEED"
+ },
+ "langwatch.ai": {
+  "desc": "LangWatch provides a platform for testing and evaluating AI agents through simulation-based methodologies, allowing teams to assess agent performance in realistic multi-t",
+  "founded": 2023,
+  "funding_usd": 1160670,
+  "hc": 9,
+  "hc_yoy": 0,
+  "name": "LangWatch",
+  "stage": "PRE_SEED"
+ },
+ "lap.coffee": {
+  "desc": "LAP operates a coffee chain that focuses on providing high-quality coffee products through micro-size hubs, allowing for convenient grab-and-go service.",
+  "founded": 2022,
+  "funding_usd": 100000,
+  "hc": 86,
+  "hc_yoy": 56,
+  "name": "LAP Coffee",
+  "stage": "PRE_SEED"
+ },
+ "laserhub.com": {
+  "desc": "The company offers a digital platform for the procurement of custom metal and plastic parts, streamlining the process from inquiry to order and delivery.",
+  "founded": 2017,
+  "funding_usd": 3150000,
+  "hc": 63,
+  "hc_yoy": 15,
+  "name": "Laserhub GmbH",
+  "stage": "SERIES_B"
+ },
+ "latent-technology.com": {
+  "desc": "Latent Technology develops next-generation animation technology for virtual worlds, utilizing real-time generative physics to create dynamic character animations that res",
+  "founded": 2022,
+  "funding_usd": 10083115,
+  "hc": 14,
+  "hc_yoy": 56,
+  "name": "Latent Technology",
+  "stage": "SEED"
+ },
+ "latentlabs.com": {
+  "desc": "The company focuses on generative AI models for the design and optimization of biological molecules, particularly in protein binder design and enzyme optimization.",
+  "founded": 2023,
+  "funding_usd": 60000000,
+  "hc": 28,
+  "hc_yoy": 33,
+  "name": "Latent Labs",
+  "stage": "SERIES_A"
+ },
+ "latentspace.dev": {
+  "desc": "The main product is an AI-driven data analysis platform that integrates with over 650 tools, enabling businesses to automate reporting, monitor performance, and gain insi",
+  "founded": 2023,
+  "funding_usd": 500000,
+  "hc": 7,
+  "hc_yoy": 75,
+  "name": "Menza",
+  "stage": "PRE_SEED"
+ },
+ "latitude.eu": {
+  "desc": "The company offers a dedicated launch service for small satellites, utilizing a 20-meter tall launcher designed for agility, reliability, and cost-efficiency, with the ca",
+  "founded": 2018,
+  "funding_usd": 41535238,
+  "hc": 212,
+  "hc_yoy": 3,
+  "name": "Latitude",
+  "stage": "SERIES_B"
+ },
+ "launchmetrics.com": {
+  "desc": "Launchmetrics offers an AI-powered Brand Performance Cloud that integrates software and data to facilitate campaign launches, amplify brand reach, and measure return on i",
+  "founded": 2000,
+  "funding_usd": 66335570,
+  "hc": 351,
+  "hc_yoy": 1,
+  "name": "Launchmetrics",
+  "stage": "SERIES_B"
+ },
+ "laviefoods.com": {
+  "desc": "The company offers plant-based meat alternatives designed to replicate traditional products like bacon and ham, utilizing a patented combination of vegetable fat and text",
+  "founded": 2019,
+  "funding_usd": 58935673,
+  "hc": 42,
+  "hc_yoy": 0,
+  "name": "LA VIE™",
+  "stage": "SERIES_A"
+ },
+ "leadbay.ai": {
+  "desc": "Leadbay provides a platform that utilizes AI to qualify and deliver contextual leads for B2B sales representatives, integrating internal and external datasets to refine t",
+  "founded": 2023,
+  "funding_usd": 4805062,
+  "hc": 22,
+  "hc_yoy": 38,
+  "name": "Leadbay (YC F25)",
+  "stage": "SEED"
+ },
+ "leanlinking.com": {
+  "desc": "The main product is a cloud-based Supplier Relationship Management (SRM) platform that centralizes supplier data from various sources, allowing for the tracking of perfor",
+  "founded": 2012,
+  "funding_usd": 2617000,
+  "hc": 10,
+  "hc_yoy": -44,
+  "name": "LeanLinking",
+  "stage": "SEED"
+ },
+ "leapsome.com": {
+  "desc": "The main product is an AI-powered HR platform that integrates various functions such as HRIS, recruiting, and talent management, allowing organizations to manage the enti",
+  "founded": 2016,
+  "funding_usd": 60000000,
+  "hc": 138,
+  "hc_yoy": 2,
+  "name": "Leapsome",
+  "stage": "SERIES_A"
+ },
+ "leavy.co": {
+  "desc": "Leavy.co offers a community-driven travel marketplace that enables users to rent their spaces or become hosts, facilitating affordable travel options.",
+  "founded": 2017,
+  "funding_usd": 23880000,
+  "hc": 17,
+  "hc_yoy": -6,
+  "name": "Leavy.co",
+  "stage": "SEED"
+ },
+ "lecturio.com": {
+  "desc": "Lecturio offers a digital medical education platform designed to enhance learning for healthcare students and professionals through adaptive and personalized tools.",
+  "founded": 2008,
+  "funding_usd": 58166667,
+  "hc": 115,
+  "hc_yoy": 7,
+  "name": "Lecturio",
+  "stage": "SERIES_B"
+ },
+ "ledge.co": {
+  "desc": "Ledge is an AI-driven platform designed to assist finance teams by automating the bookkeeping process, enabling continuous updates and real-time visibility into financial",
+  "founded": 2022,
+  "funding_usd": 9000000,
+  "hc": 45,
+  "hc_yoy": 18,
+  "name": "Ledge",
+  "stage": "SEED"
+ },
+ "ledgerwallet.com": {
+  "desc": "Ledger offers a range of hardware wallets designed to securely manage digital assets and facilitate transactions in the cryptocurrency space.",
+  "founded": 2014,
+  "funding_usd": 575417104,
+  "hc": 765,
+  "hc_yoy": 7,
+  "name": "Ledger",
+  "stage": "SERIES_C"
+ },
+ "ledgy.com": {
+  "desc": "Ledgy offers a platform for managing equity and share plans, utilizing automation to streamline processes and maintain audit readiness.",
+  "founded": 2017,
+  "funding_usd": 32791262,
+  "hc": 84,
+  "hc_yoy": 25,
+  "name": "Ledgy",
+  "stage": "SERIES_B"
+ },
+ "lefourgon.com": {
+  "desc": "The company offers a delivery service for a wide range of products, including beverages, dairy, and household items, utilizing a returnable packaging system to minimize w",
+  "founded": 2021,
+  "funding_usd": 37877752,
+  "hc": 217,
+  "hc_yoy": 25,
+  "name": "Le Fourgon",
+  "stage": "SERIES_A"
+ },
+ "leia.health": {
+  "desc": "LEIA Health offers a platform designed to streamline the management of parental leave through automation, providing a structured process that supports both parents and ma",
+  "founded": 2021,
+  "funding_usd": 2007686,
+  "hc": 15,
+  "hc_yoy": -32,
+  "name": "LEIA Health",
+  "stage": "PRE_SEED"
+ },
+ "lemfi.com": {
+  "desc": "LemFi offers a financial app that facilitates international money transfers, multi-currency accounts, and savings tools, specifically designed to support users in the Glo",
+  "founded": 2020,
+  "funding_usd": 86850000,
+  "hc": 469,
+  "hc_yoy": 40,
+  "name": "LemFi",
+  "stage": "SERIES_B"
+ },
+ "lemni.com": {
+  "desc": "Lemni offers a platform for creating custom AI agents that facilitate personalized customer interactions across various channels, enabling businesses to manage unlimited ",
+  "founded": 2024,
+  "funding_usd": 3500000,
+  "hc": 2,
+  "hc_yoy": 100,
+  "name": "Lemni",
+  "stage": "PRE_SEED"
+ },
+ "lendstar.io": {
+  "desc": "The company offers a mobile application platform serving as a social financial network, providing users with a comprehensive overview of financial transactions.",
+  "founded": 2013,
+  "funding_usd": 2570517,
+  "hc": 15,
+  "hc_yoy": 0,
+  "name": "Lendstar",
+  "stage": "EXITED"
+ },
+ "lendurai.com": {
+  "desc": "Lendurai specializes in autonomous drone technology that operates independently of global navigation satellite systems and radio control, utilizing computer vision and ma",
+  "founded": 2023,
+  "funding_usd": 6988339,
+  "hc": 15,
+  "hc_yoy": 7,
+  "name": "Lendurai",
+  "stage": "SEED"
+ },
+ "lengow.com": {
+  "desc": "Lengow offers an intelligent e-commerce platform that integrates data management, automation, and AI to enhance performance across various sales channels and marketplaces",
+  "founded": 2009,
+  "funding_usd": 13044842,
+  "hc": 175,
+  "hc_yoy": -4,
+  "name": "Lengow",
+  "stage": "EXITED"
+ },
+ "lesara.com": {
+  "desc": "The company offers a price comparison platform that aggregates a wide range of products across various categories, enabling users to find competitive pricing.",
+  "founded": 2013,
+  "funding_usd": 102777231,
+  "hc": 36,
+  "hc_yoy": -3,
+  "name": "Lesara",
+  "stage": "SERIES_D"
+ },
+ "lets-unify.ai": {
+  "desc": "The company offers AI agents designed to automate various tasks across administrative, sales, accounting, and operational functions, adapting to user needs and improving ",
+  "founded": 2022,
+  "funding_usd": 8500000,
+  "hc": 28,
+  "hc_yoy": -43,
+  "name": "Unify",
+  "stage": "SEED"
+ },
+ "letta.com": {
+  "desc": "Letta provides a platform for building and deploying stateful AI agents that maintain memory and context across interactions, utilizing advanced context management system",
+  "founded": 2024,
+  "funding_usd": 10000000,
+  "hc": 16,
+  "hc_yoy": 0,
+  "name": "Letta",
+  "stage": "SEED"
+ },
+ "lever.co": {
+  "desc": "The main product is an advanced applicant tracking system (ATS) that integrates candidate management with analytics capabilities, enabling talent acquisition teams to str",
+  "founded": 2012,
+  "funding_usd": 129500000,
+  "hc": 198,
+  "hc_yoy": 2,
+  "name": "Lever",
+  "stage": "EXITED"
+ },
+ "levity.ai": {
+  "desc": "Levity offers an AI-driven automation solution designed for logistics operations, focusing on enhancing communication intelligence within the global supply chain by proce",
+  "founded": 2018,
+  "funding_usd": 11020000,
+  "hc": 36,
+  "hc_yoy": 38,
+  "name": "Levity",
+  "stage": "SEED"
+ },
+ "lexoo.com": {
+  "desc": "Lexoo offers a service for reviewing and negotiating routine commercial contracts, utilizing an in-house legal team that can complete this process within two business day",
+  "founded": 2014,
+  "funding_usd": 8271929,
+  "hc": 26,
+  "hc_yoy": 0,
+  "name": "Lexoo",
+  "stage": "SERIES_A"
+ },
+ "liblab.com": {
+  "desc": "The main product is an SDK generator that automates the creation of customizable SDKs for APIs, allowing for seamless integration and maintenance without engineering over",
+  "founded": 2022,
+  "funding_usd": 50000000,
+  "hc": 7,
+  "hc_yoy": -68,
+  "name": "liblab",
+  "stage": "EXITED"
+ },
  "lifen.fr": {
   "desc": "The company offers a suite of solutions designed to streamline the access, organization, and sharing of medical data, enhancing both the quality of care and clinical rese",
   "founded": 2015,
