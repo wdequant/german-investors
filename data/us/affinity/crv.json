@@ -2,5 +2,63 @@
  "slug": "crv",
  "affinity_domain": "crv.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Fergal Mullen",
+   "external": "Jon Auerbach",
+   "externalEmail": "jon@crv.com",
+   "score": 0.73,
+   "last": "2026-09-02",
+   "meet": "2023-09-13"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Izhar Armony",
+   "externalEmail": "izhar@crv.com",
+   "score": 0.38,
+   "last": "2026-09-09",
+   "meet": "2026-09-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "James Green",
+   "externalEmail": "james@crv.com",
+   "score": 0.99,
+   "last": "2024-06-05",
+   "meet": "2024-06-05"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Izhar Armony",
+   "externalEmail": "izhar@crv.com",
+   "score": 0.1,
+   "last": "2026-09-09",
+   "meet": "2026-09-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "James Green",
+   "externalEmail": "jgreen@crv.com",
+   "score": 0.1,
+   "last": "2024-06-05",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Rebecca Charyn",
+   "externalEmail": "rcharyn@crv.com",
+   "score": 0.1,
+   "last": "2024-05-16",
+   "meet": null
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Jenny Sun",
+   "externalEmail": "jenny@crv.com",
+   "score": 0.1,
+   "last": "2024-05-22",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }

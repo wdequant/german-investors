@@ -2,5 +2,23 @@
  "slug": "base10",
  "affinity_domain": "base10.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Sam Brooks",
+   "external": "Rexhi Dollaku",
+   "externalEmail": "rexhi@base10.vc",
+   "score": 0.43,
+   "last": "2026-02-24",
+   "meet": "2018-07-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jackie Chen",
+   "externalEmail": "jackie@base10.vc",
+   "score": 1.0,
+   "last": "2024-09-17",
+   "meet": "2024-09-17"
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }

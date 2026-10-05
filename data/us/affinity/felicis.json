@@ -2,5 +2,63 @@
  "slug": "felicis",
  "affinity_domain": "felicis.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Aydin Senkut",
+   "externalEmail": "aydin@felicis.com",
+   "score": 1.0,
+   "last": "2026-09-14",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Vanessa Paredes",
+   "externalEmail": "vanessa@felicis.com",
+   "score": 0.99,
+   "last": "2025-10-15",
+   "meet": "2024-12-17"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Katrina Guanzon",
+   "externalEmail": "kguanzon@felicis.com",
+   "score": 0.99,
+   "last": "2025-05-13",
+   "meet": "2025-05-13"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jake Storm",
+   "externalEmail": "jake@felicis.com",
+   "score": 0.43,
+   "last": "2025-01-09",
+   "meet": "2022-08-04"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Ryan Isono",
+   "externalEmail": "ryan@felicis.com",
+   "score": 0.35,
+   "last": "2025-09-15",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Aydin Senkut",
+   "externalEmail": "aydin@felicis.com",
+   "score": 0.1,
+   "last": "2026-09-14",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Ryan Isono",
+   "externalEmail": "ryan@felicis.com",
+   "score": 0.1,
+   "last": "2025-09-15",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }
