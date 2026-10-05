@@ -1323,6 +1323,178 @@
    "total_funding_usd": 121572268
   }
  ],
+ "benchmark": [
+  {
+   "name": "Decade Energy",
+   "domain": "decade.energy",
+   "harmonic_company_id": 48325628,
+   "country": "France",
+   "date": "2026-08-06",
+   "round": "SEED",
+   "round_size_usd": 85000000,
+   "total_funding_usd": 114626103
+  },
+  {
+   "name": "Gaim",
+   "domain": "gaim.fun",
+   "harmonic_company_id": 63834708,
+   "country": "United Kingdom",
+   "date": "2025-10-06",
+   "round": "SEED",
+   "round_size_usd": null,
+   "total_funding_usd": null
+  }
+ ],
+ "crv": [
+  {
+   "name": "THEKER Robotics",
+   "domain": "theker.ai",
+   "harmonic_company_id": 49044542,
+   "country": "Spain",
+   "date": "2026-06-11",
+   "round": "SERIES_A",
+   "round_size_usd": 84496624,
+   "total_funding_usd": 107514724
+  }
+ ],
+ "initialized": [
+  {
+   "name": "Seamflow",
+   "domain": "seamflow.com",
+   "harmonic_company_id": 56816763,
+   "country": "United Kingdom",
+   "date": "2026-02-11",
+   "round": "SEED",
+   "round_size_usd": 4500000,
+   "total_funding_usd": 4500000
+  },
+  {
+   "name": "OpenTaco",
+   "domain": "opentaco.dev",
+   "harmonic_company_id": 4260330,
+   "country": "United Kingdom",
+   "date": "2025-06-17",
+   "round": "SEED",
+   "round_size_usd": 3600000,
+   "total_funding_usd": 7007000
+  },
+  {
+   "name": "Beyond Aero",
+   "domain": "beyond-aero.com",
+   "harmonic_company_id": 3813005,
+   "country": "France",
+   "date": "2024-10-28",
+   "round": "SERIES_A",
+   "round_size_usd": 20000000,
+   "total_funding_usd": 47738030
+  },
+  {
+   "name": "kapa.ai",
+   "domain": "kapa.ai",
+   "harmonic_company_id": 12180872,
+   "country": "Denmark",
+   "date": "2024-10-03",
+   "round": "SEED",
+   "round_size_usd": 3200000,
+   "total_funding_usd": 3700000
+  }
+ ],
+ "spark": [
+  {
+   "name": "Latent Technology",
+   "domain": "latent-technology.com",
+   "harmonic_company_id": 11327118,
+   "country": "United Kingdom",
+   "date": "2025-06-06",
+   "round": "SEED",
+   "round_size_usd": 7983115,
+   "total_funding_usd": 10083115
+  },
+  {
+   "name": "Ravio",
+   "domain": "ravio.com",
+   "harmonic_company_id": 4533503,
+   "country": "United Kingdom",
+   "date": "2025-05-08",
+   "round": "SERIES_A",
+   "round_size_usd": 12000000,
+   "total_funding_usd": 22000000
+  }
+ ],
+ "usv": [
+  {
+   "name": "Isembard",
+   "domain": "isembard.com",
+   "harmonic_company_id": 56658675,
+   "country": "United Kingdom",
+   "date": "2026-03-01",
+   "round": "SERIES_A",
+   "round_size_usd": 50000000,
+   "total_funding_usd": 59317497
+  },
+  {
+   "name": "Volteras",
+   "domain": "volteras.com",
+   "harmonic_company_id": 3303406,
+   "country": "United Kingdom",
+   "date": "2025-05-29",
+   "round": "SERIES_A",
+   "round_size_usd": 11100000,
+   "total_funding_usd": 14000000
+  }
+ ],
+ "insight": [
+  {
+   "name": "Passionfroot",
+   "domain": "passionfroot.me",
+   "harmonic_company_id": 3968327,
+   "country": "Germany",
+   "date": "2026-07-01",
+   "round": "SERIES_A",
+   "round_size_usd": 15000000,
+   "total_funding_usd": 22200000
+  },
+  {
+   "name": "BeyondMath",
+   "domain": "beyondmath.com",
+   "harmonic_company_id": 11448158,
+   "country": "United Kingdom",
+   "date": "2026-02-25",
+   "round": "SEED_EXTENSION",
+   "round_size_usd": 10000000,
+   "total_funding_usd": 28887433
+  },
+  {
+   "name": "Runware",
+   "domain": "runware.ai",
+   "harmonic_company_id": 11390047,
+   "country": "United Kingdom",
+   "date": "2025-12-11",
+   "round": "SERIES_A",
+   "round_size_usd": 50000000,
+   "total_funding_usd": 66500000
+  },
+  {
+   "name": "dao",
+   "domain": "daoresidential.de",
+   "harmonic_company_id": 13699157,
+   "country": "Germany",
+   "date": "2025-02-03",
+   "round": "SEED",
+   "round_size_usd": 10256510,
+   "total_funding_usd": 11986283
+  },
+  {
+   "name": "Theo",
+   "domain": "hallotheo.de",
+   "harmonic_company_id": 76463549,
+   "country": "Germany",
+   "date": "2025-02-03",
+   "round": "SEED",
+   "round_size_usd": 10326790,
+   "total_funding_usd": 10326790
+  }
+ ],
  "_gaps": {
   "kleiner-perkins": "Second in-window Harmonic match (Biz AI Last, Romania) excluded as junk data per evidence-pass verdict; only Juna AI verifies at round level",
   "note": "Deal lists are round-level verified: a company counts only if a Seed/Series A family round since 2024-10-01 names the fund in its own investor list. eu_deals_24m in investors.json is the broader Harmonic faceted count from the evidence pass and is intentionally higher."

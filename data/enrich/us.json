@@ -1096,6 +1096,425 @@
      "harmonic_company_id": 21615468
     }
    ]
+  },
+  "benchmark": {
+   "website": "benchmark.com",
+   "partners": [
+    {
+     "name": "Peter Fenton",
+     "title": "General Partner at Benchmark",
+     "linkedin": "https://linkedin.com/in/peter-fenton-0b117"
+    },
+    {
+     "name": "Chetan Puttagunta",
+     "title": "General Partner at Benchmark",
+     "linkedin": "https://linkedin.com/in/chetanputtagunta"
+    },
+    {
+     "name": "Eric Vishria",
+     "title": "General Partner at Benchmark",
+     "linkedin": "https://linkedin.com/in/ericvishria"
+    },
+    {
+     "name": "Sarah Tavel",
+     "title": "General Partner at Benchmark",
+     "linkedin": "https://linkedin.com/in/sarahtavel"
+    },
+    {
+     "name": "Jack Altman",
+     "title": "General Partner at Benchmark",
+     "linkedin": "https://linkedin.com/in/jackealtman"
+    },
+    {
+     "name": "Everett \"Ev\" Randle",
+     "title": "General Partner at Benchmark",
+     "linkedin": "https://linkedin.com/in/everettrandle"
+    },
+    {
+     "name": "Bruce Dunlevie",
+     "title": "General Partner at Benchmark (founding)",
+     "linkedin": "https://linkedin.com/in/bruce-dunlevie-4285603"
+    },
+    {
+     "name": "Mitch Lasky",
+     "title": "General Partner at Benchmark (emeritus)",
+     "linkedin": "https://linkedin.com/in/mitchlasky"
+    }
+   ],
+   "co_investors": [
+    "Benchmark Financial Advisory",
+    "DAG Ventures",
+    "Index Ventures",
+    "SV Angel",
+    "Greylock Partners",
+    "Accel",
+    "Y Combinator",
+    "Sequoia Capital",
+    "New Enterprise Associates (NEA)",
+    "Redpoint"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Decade Energy",
+     "date": "2026-08-06",
+     "round": "SEED",
+     "country": "France",
+     "domain": "decade.energy",
+     "harmonic_company_id": 48325628
+    },
+    {
+     "name": "Gaim",
+     "date": "2025-10-06",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "gaim.fun",
+     "harmonic_company_id": 63834708
+    }
+   ]
+  },
+  "crv": {
+   "website": "crv.com",
+   "partners": [
+    {
+     "name": "Saar Gur",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/saargur"
+    },
+    {
+     "name": "Izhar Armony",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/izhararmony"
+    },
+    {
+     "name": "Jon Auerbach",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/jgauerbach"
+    },
+    {
+     "name": "Murat Bicer",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/mbicer"
+    },
+    {
+     "name": "Reid Christian",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/reidchristian"
+    },
+    {
+     "name": "Brittany Walker",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/brittwalker1"
+    },
+    {
+     "name": "Caitlin Bolnick Rellas",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/caitlinbolnick"
+    },
+    {
+     "name": "James Green",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/james-green-201a4274"
+    },
+    {
+     "name": "Veronica Orellana",
+     "title": "General Partner at CRV",
+     "linkedin": "https://linkedin.com/in/veronica-orellana-b90820114"
+    }
+   ],
+   "co_investors": [
+    "SV Angel",
+    "Y Combinator",
+    "Bessemer Venture Partners",
+    "Andreessen Horowitz",
+    "Sequoia Capital",
+    "General Catalyst",
+    "Accel",
+    "GV (Google Ventures)",
+    "Tiger Global",
+    "Kleiner Perkins"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "THEKER Robotics",
+     "date": "2026-06-11",
+     "round": "SERIES_A",
+     "country": "Spain",
+     "domain": "theker.ai",
+     "harmonic_company_id": 49044542
+    }
+   ]
+  },
+  "initialized": {
+   "website": "initialized.com",
+   "partners": [
+    {
+     "name": "Brett Gibson",
+     "title": "Managing Partner at Initialized Capital",
+     "linkedin": "https://linkedin.com/in/brettdgibson"
+    },
+    {
+     "name": "Alda Leu Dennis",
+     "title": "General Partner at Initialized Capital",
+     "linkedin": "https://linkedin.com/in/aldadennis"
+    },
+    {
+     "name": "Andrew Sather",
+     "title": "Partner at Initialized Capital",
+     "linkedin": "https://linkedin.com/in/andrewsather"
+    },
+    {
+     "name": "Zoe Perret",
+     "title": "Partner at Initialized Capital",
+     "linkedin": "https://linkedin.com/in/zoe-perret"
+    },
+    {
+     "name": "Garry Tan",
+     "title": "Co-founder of Initialized Capital (now President & CEO, Y Combinator)",
+     "linkedin": "https://linkedin.com/in/garrytan"
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "SV Angel",
+    "Liquid 2 Ventures",
+    "Andreessen Horowitz",
+    "Soma Capital",
+    "Alumni Ventures",
+    "Pioneer Fund"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Seamflow",
+     "date": "2026-02-11",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "seamflow.com",
+     "harmonic_company_id": 56816763
+    }
+   ]
+  },
+  "spark": {
+   "website": "sparkcapital.com",
+   "partners": [
+    {
+     "name": "Alex Finkelstein",
+     "title": "General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/finkelsteinalex"
+    },
+    {
+     "name": "Santo Politi",
+     "title": "Founder and General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/santopoliti"
+    },
+    {
+     "name": "Will Reed",
+     "title": "General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/willreed21"
+    },
+    {
+     "name": "Yasmin Razavi",
+     "title": "General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/yasminrazavi"
+    },
+    {
+     "name": "Natalie Vais",
+     "title": "General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/natalievais"
+    },
+    {
+     "name": "James Kuklinski",
+     "title": "General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/jameskuklinski"
+    },
+    {
+     "name": "Clay Fisher",
+     "title": "General Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/clay-fisher-4a044563"
+    },
+    {
+     "name": "Jeremy G. Philips",
+     "title": "Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/jeremyphilips"
+    },
+    {
+     "name": "Kevin Thau",
+     "title": "Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/kevinthau"
+    },
+    {
+     "name": "Fraser Kelton",
+     "title": "Partner at Spark Capital",
+     "linkedin": "https://linkedin.com/in/fraserk"
+    }
+   ],
+   "co_investors": [
+    "Andreessen Horowitz",
+    "SV Angel",
+    "Index Ventures",
+    "Sequoia Capital",
+    "Union Square Ventures",
+    "Y Combinator",
+    "BoxGroup",
+    "Kleiner Perkins",
+    "Thrive Capital",
+    "Accel"
+   ],
+   "recent_untracked_eu": []
+  },
+  "usv": {
+   "website": "usv.com",
+   "partners": [
+    {
+     "name": "Albert Wenger",
+     "title": "Managing Partner at Union Square Ventures",
+     "linkedin": "https://linkedin.com/in/albertwenger"
+    },
+    {
+     "name": "Rebecca Kaden",
+     "title": "General Partner at Union Square Ventures",
+     "linkedin": "https://linkedin.com/in/rebecca-kaden"
+    },
+    {
+     "name": "Nick Grossman",
+     "title": "General Partner at Union Square Ventures",
+     "linkedin": "https://linkedin.com/in/nickgrossman"
+    },
+    {
+     "name": "Michael Mignano",
+     "title": "General Partner at Union Square Ventures",
+     "linkedin": "https://linkedin.com/in/mignano"
+    },
+    {
+     "name": "Nikhil Raman",
+     "title": "Investment Partner at Union Square Ventures",
+     "linkedin": "https://linkedin.com/in/nikhilraman2"
+    },
+    {
+     "name": "Jared Hecht",
+     "title": "Investor at Union Square Ventures",
+     "linkedin": "https://linkedin.com/in/jaredhecht"
+    }
+   ],
+   "co_investors": [
+    "Andreessen Horowitz",
+    "SV Angel",
+    "Spark Capital",
+    "BoxGroup",
+    "Y Combinator",
+    "Index Ventures",
+    "Version One Ventures",
+    "Coinbase",
+    "Alumni Ventures",
+    "Variant"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Isembard",
+     "date": "2026-03-01",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "isembard.com",
+     "harmonic_company_id": 56658675
+    }
+   ]
+  },
+  "insight": {
+   "website": "insightpartners.com",
+   "partners": [
+    {
+     "name": "Deven Parekh",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/djparekh"
+    },
+    {
+     "name": "Jeffrey Lieberman",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/jeffrey-lieberman-674a735"
+    },
+    {
+     "name": "Ryan Hinkle",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/ryhinkle"
+    },
+    {
+     "name": "Richard Wells",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/rwells13"
+    },
+    {
+     "name": "Rachel Geller",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/rachelgeller2"
+    },
+    {
+     "name": "Matt Gatto",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/matt-gatto"
+    },
+    {
+     "name": "Thomas Krane",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/thomaskrane"
+    },
+    {
+     "name": "Hilary Gosher",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/hgosher"
+    },
+    {
+     "name": "Peter Sobiloff",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/peter-sobiloff-7574a"
+    },
+    {
+     "name": "Nikitas Koutoupes",
+     "title": "Managing Director at Insight Partners",
+     "linkedin": "https://linkedin.com/in/nikitaskoutoupes"
+    },
+    {
+     "name": "Daniel Aronovitz",
+     "title": "Principal at Insight Partners (Tel Aviv)",
+     "linkedin": "https://linkedin.com/in/daniel-aronovitz-09154750"
+    }
+   ],
+   "co_investors": [
+    "Tiger Global",
+    "Accel",
+    "Bessemer Venture Partners",
+    "Sequoia Capital",
+    "Lightspeed Venture Partners",
+    "Index Ventures",
+    "Coatue Management",
+    "Salesforce Ventures",
+    "Y Combinator",
+    "Battery Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Passionfroot",
+     "date": "2026-07-01",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "passionfroot.me",
+     "harmonic_company_id": 3968327
+    },
+    {
+     "name": "BeyondMath",
+     "date": "2026-02-25",
+     "round": "SEED_EXTENSION",
+     "country": "United Kingdom",
+     "domain": "beyondmath.com",
+     "harmonic_company_id": 11448158
+    },
+    {
+     "name": "Runware",
+     "date": "2025-12-11",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "runware.ai",
+     "harmonic_company_id": 11390047
+    }
+   ]
   }
  }
 }

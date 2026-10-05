@@ -78,5 +78,45 @@
   "company_names": [
    "n8n.io"
   ]
+ },
+ {
+  "urn": "urn:harmonic:investor:177995",
+  "name": "CRV",
+  "companies": [
+   "urn:harmonic:company:66031839"
+  ],
+  "company_names": [
+   "Alice (Formerly ActiveFence)"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:124021",
+  "name": "Spark Capital",
+  "companies": [
+   "urn:harmonic:company:4",
+   "urn:harmonic:company:2138697"
+  ],
+  "company_names": [
+   "9fin",
+   "GetYourGuide"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:129657",
+  "name": "Insight Partners",
+  "companies": [
+   "urn:harmonic:company:608540",
+   "urn:harmonic:company:627589",
+   "urn:harmonic:company:188258",
+   "urn:harmonic:company:444087",
+   "urn:harmonic:company:1462862"
+  ],
+  "company_names": [
+   "AMCS Group",
+   "YOOBIC",
+   "Camunda",
+   "Featurespace",
+   "Photobox"
+  ]
  }
 ]
