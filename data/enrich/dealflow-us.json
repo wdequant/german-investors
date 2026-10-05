@@ -1,0 +1,1054 @@
+{
+ "sequoia": [
+  {
+   "name": "Agaton",
+   "domain": "agaton.ai",
+   "harmonic_company_id": 57286355,
+   "country": "Sweden",
+   "date": "2026-02-19",
+   "round": "SEED",
+   "round_size_usd": 9891672,
+   "total_funding_usd": 15191672
+  },
+  {
+   "name": "STARK",
+   "domain": "stark-defence.com",
+   "harmonic_company_id": 55453570,
+   "country": "Germany",
+   "date": "2025-08-21",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 62000000,
+   "total_funding_usd": 646265900
+  },
+  {
+   "name": "wilgo.ai",
+   "domain": "wilgo.ai",
+   "harmonic_company_id": 62052071,
+   "country": "France",
+   "date": "2025-06-23",
+   "round": "SEED",
+   "round_size_usd": 6959106,
+   "total_funding_usd": 6959106
+  },
+  {
+   "name": "Pletor",
+   "domain": "pletor.com",
+   "harmonic_company_id": 61613787,
+   "country": "France",
+   "date": "2025-06-05",
+   "round": "SEED",
+   "round_size_usd": 2283372,
+   "total_funding_usd": 2283372
+  },
+  {
+   "name": "Grace",
+   "domain": "grace.io",
+   "harmonic_company_id": 21732418,
+   "country": "France",
+   "date": "2025-03-03",
+   "round": "SEED",
+   "round_size_usd": 6140000,
+   "total_funding_usd": 0
+  },
+  {
+   "name": "Avelios Medical",
+   "domain": "avelios.com",
+   "harmonic_company_id": 34983006,
+   "country": "Germany",
+   "date": "2025-02-06",
+   "round": "SERIES_A",
+   "round_size_usd": 31155720,
+   "total_funding_usd": 33471733
+  },
+  {
+   "name": "Kiku",
+   "domain": "getkiku.com",
+   "harmonic_company_id": 58123623,
+   "country": "Denmark",
+   "date": "2024-12-17",
+   "round": "ANGEL",
+   "round_size_usd": 520555,
+   "total_funding_usd": 5287151
+  },
+  {
+   "name": "Volta Software",
+   "domain": "voltasoftware.com",
+   "harmonic_company_id": 57310098,
+   "country": "Italy",
+   "date": "2024-11-26",
+   "round": "PRE_SEED",
+   "round_size_usd": 6294486,
+   "total_funding_usd": 12100541
+  },
+  {
+   "name": "Volta Groupe",
+   "domain": "groupe-volta.com",
+   "harmonic_company_id": 34839992,
+   "country": "France",
+   "date": "2024-11-01",
+   "round": "SEED",
+   "round_size_usd": 6528480,
+   "total_funding_usd": 225046388
+  },
+  {
+   "name": "Dunia",
+   "domain": "dunia.ai",
+   "harmonic_company_id": 10775380,
+   "country": "Germany",
+   "date": "2024-10-23",
+   "round": "SEED",
+   "round_size_usd": 11426969,
+   "total_funding_usd": 11562300
+  },
+  {
+   "name": "Passionfroot",
+   "domain": "passionfroot.me",
+   "harmonic_company_id": 3968327,
+   "country": "Germany",
+   "date": "2024-10-21",
+   "round": "SEED",
+   "round_size_usd": 3800000,
+   "total_funding_usd": 22200000
+  },
+  {
+   "name": "Gladia",
+   "domain": "gladia.io",
+   "harmonic_company_id": 4414014,
+   "country": "France",
+   "date": "2024-10-15",
+   "round": "SERIES_A",
+   "round_size_usd": 16000000,
+   "total_funding_usd": 20000000
+  }
+ ],
+ "a16z": [
+  {
+   "name": "Kontext",
+   "domain": "kontext.security",
+   "harmonic_company_id": 76682989,
+   "country": "Germany",
+   "date": "2026-09-24",
+   "round": "SEED",
+   "round_size_usd": 4000000,
+   "total_funding_usd": 4000000
+  },
+  {
+   "name": "E.ON",
+   "domain": "eon.com",
+   "harmonic_company_id": 1467264,
+   "country": "Germany",
+   "date": "2026-08-06",
+   "round": "SEED",
+   "round_size_usd": 10750000,
+   "total_funding_usd": 1640610788
+  },
+  {
+   "name": "SONORA",
+   "domain": "sonora.com",
+   "harmonic_company_id": 17218032,
+   "country": "Spain",
+   "date": "2026-07-20",
+   "round": "SERIES_A",
+   "round_size_usd": 100000000,
+   "total_funding_usd": 125000000
+  },
+  {
+   "name": "Prolo",
+   "domain": "prolo.io",
+   "harmonic_company_id": 63663608,
+   "country": "United Kingdom",
+   "date": "2026-07-14",
+   "round": "SEED",
+   "round_size_usd": 5626521,
+   "total_funding_usd": 5626521
+  },
+  {
+   "name": "Concord.ad",
+   "domain": "concord.ad",
+   "harmonic_company_id": 64166938,
+   "country": "France",
+   "date": "2026-06-23",
+   "round": "SEED",
+   "round_size_usd": 3000000,
+   "total_funding_usd": 3000000
+  },
+  {
+   "name": "Probabl",
+   "domain": "probabl.ai",
+   "harmonic_company_id": 56573783,
+   "country": "France",
+   "date": "2026-06-16",
+   "round": "SEED",
+   "round_size_usd": 9000000,
+   "total_funding_usd": 30351593
+  },
+  {
+   "name": "Endra",
+   "domain": "endra.ai",
+   "harmonic_company_id": 61446743,
+   "country": "Sweden",
+   "date": "2026-06-02",
+   "round": "SERIES_A",
+   "round_size_usd": 50000000,
+   "total_funding_usd": 73401226
+  },
+  {
+   "name": "Pit",
+   "domain": "pit.com",
+   "harmonic_company_id": 66704024,
+   "country": "Sweden",
+   "date": "2026-05-07",
+   "round": "SEED",
+   "round_size_usd": 16000000,
+   "total_funding_usd": 16000000
+  },
+  {
+   "name": "Ethos",
+   "domain": "agent.askethos.com",
+   "harmonic_company_id": 71425934,
+   "country": "United Kingdom",
+   "date": "2026-05-05",
+   "round": "SERIES_A",
+   "round_size_usd": 22914951,
+   "total_funding_usd": 26156706
+  },
+  {
+   "name": "OpenTrade",
+   "domain": "opentrade.io",
+   "harmonic_company_id": 12173978,
+   "country": "United Kingdom",
+   "date": "2026-05-01",
+   "round": "SEED",
+   "round_size_usd": 17000000,
+   "total_funding_usd": 33422000
+  },
+  {
+   "name": "Dex",
+   "domain": "meetdex.ai",
+   "harmonic_company_id": 59374716,
+   "country": "United Kingdom",
+   "date": "2026-04-29",
+   "round": "SEED",
+   "round_size_usd": 5300000,
+   "total_funding_usd": 8900000
+  },
+  {
+   "name": "GitButler ⧓",
+   "domain": "gitbutler.com",
+   "harmonic_company_id": 11680140,
+   "country": "Germany",
+   "date": "2026-04-08",
+   "round": "SERIES_A",
+   "round_size_usd": 17000000,
+   "total_funding_usd": 20700000
+  },
+  {
+   "name": "Lio",
+   "domain": "asklio.ai",
+   "harmonic_company_id": 16369696,
+   "country": "Germany",
+   "date": "2026-03-05",
+   "round": "SERIES_A",
+   "round_size_usd": 30000000,
+   "total_funding_usd": 30545200
+  },
+  {
+   "name": "Sanna",
+   "domain": "sanna.no",
+   "harmonic_company_id": 64824280,
+   "country": "Norway",
+   "date": "2026-01-09",
+   "round": "SEED",
+   "round_size_usd": 1279808,
+   "total_funding_usd": 1279808
+  },
+  {
+   "name": "Boltz",
+   "domain": "boltz.bio",
+   "harmonic_company_id": 56345288,
+   "country": "United Kingdom",
+   "date": "2026-01-08",
+   "round": "SEED",
+   "round_size_usd": 28000000,
+   "total_funding_usd": 28000000
+  },
+  {
+   "name": "Sequence",
+   "domain": "sequencehq.com",
+   "harmonic_company_id": 3636075,
+   "country": "United Kingdom",
+   "date": "2025-12-16",
+   "round": "SERIES_A",
+   "round_size_usd": 20000000,
+   "total_funding_usd": 39000000
+  },
+  {
+   "name": "Mirelo",
+   "domain": "mirelo.ai",
+   "harmonic_company_id": 45973444,
+   "country": "Germany",
+   "date": "2025-12-15",
+   "round": "SEED",
+   "round_size_usd": 41000000,
+   "total_funding_usd": 44878000
+  },
+  {
+   "name": "Adclear",
+   "domain": "adclear.ai",
+   "harmonic_company_id": 43445016,
+   "country": "United Kingdom",
+   "date": "2025-11-13",
+   "round": "SEED",
+   "round_size_usd": 2764194,
+   "total_funding_usd": 3394130
+  },
+  {
+   "name": "Supersonik",
+   "domain": "supersonik.ai",
+   "harmonic_company_id": 59387669,
+   "country": "United Kingdom",
+   "date": "2025-09-08",
+   "round": "SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 5000000
+  },
+  {
+   "name": "Waveful",
+   "domain": "waveful.com",
+   "harmonic_company_id": 12872477,
+   "country": "Italy",
+   "date": "2025-09-02",
+   "round": "SEED",
+   "round_size_usd": 2100000,
+   "total_funding_usd": 2850000
+  },
+  {
+   "name": "Payrails",
+   "domain": "payrails.com",
+   "harmonic_company_id": 3860465,
+   "country": "Germany",
+   "date": "2025-06-12",
+   "round": "SERIES_A",
+   "round_size_usd": 32000000,
+   "total_funding_usd": 52800000
+  },
+  {
+   "name": "Pletor",
+   "domain": "pletor.com",
+   "harmonic_company_id": 61613787,
+   "country": "France",
+   "date": "2025-06-05",
+   "round": "SEED",
+   "round_size_usd": 2283372,
+   "total_funding_usd": 2283372
+  },
+  {
+   "name": "Grace",
+   "domain": "grace.io",
+   "harmonic_company_id": 21732418,
+   "country": "France",
+   "date": "2025-03-03",
+   "round": "SEED",
+   "round_size_usd": 6140000,
+   "total_funding_usd": 0
+  },
+  {
+   "name": "Volta Software",
+   "domain": "voltasoftware.com",
+   "harmonic_company_id": 57310098,
+   "country": "Italy",
+   "date": "2024-11-26",
+   "round": "PRE_SEED",
+   "round_size_usd": 6294486,
+   "total_funding_usd": 12100541
+  },
+  {
+   "name": "Volta Groupe",
+   "domain": "groupe-volta.com",
+   "harmonic_company_id": 34839992,
+   "country": "France",
+   "date": "2024-11-01",
+   "round": "SEED",
+   "round_size_usd": 6528480,
+   "total_funding_usd": 225046388
+  },
+  {
+   "name": "Runware",
+   "domain": "runware.ai",
+   "harmonic_company_id": 11390047,
+   "country": "United Kingdom",
+   "date": "2024-10-01",
+   "round": "PRE_SEED",
+   "round_size_usd": 3000000,
+   "total_funding_usd": 66500000
+  }
+ ],
+ "lightspeed": [
+  {
+   "name": "Finto",
+   "domain": "gofinto.com",
+   "harmonic_company_id": 59892727,
+   "country": "Germany",
+   "date": "2026-07-08",
+   "round": "SEED",
+   "round_size_usd": 3400000,
+   "total_funding_usd": 3900000
+  },
+  {
+   "name": "Proxima Fusion",
+   "domain": "proximafusion.com",
+   "harmonic_company_id": 12741862,
+   "country": "Germany",
+   "date": "2026-07-07",
+   "round": "SERIES_A",
+   "round_size_usd": 468000000,
+   "total_funding_usd": 680356644
+  },
+  {
+   "name": "Kyber",
+   "domain": "kyber.tech",
+   "harmonic_company_id": 55454052,
+   "country": "France",
+   "date": "2026-06-19",
+   "round": "SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 5000000
+  },
+  {
+   "name": "Cala",
+   "domain": "cala.ai",
+   "harmonic_company_id": 61778068,
+   "country": "Spain",
+   "date": "2026-05-18",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 8199999,
+   "total_funding_usd": 8199999
+  },
+  {
+   "name": "Supercritical",
+   "domain": "gosupercritical.com",
+   "harmonic_company_id": 3264072,
+   "country": "United Kingdom",
+   "date": "2026-05-07",
+   "round": "EARLY_STAGE",
+   "round_size_usd": null,
+   "total_funding_usd": 15777912
+  },
+  {
+   "name": "Ineffable Intelligence",
+   "domain": "ineffable.ai",
+   "harmonic_company_id": 71698027,
+   "country": "United Kingdom",
+   "date": "2026-04-17",
+   "round": "SEED",
+   "round_size_usd": 1104867535,
+   "total_funding_usd": 1104867535
+  },
+  {
+   "name": "Orqa FPV",
+   "domain": "orqafpv.com",
+   "harmonic_company_id": 1941023,
+   "country": "Ireland",
+   "date": "2026-03-10",
+   "round": "SERIES_A",
+   "round_size_usd": 14745500,
+   "total_funding_usd": 23257740
+  },
+  {
+   "name": "Stacks",
+   "domain": "stacks.ai",
+   "harmonic_company_id": 57232525,
+   "country": "United Kingdom",
+   "date": "2026-02-19",
+   "round": "SERIES_A",
+   "round_size_usd": 23000000,
+   "total_funding_usd": 33000000
+  },
+  {
+   "name": "Condukt",
+   "domain": "condukt.co",
+   "harmonic_company_id": 12789504,
+   "country": "United Kingdom",
+   "date": "2025-11-18",
+   "round": "SEED",
+   "round_size_usd": 10000000,
+   "total_funding_usd": 13163155
+  },
+  {
+   "name": "The Mobile-First Company",
+   "domain": "themobilefirstcompany.com",
+   "harmonic_company_id": 47175674,
+   "country": "France",
+   "date": "2025-10-31",
+   "round": "SEED",
+   "round_size_usd": 12000000,
+   "total_funding_usd": 15777455
+  },
+  {
+   "name": "Epiminds",
+   "domain": "epiminds.com",
+   "harmonic_company_id": 64011215,
+   "country": "Sweden",
+   "date": "2025-10-14",
+   "round": "SEED",
+   "round_size_usd": 6600000,
+   "total_funding_usd": 6600000
+  },
+  {
+   "name": "Paid",
+   "domain": "paid.ai",
+   "harmonic_company_id": 42142056,
+   "country": "United Kingdom",
+   "date": "2025-09-01",
+   "round": "SEED",
+   "round_size_usd": 21600000,
+   "total_funding_usd": 31972260
+  },
+  {
+   "name": "LO:TECH",
+   "domain": "lo.tech",
+   "harmonic_company_id": 12433322,
+   "country": "United Kingdom",
+   "date": "2025-08-21",
+   "round": "SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 6600000
+  },
+  {
+   "name": "Manex AI",
+   "domain": "manex.ai",
+   "harmonic_company_id": 61601081,
+   "country": "Germany",
+   "date": "2025-06-01",
+   "round": "SEED",
+   "round_size_usd": 9081104,
+   "total_funding_usd": 9081104
+  }
+ ],
+ "general-catalyst": [
+  {
+   "name": "Complir",
+   "domain": "complir.io",
+   "harmonic_company_id": 4305991,
+   "country": "Denmark",
+   "date": "2026-09-16",
+   "round": "SEED",
+   "round_size_usd": 11000000,
+   "total_funding_usd": 14777802
+  },
+  {
+   "name": "Integral",
+   "domain": "integral.de",
+   "harmonic_company_id": 57088690,
+   "country": "Germany",
+   "date": "2026-09-16",
+   "round": "SERIES_A",
+   "round_size_usd": 20645280,
+   "total_funding_usd": 33763154
+  },
+  {
+   "name": "E.ON",
+   "domain": "eon.com",
+   "harmonic_company_id": 1467264,
+   "country": "Germany",
+   "date": "2026-08-06",
+   "round": "SEED",
+   "round_size_usd": 10750000,
+   "total_funding_usd": 1640610788
+  },
+  {
+   "name": "Intropy",
+   "domain": "intropy.ai",
+   "harmonic_company_id": 49053004,
+   "country": "United Kingdom",
+   "date": "2026-07-30",
+   "round": "SEED",
+   "round_size_usd": 11000000,
+   "total_funding_usd": 11000000
+  },
+  {
+   "name": "Frontier Computing (YC S26)",
+   "domain": "frontier.site",
+   "harmonic_company_id": 78130663,
+   "country": "United Kingdom",
+   "date": "2026-07-01",
+   "round": "PRE_SEED",
+   "round_size_usd": 500000,
+   "total_funding_usd": 35500000
+  },
+  {
+   "name": "Tsuga",
+   "domain": "tsuga.com",
+   "harmonic_company_id": 50427967,
+   "country": "France",
+   "date": "2026-06-23",
+   "round": "SERIES_A",
+   "round_size_usd": 35000000,
+   "total_funding_usd": 45000000
+  },
+  {
+   "name": "Geordie AI",
+   "domain": "geordie.ai",
+   "harmonic_company_id": 60618054,
+   "country": "United Kingdom",
+   "date": "2026-05-28",
+   "round": "SERIES_A",
+   "round_size_usd": 30000000,
+   "total_funding_usd": 36500000
+  },
+  {
+   "name": "Lucis",
+   "domain": "lucis.life",
+   "harmonic_company_id": 39901440,
+   "country": "France",
+   "date": "2026-05-26",
+   "round": "SERIES_A",
+   "round_size_usd": 19897577,
+   "total_funding_usd": 28863884
+  },
+  {
+   "name": "Amphiform",
+   "domain": "amphiform.com",
+   "harmonic_company_id": 75890187,
+   "country": "United Kingdom",
+   "date": "2026-05-19",
+   "round": "SEED",
+   "round_size_usd": 5500000,
+   "total_funding_usd": 5500000
+  },
+  {
+   "name": "Ethos",
+   "domain": "agent.askethos.com",
+   "harmonic_company_id": 71425934,
+   "country": "United Kingdom",
+   "date": "2026-05-05",
+   "round": "SERIES_A",
+   "round_size_usd": 22914951,
+   "total_funding_usd": 26156706
+  },
+  {
+   "name": "Stacks",
+   "domain": "stacks.ai",
+   "harmonic_company_id": 57232525,
+   "country": "United Kingdom",
+   "date": "2026-02-19",
+   "round": "SERIES_A",
+   "round_size_usd": 23000000,
+   "total_funding_usd": 33000000
+  },
+  {
+   "name": "Onodrim Industries",
+   "domain": "onodrim.com",
+   "harmonic_company_id": 65976460,
+   "country": "Netherlands",
+   "date": "2026-02-13",
+   "round": "SEED",
+   "round_size_usd": 47422600,
+   "total_funding_usd": 47422600
+  },
+  {
+   "name": "Hypersonica",
+   "domain": "hypersonica.com",
+   "harmonic_company_id": 47787026,
+   "country": "Germany",
+   "date": "2026-02-10",
+   "round": "SERIES_A",
+   "round_size_usd": 27700997,
+   "total_funding_usd": 27700997
+  },
+  {
+   "name": "QFEX",
+   "domain": "pfex.com",
+   "harmonic_company_id": 61290246,
+   "country": "United Kingdom",
+   "date": "2026-01-12",
+   "round": "SEED",
+   "round_size_usd": 9500000,
+   "total_funding_usd": 10000000
+  },
+  {
+   "name": "encentive GmbH",
+   "domain": "encentive.de",
+   "harmonic_company_id": 3615951,
+   "country": "Germany",
+   "date": "2025-09-15",
+   "round": "SEED",
+   "round_size_usd": 7406450,
+   "total_funding_usd": 10345659
+  },
+  {
+   "name": "NaroIQ",
+   "domain": "naroiq.com",
+   "harmonic_company_id": 49703744,
+   "country": "Germany",
+   "date": "2025-06-18",
+   "round": "SEED",
+   "round_size_usd": 6713834,
+   "total_funding_usd": 9713834
+  },
+  {
+   "name": "Payrails",
+   "domain": "payrails.com",
+   "harmonic_company_id": 3860465,
+   "country": "Germany",
+   "date": "2025-06-12",
+   "round": "SERIES_A",
+   "round_size_usd": 32000000,
+   "total_funding_usd": 52800000
+  },
+  {
+   "name": "Rezonant",
+   "domain": "rezonant.app",
+   "harmonic_company_id": 78048428,
+   "country": "United Kingdom",
+   "date": "2025-04-01",
+   "round": "SEED",
+   "round_size_usd": 5685966,
+   "total_funding_usd": 5685966
+  },
+  {
+   "name": "Sohar Health",
+   "domain": "soharhealth.com",
+   "harmonic_company_id": 12841056,
+   "country": "United Kingdom",
+   "date": "2025-03-31",
+   "round": "SEED",
+   "round_size_usd": 3800000,
+   "total_funding_usd": 4300000
+  },
+  {
+   "name": "Maxion Therapeutics",
+   "domain": "maxiontherapeutics.com",
+   "harmonic_company_id": 9945193,
+   "country": "United Kingdom",
+   "date": "2025-03-17",
+   "round": "SERIES_A",
+   "round_size_usd": 72000000,
+   "total_funding_usd": 88000000
+  },
+  {
+   "name": "Ten Ten",
+   "domain": "tenten.app",
+   "harmonic_company_id": 3536523,
+   "country": "France",
+   "date": "2025-03-14",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 37000000,
+   "total_funding_usd": 37000000
+  },
+  {
+   "name": "Alpine Eagle",
+   "domain": "alpineeagle.com",
+   "harmonic_company_id": 40975773,
+   "country": "Germany",
+   "date": "2025-03-01",
+   "round": "SEED",
+   "round_size_usd": 10637737,
+   "total_funding_usd": 10637737
+  },
+  {
+   "name": "OASYS NOW",
+   "domain": "oasysnow.com",
+   "harmonic_company_id": 11145049,
+   "country": "Netherlands",
+   "date": "2024-11-21",
+   "round": "SEED",
+   "round_size_usd": 1046885,
+   "total_funding_usd": 1317152
+  },
+  {
+   "name": "Goodstack",
+   "domain": "goodstack.io",
+   "harmonic_company_id": 57233707,
+   "country": "United Kingdom",
+   "date": "2024-11-18",
+   "round": "SERIES_A",
+   "round_size_usd": 28000000,
+   "total_funding_usd": 33000000
+  },
+  {
+   "name": "Mallow",
+   "domain": "mallow.fr",
+   "harmonic_company_id": 59710813,
+   "country": "France",
+   "date": "2024-11-01",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 10900000,
+   "total_funding_usd": 23600000
+  },
+  {
+   "name": "Emidat",
+   "domain": "emidat.com",
+   "harmonic_company_id": 11577014,
+   "country": "Germany",
+   "date": "2024-10-29",
+   "round": "SEED",
+   "round_size_usd": 4328164,
+   "total_funding_usd": 4958164
+  },
+  {
+   "name": "autone",
+   "domain": "autone.io",
+   "harmonic_company_id": 4393709,
+   "country": "United Kingdom",
+   "date": "2024-10-16",
+   "round": "SERIES_A",
+   "round_size_usd": 17000000,
+   "total_funding_usd": 23281149
+  },
+  {
+   "name": "FOAD",
+   "domain": "foad.gg",
+   "harmonic_company_id": 6490168,
+   "country": "Netherlands",
+   "date": "2024-10-01",
+   "round": "SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 5000000
+  }
+ ],
+ "accel-us": [
+  {
+   "name": "Atira",
+   "domain": "atira.ai",
+   "harmonic_company_id": 62452434,
+   "country": "Germany",
+   "date": "2026-09-03",
+   "round": "SEED",
+   "round_size_usd": 15000000,
+   "total_funding_usd": 17500000
+  },
+  {
+   "name": "TRIKKS",
+   "domain": "trikks.com",
+   "harmonic_company_id": 6483928,
+   "country": "Norway",
+   "date": "2026-07-29",
+   "round": "SEED",
+   "round_size_usd": 5500000,
+   "total_funding_usd": 5500000
+  },
+  {
+   "name": "Axle Energy",
+   "domain": "axle.energy",
+   "harmonic_company_id": 12788792,
+   "country": "United Kingdom",
+   "date": "2026-07-01",
+   "round": "SERIES_A",
+   "round_size_usd": 23893233,
+   "total_funding_usd": 34493233
+  },
+  {
+   "name": "Perceptic",
+   "domain": "perceptic.com",
+   "harmonic_company_id": 64373766,
+   "country": "United Kingdom",
+   "date": "2026-05-26",
+   "round": "SEED",
+   "round_size_usd": 12000000,
+   "total_funding_usd": 12000000
+  },
+  {
+   "name": "VIKTOR",
+   "domain": "viktor.ai",
+   "harmonic_company_id": 10350806,
+   "country": "Netherlands",
+   "date": "2026-05-19",
+   "round": "SERIES_A",
+   "round_size_usd": 75000000,
+   "total_funding_usd": 82376605
+  },
+  {
+   "name": "Cleo Labs",
+   "domain": "cleolabs.co",
+   "harmonic_company_id": 57030977,
+   "country": "France",
+   "date": "2026-04-29",
+   "round": "SEED",
+   "round_size_usd": 1577398,
+   "total_funding_usd": 1752664
+  },
+  {
+   "name": "Tracebit",
+   "domain": "tracebit.com",
+   "harmonic_company_id": 12789927,
+   "country": "United Kingdom",
+   "date": "2026-03-17",
+   "round": "SERIES_A",
+   "round_size_usd": 20000000,
+   "total_funding_usd": 25000000
+  },
+  {
+   "name": "Clove",
+   "domain": "clove.com",
+   "harmonic_company_id": 64050477,
+   "country": "United Kingdom",
+   "date": "2025-10-01",
+   "round": "SEED",
+   "round_size_usd": 14080212,
+   "total_funding_usd": 28002970
+  },
+  {
+   "name": "Polars",
+   "domain": "pola.rs",
+   "harmonic_company_id": 12706509,
+   "country": "Netherlands",
+   "date": "2025-09-29",
+   "round": "SERIES_A",
+   "round_size_usd": 21116106,
+   "total_funding_usd": 25058610
+  },
+  {
+   "name": "Jarvio",
+   "domain": "jarvio.io",
+   "harmonic_company_id": 54623196,
+   "country": "Ireland",
+   "date": "2025-07-14",
+   "round": "SEED",
+   "round_size_usd": 1800000,
+   "total_funding_usd": 1800000
+  },
+  {
+   "name": "Synthflow AI",
+   "domain": "synthflow.ai",
+   "harmonic_company_id": 37123333,
+   "country": "Germany",
+   "date": "2025-06-24",
+   "round": "SERIES_A",
+   "round_size_usd": 20000000,
+   "total_funding_usd": 29100000
+  },
+  {
+   "name": "Polar",
+   "domain": "polar.sh",
+   "harmonic_company_id": 12841089,
+   "country": "Sweden",
+   "date": "2025-06-17",
+   "round": "SEED",
+   "round_size_usd": 10000000,
+   "total_funding_usd": 11800000
+  },
+  {
+   "name": "TYTAN Technologies",
+   "domain": "tytan-technologies.com",
+   "harmonic_company_id": 43763466,
+   "country": "Germany",
+   "date": "2025-04-25",
+   "round": "SEED",
+   "round_size_usd": 17107590,
+   "total_funding_usd": 52431420
+  },
+  {
+   "name": "Cadensys",
+   "domain": "cadensys.ai",
+   "harmonic_company_id": 59642896,
+   "country": "United Kingdom",
+   "date": "2025-03-28",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 5090000,
+   "total_funding_usd": 5090000
+  },
+  {
+   "name": "SolveAI",
+   "domain": "solve.ai",
+   "harmonic_company_id": 71885136,
+   "country": "United Kingdom",
+   "date": "2025-01-01",
+   "round": "PRE_SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 50000000
+  },
+  {
+   "name": "Nuitée",
+   "domain": "nuitee.com",
+   "harmonic_company_id": 47634195,
+   "country": "Ireland",
+   "date": "2024-12-18",
+   "round": "SERIES_A",
+   "round_size_usd": 48000000,
+   "total_funding_usd": 48000000
+  },
+  {
+   "name": "Taito.ai",
+   "domain": "taito.ai",
+   "harmonic_company_id": 48390812,
+   "country": "Finland",
+   "date": "2024-11-20",
+   "round": "SEED",
+   "round_size_usd": 2700000,
+   "total_funding_usd": 2700000
+  },
+  {
+   "name": "Tessl",
+   "domain": "tessl.io",
+   "harmonic_company_id": 48709978,
+   "country": "United Kingdom",
+   "date": "2024-11-14",
+   "round": "SERIES_A",
+   "round_size_usd": 100000000,
+   "total_funding_usd": 125000000
+  },
+  {
+   "name": "Billy",
+   "domain": "billyapp.live",
+   "harmonic_company_id": 57144823,
+   "country": "France",
+   "date": "2024-11-05",
+   "round": "SEED",
+   "round_size_usd": 3389127,
+   "total_funding_usd": 3389127
+  },
+  {
+   "name": "Passionfroot",
+   "domain": "passionfroot.me",
+   "harmonic_company_id": 3968327,
+   "country": "Germany",
+   "date": "2024-10-21",
+   "round": "SEED",
+   "round_size_usd": 3800000,
+   "total_funding_usd": 22200000
+  },
+  {
+   "name": "Round Treasury",
+   "domain": "roundtreasury.com",
+   "harmonic_company_id": 12579682,
+   "country": "United Kingdom",
+   "date": "2024-10-08",
+   "round": "PRE_SEED",
+   "round_size_usd": 2085345,
+   "total_funding_usd": 8182445
+  }
+ ],
+ "bessemer": [
+  {
+   "name": "herdr",
+   "domain": "herdr.dev",
+   "harmonic_company_id": 76052894,
+   "country": "Turkey",
+   "date": "2026-09-09",
+   "round": "SEED",
+   "round_size_usd": 6000000,
+   "total_funding_usd": 6500000
+  },
+  {
+   "name": "SONORA",
+   "domain": "sonora.com",
+   "harmonic_company_id": 17218032,
+   "country": "Spain",
+   "date": "2026-07-20",
+   "round": "SERIES_A",
+   "round_size_usd": 100000000,
+   "total_funding_usd": 125000000
+  },
+  {
+   "name": "Paraglide AI",
+   "domain": "paraglide.ai",
+   "harmonic_company_id": 66669448,
+   "country": "United Kingdom",
+   "date": "2026-01-27",
+   "round": "SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 5000000
+  }
+ ]
+}

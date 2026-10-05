@@ -1,0 +1,56 @@
+[
+ {
+  "urn": "urn:harmonic:investor:213580",
+  "name": "Sequoia Capital",
+  "companies": [
+   "urn:harmonic:company:1763",
+   "urn:harmonic:company:164879"
+  ],
+  "company_names": [
+   "n8n.io",
+   "Domino Data Lab"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:19",
+  "name": "Andreessen Horowitz",
+  "companies": [
+   "urn:harmonic:company:3197404"
+  ],
+  "company_names": [
+   "hyperexponential"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:214169",
+  "name": "General Catalyst",
+  "companies": [
+   "urn:harmonic:company:12584727"
+  ],
+  "company_names": [
+   "Wordsmith AI"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:212874",
+  "name": "Accel",
+  "companies": [
+   "urn:harmonic:company:1763"
+  ],
+  "company_names": [
+   "n8n.io"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:226768",
+  "name": "Bessemer Venture Partners",
+  "companies": [
+   "urn:harmonic:company:54603263",
+   "urn:harmonic:company:2188702"
+  ],
+  "company_names": [
+   "Unframe",
+   "NewVoiceMedia"
+  ]
+ }
+]

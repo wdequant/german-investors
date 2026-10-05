@@ -1,0 +1,658 @@
+{
+ "_method": {
+  "source": "Harmonic MCP (get_investors basic/co_investors/partners/activity, get_people, search_companies_natural_language), read-only",
+  "run_date": "2026-10-05",
+  "partners_note": "Harmonic partner lists curated: junk records, ex-staff, non-investing roles and non-Europe regional arms dropped; Europe/London-based partners listed first; titles from LinkedIn headlines via Harmonic get_people",
+  "recent_untracked_eu_note": "EU seed/A rounds in the last 12 months verified against round-level investor lists; up to 10 most recent shown",
+  "franchise_note": "Harmonic does not split transatlantic franchises: accel-us and index-us are collected as the single Harmonic investor entities Accel and Index Ventures (Index is London-HQ in Harmonic)"
+ },
+ "funds": {
+  "sequoia": {
+   "website": "sequoiacap.com",
+   "partners": [
+    {
+     "name": "Luciana Lixandru",
+     "title": "Partner (London)",
+     "linkedin": "https://linkedin.com/in/luciana-lixandru-11042875"
+    },
+    {
+     "name": "Douglas Leone",
+     "title": "Partner at Sequoia Capital",
+     "linkedin": "https://linkedin.com/in/douglas-leone-a2714"
+    },
+    {
+     "name": "Pat Grady",
+     "title": "Partner at Sequoia Capital",
+     "linkedin": "https://linkedin.com/in/gradypb"
+    },
+    {
+     "name": "Bryan Schreier",
+     "title": "Partner at Sequoia Capital",
+     "linkedin": "https://linkedin.com/in/bryanschreier"
+    },
+    {
+     "name": "Jim Goetz",
+     "title": "Partner at Sequoia Capital",
+     "linkedin": "https://linkedin.com/in/goetzjim"
+    }
+   ],
+   "co_investors": [
+    "HSG",
+    "Peak XV Partners",
+    "Lightspeed Venture Partners",
+    "Andreessen Horowitz",
+    "Tiger Global",
+    "Y Combinator",
+    "SV Angel",
+    "Kleiner Perkins",
+    "Accel",
+    "Coatue Management"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Agaton",
+     "date": "2026-02-19",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "agaton.ai",
+     "harmonic_company_id": 57286355
+    }
+   ]
+  },
+  "a16z": {
+   "website": "a16z.com",
+   "partners": [
+    {
+     "name": "Peter Levine",
+     "title": "General Partner at a16z | Investing in AI infrastructure",
+     "linkedin": "https://linkedin.com/in/peter-levine-681386172"
+    },
+    {
+     "name": "Scott Weiss",
+     "title": "General Partner at Andreessen Horowitz",
+     "linkedin": "https://linkedin.com/in/scott-weiss-5652"
+    },
+    {
+     "name": "Jeff Jordan",
+     "title": "Partner at a16z",
+     "linkedin": "https://linkedin.com/in/jeffjordan1"
+    },
+    {
+     "name": "Caroline Horn",
+     "title": "Partner at Andreessen Horowitz",
+     "linkedin": "https://linkedin.com/in/carolinehorn"
+    },
+    {
+     "name": "Frank Chen",
+     "title": "Partner at Andreessen Horowitz",
+     "linkedin": "https://linkedin.com/in/frankchen"
+    },
+    {
+     "name": "Greg Verdine",
+     "title": "General Partner (Bio), Andreessen Horowitz",
+     "linkedin": "https://linkedin.com/in/greg-verdine-b181991"
+    }
+   ],
+   "co_investors": [
+    "SV Angel",
+    "Y Combinator",
+    "Sequoia Capital",
+    "General Catalyst",
+    "GV (Google Ventures)",
+    "a16z crypto",
+    "Lightspeed Venture Partners",
+    "Founders Fund",
+    "Kleiner Perkins",
+    "Index Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Kontext",
+     "date": "2026-09-24",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "kontext.security",
+     "harmonic_company_id": 76682989
+    },
+    {
+     "name": "E.ON",
+     "date": "2026-08-06",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "eon.com",
+     "harmonic_company_id": 1467264
+    },
+    {
+     "name": "SONORA",
+     "date": "2026-07-20",
+     "round": "SERIES_A",
+     "country": "Spain",
+     "domain": "sonora.com",
+     "harmonic_company_id": 17218032
+    },
+    {
+     "name": "Prolo",
+     "date": "2026-07-14",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "prolo.io",
+     "harmonic_company_id": 63663608
+    },
+    {
+     "name": "Concord.ad",
+     "date": "2026-06-23",
+     "round": "SEED",
+     "country": "France",
+     "domain": "concord.ad",
+     "harmonic_company_id": 64166938
+    },
+    {
+     "name": "Probabl",
+     "date": "2026-06-16",
+     "round": "SEED",
+     "country": "France",
+     "domain": "probabl.ai",
+     "harmonic_company_id": 56573783
+    },
+    {
+     "name": "Endra",
+     "date": "2026-06-02",
+     "round": "SERIES_A",
+     "country": "Sweden",
+     "domain": "endra.ai",
+     "harmonic_company_id": 61446743
+    },
+    {
+     "name": "Pit",
+     "date": "2026-05-07",
+     "round": "SEED",
+     "country": "Sweden",
+     "domain": "pit.com",
+     "harmonic_company_id": 66704024
+    },
+    {
+     "name": "Ethos",
+     "date": "2026-05-05",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "agent.askethos.com",
+     "harmonic_company_id": 71425934
+    },
+    {
+     "name": "OpenTrade",
+     "date": "2026-05-01",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "opentrade.io",
+     "harmonic_company_id": 12173978
+    }
+   ]
+  },
+  "lightspeed": {
+   "website": "lsvp.com",
+   "partners": [
+    {
+     "name": "Ravi Mhatre",
+     "title": "Founder, Managing Director, Lightspeed Venture Partners",
+     "linkedin": "https://linkedin.com/in/ravimhatre"
+    },
+    {
+     "name": "Barry Eggers",
+     "title": "Founding Partner at Lightspeed Venture Partners",
+     "linkedin": "https://linkedin.com/in/barry-eggers-3b63692"
+    },
+    {
+     "name": "Peter Nieh",
+     "title": "Co-Founder & Partner of Lightspeed",
+     "linkedin": "https://linkedin.com/in/peternieh"
+    },
+    {
+     "name": "Bejul Somaia",
+     "title": "Partner at Lightspeed Venture Partners",
+     "linkedin": "https://linkedin.com/in/bejul-somaia-ba415"
+    },
+    {
+     "name": "Will Kohler",
+     "title": "Partner at Lightspeed Venture Partners",
+     "linkedin": "https://linkedin.com/in/will-kohler-217144"
+    },
+    {
+     "name": "Arif Janmohamed",
+     "title": "Venture Partner at Lightspeed Venture Partners",
+     "linkedin": "https://linkedin.com/in/arifj"
+    },
+    {
+     "name": "Guru Chahal",
+     "title": "Partner at Lightspeed Venture Partners",
+     "linkedin": "https://linkedin.com/in/guruchahal"
+    }
+   ],
+   "co_investors": [
+    "Sequoia Capital",
+    "Andreessen Horowitz",
+    "General Catalyst",
+    "Accel",
+    "Y Combinator",
+    "SV Angel",
+    "Lightspeed India",
+    "Khosla Ventures",
+    "Kleiner Perkins",
+    "Coatue Management"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Finto",
+     "date": "2026-07-08",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "gofinto.com",
+     "harmonic_company_id": 59892727
+    },
+    {
+     "name": "Proxima Fusion",
+     "date": "2026-07-07",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "proximafusion.com",
+     "harmonic_company_id": 12741862
+    },
+    {
+     "name": "Kyber",
+     "date": "2026-06-19",
+     "round": "SEED",
+     "country": "France",
+     "domain": "kyber.tech",
+     "harmonic_company_id": 55454052
+    },
+    {
+     "name": "Cala",
+     "date": "2026-05-18",
+     "round": "EARLY_STAGE",
+     "country": "Spain",
+     "domain": "cala.ai",
+     "harmonic_company_id": 61778068
+    },
+    {
+     "name": "Supercritical",
+     "date": "2026-05-07",
+     "round": "EARLY_STAGE",
+     "country": "United Kingdom",
+     "domain": "gosupercritical.com",
+     "harmonic_company_id": 3264072
+    },
+    {
+     "name": "Ineffable Intelligence",
+     "date": "2026-04-17",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "ineffable.ai",
+     "harmonic_company_id": 71698027
+    },
+    {
+     "name": "Orqa FPV",
+     "date": "2026-03-10",
+     "round": "SERIES_A",
+     "country": "Ireland",
+     "domain": "orqafpv.com",
+     "harmonic_company_id": 1941023
+    },
+    {
+     "name": "Stacks",
+     "date": "2026-02-19",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "stacks.ai",
+     "harmonic_company_id": 57232525
+    },
+    {
+     "name": "Condukt",
+     "date": "2025-11-18",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "condukt.co",
+     "harmonic_company_id": 12789504
+    },
+    {
+     "name": "The Mobile-First Company",
+     "date": "2025-10-31",
+     "round": "SEED",
+     "country": "France",
+     "domain": "themobilefirstcompany.com",
+     "harmonic_company_id": 47175674
+    }
+   ]
+  },
+  "general-catalyst": {
+   "website": "generalcatalyst.com",
+   "partners": [
+    {
+     "name": "Kenneth I. Chenault",
+     "title": "Chairman and Managing Director, General Catalyst",
+     "linkedin": "https://linkedin.com/in/ken-chenault"
+    },
+    {
+     "name": "David Fialkow",
+     "title": "Co-Founder & Managing Director, General Catalyst Partners",
+     "linkedin": "https://linkedin.com/in/david-fialkow-20085852"
+    },
+    {
+     "name": "Joel Cutler",
+     "title": "Co-Founder and Managing Director at General Catalyst",
+     "linkedin": "https://linkedin.com/in/joel-cutler-317743"
+    },
+    {
+     "name": "Larry Bohn",
+     "title": "Managing Director, General Catalyst Partners",
+     "linkedin": "https://linkedin.com/in/labohn"
+    },
+    {
+     "name": "Madhu Namburi",
+     "title": "Managing Director, General Catalyst",
+     "linkedin": "https://linkedin.com/in/madhu-namburi-9218321"
+    },
+    {
+     "name": "David Orfao",
+     "title": "Managing Director at General Catalyst Partners",
+     "linkedin": "https://linkedin.com/in/david-orfao-1b9a6245"
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "Andreessen Horowitz",
+    "SV Angel",
+    "Lightspeed Venture Partners",
+    "Khosla Ventures",
+    "Accel",
+    "Founders Fund",
+    "Sequoia Capital",
+    "BoxGroup",
+    "GV (Google Ventures)"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Complir",
+     "date": "2026-09-16",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "complir.io",
+     "harmonic_company_id": 4305991
+    },
+    {
+     "name": "Integral",
+     "date": "2026-09-16",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "integral.de",
+     "harmonic_company_id": 57088690
+    },
+    {
+     "name": "E.ON",
+     "date": "2026-08-06",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "eon.com",
+     "harmonic_company_id": 1467264
+    },
+    {
+     "name": "Intropy",
+     "date": "2026-07-30",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "intropy.ai",
+     "harmonic_company_id": 49053004
+    },
+    {
+     "name": "Frontier Computing (YC S26)",
+     "date": "2026-07-01",
+     "round": "PRE_SEED",
+     "country": "United Kingdom",
+     "domain": "frontier.site",
+     "harmonic_company_id": 78130663
+    },
+    {
+     "name": "Tsuga",
+     "date": "2026-06-23",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "tsuga.com",
+     "harmonic_company_id": 50427967
+    },
+    {
+     "name": "Geordie AI",
+     "date": "2026-05-28",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "geordie.ai",
+     "harmonic_company_id": 60618054
+    },
+    {
+     "name": "Lucis",
+     "date": "2026-05-26",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "lucis.life",
+     "harmonic_company_id": 39901440
+    },
+    {
+     "name": "Amphiform",
+     "date": "2026-05-19",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "amphiform.com",
+     "harmonic_company_id": 75890187
+    },
+    {
+     "name": "Ethos",
+     "date": "2026-05-05",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "agent.askethos.com",
+     "harmonic_company_id": 71425934
+    }
+   ]
+  },
+  "accel-us": {
+   "website": "accel.com",
+   "partners": [
+    {
+     "name": "Sonali De Rycker",
+     "title": "Partner at Accel (London)",
+     "linkedin": "https://linkedin.com/in/sonaliderycker"
+    },
+    {
+     "name": "Harry Nelis",
+     "title": "Partner at Accel (London)",
+     "linkedin": "https://linkedin.com/in/harry-nelis-429801"
+    },
+    {
+     "name": "Bruce Golden",
+     "title": "Partner at Accel (London)",
+     "linkedin": "https://linkedin.com/in/bgolden1"
+    },
+    {
+     "name": "Rich Wong",
+     "title": "General Partner at Accel",
+     "linkedin": "https://linkedin.com/in/richpwong"
+    },
+    {
+     "name": "Andrew Braccia",
+     "title": "Partner at Accel",
+     "linkedin": "https://linkedin.com/in/andrewbraccia"
+    },
+    {
+     "name": "Ping Li",
+     "title": "Partner at Accel",
+     "linkedin": "https://linkedin.com/in/pingli8"
+    },
+    {
+     "name": "Kevin Efrusy",
+     "title": "Partner at Accel",
+     "linkedin": "https://linkedin.com/in/kevin-efrusy-5395bb"
+    },
+    {
+     "name": "Arthur Patterson",
+     "title": "Founding Partner at Accel",
+     "linkedin": "https://linkedin.com/in/arthur-patterson-67a4b347"
+    },
+    {
+     "name": "Jim Swartz",
+     "title": "Founding Partner at Accel",
+     "linkedin": "https://linkedin.com/in/jim-swartz-63b47a4a"
+    }
+   ],
+   "co_investors": [
+    "Sequoia Capital",
+    "Tiger Global",
+    "Y Combinator",
+    "Lightspeed Venture Partners",
+    "General Catalyst",
+    "Index Ventures",
+    "Andreessen Horowitz",
+    "GV (Google Ventures)",
+    "Bessemer Venture Partners",
+    "Insight Partners"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Atira",
+     "date": "2026-09-03",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "atira.ai",
+     "harmonic_company_id": 62452434
+    },
+    {
+     "name": "TRIKKS",
+     "date": "2026-07-29",
+     "round": "SEED",
+     "country": "Norway",
+     "domain": "trikks.com",
+     "harmonic_company_id": 6483928
+    },
+    {
+     "name": "Axle Energy",
+     "date": "2026-07-01",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "axle.energy",
+     "harmonic_company_id": 12788792
+    },
+    {
+     "name": "Perceptic",
+     "date": "2026-05-26",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "perceptic.com",
+     "harmonic_company_id": 64373766
+    },
+    {
+     "name": "VIKTOR",
+     "date": "2026-05-19",
+     "round": "SERIES_A",
+     "country": "Netherlands",
+     "domain": "viktor.ai",
+     "harmonic_company_id": 10350806
+    },
+    {
+     "name": "Cleo Labs",
+     "date": "2026-04-29",
+     "round": "SEED",
+     "country": "France",
+     "domain": "cleolabs.co",
+     "harmonic_company_id": 57030977
+    },
+    {
+     "name": "Tracebit",
+     "date": "2026-03-17",
+     "round": "SERIES_A",
+     "country": "United Kingdom",
+     "domain": "tracebit.com",
+     "harmonic_company_id": 12789927
+    }
+   ]
+  },
+  "bessemer": {
+   "website": "bvp.com",
+   "partners": [
+    {
+     "name": "Brian Feinstein",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/brianfeinstein"
+    },
+    {
+     "name": "Byron Deeter",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/byrondeeter"
+    },
+    {
+     "name": "Jeremy Levine",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/jeremyl"
+    },
+    {
+     "name": "David Cowan",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/davidjcowan"
+    },
+    {
+     "name": "Bob Goodman",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/bob-goodman-1aa2a11"
+    },
+    {
+     "name": "Rob Stavis",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/robertstavis"
+    },
+    {
+     "name": "Steve Kraus",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/steve-kraus-5625901"
+    },
+    {
+     "name": "Kent Bennett",
+     "title": "Partner at Bessemer Venture Partners",
+     "linkedin": "https://linkedin.com/in/kentbennett"
+    }
+   ],
+   "co_investors": [
+    "Accel",
+    "Insight Partners",
+    "Tiger Global",
+    "General Catalyst",
+    "Lightspeed Venture Partners",
+    "Salesforce Ventures",
+    "Andreessen Horowitz",
+    "CRV",
+    "New Enterprise Associates (NEA)",
+    "Sequoia Capital"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "herdr",
+     "date": "2026-09-09",
+     "round": "SEED",
+     "country": "Turkey",
+     "domain": "herdr.dev",
+     "harmonic_company_id": 76052894
+    },
+    {
+     "name": "SONORA",
+     "date": "2026-07-20",
+     "round": "SERIES_A",
+     "country": "Spain",
+     "domain": "sonora.com",
+     "harmonic_company_id": 17218032
+    },
+    {
+     "name": "Paraglide AI",
+     "date": "2026-01-27",
+     "round": "SEED",
+     "country": "United Kingdom",
+     "domain": "paraglide.ai",
+     "harmonic_company_id": 66669448
+    }
+   ]
+  }
+ }
+}
