@@ -1,154 +1,153 @@
 {
-  "slug": "10x-founders",
-  "affinity_company_id": 268045752,
-  "affinity_domain": "10xfounders.com",
-  "pipeline": [
-    {
-      "id": 302792086,
-      "name": "Qorelo",
-      "domain": "qorelo.com",
-      "funnel": "Pre-lead"
-    },
-    {
-      "id": 308969272,
-      "name": "ARLQ",
-      "domain": "arlq.ai",
-      "funnel": "Lead"
-    },
-    {
-      "id": 302925324,
-      "name": "cylib",
-      "domain": "cylib.de",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 299470951,
-      "name": "Beyond Presence (YC S24)",
-      "domain": "beyondpresence.ai",
-      "funnel": "Lead"
-    },
-    {
-      "id": 300074853,
-      "name": "WorkerHero",
-      "domain": "workerhero.com",
-      "funnel": "Lead"
-    },
-    {
-      "id": 296915993,
-      "name": "mimic robotics",
-      "domain": "mimicrobotics.com",
-      "funnel": "Lead"
-    },
-    {
-      "id": 296915892,
-      "name": "fynk",
-      "domain": "fynk.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 296509768,
-      "name": "Cerrion",
-      "domain": "cerrion.com",
-      "funnel": "Awaiting Reply"
-    },
-    {
-      "id": 295908798,
-      "name": "Nodeshift",
-      "domain": "nodeshift.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 293728209,
-      "name": "ReOrbit",
-      "domain": "reorbit.space",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289771391,
-      "name": "Raus",
-      "domain": "raus.life",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289772343,
-      "name": "Valuecase",
-      "domain": "valuecase.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289772592,
-      "name": "Kertos",
-      "domain": "kertos.io",
-      "funnel": "Lead"
-    },
-    {
-      "id": 289764739,
-      "name": "node.energy",
-      "domain": "node.energy",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 279438211,
-      "name": "Fernride",
-      "domain": "fernride.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289767706,
-      "name": "simpleclub",
-      "domain": "simpleclub.com",
-      "funnel": "Deprioritised (free for all)"
-    },
-    {
-      "id": 289768662,
-      "name": "Blobr",
-      "domain": "blobr.io",
-      "funnel": "Pre-lead"
-    }
-  ],
-  "relationships": [
-    {
-      "internal": "David Blyghton",
-      "external": "Nico Schoenenberger",
-      "externalEmail": "nico.schoenenberger@10xfounders.com",
-      "score": 1.0,
-      "linkedin": false
-    },
-    {
-      "internal": "Abhishek Lahoti",
-      "external": "Karim Jalbout",
-      "externalEmail": "kjalbout@googlemail.com",
-      "score": 0.96,
-      "linkedin": false
-    },
-    {
-      "internal": "Eoghan Dorman",
-      "external": "Omar Hedeya",
-      "externalEmail": "omar.hedeya@10xfounders.com",
-      "score": 0.73,
-      "linkedin": false
-    },
-    {
-      "internal": "Rachel Marcinek",
-      "external": "Karim Jalbout",
-      "externalEmail": "kjalbout@googlemail.com",
-      "score": 0.4,
-      "linkedin": false
-    },
-    {
-      "internal": "Efosa Ayanru",
-      "external": "Nico Schoenenberger",
-      "externalEmail": "nico.schoenenberger@10xfounders.com",
-      "score": 0.1,
-      "linkedin": false
-    },
-    {
-      "internal": "Lucinda Maxwell",
-      "external": "Julian Wachtel",
-      "externalEmail": "julian.wachtel@10xfounders.com",
-      "score": 0.1,
-      "linkedin": false
-    }
-  ],
-  "notes": "Pipeline overlap search on list 9387 with investor alias '10x Founders' returned 0 entries (totalCount=0) - no tracked pipeline companies list '10x Founders' as an investor."
+ "slug": "10x-founders",
+ "affinity_company_id": 268045752,
+ "affinity_domain": "10xfounders.com",
+ "pipeline": [
+  {
+   "id": 302792086,
+   "name": "Qorelo",
+   "domain": "qorelo.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 308969272,
+   "name": "ARLQ",
+   "domain": "arlq.ai",
+   "funnel": "Lead"
+  },
+  {
+   "id": 302925324,
+   "name": "cylib",
+   "domain": "cylib.de",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 299470951,
+   "name": "Beyond Presence (YC S24)",
+   "domain": "beyondpresence.ai",
+   "funnel": "Lead"
+  },
+  {
+   "id": 300074853,
+   "name": "WorkerHero",
+   "domain": "workerhero.com",
+   "funnel": "Lead"
+  },
+  {
+   "id": 296915993,
+   "name": "mimic robotics",
+   "domain": "mimicrobotics.com",
+   "funnel": "Lead"
+  },
+  {
+   "id": 296915892,
+   "name": "fynk",
+   "domain": "fynk.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 296509768,
+   "name": "Cerrion",
+   "domain": "cerrion.com",
+   "funnel": "Awaiting Reply"
+  },
+  {
+   "id": 295908798,
+   "name": "Nodeshift",
+   "domain": "nodeshift.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 293728209,
+   "name": "ReOrbit",
+   "domain": "reorbit.space",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289771391,
+   "name": "Raus",
+   "domain": "raus.life",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289772343,
+   "name": "Valuecase",
+   "domain": "valuecase.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289772592,
+   "name": "Kertos",
+   "domain": "kertos.io",
+   "funnel": "Lead"
+  },
+  {
+   "id": 289764739,
+   "name": "node.energy",
+   "domain": "node.energy",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 279438211,
+   "name": "Fernride",
+   "domain": "fernride.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289767706,
+   "name": "simpleclub",
+   "domain": "simpleclub.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289768662,
+   "name": "Blobr",
+   "domain": "blobr.io",
+   "funnel": "Pre-lead"
+  }
+ ],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Nico Schoenenberger",
+   "externalEmail": "nico.schoenenberger@10xfounders.com",
+   "score": 1.0,
+   "last": "2026-09-29",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Omar Hedeya",
+   "externalEmail": "omar.hedeya@10xfounders.com",
+   "score": 0.98,
+   "last": "2025-08-28",
+   "meet": "2025-04-09"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Julian Wachtel",
+   "externalEmail": "julian.wachtel@10xfounders.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Julian Wachtel",
+   "externalEmail": "julian.wachtel@10xfounders.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Nico Schoenenberger",
+   "externalEmail": "nico.schoenenberger@10xfounders.com",
+   "score": 0.1,
+   "last": "2026-09-29",
+   "meet": "2026-09-29"
+  }
+ ],
+ "notes": "Pipeline overlap search on list 9387 with investor alias '10x Founders' returned 0 entries (totalCount=0) - no tracked pipeline companies list '10x Founders' as an investor.",
+ "rels_fetched": "2026-10-05"
 }

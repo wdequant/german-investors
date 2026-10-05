@@ -302,19 +302,28 @@ def harmonic_cells(conn, team_order):
     return cells, li_by_person
 
 
+def eff_edge(r):
+    """Effective path strength: raw Affinity strength decayed by time since the
+    last touch, weighted by channel (met in person > email-only > unknown)."""
+    sc = r.get("score") or 0
+    channel = 1.0 if r.get("meet") else (0.75 if r.get("last") else 0.85)
+    return sc * recency_decay(r.get("last")) * channel
+
+
 def top_people(cells, aff_rels):
     discount_unverified(cells, aff_rels)
     people = {}
-    for r in aff_rels or []:
+    for r in sorted(aff_rels or [], key=lambda r: -eff_edge(r)):
         nm = NAME_MAP.get(r.get("internal"), r.get("internal"))
         if not nm or nm in EX_STAFF:
             continue
         p = people.setdefault(nm, {"name": nm, "aff": 0.0, "harmonic": 0.0, "contacts": []})
-        sc = r.get("score") or 0
+        sc = eff_edge(r)
         p["aff"] = max(p["aff"], sc)
         if r.get("external") and sc > 0:
             p["contacts"].append({"person": r["external"], "pct": round(sc * 100),
-                                  "email": r.get("externalEmail") or None, "linkedin": None})
+                                  "email": r.get("externalEmail") or None, "linkedin": None,
+                                  "last": r.get("last"), "meet": r.get("meet")})
     if cells:
         for u, c in cells.items():
             if c["score"] <= 0 or u in EX_STAFF:
@@ -347,8 +356,8 @@ def points_from(rels, cells, li_by_person):
     """Top-3 'strongest paths in' for the team view."""
     discount_unverified(cells, rels)
     points, seen = [], []
-    for r in sorted(rels or [], key=lambda r: -(r.get("score") or 0)):
-        if (r.get("score") or 0) <= 0:
+    for r in sorted(rels or [], key=lambda r: -eff_edge(r)):
+        if eff_edge(r) < 0.05:
             continue
         nm = NAME_MAP.get(r.get("internal"), r.get("internal"))
         if nm in EX_STAFF:
@@ -359,8 +368,9 @@ def points_from(rels, cells, li_by_person):
         seen.append(ext)
         key = dedup_key(ext)
         points.append({"external": r.get("external"), "internal": nm,
-                       "pct": round((r.get("score") or 0) * 100),
+                       "pct": round(eff_edge(r) * 100),
                        "email": r.get("externalEmail") or None,
+                       "last": r.get("last"), "meet": r.get("meet"),
                        "linkedin": li_by_person.get(key), "src": "affinity"})
     hc = []
     if cells:
@@ -470,21 +480,34 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
         cdates = r.get("contacts", {})
         flags = emp.get(slug, {})
         known = set()
+        former = []
         for p_ in e.get("top_people", []):
             for k in p_["contacts"]:
                 orig = k["person"]
                 k["person"] = _strip_emoji(orig)
                 known.add(norm_name(k["person"]))
                 info = cdates.get(orig) or cdates.get(k["person"]) or {}
-                k["last"] = info.get("last")
+                k["last"] = k.get("last") or info.get("last")
                 k["mismatch"] = bool(info.get("mismatch"))
                 f = flags.get(k["person"]) or {}
                 k["moved"] = (f.get("now") if f.get("status") == "moved"
                               and k["person"] not in EMP_OVERRIDES else None)
+            # someone who left the fund is not a path in for anyone, in any
+            # view: drop them from the person's contacts (noted under "former"),
+            # and re-base their Affinity signal on what remains
+            dropped = [k for k in p_["contacts"] if k.get("moved")]
+            if dropped:
+                p_["contacts"] = [k for k in p_["contacts"] if not k.get("moved")]
+                former += [{"person": k["person"], "now": k["moved"]} for k in dropped]
+                p_["aff"] = round(max([(k.get("pct") or 0) / 100
+                                       for k in p_["contacts"]] + [0]), 2)
+        seen_f = set()
+        e["former"] = [f_ for f_ in former
+                       if not (f_["person"] in seen_f or seen_f.add(f_["person"]))]
         for pt in e.get("points", []):
             info = cdates.get(pt["external"]) or {}
             pt["external"] = _strip_emoji(pt["external"])
-            pt["last"] = info.get("last")
+            pt["last"] = pt.get("last") or info.get("last")
             f = flags.get(pt["external"]) or {}
             pt["moved"] = (f.get("now") if f.get("status") == "moved"
                            and pt["external"] not in EMP_OVERRIDES else None)

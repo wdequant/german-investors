@@ -524,9 +524,11 @@ const emIcon = p => {
   if(!em) return '';
   return `<span class="em${p.email?'':' guess'}" data-em="${em}"${p.email?'':' data-guess="1"'}>✉</span>`;
 };
+const evidence = o => o.meet?`met ${fmtD(o.meet)}`:(o.last?`em ${fmtD(o.last)}`:null);
 function pathLine(p, ctx){
   const nm = `<a href="${p.linkedin||liSearch(p.external,ctx)}" target="_blank" rel="noopener"><b>${p.external}</b></a>`;
-  const when = p.last?`<span class="when">${fmtD(p.last)}</span>`:'';
+  const ev = evidence(p);
+  const when = ev?`<span class="when">${ev}</span>`:'';
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
   const uv = p.unverified?` <span class="uvtag">unverified · email-only</span>`:'';
@@ -541,7 +543,8 @@ function ptsHTML(e){
     let mine = s.contacts.map(k=>{
       const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener"><b>${k.person}</b></a>`;
       const extra = (k.email?emIcon(k):'')+(k.title?` <span class="via">· ${k.title}</span>`:'')+(k.pct!=null?` <span class="pct">${k.pct}%</span>`:'');
-      const when = k.last?` <span class="when">· ${fmtD(k.last)}</span>`:'';
+      const ev = evidence(k);
+      const when = ev?` <span class="when">· ${ev}</span>`:'';
       return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
     }).join('')+dormP;
     if(!mine){
@@ -672,12 +675,15 @@ function detailHTML(e){
       return `<div class="tm"><h6>${p.name} <span style="color:var(--muted)">${strength}</span></h6>`+
         p.contacts.map(k=>{
           const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener">${k.person}</a>`;
-          const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
-          const moved = k.moved?` <span class="flag" data-moved="${k.moved}">⚠</span>`:'';
+          const bits = [k.title, k.pct!=null?`${k.pct}%`:null, evidence(k)].filter(Boolean).join(' · ');
           const uv = k.unverified?` <span class="uvtag">unverified · email-only</span>`:'';
-          return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${moved}${uv}</div>`;
+          return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${uv}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
+    if(e.former && e.former.length){
+      h += `<div class="meta-line" style="color:var(--muted)">No longer at ${e.name}: `+
+        e.former.map(f=>`${f.person} → ${f.now}`).join(' · ')+`</div>`;
+    }
   }
   const liq = n => liSearch(n, e.name);
   if(e.partners_known && e.partners_known.length){

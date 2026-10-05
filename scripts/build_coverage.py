@@ -188,9 +188,21 @@ try:
 except ValueError:
     pass
 _uf_any = any(r.get("ufHigh") for r in regions.values())
+import glob as _glob
+_rels_date = max((d.get("rels_fetched") or ""
+                  for p in _glob.glob(f"{ROOT}/data/affinity/*.json")
+                  + _glob.glob(f"{ROOT}/data/*/affinity/*.json")
+                  for d in [load_json(p, {})] if isinstance(d, dict)),
+                 default="") or None
+try:
+    from datetime import date as _date2
+    _rels_date = _date2.fromisoformat(_rels_date).strftime("%d %b %Y") if _rels_date else None
+except ValueError:
+    _rels_date = None
 freshness = {
     "Harmonic universe & network": "12 Aug 2026",
-    "Affinity relationships & pipeline": _dump_date,
+    "Affinity pipeline": _dump_date,
+    "Affinity relationships (paths in)": _rels_date or "17 Aug 2026",
     "Partner rosters, recent deals, recency": "17 Aug 2026",
 }
 if _uf_any:
