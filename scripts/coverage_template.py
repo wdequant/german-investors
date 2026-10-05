@@ -568,7 +568,7 @@ const state = {region: REGIONS[0], view:"funds", sort:"connectivity", q:"", pers
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
-const isOwned = p => state.person && (p.own||[]).some(o=>o===state.person||o.startsWith(state.person.split(' ')[0]));
+const isOwned = p => state.person && (p.own||[]).includes(state.person);  // exact — 'Will de Quant' must not match 'Will McMahon'
 const bucketN = (e,k) => state.person ? e.buckets[k].filter(isOwned).length : e.buckets[k].length;
 const pipeCount = e => BUCKETS.reduce((m,[k])=>m+bucketN(e,k),0);
 const pipeCountTeam = e => BUCKETS.reduce((m,[k])=>m+e.buckets[k].length,0);
@@ -1138,7 +1138,7 @@ function orderPaths(i){  // personal view: the viewer's own paths lead
 }
 function htcHTML(){
   let rows = D.regions[state.region].htc;
-  if(state.person) rows = rows.filter(c=>(c.owners||[]).some(o=>o===state.person || o.startsWith(state.person.split(' ')[0])));
+  if(state.person) rows = rows.filter(c=>(c.owners||[]).includes(state.person));
   if(state.q) rows = rows.filter(c=>c.name.toLowerCase().includes(state.q));
   document.getElementById('htchint').textContent = state.person
     ? `companies owned by ${state.person} in Affinity, reachable via mapped investors`
@@ -1213,7 +1213,7 @@ function renderMobile(){
   }
   if(state.view==='htc'){
     let rows = D.regions[state.region].htc;
-    if(state.person) rows = rows.filter(c=>(c.owners||[]).some(o=>o===state.person||o.startsWith(state.person.split(' ')[0])));
+    if(state.person) rows = rows.filter(c=>(c.owners||[]).includes(state.person));
     if(state.q) rows = rows.filter(c=>c.name.toLowerCase().includes(state.q));
     el.innerHTML = `<div class="mhead">Hard to crack — tap for Affinity</div>`+
       (rows.map(mHtcCardHTML).join('')||'<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');

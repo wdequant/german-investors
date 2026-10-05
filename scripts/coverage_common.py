@@ -5,7 +5,14 @@ from datetime import datetime, timezone
 TODAY = datetime.now(timezone.utc)  # recency decay + freshness stamps; CI rebuilds nightly
 AFFINITY_ORG = "highland"  # tenant subdomain per Affinity get_current_user
 EX_STAFF = {"Emily Tan", "Anna Faulkner", "Zina Alfa", "Rachel Barbour-Fowles",
-            "Isabel Wright"}
+            "Isabel Wright", "Will McMahon"}
+
+
+def owners_departed(ent):
+    """True when the Affinity entry has owners but every one has left Highland
+    (e.g. sole-owned by Will McMahon) -> treat the company as untracked."""
+    own = [o for o in (ent.get("owners") or []) if o != "Affinity Help"]
+    return bool(own) and all(o in EX_STAFF for o in own)
 NAME_MAP = {"Gajan Rajanathan": "Gaj Rajanathan", "William De Quant": "Will de Quant",
             "Stan Laurent": "Stan"}
 # User-confirmed corrections to the automated employment check: these contacts
@@ -742,12 +749,17 @@ def affinity_sync(entities, dump, region_key):
                 for slug in best[1]:
                     matched[slug][ent["id"]] = ent
 
+    orphan_ids = {ent["id"] for ent in entries if owners_departed(ent)}
+
     added_by = {}
     for slug, ents in matched.items():
         e = funds[slug]
-        pipe = {p["id"]: p for k in e["buckets"] for p in e["buckets"][k]}
+        pipe = {p["id"]: p for k in e["buckets"] for p in e["buckets"][k]
+                if p["id"] not in orphan_ids}  # sole owner left Highland -> not our pipeline
         added = 0
         for cid, ent in ents.items():
+            if cid in orphan_ids:
+                continue
             f = ent.get("funnel")
             if cid in pipe:
                 if f and pipe[cid].get("funnel") != f:
@@ -769,6 +781,8 @@ def affinity_sync(entities, dump, region_key):
         for u in (e.get("untracked") or []):
             d = (u.get("domain") or "").lower().removeprefix("www.")
             ent = (by_domain.get(d) if d else None) or by_name.get(_nrm_inv(u.get("name")))
+            if ent and owners_departed(ent):
+                ent = None  # record exists but its only owner left -> stays untracked
             if ent:  # in Affinity at all -> not 'untracked'
                 b = ("portfolio" if ent.get("funnel") == "Portfolio Company"
                      else TEXT2BUCKET.get(ent.get("funnel")))
@@ -810,6 +824,8 @@ def attach_dealflow(entities, dealflow, dump):
         for d in (dealflow or {}).get(e["slug"]) or []:
             dom = (d.get("domain") or "").lower().removeprefix("www.")
             ent = (by_domain.get(dom) if dom else None) or by_name.get(_nrm_inv(d.get("name")))
+            if ent and owners_departed(ent):
+                ent = None  # sole owner left Highland -> show as not tracked
             rows.append({**d,
                          "funnel": (ent.get("funnel") or "In CRM") if ent else None,
                          "affinity_id": ent.get("id") if ent else None})
@@ -856,6 +872,8 @@ def inject_htc_captables(entities, captables, htc_owners=None):
     for cid_s, c in captables.items():
         cid = int(cid_s) if str(cid_s).isdigit() else cid_s
         meta = ho.get(str(cid)) or {}
+        if owners_departed(meta):
+            continue  # sole owner left Highland -> not our pipeline
         for inv in c.get("investors") or []:
             ni = _nrm_inv(inv)
             if not ni:
