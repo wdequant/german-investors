@@ -219,7 +219,7 @@ def discount_unverified(cells, aff_rels):
         c["contacts"].sort(key=lambda x: -x["w"])
 
 
-def relevance(inv, crypto_names=()):
+def relevance(inv, crypto_names=(), eu_deals_24m=None):
     """inv needs: name, entry_stage_focus, sector_focus, europe_share,
     last_investment, num_unicorns, num_portfolio (opt), num_investments, follow_on_rate."""
     stages = inv.get("entry_stage_focus") or ""
@@ -243,7 +243,11 @@ def relevance(inv, crypto_names=()):
     else:
         sector_pts = 12
     eu = inv.get("europe_share") or 0.0
-    geo_pts = round(20 * min(1.0, eu / 80.0), 1)
+    if eu_deals_24m is not None:
+        # US-in-Europe variant: score European activity by deal count, not share
+        geo_pts = round(min(20.0, eu_deals_24m * 2.5), 1)
+    else:
+        geo_pts = round(20 * min(1.0, eu / 80.0), 1)
     last = inv.get("last_investment")
     days = 9999
     if last and last != "null":
@@ -253,9 +257,12 @@ def relevance(inv, crypto_names=()):
     port = inv.get("num_portfolio_companies") or inv.get("num_investments") or 1
     fon = inv.get("follow_on_rate") or 0
     grad_pts = round(min(15, 15 * min(1.0, ((uni / max(port, 1)) * 10 + fon) / 1.4)), 1)
-    return {"total": round(stage_pts + sector_pts + geo_pts + activity_pts + grad_pts),
-            "stage": stage_pts, "sector": sector_pts, "geo": geo_pts,
-            "activity": activity_pts, "grad": grad_pts, "europe": eu}
+    out = {"total": round(stage_pts + sector_pts + geo_pts + activity_pts + grad_pts),
+           "stage": stage_pts, "sector": sector_pts, "geo": geo_pts,
+           "activity": activity_pts, "grad": grad_pts, "europe": eu}
+    if eu_deals_24m is not None:
+        out["eu_deals"] = eu_deals_24m
+    return out
 
 
 def bucket_pipeline(pipeline):

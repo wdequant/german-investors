@@ -7,7 +7,7 @@ from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enr
                              compute_bridges_and_synd, build_htc, angel_relevance,
                              affinity_sync, inject_htc_captables,
                              collect_linkedin, backfill_linkedin, attach_dealflow)
-import assemble_germany, assemble_nordics, assemble_france
+import assemble_germany, assemble_nordics, assemble_france, assemble_us
 import importlib.util as _ilu
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -41,7 +41,8 @@ for part in ("a", "b"):
         pmeta_france.setdefault(slug, {}).update(d)
 PMETA = {"germany": pmeta_germany,
          "nordics": load_json(f"{ROOT}/data/enrich/partners-meta-nordics.json", {}) or {},
-         "france": pmeta_france}
+         "france": pmeta_france,
+         "us": load_json(f"{ROOT}/data/enrich/partners-meta-us.json", {}) or {}}
 
 
 def merge_10x(ents):
@@ -66,6 +67,7 @@ REGION_CFG = {
     "germany": {"label": "Germany", "adj": "German", "assemble": assemble_germany.assemble},
     "nordics": {"label": "Nordics", "adj": "Nordic", "assemble": assemble_nordics.assemble},
     "france": {"label": "France", "adj": "French", "assemble": assemble_france.assemble},
+    "us": {"label": "US → EU", "adj": "US tier-1", "assemble": assemble_us.assemble},
 }
 
 regions = {}

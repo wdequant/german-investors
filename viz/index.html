@@ -597,7 +597,7 @@ function detailHTML(e){
   if(e.liveAt) h += `<div class="meta-line"><span class="livebadge">${liveLabel(e)}</span> <span class="cc">${window.claude?'pipeline refreshed from your Affinity connector':'checked live against Affinity & Harmonic just now'}</span></div>`;
   if(e.kind==='fund'){
     const r=e.relevance;
-    h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · Europe ${r.geo} at ${Math.round(r.europe)}% · activity ${r.activity} · graduation ${r.grad})
+    h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · ${r.eu_deals!=null?`EU activity ${r.geo} · ${r.eu_deals} EU deals/24m`:`Europe ${r.geo} at ${Math.round(r.europe)}%`} · activity ${r.activity} · graduation ${r.grad})
       · ${e.num_investments??'—'} investments · ${e.unicorns??0} unicorns · last investment ${e.last_investment||'—'}
       ${e.coinvest.length?` · <b style="color:var(--covered-ink)">co-invested:</b> ${e.coinvest.join(', ')}`:''}</div>`;
     if(e.uf && (e.uf.top||[]).length){
@@ -1173,7 +1173,7 @@ function changesHTML(){
       `<span class="chg ${m.up?'up':'down'}"><a href="${affURL(m.id)}" target="_blank" rel="noopener">${m.name}</a> <span class="cc">${m.from||'—'} →</span> <b>${m.to}</b> <span class="cc">· ${m.fund}</span></span>`)
     .concat((ch.added||[]).map(a=>
       `<span class="chg add"><a href="${affURL(a.id)}" target="_blank" rel="noopener">${a.name}</a> <b>new on our list</b>${a.funnel?` <span class="cc">as ${a.funnel}</span>`:''} <span class="cc">· ${a.fund}</span></span>`));
-  return `<details class="chgsec" open><summary>What's changed <b>${items.length}</b><span class="cnt">pipeline movement at tracked ${D.regions[state.region].label} investors since ${ch.since}</span></summary><div class="chglist">${items.join('')}</div></details>`;
+  return `<details class="chgsec"><summary>What's Changed since Last Week <b>${items.length}</b><span class="cnt">pipeline moves at tracked ${D.regions[state.region].label} investors · baseline ${ch.since}</span></summary><div class="chglist">${items.join('')}</div></details>`;
 }
 function render(){
   const mob = isMobile();
@@ -1337,7 +1337,7 @@ function tipRel(e){
   const thesis = r.thesis!=null ? `Thesis fit ${r.thesis}/100 × 0.6:<br>` : '';
   return `<div class="th">Relevance ${r.total}/100${r.unframe!=null?' — thesis × Unframe blend':''}</div>
     ${thesis}Stage fit <b>${r.stage}</b>/25 · Sector fit <b>${r.sector}</b>/25<br>
-    Europe share <b>${r.geo}</b>/20 <span style="color:var(--muted)">(${Math.round(r.europe)}% of recent deals in Europe)</span><br>
+    ${r.eu_deals!=null?`European activity <b>${r.geo}</b>/20 <span style="color:var(--muted)">(${r.eu_deals} EU early-stage deals in 24m)</span>`:`Europe share <b>${r.geo}</b>/20 <span style="color:var(--muted)">(${Math.round(r.europe)}% of recent deals in Europe)</span>`}<br>
     Activity <b>${r.activity}</b>/15 · Graduation to growth rounds <b>${r.grad}</b>/15${uf}
     <div class="tf">How much this fund's portfolio should feed Highland's pipeline${r.unframe!=null?' — weighted by how many of their companies our brain model rates high-priority':''}</div>`;
 }
