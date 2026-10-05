@@ -450,6 +450,10 @@ def finalize(entities):
     for e in entities:
         r = (e["relevance"] or {}).get("total", 0)
         e["gap"] = round(r * (1 - e["connectivity"] / 100))
+        # accelerators/studios matter for dealflow, not relationship-building:
+        # halve their meeting priority so they don't lead "Start here"/gap sorts
+        if e.get("category") in ("accelerator", "accel", "studio"):
+            e["gap"] = round(e["gap"] * 0.5)
         c = e["connectivity"]
         e["tier"] = "strong" if c >= 50 else "medium" if c >= 22 else "weak"
     return entities

@@ -64,6 +64,14 @@ h1{font-size:33px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
   padding:10px 24px;font-size:15px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
 .regionnav button:hover{border-color:var(--ink2)}
 .regionnav button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.regionnav select{margin-left:auto;background:var(--surface);color:var(--ink2);border:1px solid var(--hair);
+  border-radius:10px;padding:10px 14px;font-size:13.5px;font-weight:600;cursor:pointer}
+.shrow.trip .shcard{min-width:0}
+.tripdoors{font-size:11.5px;margin-top:3px;color:var(--ink2)}
+.tripdoors a{font-weight:600}
+.tripclear{margin-left:10px;font-size:10.5px;letter-spacing:.05em;border:1px solid var(--hair);
+  background:var(--surface);color:var(--ink2);border-radius:6px;padding:2px 9px;cursor:pointer;text-transform:uppercase}
+.tripclear:hover{border-color:var(--ink2)}
 .subline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .about summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px;font-weight:600;list-style:none;white-space:nowrap}
 .about summary::before{content:"ⓘ ";font-weight:400}
@@ -456,7 +464,7 @@ const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:"",
+const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:"", trip:"",
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
@@ -556,6 +564,54 @@ function nextMove(e){
   const b=(e.bridges||[])[0];
   if(b) return {cls:'gap', txt:`No warm path — ask ${first(b.internal)} to bridge via ${b.name}`};
   return {cls:'gap', txt:'No warm path — needs a cold door'};
+}
+// ---------- trip planner ----------
+const METRO = {"Norrmalm":"Stockholm","Kongens Lyngby":"Copenhagen","Landshut":"Munich",
+  "Bonn":"Cologne & Bonn","Cologne":"Cologne & Bonn","Saint-Jacques-de-la-Lande":"Rennes",
+  "San Francisco":"SF Bay Area","Menlo Park":"SF Bay Area","Palo Alto":"SF Bay Area",
+  "Mountain View":"SF Bay Area","Woodside":"SF Bay Area"};
+const cityOf = e => { const c=(e.city||'').split('·')[0].trim(); return METRO[c]||c; };
+const TRIPS = {};
+REGIONS.forEach(r=>D.regions[r].entities.forEach(e=>{
+  if(e.kind!=='fund'||!e.city) return;
+  const c=cityOf(e); (TRIPS[c]=TRIPS[c]||[]).push({r,slug:e.slug});
+}));
+const ACCELCAT = {accelerator:1,accel:1,studio:1};
+function tripHTML(city){
+  const items=(TRIPS[city]||[]).map(({r,slug})=>({r,e:D.regions[r].entities.find(x=>x.slug===slug)})).filter(x=>x.e);
+  items.sort((a,b)=>((ACCELCAT[a.e.category]?1:0)-(ACCELCAT[b.e.category]?1:0))
+    || (b.e.relevance?.total||0)-(a.e.relevance?.total||0));
+  const cards=items.slice(0,12).map(({r,e})=>{
+    const nm=nextMove(e)||{cls:'gap',txt:''};
+    const doors=(!e.points||!e.points.length)&&(e.partners_unknown||[]).length
+      ? `<div class="tripdoors"><span class="cc">Doors:</span> `+e.partners_unknown.slice(0,2)
+          .map(p=>p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener">${p.name}</a>`:p.name)
+          .join(' <span class="cc">·</span> ')+`</div>` : '';
+    const proof=e.uf&&(e.uf.top||[]).length
+      ? `<div class="fmeta ufproof"><span class="cc">High-prio in book:</span>`+
+        e.uf.top.map(t=>`<span class="ufco">${t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
+    return `<div class="shcard tripcard" data-slug="${e.slug}" data-r="${r}" tabindex="0" role="button">
+      <div class="fname ${e.tier}"><span class="tdot"></span>${e.name}${ACCELCAT[e.category]?` <span class="cc">· ${e.category==='studio'?'studio':'accelerator'}</span>`:''}</div>
+      <div class="shwhy">relevance ${e.relevance?e.relevance.total:'—'}${(e.coinvest||[]).length?` · co-invested ×${e.coinvest.length}`:''}</div>
+      <div class="nm ${nm.cls}">${nm.txt}</div>${doors}${proof}</div>`;
+  }).join('');
+  const more=items.length>12?`<div class="cc" style="margin:6px 0 2px">+${items.length-12} more — see the table below</div>`:'';
+  return `<div class="shhead">✈ ${city} — who to meet, ranked <button class="tripclear" id="tripclear">clear</button></div><div class="shrow trip">${cards}</div>${more}`;
+}
+function bindTrip(sh){
+  sh.querySelectorAll('.tripcard').forEach(c=>{
+    const go=()=>{
+      if(c.dataset.r!==state.region){ state.region=c.dataset.r;
+        document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on',x.dataset.r===state.region));
+        labels(); scoreboard(); render(); }
+      toggleRow(c.dataset.slug);
+      document.querySelector(`tr.mainrow[data-slug="${CSS.escape(c.dataset.slug)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});
+    };
+    c.addEventListener('click',ev=>{ if(!ev.target.closest('a')) go(); });
+    c.addEventListener('keydown',ev=>{ if(ev.key==='Enter') go(); });
+  });
+  const cl=document.getElementById('tripclear');
+  if(cl) cl.addEventListener('click',()=>{ state.trip=''; const t=document.getElementById('trip'); if(t) t.value=''; render(); });
 }
 function headHTML(){
   return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
@@ -1259,15 +1315,18 @@ function render(){
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
   document.getElementById('untview').style.display = state.view==='unt'?'':'none';
   const sh = document.getElementById('starthere');
+  if(sh && state.view==='funds' && state.trip){
+    sh.innerHTML = tripHTML(state.trip); bindTrip(sh);
+  }
   if(mob){
-    if(sh) sh.innerHTML='';
+    if(sh && !(state.view==='funds' && state.trip)) sh.innerHTML='';
     if(state.view==='funds') filtersHTML();
     renderMobile(); updateHash(); return;
   }
   document.getElementById('sheet').classList.remove('open');
   if(state.view==='htc'){ htcHTML(); return; }
   if(state.view==='unt'){ untHTML(); return; }
-  if(sh){
+  if(sh && !state.trip){
     sh.innerHTML='';
     if(state.view==='funds' && !state.q && !state.person){
       const top=[...E().filter(e=>e.kind==='fund')].sort((a,b)=>(b.gap||0)-(a.gap||0)).slice(0,3);
@@ -1378,8 +1437,26 @@ readHash();
 const seg = document.getElementById('regionseg');
 REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=D.regions[r].label;b.dataset.r=r;
   if(r===state.region)b.classList.add('on');
-  b.addEventListener('click',()=>{state.region=r;state.open='';seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
+  b.addEventListener('click',()=>{state.region=r;state.open='';state.trip='';
+    const t=document.getElementById('trip'); if(t) t.value='';
+    seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
   seg.appendChild(b);});
+const tripSel = document.createElement('select'); tripSel.id='trip'; tripSel.title='Going somewhere? See who to meet there';
+tripSel.innerHTML = '<option value="">✈ Plan a trip…</option>'+
+  Object.keys(TRIPS).sort().map(c=>`<option value="${c}">${c} · ${TRIPS[c].length} fund${TRIPS[c].length>1?'s':''}</option>`).join('');
+tripSel.addEventListener('change',()=>{
+  state.trip = tripSel.value; state.open='';
+  if(state.trip){
+    state.view='funds';
+    document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on',x.dataset.v==='funds'));
+    const r0 = TRIPS[state.trip][0].r;
+    if(r0!==state.region){ state.region=r0;
+      seg.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x.dataset.r===r0));
+      labels(); scoreboard(); }
+  }
+  render();
+});
+seg.appendChild(tripSel);
 document.querySelectorAll('#viewseg button').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('#viewseg button').forEach(x=>x.classList.remove('on'));
   b.classList.add('on'); state.view=b.dataset.v; render(); updateHash();
