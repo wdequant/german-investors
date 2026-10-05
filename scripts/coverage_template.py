@@ -69,9 +69,49 @@ h1{font-size:33px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .shrow.trip .shcard{min-width:0}
 .tripdoors{font-size:11.5px;margin-top:3px;color:var(--ink2)}
 .tripdoors a{font-weight:600}
-.tripclear{margin-left:10px;font-size:10.5px;letter-spacing:.05em;border:1px solid var(--hair);
-  background:var(--surface);color:var(--ink2);border-radius:6px;padding:2px 9px;cursor:pointer;text-transform:uppercase}
-.tripclear:hover{border-color:var(--ink2)}
+.actionrow{display:flex;gap:10px;margin:2px 0 12px;flex-wrap:wrap}
+.abtn{background:var(--surface);border:1px solid var(--ink);color:var(--ink);border-radius:10px;
+  padding:9px 18px;font-size:13.5px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
+.abtn:hover{background:var(--ink);color:var(--surface)}
+#apback{position:fixed;inset:0;background:rgba(20,18,12,.35);z-index:65;display:none}
+#apback.open{display:block}
+#apanel{position:fixed;top:0;right:0;width:min(640px,96vw);height:100vh;background:var(--page);
+  border-left:1px solid var(--hair);z-index:70;overflow-y:auto;transform:translateX(102%);
+  transition:transform .22s ease;box-shadow:-18px 0 40px rgba(0,0,0,.12)}
+#apanel.open{transform:none}
+.aphead{position:sticky;top:0;background:var(--page);z-index:3;display:flex;align-items:center;gap:10px;
+  padding:16px 20px 12px;border-bottom:1px solid var(--hair)}
+.aphead #aptitle{flex:1;font-size:17px;font-weight:700;letter-spacing:-.01em}
+.aphead button{background:var(--surface);border:1px solid var(--hair);border-radius:8px;width:32px;height:32px;
+  font-size:14px;color:var(--ink2);cursor:pointer}
+.apctx{display:flex;gap:10px;align-items:center;padding:10px 20px;border-bottom:1px solid var(--hair);
+  font-size:12px;color:var(--muted);flex-wrap:wrap}
+.apctx select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;
+  padding:6px 10px;font-size:12.5px}
+.apbody{padding:14px 20px 80px}
+.aphint{font-size:12px;color:var(--muted);margin:2px 0 12px}
+.apsec{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:18px 0 8px}
+.apcard{border:1px solid var(--hair);border-radius:10px;padding:11px 13px;margin-bottom:10px}
+.apcard .fname{font-size:14.5px}
+.apmeta{font-size:11.5px;color:var(--muted);margin-top:2px}
+.appath{font-size:12.5px;margin-top:6px}
+.appath b{font-weight:650}
+.appath .via{color:var(--muted)}
+.apacts{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.apacts a,.apacts button{font-size:12px;font-weight:600;border:1px solid var(--hair);border-radius:7px;
+  padding:5px 11px;background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none}
+.apacts a:hover,.apacts button:hover{border-color:var(--ink2)}
+.apdraft{margin-top:10px;border-top:1px dashed var(--hair);padding-top:10px}
+.apdraft textarea{width:100%;min-height:150px;border:1px solid var(--hair);border-radius:8px;background:var(--surface);
+  color:var(--ink);font:12.5px/1.5 inherit;padding:10px;resize:vertical}
+.aptog{display:inline-flex;border:1px solid var(--hair);border-radius:7px;overflow:hidden;margin-bottom:8px}
+.aptog button{border:0;background:var(--surface);color:var(--ink2);font-size:11.5px;font-weight:650;padding:5px 12px;cursor:pointer}
+.aptog button.on{background:var(--ink);color:var(--surface)}
+.apcontact{font-size:11.5px;color:var(--ink2);margin:4px 0 8px}
+.apcontact .guess{color:var(--thin-ink)}
+.aprow{display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid var(--hair2);font-size:13px;flex-wrap:wrap}
+.aprow .cc{font-size:11px}
+@media(max-width:760px){.apbody{padding:12px 14px 80px}}
 .subline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .about summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px;font-weight:600;list-style:none;white-space:nowrap}
 .about summary::before{content:"ⓘ ";font-weight:400}
@@ -400,6 +440,11 @@ th.sk:hover{color:var(--accent-ink)}
   <div class="kicker" id="kick">Highland Europe · relationship intelligence · __GENERATED__</div>
   <h1 id="pagetitle"></h1>
   <div id="regionseg" class="regionnav"></div>
+  <div class="actionrow">
+    <button class="abtn" data-ap="htc">Solve my hard-to-cracks</button>
+    <button class="abtn" data-ap="net">Build my network</button>
+    <button class="abtn" data-ap="geo">✈ Geo visit</button>
+  </div>
   <p class="sub subline"><span id="subcount"></span>
   <details class="about"><summary>How to read this page</summary><div class="aboutbody">
   Read each fund left to right: <b>why they matter</b> — the top of their portfolio through our Unframe
@@ -438,6 +483,13 @@ th.sk:hover{color:var(--accent-ink)}
 </div>
 
 <div id="mlist"></div>
+<div id="apback"></div>
+<aside id="apanel" role="dialog" aria-modal="true" aria-label="Action panel">
+  <div class="aphead"><div id="aptitle"></div><button id="apclose" aria-label="Close">✕</button></div>
+  <div class="apctx" id="apctx"></div>
+  <div class="apbody" id="apbody"></div>
+</aside>
+
 <div id="sheet" role="dialog" aria-modal="true">
   <div class="sheethead"><button id="sheetclose" aria-label="Close">←</button><div class="fname" id="sheetname"></div></div>
   <div class="sheetstats" id="sheetstats"></div>
@@ -466,7 +518,7 @@ const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:"", trip:"",
+const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:"",
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
@@ -579,41 +631,200 @@ REGIONS.forEach(r=>D.regions[r].entities.forEach(e=>{
   const c=cityOf(e); (TRIPS[c]=TRIPS[c]||[]).push({r,slug:e.slug});
 }));
 const ACCELCAT = {accelerator:1,accel:1,studio:1};
-function tripHTML(city){
-  const items=(TRIPS[city]||[]).map(({r,slug})=>({r,e:D.regions[r].entities.find(x=>x.slug===slug)})).filter(x=>x.e);
-  items.sort((a,b)=>((ACCELCAT[a.e.category]?1:0)-(ACCELCAT[b.e.category]?1:0))
-    || (b.e.relevance?.total||0)-(a.e.relevance?.total||0));
-  const cards=items.slice(0,12).map(({r,e})=>{
-    const nm=nextMove(e)||{cls:'gap',txt:''};
-    const doors=(!e.points||!e.points.length)&&(e.partners_unknown||[]).length
-      ? `<div class="tripdoors"><span class="cc">Doors:</span> `+e.partners_unknown.slice(0,2)
-          .map(p=>p.linkedin?`<a href="${p.linkedin}" target="_blank" rel="noopener">${p.name}</a>`:p.name)
-          .join(' <span class="cc">·</span> ')+`</div>` : '';
-    const proof=e.uf&&(e.uf.top||[]).length
-      ? `<div class="fmeta ufproof"><span class="cc">High-prio in book:</span>`+
-        e.uf.top.map(t=>`<span class="ufco">${t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
-    return `<div class="shcard tripcard" data-slug="${e.slug}" data-r="${r}" tabindex="0" role="button">
-      <div class="fname ${e.tier}"><span class="tdot"></span>${e.name}${ACCELCAT[e.category]?` <span class="cc">· ${e.category==='studio'?'studio':'accelerator'}</span>`:''}</div>
-      <div class="shwhy">relevance ${e.relevance?e.relevance.total:'—'}${(e.coinvest||[]).length?` · co-invested ×${e.coinvest.length}`:''}</div>
-      <div class="nm ${nm.cls}">${nm.txt}</div>${doors}${proof}</div>`;
-  }).join('');
-  const more=items.length>12?`<div class="cc" style="margin:6px 0 2px">+${items.length-12} more — see the table below</div>`:'';
-  return `<div class="shhead">✈ ${city} — who to meet, ranked <button class="tripclear" id="tripclear">clear</button></div><div class="shrow trip">${cards}</div>${more}`;
+
+// ---------- action panel (Solve H2Cs / Build network / Geo visit) ----------
+const MAILBOX = {"Gaj Rajanathan":"gajan","Harry Williams":"harry","Sam Brooks":"sam","Ronan Shally":"ronan",
+  "Fergal Mullen":"fergal","David Blyghton":"david","Helena Richardson":"helena","Laurence Garrett":"laurence",
+  "Irena Goldenberg":"irena","Will de Quant":"william"};
+const hlMail = n => (MAILBOX[n]||(n||'').split(' ')[0].toLowerCase())+'@highlandeurope.com';
+const guessEmail = (name, fmt) => {
+  if(!name||!fmt||!fmt.includes('@')) return null;
+  const parts=name.trim().toLowerCase().split(/\s+/); if(parts.length<2) return null;
+  const first=parts[0].normalize('NFD').replace(/[̀-ͯ]/g,''),
+        last=parts[parts.length-1].normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z-]/g,'');
+  const [loc,dom]=fmt.split('@');
+  const local=loc.replace(/first/g,first).replace(/last/g,last).replace(/\bf\b/g,first[0]).replace(/\bl\b/g,last[0]);
+  return local+'@'+dom;
+};
+const ALLE = REGIONS.flatMap(r=>D.regions[r].entities.map(e=>({r,e})));
+const metroOf = c => METRO[c]||c;
+const ap = {mode:'', who:'', city:''};
+
+function openAP(mode){
+  ap.mode=mode;
+  if(!ap.who) ap.who=state.person||'';
+  document.getElementById('apanel').classList.add('open');
+  document.getElementById('apback').classList.add('open');
+  renderAP();
 }
-function bindTrip(sh){
-  sh.querySelectorAll('.tripcard').forEach(c=>{
-    const go=()=>{
-      if(c.dataset.r!==state.region){ state.region=c.dataset.r;
-        document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on',x.dataset.r===state.region));
-        labels(); scoreboard(); render(); }
-      toggleRow(c.dataset.slug);
-      document.querySelector(`tr.mainrow[data-slug="${CSS.escape(c.dataset.slug)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});
-    };
-    c.addEventListener('click',ev=>{ if(!ev.target.closest('a')) go(); });
-    c.addEventListener('keydown',ev=>{ if(ev.key==='Enter') go(); });
-  });
-  const cl=document.getElementById('tripclear');
-  if(cl) cl.addEventListener('click',()=>{ state.trip=''; const t=document.getElementById('trip'); if(t) t.value=''; render(); });
+function closeAP(){
+  document.getElementById('apanel').classList.remove('open');
+  document.getElementById('apback').classList.remove('open');
+}
+function renderAP(){
+  const titles={htc:'Solve my hard-to-cracks', net:'Build my network', geo:'Geo visit'};
+  document.getElementById('aptitle').textContent=titles[ap.mode]||'';
+  const ctx=document.getElementById('apctx');
+  ctx.innerHTML=`Acting as <select id="apwho"><option value="">Whole team</option>`+
+    D.roster.map(n=>`<option${ap.who===n?' selected':''}>${n}</option>`).join('')+`</select>`+
+    (ap.mode==='geo'?` City <select id="apcity"><option value="">choose…</option>`+
+      Object.keys(TRIPS).sort().map(c=>`<option${ap.city===c?' selected':''}>${c}</option>`).join('')+`</select>`:'');
+  ctx.querySelector('#apwho').addEventListener('change',ev=>{ap.who=ev.target.value;renderAP();});
+  const cs=ctx.querySelector('#apcity');
+  if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderAP();});
+  const body=document.getElementById('apbody');
+  body.innerHTML = ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
+  body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
+    navigator.clipboard?.writeText(decodeURIComponent(b.dataset.copy)); toast('Copied');}));
+  body.querySelectorAll('[data-draft]').forEach(b=>b.addEventListener('click',()=>{
+    const [kind,r,slug]=b.dataset.draft.split(':'); draftWidget(kind,r,slug);}));
+}
+
+function apHtc(){
+  const who=ap.who, seen=new Set(), list=[];
+  REGIONS.forEach(r=>(D.regions[r].htc||[]).forEach(c=>{
+    if(seen.has(c.id)) return; seen.add(c.id);
+    if(who && !(c.owners||[]).includes(who)) return;
+    list.push({...c, region:r});
+  }));
+  list.sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || ((b.reachable?1:0)-(a.reachable?1:0)));
+  if(!list.length) return `<div class="aphint">No hard-to-cracks owned by ${who||'anyone'} on the tracked lists.</div>`;
+  const cards=list.slice(0,30).map(c=>{
+    const best=(c.investors||[]).filter(i=>i.best&&i.best.internal)
+      .map(i=>({...i.best,fund:i.name,region:i.region}))
+      .sort((a,b)=>((b.pct||0)-(a.pct||0))).slice(0,3);
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal}</b> ↔ ${p.external||'?'} <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
+    const others=(c.others||[]).length?`<div class="apmeta">also on the cap table (untracked): ${c.others.slice(0,4).join(', ')}</div>`:'';
+    const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
+    const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];
+    let acts='';
+    if(pSelf){
+      const xf=(pSelf.external||'').split(' ')[0];
+      const direct=`Hi ${xf} — hope all's well. We're digging into ${c.name}${c.city?` (${c.city})`:''} and I saw ${pSelf.fund} is on the cap table. Would love your read on them — and a warm line to the founders if you're open to it. Thanks!`;
+      acts=`${pSelf.email?`<a href="mailto:${pSelf.email}?subject=${encodeURIComponent(c.name)}&body=${encodeURIComponent(direct)}">✉ Email ${pSelf.external} — you hold this door</a>`:''}
+        <button data-copy="${encodeURIComponent(direct)}">Copy outreach</button>`;
+    } else if(p0 && p0.internal){
+      const ask=`Hey ${p0.internal.split(' ')[0]} — trying to crack ${c.name}${c.city?` (${c.city})`:''} and you hold our best path: ${p0.external} at ${p0.fund}${p0.pct!=null?` (${p0.pct}%)`:''}. Could you open a door / intro me?${c.uf?` Unframe rates them ${Math.round(c.uf)} combined priority.`:''} Thanks!`;
+      acts=`<a href="mailto:${hlMail(p0.internal)}?subject=${encodeURIComponent('Intro to '+c.name+'?')}&body=${encodeURIComponent(ask)}">✉ Ask ${p0.internal.split(' ')[0]}</a>
+        <button data-copy="${encodeURIComponent(ask)}">Copy Slack ask</button>`;
+    }
+    acts=`<div class="apacts">${acts}
+        <a href="${affURL(c.id)}" target="_blank" rel="noopener">Affinity ↗</a></div>`;
+    return `<div class="apcard"><div class="fname">${c.name}${ufBadge(c.uf)}</div>
+      <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}</div>
+      ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any tracked backer yet</div>'}${others}${acts}</div>`;
+  }).join('');
+  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by Unframe priority — doors scanned across every backer we track in all four regions.</div>`+cards;
+}
+
+function netAskBody(who,e,p){
+  const wf=who.split(' ')[0];
+  return `Hey ${p.internal.split(' ')[0]} — I'm trying to build my own line into ${e.name} and you hold our strongest path (${p.external}${p.pct!=null?`, ${p.pct}%`:''}). Could you intro me or bring me along next time? Thanks! — ${wf}`;
+}
+function apNet(){
+  const who=ap.who;
+  if(!who) return `<div class="aphint">Pick who you are above — this view is personal by design.</div>`;
+  const funds=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]);
+  const byRel=(a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0);
+  const borrow=funds.filter(x=>personCov(x.e,who)<22&&x.e.connectivity>=50&&(x.e.points||[]).length).sort(byRel).slice(0,6);
+  const ground=funds.filter(x=>x.e.connectivity<22).sort(byRel).slice(0,6);
+  const bCards=borrow.map(({r,e})=>{
+    const p=e.points[0];
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+      <div class="apmeta">relevance ${e.relevance?.total??'—'} · team ${e.connectivity}, you ${personCov(e,who)}</div>
+      <div class="appath"><b>${p.internal}</b> holds ${p.external||'a contact'}${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}</div>
+      <div class="apacts">
+        <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
+        ${(p.email||p.linkedin)?`<button data-draft="b:${r}:${e.slug}">Draft direct outreach</button>`:''}
+      </div><div class="apdraftwrap" id="dw-${e.slug}"></div></div>`;
+  }).join('');
+  const gCards=ground.map(({r,e})=>{
+    const pk=(e.partners_unknown||[])[0];
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+      <div class="apmeta">relevance ${e.relevance?.total??'—'} · team coverage ${e.connectivity}</div>
+      ${pk?`<div class="appath">Door: <b>${pk.name}</b>${pk.title?` <span class="via">· ${pk.title}</span>`:''}</div>`:''}
+      <div class="apacts">${pk?`<button data-draft="g:${r}:${e.slug}">Draft outreach</button>`:''}
+        ${(e.bridges||[]).length?`<span class="cc" style="align-self:center">or bridge via ${e.bridges[0].name} (${e.bridges[0].internal.split(' ')[0]})</span>`:''}</div>
+      <div class="apdraftwrap" id="dw-${e.slug}"></div></div>`;
+  }).join('');
+  return `<div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
+    <div class="apsec">Open new ground — relevant funds no one at Highland covers</div>${gCards||'<div class="aphint">None.</div>'}`;
+}
+
+function draftWidget(kind,r,slug){
+  const e=D.regions[r].entities.find(x=>x.slug===slug); if(!e) return;
+  const who=ap.who||'Will de Quant', wf=who.split(' ')[0];
+  let contact='', email=null, li=null, guessed=false;
+  if(kind==='b'){ const p=e.points[0]; contact=p.external||''; email=p.email||null; li=p.linkedin||null; }
+  else { const pk=(e.partners_unknown||[])[0]||{}; contact=pk.name||''; li=pk.linkedin||null;
+         email=guessEmail(pk.name,e.email_fmt); guessed=!!email; }
+  const first=contact.split(' ')[0]||'there';
+  const t0=e.uf&&(e.uf.top||[])[0];
+  const emailTxt=`Hi ${first},\n\n${wf} here from Highland Europe. We follow ${e.name}'s portfolio closely${t0?` — ${t0.name} in particular has caught our eye`:''}${(e.coinvest||[]).length?`, and we've already co-invested together ${e.coinvest.length}×`:''}.\n\nWe invest €10–50m growth rounds across Europe and often follow on from your stage, so I'd love to compare notes on where our pipelines overlap. 20 minutes in the coming weeks?\n\nBest,\n${wf}`;
+  const liTxt=`Hi ${first} — ${wf} @ Highland Europe (growth). We track ${e.name}'s book closely${t0?`, ${t0.name} especially`:''}, and often follow on from your stage. Would be great to connect.`;
+  const wrap=document.getElementById('dw-'+slug); if(!wrap) return;
+  const cline=[email?`<span>${email}${guessed?' <span class="guess">· guessed from '+e.email_fmt+'</span>':''}</span>`:null,
+               li?`<a href="${li}" target="_blank" rel="noopener">LinkedIn ↗</a>`:null]
+              .filter(Boolean).join(' · ')||'<span class="guess">no verified contact details</span>';
+  wrap.innerHTML=`<div class="apdraft">
+    <div class="aptog"><button class="on" data-m="email">Email</button><button data-m="li">LinkedIn</button></div>
+    <div class="apcontact">To: <b>${contact||'—'}</b> · ${cline}</div>
+    <textarea id="ta-${slug}">${emailTxt}</textarea>
+    <div class="apacts" style="margin-top:6px">
+      ${email?`<a id="ml-${slug}" href="#">✉ Open in email</a>`:''}
+      <button id="cp-${slug}">Copy</button>
+    </div></div>`;
+  const ta=wrap.querySelector('#ta-'+CSS.escape(slug));
+  let mode='email';
+  const ml=wrap.querySelector('#ml-'+CSS.escape(slug));
+  const syncMail=()=>{ if(ml) ml.href=`mailto:${email}?subject=${encodeURIComponent('Highland Europe ✕ '+e.name)}&body=${encodeURIComponent(ta.value)}`; };
+  syncMail(); if(ta) ta.addEventListener('input',syncMail);
+  wrap.querySelectorAll('.aptog button').forEach(b=>b.addEventListener('click',()=>{
+    wrap.querySelectorAll('.aptog button').forEach(x=>x.classList.remove('on')); b.classList.add('on');
+    mode=b.dataset.m; ta.value = mode==='email'?emailTxt:liTxt; syncMail();
+    if(ml) ml.style.display = mode==='email'?'':'none';
+  }));
+  wrap.querySelector('#cp-'+CSS.escape(slug)).addEventListener('click',()=>{
+    navigator.clipboard?.writeText(ta.value); toast('Copied');});
+}
+
+function apGeo(){
+  const city=ap.city;
+  if(!city) return `<div class="aphint">Pick a city above — e.g. Stockholm.</div>`;
+  const who=ap.who;
+  const anyCity = ALLE.some(({e})=>Object.values(e.buckets||{}).some(l=>l.some(p=>p.city)));
+  const seen=new Map();
+  ALLE.forEach(({r,e})=>{Object.values(e.buckets||{}).forEach(lst=>lst.forEach(p=>{
+    if(!p.city||metroOf(p.city)!==city) return;
+    if(who&&!(p.own||[]).includes(who)) return;
+    const cur=seen.get(p.id);
+    if(cur){cur.via.add(e.name); if(p.uf&&!cur.uf)cur.uf=p.uf;}
+    else seen.set(p.id,{...p, via:new Set([e.name])});
+  }));});
+  const pipe=[...seen.values()].sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,25);
+  const rows=pipe.map(p=>`<div class="aprow"><a href="${affURL(p.id)}" target="_blank" rel="noopener"><b>${p.name}</b></a>${ufBadge(p.uf)}<span class="cc">${(p.funnel||'').replace(' (free for all)','')}</span>${!who&&(p.own||[]).length?`<span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</div>`).join('');
+  const inCity=ALLE.filter(x=>x.e.kind==='fund'&&cityOf(x.e)===city);
+  const know=[], cold=[];
+  inCity.forEach(({r,e})=>{const pc=who?personCov(e,who):e.connectivity; (pc>0?know:cold).push({r,e,pc});});
+  know.sort((a,b)=>b.pc-a.pc);
+  cold.sort((a,b)=>((ACCELCAT[a.e.category]?1:0)-(ACCELCAT[b.e.category]?1:0))||((b.e.relevance?.total||0)-(a.e.relevance?.total||0)));
+  const kRows=know.map(({e,pc})=>{
+    const sig=who?personSignal(e,who):null; const k=sig&&sig.contacts&&sig.contacts[0];
+    const line=k?`<b>${k.person}</b>${k.pct!=null?` <span class="via">· ${k.pct}%</span>`:''}${evidence(k)?` <span class="via">· ${evidence(k)}</span>`:''}`
+      :(e.points&&e.points[0]?`<b>${e.points[0].external||''}</b> <span class="via">via ${e.points[0].internal}</span>`:'');
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div>
+      <div class="apmeta">relevance ${e.relevance?.total??'—'} · ${who?`your coverage ${pc}`:`team ${e.connectivity}`}</div>
+      ${line?`<div class="appath">Reconnect: ${line}</div>`:''}</div>`;}).join('');
+  const cRows=cold.map(({e})=>{
+    const nm2=nextMove(e)||{cls:'gap',txt:''}; const pk=(e.partners_unknown||[])[0];
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name}${ACCELCAT[e.category]?' <span class="cc">· accelerator</span>':''}</div>
+      <div class="apmeta">relevance ${e.relevance?.total??'—'}${who?` · team ${e.connectivity}`:''}</div>
+      <div class="nm ${nm2.cls}">${nm2.txt}</div>
+      ${pk?`<div class="apmeta">Door: ${pk.linkedin?`<a href="${pk.linkedin}" target="_blank" rel="noopener">${pk.name}</a>`:pk.name}${pk.title?` · ${pk.title}`:''}</div>`:''}</div>`;}).join('');
+  return `<div class="apsec">${who?who.split(' ')[0]+"'s":'Our'} pipeline in ${city} — ranked by Unframe priority</div>
+    ${rows||`<div class="aphint">${anyCity?`No ${who?who.split(' ')[0]+"'s":''} pipeline companies with a known ${city} HQ.`:'City data is still backfilling — check back shortly.'}</div>`}
+    <div class="apsec">Investors ${who?'you know':'we know'} here — reconnect</div>${kRows||'<div class="aphint">None yet.</div>'}
+    <div class="apsec">Funds ${who?"you don't know":'we barely know'} — prioritise</div>${cRows||'<div class="aphint">None.</div>'}`;
 }
 function headHTML(){
   return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
@@ -1319,18 +1530,15 @@ function render(){
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
   document.getElementById('untview').style.display = state.view==='unt'?'':'none';
   const sh = document.getElementById('starthere');
-  if(sh && state.view==='funds' && state.trip){
-    sh.innerHTML = tripHTML(state.trip); bindTrip(sh);
-  }
   if(mob){
-    if(sh && !(state.view==='funds' && state.trip)) sh.innerHTML='';
+    if(sh) sh.innerHTML='';
     if(state.view==='funds') filtersHTML();
     renderMobile(); updateHash(); return;
   }
   document.getElementById('sheet').classList.remove('open');
   if(state.view==='htc'){ htcHTML(); return; }
   if(state.view==='unt'){ untHTML(); return; }
-  if(sh && !state.trip){
+  if(sh){
     sh.innerHTML='';
     if(state.view==='funds' && !state.q){
       const shCard=(e, verdict, why)=>`<div class="shcard" data-slug="${e.slug}" tabindex="0" role="button">
@@ -1459,26 +1667,9 @@ readHash();
 const seg = document.getElementById('regionseg');
 REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=D.regions[r].label;b.dataset.r=r;
   if(r===state.region)b.classList.add('on');
-  b.addEventListener('click',()=>{state.region=r;state.open='';state.trip='';
-    const t=document.getElementById('trip'); if(t) t.value='';
+  b.addEventListener('click',()=>{state.region=r;state.open='';
     seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
   seg.appendChild(b);});
-const tripSel = document.createElement('select'); tripSel.id='trip'; tripSel.title='Going somewhere? See who to meet there';
-tripSel.innerHTML = '<option value="">✈ Plan a trip…</option>'+
-  Object.keys(TRIPS).sort().map(c=>`<option value="${c}">${c} · ${TRIPS[c].length} fund${TRIPS[c].length>1?'s':''}</option>`).join('');
-tripSel.addEventListener('change',()=>{
-  state.trip = tripSel.value; state.open='';
-  if(state.trip){
-    state.view='funds';
-    document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on',x.dataset.v==='funds'));
-    const r0 = TRIPS[state.trip][0].r;
-    if(r0!==state.region){ state.region=r0;
-      seg.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x.dataset.r===r0));
-      labels(); scoreboard(); }
-  }
-  render();
-});
-seg.appendChild(tripSel);
 document.querySelectorAll('#viewseg button').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('#viewseg button').forEach(x=>x.classList.remove('on'));
   b.classList.add('on'); state.view=b.dataset.v; render(); updateHash();
@@ -1495,6 +1686,10 @@ const va = document.getElementById('viewas');
 D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
 if(state.person) va.value=state.person;
 va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
+document.querySelectorAll('.abtn').forEach(b=>b.addEventListener('click',()=>openAP(b.dataset.ap)));
+document.getElementById('apclose').addEventListener('click',closeAP);
+document.getElementById('apback').addEventListener('click',closeAP);
+document.addEventListener('keydown',ev=>{ if(ev.key==='Escape' && ap.mode) closeAP(); });
 const tip = document.createElement('div'); tip.id='tip'; document.body.appendChild(tip);
 function showTip(target, html){
   tip.innerHTML = html; tip.classList.add('show');
