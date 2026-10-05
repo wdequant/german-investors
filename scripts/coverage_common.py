@@ -449,10 +449,11 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
             pt["moved"] = (f.get("now") if f.get("status") == "moved"
                            and pt["external"] not in EMP_OVERRIDES else None)
             known.add(norm_name(pt["external"]))
-        # equal-strength paths: current-at-fund beats moved, then most recent
-        # touch wins (a 100% from February shouldn't outrank one from July)
+        # a contact whose primary role moved elsewhere (Harmonic) is demoted below
+        # every current-at-fund path regardless of strength — the ⚠ keeps the context;
+        # within each group, strength then most recent touch wins
         e["points"] = sorted(e.get("points") or [], key=lambda pt: (
-            -(pt.get("pct") or 0), bool(pt.get("moved")),
+            bool(pt.get("moved")), -(pt.get("pct") or 0),
             -int((pt.get("last") or "0").replace("-", "")[:8] or 0)))
         if e["kind"] == "fund":
             ef = efunds.get(slug, {})
