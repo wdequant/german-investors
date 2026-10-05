@@ -2,5 +2,23 @@
  "slug": "usv",
  "affinity_domain": "usv.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Lauren Young",
+   "externalEmail": "lauren@usv.com",
+   "score": 1.0,
+   "last": "2026-01-13",
+   "meet": "2026-01-13"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Fred Wilson",
+   "externalEmail": "fred@usv.com",
+   "score": 0.1,
+   "last": "2024-01-10",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }

@@ -2,5 +2,135 @@
  "slug": "spark",
  "affinity_domain": "sparkcapital.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Fergal Mullen",
+   "external": "Alex Finkelstein",
+   "externalEmail": "alex@sparkcapital.com",
+   "score": 1.0,
+   "last": "2026-09-29",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Connor Mullaney",
+   "externalEmail": "connor@sparkcapital.com",
+   "score": 1.0,
+   "last": "2025-12-17",
+   "meet": "2025-09-03"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Heather Mahoney",
+   "externalEmail": "spadmin@sparkcapital.com",
+   "score": 1.0,
+   "last": "2026-01-20",
+   "meet": "2026-01-20"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Hanseul Nam",
+   "externalEmail": "hanseul@sparkcapital.com",
+   "score": 0.99,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Santo Politi",
+   "externalEmail": "santo@sparkcapital.com",
+   "score": 0.51,
+   "last": "2026-01-07",
+   "meet": "2021-11-10"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Heather Mahoney",
+   "externalEmail": "heather@sparkcapital.com",
+   "score": 0.45,
+   "last": "2026-05-21",
+   "meet": "2025-09-19"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Hanseul Nam",
+   "externalEmail": "hanseul@sparkcapital.com",
+   "score": 0.57,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Nabeel Hyatt",
+   "externalEmail": "nabeel@sparkcapital.com",
+   "score": 0.41,
+   "last": "2025-10-09",
+   "meet": null
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Hanseul Nam",
+   "externalEmail": "hanseul@sparkcapital.com",
+   "score": 0.48,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Nabeel Hyatt",
+   "externalEmail": "nabeel@sparkcapital.com",
+   "score": 0.35,
+   "last": "2025-10-09",
+   "meet": null
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Heather Mahoney",
+   "externalEmail": "heather@sparkcapital.com",
+   "score": 0.1,
+   "last": "2026-05-21",
+   "meet": "2025-09-19"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Alex Finkelstein",
+   "externalEmail": "alex@sparkcapital.com",
+   "score": 0.1,
+   "last": "2026-09-29",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alex Finkelstein",
+   "externalEmail": "alex@sparkcapital.com",
+   "score": 0.1,
+   "last": "2026-09-29",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Alex Finkelstein",
+   "externalEmail": "alex@sparkcapital.com",
+   "score": 0.1,
+   "last": "2026-09-29",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Alex Finkelstein",
+   "externalEmail": "alex@sparkcapital.com",
+   "score": 0.1,
+   "last": "2026-09-29",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alex Finkelstein",
+   "externalEmail": "alex@sparkcapital.com",
+   "score": 0.1,
+   "last": "2026-09-29",
+   "meet": "2026-07-15"
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }

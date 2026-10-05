@@ -2,5 +2,71 @@
  "slug": "redpoint",
  "affinity_domain": "redpoint.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Logan Bartlett",
+   "externalEmail": "logan@redpoint.com",
+   "score": 1.0,
+   "last": "2026-03-12",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Enzo Wiener",
+   "externalEmail": "ewiener@redpoint.com",
+   "score": 1.0,
+   "last": "2025-07-23",
+   "meet": "2025-07-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Enzo Wiener",
+   "externalEmail": "ewiener@redpoint.com",
+   "score": 0.99,
+   "last": "2025-07-23",
+   "meet": "2025-07-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Kwesi Acquay",
+   "externalEmail": "kacquay@redpoint.com",
+   "score": 0.92,
+   "last": "2023-11-09",
+   "meet": "2023-11-09"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Enzo Wiener",
+   "externalEmail": "ewiener@redpoint.com",
+   "score": 0.33,
+   "last": "2025-07-23",
+   "meet": "2025-07-23"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Jacob Effron",
+   "externalEmail": "jeffron@redpoint.com",
+   "score": 0.54,
+   "last": "2024-01-25",
+   "meet": "2024-01-25"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Lily Eusebio",
+   "externalEmail": "leusebio@redpoint.com",
+   "score": 0.69,
+   "last": "2024-01-25",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Mary Stern",
+   "externalEmail": "mstern@redpoint.com",
+   "score": 0.38,
+   "last": "2025-07-09",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }
