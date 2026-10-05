@@ -1,0 +1,8618 @@
+{
+ "1001.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "35up.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "36zerovision.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "3dhubs.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "7learnings.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "900.care": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "a.security": {
+  "city": "Wilmington",
+  "country": "United States"
+ },
+ "a.team": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "aaron.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "abacum.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "abzinnovation.com": {
+  "city": "Szentendre",
+  "country": "Hungary"
+ },
+ "accure.net": {
+  "city": "Aachen",
+  "country": "Germany"
+ },
+ "acodyne.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "acompli.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "act.security": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "actio.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "adaptyvbio.com": {
+  "city": "Lausanne",
+  "country": "Switzerland"
+ },
+ "adaxis.eu": {
+  "city": "Bayonne",
+  "country": "France"
+ },
+ "adents.com": {
+  "city": "Massy",
+  "country": "France"
+ },
+ "adfin.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "adtriba.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "advitam.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "adway.ai": {
+  "city": "Gothenburg",
+  "country": "Sweden"
+ },
+ "adyen.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "afori.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "agaton.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "agent.nexus": {
+  "city": "Brussels",
+  "country": "Belgium"
+ },
+ "agicap.fr": {
+  "city": "Lyon",
+  "country": "France"
+ },
+ "agile-robots.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "agon.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "agriportance.com": {
+  "city": "Munster",
+  "country": "Germany"
+ },
+ "ai-coustics.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "aibidia.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "aidoc.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "aignostics.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ailylabs.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "aiomics.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "air-watch.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "airforestry.com": {
+  "city": "Uppsala",
+  "country": "Sweden"
+ },
+ "airgateway.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "airhelp.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "airmo.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "aisle.com": {
+  "city": "Prague",
+  "country": "Czechia"
+ },
+ "aisprid.com": {
+  "city": "Saint-Malo",
+  "country": "France"
+ },
+ "akeneo.com": {
+  "city": "Nantes",
+  "country": "France"
+ },
+ "akhetonics.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "aklimate.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "albahealth.co": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "alephd.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "aletiq.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "alfadocs.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "algolia.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "algorithmiq.fi": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "alguna.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "alice.tech": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "alinia.ai": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "alixlabs.com": {
+  "city": "Lund",
+  "country": "Sweden"
+ },
+ "allgravy.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "allisone.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "allo.restaurant": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "allsides.tech": {
+  "city": "Bressanone",
+  "country": "Italy"
+ },
+ "alltricks.com": {
+  "city": "Montigny-le-Bretonneux",
+  "country": "France"
+ },
+ "almetra.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "alpagga.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "alpic.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "alpineeagle.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "alqem.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "altavo.eu": {
+  "city": "Dresden",
+  "country": "Germany"
+ },
+ "altertable.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "altruja.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "alvin.ai": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "amata.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "amber.de": {
+  "city": "Aachen",
+  "country": "Germany"
+ },
+ "amee.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "amie.so": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "amperecloud.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "anam.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "anari.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "andercore.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "anjuna.io": {
+  "city": "San Jose",
+  "country": "United States"
+ },
+ "ankar.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "annette.care": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "anterior.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "antidot.net": {
+  "city": "Lyon",
+  "country": "France"
+ },
+ "anybotics.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "anyfinetworks.com": {
+  "city": "Malmo",
+  "country": "Sweden"
+ },
+ "anyshift.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "anyvision.co": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "apaleo.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "apica.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "apicasystems.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "apiday.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "apoha.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "apollo-generators.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "apolloatomics.com": {
+  "city": "Cambridge",
+  "country": "United States"
+ },
+ "app.gro.xyz": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "appwrite.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "apylon.co": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "aqemia.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "arago.inc": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "arbio-group.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "arc-intelligence.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "arcascience.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "archestra.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "archlet.io": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "arcjet.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "arcwise.app": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "arena-ai.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "argil.ai": {
+  "city": "Neuilly-sur-Seine",
+  "country": "France"
+ },
+ "arismachina.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "arkion.co": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "arlq.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "armorcode.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "arondite.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "arqfinance.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "arrakistechnologies.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "arsen.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "arsenale.bio": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "artificial.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "arx-robotics.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "asanarebel.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "asap.work": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "aseonlabs.com": {
+  "city": "Redwood City",
+  "country": "United States"
+ },
+ "askcerto.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "askdialog.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "askethos.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "asklio.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "askollo.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "askui.com": {
+  "city": "Karlsruhe",
+  "country": "Germany"
+ },
+ "aslan.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "assetbird.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "astelia.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "astralsystems.com": {
+  "city": "Bristol",
+  "country": "United Kingdom"
+ },
+ "asymmetricsecurity.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "atira.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "atlar.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "atly.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "atmen.co": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "atomicvest.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "atrandi.com": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "attention.tech": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "audavis.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "audi-on.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "audibene.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "audion.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "augment.org": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "augmentedhearing.io": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "augurco.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "aula.education": {
+  "city": "Coventry",
+  "country": "United Kingdom"
+ },
+ "auterion.com": {
+  "city": "Arlington",
+  "country": "United States"
+ },
+ "authologic.com": {
+  "city": "Warsaw",
+  "country": "Poland"
+ },
+ "autobutler.dk": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "autogenai.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "automaited.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "automile.com": {
+  "city": "Pleasant Grove",
+  "country": "United States"
+ },
+ "autone.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "auxilius.ai": {
+  "city": "Unterfohring",
+  "country": "Germany"
+ },
+ "avallon.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "avandeo.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "avelios.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "avesreality.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "aviwell.fr": {
+  "city": "Toulouse",
+  "country": "France"
+ },
+ "avoltra.io": {
+  "city": "Nuremberg",
+  "country": "Germany"
+ },
+ "avrea.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "axiom.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "axiomatic-ai.com": {
+  "city": "Cambridge",
+  "country": "United States"
+ },
+ "axle.energy": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "axonlabs.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "aylight.io": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "ayora.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "azarus.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "azimo.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "bab.la": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "badi.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "bahnexpress.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "ballerine.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "ballerleague.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "balthazar.app": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "baobab.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "barnebys.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "barraiser.com": {
+  "city": "Menlo Park",
+  "country": "United States"
+ },
+ "baseimmune.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "basistheory.com": {
+  "city": "Mill Valley",
+  "country": "United States"
+ },
+ "bastion.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "bayshore.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "bbt.live": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "beamy.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "become1.de": {
+  "city": "Heidelberg",
+  "country": "Germany"
+ },
+ "beebs.app": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "beglaubigt.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "behavix.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "belfortlabs.com": {
+  "city": "Leuven",
+  "country": "Belgium"
+ },
+ "beloy.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "belvo.com": {
+  "city": "Bogota",
+  "country": "Colombia"
+ },
+ "benefiz.fr": {
+  "city": "Bethune",
+  "country": "France"
+ },
+ "benford.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "bere.al": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "berget.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "beside.com": {
+  "city": "Kent",
+  "country": "United States"
+ },
+ "besirius.io": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "bevel.health": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "beyondmath.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "beyondpresence.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "bigblue.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "biggergames.com": {
+  "city": "Istanbul",
+  "country": "Turkey"
+ },
+ "bighealth.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "billogram.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "biloba.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "bilt.me": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "binalyze.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "biolevate.com": {
+  "city": "Sucy-en-Brie",
+  "country": "France"
+ },
+ "biomatter.ai": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "bioniq.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "bioptimus.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "bioserenity.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "bits.bi": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "bitstack-app.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "bkbn.com": {
+  "city": "Geneva",
+  "country": "Switzerland"
+ },
+ "blablacar.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "blackbirdcoffee.dk": {
+  "city": "Herlev",
+  "country": "Denmark"
+ },
+ "blackcrow.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "blackore.ai": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "blackwoodseven.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "blee.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "blidz.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "blify.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "bling.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "bling.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "blinkist.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "bliq.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "bliro.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "blixt.tech": {
+  "city": "Kista",
+  "country": "Sweden"
+ },
+ "blobr.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "blockaid.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "blockbrain.ai": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "bloomandwild.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "bluefishai.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "bluelayer.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "bohr-energie.fr": {
+  "city": "Toulouse",
+  "country": "France"
+ },
+ "boltz.bio": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "bonagora.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "bondora.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "bonx.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "born.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "botify.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "bought.app": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "bounti.co": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "box-id.com": {
+  "city": "Garching bei Munchen",
+  "country": "Germany"
+ },
+ "boxd.sh": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "brandback.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "breakroom.cc": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "breedr.co": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "brickanta.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "bricks.co": {
+  "city": "Montpellier",
+  "country": "France"
+ },
+ "briefcase.so": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "brightheart.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "briya.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "bsit.com": {
+  "city": "Brussels",
+  "country": "Belgium"
+ },
+ "bucket.co": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "buddywise.co": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "build.inc": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "buildingradar.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "bunch.capital": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "buymie.eu": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "buynomics.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "byrotation.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "byvida.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "byway.travel": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "cable.tech": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "cactos.com": {
+  "city": "Muhos",
+  "country": "Finland"
+ },
+ "cafler.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "cakewalk.security": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cala.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "callosum.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "cambri.io": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "cancilico.com": {
+  "city": "Dresden",
+  "country": "Germany"
+ },
+ "capaloai.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "capimoney.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "capsa.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "captora.com": {
+  "city": "Mountain View",
+  "country": "United States"
+ },
+ "carbonchain.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "carbonfact.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "carbonfarm.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "carbonmaps.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "carbonpool.earth": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "cardboard.inc": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "cardiosignal.com": {
+  "city": "Turku",
+  "country": "Finland"
+ },
+ "cardlay.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "cardnexus.com": {
+  "city": "Bordeaux",
+  "country": "France"
+ },
+ "caremondo.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "caroobi.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cartken.com": {
+  "city": "Oakland",
+  "country": "United States"
+ },
+ "carv.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "casavi.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "casavo.com": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "cashboard.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "causaly.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "causaprima.ai": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "ceartas.io": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "ceezer.earth": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cellbyte.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "cello.so": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "cellvoyant.com": {
+  "city": "Bristol",
+  "country": "United Kingdom"
+ },
+ "celus.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "cerebrium.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "cernel.com": {
+  "city": "Aarhus",
+  "country": "Denmark"
+ },
+ "cerrion.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "certifaction.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "certivity.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "channable.com": {
+  "city": "Utrecht",
+  "country": "Netherlands"
+ },
+ "channelengine.com": {
+  "city": "Leiden",
+  "country": "Netherlands"
+ },
+ "chargebee.com": {
+  "city": "North Bethesda",
+  "country": "United States"
+ },
+ "chartbeat.com": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "checklyhq.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "checkmarble.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "checkrecipient.com": {
+  "city": "Boston",
+  "country": "United States"
+ },
+ "chronext.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "chrono24.com": {
+  "city": "Karlsruhe",
+  "country": "Germany"
+ },
+ "churchdesk.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "ci-hub.com": {
+  "city": "Potsdam",
+  "country": "Germany"
+ },
+ "civey.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "claimsorted.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "clarifeye.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "clarity.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "claros.tech": {
+  "city": "Torrance",
+  "country": "United States"
+ },
+ "classmarkets.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cleanmob.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "cleavr.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "cleolabs.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "clevenio.com": {
+  "city": "Jyvaskyla",
+  "country": "Finland"
+ },
+ "cleyrop.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "climatiq.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "climb.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "clockcloud.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "cloover.co": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cloudgeni.ai": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "cloudquery.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "cloudsquid.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "clove.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "clusterhq.com": {
+  "city": "Bristol",
+  "country": "United Kingdom"
+ },
+ "clustree.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "clutch.security": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "co2ai.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "coachhub.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cobrainer.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "codewords.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "cogram.com": {
+  "city": "Berlin",
+  "country": "United States"
+ },
+ "coherenceneuro.com": {
+  "city": "Cambridge",
+  "country": "United Kingdom"
+ },
+ "colibritd.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "comand.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "comatch.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "combinder.io": {
+  "city": "Kufstein",
+  "country": "Austria"
+ },
+ "combinostics.com": {
+  "city": "Tampere",
+  "country": "Finland"
+ },
+ "command.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "commerceclarity.com": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "communion.so": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "comodule.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "companion.energy": {
+  "city": "Gent",
+  "country": "Belgium"
+ },
+ "complaion.com": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "complir.io": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "complyance.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "compri.ai": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "comtravo.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "concord.ad": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "condor.energy": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "conduct.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "condukt.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "conduktor.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "confidotech.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "confirmit.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "conntour.com": {
+  "city": "Miami",
+  "country": "United States"
+ },
+ "constellr.space": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "contact.xyz": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "contentful.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "continuity-tech.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "continuum.industries": {
+  "city": "Edinburgh",
+  "country": "United Kingdom"
+ },
+ "convelio.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "conveo.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "converge-bio.com": {
+  "city": "Wilmington",
+  "country": "United States"
+ },
+ "conxai.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "coolsemtechnologies.com": {
+  "city": "Eindhoven",
+  "country": "Netherlands"
+ },
+ "copla.com": {
+  "city": "Elektrenai",
+  "country": "Lithuania"
+ },
+ "copower.energy": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "coram.ai": {
+  "city": "Sunnyvale",
+  "country": "United States"
+ },
+ "coreview.com": {
+  "city": "Washington",
+  "country": "United States"
+ },
+ "corintis.com": {
+  "city": "Lausanne",
+  "country": "Switzerland"
+ },
+ "corma.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "corma.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "cornerjob.com": {
+  "city": "Girona",
+  "country": "Spain"
+ },
+ "cortea.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "cosma.tech": {
+  "city": "Nice",
+  "country": "France"
+ },
+ "cosuno.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "count.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "covalo.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "cozycozy.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "craci.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "cradle.bio": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "creatorspace.dev": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "credibur.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "creem.io": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "crewline.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "crimson.law": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "crosslist.com": {
+  "city": "Kortrijk",
+  "country": "Belgium"
+ },
+ "crossvertise.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "cryptio.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "cthesigns.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "cube3.ai": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "cultureamp.com": {
+  "city": "Richmond",
+  "country": "Australia"
+ },
+ "cumulocity.com": {
+  "city": "Dusseldorf",
+  "country": "Germany"
+ },
+ "cure51.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "cureety.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "curifylabs.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "currencycloud.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "cybret.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "cyclops.security": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "cymphony.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "cynoia.com": {
+  "city": "Marseille",
+  "country": "France"
+ },
+ "cynomi.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "daedalus.de": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "dapulse.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "darwingov.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "dashboa.com": {
+  "city": "Tampere",
+  "country": "Finland"
+ },
+ "datafy.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "datasine.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "datrics.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "datrium.com": {
+  "city": "Sunnyvale",
+  "country": "United States"
+ },
+ "daytwo.com": {
+  "city": "Brentwood",
+  "country": "United States"
+ },
+ "dcubed.space": {
+  "city": "Germering",
+  "country": "Germany"
+ },
+ "de.bergfuerst.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "dealt.fr": {
+  "city": "Levallois-Perret",
+  "country": "France"
+ },
+ "deblock.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "decade.energy": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "deckmatch.com": {
+  "city": "Ramona",
+  "country": "United States"
+ },
+ "deckrobot.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "dedrone.com": {
+  "city": "Sterling",
+  "country": "United States"
+ },
+ "deepc.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "deepdrive.tech": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "deepdub.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "deepip.ai": {
+  "city": "Brooklyn",
+  "country": "United States"
+ },
+ "deepjudge.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "deepl.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "deepmeasures.health": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "deepnote.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "deepomatic.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "deepstreamhub.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "delfmems.com": {
+  "city": "Rue",
+  "country": "France"
+ },
+ "delft-circuits.com": {
+  "city": "Delft",
+  "country": "Netherlands"
+ },
+ "delicious-data.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "delli.market": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "dema.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "demosquare.com": {
+  "city": "Lausanne",
+  "country": "Switzerland"
+ },
+ "dentio.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "depot.dev": {
+  "city": "Beaverton",
+  "country": "United States"
+ },
+ "dermanostic.com": {
+  "city": "Solingen",
+  "country": "Germany"
+ },
+ "dermascan.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "deskbird.com": {
+  "city": "Pfaffikon",
+  "country": "Switzerland"
+ },
+ "deskbookers.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "deutsche-sanierungsberatung.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "devo.com": {
+  "city": "Boston",
+  "country": "United States"
+ },
+ "devyce.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "dexory.com": {
+  "city": "Wallingford",
+  "country": "United Kingdom"
+ },
+ "dfns.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "diamontech.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "dice.fm": {
+  "city": "Centennial",
+  "country": "United States"
+ },
+ "didit.me": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "dify.ai": {
+  "city": "Menlo Park",
+  "country": "United States"
+ },
+ "digger.dev": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "digicleansolutions.com": {
+  "city": "Boras",
+  "country": "Sweden"
+ },
+ "digip.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "digitail.com": {
+  "city": "Iasi",
+  "country": "Romania"
+ },
+ "digitail.io": {
+  "city": "Iasi",
+  "country": "Romania"
+ },
+ "digitalgenius.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "digitalworkforce.fi": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "diligencesquared.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "dinmo.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "disperse.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "distance.tech": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "divriots.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "dixa.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "dlthub.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "docplanner.com": {
+  "city": "Warsaw",
+  "country": "Poland"
+ },
+ "doctor.one": {
+  "city": "Warsaw",
+  "country": "Poland"
+ },
+ "doctrine.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "dodsolution.com": {
+  "city": "Lviv",
+  "country": "Ukraine"
+ },
+ "doinstruct.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "dolead.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "dotblocks.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "dotfile.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "dottxt.ai": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "dottxt.co": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "doublepoint.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "doubleword.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "drimco.net": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "drivy.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "droppe.fi": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "dryft.ai": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "duffelhq.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "duna.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "duvo.ai": {
+  "city": "Prague",
+  "country": "Czechia"
+ },
+ "dyaniahealth.com": {
+  "city": "Jersey City",
+  "country": "United States"
+ },
+ "dynabind.com": {
+  "city": "Dresden",
+  "country": "Germany"
+ },
+ "e2b.dev": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "e8storage.com": {
+  "city": "Santa Clara",
+  "country": "United States"
+ },
+ "earthbanc.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "easyrecrue.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ebuilder.com": {
+  "city": "Kista",
+  "country": "Sweden"
+ },
+ "ecair.eco": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "echandia.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "ecog.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "ecologi.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "ecoplanet.tech": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "edited.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "edumapper.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "egide-tech.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "einwert.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "elastics.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "elealili.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "electricgamebox.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "electricimp.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "eliademy.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "elum-energy.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "elyosenergy.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "embankment.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "embat.io": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "embedl.com": {
+  "city": "Gothenburg",
+  "country": "Sweden"
+ },
+ "embraase.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "embrace.io": {
+  "city": "Culver City",
+  "country": "United States"
+ },
+ "emidat.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "emma-app.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "empion.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "en.devialet.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "en.hellohakuna.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "enapi.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "encarta.bio": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "encentive.de": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "encosa.energy": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "endform.dev": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "endra.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "energiency.com": {
+  "city": "Rennes",
+  "country": "France"
+ },
+ "energy-robotics.com": {
+  "city": "Darmstadt",
+  "country": "Germany"
+ },
+ "enerin.no": {
+  "city": "Asker",
+  "country": "Norway"
+ },
+ "enevo.com": {
+  "city": "Boston",
+  "country": "United States"
+ },
+ "engflow.com": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "enginsight.com": {
+  "city": "Jena",
+  "country": "Germany"
+ },
+ "engoeyewear.com": {
+  "city": "Grenoble",
+  "country": "France"
+ },
+ "enigma.inc": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "enlightra.com": {
+  "city": "Lausanne",
+  "country": "Switzerland"
+ },
+ "enode.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "entalpic.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "entire.io": {
+  "city": "Orange",
+  "country": "United States"
+ },
+ "ento.ai": {
+  "city": "Aarhus",
+  "country": "Denmark"
+ },
+ "eolasmedical.com": {
+  "city": "Belfast",
+  "country": "United Kingdom"
+ },
+ "epicbrief.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "epidemicsound.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "epiminds.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "epoca.health": {
+  "city": "Puteaux",
+  "country": "France"
+ },
+ "epsor.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "equipme.io": {
+  "city": "Frankfurt",
+  "country": "Germany"
+ },
+ "escape.tech": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "estimote.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "etalytics.com": {
+  "city": "Darmstadt",
+  "country": "Germany"
+ },
+ "ethon.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "ethon.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "eu.dynadmic.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "evemattress.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "evercars.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "evercontact.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "everskill.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "everyman.health": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "everyone-energy.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ewake.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "exazyme.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "exomatter.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "exotrail.com": {
+  "city": "Massy",
+  "country": "France"
+ },
+ "exploration.space": {
+  "city": "Gauting",
+  "country": "Germany"
+ },
+ "extrality.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "eyeo-imaging.com": {
+  "city": "Eindhoven",
+  "country": "Netherlands"
+ },
+ "eyva.ai": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "f2.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "fabriq.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "fairgen.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "fairlyne.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "famplus.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "farfetch.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "fatllama.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "fatmap.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "faume.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "feedvisor.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "feld.energy": {
+  "city": "Pocking",
+  "country": "Germany"
+ },
+ "fence.finance": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "fenergo.com": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "fentech.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "fero.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "fever.energy": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "feverup.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "fibbl.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "fiberplane.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "fifthdimensionai.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "fikajobs.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "filics.eu": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "filiz.io": {
+  "city": "Olonne-sur-Mer",
+  "country": "France"
+ },
+ "financekey.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "finary.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "finch3d.com": {
+  "city": "Malmo",
+  "country": "Sweden"
+ },
+ "finegrain.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "finmid.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "finn.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "finout.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "fintech-farm.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "fintecture.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "fintower.ai": {
+  "city": "Gothenburg",
+  "country": "Sweden"
+ },
+ "fipto.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "fireblocks.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "firmafon.dk": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "firstconcepts.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "firstwork.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "fitbay.com": {
+  "city": "Aarhus",
+  "country": "Denmark"
+ },
+ "flagcat.studio": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "flagright.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "flank.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "flanks.io": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "flappingairplanes.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "flare.co": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "flaregames.com": {
+  "city": "Karlsruhe",
+  "country": "Germany"
+ },
+ "flatfair.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "flease.fr": {
+  "city": "Caluire-et-Cuire",
+  "country": "France"
+ },
+ "fleet.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "fleeti.co": {
+  "city": "Anglet",
+  "country": "France"
+ },
+ "flexfactor.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "flinn.ai": {
+  "city": "Vienna",
+  "country": "Austria"
+ },
+ "flixbus.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "fload.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "flovision.com": {
+  "city": "South Bend",
+  "country": "United States"
+ },
+ "flowbio.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "flowengineering.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "flower.dev": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "flowit.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "flox.dev": {
+  "city": "Manhattan",
+  "country": "United States"
+ },
+ "floxintelligence.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "floxrobotics.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "fluencify.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "focalx.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "followanalytics.com": {
+  "city": "Los Altos",
+  "country": "United States"
+ },
+ "fon.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "fooboo.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "foodomarket.com": {
+  "city": "Boulogne-Billancourt",
+  "country": "France"
+ },
+ "foresight.works": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "forgent.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "formalize.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "formance.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "formel.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "fortifai.co": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "fortiv.io": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "fqx.ch": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "freeda.so": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "freepik.com": {
+  "city": "Malaga",
+  "country": "Spain"
+ },
+ "freespee.com": {
+  "city": "Uppsala",
+  "country": "Sweden"
+ },
+ "freqens.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "frequenz.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "freshflow.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ftapi.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "fuchs-eule.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "fullenrich.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "fundamental.tech": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "furbnow.com": {
+  "city": "Birmingham",
+  "country": "United Kingdom"
+ },
+ "fusetools.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "galderalabs.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "gamaspace.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "gardia.net": {
+  "city": "Soest",
+  "country": "Germany"
+ },
+ "gastfreund.net": {
+  "city": "Kempten",
+  "country": "Germany"
+ },
+ "generalintuition.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "generare.bio": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "generative.vision": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "genow.ai": {
+  "city": "Darmstadt",
+  "country": "Germany"
+ },
+ "gensdeconfiance.com": {
+  "city": "Nantes",
+  "country": "France"
+ },
+ "gensyn.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "genus.ai": {
+  "city": "Brentwood",
+  "country": "United States"
+ },
+ "geordie.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "get-notch.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "getaccept.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "getalpa.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "getapron.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "getarive.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "getbasalt.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getcargo.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "getclaro.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "getcube.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getdefacto.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getearlybird.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "getencube.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "geteverwise.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "getfuell.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "getjust.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getkanda.com": {
+  "city": "Warwick",
+  "country": "United Kingdom"
+ },
+ "getkiku.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "getklar.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "getlago.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getmidas.com": {
+  "city": "Istanbul",
+  "country": "Turkey"
+ },
+ "getmodus.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "getmoss.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "getmurphy.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "getnarrative.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "getnettle.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "getnomi.com": {
+  "city": "Quebec City",
+  "country": "Canada"
+ },
+ "getnorthbound.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "getokko.app": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getonce.com": {
+  "city": "Feusisberg",
+  "country": "Switzerland"
+ },
+ "getorca.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "getpaid.io": {
+  "city": "Dusseldorf",
+  "country": "Germany"
+ },
+ "getpiana.com": {
+  "city": "Marseille",
+  "country": "France"
+ },
+ "getpinpoint.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "getprimo.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getprobo.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "getprosper.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "getreflect.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getrollee.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getscope.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "getsequence.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "getsillage.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getsilverfin.com": {
+  "city": "Gent",
+  "country": "Belgium"
+ },
+ "getstructured.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "getsunhat.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "getvocal.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "getvoila.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "getweflow.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ginger.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "giphy.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "girlmeetsdress.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "giroptic.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "givingjoy.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "gladia.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "globus.ai": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "go-inicio.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "go-kelvin.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "gocanopy.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "gocardless.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "godiligent.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "goensol.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "gofinto.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "goflynt.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "golightyear.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "goodeggs.com": {
+  "city": "Oakland",
+  "country": "United States"
+ },
+ "goodstack.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "goroger.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "gosupercritical.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "govirtuo.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "gr4vy.com": {
+  "city": "San Mateo",
+  "country": "United States"
+ },
+ "gradient-labs.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "grafbase.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "grai.fm": {
+  "city": "Warsaw",
+  "country": "Poland"
+ },
+ "grandcrugames.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "graneet.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "granular-energy.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "green-fusion.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "greenbids.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "greenjets.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "greenpraxis.com": {
+  "city": "Marseille",
+  "country": "France"
+ },
+ "gridraven.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "growblocks.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "grubel.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "grunfin.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "grupanya.com": {
+  "city": "Istanbul",
+  "country": "Turkey"
+ },
+ "guided.energy": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "guideless.ai": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "gyver.work": {
+  "city": "Brescia",
+  "country": "Italy"
+ },
+ "hackuity.io": {
+  "city": "Lyon",
+  "country": "France"
+ },
+ "hades.com": {
+  "city": "San Salvador",
+  "country": "El Salvador"
+ },
+ "hall.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "hallotheo.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "hamina.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "handly.app": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "happl.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "happy-or-not.com": {
+  "city": "Tampere",
+  "country": "Finland"
+ },
+ "happycar.de": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "happyrobot.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "harmony.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "harver.com": {
+  "city": "Atlanta",
+  "country": "United States"
+ },
+ "harvestr.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "haz.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hazelcast.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "hcompany.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "healthcaters.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "healthtech1.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "heat.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hedda.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "hedvig.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "heex.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "helloagora.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "helloaria.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "helloclue.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "hellohakuna.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "hellojoko.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "hellomed.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "hellosunrise.com": {
+  "city": "Namur",
+  "country": "Belgium"
+ },
+ "helpling.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "helppy.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "hema.to": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "hepster.com": {
+  "city": "Rostock",
+  "country": "Germany"
+ },
+ "herdr.dev": {
+  "city": "Ankara",
+  "country": "Turkey"
+ },
+ "herondata.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "hexa3d.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "heyacto.com": {
+  "city": "Paderborn",
+  "country": "Germany"
+ },
+ "heygrand.com": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "heylua.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "heymarvin.com": {
+  "city": "Oakland",
+  "country": "United States"
+ },
+ "heypocket.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "heywalabs.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hibob.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "hilberts.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "himala.ai": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "hirebolt.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hiresweet.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "hive-logistics.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "hive-robotics.com": {
+  "city": "Ulm",
+  "country": "Germany"
+ },
+ "hivemq.com": {
+  "city": "Landshut",
+  "country": "Germany"
+ },
+ "holidu.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "holy-technologies.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "homaio.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "home.ht": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "home.pivotapp.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "homeful.ly": {
+  "city": "Frankfurt",
+  "country": "Germany"
+ },
+ "hometree.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hooragames.com": {
+  "city": "Metz",
+  "country": "France"
+ },
+ "hopper.security": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "hormona.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "horsnormes.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "hosted.ai": {
+  "city": "San Jose",
+  "country": "United States"
+ },
+ "hostnfly.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "housapp.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "how.fm": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "hoxtonfarms.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hrflow.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "hubert.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "hula.earth": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "humanity.com": {
+  "city": "Boulevard",
+  "country": "United States"
+ },
+ "humanloop.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "humansignal.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "hummink.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "huskeys.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "huzzle.app": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "hyimpulse.de": {
+  "city": "Neuenstadt am Kocher",
+  "country": "Germany"
+ },
+ "hylight.aero": {
+  "city": "Le Plessis-Pate",
+  "country": "France"
+ },
+ "hypercore.ai": {
+  "city": "Herzliyya",
+  "country": "Israel"
+ },
+ "hyperguest.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "hyperionrobotics.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "hyperline.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "hyperplan.fr": {
+  "city": "Bidart",
+  "country": "France"
+ },
+ "iadvize.com": {
+  "city": "Nantes",
+  "country": "France"
+ },
+ "icomat.co.uk": {
+  "city": "Gloucester",
+  "country": "United Kingdom"
+ },
+ "iconicgames.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "idoven.ai": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "ifeelgoods.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "iko-system.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "iktos.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ilof.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "imagino.com": {
+  "city": "Cachan",
+  "country": "France"
+ },
+ "immo.capital": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "imper.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "imperiascm.com": {
+  "city": "Valencia",
+  "country": "Spain"
+ },
+ "implicity.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "impossiblecloud.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "in-parallel.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "inarix.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "inato.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "inbolt.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "inbrain-neuroelectronics.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "indeez.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "indooratlas.com": {
+  "city": "Oulu",
+  "country": "Finland"
+ },
+ "indriver.com": {
+  "city": "Mountain View",
+  "country": "United States"
+ },
+ "ineffable.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "infer.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "infiniteorbits.io": {
+  "city": "Toulouse",
+  "country": "France"
+ },
+ "infinitewatch.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "infogram.com": {
+  "city": "Riga",
+  "country": "Latvia"
+ },
+ "inforcer.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "infracost.io": {
+  "city": "San Diego",
+  "country": "United States"
+ },
+ "infrared.city": {
+  "city": "Vienna",
+  "country": "Austria"
+ },
+ "inherentlabs.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "inkitt.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "inleap-photonics.com": {
+  "city": "Hannover",
+  "country": "Germany"
+ },
+ "innatera.com": {
+  "city": "Rijswijk",
+  "country": "Netherlands"
+ },
+ "inriver.com": {
+  "city": "Malmo",
+  "country": "Sweden"
+ },
+ "inspek-solutions.com": {
+  "city": "Suresnes",
+  "country": "France"
+ },
+ "instant.so": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "instill.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "integral.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "intelecy.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "interhuman.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "intric.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "intrinsic-id.com": {
+  "city": "Sunnyvale",
+  "country": "United States"
+ },
+ "intropy.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "inven.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "inventorum.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "invofox.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "invopop.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "ipercept.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "iplytics.com": {
+  "city": "Horsham",
+  "country": "United States"
+ },
+ "iprally.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "isembard.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "isometric.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "isptech.space": {
+  "city": "Grund",
+  "country": "Germany"
+ },
+ "itsrever.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "iverify.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "iwelcome.com": {
+  "city": "Amersfoort",
+  "country": "Netherlands"
+ },
+ "jabmo.com": {
+  "city": "Minato",
+  "country": "Japan"
+ },
+ "jackandjill.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "jambleapp.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "jedox.com": {
+  "city": "Freiburg im Breisgau",
+  "country": "Germany"
+ },
+ "jenesys.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "jethr.com": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "jiga3d.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "jigso.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "jimini.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "jitter.video": {
+  "city": "Vincennes",
+  "country": "France"
+ },
+ "joblift.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "join-jump.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "joinaxe.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "joinembla.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "joinfleek.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "joinladder.com": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "joinlifex.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "jolt.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "jua.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "juisci.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "jukely.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "juli.co": {
+  "city": "Boston",
+  "country": "United States"
+ },
+ "juliennebruno.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "juna.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "junction.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "juno.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "junto.eu": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "jupus.de": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "jusmundi.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kaiko.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kaisa.io": {
+  "city": "Uppsala",
+  "country": "Sweden"
+ },
+ "kalent.ai": {
+  "city": "Nantes",
+  "country": "France"
+ },
+ "kalipso.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "kaminoretail.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kamion.co": {
+  "city": "Istanbul",
+  "country": "Turkey"
+ },
+ "kano.me": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "kapa.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "kargo.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "karmen.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "katanamrp.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "kausable.ai": {
+  "city": "Heidelberg",
+  "country": "Germany"
+ },
+ "kausal.tech": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "kayrros.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kazimi.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "keel.so": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "keenable.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "keephq.dev": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "kelaitech.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "kenshoo.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "kertos.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "kerys.software": {
+  "city": "Palaiseau",
+  "country": "France"
+ },
+ "kestra.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ketryx.com": {
+  "city": "Cambridge",
+  "country": "United States"
+ },
+ "kewazo.com": {
+  "city": "Garching bei Munchen",
+  "country": "Germany"
+ },
+ "keyring.network": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "kimai.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "kime.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "kinnu.xyz": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "kiro.bio": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kive.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "kiwi.com": {
+  "city": "Brno",
+  "country": "Czechia"
+ },
+ "kiwicrate.com": {
+  "city": "Mountain View",
+  "country": "United States"
+ },
+ "klaimee.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "klearly.eu": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "kleio.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "klineo.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "klu.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "klu.so": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "knowunity.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "koalitycode.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "kobojo.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kog.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kohort.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "kolet.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "komi.io": {
+  "city": "Los Angeles",
+  "country": "United States"
+ },
+ "komodor.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "kontakt.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "kontext.security": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "korint.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kosli.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "kota.io": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "kotcha.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kovant.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "koyeb.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "kreatize.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "kubolabs.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kudo.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "kudoway.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "kulipa.xyz": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "kumuluswater.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kuro.technology": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "kurtosistech.com": {
+  "city": "Houston",
+  "country": "United States"
+ },
+ "kuvaspace.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "kvantify.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "kwaga.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "kyber.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "la-solive.com": {
+  "city": "Arras",
+  "country": "France"
+ },
+ "labellevie.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "lablabee.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "labrys.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "lacelithography.com": {
+  "city": "Bergen",
+  "country": "Norway"
+ },
+ "lacollection.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "lafraise.pro": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "laminar.sh": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "lamudi.com": {
+  "city": "Makati City",
+  "country": "Philippines"
+ },
+ "landmark.games": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "langwatch.ai": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "lap.coffee": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "laserhub.com": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "latent-technology.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "latentlabs.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "latentspace.dev": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "latitude.eu": {
+  "city": "Reims",
+  "country": "France"
+ },
+ "launchmetrics.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "laviefoods.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "leadbay.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "leapsome.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "leavy.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "lecturio.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "ledge.co": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "ledgerwallet.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ledgy.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "lefourgon.com": {
+  "city": "Wambrechies",
+  "country": "France"
+ },
+ "leia.health": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "lemfi.com": {
+  "city": "Oakland",
+  "country": "United States"
+ },
+ "lemni.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "lendstar.io": {
+  "city": "Starnberg",
+  "country": "Germany"
+ },
+ "lendurai.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "lengow.com": {
+  "city": "Nantes",
+  "country": "France"
+ },
+ "lesara.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "lets-unify.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "letta.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "lever.co": {
+  "city": "Denver",
+  "country": "United States"
+ },
+ "levity.ai": {
+  "city": "Chicago",
+  "country": "United States"
+ },
+ "lexoo.com": {
+  "city": "Geneva",
+  "country": "Switzerland"
+ },
+ "liblab.com": {
+  "city": "Remote",
+  "country": "United States"
+ },
+ "lifen.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "lifetime.eu": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "light.inc": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "lightbase.co": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "lightbringer.com": {
+  "city": "Malmo",
+  "country": "Sweden"
+ },
+ "lightdash.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "lightpanda.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "limbic.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "limonetik.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "limy.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "linasmatkasse.se": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "lindushealth.com": {
+  "city": "Boston",
+  "country": "United States"
+ },
+ "linear.fi": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "linexa.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "lingo.dev": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "lingvist.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "linkup.so": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "linx.security": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "lissi.id": {
+  "city": "Frankfurt",
+  "country": "Germany"
+ },
+ "lithosquare.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "little-john.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "live-eo.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "liveathos.com": {
+  "city": "Redwood City",
+  "country": "United States"
+ },
+ "liveblocks.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "liveflow.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "localstack.cloud": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "localyze.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "logicc.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "logicstar.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "logistica-os.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "logmore.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "logpickr.com": {
+  "city": "Cesson-Sevigne",
+  "country": "France"
+ },
+ "lookback.io": {
+  "city": "Santa Cruz",
+  "country": "United States"
+ },
+ "lookk.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "lookupspace.com": {
+  "city": "Toulouse",
+  "country": "France"
+ },
+ "loopsai.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "lootlocker.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "lottie.org": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "lovespace.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "loyaltyprime.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "lucaedu.com": {
+  "city": "Mexico City",
+  "country": "Mexico"
+ },
+ "lucinity.com": {
+  "city": "Reykjavik",
+  "country": "Iceland"
+ },
+ "lucis.life": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "luffy.ai": {
+  "city": "Abingdon",
+  "country": "United Kingdom"
+ },
+ "luko.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "lumenaza.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "luminatemed.com": {
+  "city": "Galway",
+  "country": "Ireland"
+ },
+ "luminovo.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "lun.energy": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "lupapets.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "luzia.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "lyceum.technology": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "lydia-app.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "lynx.care": {
+  "city": "Leuven",
+  "country": "Belgium"
+ },
+ "lytra.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "macrodata.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "madvertise.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "magemetrics.com": {
+  "city": "Prilly",
+  "country": "Switzerland"
+ },
+ "magentic.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "mailcloud.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "mailmoo.io": {
+  "city": "Turku",
+  "country": "Finland"
+ },
+ "maisa.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "makemereach.com": {
+  "city": "Silver Lake",
+  "country": "United States"
+ },
+ "makerist.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "makersite.io": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "makipeople.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "malibou.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "mandel.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "manex.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "mangohealth.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "manifold.security": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "manna.aero": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "manufact.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "mara.inc": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "marble-imaging.de": {
+  "city": "Bremen",
+  "country": "Germany"
+ },
+ "marblism.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "marfeel.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "marker.page": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "marketfinance.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "marketleap.ai": {
+  "city": "Luxembourg",
+  "country": "Luxembourg"
+ },
+ "marleyspoon.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "marta.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "marvelx.ai": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "mason.app": {
+  "city": "Alta",
+  "country": "Sweden"
+ },
+ "matchory.com": {
+  "city": "Ulm",
+  "country": "Germany"
+ },
+ "materialsnexus.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "matesecurity.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "maximustribe.com": {
+  "city": "Santa Monica",
+  "country": "United States"
+ },
+ "mazehq.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "meander.so": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "mecha-health.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "mediaire.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "medidate.de": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "medoma.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "meero.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "meeshkan.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "meetdavis.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "meetdex.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "megacool-technologies.com": {
+  "city": "Leuven",
+  "country": "Belgium"
+ },
+ "meilisearch.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "memo.bank": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "memorado.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "mendo.cloud": {
+  "city": "Nanterre",
+  "country": "France"
+ },
+ "menlook.com": {
+  "city": "Coimbatore",
+  "country": "India"
+ },
+ "menunextdoor.com": {
+  "city": "Brussels",
+  "country": "Belgium"
+ },
+ "mercanis.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "merxu.com": {
+  "city": "Poznan",
+  "country": "Poland"
+ },
+ "metals-hub.com": {
+  "city": "Dusseldorf",
+  "country": "Germany"
+ },
+ "metaphysic.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "metaswitch.com": {
+  "city": "Cambridge",
+  "country": "United Kingdom"
+ },
+ "metergrid.de": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "metroc.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "metycle.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "midas.app": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "midaxo.com": {
+  "city": "Boston",
+  "country": "United States"
+ },
+ "midio.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "midnightlabs.ai": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "mimica.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "mimicrobotics.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "mimohq.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "mindfuel.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "mindsdb.com": {
+  "city": "San Jose",
+  "country": "United States"
+ },
+ "minit.io": {
+  "city": "Redmond",
+  "country": "United States"
+ },
+ "minoa.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "mirelo.ai": {
+  "city": "Tubingen",
+  "country": "Germany"
+ },
+ "mitigant.io": {
+  "city": "Potsdam",
+  "country": "Germany"
+ },
+ "mito.ai": {
+  "city": "A Coruna",
+  "country": "Spain"
+ },
+ "mittilabs.earth": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "mkind.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "moberries.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "mobile.club": {
+  "city": "Boulogne-Billancourt",
+  "country": "France"
+ },
+ "mobilitysignage.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "modash.io": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "modeinspect.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "modl.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "modulize.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "moka.care": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "mokn.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "momentslab.com": {
+  "city": "Boulogne-Billancourt",
+  "country": "France"
+ },
+ "mona-ai.de": {
+  "city": "Saarbrucken",
+  "country": "Germany"
+ },
+ "monday.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "mondoo.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "monogram.ai": {
+  "city": "San Mateo",
+  "country": "United States"
+ },
+ "monstock.net": {
+  "city": "Bezannes",
+  "country": "France"
+ },
+ "morpheus.space": {
+  "city": "El Segundo",
+  "country": "United States"
+ },
+ "mosaicsmartdata.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "mostly.ai": {
+  "city": "Vienna",
+  "country": "Austria"
+ },
+ "motley.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "motorica.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "motosumo.com": {
+  "city": "Herlev",
+  "country": "Denmark"
+ },
+ "mpiriq.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "mubi.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "muchbetter.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "muybridge.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "muzzo.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "myc.doctor": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "mydello.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "myquartz.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "n8n.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "nabla.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "naboo.app": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "nanostruct.eu": {
+  "city": "Wurzburg",
+  "country": "Germany"
+ },
+ "napo.pet": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "naroiq.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "native.security": {
+  "city": "Seattle",
+  "country": "United States"
+ },
+ "naturerobots.com": {
+  "city": "Osnabruck",
+  "country": "Germany"
+ },
+ "nawy.com": {
+  "city": "Cairo",
+  "country": "Egypt"
+ },
+ "ncodin.com": {
+  "city": "Palaiseau",
+  "country": "France"
+ },
+ "neara.com": {
+  "city": "Sydney",
+  "country": "Australia"
+ },
+ "neat.eu": {
+  "city": "Bordeaux",
+  "country": "France"
+ },
+ "nenna.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "neolane.com": {
+  "city": "Arcueil",
+  "country": "France"
+ },
+ "netbird.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "netdata.cloud": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "neuracore.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "neuralconcept.com": {
+  "city": "Lausanne",
+  "country": "Switzerland"
+ },
+ "neuraltrust.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "neuramancer.de": {
+  "city": "Ruber",
+  "country": "Germany"
+ },
+ "neurolabs.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "neviswealth.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "nevvon.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "newly.app": {
+  "city": "Lidingo",
+  "country": "Sweden"
+ },
+ "neworbit.space": {
+  "city": "Caversham",
+  "country": "United Kingdom"
+ },
+ "nexcade.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "nexos.ai": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "nexusmutual.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "ngdata.com": {
+  "city": "Gent",
+  "country": "Belgium"
+ },
+ "nginx.com": {
+  "city": "Seattle",
+  "country": "United States"
+ },
+ "nhost.io": {
+  "city": "Segeltorp",
+  "country": "Sweden"
+ },
+ "nilos.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "ninetailed.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ninox.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "nitrous.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "noah.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "nobodywho.ooo": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "nodejitsu.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "nodeprime.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "nomos.energy": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "noota.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "norbr.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "nordicforestryautomation.com": {
+  "city": "Lund",
+  "country": "Sweden"
+ },
+ "norlix.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "nortech.ai": {
+  "city": "Bergen",
+  "country": "Norway"
+ },
+ "noru.tech": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "nory.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "nosto.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "notabene.id": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "nothing.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "notte.cc": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "nova-carbon.com": {
+  "city": "Bordeaux",
+  "country": "France"
+ },
+ "novameat.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "novicap.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "nowinteract.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "noxmobility.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "numind.ai": {
+  "city": "Cambridge",
+  "country": "United States"
+ },
+ "nunu.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "nuwo.co": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "nvelop.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "oasysnow.com": {
+  "city": "Delft",
+  "country": "Netherlands"
+ },
+ "occam.industries": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "ocell.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "ochre-bio.com": {
+  "city": "Oxford",
+  "country": "United Kingdom"
+ },
+ "ochy.io": {
+  "city": "Rennes",
+  "country": "France"
+ },
+ "octoly.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "octonomy.ai": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "octup.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "odins.ai": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "odysseyenergysolutions.com": {
+  "city": "Boulder",
+  "country": "United States"
+ },
+ "ogosecurity.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ogury.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "okapiorbits.space": {
+  "city": "Braunschweig",
+  "country": "Germany"
+ },
+ "okkohealth.com": {
+  "city": "Bristol",
+  "country": "United Kingdom"
+ },
+ "olapic.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "olino.fr": {
+  "city": "Toulouse",
+  "country": "France"
+ },
+ "olix.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "olyzon.tv": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "omegga.eu": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "omi.so": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "omnea.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "omniata.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "omnidoc.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "omnisent.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "ondeso.com": {
+  "city": "Regensburg",
+  "country": "Germany"
+ },
+ "ondorse.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "oneleet.com": {
+  "city": "Atlanta",
+  "country": "United States"
+ },
+ "onodrim.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "ontik.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "opal.so": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "open-cosmos.com": {
+  "city": "Harwell",
+  "country": "United Kingdom"
+ },
+ "openasapp.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "opencare.com": {
+  "city": "Toronto",
+  "country": "Canada"
+ },
+ "openclassrooms.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "opendue.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "opengarden.com": {
+  "city": "Oakland",
+  "country": "United States"
+ },
+ "openline.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "openpayments.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "opentaco.dev": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "opentrade.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "operaize.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "opereit.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "opio.fi": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "oplane.io": {
+  "city": "Malmo",
+  "country": "Sweden"
+ },
+ "opper.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "opsmill.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "optioincentives.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "oraion.com": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "orakl-oncology.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "orasio.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "orbio.earth": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "order.link": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "ordio.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "oreenergy.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "oris-space.com": {
+  "city": "Turin",
+  "country": "Italy"
+ },
+ "ornikar.com": {
+  "city": "Rue",
+  "country": "France"
+ },
+ "ororatech.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "orus.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "osium.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ostrom.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "otee.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "otterize.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "ourritual.com": {
+  "city": "Santa Monica",
+  "country": "United States"
+ },
+ "outsight.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "overmindlab.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "ovido.eu": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "oxatis.com": {
+  "city": "Marseille",
+  "country": "France"
+ },
+ "paack.co": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "pactio.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pactos.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "pactum.com": {
+  "city": "Mountain View",
+  "country": "United States"
+ },
+ "pagent.ai": {
+  "city": "Bonn",
+  "country": "Germany"
+ },
+ "paid.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pallma.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pally.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "palm-app.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "pandektes.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "paper.li": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "paraglide.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "parahelp.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "paretos.com": {
+  "city": "Heidelberg",
+  "country": "Germany"
+ },
+ "parktag.mobi": {
+  "city": "Eibelstadt",
+  "country": "Germany"
+ },
+ "passionfroot.me": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "passionfruit.earth": {
+  "city": "Rotterdam",
+  "country": "Netherlands"
+ },
+ "patientdesk.ai": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "patrowl.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "pave.space": {
+  "city": "Villeneuve",
+  "country": "Switzerland"
+ },
+ "paxata.com": {
+  "city": "Redwood City",
+  "country": "United States"
+ },
+ "payable.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "payer.eu": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "payflow.es": {
+  "city": "Bogota",
+  "country": "Colombia"
+ },
+ "payleven.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "paymentsense.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "payrails.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "paytweed.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "peanut-app.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pecan.ai": {
+  "city": "Ramat Gan",
+  "country": "Israel"
+ },
+ "peec.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "pelico.ai": {
+  "city": "Miami",
+  "country": "United States"
+ },
+ "pelikan-mobility.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "peltarion.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "pennylane.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "pento.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "peopleix.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "peopleperhour.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "peoplevox.com": {
+  "city": "Waterloo",
+  "country": "Canada"
+ },
+ "perceptic.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "perlego.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "personetics.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "petcube.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "petsapp.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "petsdeli.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "phacetlabs.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "phaidra.ai": {
+  "city": "Seattle",
+  "country": "United States"
+ },
+ "pharmapoc.com": {
+  "city": "Dubai",
+  "country": "United Arab Emirates"
+ },
+ "phasetree.ai": {
+  "city": "Soborg",
+  "country": "Denmark"
+ },
+ "phasevtrials.com": {
+  "city": "Cambridge",
+  "country": "United States"
+ },
+ "phoebe.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "photoneo.com": {
+  "city": "Bratislava",
+  "country": "Slovakia"
+ },
+ "picanova.com": {
+  "city": "Miami",
+  "country": "United States"
+ },
+ "picanova.de": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "pillar.it": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "pit.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "pivotapp.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "pixieray.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "plain.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "plakar.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "plancraft.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "planerai.de": {
+  "city": "Grossrinderfeld",
+  "country": "Germany"
+ },
+ "planet-a-foods.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "planqc.eu": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "planted.green": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "plantura.garden": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "platoapp.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "playgoals.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "pletor.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "plizy.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "plumefinder.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "plumerai.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "plumery.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "pluto.markets": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "pocketsuite.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "podcastle.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "pointfive.co": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "pola.rs": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "polar.sh": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "polarsignals.com": {
+  "city": "Philadelphia",
+  "country": "United States"
+ },
+ "polyteia.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "popai.health": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "pospulse.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ppro.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "praxipal.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "praxis-eins.de": {
+  "city": "Frankfurt",
+  "country": "Germany"
+ },
+ "premai.io": {
+  "city": "Lugano",
+  "country": "Switzerland"
+ },
+ "premise.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "presail.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "presti.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "pretto.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "preview.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "previse.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pricen.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "primaalab.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "privitar.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "prodia.com": {
+  "city": "Atlanta",
+  "country": "United States"
+ },
+ "profitize.io": {
+  "city": "Bolzano",
+  "country": "Italy"
+ },
+ "proglove.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "projectqai.github.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "prolo.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "propertypartner.co": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "prose.com": {
+  "city": "Brooklyn",
+  "country": "United States"
+ },
+ "proteins1.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "protex.ai": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "pruna.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "pspdfkit.com": {
+  "city": "Raleigh",
+  "country": "United States"
+ },
+ "pulsetrain.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "puntohealth.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "purpose-green.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "pushsecurity.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pxl-vision.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "pydantic.dev": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "pythagora.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "qa.tech": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "qant.com": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "qapital.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "qbiq.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "qd-st.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "qevlar.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "qizsecurity.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "qmill.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "qnami.ch": {
+  "city": "Muttenz",
+  "country": "Switzerland"
+ },
+ "qobra.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "qontext.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "qorelo.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "qover.com": {
+  "city": "Brussels",
+  "country": "Belgium"
+ },
+ "qovery.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "qplix.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "quanscient.com": {
+  "city": "Tampere",
+  "country": "Finland"
+ },
+ "quantica3d.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "quantistry.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "quantpi.com": {
+  "city": "Saarbrucken",
+  "country": "Germany"
+ },
+ "quantrolox.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "quantum-dice.com": {
+  "city": "Oxford",
+  "country": "United Kingdom"
+ },
+ "quasardb.net": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "quench.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "quesma.com": {
+  "city": "Warsaw",
+  "country": "Poland"
+ },
+ "questdb.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "quickchat.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "quix.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "quizrr.se": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "racktivity.com": {
+  "city": "Lochristi",
+  "country": "Belgium"
+ },
+ "radiantsecurity.ai": {
+  "city": "Pleasanton",
+  "country": "United States"
+ },
+ "radicalaero.com": {
+  "city": "Seattle",
+  "country": "United States"
+ },
+ "raidium.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "raisin.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ralio.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "ramblr.ai": {
+  "city": "Yarra",
+  "country": "Australia"
+ },
+ "ramify.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ramo.io": {
+  "city": "Vaduz",
+  "country": "Liechtenstein"
+ },
+ "rapidata.ai": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "rasa.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "ravio.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "raycast.app": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "rayon.design": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "rayon.so": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "reactwise.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "realm.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "realytics.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "rebelle.de": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "recraft.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "redmimicry.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "redstone.finance": {
+  "city": "Baar",
+  "country": "Switzerland"
+ },
+ "reecall.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "reel.energy": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "refine.dev": {
+  "city": "Newark",
+  "country": "United States"
+ },
+ "reflexaerospace.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "reflexivity.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "rekordsoftware.com": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "relayr.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "relaytech.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "relio.ch": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "rematiq.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "remberg.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "remotivelabs.com": {
+  "city": "Malmo",
+  "country": "Sweden"
+ },
+ "rencore.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "replex.io": {
+  "city": "Leipzig",
+  "country": "Germany"
+ },
+ "rerun.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "rescale.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "reshapebiotech.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "resolutiion.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "resourcly.com": {
+  "city": "Mannheim",
+  "country": "Germany"
+ },
+ "restack.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "restate.dev": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "restream.io": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "retailgrid.io": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "retraced.com": {
+  "city": "Dusseldorf",
+  "country": "Germany"
+ },
+ "reveel.guide": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "revel8.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "revibe.me": {
+  "city": "Dubai",
+  "country": "United Arab Emirates"
+ },
+ "revnu.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "rex.app": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "rhinestone.wtf": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "rhodecode.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "riff.ai": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "riff.new": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "ringcentral.com": {
+  "city": "Belmont",
+  "country": "United States"
+ },
+ "riplo.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "riskledger.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "rivage.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "rivamoney.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "rivehomes.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "river.ai": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "rivermarkets.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "riverse.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "rivia.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "robeaute.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "robocurve.org": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "rocapi.ne": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "rockfi.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "rockyroad.io": {
+  "city": "Reykjavik",
+  "country": "Iceland"
+ },
+ "rollstack.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "rootglobal.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "rotomate.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "roundtable.eu": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "roundtreasury.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "routine.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "runa.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "runware.ai": {
+  "city": "Harrow",
+  "country": "United Kingdom"
+ },
+ "ryax.tech": {
+  "city": "Lyon",
+  "country": "France"
+ },
+ "s-transistors.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "safeintelligence.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "sairen.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "saleor.io": {
+  "city": "Wroclaw",
+  "country": "Poland"
+ },
+ "salo.tv": {
+  "city": "Middletown",
+  "country": "United States"
+ },
+ "saltfish.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "saltox.co": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "saltz.app": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "samp.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "samphireneuro.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "sandboxvr.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "sapi.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "sapiom.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "saporo.io": {
+  "city": "Lausanne",
+  "country": "Switzerland"
+ },
+ "sarus.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "sastrify.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "satisfyrunning.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "saturnos.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "sava.health": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "savanamed.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "save.co": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "savedo.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "sayanchor.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "scalerglobal.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "scape.app": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "scarletcomply.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "scavenger-ai.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "scenario.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "scnd.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "scop.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "scoreplay.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "screenpointmed.com": {
+  "city": "Nijmegen",
+  "country": "Netherlands"
+ },
+ "scribelabs.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "scribesecurity.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "scrintal.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "scrypt.swiss": {
+  "city": "Zug",
+  "country": "Switzerland"
+ },
+ "sculpteo.com": {
+  "city": "Villejuif",
+  "country": "France"
+ },
+ "sdui.de": {
+  "city": "Koblenz",
+  "country": "Germany"
+ },
+ "se3.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "seaber.io": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "seafair.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "seamflow.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "secfix.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "secjur.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "secretsales.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "seculert.com": {
+  "city": "Petah Tiqwa",
+  "country": "Israel"
+ },
+ "sedivention.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "segment.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "sekoia.io": {
+  "city": "Rennes",
+  "country": "France"
+ },
+ "sema4.ai": {
+  "city": "Atlanta",
+  "country": "United States"
+ },
+ "semeia.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "semmle.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "semperis.com": {
+  "city": "Hoboken",
+  "country": "United States"
+ },
+ "sensee.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "senseworks.io": {
+  "city": "Umea",
+  "country": "Sweden"
+ },
+ "sensi.ai": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "sensible.bio": {
+  "city": "Bratislava",
+  "country": "Slovakia"
+ },
+ "sensmore.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "sensorberg.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "sentryc.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "seqana.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "seqone.com": {
+  "city": "Montpellier",
+  "country": "France"
+ },
+ "seraleads.com": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "serverpod.dev": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "serviceform.com": {
+  "city": "Turku",
+  "country": "Finland"
+ },
+ "setsail.co": {
+  "city": "San Mateo",
+  "country": "United States"
+ },
+ "sett.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "sewts.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "shaka.tel": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "shakersworks.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "shapeshift.io": {
+  "city": "Denver",
+  "country": "United States"
+ },
+ "shapr3d.com": {
+  "city": "Budapest",
+  "country": "Hungary"
+ },
+ "shareid.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "shares.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "sharetribe.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "sharpist.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "sheeld.market": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "shelf.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "shen.ai": {
+  "city": "Tallinn",
+  "country": "Estonia"
+ },
+ "sherpa.cx": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "shiftgig.com": {
+  "city": "Chicago",
+  "country": "United States"
+ },
+ "shipbeat.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "shipfix.com": {
+  "city": "Vincennes",
+  "country": "France"
+ },
+ "shippeo.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "shipup.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "shook.digital": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "shopatorie.com": {
+  "city": "Los Angeles",
+  "country": "United States"
+ },
+ "shopboldr.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "shopmium.com": {
+  "city": "Jersey City",
+  "country": "United States"
+ },
+ "shoreline.io": {
+  "city": "Redwood City",
+  "country": "United States"
+ },
+ "shotgun.live": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "showpad.com": {
+  "city": "Gent",
+  "country": "Belgium"
+ },
+ "shuttle.dev": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "shuttle.rs": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "side.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "siffletdata.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "sightcall.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "sigvi.com": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "sikoia.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "silexica.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "silixon.io": {
+  "city": "Dublin",
+  "country": "Ireland"
+ },
+ "silk.us": {
+  "city": "Needham",
+  "country": "United States"
+ },
+ "silverflow.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "sim-and-cure.com": {
+  "city": "Montpellier",
+  "country": "France"
+ },
+ "simbel.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "simr.com": {
+  "city": "Los Altos",
+  "country": "United States"
+ },
+ "sinay.ai": {
+  "city": "Caen",
+  "country": "France"
+ },
+ "sinequa.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "singular.net": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "sintra.ai": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "sisense.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "skapion.com": {
+  "city": "Washington",
+  "country": "United States"
+ },
+ "skarlett.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "skene.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "skillup.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "skye.energy": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "skyengine.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "skyfora.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "skyline.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "skynopy.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "sliceglobal.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "slng.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "smacc.io": {
+  "city": "Wurzburg",
+  "country": "Germany"
+ },
+ "smalt.eu": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "smartness.com": {
+  "city": "Arco",
+  "country": "Italy"
+ },
+ "smitten.fun": {
+  "city": "Reykjavik",
+  "country": "Iceland"
+ },
+ "snapcall.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "snowplowanalytics.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "soba.xyz": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "societies.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "socloz.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "soda.io": {
+  "city": "Brussels",
+  "country": "Belgium"
+ },
+ "sofarsounds.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "softwaredefinedautomation.io": {
+  "city": "Newton",
+  "country": "United States"
+ },
+ "soharhealth.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "solace.care": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "solarize.de": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "soley.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "solidroad.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "solvapay.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "solve.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "solveintelligence.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "solvimon.com": {
+  "city": "Utrecht",
+  "country": "Netherlands"
+ },
+ "sonair.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "sonia.so": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "soomamedical.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "sora.space": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "sortedtech.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "soundtrackyourbrand.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "soveren.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "sovity.de": {
+  "city": "Dortmund",
+  "country": "Germany"
+ },
+ "spaak.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "space-cu.com": {
+  "city": "Foetz",
+  "country": "Luxembourg"
+ },
+ "spacemaker.ai": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "spaitial.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "sparetech.io": {
+  "city": "Stuttgart",
+  "country": "Germany"
+ },
+ "speakeasy.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "specifyapp.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "spektr.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "sphinxhq.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "spiich.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "spiko.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "spindrive.fi": {
+  "city": "Lappeenranta",
+  "country": "Finland"
+ },
+ "spiraldb.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "spoke.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "spoke.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "spore.bio": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "sportai.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "spotahome.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "spott.io": {
+  "city": "Leuven",
+  "country": "Belgium"
+ },
+ "spread.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "sprinque.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "sqore.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "sqreen.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "sqreen.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "squaremind.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "ssp-europe.eu": {
+  "city": "Regensburg",
+  "country": "Germany"
+ },
+ "stackgini.de": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "stacks.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "stacksync.cloud": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "standardx.tech": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "standing-ovation.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "starcloud.com": {
+  "city": "Redmond",
+  "country": "United States"
+ },
+ "starhive.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "starofservice.com": {
+  "city": "Courbevoie",
+  "country": "France"
+ },
+ "startcatalog.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "statice.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "steep.app": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "stendr.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "stilta.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "stocardapp.com": {
+  "city": "Mannheim",
+  "country": "Germany"
+ },
+ "stockly.ai": {
+  "city": "Vitry-sur-Seine",
+  "country": "France"
+ },
+ "stootie.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "store2be.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "storetail.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "storioenergy.com": {
+  "city": "Aulnay-sous-Bois",
+  "country": "France"
+ },
+ "stormpath.com": {
+  "city": "San Mateo",
+  "country": "United States"
+ },
+ "stotles.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "strapi.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "strategybridge.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "stratifai.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "stratumn.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "strawberrybrowser.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "streethub.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "strive.school": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "struck.eu": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "stylight.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "stylistpick.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "subsets.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "suitepad.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "sumary.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "sunflower-labs.com": {
+  "city": "Stallikon",
+  "country": "Switzerland"
+ },
+ "sunsave.energy": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "super.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "superannotate.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "supercede.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "superlinked.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "superlistapp.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "supernormal.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "supernova.io": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "superpayments.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "superscale.ai": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "supersonik.ai": {
+  "city": "Cobham",
+  "country": "United Kingdom"
+ },
+ "surf.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "surgar-surgery.com": {
+  "city": "Clermont-Ferrand",
+  "country": "France"
+ },
+ "surge.care": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "svix.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "swaive.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "swarm-biotactics.com": {
+  "city": "Kassel",
+  "country": "Germany"
+ },
+ "swooshtransfer.com": {
+  "city": "Manchester",
+  "country": "United Kingdom"
+ },
+ "syftapp.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "symphera.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "symterra.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "synera.io": {
+  "city": "Bremen",
+  "country": "Germany"
+ },
+ "synergi.so": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "syntetica.co": {
+  "city": "Reims",
+  "country": "France"
+ },
+ "synthax.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "synthflow.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "syro.co": {
+  "city": "Marseille",
+  "country": "France"
+ },
+ "syte.ms": {
+  "city": "Munster",
+  "country": "Germany"
+ },
+ "t-immersion.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tabnine.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "tactic.fyi": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tacto.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "taito.ai": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "talentbin.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "talenthub.io": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "talentir.com": {
+  "city": "Vienna",
+  "country": "Austria"
+ },
+ "talentium.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "talentry.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "talknagish.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "talpasolutions.eu": {
+  "city": "Essen",
+  "country": "Germany"
+ },
+ "tamtam.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tandem.chat": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "tangled.org": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "tanium.com": {
+  "city": "Bellevue",
+  "country": "United States"
+ },
+ "tanso.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "tapline.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "tarci.io": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "taster.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tattoodo.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "tausendkind.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "taxdoo.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "taxfix.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "taxnova.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "taykey.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "tchek.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "teads.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "teale.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tebi.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "teemo.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "teemyco.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "telgea.com": {
+  "city": "Austin",
+  "country": "United States"
+ },
+ "teller.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "telli.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "tellmeplus.com": {
+  "city": "Saint-Clément-de-Rivière",
+  "country": "France"
+ },
+ "telnesstech.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "telura.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "tem.energy": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "temaetfs.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "tembi.io": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "temelion.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "templafy.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "tendium.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "tengo.cc": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tenorhq.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "teralytics.net": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "terasi.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "ternarytx.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "terra.one": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "tesseractinvestment.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "testgorilla.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "testkube.io": {
+  "city": "Wilmington",
+  "country": "United States"
+ },
+ "teton.ai": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "tetrax.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "textmaster.com": {
+  "city": "Boulogne-Billancourt",
+  "country": "France"
+ },
+ "thanksben.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "theblandcompany.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "theguarantors.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "thehomelike.com": {
+  "city": "Cologne",
+  "country": "Germany"
+ },
+ "theker.ai": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "themobilefirstcompany.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "theorg.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "therapixel.com": {
+  "city": "Nice",
+  "country": "France"
+ },
+ "theremia.health": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "thestorefront.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "thinglink.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "thingtrax.com": {
+  "city": "Staines-upon-Thames",
+  "country": "United Kingdom"
+ },
+ "thisisglow.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "thoughtmachine.net": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "throxy.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tictail.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tidalflow.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "tidely.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "tilebox.com": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "tillersystems.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tilt.app": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "timberhub.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "timefold.ai": {
+  "city": "Gent",
+  "country": "Belgium"
+ },
+ "tinyclues.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tiramizoo.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "token.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tolmo.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "tomorrow.university": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "tomorrowthings.com": {
+  "city": "Bonn",
+  "country": "Germany"
+ },
+ "tonada.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "tonkean.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "tonsser.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "top10.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "topk.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "topograph.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "toriihq.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "tourhero.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "tourlane.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "tourradar.com": {
+  "city": "Vienna",
+  "country": "Austria"
+ },
+ "tower.dev": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "traba.work": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "trace.so": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "trace.space": {
+  "city": "Miami",
+  "country": "United States"
+ },
+ "tracebit.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "traceless.eu": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "traceloop.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "tracksights.com": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "tracktitan.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "traide.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "tranch.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "tranched.fi": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "transak.com": {
+  "city": "Miami",
+  "country": "United States"
+ },
+ "travelcircus.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "travelperk.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "trawa.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "traxlo.com": {
+  "city": "Vilnius",
+  "country": "Lithuania"
+ },
+ "traxpay.com": {
+  "city": "Frankfurt",
+  "country": "Germany"
+ },
+ "tray.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "traza.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "treon.fi": {
+  "city": "Tampere",
+  "country": "Finland"
+ },
+ "trezy.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tribun.health": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "trifacta.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "trigger.dev": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tripaneer.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "triver.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tropee.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "trouva.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "truemetrics.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "trufa.net": {
+  "city": "Heidelberg",
+  "country": "Germany"
+ },
+ "trustnxt.com": {
+  "city": "Hamburg",
+  "country": "Germany"
+ },
+ "tryarchitect.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tryguac.co": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "tryterra.co": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tsuga.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tulipshare.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tulyp.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "turneo.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tuza.co.uk": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tvty.tv": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "twenga-solutions.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "twentyfour.industries": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "twig.bio": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "twin.so": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "twin1.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "tyba.com": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "typingdna.com": {
+  "city": "Brooklyn",
+  "country": "United States"
+ },
+ "typology.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "tyten.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "tzafon.ai": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "ubermetrics-technologies.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "ubicloud.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "ubiops.com": {
+  "city": "The Hague",
+  "country": "Netherlands"
+ },
+ "ubyx.xyz": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "ufodrive.com": {
+  "city": "Findel",
+  "country": "Luxembourg"
+ },
+ "ulmon.com": {
+  "city": "Vienna",
+  "country": "Austria"
+ },
+ "ultramarin.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "uma.bot": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "unacast.com": {
+  "city": "Ashburn",
+  "country": "United States"
+ },
+ "unaric.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "understory.io": {
+  "city": "Aarhus",
+  "country": "Denmark"
+ },
+ "unify.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "unilend.fr": {
+  "city": "Nancy",
+  "country": "France"
+ },
+ "unitary.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "unitelabs.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "universalavenue.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "unleash.so": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "unmind.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "unobravo.com": {
+  "city": "Naples",
+  "country": "Italy"
+ },
+ "unravelapp.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "unumotors.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "upciti.com": {
+  "city": "Montreuil",
+  "country": "France"
+ },
+ "upfluence.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "uphillhealth.com": {
+  "city": "Lisbon",
+  "country": "Portugal"
+ },
+ "uplane.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "upmarket.cloud": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "upmem.com": {
+  "city": "Grenoble",
+  "country": "France"
+ },
+ "uprightproject.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "upstash.com": {
+  "city": "San Jose",
+  "country": "United States"
+ },
+ "upstream.do": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "upway.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "useagave.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "usealbatross.ai": {
+  "city": "Baar",
+  "country": "Switzerland"
+ },
+ "usebounce.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "usecascade.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "usefini.com": {
+  "city": "Amsterdam",
+  "country": "Netherlands"
+ },
+ "usemast.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "usepassionfruit.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "useshiplog.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "usesmileid.com": {
+  "city": "Portola Valley",
+  "country": "United States"
+ },
+ "uwinloc.com": {
+  "city": "Toulouse",
+  "country": "France"
+ },
+ "v-sim.co.uk": {
+  "city": "Altrincham",
+  "country": "United Kingdom"
+ },
+ "vaeridion.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "valarian.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "valdera.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "validio.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "valpashotels.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "vanti-analytics.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "vara.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "varjo.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "veact.net": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "vectoflow.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "vectorview.ai": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "veeton.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "vega-alts.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "velatir.com": {
+  "city": "Odense",
+  "country": "Denmark"
+ },
+ "vendict.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "venice.io": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "vensum.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "veo.co": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "verbit.ai": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "verley-food.com": {
+  "city": "Lyon",
+  "country": "France"
+ },
+ "verna.earth": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "verse.me": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "versiro.com": {
+  "city": "Trondheim",
+  "country": "Norway"
+ },
+ "versus.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "vertama.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "verticalcompute.com": {
+  "city": "Leuven",
+  "country": "Belgium"
+ },
+ "vertice.one": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "vesence.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "vesiro.com": {
+  "city": "Gothenburg",
+  "country": "Sweden"
+ },
+ "vestigas.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "viboo.io": {
+  "city": "Dubendorf",
+  "country": "Switzerland"
+ },
+ "vibrant.io": {
+  "city": "Aarhus",
+  "country": "Denmark"
+ },
+ "viddy.com": {
+  "city": "Los Angeles",
+  "country": "United States"
+ },
+ "videobot.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "vidlab7.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "viio.io": {
+  "city": "Copenhagen",
+  "country": "Denmark"
+ },
+ "vikinganalytics.se": {
+  "city": "Gothenburg",
+  "country": "Sweden"
+ },
+ "viktor.ai": {
+  "city": "Rotterdam",
+  "country": "Netherlands"
+ },
+ "vimcar.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "vind.ai": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "vipshop.com": {
+  "city": "Guangzhou",
+  "country": "China"
+ },
+ "virtonomy.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "visiolab.io": {
+  "city": "Osnabruck",
+  "country": "Germany"
+ },
+ "viss.ai": {
+  "city": "Jonkoping",
+  "country": "Sweden"
+ },
+ "vitvio.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "vivense.com": {
+  "city": "Istanbul",
+  "country": "Turkey"
+ },
+ "vivino.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "vizzia.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "vlyfoods.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "vocca.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "voiceline.ai": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "volare.fi": {
+  "city": "Uusimaa",
+  "country": "Finland"
+ },
+ "voliro.com": {
+  "city": "Zurich",
+  "country": "Switzerland"
+ },
+ "volt.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "volta.com": {
+  "city": "Palo Alto",
+  "country": "United States"
+ },
+ "voltasoftware.com": {
+  "city": "Milan",
+  "country": "Italy"
+ },
+ "volteras.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "volvetech.com": {
+  "city": "Oslo",
+  "country": "Norway"
+ },
+ "volytica.com": {
+  "city": "Dresden",
+  "country": "Germany"
+ },
+ "voss-solutions.com": {
+  "city": "Garland",
+  "country": "United States"
+ },
+ "vrey.io": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "vsora.com": {
+  "city": "Meudon",
+  "country": "France"
+ },
+ "wakeo.co": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "wallapop.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "walletstudio.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "wandera.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "waniwani.ai": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "warehousing1.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "wasp-lang.dev": {
+  "city": "Zagreb",
+  "country": "Croatia"
+ },
+ "wasp.sh": {
+  "city": "Zagreb",
+  "country": "Croatia"
+ },
+ "wassist.app": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "watchmaster.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "watershed.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "way.cloud": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "way.security": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "way.so": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "weareblend.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "wearegenial.com": {
+  "city": "Bordeaux",
+  "country": "France"
+ },
+ "wearepeachies.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "wearewaiv.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "weekdone.com": {
+  "city": "Tartu",
+  "country": "Estonia"
+ },
+ "wellabe.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "weltsparen.de": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "wesustain.com": {
+  "city": "Buxtehude",
+  "country": "Germany"
+ },
+ "whereby.com": {
+  "city": "Maloy",
+  "country": "Norway"
+ },
+ "wheretoget.it": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "whimsical.com": {
+  "city": "Denver",
+  "country": "United States"
+ },
+ "whisper.security": {
+  "city": "Rotterdam",
+  "country": "Netherlands"
+ },
+ "whitecircle.com": {
+  "city": "Dover",
+  "country": "United States"
+ },
+ "whitelabgx.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "whitetruffle.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "wibbitz.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "wikifarmer.com": {
+  "city": "Athens",
+  "country": "Greece"
+ },
+ "wildmoka.com": {
+  "city": "Valbonne",
+  "country": "France"
+ },
+ "willo.tech": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "willo.video": {
+  "city": "Glasgow",
+  "country": "United Kingdom"
+ },
+ "wingback.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "wingbits.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "winn.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "wirepas.com": {
+  "city": "Tampere",
+  "country": "Finland"
+ },
+ "wisembly.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "witco.io": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "withelva.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "withpretzel.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "withrealm.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "wochit.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "wondercraft.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "wonnda.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "wooga.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "woolandthegang.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "workbounce.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "workerbase.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "workerhero.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "workflow.design": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "workist.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "worldover.io": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "worldremit.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "wrapp.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "wultra.com": {
+  "city": "Prague",
+  "country": "Czechia"
+ },
+ "xavveo.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "xfarm.ag": {
+  "city": "Manno",
+  "country": "Switzerland"
+ },
+ "xnomad.co": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "xo-life.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "xo.market": {
+  "city": "Zug",
+  "country": "Switzerland"
+ },
+ "xxii.fr": {
+  "city": "Puteaux",
+  "country": "France"
+ },
+ "y42.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "yaak.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "yampa.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "yapily.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "yasp.ai": {
+  "city": "Montreal",
+  "country": "Canada"
+ },
+ "yasu.cloud": {
+  "city": "Utrecht",
+  "country": "Netherlands"
+ },
+ "yavin.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "yayzy.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "yieldclub.io": {
+  "city": "Washington",
+  "country": "United States"
+ },
+ "ylookup.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "yonder.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "yonedalabs.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "yope.app": {
+  "city": "Middletown",
+  "country": "United States"
+ },
+ "yotoplay.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "yourdaye.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "yousician.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "yousign.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "youth-healthtech.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "yukidata.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "zaplox.com": {
+  "city": "Lund",
+  "country": "Sweden"
+ },
+ "zaro.ai": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "zaver.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "zaver.io": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ },
+ "zavvy.io": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "zazume.com": {
+  "city": "Barcelona",
+  "country": "Spain"
+ },
+ "zed.dev": {
+  "city": "Denver",
+  "country": "United States"
+ },
+ "zefir.fr": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "zefram.com": {
+  "city": "Helsinki",
+  "country": "Finland"
+ },
+ "zeit-ai.com": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "zelara.ai": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "zellerfeld.com": {
+  "city": "Brooklyn",
+  "country": "United States"
+ },
+ "zelros.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "zelt.app": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "zencargo.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "zendesk.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "zenefits.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "zenly.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "zenlytic.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "zenmate.com": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "zenpark.com": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "zenpayroll.com": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "zenyard.ai": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "zero44.eu": {
+  "city": "Berlin",
+  "country": "Germany"
+ },
+ "zeroheight.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "zerophase.de": {
+  "city": "Munich",
+  "country": "Germany"
+ },
+ "zervant.com": {
+  "city": "Espoo",
+  "country": "Finland"
+ },
+ "zevvy.ch": {
+  "city": "Lucerne",
+  "country": "Switzerland"
+ },
+ "zml.ai": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "zocks.io": {
+  "city": "San Francisco",
+  "country": "United States"
+ },
+ "zoominsoftware.com": {
+  "city": "New York",
+  "country": "United States"
+ },
+ "zooz.com": {
+  "city": "Tel Aviv-Yafo",
+  "country": "Israel"
+ },
+ "zopa.com": {
+  "city": "London",
+  "country": "United Kingdom"
+ },
+ "zygon.tech": {
+  "city": "Paris",
+  "country": "France"
+ },
+ "zylon.ai": {
+  "city": "Madrid",
+  "country": "Spain"
+ },
+ "zymego.com": {
+  "city": "Stockholm",
+  "country": "Sweden"
+ }
+}
