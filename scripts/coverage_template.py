@@ -174,6 +174,24 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .ufproof{margin-top:2px}
 .ufproof a{color:inherit;text-decoration:none;font-weight:600}
 .ufproof a:hover{text-decoration:underline}
+.covtop{display:flex;align-items:center;gap:7px}
+td.covtd{min-width:150px}
+td.mytd,th.mytd{background:var(--accent-soft);box-shadow:inset 2px 0 0 var(--accent)}
+tr.detailrow td{background:none;box-shadow:none}
+.chips.mini{margin-top:7px;gap:4px;max-width:210px}
+.chips.mini .chip{font-size:10.5px;padding:2px 7px}
+.nochip{color:var(--muted);font-size:11.5px}
+#whoback{position:fixed;inset:0;background:rgba(20,18,12,.45);z-index:90;display:none;align-items:center;justify-content:center}
+#whoback.open{display:flex}
+#whocard{background:var(--page);border:1px solid var(--hair);border-radius:14px;padding:26px 30px;
+  max-width:440px;width:92%;box-shadow:0 14px 44px rgba(0,0,0,.2)}
+#whocard .th{font-size:18px;font-weight:700}
+#whocard p{font-size:13px;color:var(--ink2);margin:6px 0 16px;line-height:1.5}
+#wholist{display:flex;flex-wrap:wrap;gap:8px}
+#wholist button{border:1px solid var(--hair);background:var(--surface);border-radius:9px;padding:8px 14px;
+  font-size:13.5px;font-weight:600;cursor:pointer;color:var(--ink)}
+#wholist button:hover{border-color:var(--ink)}
+#wholist button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
 .covword{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px}
 .covword.strong{color:var(--covered-ink)} .covword.medium{color:var(--thin-ink)} .covword.weak{color:var(--gap-ink)}
 .covcmp{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px;color:var(--muted);white-space:nowrap}
@@ -430,7 +448,7 @@ th.sk:hover{color:var(--accent-ink)}
   <div class="seg" id="viewseg">
     <button data-v="funds" class="on">Investors</button><button data-v="htc">H2C paths</button><button data-v="unt">Untracked Dealflow</button>
   </div>
-  <select id="viewas" title="View coverage as"><option value="">Whole team</option></select>
+  <button class="btn ghost" id="whoami" title="Sonar is personalised to you — click to switch">👤</button>
   <input type="search" id="q" placeholder="Filter…">
   <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
   <button class="btn" id="export" hidden>Export CSV</button>
@@ -498,6 +516,12 @@ th.sk:hover{color:var(--accent-ink)}
 </div>
 
 <div id="mlist"></div>
+<div id="whoback"><div id="whocard" role="dialog" aria-modal="true" aria-label="Who are you?">
+  <div class="th">Who are you?</div>
+  <p>Sonar personalises coverage, workflows and next moves to you.
+  Pick yourself once — it's remembered on this device.</p>
+  <div id="wholist"></div>
+</div></div>
 <div id="apback"></div>
 <aside id="apanel" role="dialog" aria-modal="true" aria-label="Action panel">
   <div class="aphead"><div id="aptitle"></div><button id="apclose" aria-label="Close">✕</button></div>
@@ -600,7 +624,7 @@ function filtersHTML(){
   const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
   let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
   if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
-  const SORTS=[["connectivity","Coverage"],["gap","Biggest gaps"],["relevance","Relevance"],["ufq","Portfolio quality (Unframe)"],["ufhigh","High-prio backed (Unframe)"],["pipeline","Pipeline overlap"],["name","Name"]];
+  const SORTS=[["connectivity","Team coverage"],["mycov",(state.person?state.person.split(' ')[0]+"’s":'My')+" coverage"],["gap","Biggest gaps"],["relevance","Relevance"],["ufq","Portfolio quality (Unframe)"],["ufhigh","High-prio backed (Unframe)"],["name","Name"]];
   h += `<span class="lbl">Sort</span><select id="sortsel">`+SORTS.map(([k,l])=>`<option value="${k}"${state.sort===k?' selected':''}>${l}</option>`).join('')+`</select>`;
   document.getElementById('filters').innerHTML = h;
   document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
@@ -613,9 +637,10 @@ function filtersHTML(){
 
 const COLS = [
   {k:"name", label:"Investor", sortable:true, sort:(a,b)=>a.name.localeCompare(b.name)},
-  {k:"connectivity", label:"Coverage", sortable:true, sort:(a,b)=>eff(b).cov-eff(a).cov},
   {k:"relevance", label:"Relevance", sortable:true, sort:(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)},
-  {k:"pipeline", label:"Pipeline overlap", sortable:true, sort:(a,b)=>pipeCount(b)-pipeCount(a)},
+  {k:"connectivity", label:"Team coverage", sortable:true, sort:(a,b)=>b.connectivity-a.connectivity},
+  {k:"mycov", label:"My coverage", sortable:true, cls:"mytd",
+   sort:(a,b)=>(state.person?personCov(b,state.person)-personCov(a,state.person):0)||b.connectivity-a.connectivity},
   {k:"gap", label:"Your next move", sortable:false, sort:(a,b)=>(eff(b).gap||0)-(eff(a).gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
 ];
 // one-line verdict a partner can act on, computed from path evidence
@@ -844,21 +869,31 @@ function apGeo(){
     <div class="apsec">Funds ${who?"you don't know":'we barely know'} — prioritise</div>${cRows||'<div class="aphint">None.</div>'}`;
 }
 function headHTML(){
-  return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
+  return `<thead><tr>`+COLS.map(c=>{
+    const label = c.k==='mycov' ? `${state.person?state.person.split(' ')[0]+"’s":'My'} coverage` : c.label;
+    return `<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''} ${c.cls||''}">${label}</th>`;
+  }).join('')+`</tr></thead>`;
 }
-function chipHTML(e){
-  if(state.person){  // own count vs team count, side by side
+function chipHTML(e, mode){
+  if(mode==='mine'){  // only the person's own entries at this investor
+    const chips = BUCKETS.map(([k,label])=>{
+      const own = e.buckets[k].filter(isOwned).length;
+      return own?`<span class="chip ${k}" data-k="${k}"><b>${own}</b> ${label}</span>`:'';
+    }).join('');
+    return chips || `<span class="nochip">none of yours</span>`;
+  }
+  if(mode!=='team' && state.person){  // mobile cards: own count vs team count, side by side
     const chips = BUCKETS.map(([k,label])=>{
       const team = e.buckets[k].length; if(!team) return '';
       const own = e.buckets[k].filter(isOwned).length;
       return `<span class="chip ${k}${own?'':' dim'}" data-k="${k}"><b>${own}</b><span class="of">/${team}</span> ${label}</span>`;
     }).join('');
-    return chips || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
+    return chips || `<span class="nochip">no pipeline overlap</span>`;
   }
   return BUCKETS.map(([k,label])=>{
     const n = e.buckets[k].length;
     return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
-  }).join('') || `<span style="color:var(--muted);font-size:12px">no pipeline overlap</span>`;
+  }).join('') || `<span class="nochip">no pipeline overlap</span>`;
 }
 const liSearch = (n,f) => `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n+' '+(f||''))}`;
 const emIcon = p => {
@@ -936,14 +971,17 @@ function rowHTML(e){
   const proof = e.kind==='fund' && e.uf && (e.uf.top||[]).length
     ? `<div class="fmeta ufproof"><span class="cc">Top of portfolio:</span>`+
       e.uf.top.map(t=>`<span class="ufco">${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
-  const covWord = {strong:'covered',medium:'thin',weak:'gap'}[v.tier]||'';
+  const covWord = {strong:'covered',medium:'thin',weak:'gap'}[e.tier]||'';
+  const myCell = state.person
+    ? `<div class="covtop"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div><span class="covword ${v.tier}">you</span></div>
+       <div class="chips mini">${chipHTML(e,'mine')}</div>`
+    : `<span class="nochip">pick who you are ↑</span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
-    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div>${state.person
-      ?`<div class="covcmp"><span class="${v.tier}">you</span> · team ${e.connectivity}</div>`
-      :`<div class="covword ${v.tier}">${covWord}</div>`}</td>
     <td class="relcell">${relCell}</td>
-    <td><div class="chips">${chipHTML(e)}</div></td>
+    <td class="covtd"><div class="covtop"><div class="covcell">${ring(e.connectivity, e.tier, 38)}<b>${e.connectivity}</b></div>
+      <span class="covword ${e.tier}">${covWord}</span></div><div class="chips mini">${chipHTML(e,'team')}</div></td>
+    <td class="covtd mytd">${myCell}</td>
     <td>${ptsHTML(e)}</td>
   </tr>
   <tr class="detailrow" id="d-${e.slug}"><td colspan="5"><div class="detail"></div></td></tr>`;
@@ -1516,7 +1554,11 @@ function rerenderOpen(e){
   const det = document.querySelector(`#d-${CSS.escape(e.slug)}.open .detail`);
   if(det) det.innerHTML = detailHTML(e);
   const row = document.querySelector(`tr.mainrow[data-slug="${e.slug}"]`);
-  if(row && row.children[3]) row.children[3].innerHTML = `<div class="chips">${chipHTML(e)}</div>`;
+  if(row){
+    const team = row.querySelector('td.covtd:not(.mytd) .chips'), mine = row.querySelector('td.mytd .chips');
+    if(team) team.innerHTML = chipHTML(e,'team');
+    if(mine) mine.innerHTML = chipHTML(e,'mine');
+  }
 }
 
 // ---------- render ----------
@@ -1669,12 +1711,11 @@ function readHash(){
 
 addEventListener('hashchange',()=>{  // deep links work without a reload
   state.view = location.hash.includes('/htc') ? 'htc' : location.hash.includes('/unt') ? 'unt' : 'funds';
-  if(!location.hash.includes('?as=')) state.person = '';
   state.open = '';
   readHash();
   document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on', x.dataset.r===state.region));
   document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on', x.dataset.v===state.view));
-  const va2 = document.getElementById('viewas'); if(va2) va2.value = state.person||'';
+  if(typeof whoChip==='function') whoChip();
   labels(); scoreboard(); render();
   if(state.pendingOpen){ const s=state.pendingOpen; state.pendingOpen='';
     toggleRow(s); const el=document.querySelector(`tr[data-slug="${s}"]`); el&&el.scrollIntoView({block:'center'}); }
@@ -1699,10 +1740,34 @@ document.getElementById('unthc').addEventListener('change',ev=>{
   state.untHC = +ev.target.value; untHTML();});
 document.getElementById('untgr').addEventListener('change',ev=>{
   state.untGR = ev.target.value===''?null:+ev.target.value; untHTML();});
-const va = document.getElementById('viewas');
-D.roster.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;va.appendChild(o);});
-if(state.person) va.value=state.person;
-va.addEventListener('change',()=>{state.person=va.value; scoreboard(); render();});
+// ---------- identity: Sonar is personalised to you ----------
+function whoChip(){
+  const w = document.getElementById('whoami');
+  if(w) w.textContent = state.person ? `👤 ${state.person.split(' ')[0]} ▾` : '👤 Who are you?';
+}
+function setWho(n, rerender){
+  state.person = n;
+  try{ localStorage.setItem('sonar_who', n); }catch(err){}
+  whoChip();
+  document.getElementById('whoback').classList.remove('open');
+  if(rerender){ scoreboard(); render(); }
+}
+function openWho(){
+  const l = document.getElementById('wholist');
+  l.innerHTML = D.roster.map(n=>`<button data-n="${n}"${n===state.person?' class="on"':''}>${n}</button>`).join('');
+  l.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>setWho(b.dataset.n,true)));
+  document.getElementById('whoback').classList.add('open');
+}
+document.getElementById('whoami').addEventListener('click',openWho);
+document.getElementById('whoback').addEventListener('click',ev=>{
+  if(ev.target.id==='whoback' && state.person) ev.target.classList.remove('open'); // backdrop closes once identified
+});
+if(!state.person){  // hash may already carry a person; otherwise use the remembered one
+  let w=''; try{ w = localStorage.getItem('sonar_who')||''; }catch(err){}
+  if(w && D.roster.includes(w)) state.person = w;
+}
+whoChip();
+if(!state.person || !D.roster.includes(state.person)) openWho();
 document.querySelectorAll('.abtn').forEach(b=>b.addEventListener('click',()=>openAP(b.dataset.ap)));
 document.getElementById('apclose').addEventListener('click',closeAP);
 document.getElementById('apback').addEventListener('click',closeAP);
