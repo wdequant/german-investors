@@ -3178,5 +3178,800 @@
   "harmonic_person_id": 111015391,
   "domain": null,
   "kind": "person"
+ },
+ "10D": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "115K": {
+  "harmonic_company_id": 11676579,
+  "domain": "115k.fr",
+  "kind": "fund"
+ },
+ "200M Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "205 CAPITAL": {
+  "harmonic_company_id": 1491331,
+  "domain": "205capital.com",
+  "kind": "fund"
+ },
+ "20SALES": {
+  "harmonic_company_id": 76952404,
+  "domain": null,
+  "kind": "fund"
+ },
+ "20VC": {
+  "harmonic_company_id": 4185331,
+  "domain": "thetwentyminutevc.com",
+  "kind": "fund"
+ },
+ "2100 Ventures": {
+  "harmonic_company_id": 19900381,
+  "domain": "2100.vc",
+  "kind": "fund"
+ },
+ "41an Invest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "468 Capital": {
+  "harmonic_company_id": 1725304,
+  "domain": "468cap.com",
+  "kind": "fund"
+ },
+ "4impact capital": {
+  "harmonic_company_id": 1600339,
+  "domain": "4impact.vc",
+  "kind": "fund"
+ },
+ "515 Ventures": {
+  "harmonic_company_id": 3118836,
+  "domain": "515ventures.com",
+  "kind": "fund"
+ },
+ "574 Invest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "6 Degrees Capital": {
+  "harmonic_company_id": 19508125,
+  "domain": "6degrees.vc",
+  "kind": "fund"
+ },
+ "7BC Venture Capital": {
+  "harmonic_company_id": 2123948,
+  "domain": "7bc.vc",
+  "kind": "fund"
+ },
+ "7percent Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "82an Invest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "83NORTH": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "9900 Capital": {
+  "harmonic_company_id": 64005285,
+  "domain": "bnvtcapital.com",
+  "kind": "fund"
+ },
+ ">commit": {
+  "harmonic_company_id": 75609705,
+  "domain": "commit.fund",
+  "kind": "fund"
+ },
+ "A.P. Moller - Maersk": {
+  "harmonic_company_id": 3371378,
+  "domain": "maersk.com",
+  "kind": "fund"
+ },
+ "a16z speedrun": {
+  "harmonic_company_id": 55008447,
+  "domain": "speedrun.a16z.com",
+  "kind": "fund"
+ },
+ "AAA Training For Success": {
+  "harmonic_company_id": 46270376,
+  "domain": "aaatrainingforsuccess.com",
+  "kind": "fund"
+ },
+ "AAL VC": {
+  "harmonic_company_id": 15118990,
+  "domain": "aal.vc",
+  "kind": "fund"
+ },
+ "AALVC": {
+  "harmonic_company_id": 15118990,
+  "domain": "aal.vc",
+  "kind": "fund"
+ },
+ "Aaron Applbaum": {
+  "harmonic_person_id": 157468539,
+  "domain": null,
+  "kind": "person"
+ },
+ "Accel": {
+  "harmonic_company_id": 703319,
+  "domain": "accel.com",
+  "kind": "fund"
+ },
+ "Accel Starters": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Accelerace": {
+  "harmonic_company_id": 1504301,
+  "domain": "accelerace.io",
+  "kind": "fund"
+ },
+ "Accomplice": {
+  "harmonic_company_id": 779635,
+  "domain": "accomplice.co",
+  "kind": "fund"
+ },
+ "Accomplice VC": {
+  "harmonic_company_id": 779635,
+  "domain": "accomplice.co",
+  "kind": "fund"
+ },
+ "Ace Management Equity Partner": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Acequia Capital": {
+  "harmonic_company_id": 609848,
+  "domain": "acecap.com",
+  "kind": "fund"
+ },
+ "Act Vc": {
+  "harmonic_company_id": 1491881,
+  "domain": "actventure.capital",
+  "kind": "fund"
+ },
+ "Act Venture Capital": {
+  "harmonic_company_id": 1491881,
+  "domain": "actventure.capital",
+  "kind": "fund"
+ },
+ "Actyus": {
+  "harmonic_company_id": 4468584,
+  "domain": "actyus.com",
+  "kind": "fund"
+ },
+ "Adam Chekroud": {
+  "harmonic_person_id": 168904386,
+  "domain": null,
+  "kind": "person"
+ },
+ "Adelis Equity Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Adii Pienaar": {
+  "harmonic_person_id": 11671,
+  "domain": null,
+  "kind": "person"
+ },
+ "Adjacent": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Adrian Bührer": {
+  "harmonic_person_id": 179644897,
+  "domain": null,
+  "kind": "person"
+ },
+ "Adrian Kunzle": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Adrian Locher": {
+  "harmonic_person_id": 12811,
+  "domain": null,
+  "kind": "person"
+ },
+ "Adrien Nussenbaum": {
+  "harmonic_person_id": 258421,
+  "domain": null,
+  "kind": "person"
+ },
+ "Adventure Fund": {
+  "harmonic_company_id": 1442173,
+  "domain": "adventure.fund",
+  "kind": "fund"
+ },
+ "AE Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Agile Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "AGLAÉ VENTURES": {
+  "harmonic_company_id": 1498424,
+  "domain": "aglaeventures.com",
+  "kind": "fund"
+ },
+ "AI Grant": {
+  "harmonic_company_id": 2198672,
+  "domain": "aigrant.org",
+  "kind": "fund"
+ },
+ "Airbridge Equity Partners": {
+  "harmonic_company_id": 760061,
+  "domain": "airbridge.nl",
+  "kind": "fund"
+ },
+ "Aj Tennant": {
+  "harmonic_person_id": 45406752,
+  "domain": null,
+  "kind": "person"
+ },
+ "Ajay Patel": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Akshay Kothari": {
+  "harmonic_person_id": 39504178,
+  "domain": null,
+  "kind": "person"
+ },
+ "Alacrity Canada": {
+  "harmonic_company_id": 2012646,
+  "domain": "alacritycanada.com",
+  "kind": "fund"
+ },
+ "Alban Denoyel": {
+  "harmonic_person_id": 15116,
+  "domain": null,
+  "kind": "person"
+ },
+ "Albion Ventures": {
+  "harmonic_company_id": 1497085,
+  "domain": "albion.vc",
+  "kind": "fund"
+ },
+ "AlbionVC": {
+  "harmonic_company_id": 1497085,
+  "domain": "albion.vc",
+  "kind": "fund"
+ },
+ "Alejandro Zubillaga": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Alex Price": {
+  "harmonic_person_id": 166714451,
+  "domain": null,
+  "kind": "person"
+ },
+ "Alexander Walsh": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Alexandra Piedrahita": {
+  "harmonic_person_id": 188448553,
+  "domain": null,
+  "kind": "person"
+ },
+ "Alexis L.": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Alexis Priftis": {
+  "harmonic_person_id": 164054275,
+  "domain": null,
+  "kind": "person"
+ },
+ "Alfred Luger": {
+  "harmonic_person_id": 11344,
+  "domain": null,
+  "kind": "person"
+ },
+ "Alfvén & Didrikson": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Alhambra Venture": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "ALIGRUPO": {
+  "harmonic_company_id": 20123204,
+  "domain": "aligrupo.com",
+  "kind": "fund"
+ },
+ "Allison Pickens": {
+  "harmonic_person_id": 160675392,
+  "domain": null,
+  "kind": "person"
+ },
+ "Almaz Capital": {
+  "harmonic_company_id": 34744,
+  "domain": "almazcapital.com",
+  "kind": "fund"
+ },
+ "Alstin Capital": {
+  "harmonic_company_id": 1522640,
+  "domain": "alstin.capital",
+  "kind": "fund"
+ },
+ "AltaIR Capital": {
+  "harmonic_company_id": 663789,
+  "domain": "altair.vc",
+  "kind": "fund"
+ },
+ "ALTAMIR": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Alter Global": {
+  "harmonic_company_id": 710989,
+  "domain": "alter.vc",
+  "kind": "fund"
+ },
+ "Alternativos": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Altos Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Alumni Ventures": {
+  "harmonic_company_id": 3291582,
+  "domain": "av.vc",
+  "kind": "fund"
+ },
+ "Alven": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Alven Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ameet Patel": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Amino Capital": {
+  "harmonic_company_id": 703218,
+  "domain": "aminocapital.com",
+  "kind": "fund"
+ },
+ "Amino Collective": {
+  "harmonic_company_id": 1937876,
+  "domain": "aminocollective.com",
+  "kind": "fund"
+ },
+ "Amjad Masad": {
+  "harmonic_person_id": 171256239,
+  "domain": null,
+  "kind": "person"
+ },
+ "Anamcara": {
+  "harmonic_company_id": 3410489,
+  "domain": "anamcara.capital",
+  "kind": "fund"
+ },
+ "And": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "And Aurum Impact": {
+  "harmonic_company_id": 21516128,
+  "domain": "aurum-impact.de",
+  "kind": "fund"
+ },
+ "And Energie 360°": {
+  "harmonic_company_id": 60070159,
+  "domain": "energie360.ch",
+  "kind": "fund"
+ },
+ "And Joen Bonnier": {
+  "harmonic_person_id": 22968,
+  "domain": null,
+  "kind": "person"
+ },
+ "And Mati Staniszewski": {
+  "harmonic_person_id": 181593281,
+  "domain": null,
+  "kind": "person"
+ },
+ "And Philippe Corrot": {
+  "harmonic_person_id": 10532,
+  "domain": null,
+  "kind": "person"
+ },
+ "And Prototype Capital": {
+  "harmonic_company_id": 739275,
+  "domain": "prototype.capital",
+  "kind": "fund"
+ },
+ "AnD Ventures": {
+  "harmonic_company_id": 926507,
+  "domain": "and-ventures.com",
+  "kind": "fund"
+ },
+ "Andbank": {
+  "harmonic_company_id": 13584814,
+  "domain": "andbank.es",
+  "kind": "fund"
+ },
+ "Andera Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Andreas Hettich": {
+  "harmonic_person_id": 16443164,
+  "domain": null,
+  "kind": "person"
+ },
+ "Andreessen Horowitz": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Andrej Henkler": {
+  "harmonic_person_id": 11897,
+  "domain": null,
+  "kind": "person"
+ },
+ "Andrej Kiska": {
+  "harmonic_person_id": 208864,
+  "domain": null,
+  "kind": "person"
+ },
+ "Andrena Ventures": {
+  "harmonic_company_id": 63550813,
+  "domain": "andrena.vc",
+  "kind": "fund"
+ },
+ "Andrew Peterson": {
+  "harmonic_person_id": 39890,
+  "domain": null,
+  "kind": "person"
+ },
+ "Andrew Weisz": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Angel Invest": {
+  "harmonic_company_id": 614557,
+  "domain": "angelinvest.ventures",
+  "kind": "fund"
+ },
+ "Angel Investment Network": {
+  "harmonic_company_id": 1729769,
+  "domain": "angelinvestmentnetwork.co.uk",
+  "kind": "fund"
+ },
+ "Angel Investors": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "AngelList": {
+  "harmonic_company_id": 9481221,
+  "domain": "angellist.com",
+  "kind": "fund"
+ },
+ "Angelsinmedcity": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Angelsquare": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Angular Ventures": {
+  "harmonic_company_id": 1893727,
+  "domain": "angularventures.com",
+  "kind": "fund"
+ },
+ "Annabel Schild": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Anorak Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "another.vc": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ansa Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Anthemis": {
+  "harmonic_company_id": 631104,
+  "domain": "anthemis.com",
+  "kind": "fund"
+ },
+ "Anthemis Group": {
+  "harmonic_company_id": 631104,
+  "domain": "anthemis.com",
+  "kind": "fund"
+ },
+ "Anthropic": {
+  "harmonic_company_id": 3068389,
+  "domain": "anthropic.com",
+  "kind": "fund"
+ },
+ "Antoine Le Nel": {
+  "harmonic_person_id": 10712919,
+  "domain": null,
+  "kind": "person"
+ },
+ "Anton Zajac": {
+  "harmonic_person_id": 101462569,
+  "domain": null,
+  "kind": "person"
+ },
+ "Anvil Partners Llp": {
+  "harmonic_company_id": 65910600,
+  "domain": "anvil.partners",
+  "kind": "fund"
+ },
+ "Aonia Ventures": {
+  "harmonic_company_id": 1732408,
+  "domain": "aonia.vc",
+  "kind": "fund"
+ },
+ "APG": {
+  "harmonic_company_id": 152779,
+  "domain": "apg.nl",
+  "kind": "fund"
+ },
+ "April Underwood": {
+  "harmonic_person_id": 5184,
+  "domain": null,
+  "kind": "person"
+ },
+ "Arama Futuro family office": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Arash Ferdowsi": {
+  "harmonic_person_id": 10315,
+  "domain": null,
+  "kind": "person"
+ },
+ "arc investors": {
+  "harmonic_company_id": 12413831,
+  "domain": "arcinvestors.com",
+  "kind": "fund"
+ },
+ "Ariel Maislos": {
+  "harmonic_person_id": 12213,
+  "domain": null,
+  "kind": "person"
+ },
+ "ArK Kapital": {
+  "harmonic_company_id": 3878389,
+  "domain": "gilion.com",
+  "kind": "fund"
+ },
+ "Armin Meier": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Aro Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Artesian (Alternative Investments)": {
+  "harmonic_company_id": 1729971,
+  "domain": "artesianinvest.com",
+  "kind": "fund"
+ },
+ "Artesian Venture Capital": {
+  "harmonic_company_id": 1729971,
+  "domain": "artesianinvest.com",
+  "kind": "fund"
+ },
+ "Asdf Ventures": {
+  "harmonic_company_id": 1839355,
+  "domain": "asdfventures.com",
+  "kind": "fund"
+ },
+ "Asia Financial Holdings": {
+  "harmonic_company_id": 9608516,
+  "domain": "afh.hk",
+  "kind": "fund"
+ },
+ "Asia Financial Holdings Limited": {
+  "harmonic_company_id": 9608516,
+  "domain": "afh.hk",
+  "kind": "fund"
+ },
+ "Assaf Keren": {
+  "harmonic_person_id": 64459703,
+  "domain": null,
+  "kind": "person"
+ },
+ "Assaf Rappaport": {
+  "harmonic_person_id": 131885,
+  "domain": null,
+  "kind": "person"
+ },
+ "Athos Capital": {
+  "harmonic_company_id": 1508511,
+  "domain": "athos-cap.com",
+  "kind": "fund"
+ },
+ "Atlassian": {
+  "harmonic_company_id": 2162826,
+  "domain": "atlassian.com",
+  "kind": "fund"
+ },
+ "Atlassian Ventures": {
+  "harmonic_company_id": 3631192,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Atomico": {
+  "harmonic_company_id": 719230,
+  "domain": "atomico.com",
+  "kind": "fund"
+ },
+ "ATW Partners": {
+  "harmonic_company_id": 708388,
+  "domain": "atwpartners.com",
+  "kind": "fund"
+ },
+ "Auctus Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "AUCTUS Capital Partners AG": {
+  "harmonic_company_id": 1480882,
+  "domain": "auctus.com",
+  "kind": "fund"
+ },
+ "Aurum Impact": {
+  "harmonic_company_id": 21516128,
+  "domain": "aurum-impact.de",
+  "kind": "fund"
+ },
+ "Austin McChord": {
+  "harmonic_person_id": 35086,
+  "domain": null,
+  "kind": "person"
+ },
+ "Austria Wirtschaftsservice": {
+  "harmonic_company_id": 1504824,
+  "domain": "aws.at",
+  "kind": "fund"
+ },
+ "Auxxo Female Catalyst Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Avonmore Developments": {
+  "harmonic_company_id": 1499768,
+  "domain": "avonmoredevelopments.com",
+  "kind": "fund"
+ },
+ "avra": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "AXA": {
+  "harmonic_company_id": 13338511,
+  "domain": "axa.com",
+  "kind": "fund"
+ },
+ "Axeleo": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Axiom": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Axiom Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "b2venture": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "B5 Capital": {
+  "harmonic_company_id": 1582585,
+  "domain": "b5cap.com",
+  "kind": "fund"
+ },
+ "Babatunde Soyoye": {
+  "harmonic_person_id": 260970,
+  "domain": null,
+  "kind": "person"
+ },
+ "Balderton": {
+  "harmonic_company_id": 670743,
+  "domain": "balderton.com",
+  "kind": "fund"
+ },
+ "Balderton Capital": {
+  "harmonic_company_id": 670743,
+  "domain": "balderton.com",
+  "kind": "fund"
+ },
+ "Balnord": {
+  "harmonic_company_id": 65669833,
+  "domain": "balnord.vc",
+  "kind": "fund"
+ },
+ "Band of Angels": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Banque Populaire": {
+  "harmonic_company_id": 2015073,
+  "domain": "sud.banquepopulaire.fr",
+  "kind": "fund"
+ },
+ "Banque Populaire Auvergne Rhône Alpes": {
+  "harmonic_company_id": 8449616,
+  "domain": "alpes.banquepopulaire.fr",
+  "kind": "fund"
  }
 }
