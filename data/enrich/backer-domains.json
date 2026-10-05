@@ -1588,5 +1588,800 @@
   "harmonic_person_id": 11760,
   "domain": null,
   "kind": "person"
+ },
+ "Banque Populaire Grand Ouest": {
+  "harmonic_company_id": 4498581,
+  "domain": "banquepopulaire.fr",
+  "kind": "fund"
+ },
+ "Baptiste Cota": {
+  "harmonic_person_id": 179242290,
+  "domain": null,
+  "kind": "person"
+ },
+ "Barney Hussey-Yeo": {
+  "harmonic_person_id": 179621749,
+  "domain": null,
+  "kind": "person"
+ },
+ "Barreau de Paris (Ordre des avocats de Paris)": {
+  "harmonic_company_id": 2061950,
+  "domain": "avocatparis.org",
+  "kind": "fund"
+ },
+ "Base10 Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "basecase capital": {
+  "harmonic_company_id": 2094830,
+  "domain": "basecase.vc",
+  "kind": "fund"
+ },
+ "Basis Set": {
+  "harmonic_company_id": 607168,
+  "domain": "basisset.com",
+  "kind": "fund"
+ },
+ "Bastian Karweg": {
+  "harmonic_person_id": 188446369,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bastian Nominacher": {
+  "harmonic_person_id": 18702,
+  "domain": null,
+  "kind": "person"
+ },
+ "Beacon Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Beacon Capital Partners": {
+  "harmonic_company_id": 708352,
+  "domain": "beaconcapital.com",
+  "kind": "fund"
+ },
+ "BEAMRZ": {
+  "harmonic_company_id": 1904638,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BeAngels": {
+  "harmonic_company_id": 1544231,
+  "domain": "beangels.eu",
+  "kind": "fund"
+ },
+ "Begin Capital": {
+  "harmonic_company_id": 1572363,
+  "domain": "begin.capital",
+  "kind": "fund"
+ },
+ "Behold Ventures": {
+  "harmonic_company_id": 4154880,
+  "domain": "behold.vc",
+  "kind": "fund"
+ },
+ "Beiersdorf": {
+  "harmonic_company_id": 1392149,
+  "domain": "beiersdorfusa.com",
+  "kind": "fund"
+ },
+ "Bek Ventures": {
+  "harmonic_company_id": 57199713,
+  "domain": "bekventures.com",
+  "kind": "fund"
+ },
+ "Bek Ventures (formerly Earlybird Digital East)": {
+  "harmonic_company_id": 57199713,
+  "domain": "bekventures.com",
+  "kind": "fund"
+ },
+ "Belgian Media Ventures": {
+  "harmonic_company_id": 22238026,
+  "domain": "be-mv.be",
+  "kind": "fund"
+ },
+ "Benchmark": {
+  "harmonic_company_id": 609858,
+  "domain": "benchmark.com",
+  "kind": "fund"
+ },
+ "Benchmark Capital": {
+  "harmonic_company_id": 609858,
+  "domain": "benchmark.com",
+  "kind": "fund"
+ },
+ "Benedikt Sauter": {
+  "harmonic_person_id": 123880831,
+  "domain": null,
+  "kind": "person"
+ },
+ "Benjamin Kremer": {
+  "harmonic_person_id": 84657665,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bent M Skisaker": {
+  "harmonic_person_id": 179677467,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bent Skisaker": {
+  "harmonic_person_id": 179677467,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bernhard Niesner": {
+  "harmonic_person_id": 11345,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bessemer Venture Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Bestart": {
+  "harmonic_company_id": 64525080,
+  "domain": "bestart.nl",
+  "kind": "fund"
+ },
+ "betterhomes": {
+  "harmonic_company_id": 2071829,
+  "domain": "bhomes.com",
+  "kind": "fund"
+ },
+ "Big Sur Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BIP Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BIP Wealth": {
+  "harmonic_company_id": 1524363,
+  "domain": "bipwealth.com",
+  "kind": "fund"
+ },
+ "Black Forest Labs": {
+  "harmonic_company_id": 47062238,
+  "domain": "bfl.ai",
+  "kind": "fund"
+ },
+ "Blackbird": {
+  "harmonic_company_id": 22306434,
+  "domain": "blackbird.vc",
+  "kind": "fund"
+ },
+ "Blackbird Ventures": {
+  "harmonic_company_id": 22306434,
+  "domain": "blackbird.vc",
+  "kind": "fund"
+ },
+ "Blackfinch Group": {
+  "harmonic_company_id": 2229190,
+  "domain": "blackfinch.com",
+  "kind": "fund"
+ },
+ "BlackPeak Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Blockchain Founders Fund": {
+  "harmonic_company_id": 706588,
+  "domain": "blockchainff.com",
+  "kind": "fund"
+ },
+ "Blossom Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Blue Earth Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Blue Earth Capital AG": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Blue Titan Ventures": {
+  "harmonic_company_id": 1568581,
+  "domain": "bluetitanventures.com",
+  "kind": "fund"
+ },
+ "BMH": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BMH Beteiligungs-Management Hessen": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BMW": {
+  "harmonic_company_id": 1442236,
+  "domain": "bmwgroup.com",
+  "kind": "fund"
+ },
+ "BMW i Ventures": {
+  "harmonic_company_id": 32471,
+  "domain": "bmwiventures.com",
+  "kind": "fund"
+ },
+ "Bnk To The Future": {
+  "harmonic_company_id": 1826774,
+  "domain": "bnktothefuture.com",
+  "kind": "fund"
+ },
+ "BNP Paribas": {
+  "harmonic_company_id": 2163417,
+  "domain": "group.bnpparibas",
+  "kind": "fund"
+ },
+ "BNVT Capital": {
+  "harmonic_company_id": 64005285,
+  "domain": "bnvtcapital.com",
+  "kind": "fund"
+ },
+ "Board Member Of Bonnier Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Bonnier-linked Profiles Jakob Tolleryd": {
+  "harmonic_person_id": 24139,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bootstrap Charity": {
+  "harmonic_company_id": 8803745,
+  "domain": "bootstrapcharity.com",
+  "kind": "fund"
+ },
+ "Born2Grow": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "bossa invest": {
+  "harmonic_company_id": 32548198,
+  "domain": "bossainvest.com",
+  "kind": "fund"
+ },
+ "Boston Millennia Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Box": {
+  "harmonic_company_id": 165060,
+  "domain": "box.com",
+  "kind": "fund"
+ },
+ "BoxGroup": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BPI France": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Bpifrance": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BPO Capital": {
+  "harmonic_company_id": 1508493,
+  "domain": "bpo.vc",
+  "kind": "fund"
+ },
+ "Brad Fluegel": {
+  "harmonic_person_id": 171831893,
+  "domain": null,
+  "kind": "person"
+ },
+ "Bradley Horowitz": {
+  "harmonic_person_id": 117679959,
+  "domain": null,
+  "kind": "person"
+ },
+ "Breizh Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Breizh Up": {
+  "harmonic_company_id": 4551356,
+  "domain": "breizhup.bretagne.bzh",
+  "kind": "fund"
+ },
+ "Brett Topche": {
+  "harmonic_person_id": 52468,
+  "domain": null,
+  "kind": "person"
+ },
+ "Brian Marks": {
+  "harmonic_person_id": 169412,
+  "domain": null,
+  "kind": "person"
+ },
+ "Brian Requarth": {
+  "harmonic_person_id": 9860,
+  "domain": null,
+  "kind": "person"
+ },
+ "Brick & Mortar Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BrightCap Ventures": {
+  "harmonic_company_id": 1509087,
+  "domain": "brightcap.vc",
+  "kind": "fund"
+ },
+ "British Business Bank": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "British Business Bank: British Patient Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "British Business Investments": {
+  "harmonic_company_id": 2108830,
+  "domain": "british-business-bank.co.uk",
+  "kind": "fund"
+ },
+ "British Patient Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "BTOV Partners": {
+  "harmonic_company_id": 12822071,
+  "domain": "b2venture.vc",
+  "kind": "fund"
+ },
+ "Burst Capital": {
+  "harmonic_company_id": 714934,
+  "domain": "burst.vc",
+  "kind": "fund"
+ },
+ "Business angels": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Business Angels Switzerland": {
+  "harmonic_company_id": 1504170,
+  "domain": "businessangels.ch",
+  "kind": "fund"
+ },
+ "Bystronic Group": {
+  "harmonic_company_id": 3318366,
+  "domain": "bystronic.com",
+  "kind": "fund"
+ },
+ "cabiedes & partners SCR": {
+  "harmonic_company_id": 2108209,
+  "domain": "cabiedesandpartners.com",
+  "kind": "fund"
+ },
+ "Caisse d’Epargne": {
+  "harmonic_company_id": 64044171,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Cal Henderson": {
+  "harmonic_person_id": 168089050,
+  "domain": null,
+  "kind": "person"
+ },
+ "Calculus Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Calm Storm": {
+  "harmonic_company_id": 1498702,
+  "domain": "calmstorm.vc",
+  "kind": "fund"
+ },
+ "Calm/Storm": {
+  "harmonic_company_id": 1498702,
+  "domain": "calmstorm.vc",
+  "kind": "fund"
+ },
+ "Calm/Storm Ventures": {
+  "harmonic_company_id": 1498702,
+  "domain": "calmstorm.vc",
+  "kind": "fund"
+ },
+ "Calvin French-Owen": {
+  "harmonic_person_id": 8213,
+  "domain": null,
+  "kind": "person"
+ },
+ "Camber Partners": {
+  "harmonic_company_id": 3252907,
+  "domain": "camber.io",
+  "kind": "fund"
+ },
+ "Cambridge Angels": {
+  "harmonic_company_id": 2110749,
+  "domain": "cambridgeangels.com",
+  "kind": "fund"
+ },
+ "Cambridge Enterprise": {
+  "harmonic_company_id": 1537111,
+  "domain": "www.enterprise.cam.ac.uk",
+  "kind": "fund"
+ },
+ "Cambridge Innovation Capital": {
+  "harmonic_company_id": 615732,
+  "domain": "cic.vc",
+  "kind": "fund"
+ },
+ "Cambridge Judge Business School": {
+  "harmonic_company_id": 3186246,
+  "domain": "cam.ac.uk",
+  "kind": "fund"
+ },
+ "Canaan": {
+  "harmonic_company_id": 764672,
+  "domain": "canaan.com",
+  "kind": "fund"
+ },
+ "Canvas Prime": {
+  "harmonic_company_id": 23144705,
+  "domain": "canvas.vc",
+  "kind": "fund"
+ },
+ "Capitana Venture Partners": {
+  "harmonic_company_id": 1572735,
+  "domain": "capitanavp.com",
+  "kind": "fund"
+ },
+ "Capnamic": {
+  "harmonic_company_id": 692191,
+  "domain": "capnamic.com",
+  "kind": "fund"
+ },
+ "Capnamic Ventures": {
+  "harmonic_company_id": 692191,
+  "domain": "capnamic.com",
+  "kind": "fund"
+ },
+ "Capricorn Partners": {
+  "harmonic_company_id": 607406,
+  "domain": "capricorn.be",
+  "kind": "fund"
+ },
+ "Capricorn Partners And Swisshealth Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "CAPZA": {
+  "harmonic_company_id": 1596200,
+  "domain": "capza.co",
+  "kind": "fund"
+ },
+ "Cardumen Capital": {
+  "harmonic_company_id": 759001,
+  "domain": "cardumencapital.com",
+  "kind": "fund"
+ },
+ "Caroline Hudack": {
+  "harmonic_person_id": 103147284,
+  "domain": null,
+  "kind": "person"
+ },
+ "Carsten Thoma": {
+  "harmonic_person_id": 14588,
+  "domain": null,
+  "kind": "person"
+ },
+ "Casticapital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Cathay Capital": {
+  "harmonic_company_id": 682556,
+  "domain": "cathaycapital.com",
+  "kind": "fund"
+ },
+ "Catherine Lenson": {
+  "harmonic_person_id": 99037,
+  "domain": null,
+  "kind": "person"
+ },
+ "CCAP": {
+  "harmonic_company_id": 11577261,
+  "domain": "ccap.co",
+  "kind": "fund"
+ },
+ "CCAP Investments & Advisory": {
+  "harmonic_company_id": 11577261,
+  "domain": "ccap.co",
+  "kind": "fund"
+ },
+ "CDP Cassa Depositi e Prestiti": {
+  "harmonic_company_id": 2121601,
+  "domain": "cdp.it",
+  "kind": "fund"
+ },
+ "CDP Venture Capital": {
+  "harmonic_company_id": 19017524,
+  "domain": "cdpventurecapital.it",
+  "kind": "fund"
+ },
+ "CDP Venture Capital SGR": {
+  "harmonic_company_id": 19017524,
+  "domain": "cdpventurecapital.it",
+  "kind": "fund"
+ },
+ "Celonis": {
+  "harmonic_company_id": 175074,
+  "domain": "celonis.com",
+  "kind": "fund"
+ },
+ "Cercano": {
+  "harmonic_company_id": 6657889,
+  "domain": "cercanolp.com",
+  "kind": "fund"
+ },
+ "Cercano Management": {
+  "harmonic_company_id": 6657889,
+  "domain": "cercanolp.com",
+  "kind": "fund"
+ },
+ "Cervin Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Chairman Of Bonnier Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Chalfen Ventures": {
+  "harmonic_company_id": 777057,
+  "domain": "chalfenventures.com",
+  "kind": "fund"
+ },
+ "Chapter One": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Charles Gorintin": {
+  "harmonic_person_id": 91181422,
+  "domain": null,
+  "kind": "person"
+ },
+ "Charles Miglietti": {
+  "harmonic_person_id": 7354,
+  "domain": null,
+  "kind": "person"
+ },
+ "Charles Songhurst": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Charles Zedlewski": {
+  "harmonic_person_id": 72663336,
+  "domain": null,
+  "kind": "person"
+ },
+ "Charlie Cheever": {
+  "harmonic_person_id": 8339,
+  "domain": null,
+  "kind": "person"
+ },
+ "Charlie Songhurst": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Chemistry": {
+  "harmonic_company_id": 57174834,
+  "domain": "chemistry.vc",
+  "kind": "fund"
+ },
+ "Chen Amit": {
+  "harmonic_person_id": 179644289,
+  "domain": null,
+  "kind": "person"
+ },
+ "Cherry Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "China Automotive Systems, Inc.": {
+  "harmonic_company_id": 70408410,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Chiron Group": {
+  "harmonic_company_id": 9438477,
+  "domain": "chiron-group.com",
+  "kind": "fund"
+ },
+ "Chiron Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Chris Adelsbach OBE": {
+  "harmonic_person_id": 9992,
+  "domain": null,
+  "kind": "person"
+ },
+ "Chris Donnelly": {
+  "harmonic_person_id": 13669747,
+  "domain": null,
+  "kind": "person"
+ },
+ "Chris Hodson": {
+  "harmonic_person_id": 54749658,
+  "domain": null,
+  "kind": "person"
+ },
+ "Chris Mairs CBE": {
+  "harmonic_person_id": 10236,
+  "domain": null,
+  "kind": "person"
+ },
+ "Chris Romeo": {
+  "harmonic_person_id": 206294296,
+  "domain": null,
+  "kind": "person"
+ },
+ "Christian Bach": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Christian Bezdeka": {
+  "harmonic_person_id": 160664274,
+  "domain": null,
+  "kind": "person"
+ },
+ "Christian Reber": {
+  "harmonic_person_id": 12829,
+  "domain": null,
+  "kind": "person"
+ },
+ "Christian Wenger": {
+  "harmonic_person_id": 11771,
+  "domain": null,
+  "kind": "person"
+ },
+ "Christof Kutscher": {
+  "harmonic_person_id": 362972,
+  "domain": null,
+  "kind": "person"
+ },
+ "Christophe Chausson": {
+  "harmonic_person_id": 19762,
+  "domain": null,
+  "kind": "person"
+ },
+ "Christopher Varelas": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "CHU de Clermont-Ferrand": {
+  "harmonic_company_id": 9125243,
+  "domain": "chu-clermontferrand.fr",
+  "kind": "fund"
+ },
+ "CHU of Clermont-Ferrand": {
+  "harmonic_company_id": 9125243,
+  "domain": "chu-clermontferrand.fr",
+  "kind": "fund"
+ },
+ "CIB Développement organisationnel": {
+  "harmonic_company_id": 1783948,
+  "domain": "cib-rh.com",
+  "kind": "fund"
+ },
+ "Citi": {
+  "harmonic_company_id": 1729888,
+  "domain": "citigroup.com",
+  "kind": "fund"
+ },
+ "Citi Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Citizen Capital": {
+  "harmonic_company_id": 711817,
+  "domain": "citizencapital.fr",
+  "kind": "fund"
+ },
+ "Claire Hughes Johnson": {
+  "harmonic_person_id": 37800,
+  "domain": null,
+  "kind": "person"
+ },
+ "Clarim": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Clearance Venture Partners": {
+  "harmonic_company_id": 57191365,
+  "domain": "clearancevp.com",
+  "kind": "fund"
+ },
+ "Clem Delangue": {
+  "harmonic_person_id": 146467,
+  "domain": null,
+  "kind": "person"
+ },
+ "Clem Delangue ��": {
+  "harmonic_person_id": 146467,
+  "domain": null,
+  "kind": "person"
+ },
+ "Cleo Capital": {
+  "harmonic_company_id": 682035,
+  "domain": "cleocap.com",
+  "kind": "fund"
+ },
+ "Clermont Auvergne Innovation": {
+  "harmonic_company_id": 2192442,
+  "domain": "clermontauvergneinnovation.com",
+  "kind": "fund"
+ },
+ "Clio": {
+  "harmonic_company_id": 213290,
+  "domain": "clio.com",
+  "kind": "fund"
+ },
+ "Clément Buyse": {
+  "harmonic_person_id": 16284,
+  "domain": null,
+  "kind": "person"
+ },
+ "Coatue": {
+  "harmonic_company_id": 644692,
+  "domain": "coatue.com",
+  "kind": "fund"
+ },
+ "Coatue Management": {
+  "harmonic_company_id": 644692,
+  "domain": "coatue.com",
+  "kind": "fund"
+ },
+ "Coefficient Capital": {
+  "harmonic_company_id": 627493,
+  "domain": "coefficientcap.com",
+  "kind": "fund"
  }
 }
