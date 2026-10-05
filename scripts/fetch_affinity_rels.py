@@ -133,23 +133,24 @@ def refresh(path):
     return len(people), len(data["relationships"])
 
 
-paths = sorted(glob.glob(f"{ROOT}/data/affinity/*.json")
-               + glob.glob(f"{ROOT}/data/*/affinity/*.json"))
-if sys.argv[1:]:  # optional prefix filter, e.g. `fetch_affinity_rels.py data/us`
-    paths = [p for p in paths
-             if any(p.removeprefix(ROOT + "/").startswith(a) for a in sys.argv[1:])]
-done = failed = 0
-for path in paths:
-    base = os.path.basename(path)
-    if base.startswith(("_", "angel-", "50-partners", "partners-meta")):
-        continue
-    try:
-        res = refresh(path)
-        if res:
-            done += 1
-            print(f"{path.removeprefix(ROOT + '/')}: {res[0]} people -> {res[1]} edges")
-    except Exception as e:  # noqa: BLE001 — keep the old snapshot for this fund
-        failed += 1
-        print(f"FAILED {path.removeprefix(ROOT + '/')}: {e} — old edges kept")
-print(f"refreshed {done} funds, {failed} failed")
-sys.exit(1 if (failed and not done) else 0)
+if __name__ == "__main__":
+    paths = sorted(glob.glob(f"{ROOT}/data/affinity/*.json")
+                   + glob.glob(f"{ROOT}/data/*/affinity/*.json"))
+    if sys.argv[1:]:  # optional prefix filter, e.g. `fetch_affinity_rels.py data/us`
+        paths = [p for p in paths
+                 if any(p.removeprefix(ROOT + "/").startswith(a) for a in sys.argv[1:])]
+    done = failed = 0
+    for path in paths:
+        base = os.path.basename(path)
+        if base.startswith(("_", "angel-", "50-partners", "partners-meta")):
+            continue
+        try:
+            res = refresh(path)
+            if res:
+                done += 1
+                print(f"{path.removeprefix(ROOT + '/')}: {res[0]} people -> {res[1]} edges")
+        except Exception as e:  # noqa: BLE001 — keep the old snapshot for this fund
+            failed += 1
+            print(f"FAILED {path.removeprefix(ROOT + '/')}: {e} — old edges kept")
+    print(f"refreshed {done} funds, {failed} failed")
+    sys.exit(1 if (failed and not done) else 0)

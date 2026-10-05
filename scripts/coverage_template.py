@@ -97,6 +97,11 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .apsec{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:18px 0 8px}
 .apcard{border:1px solid var(--hair);border-radius:10px;padding:11px 13px;margin-bottom:10px}
 .apcard .fname{font-size:14.5px}
+.aph2{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.apstats{display:flex;gap:16px;flex:none}
+.apstat{display:flex;flex-direction:column;align-items:center;min-width:44px}
+.apstat .covnum{font-size:16px}
+.apstat .covcap{font-size:7.5px;margin-top:1px;white-space:nowrap}
 .apmeta{font-size:11.5px;color:var(--muted);margin-top:2px}
 .appath{font-size:12.5px;margin-top:6px}
 .appath b{font-weight:650}
@@ -765,9 +770,9 @@ function apHtc(){
   if(!list.length) return `<div class="aphint">No hard-to-cracks owned by ${who||'anyone'} on the tracked lists.</div>`;
   const cards=list.slice(0,60).map(c=>{
     const best=(c.investors||[]).filter(i=>i.best&&i.best.internal)
-      .map(i=>({...i.best,fund:i.name,region:i.region}))
+      .map(i=>({...i.best,fund:i.name,region:i.region,unt:i.untracked}))
       .sort((a,b)=>((b.pct||0)-(a.pct||0))).slice(0,3);
-    const paths=best.map(p=>`<div class="appath"><b>${p.internal}</b> ↔ ${p.external||'?'} <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal}</b> ↔ ${p.external||'?'} <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
     const others=(c.others||[]).length?`<div class="apmeta">also on the cap table (untracked): ${c.others.slice(0,4).join(', ')}</div>`:'';
     const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
     const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];
@@ -784,11 +789,15 @@ function apHtc(){
     }
     acts=`<div class="apacts">${acts}
         <a href="${affURL(c.id)}" target="_blank" rel="noopener">Affinity ↗</a></div>`;
-    return `<div class="apcard"><div class="fname">${c.name}${ufBadge(c.uf)}</div>
+    const eV=ease(c), eTier=eV>=50?'strong':eV>=22?'medium':'weak';
+    const ufV=c.uf!=null?Math.round(c.uf):null, ufTier=ufV==null?'':ufV>=85?'strong':ufV>=70?'medium':'';
+    return `<div class="apcard"><div class="aph2"><div class="fname">${c.name}</div>
+      <div class="apstats"><span class="apstat"><b class="covnum ${ufTier}">${ufV??'—'}</b><span class="covcap">unframe</span></span>
+      <span class="apstat"><b class="covnum ${eV?eTier:''}">${eV||'—'}</b><span class="covcap">ease of access</span></span></div></div>
       <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}</div>
-      ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any tracked backer yet</div>'}${others}${acts}</div>`;
+      ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}${acts}</div>`;
   }).join('');
-  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Backers we don't track yet are listed on each card; path mapping for those is coming.</div>`+cards;
+  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
 }
 
 function netAskBody(who,e,p){

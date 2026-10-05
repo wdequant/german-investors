@@ -1,4 +1,29 @@
 {
+ "83NORTH": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Emblem": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Seedcamp": {
+  "harmonic_company_id": null,
+  "domain": "seedcamp.com",
+  "kind": "fund"
+ },
+ "WndrCo": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Valar Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
  "Jeff Weinstein": {
   "harmonic_person_id": 119245663,
   "domain": null,
@@ -3259,11 +3284,6 @@
   "domain": null,
   "kind": "fund"
  },
- "83NORTH": {
-  "harmonic_company_id": null,
-  "domain": null,
-  "kind": "fund"
- },
  "9900 Capital": {
   "harmonic_company_id": 64005285,
   "domain": "bnvtcapital.com",
@@ -3992,11 +4012,6 @@
  "Embedded Ventures": {
   "harmonic_company_id": 2195899,
   "domain": "embedded.ventures",
-  "kind": "fund"
- },
- "Emblem": {
-  "harmonic_company_id": null,
-  "domain": null,
   "kind": "fund"
  },
  "Emerald Technology Ventures": {
@@ -5864,11 +5879,6 @@
   "domain": "sba.gov",
   "kind": "fund"
  },
- "Valar Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
-  "kind": "fund"
- },
  "Valar Ventures LLC": {
   "harmonic_company_id": null,
   "domain": null,
@@ -6217,11 +6227,6 @@
  "Wiski Capital": {
   "harmonic_company_id": 3069024,
   "domain": "wiski.no",
-  "kind": "fund"
- },
- "WndrCo": {
-  "harmonic_company_id": null,
-  "domain": null,
   "kind": "fund"
  },
  "World Innovation Lab": {

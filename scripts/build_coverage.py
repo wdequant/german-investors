@@ -241,12 +241,49 @@ for _k, _reg in regions.items():
 
 _captables = load_json(f"{ROOT}/data/enrich/htc-captables.json", {}) or {}
 _xreg = 0
+_xun = 0
+
+# untracked backers: backer name -> domain -> Highland's live Affinity edges
+from coverage_common import NAME_MAP as _NM0, EX_STAFF as _EX0
+_bdom = {}
+for _n, _m in (load_json(f"{ROOT}/data/enrich/backer-domains.json", {}) or {}).items():
+    _d = (_m.get("domain") or "").lower().removeprefix("www.")
+    if _d and _m.get("kind") != "person":
+        _bdom[_ni(_n)] = _d
+_brels = load_json(f"{ROOT}/data/enrich/backer-rels.json", {}) or {}
+
+
+def _bdecay(last):
+    if not last:
+        return 0.85
+    days = (TODAY.date() - __import__("datetime").date.fromisoformat(str(last)[:10])).days
+    return 1.0 if days <= 180 else 0.9 if days <= 365 else 0.5 if days <= 730 else 0.3
+
+
+def _backer_paths(dom):
+    """Top Highland paths into an untracked backer, scored like fund paths."""
+    best = {}
+    for r in (_brels.get(dom) or {}).get("rels") or []:
+        nm = _NM0.get(r["internal"], r["internal"])
+        if nm in _EX0:
+            continue
+        pct = round(100 * (r.get("score") or 0) * _bdecay(r.get("last"))
+                    * (1.0 if r.get("meet") else 0.75))
+        if pct <= 0:
+            continue
+        p = {"internal": nm, "external": r["external"], "pct": pct, "moved": None,
+             "unverified": not r.get("meet"), "email": r.get("externalEmail")}
+        k = r["external"]
+        if k not in best or pct > best[k]["pct"]:
+            best[k] = p
+    return sorted(best.values(), key=lambda p: -p["pct"])[:3]
 
 
 def _resolve_backers(_c, _backers):
-    """Match a company's backer names against every tracked entity; append the
-    reachable ones with their best paths, keep the rest as 'others'."""
-    global _xreg
+    """Match a company's backer names against every tracked entity; give
+    untracked backers paths from their own Affinity edges where we hold any;
+    keep the rest as 'others'."""
+    global _xreg, _xun
     _have = {_i["slug"] for _i in _c["investors"]}
     _others = []
     for _inv in _backers:
@@ -259,7 +296,15 @@ def _resolve_backers(_c, _backers):
                     and (_best is None or len(_a) > len(_best[0])):
                 _best = (_a, _ents)
         if not _best:
-            _others.append(_inv)
+            _bp = _backer_paths(_bdom[_niv]) if _niv in _bdom else []
+            if _bp:
+                _c["investors"].append({"name": _inv.strip(), "slug": None,
+                                        "kind": "fund", "tier": "x", "region": None,
+                                        "untracked": True,
+                                        "best": _bp[0], "paths": _bp})
+                _xun += 1
+            else:
+                _others.append(_inv)
             continue
         for _rk, _e in _best[1]:
             if _e["slug"] in _have:
@@ -333,7 +378,7 @@ for _k, _reg in regions.items():
                         _cstamp += 1
 print(f"global pass: +{_xreg} cross-region H2C links, +{_gstamp} unframe stamps, "
       f"+{_cstamp} city stamps ({len(_cities)} cities known), "
-      f"+{len(_xtra)} Affinity H2Cs beyond tracked funds")
+      f"+{len(_xtra)} Affinity H2Cs beyond tracked funds, +{_xun} untracked-backer paths")
 
 _spec = _ilu.spec_from_file_location("coverage_template",
         os.path.join(os.path.dirname(os.path.abspath(__file__)), "coverage_template.py"))
