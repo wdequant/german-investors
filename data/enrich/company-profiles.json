@@ -13463,6 +13463,1806 @@
   "name": "Oraion",
   "stage": "PRE_SEED"
  },
+ "orakl-oncology.com": {
+  "desc": "Orakl Oncology has developed an AI-native platform that utilizes patient-derived tumor organoids and a multimodal dataset, which includes genomic, transcriptomic, and phe",
+  "founded": 2023,
+  "funding_usd": 14729845,
+  "hc": 38,
+  "hc_yoy": 52,
+  "name": "Orakl Oncology",
+  "stage": "SEED"
+ },
+ "orasio.com": {
+  "desc": "The main product is an artificial intelligence solution for video analysis that facilitates real-time detection of incidents and efficient post-event analysis, tailored f",
+  "founded": 2025,
+  "funding_usd": 18073792,
+  "hc": 24,
+  "hc_yoy": 50,
+  "name": "Orasio",
+  "stage": "SEED"
+ },
+ "orbio.earth": {
+  "desc": "The company offers a platform that utilizes satellite imagery to monitor and track methane emissions from the oil and gas industry, providing actionable insights for oper",
+  "founded": 2021,
+  "funding_usd": 4500000,
+  "hc": 11,
+  "hc_yoy": -15,
+  "name": "Orbio Earth (YC S23)",
+  "stage": "SEED"
+ },
+ "orbio.work": {
+  "desc": "Orbio AI offers an AI-powered HR system designed for enterprises, featuring specialized agents that automate recruitment processes from job posting to onboarding, while p",
+  "founded": 2025,
+  "funding_usd": 28600000,
+  "hc": 31,
+  "hc_yoy": 244,
+  "name": "Orbio AI",
+  "stage": "SERIES_A"
+ },
+ "order.link": {
+  "desc": "Order.link offers an AI assistant that streamlines inquiry processing and quote generation within ERP systems by leveraging artificial intelligence.",
+  "founded": 2022,
+  "funding_usd": 2500000,
+  "hc": 13,
+  "hc_yoy": 0,
+  "name": "Venta (YC S23)",
+  "stage": "PRE_SEED"
+ },
+ "ordio.com": {
+  "desc": "Ordio offers a comprehensive platform for shift planning, time tracking, and payroll management, utilizing AI-driven processes to streamline operations and enhance effici",
+  "founded": 2020,
+  "funding_usd": 18106287,
+  "hc": 57,
+  "hc_yoy": 21,
+  "name": "Ordio",
+  "stage": "SERIES_A"
+ },
+ "oreenergy.com": {
+  "desc": "The main product is a long-duration energy storage system utilizing iron-air battery technology, which can store electricity for up to 100 hours using non-toxic materials",
+  "founded": 2022,
+  "funding_usd": 54364912,
+  "hc": 42,
+  "hc_yoy": 50,
+  "name": "Ore Energy",
+  "stage": "SERIES_A"
+ },
+ "oris-space.com": {
+  "desc": "ORiS develops laser-based wireless power transmission systems aimed at space and dual-use applications, focusing on creating an in-orbit energy distribution grid for sate",
+  "founded": 2021,
+  "funding_usd": 6224995,
+  "hc": 16,
+  "hc_yoy": 78,
+  "name": "ORiS - Space",
+  "stage": "PRE_SEED"
+ },
+ "ornikar.com": {
+  "desc": "Ornikar offers a comprehensive online driving education platform that includes services for obtaining a driving license, as well as car and home insurance, all facilitate",
+  "founded": 2013,
+  "funding_usd": 174204103,
+  "hc": 363,
+  "hc_yoy": 19,
+  "name": "Ornikar",
+  "stage": "SERIES_C"
+ },
+ "ororatech.com": {
+  "desc": "The company offers a wildfire management platform that utilizes data from over 35 satellite and ground sources, employing advanced detection algorithms to provide early h",
+  "founded": 2018,
+  "funding_usd": 64895618,
+  "hc": 192,
+  "hc_yoy": 6,
+  "name": "OroraTech",
+  "stage": "SERIES_B"
+ },
+ "orus.eu": {
+  "desc": "The company provides a digital platform for professional insurance tailored to small and medium-sized businesses, allowing users to obtain customized coverage quickly and",
+  "founded": 2021,
+  "funding_usd": 54915785,
+  "hc": 161,
+  "hc_yoy": 68,
+  "name": "Orus",
+  "stage": "SERIES_B"
+ },
+ "ory.sh": {
+  "desc": "Ory offers identity and access management (IAM) solutions designed for applications, enterprises, and AI agents, providing secure and scalable management of identities an",
+  "founded": 2015,
+  "funding_usd": 33700202,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Ory Corp",
+  "stage": "EXITED"
+ },
+ "osium.ai": {
+  "desc": "Osium AI provides a software solution that leverages artificial intelligence to accelerate the development and optimization of materials and chemicals, enabling users to ",
+  "founded": 2023,
+  "funding_usd": 3100000,
+  "hc": 1,
+  "hc_yoy": -50,
+  "name": "Osium AI (YC S23)",
+  "stage": "SEED"
+ },
+ "oska-health.com": {
+  "desc": "Oska Health provides a digital health platform designed to improve the management of chronic conditions, particularly chronic kidney disease, by offering personalized hea",
+  "founded": 2022,
+  "funding_usd": 15654123,
+  "hc": 43,
+  "hc_yoy": 59,
+  "name": "oska health",
+  "stage": "SEED"
+ },
+ "ostrom.de": {
+  "desc": "Ostrom provides a digital energy management platform that enables consumers in Germany to access and manage green electricity from 100% renewable sources through a user-f",
+  "founded": 2020,
+  "funding_usd": 68865591,
+  "hc": 54,
+  "hc_yoy": 42,
+  "name": "Ostrom",
+  "stage": "SERIES_B"
+ },
+ "otee.com": {
+  "desc": "OTee provides a software-defined control platform utilizing Virtual PLC technology to enable the deployment and management of control logic and data services across vario",
+  "founded": 2022,
+  "funding_usd": 7611856,
+  "hc": 15,
+  "hc_yoy": 150,
+  "name": "OTee",
+  "stage": "SEED"
+ },
+ "otterize.com": {
+  "desc": "The company offers an AI security platform designed to protect data and secure AI by providing intelligent data security controls that adapt to the organization's needs, ",
+  "founded": 2021,
+  "funding_usd": 11500000,
+  "hc": 3,
+  "hc_yoy": -50,
+  "name": "Otterize (acquired by Cyera)",
+  "stage": "EXITED"
+ },
+ "ourritual.com": {
+  "desc": "The main product of the company is a digital platform for couples therapy that integrates expert-led sessions with personalized digital tools, including guided exercises ",
+  "founded": 2021,
+  "funding_usd": 7250000,
+  "hc": 125,
+  "hc_yoy": 33,
+  "name": "OurRitual",
+  "stage": "SEED"
+ },
+ "outsight.ai": {
+  "desc": "The company offers a Spatial Intelligence platform that utilizes 3D LiDAR data to track the movement of people and vehicles in real time, enabling operators in various se",
+  "founded": 2012,
+  "funding_usd": 52000000,
+  "hc": 125,
+  "hc_yoy": 19,
+  "name": "Outsight",
+  "stage": "SERIES_B"
+ },
+ "overmindlab.ai": {
+  "desc": "Overmind provides a model training platform that transforms production traces into specialized models, enabling users to own and train their models on unique datasets.",
+  "founded": 2025,
+  "funding_usd": 2725217,
+  "hc": 9,
+  "hc_yoy": 200,
+  "name": "Overmind",
+  "stage": "SEED"
+ },
+ "ovido.eu": {
+  "desc": "Ovido provides a software platform designed for the textile industry that centralizes product data, supplier management, and compliance documentation into a single struct",
+  "founded": 2023,
+  "funding_usd": 5364340,
+  "hc": 6,
+  "hc_yoy": -33,
+  "name": "Ovido",
+  "stage": "SEED"
+ },
+ "owgtm.com": {
+  "desc": "The main product is a digital supply chain system that integrates various operational, product, and compliance data into a unified platform, enhancing visibility and coor",
+  "founded": 2010,
+  "funding_usd": null,
+  "hc": 38,
+  "hc_yoy": -22,
+  "name": "One World GTM",
+  "stage": null
+ },
+ "oxalys.fr": {
+  "desc": "Oxalys provides a comprehensive procurement management software that facilitates the digitalization of the entire purchasing process, encompassing tasks from sourcing and",
+  "founded": 1987,
+  "funding_usd": 3615298,
+  "hc": 73,
+  "hc_yoy": 6,
+  "name": "Oxalys",
+  "stage": "PRE_SEED"
+ },
+ "oxatis.com": {
+  "desc": "Oxatis offers a comprehensive e-commerce platform designed for B2B and B2C businesses, facilitating the development of online sales channels through tailored solutions th",
+  "founded": 2001,
+  "funding_usd": 33390292,
+  "hc": 38,
+  "hc_yoy": -7,
+  "name": "Oxatis",
+  "stage": "EXITED"
+ },
+ "p-1.ai": {
+  "desc": "The main product is an AI engineer named Archie, designed to integrate into existing engineering teams and workflows, functioning at the level of a junior mechanical and ",
+  "founded": null,
+  "funding_usd": 73000000,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "P-1 AI",
+  "stage": "SERIES_A"
+ },
+ "paack.co": {
+  "desc": "Paack offers technology-driven delivery solutions focused on last-mile logistics, enabling retailers and e-commerce brands to provide flexible and sustainable delivery op",
+  "founded": 2014,
+  "funding_usd": 370092302,
+  "hc": 1189,
+  "hc_yoy": 12,
+  "name": "Paack",
+  "stage": "SERIES_D"
+ },
+ "pabau.com": {
+  "desc": "Pabau offers an all-in-one practice management software designed for clinics and medical spas, integrating functionalities such as scheduling, patient record-keeping, pay",
+  "founded": 2012,
+  "funding_usd": null,
+  "hc": 166,
+  "hc_yoy": -18,
+  "name": "Pabau Clinic Software",
+  "stage": null
+ },
+ "pactio.io": {
+  "desc": "The company focuses on enhancing finance workflows within Microsoft Office by leveraging artificial intelligence technologies.",
+  "founded": 2021,
+  "funding_usd": 16349999,
+  "hc": 4,
+  "hc_yoy": -76,
+  "name": "Pactio",
+  "stage": "SERIES_A"
+ },
+ "pactos.ai": {
+  "desc": "The main product is an AI-driven platform designed for centralized vendor management and workforce logistics, which facilitates processes like recruitment, scheduling, an",
+  "founded": 2023,
+  "funding_usd": 3159815,
+  "hc": 23,
+  "hc_yoy": 35,
+  "name": "Pactos",
+  "stage": "PRE_SEED"
+ },
+ "pactum.com": {
+  "desc": "The main product is a suite of digital workers designed for autonomous indirect procurement, which manage the entire process from request intake to purchase order, ensuri",
+  "founded": 2019,
+  "funding_usd": 109150000,
+  "hc": 151,
+  "hc_yoy": 9,
+  "name": "Pactum AI",
+  "stage": "SERIES_C"
+ },
+ "pagent.ai": {
+  "desc": "Pagent is an AI-driven platform designed for A/B testing and personalization, enabling conversion rate optimization by automating the creation and management of website v",
+  "founded": 2023,
+  "funding_usd": 900000,
+  "hc": 5,
+  "hc_yoy": -38,
+  "name": "pagent",
+  "stage": "PRE_SEED"
+ },
+ "paid.ai": {
+  "desc": "The main product is a monetization platform designed specifically for AI agents, enabling companies to manage pricing, subscriptions, margins, billing, and renewals throu",
+  "founded": 2024,
+  "funding_usd": 31972260,
+  "hc": 28,
+  "hc_yoy": 100,
+  "name": "Paid",
+  "stage": "SEED"
+ },
+ "palisis.com": {
+  "desc": "Palisis offers an all-in-one ticketing and reservation system designed for the travel, tourism, and transportation sectors, enabling operators to manage ticket sales, res",
+  "founded": 2008,
+  "funding_usd": 928374,
+  "hc": 52,
+  "hc_yoy": 4,
+  "name": "Palisis",
+  "stage": "PRE_SEED"
+ },
+ "pallma.ai": {
+  "desc": "Verno Labs provides a platform for adversarial testing of AI agents, utilizing offensive large language models to identify security vulnerabilities and potential manipula",
+  "founded": 2025,
+  "funding_usd": 1628897,
+  "hc": 6,
+  "hc_yoy": 50,
+  "name": "Verno Labs",
+  "stage": "PRE_SEED"
+ },
+ "pally.com": {
+  "desc": "Pally is a personal assistant that integrates with various messaging platforms and productivity tools to manage tasks and communications seamlessly through text.",
+  "founded": 2022,
+  "funding_usd": 6824000,
+  "hc": 5,
+  "hc_yoy": 67,
+  "name": "Pally (YC S25)",
+  "stage": "SEED"
+ },
+ "palm-app.ai": {
+  "desc": "The product is an AI-driven platform designed for managing skills and career development, featuring capabilities such as skills mapping, personalized career paths, and pe",
+  "founded": 2017,
+  "funding_usd": 2597725,
+  "hc": 7,
+  "hc_yoy": -22,
+  "name": "Expanders",
+  "stage": "SEED"
+ },
+ "pandektes.com": {
+  "desc": "Pandektes offers a legal research platform that utilizes artificial intelligence and intelligent search functions to streamline access to a comprehensive database of veri",
+  "founded": 2022,
+  "funding_usd": 19055937,
+  "hc": 43,
+  "hc_yoy": 30,
+  "name": "Pandektes",
+  "stage": "SERIES_A"
+ },
+ "paper.li": {
+  "desc": "DemandScience offers B2B marketing solutions that leverage artificial intelligence for lead generation and account-based marketing.",
+  "founded": 2007,
+  "funding_usd": 6363167,
+  "hc": 5,
+  "hc_yoy": 0,
+  "name": "Long Term Care Consumer Intelligence Agency (NGO)",
+  "stage": "SEED"
+ },
+ "paraglide.ai": {
+  "desc": "Paraglide offers AI agents designed to automate the Accounts Receivable process, managing billing queries and collections conversations in a finance inbox.",
+  "founded": 2020,
+  "funding_usd": 5000000,
+  "hc": 20,
+  "hc_yoy": 122,
+  "name": "Paraglide AI",
+  "stage": "SEED"
+ },
+ "parahelp.com": {
+  "desc": "The main product is an AI support agent designed to resolve complex customer issues through various communication channels, including email, live chat, and Slack, by secu",
+  "founded": 2022,
+  "funding_usd": 22450000,
+  "hc": 14,
+  "hc_yoy": 75,
+  "name": "Parahelp",
+  "stage": "SERIES_A"
+ },
+ "parcha.ai": {
+  "desc": "Parcha has evolved into Grep AI — a platform powering high-stakes decisions with deep research and autonomous workflows.",
+  "founded": null,
+  "funding_usd": null,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Parcha is now Grep AI",
+  "stage": null
+ },
+ "paretos.com": {
+  "desc": "Paretos offers an AI-driven platform designed to enhance decision-making in planning, finance, supply chain, and operations by utilizing advanced forecasting and optimiza",
+  "founded": 2020,
+  "funding_usd": 19779277,
+  "hc": 90,
+  "hc_yoy": -9,
+  "name": "paretos",
+  "stage": "SERIES_A"
+ },
+ "parktag.mobi": {
+  "desc": "Predict.io specializes in machine learning and mobile data solutions aimed at enhancing predictive marketing capabilities.",
+  "founded": 2014,
+  "funding_usd": 717729,
+  "hc": 1,
+  "hc_yoy": 0,
+  "name": "predict.io",
+  "stage": "SEED"
+ },
+ "passionfroot.me": {
+  "desc": "The main product is an AI-driven platform that facilitates creator-led go-to-market strategies by automating the process of finding, managing, and compensating creators w",
+  "founded": 2020,
+  "funding_usd": 22200000,
+  "hc": 24,
+  "hc_yoy": 41,
+  "name": "Passionfroot",
+  "stage": "SERIES_A"
+ },
+ "passionfruit.earth": {
+  "desc": "The main product automates the handling of customer requests for quality, ESG, and technical teams, streamlining the process of responding to questionnaires and managing ",
+  "founded": 2021,
+  "funding_usd": 1472564,
+  "hc": 8,
+  "hc_yoy": 0,
+  "name": "Passionfruit",
+  "stage": "SEED"
+ },
+ "patientdesk.ai": {
+  "desc": "The primary offering is an AI-driven dental receptionist system that automates lead generation, call management, and appointment scheduling, integrating with various prac",
+  "founded": 2025,
+  "funding_usd": 4300000,
+  "hc": 8,
+  "hc_yoy": 167,
+  "name": "Patientdesk.ai (YC W26)",
+  "stage": "PRE_SEED"
+ },
+ "patrowl.io": {
+  "desc": "The main product is a cybersecurity solution that automates the mapping, detection, and remediation of vulnerabilities across an organization's external attack surface, i",
+  "founded": 2018,
+  "funding_usd": 14401840,
+  "hc": 50,
+  "hc_yoy": 16,
+  "name": "Patrowl.io",
+  "stage": "SERIES_A"
+ },
+ "pave.space": {
+  "desc": "The main product is a heavy-lift kickstage technology designed for rapid satellite delivery, capable of transporting payloads of up to 5 tons to any orbit within 24 hours",
+  "founded": 2023,
+  "funding_usd": 40000000,
+  "hc": 51,
+  "hc_yoy": 122,
+  "name": "PAVE Space",
+  "stage": "SEED"
+ },
+ "pavebank.com": {
+  "desc": "Pave Bank offers a multi-asset banking platform designed for businesses, enabling secure management of various assets and currencies with 24/7 access.",
+  "founded": 2023,
+  "funding_usd": 44200000,
+  "hc": 69,
+  "hc_yoy": 64,
+  "name": "Pave Bank",
+  "stage": "SERIES_A"
+ },
+ "paxata.com": {
+  "desc": null,
+  "founded": 2013,
+  "funding_usd": null,
+  "hc": 3,
+  "hc_yoy": -40,
+  "name": "Paxata (a DataRobot Company)",
+  "stage": null
+ },
+ "payabl.com": {
+  "desc": "The company offers a comprehensive online payment solution that integrates various payment methods, including card acquiring and alternative options, into a single platfo",
+  "founded": 2010,
+  "funding_usd": 100000000,
+  "hc": 284,
+  "hc_yoy": 12,
+  "name": "payabl.",
+  "stage": "EXITED"
+ },
+ "payable.co": {
+  "desc": "Payable is a treasury operations platform designed to automate global money movement and enhance financial management for scaling finance teams.",
+  "founded": 2022,
+  "funding_usd": 6135000,
+  "hc": 5,
+  "hc_yoy": 150,
+  "name": "Payable",
+  "stage": "SEED"
+ },
+ "payer.eu": {
+  "desc": "The company offers a cloud-based platform that automates B2B invoicing and payment processes, streamlining the order-to-cash workflow, including invoicing, payment collec",
+  "founded": 2007,
+  "funding_usd": 2374464,
+  "hc": 11,
+  "hc_yoy": 120,
+  "name": "Payer - B2B Invoicing & Payments",
+  "stage": "SEED"
+ },
+ "payflow.es": {
+  "desc": "The company offers solutions that provide employees with instant access to earned wages, financial education through engaging classes, and automated savings tools, all de",
+  "founded": 2020,
+  "funding_usd": 63738287,
+  "hc": 68,
+  "hc_yoy": -9,
+  "name": "Payflow (YC S21)",
+  "stage": null
+ },
+ "payleven.de": {
+  "desc": "The main product is a mobile point of sale (mPOS) solution that allows small business owners and freelancers to accept card payments using a smartphone or tablet, facilit",
+  "founded": 2012,
+  "funding_usd": 53647370,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Payleven Holding GmbH",
+  "stage": "EXITED"
+ },
+ "paymentsense.com": {
+  "desc": "Dojo provides a comprehensive payments platform that facilitates fast, reliable in-person, online, and mobile transactions, integrating with over 450 EPOS systems to enha",
+  "founded": 2008,
+  "funding_usd": 190000000,
+  "hc": 1878,
+  "hc_yoy": 21,
+  "name": "Dojo",
+  "stage": null
+ },
+ "payrails.com": {
+  "desc": "Payrails offers a modular payments infrastructure that integrates various financial workflows, including payment orchestration, tokenization, reconciliation, chargebacks,",
+  "founded": 2021,
+  "funding_usd": 52800000,
+  "hc": 116,
+  "hc_yoy": -7,
+  "name": "Payrails",
+  "stage": "SERIES_A"
+ },
+ "paytweed.com": {
+  "desc": "Corsa offers an AI-driven operational infrastructure designed to unify compliance and risk management for regulated financial institutions and fintechs, integrating workf",
+  "founded": 2022,
+  "funding_usd": 4500000,
+  "hc": 16,
+  "hc_yoy": 45,
+  "name": "Corsa",
+  "stage": "SEED"
+ },
+ "peanut-app.io": {
+  "desc": "Peanut offers a social networking platform designed specifically for women to connect and share experiences related to fertility, pregnancy, motherhood, and menopause.",
+  "founded": 2016,
+  "funding_usd": 30990000,
+  "hc": 45,
+  "hc_yoy": -2,
+  "name": "Peanut App",
+  "stage": "SERIES_A"
+ },
+ "pecan.ai": {
+  "desc": "Pecan offers a predictive analytics software that enables business teams to generate reliable predictions from plain-English questions without requiring data science expe",
+  "founded": 2016,
+  "funding_usd": 116000000,
+  "hc": 79,
+  "hc_yoy": 11,
+  "name": "Pecan AI",
+  "stage": "SERIES_C"
+ },
+ "peec.ai": {
+  "desc": "The company offers a product that enables marketing teams to track, analyze, and enhance their brand performance on AI search platforms by focusing on key metrics such as",
+  "founded": 2025,
+  "funding_usd": 29078747,
+  "hc": 95,
+  "hc_yoy": 164,
+  "name": "Peec AI",
+  "stage": "SERIES_A"
+ },
+ "pelico.ai": {
+  "desc": "Pelico offers a manufacturing orchestration platform that integrates and coordinates execution across complex production networks, enabling real-time visibility and align",
+  "founded": 2019,
+  "funding_usd": 112000000,
+  "hc": 200,
+  "hc_yoy": 38,
+  "name": "Pelico",
+  "stage": null
+ },
+ "pelikan-mobility.com": {
+  "desc": "Pelikan Mobility offers a leasing service specifically designed for electric commercial vehicles, focusing on long-term rentals that optimize total cost of ownership and ",
+  "founded": 2022,
+  "funding_usd": 4464780,
+  "hc": 17,
+  "hc_yoy": 6,
+  "name": "Pelikan Mobility",
+  "stage": "SEED"
+ },
+ "peltarion.com": {
+  "desc": "Better health, smarter wealth, sustainable growth...",
+  "founded": 2004,
+  "funding_usd": 54910806,
+  "hc": 11,
+  "hc_yoy": null,
+  "name": "PELTARION (acquired by King)",
+  "stage": "EXITED"
+ },
+ "pennylane.com": {
+  "desc": "The main product is a comprehensive financial management and accounting software designed for European SMEs, integrating invoicing, expense management, and real-time cash",
+  "founded": 2019,
+  "funding_usd": 455517998,
+  "hc": 1243,
+  "hc_yoy": 50,
+  "name": "Pennylane",
+  "stage": "SERIES_E"
+ },
+ "pento.io": {
+  "desc": "Pento, now part of HiBob, offers a payroll solution designed for UK businesses that automates payroll calculations, payments, compliance, and reporting for various worker",
+  "founded": 2016,
+  "funding_usd": 54110614,
+  "hc": 12,
+  "hc_yoy": -8,
+  "name": "Pento",
+  "stage": "EXITED"
+ },
+ "peopleix.com": {
+  "desc": "peopleIX offers a People Intelligence platform that integrates data from over 100 HR systems, utilizing AI to analyze workforce metrics and conduct conversations with emp",
+  "founded": 2022,
+  "funding_usd": 2496974,
+  "hc": 11,
+  "hc_yoy": -15,
+  "name": "peopleIX",
+  "stage": "PRE_SEED"
+ },
+ "peopleperhour.com": {
+  "desc": "PeoplePerHour offers a freelance marketplace that connects businesses with a diverse range of freelancers across various fields, including web development, graphic design",
+  "founded": 2006,
+  "funding_usd": 11605473,
+  "hc": 4111,
+  "hc_yoy": 8,
+  "name": "PeoplePerHour",
+  "stage": "SERIES_A"
+ },
+ "peoplevox.com": {
+  "desc": "The company offers a warehouse management system (WMS) designed for direct-to-consumer retailers, enabling efficient order picking, inventory control, and operational vis",
+  "founded": 2008,
+  "funding_usd": 6000000,
+  "hc": 30,
+  "hc_yoy": 0,
+  "name": "Descartes Peoplevox",
+  "stage": "EXITED"
+ },
+ "perceptic.com": {
+  "desc": "Perceptic offers an AI operating system designed to enhance the drug development lifecycle by integrating evidence, data, and decision-making workflows across various tea",
+  "founded": 2024,
+  "funding_usd": 12000000,
+  "hc": 14,
+  "hc_yoy": 56,
+  "name": "Perceptic",
+  "stage": "SEED"
+ },
+ "perlego.com": {
+  "desc": "Perlego offers an online subscription service that provides access to a digital library of over 1.5 million academic books, utilizing technologies such as Smart Search fo",
+  "founded": 2016,
+  "funding_usd": 85035051,
+  "hc": 42,
+  "hc_yoy": -14,
+  "name": "Perlego",
+  "stage": "SERIES_C"
+ },
+ "personetics.com": {
+  "desc": "Personetics offers a Cognitive Banking platform that utilizes AI-driven insights to enhance customer engagement and financial decision-making for banks.",
+  "founded": 2010,
+  "funding_usd": 178000000,
+  "hc": 336,
+  "hc_yoy": -5,
+  "name": "Personetics",
+  "stage": "SERIES_B"
+ },
+ "petcube.com": {
+  "desc": "Petcube offers interactive pet monitoring devices that enable real-time video streaming, two-way audio, and remote play features through a smartphone application, utilizi",
+  "founded": 2012,
+  "funding_usd": 14340913,
+  "hc": 55,
+  "hc_yoy": -18,
+  "name": "Petcube",
+  "stage": "SERIES_A"
+ },
+ "petsapp.com": {
+  "desc": "PetsApp offers an all-in-one platform designed for veterinary practices, incorporating features such as 24/7 appointment booking, AI-powered client interaction support, w",
+  "founded": 2018,
+  "funding_usd": 12233729,
+  "hc": 31,
+  "hc_yoy": -3,
+  "name": "PetsApp",
+  "stage": "SERIES_A"
+ },
+ "petsdeli.de": {
+  "desc": "Pets Deli specializes in high-quality pet food designed to promote the health and well-being of dogs and cats, utilizing direct-to-consumer distribution methods.",
+  "founded": 2016,
+  "funding_usd": null,
+  "hc": 81,
+  "hc_yoy": -4,
+  "name": "Pets Deli",
+  "stage": "SERIES_A"
+ },
+ "pfex.com": {
+  "desc": "QFEX is building a 24/7 exchange for traditional financial markets.",
+  "founded": 2025,
+  "funding_usd": 10000000,
+  "hc": 8,
+  "hc_yoy": 167,
+  "name": "QFEX",
+  "stage": "SEED"
+ },
+ "phacetlabs.com": {
+  "desc": "Phacet offers AI agents specifically designed for finance teams, enabling automation of repetitive tasks such as data structuring, reconciliation, and control with full a",
+  "founded": 2024,
+  "funding_usd": 4449660,
+  "hc": 37,
+  "hc_yoy": 3,
+  "name": "Phacet",
+  "stage": "SEED"
+ },
+ "phaidra.ai": {
+  "desc": "Phaidra develops an AI control platform designed to optimize power, cooling, and workload management systems in data centers and AI factories, focusing on enhancing energ",
+  "founded": 2019,
+  "funding_usd": 110550000,
+  "hc": 89,
+  "hc_yoy": -1,
+  "name": "Phaidra",
+  "stage": "SERIES_B"
+ },
+ "pharmapoc.com": {
+  "desc": "The main product offered is a data solution that provides sales and patient behavior insights specifically for the retail pharmacy channel, utilizing a methodology that c",
+  "founded": 2019,
+  "funding_usd": 15300000,
+  "hc": 29,
+  "hc_yoy": -15,
+  "name": "POC Pharma",
+  "stage": "SERIES_A"
+ },
+ "phasetree.ai": {
+  "desc": "PhaseTree offers a platform that integrates first-principles physics with AI to facilitate materials design and accelerate discovery, significantly reducing development c",
+  "founded": 2016,
+  "funding_usd": 3274984,
+  "hc": 16,
+  "hc_yoy": 14,
+  "name": "PhaseTree",
+  "stage": "SEED"
+ },
+ "phasevtrials.com": {
+  "desc": "The company offers an AI/ML-powered platform designed to optimize clinical trial processes, enhancing trial design, patient stratification, and operational efficiency thr",
+  "founded": 2023,
+  "funding_usd": 65000000,
+  "hc": 73,
+  "hc_yoy": 70,
+  "name": "PhaseV",
+  "stage": "SERIES_A"
+ },
+ "phoebe.ai": {
+  "desc": "Coral is an open-source data engine designed for enterprise AI, enabling efficient data retrieval from APIs, databases, and internal systems through a unified interface.",
+  "founded": 2024,
+  "funding_usd": 17000000,
+  "hc": 19,
+  "hc_yoy": 12,
+  "name": "Coral",
+  "stage": "SEED"
+ },
+ "photoneo.com": {
+  "desc": "Photoneo specializes in industrial 3D vision and AI-powered automation solutions, utilizing patented 3D camera technology that offers high resolution and accuracy for vis",
+  "founded": 2013,
+  "funding_usd": 64545235,
+  "hc": 127,
+  "hc_yoy": -1,
+  "name": "Photoneo, now part of Zebra Technologies",
+  "stage": "EXITED"
+ },
+ "picanova.com": {
+  "desc": "The company offers premium-quality photo printing services for various occasions.",
+  "founded": 2010,
+  "funding_usd": null,
+  "hc": 20,
+  "hc_yoy": -5,
+  "name": "Best Canvas Co",
+  "stage": null
+ },
+ "picanova.de": {
+  "desc": "Picanova specializes in customizable wall and home decoration products, utilizing advanced printing technologies to produce high-quality photo prints on various materials",
+  "founded": 2006,
+  "funding_usd": null,
+  "hc": 251,
+  "hc_yoy": -7,
+  "name": "Picanova Group",
+  "stage": null
+ },
+ "pillar.it": {
+  "desc": "Pillar offers an integrated platform designed for construction companies, combining operational management with financial services to streamline processes and enhance eff",
+  "founded": 2024,
+  "funding_usd": 17857692,
+  "hc": 85,
+  "hc_yoy": 554,
+  "name": "Pillar",
+  "stage": "SEED"
+ },
+ "pimcore.com": {
+  "desc": "Pimcore offers a unified platform that integrates Product Information Management (PIM), Master Data Management (MDM), Digital Asset Management (DAM), and Digital Experien",
+  "founded": 2009,
+  "funding_usd": 15500000,
+  "hc": 84,
+  "hc_yoy": 24,
+  "name": "Pimcore",
+  "stage": "SERIES_B"
+ },
+ "pit.com": {
+  "desc": "The main product is an AI platform that learns and automates business workflows, capturing how work is done within an organization to create custom software solutions tha",
+  "founded": 2025,
+  "funding_usd": 16000000,
+  "hc": 36,
+  "hc_yoy": 414,
+  "name": "Pit",
+  "stage": "SEED"
+ },
+ "pivotapp.ai": {
+  "desc": "Pivot offers an AI operating system designed specifically for procurement teams, automating workflows and providing full spend visibility to enhance decision-making effic",
+  "founded": 2023,
+  "funding_usd": 66871840,
+  "hc": 107,
+  "hc_yoy": 16,
+  "name": "Pivot",
+  "stage": "SERIES_B"
+ },
+ "pixieray.com": {
+  "desc": "Pixieray develops adaptive eyewear featuring autofocus technology that adjusts lenses based on eye movement, allowing for seamless vision correction for both near and far",
+  "founded": 2021,
+  "funding_usd": 40883835,
+  "hc": 80,
+  "hc_yoy": 29,
+  "name": "IXI",
+  "stage": "SERIES_A"
+ },
+ "plain.com": {
+  "desc": "The main product is an AI-driven support infrastructure that integrates various communication channels such as Slack, Microsoft Teams, and email, allowing for streamlined",
+  "founded": 2020,
+  "funding_usd": 24290000,
+  "hc": 50,
+  "hc_yoy": 72,
+  "name": "Plain",
+  "stage": "SERIES_A"
+ },
+ "plakar.io": {
+  "desc": "Plakar offers a data protection solution that focuses on efficient backup and recovery of various data types, including AI pipelines, databases, and Kubernetes clusters, ",
+  "founded": 2024,
+  "funding_usd": 3000000,
+  "hc": 9,
+  "hc_yoy": 80,
+  "name": "Plakar",
+  "stage": "PRE_SEED"
+ },
+ "plancraft.com": {
+  "desc": "The main product is a web application designed for craft businesses that streamlines the creation and management of essential documents such as offers, order confirmation",
+  "founded": 2018,
+  "funding_usd": 59634666,
+  "hc": 169,
+  "hc_yoy": 54,
+  "name": "plancraft",
+  "stage": "SERIES_B"
+ },
+ "planerai.de": {
+  "desc": "The main product is an AI-based platform designed for demand forecasting and production planning in the fresh food sector, optimizing inventory management across various ",
+  "founded": 2021,
+  "funding_usd": 9044219,
+  "hc": 45,
+  "hc_yoy": -10,
+  "name": "AIPERIA",
+  "stage": "SERIES_A"
+ },
+ "planet-a-foods.com": {
+  "desc": "The company develops next-generation food ingredients, primarily focusing on a cocoa-free chocolate alternative made from sunflower seeds, which utilizes a fermentation-l",
+  "founded": 2021,
+  "funding_usd": 52320000,
+  "hc": 63,
+  "hc_yoy": 17,
+  "name": "Planet A Foods",
+  "stage": "SERIES_B"
+ },
+ "planqc.eu": {
+  "desc": "The main product of the company involves quantum computers that utilize neutral atoms as qubits, arranged in scalable arrays and manipulated with precisely controlled las",
+  "founded": 2022,
+  "funding_usd": 59036500,
+  "hc": 111,
+  "hc_yoy": 37,
+  "name": "planqc",
+  "stage": "SERIES_A"
+ },
+ "planted.green": {
+  "desc": "Planted offers a platform that facilitates local environmental protection projects in Germany, including forest planting, peatland restoration, and water retention initia",
+  "founded": 2020,
+  "funding_usd": 6213434,
+  "hc": 31,
+  "hc_yoy": -39,
+  "name": "Planted",
+  "stage": "SEED"
+ },
+ "plantura.garden": {
+  "desc": "Plantura offers a range of products for indoor and outdoor gardening, including vegan fertilizers, CO2-reduced soils, and plant protection solutions utilizing beneficial ",
+  "founded": 2017,
+  "funding_usd": 58300,
+  "hc": 68,
+  "hc_yoy": 8,
+  "name": "Plantura",
+  "stage": "SEED"
+ },
+ "platoapp.ai": {
+  "desc": "Plato offers a holistic growth platform designed for wholesale, utilizing AI analyses to enhance sales through strategies like up- and cross-selling, while also implement",
+  "founded": 2023,
+  "funding_usd": 21000000,
+  "hc": 37,
+  "hc_yoy": 68,
+  "name": "Plato",
+  "stage": "SEED"
+ },
+ "playgoals.com": {
+  "desc": "The main product is a competitive football game that emphasizes skill-based gameplay, featuring instant and responsive match mechanics without interference.",
+  "founded": 2016,
+  "funding_usd": 39000000,
+  "hc": 90,
+  "hc_yoy": 1,
+  "name": "GOALS",
+  "stage": "SERIES_A"
+ },
+ "pletor.ai": {
+  "desc": "Pletor offers a platform that enables marketers and creatives to build custom design agents for generating complex marketing assets quickly and efficiently, utilizing AI ",
+  "founded": 2024,
+  "funding_usd": 2283372,
+  "hc": 25,
+  "hc_yoy": 257,
+  "name": "Pletor",
+  "stage": "SEED"
+ },
+ "plizy.com": {
+  "desc": "The domain name plizy.com is for sale.",
+  "founded": 2010,
+  "funding_usd": 5200000,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Plizy",
+  "stage": "SERIES_A"
+ },
+ "plouise.co.uk": {
+  "desc": "P.",
+  "founded": 2015,
+  "funding_usd": null,
+  "hc": 100,
+  "hc_yoy": 12,
+  "name": "P Louise",
+  "stage": null
+ },
+ "plumefinder.com": {
+  "desc": "The company provides an AI-driven platform for site selection in energy infrastructure, leveraging natural language processing to assess grid, regulatory, and geospatial ",
+  "founded": 2024,
+  "funding_usd": 4355274,
+  "hc": 10,
+  "hc_yoy": 150,
+  "name": "Plume (YC S24)",
+  "stage": "SEED"
+ },
+ "plumerai.com": {
+  "desc": "Plumerai offers a comprehensive AI software solution for smart home and commercial security cameras, integrating efficient edge AI with cloud-based Vision Language Models",
+  "founded": 2017,
+  "funding_usd": 17638500,
+  "hc": 30,
+  "hc_yoy": 36,
+  "name": "Plumerai",
+  "stage": "SERIES_A"
+ },
+ "plumery.com": {
+  "desc": "Plumery offers a digital banking development platform that enables financial institutions to create composable digital and AI banking experiences quickly while maintainin",
+  "founded": 2016,
+  "funding_usd": 7800000,
+  "hc": 39,
+  "hc_yoy": 44,
+  "name": "Plumery",
+  "stage": "SEED"
+ },
+ "pluto.markets": {
+  "desc": "The main product is a commission-free investment platform that allows users to trade over 4,000 stocks, ETFs, and cryptocurrencies in fractional amounts through multi-cur",
+  "founded": 2021,
+  "funding_usd": 10000000,
+  "hc": 20,
+  "hc_yoy": 67,
+  "name": "Pluto.markets (YC W22)",
+  "stage": "SEED"
+ },
+ "pocketsuite.io": {
+  "desc": "PocketSuite offers an all-in-one business operating system that facilitates client booking, payment processing, and communication through a single platform, integrating f",
+  "founded": 2013,
+  "funding_usd": 1595000,
+  "hc": 28,
+  "hc_yoy": -36,
+  "name": "PocketSuite",
+  "stage": "SEED"
+ },
+ "podcastle.ai": {
+  "desc": "In Season 4, Ghonche and Paul discover the people behind the tech products.",
+  "founded": 2023,
+  "funding_usd": null,
+  "hc": 2,
+  "hc_yoy": 0,
+  "name": "Product and Cake Podcast",
+  "stage": null
+ },
+ "pointfive.co": {
+  "desc": "PointFive offers a platform designed to enhance cloud cost efficiency by utilizing its DeepWaste™ detection technology, which identifies inefficiencies in cloud environme",
+  "founded": 2023,
+  "funding_usd": 112780000,
+  "hc": 129,
+  "hc_yoy": 37,
+  "name": "PointFive",
+  "stage": "SERIES_B"
+ },
+ "pola.rs": {
+  "desc": "Polars is an open-source DataFrame library designed for high-performance data manipulation, supporting Rust and Python, with community contributions for additional langua",
+  "founded": 2020,
+  "funding_usd": 25058610,
+  "hc": 24,
+  "hc_yoy": 26,
+  "name": "Polars",
+  "stage": "SERIES_A"
+ },
+ "polar.sh": {
+  "desc": "The main product is a billing platform designed to automate and streamline usage-based billing for AI services, allowing for real-time metering of tokens, API calls, and ",
+  "founded": 2022,
+  "funding_usd": 11800000,
+  "hc": 39,
+  "hc_yoy": 77,
+  "name": "Polar",
+  "stage": "SEED"
+ },
+ "polarsignals.com": {
+  "desc": "Polar Signals offers a continuous profiling solution designed for applications and infrastructure, utilizing technologies such as eBPF and CUPTI to provide low-overhead, ",
+  "founded": 2020,
+  "funding_usd": 10794963,
+  "hc": 13,
+  "hc_yoy": -35,
+  "name": "Polar Signals",
+  "stage": "SEED"
+ },
+ "polsia.ai": {
+  "desc": "Polsia offers an AI-driven platform designed to automate various business functions, enabling users to manage marketing campaigns, customer interactions, and operational ",
+  "founded": 2025,
+  "funding_usd": 31252198,
+  "hc": 8,
+  "hc_yoy": 100,
+  "name": "Polsia",
+  "stage": "SERIES_A"
+ },
+ "polyteia.com": {
+  "desc": "The main product is a software suite designed for public administration, enabling users to upload data, create reports, and manage cases through a centralized platform th",
+  "founded": 2017,
+  "funding_usd": 5299700,
+  "hc": 13,
+  "hc_yoy": 8,
+  "name": "Polyteia",
+  "stage": "SEED"
+ },
+ "popai.health": {
+  "desc": "Popai offers an AI-driven solution that captures and analyzes patient interactions during care coordination calls, transforming these conversations into actionable insigh",
+  "founded": 2024,
+  "funding_usd": 11000000,
+  "hc": 20,
+  "hc_yoy": 54,
+  "name": "Popai Health",
+  "stage": "SEED"
+ },
+ "pospulse.com": {
+  "desc": "POSpulse offers a market research solution that leverages a community of over 800,000 active consumers to provide real-time insights for manufacturers, retailers, and ser",
+  "founded": 2014,
+  "funding_usd": 6064231,
+  "hc": 25,
+  "hc_yoy": 14,
+  "name": "POSpulse",
+  "stage": "SERIES_B"
+ },
+ "ppro.com": {
+  "desc": "PPRO offers a digital payment solution that enables businesses and banks to manage local payment services through a single integration, facilitating the acceptance and ac",
+  "founded": 2006,
+  "funding_usd": 463104835,
+  "hc": 516,
+  "hc_yoy": 5,
+  "name": "PPRO",
+  "stage": null
+ },
+ "practitest.com": {
+  "desc": "PractiTest offers an end-to-end test management platform that provides comprehensive visibility into testing projects, integrating requirements, test sets, runs, and issu",
+  "founded": 2008,
+  "funding_usd": null,
+  "hc": 40,
+  "hc_yoy": 3,
+  "name": "PractiTest - Test Management",
+  "stage": null
+ },
+ "praxipal.com": {
+  "desc": "The main product is an AI-powered receptionist that automates patient communication by handling phone calls, answering inquiries, and coordinating appointments independen",
+  "founded": 2024,
+  "funding_usd": 6700000,
+  "hc": 26,
+  "hc_yoy": 136,
+  "name": "praxipal",
+  "stage": "SEED"
+ },
+ "praxis-eins.de": {
+  "desc": ">35% of all German family doctors are older than 60.",
+  "founded": 2022,
+  "funding_usd": null,
+  "hc": 35,
+  "hc_yoy": -36,
+  "name": "PraxisEins.",
+  "stage": "SEED"
+ },
+ "prelude.so": {
+  "desc": "Prelude offers a comprehensive onboarding and trust infrastructure that integrates device, network, and signup signals to enhance user verification and fraud prevention.",
+  "founded": 2022,
+  "funding_usd": 49487670,
+  "hc": 72,
+  "hc_yoy": 177,
+  "name": "Prelude",
+  "stage": "SERIES_A"
+ },
+ "premai.io": {
+  "desc": "The company offers a sovereign AI platform that emphasizes verifiability, privacy, and the ability to build and deploy private agents using proprietary standard operating",
+  "founded": 2023,
+  "funding_usd": 20100000,
+  "hc": 44,
+  "hc_yoy": 57,
+  "name": "Prem AI",
+  "stage": "SEED"
+ },
+ "premise.com": {
+  "desc": "Premise offers a market intelligence platform that leverages machine learning and human intelligence to gather and analyze local insights from a global network of contrib",
+  "founded": 2012,
+  "funding_usd": 163790000,
+  "hc": 353,
+  "hc_yoy": -15,
+  "name": "Premise",
+  "stage": "SERIES_E"
+ },
+ "presail.com": {
+  "desc": "The company offers a decentralized infrastructure designed to streamline the management of Web3 investment syndicates, facilitating legal coordination, token distribution",
+  "founded": 2021,
+  "funding_usd": 5559310,
+  "hc": 7,
+  "hc_yoy": -36,
+  "name": "Spring",
+  "stage": "SEED"
+ },
+ "presti.ai": {
+  "desc": "Presti offers an AI-driven visual production platform that enables retailers to generate a wide range of visual content, including product images and videos, at scale.",
+  "founded": 2022,
+  "funding_usd": 4000000,
+  "hc": 23,
+  "hc_yoy": 5,
+  "name": "Presti",
+  "stage": "SEED"
+ },
+ "pretto.fr": {
+  "desc": "Pretto offers an online real estate loan brokerage service that utilizes a real-time banking offer scanner to analyze and compare mortgage options from 125 partner banks,",
+  "founded": 2016,
+  "funding_usd": 59318075,
+  "hc": 309,
+  "hc_yoy": 11,
+  "name": "Pretto",
+  "stage": "SERIES_B"
+ },
+ "preview.io": {
+  "desc": "The company offers a production platform designed for AI video creation, enabling users to storyboard, generate, and direct projects collaboratively in real time.",
+  "founded": 2025,
+  "funding_usd": 12000000,
+  "hc": 10,
+  "hc_yoy": 233,
+  "name": "Preview",
+  "stage": "SEED"
+ },
+ "previse.co": {
+  "desc": "The main product is a platform that leverages artificial intelligence to automate payment instructions and analyze invoices, thereby enhancing cash flow management and st",
+  "founded": 2016,
+  "funding_usd": 38687222,
+  "hc": 11,
+  "hc_yoy": -56,
+  "name": "Previse",
+  "stage": "SERIES_B"
+ },
+ "pricen.ai": {
+  "desc": "Pricen offers an AI-driven dynamic pricing platform designed for retail and e-commerce, utilizing advanced algorithms to optimize product prices throughout their lifecycl",
+  "founded": 2015,
+  "funding_usd": 1892686,
+  "hc": 12,
+  "hc_yoy": -33,
+  "name": "Pricen",
+  "stage": "SEED"
+ },
+ "primaalab.com": {
+  "desc": "Primaa develops AI-powered software designed for automated and precise cancer diagnosis, particularly in dermatopathology, utilizing image analysis and deep learning tech",
+  "founded": 2018,
+  "funding_usd": 18049918,
+  "hc": 28,
+  "hc_yoy": -7,
+  "name": "Primaa",
+  "stage": "SEED"
+ },
+ "primesec.ai": {
+  "desc": "Prime offers a product security platform that integrates into the development lifecycle, utilizing AI agents to analyze architecture, code, and cloud environments to iden",
+  "founded": 2023,
+  "funding_usd": 26000000,
+  "hc": 56,
+  "hc_yoy": 81,
+  "name": "Prime",
+  "stage": "SERIES_A"
+ },
+ "privitar.com": {
+  "desc": "Informatica offers a cloud-based data management platform that employs CLAIRE technology to facilitate data integration, application integration, data quality management,",
+  "founded": 2014,
+  "funding_usd": 148194150,
+  "hc": 34,
+  "hc_yoy": -13,
+  "name": "Privitar",
+  "stage": "EXITED"
+ },
+ "prodia.com": {
+  "desc": "Prodia offers an API for AI image and video generation that enables fast and reliable media creation without the need for GPU provisioning or infrastructure management.",
+  "founded": 2022,
+  "funding_usd": 15500000,
+  "hc": 6,
+  "hc_yoy": -14,
+  "name": "Prodia",
+  "stage": "SEED"
+ },
+ "profitize.io": {
+  "desc": "The main product is an AI-driven financial planning and analysis platform designed specifically for hotels, enabling users to integrate various data sources for comprehen",
+  "founded": 2021,
+  "funding_usd": 3926658,
+  "hc": 29,
+  "hc_yoy": 71,
+  "name": "profitize",
+  "stage": "SEED"
+ },
+ "proglove.com": {
+  "desc": "ProGlove develops smart wearable scanner solutions designed to enhance productivity in industrial environments, primarily through the use of ergonomic glove scanners.",
+  "founded": 2014,
+  "funding_usd": 48900000,
+  "hc": 244,
+  "hc_yoy": -5,
+  "name": "ProGlove",
+  "stage": "EXITED"
+ },
+ "projectqai.github.io": {
+  "desc": "Bloomberg Beta is an early stage venture capital firm with $450M under management, capitalized solely by Bloomberg.",
+  "founded": 2013,
+  "funding_usd": null,
+  "hc": 15,
+  "hc_yoy": 0,
+  "name": "Bloomberg Beta",
+  "stage": null
+ },
+ "prolo.io": {
+  "desc": "Prolo offers a smart procurement platform designed specifically for the construction industry, streamlining material orders from suppliers to ensure projects remain on bu",
+  "founded": 2024,
+  "funding_usd": 5626521,
+  "hc": 18,
+  "hc_yoy": 38,
+  "name": "Prolo",
+  "stage": "SEED"
+ },
+ "propertypartner.co": {
+  "desc": "The company specializes in property management services, offering a comprehensive range of solutions including commercial management, financial administration, technical ",
+  "founded": 2014,
+  "funding_usd": null,
+  "hc": 55,
+  "hc_yoy": 25,
+  "name": "Property Partner",
+  "stage": null
+ },
+ "prose.com": {
+  "desc": "Prose offers personalized haircare and skincare products that are custom-formulated based on an analysis of over 80 factors, utilizing an AI-powered algorithm to select f",
+  "founded": 2013,
+  "funding_usd": 136264455,
+  "hc": 275,
+  "hc_yoy": -2,
+  "name": "Prose",
+  "stage": "SERIES_C"
+ },
+ "proteins1.com": {
+  "desc": "The company provides a physics-based, enzyme-free multiomics platform that enables ultra-sensitive molecular detection, allowing for the simultaneous analysis of DNA, RNA",
+  "founded": 2026,
+  "funding_usd": 5537098,
+  "hc": 7,
+  "hc_yoy": 75,
+  "name": "Proteins.1",
+  "stage": "PRE_SEED"
+ },
+ "protex.ai": {
+  "desc": "Protex AI offers a platform that integrates with existing camera systems to enhance operational intelligence and safety by utilizing AI-powered computer vision technologi",
+  "founded": 2021,
+  "funding_usd": 54125000,
+  "hc": 100,
+  "hc_yoy": 22,
+  "name": "Protex AI",
+  "stage": "SERIES_B"
+ },
+ "provenir.com": {
+  "desc": "Provenir offers an AI-powered decisioning platform that integrates data, AI models, and decisioning agents into a single environment, enabling real-time decision-making a",
+  "founded": 2004,
+  "funding_usd": null,
+  "hc": 280,
+  "hc_yoy": 1,
+  "name": "Provenir",
+  "stage": null
+ },
+ "pruna.ai": {
+  "desc": "Pruna AI develops high-performance AI models designed for various applications, emphasizing efficiency, speed, and quality.",
+  "founded": 2022,
+  "funding_usd": 6500000,
+  "hc": 29,
+  "hc_yoy": 7,
+  "name": "Pruna AI",
+  "stage": "SEED"
+ },
+ "pspdfkit.com": {
+  "desc": "The company offers a PDF SDK that enables developers to integrate high-performance document viewing, editing, signing, and data extraction capabilities into applications ",
+  "founded": 2010,
+  "funding_usd": 115954900,
+  "hc": 20,
+  "hc_yoy": -13,
+  "name": "PSPDFKit",
+  "stage": null
+ },
+ "pulsetrain.com": {
+  "desc": "Pulsetrain develops advanced battery management and inverter technologies for electric vehicles, integrating these components directly within the battery pack to create a",
+  "founded": 2021,
+  "funding_usd": 6655935,
+  "hc": 24,
+  "hc_yoy": -40,
+  "name": "PULSETRAIN",
+  "stage": "SEED"
+ },
+ "puntohealth.com": {
+  "desc": "Punto Health offers an AI-powered platform designed to enhance cognitive care by providing personalized support for patients, families, and clinicians, facilitating engag",
+  "founded": 2023,
+  "funding_usd": 3391415,
+  "hc": 12,
+  "hc_yoy": 33,
+  "name": "Punto Health",
+  "stage": "SEED"
+ },
+ "pureseoul.co.uk": {
+  "desc": "PURESEOUL specializes in a wide array of Korean skincare, makeup, and hair care products, featuring over 2,000 items from more than 60 partner brands.",
+  "founded": 2019,
+  "funding_usd": 5500000,
+  "hc": 132,
+  "hc_yoy": 63,
+  "name": "PURESEOUL • The Home of K-Beauty",
+  "stage": null
+ },
+ "purpose-green.com": {
+  "desc": "The company offers an end-to-end solution for energy retrofits and long-term environmental, social, and governance (ESG) management, focusing on transforming properties i",
+  "founded": 2023,
+  "funding_usd": 18480239,
+  "hc": 19,
+  "hc_yoy": -65,
+  "name": "Purpose Green",
+  "stage": "SEED"
+ },
+ "purse.eu": {
+  "desc": "Purse offers a SaaS platform that orchestrates identity and payment processes, integrating over 80 payment methods to streamline transactions and enhance conversion rates",
+  "founded": 2021,
+  "funding_usd": null,
+  "hc": 76,
+  "hc_yoy": 19,
+  "name": "Purse",
+  "stage": null
+ },
+ "pushsecurity.com": {
+  "desc": "Push Security offers a secure enterprise browser extension designed to enhance cybersecurity in the AI era, utilizing high-fidelity browser telemetry, real-time control, ",
+  "founded": 2021,
+  "funding_usd": 49430000,
+  "hc": 90,
+  "hc_yoy": 36,
+  "name": "Push Security",
+  "stage": "SERIES_B"
+ },
+ "pxl-vision.com": {
+  "desc": "The company offers automated identity verification and electronic signing solutions designed to streamline digital customer onboarding and KYC processes, utilizing AI-bas",
+  "founded": 2017,
+  "funding_usd": 4708710,
+  "hc": 35,
+  "hc_yoy": 6,
+  "name": "PXL Vision",
+  "stage": "SEED"
+ },
+ "pydantic.dev": {
+  "desc": "Pydantic offers an end-to-end AI engineering stack that includes tools for building type-safe applications, such as a validation library, observability solutions, and eva",
+  "founded": 2022,
+  "funding_usd": 17200000,
+  "hc": 36,
+  "hc_yoy": 38,
+  "name": "Pydantic",
+  "stage": "SERIES_A"
+ },
+ "pythagora.ai": {
+  "desc": "Pazi offers a platform that enables the creation and management of specialized AI agents for various business roles, facilitating collaboration and task execution within ",
+  "founded": 2023,
+  "funding_usd": 4000000,
+  "hc": 4,
+  "hc_yoy": 0,
+  "name": "Pazi",
+  "stage": "SEED"
+ },
+ "qa.tech": {
+  "desc": "The company offers an AI testing platform designed for end-to-end, regression, and exploratory testing, utilizing autonomous QA agents that simulate customer interactions",
+  "founded": 2023,
+  "funding_usd": 4259206,
+  "hc": 28,
+  "hc_yoy": 17,
+  "name": "QA tech",
+  "stage": "SEED"
+ },
+ "qant.com": {
+  "desc": "Q.ANT develops photonic processing solutions that utilize light for computing, offering a scalable alternative to traditional transistor-based systems through its Light E",
+  "founded": 2018,
+  "funding_usd": 80013434,
+  "hc": 75,
+  "hc_yoy": 36,
+  "name": "Q.ANT",
+  "stage": "SERIES_A"
+ },
+ "qapital.com": {
+  "desc": "Qapital offers a financial management app that utilizes behavioral psychology and automation to help users save, invest, budget, and manage debt effortlessly.",
+  "founded": 2012,
+  "funding_usd": 47600000,
+  "hc": 55,
+  "hc_yoy": -11,
+  "name": "Qapital",
+  "stage": "SERIES_B"
+ },
+ "qarmainspect.com": {
+  "desc": "Qarma is a cloud-based SaaS solution that empowers brands, retailers, importers and manufacturers to digitize quality inspections, supplier audits and product compliance ",
+  "founded": 2014,
+  "funding_usd": null,
+  "hc": 60,
+  "hc_yoy": 15,
+  "name": "Qarma | Quality & Compliance",
+  "stage": null
+ },
+ "qbiq.ai": {
+  "desc": "The company offers an AI-driven platform for automated architectural planning and layout optimization, enabling users to generate various architectural outputs such as fl",
+  "founded": 2018,
+  "funding_usd": 26000000,
+  "hc": 93,
+  "hc_yoy": 6,
+  "name": "qbiq",
+  "stage": "SERIES_A"
+ },
+ "qd-st.com": {
+  "desc": "The company specializes in quantum sensing technologies and tools designed for failure analysis and metrology of advanced semiconductor chips, particularly in the context",
+  "founded": 2021,
+  "funding_usd": 37622337,
+  "hc": 68,
+  "hc_yoy": 112,
+  "name": "QuantumDiamonds",
+  "stage": "SERIES_A"
+ },
+ "qevlar.com": {
+  "desc": "Qevlar AI offers an autonomous security operations center (SOC) platform that transforms daily security activities into a self-improving defense system, enhancing investi",
+  "founded": 2023,
+  "funding_usd": 44853003,
+  "hc": 86,
+  "hc_yoy": 100,
+  "name": "Qevlar AI",
+  "stage": "SERIES_A"
+ },
+ "qfex.com": {
+  "desc": "QFEX is building a 24/7 exchange for traditional financial markets.",
+  "founded": 2025,
+  "funding_usd": 10000000,
+  "hc": 8,
+  "hc_yoy": 167,
+  "name": "QFEX",
+  "stage": "SEED"
+ },
+ "qizsecurity.com": {
+  "desc": "QIZ Security offers a cryptography management platform designed to provide end-to-end discovery, prioritization, remediation, and governance of cryptographic assets, faci",
+  "founded": 2025,
+  "funding_usd": 27000000,
+  "hc": 24,
+  "hc_yoy": 243,
+  "name": "QIZ Security",
+  "stage": "SEED"
+ },
+ "qmill.com": {
+  "desc": "QMill develops quantum algorithms and software aimed at providing practical solutions for complex optimization problems, utilizing both quantum and classical computing te",
+  "founded": 2024,
+  "funding_usd": 4449092,
+  "hc": 31,
+  "hc_yoy": 15,
+  "name": "QMill",
+  "stage": "SEED"
+ },
+ "qnami.ch": {
+  "desc": "Qnami specializes in quantum sensing technology, particularly through its Scanning NV Microscopy, which utilizes diamond quantum sensors to enable nanoscale magnetic imag",
+  "founded": 2017,
+  "funding_usd": 6998710,
+  "hc": 14,
+  "hc_yoy": -22,
+  "name": "Qnami",
+  "stage": "EXITED"
+ },
+ "qobra.co": {
+  "desc": "Qobra offers a sales compensation platform that automates commission calculations and provides real-time visibility through AI-driven agents, which assist in building com",
+  "founded": 2020,
+  "funding_usd": 16146371,
+  "hc": 55,
+  "hc_yoy": 25,
+  "name": "Qobra",
+  "stage": "SERIES_A"
+ },
+ "qontext.ai": {
+  "desc": "Qontext provides a centralized context repository designed for AI-native companies, enabling the storage and management of company knowledge as structured files and refer",
+  "founded": 2025,
+  "funding_usd": 2700000,
+  "hc": 10,
+  "hc_yoy": 900,
+  "name": "Qontext",
+  "stage": "PRE_SEED"
+ },
+ "qorelo.com": {
+  "desc": "Qorelo provides an AI delivery system designed to streamline SAP transformation processes by automating manual tasks such as fit-gap analysis, scope mapping, and document",
+  "founded": 2025,
+  "funding_usd": 3709000,
+  "hc": 18,
+  "hc_yoy": 125,
+  "name": "Qorelo",
+  "stage": "SEED"
+ },
+ "qover.com": {
+  "desc": "Qover provides a modular, API-first platform for embedded insurance, enabling businesses and insurers to configure and manage insurance products across various regions an",
+  "founded": 2016,
+  "funding_usd": 95353288,
+  "hc": 154,
+  "hc_yoy": 13,
+  "name": "Qover",
+  "stage": "SERIES_C"
+ },
+ "qovery.com": {
+  "desc": "Qovery provides a production-grade infrastructure platform that enables engineering teams to deploy applications on Kubernetes across various cloud providers while mainta",
+  "founded": 2018,
+  "funding_usd": 19837000,
+  "hc": 37,
+  "hc_yoy": 3,
+  "name": "Qovery",
+  "stage": "SERIES_A"
+ },
+ "qovoltis.com": {
+  "desc": "Qovoltis offers a smart charging solution for electric vehicles, utilizing terminals that dynamically adjust power to optimize energy consumption and charging efficiency.",
+  "founded": 2019,
+  "funding_usd": 64724395,
+  "hc": 90,
+  "hc_yoy": 29,
+  "name": "Qovoltis",
+  "stage": "SERIES_B"
+ },
+ "qplix.com": {
+  "desc": "QPLIX offers a wealth management software platform designed to manage complex portfolios and ownership structures, integrating data from various sources to enhance operat",
+  "founded": 2012,
+  "funding_usd": 26429150,
+  "hc": 162,
+  "hc_yoy": 15,
+  "name": "QPLIX",
+  "stage": "SERIES_A"
+ },
+ "quanscient.com": {
+  "desc": "The company offers a cloud-native multiphysics simulation platform designed to tackle complex engineering challenges, enabling parallel simulations and automation through",
+  "founded": 2021,
+  "funding_usd": 21448669,
+  "hc": 48,
+  "hc_yoy": 7,
+  "name": "Quanscient",
+  "stage": "SERIES_A"
+ },
+ "quantica3d.com": {
+  "desc": "Quantica specializes in advanced inkjet systems for additive manufacturing, utilizing its proprietary NovoJet printhead technology to jet high-viscosity functional materi",
+  "founded": 2016,
+  "funding_usd": 21598025,
+  "hc": 76,
+  "hc_yoy": 13,
+  "name": "Quantica",
+  "stage": "SERIES_A"
+ },
+ "quantistry.ai": {
+  "desc": "Quantistry offers a cloud-based Materials Intelligence Platform that leverages artificial intelligence and quantum chemistry to enhance materials research and development",
+  "founded": 2018,
+  "funding_usd": 4995253,
+  "hc": 5,
+  "hc_yoy": -72,
+  "name": "Quantistry",
+  "stage": "EXITED"
+ },
+ "quantpi.com": {
+  "desc": "QuantPi provides a validation layer for enterprise AI, ensuring reliability by testing models, agents, and systems both before and after deployment, while delivering stat",
+  "founded": 2020,
+  "funding_usd": 2435032,
+  "hc": 27,
+  "hc_yoy": -21,
+  "name": "QuantPi",
+  "stage": "PRE_SEED"
+ },
+ "quantrolox.com": {
+  "desc": "QuantrolOx offers a measurement and automation platform called Quantum EDGE, designed to enhance the efficiency of superconducting quantum computers by automating tuning ",
+  "founded": 2021,
+  "funding_usd": 13178402,
+  "hc": 35,
+  "hc_yoy": 25,
+  "name": "QuantrolOx",
+  "stage": "SEED"
+ },
+ "quantum-dice.com": {
+  "desc": "Quantum Dice offers a scalable probabilistic computing platform powered by photonics, designed to address complex optimization problems and enhance energy-based AI models",
+  "founded": 2019,
+  "funding_usd": 3197865,
+  "hc": 28,
+  "hc_yoy": 17,
+  "name": "Quantum Dice",
+  "stage": "SEED"
+ },
+ "quasardb.net": {
+  "desc": "Quasar develops a distributed database management system specifically designed to handle high-volume numerical data workloads, enabling continuous data ingestion and imme",
+  "founded": 2008,
+  "funding_usd": 3551900,
+  "hc": 10,
+  "hc_yoy": -9,
+  "name": "Quasar AI",
+  "stage": "SEED"
+ },
+ "quattrocento-eyewear.com": {
+  "desc": "SLOT365 offers an online gaming platform featuring a diverse range of games, including slots, live casino options, and various arcade games, accessible 24/7.",
+  "founded": 2014,
+  "funding_usd": 250000,
+  "hc": null,
+  "hc_yoy": null,
+  "name": "Red's Giant Hamburg",
+  "stage": "SEED"
+ },
+ "quench.ai": {
+  "desc": "The company offers an Agent Management Platform that enables non-technical teams to create and manage AI agents without relying on engineering resources.",
+  "founded": 2021,
+  "funding_usd": 5000000,
+  "hc": 15,
+  "hc_yoy": 36,
+  "name": "ollo",
+  "stage": "PRE_SEED"
+ },
+ "quesma.com": {
+  "desc": "The main product analyzes AI coding agent sessions to provide insights into usage, costs, and efficiency, utilizing technologies such as Claude Code, Codex, and Cursor fo",
+  "founded": 2023,
+  "funding_usd": 2500000,
+  "hc": 11,
+  "hc_yoy": 38,
+  "name": "Quesma",
+  "stage": "PRE_SEED"
+ },
+ "questdb.com": {
+  "desc": "The main product is an open-source time-series database designed for high-performance and low-latency applications, capable of handling demanding workloads such as those ",
+  "founded": 2019,
+  "funding_usd": 17540000,
+  "hc": 26,
+  "hc_yoy": 8,
+  "name": "QuestDB",
+  "stage": "SERIES_A"
+ },
+ "quickchat.ai": {
+  "desc": "Quickchat AI provides a platform for creating multilingual AI assistants that utilize generative AI models, enabling them to engage in support and sales conversations by ",
+  "founded": 2018,
+  "funding_usd": 150000,
+  "hc": 9,
+  "hc_yoy": -31,
+  "name": "Quickchat AI",
+  "stage": "PRE_SEED"
+ },
+ "quix.io": {
+  "desc": "Quix provides a data platform designed to ingest and unify real-time data for hardware engineering, enabling engineers to query and analyze complex datasets efficiently.",
+  "founded": 2016,
+  "funding_usd": 16397665,
+  "hc": 25,
+  "hc_yoy": -14,
+  "name": "Quix",
+  "stage": "SERIES_A"
+ },
+ "quizrr.se": {
+  "desc": "Quizrr offers a digital platform that provides localized training programs focused on workforce knowledge, social compliance, and responsible workplace practices, aimed a",
+  "founded": 2013,
+  "funding_usd": 8012000,
+  "hc": 37,
+  "hc_yoy": -20,
+  "name": "Quizrr",
+  "stage": "SEED"
+ },
+ "racktivity.com": {
+  "desc": "The company specializes in providing a secure and efficient domain name service, offering a Buyer Protection Program, fast domain transfers, and multiple payment options ",
+  "founded": 2008,
+  "funding_usd": 12954000,
+  "hc": 4,
+  "hc_yoy": 0,
+  "name": "Racktivity NV",
+  "stage": "SERIES_B"
+ },
+ "radiantsecurity.ai": {
+  "desc": "Radiant offers an AI-powered security operations center (SOC) platform that automates the triage and investigation of alerts, enabling analysts to focus on genuine threat",
+  "founded": 2021,
+  "funding_usd": 22500000,
+  "hc": 36,
+  "hc_yoy": -45,
+  "name": "Radiant Security",
+  "stage": "SERIES_A"
+ },
+ "radicalaero.com": {
+  "desc": "The company develops StratoSats, which are autonomous solar-powered aircraft designed to operate in the stratosphere, providing persistent high-performance infrastructure",
+  "founded": 2022,
+  "funding_usd": 4965000,
+  "hc": 12,
+  "hc_yoy": 33,
+  "name": "Radical",
+  "stage": "SEED"
+ },
+ "raidium.eu": {
+  "desc": "Raidium offers an AI-native PACS viewer designed to unify and streamline the radiology workflow by integrating various tasks into a single platform.",
+  "founded": 2021,
+  "funding_usd": 18044624,
+  "hc": 49,
+  "hc_yoy": 48,
+  "name": "Raidium",
+  "stage": "SEED"
+ },
+ "raisin.com": {
+  "desc": "Raisin is a financial platform that connects consumers with high-yield savings accounts and certificates of deposit (CDs) from over 100 banks and credit unions, allowing ",
+  "founded": 2011,
+  "funding_usd": null,
+  "hc": 778,
+  "hc_yoy": 4,
+  "name": "Raisin",
+  "stage": null
+ },
+ "ralio.co": {
+  "desc": "Ralio provides a secure and programmable payment infrastructure designed to enable AI agents to manage business payments with built-in spending guardrails, verified ident",
+  "founded": 2025,
+  "funding_usd": 2605731,
+  "hc": 4,
+  "hc_yoy": 100,
+  "name": "Ralio",
+  "stage": "PRE_SEED"
+ },
+ "ramblr.ai": {
+  "desc": "Ramblr Melbourne is a casual fine diner run by classically trained chef Nick Stanton.",
+  "founded": 2021,
+  "funding_usd": null,
+  "hc": 1,
+  "hc_yoy": 0,
+  "name": "RAMBLR",
+  "stage": null
+ },
+ "ramify.fr": {
+  "desc": "Ramify offers a digital alternative to private banking, focusing on wealth management through the recommendation, management, and selection of investment vehicles such as",
+  "founded": 2020,
+  "funding_usd": 15737007,
+  "hc": 72,
+  "hc_yoy": 50,
+  "name": "Ramify",
+  "stage": "SERIES_A"
+ },
+ "ramo.io": {
+  "desc": "Ramo offers S3-compatible object storage that operates on its own metal and fiber infrastructure, providing a flat rate of $5 per TB per month with no egress fees.",
+  "founded": 2021,
+  "funding_usd": 6000000,
+  "hc": 4,
+  "hc_yoy": -20,
+  "name": "web3mine",
+  "stage": "SEED"
+ },
+ "rapidata.ai": {
+  "desc": "The main product is a human feedback platform that integrates with AI model training through a simple API, enabling rapid generation of high-quality annotations at GPU sp",
+  "founded": 2022,
+  "funding_usd": 10301992,
+  "hc": 15,
+  "hc_yoy": 36,
+  "name": "Rapidata",
+  "stage": "SEED"
+ },
+ "rasa.com": {
+  "desc": "Rasa provides a platform for building conversational AI agents that integrate business logic with large language models (LLMs), allowing enterprises to manage and scale i",
+  "founded": 2016,
+  "funding_usd": 70220000,
+  "hc": 182,
+  "hc_yoy": 24,
+  "name": "Rasa",
+  "stage": "SERIES_C"
+ },
+ "ravio.com": {
+  "desc": "Ravio provides a compensation benchmarking solution that utilizes real-time data directly sourced from company HR systems, allowing organizations to make informed pay dec",
+  "founded": 2022,
+  "funding_usd": 22000000,
+  "hc": 128,
+  "hc_yoy": 33,
+  "name": "Ravio",
+  "stage": "SERIES_A"
+ },
+ "raycast.app": {
+  "desc": "Raycast offers a productivity tool that functions as an extendable launcher, enabling users to access and manage various applications and tasks efficiently through keyboa",
+  "founded": 2020,
+  "funding_usd": 47850000,
+  "hc": 43,
+  "hc_yoy": 8,
+  "name": "Raycast",
+  "stage": "SERIES_B"
+ },
+ "rayon.design": {
+  "desc": "Rayon offers an AI-powered CAD software designed for interior designers and architects, enabling rapid drafting with precision and customizable styles.",
+  "founded": 2021,
+  "funding_usd": 17542507,
+  "hc": 31,
+  "hc_yoy": 19,
+  "name": "Rayon.design",
+  "stage": "SERIES_A"
+ },
  "rayon.so": {
   "desc": "Rayon offers an AI-powered CAD software designed for interior designers and architects, enabling rapid drafting with precision and customizable styles.",
   "founded": 2021,
