@@ -77,12 +77,32 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .abtn{background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-ink);border-radius:9px;
   padding:9px 16px;font-size:13px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
 .abtn:hover{background:var(--ink);color:var(--surface);border-color:var(--ink)}
-#apback{position:fixed;inset:0;background:rgba(20,18,12,.35);z-index:65;display:none}
+#apback{position:fixed;inset:0;background:rgba(20,18,12,.42);z-index:65;display:none;
+  backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
 #apback.open{display:block}
-#apanel{position:fixed;top:0;right:0;width:min(640px,96vw);height:100vh;background:var(--page);
-  border-left:1px solid var(--hair);z-index:70;overflow-y:auto;transform:translateX(102%);
-  transition:transform .22s ease;box-shadow:-18px 0 40px rgba(0,0,0,.12)}
-#apanel.open{transform:none}
+#apanel{position:fixed;inset:0;margin:auto;width:min(1260px,95vw);height:min(92vh,980px);
+  background:var(--page);border:1px solid var(--hair);border-radius:18px;z-index:70;
+  display:flex;flex-direction:column;overflow:hidden;opacity:0;pointer-events:none;
+  transform:scale(.97);transition:transform .18s ease,opacity .18s ease;
+  box-shadow:0 24px 80px rgba(0,0,0,.28)}
+#apanel.open{opacity:1;transform:none;pointer-events:auto}
+#apmain{flex:1;display:flex;min-height:0}
+#apscroll{flex:1;overflow-y:auto;min-width:0}
+#aprail{width:272px;flex:none;border-left:1px solid var(--hair);background:var(--surface);
+  overflow-y:auto;padding:14px 16px}
+.railh{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.railsub{font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.45}
+.railitem{display:flex;align-items:baseline;gap:7px;padding:6px 0;border-bottom:1px solid var(--hair2);font-size:12.5px}
+.railitem b{font-weight:650;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.railitem .cc{flex:none}
+.railitem button{border:0;background:none;color:var(--muted);cursor:pointer;font-size:12px;padding:0 2px}
+.railitem button:hover{color:var(--gap-ink)}
+.railacts{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.railacts button,.railacts a{font-size:11.5px;font-weight:600;border:1px solid var(--hair);border-radius:7px;
+  padding:5px 10px;background:var(--raise);color:var(--ink);cursor:pointer;text-decoration:none}
+.star{border:0;background:none;cursor:pointer;font-size:15px;color:var(--muted);padding:2px 4px;flex:none;line-height:1}
+.star:hover{color:var(--thin-ink)} .star.on{color:var(--thin-ink)}
+@media(max-width:1000px){#aprail{display:none}}
 .aphead{position:sticky;top:0;background:var(--page);z-index:3;display:flex;align-items:center;gap:10px;
   padding:16px 20px 12px;border-bottom:1px solid var(--hair)}
 .aphead #aptitle{flex:1;font-size:17px;font-weight:700;letter-spacing:-.01em}
@@ -95,7 +115,12 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .apbody{padding:14px 20px 80px}
 .aphint{font-size:12px;color:var(--muted);margin:2px 0 12px}
 .apsec{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:18px 0 8px}
-.apcard{border:1px solid var(--hair);border-radius:10px;padding:11px 13px;margin-bottom:10px}
+.apcard{border:1px solid var(--hair);border-radius:14px;padding:14px 18px;margin-bottom:10px;background:var(--raise)}
+.apcard .fname a{color:inherit;text-decoration:none}
+.apcard .fname a:hover{text-decoration:underline}
+.commline{color:var(--ink2)}
+.appath a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--hair)}
+.appath a:hover{border-bottom-color:var(--ink2)}
 .apcard .fname{font-size:14.5px}
 .aph2{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .apstats{display:flex;gap:16px;flex:none}
@@ -550,7 +575,10 @@ th.sk:hover{color:var(--accent-ink)}
 <aside id="apanel" role="dialog" aria-modal="true" aria-label="Action panel">
   <div class="aphead"><div id="aptitle"></div><button id="apclose" aria-label="Close">✕</button></div>
   <div class="apctx" id="apctx"></div>
-  <div class="apbody" id="apbody"></div>
+  <div id="apmain">
+    <div id="apscroll"><div class="apbody" id="apbody"></div></div>
+    <aside id="aprail"></aside>
+  </div>
 </aside>
 
 <div id="sheet" role="dialog" aria-modal="true">
@@ -715,6 +743,61 @@ const guessEmail = (name, fmt) => {
 const ALLE = REGIONS.flatMap(r=>D.regions[r].entities.map(e=>({r,e})));
 const metroOf = c => METRO[c]||c;
 const ap = {mode:'', who:'', city:'', hsort:'uf'};
+// ---------- shortlist: star anything in a workflow into a persistent "earmarked" rail ----------
+let SHORT = [];
+try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
+const shKey = s => s.t+'|'+s.name;
+const shHas = (t,name) => SHORT.some(s=>s.t===t && s.name===name);
+function shToggle(t,name,extra){
+  if(shHas(t,name)) SHORT = SHORT.filter(s=>!(s.t===t&&s.name===name));
+  else SHORT.push({t,name,extra:extra||''});
+  try{ localStorage.setItem('sonar_shortlist', JSON.stringify(SHORT)); }catch(err){}
+  renderRail();
+  document.querySelectorAll(`[data-star="${CSS.escape(t+'|'+name)}"]`)
+    .forEach(b=>{b.classList.toggle('on', shHas(t,name)); b.textContent = shHas(t,name)?'★':'☆';});
+}
+const starBtn = (t,name,extra) =>
+  `<button class="star${shHas(t,name)?' on':''}" data-star="${t}|${name}" data-starx="${extra||''}"
+    title="Earmark">${shHas(t,name)?'★':'☆'}</button>`;
+function bindStars(root){
+  root.querySelectorAll('[data-star]').forEach(b=>b.addEventListener('click',ev=>{
+    ev.stopPropagation();
+    const [t,...rest]=b.dataset.star.split('|');
+    shToggle(t, rest.join('|'), b.dataset.starx);
+  }));
+}
+function renderRail(){
+  const rail=document.getElementById('aprail'); if(!rail) return;
+  const grp={co:'Companies',fund:'Funds & investors',person:'People'};
+  let h=`<div class="railh">★ Earmarked</div>
+    <div class="railsub">${ap.mode==='geo'?'Your next-visit list — star companies and funds to plan the trip.':'Starred across workflows — saved on this device.'}</div>`;
+  if(!SHORT.length) h+=`<div class="railsub" style="color:var(--muted)">Nothing starred yet. Tap ☆ on any card.</div>`;
+  for(const [t,label] of Object.entries(grp)){
+    const items=SHORT.filter(s=>s.t===t);
+    if(!items.length) continue;
+    h+=`<div class="railh" style="margin-top:12px">${label}</div>`+
+      items.map(s=>`<div class="railitem"><b>${s.name}</b>${s.extra?`<span class="cc">${s.extra}</span>`:''}
+        <button data-unstar="${s.t}|${s.name}" title="Remove">✕</button></div>`).join('');
+  }
+  if(SHORT.length) h+=`<div class="railacts"><button id="railcopy">Copy list</button><button id="railclear">Clear</button></div>`;
+  rail.innerHTML=h;
+  rail.querySelectorAll('[data-unstar]').forEach(b=>b.addEventListener('click',()=>{
+    const [t,...rest]=b.dataset.unstar.split('|'); shToggle(t,rest.join('|'));
+    const body=document.getElementById('apbody'); if(body) bindStars(body);
+  }));
+  const cp=rail.querySelector('#railcopy');
+  if(cp) cp.addEventListener('click',()=>{
+    const txt=['Earmarked ('+new Date().toLocaleDateString()+')','']
+      .concat(Object.entries(grp).flatMap(([t,label])=>{
+        const its=SHORT.filter(s=>s.t===t);
+        return its.length?[label+':',...its.map(s=>`- ${s.name}${s.extra?` (${s.extra})`:''}`),'']:[];
+      })).join('\n');
+    navigator.clipboard?.writeText(txt); toast('Copied');
+  });
+  const cl=rail.querySelector('#railclear');
+  if(cl) cl.addEventListener('click',()=>{ SHORT=[]; try{localStorage.setItem('sonar_shortlist','[]');}catch(err){}
+    renderRail(); const body=document.getElementById('apbody'); if(body){ body.querySelectorAll('[data-star]').forEach(b=>{b.classList.remove('on');b.textContent='☆';}); } });
+}
 
 function openAP(mode){
   ap.mode=mode;
@@ -746,6 +829,9 @@ function renderAP(){
     navigator.clipboard?.writeText(decodeURIComponent(b.dataset.copy)); toast('Copied');}));
   body.querySelectorAll('[data-draft]').forEach(b=>b.addEventListener('click',()=>{
     const [kind,r,slug]=b.dataset.draft.split(':'); draftWidget(kind,r,slug);}));
+  bindStars(body);
+  renderRail();
+  document.getElementById('apscroll').scrollTop=0;
 }
 
 function apHtc(){
@@ -770,9 +856,9 @@ function apHtc(){
   if(!list.length) return `<div class="aphint">No hard-to-cracks owned by ${who||'anyone'} on the tracked lists.</div>`;
   const cards=list.slice(0,60).map(c=>{
     const best=(c.investors||[]).filter(i=>i.best&&i.best.internal)
-      .map(i=>({...i.best,fund:i.name,region:i.region,unt:i.untracked}))
+      .map(i=>({...i.best,fund:i.name,region:i.region,unt:i.untracked,linkedin:i.best.linkedin}))
       .sort((a,b)=>((b.pct||0)-(a.pct||0))).slice(0,3);
-    const paths=best.map(p=>`<div class="appath"><b>${p.internal}</b> ↔ ${p.external||'?'} <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
     const others=(c.others||[]).length?`<div class="apmeta">also on the cap table (untracked): ${c.others.slice(0,4).join(', ')}</div>`:'';
     const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
     const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];
@@ -791,10 +877,17 @@ function apHtc(){
         <a href="${affURL(c.id)}" target="_blank" rel="noopener">Affinity ↗</a></div>`;
     const eV=ease(c), eTier=eV>=50?'strong':eV>=22?'medium':'weak';
     const ufV=c.uf!=null?Math.round(c.uf):null, ufTier=ufV==null?'':ufV>=85?'strong':ufV>=70?'medium':'';
-    return `<div class="apcard"><div class="aph2"><div class="fname">${c.name}</div>
+    const m=c.meta||{};
+    const since=d=>{ if(!d) return null; const mo=Math.round((Date.now()-new Date(d))/26298e5);
+      return mo<1?'this month':mo+' mo'; };
+    const comms=[m.last_email?`last email ${fmtD(m.last_email)}`:null,
+                 m.last_meet?`met ${fmtD(m.last_meet)}`:null,
+                 !m.last_email&&!m.last_meet&&m.last_touch?`last touch ${fmtD(m.last_touch)}`:null,
+                 m.status_since?`H2C for ${since(m.status_since)}`:null].filter(Boolean).join(' · ');
+    return `<div class="apcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
       <div class="apstats"><span class="apstat"><b class="covnum ${ufTier}">${ufV??'—'}</b><span class="covcap">unframe</span></span>
       <span class="apstat"><b class="covnum ${eV?eTier:''}">${eV||'—'}</b><span class="covcap">ease of access</span></span></div></div>
-      <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}</div>
+      <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
       ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}${acts}</div>`;
   }).join('');
   return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
@@ -813,9 +906,10 @@ function apNet(){
   const ground=funds.filter(x=>x.e.connectivity<22).sort(byRel).slice(0,6);
   const bCards=borrow.map(({r,e})=>{
     const p=e.points[0];
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+    const ev=evidence(p);
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · team ${e.connectivity}, you ${personCov(e,who)}</div>
-      <div class="appath"><b>${p.internal}</b> holds ${p.external||'a contact'}${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}</div>
+      <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}</div>
       <div class="apacts">
         <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
         ${(p.email||p.linkedin)?`<button data-draft="b:${r}:${e.slug}">Draft direct outreach</button>`:''}
@@ -823,7 +917,7 @@ function apNet(){
   }).join('');
   const gCards=ground.map(({r,e})=>{
     const pk=(e.partners_unknown||[])[0];
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · team coverage ${e.connectivity}</div>
       ${pk?`<div class="appath">Door: <b>${pk.name}</b>${pk.title?` <span class="via">· ${pk.title}</span>`:''}</div>`:''}
       <div class="apacts">${pk?`<button data-draft="g:${r}:${e.slug}">Draft outreach</button>`:''}
@@ -885,7 +979,7 @@ function apGeo(){
     else seen.set(p.id,{...p, via:new Set([e.name])});
   }));});
   const pipe=[...seen.values()].sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,25);
-  const rows=pipe.map(p=>`<div class="aprow"><a href="${affURL(p.id)}" target="_blank" rel="noopener"><b>${p.name}</b></a>${ufBadge(p.uf)}<span class="cc">${(p.funnel||'').replace(' (free for all)','')}</span>${!who&&(p.own||[]).length?`<span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</div>`).join('');
+  const rows=pipe.map(p=>`<div class="aprow">${starBtn('co',p.name,city)}<a href="${affURL(p.id)}" target="_blank" rel="noopener"><b>${p.name}</b></a>${ufBadge(p.uf)}<span class="cc">${(p.funnel||'').replace(' (free for all)','')}</span>${!who&&(p.own||[]).length?`<span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</div>`).join('');
   const inCity=ALLE.filter(x=>x.e.kind==='fund'&&cityOf(x.e)===city);
   const know=[], cold=[];
   inCity.forEach(({r,e})=>{const pc=who?personCov(e,who):e.connectivity; (pc>0?know:cold).push({r,e,pc});});
@@ -895,16 +989,17 @@ function apGeo(){
     const sig=who?personSignal(e,who):null; const k=sig&&sig.contacts&&sig.contacts[0];
     const line=k?`<b>${k.person}</b>${k.pct!=null?` <span class="via">· ${k.pct}%</span>`:''}${evidence(k)?` <span class="via">· ${evidence(k)}</span>`:''}`
       :(e.points&&e.points[0]?`<b>${e.points[0].external||''}</b> <span class="via">via ${e.points[0].internal}</span>`:'');
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div>
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,city)}${e.name}</div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · ${who?`your coverage ${pc}`:`team ${e.connectivity}`}</div>
       ${line?`<div class="appath">Reconnect: ${line}</div>`:''}</div>`;}).join('');
   const cRows=cold.map(({e})=>{
     const nm2=nextMove(e)||{cls:'gap',txt:''}; const pk=(e.partners_unknown||[])[0];
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${e.name}${ACCELCAT[e.category]?' <span class="cc">· accelerator</span>':''}</div>
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,city)}${e.name}${ACCELCAT[e.category]?' <span class="cc">· accelerator</span>':''}</div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'}${who?` · team ${e.connectivity}`:''}</div>
       <div class="nm ${nm2.cls}">${nm2.txt}</div>
       ${pk?`<div class="apmeta">Door: ${pk.linkedin?`<a href="${pk.linkedin}" target="_blank" rel="noopener">${pk.name}</a>`:pk.name}${pk.title?` · ${pk.title}`:''}</div>`:''}</div>`;}).join('');
-  return `<div class="apsec">${who?who.split(' ')[0]+"'s":'Our'} pipeline in ${city} — ranked by Unframe priority</div>
+  return `<div class="aphint">Star ☆ companies and funds as you scan — they land in the Earmarked rail on the right, your next-visit plan.</div>
+    <div class="apsec">${who?who.split(' ')[0]+"'s":'Our'} pipeline in ${city} — ranked by Unframe priority</div>
     ${rows||`<div class="aphint">${anyCity?`No ${who?who.split(' ')[0]+"'s":''} pipeline companies with a known ${city} HQ.`:'City data is still backfilling — check back shortly.'}</div>`}
     <div class="apsec">Investors ${who?'you know':'we know'} here — reconnect</div>${kRows||'<div class="aphint">None yet.</div>'}
     <div class="apsec">Funds ${who?"you don't know":'we barely know'} — prioritise</div>${cRows||'<div class="aphint">None.</div>'}`;

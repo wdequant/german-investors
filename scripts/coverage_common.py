@@ -909,7 +909,8 @@ def build_htc(entities, htc_owners):
                                                "domain": p.get("domain"), "investors": []})
             paths = [{"internal": pt["internal"], "external": pt.get("external"),
                       "pct": pt.get("pct"), "moved": pt.get("moved"),
-                      "unverified": pt.get("unverified"), "email": pt.get("email")}
+                      "unverified": pt.get("unverified"), "email": pt.get("email"),
+                      "linkedin": pt.get("linkedin")}
                      for pt in (e.get("points") or [])[:3]]
             c["investors"].append({"name": e["name"], "slug": e["slug"], "kind": e["kind"],
                                    "tier": e["tier"], "best": paths[0] if paths else None,

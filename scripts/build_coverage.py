@@ -251,6 +251,7 @@ for _n, _m in (load_json(f"{ROOT}/data/enrich/backer-domains.json", {}) or {}).i
     if _d and _m.get("kind") != "person":
         _bdom[_ni(_n)] = _d
 _brels = load_json(f"{ROOT}/data/enrich/backer-rels.json", {}) or {}
+_hmeta = load_json(f"{ROOT}/data/enrich/htc-meta.json", {}) or {}
 
 
 def _bdecay(last):
@@ -312,7 +313,8 @@ def _resolve_backers(_c, _backers):
             _have.add(_e["slug"])
             _paths = [{"internal": pt["internal"], "external": pt.get("external"),
                        "pct": pt.get("pct"), "moved": pt.get("moved"),
-                       "unverified": pt.get("unverified"), "email": pt.get("email")}
+                       "unverified": pt.get("unverified"), "email": pt.get("email"),
+                       "linkedin": pt.get("linkedin")}
                       for pt in (_e.get("points") or [])[:3]]
             _c["investors"].append({"name": _e["name"], "slug": _e["slug"],
                                     "kind": _e["kind"], "tier": _e["tier"],
@@ -338,6 +340,7 @@ for _k, _reg in regions.items():
         for _i in _c["investors"]:
             _i["region"] = _k
         _cap = _captables.get(str(_c["id"])) or {}
+        _c["meta"] = _hmeta.get(str(_c["id"]))
         _resolve_backers(_c, _cap.get("investors") or [])
     _reg["htc"].sort(key=lambda c: (-(c.get("uf") or 0), -c["reachable"], -len(c["investors"])))
 
@@ -355,6 +358,7 @@ for _ent in (aff_dump or {}).get("entries") or []:
           "country": _ent.get("country"), "investors": []}
     _c["uf"] = _uf_of(_c)
     _c["city"] = _city_of(_c)
+    _c["meta"] = _hmeta.get(str(_ent["id"]))
     _cap = _captables.get(str(_ent["id"])) or {}
     _resolve_backers(_c, _cap.get("investors") or _ent.get("investors") or [])
     _xtra.append(_c)
