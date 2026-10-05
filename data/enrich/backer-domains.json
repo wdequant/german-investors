@@ -1,27 +1,27 @@
 {
  "83NORTH": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 717268,
+  "domain": "83north.com",
   "kind": "fund"
  },
  "Emblem": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 39333808,
+  "domain": "emblem.vc",
   "kind": "fund"
  },
  "Seedcamp": {
-  "harmonic_company_id": null,
+  "harmonic_company_id": 614647,
   "domain": "seedcamp.com",
   "kind": "fund"
  },
  "WndrCo": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 776521,
+  "domain": "wndrco.com",
   "kind": "fund"
  },
  "Valar Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 725534,
+  "domain": "valar.com",
   "kind": "fund"
  },
  "Jeff Weinstein": {
@@ -390,8 +390,8 @@
   "kind": "fund"
  },
  "Lakestar's Halo Ii": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 763871,
+  "domain": "lakestar.com",
   "kind": "fund"
  },
  "Lanta Capital Holdings": {
@@ -415,13 +415,13 @@
   "kind": "person"
  },
  "Latitude": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 57043179,
+  "domain": "latitude.vc",
   "kind": "fund"
  },
  "Latitude Vs": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 57043179,
+  "domain": "latitude.vc",
   "kind": "fund"
  },
  "LBBW Venture Capital": {
@@ -460,8 +460,8 @@
   "kind": "fund"
  },
  "LeanSquare": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1502670,
+  "domain": "leansquare.be",
   "kind": "fund"
  },
  "Leblon Capital": {
@@ -855,23 +855,23 @@
   "kind": "fund"
  },
  "Menlo Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 732155,
+  "domain": "menlovc.com",
   "kind": "fund"
  },
  "MentorTech Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 610015,
+  "domain": "mentortechventures.com",
   "kind": "fund"
  },
  "Meritech": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 34820,
+  "domain": "meritechcapital.com",
   "kind": "fund"
  },
  "Meritech Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 34820,
+  "domain": "meritechcapital.com",
   "kind": "fund"
  },
  "MH Innov'": {
@@ -1030,8 +1030,8 @@
   "kind": "fund"
  },
  "Mosaic Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 9295688,
+  "domain": "mosaicventures.com",
   "kind": "fund"
  },
  "Motier Ventures": {
@@ -1075,8 +1075,8 @@
   "kind": "fund"
  },
  "Mucker Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 778628,
+  "domain": "mucker.com",
   "kind": "fund"
  },
  "Mustard Seed": {
@@ -1170,8 +1170,8 @@
   "kind": "fund"
  },
  "New York Angels": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 744737,
+  "domain": "newyorkangels.com",
   "kind": "fund"
  },
  "Newfund": {
@@ -1185,8 +1185,8 @@
   "kind": "fund"
  },
  "Next Play Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 774592,
+  "domain": "nextplayventures.com",
   "kind": "fund"
  },
  "NEXT176": {
@@ -1255,13 +1255,13 @@
   "kind": "fund"
  },
  "Northstar Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 656802,
+  "domain": "northstarventures.co.uk",
   "kind": "fund"
  },
  "Northzone": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 761875,
+  "domain": "northzone.com",
   "kind": "fund"
  },
  "Nortia Capital Investment Holding": {
@@ -1275,13 +1275,13 @@
   "kind": "fund"
  },
  "Notable Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 51405959,
+  "domain": "notablecap.com",
   "kind": "fund"
  },
  "Notion Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 640849,
+  "domain": "notioncapital.com",
   "kind": "fund"
  },
  "Novax": {
@@ -1310,13 +1310,13 @@
   "kind": "fund"
  },
  "Ocean Azul": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 646263,
+  "domain": "oceanazulpartners.com",
   "kind": "fund"
  },
  "Ocean Azul Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 646263,
+  "domain": "oceanazulpartners.com",
   "kind": "fund"
  },
  "Octopus Labs": {
@@ -1325,8 +1325,8 @@
   "kind": "fund"
  },
  "Octopus Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 668012,
+  "domain": "octopusventures.com",
   "kind": "fund"
  },
  "ODC Ventures": {
@@ -1335,8 +1335,8 @@
   "kind": "fund"
  },
  "ODYSSEE Venture": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1522056,
+  "domain": "odysseeventure.com",
   "kind": "fund"
  },
  "Offline Ventures": {
@@ -1350,8 +1350,8 @@
   "kind": "unknown"
  },
  "OIF Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 4817221,
+  "domain": "oifventures.com.au",
   "kind": "fund"
  },
  "Old Mutual": {
@@ -1450,13 +1450,13 @@
   "kind": "fund"
  },
  "Operator Collective 🔆": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1442594,
+  "domain": "operatorcollective.com",
   "kind": "fund"
  },
  "Operators Collective": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1442594,
+  "domain": "operatorcollective.com",
   "kind": "fund"
  },
  "Orange Wings Investments": {
@@ -1525,8 +1525,8 @@
   "kind": "person"
  },
  "Outsiders Fund": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1527197,
+  "domain": "outsidersfund.com",
   "kind": "fund"
  },
  "Oxx": {
@@ -1545,13 +1545,13 @@
   "kind": "unknown"
  },
  "ParaFi Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 610659,
+  "domain": "parafi.com",
   "kind": "fund"
  },
  "Parkwalk": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2135955,
+  "domain": "parkwalk.vc",
   "kind": "fund"
  },
  "Parliament Uk": {
@@ -1560,13 +1560,13 @@
   "kind": "fund"
  },
  "Passion Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 691530,
+  "domain": "passioncapital.com",
   "kind": "fund"
  },
  "Pathbreaker Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 670824,
+  "domain": "pathbreakervc.com",
   "kind": "fund"
  },
  "Pathlight Ventures": {
@@ -1635,8 +1635,8 @@
   "kind": "fund"
  },
  "Base10 Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 680054,
+  "domain": "base10.vc",
   "kind": "fund"
  },
  "basecase capital": {
@@ -1745,8 +1745,8 @@
   "kind": "person"
  },
  "Bessemer Venture Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 631351,
+  "domain": "bvp.com",
   "kind": "fund"
  },
  "Bestart": {
@@ -1765,8 +1765,8 @@
   "kind": "fund"
  },
  "BIP Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 13119069,
+  "domain": "bipventures.vc",
   "kind": "fund"
  },
  "BIP Wealth": {
@@ -1805,18 +1805,18 @@
   "kind": "fund"
  },
  "Blossom Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 681360,
+  "domain": "blossomcap.com",
   "kind": "fund"
  },
  "Blue Earth Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3278429,
+  "domain": "blueearth.capital",
   "kind": "fund"
  },
  "Blue Earth Capital AG": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3278429,
+  "domain": "blueearth.capital",
   "kind": "fund"
  },
  "Blue Titan Ventures": {
@@ -1825,13 +1825,13 @@
   "kind": "fund"
  },
  "BMH": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1636808,
+  "domain": "bmh-hessen.de",
   "kind": "fund"
  },
  "BMH Beteiligungs-Management Hessen": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1636808,
+  "domain": "bmh-hessen.de",
   "kind": "fund"
  },
  "BMW": {
@@ -1875,8 +1875,8 @@
   "kind": "fund"
  },
  "Born2Grow": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1522258,
+  "domain": "d11z.com",
   "kind": "fund"
  },
  "bossa invest": {
@@ -1885,8 +1885,8 @@
   "kind": "fund"
  },
  "Boston Millennia Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 66116187,
+  "domain": "millenniapartners.com",
   "kind": "fund"
  },
  "Box": {
@@ -1895,18 +1895,18 @@
   "kind": "fund"
  },
  "BoxGroup": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1489960,
+  "domain": "boxgroup.com",
   "kind": "fund"
  },
  "BPI France": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1729881,
+  "domain": "bpifrance.fr",
   "kind": "fund"
  },
  "Bpifrance": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1729881,
+  "domain": "bpifrance.fr",
   "kind": "fund"
  },
  "BPO Capital": {
@@ -1950,8 +1950,8 @@
   "kind": "person"
  },
  "Brick & Mortar Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 687977,
+  "domain": "brickmortar.vc",
   "kind": "fund"
  },
  "BrightCap Ventures": {
@@ -1965,8 +1965,8 @@
   "kind": "fund"
  },
  "British Business Bank: British Patient Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2192074,
+  "domain": "britishpatientcapital.co.uk",
   "kind": "fund"
  },
  "British Business Investments": {
@@ -1975,8 +1975,8 @@
   "kind": "fund"
  },
  "British Patient Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2192074,
+  "domain": "britishpatientcapital.co.uk",
   "kind": "fund"
  },
  "BTOV Partners": {
@@ -2020,8 +2020,8 @@
   "kind": "person"
  },
  "Calculus Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1497054,
+  "domain": "calculuscapital.com",
   "kind": "fund"
  },
  "Calm Storm": {
@@ -2180,8 +2180,8 @@
   "kind": "fund"
  },
  "Cervin Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 735725,
+  "domain": "cervinventures.com",
   "kind": "fund"
  },
  "Chairman Of Bonnier Capital": {
@@ -2195,8 +2195,8 @@
   "kind": "fund"
  },
  "Chapter One": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 680348,
+  "domain": "chapterone.com",
   "kind": "fund"
  },
  "Charles Gorintin": {
@@ -2240,8 +2240,8 @@
   "kind": "person"
  },
  "Cherry Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 630007,
+  "domain": "cherry.vc",
   "kind": "fund"
  },
  "China Automotive Systems, Inc.": {
@@ -2430,8 +2430,8 @@
   "kind": "fund"
  },
  "PeakSpan Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 615781,
+  "domain": "peakspancapital.com",
   "kind": "fund"
  },
  "Peder Bonnier": {
@@ -2515,8 +2515,8 @@
   "kind": "fund"
  },
  "Picus Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 745517,
+  "domain": "picuscap.com",
   "kind": "fund"
  },
  "Pierre Joudiou": {
@@ -2545,8 +2545,8 @@
   "kind": "person"
  },
  "Pillar VC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 616843,
+  "domain": "pillar.vc",
   "kind": "fund"
  },
  "Pioneer Fund": {
@@ -2570,13 +2570,13 @@
   "kind": "fund"
  },
  "Playfair": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 12820111,
+  "domain": "playfair.vc",
   "kind": "fund"
  },
  "Playfair Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 12820111,
+  "domain": "playfair.vc",
   "kind": "fund"
  },
  "Pleiade Venture": {
@@ -2640,8 +2640,8 @@
   "kind": "fund"
  },
  "Prelude Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 743417,
+  "domain": "preludeventures.com",
   "kind": "fund"
  },
  "Prequel Ventures": {
@@ -2660,8 +2660,8 @@
   "kind": "unknown"
  },
  "Proeza Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1533221,
+  "domain": "proezaventures.com",
   "kind": "fund"
  },
  "Proparco": {
@@ -2825,13 +2825,13 @@
   "kind": "fund"
  },
  "redalpine": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 639125,
+  "domain": "redalpine.com",
   "kind": "fund"
  },
  "Redalpine Venture Partner AG": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 639125,
+  "domain": "redalpine.com",
   "kind": "fund"
  },
  "Redcrest Events Events": {
@@ -2865,8 +2865,8 @@
   "kind": "fund"
  },
  "Reflex Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 733006,
+  "domain": "reflexcapital.com",
   "kind": "fund"
  },
  "Reig Patrimonia": {
@@ -2940,13 +2940,13 @@
   "kind": "fund"
  },
  "RKK VC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3093120,
+  "domain": "rkkvc.com",
   "kind": "fund"
  },
  "RKKVC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3093120,
+  "domain": "rkkvc.com",
   "kind": "fund"
  },
  "Rob Bernshteyn": {
@@ -3000,8 +3000,8 @@
   "kind": "person"
  },
  "Roosh Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1997245,
+  "domain": "roosh.vc",
   "kind": "fund"
  },
  "Rory San Miguel": {
@@ -3030,13 +3030,13 @@
   "kind": "fund"
  },
  "Runa Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 748785,
+  "domain": "runacap.com",
   "kind": "fund"
  },
  "Ruvento Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 745519,
+  "domain": "ruvento.com",
   "kind": "fund"
  },
  "Ryan Morrison": {
@@ -3065,8 +3065,8 @@
   "kind": "fund"
  },
  "S3 Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 779001,
+  "domain": "s3vc.com",
   "kind": "fund"
  },
  "Saab": {
@@ -3085,13 +3085,13 @@
   "kind": "unknown"
  },
  "Salesforce Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2093468,
+  "domain": "salesforceventures.com",
   "kind": "fund"
  },
  "Salica Investments": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 55893430,
+  "domain": "salicainvestments.com",
   "kind": "fund"
  },
  "Salil Deshpande": {
@@ -3140,8 +3140,8 @@
   "kind": "fund"
  },
  "Sapphire Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 712077,
+  "domain": "sapphireventures.com",
   "kind": "fund"
  },
  "Sara Varni": {
@@ -3165,13 +3165,13 @@
   "kind": "fund"
  },
  "Scale Venture Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 705262,
+  "domain": "scalevp.com",
   "kind": "fund"
  },
  "ScaleVP": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 705262,
+  "domain": "scalevp.com",
   "kind": "fund"
  },
  "Schwyzer Kantonalbank": {
@@ -3260,8 +3260,8 @@
   "kind": "fund"
  },
  "574 Invest": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3552778,
+  "domain": "574invest.com",
   "kind": "fund"
  },
  "6 Degrees Capital": {
@@ -3275,8 +3275,8 @@
   "kind": "fund"
  },
  "7percent Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3268126,
+  "domain": "7pc.vc",
   "kind": "fund"
  },
  "82an Invest": {
@@ -3380,8 +3380,8 @@
   "kind": "person"
  },
  "Adelis Equity Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2065344,
+  "domain": "adelisequity.com",
   "kind": "fund"
  },
  "Adii Pienaar": {
@@ -3515,8 +3515,8 @@
   "kind": "person"
  },
  "Alfvén & Didrikson": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1490179,
+  "domain": "alfvendidrikson.com",
   "kind": "fund"
  },
  "Alhambra Venture": {
@@ -3550,8 +3550,8 @@
   "kind": "fund"
  },
  "ALTAMIR": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2178576,
+  "domain": "altamir.fr",
   "kind": "fund"
  },
  "Alter Global": {
@@ -3565,8 +3565,8 @@
   "kind": "fund"
  },
  "Altos Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 731324,
+  "domain": "altos.vc",
   "kind": "fund"
  },
  "Alumni Ventures": {
@@ -3575,13 +3575,13 @@
   "kind": "fund"
  },
  "Alven": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 650235,
+  "domain": "alven.co",
   "kind": "fund"
  },
  "Alven Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 650235,
+  "domain": "alven.co",
   "kind": "fund"
  },
  "Ameet Patel": {
@@ -3655,8 +3655,8 @@
   "kind": "fund"
  },
  "Andera Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3226442,
+  "domain": "anderapartners.com",
   "kind": "fund"
  },
  "Andreas Hettich": {
@@ -3665,8 +3665,8 @@
   "kind": "person"
  },
  "Andreessen Horowitz": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 10311228,
+  "domain": "a16z.com",
   "kind": "fund"
  },
  "Andrej Henkler": {
@@ -3720,8 +3720,8 @@
   "kind": "unknown"
  },
  "Angelsquare": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 4431456,
+  "domain": "angelsquare.co",
   "kind": "fund"
  },
  "Angular Ventures": {
@@ -3735,13 +3735,13 @@
   "kind": "unknown"
  },
  "Anorak Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 686143,
+  "domain": "anorak.vc",
   "kind": "fund"
  },
  "another.vc": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1516713,
+  "domain": "another.vc",
   "kind": "fund"
  },
  "Ansa Capital": {
@@ -3915,8 +3915,8 @@
   "kind": "fund"
  },
  "Auxxo Female Catalyst Fund": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 4082664,
+  "domain": "auxxo.de",
   "kind": "fund"
  },
  "Avonmore Developments": {
@@ -3935,8 +3935,8 @@
   "kind": "fund"
  },
  "Axeleo": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2162669,
+  "domain": "axc.vc",
   "kind": "fund"
  },
  "Axiom": {
@@ -3950,8 +3950,8 @@
   "kind": "fund"
  },
  "b2venture": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 12822071,
+  "domain": "b2venture.vc",
   "kind": "fund"
  },
  "B5 Capital": {
@@ -3980,8 +3980,8 @@
   "kind": "fund"
  },
  "Band of Angels": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2110747,
+  "domain": "bandangels.com",
   "kind": "fund"
  },
  "Banque Populaire": {
@@ -4000,8 +4000,8 @@
   "kind": "fund"
  },
  "Elkstone": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1508951,
+  "domain": "elkstonepartners.com",
   "kind": "fund"
  },
  "Elliott Rapaport": {
@@ -4015,8 +4015,8 @@
   "kind": "fund"
  },
  "Emerald Technology Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 691344,
+  "domain": "emerald.vc",
   "kind": "fund"
  },
  "Emilio Frazzoli": {
@@ -4030,8 +4030,8 @@
   "kind": "person"
  },
  "EMV Capital plc": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1535710,
+  "domain": "emvcapital.com",
   "kind": "fund"
  },
  "EnBW New Ventures": {
@@ -4085,13 +4085,13 @@
   "kind": "fund"
  },
  "Energy Impact Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 611322,
+  "domain": "energyimpactpartners.com",
   "kind": "fund"
  },
  "Energy Impact Partners (eip)": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 611322,
+  "domain": "energyimpactpartners.com",
   "kind": "fund"
  },
  "Englund, Björn": {
@@ -4115,8 +4115,8 @@
   "kind": "fund"
  },
  "Entree Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 750116,
+  "domain": "entreecap.com",
   "kind": "fund"
  },
  "Entrepreneur First": {
@@ -4130,8 +4130,8 @@
   "kind": "fund"
  },
  "Entrée Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 750116,
+  "domain": "entreecap.com",
   "kind": "fund"
  },
  "Enzo Ventures": {
@@ -4160,8 +4160,8 @@
   "kind": "fund"
  },
  "EQT Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 673870,
+  "domain": "eqtventures.com",
   "kind": "fund"
  },
  "ESA BIC Czech Republic": {
@@ -4250,8 +4250,8 @@
   "kind": "fund"
  },
  "Everywhere Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 13026115,
+  "domain": "thefund.vc",
   "kind": "fund"
  },
  "Exor": {
@@ -4345,13 +4345,13 @@
   "kind": "fund"
  },
  "Felicis": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 763898,
+  "domain": "felicis.com",
   "kind": "fund"
  },
  "Felicis Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 763898,
+  "domain": "felicis.com",
   "kind": "fund"
  },
  "Felix Blossier": {
@@ -4360,8 +4360,8 @@
   "kind": "person"
  },
  "Felix Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 738941,
+  "domain": "felixcap.com",
   "kind": "fund"
  },
  "Felix Ehrat": {
@@ -4375,8 +4375,8 @@
   "kind": "person"
  },
  "FFG Austrian Research Promotion Agency": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1604063,
+  "domain": "ffg.at",
   "kind": "fund"
  },
  "FINANCE WALES INVESTMENTS LIMITED": {
@@ -4395,13 +4395,13 @@
   "kind": "fund"
  },
  "First Round Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2164608,
+  "domain": "firstround.com",
   "kind": "fund"
  },
  "firstminute capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3185522,
+  "domain": "firstminute.capital",
   "kind": "fund"
  },
  "FIT - Fondation pour l'Innovation et la Technologie": {
@@ -4415,8 +4415,8 @@
   "kind": "fund"
  },
  "FJ Labs": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 712850,
+  "domain": "fjlabs.com",
   "kind": "fund"
  },
  "Flat Capital AB": {
@@ -4440,23 +4440,23 @@
   "kind": "person"
  },
  "Flourish Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2016958,
+  "domain": "flourishventures.com",
   "kind": "fund"
  },
  "Flybridge": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2128259,
+  "domain": "flybridge.com",
   "kind": "fund"
  },
  "Flybridge Capital Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2128259,
+  "domain": "flybridge.com",
   "kind": "fund"
  },
  "FNAIM": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1775594,
+  "domain": "fnaim.fr",
   "kind": "fund"
  },
  "FONCIA": {
@@ -4470,12 +4470,12 @@
   "kind": "fund"
  },
  "Foresight": {
-  "harmonic_company_id": null,
+  "harmonic_company_id": 25292531,
   "domain": null,
   "kind": "fund"
  },
  "Foresight Group": {
-  "harmonic_company_id": null,
+  "harmonic_company_id": 25292531,
   "domain": null,
   "kind": "fund"
  },
@@ -4490,13 +4490,13 @@
   "kind": "fund"
  },
  "Forté Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 643914,
+  "domain": "forteventures.com",
   "kind": "fund"
  },
  "Forward Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 435226,
+  "domain": "forwardpartners.com",
   "kind": "fund"
  },
  "Foundation Capital": {
@@ -4505,8 +4505,8 @@
   "kind": "fund"
  },
  "Founder Collective": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 746394,
+  "domain": "foundercollective.com",
   "kind": "fund"
  },
  "Founderpath": {
@@ -4560,13 +4560,13 @@
   "kind": "person"
  },
  "Freestyle Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 25687,
+  "domain": "freestyle.vc",
   "kind": "fund"
  },
  "Fresco Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 661806,
+  "domain": "fresco.vc",
   "kind": "fund"
  },
  "Fresenius Group": {
@@ -4575,8 +4575,8 @@
   "kind": "fund"
  },
  "Frontier Growth": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2138747,
+  "domain": "frontiergrowth.com",
   "kind": "fund"
  },
  "Frontline Ventures": {
@@ -4585,8 +4585,8 @@
   "kind": "fund"
  },
  "Frst": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 670117,
+  "domain": "frst.vc",
   "kind": "fund"
  },
  "Frédéric Tardy": {
@@ -4600,13 +4600,13 @@
   "kind": "fund"
  },
  "Fuel Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 652032,
+  "domain": "fuel.ventures",
   "kind": "fund"
  },
  "Fuel Ventures 🚀": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 652032,
+  "domain": "fuel.ventures",
   "kind": "fund"
  },
  "FundFire": {
@@ -4625,8 +4625,8 @@
   "kind": "fund"
  },
  "Futuristic.vc": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 760054,
+  "domain": "futuristic.vc",
   "kind": "fund"
  },
  "Futurum Ventures": {
@@ -4665,8 +4665,8 @@
   "kind": "person"
  },
  "Gaingels": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 4586833,
+  "domain": "gaingels.com",
   "kind": "fund"
  },
  "Galaxy": {
@@ -4785,8 +4785,8 @@
   "kind": "fund"
  },
  "Glilot Capital Partners Vc": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 682791,
+  "domain": "glilotcapital.com",
   "kind": "fund"
  },
  "Global Founders Capital": {
@@ -4815,8 +4815,8 @@
   "kind": "fund"
  },
  "GoHub Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2149341,
+  "domain": "gohub.vc",
   "kind": "fund"
  },
  "Gokul Rajaram": {
@@ -4835,8 +4835,8 @@
   "kind": "fund"
  },
  "Goodwater Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 75118,
+  "domain": "goodwatercap.com",
   "kind": "fund"
  },
  "Google": {
@@ -4885,18 +4885,18 @@
   "kind": "fund"
  },
  "Gresham House Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 651039,
+  "domain": "greshamhouse.com",
   "kind": "fund"
  },
  "Greycroft": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 778756,
+  "domain": "greycroft.com",
   "kind": "fund"
  },
  "Greylock Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 781359,
+  "domain": "greylock.com",
   "kind": "fund"
  },
  "Groupe Clim": {
@@ -4930,23 +4930,23 @@
   "kind": "person"
  },
  "GV": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 36356938,
+  "domain": "gv.com",
   "kind": "fund"
  },
  "GV (Google Ventures)": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 36356938,
+  "domain": "gv.com",
   "kind": "fund"
  },
  "H.I.G. Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2240156,
+  "domain": "hig.com",
   "kind": "fund"
  },
  "Haatch": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 713136,
+  "domain": "haatch.com",
   "kind": "fund"
  },
  "Hanno Renner": {
@@ -4965,8 +4965,8 @@
   "kind": "person"
  },
  "Hardware Club": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 750476,
+  "domain": "hcvc.co",
   "kind": "fund"
  },
  "Harry Stebbings": {
@@ -4995,13 +4995,13 @@
   "kind": "fund"
  },
  "Heartcore Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 624015,
+  "domain": "heartcore.com",
   "kind": "fund"
  },
  "Heavybit": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 623142,
+  "domain": "heavybit.com",
   "kind": "fund"
  },
  "Hello World (Detroit)": {
@@ -5035,8 +5035,8 @@
   "kind": "fund"
  },
  "Hexa": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 11181903,
+  "domain": "hexa.com",
   "kind": "fund"
  },
  "Hi inov - Dentressangle": {
@@ -5050,8 +5050,8 @@
   "kind": "unknown"
  },
  "High-Tech Grunderfonds": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2161881,
+  "domain": "htgf.de",
   "kind": "fund"
  },
  "Higinio Raventós": {
@@ -5090,8 +5090,8 @@
   "kind": "fund"
  },
  "HTGF | High-Tech Gründerfonds": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2161881,
+  "domain": "htgf.de",
   "kind": "fund"
  },
  "Hudson Cove Capital Management": {
@@ -5135,8 +5135,8 @@
   "kind": "person"
  },
  "i3 Equity Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 676604,
+  "domain": "i3.partners",
   "kind": "fund"
  },
  "IAS Ltd.": {
@@ -5150,8 +5150,8 @@
   "kind": "fund"
  },
  "Ibex Investors": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 661023,
+  "domain": "ibexinvestors.com",
   "kind": "fund"
  },
  "ICEX": {
@@ -5215,8 +5215,8 @@
   "kind": "fund"
  },
  "imec.istart": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1595028,
+  "domain": "imecistart.com",
   "kind": "fund"
  },
  "IMPACT Accelerator – Start, Accelerate. Impact.": {
@@ -5240,13 +5240,13 @@
   "kind": "fund"
  },
  "Index Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 770022,
+  "domain": "indexventures.com",
   "kind": "fund"
  },
  "Industry Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 779024,
+  "domain": "industryventures.com",
   "kind": "fund"
  },
  "infinitas capital": {
@@ -5285,8 +5285,8 @@
   "kind": "unknown"
  },
  "Innovation Fund Denmark": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1501394,
+  "domain": "innovationsfonden.dk",
   "kind": "fund"
  },
  "Innovation Fund of Schwyzer Kantonalbank": {
@@ -5295,13 +5295,13 @@
   "kind": "fund"
  },
  "Innovation Quarter": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1566366,
+  "domain": "innovationquarter.nl",
   "kind": "fund"
  },
  "InnovationQuarter": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1566366,
+  "domain": "innovationquarter.nl",
   "kind": "fund"
  },
  "Innovationsstiftung der SZKB": {
@@ -5315,8 +5315,8 @@
   "kind": "fund"
  },
  "Inovia Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 747249,
+  "domain": "inovia.vc",
   "kind": "fund"
  },
  "Inovo VC": {
@@ -5330,13 +5330,13 @@
   "kind": "fund"
  },
  "Insight Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 695880,
+  "domain": "insightpartners.com",
   "kind": "fund"
  },
  "Insight Venture Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 695880,
+  "domain": "insightpartners.com",
   "kind": "fund"
  },
  "Inter Invest Capital": {
@@ -5350,13 +5350,13 @@
   "kind": "fund"
  },
  "INVENIO Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 49802489,
+  "domain": "invenio.partners",
   "kind": "fund"
  },
  "IQ Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 736386,
+  "domain": "iqcapital.vc",
   "kind": "fund"
  },
  "IQVIA": {
@@ -5365,13 +5365,13 @@
   "kind": "fund"
  },
  "IRDI Capital Investissement": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 718764,
+  "domain": "irdi.fr",
   "kind": "fund"
  },
  "IRIS": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 712666,
+  "domain": "iris.vc",
   "kind": "fund"
  },
  "Iron Nation Fund": {
@@ -5595,13 +5595,13 @@
   "kind": "fund"
  },
  "TLV Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 707127,
+  "domain": "tlv.partners",
   "kind": "fund"
  },
  "Tlv Partners Vc": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 707127,
+  "domain": "tlv.partners",
   "kind": "fund"
  },
  "TMI Investments": {
@@ -5715,8 +5715,8 @@
   "kind": "fund"
  },
  "TriplePoint Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 638929,
+  "domain": "triplepointcapital.com",
   "kind": "fund"
  },
  "True Ventures": {
@@ -5750,8 +5750,8 @@
   "kind": "fund"
  },
  "U.S. Venture Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 683633,
+  "domain": "usvp.com",
   "kind": "fund"
  },
  "UBON PARTNERS": {
@@ -5795,8 +5795,8 @@
   "kind": "fund"
  },
  "Uncork Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 724667,
+  "domain": "uncorkcapital.com",
   "kind": "fund"
  },
  "Uncorrelated": {
@@ -5815,18 +5815,18 @@
   "kind": "fund"
  },
  "UNIIQ - Finance for the Future": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1521330,
+  "domain": "uniiq.nl",
   "kind": "fund"
  },
  "Unilever Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 630550,
+  "domain": "unileverventures.com",
   "kind": "fund"
  },
  "UNIQA Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1498713,
+  "domain": "uniqaventures.com",
   "kind": "fund"
  },
  "United Ventures": {
@@ -5880,8 +5880,8 @@
   "kind": "fund"
  },
  "Valar Ventures LLC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 725534,
+  "domain": "valar.com",
   "kind": "fund"
  },
  "Valentine Baudouin": {
@@ -5895,13 +5895,13 @@
   "kind": "fund"
  },
  "Variant": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1541190,
+  "domain": "variant.fund",
   "kind": "fund"
  },
  "Variant Fund": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1541190,
+  "domain": "variant.fund",
   "kind": "fund"
  },
  "Vasco Pedro": {
@@ -5915,8 +5915,8 @@
   "kind": "fund"
  },
  "Ventech": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 702577,
+  "domain": "ventechvc.com",
   "kind": "fund"
  },
  "Venture Builders": {
@@ -5960,8 +5960,8 @@
   "kind": "fund"
  },
  "Vertex Ventures Israel": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 56706828,
+  "domain": "vertexventures.co.il",
   "kind": "fund"
  },
  "Vertex Ventures US": {
@@ -5970,18 +5970,18 @@
   "kind": "fund"
  },
  "Vertis": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 637610,
+  "domain": "vertis.it",
   "kind": "fund"
  },
  "Vertis SGR": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 637610,
+  "domain": "vertis.it",
   "kind": "fund"
  },
  "Vertis Venture": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 637610,
+  "domain": "vertis.it",
   "kind": "fund"
  },
  "Vesey Ventures": {
@@ -5990,8 +5990,8 @@
   "kind": "fund"
  },
  "Vi Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1520683,
+  "domain": "vipartners.ch",
   "kind": "fund"
  },
  "Via ID": {
@@ -6035,13 +6035,13 @@
   "kind": "fund"
  },
  "Village Global": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 10609193,
+  "domain": "villageglobal.com",
   "kind": "fund"
  },
  "Vintage Investment Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 686006,
+  "domain": "vintage-ip.com",
   "kind": "fund"
  },
  "Vireo Ventures": {
@@ -6055,8 +6055,8 @@
   "kind": "fund"
  },
  "Visionaries": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 691840,
+  "domain": "visionaries.vc",
   "kind": "fund"
  },
  "Visionaries Club": {
@@ -6120,8 +6120,8 @@
   "kind": "person"
  },
  "WaterStart": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 10575425,
+  "domain": "waterstart.com",
   "kind": "fund"
  },
  "Watertower Ventures": {
@@ -6215,13 +6215,13 @@
   "kind": "person"
  },
  "Wing VC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1730395,
+  "domain": "wing.vc",
   "kind": "fund"
  },
  "Wing Venture Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1730395,
+  "domain": "wing.vc",
   "kind": "fund"
  },
  "Wiski Capital": {
@@ -6320,13 +6320,13 @@
   "kind": "fund"
  },
  "Zero Prime": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 20491903,
+  "domain": "zeroprime.vc",
   "kind": "fund"
  },
  "Zero Prime Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 20491903,
+  "domain": "zeroprime.vc",
   "kind": "fund"
  },
  "ZF Group": {
@@ -6370,8 +6370,8 @@
   "kind": "person"
  },
  "Secocha Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 682023,
+  "domain": "secocha.com",
   "kind": "fund"
  },
  "seed + speed Ventures": {
@@ -6382,11 +6382,6 @@
  "SeedBlink": {
   "harmonic_company_id": 1565572,
   "domain": "seedblink.com",
-  "kind": "fund"
- },
- "Seedcamp": {
-  "harmonic_company_id": null,
-  "domain": null,
   "kind": "fund"
  },
  "Seeder Fund": {
@@ -6425,13 +6420,13 @@
   "kind": "fund"
  },
  "Sequoia": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3673701,
+  "domain": "sequoiacap.com",
   "kind": "fund"
  },
  "Sequoia Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3673701,
+  "domain": "sequoiacap.com",
   "kind": "fund"
  },
  "Serban Enache": {
@@ -6450,13 +6445,13 @@
   "kind": "unknown"
  },
  "session": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1504317,
+  "domain": "session.ch",
   "kind": "fund"
  },
  "Session VC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1504317,
+  "domain": "session.ch",
   "kind": "fund"
  },
  "SGH": {
@@ -6475,8 +6470,8 @@
   "kind": "fund"
  },
  "Shape VC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1566416,
+  "domain": "shape.vc",
   "kind": "fund"
  },
  "Shapers": {
@@ -6515,8 +6510,8 @@
   "kind": "fund"
  },
  "SICTIC": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1504240,
+  "domain": "sictic.ch",
   "kind": "fund"
  },
  "SIDE-Capital": {
@@ -6545,8 +6540,8 @@
   "kind": "fund"
  },
  "Silverton Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 666028,
+  "domain": "silvertonpartners.com",
   "kind": "fund"
  },
  "Simon Blakey": {
@@ -6560,8 +6555,8 @@
   "kind": "person"
  },
  "Singular": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1519170,
+  "domain": "singular.vc",
   "kind": "fund"
  },
  "Singular And Cherry Ventures": {
@@ -6580,18 +6575,18 @@
   "kind": "fund"
  },
  "SIX": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 4253958,
+  "domain": "six-group.com",
   "kind": "fund"
  },
  "Sixthirty": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2138307,
+  "domain": "sixthirty.co",
   "kind": "fund"
  },
  "SixThirty Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2138307,
+  "domain": "sixthirty.co",
   "kind": "fund"
  },
  "SKALEPARK": {
@@ -6600,8 +6595,8 @@
   "kind": "fund"
  },
  "Sky9 Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 719304,
+  "domain": "sky9capital.com",
   "kind": "fund"
  },
  "Skyfall": {
@@ -6625,13 +6620,13 @@
   "kind": "unknown"
  },
  "Smartfin": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 641209,
+  "domain": "smartfinvc.com",
   "kind": "fund"
  },
  "SmartFin Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 641209,
+  "domain": "smartfinvc.com",
   "kind": "fund"
  },
  "smartworks innovation": {
@@ -6655,13 +6650,13 @@
   "kind": "fund"
  },
  "Sofinnova Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1428847,
+  "domain": "sofinnovapartners.com",
   "kind": "fund"
  },
  "Soma Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 12967604,
+  "domain": "somacap.com",
   "kind": "fund"
  },
  "Sondo Capital": {
@@ -6690,8 +6685,8 @@
   "kind": "fund"
  },
  "Sozo Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 773269,
+  "domain": "sozoventures.com",
   "kind": "fund"
  },
  "SpaceMaker": {
@@ -6715,8 +6710,8 @@
   "kind": "fund"
  },
  "Speedinvest": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 659412,
+  "domain": "speedinvest.com",
   "kind": "fund"
  },
  "SpinLab - The HHL Accelerator": {
@@ -6890,8 +6885,8 @@
   "kind": "fund"
  },
  "SV Angel": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 638220,
+  "domain": "svangel.com",
   "kind": "fund"
  },
  "Sven-Axel Krentorz": {
@@ -6920,8 +6915,8 @@
   "kind": "fund"
  },
  "Systema Nova": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 11119782,
+  "domain": "systemanova.vc",
   "kind": "fund"
  },
  "Sébastien Pahl": {
@@ -6935,8 +6930,8 @@
   "kind": "fund"
  },
  "Taiwania Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 4431272,
+  "domain": "taiwaniacapital.com",
   "kind": "fund"
  },
  "Talent Kick": {
@@ -6995,8 +6990,8 @@
   "kind": "fund"
  },
  "Tekton Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 604269,
+  "domain": "tektonventures.com",
   "kind": "fund"
  },
  "Ten Eleven Ventures": {
@@ -7020,8 +7015,8 @@
   "kind": "fund"
  },
  "The Climate Pledge": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 6742929,
+  "domain": "theclimatepledge.com",
   "kind": "fund"
  },
  "The Delta": {
@@ -7055,8 +7050,8 @@
   "kind": "unknown"
  },
  "TheVentureCity": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 714595,
+  "domain": "theventure.city",
   "kind": "fund"
  },
  "Thibaud Elziere": {
@@ -7150,23 +7145,23 @@
   "kind": "person"
  },
  "Tin Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1524630,
+  "domain": "tincapital.vc",
   "kind": "fund"
  },
  "TIN Capital | European Cybersecurity Investors": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1524630,
+  "domain": "tincapital.vc",
   "kind": "fund"
  },
  "Cogito Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 720549,
+  "domain": "cogitocap.com",
   "kind": "fund"
  },
  "Cogito Capital Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 720549,
+  "domain": "cogitocap.com",
   "kind": "fund"
  },
  "Coho Deeptech": {
@@ -7200,13 +7195,13 @@
   "kind": "fund"
  },
  "Comcast Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1712956,
+  "domain": "comcastventures.com",
   "kind": "fund"
  },
  "CommerzVentures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 3402936,
+  "domain": "commerzventures.com",
   "kind": "fund"
  },
  "Common Magic": {
@@ -7240,8 +7235,8 @@
   "kind": "person"
  },
  "Concept Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 660525,
+  "domain": "conceptventures.vc",
   "kind": "fund"
  },
  "Conception X": {
@@ -7265,8 +7260,8 @@
   "kind": "fund"
  },
  "Connected Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1537069,
+  "domain": "connectedcapital.nl",
   "kind": "fund"
  },
  "Connecticut Innovations": {
@@ -7290,8 +7285,8 @@
   "kind": "fund"
  },
  "Contour Venture Partners": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 660570,
+  "domain": "contourventures.com",
   "kind": "fund"
  },
  "Contribution": {
@@ -7320,8 +7315,8 @@
   "kind": "fund"
  },
  "Copernicus Incubation": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 11332115,
+  "domain": "copernicus-incubation.eu",
   "kind": "fund"
  },
  "Cornerstone VC": {
@@ -7365,8 +7360,8 @@
   "kind": "fund"
  },
  "Creathor Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 674773,
+  "domain": "creathor.com",
   "kind": "fund"
  },
  "Creator Collective Capital (C3 VC)": {
@@ -7385,8 +7380,8 @@
   "kind": "fund"
  },
  "Credo Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 613206,
+  "domain": "credoventures.com",
   "kind": "fund"
  },
  "Crew Capital": {
@@ -7425,7 +7420,7 @@
   "kind": "fund"
  },
  "Crédit Agricole Création": {
-  "harmonic_company_id": null,
+  "harmonic_company_id": 16773118,
   "domain": null,
   "kind": "fund"
  },
@@ -7485,13 +7480,13 @@
   "kind": "fund"
  },
  "D11Z Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1522258,
+  "domain": "d11z.com",
   "kind": "fund"
  },
  "D11Z. Ventures": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1522258,
+  "domain": "d11z.com",
   "kind": "fund"
  },
  "Dan Cobley": {
@@ -7790,8 +7785,8 @@
   "kind": "fund"
  },
  "DST Global": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 1490163,
+  "domain": "dst-global.com",
   "kind": "fund"
  },
  "DTC Capital": {
@@ -7820,8 +7815,8 @@
   "kind": "fund"
  },
  "Earlybird Venture Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 2141065,
+  "domain": "earlybird.com",
   "kind": "fund"
  },
  "Earth": {
@@ -7835,8 +7830,8 @@
   "kind": "fund"
  },
  "Eastward Capital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 696985,
+  "domain": "eastwardcp.com",
   "kind": "fund"
  },
  "EBRD": {
@@ -7875,8 +7870,8 @@
   "kind": "person"
  },
  "Educapital": {
-  "harmonic_company_id": null,
-  "domain": null,
+  "harmonic_company_id": 10586976,
+  "domain": "educapitalvc.com",
   "kind": "fund"
  },
  "Edward Lando": {
