@@ -31,7 +31,8 @@ def assemble(team):
     if not investors:
         return []
     connections = {int(k): v for k, v in (load_json(f"{ROOT}/data/us/connections.json") or {}).items()}
-    coinvest = {c["name"]: c for c in (load_json(f"{ROOT}/data/us/coinvestments.json") or [])}
+    coinvest = {c["name"]: c for c in (load_json(f"{ROOT}/data/us/coinvestments.json") or [])
+                if isinstance(c, dict) and c.get("name")}  # skip _gaps metadata entries
     affdir = f"{ROOT}/data/us/affinity"
 
     entities = []

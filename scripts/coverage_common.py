@@ -2,7 +2,7 @@
 import json, math, os, re, unicodedata
 from datetime import datetime, timezone
 
-TODAY = datetime(2026, 8, 12, tzinfo=timezone.utc)
+TODAY = datetime.now(timezone.utc)  # recency decay + freshness stamps; CI rebuilds nightly
 AFFINITY_ORG = "highland"  # tenant subdomain per Affinity get_current_user
 EX_STAFF = {"Emily Tan", "Anna Faulkner", "Zina Alfa", "Rachel Barbour-Fowles",
             "Isabel Wright"}
