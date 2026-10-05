@@ -7153,5 +7153,800 @@
   "harmonic_company_id": null,
   "domain": null,
   "kind": "fund"
+ },
+ "Cogito Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Cogito Capital Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Coho Deeptech": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Cold Start": {
+  "harmonic_company_id": 1841086,
+  "domain": "coldstartventures.com",
+  "kind": "fund"
+ },
+ "COLOPL Inc.": {
+  "harmonic_company_id": 1492292,
+  "domain": "colopl.co.jp",
+  "kind": "fund"
+ },
+ "Colopl Next": {
+  "harmonic_company_id": 737231,
+  "domain": "coloplnext.co.jp",
+  "kind": "fund"
+ },
+ "ColoplNext": {
+  "harmonic_company_id": 737231,
+  "domain": "coloplnext.co.jp",
+  "kind": "fund"
+ },
+ "Columbia Lake Partners": {
+  "harmonic_company_id": 1497052,
+  "domain": "clpgrowth.com",
+  "kind": "fund"
+ },
+ "Comcast Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "CommerzVentures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Common Magic": {
+  "harmonic_company_id": 19305673,
+  "domain": "commonmagic.xyz",
+  "kind": "fund"
+ },
+ "Communitas": {
+  "harmonic_company_id": 762643,
+  "domain": "communitascapital.com",
+  "kind": "fund"
+ },
+ "Communitas Capital": {
+  "harmonic_company_id": 762643,
+  "domain": "communitascapital.com",
+  "kind": "fund"
+ },
+ "CoMotion at University of Washington": {
+  "harmonic_company_id": 60080218,
+  "domain": "comotion.uw.edu",
+  "kind": "fund"
+ },
+ "Company Ventures": {
+  "harmonic_company_id": 55725887,
+  "domain": "companyventures.com",
+  "kind": "fund"
+ },
+ "Comron Sattari": {
+  "harmonic_person_id": 217200,
+  "domain": null,
+  "kind": "person"
+ },
+ "Concept Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Conception X": {
+  "harmonic_company_id": 2039208,
+  "domain": "conceptionx.org",
+  "kind": "fund"
+ },
+ "Concrete Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Congruent Ventures": {
+  "harmonic_company_id": 34910,
+  "domain": "congruentvc.com",
+  "kind": "fund"
+ },
+ "Connect Ventures": {
+  "harmonic_company_id": 757966,
+  "domain": "connectventures.co",
+  "kind": "fund"
+ },
+ "Connected Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Connecticut Innovations": {
+  "harmonic_company_id": 756440,
+  "domain": "ctinnovations.com",
+  "kind": "fund"
+ },
+ "Consensys Mesh": {
+  "harmonic_company_id": 1947127,
+  "domain": "mesh.xyz",
+  "kind": "fund"
+ },
+ "Constantin Bisanz": {
+  "harmonic_person_id": 168186095,
+  "domain": null,
+  "kind": "person"
+ },
+ "Construct Capital": {
+  "harmonic_company_id": 706523,
+  "domain": "constructcap.com",
+  "kind": "fund"
+ },
+ "Contour Venture Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Contribution": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Conviction": {
+  "harmonic_company_id": 10412283,
+  "domain": "conviction.com",
+  "kind": "fund"
+ },
+ "Conviction Capital": {
+  "harmonic_company_id": 3701212,
+  "domain": "conviction-capital.com",
+  "kind": "fund"
+ },
+ "Conzzeta": {
+  "harmonic_company_id": 22462449,
+  "domain": "conzzeta.ch",
+  "kind": "fund"
+ },
+ "COOL SOLUTION REFRIGERATION LIMITED": {
+  "harmonic_company_id": 16535418,
+  "domain": "cool-solution.co.uk",
+  "kind": "fund"
+ },
+ "Copernicus Incubation": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Cornerstone VC": {
+  "harmonic_company_id": 10702215,
+  "domain": "cornerstonevc.co",
+  "kind": "fund"
+ },
+ "CosmiCapital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Court W.": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Craig Courtemanche": {
+  "harmonic_person_id": 56709326,
+  "domain": null,
+  "kind": "person"
+ },
+ "Crane Earth": {
+  "harmonic_company_id": 14412263,
+  "domain": "craneearth.vc",
+  "kind": "fund"
+ },
+ "Crane Venture Partners": {
+  "harmonic_company_id": 708905,
+  "domain": "crane.vc",
+  "kind": "fund"
+ },
+ "CRE Venture Capital": {
+  "harmonic_company_id": 1503972,
+  "domain": "cre.vc",
+  "kind": "fund"
+ },
+ "Creandum": {
+  "harmonic_company_id": 639148,
+  "domain": "creandum.com",
+  "kind": "fund"
+ },
+ "Creathor Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Creator Collective Capital (C3 VC)": {
+  "harmonic_company_id": 4169073,
+  "domain": "c3.vc",
+  "kind": "fund"
+ },
+ "Credia Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Credit Mutuel Arkea": {
+  "harmonic_company_id": 426766,
+  "domain": "cm-arkea.com",
+  "kind": "fund"
+ },
+ "Credo Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Crew Capital": {
+  "harmonic_company_id": 3410015,
+  "domain": "crew.vc",
+  "kind": "fund"
+ },
+ "Crowdcube": {
+  "harmonic_company_id": 646222,
+  "domain": "crowdcube.com",
+  "kind": "fund"
+ },
+ "CRV": {
+  "harmonic_company_id": 609986,
+  "domain": "crv.com",
+  "kind": "fund"
+ },
+ "Crédit Agricole Assurances": {
+  "harmonic_company_id": 491530,
+  "domain": "ca-assurances.com",
+  "kind": "fund"
+ },
+ "Crédit Agricole Capital Innovation": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Crédit Agricole Centre France": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Crédit Agricole CIB": {
+  "harmonic_company_id": 196966,
+  "domain": "ca-cib.com",
+  "kind": "fund"
+ },
+ "Crédit Agricole Création": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Crédit Agricole Nord de France": {
+  "harmonic_company_id": 3409060,
+  "domain": "ca-norddefrance.fr",
+  "kind": "fund"
+ },
+ "Crédit Mutuel Arkéa": {
+  "harmonic_company_id": 426766,
+  "domain": "cm-arkea.com",
+  "kind": "fund"
+ },
+ "CSC Upshot Ventures": {
+  "harmonic_company_id": 702984,
+  "domain": "csc-upshot.vc",
+  "kind": "fund"
+ },
+ "Cuanimen": {
+  "harmonic_company_id": 1775586,
+  "domain": "cuanimen.com",
+  "kind": "fund"
+ },
+ "Cur8 Capital": {
+  "harmonic_company_id": 6645916,
+  "domain": "cur8.capital",
+  "kind": "fund"
+ },
+ "CuriOrbit": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Curtis Scott": {
+  "harmonic_person_id": 362971,
+  "domain": null,
+  "kind": "person"
+ },
+ "Cyber Mentor Fund": {
+  "harmonic_company_id": 1524152,
+  "domain": "cybermentorfund.com",
+  "kind": "fund"
+ },
+ "Cyberstarts": {
+  "harmonic_company_id": 619233,
+  "domain": "cyberstarts.com",
+  "kind": "fund"
+ },
+ "CyLon": {
+  "harmonic_company_id": 633785,
+  "domain": "cylonventures.com",
+  "kind": "fund"
+ },
+ "D-Novafund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "D11Z Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "D11Z. Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Dan Cobley": {
+  "harmonic_person_id": 13932,
+  "domain": null,
+  "kind": "person"
+ },
+ "Daniel Dines": {
+  "harmonic_person_id": 10094,
+  "domain": null,
+  "kind": "person"
+ },
+ "Daniel Gutenberg": {
+  "harmonic_person_id": 19269,
+  "domain": null,
+  "kind": "person"
+ },
+ "Daniel Pilotti": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Daniel Sauter": {
+  "harmonic_person_id": 65428185,
+  "domain": null,
+  "kind": "person"
+ },
+ "DARUAN Venture Capital SCR.": {
+  "harmonic_company_id": 621062,
+  "domain": "daruanvc.com",
+  "kind": "fund"
+ },
+ "Databricks": {
+  "harmonic_company_id": 4297805,
+  "domain": "databricks.com",
+  "kind": "fund"
+ },
+ "Databricks Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Datadog": {
+  "harmonic_company_id": 70604,
+  "domain": "datadoghq.com",
+  "kind": "fund"
+ },
+ "David Clarke": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "David M. Wyler": {
+  "harmonic_person_id": 14773,
+  "domain": null,
+  "kind": "person"
+ },
+ "David Vermeulen": {
+  "harmonic_person_id": 144766888,
+  "domain": null,
+  "kind": "person"
+ },
+ "David Wascha": {
+  "harmonic_person_id": 77717,
+  "domain": null,
+  "kind": "person"
+ },
+ "David Wiltshire": {
+  "harmonic_person_id": 180848885,
+  "domain": null,
+  "kind": "person"
+ },
+ "David Wyler": {
+  "harmonic_person_id": 14773,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dawn Capital": {
+  "harmonic_company_id": 737526,
+  "domain": "dawncapital.com",
+  "kind": "fund"
+ },
+ "DBIC Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "DCF Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "DCF Group": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "DCG": {
+  "harmonic_company_id": 3176797,
+  "domain": "dcg.co",
+  "kind": "fund"
+ },
+ "Dcode Capital": {
+  "harmonic_company_id": 3185402,
+  "domain": "dcodecapital.com",
+  "kind": "fund"
+ },
+ "Debiopharm": {
+  "harmonic_company_id": 1527912,
+  "domain": "debiopharm.com",
+  "kind": "fund"
+ },
+ "Decelera": {
+  "harmonic_company_id": 4383335,
+  "domain": "decelera.ventures",
+  "kind": "fund"
+ },
+ "Deel": {
+  "harmonic_company_id": 966,
+  "domain": "deel.com",
+  "kind": "fund"
+ },
+ "Deep Checks": {
+  "harmonic_company_id": 12525518,
+  "domain": "deepchecks.vc",
+  "kind": "fund"
+ },
+ "Demeter": {
+  "harmonic_company_id": 739905,
+  "domain": "demeter-im.com",
+  "kind": "fund"
+ },
+ "Demis Hassabis": {
+  "harmonic_person_id": 9798,
+  "domain": null,
+  "kind": "person"
+ },
+ "Denis Duverne": {
+  "harmonic_person_id": 27882,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dennis Goedegebuure": {
+  "harmonic_person_id": 179638769,
+  "domain": null,
+  "kind": "person"
+ },
+ "Des Traynor": {
+  "harmonic_person_id": 10095,
+  "domain": null,
+  "kind": "person"
+ },
+ "Desafía San Francisco": {
+  "harmonic_company_id": 744114,
+  "domain": "sanfrancisco.desafia.gob.es",
+  "kind": "fund"
+ },
+ "Designer Fund": {
+  "harmonic_company_id": 758190,
+  "domain": "designerfund.com",
+  "kind": "fund"
+ },
+ "Deus X Capital": {
+  "harmonic_company_id": 36992955,
+  "domain": "deusx.capital",
+  "kind": "fund"
+ },
+ "Dev Subrata": {
+  "harmonic_person_id": 166695890,
+  "domain": null,
+  "kind": "person"
+ },
+ "DHS Venture Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Dhyan ventures": {
+  "harmonic_company_id": 63632153,
+  "domain": "dhyan.vc",
+  "kind": "fund"
+ },
+ "Didier Valet": {
+  "harmonic_person_id": 49440,
+  "domain": null,
+  "kind": "person"
+ },
+ "Diego Piacentini": {
+  "harmonic_person_id": 26995,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dieter von Holtzbrinck Ventures": {
+  "harmonic_company_id": 1504865,
+  "domain": "dvhventures.de",
+  "kind": "fund"
+ },
+ "Diffusion Capital Partners": {
+  "harmonic_company_id": 1508941,
+  "domain": "dcp.vc",
+  "kind": "fund"
+ },
+ "DIGITAL": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Digital Currency": {
+  "harmonic_company_id": 3176797,
+  "domain": "dcg.co",
+  "kind": "fund"
+ },
+ "Dimitri Sirota": {
+  "harmonic_person_id": 115836,
+  "domain": null,
+  "kind": "person"
+ },
+ "Diogo Mónica": {
+  "harmonic_person_id": 33161,
+  "domain": null,
+  "kind": "person"
+ },
+ "Discovery Ventures": {
+  "harmonic_company_id": 4039341,
+  "domain": "discovery-ventures.com",
+  "kind": "fund"
+ },
+ "Discovery Ventures Inc.": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Dogpatch Labs": {
+  "harmonic_company_id": 610712,
+  "domain": "dogpatchlabs.com",
+  "kind": "fund"
+ },
+ "Dominic McGregor": {
+  "harmonic_person_id": 49495,
+  "domain": null,
+  "kind": "person"
+ },
+ "Downing": {
+  "harmonic_company_id": 1723742,
+  "domain": "institutional.downing.co.uk",
+  "kind": "fund"
+ },
+ "Dr. Andreas Hettich": {
+  "harmonic_person_id": 16443164,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dr. Andreas Neuber": {
+  "harmonic_person_id": 362974,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dr. Cornelius Boersch": {
+  "harmonic_person_id": 24615,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dr. Leopold von Schlenk-Barnsdorf": {
+  "harmonic_person_id": 194597067,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dr. Maximilian Lude": {
+  "harmonic_person_id": 8785882,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dr. Stephan Rohr": {
+  "harmonic_person_id": 157963452,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dr. Tobias Reichmuth": {
+  "harmonic_person_id": 241256,
+  "domain": null,
+  "kind": "person"
+ },
+ "Draper Esprit": {
+  "harmonic_company_id": 756071,
+  "domain": "moltenventures.com",
+  "kind": "fund"
+ },
+ "DRW": {
+  "harmonic_company_id": 74966,
+  "domain": "drw.com",
+  "kind": "fund"
+ },
+ "Drysdale Ventures": {
+  "harmonic_company_id": 61867641,
+  "domain": "drysdale.vc",
+  "kind": "fund"
+ },
+ "DST Global": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "DTC Capital": {
+  "harmonic_company_id": 1528087,
+  "domain": "dtc.capital",
+  "kind": "fund"
+ },
+ "DTC Ventures": {
+  "harmonic_company_id": 3866549,
+  "domain": "dtc-ventures.com",
+  "kind": "fund"
+ },
+ "DVC": {
+  "harmonic_company_id": 4159945,
+  "domain": "dvc.ai",
+  "kind": "fund"
+ },
+ "Dylan Field": {
+  "harmonic_person_id": 111220758,
+  "domain": null,
+  "kind": "person"
+ },
+ "Dynamo Ventures": {
+  "harmonic_company_id": 625703,
+  "domain": "dynamo.vc",
+  "kind": "fund"
+ },
+ "Earlybird Venture Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Earth": {
+  "harmonic_company_id": 14412263,
+  "domain": "craneearth.vc",
+  "kind": "fund"
+ },
+ "Eastate": {
+  "harmonic_company_id": 1524794,
+  "domain": "eastate.se",
+  "kind": "fund"
+ },
+ "Eastward Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "EBRD": {
+  "harmonic_company_id": 38846608,
+  "domain": "ebrd.md",
+  "kind": "fund"
+ },
+ "EBRD VC": {
+  "harmonic_company_id": 1729261,
+  "domain": "ebrdvcip.com",
+  "kind": "fund"
+ },
+ "ECBF VC": {
+  "harmonic_company_id": 3112148,
+  "domain": "ecbf.vc",
+  "kind": "fund"
+ },
+ "Edison Partners": {
+  "harmonic_company_id": 732129,
+  "domain": "edisonpartners.com",
+  "kind": "fund"
+ },
+ "Edison Venture Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Edison.vc is under construction.": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Eduardo Salvo": {
+  "harmonic_person_id": 188442173,
+  "domain": null,
+  "kind": "person"
+ },
+ "Educapital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Edward Lando": {
+  "harmonic_person_id": 5483,
+  "domain": null,
+  "kind": "person"
+ },
+ "EIC Accelerator": {
+  "harmonic_company_id": 3627123,
+  "domain": null,
+  "kind": "fund"
+ },
+ "EIC Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Eight Capital Management": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Eight Roads": {
+  "harmonic_company_id": 712836,
+  "domain": "eightroads.com",
+  "kind": "fund"
+ },
+ "Eight Roads Ventures": {
+  "harmonic_company_id": 712836,
+  "domain": "eightroads.com",
+  "kind": "fund"
+ },
+ "EIT Health": {
+  "harmonic_company_id": 2163367,
+  "domain": "eithealth.eu",
+  "kind": "fund"
+ },
+ "EIT InnoEnergy": {
+  "harmonic_company_id": 2260471,
+  "domain": "innoenergy.com",
+  "kind": "fund"
+ },
+ "Elad Gil": {
+  "harmonic_person_id": 8342,
+  "domain": null,
+  "kind": "person"
+ },
+ "Elaia": {
+  "harmonic_company_id": 720657,
+  "domain": "elaia.com",
+  "kind": "fund"
+ },
+ "Elaia Partners": {
+  "harmonic_company_id": 720657,
+  "domain": "elaia.com",
+  "kind": "fund"
+ },
+ "Elaia Ventures": {
+  "harmonic_company_id": 720657,
+  "domain": "elaia.com",
+  "kind": "fund"
+ },
+ "Elephant": {
+  "harmonic_company_id": 674747,
+  "domain": "elephantvc.com",
+  "kind": "fund"
+ },
+ "Elephant Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Elevation Capital Partners": {
+  "harmonic_company_id": 1563078,
+  "domain": "elevation-cp.com",
+  "kind": "fund"
  }
 }
