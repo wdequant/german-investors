@@ -546,7 +546,7 @@ function bridgeLines(e){
   return (e.bridges||[]).slice(0,2).map(b=>
     `<span class="pt bridge">↪ via <b>${b.name}</b> <span class="via">(${b.internal}${b.pct!=null?' · '+b.pct+'%':''})</span></span>`);
 }
-const ufBadge = s => s==null?'':` <span class="ufb ${s>=85?'hi':s>=70?'mid':'lo'}" title="Unframe brain score ${Math.round(s)}/100">${Math.round(s)}</span>`;
+const ufBadge = s => s==null?'':` <span class="ufb ${s>=85?'hi':s>=70?'mid':'lo'}" title="Unframe combined priority ${Math.round(s)}/100">${Math.round(s)}</span>`;
 const AVI_COLORS=['#2733f0','#0e7a4a','#a05a00','#7a2e8a','#b3403a','#11607a','#5a5a2e','#8a2e55'];
 const avi = n => {
   const init=(n||'').split(' ').filter(Boolean).map(w=>w[0]).slice(0,2).join('').toUpperCase();
@@ -1301,7 +1301,7 @@ function tipRel(e){
     Syndication with funds we cover <b>${r.synd}</b><br>
     Presence on our pipeline cap tables <b>${r.pipe}</b>
     <div class="tf">How upstream this angel is for Highland: how much they invest, how well it turns out, and how often it lands in front of us</div>`;
-  const uf = r.unframe!=null ? `<br><b>Portfolio quality (Unframe) ${r.unframe}/40</b> <span style="color:var(--muted)">— ${(e.uf||{}).high||0} backed companies scoring ≥85, top-10 avg ${(e.uf||{}).avg10||0}</span>` : '';
+  const uf = r.unframe!=null ? `<br><b>Portfolio quality (Unframe) ${r.unframe}/40</b> <span style="color:var(--muted)">— ${(e.uf||{}).high||0} backed companies with combined priority ≥85, top-10 avg ${(e.uf||{}).avg10||0}</span>` : '';
   const thesis = r.thesis!=null ? `Thesis fit ${r.thesis}/100 × 0.6:<br>` : '';
   return `<div class="th">Relevance ${r.total}/100${r.unframe!=null?' — thesis × Unframe blend':''}</div>
     ${thesis}Stage fit <b>${r.stage}</b>/25 · Sector fit <b>${r.sector}</b>/25<br>

@@ -97,7 +97,18 @@ for key, cfg in REGION_CFG.items():
     attach_dealflow(ents, load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}), aff_dump)
     htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
                                      htc_owners)
-    # Unframe brain scores: portfolio quality drives relevance; per-company badges
+    # Unframe combined priority: brain score blended equally with note priority and
+    # note sentiment (Unframe's documented combined_priority definition); companies
+    # without notes rank on brain score alone. Drives relevance + per-company badges.
+    def _combined(c):
+        parts = [min(1.0, (c.get("score") or 0) / 100.0)]
+        if c.get("notesPriority") is not None:
+            parts.append(min(1.0, c["notesPriority"] / 5.0))
+        v = (c.get("verdict") or "").lower()
+        if v in ("positive", "negative", "neutral"):
+            parts.append(1.0 if v == "positive" else 0.5 if v == "neutral" else 0.0)
+        return round(100.0 * sum(parts) / len(parts), 1)
+
     uf_data = load_json(f"{ROOT}/data/enrich/unframe-{key}.json", {}) or {}
     uf_hit = 0
     for e in ents:
@@ -105,7 +116,9 @@ for key, cfg in REGION_CFG.items():
             continue
         d = uf_data.get(e["slug"]) or {}
         comps = [c for c in (d.get("companies") or []) if c.get("score")]
-        scores = sorted((c["score"] for c in comps), reverse=True)
+        for c in comps:
+            c["combined"] = _combined(c)
+        scores = sorted((c["combined"] for c in comps), reverse=True)
         high = sum(1 for s in scores if s >= 85)
         avg10 = sum(scores[:10]) / min(10, len(scores)) if scores else 0.0
         pts = min(25.0, high * 2.5) + 15.0 * avg10 / 100.0
@@ -116,8 +129,8 @@ for key, cfg in REGION_CFG.items():
             r["thesis"] = r["total"]
             r["unframe"] = round(pts, 1)
             r["total"] = round(0.6 * r["total"] + pts)
-        bydom = {(c.get("domain") or "").lower(): c["score"] for c in comps if c.get("domain")}
-        byname = {(c.get("name") or "").lower(): c["score"] for c in comps if c.get("name")}
+        bydom = {(c.get("domain") or "").lower(): c["combined"] for c in comps if c.get("domain")}
+        byname = {(c.get("name") or "").lower(): c["combined"] for c in comps if c.get("name")}
         stamp = lambda o: bydom.get((o.get("domain") or "").lower()) or byname.get((o.get("name") or "").lower())
         for lst in e["buckets"].values():
             for p in lst:
