@@ -192,6 +192,120 @@ for key, cfg in REGION_CFG.items():
                     "ufHigh": len(uf_high_set),
                     "htc": build_htc(ents, htc_owners)}
 
+# ---------- global post-pass: cross-region H2C paths, global Unframe index, cities ----------
+from coverage_common import FUND_ALIASES as _FA, _nrm_inv as _ni, GENERIC_SUFFIX as _GS
+
+
+def _combined_g(c):
+    parts = [min(1.0, (c.get("score") or 0) / 100.0)]
+    if c.get("notesPriority") is not None:
+        parts.append(min(1.0, c["notesPriority"] / 5.0))
+    v = (c.get("verdict") or "").lower()
+    if v in ("positive", "negative", "neutral"):
+        parts.append(1.0 if v == "positive" else 0.5 if v == "neutral" else 0.0)
+    return round(100.0 * sum(parts) / len(parts), 1)
+
+
+# global Unframe combined-priority index (domain + name), across every region's sweep
+_uf_dom, _uf_name = {}, {}
+for _k in REGION_CFG:
+    for _slug, _d in (load_json(f"{ROOT}/data/enrich/unframe-{_k}.json", {}) or {}).items():
+        for _c in (_d.get("companies") or []) if isinstance(_d, dict) else []:
+            if not _c.get("score"):
+                continue
+            _sc = _combined_g(_c)
+            if _c.get("domain"):
+                _uf_dom[_c["domain"].lower()] = max(_sc, _uf_dom.get(_c["domain"].lower(), 0))
+            if _c.get("name"):
+                _uf_name[_c["name"].lower()] = max(_sc, _uf_name.get(_c["name"].lower(), 0))
+_uf_of = lambda o: (_uf_dom.get((o.get("domain") or "").lower().removeprefix("www."))
+                    or _uf_name.get((o.get("name") or "").lower()))
+
+# city stamp for pipeline + H2C companies (data/enrich/company-cities.json, Harmonic backfill)
+_cities = load_json(f"{ROOT}/data/enrich/company-cities.json", {}) or {}
+_city_of = lambda o: _cities.get((o.get("domain") or "").lower().removeprefix("www."))
+
+# alias index over every entity in every region, for global cap-table matching
+_alias2ent = {}
+for _k, _reg in regions.items():
+    for _e in _reg["entities"]:
+        _als = {_ni(_e["name"])}
+        if _e["kind"] == "fund":
+            _als |= {_ni(a) for a in _FA.get(_e["slug"], [])}
+            _w = _ni(_e["name"]).split()
+            if len(_w) > 1 and _w[-1] in _GS:
+                _als.add(" ".join(_w[:-1]))
+        for _a in _als:
+            if _a:
+                _alias2ent.setdefault(_a, []).append((_k, _e))
+
+_captables = load_json(f"{ROOT}/data/enrich/htc-captables.json", {}) or {}
+_xreg = 0
+for _k, _reg in regions.items():
+    for _c in _reg["htc"]:
+        _c["uf"] = _uf_of(_c)
+        _c["city"] = _city_of(_c)
+        for _i in _c["investors"]:
+            _i["region"] = _k
+        _have = {_i["slug"] for _i in _c["investors"]}
+        _cap = _captables.get(str(_c["id"])) or {}
+        _others = []
+        for _inv in _cap.get("investors") or []:
+            _niv = _ni(_inv)
+            if not _niv:
+                continue
+            _best = None
+            for _a, _ents in _alias2ent.items():
+                if (_niv == _a or (_niv.startswith(_a + " ") and len(_a.split()) >= 2)) \
+                        and (_best is None or len(_a) > len(_best[0])):
+                    _best = (_a, _ents)
+            if not _best:
+                _others.append(_inv)
+                continue
+            for _rk, _e in _best[1]:
+                if _e["slug"] in _have:
+                    continue
+                _have.add(_e["slug"])
+                _paths = [{"internal": pt["internal"], "external": pt.get("external"),
+                           "pct": pt.get("pct"), "moved": pt.get("moved"),
+                           "unverified": pt.get("unverified"), "email": pt.get("email")}
+                          for pt in (_e.get("points") or [])[:3]]
+                _c["investors"].append({"name": _e["name"], "slug": _e["slug"],
+                                        "kind": _e["kind"], "tier": _e["tier"],
+                                        "region": _rk, "best": _paths[0] if _paths else None,
+                                        "paths": _paths})
+                _xreg += 1
+        # drop 'others' that are really a matched investor under another spelling,
+        # then dedupe near-identical backer names (Sequoia vs Sequoia Capital)
+        _mn = {_ni(i["name"]) for i in _c["investors"]}
+        _others = [o for o in _others
+                   if not any(_ni(o) == m or _ni(o).startswith(m + " ") or m.startswith(_ni(o) + " ")
+                              for m in _mn)]
+        _c["others"] = sorted({o for o in _others
+                               if not any(_ni(o) != _ni(p) and _ni(o) in _ni(p) for p in _others)})[:8]
+        _c["investors"].sort(key=lambda i: -(((i.get("best") or {}).get("pct")) or 0))
+        _c["reachable"] = any(i.get("best") for i in _c["investors"])
+    _reg["htc"].sort(key=lambda c: (-(c.get("uf") or 0), -c["reachable"], -len(c["investors"])))
+
+# global fallback stamping: score + city on every pipeline entry
+_gstamp = _cstamp = 0
+for _k, _reg in regions.items():
+    for _e in _reg["entities"]:
+        for _lst in _e["buckets"].values():
+            for _p in _lst:
+                if _p.get("uf") is None:
+                    _sc = _uf_of(_p)
+                    if _sc:
+                        _p["uf"] = _sc
+                        _gstamp += 1
+                if _p.get("city") is None:
+                    _ct = _city_of(_p)
+                    if _ct:
+                        _p["city"] = _ct
+                        _cstamp += 1
+print(f"global pass: +{_xreg} cross-region H2C links, +{_gstamp} unframe stamps, "
+      f"+{_cstamp} city stamps ({len(_cities)} cities known)")
+
 _spec = _ilu.spec_from_file_location("coverage_template",
         os.path.join(os.path.dirname(os.path.abspath(__file__)), "coverage_template.py"))
 _tpl = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_tpl)
