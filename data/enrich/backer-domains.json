@@ -6358,5 +6358,800 @@
   "harmonic_company_id": null,
   "domain": null,
   "kind": "fund"
+ },
+ "Sebastian Knutsson": {
+  "harmonic_person_id": 168205136,
+  "domain": null,
+  "kind": "person"
+ },
+ "Secocha Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "seed + speed Ventures": {
+  "harmonic_company_id": 1512127,
+  "domain": "seedandspeed.com",
+  "kind": "fund"
+ },
+ "SeedBlink": {
+  "harmonic_company_id": 1565572,
+  "domain": "seedblink.com",
+  "kind": "fund"
+ },
+ "Seedcamp": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Seeder Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SeedInvest": {
+  "harmonic_company_id": 49374301,
+  "domain": "seedinvest.com",
+  "kind": "fund"
+ },
+ "Selfco": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Semantic": {
+  "harmonic_company_id": 1400342,
+  "domain": "semantic.vc",
+  "kind": "fund"
+ },
+ "Semantic.vc": {
+  "harmonic_company_id": 1400342,
+  "domain": "semantic.vc",
+  "kind": "fund"
+ },
+ "SemperVirens VC": {
+  "harmonic_company_id": 655899,
+  "domain": "sempervirensvc.com",
+  "kind": "fund"
+ },
+ "sennder": {
+  "harmonic_company_id": 4295265,
+  "domain": "sennder.com",
+  "kind": "fund"
+ },
+ "Sequoia": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sequoia Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Serban Enache": {
+  "harmonic_person_id": 179640168,
+  "domain": null,
+  "kind": "person"
+ },
+ "Serena": {
+  "harmonic_company_id": 940948,
+  "domain": "serena.vc",
+  "kind": "fund"
+ },
+ "Servicetech Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "session": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Session VC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SGH": {
+  "harmonic_company_id": 31124506,
+  "domain": "sghcapital.com",
+  "kind": "fund"
+ },
+ "Shane Curran": {
+  "harmonic_person_id": 32489,
+  "domain": null,
+  "kind": "person"
+ },
+ "SHAPE Capital Partners": {
+  "harmonic_company_id": 61991253,
+  "domain": "shapecapital.com",
+  "kind": "fund"
+ },
+ "Shape VC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Shapers": {
+  "harmonic_company_id": 44255064,
+  "domain": "shapers.com",
+  "kind": "fund"
+ },
+ "Shawn Harris": {
+  "harmonic_person_id": 166615055,
+  "domain": null,
+  "kind": "person"
+ },
+ "Shay Banon": {
+  "harmonic_person_id": 220076,
+  "domain": null,
+  "kind": "person"
+ },
+ "Shearwater Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Shilling Capital Partners": {
+  "harmonic_company_id": 2182898,
+  "domain": "shilling.vc",
+  "kind": "fund"
+ },
+ "Shilling VC": {
+  "harmonic_company_id": 2182898,
+  "domain": "shilling.vc",
+  "kind": "fund"
+ },
+ "Shorooq": {
+  "harmonic_company_id": 34669,
+  "domain": "shorooq.com",
+  "kind": "fund"
+ },
+ "SICTIC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SIDE-Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SideAngels": {
+  "harmonic_company_id": 30823867,
+  "domain": "sideangels.com",
+  "kind": "fund"
+ },
+ "Silicon Valley Bank": {
+  "harmonic_company_id": 2163604,
+  "domain": "svb.com",
+  "kind": "fund"
+ },
+ "Silverline Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Silvertech Ventures": {
+  "harmonic_company_id": 77369127,
+  "domain": "silvertechventures.com",
+  "kind": "fund"
+ },
+ "Silverton Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Simon Blakey": {
+  "harmonic_person_id": 10277,
+  "domain": null,
+  "kind": "person"
+ },
+ "Simone Rüschenberg": {
+  "harmonic_person_id": 313385,
+  "domain": null,
+  "kind": "person"
+ },
+ "Singular": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Singular And Cherry Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Singular And Seedcamp": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "SIVentures (prev. Smart Infrastructure Ventures)": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SIX": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sixthirty": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SixThirty Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SKALEPARK": {
+  "harmonic_company_id": 3066446,
+  "domain": "skalepark.com",
+  "kind": "fund"
+ },
+ "Sky9 Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Skyfall": {
+  "harmonic_company_id": 1541191,
+  "domain": "skyfall.vc",
+  "kind": "fund"
+ },
+ "Skyfall Ventures": {
+  "harmonic_company_id": 1541191,
+  "domain": "skyfall.vc",
+  "kind": "fund"
+ },
+ "Skyscanner": {
+  "harmonic_company_id": 1677789,
+  "domain": "skyscanner.com",
+  "kind": "fund"
+ },
+ "Smart Energy Innovationsfonds": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Smartfin": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SmartFin Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "smartworks innovation": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Snyk": {
+  "harmonic_company_id": 119593,
+  "domain": "snyk.io",
+  "kind": "fund"
+ },
+ "Societe Generale Capital Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SOFIMAC INVESTMENT MANAGERS": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sofinnova Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Soma Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sondo Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sopra Steria Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sound Ventures": {
+  "harmonic_company_id": 739477,
+  "domain": "soundventures.com",
+  "kind": "fund"
+ },
+ "South Park Commons": {
+  "harmonic_company_id": 642266,
+  "domain": "southparkcommons.com",
+  "kind": "fund"
+ },
+ "Sova Capital": {
+  "harmonic_company_id": 4251875,
+  "domain": "sovacapital.com",
+  "kind": "fund"
+ },
+ "Sozo Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SpaceMaker": {
+  "harmonic_company_id": 32208448,
+  "domain": "spacemaker.ai",
+  "kind": "fund"
+ },
+ "Spark Capital": {
+  "harmonic_company_id": 751925,
+  "domain": "sparkcapital.com",
+  "kind": "fund"
+ },
+ "Sparked Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Speechly (acquired by Roblox)": {
+  "harmonic_company_id": 1997562,
+  "domain": "speechly.com",
+  "kind": "fund"
+ },
+ "Speedinvest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SpinLab - The HHL Accelerator": {
+  "harmonic_company_id": 1596444,
+  "domain": "spinlab.co",
+  "kind": "fund"
+ },
+ "Spintop Ventures": {
+  "harmonic_company_id": 1502692,
+  "domain": "spintopventures.com",
+  "kind": "fund"
+ },
+ "Spore.Bio": {
+  "harmonic_company_id": 11676927,
+  "domain": "spore.bio",
+  "kind": "fund"
+ },
+ "Spotify": {
+  "harmonic_company_id": 3177356,
+  "domain": "lifeatspotify.com",
+  "kind": "fund"
+ },
+ "SSE Ventures": {
+  "harmonic_company_id": 12785408,
+  "domain": "ssebl.com",
+  "kind": "fund"
+ },
+ "Start Capital": {
+  "harmonic_company_id": 1508663,
+  "domain": "start-capital.com",
+  "kind": "fund"
+ },
+ "Startmate": {
+  "harmonic_company_id": 669179,
+  "domain": "startmate.com",
+  "kind": "fund"
+ },
+ "Startup Capital Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Startup Fast Scaling": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Startup Leadership": {
+  "harmonic_company_id": 11173331,
+  "domain": "startupleadership.ru",
+  "kind": "fund"
+ },
+ "Startupbootcamp": {
+  "harmonic_company_id": 1758580,
+  "domain": "startupbootcamp.org",
+  "kind": "fund"
+ },
+ "Station F": {
+  "harmonic_company_id": 474415,
+  "domain": "stationf.co",
+  "kind": "fund"
+ },
+ "Stefan Krook": {
+  "harmonic_person_id": 217750,
+  "domain": null,
+  "kind": "person"
+ },
+ "Stefan Mueller": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Stefan Müller": {
+  "harmonic_person_id": 45731196,
+  "domain": null,
+  "kind": "person"
+ },
+ "Steffen Tjerrild": {
+  "harmonic_person_id": 179581612,
+  "domain": null,
+  "kind": "person"
+ },
+ "Stephens Production Company": {
+  "harmonic_company_id": 35209443,
+  "domain": "stephenspro.com",
+  "kind": "fund"
+ },
+ "StepStone": {
+  "harmonic_company_id": 737989,
+  "domain": "stepstonegroup.com",
+  "kind": "fund"
+ },
+ "StepStone Group": {
+  "harmonic_company_id": 737989,
+  "domain": "stepstonegroup.com",
+  "kind": "fund"
+ },
+ "Sterling Road": {
+  "harmonic_company_id": 776409,
+  "domain": "sterlingroad.com",
+  "kind": "fund"
+ },
+ "Steve Garnett": {
+  "harmonic_person_id": 22041,
+  "domain": null,
+  "kind": "person"
+ },
+ "Steve Kaufer": {
+  "harmonic_person_id": 253671,
+  "domain": null,
+  "kind": "person"
+ },
+ "Steve Schlafman": {
+  "harmonic_person_id": 20429,
+  "domain": null,
+  "kind": "person"
+ },
+ "Stewart Butterfield": {
+  "harmonic_person_id": 8926,
+  "domain": null,
+  "kind": "person"
+ },
+ "Stewart Butterfield (angel)": {
+  "harmonic_person_id": 8926,
+  "domain": null,
+  "kind": "person"
+ },
+ "Stonebridge": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Strada Education Foundation": {
+  "harmonic_company_id": 34505988,
+  "domain": "strada.org",
+  "kind": "fund"
+ },
+ "Stripe": {
+  "harmonic_company_id": 142540,
+  "domain": "stripe.com",
+  "kind": "fund"
+ },
+ "Summiteer": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sundance Growth": {
+  "harmonic_company_id": 59291870,
+  "domain": "sundancegrowth.com",
+  "kind": "fund"
+ },
+ "Supabase": {
+  "harmonic_company_id": 792612,
+  "domain": "supabase.com",
+  "kind": "fund"
+ },
+ "Susa Ventures": {
+  "harmonic_company_id": 647962,
+  "domain": "susaventures.com",
+  "kind": "fund"
+ },
+ "Sustainable Forward Capital (SFC VC)": {
+  "harmonic_company_id": 58681083,
+  "domain": "sfcvc.com",
+  "kind": "fund"
+ },
+ "Sustainable Forward Capital Fund": {
+  "harmonic_company_id": 58681083,
+  "domain": "sfcvc.com",
+  "kind": "fund"
+ },
+ "SV Angel": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sven-Axel Krentorz": {
+  "harmonic_person_id": 57854896,
+  "domain": null,
+  "kind": "person"
+ },
+ "SWEN Capital Partners": {
+  "harmonic_company_id": 1503955,
+  "domain": "swen-cp.fr",
+  "kind": "fund"
+ },
+ "SwissHealth Ventures": {
+  "harmonic_company_id": 60099392,
+  "domain": "swisshealth.vc",
+  "kind": "fund"
+ },
+ "Sydney Angels": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Syndicate One": {
+  "harmonic_company_id": 3614984,
+  "domain": "syndicate.one",
+  "kind": "fund"
+ },
+ "Systema Nova": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sébastien Pahl": {
+  "harmonic_person_id": 33388,
+  "domain": null,
+  "kind": "person"
+ },
+ "Tackle Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Taiwania Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Talent Kick": {
+  "harmonic_company_id": 4487164,
+  "domain": "talentkick.ch",
+  "kind": "fund"
+ },
+ "Tandem Capital": {
+  "harmonic_company_id": 8102976,
+  "domain": "tandemcap.com",
+  "kind": "fund"
+ },
+ "Tapestry": {
+  "harmonic_company_id": 4386568,
+  "domain": "tapestry.vc",
+  "kind": "fund"
+ },
+ "Target Global": {
+  "harmonic_company_id": 635327,
+  "domain": "targetglobal.vc",
+  "kind": "fund"
+ },
+ "Teachers' Venture Growth": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Team Ignite Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Team8": {
+  "harmonic_company_id": 34599560,
+  "domain": "team8.vc",
+  "kind": "fund"
+ },
+ "TECHLIFE CAPITAL": {
+  "harmonic_company_id": 3087730,
+  "domain": "techlifecapital.com",
+  "kind": "fund"
+ },
+ "Techmind": {
+  "harmonic_company_id": 3097610,
+  "domain": "techmind.vc",
+  "kind": "fund"
+ },
+ "Techstars": {
+  "harmonic_company_id": 3240657,
+  "domain": "techstars.com",
+  "kind": "fund"
+ },
+ "Techstart Ventures": {
+  "harmonic_company_id": 1530543,
+  "domain": "techstart.vc",
+  "kind": "fund"
+ },
+ "Tekton Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ten Eleven Ventures": {
+  "harmonic_company_id": 604279,
+  "domain": "1011vc.com",
+  "kind": "fund"
+ },
+ "Tenacity Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Tesi": {
+  "harmonic_company_id": 1497051,
+  "domain": "tesi.fi",
+  "kind": "fund"
+ },
+ "Tezos": {
+  "harmonic_company_id": 1535148,
+  "domain": "tezos.foundation",
+  "kind": "fund"
+ },
+ "The Climate Pledge": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "The Delta": {
+  "harmonic_company_id": 34592934,
+  "domain": "thedelta.io",
+  "kind": "fund"
+ },
+ "The New Normal Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "The Raba Partnership": {
+  "harmonic_company_id": 612041,
+  "domain": "rabacap.com",
+  "kind": "fund"
+ },
+ "The Raine": {
+  "harmonic_company_id": 1758435,
+  "domain": "raine.com",
+  "kind": "fund"
+ },
+ "The Raine Group": {
+  "harmonic_company_id": 1758435,
+  "domain": "raine.com",
+  "kind": "fund"
+ },
+ "The Stephens": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "TheVentureCity": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Thibaud Elziere": {
+  "harmonic_person_id": 10931,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thierry Joubert": {
+  "harmonic_person_id": 3835195,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thinking Machines Lab": {
+  "harmonic_company_id": 59860825,
+  "domain": "thinkingmachines.ai",
+  "kind": "fund"
+ },
+ "Thomas Dohmke": {
+  "harmonic_person_id": 36305986,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thomas Dübendorfer": {
+  "harmonic_person_id": 177949067,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thomas Hesse": {
+  "harmonic_person_id": 54904517,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thomas Wolf": {
+  "harmonic_person_id": 179624991,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thomson Reuters": {
+  "harmonic_company_id": 46927091,
+  "domain": "tr.com",
+  "kind": "fund"
+ },
+ "Thomson Reuters Ventures": {
+  "harmonic_company_id": 10116869,
+  "domain": "trventures.com",
+  "kind": "fund"
+ },
+ "Thornapple River Capital": {
+  "harmonic_company_id": 635161,
+  "domain": "thornapplecap.com",
+  "kind": "fund"
+ },
+ "Thorsten Richter": {
+  "harmonic_person_id": 165811493,
+  "domain": null,
+  "kind": "person"
+ },
+ "Thrive Capital": {
+  "harmonic_company_id": 711158,
+  "domain": "thrivecap.com",
+  "kind": "fund"
+ },
+ "Tiger Global": {
+  "harmonic_company_id": 1729691,
+  "domain": "tigerglobal.com",
+  "kind": "fund"
+ },
+ "Tightline Holdings": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Tikehau Ace Capital": {
+  "harmonic_company_id": 686949,
+  "domain": "tikehau-ace.capital",
+  "kind": "fund"
+ },
+ "Tim Doyle": {
+  "harmonic_person_id": 155341429,
+  "domain": null,
+  "kind": "person"
+ },
+ "Tim Doyle Of Eucalyptus": {
+  "harmonic_person_id": 155341429,
+  "domain": null,
+  "kind": "person"
+ },
+ "Timothy Eades": {
+  "harmonic_person_id": 11972,
+  "domain": null,
+  "kind": "person"
+ },
+ "Tin Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "TIN Capital | European Cybersecurity Investors": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
  }
 }
