@@ -1515,6 +1515,355 @@
      "harmonic_company_id": 11390047
     }
    ]
+  },
+  "ycombinator": {
+   "website": "ycombinator.com",
+   "partners": [
+    {
+     "name": "Gustaf Alströmer",
+     "title": "General Partner at Y Combinator",
+     "linkedin": "https://linkedin.com/in/gustafalstromer"
+    },
+    {
+     "name": "David Lieb",
+     "title": "General Partner at Y Combinator",
+     "linkedin": "https://linkedin.com/in/davidlieb"
+    },
+    {
+     "name": "Nicolas Dessaigne",
+     "title": "General Partner at Y Combinator",
+     "linkedin": "https://linkedin.com/in/nicolasdessaigne"
+    },
+    {
+     "name": "Mathilde Collin",
+     "title": "Partner at Y Combinator; Co-founder & Exec Chair at Front",
+     "linkedin": "https://linkedin.com/in/mathilde-collin-bb59492a"
+    },
+    {
+     "name": "Paul Graham",
+     "title": "Co-founder, Y Combinator",
+     "linkedin": "https://linkedin.com/in/paulgrahamyc"
+    },
+    {
+     "name": "Jon Levy",
+     "title": "Y Combinator",
+     "linkedin": "https://linkedin.com/in/jon-levy-b98986b3"
+    }
+   ],
+   "co_investors": [
+    "Pioneer Fund",
+    "Liquid 2 Ventures",
+    "Soma Capital",
+    "SV Angel",
+    "Goodwater Capital",
+    "FundersClub",
+    "Rebel Fund",
+    "Andreessen Horowitz",
+    "General Catalyst",
+    "Unpopular Ventures"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Complir",
+     "date": "2026-09-16",
+     "round": "SEED",
+     "country": "Denmark",
+     "domain": "complir.io",
+     "harmonic_company_id": 4305991
+    },
+    {
+     "name": "Spott",
+     "date": "2026-09-01",
+     "round": "SERIES_A",
+     "country": "Belgium",
+     "domain": "spott.io",
+     "harmonic_company_id": 56835692
+    },
+    {
+     "name": "Finto",
+     "date": "2026-07-08",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "gofinto.com",
+     "harmonic_company_id": 59892727
+    },
+    {
+     "name": "telli",
+     "date": "2026-07-01",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "telli.com",
+     "harmonic_company_id": 56306909
+    },
+    {
+     "name": "Flagright",
+     "date": "2026-06-16",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "flagright.com",
+     "harmonic_company_id": 3629449
+    },
+    {
+     "name": "Didit (YC W26)",
+     "date": "2026-05-26",
+     "round": "SEED",
+     "country": "Spain",
+     "domain": "didit.me",
+     "harmonic_company_id": 37706737
+    },
+    {
+     "name": "Lucis",
+     "date": "2026-05-26",
+     "round": "SERIES_A",
+     "country": "France",
+     "domain": "lucis.life",
+     "harmonic_company_id": 39901440
+    },
+    {
+     "name": "Leadbay (YC F25)",
+     "date": "2026-05-19",
+     "round": "SEED",
+     "country": "France",
+     "domain": "leadbay.ai",
+     "harmonic_company_id": 40013374
+    },
+    {
+     "name": "Lio",
+     "date": "2026-03-05",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "asklio.ai",
+     "harmonic_company_id": 16369696
+    },
+    {
+     "name": "Diligent",
+     "date": "2026-03-04",
+     "round": "SEED",
+     "country": "Germany",
+     "domain": "godiligent.ai",
+     "harmonic_company_id": 47867358
+    }
+   ]
+  },
+  "base10": {
+   "website": "base10.vc",
+   "partners": [
+    {
+     "name": "Adeyemi Ajao",
+     "title": "Co-founder & Managing Partner, Base10 Partners",
+     "linkedin": "https://linkedin.com/in/adeyemiajao"
+    },
+    {
+     "name": "TJ Nahigian",
+     "title": "Co-founder & Managing Partner, Base10 Partners",
+     "linkedin": "https://linkedin.com/in/tj-nahigian-478a803"
+    },
+    {
+     "name": "Rexhep Dollaku",
+     "title": "General Partner at Base10 Partners",
+     "linkedin": "https://linkedin.com/in/rexhep-dollaku"
+    },
+    {
+     "name": "Jason Kong",
+     "title": "General Partner at Base10 Partners",
+     "linkedin": "https://linkedin.com/in/jasonykong"
+    },
+    {
+     "name": "Andrew Lebovitz",
+     "title": "Partner at Base10 Partners",
+     "linkedin": "https://linkedin.com/in/andrew-lebovitz-06a54066"
+    },
+    {
+     "name": "Caroline Broder",
+     "title": "Partner at Base10 Partners",
+     "linkedin": "https://linkedin.com/in/cbroder"
+    }
+   ],
+   "co_investors": [
+    "Y Combinator",
+    "Tiger Global",
+    "FJ Labs",
+    "Andreessen Horowitz",
+    "Liquid 2 Ventures",
+    "Lightspeed Venture Partners",
+    "Endeavor Catalyst",
+    "MONASHEES",
+    "Gradient",
+    "Pear VC"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Spott",
+     "date": "2026-09-01",
+     "round": "SERIES_A",
+     "country": "Belgium",
+     "domain": "spott.io",
+     "harmonic_company_id": 56835692
+    },
+    {
+     "name": "Pillar",
+     "date": "2026-05-12",
+     "round": "SEED",
+     "country": "Italy",
+     "domain": "pillar.it",
+     "harmonic_company_id": 35326725
+    },
+    {
+     "name": "The Mobile-First Company",
+     "date": "2025-10-31",
+     "round": "SEED",
+     "country": "France",
+     "domain": "themobilefirstcompany.com",
+     "harmonic_company_id": 47175674
+    }
+   ]
+  },
+  "8vc": {
+   "website": "8vc.com",
+   "partners": [
+    {
+     "name": "Joe Lonsdale",
+     "title": "General Partner at 8VC",
+     "linkedin": "https://linkedin.com/in/jtlonsdale"
+    },
+    {
+     "name": "Jake Medwell",
+     "title": "Founding Partner at 8VC",
+     "linkedin": "https://linkedin.com/in/jakemedwellaustin"
+    },
+    {
+     "name": "Alex Kolicich",
+     "title": "Founding Partner at 8VC",
+     "linkedin": "https://linkedin.com/in/alex-kolicich-b71732a"
+    },
+    {
+     "name": "Bhaskar Ghosh",
+     "title": "Partner at 8VC",
+     "linkedin": "https://linkedin.com/in/ghoshbhaskar"
+    },
+    {
+     "name": "Francisco Gimenez",
+     "title": "Partner at 8VC",
+     "linkedin": "https://linkedin.com/in/franciscojosegimenez"
+    },
+    {
+     "name": "Alex Moore",
+     "title": "Partner at 8VC",
+     "linkedin": "https://linkedin.com/in/alex-moore-4639b91"
+    },
+    {
+     "name": "Nick Dolik",
+     "title": "Partner at 8VC (New York)",
+     "linkedin": "https://linkedin.com/in/ndolik"
+    }
+   ],
+   "co_investors": [
+    "Founders Fund",
+    "General Catalyst",
+    "Gaingels",
+    "Alumni Ventures",
+    "Andreessen Horowitz",
+    "Y Combinator",
+    "SV Angel",
+    "Lightspeed Venture Partners",
+    "Valor Equity Partners",
+    "Sequoia Capital"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Luminate",
+     "date": "2026-01-07",
+     "round": "SERIES_A_EXTENSION",
+     "country": "Ireland",
+     "domain": "luminatemed.com",
+     "harmonic_company_id": 3187418
+    }
+   ]
+  },
+  "redpoint": {
+   "website": "redpoint.com",
+   "partners": [
+    {
+     "name": "Scott Raney",
+     "title": "Managing Director at Redpoint",
+     "linkedin": "https://linkedin.com/in/sraney"
+    },
+    {
+     "name": "Satish Dharmaraj",
+     "title": "Managing Director at Redpoint Ventures",
+     "linkedin": "https://linkedin.com/in/satishdharmaraj"
+    },
+    {
+     "name": "Elliot Geidt",
+     "title": "Managing Director at Redpoint Ventures",
+     "linkedin": "https://linkedin.com/in/elliot-geidt-528a806"
+    },
+    {
+     "name": "Annie Kadavy",
+     "title": "Managing Director at Redpoint",
+     "linkedin": "https://linkedin.com/in/anniekadavy"
+    },
+    {
+     "name": "Alex Bard",
+     "title": "Managing Director at Redpoint Ventures",
+     "linkedin": "https://linkedin.com/in/alexbard"
+    },
+    {
+     "name": "Erica Brescia",
+     "title": "Managing Director at Redpoint",
+     "linkedin": "https://linkedin.com/in/ebrescia"
+    },
+    {
+     "name": "Logan Bartlett",
+     "title": "Managing Director at Redpoint (New York)",
+     "linkedin": "https://linkedin.com/in/loganbartlett"
+    },
+    {
+     "name": "Patrick Chase",
+     "title": "Managing Director at Redpoint",
+     "linkedin": "https://linkedin.com/in/patrickachase"
+    },
+    {
+     "name": "Geoff Yang",
+     "title": "Founding Partner at Redpoint",
+     "linkedin": "https://linkedin.com/in/geoffyang"
+    },
+    {
+     "name": "Jeff Brody",
+     "title": "Founding Partner at Redpoint Ventures",
+     "linkedin": "https://linkedin.com/in/brodyjeff"
+    }
+   ],
+   "co_investors": [
+    "Sequoia Capital",
+    "Andreessen Horowitz",
+    "Index Ventures",
+    "Lightspeed Venture Partners",
+    "Accel",
+    "Kleiner Perkins",
+    "SV Angel",
+    "Meritech",
+    "General Catalyst",
+    "Greylock Partners"
+   ],
+   "recent_untracked_eu": [
+    {
+     "name": "Restate",
+     "date": "2026-09-01",
+     "round": "SERIES_A",
+     "country": "Germany",
+     "domain": "restate.dev",
+     "harmonic_company_id": 41784161
+    },
+    {
+     "name": "Gradient Labs",
+     "date": "2026-06-01",
+     "round": "SERIES_A_EXTENSION",
+     "country": "United Kingdom",
+     "domain": "gradient-labs.ai",
+     "harmonic_company_id": 12838287
+    }
+   ]
   }
  }
 }

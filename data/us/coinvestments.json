@@ -118,5 +118,34 @@
    "Featurespace",
    "Photobox"
   ]
+ },
+ {
+  "urn": "urn:harmonic:investor:164277",
+  "name": "Y Combinator",
+  "companies": [
+   "urn:harmonic:company:3264132",
+   "urn:harmonic:company:14444069",
+   "urn:harmonic:company:770936"
+  ],
+  "company_names": [
+   "Adaptyv",
+   "LemFi",
+   "Bitmovin"
+  ]
+ },
+ {
+  "urn": "urn:harmonic:investor:168753",
+  "name": "Redpoint",
+  "companies": [
+   "urn:harmonic:company:1763"
+  ],
+  "company_names": [
+   "n8n.io"
+  ]
+ },
+ {
+  "_gaps": {
+   "method": "Built from Highland Europe's Harmonic investments list (81 unique portfolio companies from 130 funding-round nodes; Harmonic reported totalCount 139, 9 nodes not returned) intersected with each fund's canonical Harmonic investor name at company and round level. Funds with no overlap are omitted."
+  }
  }
 ]

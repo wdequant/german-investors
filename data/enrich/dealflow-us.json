@@ -1495,8 +1495,418 @@
    "total_funding_usd": 10326790
   }
  ],
+ "ycombinator": [
+  {
+   "name": "Complir",
+   "domain": "complir.io",
+   "harmonic_company_id": 4305991,
+   "country": "Denmark",
+   "date": "2026-09-16",
+   "round": "SEED",
+   "round_size_usd": 11000000,
+   "total_funding_usd": 14777802
+  },
+  {
+   "name": "Spott",
+   "domain": "spott.io",
+   "harmonic_company_id": 56835692,
+   "country": "Belgium",
+   "date": "2026-09-01",
+   "round": "SERIES_A",
+   "round_size_usd": 21000000,
+   "total_funding_usd": 24700000
+  },
+  {
+   "name": "Finto",
+   "domain": "gofinto.com",
+   "harmonic_company_id": 59892727,
+   "country": "Germany",
+   "date": "2026-07-08",
+   "round": "SEED",
+   "round_size_usd": 3400000,
+   "total_funding_usd": 3900000
+  },
+  {
+   "name": "telli",
+   "domain": "telli.com",
+   "harmonic_company_id": 56306909,
+   "country": "Germany",
+   "date": "2026-07-01",
+   "round": "SEED",
+   "round_size_usd": 15000000,
+   "total_funding_usd": 19100000
+  },
+  {
+   "name": "Flagright",
+   "domain": "flagright.com",
+   "harmonic_company_id": 3629449,
+   "country": "Germany",
+   "date": "2026-06-16",
+   "round": "SERIES_A",
+   "round_size_usd": 12500000,
+   "total_funding_usd": 20100000
+  },
+  {
+   "name": "Didit (YC W26)",
+   "domain": "didit.me",
+   "harmonic_company_id": 37706737,
+   "country": "Spain",
+   "date": "2026-05-26",
+   "round": "SEED",
+   "round_size_usd": 7500000,
+   "total_funding_usd": 8000000
+  },
+  {
+   "name": "Lucis",
+   "domain": "lucis.life",
+   "harmonic_company_id": 39901440,
+   "country": "France",
+   "date": "2026-05-26",
+   "round": "SERIES_A",
+   "round_size_usd": 19897577,
+   "total_funding_usd": 28863884
+  },
+  {
+   "name": "Leadbay (YC F25)",
+   "domain": "leadbay.ai",
+   "harmonic_company_id": 40013374,
+   "country": "France",
+   "date": "2026-05-19",
+   "round": "SEED",
+   "round_size_usd": 4200000,
+   "total_funding_usd": 4805062
+  },
+  {
+   "name": "Lio",
+   "domain": "asklio.ai",
+   "harmonic_company_id": 16369696,
+   "country": "Germany",
+   "date": "2026-03-05",
+   "round": "SERIES_A",
+   "round_size_usd": 30000000,
+   "total_funding_usd": 30545200
+  },
+  {
+   "name": "Diligent",
+   "domain": "godiligent.ai",
+   "harmonic_company_id": 47867358,
+   "country": "Germany",
+   "date": "2026-03-04",
+   "round": "SEED",
+   "round_size_usd": 2500000,
+   "total_funding_usd": 3000000
+  },
+  {
+   "name": "Parallel",
+   "domain": "beparallel.com",
+   "harmonic_company_id": 76496952,
+   "country": "France",
+   "date": "2026-03-01",
+   "round": "SERIES_A",
+   "round_size_usd": 20460364,
+   "total_funding_usd": 24460364
+  },
+  {
+   "name": "Brickanta",
+   "domain": "brickanta.com",
+   "harmonic_company_id": 62854531,
+   "country": "Sweden",
+   "date": "2026-01-27",
+   "round": "SEED",
+   "round_size_usd": 8000000,
+   "total_funding_usd": 8500000
+  },
+  {
+   "name": "Luminate",
+   "domain": "luminatemed.com",
+   "harmonic_company_id": 3187418,
+   "country": "Ireland",
+   "date": "2026-01-07",
+   "round": "SERIES_A_EXTENSION",
+   "round_size_usd": 21000000,
+   "total_funding_usd": 55819959
+  },
+  {
+   "name": "Tornyol",
+   "domain": "tornyol.com",
+   "harmonic_company_id": 63117290,
+   "country": "France",
+   "date": "2025-12-03",
+   "round": "SEED",
+   "round_size_usd": 3500000,
+   "total_funding_usd": 4000000
+  },
+  {
+   "name": "Bitstack",
+   "domain": "bitstack-app.com",
+   "harmonic_company_id": 4086048,
+   "country": "France",
+   "date": "2025-12-02",
+   "round": "SERIES_A",
+   "round_size_usd": 15000000,
+   "total_funding_usd": 29536684
+  },
+  {
+   "name": "voize",
+   "domain": "voize.ai",
+   "harmonic_company_id": 64229808,
+   "country": "Germany",
+   "date": "2025-11-17",
+   "round": "SERIES_A",
+   "round_size_usd": 50000000,
+   "total_funding_usd": 59500000
+  },
+  {
+   "name": "Rulebase (YC F24)",
+   "domain": "rulebase.co",
+   "harmonic_company_id": 54340094,
+   "country": "Ireland",
+   "date": "2025-09-16",
+   "round": "SEED",
+   "round_size_usd": 2100000,
+   "total_funding_usd": 2600000
+  },
+  {
+   "name": "Parahelp",
+   "domain": "parahelp.com",
+   "harmonic_company_id": 35042652,
+   "country": "Denmark",
+   "date": "2025-09-11",
+   "round": "SERIES_A",
+   "round_size_usd": 18000000,
+   "total_funding_usd": 22450000
+  },
+  {
+   "name": "ComplyDo (YC F25)",
+   "domain": "complydo.io",
+   "harmonic_company_id": 59828198,
+   "country": "Germany",
+   "date": "2025-09-01",
+   "round": "PRE_SEED",
+   "round_size_usd": 500000,
+   "total_funding_usd": 1800000
+  },
+  {
+   "name": "Bravi (YC F25)",
+   "domain": "bravi.app",
+   "harmonic_company_id": 60329370,
+   "country": "France",
+   "date": "2025-09-01",
+   "round": "PRE_SEED",
+   "round_size_usd": 500000,
+   "total_funding_usd": 2300000
+  },
+  {
+   "name": "Leaping AI",
+   "domain": "leapingai.com",
+   "harmonic_company_id": 12785435,
+   "country": "Germany",
+   "date": "2025-08-20",
+   "round": "SEED",
+   "round_size_usd": 4700000,
+   "total_funding_usd": 5200000
+  },
+  {
+   "name": "Alice",
+   "domain": "alice.tech",
+   "harmonic_company_id": 54991295,
+   "country": "Denmark",
+   "date": "2025-05-07",
+   "round": "SEED",
+   "round_size_usd": 4764849,
+   "total_funding_usd": 5264849
+  },
+  {
+   "name": "Vantel",
+   "domain": "vantel.com",
+   "harmonic_company_id": 60438309,
+   "country": "Sweden",
+   "date": "2025-03-12",
+   "round": "SEED",
+   "round_size_usd": 2000000,
+   "total_funding_usd": 2000000
+  },
+  {
+   "name": "Argil",
+   "domain": "argil.ai",
+   "harmonic_company_id": 12586172,
+   "country": "France",
+   "date": "2024-11-27",
+   "round": "SEED",
+   "round_size_usd": 4119332,
+   "total_funding_usd": 5671524
+  },
+  {
+   "name": "Authologic",
+   "domain": "authologic.com",
+   "harmonic_company_id": 2106232,
+   "country": "Poland",
+   "date": "2024-10-22",
+   "round": "SERIES_A",
+   "round_size_usd": 8200000,
+   "total_funding_usd": 9309000
+  },
+  {
+   "name": "kapa.ai",
+   "domain": "kapa.ai",
+   "harmonic_company_id": 12180872,
+   "country": "Denmark",
+   "date": "2024-10-03",
+   "round": "SEED",
+   "round_size_usd": 3200000,
+   "total_funding_usd": 3700000
+  }
+ ],
+ "base10": [
+  {
+   "name": "Spott",
+   "domain": "spott.io",
+   "harmonic_company_id": 56835692,
+   "country": "Belgium",
+   "date": "2026-09-01",
+   "round": "SERIES_A",
+   "round_size_usd": 21000000,
+   "total_funding_usd": 24700000
+  },
+  {
+   "name": "Pillar",
+   "domain": "pillar.it",
+   "harmonic_company_id": 35326725,
+   "country": "Italy",
+   "date": "2026-05-12",
+   "round": "SEED",
+   "round_size_usd": 14082192,
+   "total_funding_usd": 17857692
+  },
+  {
+   "name": "The Mobile-First Company",
+   "domain": "themobilefirstcompany.com",
+   "harmonic_company_id": 47175674,
+   "country": "France",
+   "date": "2025-10-31",
+   "round": "SEED",
+   "round_size_usd": 12000000,
+   "total_funding_usd": 15777455
+  },
+  {
+   "name": "Jet HR",
+   "domain": "jethr.com",
+   "harmonic_company_id": 12477109,
+   "country": "Italy",
+   "date": "2025-06-18",
+   "round": "SERIES_A",
+   "round_size_usd": 28747025,
+   "total_funding_usd": 47247124
+  },
+  {
+   "name": "handly",
+   "domain": "handly.de",
+   "harmonic_company_id": 3474713,
+   "country": "Germany",
+   "date": "2025-02-18",
+   "round": "SEED",
+   "round_size_usd": 3924626,
+   "total_funding_usd": 6200000
+  }
+ ],
+ "8vc": [
+  {
+   "name": "Luminate",
+   "domain": "luminatemed.com",
+   "harmonic_company_id": 3187418,
+   "country": "Ireland",
+   "date": "2026-01-07",
+   "round": "SERIES_A_EXTENSION",
+   "round_size_usd": 21000000,
+   "total_funding_usd": 55819959
+  },
+  {
+   "name": "STARK",
+   "domain": "stark-defence.com",
+   "harmonic_company_id": 55453570,
+   "country": "Germany",
+   "date": "2025-08-21",
+   "round": "EARLY_STAGE",
+   "round_size_usd": 62000000,
+   "total_funding_usd": 646265900
+  },
+  {
+   "name": "Portal Biotech",
+   "domain": "portalbiotech.com",
+   "harmonic_company_id": 43226761,
+   "country": "United Kingdom",
+   "date": "2025-06-30",
+   "round": "SERIES_A",
+   "round_size_usd": 35000000,
+   "total_funding_usd": 45172725
+  },
+  {
+   "name": "Ethos",
+   "domain": "agent.askethos.com",
+   "harmonic_company_id": 71425934,
+   "country": "United Kingdom",
+   "date": "2025-03-27",
+   "round": "SEED",
+   "round_size_usd": 3241755,
+   "total_funding_usd": 26156706
+  },
+  {
+   "name": "Latent Labs",
+   "domain": "latentlabs.com",
+   "harmonic_company_id": 21655158,
+   "country": "United Kingdom",
+   "date": "2025-02-13",
+   "round": "SERIES_A",
+   "round_size_usd": 50000000,
+   "total_funding_usd": 60000000
+  },
+  {
+   "name": "Streamify360",
+   "domain": "streamify360.com",
+   "harmonic_company_id": 60402019,
+   "country": "United Kingdom",
+   "date": "2025-01-11",
+   "round": "SEED",
+   "round_size_usd": 5000000,
+   "total_funding_usd": 5000000
+  }
+ ],
+ "redpoint": [
+  {
+   "name": "Restate",
+   "domain": "restate.dev",
+   "harmonic_company_id": 41784161,
+   "country": "Germany",
+   "date": "2026-09-01",
+   "round": "SERIES_A",
+   "round_size_usd": 20000000,
+   "total_funding_usd": 27000000
+  },
+  {
+   "name": "Gradient Labs",
+   "domain": "gradient-labs.ai",
+   "harmonic_company_id": 12838287,
+   "country": "United Kingdom",
+   "date": "2026-06-01",
+   "round": "SERIES_A_EXTENSION",
+   "round_size_usd": 13000000,
+   "total_funding_usd": 29649564
+  },
+  {
+   "name": "Anam",
+   "domain": "anam.ai",
+   "harmonic_company_id": 42377428,
+   "country": "United Kingdom",
+   "date": "2025-06-24",
+   "round": "SEED",
+   "round_size_usd": 9000000,
+   "total_funding_usd": 11420000
+  }
+ ],
  "_gaps": {
   "kleiner-perkins": "Second in-window Harmonic match (Biz AI Last, Romania) excluded as junk data per evidence-pass verdict; only Juna AI verifies at round level",
-  "note": "Deal lists are round-level verified: a company counts only if a Seed/Series A family round since 2024-10-01 names the fund in its own investor list. eu_deals_24m in investors.json is the broader Harmonic faceted count from the evidence pass and is intentionally higher."
+  "note": "Deal lists are round-level verified: a company counts only if a Seed/Series A family round since 2024-10-01 names the fund in its own investor list. eu_deals_24m in investors.json is the broader Harmonic faceted count from the evidence pass and is intentionally higher.",
+  "8vc": "Streamify360 (SEED 2025-01-11, 8VC sole lead per Harmonic) included as recorded but has junk-data markers (no headcount, no verified team); treat with caution",
+  "ycombinator": "Round-verified list (26 deals) is narrower than the eu_deals_24m facet count of 69, which counts every EU seed/A-stage company with YC on its investor list regardless of whether YC joined the in-window round"
  }
 }

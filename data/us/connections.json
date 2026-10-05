@@ -7491,5 +7491,464 @@
     ]
    }
   ]
+ },
+ "1729703": {
+  "id": 1729703,
+  "name": "Y Combinator",
+  "connections": [
+   {
+    "person": "Verena Prescher",
+    "title": "Head of Finance",
+    "linkedin": "https://linkedin.com/in/verenaprescher",
+    "via": [
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Leo Seigal",
+    "title": "W13 Class",
+    "linkedin": "https://linkedin.com/in/leoseigal",
+    "via": [
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Nicolas Dessaigne",
+    "title": "General Partner",
+    "linkedin": "https://linkedin.com/in/nicolasdessaigne",
+    "via": [
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Mario Grigorov",
+    "title": "Investor (YC S26)",
+    "linkedin": "https://linkedin.com/in/mario-grigorov-n1",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Zina Alfa",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Joseph Perrotta",
+    "title": "Founder (F26)",
+    "linkedin": "https://linkedin.com/in/joseph-perrottaa",
+    "via": [
+     {
+      "user": "Aude Flecchia",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "680054": {
+  "id": 680054,
+  "name": "Base10 Partners",
+  "connections": [
+   {
+    "person": "Jovani Kimble",
+    "title": "Executive Assistant",
+    "linkedin": "https://linkedin.com/in/jovanikimble",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Danielle London",
+    "title": "Principal",
+    "linkedin": "https://linkedin.com/in/danielle-london-5b427a127",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Rexhep Dollaku",
+    "title": "General Partner",
+    "linkedin": "https://linkedin.com/in/rexhep-dollaku",
+    "via": [
+     {
+      "user": "Sam Brooks",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Jackie Chen 🦦",
+    "title": "CEO and Co-Founder",
+    "linkedin": "https://linkedin.com/in/jackie-chen",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Sarah Ramos",
+    "title": "Head of Marketing",
+    "linkedin": "https://linkedin.com/in/sarah-m-ramos",
+    "via": [
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "2162538": {
+  "id": 2162538,
+  "name": "8VC",
+  "connections": [
+   {
+    "person": "Stephen Kennedy",
+    "title": "Talent Partner",
+    "linkedin": "https://linkedin.com/in/stephenmkennedy",
+    "via": [
+     {
+      "user": "Rachel Marcinek",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Veronique St-Germain",
+    "title": "Head of Talent",
+    "linkedin": "https://linkedin.com/in/veroniques",
+    "via": [
+     {
+      "user": "Rachel Marcinek",
+      "sources": [
+       "EMAIL"
+      ]
+     },
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Andres Blumer",
+    "title": "Advisor",
+    "linkedin": "https://linkedin.com/in/andresblumer",
+    "via": [
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Jon Soberg",
+    "title": "Advisor",
+    "linkedin": "https://linkedin.com/in/jonsoberg",
+    "via": [
+     {
+      "user": "Eoghan Dorman",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Naresh Soni",
+    "title": "Limited Partner",
+    "linkedin": "https://linkedin.com/in/nareshsoniprofile",
+    "via": [
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Isaac Applbaum",
+    "title": "Member Of The Board Of Advisors",
+    "linkedin": "https://linkedin.com/in/isaacapplbaum",
+    "via": [
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Nick Dolik",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/ndolik",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "1723814": {
+  "id": 1723814,
+  "name": "Redpoint",
+  "connections": [
+   {
+    "person": "Asher Noel",
+    "title": null,
+    "linkedin": "https://linkedin.com/in/ashernoel",
+    "via": [
+     {
+      "user": "Tom Neuberger",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Lucinda Maxwell",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Sam Brooks",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Stan",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Ashley Law",
+    "title": "Senior Director, Events and Experience",
+    "linkedin": "https://linkedin.com/in/ashleylawc",
+    "via": [
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Santiago Regan",
+    "title": null,
+    "linkedin": "https://linkedin.com/in/santiagoregan",
+    "via": [
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Kwesi Acquay",
+    "title": "Principal",
+    "linkedin": "https://linkedin.com/in/kwesi-acquay-b618491a",
+    "via": [
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "LINKEDIN",
+       "CALENDAR",
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Mary Stern",
+    "title": "OM | Executive Assistant",
+    "linkedin": "https://linkedin.com/in/mary-stern-43b75748",
+    "via": [
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Scott Raney",
+    "title": "Partner/Venture Capitalist",
+    "linkedin": "https://linkedin.com/in/sraney",
+    "via": [
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Timothy Haley",
+    "title": "Managing Director",
+    "linkedin": "https://linkedin.com/in/tihaley",
+    "via": [
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Vivek Ramaswami",
+    "title": "Partner",
+    "linkedin": "https://linkedin.com/in/vivekramaswami",
+    "via": [
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Satish D.",
+    "title": "Managing Director",
+    "linkedin": "https://linkedin.com/in/satishdharmaraj",
+    "via": [
+     {
+      "user": "Jacob Bernstein",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Enzo Wiener",
+    "title": "Principal",
+    "linkedin": "https://linkedin.com/in/enzo-wiener-2a7b38165",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN",
+       "CALENDAR",
+       "EMAIL"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Patrick Chase",
+    "title": "Managing Director",
+    "linkedin": "https://linkedin.com/in/patrickachase",
+    "via": [
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "EMAIL"
+      ]
+     }
+    ]
+   }
+  ]
  }
 }
