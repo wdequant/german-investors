@@ -1,0 +1,394 @@
+{
+  "_method": {
+    "source": "Harmonic MCP (get_investors + search_companies_natural_language), read-only evidence pass",
+    "run_date": "2026-10-05",
+    "window": "last 24 months (rounds since 2024-10-01)",
+    "eu_deals_24m_definition": "Count of European companies whose CURRENT funding stage is Seed or Series A, whose last round was announced on/after 2024-10-01, and whose investor list includes the fund (Harmonic faceted count). Systematic undercount: companies the fund seeded that have since graduated to Series B+ drop out of the stage filter; fund-level investor match can also include companies whose in-window round the fund did not join, so examples below are verified against round-level investor lists.",
+    "europe_definition": "Harmonic's country facet for Europe, which includes Turkey, Russia and Ukraine",
+    "examples_note": "Every example was verified against the round's own investor list (round type Seed/Series A/pre-seed/early-stage, announced on/after 2024-10-01 unless flagged); 'lead' reflects Harmonic's isLead flag",
+    "name_caveats": "Harmonic does not split transatlantic franchises (Accel, Index Ventures) into US vs Europe arms; Benchmark's canonical Harmonic name ('Benchmark') is ambiguous so its stored count is unreliable"
+  },
+  "sequoia-capital": {
+    "name": "Sequoia Capital",
+    "harmonic_urn_or_id": "urn:harmonic:investor:213580",
+    "eu_deals_24m": 38,
+    "examples": [
+      {"company": "STARK", "country": "Germany", "round": "Series A (lead)", "date": "2024-10-10"},
+      {"company": "Pydantic", "country": "United Kingdom", "round": "Series A (lead)", "date": "2024-10-01"},
+      {"company": "Ineffable Intelligence", "country": "United Kingdom", "round": "Seed (co-lead)", "date": "2026-04-17"},
+      {"company": "nsave", "country": "United Kingdom", "round": "Series A", "date": "2025-01-10"},
+      {"company": "Magentic", "country": "United Kingdom", "round": "Series A", "date": "2026-09-17"}
+    ],
+    "europe_presence": "london office",
+    "verdict": "include",
+    "why": "38 EU seed/A companies in window, led STARK and Pydantic rounds; London office since 2021, Europe is 6.3% of a 3,080-deal book and rising at early stage"
+  },
+  "andreessen-horowitz": {
+    "name": "Andreessen Horowitz (a16z)",
+    "harmonic_urn_or_id": "urn:harmonic:investor:19",
+    "eu_deals_24m": 34,
+    "examples": [
+      {"company": "Kontext", "country": "Germany", "round": "Seed", "date": "2026-09-24"},
+      {"company": "Probabl", "country": "France", "round": "Seed (lead)", "date": "2026-06-16"},
+      {"company": "Endra", "country": "Sweden", "round": "Series A (lead)", "date": "2026-06-02"},
+      {"company": "Pit", "country": "Sweden", "round": "Seed (lead)", "date": "2026-05-07"},
+      {"company": "SONORA", "country": "Spain", "round": "Series A", "date": "2026-07-20"}
+    ],
+    "europe_presence": "unknown",
+    "verdict": "include",
+    "why": "34 EU seed/A companies in window with 23 round-verified, leading seeds and As across DE/FR/SE/ES; opened an a16z crypto London office in 2023 but current office status unverified, so presence marked unknown"
+  },
+  "lightspeed": {
+    "name": "Lightspeed Venture Partners",
+    "harmonic_urn_or_id": "urn:harmonic:investor:205545",
+    "eu_deals_24m": 18,
+    "examples": [
+      {"company": "Finto", "country": "Germany", "round": "Seed (lead)", "date": "2026-07-08"},
+      {"company": "Kyber", "country": "France", "round": "Seed (lead)", "date": "2026-06-19"},
+      {"company": "Ineffable Intelligence", "country": "United Kingdom", "round": "Seed (co-lead)", "date": "2026-04-17"},
+      {"company": "Proxima Fusion", "country": "Germany", "round": "Series A", "date": "2026-07-07"},
+      {"company": "Paid", "country": "United Kingdom", "round": "Seed (lead)", "date": "2025-09-01"}
+    ],
+    "europe_presence": "london office",
+    "verdict": "include",
+    "why": "18 EU seed/A companies in window, 14 round-verified, mostly as lead; London office with dedicated Europe partners"
+  },
+  "general-catalyst": {
+    "name": "General Catalyst",
+    "harmonic_urn_or_id": "urn:harmonic:investor:214169",
+    "eu_deals_24m": 32,
+    "examples": [
+      {"company": "Complir", "country": "Denmark", "round": "Seed (lead)", "date": "2026-09-16"},
+      {"company": "Integral", "country": "Germany", "round": "Series A", "date": "2026-09-16"},
+      {"company": "Intropy", "country": "United Kingdom", "round": "Seed", "date": "2026-07-30"},
+      {"company": "Ethos", "country": "United Kingdom", "round": "Seed (lead)", "date": "2025-03-27"},
+      {"company": "Onodrim Industries", "country": "Netherlands", "round": "Seed (co-lead)", "date": "2026-02-13"}
+    ],
+    "europe_presence": "london office",
+    "verdict": "include",
+    "why": "32 EU seed/A companies in window, 23 round-verified; London office and La Famiglia merger give it a dedicated European early-stage practice, Europe is 10.2% of its book"
+  },
+  "accel": {
+    "name": "Accel (US arm)",
+    "harmonic_urn_or_id": "urn:harmonic:investor:212874",
+    "eu_deals_24m": 25,
+    "examples": [
+      {"company": "Atira", "country": "Germany", "round": "Seed (lead)", "date": "2026-09-03"},
+      {"company": "TRIKKS", "country": "Norway", "round": "Seed (lead)", "date": "2026-07-29"},
+      {"company": "Perceptic", "country": "United Kingdom", "round": "Seed (lead)", "date": "2026-05-26"},
+      {"company": "VIKTOR", "country": "Netherlands", "round": "Series A (lead)", "date": "2026-05-19"},
+      {"company": "Axle Energy", "country": "United Kingdom", "round": "Series A", "date": "2026-07-01"}
+    ],
+    "europe_presence": "london office",
+    "verdict": "include",
+    "why": "25 EU seed/A companies in window (21 round-verified, mostly led) under the single Harmonic 'Accel' entity; the London fund IS a dedicated European early-stage practice, but Harmonic cannot split US vs London cheques, so treat as franchise-level evidence"
+  },
+  "bessemer": {
+    "name": "Bessemer Venture Partners",
+    "harmonic_urn_or_id": "urn:harmonic:investor:226768",
+    "eu_deals_24m": 6,
+    "examples": [
+      {"company": "herdr", "country": "Turkey", "round": "Seed (lead)", "date": "2026-09-09"},
+      {"company": "SONORA", "country": "Spain", "round": "Series A (lead)", "date": "2026-07-20"},
+      {"company": "Paraglide AI", "country": "United Kingdom", "round": "Seed (lead)", "date": "2026-01-27"}
+    ],
+    "europe_presence": "london office",
+    "verdict": "include",
+    "why": "Only 6 matches but 3 are led rounds inside the window and BVP opened a London office in 2023; modest volume, real intent"
+  },
+  "index-ventures": {
+    "name": "Index Ventures (US side)",
+    "harmonic_urn_or_id": "urn:harmonic:investor:147739",
+    "eu_deals_24m": 31,
+    "examples": [
+      {"company": "Marker", "country": "United Kingdom", "round": "Seed (lead)", "date": "2026-07-09"},
+      {"company": "Scope AI", "country": "United Kingdom", "round": "Series A (lead)", "date": "2026-05-19"},
+      {"company": "Adfin", "country": "United Kingdom", "round": "Series A (lead)", "date": "2026-05-11"},
+      {"company": "Parallel", "country": "France", "round": "Series A (lead)", "date": "2026-03-01"},
+      {"company": "Duna", "country": "Netherlands", "round": "Series A (lead)", "date": "2026-02-04"}
+    ],
+    "europe_presence": "london office",
+    "verdict": "include",
+    "why": "31 EU seed/A companies in window, 16 round-verified and almost all led; Harmonic treats Index as one London-HQ entity (Europe 33.6% of book), so the 'US side' cannot be isolated - arguably not a US fund at all for this region's purposes"
+  },
+  "coatue": {
+    "name": "Coatue",
+    "harmonic_urn_or_id": "urn:harmonic:investor:167505",
+    "eu_deals_24m": 1,
+    "examples": [
+      {"company": "DeepJudge", "country": "Switzerland", "round": "Series A (seed was Coatue-led 2024-06, just before window)", "date": "2025-11-04"}
+    ],
+    "europe_presence": "unknown",
+    "verdict": "growth-shadow",
+    "why": "Crossover/growth player; one EU early-stage relationship (DeepJudge) in window, top stages are B/C/D - shadows European growth rounds, not seed/A"
+  },
+  "founders-fund": {
+    "name": "Founders Fund",
+    "harmonic_urn_or_id": "urn:harmonic:investor:166112",
+    "eu_deals_24m": 6,
+    "examples": [
+      {"company": "Onodrim Industries", "country": "Netherlands", "round": "Seed (co-lead)", "date": "2026-02-13"},
+      {"company": "CUE Labs", "country": "Switzerland", "round": "Seed", "date": "2025-10-30"},
+      {"company": "Ubyx", "country": "United Kingdom", "round": "Seed", "date": "2025-06-17"},
+      {"company": "Magdrive", "country": "United Kingdom", "round": "Seed", "date": "2025-02-25"},
+      {"company": "STARK", "country": "Germany", "round": "Series C (co-lead; early backer via Thiel network)", "date": "2026-06-23"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "4 round-verified EU seeds in window plus the STARK relationship; defence/deep-tech skew, mostly participant cheques rather than leads, no EU office"
+  },
+  "khosla-ventures": {
+    "name": "Khosla Ventures",
+    "harmonic_urn_or_id": "urn:harmonic:investor:240048",
+    "eu_deals_24m": 9,
+    "examples": [
+      {"company": "Genesis AI", "country": "France", "round": "Seed (co-lead, $105M)", "date": "2025-07-01"},
+      {"company": "GRAI", "country": "Poland", "round": "Seed (co-lead)", "date": "2026-04-21"},
+      {"company": "Genie AI", "country": "United Kingdom", "round": "Series A (lead)", "date": "2024-10-01"},
+      {"company": "silana", "country": "Austria", "round": "Seed", "date": "2024-11-30"},
+      {"company": "Gigi", "country": "France", "round": "Seed extension", "date": "2025-09-22"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "9 matches, ~6 round-verified including led/co-led seeds and As across FR/PL/UK/AT; genuinely writes European early cheques from the US with no EU office"
+  },
+  "greenoaks": {
+    "name": "Greenoaks",
+    "harmonic_urn_or_id": "urn:harmonic:investor:156417",
+    "eu_deals_24m": 1,
+    "examples": [
+      {"company": "Decade Energy", "country": "France", "round": "Seed ($85M, participant)", "date": "2026-08-06"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "growth-shadow",
+    "why": "Concentrated growth fund (207 deals total, top stages B/C); single EU seed participation in window is a mega-seed, not an early-stage practice"
+  },
+  "thrive-capital": {
+    "name": "Thrive Capital",
+    "harmonic_urn_or_id": "urn:harmonic:investor:213601",
+    "eu_deals_24m": 0,
+    "examples": [],
+    "europe_presence": "none-known",
+    "verdict": "growth-shadow",
+    "why": "Zero EU companies at seed/A in window; its European exposure is growth-stage (top stages B/D/C), shadows late rounds only"
+  },
+  "kleiner-perkins": {
+    "name": "Kleiner Perkins",
+    "harmonic_urn_or_id": "urn:harmonic:investor:229149",
+    "eu_deals_24m": 2,
+    "examples": [
+      {"company": "Juna AI", "country": "Germany", "round": "Seed (lead)", "date": "2024-11-18"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "One real deal (led Juna AI's Berlin seed); the second Harmonic match is junk data. Opportunistic, not a practice"
+  },
+  "felicis": {
+    "name": "Felicis",
+    "harmonic_urn_or_id": "urn:harmonic:investor:164082",
+    "eu_deals_24m": 5,
+    "examples": [
+      {"company": "Magentic", "country": "United Kingdom", "round": "Series A (lead)", "date": "2026-09-17"},
+      {"company": "DeepJudge", "country": "Switzerland", "round": "Series A (lead)", "date": "2025-11-04"},
+      {"company": "Entalpic", "country": "France", "round": "Seed (co-lead, 3 weeks before window)", "date": "2024-09-05"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "2 in-window deals but both are led Series As plus a led seed at the window edge; trajectory points up - watch rather than exclude"
+  },
+  "nea": {
+    "name": "NEA",
+    "harmonic_urn_or_id": "urn:harmonic:investor:148812",
+    "eu_deals_24m": 7,
+    "examples": [
+      {"company": "Valarian", "country": "United Kingdom", "round": "Series A (lead)", "date": "2026-07-13"},
+      {"company": "spektr", "country": "Denmark", "round": "Series A (lead)", "date": "2026-04-15"},
+      {"company": "DJUST", "country": "France", "round": "Series A extension (lead)", "date": "2025-10-01"},
+      {"company": "Orbis Medicines", "country": "Denmark", "round": "Series A (co-lead)", "date": "2025-01-06"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "Quietly one of the most active US funds at European Series A: 4 led/co-led As in window across UK/DK/FR, enterprise plus biotech, no EU office"
+  },
+  "benchmark": {
+    "name": "Benchmark",
+    "harmonic_urn_or_id": "urn:harmonic:investor:205003",
+    "eu_deals_24m": 1,
+    "examples": [
+      {"company": "Decade Energy", "country": "France", "round": "Seed ($85M, participant)", "date": "2026-08-06"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "One observed EU seed participation; Harmonic's 'Benchmark'/'Benchmark Capital' naming is ambiguous so the stored count is unreliable - verified via the Decade Energy round itself"
+  },
+  "greylock": {
+    "name": "Greylock",
+    "harmonic_urn_or_id": "urn:harmonic:investor:164602",
+    "eu_deals_24m": 0,
+    "examples": [],
+    "europe_presence": "none-known",
+    "verdict": "exclude",
+    "why": "Zero EU seed/A companies in window; US-centric (92% North America)"
+  },
+  "first-round": {
+    "name": "First Round Capital",
+    "harmonic_urn_or_id": "urn:harmonic:investor:160174",
+    "eu_deals_24m": 0,
+    "examples": [],
+    "europe_presence": "none-known",
+    "verdict": "exclude",
+    "why": "Zero EU seed/A companies in window; 97% North America by design"
+  },
+  "crv": {
+    "name": "CRV",
+    "harmonic_urn_or_id": "urn:harmonic:investor:177995",
+    "eu_deals_24m": 2,
+    "examples": [
+      {"company": "THEKER Robotics", "country": "Spain", "round": "Series A (co-lead, $84.5M)", "date": "2026-06-11"},
+      {"company": "LocalStack", "country": "Switzerland", "round": "Series A", "date": "2024-11-12"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "2 deals but one is co-leading THEKER's $84.5M Barcelona Series A - opportunistic conviction, not coverage"
+  },
+  "initialized": {
+    "name": "Initialized Capital",
+    "harmonic_urn_or_id": "urn:harmonic:investor:243663",
+    "eu_deals_24m": 5,
+    "examples": [
+      {"company": "Seamflow", "country": "United Kingdom", "round": "Seed (co-lead)", "date": "2026-02-11"},
+      {"company": "OpenTaco", "country": "United Kingdom", "round": "Seed (lead)", "date": "2025-06-17"},
+      {"company": "kapa.ai", "country": "Denmark", "round": "Seed (lead)", "date": "2024-10-03"},
+      {"company": "Beyond Aero", "country": "France", "round": "Series A", "date": "2024-10-28"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "Meets the bar: 4 round-verified in window, 3 as lead, all seed-stage; lower brand tier than the rest of the list but the activity is real"
+  },
+  "craft-ventures": {
+    "name": "Craft Ventures",
+    "harmonic_urn_or_id": "urn:harmonic:investor:187197",
+    "eu_deals_24m": 1,
+    "examples": [
+      {"company": "SONORA", "country": "Spain", "round": "Series A (participant)", "date": "2026-07-20"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "Single EU participation in window; 97% North America book"
+  },
+  "spark-capital": {
+    "name": "Spark Capital",
+    "harmonic_urn_or_id": "urn:harmonic:investor:124021",
+    "eu_deals_24m": 4,
+    "examples": [
+      {"company": "Ravio", "country": "United Kingdom", "round": "Series A (lead)", "date": "2025-05-08"},
+      {"company": "Latent Technology", "country": "United Kingdom", "round": "Seed (co-lead)", "date": "2025-06-06"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "2 round-verified in window, both led, both London; count of 4 includes stale relationships. Likely undercounted (companies it seeded that graduated to B drop from the stage filter) - at the include boundary"
+  },
+  "usv": {
+    "name": "Union Square Ventures",
+    "harmonic_urn_or_id": "urn:harmonic:investor:129336",
+    "eu_deals_24m": 5,
+    "examples": [
+      {"company": "Isembard", "country": "United Kingdom", "round": "Series A (lead)", "date": "2026-03-01"},
+      {"company": "Volteras", "country": "United Kingdom", "round": "Series A (lead)", "date": "2025-05-29"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "2 round-verified in window but both are led London Series As (Isembard $50M); count of 5 includes stale relationships. Repeat EU conviction at A - at the include boundary"
+  },
+  "insight-partners": {
+    "name": "Insight Partners",
+    "harmonic_urn_or_id": "urn:harmonic:investor:129657",
+    "eu_deals_24m": 6,
+    "examples": [
+      {"company": "Runware", "country": "United Kingdom", "round": "Seed (lead)", "date": "2025-09-09"},
+      {"company": "dao", "country": "Germany", "round": "Seed (lead)", "date": "2025-02-03"},
+      {"company": "Theo", "country": "Germany", "round": "Seed", "date": "2025-02-03"},
+      {"company": "Passionfroot", "country": "Germany", "round": "Series A (lead)", "date": "2026-07-01"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "Expected growth-shadow, but the evidence contradicts it: led EU seeds at Runware, dao and Theo plus Passionfroot's Series A in window - Insight is running a real European seed program alongside its growth franchise. If the region is strictly 'early-stage practices', include; note the dual identity"
+  },
+  "ivp": {
+    "name": "IVP",
+    "harmonic_urn_or_id": "urn:harmonic:investor:215810",
+    "eu_deals_24m": 0,
+    "examples": [],
+    "europe_presence": "london office",
+    "verdict": "growth-shadow",
+    "why": "Zero EU seed/A in window; entry stage is Series B, top stages D/C/F. Opened a London office in 2023 - shadows European growth rounds from there, not early stage"
+  },
+  "y-combinator": {
+    "name": "Y Combinator",
+    "harmonic_urn_or_id": "urn:harmonic:investor:164277",
+    "eu_deals_24m": 69,
+    "examples": [
+      {"company": "Spott", "country": "Belgium", "round": "Seed (co-lead)", "date": "2025-05-28"},
+      {"company": "herdr", "country": "Turkey", "round": "Seed", "date": "2026-09-09"},
+      {"company": "nsave", "country": "United Kingdom", "round": "Series A", "date": "2025-01-10"},
+      {"company": "Parahelp", "country": "Denmark", "round": "Series A", "date": "2025-09-11"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "69 EU-headquartered companies at seed/A funded in window (660 EU companies all-time); the mechanism is batch funding in SF rather than a European practice, so treat as a volume signal distinct from the lead-investor funds"
+  },
+  "base10": {
+    "name": "Base10",
+    "harmonic_urn_or_id": "urn:harmonic:investor:189024",
+    "eu_deals_24m": 5,
+    "examples": [
+      {"company": "Pillar", "country": "Italy", "round": "Seed (co-lead)", "date": "2026-05-12"},
+      {"company": "Jet HR", "country": "Italy", "round": "Series A (lead)", "date": "2025-06-18"},
+      {"company": "The Mobile-First Company", "country": "France", "round": "Seed (co-lead)", "date": "2025-10-31"},
+      {"company": "Spott", "country": "Belgium", "round": "Seed (co-lead)", "date": "2025-05-28"},
+      {"company": "handly", "country": "Germany", "round": "Seed", "date": "2025-02-18"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "5 round-verified in window, 4 led/co-led, with a southern-Europe tilt (both Milan deals); Europe is 13% of its book - a real if under-the-radar EU seed practice"
+  },
+  "haun-ventures": {
+    "name": "Haun Ventures",
+    "harmonic_urn_or_id": "urn:harmonic:investor:124895",
+    "eu_deals_24m": 1,
+    "examples": [
+      {"company": "Velocity", "country": "United Kingdom", "round": "Series A extension (participant)", "date": "2026-09-15"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "borderline",
+    "why": "Crypto-only mandate, 55 deals total; one EU participation in window - only relevant if the region should capture crypto flow"
+  },
+  "8vc": {
+    "name": "8VC",
+    "harmonic_urn_or_id": "urn:harmonic:investor:173086",
+    "eu_deals_24m": 8,
+    "examples": [
+      {"company": "Portal Biotech", "country": "United Kingdom", "round": "Series A", "date": "2025-06-30"},
+      {"company": "Latent Labs", "country": "United Kingdom", "round": "Series A", "date": "2025-02-13"},
+      {"company": "Ethos", "country": "United Kingdom", "round": "Seed", "date": "2025-03-27"},
+      {"company": "STARK", "country": "Germany", "round": "Early stage", "date": "2025-08-21"},
+      {"company": "Luminate", "country": "Ireland", "round": "Series A", "date": "2024-09-18"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "8 matches, 5+ round-verified in window - consistent participant in UK deep-tech/defence/bio seed and A rounds (led ICOMAT's A just before window); rarely leads in EU"
+  },
+  "redpoint": {
+    "name": "Redpoint",
+    "harmonic_urn_or_id": "urn:harmonic:investor:168753",
+    "eu_deals_24m": 4,
+    "examples": [
+      {"company": "Gradient Labs", "country": "United Kingdom", "round": "Series A (lead)", "date": "2025-07-08"},
+      {"company": "Anam", "country": "United Kingdom", "round": "Seed (lead)", "date": "2025-06-24"},
+      {"company": "Restate", "country": "Germany", "round": "Series A (seed was Redpoint-led 2024-06)", "date": "2026-09-01"}
+    ],
+    "europe_presence": "none-known",
+    "verdict": "include",
+    "why": "3 round-verified in window, 2 as lead (Gradient Labs, Anam - both London AI); meets the 3+ bar on verified activity despite Europe being under 3% of its book"
+  }
+}
