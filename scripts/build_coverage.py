@@ -97,6 +97,41 @@ for key, cfg in REGION_CFG.items():
     attach_dealflow(ents, load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}), aff_dump)
     htc_added = inject_htc_captables(ents, load_json(f"{ROOT}/data/enrich/htc-captables.json", {}),
                                      htc_owners)
+    # Unframe brain scores: portfolio quality drives relevance; per-company badges
+    uf_data = load_json(f"{ROOT}/data/enrich/unframe-{key}.json", {}) or {}
+    uf_hit = 0
+    for e in ents:
+        if e["kind"] != "fund":
+            continue
+        d = uf_data.get(e["slug"]) or {}
+        comps = [c for c in (d.get("companies") or []) if c.get("score")]
+        scores = sorted((c["score"] for c in comps), reverse=True)
+        high = sum(1 for s in scores if s >= 85)
+        avg10 = sum(scores[:10]) / min(10, len(scores)) if scores else 0.0
+        pts = min(25.0, high * 2.5) + 15.0 * avg10 / 100.0
+        e["uf"] = {"high": high, "avg10": round(avg10, 1),
+                   "total": d.get("total") or 0, "pts": round(pts, 1)}
+        if e.get("relevance") and scores:
+            r = e["relevance"]
+            r["thesis"] = r["total"]
+            r["unframe"] = round(pts, 1)
+            r["total"] = round(0.6 * r["total"] + pts)
+        bydom = {(c.get("domain") or "").lower(): c["score"] for c in comps if c.get("domain")}
+        byname = {(c.get("name") or "").lower(): c["score"] for c in comps if c.get("name")}
+        stamp = lambda o: bydom.get((o.get("domain") or "").lower()) or byname.get((o.get("name") or "").lower())
+        for lst in e["buckets"].values():
+            for p in lst:
+                sc = stamp(p)
+                if sc:
+                    p["uf"] = sc
+                    uf_hit += 1
+        for u in e.get("untracked") or []:
+            sc = stamp(u)
+            if sc:
+                u["uf"] = sc
+                uf_hit += 1
+    if uf_hit:
+        print(f"  [{key}] unframe: {uf_hit} companies stamped with brain scores")
     if htc_added:
         print(f"  [{key}] harmonic cap tables: +{htc_added} hard-to-crack links")
     if added_by or rescued:

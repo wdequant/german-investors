@@ -116,6 +116,10 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .chip b{font-weight:650}
 .uvtag{font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
   color:var(--thin-ink);background:var(--c-awaiting);border-radius:5px;padding:1px 5px;white-space:nowrap}
+.ufb{font-size:10px;font-weight:700;border-radius:5px;padding:1px 5px;vertical-align:1px;font-variant-numeric:tabular-nums}
+.ufb.hi{background:var(--c-lead);color:var(--c-lead-ink)}
+.ufb.mid{background:var(--c-awaiting);color:var(--c-awaiting-ink)}
+.ufb.lo{background:var(--hair2);color:var(--ink2)}
 .avi{display:inline-flex;width:19px;height:19px;border-radius:50%;align-items:center;justify-content:center;
   font-size:8.5px;font-weight:700;color:#fff;flex:none;letter-spacing:.02em;vertical-align:-4px;margin-right:2px}
 .chip.prelead{background:var(--c-prelead);color:var(--c-prelead-ink)}
@@ -542,6 +546,7 @@ function bridgeLines(e){
   return (e.bridges||[]).slice(0,2).map(b=>
     `<span class="pt bridge">↪ via <b>${b.name}</b> <span class="via">(${b.internal}${b.pct!=null?' · '+b.pct+'%':''})</span></span>`);
 }
+const ufBadge = s => s==null?'':` <span class="ufb ${s>=85?'hi':s>=70?'mid':'lo'}" title="Unframe brain score ${Math.round(s)}/100">${Math.round(s)}</span>`;
 const AVI_COLORS=['#2733f0','#0e7a4a','#a05a00','#7a2e8a','#b3403a','#11607a','#5a5a2e','#8a2e55'];
 const avi = n => {
   const init=(n||'').split(' ').filter(Boolean).map(w=>w[0]).slice(0,2).join('').toUpperCase();
@@ -611,7 +616,7 @@ function detailHTML(e){
   const secs = [...BUCKETS,["portfolio","Portfolio company"]];
   const isGlobal = (e.buckets.prelead.concat(e.buckets.lead)).some(p=>p.country!==undefined);
   const inRegion = p => !isGlobal || p.country===undefined || p.country===null || regionCountries().has(p.country);
-  const pitem = (p,cls) => `<span${cls?` class="${cls}"`:''}><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${(p.own||[]).length?` <span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</span>`;
+  const pitem = (p,cls) => `<span${cls?` class="${cls}"`:''}><span class="st">${(p.funnel||'—').replace(' (free for all)','')}</span><a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${ufBadge(p.uf)}${(p.own||[]).length?` <span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</span>`;
   for(const [k,label] of secs){
     const list=e.buckets[k]; if(!list||!list.length) continue;
     if(state.person){
@@ -842,12 +847,12 @@ const affBtn = (p,u) => p.affinity_id
   : `<button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button>`;
 function untCompanyRows(e){
   const prof = D.untProfiles||{};
-  return (e.untracked||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(u=>{
+  return (e.untracked||[]).slice().sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || (b.date||'').localeCompare(a.date||'')).map(u=>{
     const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
     const founders = (p.founders||[]).slice(0,3).map(f=>
       `${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="cc">${f.title?` \u00b7 ${f.title.replace('Co-Founder','Co-founder')}`:''}</span>`).join('<br>')||'<span class="cc">\u2014</span>';
     return `<tr>
-      <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
+      <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a>${ufBadge(u.uf)}<div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
       <td class="udesc">${p.desc||''}</td>
       <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
       <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
@@ -879,6 +884,7 @@ function untCompanies(){
   const key = r => ({date: r.u.date||'', raised: r.p.funding_total_usd||0,
     hc: r.p.headcount!=null?r.p.headcount:-1,
     gr: (r.p.headcount_growth&&r.p.headcount_growth.pct!=null)?r.p.headcount_growth.pct:-1e9,
+    uf: r.u.uf??-1,
     name: (r.u.name||'').toLowerCase()})[state.untSort.k];
   rows.sort((a,b)=>{const ka=key(a),kb=key(b); return (ka<kb?-1:ka>kb?1:0)*state.untSort.d;});
   return rows;
@@ -898,6 +904,7 @@ function untCompanyTable(){
       <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
       <td class="udesc">${p.desc||''}</td>
       <td class="ubak" style="font-size:12px;color:var(--ink2)">${r.invs.join(', ')}</td>
+      <td class="num">${ufBadge(u.uf)||'—'}</td>
       <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
       <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
       <td class="num">${fmtMoney(p.funding_total_usd)}</td>
@@ -908,8 +915,8 @@ function untCompanyTable(){
   }).join('');
   const tbl = document.getElementById('unttable');
   tbl.className = 'df';
-  tbl.innerHTML = `<thead><tr>${th('Company','name')}<th>What they do</th><th>Backed by</th><th>Stage</th>${th('Latest round','date')}${th('Raised','raised')}${th('FTE','hc')}${th('Growth','gr')}<th>Founders / CEO</th><th></th></tr></thead>
-    <tbody>${body||`<tr><td colspan="10" style="color:var(--muted)">Nothing matches.</td></tr>`}</tbody>`;
+  tbl.innerHTML = `<thead><tr>${th('Company','name')}<th>What they do</th><th>Backed by</th>${th('Unframe','uf')}<th>Stage</th>${th('Latest round','date')}${th('Raised','raised')}${th('FTE','hc')}${th('Growth','gr')}<th>Founders / CEO</th><th></th></tr></thead>
+    <tbody>${body||`<tr><td colspan="11" style="color:var(--muted)">Nothing matches.</td></tr>`}</tbody>`;
   tbl.querySelectorAll('th.sk').forEach(h=>h.addEventListener('click',()=>{
     const k = h.dataset.sk;
     if(state.untSort.k===k) state.untSort.d*=-1;
@@ -983,13 +990,13 @@ function mUntCards(){
   }).join('');
 }
 function mUntCompanyCards(){
-  const sorts = [['date','Newest'],['hc','FTE'],['gr','Growth'],['raised','Raised']];
+  const sorts = [['uf','Unframe'],['date','Newest'],['hc','FTE'],['gr','Growth'],['raised','Raised']];
   const chips = `<div class="mchips" style="padding-left:0;margin-bottom:12px">`+
     sorts.map(([k,l])=>`<span class="chip suntchip${state.untSort.k===k?' on':''}" data-sk="${k}">${l}${state.untSort.k===k?(state.untSort.d<0?' ▾':' ▴'):''}</span>`).join('')+`</div>`;
   const cards = untCompanies().map(r=>{
     const p=r.p, u=r.u;
     return `<div class="mcard" style="cursor:default">
-      <div class="mtop"><div class="fname"><a href="${untURL(u)}" target="_blank" rel="noopener">${u.name}</a></div>
+      <div class="mtop"><div class="fname"><a href="${untURL(u)}" target="_blank" rel="noopener">${u.name}</a>${ufBadge(u.uf)}</div>
         <span class="cc">${(u.date||'').slice(0,7)}</span></div>
       ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
       <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
@@ -1294,11 +1301,13 @@ function tipRel(e){
     Syndication with funds we cover <b>${r.synd}</b><br>
     Presence on our pipeline cap tables <b>${r.pipe}</b>
     <div class="tf">How upstream this angel is for Highland: how much they invest, how well it turns out, and how often it lands in front of us</div>`;
-  return `<div class="th">Relevance ${r.total}/100</div>
-    Stage fit <b>${r.stage}</b>/25 · Sector fit <b>${r.sector}</b>/25<br>
+  const uf = r.unframe!=null ? `<br><b>Portfolio quality (Unframe) ${r.unframe}/40</b> <span style="color:var(--muted)">— ${(e.uf||{}).high||0} backed companies scoring ≥85, top-10 avg ${(e.uf||{}).avg10||0}</span>` : '';
+  const thesis = r.thesis!=null ? `Thesis fit ${r.thesis}/100 × 0.6:<br>` : '';
+  return `<div class="th">Relevance ${r.total}/100${r.unframe!=null?' — thesis × Unframe blend':''}</div>
+    ${thesis}Stage fit <b>${r.stage}</b>/25 · Sector fit <b>${r.sector}</b>/25<br>
     Europe share <b>${r.geo}</b>/20 <span style="color:var(--muted)">(${Math.round(r.europe)}% of recent deals in Europe)</span><br>
-    Activity <b>${r.activity}</b>/15 · Graduation to growth rounds <b>${r.grad}</b>/15
-    <div class="tf">How much this fund's portfolio should feed Highland's pipeline — independent of how well we know them</div>`;
+    Activity <b>${r.activity}</b>/15 · Graduation to growth rounds <b>${r.grad}</b>/15${uf}
+    <div class="tf">How much this fund's portfolio should feed Highland's pipeline${r.unframe!=null?' — weighted by how many of their companies our brain model rates high-priority':''}</div>`;
 }
 const tipEmail = el => `<div class="th${el.dataset.guess?' warn':''}">${el.dataset.guess?'Email — unverified guess':'Email'}</div>
   <b>${el.dataset.em}</b><br>${el.dataset.guess?`Inferred from this fund's email format — not confirmed, sanity-check before sending.`:'From Affinity.'}
