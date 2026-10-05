@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Unframe__find_company",
+      "mcp__Unframe__find_investor",
+      "mcp__Unframe__search_companies",
+      "mcp__Unframe__get_company",
+      "mcp__Unframe__get_company_news",
+      "mcp__Unframe__get_company_notes",
+      "mcp__Unframe__explain_company_score",
+      "mcp__Unframe__get_score_changes"
+    ]
+  }
+}
