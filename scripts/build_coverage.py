@@ -111,6 +111,7 @@ for key, cfg in REGION_CFG.items():
 
     uf_data = load_json(f"{ROOT}/data/enrich/unframe-{key}.json", {}) or {}
     uf_hit = 0
+    uf_high_set = set()
     for e in ents:
         if e["kind"] != "fund":
             continue
@@ -123,7 +124,13 @@ for key, cfg in REGION_CFG.items():
         avg10 = sum(scores[:10]) / min(10, len(scores)) if scores else 0.0
         pts = min(25.0, high * 2.5) + 15.0 * avg10 / 100.0
         e["uf"] = {"high": high, "avg10": round(avg10, 1),
-                   "total": d.get("total") or 0, "pts": round(pts, 1)}
+                   "total": d.get("total") or 0, "pts": round(pts, 1),
+                   "top": [{"name": c.get("name"), "domain": c.get("domain"),
+                            "score": c["combined"], "tracking": c.get("tracking")}
+                           for c in sorted(comps, key=lambda c: -c["combined"])[:3]]}
+        for c in comps:
+            if c["combined"] >= 85:
+                uf_high_set.add((c.get("domain") or c.get("name") or "").lower())
         if e.get("relevance") and scores:
             r = e["relevance"]
             r["thesis"] = r["total"]
@@ -165,6 +172,7 @@ for key, cfg in REGION_CFG.items():
             e["relevance"]["angel"] = True
             e["gap"] = round(e["relevance"]["total"] * (1 - e["connectivity"] / 100))
     regions[key] = {"label": cfg["label"], "adj": cfg["adj"], "entities": ents,
+                    "ufHigh": len(uf_high_set),
                     "htc": build_htc(ents, htc_owners)}
 
 _spec = _ilu.spec_from_file_location("coverage_template",
@@ -177,11 +185,14 @@ try:
     _dump_date = _date.fromisoformat(_dump_date).strftime("%d %b %Y")
 except ValueError:
     pass
+_uf_any = any(r.get("ufHigh") for r in regions.values())
 freshness = {
     "Harmonic universe & network": "12 Aug 2026",
     "Affinity relationships & pipeline": _dump_date,
     "Partner rosters, recent deals, recency": "17 Aug 2026",
 }
+if _uf_any:
+    freshness["Unframe priority scores"] = TODAY.strftime("%d %b %Y")
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
            "affinityOrg": AFFINITY_ORG, "regions": regions, "freshness": freshness,
            "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {}}

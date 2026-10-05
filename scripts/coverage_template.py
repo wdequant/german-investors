@@ -387,7 +387,9 @@ th.sk:hover{color:var(--accent-ink)}
 activity 15 · graduation 15. Relevance (angels) = deal velocity + unicorns + syndication with covered funds +
 presence on our pipeline cap tables. Coverage = 55% Harmonic team-network + 45% Affinity partnership
 relationships (incl. Laurence, Fergal, Ronan), multiplied by a recency decay (≤6m ×1.0 · ≤1y ×0.9 · ≤2y ×0.5 ·
-older ×0.3); dormant ties floor the score and show as ⏱ re-warmable paths. Pipeline chips = companies on the
+older ×0.3); dormant ties floor the score and show as ⏱ re-warmable paths. Company badges and 40% of fund
+relevance come from <b>Unframe combined priority</b> (brain score blended with note priority &amp; note sentiment;
+green ≥85 · amber 70–84); fund relevance = 0.6 × thesis fit + portfolio quality. Pipeline chips = companies on the
 Highland Companies list backed by the investor (Lead includes Qualified Lead and Deal; passed/deprioritised
 excluded). “Untracked” = their post-Feb-2025 European deals absent from our pipeline list. ⚠ marks a contact
 who appears to have left the fund. Percentages next to people are <b>Affinity relationship strength</b> (0–100%):
@@ -454,6 +456,7 @@ function scoreboard(){
   document.getElementById('score').innerHTML = `
     <div class="s"><b>${f.length}+${E().length-f.length}</b><span>funds + angels</span></div>
     <div class="s"><b>${f.filter(e=>e.coinvest.length).length}</b><span>co-invested with</span></div>
+    ${D.regions[state.region].ufHigh?`<div class="s"><b>${D.regions[state.region].ufHigh}</b><span>high-priority cos backed · Unframe</span></div>`:''}
     <div class="s"><b>${live}</b><span>${state.person?state.person.split(' ')[0]+"'s pipeline overlaps":'live pipeline overlaps'}</span></div>
     <div class="s warn"><b>${hard}</b><span>hard-to-cracks reachable</span></div>
     <div class="s warn"><b>${unt}</b><span>untracked recent EU deals</span></div>
@@ -466,7 +469,7 @@ function filtersHTML(){
   const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
   let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
   if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
-  const SORTS=[["gap","Biggest gaps"],["connectivity","Coverage"],["relevance","Relevance"],["pipeline","Pipeline overlap"],["name","Name"]];
+  const SORTS=[["gap","Biggest gaps"],["connectivity","Coverage"],["relevance","Relevance"],["ufq","Portfolio quality (Unframe)"],["pipeline","Pipeline overlap"],["name","Name"]];
   h += `<span class="lbl">Sort</span><select id="sortsel">`+SORTS.map(([k,l])=>`<option value="${k}"${state.sort===k?' selected':''}>${l}</option>`).join('')+`</select>`;
   document.getElementById('filters').innerHTML = h;
   document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
@@ -585,6 +588,10 @@ function detailHTML(e){
     h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · Europe ${r.geo} at ${Math.round(r.europe)}% · activity ${r.activity} · graduation ${r.grad})
       · ${e.num_investments??'—'} investments · ${e.unicorns??0} unicorns · last investment ${e.last_investment||'—'}
       ${e.coinvest.length?` · <b style="color:var(--covered-ink)">co-invested:</b> ${e.coinvest.join(', ')}`:''}</div>`;
+    if(e.uf && (e.uf.top||[]).length){
+      h += `<div class="meta-line"><b>Top of their portfolio</b> <span class="cc">· Unframe combined priority</span> &nbsp;`+
+        e.uf.top.map(t=>`${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:`<b>${t.name}</b>`}${ufBadge(t.score)}${t.tracking==='not_tracked'?' <span class="cc">not in Affinity</span>':''}`).join(' &nbsp;·&nbsp; ')+`</div>`;
+    }
   } else if(e.relevance){
     const r=e.relevance;
     h += `<div class="meta-line">Angel relevance ${r.total} (deals ${r.deals} · outcomes ${r.uni} · syndication ${r.synd} · our-pipeline presence ${r.pipe}) · ${e.num_investments??'—'} tracked deals</div>`;
@@ -1139,7 +1146,9 @@ function rerenderOpen(e){
 }
 
 // ---------- render ----------
-function srt(list){ const col = COLS.find(c=>c.k===state.sort)||COLS[4]; return [...list].sort(col.sort); }
+function srt(list){
+  if(state.sort==='ufq') return [...list].sort((a,b)=>((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0)||(b.relevance?.total||0)-(a.relevance?.total||0));
+  const col = COLS.find(c=>c.k===state.sort)||COLS[4]; return [...list].sort(col.sort); }
 function visible(){
   return E().filter(e=>(!state.q||e.name.toLowerCase().includes(state.q))
     && (!state.cat || e.kind!=='fund' || e.category===state.cat)
