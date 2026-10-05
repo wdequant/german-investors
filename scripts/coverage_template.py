@@ -55,24 +55,28 @@ body{background:var(--page);color:var(--ink);
 #fbpop a{color:var(--accent-ink)}
 @media (max-width:700px){ #fbpop{left:14px;right:14px;max-width:none;top:110px} .btn.ghost{padding:5px 10px;font-size:11.5px} }
 .wrap{max-width:1760px;margin:0 auto;padding:0 28px}
-.hero{padding:38px 0 4px}
-.kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
-h1{font-size:33px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-family:var(--display)}
-.sub{color:var(--ink2);margin-top:10px;font-size:14px;max-width:980px}
-.regionnav{display:flex;gap:8px;margin:18px 0 10px;flex-wrap:wrap}
-.regionnav button{background:var(--surface);color:var(--ink2);border:1px solid var(--hair);border-radius:10px;
-  padding:10px 24px;font-size:15px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
-.regionnav button:hover{border-color:var(--ink2)}
-.regionnav button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
-.regionnav select{margin-left:auto;background:var(--surface);color:var(--ink2);border:1px solid var(--hair);
-  border-radius:10px;padding:10px 14px;font-size:13.5px;font-weight:600;cursor:pointer}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 56px;align-items:end;
+  padding:32px 0 20px;border-bottom:1px solid var(--hair)}
+.heroL{min-width:0}
+.kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-family:var(--display);margin:0}
+.sub{color:var(--ink2);margin-top:8px;font-size:14px;max-width:980px}
+.regionnav{display:inline-flex;border:1px solid var(--hair);border-radius:11px;overflow:hidden;
+  background:var(--surface);flex-wrap:nowrap}
+.regionnav button{background:transparent;color:var(--ink2);border:0;border-left:1px solid var(--hair);
+  border-radius:0;padding:9px 22px;font-size:14px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
+.regionnav button:first-child{border-left:0}
+.regionnav button:hover{color:var(--ink)}
+.regionnav button.on{background:var(--ink);color:var(--surface)}
 .shrow.trip .shcard{min-width:0}
 .tripdoors{font-size:11.5px;margin-top:3px;color:var(--ink2)}
 .tripdoors a{font-weight:600}
-.actionrow{display:flex;gap:10px;margin:2px 0 12px;flex-wrap:wrap}
-.abtn{background:var(--surface);border:1px solid var(--ink);color:var(--ink);border-radius:10px;
-  padding:9px 18px;font-size:13.5px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
-.abtn:hover{background:var(--ink);color:var(--surface)}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:14px 0 2px}
+.actionrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.actlabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-right:2px}
+.abtn{background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-ink);border-radius:9px;
+  padding:9px 16px;font-size:13px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
+.abtn:hover{background:var(--ink);color:var(--surface);border-color:var(--ink)}
 #apback{position:fixed;inset:0;background:rgba(20,18,12,.35);z-index:65;display:none}
 #apback.open{display:block}
 #apanel{position:fixed;top:0;right:0;width:min(640px,96vw);height:100vh;background:var(--page);
@@ -118,13 +122,19 @@ h1{font-size:33px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .about summary::-webkit-details-marker{display:none}
 .about .aboutbody{margin-top:8px;max-width:860px;color:var(--ink2);font-size:13.5px;line-height:1.55;
   border:1px solid var(--hair);border-radius:10px;padding:12px 14px;background:var(--surface)}
-.score{display:flex;margin:22px 0 4px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.score{display:flex;align-self:end;margin:0 0 2px}
 .score .s.go{cursor:pointer} .score .s.go:hover b{text-decoration:underline}
-.score .s{flex:1;padding:16px 20px 14px;border-left:1px solid var(--hair)}
-.score .s:first-child{border-left:0;padding-left:2px}
-.score b{display:block;font-size:28px;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-.02em;line-height:1.1}
-.score span{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.1em}
+.score .s{padding:0 26px 0;border-left:1px solid var(--hair);max-width:200px}
+.score .s:first-child{border-left:0;padding-left:0}
+.score .s:last-child{padding-right:0}
+.score b{display:block;font-size:30px;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-.02em;line-height:1.05}
+.score span{display:block;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.09em;margin-top:4px;line-height:1.45}
 .score .s.crit b{color:var(--gap-ink)} .score .s.warn b{color:var(--thin-ink)}
+@media(max-width:1180px){
+  .hero{grid-template-columns:1fr;gap:0}
+  .score{align-self:start;width:100%;margin-top:18px;padding-top:14px;border-top:1px solid var(--hair)}
+  .score .s{flex:1;max-width:none}
+}
 .filters{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0 4px;font-size:12px}
 .fchip{border:1px solid var(--hair);background:var(--surface);color:var(--ink2);border-radius:14px;
   padding:4px 12px;font-size:12px;cursor:pointer;font-weight:550}
@@ -436,27 +446,32 @@ th.sk:hover{color:var(--accent-ink)}
 </div></div>
 
 <div class="wrap">
-<div class="hero">
-  <div class="kicker" id="kick">Highland Europe · relationship intelligence · __GENERATED__</div>
-  <h1 id="pagetitle"></h1>
+<header class="hero">
+  <div class="heroL">
+    <div class="kicker" id="kick">Highland Europe · relationship intelligence · __GENERATED__</div>
+    <h1 id="pagetitle"></h1>
+    <p class="sub subline"><span id="subcount"></span>
+    <details class="about"><summary>How to read this page</summary><div class="aboutbody">
+    Read each fund left to right: <b>why they matter</b> — the top of their portfolio through our Unframe
+    lens; <b>where we stand</b> — <b style="color:var(--covered-ink)">covered</b>,
+    <b style="color:var(--thin-ink)">thin</b> or <b style="color:var(--gap-ink)">gap</b>, blending the
+    team's Harmonic network with Affinity relationships and decayed by recency — a path untouched for over
+    a year fades; and <b>your next move</b> — the warm path to use, the tie to re-warm, or the co-investor
+    bridge to ask for. Click a row for the dossier; use <b>View as</b> to see it through one person's
+    relationships.</div></details></p>
+  </div>
+  <div class="score" id="score"></div>
+</header>
+
+<div class="toolbar">
   <div id="regionseg" class="regionnav"></div>
   <div class="actionrow">
-    <button class="abtn" data-ap="htc">Solve my hard-to-cracks</button>
-    <button class="abtn" data-ap="net">Build my network</button>
+    <span class="actlabel" id="actlabel">Workflows</span>
+    <button class="abtn" data-ap="htc">⚡ Solve my hard-to-cracks</button>
+    <button class="abtn" data-ap="net">⇗ Build my network</button>
     <button class="abtn" data-ap="geo">✈ Geo visit</button>
   </div>
-  <p class="sub subline"><span id="subcount"></span>
-  <details class="about"><summary>How to read this page</summary><div class="aboutbody">
-  Read each fund left to right: <b>why they matter</b> — the top of their portfolio through our Unframe
-  lens; <b>where we stand</b> — <b style="color:var(--covered-ink)">covered</b>,
-  <b style="color:var(--thin-ink)">thin</b> or <b style="color:var(--gap-ink)">gap</b>, blending the
-  team's Harmonic network with Affinity relationships and decayed by recency — a path untouched for over
-  a year fades; and <b>your next move</b> — the warm path to use, the tie to re-warm, or the co-investor
-  bridge to ask for. Click a row for the dossier; use <b>View as</b> to see it through one person's
-  relationships.</div></details></p>
 </div>
-
-<div class="score" id="score"></div>
 <div id="changes"></div>
 
 <div id="fundsview">
@@ -565,6 +580,8 @@ function scoreboard(){
   const gaps = f.filter(e=>eff(e).tier==='weak' && e.relevance.total>=60);
   const hard = D.regions[state.region].htc.length;
   const unt = f.reduce((n,e)=>n+((e.untracked||[]).length),0);
+  const al = document.getElementById('actlabel');
+  if(al) al.textContent = state.person ? `For ${state.person.split(' ')[0]}` : 'Workflows';
   document.getElementById('score').innerHTML = `
     <div class="s crit go" data-go="gaps"><b>${gaps.length}</b><span>${state.person?'relevant funds '+state.person.split(' ')[0]+" can't reach":'relevant funds worth time — no warm path'}</span></div>
     <div class="s warn go" data-go="htc"><b>${hard}</b><span>hard-to-crack companies reachable via these funds</span></div>
