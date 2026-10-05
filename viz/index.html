@@ -707,7 +707,7 @@ const guessEmail = (name, fmt) => {
 };
 const ALLE = REGIONS.flatMap(r=>D.regions[r].entities.map(e=>({r,e})));
 const metroOf = c => METRO[c]||c;
-const ap = {mode:'', who:'', city:''};
+const ap = {mode:'', who:'', city:'', hsort:'uf'};
 
 function openAP(mode){
   ap.mode=mode;
@@ -724,13 +724,15 @@ function renderAP(){
   const titles={htc:'Solve my hard-to-cracks', net:'Build my network', geo:'Geo visit'};
   document.getElementById('aptitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
-  ctx.innerHTML=`Acting as <select id="apwho"><option value="">Whole team</option>`+
+  ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
     D.roster.map(n=>`<option${ap.who===n?' selected':''}>${n}</option>`).join('')+`</select>`+
     (ap.mode==='geo'?` City <select id="apcity"><option value="">choose…</option>`+
-      Object.keys(TRIPS).sort().map(c=>`<option${ap.city===c?' selected':''}>${c}</option>`).join('')+`</select>`:'');
+      Object.keys(TRIPS).sort().map(c=>`<option${ap.city===c?' selected':''}>${c}</option>`).join('')+`</select>`:'')+
+    (ap.mode==='htc'?` Sort <span class="aptog"><button data-hs="uf"${ap.hsort==='uf'?' class="on"':''}>Unframe priority</button><button data-hs="ease"${ap.hsort==='ease'?' class="on"':''}>Ease of access</button></span>`:'');
   ctx.querySelector('#apwho').addEventListener('change',ev=>{ap.who=ev.target.value;renderAP();});
   const cs=ctx.querySelector('#apcity');
   if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderAP();});
+  ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderAP();}));
   const body=document.getElementById('apbody');
   body.innerHTML = ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
@@ -751,7 +753,13 @@ function apHtc(){
     if(who && !(c.owners||[]).includes(who)) return;
     list.push({...c, region:null});
   });
-  list.sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || ((b.reachable?1:0)-(a.reachable?1:0)));
+  // ease of access = strongest live path via any backer (email-only paths count a little)
+  const ease = c => Math.max(0, ...(c.investors||[]).map(i =>
+    (i.best && !i.best.moved) ? (i.best.pct ?? 5) : 0));
+  if(ap.hsort==='ease')
+    list.sort((a,b)=> ease(b)-ease(a) || ((b.uf??-1)-(a.uf??-1)));
+  else
+    list.sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || (ease(b)-ease(a)) || ((b.reachable?1:0)-(a.reachable?1:0)));
   if(!list.length) return `<div class="aphint">No hard-to-cracks owned by ${who||'anyone'} on the tracked lists.</div>`;
   const cards=list.slice(0,60).map(c=>{
     const best=(c.investors||[]).filter(i=>i.best&&i.best.internal)
@@ -778,7 +786,7 @@ function apHtc(){
       <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}</div>
       ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any tracked backer yet</div>'}${others}${acts}</div>`;
   }).join('');
-  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by Unframe priority — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Backers we don't track yet are listed on each card; path mapping for those is coming.</div>`+cards;
+  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Backers we don't track yet are listed on each card; path mapping for those is coming.</div>`+cards;
 }
 
 function netAskBody(who,e,p){
