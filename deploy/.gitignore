@@ -1,2 +1,4 @@
 public/index.html
 .vercel/
+.vercel
+.env*
