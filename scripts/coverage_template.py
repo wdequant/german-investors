@@ -119,6 +119,12 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .apcard .fname a{color:inherit;text-decoration:none}
 .apcard .fname a:hover{text-decoration:underline}
 .commline{color:var(--ink2)}
+.apdesc{font-size:12.5px;color:var(--ink2);line-height:1.5;margin:6px 0 2px;max-width:860px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gcard{padding:12px 16px}
+.gstat{flex:none;font-size:11px;font-weight:650;color:var(--ink2);background:var(--surface);
+  border:1px solid var(--hair2);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.apmeta b{font-weight:650}
 .appath a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--hair)}
 .appath a:hover{border-bottom-color:var(--ink2)}
 .apcard .fname{font-size:14.5px}
@@ -747,6 +753,13 @@ const ap = {mode:'', who:'', city:'', hsort:'uf'};
 let SHORT = [];
 try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
 const shKey = s => s.t+'|'+s.name;
+const PROF = D.profiles||{};
+const profOf = o => PROF[((o&&o.domain)||'').toLowerCase().replace(/^www\./,'')] || {};
+const hcBit = pr => pr.hc==null?null:`${pr.hc} FTE${pr.hg!=null?` <b style="color:${growthColor(pr.hg)}">${pr.hg>0?'+':''}${Math.round(pr.hg)}% YoY</b>`:''}`;
+const bizBits = pr => [hcBit(pr),
+  pr.fu?fmtMoney(pr.fu)+' raised':null,
+  pr.st?String(pr.st).replaceAll('_',' ').toLowerCase():null,
+  pr.f?'founded '+pr.f:null].filter(Boolean);
 const shHas = (t,name) => SHORT.some(s=>s.t===t && s.name===name);
 function shToggle(t,name,extra){
   if(shHas(t,name)) SHORT = SHORT.filter(s=>!(s.t===t&&s.name===name));
@@ -877,6 +890,7 @@ function apHtc(){
         <a href="${affURL(c.id)}" target="_blank" rel="noopener">Affinity ↗</a></div>`;
     const eV=ease(c), eTier=eV>=50?'strong':eV>=22?'medium':'weak';
     const ufV=c.uf!=null?Math.round(c.uf):null, ufTier=ufV==null?'':ufV>=85?'strong':ufV>=70?'medium':'';
+    const pr0=profOf(c);
     const m=c.meta||{};
     const since=d=>{ if(!d) return null; const mo=Math.round((Date.now()-new Date(d))/26298e5);
       return mo<1?'this month':mo+' mo'; };
@@ -888,6 +902,8 @@ function apHtc(){
       <div class="apstats"><span class="apstat"><b class="covnum ${ufTier}">${ufV??'—'}</b><span class="covcap">unframe</span></span>
       <span class="apstat"><b class="covnum ${eV?eTier:''}">${eV||'—'}</b><span class="covcap">ease of access</span></span></div></div>
       <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
+      ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:''}
+      ${bizBits(pr0).length?`<div class="apmeta">${bizBits(pr0).join(' · ')}</div>`:''}
       ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}${acts}</div>`;
   }).join('');
   return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
@@ -979,7 +995,13 @@ function apGeo(){
     else seen.set(p.id,{...p, via:new Set([e.name])});
   }));});
   const pipe=[...seen.values()].sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,25);
-  const rows=pipe.map(p=>`<div class="aprow">${starBtn('co',p.name,city)}<a href="${affURL(p.id)}" target="_blank" rel="noopener"><b>${p.name}</b></a>${ufBadge(p.uf)}<span class="cc">${(p.funnel||'').replace(' (free for all)','')}</span>${!who&&(p.own||[]).length?`<span class="cc">${p.own.map(o=>o.split(' ')[0]).join(', ')}</span>`:''}</div>`).join('');
+  const rows=pipe.map(p=>{
+    const pr=profOf(p);
+    const meta=[...bizBits(pr), p.via&&p.via.size?'via '+[...p.via].slice(0,2).join(', '):null,
+      !who&&(p.own||[]).length?p.own.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ');
+    return `<div class="apcard gcard"><div class="aph2"><div class="fname">${starBtn('co',p.name,city)}<a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${ufBadge(p.uf)}</div><span class="gstat">${(p.funnel||'').replace(' (free for all)','')}</span></div>
+    ${pr.d?`<div class="apdesc">${pr.d}</div>`:''}
+    ${meta?`<div class="apmeta">${meta}</div>`:''}</div>`;}).join('');
   const inCity=ALLE.filter(x=>x.e.kind==='fund'&&cityOf(x.e)===city);
   const know=[], cold=[];
   inCity.forEach(({r,e})=>{const pc=who?personCov(e,who):e.connectivity; (pc>0?know:cold).push({r,e,pc});});

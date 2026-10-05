@@ -9694,5 +9694,5478 @@
     "meet": null
    }
   ]
+ },
+ "j12ventures.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Helena Richardson",
+    "external": "Caroline Hultman",
+    "externalEmail": "caroline@j12ventures.com",
+    "score": 0.95,
+    "last": "2024-02-20",
+    "meet": "2024-02-20"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Maja Shapiro",
+    "externalEmail": "maja@j12ventures.com",
+    "score": 0.1,
+    "last": "2025-10-28",
+    "meet": null
+   },
+   {
+    "internal": "Tyrone Tee",
+    "external": "Maja Shapiro",
+    "externalEmail": "maja@j12ventures.com",
+    "score": 0.1,
+    "last": "2025-10-28",
+    "meet": null
+   }
+  ]
+ },
+ "janngo.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "jllt.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "johnsoncontrols.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "joinef.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Zina Alfa",
+    "external": "Seyi Oluwasanmi",
+    "externalEmail": "seyi@joinef.com",
+    "score": 0.46,
+    "last": "2026-02-25",
+    "meet": "2026-02-25"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Max Neuberger",
+    "externalEmail": "max.neuberger@joinef.com",
+    "score": 0.51,
+    "last": "2025-12-03",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Ella Morris",
+    "externalEmail": "ella.morris@joinef.com",
+    "score": 0.43,
+    "last": "2025-12-16",
+    "meet": null
+   }
+  ]
+ },
+ "jolt-capital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "jpmorgan.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Jennifer Stillman",
+    "externalEmail": "jennifer.j.stillman@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-06-18",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Helena Bertuello",
+    "externalEmail": "helena.bertuello@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-09-24",
+    "meet": "2026-02-13"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Nancy Dong",
+    "externalEmail": "nancy.dong@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-09-17",
+    "meet": "2026-01-12"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Nancy Dong",
+    "externalEmail": "nancy.dong@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-09-17",
+    "meet": "2026-01-12"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "John Mazzara",
+    "externalEmail": "john.mazzara@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-06-15",
+    "meet": "2026-04-10"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "John Mazzara",
+    "externalEmail": "john.mazzara@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-06-15",
+    "meet": "2026-04-10"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Jonathan Gleason",
+    "externalEmail": "jonathan.m.gleason@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-08-12",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "William Moukouri",
+    "externalEmail": "william.kuohmoukouri@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-01-12"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "William Moukouri",
+    "externalEmail": "william.kuohmoukouri@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-01-12"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Jo Leech",
+    "externalEmail": "jo.leech@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-06-15",
+    "meet": "2025-09-22"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Max Hauer",
+    "externalEmail": "max.hauer@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-09-25",
+    "meet": "2025-03-17"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Chris Pearce",
+    "externalEmail": "chris.pearce@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-08-17",
+    "meet": "2026-07-16"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Chris Pearce",
+    "externalEmail": "chris.pearce@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-08-17",
+    "meet": "2026-07-16"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Chris Pearce",
+    "externalEmail": "chris.pearce@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-08-17",
+    "meet": "2026-07-16"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Jc Raby",
+    "externalEmail": "jc.raby@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-02",
+    "meet": "2026-03-03"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Alexandra Wyatt",
+    "externalEmail": "alexandra.wyatt@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-04-28"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Alexandra Wyatt",
+    "externalEmail": "alexandra.wyatt@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-04-28"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Alex Mccracken",
+    "externalEmail": "alex.mccracken@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-01",
+    "meet": "2026-09-24"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Alex Mccracken",
+    "externalEmail": "alex.mccracken@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-01",
+    "meet": "2026-09-24"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Alex Mccracken",
+    "externalEmail": "alex.mccracken@jpmorgan.com",
+    "score": 1.0,
+    "last": "2026-10-01",
+    "meet": "2026-09-24"
+   }
+  ]
+ },
+ "jtventures.cz": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tyrone Tee",
+    "external": "Jan Sova",
+    "externalEmail": "sova@jtventures.cz",
+    "score": 0.99,
+    "last": "2026-06-03",
+    "meet": "2026-06-03"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Kočík Adam",
+    "externalEmail": "kocik@jtventures.cz",
+    "score": 1.0,
+    "last": "2026-02-24",
+    "meet": "2026-02-24"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Kočík Adam",
+    "externalEmail": "kocik@jtventures.cz",
+    "score": 0.99,
+    "last": "2026-02-24",
+    "meet": "2026-02-24"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "David Polach",
+    "externalEmail": "polach@jtventures.cz",
+    "score": 0.43,
+    "last": "2025-10-10",
+    "meet": null
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "David Polach",
+    "externalEmail": "polach@jtventures.cz",
+    "score": 0.1,
+    "last": "2025-10-10",
+    "meet": null
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Zimola Jakub",
+    "externalEmail": "zimola@jtventures.cz",
+    "score": 0.1,
+    "last": "2024-07-24",
+    "meet": "2022-10-26"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Paleček Matouš",
+    "externalEmail": "palecek@jtventures.cz",
+    "score": 0.1,
+    "last": "2024-08-14",
+    "meet": null
+   }
+  ]
+ },
+ "junctiongrowthinvestors.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Ruben Lorer",
+    "externalEmail": "ruben.lorer@junctiongrowthinvestors.com",
+    "score": 0.95,
+    "last": "2025-07-25",
+    "meet": "2025-07-25"
+   }
+  ]
+ },
+ "k5global.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kakao.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kaporcapital.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Cliff Worley",
+    "externalEmail": "cliff.worley@kaporcapital.com",
+    "score": 0.1,
+    "last": "2026-03-10",
+    "meet": "2026-01-13"
+   }
+  ]
+ },
+ "kaya.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tyrone Tee",
+    "external": "Václav Ryšlink",
+    "externalEmail": "vasek@kaya.vc",
+    "score": 1.0,
+    "last": "2026-05-29",
+    "meet": "2026-05-29"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Václav Ryšlink",
+    "externalEmail": "vasek@kaya.vc",
+    "score": 0.97,
+    "last": "2026-05-29",
+    "meet": "2026-05-29"
+   }
+  ]
+ },
+ "keiretsuforum.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kerala.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kerrsecure.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kfund.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Jorge Campo",
+    "externalEmail": "jorge@kfund.vc",
+    "score": 1.0,
+    "last": "2026-09-03",
+    "meet": "2026-09-03"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Jaime Novoa",
+    "externalEmail": "jaime@kfund.vc",
+    "score": 1.0,
+    "last": "2026-03-11",
+    "meet": "2026-03-11"
+   }
+  ]
+ },
+ "kimaventures.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Alexis Robert",
+    "externalEmail": "alexis@kimaventures.com",
+    "score": 1.0,
+    "last": "2026-07-15",
+    "meet": "2024-09-24"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Felix Breucker",
+    "externalEmail": "felix@kimaventures.com",
+    "score": 0.99,
+    "last": "2026-06-12",
+    "meet": "2026-06-12"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Jean de La Rochebrochard",
+    "externalEmail": "jean@kimaventures.com",
+    "score": 0.99,
+    "last": "2026-07-15",
+    "meet": "2026-07-01"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Alexis Robert",
+    "externalEmail": "alexis@kimaventures.com",
+    "score": 0.43,
+    "last": "2026-07-15",
+    "meet": "2024-09-24"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Jean de La Rochebrochard",
+    "externalEmail": "jean@kimaventures.com",
+    "score": 0.35,
+    "last": "2026-07-15",
+    "meet": "2026-07-01"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Jean de La Rochebrochard",
+    "externalEmail": "jean@kimaventures.com",
+    "score": 0.1,
+    "last": "2026-07-15",
+    "meet": "2026-07-01"
+   }
+  ]
+ },
+ "kindredcapital.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Helena Richardson",
+    "external": "Leila Zegna",
+    "externalEmail": "leila@kindredcapital.vc",
+    "score": 0.98,
+    "last": "2026-09-10",
+    "meet": "2026-05-18"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Leila Zegna",
+    "externalEmail": "leila@kindredcapital.vc",
+    "score": 0.98,
+    "last": "2026-09-10",
+    "meet": "2026-05-18"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Max Bray",
+    "externalEmail": "max@kindredcapital.vc",
+    "score": 0.92,
+    "last": "2025-10-07",
+    "meet": "2025-05-16"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Chrys Chrysanthou",
+    "externalEmail": "chrys@kindredcapital.vc",
+    "score": 1.0,
+    "last": "2024-11-01",
+    "meet": "2024-10-30"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Karen Swain",
+    "externalEmail": "karen@kindredcapital.vc",
+    "score": 0.43,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Karen Swain",
+    "externalEmail": "karen@kindredcapital.vc",
+    "score": 0.1,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Leila Zegna",
+    "externalEmail": "leila@kindredcapital.vc",
+    "score": 0.1,
+    "last": "2026-09-10",
+    "meet": "2026-05-18"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Fiona Lay",
+    "externalEmail": "fiona@kindredcapital.vc",
+    "score": 0.1,
+    "last": "2026-04-15",
+    "meet": null
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "John Potter",
+    "externalEmail": "john@kindredcapital.vc",
+    "score": 0.1,
+    "last": "2025-03-21",
+    "meet": "2025-03-20"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Chrys Chrysanthou",
+    "externalEmail": "chrys@kindredcapital.vc",
+    "score": 0.1,
+    "last": "2024-11-01",
+    "meet": "2024-10-30"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Chrys Chrysanthou",
+    "externalEmail": "chrys@kindredcapital.vc",
+    "score": 0.1,
+    "last": "2024-11-01",
+    "meet": "2024-10-30"
+   }
+  ]
+ },
+ "kindredventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kinled.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "korys.be": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Fergal Mullen",
+    "external": "Katti Van Oosterwijck",
+    "externalEmail": "katti.vanoosterwijck@korys.be",
+    "score": 0.6,
+    "last": "2026-02-06",
+    "meet": "2023-10-31"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Katti Van Oosterwijck",
+    "externalEmail": "katti.vanoosterwijck@korys.be",
+    "score": 0.54,
+    "last": "2026-02-06",
+    "meet": "2023-10-31"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Katti Van Oosterwijck",
+    "externalEmail": "katti.vanoosterwijck@korys.be",
+    "score": 0.54,
+    "last": "2026-02-06",
+    "meet": "2023-10-31"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Vincent Caudron",
+    "externalEmail": "vincent.caudron@korys.be",
+    "score": 0.6,
+    "last": "2023-10-31",
+    "meet": "2023-10-31"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Vincent Caudron",
+    "externalEmail": "vincent.caudron@korys.be",
+    "score": 0.45,
+    "last": "2023-10-31",
+    "meet": "2023-10-31"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Wouter Verstringe",
+    "externalEmail": "wouter.verstringe@korys.be",
+    "score": 0.1,
+    "last": "2026-09-22",
+    "meet": null
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Thierry François",
+    "externalEmail": "thierry.francois@korys.be",
+    "score": 0.1,
+    "last": "2025-03-18",
+    "meet": null
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Hilde Van der Straeten",
+    "externalEmail": "hilde.vanderstraeten@korys.be",
+    "score": 0.1,
+    "last": "2023-10-05",
+    "meet": null
+   }
+  ]
+ },
+ "kreaxi.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kurmapartners.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "kwiadvisory.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lafamiglia.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Aude Flecchia",
+    "external": "Simba Deu",
+    "externalEmail": "simba@lafamiglia.vc",
+    "score": 0.99,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Alexandros Bottenbruch",
+    "externalEmail": "alex@lafamiglia.vc",
+    "score": 0.97,
+    "last": "2026-08-13",
+    "meet": "2026-08-13"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Judith Dada",
+    "externalEmail": "judith@lafamiglia.vc",
+    "score": 0.95,
+    "last": "2026-06-25",
+    "meet": "2026-03-19"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Simba Deu",
+    "externalEmail": "simba@lafamiglia.vc",
+    "score": 0.73,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Viet Le",
+    "externalEmail": "viet@lafamiglia.vc",
+    "score": 0.65,
+    "last": "2024-01-22",
+    "meet": "2024-01-22"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Paula Rossini",
+    "externalEmail": "paula@lafamiglia.vc",
+    "score": 0.48,
+    "last": "2024-04-23",
+    "meet": "2023-04-19"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Samuel Beyer",
+    "externalEmail": "samuel@lafamiglia.vc",
+    "score": 0.47,
+    "last": "2024-04-21",
+    "meet": "2023-10-17"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Philipp Handel",
+    "externalEmail": "philipp@lafamiglia.vc",
+    "score": 0.1,
+    "last": "2026-03-25",
+    "meet": "2024-07-11"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Marius Groke",
+    "externalEmail": "marius@lafamiglia.vc",
+    "score": 0.1,
+    "last": "2026-03-25",
+    "meet": "2024-07-11"
+   }
+  ]
+ },
+ "laforet.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lafrenchtech.gouv.fr": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lakestar.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "David Blyghton",
+    "external": "Jannis Fett",
+    "externalEmail": "jannis@lakestar.com",
+    "score": 1.0,
+    "last": "2026-04-24",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Samuel Meijer",
+    "external": "Ben Clark",
+    "externalEmail": "ben.clark@lakestar.com",
+    "score": 0.99,
+    "last": "2026-07-23",
+    "meet": "2026-07-23"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Akis Bratsos",
+    "externalEmail": "akis@lakestar.com",
+    "score": 0.99,
+    "last": "2026-10-01",
+    "meet": "2026-06-09"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Jannis Fett",
+    "externalEmail": "jannis@lakestar.com",
+    "score": 0.99,
+    "last": "2026-04-24",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Enrico Mellis",
+    "externalEmail": "enrico@lakestar.com",
+    "score": 1.0,
+    "last": "2026-02-12",
+    "meet": "2026-02-12"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Fredrik Nylander",
+    "externalEmail": "fredrik@lakestar.com",
+    "score": 1.0,
+    "last": "2025-12-01",
+    "meet": "2025-07-02"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Fredrik Nylander",
+    "externalEmail": "fredrik@lakestar.com",
+    "score": 0.99,
+    "last": "2025-12-01",
+    "meet": "2025-07-02"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Fredrik Nylander",
+    "externalEmail": "fredrik@lakestar.com",
+    "score": 0.95,
+    "last": "2025-12-01",
+    "meet": "2025-07-02"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Sandra Krivancova",
+    "externalEmail": "sandra@lakestar.com",
+    "score": 0.88,
+    "last": "2025-11-11",
+    "meet": "2025-10-21"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Beatrice Aliprandi",
+    "externalEmail": "beatrice@lakestar.com",
+    "score": 0.96,
+    "last": "2025-05-29",
+    "meet": "2025-05-29"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Chris Magazzeni",
+    "externalEmail": "chris@lakestar.com",
+    "score": 0.83,
+    "last": "2025-04-30",
+    "meet": "2025-04-30"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Oliver Heimes",
+    "externalEmail": "oliver@lakestar.com",
+    "score": 0.43,
+    "last": "2026-01-12",
+    "meet": "2018-03-20"
+   },
+   {
+    "internal": "Hannah Meehan",
+    "external": "Jannis Fett",
+    "externalEmail": "jannis@lakestar.com",
+    "score": 0.34,
+    "last": "2026-04-24",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Jannis Fett",
+    "externalEmail": "jannis@lakestar.com",
+    "score": 0.34,
+    "last": "2026-04-24",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Andrea Serra",
+    "externalEmail": "andrea.badia@lakestar.com",
+    "score": 0.61,
+    "last": "2025-01-13",
+    "meet": "2024-04-09"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Nina Cardelus",
+    "externalEmail": "nina.cardelus@lakestar.com",
+    "score": 0.59,
+    "last": "2025-02-24",
+    "meet": "2025-02-24"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Andrea Serra",
+    "externalEmail": "andrea.badia@lakestar.com",
+    "score": 0.57,
+    "last": "2025-01-13",
+    "meet": "2024-04-09"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Navid Meyer",
+    "externalEmail": "navid@lakestar.com",
+    "score": 0.5,
+    "last": "2025-06-24",
+    "meet": "2025-06-24"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Nina Cardelus",
+    "externalEmail": "nina.cardelus@lakestar.com",
+    "score": 0.43,
+    "last": "2025-02-24",
+    "meet": "2025-02-24"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Asha Mistry",
+    "externalEmail": "asha@lakestar.com",
+    "score": 0.68,
+    "last": "2023-11-29",
+    "meet": "2023-05-10"
+   }
+  ]
+ },
+ "lantacap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lantacapital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lanzadera.es": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "ldv.co": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "ldvp.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "leadwind.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "leapartners.de": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "William De Quant",
+    "external": "Endres Florian",
+    "externalEmail": "florian.endres@leapartners.de",
+    "score": 0.99,
+    "last": "2026-03-31",
+    "meet": "2026-03-31"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Nils Seele",
+    "externalEmail": "nils.seele@leapartners.de",
+    "score": 0.99,
+    "last": "2024-09-26",
+    "meet": "2024-09-26"
+   },
+   {
+    "internal": "Samuel Meijer",
+    "external": "Weise Kurt",
+    "externalEmail": "kurt.weise@leapartners.de",
+    "score": 0.38,
+    "last": "2026-09-10",
+    "meet": null
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Berger Nils",
+    "externalEmail": "nils.berger@leapartners.de",
+    "score": 0.1,
+    "last": "2024-06-24",
+    "meet": "2021-01-14"
+   }
+  ]
+ },
+ "ledger.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Katie Ledger",
+    "externalEmail": "katie@ledger.com",
+    "score": 0.96,
+    "last": "2025-08-01",
+    "meet": "2025-08-01"
+   }
+  ]
+ },
+ "lefebvre-group.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "leftlane.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Sam Brooks",
+    "external": "Matt Miller",
+    "externalEmail": "matt@leftlane.com",
+    "score": 1.0,
+    "last": "2026-07-15",
+    "meet": "2026-07-15"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Erica Amatori",
+    "externalEmail": "erica@leftlane.com",
+    "score": 1.0,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Paddy Dillon",
+    "externalEmail": "paddy@leftlane.com",
+    "score": 0.98,
+    "last": "2026-04-30",
+    "meet": "2026-04-09"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Louis Frach",
+    "externalEmail": "louis@leftlane.com",
+    "score": 0.72,
+    "last": "2026-09-03",
+    "meet": "2026-06-09"
+   },
+   {
+    "internal": "Rachel Marcinek",
+    "external": "Erica Amatori",
+    "externalEmail": "erica@leftlane.com",
+    "score": 0.4,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Rachel Ward",
+    "externalEmail": "rachel.w@leftlane.com",
+    "score": 0.35,
+    "last": "2026-09-08",
+    "meet": "2026-05-20"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Hannah Greenwald",
+    "externalEmail": "hannah@leftlane.com",
+    "score": 0.44,
+    "last": "2026-09-30",
+    "meet": null
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Coraline Meroni",
+    "externalEmail": "coraline@leftlane.com",
+    "score": 0.1,
+    "last": "2026-09-22",
+    "meet": "2026-09-22"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Louis Frach",
+    "externalEmail": "louis@leftlane.com",
+    "score": 0.1,
+    "last": "2026-09-03",
+    "meet": "2026-06-09"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Erica Amatori",
+    "externalEmail": "erica@leftlane.com",
+    "score": 0.1,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Erica Amatori",
+    "externalEmail": "erica@leftlane.com",
+    "score": 0.1,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   }
+  ]
+ },
+ "lfde.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lifeatspotify.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lifelineventures.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Juha Lindfors",
+    "externalEmail": "juha@lifelineventures.com",
+    "score": 1.0,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Timo Ahopelto",
+    "externalEmail": "timo@lifelineventures.com",
+    "score": 1.0,
+    "last": "2026-09-28",
+    "meet": "2025-05-08"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Petteri Koponen",
+    "externalEmail": "petteri@lifelineventures.com",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2026-04-28"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Juha Lindfors",
+    "externalEmail": "juha@lifelineventures.com",
+    "score": 0.76,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Saana Sairanen",
+    "externalEmail": "saana@lifelineventures.com",
+    "score": 0.57,
+    "last": "2025-12-02",
+    "meet": "2025-05-15"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Mikko Vesterinen",
+    "externalEmail": "mikko@lifelineventures.com",
+    "score": 1.0,
+    "last": "2025-01-30",
+    "meet": "2025-01-30"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Tuomo Vähäpassi",
+    "externalEmail": "tuomo@lifelineventures.com",
+    "score": 1.0,
+    "last": "2025-01-30",
+    "meet": "2025-01-30"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Saana Sairanen",
+    "externalEmail": "saana@lifelineventures.com",
+    "score": 0.49,
+    "last": "2025-12-02",
+    "meet": "2025-05-15"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Petteri Koponen",
+    "externalEmail": "petteri@lifelineventures.com",
+    "score": 0.35,
+    "last": "2026-09-23",
+    "meet": "2026-04-28"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Rilla Saukkonen",
+    "externalEmail": "rilla@lifelineventures.com",
+    "score": 0.45,
+    "last": "2025-12-02",
+    "meet": null
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Timo Ahopelto",
+    "externalEmail": "timo@lifelineventures.com",
+    "score": 0.1,
+    "last": "2026-09-28",
+    "meet": "2025-05-08"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Petteri Koponen",
+    "externalEmail": "petteri@lifelineventures.com",
+    "score": 0.1,
+    "last": "2026-09-23",
+    "meet": "2026-04-28"
+   }
+  ]
+ },
+ "lifex.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Inaki Berenguer",
+    "externalEmail": "inaki@lifex.vc",
+    "score": 0.1,
+    "last": "2026-08-09",
+    "meet": null
+   }
+  ]
+ },
+ "liftt.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lightbird.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Thomas Meier",
+    "externalEmail": "thomas@lightbird.vc",
+    "score": 1.0,
+    "last": "2026-01-12",
+    "meet": "2025-11-28"
+   }
+  ]
+ },
+ "liquid2.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "localglobe.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Laurence Garrett",
+    "external": "Julian Rowe",
+    "externalEmail": "julian@localglobe.vc",
+    "score": 1.0,
+    "last": "2026-03-12",
+    "meet": "2026-03-12"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Ophelia Brown",
+    "externalEmail": "ophelia@localglobe.vc",
+    "score": 1.0,
+    "last": "2026-02-18",
+    "meet": "2025-06-13"
+   },
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Julian Rowe",
+    "externalEmail": "julian@localglobe.vc",
+    "score": 0.98,
+    "last": "2026-03-12",
+    "meet": "2026-03-12"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Julian Rowe",
+    "externalEmail": "julian@localglobe.vc",
+    "score": 0.98,
+    "last": "2026-03-12",
+    "meet": "2026-03-12"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Ambi Mistry",
+    "externalEmail": "ambi@localglobe.vc",
+    "score": 0.92,
+    "last": "2026-03-31",
+    "meet": "2023-12-06"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Bhrigu Bali",
+    "externalEmail": "bhrigu@localglobe.vc",
+    "score": 0.81,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Ziv Reichert",
+    "externalEmail": "ziv@localglobe.vc",
+    "score": 0.52,
+    "last": "2026-09-22",
+    "meet": "2022-07-21"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Suzanne Ashman",
+    "externalEmail": "suzanne@localglobe.vc",
+    "score": 1.0,
+    "last": "2025-06-24",
+    "meet": "2025-06-24"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Tom Lambert",
+    "externalEmail": "tom@localglobe.vc",
+    "score": 0.99,
+    "last": "2025-09-09",
+    "meet": "2025-09-09"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Julia Hawkins",
+    "externalEmail": "julia@localglobe.vc",
+    "score": 0.98,
+    "last": "2025-02-13",
+    "meet": "2025-02-13"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Remus Brett",
+    "externalEmail": "remus@localglobe.vc",
+    "score": 0.98,
+    "last": "2025-03-05",
+    "meet": "2025-03-05"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Robin Klein",
+    "externalEmail": "robin@localglobe.vc",
+    "score": 0.47,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Tom Lambert",
+    "externalEmail": "tom@localglobe.vc",
+    "score": 0.91,
+    "last": "2025-09-09",
+    "meet": "2025-09-09"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Bhrigu Bali",
+    "externalEmail": "bhrigu@localglobe.vc",
+    "score": 0.43,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Julian Rowe",
+    "externalEmail": "julian@localglobe.vc",
+    "score": 0.43,
+    "last": "2026-03-12",
+    "meet": "2026-03-12"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Ophelia Brown",
+    "externalEmail": "ophelia@localglobe.vc",
+    "score": 0.38,
+    "last": "2026-02-18",
+    "meet": "2025-06-13"
+   },
+   {
+    "internal": "Hannah Meehan",
+    "external": "Matt Peplow",
+    "externalEmail": "matt@localglobe.vc",
+    "score": 0.34,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Daisey Hearne",
+    "externalEmail": "daisey@localglobe.vc",
+    "score": 0.44,
+    "last": "2026-09-22",
+    "meet": null
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Rajee Seelan",
+    "externalEmail": "rajee@localglobe.vc",
+    "score": 0.3,
+    "last": "2026-04-16",
+    "meet": "2026-04-16"
+   },
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Robin Klein",
+    "externalEmail": "robin@localglobe.vc",
+    "score": 0.3,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   }
+  ]
+ },
+ "login.money-media.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "lovable.dev": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "loveventures.co.uk": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Bill Corfield",
+    "externalEmail": "bill@loveventures.co.uk",
+    "score": 0.43,
+    "last": "2025-05-28",
+    "meet": "2025-05-16"
+   }
+  ]
+ },
+ "lsvp.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "William De Quant",
+    "external": "Ifet Lawrence",
+    "externalEmail": "ifet@lsvp.com",
+    "score": 1.0,
+    "last": "2026-04-01",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Alexander Schmitt",
+    "externalEmail": "aschmitt@lsvp.com",
+    "score": 1.0,
+    "last": "2026-04-01",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Ifet Lawrence",
+    "externalEmail": "ifet@lsvp.com",
+    "score": 0.99,
+    "last": "2026-04-01",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Alexander Schmitt",
+    "externalEmail": "aschmitt@lsvp.com",
+    "score": 0.99,
+    "last": "2026-04-01",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Anoushka Vaswani",
+    "externalEmail": "anoushka@lsvp.com",
+    "score": 0.65,
+    "last": "2026-06-02",
+    "meet": null
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Alexander Taussig",
+    "externalEmail": "ataussig@lsvp.com",
+    "score": 0.96,
+    "last": "2025-09-11",
+    "meet": "2023-11-09"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Rytis Vitkauskas",
+    "externalEmail": "rytis@lsvp.com",
+    "score": 0.45,
+    "last": "2026-06-18",
+    "meet": "2022-10-25"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Rytis Vitkauskas",
+    "externalEmail": "rytis@lsvp.com",
+    "score": 0.43,
+    "last": "2026-06-18",
+    "meet": "2022-10-25"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Sam Wholley",
+    "externalEmail": "sam@lsvp.com",
+    "score": 0.43,
+    "last": "2026-06-05",
+    "meet": null
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "David Gussarsky",
+    "externalEmail": "david@lsvp.com",
+    "score": 1.0,
+    "last": "2024-08-15",
+    "meet": "2024-07-02"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Shan Shan",
+    "externalEmail": "shan@lsvp.com",
+    "score": 0.95,
+    "last": "2023-11-09",
+    "meet": "2023-11-09"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "David Gussarsky",
+    "externalEmail": "david@lsvp.com",
+    "score": 0.91,
+    "last": "2024-08-15",
+    "meet": "2024-07-02"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Julie Kainz",
+    "externalEmail": "julie@lsvp.com",
+    "score": 0.58,
+    "last": "2024-05-22",
+    "meet": "2023-10-03"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "David Gussarsky",
+    "externalEmail": "david@lsvp.com",
+    "score": 0.5,
+    "last": "2024-08-15",
+    "meet": "2024-07-02"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Adrian Radu",
+    "externalEmail": "adrian@lsvp.com",
+    "score": 0.48,
+    "last": "2024-09-17",
+    "meet": "2022-01-18"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Julie Kainz",
+    "externalEmail": "julie@lsvp.com",
+    "score": 0.43,
+    "last": "2024-05-22",
+    "meet": "2023-10-03"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Dana Mizrahi",
+    "externalEmail": "dmizrahi@lsvp.com",
+    "score": 0.39,
+    "last": "2024-06-30",
+    "meet": "2023-02-07"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Fatima Vali",
+    "externalEmail": "fatima@lsvp.com",
+    "score": 0.49,
+    "last": "2024-09-17",
+    "meet": null
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Rytis Vitkauskas",
+    "externalEmail": "rytis@lsvp.com",
+    "score": 0.1,
+    "last": "2026-06-18",
+    "meet": "2022-10-25"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Paul Murphy",
+    "externalEmail": "pmurphy@lsvp.com",
+    "score": 0.1,
+    "last": "2026-03-16",
+    "meet": "2020-01-16"
+   }
+  ]
+ },
+ "lunar.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Alberto Cresto",
+    "externalEmail": "alberto@lunar.vc",
+    "score": 0.99,
+    "last": "2026-07-14",
+    "meet": "2026-05-20"
+   }
+  ]
+ },
+ "luxaliscapital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "m12.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Nagraj Kashyap",
+    "externalEmail": "nagraj.kashyap@m12.vc",
+    "score": 0.93,
+    "last": "2023-10-04",
+    "meet": "2023-10-04"
+   }
+  ]
+ },
+ "maersk.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "maif-avenir.fr": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "maki.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Ella Eskelinen",
+    "externalEmail": "ella@maki.vc",
+    "score": 0.99,
+    "last": "2026-09-22",
+    "meet": "2026-01-26"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Ella Eskelinen",
+    "externalEmail": "ella@maki.vc",
+    "score": 0.86,
+    "last": "2026-09-22",
+    "meet": "2026-01-26"
+   }
+  ]
+ },
+ "malakoff-humanis-startup.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "malakoffhumanis.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "manaventures.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mangrove.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Laurence Garrett",
+    "external": "Mark Tluszcz",
+    "externalEmail": "mark@mangrove.vc",
+    "score": 1.0,
+    "last": "2026-07-10",
+    "meet": "2026-06-30"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Denis Schwirtz",
+    "externalEmail": "denis@mangrove.vc",
+    "score": 0.98,
+    "last": "2026-07-14",
+    "meet": "2026-07-14"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Hans-Jürgen Schmitz",
+    "externalEmail": "hans-juergen@mangrove.vc",
+    "score": 0.98,
+    "last": "2026-07-14",
+    "meet": "2026-07-14"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Hans-Jürgen Schmitz",
+    "externalEmail": "hans-juergen@mangrove.vc",
+    "score": 0.98,
+    "last": "2026-07-14",
+    "meet": "2026-07-14"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Guillaume DURAO",
+    "externalEmail": "guillaume@mangrove.vc",
+    "score": 0.69,
+    "last": "2026-09-11",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Guillaume DURAO",
+    "externalEmail": "guillaume@mangrove.vc",
+    "score": 0.64,
+    "last": "2026-09-11",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Hans-Jürgen Schmitz",
+    "externalEmail": "hans-juergen@mangrove.vc",
+    "score": 0.57,
+    "last": "2026-07-14",
+    "meet": "2026-07-14"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Guillaume DURAO",
+    "externalEmail": "guillaume@mangrove.vc",
+    "score": 0.57,
+    "last": "2026-09-11",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Guillaume DURAO",
+    "externalEmail": "guillaume@mangrove.vc",
+    "score": 0.5,
+    "last": "2026-09-11",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Guillaume DURAO",
+    "externalEmail": "guillaume@mangrove.vc",
+    "score": 0.42,
+    "last": "2026-09-11",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Michael Rabinowicz",
+    "externalEmail": "michael@mangrove.vc",
+    "score": 0.33,
+    "last": "2026-07-07",
+    "meet": "2025-10-22"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Mark Tluszcz",
+    "externalEmail": "mark@mangrove.vc",
+    "score": 0.32,
+    "last": "2026-07-10",
+    "meet": "2026-06-30"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Guillaume DURAO",
+    "externalEmail": "guillaume@mangrove.vc",
+    "score": 0.32,
+    "last": "2026-09-11",
+    "meet": "2026-04-07"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Christina Grischov",
+    "externalEmail": "christina.grischov@mangrove.vc",
+    "score": 0.35,
+    "last": "2025-09-18",
+    "meet": null
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Michael Rabinowicz",
+    "externalEmail": "michael@mangrove.vc",
+    "score": 0.1,
+    "last": "2026-07-07",
+    "meet": "2025-10-22"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Hans-Jürgen Schmitz",
+    "externalEmail": "hans-juergen@mangrove.vc",
+    "score": 0.1,
+    "last": "2026-07-14",
+    "meet": "2026-07-14"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Antoine Payrar",
+    "externalEmail": "antoine@mangrove.vc",
+    "score": 0.1,
+    "last": "2026-07-07",
+    "meet": null
+   }
+  ]
+ },
+ "marathon.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Panos Papadopoulos",
+    "externalEmail": "panos@marathon.vc",
+    "score": 0.51,
+    "last": "2024-09-24",
+    "meet": "2022-05-05"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Panos Papadopoulos",
+    "externalEmail": "panos@marathon.vc",
+    "score": 0.43,
+    "last": "2024-09-24",
+    "meet": "2022-05-05"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Alex Alexakis",
+    "externalEmail": "alex@marathon.vc",
+    "score": 0.1,
+    "last": "2026-09-24",
+    "meet": "2022-11-22"
+   }
+  ]
+ },
+ "marbruck.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "martletcap.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Laurence Garrett",
+    "external": "Paul Bailey",
+    "externalEmail": "paul.bailey@martletcap.com",
+    "score": 0.57,
+    "last": "2024-06-03",
+    "meet": "2023-10-13"
+   }
+  ]
+ },
+ "massmutualventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mastercard.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Sara Bertone",
+    "externalEmail": "sara.bertone@mastercard.com",
+    "score": 0.94,
+    "last": "2026-05-08",
+    "meet": "2026-04-23"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Arsalan Ahmed",
+    "externalEmail": "arsalan.ahmed@mastercard.com",
+    "score": 0.5,
+    "last": "2025-11-27",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Samuel McGurk",
+    "externalEmail": "samuel.mcgurk@mastercard.com",
+    "score": 0.41,
+    "last": "2026-05-08",
+    "meet": null
+   },
+   {
+    "internal": "Hannah Meehan",
+    "external": "Online Reporting",
+    "externalEmail": "sdg2@mastercard.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": null
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Arsalan Ahmed",
+    "externalEmail": "arsalan.ahmed@mastercard.com",
+    "score": 0.1,
+    "last": "2025-11-27",
+    "meet": null
+   }
+  ]
+ },
+ "matrix.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tony Zappala",
+    "external": "David Skok",
+    "externalEmail": "dskok@matrix.vc",
+    "score": 0.3,
+    "last": "2026-09-16",
+    "meet": "2026-09-16"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Allison Rodman",
+    "externalEmail": "arodman@matrix.vc",
+    "score": 0.1,
+    "last": "2025-09-24",
+    "meet": null
+   }
+  ]
+ },
+ "mello.de": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mesh.xyz": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mfundvc.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "microsoft.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Stan Laurent",
+    "external": "Itxaso del Palacio",
+    "externalEmail": "itxaso.delpalacio@microsoft.com",
+    "score": 0.99,
+    "last": "2025-12-04",
+    "meet": "2025-11-18"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Leslie Feinzaig",
+    "externalEmail": "flesliefe@microsoft.com",
+    "score": 0.99,
+    "last": "2025-04-21",
+    "meet": "2024-07-16"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Andrea Bernabeu",
+    "externalEmail": "andrea.bernabeu@microsoft.com",
+    "score": 0.91,
+    "last": "2024-11-04",
+    "meet": "2024-11-04"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Manuel Miguez",
+    "externalEmail": "mcorti@microsoft.com",
+    "score": 0.91,
+    "last": "2024-11-04",
+    "meet": "2024-11-04"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Jody Wharton",
+    "externalEmail": "jowharto@microsoft.com",
+    "score": 0.91,
+    "last": "2024-11-04",
+    "meet": "2024-11-04"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Manuel Miguez",
+    "externalEmail": "mcorti@microsoft.com",
+    "score": 0.81,
+    "last": "2024-11-04",
+    "meet": "2024-11-04"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Andrea Bernabeu",
+    "externalEmail": "andrea.bernabeu@microsoft.com",
+    "score": 0.8,
+    "last": "2024-11-04",
+    "meet": "2024-11-04"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Jody Wharton",
+    "externalEmail": "jowharto@microsoft.com",
+    "score": 0.8,
+    "last": "2024-11-04",
+    "meet": "2024-11-04"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Andrew Bentley",
+    "externalEmail": "andrew.bentley@microsoft.com",
+    "score": 0.4,
+    "last": "2026-06-30",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Ross Kennedy",
+    "externalEmail": "rosskennedy@microsoft.com",
+    "score": 0.35,
+    "last": "2026-06-29",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Paul Veck",
+    "externalEmail": "paveck@microsoft.com",
+    "score": 0.54,
+    "last": "2023-10-23",
+    "meet": "2023-10-05"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Itxaso del Palacio",
+    "externalEmail": "itxaso.delpalacio@microsoft.com",
+    "score": 0.1,
+    "last": "2025-12-04",
+    "meet": "2025-11-18"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Alaric Wilson",
+    "externalEmail": "alaricwilson@microsoft.com",
+    "score": 0.38,
+    "last": "2023-10-23",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Valle del Aguila Rodrigo",
+    "externalEmail": "vaguila@microsoft.com",
+    "score": 0.1,
+    "last": "2026-06-29",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Cathy Zhu",
+    "externalEmail": "catherine.zhu@microsoft.com",
+    "score": 0.1,
+    "last": "2025-01-06",
+    "meet": null
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Hitoshi Yoshida",
+    "externalEmail": "hitoshi.yoshida@microsoft.com",
+    "score": 0.1,
+    "last": "2024-06-19",
+    "meet": null
+   }
+  ]
+ },
+ "midrocinvestmentgroup.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mig.ag": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mmvf.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "moltenventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "montecarlocap.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Ian Sosso",
+    "externalEmail": "ian@montecarlocap.com",
+    "score": 0.1,
+    "last": "2026-09-28",
+    "meet": null
+   }
+  ]
+ },
+ "moonfire.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Fergal Mullen",
+    "external": "Mattias Ljungman",
+    "externalEmail": "mattias@moonfire.com",
+    "score": 1.0,
+    "last": "2026-09-29",
+    "meet": "2026-08-05"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Saran Davies",
+    "externalEmail": "saran@moonfire.com",
+    "score": 0.99,
+    "last": "2026-09-22",
+    "meet": "2026-09-22"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Alina Gounina",
+    "externalEmail": "alina@moonfire.com",
+    "score": 0.99,
+    "last": "2026-09-29",
+    "meet": "2026-08-05"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Akshat Goenka",
+    "externalEmail": "akshat@moonfire.com",
+    "score": 0.99,
+    "last": "2026-09-29",
+    "meet": "2026-08-05"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Mattias Ljungman",
+    "externalEmail": "mattias@moonfire.com",
+    "score": 0.99,
+    "last": "2026-09-29",
+    "meet": "2026-08-05"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Alina Gounina",
+    "externalEmail": "alina@moonfire.com",
+    "score": 0.97,
+    "last": "2026-09-29",
+    "meet": "2026-08-05"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Akshat Goenka",
+    "externalEmail": "akshat@moonfire.com",
+    "score": 0.97,
+    "last": "2026-09-29",
+    "meet": "2026-08-05"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Jonas Vetterle",
+    "externalEmail": "jonas@moonfire.com",
+    "score": 0.83,
+    "last": "2026-01-20",
+    "meet": "2026-01-20"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Andrea Gurnari",
+    "externalEmail": "andrea@moonfire.com",
+    "score": 0.83,
+    "last": "2024-06-24",
+    "meet": "2024-06-24"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Nicholas Lowden",
+    "externalEmail": "nic@moonfire.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": null
+   }
+  ]
+ },
+ "motivepartners.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Tim Wanders",
+    "externalEmail": "tim.wanders@motivepartners.com",
+    "score": 1.0,
+    "last": "2026-09-04",
+    "meet": "2026-09-04"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Tim Wanders",
+    "externalEmail": "tim.wanders@motivepartners.com",
+    "score": 1.0,
+    "last": "2026-09-04",
+    "meet": "2026-09-04"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Hugo Bongers",
+    "externalEmail": "hugo.bongers@motivepartners.com",
+    "score": 1.0,
+    "last": "2026-05-06",
+    "meet": "2024-09-04"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Michael Hock",
+    "externalEmail": "michael.hock@motivepartners.com",
+    "score": 1.0,
+    "last": "2026-07-18",
+    "meet": "2026-03-20"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Julia Hubo",
+    "externalEmail": "julia.hubo@motivepartners.com",
+    "score": 1.0,
+    "last": "2026-09-17",
+    "meet": "2026-07-24"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Isabel Hallett",
+    "externalEmail": "isabel.hallett@motivepartners.com",
+    "score": 0.88,
+    "last": "2026-07-18",
+    "meet": "2025-10-08"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Inês Delgado",
+    "externalEmail": "ines.delgado@motivepartners.com",
+    "score": 0.96,
+    "last": "2026-02-27",
+    "meet": "2026-02-27"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Harsh Govil",
+    "externalEmail": "harsh.govil@motivepartners.com",
+    "score": 0.98,
+    "last": "2024-10-16",
+    "meet": "2024-09-26"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Michael Hock",
+    "externalEmail": "michael.hock@motivepartners.com",
+    "score": 0.38,
+    "last": "2026-07-18",
+    "meet": "2026-03-20"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Isabel Holding",
+    "externalEmail": "isabel.holding@motivepartners.com",
+    "score": 0.73,
+    "last": "2025-09-29",
+    "meet": "2024-08-23"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Swathi Vankayalapati",
+    "externalEmail": "swathi@motivepartners.com",
+    "score": 0.79,
+    "last": "2024-08-20",
+    "meet": "2024-08-20"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Hugo Bongers",
+    "externalEmail": "hugo.bongers@motivepartners.com",
+    "score": 0.1,
+    "last": "2026-05-06",
+    "meet": "2024-09-04"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Hugo Bongers",
+    "externalEmail": "hugo.bongers@motivepartners.com",
+    "score": 0.1,
+    "last": "2026-05-06",
+    "meet": "2024-09-04"
+   }
+  ]
+ },
+ "motorolasolutions.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mozilla.org": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "mozilla.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "msd.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "msm.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Sam Brooks",
+    "external": "Alex Pitt",
+    "externalEmail": "alex@msm.vc",
+    "score": 0.98,
+    "last": "2025-06-19",
+    "meet": "2025-06-19"
+   }
+  ]
+ },
+ "mustardseed.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "David Blyghton",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@mustardseed.vc",
+    "score": 1.0,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@mustardseed.vc",
+    "score": 0.98,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Alex Pitt",
+    "externalEmail": "alex@mustardseed.vc",
+    "score": 0.98,
+    "last": "2025-06-19",
+    "meet": "2025-06-19"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@mustardseed.vc",
+    "score": 0.43,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@mustardseed.vc",
+    "score": 0.1,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@mustardseed.vc",
+    "score": 0.1,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   }
+  ]
+ },
+ "mutuellesimpact.fr": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "n-ergie.de": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "nautacapital.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tom Neuberger",
+    "external": "Josh Trup",
+    "externalEmail": "joshua.trup@nautacapital.com",
+    "score": 1.0,
+    "last": "2026-09-01",
+    "meet": "2026-09-01"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Ana Fernandez",
+    "externalEmail": "ana.fernandez@nautacapital.com",
+    "score": 1.0,
+    "last": "2026-07-30",
+    "meet": "2026-07-30"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Marcel Rafart",
+    "externalEmail": "marcel.rafart@nautacapital.com",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2026-09-23"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Marcel Rafart",
+    "externalEmail": "marcel.rafart@nautacapital.com",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2026-09-23"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Borja Breña",
+    "externalEmail": "borja.brena@nautacapital.com",
+    "score": 0.99,
+    "last": "2026-06-04",
+    "meet": "2026-06-04"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Ana Fernandez",
+    "externalEmail": "ana.fernandez@nautacapital.com",
+    "score": 0.98,
+    "last": "2026-07-30",
+    "meet": "2026-07-30"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Marcel Rafart",
+    "externalEmail": "marcel.rafart@nautacapital.com",
+    "score": 0.98,
+    "last": "2026-09-23",
+    "meet": "2026-09-23"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Josh Trup",
+    "externalEmail": "joshua.trup@nautacapital.com",
+    "score": 0.97,
+    "last": "2026-09-01",
+    "meet": "2026-09-01"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Alexander Krespi",
+    "externalEmail": "alex.krespi@nautacapital.com",
+    "score": 0.95,
+    "last": "2026-06-03",
+    "meet": "2026-06-03"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Andrea Oliver",
+    "externalEmail": "andrea.oliver@nautacapital.com",
+    "score": 0.94,
+    "last": "2026-05-20",
+    "meet": "2025-10-08"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Marcel Rafart",
+    "externalEmail": "marcel.rafart@nautacapital.com",
+    "score": 0.92,
+    "last": "2026-09-23",
+    "meet": "2026-09-23"
+   },
+   {
+    "internal": "Samuel Meijer",
+    "external": "Stella Buhalis",
+    "externalEmail": "stella.buhalis@nautacapital.com",
+    "score": 1.0,
+    "last": "2025-12-01",
+    "meet": "2025-12-01"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Rocio Hodaly",
+    "externalEmail": "rocio.hodaly@nautacapital.com",
+    "score": 0.93,
+    "last": "2026-01-29",
+    "meet": "2025-05-28"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Rocio Hodaly",
+    "externalEmail": "rocio.hodaly@nautacapital.com",
+    "score": 0.92,
+    "last": "2026-01-29",
+    "meet": "2025-05-28"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Theo Wethered",
+    "externalEmail": "theo.wethered@nautacapital.com",
+    "score": 0.76,
+    "last": "2026-09-21",
+    "meet": "2025-09-24"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Guillem Sagué",
+    "externalEmail": "guillem.sague@nautacapital.com",
+    "score": 0.76,
+    "last": "2026-07-10",
+    "meet": "2026-03-04"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Rocio Hodaly",
+    "externalEmail": "rocio.hodaly@nautacapital.com",
+    "score": 0.84,
+    "last": "2026-01-29",
+    "meet": "2025-05-28"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Marcel Rafart",
+    "externalEmail": "marcel.rafart@nautacapital.com",
+    "score": 0.68,
+    "last": "2026-09-23",
+    "meet": "2026-09-23"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Marcel Rafart",
+    "externalEmail": "marcel.rafart@nautacapital.com",
+    "score": 0.65,
+    "last": "2026-09-23",
+    "meet": "2026-09-23"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Rocio Hodaly",
+    "externalEmail": "rocio.hodaly@nautacapital.com",
+    "score": 0.67,
+    "last": "2026-01-29",
+    "meet": "2025-05-28"
+   }
+  ]
+ },
+ "ndrc.ie": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tony Zappala",
+    "external": "David Scanlon",
+    "externalEmail": "david.scanlon@ndrc.ie",
+    "score": 0.74,
+    "last": "2023-11-02",
+    "meet": "2023-11-02"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Menno Axt",
+    "externalEmail": "menno@ndrc.ie",
+    "score": 0.38,
+    "last": "2023-10-17",
+    "meet": "2021-06-24"
+   }
+  ]
+ },
+ "nea.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 0.99,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Kemi Odusan",
+    "externalEmail": "kodusan@nea.com",
+    "score": 0.98,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Kemi Odusan",
+    "externalEmail": "kodusan@nea.com",
+    "score": 0.83,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Luke Pappas",
+    "externalEmail": "lpappas@nea.com",
+    "score": 0.88,
+    "last": "2026-03-05",
+    "meet": "2026-02-03"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Kemi Odusan",
+    "externalEmail": "kodusan@nea.com",
+    "score": 0.73,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Kemi Odusan",
+    "externalEmail": "kodusan@nea.com",
+    "score": 0.65,
+    "last": "2026-06-23",
+    "meet": "2026-06-23"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Luke Pappas",
+    "externalEmail": "lpappas@nea.com",
+    "score": 0.51,
+    "last": "2026-03-05",
+    "meet": "2026-02-03"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 0.38,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Emily Baine",
+    "externalEmail": "ebaine@nea.com",
+    "score": 0.35,
+    "last": "2026-06-03",
+    "meet": "2024-11-12"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Uk Shoreditch",
+    "externalEmail": "ukshoreditch@nea.com",
+    "score": 0.5,
+    "last": "2024-02-08",
+    "meet": "2024-02-08"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 0.1,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 0.1,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Philip Chopin",
+    "externalEmail": "pchopin@nea.com",
+    "score": 0.1,
+    "last": "2026-09-23",
+    "meet": "2025-08-27"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Luke Pappas",
+    "externalEmail": "lpappas@nea.com",
+    "score": 0.1,
+    "last": "2026-03-05",
+    "meet": "2026-02-03"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Toni Holmes",
+    "externalEmail": "tholmes@nea.com",
+    "score": 0.1,
+    "last": "2026-09-23",
+    "meet": null
+   }
+  ]
+ },
+ "nea2f.co.uk": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "newfundcap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "newion.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Dorus Olgers",
+    "externalEmail": "dorus@newion.com",
+    "score": 0.99,
+    "last": "2026-07-24",
+    "meet": "2026-06-16"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Pieter Welten",
+    "externalEmail": "pieter@newion.com",
+    "score": 0.99,
+    "last": "2026-08-20",
+    "meet": "2026-08-06"
+   }
+  ]
+ },
+ "next176.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "nextview.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Isabel Wright",
+    "external": "Vera Benkoil",
+    "externalEmail": "vera@nextview.vc",
+    "score": 0.43,
+    "last": "2026-01-29",
+    "meet": "2026-01-29"
+   }
+  ]
+ },
+ "nibc.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "noosphereventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "nordwindgrowth.de": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "noriacapital.co": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "nortia.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "noshaq.be": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "novax.se": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "nrwbank.de": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "nvidia.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Chase Overlie",
+    "externalEmail": "coverlie@nvidia.com",
+    "score": 0.99,
+    "last": "2026-07-02",
+    "meet": "2025-05-01"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Georgios Kolovos",
+    "externalEmail": "gkolovos@nvidia.com",
+    "score": 0.97,
+    "last": "2026-09-29",
+    "meet": "2026-08-10"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Georgios Kolovos",
+    "externalEmail": "gkolovos@nvidia.com",
+    "score": 0.95,
+    "last": "2026-09-29",
+    "meet": "2026-08-10"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Aishwarya Nadgauda",
+    "externalEmail": "anadgauda@nvidia.com",
+    "score": 0.8,
+    "last": "2026-07-02",
+    "meet": "2025-05-01"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Serge Lemonde",
+    "externalEmail": "slemonde@nvidia.com",
+    "score": 0.44,
+    "last": "2026-09-07",
+    "meet": null
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Georgios Kolovos",
+    "externalEmail": "gkolovos@nvidia.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": "2026-08-10"
+   }
+  ]
+ },
+ "nvo.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "octopuslabs.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "odc.ventures": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "oldmutual.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "omnescapital.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Hugo Hubert",
+    "externalEmail": "hugo.hubert@omnescapital.com",
+    "score": 0.99,
+    "last": "2026-05-13",
+    "meet": "2026-05-13"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Poulard Renaud",
+    "externalEmail": "renaud.poulard@omnescapital.com",
+    "score": 0.43,
+    "last": "2026-07-20",
+    "meet": "2020-10-14"
+   },
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Poulard Renaud",
+    "externalEmail": "renaud.poulard@omnescapital.com",
+    "score": 0.32,
+    "last": "2026-07-20",
+    "meet": "2020-10-14"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "De Michel",
+    "externalEmail": "michel.delempdes@omnescapital.com",
+    "score": 0.73,
+    "last": "2024-09-04",
+    "meet": "2024-06-24"
+   },
+   {
+    "internal": "Hannah Meehan",
+    "external": "Joost Notenboom",
+    "externalEmail": "joost.notenboom@omnescapital.com",
+    "score": 0.1,
+    "last": "2025-11-20",
+    "meet": "2025-11-20"
+   }
+  ]
+ },
+ "omr.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "opendataincubator.eu": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "orangewings.nl": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "orpi.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "orsafund.be": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "oscarsoninvest.se": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "osprey-investors.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Ronan Shally",
+    "external": "Rob Quirke",
+    "externalEmail": "rob@osprey-investors.com",
+    "score": 0.87,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   }
+  ]
+ },
+ "oss.ventures": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "otpp.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Lauren Milligan",
+    "externalEmail": "lauren_milligan@otpp.com",
+    "score": 1.0,
+    "last": "2026-04-27",
+    "meet": "2025-07-03"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Francisco Jose Vargas Almeida",
+    "externalEmail": "francisco_vargas@otpp.com",
+    "score": 1.0,
+    "last": "2026-09-14",
+    "meet": "2026-09-14"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Francisco Jose Vargas Almeida",
+    "externalEmail": "francisco_vargas@otpp.com",
+    "score": 1.0,
+    "last": "2026-09-14",
+    "meet": "2026-09-14"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Chalani Allen",
+    "externalEmail": "chalani_allen@otpp.com",
+    "score": 1.0,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Ara YEROMIAN",
+    "externalEmail": "ara_yeromian@otpp.com",
+    "score": 1.0,
+    "last": "2026-09-10",
+    "meet": "2025-07-03"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Zaya Kadyrova",
+    "externalEmail": "zaya_kadyrova@otpp.com",
+    "score": 0.99,
+    "last": "2026-08-26",
+    "meet": "2026-08-26"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Lisa Coble",
+    "externalEmail": "lisa_coble@otpp.com",
+    "score": 0.98,
+    "last": "2026-09-10",
+    "meet": "2026-09-10"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Lisa Coble",
+    "externalEmail": "lisa_coble@otpp.com",
+    "score": 0.97,
+    "last": "2026-09-10",
+    "meet": "2026-09-10"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Avid Duggan",
+    "externalEmail": "avid_larizadehduggan@otpp.com",
+    "score": 0.97,
+    "last": "2026-08-04",
+    "meet": "2026-04-30"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Kieran Mahanty",
+    "externalEmail": "kieran_mahanty@otpp.com",
+    "score": 0.93,
+    "last": "2026-06-03",
+    "meet": "2026-06-02"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Ara YEROMIAN",
+    "externalEmail": "ara_yeromian@otpp.com",
+    "score": 0.93,
+    "last": "2026-09-10",
+    "meet": "2025-07-03"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Chalani Allen",
+    "externalEmail": "chalani_allen@otpp.com",
+    "score": 0.92,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Zaya Kadyrova",
+    "externalEmail": "zaya_kadyrova@otpp.com",
+    "score": 0.74,
+    "last": "2026-08-26",
+    "meet": "2026-08-26"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Francisco Jose Vargas Almeida",
+    "externalEmail": "francisco_vargas@otpp.com",
+    "score": 0.73,
+    "last": "2026-09-14",
+    "meet": "2026-09-14"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Chalani Allen",
+    "externalEmail": "chalani_allen@otpp.com",
+    "score": 0.7,
+    "last": "2026-10-01",
+    "meet": "2026-10-01"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Francisco Jose Vargas Almeida",
+    "externalEmail": "francisco_vargas@otpp.com",
+    "score": 0.68,
+    "last": "2026-09-14",
+    "meet": "2026-09-14"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Phoebe Kitchen",
+    "externalEmail": "phoebe_kitchen@otpp.com",
+    "score": 0.54,
+    "last": "2026-07-21",
+    "meet": "2024-02-27"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Phoebe Kitchen",
+    "externalEmail": "phoebe_kitchen@otpp.com",
+    "score": 0.51,
+    "last": "2026-07-21",
+    "meet": "2024-02-27"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Ara YEROMIAN",
+    "externalEmail": "ara_yeromian@otpp.com",
+    "score": 0.48,
+    "last": "2026-09-10",
+    "meet": "2025-07-03"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Avid Duggan",
+    "externalEmail": "avid_larizadehduggan@otpp.com",
+    "score": 0.43,
+    "last": "2026-08-04",
+    "meet": "2026-04-30"
+   }
+  ]
+ },
+ "ottogroup.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "oxx.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Anna Faulkner",
+    "external": "Gokce Ceylan",
+    "externalEmail": "gc@oxx.vc",
+    "score": 1.0,
+    "last": "2026-05-27",
+    "meet": "2026-05-27"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Ingrid Åkerlind",
+    "externalEmail": "iba@oxx.vc",
+    "score": 1.0,
+    "last": "2026-09-08",
+    "meet": "2026-09-08"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Phil Edmondson-Jones",
+    "externalEmail": "pej@oxx.vc",
+    "score": 1.0,
+    "last": "2026-08-06",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Bob Thomas",
+    "externalEmail": "bt@oxx.vc",
+    "score": 1.0,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Bob Thomas",
+    "externalEmail": "bt@oxx.vc",
+    "score": 1.0,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Gokce Ceylan",
+    "externalEmail": "gc@oxx.vc",
+    "score": 0.99,
+    "last": "2026-05-27",
+    "meet": "2026-05-27"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Ben Palmer",
+    "externalEmail": "bp@oxx.vc",
+    "score": 0.98,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Mimi Snell",
+    "externalEmail": "ms@oxx.vc",
+    "score": 0.91,
+    "last": "2026-08-06",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Lauren Sophocleos",
+    "externalEmail": "lso@oxx.vc",
+    "score": 0.95,
+    "last": "2025-10-30",
+    "meet": "2025-10-30"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Ben Palmer",
+    "externalEmail": "bp@oxx.vc",
+    "score": 0.77,
+    "last": "2026-09-30",
+    "meet": "2026-09-30"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Carole Ginman",
+    "externalEmail": "cg@oxx.vc",
+    "score": 0.76,
+    "last": "2026-05-26",
+    "meet": "2025-09-12"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Ashna Ahmad",
+    "externalEmail": "aa@oxx.vc",
+    "score": 1.0,
+    "last": "2025-09-02",
+    "meet": "2025-09-02"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Carole Ginman",
+    "externalEmail": "cg@oxx.vc",
+    "score": 0.45,
+    "last": "2026-05-26",
+    "meet": "2025-09-12"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Gokce Ceylan",
+    "externalEmail": "gc@oxx.vc",
+    "score": 0.43,
+    "last": "2026-05-27",
+    "meet": "2026-05-27"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Archit Rathi",
+    "externalEmail": "ar@oxx.vc",
+    "score": 0.86,
+    "last": "2025-07-08",
+    "meet": "2025-07-08"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Toby Lywood",
+    "externalEmail": "tl@oxx.vc",
+    "score": 0.7,
+    "last": "2025-02-11",
+    "meet": "2024-06-27"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Maria Hagberg",
+    "externalEmail": "mh@oxx.vc",
+    "score": 0.99,
+    "last": "2024-05-27",
+    "meet": "2024-05-27"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Mikael Johnsson",
+    "externalEmail": "mj@oxx.vc",
+    "score": 0.99,
+    "last": "2024-08-05",
+    "meet": "2024-05-27"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Richard Anton",
+    "externalEmail": "ra@oxx.vc",
+    "score": 0.51,
+    "last": "2025-03-17",
+    "meet": "2024-02-15"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Richard Anton",
+    "externalEmail": "ra@oxx.vc",
+    "score": 0.43,
+    "last": "2025-03-17",
+    "meet": "2024-02-15"
+   }
+  ]
+ },
+ "pamica.se": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "pathlight.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Mahdi Raza",
+    "externalEmail": "mahdi@pathlight.vc",
+    "score": 1.0,
+    "last": "2025-11-07",
+    "meet": "2025-11-07"
+   }
+  ]
+ },
+ "paypal.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Alexandros Bottenbruch",
+    "externalEmail": "abottenbruch@paypal.com",
+    "score": 0.97,
+    "last": "2026-08-13",
+    "meet": "2026-08-13"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Ashish Aggarwal",
+    "externalEmail": "ashaggarwal@paypal.com",
+    "score": 1.0,
+    "last": "2026-03-23",
+    "meet": "2026-01-19"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Ashish Aggarwal",
+    "externalEmail": "ashaggarwal@paypal.com",
+    "score": 1.0,
+    "last": "2026-03-23",
+    "meet": "2026-01-19"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Ashish Aggarwal",
+    "externalEmail": "ashaggarwal@paypal.com",
+    "score": 0.93,
+    "last": "2026-03-23",
+    "meet": "2026-01-19"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Ashish Aggarwal",
+    "externalEmail": "ashaggarwal@paypal.com",
+    "score": 0.7,
+    "last": "2026-03-23",
+    "meet": "2026-01-19"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Elisabeth Granger",
+    "externalEmail": "rgranger@paypal.com",
+    "score": 0.88,
+    "last": "2025-02-03",
+    "meet": "2024-10-29"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Ashish Aggarwal",
+    "externalEmail": "ashaggarwal@paypal.com",
+    "score": 0.43,
+    "last": "2026-03-23",
+    "meet": "2026-01-19"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Ashish Aggarwal",
+    "externalEmail": "ashaggarwal@paypal.com",
+    "score": 0.38,
+    "last": "2026-03-23",
+    "meet": "2026-01-19"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Jonathan Banks",
+    "externalEmail": "jonbanks@paypal.com",
+    "score": 0.1,
+    "last": "2025-06-02",
+    "meet": "2025-05-29"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Elisabeth Granger",
+    "externalEmail": "rgranger@paypal.com",
+    "score": 0.1,
+    "last": "2025-02-03",
+    "meet": "2024-10-29"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Rachel Sapienza",
+    "externalEmail": "rsapienza@paypal.com",
+    "score": 0.1,
+    "last": "2024-01-29",
+    "meet": null
+   }
+  ]
+ },
+ "personio.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "pesholdings.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "pg-developpement.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "phoenixcourt.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Daisey Hearne",
+    "externalEmail": "daisey@phoenixcourt.vc",
+    "score": 0.44,
+    "last": "2026-09-22",
+    "meet": null
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Daisey Hearne",
+    "externalEmail": "daisey@phoenixcourt.vc",
+    "score": 0.38,
+    "last": "2026-09-22",
+    "meet": null
+   }
+  ]
+ },
+ "pioneerfund.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Aude Flecchia",
+    "external": "James Fong",
+    "externalEmail": "james@pioneerfund.vc",
+    "score": 0.67,
+    "last": "2026-07-06",
+    "meet": null
+   }
+  ]
+ },
+ "pivotnorth.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "pleiadeventure.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "plugandplaytechcenter.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "pluralplatform.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tony Zappala",
+    "external": "Khaled Helioui",
+    "externalEmail": "khaled@pluralplatform.com",
+    "score": 1.0,
+    "last": "2026-07-07",
+    "meet": "2026-06-10"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Ian Hogarth",
+    "externalEmail": "ian@pluralplatform.com",
+    "score": 1.0,
+    "last": "2026-06-04",
+    "meet": "2026-06-04"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Taavet Hinrikus",
+    "externalEmail": "th@pluralplatform.com",
+    "score": 1.0,
+    "last": "2026-06-18",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Taavet Hinrikus",
+    "externalEmail": "th@pluralplatform.com",
+    "score": 0.99,
+    "last": "2026-06-18",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Taavet Hinrikus",
+    "externalEmail": "th@pluralplatform.com",
+    "score": 0.98,
+    "last": "2026-06-18",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Taavet Hinrikus",
+    "externalEmail": "th@pluralplatform.com",
+    "score": 0.97,
+    "last": "2026-06-18",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Taavet Hinrikus",
+    "externalEmail": "th@pluralplatform.com",
+    "score": 0.95,
+    "last": "2026-06-18",
+    "meet": "2026-06-18"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Carina Namih",
+    "externalEmail": "carina@pluralplatform.com",
+    "score": 0.74,
+    "last": "2026-09-08",
+    "meet": "2026-09-08"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Daniel Tarver",
+    "externalEmail": "daniel@pluralplatform.com",
+    "score": 1.0,
+    "last": "2024-12-18",
+    "meet": "2024-11-07"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Daniel Tarver",
+    "externalEmail": "daniel@pluralplatform.com",
+    "score": 0.97,
+    "last": "2024-12-18",
+    "meet": "2024-11-07"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Daniel Tarver",
+    "externalEmail": "daniel@pluralplatform.com",
+    "score": 0.95,
+    "last": "2024-12-18",
+    "meet": "2024-11-07"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Victoria Kennard",
+    "externalEmail": "victoria@pluralplatform.com",
+    "score": 0.89,
+    "last": "2025-08-07",
+    "meet": "2025-08-07"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Chris Perry",
+    "externalEmail": "chris@pluralplatform.com",
+    "score": 0.43,
+    "last": "2026-09-08",
+    "meet": "2026-09-08"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Sophie Napier",
+    "externalEmail": "sophie@pluralplatform.com",
+    "score": 0.48,
+    "last": "2026-07-27",
+    "meet": null
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Isobel Sprules",
+    "externalEmail": "izzy@pluralplatform.com",
+    "score": 0.35,
+    "last": "2026-06-03",
+    "meet": "2019-03-12"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Isobel Sprules",
+    "externalEmail": "izzy@pluralplatform.com",
+    "score": 0.34,
+    "last": "2026-06-03",
+    "meet": "2019-03-12"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Sophie Napier",
+    "externalEmail": "sophie@pluralplatform.com",
+    "score": 0.43,
+    "last": "2026-07-27",
+    "meet": null
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Khaled Helioui",
+    "externalEmail": "khaled@pluralplatform.com",
+    "score": 0.1,
+    "last": "2026-07-07",
+    "meet": "2026-06-10"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Isobel Sprules",
+    "externalEmail": "izzy@pluralplatform.com",
+    "score": 0.1,
+    "last": "2026-06-03",
+    "meet": "2019-03-12"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Carina Namih",
+    "externalEmail": "carina@pluralplatform.com",
+    "score": 0.1,
+    "last": "2026-09-08",
+    "meet": "2026-09-08"
+   }
+  ]
+ },
+ "pluspartners.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "portfolio.ventures": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Sam Brooks",
+    "external": "Will Brooks",
+    "externalEmail": "wb@portfolio.ventures",
+    "score": 0.1,
+    "last": "2026-09-28",
+    "meet": null
+   }
+  ]
+ },
+ "portugalventures.pt": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Fernando Ferreira",
+    "externalEmail": "fernando.ferreira@portugalventures.pt",
+    "score": 0.35,
+    "last": "2026-03-16",
+    "meet": "2023-08-31"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Filomena Pastor",
+    "externalEmail": "filomena.pastor@portugalventures.pt",
+    "score": 0.62,
+    "last": "2024-07-18",
+    "meet": "2024-07-18"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Maria Almeida",
+    "externalEmail": "mariajoao.almeida@portugalventures.pt",
+    "score": 0.6,
+    "last": "2024-07-18",
+    "meet": "2024-07-18"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Filomena Pastor",
+    "externalEmail": "filomena.pastor@portugalventures.pt",
+    "score": 0.35,
+    "last": "2024-07-18",
+    "meet": "2024-07-18"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Maria Almeida",
+    "externalEmail": "mariajoao.almeida@portugalventures.pt",
+    "score": 0.1,
+    "last": "2024-07-18",
+    "meet": "2024-07-18"
+   }
+  ]
+ },
+ "precursorvc.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "proparco.fr": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "prototype.capital": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "psv.xyz": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Kristian Hansen",
+    "externalEmail": "kbh@psv.xyz",
+    "score": 0.1,
+    "last": "2025-08-29",
+    "meet": "2025-08-26"
+   }
+  ]
+ },
+ "purple-ventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "puzzle-ventures.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Helena Richardson",
+    "external": "Gloria Baeuerlein",
+    "externalEmail": "gloria@puzzle-ventures.com",
+    "score": 1.0,
+    "last": "2026-03-10",
+    "meet": "2026-02-09"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Gloria Baeuerlein",
+    "externalEmail": "gloria@puzzle-ventures.com",
+    "score": 1.0,
+    "last": "2026-03-10",
+    "meet": "2026-02-09"
+   }
+  ]
+ },
+ "qaware.de": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "qonto.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "quakecapital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "quantumlightcapital.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tyrone Tee",
+    "external": "James Darby",
+    "externalEmail": "james.d@quantumlightcapital.com",
+    "score": 0.99,
+    "last": "2026-08-25",
+    "meet": "2026-08-25"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Dora Zikouli",
+    "externalEmail": "dora@quantumlightcapital.com",
+    "score": 0.99,
+    "last": "2025-12-08",
+    "meet": "2025-12-08"
+   },
+   {
+    "internal": "Tyrone Tee",
+    "external": "James Popplewell",
+    "externalEmail": "james@quantumlightcapital.com",
+    "score": 0.1,
+    "last": "2026-07-29",
+    "meet": null
+   }
+  ]
+ },
+ "rabacap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "race.capital": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "radical.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Helena Richardson",
+    "external": "Rob Toews",
+    "externalEmail": "rob@radical.vc",
+    "score": 0.51,
+    "last": "2026-06-23",
+    "meet": "2022-05-31"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Rich Kotite",
+    "externalEmail": "rich@radical.vc",
+    "score": 0.44,
+    "last": "2026-09-15",
+    "meet": "2026-06-09"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Jessica Esposito",
+    "externalEmail": "jessica@radical.vc",
+    "score": 0.1,
+    "last": "2026-06-09",
+    "meet": "2026-06-09"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Rich Kotite",
+    "externalEmail": "rich@radical.vc",
+    "score": 0.1,
+    "last": "2026-09-15",
+    "meet": "2026-06-09"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Rob Toews",
+    "externalEmail": "rob@radical.vc",
+    "score": 0.1,
+    "last": "2026-06-23",
+    "meet": "2022-05-31"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Aaron Brindle",
+    "externalEmail": "aaron@radical.vc",
+    "score": 0.1,
+    "last": "2026-07-02",
+    "meet": null
+   }
+  ]
+ },
+ "raine.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Sam Brooks",
+    "external": "Fred Davis",
+    "externalEmail": "fdavis@raine.com",
+    "score": 0.96,
+    "last": "2026-05-14",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Gregory Israelyan",
+    "externalEmail": "gisraelyan@raine.com",
+    "score": 0.95,
+    "last": "2026-08-21",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Christine Ambrose",
+    "externalEmail": "cambrose@raine.com",
+    "score": 0.96,
+    "last": "2026-03-18",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Gregory Israelyan",
+    "externalEmail": "gisraelyan@raine.com",
+    "score": 0.82,
+    "last": "2026-08-21",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Fred Davis",
+    "externalEmail": "fdavis@raine.com",
+    "score": 0.82,
+    "last": "2026-05-14",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Joe Puthenveetil",
+    "externalEmail": "jputhenveetil@raine.com",
+    "score": 0.74,
+    "last": "2026-04-21",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Christine Ambrose",
+    "externalEmail": "cambrose@raine.com",
+    "score": 0.8,
+    "last": "2026-03-18",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Joe Puthenveetil",
+    "externalEmail": "jputhenveetil@raine.com",
+    "score": 0.51,
+    "last": "2026-04-21",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Fariya Khan",
+    "externalEmail": "fkhan@raine.com",
+    "score": 0.83,
+    "last": "2025-08-26",
+    "meet": "2025-08-26"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Jason Schretter",
+    "externalEmail": "jschretter@raine.com",
+    "score": 0.83,
+    "last": "2025-08-26",
+    "meet": "2025-08-26"
+   },
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Tommaso Armanini",
+    "externalEmail": "tarmanini@raine.com",
+    "score": 0.77,
+    "last": "2024-02-12",
+    "meet": "2023-01-30"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Fariya Khan",
+    "externalEmail": "fkhan@raine.com",
+    "score": 0.32,
+    "last": "2025-08-26",
+    "meet": "2025-08-26"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Gregory Israelyan",
+    "externalEmail": "gisraelyan@raine.com",
+    "score": 0.1,
+    "last": "2026-08-21",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Gregory Israelyan",
+    "externalEmail": "gisraelyan@raine.com",
+    "score": 0.1,
+    "last": "2026-08-21",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Gregory Israelyan",
+    "externalEmail": "gisraelyan@raine.com",
+    "score": 0.1,
+    "last": "2026-08-21",
+    "meet": "2026-04-01"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Nicola Hughes-Campen",
+    "externalEmail": "nhughescampen@raine.com",
+    "score": 0.43,
+    "last": "2024-05-14",
+    "meet": null
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Jason Schretter",
+    "externalEmail": "jschretter@raine.com",
+    "score": 0.1,
+    "last": "2025-08-26",
+    "meet": "2025-08-26"
+   }
+  ]
+ },
+ "realventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "red.es": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "redcrestevents.co.uk": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "redline.lu": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "redpoint.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "David Blyghton",
+    "external": "Logan Bartlett",
+    "externalEmail": "logan@redpoint.com",
+    "score": 1.0,
+    "last": "2026-03-12",
+    "meet": "2025-10-08"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Enzo Wiener",
+    "externalEmail": "ewiener@redpoint.com",
+    "score": 1.0,
+    "last": "2025-07-23",
+    "meet": "2025-07-23"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Enzo Wiener",
+    "externalEmail": "ewiener@redpoint.com",
+    "score": 0.99,
+    "last": "2025-07-23",
+    "meet": "2025-07-23"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Kwesi Acquay",
+    "externalEmail": "kacquay@redpoint.com",
+    "score": 0.92,
+    "last": "2023-11-09",
+    "meet": "2023-11-09"
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Enzo Wiener",
+    "externalEmail": "ewiener@redpoint.com",
+    "score": 0.33,
+    "last": "2025-07-23",
+    "meet": "2025-07-23"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Jacob Effron",
+    "externalEmail": "jeffron@redpoint.com",
+    "score": 0.54,
+    "last": "2024-01-25",
+    "meet": "2024-01-25"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Lily Eusebio",
+    "externalEmail": "leusebio@redpoint.com",
+    "score": 0.69,
+    "last": "2024-01-25",
+    "meet": null
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Mary Stern",
+    "externalEmail": "mstern@redpoint.com",
+    "score": 0.38,
+    "last": "2025-07-09",
+    "meet": null
+   }
+  ]
+ },
+ "redriceventures.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Claudia Yupangco",
+    "externalEmail": "claudia.yupangco@redriceventures.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-10-05"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Claudia Yupangco",
+    "externalEmail": "claudia.yupangco@redriceventures.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-10-05"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Gabrielle Swycher",
+    "externalEmail": "gabrielle.swycher@redriceventures.com",
+    "score": 1.0,
+    "last": "2026-07-29",
+    "meet": "2026-07-01"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Gabrielle Swycher",
+    "externalEmail": "gabrielle.swycher@redriceventures.com",
+    "score": 0.99,
+    "last": "2026-07-29",
+    "meet": "2026-07-01"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Gabrielle Swycher",
+    "externalEmail": "gabrielle.swycher@redriceventures.com",
+    "score": 0.96,
+    "last": "2026-07-29",
+    "meet": "2026-07-01"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Claudia Yupangco",
+    "externalEmail": "claudia.yupangco@redriceventures.com",
+    "score": 0.54,
+    "last": "2026-10-05",
+    "meet": "2026-10-05"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Kunaal Kankate",
+    "externalEmail": "kunaal.kankate@redriceventures.com",
+    "score": 0.43,
+    "last": "2026-04-10",
+    "meet": null
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Andres Gonzales",
+    "externalEmail": "andres.gonzales@redriceventures.com",
+    "score": 0.7,
+    "last": "2024-02-26",
+    "meet": "2024-02-26"
+   }
+  ]
+ },
+ "redriverwest.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Aude Flecchia",
+    "external": "Chloé Merlet",
+    "externalEmail": "chloe@redriverwest.com",
+    "score": 1.0,
+    "last": "2026-08-31",
+    "meet": "2026-07-08"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Antoine Boulin",
+    "externalEmail": "antoine@redriverwest.com",
+    "score": 1.0,
+    "last": "2026-09-28",
+    "meet": "2026-07-02"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Olivier Huez",
+    "externalEmail": "olivier@redriverwest.com",
+    "score": 1.0,
+    "last": "2025-09-22",
+    "meet": "2025-09-22"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Olivier Huez",
+    "externalEmail": "olivier@redriverwest.com",
+    "score": 0.99,
+    "last": "2025-09-22",
+    "meet": "2025-09-22"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Olivier Huez",
+    "externalEmail": "olivier@redriverwest.com",
+    "score": 0.99,
+    "last": "2025-09-22",
+    "meet": "2025-09-22"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Alfred Vericel",
+    "externalEmail": "alfred@redriverwest.com",
+    "score": 0.38,
+    "last": "2026-01-28",
+    "meet": "2018-10-24"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Antoine Boulin",
+    "externalEmail": "antoine@redriverwest.com",
+    "score": 0.32,
+    "last": "2026-09-28",
+    "meet": "2026-07-02"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Abel Samot",
+    "externalEmail": "abel@redriverwest.com",
+    "score": 0.51,
+    "last": "2024-07-09",
+    "meet": null
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Antoine Boulin",
+    "externalEmail": "antoine@redriverwest.com",
+    "score": 0.1,
+    "last": "2026-09-28",
+    "meet": "2026-07-02"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Alfred Vericel",
+    "externalEmail": "alfred@redriverwest.com",
+    "score": 0.1,
+    "last": "2026-01-28",
+    "meet": "2018-10-24"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Joseph Houssais",
+    "externalEmail": "joseph@redriverwest.com",
+    "score": 0.1,
+    "last": "2026-09-21",
+    "meet": null
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Olivier Huez",
+    "externalEmail": "olivier@redriverwest.com",
+    "score": 0.1,
+    "last": "2025-09-22",
+    "meet": "2025-09-22"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Olivier Huez",
+    "externalEmail": "olivier@redriverwest.com",
+    "score": 0.1,
+    "last": "2025-09-22",
+    "meet": "2025-09-22"
+   }
+  ]
+ },
+ "redseed.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Daniel Benjamin",
+    "externalEmail": "daniel@redseed.vc",
+    "score": 1.0,
+    "last": "2025-09-25",
+    "meet": "2025-09-25"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Héléna Cavell",
+    "externalEmail": "helena@redseed.vc",
+    "score": 0.1,
+    "last": "2025-09-24",
+    "meet": "2025-09-24"
+   }
+  ]
+ },
+ "reigpatrimonia.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "resurgenstech.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Elizabeth Brown",
+    "externalEmail": "lizzy@resurgenstech.com",
+    "score": 0.46,
+    "last": "2026-07-16",
+    "meet": null
+   }
+  ]
+ },
+ "rethinkventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "revent.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Henrik Hokamp",
+    "externalEmail": "henrik@revent.vc",
+    "score": 0.83,
+    "last": "2026-07-08",
+    "meet": "2026-07-08"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Oana Botez",
+    "externalEmail": "oana@revent.vc",
+    "score": 0.85,
+    "last": "2025-09-12",
+    "meet": "2025-09-12"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Rebecca Brill",
+    "externalEmail": "rebecca@revent.vc",
+    "score": 0.73,
+    "last": "2024-10-10",
+    "meet": "2024-10-10"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Oana Botez",
+    "externalEmail": "oana@revent.vc",
+    "score": 0.1,
+    "last": "2025-09-12",
+    "meet": "2025-09-12"
+   }
+  ]
+ },
+ "revenue-syndicate.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "ribbitcap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "riseproptech.eu": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "robincap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "rockstart.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "round2cap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "rtp.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Julia Anisimova",
+    "externalEmail": "janisimova@rtp.vc",
+    "score": 1.0,
+    "last": "2025-11-19",
+    "meet": "2025-11-19"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Thomas Cuvelier",
+    "externalEmail": "thomas@rtp.vc",
+    "score": 1.0,
+    "last": "2025-11-19",
+    "meet": "2025-11-19"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@rtp.vc",
+    "score": 1.0,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Simon Pastor",
+    "externalEmail": "simon@rtp.vc",
+    "score": 0.99,
+    "last": "2025-12-16",
+    "meet": "2025-12-16"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Julia Anisimova",
+    "externalEmail": "janisimova@rtp.vc",
+    "score": 0.99,
+    "last": "2025-11-19",
+    "meet": "2025-11-19"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Julia Anisimova",
+    "externalEmail": "janisimova@rtp.vc",
+    "score": 0.99,
+    "last": "2025-11-19",
+    "meet": "2025-11-19"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Thomas Cuvelier",
+    "externalEmail": "thomas@rtp.vc",
+    "score": 0.99,
+    "last": "2025-11-19",
+    "meet": "2025-11-19"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Thomas Cuvelier",
+    "externalEmail": "thomas@rtp.vc",
+    "score": 0.99,
+    "last": "2025-11-19",
+    "meet": "2025-11-19"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@rtp.vc",
+    "score": 0.98,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Elina Rayberg",
+    "externalEmail": "elina@rtp.vc",
+    "score": 1.0,
+    "last": "2024-12-04",
+    "meet": "2024-11-27"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Gareth Jefferies",
+    "externalEmail": "gareth@rtp.vc",
+    "score": 1.0,
+    "last": "2025-08-20",
+    "meet": "2025-08-18"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Gareth Jefferies",
+    "externalEmail": "gareth@rtp.vc",
+    "score": 0.98,
+    "last": "2025-08-20",
+    "meet": "2025-08-18"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Gareth Jefferies",
+    "externalEmail": "gareth@rtp.vc",
+    "score": 0.96,
+    "last": "2025-08-20",
+    "meet": "2025-08-18"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@rtp.vc",
+    "score": 0.43,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Emily Tan",
+    "external": "Gareth Jefferies",
+    "externalEmail": "gareth@rtp.vc",
+    "score": 0.53,
+    "last": "2025-08-20",
+    "meet": "2025-08-18"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Gareth Jefferies",
+    "externalEmail": "gareth@rtp.vc",
+    "score": 0.43,
+    "last": "2025-08-20",
+    "meet": "2025-08-18"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Galina Chifina",
+    "externalEmail": "gchifina@rtp.vc",
+    "score": 0.4,
+    "last": "2024-10-10",
+    "meet": "2024-10-10"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@rtp.vc",
+    "score": 0.1,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Orson Stadler",
+    "externalEmail": "orson@rtp.vc",
+    "score": 0.1,
+    "last": "2025-11-19",
+    "meet": "2024-10-21"
+   },
+   {
+    "internal": "Rachel Marcinek",
+    "external": "Gareth Jefferies",
+    "externalEmail": "gareth@rtp.vc",
+    "score": 0.1,
+    "last": "2025-08-20",
+    "meet": "2025-08-18"
+   }
+  ]
+ },
+ "s16vc.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Dina Gainullina",
+    "externalEmail": "dina@s16vc.com",
+    "score": 0.1,
+    "last": "2025-05-12",
+    "meet": "2023-06-14"
+   }
+  ]
+ },
+ "saab.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "saabgroup.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "samos.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Helena Richardson",
+    "external": "Shan Drummond",
+    "externalEmail": "shan@samos.vc",
+    "score": 0.32,
+    "last": "2026-08-04",
+    "meet": "2019-02-13"
+   },
+   {
+    "internal": "Anna Faulkner",
+    "external": "Patrick Finnegan",
+    "externalEmail": "analyst@samos.vc",
+    "score": 0.67,
+    "last": "2023-12-06",
+    "meet": "2023-12-06"
+   }
+  ]
+ },
+ "sanfrancisco.desafia.gob.es": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "santander.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "santanderassetmanagement.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "sap.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Michael Still",
+    "externalEmail": "michael.still@sap.com",
+    "score": 1.0,
+    "last": "2026-09-24",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Michael Still",
+    "externalEmail": "michael.still@sap.com",
+    "score": 1.0,
+    "last": "2026-09-24",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Samar Malik",
+    "externalEmail": "samar.malik@sap.com",
+    "score": 1.0,
+    "last": "2026-06-25",
+    "meet": "2026-06-25"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Samar Malik",
+    "externalEmail": "samar.malik@sap.com",
+    "score": 1.0,
+    "last": "2026-06-25",
+    "meet": "2026-06-25"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Henna Mehta",
+    "externalEmail": "henna.mehta@sap.com",
+    "score": 1.0,
+    "last": "2026-05-13",
+    "meet": "2026-05-13"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Lisa Haffey",
+    "externalEmail": "lisa.haffey@sap.com",
+    "score": 1.0,
+    "last": "2026-05-13",
+    "meet": "2026-05-13"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Kevin Meier",
+    "externalEmail": "kevin.meier@sap.com",
+    "score": 0.99,
+    "last": "2026-04-08",
+    "meet": "2026-04-08"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Julian Klose",
+    "externalEmail": "julian.klose@sap.com",
+    "score": 0.99,
+    "last": "2026-04-24",
+    "meet": "2026-04-08"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Michael Still",
+    "externalEmail": "michael.still@sap.com",
+    "score": 0.99,
+    "last": "2026-09-24",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "Tyrone Tee",
+    "external": "Samar Malik",
+    "externalEmail": "samar.malik@sap.com",
+    "score": 0.99,
+    "last": "2026-06-25",
+    "meet": "2026-06-25"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Deepa Gautam-Nigge",
+    "externalEmail": "deepa.gautam-nigge@sap.com",
+    "score": 0.99,
+    "last": "2026-04-24",
+    "meet": "2026-04-08"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Lisa Martin",
+    "externalEmail": "lisa.martin@sap.com",
+    "score": 0.96,
+    "last": "2026-07-30",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Michael Still",
+    "externalEmail": "michael.still@sap.com",
+    "score": 0.95,
+    "last": "2026-09-24",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "Rachel Marcinek",
+    "external": "Samar Malik",
+    "externalEmail": "samar.malik@sap.com",
+    "score": 0.75,
+    "last": "2026-06-25",
+    "meet": "2026-06-25"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Michael Still",
+    "externalEmail": "michael.still@sap.com",
+    "score": 0.74,
+    "last": "2026-09-24",
+    "meet": "2026-08-06"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Lisa Martin",
+    "externalEmail": "lisa.martin@sap.com",
+    "score": 0.52,
+    "last": "2026-07-30",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Efosa Ayanru",
+    "external": "Lisa Martin",
+    "externalEmail": "lisa.martin@sap.com",
+    "score": 0.48,
+    "last": "2026-07-30",
+    "meet": "2026-03-18"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Christine Schöneweis",
+    "externalEmail": "christine.schoeneweis@sap.com",
+    "score": 0.94,
+    "last": "2025-02-07",
+    "meet": "2025-02-05"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Andreas Weiskam",
+    "externalEmail": "andreas.weiskam@sap.com",
+    "score": 0.94,
+    "last": "2025-07-30",
+    "meet": "2023-10-10"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Anil Parekh",
+    "externalEmail": "a.parekh@sap.com",
+    "score": 0.89,
+    "last": "2025-04-07",
+    "meet": "2024-01-18"
+   }
+  ]
+ },
+ "sav.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Wally Wang",
+    "externalEmail": "wally@sav.vc",
+    "score": 0.52,
+    "last": "2026-09-30",
+    "meet": null
+   }
+  ]
+ },
+ "saxecap.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "sba.gov": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "science4life.de": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "seedandspeed.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "seedblink.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "seedinvest.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "semantic.vc": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "sempervirensvc.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "sennder.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Fergal Mullen",
+    "external": "David Nothacker",
+    "externalEmail": "david.nothacker@sennder.com",
+    "score": 0.1,
+    "last": "2024-05-02",
+    "meet": "2024-05-02"
+   }
+  ]
+ },
+ "serena.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Paul Moriou",
+    "externalEmail": "paul@serena.vc",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2026-06-12"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Paul Moriou",
+    "externalEmail": "paul@serena.vc",
+    "score": 1.0,
+    "last": "2026-09-23",
+    "meet": "2026-06-12"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Marie Brayer",
+    "externalEmail": "mbrayer@serena.vc",
+    "score": 1.0,
+    "last": "2026-05-20",
+    "meet": "2026-04-16"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Marie Brayer",
+    "externalEmail": "mbrayer@serena.vc",
+    "score": 0.99,
+    "last": "2026-05-20",
+    "meet": "2026-04-16"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Marie Brayer",
+    "externalEmail": "mbrayer@serena.vc",
+    "score": 0.99,
+    "last": "2026-05-20",
+    "meet": "2026-04-16"
+   },
+   {
+    "internal": "Aude Flecchia",
+    "external": "Marie Brayer",
+    "externalEmail": "mbrayer@serena.vc",
+    "score": 0.99,
+    "last": "2026-05-20",
+    "meet": "2026-04-16"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Olivier Martret",
+    "externalEmail": "olivier@serena.vc",
+    "score": 0.98,
+    "last": "2026-09-23",
+    "meet": "2026-07-07"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Olivier Martret",
+    "externalEmail": "olivier@serena.vc",
+    "score": 0.95,
+    "last": "2026-09-23",
+    "meet": "2026-07-07"
+   },
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Bertrand Diard",
+    "externalEmail": "bertrand@serena.vc",
+    "score": 1.0,
+    "last": "2026-02-19",
+    "meet": "2024-06-11"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Bertrand Diard",
+    "externalEmail": "bertrand@serena.vc",
+    "score": 0.98,
+    "last": "2026-02-19",
+    "meet": "2024-06-11"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Margaux Gregoir",
+    "externalEmail": "margaux@serena.vc",
+    "score": 0.86,
+    "last": "2026-09-14",
+    "meet": "2026-09-02"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Margaux Gregoir",
+    "externalEmail": "margaux@serena.vc",
+    "score": 0.8,
+    "last": "2026-09-14",
+    "meet": "2026-09-02"
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Xavier Lorphelin",
+    "externalEmail": "xavier@serena.vc",
+    "score": 0.42,
+    "last": "2026-09-17",
+    "meet": "2026-09-17"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Xavier Lorphelin",
+    "externalEmail": "xavier@serena.vc",
+    "score": 0.41,
+    "last": "2026-09-17",
+    "meet": "2026-09-17"
+   },
+   {
+    "internal": "Stan Laurent",
+    "external": "Paul Moriou",
+    "externalEmail": "paul@serena.vc",
+    "score": 0.4,
+    "last": "2026-09-23",
+    "meet": "2026-06-12"
+   },
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Marc Fournier",
+    "externalEmail": "marc@serena.vc",
+    "score": 0.36,
+    "last": "2026-09-26",
+    "meet": "2025-06-17"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Xavier Lorphelin",
+    "externalEmail": "xavier@serena.vc",
+    "score": 0.33,
+    "last": "2026-09-17",
+    "meet": "2026-09-17"
+   },
+   {
+    "internal": "Jean Tardy-Joubert",
+    "external": "Xavier Lorphelin",
+    "externalEmail": "xavier@serena.vc",
+    "score": 0.33,
+    "last": "2026-09-17",
+    "meet": "2026-09-17"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Marc Fournier",
+    "externalEmail": "marc@serena.vc",
+    "score": 0.33,
+    "last": "2026-09-26",
+    "meet": "2025-06-17"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Heba Hitti",
+    "externalEmail": "heba@serena.vc",
+    "score": 0.32,
+    "last": "2026-09-22",
+    "meet": "2025-09-12"
+   }
+  ]
+ },
+ "sfcvc.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "sghcapital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "shapecapital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "shapers.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "shilling.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Eoghan Dorman",
+    "external": "Tomás Güida",
+    "externalEmail": "tomasg@shilling.vc",
+    "score": 0.98,
+    "last": "2026-04-09",
+    "meet": "2026-04-09"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Ricardo Jacinto",
+    "externalEmail": "rjacinto@shilling.vc",
+    "score": 0.61,
+    "last": "2025-12-01",
+    "meet": null
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Marcia Fernandes",
+    "externalEmail": "marcia@shilling.vc",
+    "score": 0.1,
+    "last": "2026-01-29",
+    "meet": "2026-01-29"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Maria Frère",
+    "externalEmail": "mfrere@shilling.vc",
+    "score": 0.1,
+    "last": "2024-10-25",
+    "meet": "2022-11-03"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Maria Frère",
+    "externalEmail": "mfrere@shilling.vc",
+    "score": 0.1,
+    "last": "2024-10-25",
+    "meet": "2022-11-03"
+   }
+  ]
+ },
+ "shorooq.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tom Neuberger",
+    "external": "Bilal Baloch",
+    "externalEmail": "bbaloch@shorooq.com",
+    "score": 0.8,
+    "last": "2025-04-28",
+    "meet": "2025-04-28"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Shane Shin",
+    "externalEmail": "sshin@shorooq.com",
+    "score": 0.74,
+    "last": "2025-05-01",
+    "meet": "2025-05-01"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Sali Elagab",
+    "externalEmail": "selagab@shorooq.com",
+    "score": 0.4,
+    "last": "2025-04-22",
+    "meet": null
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Selim Tira",
+    "externalEmail": "stira@shorooq.com",
+    "score": 0.1,
+    "last": "2024-11-12",
+    "meet": "2024-11-12"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Mohammed Altwaijiri",
+    "externalEmail": "mt@shorooq.com",
+    "score": 0.1,
+    "last": "2025-04-09",
+    "meet": null
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Derya Varol",
+    "externalEmail": "dv@shorooq.com",
+    "score": 0.1,
+    "last": "2025-04-28",
+    "meet": null
+   }
+  ]
+ },
+ "sideangels.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "silvertechventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "skalepark.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "skyfall.vc": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Harry Williams",
+    "external": "Cecilie Skjong",
+    "externalEmail": "cecilie@skyfall.vc",
+    "score": 0.65,
+    "last": "2025-02-04",
+    "meet": "2023-05-22"
+   }
+  ]
+ },
+ "skyscanner.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "snyk.io": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "soundventures.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "southparkcommons.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Susannah Laster",
+    "externalEmail": "susannah@southparkcommons.com",
+    "score": 0.38,
+    "last": "2026-06-23",
+    "meet": null
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Dylan Itzikowitz",
+    "externalEmail": "dylan@southparkcommons.com",
+    "score": 0.38,
+    "last": "2026-06-23",
+    "meet": null
+   }
+  ]
+ },
+ "sovacapital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "spacemaker.ai": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "spark.jllt.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "sparkcapital.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Fergal Mullen",
+    "external": "Alex Finkelstein",
+    "externalEmail": "alex@sparkcapital.com",
+    "score": 1.0,
+    "last": "2026-09-29",
+    "meet": "2026-07-15"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Connor Mullaney",
+    "externalEmail": "connor@sparkcapital.com",
+    "score": 1.0,
+    "last": "2025-12-17",
+    "meet": "2025-09-03"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Heather Mahoney",
+    "externalEmail": "spadmin@sparkcapital.com",
+    "score": 1.0,
+    "last": "2026-01-20",
+    "meet": "2026-01-20"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Hanseul Nam",
+    "externalEmail": "hanseul@sparkcapital.com",
+    "score": 0.99,
+    "last": "2025-07-07",
+    "meet": "2025-07-07"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Santo Politi",
+    "externalEmail": "santo@sparkcapital.com",
+    "score": 0.51,
+    "last": "2026-01-07",
+    "meet": "2021-11-10"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Heather Mahoney",
+    "externalEmail": "heather@sparkcapital.com",
+    "score": 0.45,
+    "last": "2026-05-21",
+    "meet": "2025-09-19"
+   },
+   {
+    "internal": "Harry Williams",
+    "external": "Hanseul Nam",
+    "externalEmail": "hanseul@sparkcapital.com",
+    "score": 0.57,
+    "last": "2025-07-07",
+    "meet": "2025-07-07"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Nabeel Hyatt",
+    "externalEmail": "nabeel@sparkcapital.com",
+    "score": 0.41,
+    "last": "2025-10-09",
+    "meet": null
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Hanseul Nam",
+    "externalEmail": "hanseul@sparkcapital.com",
+    "score": 0.48,
+    "last": "2025-07-07",
+    "meet": "2025-07-07"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Nabeel Hyatt",
+    "externalEmail": "nabeel@sparkcapital.com",
+    "score": 0.35,
+    "last": "2025-10-09",
+    "meet": null
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Heather Mahoney",
+    "externalEmail": "heather@sparkcapital.com",
+    "score": 0.1,
+    "last": "2026-05-21",
+    "meet": "2025-09-19"
+   },
+   {
+    "internal": "Helena Richardson",
+    "external": "Alex Finkelstein",
+    "externalEmail": "alex@sparkcapital.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": "2026-07-15"
+   },
+   {
+    "internal": "Jacob Bernstein",
+    "external": "Alex Finkelstein",
+    "externalEmail": "alex@sparkcapital.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": "2026-07-15"
+   },
+   {
+    "internal": "William De Quant",
+    "external": "Alex Finkelstein",
+    "externalEmail": "alex@sparkcapital.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": "2026-07-15"
+   },
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Alex Finkelstein",
+    "externalEmail": "alex@sparkcapital.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": "2026-07-15"
+   },
+   {
+    "internal": "Lucinda Maxwell",
+    "external": "Alex Finkelstein",
+    "externalEmail": "alex@sparkcapital.com",
+    "score": 0.1,
+    "last": "2026-09-29",
+    "meet": "2026-07-15"
+   }
+  ]
+ },
+ "speechly.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "speedrun.a16z.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "spinlab.co": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "spintopventures.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Tyrone Tee",
+    "external": "Moa Kronborg",
+    "externalEmail": "moa.kronborg@spintopventures.com",
+    "score": 0.99,
+    "last": "2026-05-26",
+    "meet": "2026-05-26"
+   }
+  ]
+ },
+ "spore.bio": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Helena Richardson",
+    "external": "Amine Raji",
+    "externalEmail": "amine.raji@spore.bio",
+    "score": 0.95,
+    "last": "2026-04-09",
+    "meet": "2026-04-09"
+   },
+   {
+    "internal": "Tom Neuberger",
+    "external": "Amine Raji",
+    "externalEmail": "amine.raji@spore.bio",
+    "score": 0.66,
+    "last": "2026-04-09",
+    "meet": "2026-04-09"
+   }
+  ]
+ },
+ "ssebl.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "start-capital.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "startmate.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "startup.google.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "startupbootcamp.org": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Fergal Mullen",
+    "external": "Startupbootcamp Amsterdam",
+    "externalEmail": "amsterdam@startupbootcamp.org",
+    "score": 0.1,
+    "last": "2025-03-03",
+    "meet": null
+   },
+   {
+    "internal": "Tony Zappala",
+    "external": "Startupbootcamp Amsterdam",
+    "externalEmail": "amsterdam@startupbootcamp.org",
+    "score": 0.1,
+    "last": "2025-03-03",
+    "meet": null
+   }
+  ]
+ },
+ "startupleadership.ru": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "stationf.co": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Aude Flecchia",
+    "external": "Camille Aubery",
+    "externalEmail": "camille@stationf.co",
+    "score": 0.99,
+    "last": "2025-12-19",
+    "meet": "2025-12-19"
+   }
+  ]
+ },
+ "stephenspro.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "stepstonegroup.com": {
+  "fetched": "2026-10-05",
+  "rels": [
+   {
+    "internal": "Abhishek Lahoti",
+    "external": "Huff Millard",
+    "externalEmail": "huff.millard@stepstonegroup.com",
+    "score": 1.0,
+    "last": "2026-09-18",
+    "meet": "2026-07-30"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Thomas Dupont",
+    "externalEmail": "thomas.dupont@stepstonegroup.com",
+    "score": 1.0,
+    "last": "2026-10-05",
+    "meet": "2026-10-05"
+   },
+   {
+    "internal": "Gajan Rajanathan",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 1.0,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 1.0,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "David Blyghton",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 0.99,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "Irena Goldenberg",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 0.99,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 0.95,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 0.74,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Thomas Dupont",
+    "externalEmail": "thomas.dupont@stepstonegroup.com",
+    "score": 0.7,
+    "last": "2026-10-05",
+    "meet": "2026-10-05"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Leyla Holterud",
+    "externalEmail": "leyla.holterud@stepstonegroup.com",
+    "score": 0.51,
+    "last": "2026-04-29",
+    "meet": "2026-04-29"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Lyn Blithe",
+    "externalEmail": "lyn.blithe@stepstonegroup.com",
+    "score": 0.95,
+    "last": "2025-01-29",
+    "meet": "2024-10-03"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Lyn Blithe",
+    "externalEmail": "lyn.blithe@stepstonegroup.com",
+    "score": 0.95,
+    "last": "2025-01-29",
+    "meet": "2024-10-03"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Thomas Dupont",
+    "externalEmail": "thomas.dupont@stepstonegroup.com",
+    "score": 0.47,
+    "last": "2026-10-05",
+    "meet": "2026-10-05"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Lyn Blithe",
+    "externalEmail": "lyn.blithe@stepstonegroup.com",
+    "score": 0.7,
+    "last": "2025-01-29",
+    "meet": "2024-10-03"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Vc Shared",
+    "externalEmail": "vc-adminshared@stepstonegroup.com",
+    "score": 0.95,
+    "last": "2024-10-03",
+    "meet": "2024-10-03"
+   },
+   {
+    "internal": "Sam Brooks",
+    "external": "Vc Shared",
+    "externalEmail": "vc-adminshared@stepstonegroup.com",
+    "score": 0.95,
+    "last": "2024-10-03",
+    "meet": "2024-10-03"
+   },
+   {
+    "internal": "Ronan Shally",
+    "external": "Vc Shared",
+    "externalEmail": "vc-adminshared@stepstonegroup.com",
+    "score": 0.7,
+    "last": "2024-10-03",
+    "meet": "2024-10-03"
+   },
+   {
+    "internal": "Isabel Wright",
+    "external": "Pippa Crabtree",
+    "externalEmail": "pippa.crabtree@stepstonegroup.com",
+    "score": 0.55,
+    "last": "2024-10-31",
+    "meet": null
+   },
+   {
+    "internal": "Laurence Garrett",
+    "external": "Umberto Prencipe",
+    "externalEmail": "umberto.prencipe@stepstonegroup.com",
+    "score": 0.51,
+    "last": "2024-02-19",
+    "meet": "2024-02-01"
+   },
+   {
+    "internal": "Fergal Mullen",
+    "external": "Umberto Prencipe",
+    "externalEmail": "umberto.prencipe@stepstonegroup.com",
+    "score": 0.43,
+    "last": "2024-02-19",
+    "meet": "2024-02-01"
+   }
+  ]
+ },
+ "sterlingroad.com": {
+  "fetched": "2026-10-05",
+  "rels": []
+ },
+ "strada.org": {
+  "fetched": "2026-10-05",
+  "rels": []
  }
 }

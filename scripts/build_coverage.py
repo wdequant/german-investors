@@ -252,6 +252,16 @@ for _n, _m in (load_json(f"{ROOT}/data/enrich/backer-domains.json", {}) or {}).i
         _bdom[_ni(_n)] = _d
 _brels = load_json(f"{ROOT}/data/enrich/backer-rels.json", {}) or {}
 _hmeta = load_json(f"{ROOT}/data/enrich/htc-meta.json", {}) or {}
+_profiles_raw = load_json(f"{ROOT}/data/enrich/company-profiles.json", {}) or {}
+_profiles = {}
+for _d, _p in _profiles_raw.items():
+    if not _p or not _p.get("name"):
+        continue
+    _desc = (_p.get("desc") or "")[:150]
+    _profiles[_d] = {k: v for k, v in {
+        "d": _desc or None, "hc": _p.get("hc"), "hg": _p.get("hc_yoy"),
+        "f": _p.get("founded"), "fu": _p.get("funding_usd"),
+        "st": _p.get("stage")}.items() if v is not None}
 
 
 def _bdecay(last):
@@ -456,7 +466,8 @@ if _base.get("entries") and (aff_dump or {}).get("entries"):
             print(f"  [{rk}] what's-changed: {len(moves)} funnel moves, {len(added)} new entries since {_base.get('fetched')}")
 
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
-           "affinityOrg": AFFINITY_ORG, "regions": regions, "xhtc": _xtra, "freshness": freshness,
+           "affinityOrg": AFFINITY_ORG, "regions": regions, "xhtc": _xtra,
+           "profiles": _profiles, "freshness": freshness,
            "changes": changes,
            "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {}}
 from coverage_common import _strip_emoji
