@@ -150,7 +150,7 @@ thead th{position:sticky;top:53px;z-index:5;background:var(--page);text-align:le
 thead th.sortable{cursor:pointer;user-select:none}
 thead th.sortable:hover{color:var(--ink)}
 thead th.on{color:var(--ink)} thead th.on::after{content:" ↓";color:var(--accent-ink)}
-tbody td{padding:16px 14px;border-bottom:1px solid var(--hair);vertical-align:middle}
+tbody td{padding:18px 14px;border-bottom:1px solid var(--hair2);vertical-align:middle}
 tbody tr.mainrow{cursor:pointer}
 tbody tr.mainrow:hover td{background:var(--hair2)}
 tbody tr.mainrow td:first-child{box-shadow:inset 2px 0 0 transparent}
@@ -176,11 +176,18 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .ufproof a:hover{text-decoration:underline}
 .covtop{display:flex;align-items:center;gap:7px}
 td.covtd{min-width:150px}
-td.mytd,th.mytd{background:var(--accent-soft);box-shadow:inset 2px 0 0 var(--accent)}
+th.mytd{color:var(--accent-ink)}
+td.mytd{padding:10px 8px}
+.mycard{background:var(--accent-soft);border:1px solid #c9cdf7;border-radius:14px;padding:11px 13px}
+tr.mainrow:hover td.mytd{background:var(--hair2)}
 tr.detailrow td{background:none;box-shadow:none}
-.chips.mini{margin-top:7px;gap:4px;max-width:210px}
-.chips.mini .chip{font-size:10.5px;padding:2px 7px}
+.chips.mini{margin-top:8px;gap:4px;max-width:210px}
+.chips.mini .chip{font-size:10.5px;padding:2px 9px}
 .nochip{color:var(--muted);font-size:11.5px}
+.pgroup{border:1px solid var(--hair2);border-radius:14px;padding:10px 14px;margin:8px 0;background:var(--raise)}
+.pgroup.mine{background:var(--accent-soft);border-color:#c9cdf7}
+.pglabel{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.pgroup.mine .pglabel{color:var(--accent-ink)}
 #whoback{position:fixed;inset:0;background:rgba(20,18,12,.45);z-index:90;display:none;align-items:center;justify-content:center}
 #whoback.open{display:flex}
 #whocard{background:var(--page);border:1px solid var(--hair);border-radius:14px;padding:26px 30px;
@@ -221,7 +228,7 @@ tr.detailrow td{background:none;box-shadow:none}
 .relcell .rb{display:block;width:64px;height:3px;background:var(--hair);border-radius:2px;margin-top:5px;overflow:hidden}
 .relcell .rb i{display:block;height:100%;background:var(--ink2);border-radius:2px}
 .chips{display:flex;gap:6px;flex-wrap:wrap;max-width:430px}
-.chip{font-size:11px;border-radius:6px;padding:2px 8px;cursor:pointer;border:1px solid transparent;
+.chip{font-size:11px;border-radius:999px;padding:3px 10px;cursor:pointer;border:1px solid transparent;
   font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:550}
 .chip b{font-weight:650}
 .uvtag{font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
@@ -973,8 +980,8 @@ function rowHTML(e){
       e.uf.top.map(t=>`<span class="ufco">${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
   const covWord = {strong:'covered',medium:'thin',weak:'gap'}[e.tier]||'';
   const myCell = state.person
-    ? `<div class="covtop"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div><span class="covword ${v.tier}">you</span></div>
-       <div class="chips mini">${chipHTML(e,'mine')}</div>`
+    ? `<div class="mycard"><div class="covtop"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div><span class="covword ${v.tier}">you</span></div>
+       <div class="chips mini">${chipHTML(e,'mine')}</div></div>`
     : `<span class="nochip">pick who you are ↑</span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
@@ -1035,8 +1042,11 @@ function detailHTML(e){
     list = list.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1));  // Unframe-rated first, highest priority leading
     if(state.person){
       const own = list.filter(isOwned), rest = list.filter(p=>!isOwned(p));
-      h += `<details class="sec" id="sec-${e.slug}-${k}"><summary>${label} <b>${own.length}</b><span class="cnt">of ${list.length} team-wide owned by ${state.person.split(' ')[0]}</span></summary><div class="plist">`+
-        own.map(p=>pitem(p,'')).join('')+rest.map(p=>pitem(p,'offr')).join('')+`</div></details>`;
+      const fn = state.person.split(' ')[0];
+      h += `<details class="sec" id="sec-${e.slug}-${k}"><summary>${label} <b>${own.length}</b><span class="cnt">of ${list.length} team-wide owned by ${fn}</span></summary>`+
+        (own.length?`<div class="pgroup mine"><div class="pglabel">${fn}'s</div><div class="plist">`+own.map(p=>pitem(p,'')).join('')+`</div></div>`:'')+
+        (rest.length?`<div class="pgroup"><div class="pglabel">Rest of the team</div><div class="plist">`+rest.map(p=>pitem(p,'offr')).join('')+`</div></div>`:'')+
+        `</details>`;
       continue;
     }
     const inR = list.filter(inRegion), outR = list.filter(p=>!inRegion(p));
