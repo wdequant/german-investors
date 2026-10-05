@@ -1,0 +1,797 @@
+{
+ "Jeff Weinstein": {
+  "harmonic_person_id": 119245663,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jens Lapinski": {
+  "harmonic_person_id": 155824,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jeremias Andersson": {
+  "harmonic_person_id": 56293532,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jeremy Yap": {
+  "harmonic_person_id": 37260325,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jesse Dhillon": {
+  "harmonic_person_id": 194855367,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jessie Danyi": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Jessie Scheepers": {
+  "harmonic_person_id": 157464439,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jibe Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "JLL Spark": {
+  "harmonic_company_id": 43836200,
+  "domain": "spark.jllt.com",
+  "kind": "fund"
+ },
+ "JLL Spark Global Ventures": {
+  "harmonic_company_id": 43836200,
+  "domain": "spark.jllt.com",
+  "kind": "fund"
+ },
+ "JLL Technologies": {
+  "harmonic_company_id": 1810468,
+  "domain": "jllt.com",
+  "kind": "fund"
+ },
+ "Joe Mullings": {
+  "harmonic_person_id": 164614086,
+  "domain": null,
+  "kind": "person"
+ },
+ "Joe Thomas": {
+  "harmonic_person_id": 14612,
+  "domain": null,
+  "kind": "person"
+ },
+ "Joen Bonnier": {
+  "harmonic_person_id": 22968,
+  "domain": null,
+  "kind": "person"
+ },
+ "Johan Lorenzen": {
+  "harmonic_person_id": 15973,
+  "domain": null,
+  "kind": "person"
+ },
+ "Johan Skarborg": {
+  "harmonic_person_id": 180710904,
+  "domain": null,
+  "kind": "person"
+ },
+ "Johannes Schildt": {
+  "harmonic_person_id": 60785,
+  "domain": null,
+  "kind": "person"
+ },
+ "Johnny Boufarhat": {
+  "harmonic_person_id": 32308,
+  "domain": null,
+  "kind": "person"
+ },
+ "Johnson Controls": {
+  "harmonic_company_id": 2139599,
+  "domain": "johnsoncontrols.com",
+  "kind": "fund"
+ },
+ "Johnson Controls Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Jolt Capital": {
+  "harmonic_company_id": 1511669,
+  "domain": "jolt-capital.com",
+  "kind": "fund"
+ },
+ "Jon McNeill": {
+  "harmonic_person_id": 14382,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jon Oringer": {
+  "harmonic_person_id": 197489785,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jonathan Benhamou": {
+  "harmonic_person_id": 16804093,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jonathan Cherki": {
+  "harmonic_person_id": 160657073,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jonathan Lenson": {
+  "harmonic_person_id": 157966944,
+  "domain": null,
+  "kind": "person"
+ },
+ "Jonathan Smyth": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Joshua Motta": {
+  "harmonic_person_id": 179624822,
+  "domain": null,
+  "kind": "person"
+ },
+ "JRV": {
+  "harmonic_company_id": 19343584,
+  "domain": null,
+  "kind": "fund"
+ },
+ "JRV Holding GmbH": {
+  "harmonic_company_id": 19343584,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Jude Gomila": {
+  "harmonic_person_id": 4085,
+  "domain": null,
+  "kind": "person"
+ },
+ "Juerg Schaeppi": {
+  "harmonic_person_id": 20274,
+  "domain": null,
+  "kind": "person"
+ },
+ "Juergen Roth": {
+  "harmonic_person_id": 78325902,
+  "domain": null,
+  "kind": "person"
+ },
+ "Julien Codorniou": {
+  "harmonic_person_id": 11814,
+  "domain": null,
+  "kind": "person"
+ },
+ "Julius Koehler": {
+  "harmonic_person_id": 37923,
+  "domain": null,
+  "kind": "person"
+ },
+ "Junction Growth Investors": {
+  "harmonic_company_id": 11119764,
+  "domain": "junctiongrowthinvestors.com",
+  "kind": "fund"
+ },
+ "Junction Venture Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Juraj Masar": {
+  "harmonic_person_id": 179678417,
+  "domain": null,
+  "kind": "person"
+ },
+ "K Fund": {
+  "harmonic_company_id": 775053,
+  "domain": "kfund.vc",
+  "kind": "fund"
+ },
+ "K5 Global": {
+  "harmonic_company_id": 1492310,
+  "domain": "k5global.com",
+  "kind": "fund"
+ },
+ "Kakao Ventures": {
+  "harmonic_company_id": 633763,
+  "domain": "kakao.vc",
+  "kind": "fund"
+ },
+ "Kapor Capital": {
+  "harmonic_company_id": 779003,
+  "domain": "kaporcapital.com",
+  "kind": "fund"
+ },
+ "Karista": {
+  "harmonic_company_id": 700629,
+  "domain": "capdecisif.com",
+  "kind": "fund"
+ },
+ "Karl-Johan Persson": {
+  "harmonic_person_id": 90637868,
+  "domain": null,
+  "kind": "person"
+ },
+ "KAYA": {
+  "harmonic_company_id": 4116805,
+  "domain": "kaya.vc",
+  "kind": "fund"
+ },
+ "KAYA VC": {
+  "harmonic_company_id": 4116805,
+  "domain": "kaya.vc",
+  "kind": "fund"
+ },
+ "Keiretsu Forum": {
+  "harmonic_company_id": 1442709,
+  "domain": "keiretsuforum.com",
+  "kind": "fund"
+ },
+ "Kerala Ventures": {
+  "harmonic_company_id": 1504593,
+  "domain": "kerala.vc",
+  "kind": "fund"
+ },
+ "Kerr Ventures": {
+  "harmonic_company_id": 11237045,
+  "domain": "kerrsecure.com",
+  "kind": "fund"
+ },
+ "Kevin Carter": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Kevin Johnson": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Kfund": {
+  "harmonic_company_id": 775053,
+  "domain": "kfund.vc",
+  "kind": "fund"
+ },
+ "Khalid Zitouni": {
+  "harmonic_person_id": 111014933,
+  "domain": null,
+  "kind": "person"
+ },
+ "Kieran Flanagan": {
+  "harmonic_person_id": 354783,
+  "domain": null,
+  "kind": "person"
+ },
+ "Kima Ventures": {
+  "harmonic_company_id": 687712,
+  "domain": "kimaventures.com",
+  "kind": "fund"
+ },
+ "Kindred": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Kindred Capital": {
+  "harmonic_company_id": 762113,
+  "domain": "kindredcapital.vc",
+  "kind": "fund"
+ },
+ "Kindred Capital VC": {
+  "harmonic_company_id": 762113,
+  "domain": "kindredcapital.vc",
+  "kind": "fund"
+ },
+ "Kindred Ventures": {
+  "harmonic_company_id": 725714,
+  "domain": "kindredventures.com",
+  "kind": "fund"
+ },
+ "Kinled Holding Ltd": {
+  "harmonic_company_id": 749485,
+  "domain": "kinled.com",
+  "kind": "fund"
+ },
+ "Klaus Nyengaard": {
+  "harmonic_person_id": 155930323,
+  "domain": null,
+  "kind": "person"
+ },
+ "Knollwood Investment Advisory": {
+  "harmonic_company_id": 5616261,
+  "domain": "kwiadvisory.com",
+  "kind": "fund"
+ },
+ "Koen Bok": {
+  "harmonic_person_id": 17430,
+  "domain": null,
+  "kind": "person"
+ },
+ "Korys": {
+  "harmonic_company_id": 1500936,
+  "domain": "korys.be",
+  "kind": "fund"
+ },
+ "KREAXI": {
+  "harmonic_company_id": 705751,
+  "domain": "kreaxi.com",
+  "kind": "fund"
+ },
+ "Kristian Ranta": {
+  "harmonic_person_id": 2912,
+  "domain": null,
+  "kind": "person"
+ },
+ "Kurma Partners": {
+  "harmonic_company_id": 1758498,
+  "domain": "kurmapartners.com",
+  "kind": "fund"
+ },
+ "La Famiglia": {
+  "harmonic_company_id": 681041,
+  "domain": "lafamiglia.vc",
+  "kind": "fund"
+ },
+ "La Financière de l'Echiquier": {
+  "harmonic_company_id": 51769132,
+  "domain": "lfde.com",
+  "kind": "fund"
+ },
+ "La French Tech": {
+  "harmonic_company_id": 1704343,
+  "domain": "lafrenchtech.gouv.fr",
+  "kind": "fund"
+ },
+ "Lachy Groom": {
+  "harmonic_person_id": 8975,
+  "domain": null,
+  "kind": "person"
+ },
+ "Laforêt France": {
+  "harmonic_company_id": 9865648,
+  "domain": "laforet.com",
+  "kind": "fund"
+ },
+ "Lakestar": {
+  "harmonic_company_id": 763871,
+  "domain": "lakestar.com",
+  "kind": "fund"
+ },
+ "Lakestar's Halo Ii": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Lanta Capital Holdings": {
+  "harmonic_company_id": 1512718,
+  "domain": "lantacap.com",
+  "kind": "fund"
+ },
+ "Lanta Digital Ventures": {
+  "harmonic_company_id": 1508746,
+  "domain": "lantacapital.com",
+  "kind": "fund"
+ },
+ "Lanzadera": {
+  "harmonic_company_id": 1566156,
+  "domain": "lanzadera.es",
+  "kind": "fund"
+ },
+ "Lars Fjeldsoe-Nielsen": {
+  "harmonic_person_id": 18777,
+  "domain": null,
+  "kind": "person"
+ },
+ "Latitude": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Latitude Vs": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "LBBW Venture Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "LBBW Venture Capital GmbH": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "LDV Capital": {
+  "harmonic_company_id": 34625,
+  "domain": "ldv.co",
+  "kind": "fund"
+ },
+ "Ldv Capital And Tiny Supercomputer Investment Company": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "LDV Partners": {
+  "harmonic_company_id": 669943,
+  "domain": "ldvp.com",
+  "kind": "fund"
+ },
+ "LEA Partners": {
+  "harmonic_company_id": 3239687,
+  "domain": "leapartners.de",
+  "kind": "fund"
+ },
+ "Leadwind": {
+  "harmonic_company_id": 12398487,
+  "domain": "leadwind.vc",
+  "kind": "fund"
+ },
+ "LeanSquare": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Leblon Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ledger": {
+  "harmonic_company_id": 734375,
+  "domain": "ledger.com",
+  "kind": "fund"
+ },
+ "Lefebvre Sarrut": {
+  "harmonic_company_id": 62332951,
+  "domain": "lefebvre-group.com",
+  "kind": "fund"
+ },
+ "Left Lane Capital": {
+  "harmonic_company_id": 32486,
+  "domain": "leftlane.com",
+  "kind": "fund"
+ },
+ "Legziel Family": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Lei Du": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "LEVEL BUSINESS ANGELS": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Life Extension Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Lifeline Ventures": {
+  "harmonic_company_id": 760662,
+  "domain": "lifelineventures.com",
+  "kind": "fund"
+ },
+ "LifeX Ventures": {
+  "harmonic_company_id": 11015271,
+  "domain": "lifex.vc",
+  "kind": "fund"
+ },
+ "LIFTT": {
+  "harmonic_company_id": 1729592,
+  "domain": "liftt.com",
+  "kind": "fund"
+ },
+ "Lightbird": {
+  "harmonic_company_id": 2200565,
+  "domain": "lightbird.vc",
+  "kind": "fund"
+ },
+ "Lightbird Vc": {
+  "harmonic_company_id": 2200565,
+  "domain": "lightbird.vc",
+  "kind": "fund"
+ },
+ "Lightbird Ventures": {
+  "harmonic_company_id": 2200565,
+  "domain": "lightbird.vc",
+  "kind": "fund"
+ },
+ "Lightspeed": {
+  "harmonic_company_id": 662045,
+  "domain": "lsvp.com",
+  "kind": "fund"
+ },
+ "Lightspeed Venture Partners": {
+  "harmonic_company_id": 662045,
+  "domain": "lsvp.com",
+  "kind": "fund"
+ },
+ "Liquid 2 Ventures": {
+  "harmonic_company_id": 672479,
+  "domain": "liquid2.vc",
+  "kind": "fund"
+ },
+ "LocalGlobe": {
+  "harmonic_company_id": 621088,
+  "domain": "localglobe.vc",
+  "kind": "fund"
+ },
+ "Lopo Champalimaud": {
+  "harmonic_person_id": 242094,
+  "domain": null,
+  "kind": "person"
+ },
+ "Louis Pfitzner": {
+  "harmonic_person_id": 250370,
+  "domain": null,
+  "kind": "person"
+ },
+ "Lovable": {
+  "harmonic_company_id": 44580938,
+  "domain": "lovable.dev",
+  "kind": "fund"
+ },
+ "Love Ventures": {
+  "harmonic_company_id": 3643681,
+  "domain": "loveventures.co.uk",
+  "kind": "fund"
+ },
+ "Luca Ascani": {
+  "harmonic_person_id": 101925176,
+  "domain": null,
+  "kind": "person"
+ },
+ "Luca Martinetti": {
+  "harmonic_person_id": 395509,
+  "domain": null,
+  "kind": "person"
+ },
+ "Lucid Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Luis Cabiedes": {
+  "harmonic_person_id": 256835,
+  "domain": null,
+  "kind": "person"
+ },
+ "Luis Sanz": {
+  "harmonic_person_id": 46543415,
+  "domain": null,
+  "kind": "person"
+ },
+ "Lukas Saari": {
+  "harmonic_person_id": 123948814,
+  "domain": null,
+  "kind": "person"
+ },
+ "Lunar Ventures": {
+  "harmonic_company_id": 760973,
+  "domain": "lunar.vc",
+  "kind": "fund"
+ },
+ "Luxalis Capital": {
+  "harmonic_company_id": 57666749,
+  "domain": "luxaliscapital.com",
+  "kind": "fund"
+ },
+ "Lánzame Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "M Fund": {
+  "harmonic_company_id": 3836922,
+  "domain": "mfundvc.com",
+  "kind": "fund"
+ },
+ "M-Fund": {
+  "harmonic_company_id": 3836922,
+  "domain": "mfundvc.com",
+  "kind": "fund"
+ },
+ "M-Fund Club": {
+  "harmonic_company_id": 3836922,
+  "domain": "mfundvc.com",
+  "kind": "fund"
+ },
+ "M12": {
+  "harmonic_company_id": 739325,
+  "domain": "m12.vc",
+  "kind": "fund"
+ },
+ "M12, Microsoft's Venture Fund": {
+  "harmonic_company_id": 739325,
+  "domain": "m12.vc",
+  "kind": "fund"
+ },
+ "Maersk Growth": {
+  "harmonic_company_id": 4432047,
+  "domain": "growth.maersk.com",
+  "kind": "fund"
+ },
+ "MAIF Avenir": {
+  "harmonic_company_id": 676292,
+  "domain": "maif-avenir.fr",
+  "kind": "fund"
+ },
+ "Maki VC": {
+  "harmonic_company_id": 2171405,
+  "domain": "maki.vc",
+  "kind": "fund"
+ },
+ "Malakoff Humanis": {
+  "harmonic_company_id": 566516,
+  "domain": "malakoffhumanis.com",
+  "kind": "fund"
+ },
+ "Malte Horeyseck": {
+  "harmonic_person_id": 425638,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mana Ventures": {
+  "harmonic_company_id": 684763,
+  "domain": "manaventures.vc",
+  "kind": "fund"
+ },
+ "Mango Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Mangrove Capital Partners": {
+  "harmonic_company_id": 1496726,
+  "domain": "mangrove.vc",
+  "kind": "fund"
+ },
+ "Manik Gupta": {
+  "harmonic_person_id": 84004440,
+  "domain": null,
+  "kind": "person"
+ },
+ "MapInvest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Marathon Venture Capital": {
+  "harmonic_company_id": 618930,
+  "domain": "marathon.vc",
+  "kind": "fund"
+ },
+ "Marbruck": {
+  "harmonic_company_id": 653866,
+  "domain": "marbruck.com",
+  "kind": "fund"
+ },
+ "Marbruck Investments": {
+  "harmonic_company_id": 653866,
+  "domain": "marbruck.com",
+  "kind": "fund"
+ },
+ "Marc Benioff": {
+  "harmonic_person_id": 8862,
+  "domain": null,
+  "kind": "person"
+ },
+ "Marc Dassler": {
+  "harmonic_person_id": 181237965,
+  "domain": null,
+  "kind": "person"
+ },
+ "Marc Griefahn": {
+  "harmonic_person_id": 270888,
+  "domain": null,
+  "kind": "person"
+ },
+ "Marcus Ihlenfeld": {
+  "harmonic_person_id": 188448479,
+  "domain": null,
+  "kind": "person"
+ },
+ "Marie Outtier": {
+  "harmonic_person_id": 176387,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mario Götze": {
+  "harmonic_person_id": 160666741,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mark Ransford": {
+  "harmonic_person_id": 11886,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martin Egger": {
+  "harmonic_person_id": 108174132,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martin Kissinger": {
+  "harmonic_person_id": 186012577,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martin Linder": {
+  "harmonic_person_id": 135181871,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martin Rajcan": {
+  "harmonic_person_id": 223650,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martin Randel": {
+  "harmonic_person_id": 19248,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martin Viecha": {
+  "harmonic_person_id": 168914797,
+  "domain": null,
+  "kind": "person"
+ },
+ "Martlet": {
+  "harmonic_company_id": 603151,
+  "domain": "martletcap.com",
+  "kind": "fund"
+ },
+ "Massimo Banzi": {
+  "harmonic_person_id": 164061813,
+  "domain": null,
+  "kind": "person"
+ },
+ "MassMutual Ventures": {
+  "harmonic_company_id": 2107809,
+  "domain": "massmutualventures.com",
+  "kind": "fund"
+ },
+ "Mastercard": {
+  "harmonic_company_id": 107846,
+  "domain": "mastercard.com",
+  "kind": "fund"
+ },
+ "Material Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Mathias Biilmann": {
+  "harmonic_person_id": 160661265,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mathias Biilmann Christensen": {
+  "harmonic_person_id": 160661265,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mathilde Collin": {
+  "harmonic_person_id": 10995,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mati Staniszewski": {
+  "harmonic_person_id": 181593281,
+  "domain": null,
+  "kind": "person"
+ }
+}
