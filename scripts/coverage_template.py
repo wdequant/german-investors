@@ -533,7 +533,7 @@ const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], view:"funds", sort:"gap", q:"", person:"", cat:"", cc:"",
+const state = {region: REGIONS[0], view:"funds", sort:"connectivity", q:"", person:"", cat:"", cc:"",
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
@@ -600,7 +600,7 @@ function filtersHTML(){
   const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
   let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
   if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
-  const SORTS=[["gap","Biggest gaps"],["connectivity","Coverage"],["relevance","Relevance"],["ufq","Portfolio quality (Unframe)"],["ufhigh","High-prio backed (Unframe)"],["pipeline","Pipeline overlap"],["name","Name"]];
+  const SORTS=[["connectivity","Coverage"],["gap","Biggest gaps"],["relevance","Relevance"],["ufq","Portfolio quality (Unframe)"],["ufhigh","High-prio backed (Unframe)"],["pipeline","Pipeline overlap"],["name","Name"]];
   h += `<span class="lbl">Sort</span><select id="sortsel">`+SORTS.map(([k,l])=>`<option value="${k}"${state.sort===k?' selected':''}>${l}</option>`).join('')+`</select>`;
   document.getElementById('filters').innerHTML = h;
   document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
