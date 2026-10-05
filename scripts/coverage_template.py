@@ -120,6 +120,19 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .ufb.hi{background:var(--c-lead);color:var(--c-lead-ink)}
 .ufb.mid{background:var(--c-awaiting);color:var(--c-awaiting-ink)}
 .ufb.lo{background:var(--hair2);color:var(--ink2)}
+#changes{margin:16px 0 0}
+.chgsec{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:0 16px}
+.chgsec summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:8px;padding:12px 0;
+  font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
+.chgsec summary::-webkit-details-marker{display:none}
+.chgsec summary::before{content:'▸';color:var(--muted);font-size:11px}
+.chgsec[open] summary::before{content:'▾'}
+.chgsec summary .cnt{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;font-size:11.5px}
+.chglist{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:7px 24px;padding:2px 0 14px;font-size:12.5px;color:var(--ink2)}
+.chg a{color:var(--ink);font-weight:620;text-decoration:none}
+.chg a:hover{text-decoration:underline}
+.chg .cc{color:var(--muted)}
+.chg.up b{color:var(--covered-ink)} .chg.down b{color:var(--gap-ink)} .chg.add b{color:var(--accent-ink)}
 .avi{display:inline-flex;width:19px;height:19px;border-radius:50%;align-items:center;justify-content:center;
   font-size:8.5px;font-weight:700;color:#fff;flex:none;letter-spacing:.02em;vertical-align:-4px;margin-right:2px}
 .chip.prelead{background:var(--c-prelead);color:var(--c-prelead-ink)}
@@ -353,6 +366,7 @@ th.sk:hover{color:var(--accent-ink)}
 </div>
 
 <div class="score" id="score"></div>
+<div id="changes"></div>
 
 <div id="fundsview">
 <div class="filters" id="filters"></div>
@@ -1154,9 +1168,20 @@ function visible(){
     && (!state.cat || e.kind!=='fund' || e.category===state.cat)
     && (!state.cc || e.kind!=='fund' || (e.city||'').endsWith(state.cc)));
 }
+function changesHTML(){
+  const ch = (D.changes||{})[state.region];
+  if(!ch || (!(ch.moves||[]).length && !(ch.added||[]).length)) return '';
+  const items = (ch.moves||[]).map(m=>
+      `<span class="chg ${m.up?'up':'down'}"><a href="${affURL(m.id)}" target="_blank" rel="noopener">${m.name}</a> <span class="cc">${m.from||'—'} →</span> <b>${m.to}</b> <span class="cc">· ${m.fund}</span></span>`)
+    .concat((ch.added||[]).map(a=>
+      `<span class="chg add"><a href="${affURL(a.id)}" target="_blank" rel="noopener">${a.name}</a> <b>new on our list</b>${a.funnel?` <span class="cc">as ${a.funnel}</span>`:''} <span class="cc">· ${a.fund}</span></span>`));
+  return `<details class="chgsec" open><summary>What's changed <b>${items.length}</b><span class="cnt">pipeline movement at tracked ${D.regions[state.region].label} investors since ${ch.since}</span></summary><div class="chglist">${items.join('')}</div></details>`;
+}
 function render(){
   const mob = isMobile();
   if(!state.open) stopLive();
+  const chEl = document.getElementById('changes');
+  if(chEl) chEl.innerHTML = state.view==='funds' ? changesHTML() : '';
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
   document.getElementById('untview').style.display = state.view==='unt'?'':'none';

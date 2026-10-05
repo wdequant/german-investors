@@ -193,8 +193,50 @@ freshness = {
 }
 if _uf_any:
     freshness["Unframe priority scores"] = TODAY.strftime("%d %b %Y")
+# what's-changed: diff current dump vs weekly baseline, scoped to tracked investors
+_base = load_json(f"{ROOT}/data/affinity/_baseline.json", {}) or {}
+changes = {}
+if _base.get("entries") and (aff_dump or {}).get("entries"):
+    _prevby = {e["entry_id"]: e for e in _base["entries"]}
+    _RANK = {"Pre-lead": 1, "Hard to crack": 2, "Awaiting Reply": 3, "Reach Out Now": 4,
+             "Lead": 5, "Qualified Lead": 6, "Deal": 7, "Term Sheet Presented": 8,
+             "Portfolio Company": 9}
+    for rk, r in regions.items():
+        comp2funds = {}
+        for e in r["entities"]:
+            if e["kind"] != "fund":
+                continue
+            for lst in e["buckets"].values():
+                for pp in lst:
+                    if pp.get("id"):
+                        comp2funds.setdefault(pp["id"], set()).add(e["name"])
+        moves, added, seen = [], [], set()
+        for ce in aff_dump["entries"]:
+            funds = comp2funds.get(ce.get("id"))
+            if not funds:
+                continue
+            pe = _prevby.get(ce.get("entry_id"))
+            fund = sorted(funds)[0]
+            key = (ce.get("id"), fund)
+            if key in seen:
+                continue
+            if pe is None:
+                seen.add(key)
+                added.append({"name": ce.get("name"), "id": ce.get("id"),
+                              "funnel": ce.get("funnel"), "fund": fund})
+            elif (pe.get("funnel") or "") != (ce.get("funnel") or "") and ce.get("funnel"):
+                seen.add(key)
+                moves.append({"name": ce.get("name"), "id": ce.get("id"),
+                              "from": pe.get("funnel"), "to": ce.get("funnel"), "fund": fund,
+                              "up": _RANK.get(ce.get("funnel"), 0) >= _RANK.get(pe.get("funnel") or "", 0)})
+        moves.sort(key=lambda m: -_RANK.get(m["to"], 0))
+        changes[rk] = {"since": _base.get("fetched"), "moves": moves[:15], "added": added[:15]}
+        if moves or added:
+            print(f"  [{rk}] what's-changed: {len(moves)} funnel moves, {len(added)} new entries since {_base.get('fetched')}")
+
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
            "affinityOrg": AFFINITY_ORG, "regions": regions, "freshness": freshness,
+           "changes": changes,
            "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {}}
 from coverage_common import _strip_emoji
 _aff_ids = load_json(f"{ROOT}/data/enrich/untracked-affinity-ids.json", {}) or {}

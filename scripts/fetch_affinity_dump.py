@@ -114,6 +114,20 @@ if len(entries) < 1000:
 out = {"count": len(entries),
        "fetched": datetime.date.today().isoformat(),
        "entries": entries}
+
+# rotate the what's-changed baseline: keep a snapshot roughly a week old
+BASE = f"{ROOT}/data/affinity/_baseline.json"
+try:
+    prev_dump = json.load(open(OUT))
+    base_date = json.load(open(BASE)).get("fetched", "1970-01-01")
+    age = (datetime.date.fromisoformat(out["fetched"])
+           - datetime.date.fromisoformat(base_date)).days
+except (OSError, ValueError, KeyError):
+    prev_dump, age = None, 999
+if prev_dump and age > 7:
+    json.dump(prev_dump, open(BASE, "w"), ensure_ascii=False)
+    print(f"baseline rotated to {prev_dump.get('fetched')}")
+
 json.dump(out, open(OUT, "w"), ensure_ascii=False)
 print(f"wrote {OUT}: {len(entries)} entries over {pages} pages"
       + (f" (unexpected field ids seen: {sorted(unknown)[:5]})" if unknown else ""))

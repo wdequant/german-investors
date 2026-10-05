@@ -43,10 +43,10 @@ jobs:
           echo "::add-mask::$AFFINITY_API_KEY"
           export AFFINITY_API_KEY
           python3 scripts/fetch_affinity_dump.py
-          if ! git diff --quiet -- data/affinity/_list-entries.json; then
+          if ! git diff --quiet -- data/affinity/; then
             git config user.name "sonar-bot"
             git config user.email "sonar-bot@users.noreply.github.com"
-            git add data/affinity/_list-entries.json
+            git add data/affinity/
             git commit -m "Nightly Affinity dump refresh"
             git push
           else

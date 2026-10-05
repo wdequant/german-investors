@@ -8,7 +8,18 @@
       "mcp__Unframe__get_company_news",
       "mcp__Unframe__get_company_notes",
       "mcp__Unframe__explain_company_score",
-      "mcp__Unframe__get_score_changes"
+      "mcp__Unframe__get_score_changes",
+      "mcp__Harmonic__get_investors",
+      "mcp__Harmonic__get_companies",
+      "mcp__Harmonic__entity_lookup",
+      "mcp__Harmonic__get_company_connections",
+      "mcp__Harmonic__get_person_connections",
+      "mcp__Harmonic__get_people",
+      "mcp__Harmonic__search_companies_natural_language",
+      "mcp__Harmonic__get_saved_search_results",
+      "mcp__Harmonic__get_team_members",
+      "mcp__Harmonic__get_company_lists",
+      "mcp__Harmonic__get_company_list_entries"
     ]
   }
 }
