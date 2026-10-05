@@ -241,51 +241,79 @@ for _k, _reg in regions.items():
 
 _captables = load_json(f"{ROOT}/data/enrich/htc-captables.json", {}) or {}
 _xreg = 0
+
+
+def _resolve_backers(_c, _backers):
+    """Match a company's backer names against every tracked entity; append the
+    reachable ones with their best paths, keep the rest as 'others'."""
+    global _xreg
+    _have = {_i["slug"] for _i in _c["investors"]}
+    _others = []
+    for _inv in _backers:
+        _niv = _ni(_inv)
+        if not _niv:
+            continue
+        _best = None
+        for _a, _ents in _alias2ent.items():
+            if (_niv == _a or (_niv.startswith(_a + " ") and len(_a.split()) >= 2)) \
+                    and (_best is None or len(_a) > len(_best[0])):
+                _best = (_a, _ents)
+        if not _best:
+            _others.append(_inv)
+            continue
+        for _rk, _e in _best[1]:
+            if _e["slug"] in _have:
+                continue
+            _have.add(_e["slug"])
+            _paths = [{"internal": pt["internal"], "external": pt.get("external"),
+                       "pct": pt.get("pct"), "moved": pt.get("moved"),
+                       "unverified": pt.get("unverified"), "email": pt.get("email")}
+                      for pt in (_e.get("points") or [])[:3]]
+            _c["investors"].append({"name": _e["name"], "slug": _e["slug"],
+                                    "kind": _e["kind"], "tier": _e["tier"],
+                                    "region": _rk, "best": _paths[0] if _paths else None,
+                                    "paths": _paths})
+            _xreg += 1
+    # drop 'others' that are really a matched investor under another spelling,
+    # then dedupe near-identical backer names (Sequoia vs Sequoia Capital)
+    _mn = {_ni(i["name"]) for i in _c["investors"]}
+    _others = [o.strip() for o in _others
+               if not any(_ni(o) == m or _ni(o).startswith(m + " ") or m.startswith(_ni(o) + " ")
+                          for m in _mn)]
+    _c["others"] = sorted({o for o in _others
+                           if not any(_ni(o) != _ni(p) and _ni(o) in _ni(p) for p in _others)})[:8]
+    _c["investors"].sort(key=lambda i: -(((i.get("best") or {}).get("pct")) or 0))
+    _c["reachable"] = any(i.get("best") for i in _c["investors"])
+
+
 for _k, _reg in regions.items():
     for _c in _reg["htc"]:
         _c["uf"] = _uf_of(_c)
         _c["city"] = _city_of(_c)
         for _i in _c["investors"]:
             _i["region"] = _k
-        _have = {_i["slug"] for _i in _c["investors"]}
         _cap = _captables.get(str(_c["id"])) or {}
-        _others = []
-        for _inv in _cap.get("investors") or []:
-            _niv = _ni(_inv)
-            if not _niv:
-                continue
-            _best = None
-            for _a, _ents in _alias2ent.items():
-                if (_niv == _a or (_niv.startswith(_a + " ") and len(_a.split()) >= 2)) \
-                        and (_best is None or len(_a) > len(_best[0])):
-                    _best = (_a, _ents)
-            if not _best:
-                _others.append(_inv)
-                continue
-            for _rk, _e in _best[1]:
-                if _e["slug"] in _have:
-                    continue
-                _have.add(_e["slug"])
-                _paths = [{"internal": pt["internal"], "external": pt.get("external"),
-                           "pct": pt.get("pct"), "moved": pt.get("moved"),
-                           "unverified": pt.get("unverified"), "email": pt.get("email")}
-                          for pt in (_e.get("points") or [])[:3]]
-                _c["investors"].append({"name": _e["name"], "slug": _e["slug"],
-                                        "kind": _e["kind"], "tier": _e["tier"],
-                                        "region": _rk, "best": _paths[0] if _paths else None,
-                                        "paths": _paths})
-                _xreg += 1
-        # drop 'others' that are really a matched investor under another spelling,
-        # then dedupe near-identical backer names (Sequoia vs Sequoia Capital)
-        _mn = {_ni(i["name"]) for i in _c["investors"]}
-        _others = [o for o in _others
-                   if not any(_ni(o) == m or _ni(o).startswith(m + " ") or m.startswith(_ni(o) + " ")
-                              for m in _mn)]
-        _c["others"] = sorted({o for o in _others
-                               if not any(_ni(o) != _ni(p) and _ni(o) in _ni(p) for p in _others)})[:8]
-        _c["investors"].sort(key=lambda i: -(((i.get("best") or {}).get("pct")) or 0))
-        _c["reachable"] = any(i.get("best") for i in _c["investors"])
+        _resolve_backers(_c, _cap.get("investors") or [])
     _reg["htc"].sort(key=lambda c: (-(c.get("uf") or 0), -c["reachable"], -len(c["investors"])))
+
+# every remaining Affinity hard-to-crack (any owner), even when no tracked fund
+# backs it — the H2C workflow covers the whole book, not just tracked-fund overlap
+from coverage_common import NAME_MAP as _NM, EX_STAFF as _EX, owners_departed as _odep
+_seen_h = {c["id"] for r in regions.values() for c in r["htc"]}
+_xtra = []
+for _ent in (aff_dump or {}).get("entries") or []:
+    if _ent.get("funnel") != "Hard to crack" or _ent["id"] in _seen_h or _odep(_ent):
+        continue
+    _c = {"id": _ent["id"], "name": _ent.get("name"),
+          "domain": (_ent.get("domains") or [None])[0],
+          "owners": [_NM.get(o, o) for o in (_ent.get("owners") or []) if o not in _EX],
+          "country": _ent.get("country"), "investors": []}
+    _c["uf"] = _uf_of(_c)
+    _c["city"] = _city_of(_c)
+    _cap = _captables.get(str(_ent["id"])) or {}
+    _resolve_backers(_c, _cap.get("investors") or _ent.get("investors") or [])
+    _xtra.append(_c)
+_xtra.sort(key=lambda c: (-(c.get("uf") or 0), -c["reachable"], -len(c["investors"])))
 
 # global fallback stamping: score + city on every pipeline entry
 _gstamp = _cstamp = 0
@@ -304,7 +332,8 @@ for _k, _reg in regions.items():
                         _p["city"] = _ct
                         _cstamp += 1
 print(f"global pass: +{_xreg} cross-region H2C links, +{_gstamp} unframe stamps, "
-      f"+{_cstamp} city stamps ({len(_cities)} cities known)")
+      f"+{_cstamp} city stamps ({len(_cities)} cities known), "
+      f"+{len(_xtra)} Affinity H2Cs beyond tracked funds")
 
 _spec = _ilu.spec_from_file_location("coverage_template",
         os.path.join(os.path.dirname(os.path.abspath(__file__)), "coverage_template.py"))
@@ -378,7 +407,7 @@ if _base.get("entries") and (aff_dump or {}).get("entries"):
             print(f"  [{rk}] what's-changed: {len(moves)} funnel moves, {len(added)} new entries since {_base.get('fetched')}")
 
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
-           "affinityOrg": AFFINITY_ORG, "regions": regions, "freshness": freshness,
+           "affinityOrg": AFFINITY_ORG, "regions": regions, "xhtc": _xtra, "freshness": freshness,
            "changes": changes,
            "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {}}
 from coverage_common import _strip_emoji

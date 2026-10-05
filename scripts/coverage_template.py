@@ -748,9 +748,14 @@ function apHtc(){
     if(who && !(c.owners||[]).includes(who)) return;
     list.push({...c, region:r});
   }));
+  (D.xhtc||[]).forEach(c=>{   // the rest of the Affinity H2C book — no tracked fund on the cap table
+    if(seen.has(c.id)) return; seen.add(c.id);
+    if(who && !(c.owners||[]).includes(who)) return;
+    list.push({...c, region:null});
+  });
   list.sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || ((b.reachable?1:0)-(a.reachable?1:0)));
   if(!list.length) return `<div class="aphint">No hard-to-cracks owned by ${who||'anyone'} on the tracked lists.</div>`;
-  const cards=list.slice(0,30).map(c=>{
+  const cards=list.slice(0,60).map(c=>{
     const best=(c.investors||[]).filter(i=>i.best&&i.best.internal)
       .map(i=>({...i.best,fund:i.name,region:i.region}))
       .sort((a,b)=>((b.pct||0)-(a.pct||0))).slice(0,3);
@@ -775,7 +780,7 @@ function apHtc(){
       <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}</div>
       ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any tracked backer yet</div>'}${others}${acts}</div>`;
   }).join('');
-  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by Unframe priority — doors scanned across every backer we track in all four regions.</div>`+cards;
+  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by Unframe priority — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Backers we don't track yet are listed on each card; path mapping for those is coming.</div>`+cards;
 }
 
 function netAskBody(who,e,p){
