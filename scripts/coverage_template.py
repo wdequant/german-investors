@@ -114,6 +114,8 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .chip{font-size:11px;border-radius:6px;padding:2px 8px;cursor:pointer;border:1px solid transparent;
   font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:550}
 .chip b{font-weight:650}
+.avi{display:inline-flex;width:19px;height:19px;border-radius:50%;align-items:center;justify-content:center;
+  font-size:8.5px;font-weight:700;color:#fff;flex:none;letter-spacing:.02em;vertical-align:-4px;margin-right:2px}
 .chip.prelead{background:var(--c-prelead);color:var(--c-prelead-ink)}
 .chip.reachout{background:var(--c-reachout);color:var(--c-reachout-ink)}
 .chip.awaiting{background:var(--c-awaiting);color:var(--c-awaiting-ink)}
@@ -505,7 +507,7 @@ function pathLine(p, ctx){
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
   const bar = p.pct!=null?`<span class="sbar"><i style="width:${p.pct}%"></i></span>`:'';
-  return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${p.internal}</span>${p.email?emIcon(p):''}${moved}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
+  return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${avi(p.internal)} ${p.internal}</span>${p.email?emIcon(p):''}${moved}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
 }
 function ptsHTML(e){
   const v = eff(e);
@@ -537,6 +539,12 @@ function bridgeLines(e){
   return (e.bridges||[]).slice(0,2).map(b=>
     `<span class="pt bridge">↪ via <b>${b.name}</b> <span class="via">(${b.internal}${b.pct!=null?' · '+b.pct+'%':''})</span></span>`);
 }
+const AVI_COLORS=['#2733f0','#0e7a4a','#a05a00','#7a2e8a','#b3403a','#11607a','#5a5a2e','#8a2e55'];
+const avi = n => {
+  const init=(n||'').split(' ').filter(Boolean).map(w=>w[0]).slice(0,2).join('').toUpperCase();
+  let h=0; for(const ch of n||'') h=(h*31+ch.charCodeAt(0))>>>0;
+  return `<span class="avi" style="background:${AVI_COLORS[h%AVI_COLORS.length]}" title="${n}">${init}</span>`;
+};
 function rowHTML(e){
   const v = eff(e);
   const rel = e.relevance? e.relevance.total : null;
