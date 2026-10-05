@@ -2,5 +2,47 @@
  "slug": "khosla",
  "affinity_domain": "khoslaventures.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Brett Browman",
+   "externalEmail": "brett@khoslaventures.com",
+   "score": 0.44,
+   "last": "2026-09-18",
+   "meet": "2026-07-14"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ryan Scott",
+   "externalEmail": "rscott@khoslaventures.com",
+   "score": 0.43,
+   "last": "2026-06-10",
+   "meet": null
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Alex Morgan",
+   "externalEmail": "alex@khoslaventures.com",
+   "score": 0.48,
+   "last": "2024-03-27",
+   "meet": null
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Kara Sherrard",
+   "externalEmail": "kara@khoslaventures.com",
+   "score": 0.1,
+   "last": "2024-03-26",
+   "meet": null
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Chloe Kong",
+   "externalEmail": "ck@khoslaventures.com",
+   "score": 0.1,
+   "last": "2024-03-26",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }

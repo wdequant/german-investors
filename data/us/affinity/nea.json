@@ -2,5 +2,143 @@
  "slug": "nea",
  "affinity_domain": "nea.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 0.99,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Kemi Odusan",
+   "externalEmail": "kodusan@nea.com",
+   "score": 0.98,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Kemi Odusan",
+   "externalEmail": "kodusan@nea.com",
+   "score": 0.83,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Luke Pappas",
+   "externalEmail": "lpappas@nea.com",
+   "score": 0.88,
+   "last": "2026-03-05",
+   "meet": "2026-02-03"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Kemi Odusan",
+   "externalEmail": "kodusan@nea.com",
+   "score": 0.73,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Kemi Odusan",
+   "externalEmail": "kodusan@nea.com",
+   "score": 0.65,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Luke Pappas",
+   "externalEmail": "lpappas@nea.com",
+   "score": 0.51,
+   "last": "2026-03-05",
+   "meet": "2026-02-03"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 0.38,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Emily Baine",
+   "externalEmail": "ebaine@nea.com",
+   "score": 0.35,
+   "last": "2026-06-03",
+   "meet": "2024-11-12"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Uk Shoreditch",
+   "externalEmail": "ukshoreditch@nea.com",
+   "score": 0.5,
+   "last": "2024-02-08",
+   "meet": "2024-02-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Philip Chopin",
+   "externalEmail": "pchopin@nea.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2025-08-27"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Luke Pappas",
+   "externalEmail": "lpappas@nea.com",
+   "score": 0.1,
+   "last": "2026-03-05",
+   "meet": "2026-02-03"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Toni Holmes",
+   "externalEmail": "tholmes@nea.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }

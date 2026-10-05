@@ -2,5 +2,327 @@
  "slug": "index-us",
  "affinity_domain": "indexventures.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Simon Pastor",
+   "externalEmail": "simon.pastor@indexventures.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-05-01"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Eleanor Chaplin",
+   "externalEmail": "eleanor.chaplin@indexventures.com",
+   "score": 1.0,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Molly Alter",
+   "externalEmail": "molly.alter@indexventures.com",
+   "score": 1.0,
+   "last": "2026-06-17",
+   "meet": "2024-09-17"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jimena Nowack",
+   "externalEmail": "jimena.nowack@indexventures.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Carlos Gonzalez-Cadenas",
+   "externalEmail": "carlos@indexventures.com",
+   "score": 1.0,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "David Rimer",
+   "externalEmail": "david@indexventures.com",
+   "score": 1.0,
+   "last": "2026-09-15",
+   "meet": "2026-03-19"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Timm Schipporeit",
+   "externalEmail": "timm@indexventures.com",
+   "score": 1.0,
+   "last": "2026-08-05",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Neil Rimer",
+   "externalEmail": "neil@indexventures.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Martin Mignot",
+   "externalEmail": "martin@indexventures.com",
+   "score": 1.0,
+   "last": "2026-06-25",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Timm Schipporeit",
+   "externalEmail": "timm@indexventures.com",
+   "score": 0.99,
+   "last": "2026-08-05",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 0.99,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Hannah Seal",
+   "externalEmail": "hannah@indexventures.com",
+   "score": 0.99,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 0.98,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Hannah Seal",
+   "externalEmail": "hannah@indexventures.com",
+   "score": 0.98,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Natacha Pantet",
+   "externalEmail": "natacha@indexventures.com",
+   "score": 0.97,
+   "last": "2026-07-29",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 0.97,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Timm Schipporeit",
+   "externalEmail": "timm@indexventures.com",
+   "score": 0.96,
+   "last": "2026-08-05",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "André Dubois",
+   "externalEmail": "andre.dubois@indexventures.com",
+   "score": 0.95,
+   "last": "2026-05-28",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Timm Schipporeit",
+   "externalEmail": "timm@indexventures.com",
+   "score": 0.95,
+   "last": "2026-08-05",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 0.95,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Timm Schipporeit",
+   "externalEmail": "timm@indexventures.com",
+   "score": 0.92,
+   "last": "2026-08-05",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Hannah Seal",
+   "externalEmail": "hannah@indexventures.com",
+   "score": 0.91,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Taylor Gunn",
+   "externalEmail": "taylor.gunn@indexventures.com",
+   "score": 1.0,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Kasia Koleda",
+   "externalEmail": "kasia.koleda@indexventures.com",
+   "score": 1.0,
+   "last": "2026-02-23",
+   "meet": "2026-02-23"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Ophelia Brown",
+   "externalEmail": "ophelia@indexventures.com",
+   "score": 1.0,
+   "last": "2026-02-18",
+   "meet": "2025-06-13"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Gloria Baeuerlein",
+   "externalEmail": "gloria@indexventures.com",
+   "score": 1.0,
+   "last": "2026-03-10",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Gloria Baeuerlein",
+   "externalEmail": "gloria@indexventures.com",
+   "score": 1.0,
+   "last": "2026-03-10",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Kay Chan",
+   "externalEmail": "kay.chan@indexventures.com",
+   "score": 0.99,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Kay Chan",
+   "externalEmail": "kay.chan@indexventures.com",
+   "score": 0.91,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Isaiah Baril-Dore",
+   "externalEmail": "isaiah.baril-dore@indexventures.com",
+   "score": 0.77,
+   "last": "2026-06-24",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Secretariat York",
+   "externalEmail": "secretariat.newyork@indexventures.com",
+   "score": 0.8,
+   "last": "2025-11-05",
+   "meet": "2025-11-05"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Leonard Picardo",
+   "externalEmail": "leonard@indexventures.com",
+   "score": 0.71,
+   "last": "2026-07-13",
+   "meet": "2019-05-14"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 0.69,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Hannah Seal",
+   "externalEmail": "hannah@indexventures.com",
+   "score": 0.57,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Malin Posern",
+   "externalEmail": "malin@indexventures.com",
+   "score": 0.55,
+   "last": "2026-06-24",
+   "meet": "2020-09-17"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Sayula Kirby",
+   "externalEmail": "sayula@indexventures.com",
+   "score": 0.55,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Timm Schipporeit",
+   "externalEmail": "timm@indexventures.com",
+   "score": 0.53,
+   "last": "2026-08-05",
+   "meet": "2026-06-18"
+  }
+ ],
+ "rels_fetched": "2026-10-05"
 }
