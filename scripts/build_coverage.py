@@ -223,7 +223,7 @@ _uf_of = lambda o: (_uf_dom.get((o.get("domain") or "").lower().removeprefix("ww
 
 # city stamp for pipeline + H2C companies (data/enrich/company-cities.json, Harmonic backfill)
 _cities = load_json(f"{ROOT}/data/enrich/company-cities.json", {}) or {}
-_city_of = lambda o: _cities.get((o.get("domain") or "").lower().removeprefix("www."))
+_city_of = lambda o: (_cities.get((o.get("domain") or "").lower().removeprefix("www.")) or {}).get("city")
 
 # alias index over every entity in every region, for global cap-table matching
 _alias2ent = {}
