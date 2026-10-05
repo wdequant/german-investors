@@ -195,6 +195,30 @@ def source_weight(sources):
     return 1.0
 
 
+def discount_unverified(cells, aff_rels):
+    """An email-only Harmonic edge for a person Affinity has never seen is a
+    one-way-email suspect (cold inbound counted as a 'connection'): cut its
+    weight below a LinkedIn mutual, tag it, and adjust the per-user score.
+    Idempotent per cells dict."""
+    if not cells:
+        return
+    aff_names = [r.get("external") for r in aff_rels or [] if r.get("external")]
+    for u, c in cells.items():
+        if c.get("_disc"):
+            continue
+        c["_disc"] = True
+        for k in c["contacts"]:
+            if k["external"] or set(k.get("sources") or []) != {"EMAIL"}:
+                continue
+            if any(same_person(k["person"], a) for a in aff_names):
+                continue
+            neww = round(k["w"] * 0.375, 2)   # email 2.0 -> effective 0.75
+            c["score"] = round(c["score"] - k["w"] + neww, 1)
+            k["w"] = neww
+            k["unverified"] = True
+        c["contacts"].sort(key=lambda x: -x["w"])
+
+
 def relevance(inv, crypto_names=()):
     """inv needs: name, entry_stage_focus, sector_focus, europe_share,
     last_investment, num_unicorns, num_portfolio (opt), num_investments, follow_on_rate."""
@@ -272,6 +296,7 @@ def harmonic_cells(conn, team_order):
 
 
 def top_people(cells, aff_rels):
+    discount_unverified(cells, aff_rels)
     people = {}
     for r in aff_rels or []:
         nm = NAME_MAP.get(r.get("internal"), r.get("internal"))
@@ -301,7 +326,8 @@ def top_people(cells, aff_rels):
                         m["linkedin"] = k.get("linkedin")
                 else:
                     p["contacts"].append({"person": k["person"], "pct": None,
-                                          "title": k["title"], "linkedin": k.get("linkedin")})
+                                          "title": k["title"], "linkedin": k.get("linkedin"),
+                                          "unverified": k.get("unverified")})
     ranked = sorted(people.values(), key=lambda p: (-p["aff"], -p["harmonic"]))
     for p in ranked:
         p["contacts"] = p["contacts"][:3]
@@ -312,6 +338,7 @@ def top_people(cells, aff_rels):
 
 def points_from(rels, cells, li_by_person):
     """Top-3 'strongest paths in' for the team view."""
+    discount_unverified(cells, rels)
     points, seen = [], []
     for r in sorted(rels or [], key=lambda r: -(r.get("score") or 0)):
         if (r.get("score") or 0) <= 0:
@@ -332,15 +359,21 @@ def points_from(rels, cells, li_by_person):
     if cells:
         for u, c in cells.items():
             for k in c["contacts"]:
-                if k["external"] or k["w"] < 3:
+                if k["external"]:
+                    continue
+                if k.get("unverified"):
+                    if k["w"] < 1:   # originally below the 3.0 bar even pre-discount
+                        continue
+                elif k["w"] < 3:
                     continue
                 hc.append((k["w"], k, u))
-    for w, k, u in sorted(hc, key=lambda x: -x[0]):
+    for w, k, u in sorted(hc, key=lambda x: (bool(x[1].get("unverified")), -x[0])):
         if any(same_person(k["person"], s) for s in seen):
             continue
         seen.append(k["person"])
         points.append({"external": k["person"], "internal": u, "pct": None,
-                       "title": k["title"], "linkedin": k.get("linkedin"), "src": "harmonic"})
+                       "title": k["title"], "linkedin": k.get("linkedin"), "src": "harmonic",
+                       **({"unverified": True} if k.get("unverified") else {})})
     return points[:3]
 
 
@@ -453,7 +486,7 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
         # every current-at-fund path regardless of strength — the ⚠ keeps the context;
         # within each group, strength then most recent touch wins
         e["points"] = sorted(e.get("points") or [], key=lambda pt: (
-            bool(pt.get("moved")), -(pt.get("pct") or 0),
+            bool(pt.get("unverified")), bool(pt.get("moved")), -(pt.get("pct") or 0),
             -int((pt.get("last") or "0").replace("-", "")[:8] or 0)))
         if e["kind"] == "fund":
             ef = efunds.get(slug, {})
@@ -798,7 +831,7 @@ def build_htc(entities, htc_owners):
                                                "domain": p.get("domain"), "investors": []})
             paths = [{"internal": pt["internal"], "external": pt.get("external"),
                       "pct": pt.get("pct"), "moved": pt.get("moved"),
-                      "email": pt.get("email")}
+                      "unverified": pt.get("unverified"), "email": pt.get("email")}
                      for pt in (e.get("points") or [])[:3]]
             c["investors"].append({"name": e["name"], "slug": e["slug"], "kind": e["kind"],
                                    "tier": e["tier"], "best": paths[0] if paths else None,

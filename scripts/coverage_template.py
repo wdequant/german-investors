@@ -114,6 +114,8 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .chip{font-size:11px;border-radius:6px;padding:2px 8px;cursor:pointer;border:1px solid transparent;
   font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:550}
 .chip b{font-weight:650}
+.uvtag{font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--thin-ink);background:var(--c-awaiting);border-radius:5px;padding:1px 5px;white-space:nowrap}
 .avi{display:inline-flex;width:19px;height:19px;border-radius:50%;align-items:center;justify-content:center;
   font-size:8.5px;font-weight:700;color:#fff;flex:none;letter-spacing:.02em;vertical-align:-4px;margin-right:2px}
 .chip.prelead{background:var(--c-prelead);color:var(--c-prelead-ink)}
@@ -506,8 +508,9 @@ function pathLine(p, ctx){
   const when = p.last?`<span class="when">${fmtD(p.last)}</span>`:'';
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
+  const uv = p.unverified?` <span class="uvtag">unverified · email-only</span>`:'';
   const bar = p.pct!=null?`<span class="sbar"><i style="width:${p.pct}%"></i></span>`:'';
-  return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${avi(p.internal)} ${p.internal}</span>${p.email?emIcon(p):''}${moved}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
+  return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${avi(p.internal)} ${p.internal}</span>${p.email?emIcon(p):''}${moved}${uv}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
 }
 function ptsHTML(e){
   const v = eff(e);
@@ -645,7 +648,8 @@ function detailHTML(e){
           const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener">${k.person}</a>`;
           const bits = [k.title, k.pct!=null?`${k.pct}%`:null, k.last?fmtD(k.last):null].filter(Boolean).join(' · ');
           const moved = k.moved?` <span class="flag" data-moved="${k.moved}">⚠</span>`:'';
-          return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${moved}</div>`;
+          const uv = k.unverified?` <span class="uvtag">unverified · email-only</span>`:'';
+          return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${moved}${uv}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
   }
