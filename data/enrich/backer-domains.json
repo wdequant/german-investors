@@ -793,5 +793,800 @@
   "harmonic_person_id": 181593281,
   "domain": null,
   "kind": "person"
+ },
+ "Matrix Partners": {
+  "harmonic_company_id": 12413811,
+  "domain": "matrix.vc",
+  "kind": "fund"
+ },
+ "Matthew Cleevely": {
+  "harmonic_person_id": 17782,
+  "domain": null,
+  "kind": "person"
+ },
+ "Matthieu Vaxelaire": {
+  "harmonic_person_id": 20813,
+  "domain": null,
+  "kind": "person"
+ },
+ "Maximilian Lude": {
+  "harmonic_person_id": 8785882,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mayur Gupta": {
+  "harmonic_person_id": 117086092,
+  "domain": null,
+  "kind": "person"
+ },
+ "Megan Quinn": {
+  "harmonic_person_id": 195676995,
+  "domain": null,
+  "kind": "person"
+ },
+ "Mello GmbH": {
+  "harmonic_company_id": 4088614,
+  "domain": "mello.de",
+  "kind": "fund"
+ },
+ "Menlo Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "MentorTech Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Meritech": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Meritech Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "MH Innov'": {
+  "harmonic_company_id": 10901514,
+  "domain": "malakoff-humanis-startup.com",
+  "kind": "fund"
+ },
+ "Michael Blakey": {
+  "harmonic_person_id": 10275,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michael Callahan": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Michael Haufler": {
+  "harmonic_person_id": 64586905,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michael Malis": {
+  "harmonic_person_id": 116560604,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michael Rambow": {
+  "harmonic_person_id": 75487507,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michael Wax": {
+  "harmonic_person_id": 18628,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michel Akkermans": {
+  "harmonic_person_id": 20773,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michele Attisani": {
+  "harmonic_person_id": 168928727,
+  "domain": null,
+  "kind": "person"
+ },
+ "Michele Catasta": {
+  "harmonic_person_id": 179651121,
+  "domain": null,
+  "kind": "person"
+ },
+ "Microsoft": {
+  "harmonic_company_id": 3205143,
+  "domain": "microsoft.com",
+  "kind": "fund"
+ },
+ "MIDROC Investment Group ሚድሮክ ኢንቨስትመንት ግሩፕ": {
+  "harmonic_company_id": 41094189,
+  "domain": "midrocinvestmentgroup.com",
+  "kind": "fund"
+ },
+ "MIG Capital": {
+  "harmonic_company_id": 1504831,
+  "domain": "mig.ag",
+  "kind": "fund"
+ },
+ "Mike Phillips": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Mike Taylor": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes NRW": {
+  "harmonic_company_id": 36431444,
+  "domain": "wirtschaft.nrw",
+  "kind": "fund"
+ },
+ "Ministère de léconomie et des finances": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Ministère du Travail": {
+  "harmonic_company_id": 2243552,
+  "domain": "travail-emploi.gouv.fr",
+  "kind": "fund"
+ },
+ "MMV Financial": {
+  "harmonic_company_id": 725578,
+  "domain": "mmvf.com",
+  "kind": "fund"
+ },
+ "Molten Ventures": {
+  "harmonic_company_id": 756071,
+  "domain": "moltenventures.com",
+  "kind": "fund"
+ },
+ "Monsas Investment Bank": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Monsas Ltd": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Monte Carlo Capital": {
+  "harmonic_company_id": 736868,
+  "domain": "montecarlocap.com",
+  "kind": "fund"
+ },
+ "Moonfire": {
+  "harmonic_company_id": 692769,
+  "domain": "moonfire.com",
+  "kind": "fund"
+ },
+ "Moonfire Ventures": {
+  "harmonic_company_id": 692769,
+  "domain": "moonfire.com",
+  "kind": "fund"
+ },
+ "More VC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "MoreVC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Morgan Flager": {
+  "harmonic_person_id": 101772,
+  "domain": null,
+  "kind": "person"
+ },
+ "Moritz Philipp Weisbrodt": {
+  "harmonic_person_id": 198289884,
+  "domain": null,
+  "kind": "person"
+ },
+ "Moritz Weisbrodt": {
+  "harmonic_person_id": 198289884,
+  "domain": null,
+  "kind": "person"
+ },
+ "Morse Investments": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Mosaic Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Motier Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Motive Partners": {
+  "harmonic_company_id": 636803,
+  "domain": "motivepartners.com",
+  "kind": "fund"
+ },
+ "Motorola Solutions": {
+  "harmonic_company_id": 2163611,
+  "domain": "motorolasolutions.com",
+  "kind": "fund"
+ },
+ "Mozilla": {
+  "harmonic_company_id": 36993055,
+  "domain": "mozilla.org",
+  "kind": "fund"
+ },
+ "Mozilla Ventures": {
+  "harmonic_company_id": 60095723,
+  "domain": "mozilla.vc",
+  "kind": "fund"
+ },
+ "MSD": {
+  "harmonic_company_id": 7882351,
+  "domain": "msd.com",
+  "kind": "fund"
+ },
+ "MSD Capital": {
+  "harmonic_company_id": 12957371,
+  "domain": null,
+  "kind": "fund"
+ },
+ "MSM fund (Mustard Seed Maze)": {
+  "harmonic_company_id": 3251072,
+  "domain": "msm.vc",
+  "kind": "fund"
+ },
+ "Mucker Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Mustard Seed": {
+  "harmonic_company_id": 10924983,
+  "domain": "mustardseed.vc",
+  "kind": "fund"
+ },
+ "Mustard Seed Maze": {
+  "harmonic_company_id": 3251072,
+  "domain": "msm.vc",
+  "kind": "fund"
+ },
+ "Mutuelles Impact": {
+  "harmonic_company_id": 4096712,
+  "domain": "mutuellesimpact.fr",
+  "kind": "fund"
+ },
+ "Myke Naef": {
+  "harmonic_person_id": 220760,
+  "domain": null,
+  "kind": "person"
+ },
+ "Myke Näf": {
+  "harmonic_person_id": 220760,
+  "domain": null,
+  "kind": "person"
+ },
+ "N-ERGIE": {
+  "harmonic_company_id": 3554431,
+  "domain": "n-ergie.de",
+  "kind": "fund"
+ },
+ "N-ERGIE Aktiengesellschaft": {
+  "harmonic_company_id": 3554431,
+  "domain": "n-ergie.de",
+  "kind": "fund"
+ },
+ "Nabtesco Technology Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Nauta": {
+  "harmonic_company_id": 642062,
+  "domain": "nautacapital.com",
+  "kind": "fund"
+ },
+ "Nauta Capital": {
+  "harmonic_company_id": 642062,
+  "domain": "nautacapital.com",
+  "kind": "fund"
+ },
+ "NCI": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "NDRC": {
+  "harmonic_company_id": 1758650,
+  "domain": "ndrc.ie",
+  "kind": "fund"
+ },
+ "NEA": {
+  "harmonic_company_id": 660191,
+  "domain": "nea.com",
+  "kind": "fund"
+ },
+ "Neha Narkhede": {
+  "harmonic_person_id": 17445,
+  "domain": null,
+  "kind": "person"
+ },
+ "Nelstone Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "NEO FOUNDERS": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "New Enterprise Associates (NEA)": {
+  "harmonic_company_id": 660191,
+  "domain": "nea.com",
+  "kind": "fund"
+ },
+ "New Forge": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "New York Angels": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Newfund": {
+  "harmonic_company_id": 617517,
+  "domain": "newfundcap.com",
+  "kind": "fund"
+ },
+ "Newion": {
+  "harmonic_company_id": 1507454,
+  "domain": "newion.com",
+  "kind": "fund"
+ },
+ "Next Play Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "NEXT176": {
+  "harmonic_company_id": 4940660,
+  "domain": "next176.com",
+  "kind": "fund"
+ },
+ "NextView Ventures": {
+  "harmonic_company_id": 671956,
+  "domain": "nextview.vc",
+  "kind": "fund"
+ },
+ "NIBC Bank": {
+  "harmonic_company_id": 9300148,
+  "domain": "nibc.com",
+  "kind": "fund"
+ },
+ "Niccolo Maisto": {
+  "harmonic_person_id": 10039,
+  "domain": null,
+  "kind": "person"
+ },
+ "Nico Wittenborn": {
+  "harmonic_person_id": 157924124,
+  "domain": null,
+  "kind": "person"
+ },
+ "Niklas Eklund": {
+  "harmonic_person_id": 27365697,
+  "domain": null,
+  "kind": "person"
+ },
+ "Nikolaus Futter": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Nomad Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Noosphere Venture Partners": {
+  "harmonic_company_id": 669347,
+  "domain": "noosphereventures.com",
+  "kind": "fund"
+ },
+ "Nordwind Growth": {
+  "harmonic_company_id": 10741071,
+  "domain": "nordwindgrowth.de",
+  "kind": "fund"
+ },
+ "Noria Capital": {
+  "harmonic_company_id": 11006693,
+  "domain": "noriacapital.co",
+  "kind": "fund"
+ },
+ "Noria Capital LLP": {
+  "harmonic_company_id": 11006693,
+  "domain": "noriacapital.co",
+  "kind": "fund"
+ },
+ "North East Access to Finance": {
+  "harmonic_company_id": 5464397,
+  "domain": "nea2f.co.uk",
+  "kind": "fund"
+ },
+ "Northstar Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Northzone": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Nortia Capital Investment Holding": {
+  "harmonic_company_id": 12461382,
+  "domain": "nortia.com",
+  "kind": "fund"
+ },
+ "Noshaq": {
+  "harmonic_company_id": 1719713,
+  "domain": "noshaq.be",
+  "kind": "fund"
+ },
+ "Notable Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Notion Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Novax": {
+  "harmonic_company_id": 1714256,
+  "domain": "novax.se",
+  "kind": "fund"
+ },
+ "NOVI": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "NRW.BANK": {
+  "harmonic_company_id": 1504536,
+  "domain": "nrwbank.de",
+  "kind": "fund"
+ },
+ "NVIDIA": {
+  "harmonic_company_id": 3331519,
+  "domain": "nvidia.com",
+  "kind": "fund"
+ },
+ "NVO Capital": {
+  "harmonic_company_id": 4536632,
+  "domain": "nvo.vc",
+  "kind": "fund"
+ },
+ "Ocean Azul": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ocean Azul Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Octopus Labs": {
+  "harmonic_company_id": 1523571,
+  "domain": "octopuslabs.com",
+  "kind": "fund"
+ },
+ "Octopus Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "ODC Ventures": {
+  "harmonic_company_id": 60926932,
+  "domain": "odc.ventures",
+  "kind": "fund"
+ },
+ "ODYSSEE Venture": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Offline Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ofir Ehrlich": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "OIF Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Old Mutual": {
+  "harmonic_company_id": 10178823,
+  "domain": "oldmutual.com",
+  "kind": "fund"
+ },
+ "Ole Ventures (Germany)": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Oleg Tscheltzoff": {
+  "harmonic_person_id": 9914,
+  "domain": null,
+  "kind": "person"
+ },
+ "Olive Tree Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Oliver Jay": {
+  "harmonic_person_id": 157947852,
+  "domain": null,
+  "kind": "person"
+ },
+ "Oliver Jung": {
+  "harmonic_person_id": 238669,
+  "domain": null,
+  "kind": "person"
+ },
+ "Oliver Manojlovic": {
+  "harmonic_person_id": 257992,
+  "domain": null,
+  "kind": "person"
+ },
+ "Olivia Mark": {
+  "harmonic_person_id": 82660430,
+  "domain": null,
+  "kind": "person"
+ },
+ "Olivier Bonnet": {
+  "harmonic_person_id": 157932218,
+  "domain": null,
+  "kind": "person"
+ },
+ "Olivier Pomel": {
+  "harmonic_person_id": 8406,
+  "domain": null,
+  "kind": "person"
+ },
+ "Olugbenga GB Agboola": {
+  "harmonic_person_id": 157506777,
+  "domain": null,
+  "kind": "person"
+ },
+ "Oma Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Omer Schneider": {
+  "harmonic_person_id": 184041365,
+  "domain": null,
+  "kind": "person"
+ },
+ "Omnes": {
+  "harmonic_company_id": 702537,
+  "domain": "omnescapital.com",
+  "kind": "fund"
+ },
+ "OMR": {
+  "harmonic_company_id": 12874233,
+  "domain": "omr.com",
+  "kind": "fund"
+ },
+ "Ontario Teachers Pension Plan": {
+  "harmonic_company_id": 697118,
+  "domain": "otpp.com",
+  "kind": "fund"
+ },
+ "Ontario Teachers' Pension Plan": {
+  "harmonic_company_id": 697118,
+  "domain": "otpp.com",
+  "kind": "fund"
+ },
+ "Open Data Incubator for Europe (ODINE)": {
+  "harmonic_company_id": 2108636,
+  "domain": "opendataincubator.eu",
+  "kind": "fund"
+ },
+ "Opera Finance International": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Operator Collective 🔆": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Operators Collective": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Orange Wings Investments": {
+  "harmonic_company_id": 37117819,
+  "domain": "orangewings.nl",
+  "kind": "fund"
+ },
+ "ORPI": {
+  "harmonic_company_id": 8261473,
+  "domain": "orpi.com",
+  "kind": "fund"
+ },
+ "ORSA (ex Investsud)": {
+  "harmonic_company_id": 1743256,
+  "domain": "orsafund.be",
+  "kind": "fund"
+ },
+ "Oscar & Paul": {
+  "harmonic_company_id": 54225151,
+  "domain": "vc.beiersdorf.com",
+  "kind": "fund"
+ },
+ "Oscar & Paul Beiersdorf Venture Capital": {
+  "harmonic_company_id": 54225151,
+  "domain": "vc.beiersdorf.com",
+  "kind": "fund"
+ },
+ "Oscar Pierre": {
+  "harmonic_person_id": 157462287,
+  "domain": null,
+  "kind": "person"
+ },
+ "Oscarson Invest": {
+  "harmonic_company_id": 1714235,
+  "domain": "oscarsoninvest.se",
+  "kind": "fund"
+ },
+ "Osprey Investors": {
+  "harmonic_company_id": 42653462,
+  "domain": "osprey-investors.com",
+  "kind": "fund"
+ },
+ "OSS Ventures": {
+  "harmonic_company_id": 2259326,
+  "domain": "oss.ventures",
+  "kind": "fund"
+ },
+ "Other Angel Participants": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Ott Kaukver": {
+  "harmonic_person_id": 10079,
+  "domain": null,
+  "kind": "person"
+ },
+ "Otto Group": {
+  "harmonic_company_id": 427375,
+  "domain": "ottogroup.com",
+  "kind": "fund"
+ },
+ "Otto Söderlund": {
+  "harmonic_person_id": 21108,
+  "domain": null,
+  "kind": "person"
+ },
+ "Outsiders Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Oxx": {
+  "harmonic_company_id": 1706915,
+  "domain": "oxx.vc",
+  "kind": "fund"
+ },
+ "PAMICA": {
+  "harmonic_company_id": 11760631,
+  "domain": "pamica.se",
+  "kind": "fund"
+ },
+ "Pamica NV": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "ParaFi Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Parkwalk": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Parliament Uk": {
+  "harmonic_company_id": 1663354,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Passion Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Pathbreaker Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Pathlight Ventures": {
+  "harmonic_company_id": 4130832,
+  "domain": "pathlight.vc",
+  "kind": "fund"
+ },
+ "Patrick Asdaghi": {
+  "harmonic_person_id": 188453348,
+  "domain": null,
+  "kind": "person"
+ },
+ "Patrick de Laive": {
+  "harmonic_person_id": 179638740,
+  "domain": null,
+  "kind": "person"
+ },
+ "Patrick Thelen": {
+  "harmonic_person_id": 179696998,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paul Copplestone": {
+  "harmonic_person_id": 335769,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paul Forster": {
+  "harmonic_person_id": 32590187,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paul Forster (family office)": {
+  "harmonic_person_id": 32590187,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paul Sevinc": {
+  "harmonic_person_id": 11760,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paul Sevinç": {
+  "harmonic_person_id": 11760,
+  "domain": null,
+  "kind": "person"
  }
 }
