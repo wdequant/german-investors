@@ -1,61 +1,513 @@
 {
-  "slug": "byfounders",
-  "affinity_company_id": 140047287,
-  "affinity_domain": "byfounders.vc",
-  "pipeline": [
-    {"id": 312898639, "name": "Cloudgeni", "domain": "cloudgeni.ai", "funnel": "Pre-lead"},
-    {"id": 311802321, "name": "Flare", "domain": "flare.co", "funnel": "Pre-lead"},
-    {"id": 311601052, "name": "Arsenale BioYards", "domain": "arsenale.bio", "funnel": "Pre-lead"},
-    {"id": 306873818, "name": "tangled.sh", "domain": "tangled.org", "funnel": "Pre-lead"},
-    {"id": 311186700, "name": "Willo", "domain": "willo.tech", "funnel": "Pre-lead"},
-    {"id": 310556460, "name": "Verda Innovations", "domain": "verda.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 299470840, "name": "adaptyvbio", "domain": "adaptyvbio.com", "funnel": "Portfolio Company"},
-    {"id": 295908250, "name": "FocalX", "domain": "focalx.ai", "funnel": "Lead"},
-    {"id": 294890340, "name": "Lovable", "domain": "lovable.dev", "funnel": "Deprioritised (free for all)"},
-    {"id": 294012237, "name": "Dusk Retail", "domain": "dusk.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 292713648, "name": "QA.tech", "domain": "qa.tech", "funnel": "Pre-lead"},
-    {"id": 293727986, "name": "Willo", "domain": "willo.video", "funnel": "Awaiting Reply"},
-    {"id": 293727203, "name": "Watalook", "domain": "watalook.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 293728310, "name": "Quantica", "domain": "quantica3d.com", "funnel": "Pre-lead"},
-    {"id": 289772210, "name": "Smitten", "domain": "smitten.fun", "funnel": "Pre-lead"},
-    {"id": 289772525, "name": "Salto X", "domain": "saltox.co", "funnel": "Lead"},
-    {"id": 268100571, "name": "Watalook", "domain": "watalook.lt", "funnel": "Deprioritised (free for all)"},
-    {"id": 289771341, "name": "Spoke", "domain": "spoke.ai", "funnel": "Pre-lead"},
-    {"id": 289770690, "name": "aumio", "domain": "aumio.com", "funnel": "Passed"},
-    {"id": 289764926, "name": "Digitail", "domain": "digitail.com", "funnel": "Lead"},
-    {"id": 289770443, "name": "Vibrant Payments", "domain": "vibrant.io", "funnel": "Lead"},
-    {"id": 284559222, "name": "Monta", "domain": "monta.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769324, "name": "GamerzClass", "domain": "ww1.gamerzclass.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769050, "name": "Bob W", "domain": "bobw.co", "funnel": "Deprioritised (free for all)"},
-    {"id": 289764566, "name": "StarBerry Games", "domain": "starberry.games", "funnel": "Deprioritised (free for all)"},
-    {"id": 289767418, "name": "Proper", "domain": "helloproper.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289769723, "name": "SuperNormal", "domain": "supernormal.com", "funnel": "Awaiting Reply"},
-    {"id": 289764616, "name": "Dazzle Rocks", "domain": "dazzle.rocks", "funnel": "Deprioritised (free for all)"},
-    {"id": 278351302, "name": "Lucinity", "domain": "lucinity.com", "funnel": "Lead"},
-    {"id": 289764104, "name": "Spiio, Inc.", "domain": "spiio.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766746, "name": "Rune", "domain": "rune.ai", "funnel": "Passed"},
-    {"id": 289767678, "name": "Normative.io", "domain": "normative.io", "funnel": "Passed"},
-    {"id": 289765784, "name": "Outfunnel", "domain": "outfunnel.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766993, "name": "DrugStars", "domain": "drugstars.com", "funnel": "Passed"},
-    {"id": 225183461, "name": "Contractbook", "domain": "contractbook.co", "funnel": "Passed"},
-    {"id": 289765255, "name": "SafetyWing", "domain": "safetywing.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289765481, "name": "Tame", "domain": "tame.events", "funnel": "Deprioritised (free for all)"},
-    {"id": 289766601, "name": "Garden", "domain": "garden.io", "funnel": "Passed"},
-    {"id": 263771069, "name": "Simple Feast", "domain": "simplefeast.com", "funnel": "Deprioritised (free for all)"},
-    {"id": 289764896, "name": "Uizard Technologies", "domain": "uizard.io", "funnel": "Deprioritised (free for all)"},
-    {"id": 289764594, "name": "Corti", "domain": "corti.ai", "funnel": "Deprioritised (free for all)"}
-  ],
-  "relationships": [
-    {"internal": "Fergal Mullen", "external": "Johan Jessen", "externalEmail": "johan@byfounders.vc", "score": 1.00, "linkedin": false},
-    {"internal": "Jacob Bernstein", "external": "Eric Lagier", "externalEmail": "eric@byfounders.vc", "score": 1.00, "linkedin": false},
-    {"internal": "Gajan Rajanathan", "external": "Eric Lagier", "externalEmail": "eric@byfounders.vc", "score": 1.00, "linkedin": false},
-    {"internal": "Irena Goldenberg", "external": "Magnus Hambleton", "externalEmail": "magnus@datacrunch.io", "score": 0.99, "linkedin": false},
-    {"internal": "William De Quant", "external": "Eric Lagier", "externalEmail": "eric@byfounders.vc", "score": 0.99, "linkedin": false},
-    {"internal": "William De Quant", "external": "Casper Bjarnason", "externalEmail": "casper@byfounders.vc", "score": 0.99, "linkedin": false},
-    {"internal": "Tyrone Tee", "external": "Nathaniel Stummann", "externalEmail": "nathaniel@byfounders.vc", "score": 0.98, "linkedin": false},
-    {"internal": "Helena Richardson", "external": "Eric Lagier", "externalEmail": "eric@byfounders.vc", "score": 0.98, "linkedin": false},
-    {"internal": "Helena Richardson", "external": "Casper Bjarnason", "externalEmail": "casper@byfounders.vc", "score": 0.97, "linkedin": false},
-    {"internal": "Harry Williams", "external": "Magnus Hambleton", "externalEmail": "magnus@datacrunch.io", "score": 0.83, "linkedin": false}
-  ],
-  "notes": "Two distinct Willo entities (willo.tech / willo.video) and two Watalook entities (watalook.com / watalook.lt) kept separately — different Affinity company records."
+ "slug": "byfounders",
+ "affinity_company_id": 140047287,
+ "affinity_domain": "byfounders.vc",
+ "pipeline": [
+  {
+   "id": 312898639,
+   "name": "Cloudgeni",
+   "domain": "cloudgeni.ai",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 311802321,
+   "name": "Flare",
+   "domain": "flare.co",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 311601052,
+   "name": "Arsenale BioYards",
+   "domain": "arsenale.bio",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 306873818,
+   "name": "tangled.sh",
+   "domain": "tangled.org",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 311186700,
+   "name": "Willo",
+   "domain": "willo.tech",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 310556460,
+   "name": "Verda Innovations",
+   "domain": "verda.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 299470840,
+   "name": "adaptyvbio",
+   "domain": "adaptyvbio.com",
+   "funnel": "Portfolio Company"
+  },
+  {
+   "id": 295908250,
+   "name": "FocalX",
+   "domain": "focalx.ai",
+   "funnel": "Lead"
+  },
+  {
+   "id": 294890340,
+   "name": "Lovable",
+   "domain": "lovable.dev",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 294012237,
+   "name": "Dusk Retail",
+   "domain": "dusk.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 292713648,
+   "name": "QA.tech",
+   "domain": "qa.tech",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 293727986,
+   "name": "Willo",
+   "domain": "willo.video",
+   "funnel": "Awaiting Reply"
+  },
+  {
+   "id": 293727203,
+   "name": "Watalook",
+   "domain": "watalook.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 293728310,
+   "name": "Quantica",
+   "domain": "quantica3d.com",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 289772210,
+   "name": "Smitten",
+   "domain": "smitten.fun",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 289772525,
+   "name": "Salto X",
+   "domain": "saltox.co",
+   "funnel": "Lead"
+  },
+  {
+   "id": 268100571,
+   "name": "Watalook",
+   "domain": "watalook.lt",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289771341,
+   "name": "Spoke",
+   "domain": "spoke.ai",
+   "funnel": "Pre-lead"
+  },
+  {
+   "id": 289770690,
+   "name": "aumio",
+   "domain": "aumio.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289764926,
+   "name": "Digitail",
+   "domain": "digitail.com",
+   "funnel": "Lead"
+  },
+  {
+   "id": 289770443,
+   "name": "Vibrant Payments",
+   "domain": "vibrant.io",
+   "funnel": "Lead"
+  },
+  {
+   "id": 284559222,
+   "name": "Monta",
+   "domain": "monta.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289769324,
+   "name": "GamerzClass",
+   "domain": "ww1.gamerzclass.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289769050,
+   "name": "Bob W",
+   "domain": "bobw.co",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289764566,
+   "name": "StarBerry Games",
+   "domain": "starberry.games",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289767418,
+   "name": "Proper",
+   "domain": "helloproper.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289769723,
+   "name": "SuperNormal",
+   "domain": "supernormal.com",
+   "funnel": "Awaiting Reply"
+  },
+  {
+   "id": 289764616,
+   "name": "Dazzle Rocks",
+   "domain": "dazzle.rocks",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 278351302,
+   "name": "Lucinity",
+   "domain": "lucinity.com",
+   "funnel": "Lead"
+  },
+  {
+   "id": 289764104,
+   "name": "Spiio, Inc.",
+   "domain": "spiio.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766746,
+   "name": "Rune",
+   "domain": "rune.ai",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289767678,
+   "name": "Normative.io",
+   "domain": "normative.io",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289765784,
+   "name": "Outfunnel",
+   "domain": "outfunnel.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766993,
+   "name": "DrugStars",
+   "domain": "drugstars.com",
+   "funnel": "Passed"
+  },
+  {
+   "id": 225183461,
+   "name": "Contractbook",
+   "domain": "contractbook.co",
+   "funnel": "Passed"
+  },
+  {
+   "id": 289765255,
+   "name": "SafetyWing",
+   "domain": "safetywing.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289765481,
+   "name": "Tame",
+   "domain": "tame.events",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289766601,
+   "name": "Garden",
+   "domain": "garden.io",
+   "funnel": "Passed"
+  },
+  {
+   "id": 263771069,
+   "name": "Simple Feast",
+   "domain": "simplefeast.com",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289764896,
+   "name": "Uizard Technologies",
+   "domain": "uizard.io",
+   "funnel": "Deprioritised (free for all)"
+  },
+  {
+   "id": 289764594,
+   "name": "Corti",
+   "domain": "corti.ai",
+   "funnel": "Deprioritised (free for all)"
+  }
+ ],
+ "relationships": [
+  {
+   "internal": "Fergal Mullen",
+   "external": "Johan Jessen",
+   "externalEmail": "johan@byfounders.vc",
+   "score": 1.0,
+   "last": "2026-07-09",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Johan Jessen",
+   "externalEmail": "johan@byfounders.vc",
+   "score": 0.99,
+   "last": "2026-07-09",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Casper Bjarnason",
+   "externalEmail": "casper@byfounders.vc",
+   "score": 0.99,
+   "last": "2026-09-10",
+   "meet": "2025-12-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.98,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Casper Bjarnason",
+   "externalEmail": "casper@byfounders.vc",
+   "score": 0.97,
+   "last": "2026-09-10",
+   "meet": "2025-12-10"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Nathaniel Stummann",
+   "externalEmail": "nathaniel@byfounders.vc",
+   "score": 0.99,
+   "last": "2026-02-06",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Magnus Hambleton",
+   "externalEmail": "magnus@byfounders.vc",
+   "score": 0.99,
+   "last": "2026-01-15",
+   "meet": "2026-01-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Magnus Hambleton",
+   "externalEmail": "magnus@byfounders.vc",
+   "score": 0.83,
+   "last": "2026-01-15",
+   "meet": "2026-01-15"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Casper Bjarnason",
+   "externalEmail": "casper@byfounders.vc",
+   "score": 0.51,
+   "last": "2026-09-10",
+   "meet": "2025-12-10"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Camille Zivré",
+   "externalEmail": "camille@byfounders.vc",
+   "score": 0.48,
+   "last": "2026-04-21",
+   "meet": "2023-09-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Camille Zivré",
+   "externalEmail": "camille@byfounders.vc",
+   "score": 0.43,
+   "last": "2026-04-21",
+   "meet": "2023-09-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.43,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.43,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Sara Rywe",
+   "externalEmail": "sara@byfounders.vc",
+   "score": 0.38,
+   "last": "2025-02-24",
+   "meet": "2022-02-22"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Johan Jessen",
+   "externalEmail": "johan@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-07-09",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Johan Jessen",
+   "externalEmail": "johan@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-07-09",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Casper Bjarnason",
+   "externalEmail": "casper@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-09-10",
+   "meet": "2025-12-10"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Eric Lagier",
+   "externalEmail": "eric@byfounders.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Deina Kellezi",
+   "externalEmail": "deina@byfounders.vc",
+   "score": 0.1,
+   "last": "2025-12-10",
+   "meet": null
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Sara Rywe",
+   "externalEmail": "sara@byfounders.vc",
+   "score": 0.1,
+   "last": "2025-02-24",
+   "meet": "2022-02-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Caroline Frantl-Larsson",
+   "externalEmail": "caroline@byfounders.vc",
+   "score": 0.1,
+   "last": "2024-08-27",
+   "meet": null
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Caroline Frantl-Larsson",
+   "externalEmail": "caroline@byfounders.vc",
+   "score": 0.1,
+   "last": "2024-08-27",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Caroline Frantl-Larsson",
+   "externalEmail": "caroline@byfounders.vc",
+   "score": 0.1,
+   "last": "2024-08-27",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Caroline Frantl-Larsson",
+   "externalEmail": "caroline@byfounders.vc",
+   "score": 0.1,
+   "last": "2024-08-27",
+   "meet": null
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Caroline Frantl-Larsson",
+   "externalEmail": "caroline@byfounders.vc",
+   "score": 0.1,
+   "last": "2024-08-27",
+   "meet": null
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Caroline Frantl-Larsson",
+   "externalEmail": "caroline@byfounders.vc",
+   "score": 0.1,
+   "last": "2024-08-27",
+   "meet": null
+  }
+ ],
+ "notes": "Two distinct Willo entities (willo.tech / willo.video) and two Watalook entities (watalook.com / watalook.lt) kept separately — different Affinity company records.",
+ "rels_fetched": "2026-10-05"
 }

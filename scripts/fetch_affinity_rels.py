@@ -135,6 +135,9 @@ def refresh(path):
 
 paths = sorted(glob.glob(f"{ROOT}/data/affinity/*.json")
                + glob.glob(f"{ROOT}/data/*/affinity/*.json"))
+if sys.argv[1:]:  # optional prefix filter, e.g. `fetch_affinity_rels.py data/us`
+    paths = [p for p in paths
+             if any(p.removeprefix(ROOT + "/").startswith(a) for a in sys.argv[1:])]
 done = failed = 0
 for path in paths:
     base = os.path.basename(path)

@@ -1,0 +1,16 @@
+{
+ "slug": "8vc",
+ "affinity_domain": "8vc.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Veronique Germain",
+   "externalEmail": "veronique@8vc.com",
+   "score": 0.62,
+   "last": "2026-08-12",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
+}

@@ -665,6 +665,30 @@ FUND_ALIASES = {
     "isai": ["isai", "isai gestion"],
     "otium": ["otium capital", "otium"],
     "hexa": ["hexa", "efounders", "e founders", "logic founders"],
+    # us tier-1 (affinity investor strings do not split transatlantic
+    # franchises, so accel-us/index-us pipelines include the EU arm's deals)
+    "sequoia": ["sequoia capital", "sequoia"],
+    "a16z": ["andreessen horowitz", "a16z"],
+    "lightspeed": ["lightspeed venture partners", "lightspeed"],
+    "general-catalyst": ["general catalyst"],
+    "accel-us": ["accel", "accel partners"],
+    "bessemer": ["bessemer venture partners", "bessemer"],
+    "index-us": ["index ventures", "index"],
+    "founders-fund": ["founders fund"],
+    "khosla": ["khosla ventures"],
+    "kleiner-perkins": ["kleiner perkins", "kleiner perkins caufield byers", "kpcb"],
+    "felicis": ["felicis", "felicis ventures"],
+    "nea": ["nea", "new enterprise associates"],
+    "benchmark": ["benchmark", "benchmark capital"],
+    "crv": ["crv", "charles river ventures"],
+    "initialized": ["initialized capital", "initialized"],
+    "spark": ["spark capital"],
+    "usv": ["union square ventures", "usv"],
+    "insight": ["insight partners", "insight venture partners"],
+    "ycombinator": ["y combinator", "ycombinator", "yc"],
+    "base10": ["base10", "base10 partners"],
+    "8vc": ["8vc"],
+    "redpoint": ["redpoint", "redpoint ventures"],
 }
 
 

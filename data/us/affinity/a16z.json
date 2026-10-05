@@ -1,0 +1,224 @@
+{
+ "slug": "a16z",
+ "affinity_domain": "a16z.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Joe Schmidt",
+   "externalEmail": "jschmidt@a16z.com",
+   "score": 1.0,
+   "last": "2026-09-22",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Joe Schmidt",
+   "externalEmail": "jschmidt@a16z.com",
+   "score": 1.0,
+   "last": "2026-09-22",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Samantha Gelt",
+   "externalEmail": "sgelt@a16z.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Angela Strange",
+   "externalEmail": "angela@a16z.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Angela Strange",
+   "externalEmail": "angela@a16z.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Joe Schmidt",
+   "externalEmail": "jschmidt@a16z.com",
+   "score": 0.99,
+   "last": "2026-09-22",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Brian Roberts",
+   "externalEmail": "br@a16z.com",
+   "score": 0.96,
+   "last": "2026-09-17",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Joe Schmidt",
+   "externalEmail": "jschmidt@a16z.com",
+   "score": 0.95,
+   "last": "2026-09-22",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Zabie Elmgren",
+   "externalEmail": "zelmgren@a16z.com",
+   "score": 0.83,
+   "last": "2026-09-29",
+   "meet": null
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Zabie Elmgren",
+   "externalEmail": "zelmgren@a16z.com",
+   "score": 0.73,
+   "last": "2026-09-29",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Zane Lackey",
+   "externalEmail": "zane@a16z.com",
+   "score": 1.0,
+   "last": "2024-11-18",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Santiago Rodriguez",
+   "externalEmail": "srodriguez@a16z.com",
+   "score": 0.75,
+   "last": "2025-08-26",
+   "meet": "2023-10-13"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Peter Blackwood",
+   "externalEmail": "pblackwood@a16z.com",
+   "score": 0.68,
+   "last": "2025-08-01",
+   "meet": "2024-04-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Santiago Rodriguez",
+   "externalEmail": "srodriguez@a16z.com",
+   "score": 0.55,
+   "last": "2025-08-26",
+   "meet": "2023-10-13"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Michelle Ervin",
+   "externalEmail": "mervin@a16z.com",
+   "score": 0.35,
+   "last": "2026-09-03",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Peter Blackwood",
+   "externalEmail": "pblackwood@a16z.com",
+   "score": 0.38,
+   "last": "2025-08-01",
+   "meet": "2024-04-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Tracye Redding",
+   "externalEmail": "tredding@a16z.com",
+   "score": 0.35,
+   "last": "2024-11-07",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Vivian Brooks",
+   "externalEmail": "vivian@a16z.com",
+   "score": 0.1,
+   "last": "2026-09-22",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Vivian Brooks",
+   "externalEmail": "vivian@a16z.com",
+   "score": 0.1,
+   "last": "2026-09-22",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Melanie Galang",
+   "externalEmail": "mgalang@a16z.com",
+   "score": 0.38,
+   "last": "2024-05-16",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sarah Wang",
+   "externalEmail": "swang@a16z.com",
+   "score": 0.34,
+   "last": "2024-04-19",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "David George",
+   "externalEmail": "dg@a16z.com",
+   "score": 0.1,
+   "last": "2026-01-29",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Zane Lackey",
+   "externalEmail": "zane@a16z.com",
+   "score": 0.1,
+   "last": "2024-11-18",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Kevin Wu",
+   "externalEmail": "kevinwu@a16z.com",
+   "score": 0.1,
+   "last": "2025-06-13",
+   "meet": null
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Melissa Wasser",
+   "externalEmail": "mwasser@a16z.com",
+   "score": 0.1,
+   "last": "2024-04-30",
+   "meet": "2024-04-30"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Blake Kim",
+   "externalEmail": "bkim@a16z.com",
+   "score": 0.1,
+   "last": "2024-04-30",
+   "meet": "2024-04-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Sarah Wang",
+   "externalEmail": "swang@a16z.com",
+   "score": 0.1,
+   "last": "2024-04-19",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-05"
+}

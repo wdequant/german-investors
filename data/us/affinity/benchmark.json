@@ -1,0 +1,6 @@
+{
+ "slug": "benchmark",
+ "affinity_domain": "benchmark.com",
+ "pipeline": [],
+ "relationships": []
+}
