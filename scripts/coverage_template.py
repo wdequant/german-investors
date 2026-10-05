@@ -101,6 +101,22 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .fmeta .badge.unt{color:var(--accent-ink);background:none;border:0;font-weight:600}
 .fmeta .badge.ufq{color:var(--ink2);background:none;border:0;font-weight:600}
 .fmeta .badge.ufq.hi{color:var(--c-lead-ink)}
+.ufproof{margin-top:2px}
+.ufproof a{color:inherit;text-decoration:none;font-weight:600}
+.ufproof a:hover{text-decoration:underline}
+.covword{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px}
+.covword.strong{color:var(--covered-ink)} .covword.medium{color:var(--thin-ink)} .covword.weak{color:var(--gap-ink)}
+.nm{font-size:11.5px;font-weight:700;margin-bottom:4px}
+.nm.live{color:var(--covered-ink)} .nm.warm{color:var(--thin-ink)} .nm.gap{color:var(--gap-ink)}
+#starthere{margin:16px 0 2px}
+.shhead{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
+.shrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.shcard{border:1px solid var(--hair);border-radius:10px;padding:10px 12px;cursor:pointer}
+.shcard:hover,.shcard:focus-visible{border-color:var(--ink2);outline:none}
+.shcard .fname{font-size:14px}
+.shwhy{font-size:11.5px;color:var(--ink2);margin:3px 0 5px}
+.shcard .nm{margin-bottom:0}
+@media(max-width:760px){.shrow{grid-template-columns:1fr}}
 .badge{font-size:10px;border-radius:9px;padding:1px 7px;background:var(--hair2);color:var(--ink2);white-space:nowrap;letter-spacing:.03em}
 .badge.co{color:var(--covered-ink);border:1px solid var(--covered);background:transparent}
 .badge.unt{color:var(--accent-ink);border:1px solid var(--accent);background:transparent}
@@ -362,17 +378,20 @@ th.sk:hover{color:var(--accent-ink)}
 <div class="hero">
   <div class="kicker" id="kick">Highland Europe · relationship intelligence · __GENERATED__</div>
   <h1 id="pagetitle"></h1>
-  <p class="sub"><span id="subcount"></span> Coverage blends the team's Harmonic network with Affinity
-  relationships across the whole partnership, decayed by recency — a path untouched for over a year fades.
-  Names are coloured by coverage: <b style="color:var(--covered-ink)">covered</b>,
-  <b style="color:var(--thin-ink)">thin</b>, <b style="color:var(--gap-ink)">gap</b>.
-  Click a fund row for the dossier; use <b>View as</b> to see it through one person's relationships.</p>
+  <p class="sub"><span id="subcount"></span> Read each fund left to right: <b>why they matter</b> —
+  the top of their portfolio through our Unframe lens; <b>where we stand</b> —
+  <b style="color:var(--covered-ink)">covered</b>, <b style="color:var(--thin-ink)">thin</b> or
+  <b style="color:var(--gap-ink)">gap</b>, blending the team's Harmonic network with Affinity
+  relationships and decayed by recency; and <b>your next move</b> — the warm path to use, the tie to
+  re-warm, or the co-investor bridge to ask for. Click a row for the dossier; use <b>View as</b> to see
+  it through one person's relationships.</p>
 </div>
 
 <div class="score" id="score"></div>
 <div id="changes"></div>
 
 <div id="fundsview">
+<div id="starthere"></div>
 <div class="filters" id="filters"></div>
 <div class="sechead"><h2>Funds</h2><p id="fundhint">sort via column headers · click a row for detail</p></div>
 <table id="fundtable"></table>
@@ -503,8 +522,26 @@ const COLS = [
   {k:"connectivity", label:"Coverage", sortable:true, sort:(a,b)=>eff(b).cov-eff(a).cov},
   {k:"relevance", label:"Relevance", sortable:true, sort:(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)},
   {k:"pipeline", label:"Pipeline overlap", sortable:true, sort:(a,b)=>pipeCount(b)-pipeCount(a)},
-  {k:"gap", label:"Strongest paths in", sortable:false, sort:(a,b)=>(eff(b).gap||0)-(eff(a).gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
+  {k:"gap", label:"Your next move", sortable:false, sort:(a,b)=>(eff(b).gap||0)-(eff(a).gap||0)||(b.relevance?.total||0)-(a.relevance?.total||0)},
 ];
+// one-line verdict a partner can act on, computed from path evidence
+function nextMove(e){
+  if(e.kind!=='fund') return null;
+  const first = n => (n||'').split(' ')[0];
+  const pts = e.points||[];
+  const best = pts.find(p=>p.meet) || pts.find(p=>p.pct!=null&&p.pct>=30) || null;
+  if(best){
+    const touch = best.meet||best.last;
+    if(!isStale(touch))
+      return {cls:'live', txt:`Keep warm — ${first(best.internal)} ↔ ${best.external}${best.meet?` (met ${fmtD(best.meet)})`:''}`};
+    return {cls:'warm', txt:`Re-warm — ${first(best.internal)} ↔ ${best.external}, last touch ${fmtD(touch)}`};
+  }
+  if(pts.length) return {cls:'warm', txt:`Verify first — ties are email-only (${first(pts[0].internal)} ↔ ${pts[0].external})`};
+  if(e.dormant) return {cls:'warm', txt:`Re-warm — ${e.dormant.internal[0]} knew them, last touch ${fmtD(e.dormant.last)}`};
+  const b=(e.bridges||[])[0];
+  if(b) return {cls:'gap', txt:`No warm path — ask ${first(b.internal)} to bridge via ${b.name}`};
+  return {cls:'gap', txt:'No warm path — needs a cold door'};
+}
 function headHTML(){
   return `<thead><tr>`+COLS.map(c=>`<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''}">${c.label}</th>`).join('')+`</tr></thead>`;
 }
@@ -563,8 +600,10 @@ function ptsHTML(e){
   }
   const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>` : '';
   const bridges = !e.points.length ? bridgeLines(e).join('') : '';
-  if(!e.points.length && !dorm && !bridges) return `<div class="pts"><span style="color:var(--muted)">No mapped way in yet</span></div>`;
-  return `<div class="pts">`+e.points.map(p=>pathLine(p,e.name)).join('')+dorm+bridges+`</div>`;
+  const nm = nextMove(e);
+  const nmH = nm ? `<div class="nm ${nm.cls}">${nm.txt}</div>` : '';
+  if(!e.points.length && !dorm && !bridges) return `<div class="pts">${nmH||`<span style="color:var(--muted)">No mapped way in yet</span>`}</div>`;
+  return `<div class="pts">`+nmH+e.points.map(p=>pathLine(p,e.name)).join('')+dorm+bridges+`</div>`;
 }
 function bridgeLines(e){
   return (e.bridges||[]).slice(0,2).map(b=>
@@ -593,9 +632,13 @@ function rowHTML(e){
   const nm = e.kind==='angel' && e.li ? `<a href="${e.li}" target="_blank" rel="noopener">${e.name}</a>`
     : e.website ? `<a href="https://${e.website}" target="_blank" rel="noopener">${e.name}</a>` : e.name;
   const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
+  const proof = e.kind==='fund' && e.uf && (e.uf.top||[]).length
+    ? `<div class="fmeta ufproof"><span class="cc">Top of portfolio:</span>`+
+      e.uf.top.map(t=>`<span class="ufco">${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
+  const covWord = {strong:'covered',medium:'thin',weak:'gap'}[v.tier]||'';
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
-    <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div></td>
-    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div>${state.person?`<div class="teamcov" style="margin-top:2px">team ${e.connectivity}</div>`:''}</td>
+    <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
+    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div><div class="covword ${v.tier}">${covWord}</div>${state.person?`<div class="teamcov" style="margin-top:2px">team ${e.connectivity}</div>`:''}</td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
@@ -770,6 +813,8 @@ function mPathLine(e){
     const best = e.points && e.points[0];
     if(best) return `<div class="mpath askx">ask <b>${best.internal}</b> (${best.external})</div>`;
   }
+  const nm = nextMove(e);
+  if(nm) return `<div class="mpath nm ${nm.cls}">${nm.txt}</div>`;
   const p0 = e.points && e.points[0];
   if(p0) return `<div class="mpath"><b>${p0.external}</b>${p0.email?emIcon(p0):''} <span class="via">↔ ${p0.internal}</span>${p0.pct!=null?` <span class="pct">${p0.pct}%</span>`:''}${p0.moved?' <span class="flag">⚠</span>':''}</div>`;
   if(e.dormant) return `<div class="mpath dorm">⏱ <b>${e.dormant.internal.join(' + ')}</b> dormant · ${e.dormant.last}</div>`;
@@ -1198,13 +1243,41 @@ function render(){
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
   document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
   document.getElementById('untview').style.display = state.view==='unt'?'':'none';
+  const sh = document.getElementById('starthere');
   if(mob){
+    if(sh) sh.innerHTML='';
     if(state.view==='funds') filtersHTML();
     renderMobile(); updateHash(); return;
   }
   document.getElementById('sheet').classList.remove('open');
   if(state.view==='htc'){ htcHTML(); return; }
   if(state.view==='unt'){ untHTML(); return; }
+  if(sh){
+    sh.innerHTML='';
+    if(state.view==='funds' && !state.q && !state.person){
+      const top=[...E().filter(e=>e.kind==='fund')].sort((a,b)=>(b.gap||0)-(a.gap||0)).slice(0,3);
+      if(top.length){
+        sh.innerHTML = `<div class="shhead">Start here — most relevant funds where we're weakest</div><div class="shrow">`+
+          top.map(e=>{
+            const nm=nextMove(e)||{cls:'gap',txt:''};
+            const t0=e.uf&&(e.uf.top||[])[0];
+            const why=[e.relevance?`relevance ${e.relevance.total}`:null,
+                       e.uf&&e.uf.high?`backs ${e.uf.high} high-prio ${e.uf.high>1?'cos':'co'}`:null,
+                       t0?`top: ${t0.name}${ufBadge(t0.score)}`:null].filter(Boolean).join(' · ');
+            return `<div class="shcard" data-slug="${e.slug}" tabindex="0" role="button">
+              <div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div>
+              <div class="shwhy">${why}</div>
+              <div class="nm ${nm.cls}">${nm.txt}</div></div>`;
+          }).join('')+`</div>`;
+        sh.querySelectorAll('.shcard').forEach(c=>{
+          const go=()=>{toggleRow(c.dataset.slug);
+            document.querySelector(`tr.mainrow[data-slug="${CSS.escape(c.dataset.slug)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});};
+          c.addEventListener('click',go);
+          c.addEventListener('keydown',ev=>{if(ev.key==='Enter')go();});
+        });
+      }
+    }
+  }
   filtersHTML();
   const vis = visible();
   const ft=document.getElementById('fundtable'), at=document.getElementById('angeltable');
