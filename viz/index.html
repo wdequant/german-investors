@@ -176,15 +176,21 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 td.covtd{min-width:150px}
 th.mytd{color:var(--accent-ink)}
 td.covtd{padding:12px 8px}
-.covcard{display:flex;gap:13px;align-items:flex-start;background:var(--raise);border:1px solid var(--hair2);
-  border-radius:14px;padding:12px 14px;min-height:138px;width:212px;box-sizing:border-box}
+.covcard{background:var(--raise);border:1px solid var(--hair2);border-radius:14px;
+  padding:13px 16px 11px;width:252px;box-sizing:border-box}
 .covcard.mine{background:var(--accent-soft);border-color:#c9cdf7}
-.covL{display:flex;flex-direction:column;align-items:center;gap:6px;flex:none}
-.covlbl{font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
-  text-align:center;max-width:66px;line-height:1.35}
-.covcard.mine .covlbl{color:var(--accent-ink)}
+.covhead{display:flex;align-items:baseline;gap:9px;margin-bottom:10px}
+.covnum{font-size:21px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+.covnum.strong{color:var(--covered-ink)} .covnum.medium{color:var(--thin-ink)} .covnum.weak{color:var(--gap-ink)}
+.covcap{font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.covcard.mine .covcap{color:var(--accent-ink)}
+.covrow{display:flex;gap:7px}
+.cst{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px}
+.cst b{font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--ink);line-height:1.1}
+.cst i{display:block;width:100%;height:3px;border-radius:2px}
+.cst span{font-size:7.5px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.cst.z b{color:var(--hair)} .cst.z i{background:var(--hair2)!important} .cst.z span{color:var(--hair)}
 tr.detailrow td{background:none;box-shadow:none}
-.covcard .chips.mini{flex-direction:column;align-items:flex-start;margin:2px 0 0}
 .chips.mini{gap:4px;max-width:210px}
 .chips.mini .chip{font-size:10.5px;padding:2px 9px;white-space:nowrap}
 .nochip{color:var(--muted);font-size:11.5px}
@@ -963,6 +969,18 @@ const avi = n => {
   let h=0; for(const ch of n||'') h=(h*31+ch.charCodeAt(0))>>>0;
   return `<span class="avi" style="background:${AVI_COLORS[h%AVI_COLORS.length]}" title="${n}">${init}</span>`;
 };
+const STAGE_SHORT = {prelead:'Pre-lead', reachout:'Reach', awaiting:'Await', lead:'Lead', hard:'H2C'};
+function covCardHTML(e, mine){
+  if(mine && !state.person) return `<span class="nochip">pick who you are ↑</span>`;
+  const v = mine ? eff(e) : {cov:e.connectivity, tier:e.tier};
+  const cols = BUCKETS.map(([k,label])=>{
+    const n = mine ? e.buckets[k].filter(isOwned).length : e.buckets[k].length;
+    return `<div class="cst${n?'':' z'}" title="${n} ${label}"><b>${n}</b><i style="background:var(--c-${k}-ink)"></i><span>${STAGE_SHORT[k]}</span></div>`;
+  }).join('');
+  return `<div class="covcard${mine?' mine':''}">
+    <div class="covhead"><b class="covnum ${v.tier}">${v.cov}</b><span class="covcap">${mine?'my':'team'} coverage</span></div>
+    <div class="covrow">${cols}</div></div>`;
+}
 function rowHTML(e){
   const v = eff(e);
   const rel = e.relevance? e.relevance.total : null;
@@ -982,17 +1000,11 @@ function rowHTML(e){
   const proof = e.kind==='fund' && e.uf && (e.uf.top||[]).length
     ? `<div class="fmeta ufproof"><span class="cc">Top of portfolio:</span>`+
       e.uf.top.map(t=>`<span class="ufco">${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
-  const covCard = (cls, cov, tier, lbl, chips) => `<div class="covcard ${cls}">
-    <div class="covL"><div class="covcell">${ring(cov, tier, 38)}<b>${cov}</b></div><div class="covlbl">${lbl}</div></div>
-    <div class="chips mini">${chips}</div></div>`;
-  const myCell = state.person
-    ? covCard('mine', v.cov, v.tier, 'my coverage', chipHTML(e,'mine'))
-    : `<span class="nochip">pick who you are ↑</span>`;
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
     <td class="relcell">${relCell}</td>
-    <td class="covtd">${covCard('', e.connectivity, e.tier, 'team coverage', chipHTML(e,'team'))}</td>
-    <td class="covtd mytd">${myCell}</td>
+    <td class="covtd">${covCardHTML(e, false)}</td>
+    <td class="covtd mytd">${covCardHTML(e, true)}</td>
     <td>${ptsHTML(e)}</td>
   </tr>
   <tr class="detailrow" id="d-${e.slug}"><td colspan="5"><div class="detail"></div></td></tr>`;
@@ -1569,9 +1581,9 @@ function rerenderOpen(e){
   if(det) det.innerHTML = detailHTML(e);
   const row = document.querySelector(`tr.mainrow[data-slug="${e.slug}"]`);
   if(row){
-    const team = row.querySelector('td.covtd:not(.mytd) .chips'), mine = row.querySelector('td.mytd .chips');
-    if(team) team.innerHTML = chipHTML(e,'team');
-    if(mine) mine.innerHTML = chipHTML(e,'mine');
+    const tds = row.querySelectorAll('td.covtd');
+    if(tds[0]) tds[0].innerHTML = covCardHTML(e, false);
+    if(tds[1]) tds[1].innerHTML = covCardHTML(e, true);
   }
 }
 
