@@ -2383,5 +2383,800 @@
   "harmonic_company_id": 627493,
   "domain": "coefficientcap.com",
   "kind": "fund"
+ },
+ "Paul Vidal": {
+  "harmonic_person_id": 180778114,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paula Blazquez Solano": {
+  "harmonic_person_id": 188442155,
+  "domain": null,
+  "kind": "person"
+ },
+ "Paula Blázquez": {
+  "harmonic_person_id": 188442155,
+  "domain": null,
+  "kind": "person"
+ },
+ "PayPal": {
+  "harmonic_company_id": 2140886,
+  "domain": "paypal.com",
+  "kind": "fund"
+ },
+ "PeakSpan Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Peder Bonnier": {
+  "harmonic_person_id": 266741,
+  "domain": null,
+  "kind": "person"
+ },
+ "Penu Investments": {
+  "harmonic_company_id": 28835207,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Personio": {
+  "harmonic_company_id": 511734,
+  "domain": "personio.com",
+  "kind": "fund"
+ },
+ "PES Holdings": {
+  "harmonic_company_id": 2251460,
+  "domain": "pesholdings.com",
+  "kind": "fund"
+ },
+ "Peter Bosch": {
+  "harmonic_person_id": 48710391,
+  "domain": null,
+  "kind": "person"
+ },
+ "Peter Cowley (he/him)": {
+  "harmonic_person_id": 17783,
+  "domain": null,
+  "kind": "person"
+ },
+ "Peter Madlener": {
+  "harmonic_person_id": 146969556,
+  "domain": null,
+  "kind": "person"
+ },
+ "Peter Sarlin": {
+  "harmonic_person_id": 90611,
+  "domain": null,
+  "kind": "person"
+ },
+ "Peter Zajac": {
+  "harmonic_person_id": 157505539,
+  "domain": null,
+  "kind": "person"
+ },
+ "Pg Développement": {
+  "harmonic_company_id": 1604652,
+  "domain": "pg-developpement.com",
+  "kind": "fund"
+ },
+ "Phil Chambers": {
+  "harmonic_person_id": 27268307,
+  "domain": null,
+  "kind": "person"
+ },
+ "Philipp Triebel": {
+  "harmonic_person_id": 105234330,
+  "domain": null,
+  "kind": "person"
+ },
+ "Philippe Corrot": {
+  "harmonic_person_id": 10532,
+  "domain": null,
+  "kind": "person"
+ },
+ "philippe laffont": {
+  "harmonic_person_id": 23116,
+  "domain": null,
+  "kind": "person"
+ },
+ "Phillip Chambers": {
+  "harmonic_person_id": 27268307,
+  "domain": null,
+  "kind": "person"
+ },
+ "Phoenix Court": {
+  "harmonic_company_id": 54462753,
+  "domain": "phoenixcourt.vc",
+  "kind": "fund"
+ },
+ "Picus Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Pierre Joudiou": {
+  "harmonic_person_id": 55723866,
+  "domain": null,
+  "kind": "person"
+ },
+ "Pierre Valade": {
+  "harmonic_person_id": 8595,
+  "domain": null,
+  "kind": "person"
+ },
+ "Pierre-Jean Lamps": {
+  "harmonic_person_id": 194114374,
+  "domain": null,
+  "kind": "person"
+ },
+ "Pieter Knook": {
+  "harmonic_person_id": 12681,
+  "domain": null,
+  "kind": "person"
+ },
+ "Pilgrim Beart": {
+  "harmonic_person_id": 17785,
+  "domain": null,
+  "kind": "person"
+ },
+ "Pillar VC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Pioneer Fund": {
+  "harmonic_company_id": 1423244,
+  "domain": "pioneerfund.vc",
+  "kind": "fund"
+ },
+ "Pioneer Ventures LLC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Pivot North Capital": {
+  "harmonic_company_id": 1490338,
+  "domain": "pivotnorth.com",
+  "kind": "fund"
+ },
+ "PivotNorth Capital": {
+  "harmonic_company_id": 1490338,
+  "domain": "pivotnorth.com",
+  "kind": "fund"
+ },
+ "Playfair": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Playfair Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Pleiade Venture": {
+  "harmonic_company_id": 1504644,
+  "domain": "pleiadeventure.com",
+  "kind": "fund"
+ },
+ "Plug and Play": {
+  "harmonic_company_id": 1729952,
+  "domain": "plugandplaytechcenter.com",
+  "kind": "fund"
+ },
+ "Plural": {
+  "harmonic_company_id": 6833648,
+  "domain": "pluralplatform.com",
+  "kind": "fund"
+ },
+ "Plus Partners": {
+  "harmonic_company_id": 49225902,
+  "domain": "pluspartners.vc",
+  "kind": "fund"
+ },
+ "Point Nine": {
+  "harmonic_company_id": 55858069,
+  "domain": "dealflow.pointninecap.com",
+  "kind": "fund"
+ },
+ "Point Nine Capital": {
+  "harmonic_company_id": 55858069,
+  "domain": "dealflow.pointninecap.com",
+  "kind": "fund"
+ },
+ "Portfolio Ventures": {
+  "harmonic_company_id": 624036,
+  "domain": "portfolio.ventures",
+  "kind": "fund"
+ },
+ "Portugal Ventures": {
+  "harmonic_company_id": 707727,
+  "domain": "portugalventures.pt",
+  "kind": "fund"
+ },
+ "PostScriptum Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "PostScriptum Ventures S.à r.l.": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Prairies Economic Development Canada I Développement économique Canada pour les Prairies": {
+  "harmonic_company_id": 1506207,
+  "domain": "wd-deo.gc.ca",
+  "kind": "fund"
+ },
+ "Precursor Ventures": {
+  "harmonic_company_id": 747635,
+  "domain": "precursorvc.com",
+  "kind": "fund"
+ },
+ "Prelude Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Prequel Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "PreSeed Ventures": {
+  "harmonic_company_id": 654814,
+  "domain": "psv.xyz",
+  "kind": "fund"
+ },
+ "Previous Investors": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Proeza Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Proparco": {
+  "harmonic_company_id": 1498308,
+  "domain": "proparco.fr",
+  "kind": "fund"
+ },
+ "PROTOTYPE": {
+  "harmonic_company_id": 739275,
+  "domain": "prototype.capital",
+  "kind": "fund"
+ },
+ "Prototype Capital": {
+  "harmonic_company_id": 739275,
+  "domain": "prototype.capital",
+  "kind": "fund"
+ },
+ "PSV": {
+  "harmonic_company_id": 654814,
+  "domain": "psv.xyz",
+  "kind": "fund"
+ },
+ "Psv Tech": {
+  "harmonic_company_id": 654814,
+  "domain": "psv.xyz",
+  "kind": "fund"
+ },
+ "Purple": {
+  "harmonic_company_id": 4426293,
+  "domain": "purple-ventures.com",
+  "kind": "fund"
+ },
+ "Purple Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Puzzle Ventures": {
+  "harmonic_company_id": 54594712,
+  "domain": "puzzle-ventures.com",
+  "kind": "fund"
+ },
+ "Pymwymic": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Pâris Mouratoglou": {
+  "harmonic_person_id": 193508484,
+  "domain": null,
+  "kind": "person"
+ },
+ "QAware GmbH": {
+  "harmonic_company_id": 3193365,
+  "domain": "qaware.de",
+  "kind": "fund"
+ },
+ "Qonto": {
+  "harmonic_company_id": 1462225,
+  "domain": "qonto.com",
+  "kind": "fund"
+ },
+ "Quake Capital Partners": {
+  "harmonic_company_id": 693512,
+  "domain": "quakecapital.com",
+  "kind": "fund"
+ },
+ "QuantumLight": {
+  "harmonic_company_id": 4197957,
+  "domain": "quantumlightcapital.com",
+  "kind": "fund"
+ },
+ "Quintin Schevernels": {
+  "harmonic_person_id": 157082987,
+  "domain": null,
+  "kind": "person"
+ },
+ "Raakwark Kaptaal": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Race Capital": {
+  "harmonic_company_id": 709969,
+  "domain": "race.capital",
+  "kind": "fund"
+ },
+ "Race Craft": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Radical Ventures": {
+  "harmonic_company_id": 618671,
+  "domain": "radical.vc",
+  "kind": "fund"
+ },
+ "Raffaele Terrone": {
+  "harmonic_person_id": 179625488,
+  "domain": null,
+  "kind": "person"
+ },
+ "RAISE": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Random Forest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Random Forest VC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Randomforest": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ratan Agarwal": {
+  "harmonic_person_id": 75006138,
+  "domain": null,
+  "kind": "person"
+ },
+ "Ravi Chachra": {
+  "harmonic_person_id": 181560809,
+  "domain": null,
+  "kind": "person"
+ },
+ "Ray Stata": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Raymie Stata": {
+  "harmonic_person_id": 155416548,
+  "domain": null,
+  "kind": "person"
+ },
+ "Raymond Spanjar": {
+  "harmonic_person_id": 179638723,
+  "domain": null,
+  "kind": "person"
+ },
+ "Real Ventures": {
+  "harmonic_company_id": 678176,
+  "domain": "realventures.com",
+  "kind": "fund"
+ },
+ "Red River West": {
+  "harmonic_company_id": 663468,
+  "domain": "redriverwest.com",
+  "kind": "fund"
+ },
+ "Red.es": {
+  "harmonic_company_id": 31086205,
+  "domain": "red.es",
+  "kind": "fund"
+ },
+ "redalpine": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Redalpine Venture Partner AG": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Redcrest Events Events": {
+  "harmonic_company_id": 9747192,
+  "domain": "redcrestevents.co.uk",
+  "kind": "fund"
+ },
+ "Redline Capital": {
+  "harmonic_company_id": 7763611,
+  "domain": "redline.lu",
+  "kind": "fund"
+ },
+ "Redpoint": {
+  "harmonic_company_id": 1723814,
+  "domain": "redpoint.com",
+  "kind": "fund"
+ },
+ "Redpoint Ventures And Sv Angel": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Redrice Ventures": {
+  "harmonic_company_id": 1603701,
+  "domain": "redriceventures.com",
+  "kind": "fund"
+ },
+ "Redseed": {
+  "harmonic_company_id": 6645883,
+  "domain": "redseed.vc",
+  "kind": "fund"
+ },
+ "Reflex Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Reig Patrimonia": {
+  "harmonic_company_id": 8690008,
+  "domain": "reigpatrimonia.com",
+  "kind": "fund"
+ },
+ "Renaud Deraison": {
+  "harmonic_person_id": 16876,
+  "domain": null,
+  "kind": "person"
+ },
+ "Republic Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Resurgens Technology Partners": {
+  "harmonic_company_id": 634051,
+  "domain": "resurgenstech.com",
+  "kind": "fund"
+ },
+ "Rethink Ventures": {
+  "harmonic_company_id": 12473623,
+  "domain": "rethinkventures.com",
+  "kind": "fund"
+ },
+ "Reto Graf": {
+  "harmonic_person_id": 171280966,
+  "domain": null,
+  "kind": "person"
+ },
+ "Revaia": {
+  "harmonic_company_id": 636700,
+  "domain": "gaiacap.co",
+  "kind": "fund"
+ },
+ "Revent": {
+  "harmonic_company_id": 1687397,
+  "domain": "revent.vc",
+  "kind": "fund"
+ },
+ "Revenue Syndicate": {
+  "harmonic_company_id": 10978769,
+  "domain": "revenue-syndicate.com",
+  "kind": "fund"
+ },
+ "Ribbit Capital": {
+  "harmonic_company_id": 2140417,
+  "domain": "ribbitcap.com",
+  "kind": "fund"
+ },
+ "Ricardo Creighton": {
+  "harmonic_person_id": 181560760,
+  "domain": null,
+  "kind": "person"
+ },
+ "Rise PropTech Fund": {
+  "harmonic_company_id": 4189704,
+  "domain": "riseproptech.eu",
+  "kind": "fund"
+ },
+ "Rishi Khosla": {
+  "harmonic_person_id": 56019299,
+  "domain": null,
+  "kind": "person"
+ },
+ "Riverside Acceleration Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "RKK VC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "RKKVC": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Rob Bernshteyn": {
+  "harmonic_person_id": 11524,
+  "domain": null,
+  "kind": "person"
+ },
+ "Robert Jan de Laive": {
+  "harmonic_person_id": 179638710,
+  "domain": null,
+  "kind": "person"
+ },
+ "Robert Sansom": {
+  "harmonic_person_id": 11475,
+  "domain": null,
+  "kind": "person"
+ },
+ "Robin Capital": {
+  "harmonic_company_id": 16228013,
+  "domain": "robincap.com",
+  "kind": "fund"
+ },
+ "Rockspring": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Rockstart": {
+  "harmonic_company_id": 1758461,
+  "domain": "rockstart.com",
+  "kind": "fund"
+ },
+ "Rodolphe A.": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Roel Naessens": {
+  "harmonic_person_id": 193662541,
+  "domain": null,
+  "kind": "person"
+ },
+ "Romain Raffard": {
+  "harmonic_person_id": 188754490,
+  "domain": null,
+  "kind": "person"
+ },
+ "Ron Vianu": {
+  "harmonic_person_id": 171831874,
+  "domain": null,
+  "kind": "person"
+ },
+ "Roosh Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Rory San Miguel": {
+  "harmonic_person_id": 188454578,
+  "domain": null,
+  "kind": "person"
+ },
+ "Ross Anderson": {
+  "harmonic_person_id": 124061555,
+  "domain": null,
+  "kind": "person"
+ },
+ "Round2 Capital": {
+  "harmonic_company_id": 1522704,
+  "domain": "round2cap.com",
+  "kind": "fund"
+ },
+ "Roxane Hassler": {
+  "harmonic_person_id": 111017035,
+  "domain": null,
+  "kind": "person"
+ },
+ "RTP Global": {
+  "harmonic_company_id": 700452,
+  "domain": "rtp.vc",
+  "kind": "fund"
+ },
+ "Runa Capital": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ruvento Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Ryan Morrison": {
+  "harmonic_person_id": 165197550,
+  "domain": null,
+  "kind": "person"
+ },
+ "Région Auvergne-Rhône-Alpes": {
+  "harmonic_company_id": 2054607,
+  "domain": "auvergnerhonealpes.fr",
+  "kind": "fund"
+ },
+ "S16 VC": {
+  "harmonic_company_id": 1842521,
+  "domain": "s16vc.com",
+  "kind": "fund"
+ },
+ "S16VC": {
+  "harmonic_company_id": 1842521,
+  "domain": "s16vc.com",
+  "kind": "fund"
+ },
+ "s16vc - Founders for Founders Fund": {
+  "harmonic_company_id": 1842521,
+  "domain": "s16vc.com",
+  "kind": "fund"
+ },
+ "S3 Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Saab": {
+  "harmonic_company_id": 1971220,
+  "domain": "saab.com",
+  "kind": "fund"
+ },
+ "Saab Sensis Corporation": {
+  "harmonic_company_id": 2014187,
+  "domain": "saabgroup.com",
+  "kind": "fund"
+ },
+ "SaaS Lander": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "unknown"
+ },
+ "Salesforce Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Salica Investments": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Salil Deshpande": {
+  "harmonic_person_id": 6147662,
+  "domain": null,
+  "kind": "person"
+ },
+ "Sam Gutmann": {
+  "harmonic_person_id": 412099,
+  "domain": null,
+  "kind": "person"
+ },
+ "Samir El-Sabini": {
+  "harmonic_person_id": 155270598,
+  "domain": null,
+  "kind": "person"
+ },
+ "Samos Investments": {
+  "harmonic_company_id": 1498554,
+  "domain": "samos.vc",
+  "kind": "fund"
+ },
+ "Santander": {
+  "harmonic_company_id": 2160631,
+  "domain": "santander.com",
+  "kind": "fund"
+ },
+ "Santander Asset Management": {
+  "harmonic_company_id": 77428006,
+  "domain": "santanderassetmanagement.com",
+  "kind": "fund"
+ },
+ "Santander Climate Tech Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Santander InnoEnergy Climate Fund": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "SAP": {
+  "harmonic_company_id": 9271027,
+  "domain": "sap.com",
+  "kind": "fund"
+ },
+ "Sapphire Ventures": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Sara Varni": {
+  "harmonic_person_id": 179654587,
+  "domain": null,
+  "kind": "person"
+ },
+ "Sarah Guo": {
+  "harmonic_person_id": 371888,
+  "domain": null,
+  "kind": "person"
+ },
+ "SAV (Scale Asia Ventures)": {
+  "harmonic_company_id": 615196,
+  "domain": "sav.vc",
+  "kind": "fund"
+ },
+ "SaxeCap": {
+  "harmonic_company_id": 2170316,
+  "domain": "saxecap.com",
+  "kind": "fund"
+ },
+ "Scale Venture Partners": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "ScaleVP": {
+  "harmonic_company_id": null,
+  "domain": null,
+  "kind": "fund"
+ },
+ "Schwyzer Kantonalbank": {
+  "harmonic_company_id": 2171428,
+  "domain": "szkb.ch",
+  "kind": "fund"
+ },
+ "Science4Life e.V.": {
+  "harmonic_company_id": 6646171,
+  "domain": "science4life.de",
+  "kind": "fund"
+ },
+ "Scott Belsky": {
+  "harmonic_person_id": 155395827,
+  "domain": null,
+  "kind": "person"
+ },
+ "Scott Weavers-Wright": {
+  "harmonic_person_id": 155930785,
+  "domain": null,
+  "kind": "person"
+ },
+ "Sean Turner": {
+  "harmonic_person_id": 54778716,
+  "domain": null,
+  "kind": "person"
+ },
+ "Sebastian J Gunningham": {
+  "harmonic_person_id": 111015391,
+  "domain": null,
+  "kind": "person"
  }
 }
