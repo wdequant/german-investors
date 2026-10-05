@@ -1048,5 +1048,355 @@
   "last_meet": null,
   "last_touch": "2026-04-29",
   "status_since": "2025-08-28"
+ },
+ "294581588": {
+  "first_email": "2024-01-18",
+  "last_email": "2024-11-11",
+  "last_meet": null,
+  "last_touch": "2024-11-11",
+  "status_since": "2024-04-09"
+ },
+ "289770828": {
+  "first_email": "2024-01-08",
+  "last_email": "2024-04-10",
+  "last_meet": null,
+  "last_touch": "2024-04-10",
+  "status_since": "2024-04-09"
+ },
+ "294581620": {
+  "first_email": "2024-01-30",
+  "last_email": "2026-08-27",
+  "last_meet": null,
+  "last_touch": "2026-08-27",
+  "status_since": "2024-06-24"
+ },
+ "294012380": {
+  "first_email": "2026-04-22",
+  "last_email": "2026-07-27",
+  "last_meet": null,
+  "last_touch": "2026-07-27",
+  "status_since": "2026-07-27"
+ },
+ "294012255": {
+  "first_email": null,
+  "last_email": null,
+  "last_meet": null,
+  "last_touch": null,
+  "status_since": "2024-09-09"
+ },
+ "294012238": {
+  "first_email": "2023-12-05",
+  "last_email": "2024-10-08",
+  "last_meet": null,
+  "last_touch": "2024-10-08",
+  "status_since": "2024-08-12"
+ },
+ "293727596": {
+  "first_email": "2023-11-30",
+  "last_email": "2025-08-29",
+  "last_meet": "2024-01-29",
+  "last_touch": "2025-08-29",
+  "status_since": "2026-05-28"
+ },
+ "312097273": {
+  "first_email": "2025-05-14",
+  "last_email": "2025-05-14",
+  "last_meet": null,
+  "last_touch": "2025-05-14",
+  "status_since": "2026-05-26"
+ },
+ "293729646": {
+  "first_email": null,
+  "last_email": null,
+  "last_meet": null,
+  "last_touch": null,
+  "status_since": "2026-08-25"
+ },
+ "293475181": {
+  "first_email": null,
+  "last_email": null,
+  "last_meet": null,
+  "last_touch": null,
+  "status_since": "2025-02-13"
+ },
+ "293727909": {
+  "first_email": "2024-03-04",
+  "last_email": "2024-11-11",
+  "last_meet": null,
+  "last_touch": "2024-11-11",
+  "status_since": "2024-05-30"
+ },
+ "293728891": {
+  "first_email": "2023-12-15",
+  "last_email": "2025-09-09",
+  "last_meet": null,
+  "last_touch": "2025-09-09",
+  "status_since": "2025-11-02"
+ },
+ "293728138": {
+  "first_email": "2024-02-29",
+  "last_email": "2024-05-14",
+  "last_meet": null,
+  "last_touch": "2024-05-14",
+  "status_since": "2024-07-23"
+ },
+ "293727936": {
+  "first_email": "2024-03-05",
+  "last_email": "2026-09-30",
+  "last_meet": null,
+  "last_touch": "2026-09-30",
+  "status_since": "2024-08-30"
+ },
+ "293727658": {
+  "first_email": "2024-11-21",
+  "last_email": "2026-01-12",
+  "last_meet": null,
+  "last_touch": "2026-01-12",
+  "status_since": "2025-01-20"
+ },
+ "293727554": {
+  "first_email": "2023-11-29",
+  "last_email": "2026-06-02",
+  "last_meet": null,
+  "last_touch": "2026-06-02",
+  "status_since": "2026-02-25"
+ },
+ "295908693": {
+  "first_email": "2021-04-20",
+  "last_email": "2026-04-14",
+  "last_meet": "2026-06-23",
+  "last_touch": "2026-06-23",
+  "status_since": "2026-07-15"
+ },
+ "293728730": {
+  "first_email": "2024-01-30",
+  "last_email": "2026-05-11",
+  "last_meet": "2025-01-30",
+  "last_touch": "2026-05-11",
+  "status_since": "2026-06-08"
+ },
+ "293729287": {
+  "first_email": "2026-04-09",
+  "last_email": "2026-06-11",
+  "last_meet": null,
+  "last_touch": "2026-06-11",
+  "status_since": "2026-06-23"
+ },
+ "293729234": {
+  "first_email": "2025-01-02",
+  "last_email": "2026-09-29",
+  "last_meet": null,
+  "last_touch": "2026-09-29",
+  "status_since": "2026-05-18"
+ },
+ "293728191": {
+  "first_email": "2025-10-27",
+  "last_email": "2025-11-03",
+  "last_meet": "2025-07-29",
+  "last_touch": "2025-11-03",
+  "status_since": "2026-05-25"
+ },
+ "294581556": {
+  "first_email": "2024-01-08",
+  "last_email": "2026-03-03",
+  "last_meet": "2026-04-01",
+  "last_touch": "2026-04-01",
+  "status_since": "2024-04-29"
+ },
+ "293728633": {
+  "first_email": "2026-07-13",
+  "last_email": "2026-09-22",
+  "last_meet": null,
+  "last_touch": "2026-09-22",
+  "status_since": "2026-07-02"
+ },
+ "293727430": {
+  "first_email": "2023-10-16",
+  "last_email": "2026-06-04",
+  "last_meet": "2023-10-31",
+  "last_touch": "2026-06-04",
+  "status_since": "2026-06-24"
+ },
+ "293729605": {
+  "first_email": "2025-10-27",
+  "last_email": "2026-04-22",
+  "last_meet": null,
+  "last_touch": "2026-04-22",
+  "status_since": "2026-04-07"
+ },
+ "293727379": {
+  "first_email": "2023-10-02",
+  "last_email": "2024-04-16",
+  "last_meet": null,
+  "last_touch": "2024-04-16",
+  "status_since": "2023-12-14"
+ },
+ "293728592": {
+  "first_email": "2024-01-12",
+  "last_email": "2026-06-29",
+  "last_meet": "2024-08-02",
+  "last_touch": "2026-06-29",
+  "status_since": "2026-06-29"
+ },
+ "288053271": {
+  "first_email": "2023-10-11",
+  "last_email": "2023-10-11",
+  "last_meet": null,
+  "last_touch": "2023-10-11",
+  "status_since": "2023-11-15"
+ },
+ "293728553": {
+  "first_email": "2024-04-02",
+  "last_email": "2026-06-22",
+  "last_meet": null,
+  "last_touch": "2026-06-22",
+  "status_since": "2024-06-24"
+ },
+ "311601192": {
+  "first_email": "2026-06-08",
+  "last_email": "2026-09-28",
+  "last_meet": null,
+  "last_touch": "2026-09-28",
+  "status_since": "2026-07-07"
+ },
+ "293727326": {
+  "first_email": "2012-12-12",
+  "last_email": "2024-07-29",
+  "last_meet": "2020-08-03",
+  "last_touch": "2024-07-29",
+  "status_since": "2024-07-29"
+ },
+ "293727331": {
+  "first_email": "2023-09-20",
+  "last_email": "2024-04-09",
+  "last_meet": null,
+  "last_touch": "2024-04-09",
+  "status_since": "2024-01-22"
+ },
+ "293727976": {
+  "first_email": "2024-11-17",
+  "last_email": "2026-08-27",
+  "last_meet": null,
+  "last_touch": "2026-08-27",
+  "status_since": "2024-11-18"
+ },
+ "293727296": {
+  "first_email": "2023-08-31",
+  "last_email": "2024-08-21",
+  "last_meet": null,
+  "last_touch": "2024-08-21",
+  "status_since": "2024-03-11"
+ },
+ "293727294": {
+  "first_email": "2023-08-31",
+  "last_email": "2026-08-24",
+  "last_meet": "2023-09-11",
+  "last_touch": "2026-08-24",
+  "status_since": "2026-03-17"
+ },
+ "293727625": {
+  "first_email": "2023-08-31",
+  "last_email": "2024-06-13",
+  "last_meet": null,
+  "last_touch": "2024-06-13",
+  "status_since": "2023-10-03"
+ },
+ "293727418": {
+  "first_email": null,
+  "last_email": null,
+  "last_meet": null,
+  "last_touch": null,
+  "status_since": "2024-01-23"
+ },
+ "206257445": {
+  "first_email": "2022-02-14",
+  "last_email": "2022-02-14",
+  "last_meet": null,
+  "last_touch": "2022-02-14",
+  "status_since": "2023-08-19"
+ },
+ "293727515": {
+  "first_email": "2022-02-10",
+  "last_email": "2026-03-31",
+  "last_meet": "2024-10-31",
+  "last_touch": "2026-03-31",
+  "status_since": "2026-04-21"
+ },
+ "293727262": {
+  "first_email": "2023-08-22",
+  "last_email": "2024-08-30",
+  "last_meet": null,
+  "last_touch": "2024-08-30",
+  "status_since": "2024-04-22"
+ },
+ "292419566": {
+  "first_email": "2023-08-22",
+  "last_email": "2026-05-15",
+  "last_meet": null,
+  "last_touch": "2026-05-15",
+  "status_since": "2024-04-22"
+ },
+ "293727650": {
+  "first_email": "2023-08-15",
+  "last_email": "2024-01-23",
+  "last_meet": null,
+  "last_touch": "2024-01-23",
+  "status_since": "2023-09-27"
+ },
+ "293727897": {
+  "first_email": "2017-10-29",
+  "last_email": "2024-08-21",
+  "last_meet": "2023-08-25",
+  "last_touch": "2024-08-21",
+  "status_since": "2023-10-15"
+ },
+ "293727086": {
+  "first_email": "2023-08-03",
+  "last_email": "2026-09-02",
+  "last_meet": null,
+  "last_touch": "2026-09-02",
+  "status_since": "2023-10-02"
+ },
+ "293727067": {
+  "first_email": "2023-09-21",
+  "last_email": "2026-10-01",
+  "last_meet": null,
+  "last_touch": "2026-10-01",
+  "status_since": "2026-02-20"
+ },
+ "293727283": {
+  "first_email": "2023-10-11",
+  "last_email": "2024-08-16",
+  "last_meet": null,
+  "last_touch": "2024-08-16",
+  "status_since": "2023-11-30"
+ },
+ "289771184": {
+  "first_email": null,
+  "last_email": null,
+  "last_meet": null,
+  "last_touch": null,
+  "status_since": "2026-06-23"
+ },
+ "293729437": {
+  "first_email": "2024-07-17",
+  "last_email": "2026-08-18",
+  "last_meet": null,
+  "last_touch": "2026-08-18",
+  "status_since": "2024-11-07"
+ },
+ "293729558": {
+  "first_email": "2025-12-10",
+  "last_email": "2026-03-13",
+  "last_meet": null,
+  "last_touch": "2026-03-13",
+  "status_since": "2026-03-13"
+ },
+ "293728956": {
+  "first_email": "2024-08-16",
+  "last_email": "2026-05-27",
+  "last_meet": null,
+  "last_touch": "2026-05-27",
+  "status_since": "2026-08-27"
  }
 }
