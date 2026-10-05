@@ -482,11 +482,13 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
             pt["moved"] = (f.get("now") if f.get("status") == "moved"
                            and pt["external"] not in EMP_OVERRIDES else None)
             known.add(norm_name(pt["external"]))
-        # a contact whose primary role moved elsewhere (Harmonic) is demoted below
-        # every current-at-fund path regardless of strength — the ⚠ keeps the context;
-        # within each group, strength then most recent touch wins
-        e["points"] = sorted(e.get("points") or [], key=lambda pt: (
-            bool(pt.get("unverified")), bool(pt.get("moved")), -(pt.get("pct") or 0),
+        # a contact whose primary role moved elsewhere (Harmonic) is no longer a
+        # path INTO this fund: drop from strongest-paths entirely (they keep their
+        # ⚠ entry in the dossier contact lists); unverified email-only edges sort last
+        e["points"] = sorted((pt for pt in e.get("points") or []
+                              if not pt.get("moved")),
+                             key=lambda pt: (
+            bool(pt.get("unverified")), -(pt.get("pct") or 0),
             -int((pt.get("last") or "0").replace("-", "")[:8] or 0)))
         if e["kind"] == "fund":
             ef = efunds.get(slug, {})
