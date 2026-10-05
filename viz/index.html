@@ -124,6 +124,8 @@ tbody tr.mainrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2
 .ufproof a:hover{text-decoration:underline}
 .covword{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px}
 .covword.strong{color:var(--covered-ink)} .covword.medium{color:var(--thin-ink)} .covword.weak{color:var(--gap-ink)}
+.covcmp{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px;color:var(--muted);white-space:nowrap}
+.covcmp .strong{color:var(--covered-ink)} .covcmp .medium{color:var(--thin-ink)} .covcmp .weak{color:var(--gap-ink)}
 .nm{font-size:11.5px;font-weight:700;margin-bottom:4px}
 .nm.live{color:var(--covered-ink)} .nm.warm{color:var(--thin-ink)} .nm.gap{color:var(--gap-ink)}
 #starthere{margin:16px 0 2px}
@@ -707,7 +709,9 @@ function rowHTML(e){
   const covWord = {strong:'covered',medium:'thin',weak:'gap'}[v.tier]||'';
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
-    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div><div class="covword ${v.tier}">${covWord}</div>${state.person?`<div class="teamcov" style="margin-top:2px">team ${e.connectivity}</div>`:''}</td>
+    <td class="covtd"><div class="covcell">${ring(v.cov, v.tier, 38)}<b>${v.cov}</b></div>${state.person
+      ?`<div class="covcmp"><span class="${v.tier}">you</span> · team ${e.connectivity}</div>`
+      :`<div class="covword ${v.tier}">${covWord}</div>`}</td>
     <td class="relcell">${relCell}</td>
     <td><div class="chips">${chipHTML(e)}</div></td>
     <td>${ptsHTML(e)}</td>
@@ -1326,21 +1330,39 @@ function render(){
   if(state.view==='unt'){ untHTML(); return; }
   if(sh && !state.trip){
     sh.innerHTML='';
-    if(state.view==='funds' && !state.q && !state.person){
-      const top=[...E().filter(e=>e.kind==='fund')].sort((a,b)=>(b.gap||0)-(a.gap||0)).slice(0,3);
-      if(top.length){
-        sh.innerHTML = `<div class="shhead">Start here — most relevant funds where we're weakest</div><div class="shrow">`+
-          top.map(e=>{
-            const nm=nextMove(e)||{cls:'gap',txt:''};
-            const t0=e.uf&&(e.uf.top||[])[0];
-            const why=[e.relevance?`relevance ${e.relevance.total}`:null,
-                       e.uf&&e.uf.high?`backs ${e.uf.high} high-prio ${e.uf.high>1?'cos':'co'}`:null,
-                       t0?`top: ${t0.name}${ufBadge(t0.score)}`:null].filter(Boolean).join(' · ');
-            return `<div class="shcard" data-slug="${e.slug}" tabindex="0" role="button">
-              <div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div>
-              <div class="shwhy">${why}</div>
-              <div class="nm ${nm.cls}">${nm.txt}</div></div>`;
+    if(state.view==='funds' && !state.q){
+      const shCard=(e, verdict, why)=>`<div class="shcard" data-slug="${e.slug}" tabindex="0" role="button">
+          <div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div>
+          <div class="shwhy">${why}</div>
+          <div class="nm ${verdict.cls}">${verdict.txt}</div></div>`;
+      const whyLine=e=>{
+        const t0=e.uf&&(e.uf.top||[])[0];
+        return [e.relevance?`relevance ${e.relevance.total}`:null,
+                e.uf&&e.uf.high?`backs ${e.uf.high} high-prio ${e.uf.high>1?'cos':'co'}`:null,
+                t0?`top: ${t0.name}${ufBadge(t0.score)}`:null].filter(Boolean).join(' · ');
+      };
+      const funds=E().filter(e=>e.kind==='fund' && !ACCELCAT[e.category]);
+      const byRel=(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0);
+      let html='';
+      if(!state.person){
+        const top=funds.filter(e=>e.connectivity<50).sort(byRel).slice(0,3);
+        if(top.length) html=`<div class="shhead">Start here — the most relevant funds we under-cover</div><div class="shrow">`+
+          top.map(e=>shCard(e, nextMove(e)||{cls:'gap',txt:''}, whyLine(e))).join('')+`</div>`;
+      } else {
+        const fn=state.person.split(' ')[0];
+        const borrow=funds.filter(e=>personCov(e,state.person)<22 && e.connectivity>=50 && (e.points||[]).length)
+          .sort(byRel).slice(0,3);
+        const ground=funds.filter(e=>e.connectivity<22).sort(byRel).slice(0,3);
+        if(borrow.length) html+=`<div class="shhead">Raise your coverage, ${fn} — relevant funds the team can open for you</div><div class="shrow">`+
+          borrow.map(e=>{const p=e.points[0];
+            return shCard(e, {cls:'warm', txt:`Get introduced — ask ${p.internal.split(' ')[0]} (knows ${p.external}${p.pct!=null?` · ${p.pct}%`:''})`},
+              `relevance ${e.relevance?e.relevance.total:'—'} · team ${e.connectivity}, you ${personCov(e,state.person)}`);
           }).join('')+`</div>`;
+        if(ground.length) html+=`<div class="shhead" style="margin-top:14px">Open new ground — relevant funds no one at Highland covers yet</div><div class="shrow">`+
+          ground.map(e=>shCard(e, nextMove(e)||{cls:'gap',txt:''}, whyLine(e))).join('')+`</div>`;
+      }
+      if(html){
+        sh.innerHTML=html;
         sh.querySelectorAll('.shcard').forEach(c=>{
           const go=()=>{toggleRow(c.dataset.slug);
             document.querySelector(`tr.mainrow[data-slug="${CSS.escape(c.dataset.slug)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});};
