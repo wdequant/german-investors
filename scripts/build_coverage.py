@@ -218,6 +218,10 @@ for _k in REGION_CFG:
                 _uf_dom[_c["domain"].lower()] = max(_sc, _uf_dom.get(_c["domain"].lower(), 0))
             if _c.get("name"):
                 _uf_name[_c["name"].lower()] = max(_sc, _uf_name.get(_c["name"].lower(), 0))
+for _d, _sc in (load_json(f"{ROOT}/data/enrich/unframe-fill.json", {}) or {}).items():
+    if isinstance(_sc, (int, float)) and _sc > 0:
+        _k = _d.lower().removeprefix("www.")
+        _uf_dom[_k] = max(_sc, _uf_dom.get(_k, 0))
 _uf_of = lambda o: (_uf_dom.get((o.get("domain") or "").lower().removeprefix("www."))
                     or _uf_name.get((o.get("name") or "").lower()))
 
@@ -258,8 +262,8 @@ for _d, _p in _profiles_raw.items():
     if not _p or not _p.get("name"):
         continue
     _desc = (_p.get("desc") or "").strip()
-    if len(_desc) > 200:
-        _desc = _desc[:200].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
+    if len(_desc) > 300:
+        _desc = _desc[:300].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
     elif len(_desc) >= 165 and _desc[-1] not in ".!?":   # fetch-side mid-word cut
         _desc = _desc.rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
     _profiles[_d] = {k: v for k, v in {

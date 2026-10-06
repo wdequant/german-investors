@@ -167,10 +167,15 @@ def backfill_linkedin(entities, li_index):
     return filled
 
 
+# assistants / PAs at funds: real relationships, but not investor paths in
+CONTACT_EXCLUDE = {"Ifet Lawrence"}
+
+
 def clean_rels(rels):
-    """Drop Affinity relationships held only by ex-staff before any scoring."""
+    """Drop ex-staff edges and non-investor contacts (PAs) before any scoring."""
     return [r for r in (rels or [])
-            if NAME_MAP.get(r.get("internal"), r.get("internal")) not in EX_STAFF]
+            if NAME_MAP.get(r.get("internal"), r.get("internal")) not in EX_STAFF
+            and r.get("external") not in CONTACT_EXCLUDE]
 
 
 def contact_weight(title, external=False):

@@ -131,7 +131,11 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .commline{color:var(--ink2)}
 .apdesc{font-size:12.5px;color:var(--ink2);line-height:1.5;margin:6px 0 2px;max-width:860px;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.gcard{padding:12px 16px}
+.gcard{padding:14px 16px}
+.gflex{display:flex;gap:16px;align-items:flex-start}
+.gbub{display:flex;flex-direction:column;align-items:center;flex:none;gap:3px}
+.gbody{flex:1;min-width:0}
+.apdesc.full{display:block;-webkit-line-clamp:unset;max-width:none}
 .gstat{flex:none;font-size:11px;font-weight:650;color:var(--ink2);background:var(--surface);
   border:1px solid var(--hair2);border-radius:999px;padding:3px 10px;white-space:nowrap}
 .apmeta b{font-weight:650}
@@ -139,7 +143,15 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .appath a:hover{border-bottom-color:var(--ink2)}
 .apcard .fname{font-size:14.5px}
 .aph2{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.apstats{display:flex;gap:22px;flex:none}
+.apstats{display:flex;gap:18px;flex:none}
+.bub{width:46px;height:46px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;
+  font-weight:750;font-size:15.5px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.bub.big{width:56px;height:56px;font-size:18px}
+.bub.strong{background:var(--c-lead);color:var(--covered-ink)}
+.bub.medium{background:var(--c-awaiting);color:var(--thin-ink)}
+.bub.low{background:var(--hair2);color:var(--ink2)}
+.bub.weak{background:var(--c-hard);color:var(--gap-ink)}
+.bub.none{background:var(--surface);border:1px dashed var(--hair);color:var(--muted)}
 .apstat{display:flex;flex-direction:column;align-items:center;min-width:52px}
 .apstat .covnum{font-size:23px}
 .apstat .covcap{font-size:8.5px;margin-top:2px;white-space:nowrap}
@@ -281,6 +293,17 @@ tr.detailrow td{background:none;box-shadow:none}
 .dtile.go:hover,.dcity.go:hover{border-color:var(--ink2)}
 .dtlabel{font-size:12px;font-weight:700;margin-bottom:10px}
 .dtnum .covnum{font-size:30px}
+.dring{display:flex;align-items:center;gap:14px;margin:4px 0 8px}
+.covcell.big b{font-size:20px;font-weight:750}
+.dringcap{display:flex;flex-direction:column}
+.dlist{margin-top:11px;border-top:1px solid var(--hair2);padding-top:9px;display:flex;flex-direction:column;gap:3px}
+.dlh{font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.dli{font-size:12px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:6px;justify-content:space-between}
+.dli .cc{font-weight:500}
+.dlib{min-width:26px;text-align:center;border-radius:999px;padding:1px 7px;font-size:10.5px;font-weight:700}
+.dlib.strong{background:var(--c-lead);color:var(--covered-ink)}
+.dlib.medium{background:var(--c-awaiting);color:var(--thin-ink)}
+.dlib.low{background:var(--hair2);color:var(--ink2)}
 .dtnum{display:inline-flex;flex-direction:column}
 .dtduo{display:flex;gap:28px}
 .dtnum .covcap{margin-top:3px}
@@ -640,7 +663,7 @@ th.sk:hover{color:var(--accent-ink)}
   <div class="sheetbody"><div class="detail" id="sheetdetail"></div></div>
 </div>
 
-<p class="note" id="method"><b>Method.</b> Relevance (funds) = stage fit 25 · sector fit 25 · Europe share 20 ·
+<p class="note" id="method" style="max-width:none"><b>Method.</b> Relevance (funds) = stage fit 25 · sector fit 25 · Europe share 20 ·
 activity 15 · graduation 15. Relevance (angels) = deal velocity + unicorns + syndication with covered funds +
 presence on our pipeline cap tables. Coverage = 55% Harmonic team-network + 45% Affinity partnership
 relationships (incl. Laurence, Fergal, Ronan), multiplied by a recency decay (≤6m ×1.0 · ≤1y ×0.9 · ≤2y ×0.5 ·
@@ -802,6 +825,10 @@ let SHORT = [];
 try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
 const shKey = s => s.t+'|'+s.name;
 const PROF = D.profiles||{};
+const FLAG = {germany:'🇩🇪', nordics:'🇸🇪🇩🇰🇳🇴🇫🇮', france:'🇫🇷', us:'🇺🇸'};
+const ufTierOf = v => v==null?'none':v>=85?'strong':v>=70?'medium':'low';
+const easeTierOf = v => !v?'none':v>=50?'strong':v>=22?'medium':'weak';
+const bub = (v,tier,cap,big) => `<span class="apstat"><span class="bub${big?' big':''} ${tier}">${v??'—'}</span><span class="covcap">${cap}</span></span>`;
 const profOf = o => PROF[((o&&o.domain)||'').toLowerCase().replace(/^www\./,'')] || {};
 const hcBit = pr => pr.hc==null?null:`${pr.hc} FTE${pr.hg!=null?` <b style="color:${growthColor(pr.hg)}">${pr.hg>0?'+':''}${Math.round(pr.hg)}% YoY</b>`:''}`;
 const bizBits = pr => [hcBit(pr),
@@ -874,9 +901,9 @@ function renderDash(){
     const you=me?avg(rel.map(e=>personCov(e,me))):team;
     const gaps=rel.filter(e=>(me?personCov(e,me):e.connectivity)<22).length;
     return `<div class="dtile go" data-go-region="${r}">
-      <div class="dtlabel">${D.regions[r].label}</div>
-      <div class="dtnum"><b class="covnum ${tierOf(you)}">${you}</b><span class="covcap">${me?'your':'team'} coverage</span></div>
-      ${me?`<div class="dtsub">team ${team}</div>`:''}
+      <div class="dtlabel">${FLAG[r]||''} ${D.regions[r].label}</div>
+      <div class="dring"><div class="covcell big">${ring(you, tierOf(you), 62)}<b>${you}</b></div>
+        <div class="dringcap"><span class="covcap">${me?'your':'team'} coverage</span>${me?`<div class="dtsub" style="margin-top:3px">team ${team}</div>`:''}</div></div>
       <div class="dtsub ${gaps?'warn':''}">${gaps?`${gaps} relevant fund${gaps>1?'s':''} you can't reach`:'all relevant funds reachable'}</div>
     </div>`;
   }).join('');
@@ -896,29 +923,40 @@ function renderDash(){
 
   // --- cities worth a trip: pipeline weight + relevant-fund gap weight ---
   const cities={};
+  const blank=()=>({funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set(),topco:[],topf:[]});
   ALLE.forEach(({r,e})=>{
     const fc=cityOf(e);
     if(e.kind==='fund'&&fc&&(e.relevance?.total||0)>=55&&!ACCELCAT[e.category]){
-      const c=cities[fc]=cities[fc]||{funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set()};
+      const c=cities[fc]=cities[fc]||blank();
       c.funds++; const pc=me?personCov(e,me):e.connectivity;
       c.gapW+=(e.relevance.total/100)*(1-pc/100); c.str.push(pc);
+      c.topf.push({n:e.name, rel:e.relevance.total, pc});
     }
     Object.values(e.buckets||{}).forEach(l=>l.forEach(p=>{
       if(!p.city) return; const mc=metroOf(p.city); if(!mc) return;
       if(me&&!(p.own||[]).includes(me)) return;
-      const c=cities[mc]=cities[mc]||{funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set()};
-      if(!c.names.has(p.id)){ c.names.add(p.id); c.pipe++; if((p.uf||0)>=70) c.hiPipe++; }
+      const c=cities[mc]=cities[mc]||blank();
+      if(!c.names.has(p.id)){ c.names.add(p.id); c.pipe++; if((p.uf||0)>=70) c.hiPipe++;
+        c.topco.push({n:p.name, uf:p.uf}); }
     }));
   });
+  // London is home for everyone except Fergal, Irena and Tony — don't suggest it to Londoners
+  const AWAY=['Fergal Mullen','Irena Goldenberg','Tony Zappala'];
+  if(!me || !AWAY.includes(me)) delete cities['London'];
   const ranked=Object.entries(cities)
     .map(([city,c])=>({city,...c,score:c.pipe*0.6+c.hiPipe*1.2+c.gapW*1.6}))
     .filter(c=>c.score>0.8).sort((a,b)=>b.score-a.score).slice(0,5);
-  const cityCards=ranked.map(c=>`<div class="dcity go" data-go-city="${c.city}">
+  const cityCards=ranked.map(c=>{
+    const tc=c.topco.sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,3);
+    const tf=c.topf.sort((a,b)=>b.rel-a.rel).slice(0,3);
+    return `<div class="dcity go" data-go-city="${c.city}">
     <div class="fname">${c.city}</div>
     <div class="dtsub">${[c.pipe?`${c.pipe} of ${me?'your':'our'} pipeline${c.hiPipe?` (${c.hiPipe} high-prio)`:''}`:null,
       c.funds?`${c.funds} relevant fund${c.funds>1?'s':''}${c.str.length?` · ${me?'your':'team'} strength ${avg(c.str)}`:''}`:null]
       .filter(Boolean).join(' · ')}</div>
-  </div>`).join('');
+    ${tc.length?`<div class="dlist"><span class="dlh">Companies to visit</span>${tc.map(x=>`<span class="dli"><span>${x.n}</span>${x.uf!=null?`<b class="dlib ${ufTierOf(Math.round(x.uf))}">${Math.round(x.uf)}</b>`:''}</span>`).join('')}</div>`:''}
+    ${tf.length?`<div class="dlist"><span class="dlh">Funds to visit</span>${tf.map(x=>`<span class="dli"><span>${x.n}</span><span class="cc">rel ${x.rel}${me?` · you ${x.pc}`:''}</span></span>`).join('')}</div>`:''}
+  </div>`;}).join('');
 
   w.innerHTML=`
     <header class="dhero"><div class="kicker">Highland Europe · relationship intelligence · ${D.generated}</div>
@@ -929,13 +967,12 @@ function renderDash(){
     <div class="dgrid r2" style="margin-top:14px">
       <div class="dtile go" data-go-page="h2c">
         <div class="dtlabel">${fn?fn+"'s":'Our'} hard to cracks</div>
-        <div class="dtduo"><span class="dtnum"><b class="covnum">${mine.length}</b><span class="covcap">companies</span></span>
-        <span class="dtnum"><b class="covnum ${reach.length?'strong':'weak'}">${mine.length?Math.round(100*reach.length/mine.length):0}%</b><span class="covcap">reachable via network</span></span></div>
+        <div class="dtduo">${bub(mine.length,'low','companies',true)}${bub((mine.length?Math.round(100*reach.length/mine.length):0)+'%', reach.length?'strong':'weak', 'reachable via network', true)}</div>
         ${top3.length?`<div class="dtsub">top: ${top3.map(c=>c.name).join(' · ')}</div>`:''}
       </div>
       <div class="dtile go" data-go-page="net">
         <div class="dtlabel">Build ${fn?fn+"'s":'the'} network</div>
-        <div class="dtnum"><b class="covnum ${borrow.length?'medium':'strong'}">${borrow.length}</b><span class="covcap">intros the team can make you</span></span></div>
+        <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
         ${borrow.length?`<div class="dtsub">start with ${borrow[0].e.name} — ask ${borrow[0].e.points[0].internal.split(' ')[0]}</div>`:''}
       </div>
     </div>
@@ -1044,8 +1081,7 @@ function apHtc(){
                  !m.last_email&&!m.last_meet&&m.last_touch?`last touch ${fmtD(m.last_touch)}`:null,
                  m.status_since?`H2C for ${since(m.status_since)}`:null].filter(Boolean).join(' · ');
     return `<div class="apcard hcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
-      <div class="apstats"><span class="apstat"><b class="covnum ${ufTier}">${ufV??'—'}</b><span class="covcap">unframe</span></span>
-      <span class="apstat"><b class="covnum ${eV?eTier:''}">${eV||'—'}</b><span class="covcap">ease of access</span></span></div></div>
+      <div class="apstats">${bub(ufV, ufTierOf(ufV), 'unframe')}${bub(eV||null, easeTierOf(eV), 'ease of access')}</div></div>
       <div class="apmeta hmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
       <div class="hgrid"><div class="hleft">
         ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:'<div class="apdesc" style="color:var(--muted)">No company profile yet.</div>'}
@@ -1066,13 +1102,19 @@ function apNet(){
   if(!who) return `<div class="aphint">Pick who you are above — this view is personal by design.</div>`;
   const funds=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]);
   const byRel=(a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0);
-  const borrow=funds.filter(x=>personCov(x.e,who)<22&&x.e.connectivity>=50&&(x.e.points||[]).length).sort(byRel).slice(0,6);
-  const ground=funds.filter(x=>x.e.connectivity<22).sort(byRel).slice(0,6);
+  const borrow=funds.filter(x=>personCov(x.e,who)<30&&x.e.connectivity>=50&&(x.e.points||[]).length).sort(byRel).slice(0,14);
+  const ground=funds.filter(x=>x.e.connectivity<22).sort(byRel).slice(0,10);
   const bCards=borrow.map(({r,e})=>{
     const p=e.points[0];
     const ev=evidence(p);
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+    const rr=e.relevance||{}, t0=e.uf&&(e.uf.top||[])[0];
+    const why=[rr.stage>=22?'stage fit':null, rr.sector>=20?'sector fit':null,
+      e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}`:null,
+      t0?`top: ${t0.name}${t0.score?` ${Math.round(t0.score)}`:''}`:null,
+      (e.coinvest||[]).length?`co-invested ×${e.coinvest.length}`:null].filter(Boolean).join(' · ');
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${FLAG[r]||''} ${D.regions[r].label}</span></div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · team ${e.connectivity}, you ${personCov(e,who)}</div>
+      ${why?`<div class="apdesc">${why}</div>`:''}
       <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}</div>
       <div class="apacts">
         <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
@@ -1147,9 +1189,12 @@ function apGeo(){
     const pr=profOf(p);
     const meta=[...bizBits(pr), p.via&&p.via.size?'via '+[...p.via].slice(0,2).join(', '):null,
       !who&&(p.own||[]).length?p.own.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ');
-    return `<div class="apcard gcard"><div class="aph2"><div class="fname">${starBtn('co',p.name,city)}<a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a>${ufBadge(p.uf)}</div><span class="gstat">${(p.funnel||'').replace(' (free for all)','')}</span></div>
-    ${pr.d?`<div class="apdesc">${pr.d}</div>`:''}
-    ${meta?`<div class="apmeta">${meta}</div>`:''}</div>`;}).join('');
+    const ufR=p.uf!=null?Math.round(p.uf):null;
+    return `<div class="apcard gcard"><div class="gflex">
+    <span class="apstat gbub">${`<span class="bub big ${ufTierOf(ufR)}">${ufR??'—'}</span><span class="covcap">unframe</span>`}</span>
+    <div class="gbody"><div class="aph2"><div class="fname">${starBtn('co',p.name,city)}<a href="${affURL(p.id)}" target="_blank" rel="noopener">${p.name}</a></div><span class="gstat">${(p.funnel||'').replace(' (free for all)','')}</span></div>
+    ${pr.d?`<div class="apdesc full">${pr.d}</div>`:''}
+    ${meta?`<div class="apmeta">${meta}</div>`:''}</div></div></div>`;}).join('');
   const inCity=ALLE.filter(x=>x.e.kind==='fund'&&cityOf(x.e)===city);
   const know=[], cold=[];
   inCity.forEach(({r,e})=>{const pc=who?personCov(e,who):e.connectivity; (pc>0?know:cold).push({r,e,pc});});
@@ -2049,7 +2094,7 @@ addEventListener('hashchange',()=>{  // deep links work without a reload
 // ---------- boot ----------
 readHash();
 const seg = document.getElementById('regionseg');
-REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=D.regions[r].label;b.dataset.r=r;
+REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=(FLAG[r]?FLAG[r]+' ':'')+D.regions[r].label;b.dataset.r=r;
   if(r===state.region)b.classList.add('on');
   b.addEventListener('click',()=>{state.region=r;state.open='';
     seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
