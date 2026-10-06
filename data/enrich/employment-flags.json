@@ -8,6 +8,30 @@
    "Karim Jalbout": {
     "status": "current",
     "now": null
+   },
+   "Andreas Etten": {
+    "status": "current",
+    "now": null
+   },
+   "Felix Haas": {
+    "status": "current",
+    "now": null
+   },
+   "Jan Becker": {
+    "status": "current",
+    "now": null
+   },
+   "Julian Wachtel": {
+    "status": "current",
+    "now": null
+   },
+   "Omar Hedeya": {
+    "status": "moved",
+    "now": "Project A Ventures (Investment Team)"
+   },
+   "Robert Wuttke": {
+    "status": "current",
+    "now": null
    }
   },
   "1kx": {
@@ -16,6 +40,10 @@
     "now": "Nausicaa (Founder & Principal)"
    },
    "Lasse Clausen": {
+    "status": "current",
+    "now": null
+   },
+   "Christopher Heymann": {
     "status": "current",
     "now": null
    }
@@ -50,6 +78,38 @@
    "Christoph Braun": {
     "status": "unknown",
     "now": null
+   },
+   "Benedikt Sudbrock": {
+    "status": "current",
+    "now": null
+   },
+   "Dominik Alvermann": {
+    "status": "current",
+    "now": null
+   },
+   "Frank Seehaus": {
+    "status": "current",
+    "now": null
+   },
+   "Fritz Oidtmann": {
+    "status": "current",
+    "now": null
+   },
+   "Jan-Gisbert Schultze": {
+    "status": "current",
+    "now": null
+   },
+   "Joseph Hefele": {
+    "status": "current",
+    "now": null
+   },
+   "Julius Luehr": {
+    "status": "current",
+    "now": null
+   },
+   "Sebastian Wossagk": {
+    "status": "current",
+    "now": null
    }
   },
   "alstin": {
@@ -60,6 +120,10 @@
    "Lukas Bennemann": {
     "status": "moved",
     "now": "Wunderland Capital (Founding Partner)"
+   },
+   "Andreas Schenk Alstin Capital": {
+    "status": "current",
+    "now": null
    }
   },
   "atlantic-labs": {
@@ -90,6 +154,18 @@
    "Lukas Erbguth": {
     "status": "current",
     "now": null
+   },
+   "Marc-Olivier Luecke": {
+    "status": "current",
+    "now": null
+   },
+   "Markus Ferres": {
+    "status": "moved",
+    "now": "Bain & Company (Manager)"
+   },
+   "Quentin Calleja": {
+    "status": "current",
+    "now": null
    }
   },
   "bayern-kapital": {
@@ -114,6 +190,26 @@
    "Jason Whitmire": {
     "status": "current",
     "now": null
+   },
+   "Christine Fuchs": {
+    "status": "unknown",
+    "now": null
+   },
+   "Ciarán O'Leary": {
+    "status": "current",
+    "now": null
+   },
+   "David Byrd": {
+    "status": "unknown",
+    "now": null
+   },
+   "Jason D. Whitmire": {
+    "status": "current",
+    "now": null
+   },
+   "Michael Wax": {
+    "status": "current",
+    "now": null
    }
   },
   "burda": {
@@ -122,6 +218,22 @@
     "now": null
    },
    "Moro Francesco": {
+    "status": "current",
+    "now": null
+   },
+   "Francesco Moro": {
+    "status": "unknown",
+    "now": null
+   },
+   "Friedrich Von Wulffen": {
+    "status": "current",
+    "now": null
+   },
+   "Luisa Düsberg": {
+    "status": "current",
+    "now": null
+   },
+   "Natalie Schmitke": {
     "status": "current",
     "now": null
    }
@@ -134,6 +246,38 @@
    "Dorothea Gotthardt": {
     "status": "moved",
     "now": "QuantPi (COO)"
+   },
+   "Alexandra Kurmulis": {
+    "status": "current",
+    "now": null
+   },
+   "Benjamin Kleinschnitz": {
+    "status": "current",
+    "now": null
+   },
+   "Franz Diekmann": {
+    "status": "moved",
+    "now": "Basic Ventures (Partner)"
+   },
+   "Lukas Vogt": {
+    "status": "moved",
+    "now": "Sunhat (Co-Founder & CEO)"
+   },
+   "Markus Merz": {
+    "status": "current",
+    "now": null
+   },
+   "Niklas Raberg": {
+    "status": "current",
+    "now": null
+   },
+   "Olaf Jacobi": {
+    "status": "current",
+    "now": null
+   },
+   "Thorben Rothe": {
+    "status": "moved",
+    "now": "IRIS (Partner - Head of Early Stage Germany)"
    }
   },
   "cherry": {
@@ -210,6 +354,22 @@
    "Alexandre Moreillon": {
     "status": "moved",
     "now": "FiveT Hydrogen AG (Investment Director)"
+   },
+   "Heiko Schwender": {
+    "status": "current",
+    "now": null
+   },
+   "Judith Vogel": {
+    "status": "current",
+    "now": null
+   },
+   "Paul Morgenthaler": {
+    "status": "current",
+    "now": null
+   },
+   "Stefan Tirtey": {
+    "status": "unknown",
+    "now": null
    }
   },
   "discovery-ventures": {
@@ -230,6 +390,10 @@
    "Charlotte Küppers": {
     "status": "moved",
     "now": "LOOSH (Co-Founder & CMO)"
+   },
+   "Peter Richarz": {
+    "status": "current",
+    "now": null
    }
   },
   "earlybird": {
@@ -510,6 +674,14 @@
    "Stefan Walter": {
     "status": "unknown",
     "now": null
+   },
+   "Fabian Krautwurst": {
+    "status": "current",
+    "now": null
+   },
+   "Jackie Kroyer": {
+    "status": "current",
+    "now": null
    }
   },
   "picus": {
@@ -638,6 +810,22 @@
    "Marco Stutz": {
     "status": "unknown",
     "now": null
+   },
+   "Ben Scheidt": {
+    "status": "current",
+    "now": null
+   },
+   "Michael Brehm": {
+    "status": "current",
+    "now": null
+   },
+   "Mikael Myllymäki": {
+    "status": "current",
+    "now": null
+   },
+   "Richard Würl": {
+    "status": "current",
+    "now": null
    }
   },
   "uvc-partners": {
@@ -648,6 +836,30 @@
    "Andreas Unseld": {
     "status": "unknown",
     "now": null
+   },
+   "Alexander Kiltz": {
+    "status": "current",
+    "now": null
+   },
+   "Dr. Ingo Potthof": {
+    "status": "current",
+    "now": null
+   },
+   "Johannes Von Borries": {
+    "status": "unknown",
+    "now": null
+   },
+   "Marc Kühn": {
+    "status": "moved",
+    "now": "Lakestar (Deep Tech Investor)"
+   },
+   "Oliver Schoppe": {
+    "status": "current",
+    "now": null
+   },
+   "Renate Fuhrich": {
+    "status": "current",
+    "now": null
    }
   },
   "vsquared": {
@@ -656,6 +868,46 @@
     "now": null
    },
    "Benedikt von Schoeler": {
+    "status": "current",
+    "now": null
+   },
+   "Gina Krymalowski": {
+    "status": "current",
+    "now": null
+   },
+   "Herbert Mangesius": {
+    "status": "current",
+    "now": null
+   },
+   "Michael Jobst": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "ta-ventures": {
+   "Oleg Malenkov": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "bosch-ventures": {
+   "Heribert Uhl": {
+    "status": "current",
+    "now": null
+   },
+   "Sascha Fritz": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "possible-ventures": {
+   "Chris Hitchen": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "mig-capital": {
+   "Andreas Kastenbauer": {
     "status": "current",
     "now": null
    }
@@ -680,6 +932,62 @@
    "Rita Cherradi": {
     "status": "moved",
     "now": "Sie Ventures (Investor)"
+   },
+   "Adriana Beattie": {
+    "status": "moved",
+    "now": "Deloitte (Analyst)"
+   },
+   "Darren Murphy": {
+    "status": "unknown",
+    "now": null
+   },
+   "Desmond Poon": {
+    "status": "current",
+    "now": null
+   },
+   "Hannah Leach": {
+    "status": "current",
+    "now": null
+   },
+   "Helena Barman": {
+    "status": "current",
+    "now": null
+   },
+   "Job Wever": {
+    "status": "current",
+    "now": null
+   },
+   "Lea Bajc": {
+    "status": "moved",
+    "now": "Marlow Capital (Venture Partner)"
+   },
+   "Mathias Owing Maanum": {
+    "status": "current",
+    "now": null
+   },
+   "Michael Wiatr Aagaard": {
+    "status": "current",
+    "now": null
+   },
+   "Ollie Purdue": {
+    "status": "moved",
+    "now": "Shuffle (CEO & Co-founder)"
+   },
+   "Richard Baillie": {
+    "status": "current",
+    "now": null
+   },
+   "Sarah Finegan": {
+    "status": "current",
+    "now": null
+   },
+   "Shambhavi Mishra": {
+    "status": "current",
+    "now": null
+   },
+   "Tobias Bengtsdahl": {
+    "status": "current",
+    "now": null
    }
   },
   "byfounders": {
@@ -796,6 +1104,106 @@
    "Kilian Pender": {
     "status": "moved",
     "now": "Birchway (Founding Partner)"
+   },
+   "Alexander Agureev": {
+    "status": "current",
+    "now": null
+   },
+   "Anjum Rangwala": {
+    "status": "moved",
+    "now": "EQT Foundation (Vice President)"
+   },
+   "Deepka Rana": {
+    "status": "moved",
+    "now": "Stealth startup (Founder)"
+   },
+   "Dennis Eriksson": {
+    "status": "current",
+    "now": null
+   },
+   "Dominik Esen": {
+    "status": "current",
+    "now": null
+   },
+   "Elena Pantazi": {
+    "status": "current",
+    "now": null
+   },
+   "Georgia Stevenson": {
+    "status": "moved",
+    "now": "Index Ventures (Partner)"
+   },
+   "Hans Otterling": {
+    "status": "current",
+    "now": null
+   },
+   "Henrik Grim": {
+    "status": "moved",
+    "now": "Mimo (CEO & Co-founder)"
+   },
+   "Jackson Heddy": {
+    "status": "current",
+    "now": null
+   },
+   "Jeppe Zink": {
+    "status": "current",
+    "now": null
+   },
+   "Jessica Schultz": {
+    "status": "unknown",
+    "now": null
+   },
+   "Manavi Mehra": {
+    "status": "current",
+    "now": null
+   },
+   "Markus Gleim": {
+    "status": "moved",
+    "now": "HSG (Managing Director)"
+   },
+   "Marlowe Cameron": {
+    "status": "current",
+    "now": null
+   },
+   "Maxine Rior": {
+    "status": "moved",
+    "now": "Stealth startup (Founder)"
+   },
+   "Michiel Kotting": {
+    "status": "current",
+    "now": null
+   },
+   "Molly Alter": {
+    "status": "current",
+    "now": null
+   },
+   "Molly Cooke": {
+    "status": "current",
+    "now": null
+   },
+   "Pascual Cortes-Monroy": {
+    "status": "current",
+    "now": null
+   },
+   "Pascual Cortés-Monroy E.": {
+    "status": "current",
+    "now": null
+   },
+   "Pär-Jörgen Pärson": {
+    "status": "current",
+    "now": null
+   },
+   "Sam Endacott": {
+    "status": "current",
+    "now": null
+   },
+   "Sanjot Malhi": {
+    "status": "current",
+    "now": null
+   },
+   "William Jilltoft": {
+    "status": "current",
+    "now": null
    }
   },
   "seed-capital": {
