@@ -922,6 +922,18 @@
    "Johan Gjesdahl": {
     "status": "current",
     "now": null
+   },
+   "Anders Hallin": {
+    "status": "current",
+    "now": null
+   },
+   "Bente Loe": {
+    "status": "current",
+    "now": null
+   },
+   "Stine Mølgaard": {
+    "status": "current",
+    "now": null
    }
   },
   "antler": {
@@ -998,6 +1010,42 @@
    "Eric Lagier": {
     "status": "current",
     "now": null
+   },
+   "Camille Zivré": {
+    "status": "current",
+    "now": null
+   },
+   "Caroline Frantl-Larsson": {
+    "status": "moved",
+    "now": "Canute by Thursday (Head of Networks - Founders Growth Club)"
+   },
+   "Casper Bjarnason": {
+    "status": "current",
+    "now": null
+   },
+   "Deina Kellezi": {
+    "status": "unknown",
+    "now": null
+   },
+   "Juha Christensen": {
+    "status": "current",
+    "now": null
+   },
+   "Magnus Hambleton": {
+    "status": "current",
+    "now": null
+   },
+   "Martin Krag": {
+    "status": "current",
+    "now": null
+   },
+   "Nathaniel Stummann": {
+    "status": "moved",
+    "now": "Fload (Chief of Staff)"
+   },
+   "Sara Rywe": {
+    "status": "current",
+    "now": null
    }
   },
   "creandum": {
@@ -1008,6 +1056,70 @@
    "Ellen Lee": {
     "status": "moved",
     "now": "Modal (Marketing/Growth)"
+   },
+   "Beatrice Rellman": {
+    "status": "current",
+    "now": null
+   },
+   "Cameron Sellers": {
+    "status": "current",
+    "now": null
+   },
+   "Carl Fritjofsson": {
+    "status": "current",
+    "now": null
+   },
+   "Daniel Blomquist": {
+    "status": "current",
+    "now": null
+   },
+   "Einar Sandell": {
+    "status": "moved",
+    "now": "Hansen Advokatbyrå (Senior Associate)"
+   },
+   "Fredrik Cassel": {
+    "status": "current",
+    "now": null
+   },
+   "Gemma Bloemen": {
+    "status": "moved",
+    "now": "Systemiq Capital (Full-time Venture Partner)"
+   },
+   "Hanel Baveja": {
+    "status": "current",
+    "now": null
+   },
+   "Isabelle Sandblom": {
+    "status": "current",
+    "now": null
+   },
+   "Jakob Stein": {
+    "status": "current",
+    "now": null
+   },
+   "Lauri Lehtmaa": {
+    "status": "moved",
+    "now": "Fundra (Founder)"
+   },
+   "Lisa Jochum": {
+    "status": "unknown",
+    "now": null
+   },
+   "Michelle Coventry": {
+    "status": "unknown",
+    "now": null
+   },
+   "Peter Specht": {
+    "status": "current",
+    "now": null
+   },
+   "Sarah Otter": {
+    "status": "current",
+    "now": null
+   },
+   "Staffan Helgesson": {
+    "status": "current",
+    "now": null
    }
   },
   "eqt-ventures": {
@@ -1017,6 +1129,78 @@
    },
    "Nitya Hinduja": {
     "status": "current",
+    "now": null
+   },
+   "Alastair Mitchell": {
+    "status": "moved",
+    "now": "Odyssey Ventures (Managing Partner)"
+   },
+   "Ashley Lundström": {
+    "status": "moved",
+    "now": "Stealth startup (Co-Founder)"
+   },
+   "Bartosz Jakubowski": {
+    "status": "moved",
+    "now": "Alven (Venture Partner)"
+   },
+   "Camilla Hellgren": {
+    "status": "current",
+    "now": null
+   },
+   "Claire Brown": {
+    "status": "unknown",
+    "now": null
+   },
+   "Emilia Franklin": {
+    "status": "moved",
+    "now": "independent / no current role listed"
+   },
+   "Kees Koolen": {
+    "status": "current",
+    "now": null
+   },
+   "Lars Jörnow": {
+    "status": "current",
+    "now": null
+   },
+   "Lucy Wimmer": {
+    "status": "moved",
+    "now": "Accel (Senior Vice President Marketing)"
+   },
+   "Marnix van der Ploeg": {
+    "status": "current",
+    "now": null
+   },
+   "Natasha Niksic": {
+    "status": "moved",
+    "now": "Constellation (Executive Assistant)"
+   },
+   "Naza Metghalchi": {
+    "status": "moved",
+    "now": "Heartcore Capital (Partner)"
+   },
+   "Riccardo Bruni": {
+    "status": "moved",
+    "now": "Heroes (Co-founder)"
+   },
+   "Sai Sriramagiri": {
+    "status": "current",
+    "now": null
+   },
+   "Sandra Malmberg": {
+    "status": "current",
+    "now": null
+   },
+   "Ted Persson": {
+    "status": "current",
+    "now": null
+   },
+   "Tom Mendoza": {
+    "status": "unknown",
+    "now": null
+   },
+   "Zoe Jervier": {
+    "status": "unknown",
     "now": null
    }
   },
@@ -1028,11 +1212,35 @@
    "Tunde Adekeye": {
     "status": "moved",
     "now": "Novee (Chief of Staff)"
+   },
+   "Aleksi Partanen": {
+    "status": "current",
+    "now": null
+   },
+   "Lasse Lehtinen": {
+    "status": "current",
+    "now": null
+   },
+   "Riku Seppälä": {
+    "status": "current",
+    "now": null
+   },
+   "Teddie Wardi": {
+    "status": "current",
+    "now": null
    }
   },
   "industrifonden": {
    "Caroline Wadstein": {
     "status": "unknown",
+    "now": null
+   },
+   "Fredrik Lehmann": {
+    "status": "current",
+    "now": null
+   },
+   "Iliam Barkino": {
+    "status": "current",
     "now": null
    }
   },
@@ -1040,6 +1248,14 @@
    "Tuomas Rekonen": {
     "status": "moved",
     "now": "Endeit Capital"
+   },
+   "Aleksi Huhta": {
+    "status": "current",
+    "now": null
+   },
+   "Lauri Karjalainen": {
+    "status": "current",
+    "now": null
    }
   },
   "inventure": {
@@ -1049,6 +1265,18 @@
    },
    "Linus Dahg": {
     "status": "unknown",
+    "now": null
+   },
+   "Kevin Lösch": {
+    "status": "moved",
+    "now": "Enlace Labs (Co-Founder)"
+   },
+   "Magda Lukaszewicz": {
+    "status": "current",
+    "now": null
+   },
+   "Sami Lampinen": {
+    "status": "current",
     "now": null
    }
   },
@@ -1062,6 +1290,14 @@
    "Caroline Hultman": {
     "status": "unknown",
     "now": null
+   },
+   "Bo Mattsson": {
+    "status": "current",
+    "now": null
+   },
+   "Maja Shapiro": {
+    "status": "current",
+    "now": null
    }
   },
   "lifeline": {
@@ -1072,11 +1308,27 @@
    "Timo Ahopelto": {
     "status": "unknown",
     "now": null
+   },
+   "Elina Holkko": {
+    "status": "current",
+    "now": null
+   },
+   "Juha Lindfors": {
+    "status": "current",
+    "now": null
+   },
+   "Teemu Mattila": {
+    "status": "current",
+    "now": null
    }
   },
   "luminar": {
    "Eira Tobrand": {
     "status": "current",
+    "now": null
+   },
+   "Magnus Bergman": {
+    "status": "unknown",
     "now": null
    }
   },
@@ -1084,6 +1336,14 @@
    "Ella Eskelinen": {
     "status": "moved",
     "now": "Verda (Chief of Staff)"
+   },
+   "Ilkka Kivimäki": {
+    "status": "current",
+    "now": null
+   },
+   "Pauliina Martikainen-Rahnu": {
+    "status": "current",
+    "now": null
    }
   },
   "norrsken": {
@@ -1092,6 +1352,26 @@
     "now": null
    },
    "Cecilia Ma": {
+    "status": "current",
+    "now": null
+   },
+   "Agate Freimane": {
+    "status": "current",
+    "now": null
+   },
+   "Estelle Kulow": {
+    "status": "moved",
+    "now": "Dryft (Chief Of Staff)"
+   },
+   "Luke Richardson": {
+    "status": "moved",
+    "now": "Light (VP Marketing)"
+   },
+   "Niklas Adalberth": {
+    "status": "current",
+    "now": null
+   },
+   "Rebecca Pantzer": {
     "status": "current",
     "now": null
    }
@@ -1214,6 +1494,26 @@
    "Peter Egehoved": {
     "status": "moved",
     "now": "Dreamdata (CFO/COO)"
+   },
+   "Anne Cathrine Wilhjelm": {
+    "status": "current",
+    "now": null
+   },
+   "Christian Brøndum": {
+    "status": "current",
+    "now": null
+   },
+   "Geeta Schmidt": {
+    "status": "current",
+    "now": null
+   },
+   "Lars Andersen": {
+    "status": "unknown",
+    "now": null
+   },
+   "Ulla Brockenhuus-Schack": {
+    "status": "current",
+    "now": null
    }
   },
   "skyfall": {
@@ -1224,6 +1524,14 @@
   },
   "spintop": {
    "Moa Kronborg": {
+    "status": "current",
+    "now": null
+   },
+   "Caritta Seppä": {
+    "status": "current",
+    "now": null
+   },
+   "Jasenko Hadzic": {
     "status": "current",
     "now": null
    }
@@ -1238,12 +1546,100 @@
    "Charlotte Ekelund": {
     "status": "unknown",
     "now": null
+   },
+   "Frida Gerhardson": {
+    "status": "current",
+    "now": null
    }
   },
   "superhero": {
    "Moaffak Ahmed": {
     "status": "moved",
     "now": "Independent investor (former Founding Partner, Superhero Capital)"
+   },
+   "Audrius Milukas": {
+    "status": "current",
+    "now": null
+   },
+   "Juha Ruohonen": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "psv": {
+   "Alexander Viterbo-Horten": {
+    "status": "current",
+    "now": null
+   },
+   "Anders Kjær": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "first-fellow": {
+   "Kim Groop": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "voima": {
+   "Jussi Sainiemi": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "heartcore": {
+   "Björn Nilsen": {
+    "status": "unknown",
+    "now": null
+   },
+   "Bodi Tent": {
+    "status": "unknown",
+    "now": null
+   },
+   "Jimmy Fussing Nielsen": {
+    "status": "current",
+    "now": null
+   },
+   "Jimmy Nielsen": {
+    "status": "current",
+    "now": null
+   },
+   "Laerke Hansen": {
+    "status": "current",
+    "now": null
+   },
+   "Lærke Hansen": {
+    "status": "current",
+    "now": null
+   },
+   "Levin Bunz": {
+    "status": "moved",
+    "now": "Angel investor (ex-GP Heartcore, left Oct 2024)"
+   },
+   "Max Niederhofer": {
+    "status": "current",
+    "now": null
+   },
+   "Signe Marie Sveinbjørnsson": {
+    "status": "current",
+    "now": null
+   },
+   "Signe Sveinbjørnsson": {
+    "status": "current",
+    "now": null
+   },
+   "Yacine Ghalim": {
+    "status": "current",
+    "now": null
+   },
+   "Naza Metghalchi": {
+    "status": "current",
+    "now": null
+   },
+   "Deepka Rana": {
+    "status": "moved",
+    "now": "Stealth startup (Building)"
    }
   }
  },
@@ -1342,6 +1738,10 @@
    "Romain Mombert": {
     "status": "current",
     "now": null
+   },
+   "Abigail Raymond": {
+    "status": "moved",
+    "now": "Noteus Partners (Office Manager)"
    }
   },
   "founders-future": {
@@ -1382,6 +1782,14 @@
    "Jean de La Rochebrochard": {
     "status": "moved",
     "now": "Cassius, General Partner"
+   },
+   "Felix Breucker": {
+    "status": "current",
+    "now": null
+   },
+   "Jean De La Rochebrochard": {
+    "status": "current",
+    "now": null
    }
   },
   "motier": {
