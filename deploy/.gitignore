@@ -1,4 +1,6 @@
 public/index.html
+api/_data.json
+node_modules/
 .vercel/
 .vercel
 .env*

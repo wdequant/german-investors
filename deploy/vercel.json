@@ -1,4 +1,10 @@
 {
+  "functions": {
+    "api/ask.js": {
+      "maxDuration": 60,
+      "includeFiles": "api/_data.json"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",

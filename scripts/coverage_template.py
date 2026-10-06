@@ -315,6 +315,24 @@ tr.detailrow td{background:none;box-shadow:none}
 .flags svg:last-child{margin-right:0}
 .dtnum{display:inline-flex;flex-direction:column}
 .dtduo{display:flex;gap:28px}
+.askcard{background:var(--raise);border:1px solid var(--hair2);border-radius:16px;padding:16px 18px;margin:16px 0 2px}
+.askrow{display:flex;gap:10px}
+.askrow input{flex:1;padding:10px 14px;border:1px solid var(--hair);border-radius:10px;background:var(--surface);color:var(--ink);font-size:13.5px}
+.askrow input:focus{outline:none;border-color:var(--ink2)}
+.askrow button{padding:10px 20px;border:0;border-radius:10px;background:var(--ink);color:var(--surface);font-weight:700;font-size:13px;cursor:pointer}
+.askrow button:disabled{opacity:.45;cursor:default}
+.askchips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.askchips button{border:1px solid var(--hair2);background:transparent;color:var(--ink2);border-radius:999px;padding:5px 13px;font-size:12px;cursor:pointer}
+.askchips button:hover{border-color:var(--ink2);color:var(--ink)}
+.asklog{display:flex;flex-direction:column;gap:10px;margin:0 0 14px;max-height:440px;overflow:auto}
+.askq{align-self:flex-end;max-width:70%;background:var(--hair2);border-radius:14px 14px 4px 14px;padding:9px 14px;font-size:13px;font-weight:600}
+.aska{align-self:flex-start;max-width:85%;background:var(--surface);border:1px solid var(--hair2);border-radius:14px 14px 14px 4px;padding:11px 15px;font-size:13.5px;line-height:1.55}
+.aska.err{color:var(--gap-ink);background:var(--c-hard);border-color:transparent}
+.aska ul{margin:6px 0;padding-left:18px}
+.aska p{margin:0 0 8px}.aska p:last-child{margin-bottom:0}
+.pend .dots i{font-style:normal;animation:blink 1.2s infinite}
+.pend .dots i:nth-child(2){animation-delay:.2s}.pend .dots i:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,100%{opacity:.2}50%{opacity:1}}
 .dsplit{display:flex;gap:22px;align-items:center;margin-top:12px}
 .dsplit .dtduo{flex:none}
 .dprev{flex:1;min-width:0;border-left:1px solid var(--hair2);padding-left:22px;display:flex;flex-direction:column;
@@ -835,6 +853,30 @@ const guessEmail = (name, fmt) => {
   return local+'@'+dom;
 };
 const ALLE = REGIONS.flatMap(r=>D.regions[r].entities.map(e=>({r,e})));
+const BYSLUG = {}; ALLE.forEach(({e})=>{ if(e.slug) BYSLUG[e.slug]=e; });
+// the viewer's own best contact at a tracked fund (team paths dedupe these away)
+const ownDoor=(slug,who)=>{ const e=who&&slug?BYSLUG[slug]:null; if(!e) return null;
+  const tp=(e.top_people||[]).find(x=>x.name===who);
+  const k=((tp&&tp.contacts)||[]).filter(c=>!c.moved&&(c.pct||0)>0).sort((a,b)=>(b.pct||0)-(a.pct||0))[0];
+  return k?{internal:who,external:k.person,pct:k.pct}:null; };
+// all live paths into an H2C company, the viewer's own edges included
+const htcPaths=(c,who)=>{
+  const all=(c.investors||[]).flatMap(i=>{
+    const ps=(i.paths&&i.paths.length?i.paths:(i.best?[i.best]:[])).slice();
+    const o=ownDoor(i.slug,who);
+    if(o&&!ps.some(p=>p&&p.internal===who&&p.external===o.external)) ps.push(o);
+    return ps.filter(p=>p&&p.internal&&!p.moved)
+      .map(p=>({...p,fund:i.name,region:i.region,unt:i.untracked}));
+  }).sort((a,b)=>(b.pct||0)-(a.pct||0));
+  // per external contact: keep the viewer's own edge unless a teammate's is >30pts stronger
+  const byX={}; all.forEach(p=>{const k=p.external||p.fund;(byX[k]=byX[k]||[]).push(p);});
+  const team=Object.values(byX).map(l=>{
+    const s=who?l.find(p=>p.internal===who):null;
+    return (s&&(s.pct||0)>=((l[0].pct||0)-30))?s:l[0];
+  }).sort((a,b)=>(b.pct||0)-(a.pct||0));
+  const self=who?all.find(p=>p.internal===who&&(p.pct||0)>=25):null;
+  return {all, team, self};
+};
 const metroOf = c => METRO[c]||c;
 const ap = {mode:'', who:'', city:'', hsort:'uf'};
 // ---------- shortlist: star anything in a workflow into a persistent "earmarked" rail ----------
@@ -914,6 +956,47 @@ function renderRail(){
     renderRail(); const body=document.getElementById('apbody'); if(body){ body.querySelectorAll('[data-star]').forEach(b=>{b.classList.remove('on');b.textContent='☆';}); } });
 }
 
+// ---------- Ask Sonar: chat over the data via /api/ask ----------
+const CHAT=[], ASK={busy:false};
+const escH=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function mdLite(t){
+  return escH(t).replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').split(/\n{2,}/).map(p=>{
+    const ls=p.split('\n'); let html='', list=[];
+    const flush=()=>{ if(list.length){ html+='<ul>'+list.map(x=>'<li>'+x+'</li>').join('')+'</ul>'; list=[]; } };
+    ls.forEach(l=>{ const m=l.match(/^\s*-\s+(.*)/); if(m) list.push(m[1]);
+      else if(l.trim()){ flush(); html+=(html&&!html.endsWith('</ul>')?'<br>':'')+l; } });
+    flush(); return '<p>'+html+'</p>';
+  }).join('');
+}
+function renderAskLog(){
+  const log=document.getElementById('asklog'); if(!log) return;
+  log.hidden=!CHAT.length&&!ASK.busy;
+  log.innerHTML=CHAT.map(m=>m.role==='user'
+    ?`<div class="askq">${escH(m.text)}</div>`
+    :`<div class="aska${m.err?' err':''}">${mdLite(m.text)}</div>`).join('')
+    +(ASK.busy?'<div class="aska pend">Sonar is checking your data<span class="dots"><i>.</i><i>.</i><i>.</i></span></div>':'');
+  log.scrollTop=log.scrollHeight;
+  const b=document.getElementById('askgo'); if(b) b.disabled=ASK.busy;
+}
+async function sendAsk(q){
+  if(ASK.busy) return;
+  CHAT.push({role:'user',text:q}); ASK.busy=true; renderAskLog();
+  const inp=document.getElementById('askin'); if(inp) inp.value='';
+  let ans, err;
+  try{
+    const r=await fetch('/api/ask',{method:'POST',headers:{'content-type':'application/json'},
+      body:JSON.stringify({who:state.person||'',messages:CHAT.filter(m=>!m.err).map(m=>({role:m.role,content:m.text}))})});
+    const j=await r.json().catch(()=>({}));
+    if(r.ok) ans=j.answer;
+    else if(j.error==='not_configured') err='Chat isn\'t live yet — add ANTHROPIC_API_KEY in the Vercel project settings and redeploy.';
+    else if(r.status===401) err='Your session expired — reload the page and sign in again.';
+    else if(r.status===429) err='Rate limited — give it a few seconds and try again.';
+    else err='Something went wrong answering that ('+(j.detail||j.error||r.status)+'). Try again.';
+  }catch(e2){ err='Couldn\'t reach the chat service — this works on the deployed site.'; }
+  CHAT.push(ans?{role:'assistant',text:ans}:{role:'assistant',text:err,err:true});
+  ASK.busy=false; renderAskLog();
+}
+
 const PAGES={dash:'dashpage',cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage'};
 function renderDash(){
   const w=document.getElementById('dashwrap'); if(!w) return;
@@ -942,8 +1025,7 @@ function renderDash(){
   (D.xhtc||[]).forEach(c=>{if(!seen.has(c.id)){seen.add(c.id);hl.push(c);}});
   const mine=me?hl.filter(c=>(c.owners||[]).includes(me)):hl;
   const reach=mine.filter(c=>(c.investors||[]).some(i=>i.best&&!i.best.moved));
-  const door=c=>((c.investors||[]).filter(i=>i.best&&i.best.internal&&!i.best.moved)
-    .map(i=>({...i.best,fund:i.name})).sort((a,b)=>(b.pct||0)-(a.pct||0)))[0]||null;
+  const door=c=>{ const pd=htcPaths(c,me); return pd.self||pd.team[0]||null; };
   const top4=mine.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,4);
   const hRows=top4.map(c=>{
     const d=door(c), ufV=c.uf!=null?Math.round(c.uf):null;
@@ -1006,6 +1088,18 @@ function renderDash(){
     <header class="dhero"><div class="kicker">Highland Europe · relationship intelligence · ${D.generated}</div>
     <h1>${fn?`Good to see you, ${fn}`:'Your coverage at a glance'}</h1>
     <p class="sub">Where your network is strong, where it isn't, and where to spend the week.</p></header>
+    <div class="askcard">
+      <div class="dph" style="margin-bottom:10px">✦ Ask Sonar</div>
+      <div class="asklog" id="asklog" hidden></div>
+      <form class="askrow" id="askform">
+        <input id="askin" placeholder="Ask about your network — paths in, intros, where to focus" autocomplete="off">
+        <button type="submit" id="askgo">Ask</button>
+      </form>
+      <div class="askchips">${['Who should I build a relationship with next?',
+          top4[0]?`How do I get into ${top4[0].name}?`:null,
+          'Where are my biggest coverage gaps?'].filter(Boolean)
+        .map(q=>`<button type="button" data-q="${q.replace(/"/g,'&quot;')}">${q}</button>`).join('')}</div>
+    </div>
     <div class="dsec">Coverage quality — relevant funds per region</div>
     <div class="dgrid r4">${regTiles}</div>
     <div class="dgrid r2" style="margin-top:14px">
@@ -1032,6 +1126,12 @@ function renderDash(){
     document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on',x.dataset.r===state.region));goPage('cov');}));
   w.querySelectorAll('[data-go-page]').forEach(t=>t.addEventListener('click',()=>goPage(t.dataset.goPage)));
   w.querySelectorAll('[data-go-city]').forEach(t=>t.addEventListener('click',()=>goPage('geo',{city:t.dataset.goCity})));
+  const af=w.querySelector('#askform');
+  if(af){
+    af.addEventListener('submit',ev=>{ev.preventDefault();const v=document.getElementById('askin').value.trim();if(v)sendAsk(v);});
+    w.querySelectorAll('.askchips button').forEach(b=>b.addEventListener('click',()=>sendAsk(b.dataset.q)));
+    renderAskLog();
+  }
 }
 
 function goPage(p, opts){
@@ -1100,10 +1200,10 @@ function apHtc(){
     list.sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || (ease(b)-ease(a)) || ((b.reachable?1:0)-(a.reachable?1:0)));
   if(!list.length) return `<div class="aphint">No hard-to-cracks owned by ${who||'anyone'} on the tracked lists.</div>`;
   const cards=list.slice(0,60).map(c=>{
-    const best=(c.investors||[]).filter(i=>i.best&&i.best.internal)
-      .map(i=>({...i.best,fund:i.name,region:i.region,unt:i.untracked,linkedin:i.best.linkedin}))
-      .sort((a,b)=>((b.pct||0)-(a.pct||0))).slice(0,3);
-    const paths=best.map(p=>`<div class="appath"><b>${p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
+    const pd=htcPaths(c,who);
+    let best=pd.team.slice(0,3);
+    if(pd.self&&!best.some(p=>p.internal===who)) best=[pd.self,...best].slice(0,3);
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
     const others=(c.others||[]).length?`<div class="apmeta">also on the cap table (untracked): ${c.others.slice(0,4).join(', ')}</div>`:'';
     const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
     const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];

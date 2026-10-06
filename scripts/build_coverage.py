@@ -292,10 +292,12 @@ def _backer_paths(dom):
             continue
         p = {"internal": nm, "external": r["external"], "pct": pct, "moved": None,
              "unverified": not r.get("meet"), "email": r.get("externalEmail")}
-        k = r["external"]
+        # keyed per (holder, contact): a viewer's own weaker edge must survive
+        # the team's stronger one, so the UI can prefer doors the viewer holds
+        k = (nm, r["external"])
         if k not in best or pct > best[k]["pct"]:
             best[k] = p
-    return sorted(best.values(), key=lambda p: -p["pct"])[:3]
+    return sorted(best.values(), key=lambda p: -p["pct"])[:8]
 
 
 def _resolve_backers(_c, _backers):
@@ -492,6 +494,8 @@ html = (_tpl.TEMPLATE
         .replace("__GENERATED__", payload["generated"]))
 os.makedirs(f"{ROOT}/viz", exist_ok=True)
 open(f"{ROOT}/viz/index.html", "w").write(html)
+# same payload for the /api/ask serverless chat (gitignored; bundled at deploy time)
+open(f"{ROOT}/deploy/api/_data.json", "w").write(json.dumps(payload, ensure_ascii=False))
 for k, r in regions.items():
     f = [e for e in r["entities"] if e["kind"] == "fund"]
     unt = sum(len(e.get("untracked") or []) for e in f)
