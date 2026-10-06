@@ -147,11 +147,13 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .bub{width:46px;height:46px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;
   font-weight:750;font-size:15.5px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
 .bub.big{width:56px;height:56px;font-size:18px}
-.bub.strong{background:var(--c-lead);color:var(--covered-ink)}
-.bub.medium{background:var(--c-awaiting);color:var(--thin-ink)}
-.bub.low{background:var(--hair2);color:var(--ink2)}
-.bub.weak{background:var(--c-hard);color:var(--gap-ink)}
-.bub.none{background:var(--surface);border:1px dashed var(--hair);color:var(--muted)}
+.bub.strong,.mbub.strong{background:var(--c-lead);color:var(--covered-ink)}
+.bub.medium,.mbub.medium{background:var(--c-awaiting);color:var(--thin-ink)}
+.bub.low,.mbub.low{background:var(--hair2);color:var(--ink2)}
+.bub.weak,.mbub.weak{background:var(--c-hard);color:var(--gap-ink)}
+.bub.none,.mbub.none{background:var(--surface);border:1px dashed var(--hair);color:var(--muted)}
+.mbub{flex:none;width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;
+  font-size:10.5px;font-weight:750;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
 .apstat{display:flex;flex-direction:column;align-items:center;min-width:52px}
 .apstat .covnum{font-size:23px}
 .apstat .covcap{font-size:8.5px;margin-top:2px;white-space:nowrap}
@@ -296,8 +298,11 @@ tr.detailrow td{background:none;box-shadow:none}
 .dring{display:flex;align-items:center;gap:14px;margin:4px 0 8px}
 .covcell.big b{font-size:20px;font-weight:750}
 .dringcap{display:flex;flex-direction:column}
-.dlist{margin-top:11px;border-top:1px solid var(--hair2);padding-top:9px;display:flex;flex-direction:column;gap:3px}
-.dlh{font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.dlist{margin-top:11px;border-top:1px solid var(--hair2);padding-top:9px;display:flex;flex-direction:column;gap:5px}
+.dlh{font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px;
+  display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
+.dli .bubs,.dlcols{display:flex;gap:6px;flex:none}
+.dlcols i{font-style:normal;min-width:26px;text-align:center}
 .dli{font-size:12px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:10px;justify-content:space-between;white-space:nowrap}
 .dli .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
 .dli .cc{font-weight:500;flex:none;font-variant-numeric:tabular-nums;font-size:11px}
@@ -310,6 +315,14 @@ tr.detailrow td{background:none;box-shadow:none}
 .flags svg:last-child{margin-right:0}
 .dtnum{display:inline-flex;flex-direction:column}
 .dtduo{display:flex;gap:28px}
+.dsplit{display:flex;gap:22px;align-items:center;margin-top:12px}
+.dsplit .dtduo{flex:none}
+.dprev{flex:1;min-width:0;border-left:1px solid var(--hair2);padding-left:22px;display:flex;flex-direction:column;
+  gap:8px;align-self:stretch;justify-content:center}
+.dph{font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.dpli{font-size:12.5px;font-weight:650;color:var(--ink);display:flex;align-items:center;gap:10px;white-space:nowrap}
+.dpli .nm{flex:none;max-width:34%;overflow:hidden;text-overflow:ellipsis}
+.dpli .how{color:var(--ink2);font-weight:500;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
 .dtnum .covcap{margin-top:3px}
 .dtsub{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.45}
 .dtsub.warn{color:var(--gap-ink)}
@@ -907,6 +920,7 @@ function renderDash(){
   const me=state.person||'', fn=me?me.split(' ')[0]:'';
   const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length):0;
   const tierOf=v=>v>=50?'strong':v>=22?'medium':'weak';
+  const covT=v=>v>=50?'strong':v>=22?'medium':v>0?'weak':'none';
 
   // --- coverage quality per region (relevant funds only) ---
   const regTiles=REGIONS.map(r=>{
@@ -928,12 +942,28 @@ function renderDash(){
   (D.xhtc||[]).forEach(c=>{if(!seen.has(c.id)){seen.add(c.id);hl.push(c);}});
   const mine=me?hl.filter(c=>(c.owners||[]).includes(me)):hl;
   const reach=mine.filter(c=>(c.investors||[]).some(i=>i.best&&!i.best.moved));
-  const top3=mine.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,3);
+  const door=c=>((c.investors||[]).filter(i=>i.best&&i.best.internal&&!i.best.moved)
+    .map(i=>({...i.best,fund:i.name})).sort((a,b)=>(b.pct||0)-(a.pct||0)))[0]||null;
+  const top4=mine.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,4);
+  const hRows=top4.map(c=>{
+    const d=door(c), ufV=c.uf!=null?Math.round(c.uf):null;
+    const how=d?(me&&d.internal===me
+        ?`you hold the door — ${d.external||d.fund}`
+        :`ask ${d.internal.split(' ')[0]} → ${d.external||d.fund}`)
+      +(d.fund&&d.external?` (${d.fund})`:'')+(d.pct!=null?` · ${d.pct}%`:'')
+      :'no warm path yet';
+    return `<div class="dpli"><b class="mbub ${ufTierOf(ufV)}">${ufV??'—'}</b><span class="nm">${c.name}</span><span class="how">${how}</span></div>`;
+  }).join('');
 
   // --- network: top borrow suggestion ---
   const borrow=me?ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]
       &&personCov(x.e,me)<22&&x.e.connectivity>=50&&(x.e.points||[]).length)
     .sort((a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0)):[];
+  const relT=v=>v>=70?'strong':v>=55?'medium':'low';
+  const nRows=borrow.slice(0,4).map(x=>{
+    const p=(x.e.points||[])[0], rel=x.e.relevance?.total;
+    return `<div class="dpli"><b class="mbub ${relT(rel||0)}">${rel??'—'}</b><span class="nm">${x.e.name}</span><span class="how">ask ${p.internal.split(' ')[0]}${p.external?` → ${p.external}`:''}${p.pct!=null?` · ${p.pct}%`:''}</span></div>`;
+  }).join('');
 
   // --- cities worth a trip: pipeline weight + relevant-fund gap weight ---
   const cities={};
@@ -944,7 +974,7 @@ function renderDash(){
       const c=cities[fc]=cities[fc]||blank();
       c.funds++; const pc=me?personCov(e,me):e.connectivity;
       c.gapW+=(e.relevance.total/100)*(1-pc/100); c.str.push(pc);
-      c.topf.push({n:e.name, rel:e.relevance.total, pc});
+      c.topf.push({n:e.name, rel:e.relevance.total, pc, tc:e.connectivity});
     }
     Object.values(e.buckets||{}).forEach(l=>l.forEach(p=>{
       if(!p.city) return; const mc=metroOf(p.city); if(!mc) return;
@@ -968,8 +998,8 @@ function renderDash(){
     <div class="dtsub">${[c.pipe?`${c.pipe} of ${me?'your':'our'} pipeline${c.hiPipe?` (${c.hiPipe} high-prio)`:''}`:null,
       c.funds?`${c.funds} relevant fund${c.funds>1?'s':''}${c.str.length?` · ${me?'your':'team'} strength ${avg(c.str)}`:''}`:null]
       .filter(Boolean).join(' · ')}</div>
-    ${tc.length?`<div class="dlist"><span class="dlh">Companies to visit</span>${tc.map(x=>`<span class="dli"><span class="nm">${x.n}</span>${x.uf!=null?`<b class="dlib ${ufTierOf(Math.round(x.uf))}">${Math.round(x.uf)}</b>`:''}</span>`).join('')}</div>`:''}
-    ${tf.length?`<div class="dlist"><span class="dlh">Funds to visit</span>${tf.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="cc">rel ${x.rel}${me?` · you ${x.pc}`:''}</span></span>`).join('')}</div>`:''}
+    ${tc.length?`<div class="dlist"><span class="dlh"><span>Companies to visit</span><span class="dlcols"><i>unframe</i></span></span>${tc.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="bubs"><b class="mbub ${ufTierOf(x.uf!=null?Math.round(x.uf):null)}">${x.uf!=null?Math.round(x.uf):'—'}</b></span></span>`).join('')}</div>`:''}
+    ${tf.length?`<div class="dlist"><span class="dlh"><span>Funds to visit</span><span class="dlcols"><i>team</i>${me?'<i>you</i>':''}</span></span>${tf.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="bubs"><b class="mbub ${covT(x.tc)}">${x.tc}</b>${me?`<b class="mbub ${covT(x.pc)}">${x.pc}</b>`:''}</span></span>`).join('')}</div>`:''}
   </div>`;}).join('');
 
   w.innerHTML=`
@@ -981,13 +1011,19 @@ function renderDash(){
     <div class="dgrid r2" style="margin-top:14px">
       <div class="dtile go" data-go-page="h2c">
         <div class="dtlabel">${fn?fn+"'s":'Our'} hard to cracks</div>
-        <div class="dtduo">${bub(mine.length,'low','companies',true)}${bub((mine.length?Math.round(100*reach.length/mine.length):0)+'%', reach.length?'strong':'weak', 'reachable via network', true)}</div>
-        ${top3.length?`<div class="dtsub">top: ${top3.map(c=>c.name).join(' · ')}</div>`:''}
+        <div class="dsplit">
+          <div class="dtduo">${bub(mine.length,'low','companies',true)}${bub((mine.length?Math.round(100*reach.length/mine.length):0)+'%', reach.length?'strong':'weak', 'reachable via network', true)}</div>
+          <div class="dprev"><div class="dph">Crack these first</div>
+            ${hRows||'<div class="dtsub">No hard-to-cracks on your book.</div>'}</div>
+        </div>
       </div>
       <div class="dtile go" data-go-page="net">
         <div class="dtlabel">Build ${fn?fn+"'s":'the'} network</div>
-        <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
-        ${borrow.length?`<div class="dtsub">start with ${borrow[0].e.name} — ask ${borrow[0].e.points[0].internal.split(' ')[0]}</div>`:''}
+        <div class="dsplit">
+          <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
+          <div class="dprev"><div class="dph">Start with</div>
+            ${nRows||`<div class="dtsub">${me?'Your coverage already matches the team\'s reach.':'Pick who you are to see personal intro paths.'}</div>`}</div>
+        </div>
       </div>
     </div>
     <div class="dsec">Where to go next — dealflow weight × your network × open pipeline</div>
