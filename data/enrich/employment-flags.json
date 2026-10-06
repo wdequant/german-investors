@@ -3114,6 +3114,422 @@
    "Georgia Stevenson": {
     "status": "current",
     "now": null
+   },
+   "Jimena Nowack": {
+    "status": "moved",
+    "now": "IVP (Partner)"
+   },
+   "Julia Andre": {
+    "status": "current",
+    "now": null
+   },
+   "Kasia Koleda": {
+    "status": "current",
+    "now": null
+   },
+   "Kay Chan": {
+    "status": "unknown",
+    "now": null
+   },
+   "Kelly Barton": {
+    "status": "current",
+    "now": null
+   },
+   "Leonard Picardo": {
+    "status": "moved",
+    "now": "HeliosX Group (Non Executive Director)"
+   },
+   "Martin Mignot": {
+    "status": "current",
+    "now": null
+   },
+   "Natacha Pantet": {
+    "status": "current",
+    "now": null
+   },
+   "Neil Rimer": {
+    "status": "unknown",
+    "now": null
+   },
+   "Ophelia Brown": {
+    "status": "moved",
+    "now": "Blossom Capital (Founder, Managing Partner)"
+   },
+   "Sayula Kirby": {
+    "status": "moved",
+    "now": "Burlington PR (Director)"
+   },
+   "Secretariat York": {
+    "status": "unknown",
+    "now": null
+   },
+   "Simon Pastor": {
+    "status": "current",
+    "now": null
+   },
+   "Timm Schipporeit": {
+    "status": "moved",
+    "now": "Perella Weinberg (Partner - FinTech & Tech)"
+   },
+   "Molly Alter": {
+    "status": "moved",
+    "now": "Northzone (Partner)"
+   }
+  },
+  "founders-fund": {
+   "John Luttig": {
+    "status": "current",
+    "now": null
+   },
+   "Matias Van Thienen": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "khosla": {
+   "Alex Morgan": {
+    "status": "unknown",
+    "now": null
+   },
+   "Brett Browman": {
+    "status": "current",
+    "now": null
+   },
+   "Chloe Kong": {
+    "status": "unknown",
+    "now": null
+   },
+   "David Weiden": {
+    "status": "current",
+    "now": null
+   },
+   "Kara Sherrard": {
+    "status": "unknown",
+    "now": null
+   },
+   "Ryan Scott": {
+    "status": "unknown",
+    "now": null
+   },
+   "Adrian Nicholas Radu": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "kleiner-perkins": {
+   "Josh Coyne": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "felicis": {
+   "Aydin Senkut": {
+    "status": "current",
+    "now": null
+   },
+   "Jake Storm": {
+    "status": "current",
+    "now": null
+   },
+   "Katrina Guanzon": {
+    "status": "moved",
+    "now": "Project PEARLS (Executive Assistant & Workplace Experience Manager)"
+   },
+   "Ryan Isono": {
+    "status": "moved",
+    "now": "Maverick Ventures (Managing Director)"
+   },
+   "Sundeep Peechu": {
+    "status": "current",
+    "now": null
+   },
+   "Vanessa Paredes": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "nea": {
+   "Brooke Seawell": {
+    "status": "current",
+    "now": null
+   },
+   "Emily Baine": {
+    "status": "current",
+    "now": null
+   },
+   "Kemi Odusan": {
+    "status": "moved",
+    "now": "spektr (Head of Growth)"
+   },
+   "Luke Pappas": {
+    "status": "current",
+    "now": null
+   },
+   "Philip Chopin": {
+    "status": "current",
+    "now": null
+   },
+   "Rick Yang": {
+    "status": "current",
+    "now": null
+   },
+   "Tiffany Le": {
+    "status": "current",
+    "now": null
+   },
+   "Toni Holmes": {
+    "status": "current",
+    "now": null
+   },
+   "Uk Shoreditch": {
+    "status": "unknown",
+    "now": null
+   }
+  },
+  "benchmark": {
+   "Chetan Puttagunta": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "crv": {
+   "Izhar Armony": {
+    "status": "current",
+    "now": null
+   },
+   "James Green": {
+    "status": "current",
+    "now": null
+   },
+   "Jenny Sun": {
+    "status": "unknown",
+    "now": null
+   },
+   "Jon Auerbach": {
+    "status": "current",
+    "now": null
+   },
+   "Murat Bicer": {
+    "status": "current",
+    "now": null
+   },
+   "Rebecca Charyn": {
+    "status": "current",
+    "now": null
+   },
+   "Reid Christian": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "spark": {
+   "Alex Finkelstein": {
+    "status": "unknown",
+    "now": null
+   },
+   "Clay Fisher": {
+    "status": "current",
+    "now": null
+   },
+   "Connor Mullaney": {
+    "status": "moved",
+    "now": "Lingotto (Partner, Innovation Strategy)"
+   },
+   "Hanseul Nam": {
+    "status": "moved",
+    "now": "Coatue Management (Partner)"
+   },
+   "Heather Mahoney": {
+    "status": "unknown",
+    "now": null
+   },
+   "Nabeel Hyatt": {
+    "status": "current",
+    "now": null
+   },
+   "Santo Politi": {
+    "status": "current",
+    "now": null
+   },
+   "William R.": {
+    "status": "unknown",
+    "now": null
+   }
+  },
+  "usv": {
+   "Fred Wilson": {
+    "status": "unknown",
+    "now": null
+   },
+   "Lauren Young": {
+    "status": "unknown",
+    "now": null
+   },
+   "Rebecca Kaden": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "insight": {
+   "Abdi Adan": {
+    "status": "unknown",
+    "now": null
+   },
+   "Alberto Padilla-Rivera": {
+    "status": "unknown",
+    "now": null
+   },
+   "Alessandro Luciano": {
+    "status": "current",
+    "now": null
+   },
+   "Caroline Comben": {
+    "status": "unknown",
+    "now": null
+   },
+   "Cian Cotter": {
+    "status": "current",
+    "now": null
+   },
+   "Geneva Bass": {
+    "status": "current",
+    "now": null
+   },
+   "Henry Frankievich": {
+    "status": "current",
+    "now": null
+   },
+   "Jeffrey Lieberman": {
+    "status": "unknown",
+    "now": null
+   },
+   "Jessie Sheff": {
+    "status": "current",
+    "now": null
+   },
+   "Joshua Zelman": {
+    "status": "current",
+    "now": null
+   },
+   "Kevin Hurth": {
+    "status": "current",
+    "now": null
+   },
+   "Kuran Malhotra": {
+    "status": "current",
+    "now": null
+   },
+   "Lonne Jaffe": {
+    "status": "current",
+    "now": null
+   },
+   "Matt Gatto": {
+    "status": "current",
+    "now": null
+   },
+   "Nikitas Koutoupes": {
+    "status": "current",
+    "now": null
+   },
+   "Nimay Mehta": {
+    "status": "unknown",
+    "now": null
+   },
+   "Rachel Geller": {
+    "status": "current",
+    "now": null
+   },
+   "Richard Wells": {
+    "status": "unknown",
+    "now": null
+   },
+   "Rohan Sinha": {
+    "status": "unknown",
+    "now": null
+   },
+   "Suneel Mudaliar": {
+    "status": "current",
+    "now": null
+   },
+   "Thomas Krane": {
+    "status": "current",
+    "now": null
+   },
+   "Ved Narayan": {
+    "status": "current",
+    "now": null
+   },
+   "Vinny Pujji": {
+    "status": "moved",
+    "now": "Left Lane Capital (Managing Partner, co-founder)"
+   }
+  },
+  "ycombinator": {
+   "Joseph Perrotta": {
+    "status": "current",
+    "now": null
+   },
+   "Nicolas Dessaigne": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "base10": {
+   "Danielle London": {
+    "status": "current",
+    "now": null
+   },
+   "Jackie Chen": {
+    "status": "unknown",
+    "now": null
+   },
+   "Rexhep Dollaku": {
+    "status": "current",
+    "now": null
+   },
+   "Rexhi Dollaku": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "8vc": {
+   "Nick Dolik": {
+    "status": "current",
+    "now": null
+   },
+   "Veronique Germain": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "redpoint": {
+   "Enzo Wiener": {
+    "status": "current",
+    "now": null
+   },
+   "Kwesi Acquay": {
+    "status": "current",
+    "now": null
+   },
+   "Logan Bartlett": {
+    "status": "current",
+    "now": null
+   },
+   "Mary Stern": {
+    "status": "current",
+    "now": null
+   },
+   "Patrick Chase": {
+    "status": "current",
+    "now": null
+   },
+   "Scott Raney": {
+    "status": "current",
+    "now": null
+   },
+   "Timothy Haley": {
+    "status": "current",
+    "now": null
    }
   }
  }
