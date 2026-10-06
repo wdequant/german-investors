@@ -2598,10 +2598,316 @@
    "Will Sheldon": {
     "status": "moved",
     "now": "Expedition Growth Capital (Partner, since Mar 2023)"
+   },
+   "Alex Reinert": {
+    "status": "unknown",
+    "now": null
+   },
+   "Aman Ghei": {
+    "status": "unknown",
+    "now": null
+   },
+   "Anand Daniel": {
+    "status": "current",
+    "now": null
+   },
+   "Andrei Brasoveanu": {
+    "status": "current",
+    "now": null
+   },
+   "Andrew Braccia": {
+    "status": "current",
+    "now": null
+   },
+   "Arun Mathew": {
+    "status": "unknown",
+    "now": null
+   },
+   "Avid Larizadeh": {
+    "status": "moved",
+    "now": "Ontario Teachers' Pension Plan (Senior Managing Director, Teachers' Venture Growth)"
+   },
+   "Ben Dooley": {
+    "status": "current",
+    "now": null
+   },
+   "Ben Fletcher": {
+    "status": "current",
+    "now": null
+   },
+   "Bodi Tent": {
+    "status": "unknown",
+    "now": null
+   },
+   "Candice du Fretay": {
+    "status": "moved",
+    "now": "Perceptic (Investor (seed))"
+   },
+   "Carlo B.": {
+    "status": "unknown",
+    "now": null
+   },
+   "Cecilia Wang": {
+    "status": "current",
+    "now": null
    }
   },
   "sequoia": {
    "Anas Biad": {
+    "status": "current",
+    "now": null
+   },
+   "Carrie Macasaet": {
+    "status": "current",
+    "now": null
+   },
+   "Cole Pergament": {
+    "status": "current",
+    "now": null
+   },
+   "Duncan Tennant": {
+    "status": "moved",
+    "now": "Bloxii (Co-Founder)"
+   },
+   "George Robson": {
+    "status": "current",
+    "now": null
+   },
+   "Gili Raanan": {
+    "status": "moved",
+    "now": "Cyberstarts (Founder)"
+   },
+   "Haim Sadger": {
+    "status": "current",
+    "now": null
+   },
+   "Liam Corrigan": {
+    "status": "current",
+    "now": null
+   },
+   "Luciana Lixandru": {
+    "status": "current",
+    "now": null
+   },
+   "Madeleine Conway": {
+    "status": "current",
+    "now": null
+   },
+   "Matt Miller": {
+    "status": "moved",
+    "now": "Evantic Capital (Founder & Managing Partner)"
+   },
+   "Zoe Hewitt": {
+    "status": "current",
+    "now": null
+   },
+   "Zoe Jervier": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "a16z": {
+   "Angela Strange": {
+    "status": "current",
+    "now": null
+   },
+   "Brian Roberts": {
+    "status": "current",
+    "now": null
+   },
+   "Bryan Kim": {
+    "status": "current",
+    "now": null
+   },
+   "David George": {
+    "status": "current",
+    "now": null
+   },
+   "Gabriel Vasquez": {
+    "status": "current",
+    "now": null
+   },
+   "James Da Costa": {
+    "status": "current",
+    "now": null
+   },
+   "Joe Schmidt": {
+    "status": "current",
+    "now": null
+   },
+   "Kevin Wu": {
+    "status": "moved",
+    "now": "independent / no current role listed"
+   },
+   "Melissa Wasser": {
+    "status": "current",
+    "now": null
+   },
+   "Michelle Ervin": {
+    "status": "unknown",
+    "now": null
+   },
+   "Peter Blackwood": {
+    "status": "moved",
+    "now": "independent / no current role listed"
+   },
+   "Samantha Gelt": {
+    "status": "current",
+    "now": null
+   },
+   "Santiago Rodriguez": {
+    "status": "current",
+    "now": null
+   },
+   "Tracye Redding": {
+    "status": "current",
+    "now": null
+   },
+   "Zabie Elmgren": {
+    "status": "current",
+    "now": null
+   },
+   "Zane Lackey": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "lightspeed": {
+   "Adrian Radu": {
+    "status": "moved",
+    "now": "Khosla Ventures (Partner)"
+   },
+   "Alex Taussig": {
+    "status": "current",
+    "now": null
+   },
+   "Alexander Taussig": {
+    "status": "current",
+    "now": null
+   },
+   "Alexander Schmitt": {
+    "status": "current",
+    "now": null
+   },
+   "Anoushka Vaswani": {
+    "status": "current",
+    "now": null
+   },
+   "Dana Mizrahi": {
+    "status": "current",
+    "now": null
+   },
+   "David Gussarsky": {
+    "status": "current",
+    "now": null
+   },
+   "Gaurav Gupta": {
+    "status": "unknown",
+    "now": null
+   },
+   "Julie Kainz": {
+    "status": "moved",
+    "now": "Lean Technologies (Corp Dev)"
+   },
+   "Paul Murphy": {
+    "status": "current",
+    "now": null
+   },
+   "Rytis Vitkauskas": {
+    "status": "moved",
+    "now": "DIG Ventures (General Partner)"
+   },
+   "Sam Wholley": {
+    "status": "current",
+    "now": null
+   },
+   "Shan Shan": {
+    "status": "moved",
+    "now": "Baillie Gifford (Investment Manager, Private Companies)"
+   },
+   "Tal Morgenstern": {
+    "status": "current",
+    "now": null
+   },
+   "Yoni Cheifetz": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "general-catalyst": {
+   "Adam Valkin": {
+    "status": "moved",
+    "now": "Vine Ventures (Partner at Vine Ventures)"
+   },
+   "Alex Mackenzie": {
+    "status": "current",
+    "now": null
+   },
+   "Amanda Lennon": {
+    "status": "current",
+    "now": null
+   },
+   "Ashley Paston": {
+    "status": "current",
+    "now": null
+   },
+   "Cecilia Z.": {
+    "status": "unknown",
+    "now": null
+   },
+   "Cecilia Zhao": {
+    "status": "unknown",
+    "now": null
+   },
+   "Electra Niarchos": {
+    "status": "unknown",
+    "now": null
+   },
+   "Josephine Kinney": {
+    "status": "moved",
+    "now": "Pinegrove Opportunity Partners (Executive Assistant)"
+   },
+   "Juliet Bailin": {
+    "status": "moved",
+    "now": "Kindred Capital VC (Venture Partner)"
+   },
+   "Larry Bohn": {
+    "status": "current",
+    "now": null
+   },
+   "Linn Raphael": {
+    "status": "unknown",
+    "now": null
+   },
+   "Liv Parry": {
+    "status": "current",
+    "now": null
+   },
+   "Mark Crane": {
+    "status": "current",
+    "now": null
+   },
+   "Nicole Bodinnar": {
+    "status": "current",
+    "now": null
+   },
+   "Paula Hübner Wehmeyer": {
+    "status": "current",
+    "now": null
+   },
+   "Paula Wehmeyer": {
+    "status": "current",
+    "now": null
+   },
+   "Ripley Hartmeyer": {
+    "status": "current",
+    "now": null
+   },
+   "Zeynep Yavuz": {
+    "status": "current",
+    "now": null
+   },
+   "Hemant Taneja": {
     "status": "current",
     "now": null
    }
