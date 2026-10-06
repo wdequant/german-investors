@@ -508,6 +508,8 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
                 f = flags.get(k["person"]) or {}
                 k["moved"] = (f.get("now") if f.get("status") == "moved"
                               and k["person"] not in EMP_OVERRIDES else None)
+                # Harmonic-verified current employment; False = rely on Affinity, flagged
+                k["ever"] = f.get("status") == "current" or k["person"] in EMP_OVERRIDES
             # someone who left the fund is not a path in for anyone, in any
             # view: drop them from the person's contacts (noted under "former"),
             # and re-base their Affinity signal on what remains
@@ -527,6 +529,7 @@ def apply_enrich(entities, enrich, recency, empflags, region_key, pmeta=None):
             f = flags.get(pt["external"]) or {}
             pt["moved"] = (f.get("now") if f.get("status") == "moved"
                            and pt["external"] not in EMP_OVERRIDES else None)
+            pt["ever"] = f.get("status") == "current" or pt["external"] in EMP_OVERRIDES
             known.add(norm_name(pt["external"]))
         # a contact whose primary role moved elsewhere (Harmonic) is no longer a
         # path INTO this fund: drop from strongest-paths entirely (they keep their

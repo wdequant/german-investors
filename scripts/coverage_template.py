@@ -389,6 +389,7 @@ tr.detailrow td{background:none;box-shadow:none}
 .chip b{font-weight:650}
 .uvtag{font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
   color:var(--thin-ink);background:var(--c-awaiting);border-radius:5px;padding:1px 5px;white-space:nowrap}
+.uvtag.emp{color:var(--ink2);background:var(--hair2);cursor:help}
 .ufb{font-size:10px;font-weight:700;border-radius:5px;padding:1px 5px;vertical-align:1px;font-variant-numeric:tabular-nums}
 .ufb.hi{background:var(--c-lead);color:var(--c-lead-ink)}
 .ufb.mid{background:var(--c-awaiting);color:var(--c-awaiting-ink)}
@@ -1221,7 +1222,7 @@ function apHtc(){
     const pd=htcPaths(c,who);
     let best=pd.team.slice(0,3);
     if(pd.self&&!best.some(p=>p.internal===who)) best=[pd.self,...best].slice(0,3);
-    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · unverified':''}</span></div>`).join('');
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · email-only':''}${p.ever===false?' · unverified':''}</span></div>`).join('');
     const others=(c.others||[]).length?`<div class="apmeta">also on the cap table (untracked): ${c.others.slice(0,4).join(', ')}</div>`:'';
     const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
     const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];
@@ -1283,7 +1284,7 @@ function apNet(){
     return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · team ${e.connectivity}, you ${personCov(e,who)}</div>
       ${why?`<div class="apdesc">${why}</div>`:''}
-      <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}</div>
+      <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}${everTag(p)}</div>
       <div class="apacts">
         <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
         ${(p.email||p.linkedin)?`<button data-draft="b:${r}:${e.slug}">Draft direct outreach</button>`:''}
@@ -1422,13 +1423,14 @@ const emIcon = p => {
   return `<span class="em${p.email?'':' guess'}" data-em="${em}"${p.email?'':' data-guess="1"'}>✉</span>`;
 };
 const evidence = o => o.meet?`met ${fmtD(o.meet)}`:(o.last?`em ${fmtD(o.last)}`:null);
+const everTag = o => o.ever===false?` <span class="uvtag emp" title="Not matched against a current Harmonic role — relationship shown from Affinity history alone">unverified</span>`:'';
 function pathLine(p, ctx){
   const nm = `<a href="${p.linkedin||liSearch(p.external,ctx)}" target="_blank" rel="noopener"><b>${p.external}</b></a>`;
   const ev = evidence(p);
   const when = ev?`<span class="when">${ev}</span>`:'';
   const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
   const stale = p.last && isStale(p.last) ? ' stale' : '';
-  const uv = p.unverified?` <span class="uvtag">unverified · email-only</span>`:'';
+  const uv = (p.unverified?` <span class="uvtag">email-only</span>`:'')+everTag(p);
   const bar = p.pct!=null?`<span class="sbar"><i style="width:${p.pct}%"></i></span>`:'';
   return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${avi(p.internal)} ${p.internal}</span>${p.email?emIcon(p):''}${moved}${uv}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
 }
@@ -1440,7 +1442,7 @@ function ptsHTML(e){
     let mine = s.contacts.map(k=>{
       const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener"><b>${k.person}</b></a>`;
       const ev = evidence(k);
-      return `<span class="pt${k.last&&isStale(k.last)?' stale':''}"><span class="ptl">${nm}${k.email?emIcon(k):''}${k.title?` <span class="via">· ${k.title}</span>`:''}</span><span class="ptr">${k.pct!=null?`<span class="pct">${k.pct}%</span>`:''}${ev?`<span class="when">${ev}</span>`:''}</span></span>`;
+      return `<span class="pt${k.last&&isStale(k.last)?' stale':''}"><span class="ptl">${nm}${k.email?emIcon(k):''}${k.title?` <span class="via">· ${k.title}</span>`:''}${everTag(k)}</span><span class="ptr">${k.pct!=null?`<span class="pct">${k.pct}%</span>`:''}${ev?`<span class="when">${ev}</span>`:''}</span></span>`;
     }).join('')+dormP;
     if(!mine){
       const bits=[];
@@ -1593,7 +1595,7 @@ function detailHTML(e){
         p.contacts.map(k=>{
           const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener">${k.person}</a>`;
           const bits = [k.title, k.pct!=null?`${k.pct}%`:null, evidence(k)].filter(Boolean).join(' · ');
-          const uv = k.unverified?` <span class="uvtag">unverified · email-only</span>`:'';
+          const uv = (k.unverified?` <span class="uvtag">email-only</span>`:'')+everTag(k);
           return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${uv}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;

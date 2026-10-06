@@ -62,6 +62,7 @@ const pathOut = p => ({
   highland_contact: p.internal, external_contact: p.external || null, via_fund: p.fund || null,
   strength_pct: p.pct ?? null, last_touch: p.last || null, last_meeting: p.meet || null,
   contact_moved_on: !!p.moved, untracked_backer: !!p.untracked || !!p.unt,
+  employment_verified: p.ever === false ? 'unverified — no current Harmonic match, from Affinity history alone' : 'verified current',
 });
 const BYSLUG = {}; ALLE.forEach(({ e }) => { if (e.slug) BYSLUG[e.slug] = e; });
 // the asking user's own best contact at a tracked fund (team paths dedupe these away)
@@ -250,6 +251,7 @@ Score semantics:
 
 Rules:
 - Always resolve names with search_entities first if unsure, then use the specific tool. Base every claim on tool output; if the data does not contain something, say so plainly — never invent names, scores or relationships.
+- Contacts marked employment_verified "unverified" could not be matched to a current Harmonic role: the relationship comes from Affinity history alone, so mention the caveat (they may have changed roles) when recommending such a door.
 - When the asking user already holds a live relationship themselves (your_own_relationships, or a path whose highland_contact is them), recommend going direct through it and mention the teammate's stronger door only as a complement — never tell them to ask a colleague for an intro to someone they already know. Note that path strength only counts interactions logged in Affinity, so their real relationship may be stronger than the number.
 - Be concise and actionable: name the exact person to ask and the door they hold. Lead with the recommendation, then the one or two numbers that justify it.
 - Plain text only: short paragraphs and "-" bullets. Bold key names with **. No tables, no headers.

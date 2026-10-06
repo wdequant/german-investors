@@ -279,19 +279,27 @@ def _bdecay(last):
     return 1.0 if days <= 180 else 0.9 if days <= 365 else 0.5 if days <= 730 else 0.3
 
 
+_bflags = load_json(f"{ROOT}/data/enrich/employment-flags-backers.json", {}) or {}
+
+
 def _backer_paths(dom):
     """Top Highland paths into an untracked backer, scored like fund paths."""
     best = {}
+    _bf = _bflags.get(dom) or {}
     for r in (_brels.get(dom) or {}).get("rels") or []:
         nm = _NM0.get(r["internal"], r["internal"])
         if nm in _EX0:
+            continue
+        _st = (_bf.get(r.get("external") or "") or {}).get("status")
+        if _st == "moved":          # left the backer — not a door into it anymore
             continue
         pct = round(100 * (r.get("score") or 0) * _bdecay(r.get("last"))
                     * (1.0 if r.get("meet") else 0.75))
         if pct <= 0:
             continue
         p = {"internal": nm, "external": r["external"], "pct": pct, "moved": None,
-             "unverified": not r.get("meet"), "email": r.get("externalEmail")}
+             "unverified": not r.get("meet"), "email": r.get("externalEmail"),
+             "ever": _st == "current"}
         # keyed per (holder, contact): a viewer's own weaker edge must survive
         # the team's stronger one, so the UI can prefer doors the viewer holds
         k = (nm, r["external"])
