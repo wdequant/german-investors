@@ -2,6 +2,7 @@
 
 TEMPLATE = r"""<meta charset="utf-8">
 <title>Sonar</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5.5' fill='%232733f0'/%3E%3Cg fill='none' stroke='%23fff' stroke-linecap='round'%3E%3Cpath d='M7 12.8 A4.2 4.2 0 0 1 11.2 17' stroke-width='1.7'/%3E%3Cpath d='M7 9.3 A7.7 7.7 0 0 1 14.7 17' stroke-width='1.7' opacity='.72'/%3E%3Cpath d='M7 5.8 A11.2 11.2 0 0 1 18.2 17' stroke-width='1.7' opacity='.45'/%3E%3C/g%3E%3Ccircle cx='7' cy='17' r='1.8' fill='%23fff'/%3E%3Ccircle cx='15.2' cy='8.8' r='1.5' fill='%23fff'/%3E%3C/svg%3E">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -28,11 +29,11 @@ html{scroll-behavior:smooth}
 body{background:var(--page);color:var(--ink);
   font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding-bottom:110px}
 .appbar{position:sticky;top:0;z-index:20;background:var(--page);border-bottom:1px solid var(--hair)}
-.appbar .in{max-width:1760px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:12px 28px;flex-wrap:wrap}
+.appbar .in{max-width:none;display:flex;align-items:center;gap:14px;padding:12px 22px;flex-wrap:wrap}
 .brand{font-weight:600;font-size:16px;letter-spacing:-.005em;white-space:nowrap;font-family:var(--display);
   display:flex;align-items:center;gap:8px}
-.brand .mark{width:22px;height:22px;border-radius:4px;background:var(--accent);color:#fff;flex:none;
-  display:inline-flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:600}
+.brand .mark{width:22px;height:22px;flex:none;display:inline-flex}
+.brand .mark svg{width:100%;height:100%;display:block}
 .brand .by{font-family:system-ui,sans-serif;font-size:9.5px;color:var(--muted);letter-spacing:.14em;
   text-transform:uppercase;display:block;line-height:1;margin-top:1px}
 .seg{display:flex;border:1px solid var(--hair);border-radius:8px;overflow:hidden}
@@ -188,6 +189,7 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 @media(max-width:760px){.apbody{padding:2px 0 80px}}
 body[data-page="h2c"] #viewseg,body[data-page="net"] #viewseg,body[data-page="geo"] #viewseg,body[data-page="dash"] #viewseg{display:none}
 body[data-page="h2c"] #q,body[data-page="net"] #q,body[data-page="geo"] #q,body[data-page="dash"] #q{display:none}
+body[data-page="h2c"] #fb,body[data-page="net"] #fb,body[data-page="geo"] #fb,body[data-page="dash"] #fb{margin-left:auto}
 .subline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .about summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px;font-weight:600;list-style:none;white-space:nowrap}
 .about summary::before{content:"ⓘ ";font-weight:400}
@@ -221,7 +223,7 @@ thead th{position:sticky;top:53px;z-index:5;background:var(--page);text-align:le
   padding:14px 12px 10px;border-bottom:1px solid var(--ink);white-space:nowrap}
 thead th.sortable{cursor:pointer;user-select:none}
 thead th.sortable:hover{color:var(--ink)}
-thead th.on{color:var(--ink)} thead th.on::after{content:" ↓";color:var(--accent-ink)}
+thead th.on{color:var(--ink)}
 tbody td{padding:18px 14px;border-bottom:1px solid var(--hair2);vertical-align:middle}
 tbody tr.mainrow{cursor:pointer}
 tbody tr.mainrow:hover td{background:var(--hair2)}
@@ -599,11 +601,11 @@ th.sk:hover{color:var(--accent-ink)}
 </style>
 
 <div class="appbar"><div class="in">
-  <span class="brand"><span class="mark">S</span><span>Sonar<span class="by">Highland Europe</span></span></span>
+  <span class="brand"><span class="mark"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="5.5" fill="#2733f0"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.7"><path d="M7 12.8 A4.2 4.2 0 0 1 11.2 17"/><path d="M7 9.3 A7.7 7.7 0 0 1 14.7 17" opacity=".72"/><path d="M7 5.8 A11.2 11.2 0 0 1 18.2 17" opacity=".45"/></g><circle cx="7" cy="17" r="1.8" fill="#fff"/><circle cx="15.2" cy="8.8" r="1.5" fill="#fff"/></svg></span><span>Sonar<span class="by">Highland Europe</span></span></span>
+  <button class="btn ghost" id="whoami" title="Sonar is personalised to you — click to switch">👤</button>
   <div class="seg" id="viewseg">
     <button data-v="funds" class="on">Investors</button><button data-v="unt">Untracked Dealflow</button>
   </div>
-  <button class="btn ghost" id="whoami" title="Sonar is personalised to you — click to switch">👤</button>
   <input type="search" id="q" placeholder="Filter…">
   <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
   <button class="btn" id="export" hidden>Export CSV</button>
@@ -626,7 +628,7 @@ th.sk:hover{color:var(--accent-ink)}
   <div class="slabel" style="margin-top:14px">Workflows</div>
   <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
   <a class="sitem" data-page="net"><span class="si">⇗</span>Build my Network</a>
-  <a class="sitem" data-page="geo"><span class="si">✈</span>Geo Visit</a>
+  <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
 </nav>
 <main id="content">
 
@@ -1156,7 +1158,7 @@ function refresh(){  // re-render whatever page is active
   else renderWork();
 }
 function renderWork(){
-  const titles={htc:'Solve my Hard to Cracks', net:'Build my Network', geo:'Geo Visit'};
+  const titles={htc:'Solve my Hard to Cracks', net:'Build my Network', geo:'Plan a City Trip'};
   document.getElementById('worktitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
   ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
@@ -1421,10 +1423,8 @@ function ptsHTML(e){
     const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
     let mine = s.contacts.map(k=>{
       const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener"><b>${k.person}</b></a>`;
-      const extra = (k.email?emIcon(k):'')+(k.title?` <span class="via">· ${k.title}</span>`:'')+(k.pct!=null?` <span class="pct">${k.pct}%</span>`:'');
       const ev = evidence(k);
-      const when = ev?` <span class="when">· ${ev}</span>`:'';
-      return `<span class="pt${k.last&&isStale(k.last)?' stale':''}">${nm}${extra}${when}</span>`;
+      return `<span class="pt${k.last&&isStale(k.last)?' stale':''}"><span class="ptl">${nm}${k.email?emIcon(k):''}${k.title?` <span class="via">· ${k.title}</span>`:''}</span><span class="ptr">${k.pct!=null?`<span class="pct">${k.pct}%</span>`:''}${ev?`<span class="when">${ev}</span>`:''}</span></span>`;
     }).join('')+dormP;
     if(!mine){
       const bits=[];
