@@ -436,5 +436,455 @@
    "status": "unknown",
    "now": null
   }
+ },
+ "bekventures.com": {
+  "Jan Faflik": {
+   "status": "unknown",
+   "now": null
+  },
+  "Mehmet Atici": {
+   "status": "current",
+   "now": null
+  },
+  "Cem Sertoglu": {
+   "status": "current",
+   "now": null
+  },
+  "Ece Sagar": {
+   "status": "unknown",
+   "now": null
+  },
+  "Kaan Polat": {
+   "status": "moved",
+   "now": "Grand Games (Chief of Staff)"
+  },
+  "Nilufer Ayangil": {
+   "status": "unknown",
+   "now": null
+  },
+  "Arda Kirkagac": {
+   "status": "current",
+   "now": null
+  },
+  "Semra Sadikoglu": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "blackbird.vc": {
+  "Michael Tolo": {
+   "status": "current",
+   "now": null
+  },
+  "Morven Brown": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "blackfinch.com": {
+  "Hassaan Mehmood": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "bnvtcapital.com": {
+  "Simon Levy": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tobias Reimann-Dubbers": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "brightcap.vc": {
+  "Dimitar Korsakov": {
+   "status": "current",
+   "now": null
+  },
+  "Elina Halatcheva": {
+   "status": "current",
+   "now": null
+  },
+  "Georgi Mitov": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "british-business-bank.co.uk": {
+  "Mauricio Urresta": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Laycock": {
+   "status": "current",
+   "now": null
+  },
+  "Megha Jain": {
+   "status": "current",
+   "now": null
+  },
+  "Carrie Babcock": {
+   "status": "unknown",
+   "now": null
+  },
+  "Max Middleton": {
+   "status": "current",
+   "now": null
+  },
+  "Charlotte Lawrence": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Krause": {
+   "status": "current",
+   "now": null
+  },
+  "Dan Patrick": {
+   "status": "unknown",
+   "now": null
+  },
+  "Bbb Office": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "ca-cib.com": {
+  "Yassine Brahimi": {
+   "status": "current",
+   "now": null
+  },
+  "Olivier Justic": {
+   "status": "current",
+   "now": null
+  },
+  "Laurent Pellerin": {
+   "status": "current",
+   "now": null
+  },
+  "Armand Mingasson": {
+   "status": "current",
+   "now": null
+  },
+  "Jerome Perrier": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "calmstorm.vc": {
+  "Lucanus Polagnoli": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cam.ac.uk": {
+  "Alexander Leichter": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tim Leach": {
+   "status": "unknown",
+   "now": null
+  },
+  "Matthew Juniper": {
+   "status": "unknown",
+   "now": null
+  },
+  "Gordon Harold": {
+   "status": "unknown",
+   "now": null
+  },
+  "Johannes Lenhard": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "camber.io": {
+  "Sarabeth Scott": {
+   "status": "current",
+   "now": null
+  },
+  "Ashley Lundquist": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "canaan.com": {
+  "Joydeep Bhattacharyya": {
+   "status": "current",
+   "now": null
+  },
+  "Heidi You": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "capnamic.com": {
+  "Alexandra Kurmulis": {
+   "status": "current",
+   "now": null
+  },
+  "Christian Siegele": {
+   "status": "current",
+   "now": null
+  },
+  "Markus Merz": {
+   "status": "current",
+   "now": null
+  },
+  "Olaf Jacobi": {
+   "status": "current",
+   "now": null
+  },
+  "Jason Grüninger": {
+   "status": "current",
+   "now": null
+  },
+  "Dorothea Gotthardt": {
+   "status": "moved",
+   "now": "QuantPi (COO)"
+  },
+  "Benjamin Kleinschnitz": {
+   "status": "current",
+   "now": null
+  },
+  "Franz Diekmann": {
+   "status": "moved",
+   "now": "Basic Ventures (Partner)"
+  },
+  "Thorben Rothe": {
+   "status": "moved",
+   "now": "IRIS (Partner - Head of Early Stage Germany)"
+  },
+  "Lukas Vogt": {
+   "status": "moved",
+   "now": "Sunhat (Co-Founder & CEO)"
+  }
+ },
+ "cardumencapital.com": {
+  "Karin Yaacobi": {
+   "status": "current",
+   "now": null
+  },
+  "Gonzalo Martínez De Azagra": {
+   "status": "current",
+   "now": null
+  },
+  "Noa Shamay": {
+   "status": "current",
+   "now": null
+  },
+  "Aitor Almendros": {
+   "status": "moved",
+   "now": "Renascentia AI (Partner)"
+  }
+ },
+ "ccap.co": {
+  "Christopher Caesar": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cdpventurecapital.it": {
+  "Laura Cesenni": {
+   "status": "current",
+   "now": null
+  },
+  "Davide Opromolla": {
+   "status": "current",
+   "now": null
+  },
+  "Stefano Pelagallo": {
+   "status": "current",
+   "now": null
+  },
+  "Mario Scuderi": {
+   "status": "current",
+   "now": null
+  },
+  "Luca Limoncelli": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Livecchi": {
+   "status": "current",
+   "now": null
+  },
+  "Laura Scaramella": {
+   "status": "current",
+   "now": null
+  },
+  "Niccolò Mussi": {
+   "status": "current",
+   "now": null
+  },
+  "Cristina Dachille": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "celonis.com": {
+  "Benoit Fouilland": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "chalfenventures.com": {
+  "Mike Chalfen": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Johnson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "chemistry.vc": {
+  "Mark Goldberg": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cic.vc": {
+  "Ian Lane": {
+   "status": "current",
+   "now": null
+  },
+  "Richard Hall": {
+   "status": "current",
+   "now": null
+  },
+  "Matt Maynard": {
+   "status": "current",
+   "now": null
+  },
+  "Andrew Williamson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "clpgrowth.com": {
+  "Ryan Cherry": {
+   "status": "moved",
+   "now": "Crestline (Investment Associate)"
+  },
+  "Kate Vine": {
+   "status": "current",
+   "now": null
+  },
+  "William Ruis-John": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "coatue.com": {
+  "Andre Woon": {
+   "status": "current",
+   "now": null
+  },
+  "Chase Packard": {
+   "status": "moved",
+   "now": "Marathon Management Partners (Founding Partner)"
+  },
+  "Jared Schulman": {
+   "status": "moved",
+   "now": "Neuralink (Lead, Strategic Finance)"
+  },
+  "Angelica Costa": {
+   "status": "moved",
+   "now": "Mighty Capital (Operations)"
+  }
+ },
+ "commonmagic.xyz": {
+  "Sarah Moffatt": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "connectventures.co": {
+  "Rory Stirling": {
+   "status": "current",
+   "now": null
+  },
+  "Sitar Teli": {
+   "status": "current",
+   "now": null
+  },
+  "Mark Pettit": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "crane.vc": {
+  "Agnieszka Paliwoda": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ayala Ples": {
+   "status": "current",
+   "now": null
+  },
+  "Morgane Zerath": {
+   "status": "current",
+   "now": null
+  },
+  "Krishna Visvanathan": {
+   "status": "current",
+   "now": null
+  },
+  "Guy Bentley": {
+   "status": "current",
+   "now": null
+  },
+  "Sam Kester": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Wright": {
+   "status": "current",
+   "now": null
+  },
+  "Rav Dhaliwal": {
+   "status": "current",
+   "now": null
+  },
+  "Anna Cachadina": {
+   "status": "current",
+   "now": null
+  },
+  "Bonnie Kraus": {
+   "status": "current",
+   "now": null
+  },
+  "Scott Sage": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "creandum.com": {
+  "Sarah Otter": {
+   "status": "current",
+   "now": null
+  },
+  "Carl Fritjofsson": {
+   "status": "current",
+   "now": null
+  },
+  "Beatrice Rellman": {
+   "status": "current",
+   "now": null
+  },
+  "Michelle Coventry": {
+   "status": "current",
+   "now": null
+  },
+  "Cameron Sellers": {
+   "status": "current",
+   "now": null
+  },
+  "Peter Specht": {
+   "status": "current",
+   "now": null
+  }
  }
 }
