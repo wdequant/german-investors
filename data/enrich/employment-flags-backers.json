@@ -3863,6 +3863,224 @@
   "Alex Finkelstein": {
    "status": "current",
    "now": null
+  },
+  "Connor Mullaney": {
+   "status": "moved",
+   "now": "Lingotto (Partner, Innovation Strategy)"
+  },
+  "Heather Mahoney": {
+   "status": "current",
+   "now": null
+  },
+  "Hanseul Nam": {
+   "status": "moved",
+   "now": "Coatue Management (Partner)"
+  },
+  "Santo Politi": {
+   "status": "current",
+   "now": null
+  },
+  "Nabeel Hyatt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "stripe.com": {
+  "Sam McAllister": {
+   "status": "moved",
+   "now": "Anthropic (Member of Staff)"
+  },
+  "Ryan Libster": {
+   "status": "moved",
+   "now": "Anthropic (Head of Sales, Claude for Work)"
+  },
+  "Sagar Gupta": {
+   "status": "moved",
+   "now": "Anthropic (Startup Partnerships)"
+  },
+  "Samar Malik": {
+   "status": "current",
+   "now": null
+  },
+  "Kamael Sugrim": {
+   "status": "current",
+   "now": null
+  },
+  "Helena Horsburgh": {
+   "status": "moved",
+   "now": "Personio (Head of Business Operations - CEO Office)"
+  },
+  "Jérôme Tomasini": {
+   "status": "current",
+   "now": null
+  },
+  "Amin Manzouri": {
+   "status": "current",
+   "now": null
+  },
+  "Joost van der Mersch": {
+   "status": "current",
+   "now": null
+  },
+  "Sandra Vargas": {
+   "status": "current",
+   "now": null
+  },
+  "Temitayo Odukoya": {
+   "status": "current",
+   "now": null
+  },
+  "Tammy Winter": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "startupbootcamp.org": {
+  "Startupbootcamp Amsterdam": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "stepstonegroup.com": {
+  "Vc Shared": {
+   "status": "unknown",
+   "now": null
+  },
+  "Huff Millard": {
+   "status": "current",
+   "now": null
+  },
+  "Thomas Dupont": {
+   "status": "current",
+   "now": null
+  },
+  "Leyla Holterud": {
+   "status": "moved",
+   "now": "Vintage Investment Partners (Partner)"
+  },
+  "Pippa Crabtree": {
+   "status": "current",
+   "now": null
+  },
+  "Umberto Prencipe": {
+   "status": "moved",
+   "now": "Autonomous"
+  },
+  "Lyn Blithe": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "spintopventures.com": {
+  "Moa Kronborg": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "spore.bio": {
+  "Amine Raji": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "stationf.co": {
+  "Camille Aubery": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "targetglobal.vc": {
+  "Tobias Winczer": {
+   "status": "moved",
+   "now": "Balderton (Investor)"
+  },
+  "Martina Facchin": {
+   "status": "current",
+   "now": null
+  },
+  "James Dening": {
+   "status": "current",
+   "now": null
+  },
+  "Seda Ambartsumian": {
+   "status": "moved",
+   "now": "Heritage Holdings (Principal, Alternative Investments)"
+  },
+  "Yaron Valler": {
+   "status": "current",
+   "now": null
+  },
+  "Ugo Carminati": {
+   "status": "moved",
+   "now": "Anthropic (GTM)"
+  },
+  "Alexandra Dombrowski": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "svb.com": {
+  "Phoebe Walsh": {
+   "status": "current",
+   "now": null
+  },
+  "David Cohen": {
+   "status": "unknown",
+   "now": null
+  },
+  "Mark Gallagher": {
+   "status": "current",
+   "now": null
+  },
+  "Ryan Phayer": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Managing Director, Strategic Fund Solutions)"
+  },
+  "Ben Tickler": {
+   "status": "moved",
+   "now": "J.P. Morgan (UK Innovation Economy)"
+  },
+  "James Downing": {
+   "status": "moved",
+   "now": "Hercules Capital (Managing Director, Europe)"
+  },
+  "Erin Platts": {
+   "status": "moved",
+   "now": "Octopus Ventures (Chief Executive Officer)"
+  },
+  "Ella Botham": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Director, Credit Solutions Nordics)"
+  },
+  "Linnea Engstrand": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Senior Associate - FinTech)"
+  },
+  "Tom Butterworth": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Managing Director, Investor Coverage)"
+  },
+  "John Robinson": {
+   "status": "moved",
+   "now": "Maven Capital Partners (Partner)"
+  },
+  "Liam Jocson": {
+   "status": "moved",
+   "now": "J.P. Morgan (Associate)"
+  }
+ },
+ "tapestry.vc": {
+  "Audrey Miller": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Mackenzie": {
+   "status": "moved",
+   "now": "General Catalyst (Partner)"
+  },
+  "Patrick Murphy": {
+   "status": "current",
+   "now": null
   }
  }
 }
