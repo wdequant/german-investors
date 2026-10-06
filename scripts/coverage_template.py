@@ -100,7 +100,7 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 #aprail{width:268px;flex:none;position:sticky;top:70px;max-height:calc(100vh - 92px);
   overflow-y:auto;padding:14px 16px;border:1px solid var(--hair);border-radius:14px;
   background:var(--surface);box-sizing:border-box}
-@media(max-width:860px){#side{display:none}#shell{display:block}}
+
 .railh{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .railsub{font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.45}
 .railitem{display:flex;align-items:baseline;gap:7px;padding:6px 0;border-bottom:1px solid var(--hair2);font-size:12.5px}
@@ -630,6 +630,25 @@ th.sk:hover{color:var(--accent-ink)}
   .relcell .rb{width:40px}
   .tmcols{gap:16px}
   .namecell,.fname{overflow-wrap:anywhere}
+}
+@media(max-width:860px){
+  /* sidebar becomes a horizontal nav strip — phones keep full navigation */
+  #shell{display:block}
+  #side{position:static;width:auto;height:auto;display:flex;align-items:center;gap:4px;
+    overflow-x:auto;-webkit-overflow-scrolling:touch;padding:8px 12px;border-right:0;
+    border-bottom:1px solid var(--hair)}
+  #side .slabel{display:none}
+  .sitem{flex:none;margin-bottom:0;padding:7px 12px;font-size:12.5px;white-space:nowrap}
+}
+@media(max-width:700px){
+  .score{flex-wrap:wrap;gap:10px 0;width:100%}
+  .score .s{flex:1 1 45%;max-width:none;padding:0 14px;box-sizing:border-box}
+  .score .s:nth-child(odd){border-left:0;padding-left:0}
+  .dgrid.r4,.dgrid.r5{grid-template-columns:1fr}
+  .dsplit{flex-wrap:wrap}
+  .dprev{border-left:0;padding-left:0;flex-basis:100%;margin-top:10px}
+  .rtile .dleft{max-width:none}
+  .askrow input{font-size:16px}  /* stops iOS zoom-on-focus */
 }
 </style>
 
