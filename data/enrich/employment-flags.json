@@ -2650,6 +2650,62 @@
    "Cecilia Wang": {
     "status": "current",
     "now": null
+   },
+   "Michiel Kotting": {
+    "status": "moved",
+    "now": "Northzone (Partner)"
+   },
+   "Fred Destin": {
+    "status": "unknown",
+    "now": null
+   },
+   "Harry Nelis": {
+    "status": "current",
+    "now": null
+   },
+   "Jonathan Turner": {
+    "status": "unknown",
+    "now": null
+   },
+   "Nate Niparko": {
+    "status": "current",
+    "now": null
+   },
+   "Peter Clarke": {
+    "status": "current",
+    "now": null
+   },
+   "Pia d'Iribarne": {
+    "status": "moved",
+    "now": "Main Object (Founder & Managing Partner)"
+   },
+   "Richard Kotite": {
+    "status": "moved",
+    "now": "Radical Ventures (Partner)"
+   },
+   "Robert Sternberg": {
+    "status": "moved",
+    "now": "EQT Group (Director)"
+   },
+   "Sonali De Rycker": {
+    "status": "current",
+    "now": null
+   },
+   "Sophie Denny": {
+    "status": "current",
+    "now": null
+   },
+   "Tim Rawlinson": {
+    "status": "current",
+    "now": null
+   },
+   "Zhenya Loginov": {
+    "status": "current",
+    "now": null
+   },
+   "Luciana Lixandru": {
+    "status": "moved",
+    "now": "Sequoia Capital (Partner)"
    }
   },
   "sequoia": {
@@ -2908,6 +2964,154 @@
     "now": null
    },
    "Hemant Taneja": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "bessemer": {
+   "Adam Fisher": {
+    "status": "unknown",
+    "now": null
+   },
+   "Aditya Nidmarti": {
+    "status": "moved",
+    "now": "Unannounced (Co-Founder & Executive Chair)"
+   },
+   "Alex Ferrara": {
+    "status": "current",
+    "now": null
+   },
+   "Alexandra Sukin": {
+    "status": "current",
+    "now": null
+   },
+   "Alison Crawford": {
+    "status": "unknown",
+    "now": null
+   },
+   "Amit Karp": {
+    "status": "current",
+    "now": null
+   },
+   "Amy Weyler": {
+    "status": "current",
+    "now": null
+   },
+   "Andrew Schmitt": {
+    "status": "moved",
+    "now": "Builders VC (Principal)"
+   },
+   "Brian Feinstein": {
+    "status": "current",
+    "now": null
+   },
+   "Hannah Waldman": {
+    "status": "current",
+    "now": null
+   },
+   "Justina Chung": {
+    "status": "current",
+    "now": null
+   },
+   "Katie Holmes": {
+    "status": "unknown",
+    "now": null
+   },
+   "Kent Bennett": {
+    "status": "current",
+    "now": null
+   },
+   "Kiran Arokiasamy": {
+    "status": "unknown",
+    "now": null
+   },
+   "Megan Ananian": {
+    "status": "current",
+    "now": null
+   },
+   "Michael Droesch": {
+    "status": "current",
+    "now": null
+   },
+   "Michelle Cheng": {
+    "status": "current",
+    "now": null
+   },
+   "Nancy Straface": {
+    "status": "current",
+    "now": null
+   },
+   "Navid Oreizy": {
+    "status": "current",
+    "now": null
+   },
+   "NoName Conf-ldn-bondst@bvp.com": {
+    "status": "unknown",
+    "now": null
+   },
+   "Pedro Espinoza": {
+    "status": "unknown",
+    "now": null
+   },
+   "Rita Goldman": {
+    "status": "current",
+    "now": null
+   },
+   "Rob Soni": {
+    "status": "unknown",
+    "now": null
+   },
+   "Roei Haviv": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "index-us": {
+   "André Dubois": {
+    "status": "current",
+    "now": null
+   },
+   "Bastian Hasslinger": {
+    "status": "current",
+    "now": null
+   },
+   "Danny Rimer": {
+    "status": "current",
+    "now": null
+   },
+   "David Rimer": {
+    "status": "moved",
+    "now": "The StoryBoard Collective (Founder)"
+   },
+   "Eleanor Chaplin": {
+    "status": "current",
+    "now": null
+   },
+   "Emil Schaefer": {
+    "status": "current",
+    "now": null
+   },
+   "Eryk Dobrushkin": {
+    "status": "current",
+    "now": null
+   },
+   "Gloria Baeuerlein": {
+    "status": "moved",
+    "now": "Puzzle Ventures (Founding Partner)"
+   },
+   "Hannah Seal": {
+    "status": "current",
+    "now": null
+   },
+   "Isaiah Baril-Dore": {
+    "status": "current",
+    "now": null
+   },
+   "Jan Hammer": {
+    "status": "current",
+    "now": null
+   },
+   "Georgia Stevenson": {
     "status": "current",
     "now": null
    }
