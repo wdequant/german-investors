@@ -28,6 +28,18 @@
    "Bernhard Janke": {
     "status": "current",
     "now": null
+   },
+   "Alexander Kudlich": {
+    "status": "moved",
+    "now": "row capital (GP)"
+   },
+   "Bardo D.": {
+    "status": "current",
+    "now": null
+   },
+   "Diogo Cunha": {
+    "status": "moved",
+    "now": "Stealth Company (Co-Founder & CEO)"
    }
   },
   "acton": {
@@ -58,6 +70,26 @@
    "Sophie Rowe": {
     "status": "current",
     "now": null
+   },
+   "Anne-Sophie Krechting": {
+    "status": "current",
+    "now": null
+   },
+   "Bastian Bullmann": {
+    "status": "current",
+    "now": null
+   },
+   "Carina Hüls": {
+    "status": "current",
+    "now": null
+   },
+   "Daniel Niemi": {
+    "status": "current",
+    "now": null
+   },
+   "Lukas Erbguth": {
+    "status": "current",
+    "now": null
    }
   },
   "bayern-kapital": {
@@ -67,6 +99,10 @@
    },
    "Matthias Buchinger": {
     "status": "unknown",
+    "now": null
+   },
+   "Christoph Wirth": {
+    "status": "current",
     "now": null
    }
   },
@@ -108,6 +144,62 @@
    "Cherry Ventures": {
     "status": "unknown",
     "now": null
+   },
+   "Christian Meermann": {
+    "status": "current",
+    "now": null
+   },
+   "Christina Kaess": {
+    "status": "unknown",
+    "now": null
+   },
+   "Dinika Mahtani": {
+    "status": "current",
+    "now": null
+   },
+   "Filip Dames": {
+    "status": "current",
+    "now": null
+   },
+   "Filip Felician Dames": {
+    "status": "current",
+    "now": null
+   },
+   "Katharina Wilhelm": {
+    "status": "current",
+    "now": null
+   },
+   "Leonor Landeau": {
+    "status": "moved",
+    "now": "Elaia (Investment Manager)"
+   },
+   "Lily Petherick": {
+    "status": "current",
+    "now": null
+   },
+   "Marguerite Tavernost": {
+    "status": "moved",
+    "now": "Ledger (Cathay Ledger Fund)"
+   },
+   "Max Brückner": {
+    "status": "unknown",
+    "now": null
+   },
+   "Nadja Reischel": {
+    "status": "current",
+    "now": null
+   },
+   "Patrick Mayr": {
+    "status": "moved",
+    "now": "Prelude (Co-Founder)"
+   },
+   "Sophia Bendz": {
+    "status": "current",
+    "now": null
+   },
+   "Ricardo Sequerra": {
+    "status": "moved",
+    "now": "Point Nine (Partner)"
    }
   },
   "commerzventures": {
@@ -148,6 +240,82 @@
    "Mehmet Atici": {
     "status": "moved",
     "now": "Bek Ventures (rebranded Earlybird Digital East Fund)"
+   },
+   "Akash Bajwa": {
+    "status": "current",
+    "now": null
+   },
+   "Andre Retterath": {
+    "status": "current",
+    "now": null
+   },
+   "Ayush Jain": {
+    "status": "unknown",
+    "now": null
+   },
+   "Cem Sertoglu": {
+    "status": "current",
+    "now": null
+   },
+   "Dr. Christian Nagel": {
+    "status": "current",
+    "now": null
+   },
+   "Dr. Hendrik Brandis": {
+    "status": "current",
+    "now": null
+   },
+   "Earlybird Capital": {
+    "status": "unknown",
+    "now": null
+   },
+   "Evren Ucok": {
+    "status": "current",
+    "now": null
+   },
+   "Jay Harris-Theis": {
+    "status": "current",
+    "now": null
+   },
+   "Laura Waldenstrom": {
+    "status": "current",
+    "now": null
+   },
+   "Laurin Class": {
+    "status": "moved",
+    "now": "OpenAI (Member of Go To Market Staff)"
+   },
+   "Natalia Ahmadian": {
+    "status": "moved",
+    "now": "Stage Two (Project Lead)"
+   },
+   "Nilufer Ayangil": {
+    "status": "current",
+    "now": null
+   },
+   "Nina Mayer": {
+    "status": "current",
+    "now": null
+   },
+   "Paul Klemm": {
+    "status": "current",
+    "now": null
+   },
+   "Roland Manger": {
+    "status": "current",
+    "now": null
+   },
+   "Stefano Ribas": {
+    "status": "current",
+    "now": null
+   },
+   "Tim Rehder": {
+    "status": "current",
+    "now": null
+   },
+   "Vivian Spohr": {
+    "status": "current",
+    "now": null
    }
   },
   "gfc": {
@@ -158,6 +326,18 @@
    "Alexandre Charlet": {
     "status": "moved",
     "now": "Hedosophia (Partner)"
+   },
+   "Cedric Asselman": {
+    "status": "current",
+    "now": null
+   },
+   "David Sainteff": {
+    "status": "current",
+    "now": null
+   },
+   "Don Stalter": {
+    "status": "current",
+    "now": null
    }
   },
   "htgf": {
@@ -172,6 +352,50 @@
    "Chiara Sommer": {
     "status": "moved",
     "now": "Independent investor (ex-Intel Capital; left HTGF 2018)"
+   },
+   "Alex Von Frankenberg": {
+    "status": "moved",
+    "now": "May Ventures (Venture Partner)"
+   },
+   "Alex von Frankenberg": {
+    "status": "moved",
+    "now": "May Ventures (Venture Partner)"
+   },
+   "Benjamin Erhart": {
+    "status": "moved",
+    "now": "UVC Partners (General Partner)"
+   },
+   "Christian Arndt": {
+    "status": "unknown",
+    "now": null
+   },
+   "Johannes Weber": {
+    "status": "current",
+    "now": null
+   },
+   "Klaus Lehmann": {
+    "status": "current",
+    "now": null
+   },
+   "Marco Winzer": {
+    "status": "current",
+    "now": null
+   },
+   "Martin Möllmann": {
+    "status": "unknown",
+    "now": null
+   },
+   "Romy Schnelle": {
+    "status": "current",
+    "now": null
+   },
+   "Tobias Schulz": {
+    "status": "current",
+    "now": null
+   },
+   "Yann Fiebig": {
+    "status": "current",
+    "now": null
    }
   },
   "hv-capital": {
@@ -182,6 +406,90 @@
    "Christian Saller": {
     "status": "unknown",
     "now": null
+   },
+   "Ann-Christin Stiehl": {
+    "status": "current",
+    "now": null
+   },
+   "Anna Ott": {
+    "status": "current",
+    "now": null
+   },
+   "Barbod Namini": {
+    "status": "current",
+    "now": null
+   },
+   "Dr. Christian Saller": {
+    "status": "current",
+    "now": null
+   },
+   "Eileen Shea": {
+    "status": "unknown",
+    "now": null
+   },
+   "Fabian Gruner": {
+    "status": "current",
+    "now": null
+   },
+   "Felix Kluehr": {
+    "status": "current",
+    "now": null
+   },
+   "Frazier Christie": {
+    "status": "current",
+    "now": null
+   },
+   "Jack McGuinness": {
+    "status": "current",
+    "now": null
+   },
+   "Jack Mcguinness": {
+    "status": "current",
+    "now": null
+   },
+   "Jan Miczaika": {
+    "status": "current",
+    "now": null
+   },
+   "Jannis Fett": {
+    "status": "current",
+    "now": null
+   },
+   "Kasey Davies": {
+    "status": "current",
+    "now": null
+   },
+   "Lars Langusch": {
+    "status": "current",
+    "now": null
+   },
+   "Lucian Rilling": {
+    "status": "current",
+    "now": null
+   },
+   "Marie Bos": {
+    "status": "current",
+    "now": null
+   },
+   "Mina Mutafchieva": {
+    "status": "current",
+    "now": null
+   },
+   "Natalia Uribe": {
+    "status": "current",
+    "now": null
+   },
+   "Rainer Märkle": {
+    "status": "current",
+    "now": null
+   },
+   "Vincent Coon": {
+    "status": "current",
+    "now": null
+   },
+   "Zuzanna Czapinska": {
+    "status": "moved",
+    "now": "ICONIQ (Investor)"
    }
   },
   "ibb-ventures": {
@@ -191,6 +499,10 @@
    },
    "Markus Lehmann": {
     "status": "current",
+    "now": null
+   },
+   "Roger Bendisch": {
+    "status": "unknown",
     "now": null
    }
   },
@@ -208,6 +520,30 @@
    "Luis Antonio Zarate Serrano": {
     "status": "moved",
     "now": "Piana (Chief of Staff)"
+   },
+   "Florian Reichert": {
+    "status": "current",
+    "now": null
+   },
+   "Jeremias Heinrich": {
+    "status": "current",
+    "now": null
+   },
+   "Nina Neumann": {
+    "status": "moved",
+    "now": "Female Invest (Organic Growth Lead)"
+   },
+   "Oliver Heinrich": {
+    "status": "unknown",
+    "now": null
+   },
+   "Patrick Hermann": {
+    "status": "unknown",
+    "now": null
+   },
+   "Selina Zaglauer": {
+    "status": "current",
+    "now": null
    }
   },
   "point-nine": {
@@ -218,6 +554,34 @@
    "Julia Morrongiello": {
     "status": "moved",
     "now": "BVNK (VP Corporate Development & Strategy)"
+   },
+   "Alex George": {
+    "status": "moved",
+    "now": "ElevenLabs (Localization)"
+   },
+   "Anique Goemans": {
+    "status": "unknown",
+    "now": null
+   },
+   "Christoph Janz": {
+    "status": "current",
+    "now": null
+   },
+   "Louis Coppey": {
+    "status": "current",
+    "now": null
+   },
+   "Oana Botez": {
+    "status": "moved",
+    "now": "Revent (Head of Community)"
+   },
+   "Pawel Chudzinski": {
+    "status": "current",
+    "now": null
+   },
+   "Ricardo Sequerra": {
+    "status": "current",
+    "now": null
    }
   },
   "project-a": {
@@ -226,6 +590,42 @@
     "now": null
    },
    "Marjorie Lengereau": {
+    "status": "current",
+    "now": null
+   },
+   "Anton Waitz": {
+    "status": "current",
+    "now": null
+   },
+   "Ben Fischer": {
+    "status": "unknown",
+    "now": null
+   },
+   "Enrico Mellis": {
+    "status": "moved",
+    "now": "Animal Syndication Company (Founder)"
+   },
+   "Francesca Baillieu": {
+    "status": "moved",
+    "now": "Scout (Founder)"
+   },
+   "Friederike Kowert": {
+    "status": "unknown",
+    "now": null
+   },
+   "Holger Witte": {
+    "status": "moved",
+    "now": "Witte Ventures (Managing Director)"
+   },
+   "Malin Posern": {
+    "status": "current",
+    "now": null
+   },
+   "Thies Sander": {
+    "status": "current",
+    "now": null
+   },
+   "Uwe Horstmann": {
     "status": "current",
     "now": null
    }
