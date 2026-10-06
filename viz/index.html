@@ -603,6 +603,32 @@ th.sk:hover{color:var(--accent-ink)}
   .sheetbody .tmcols{gap:16px}
   #tip{max-width:82vw}
 }
+/* graceful reflow when Sonar runs at half-screen or in a dragged window */
+@media(max-width:1500px){
+  .covcard{width:206px;padding:12px 13px 10px}
+}
+@media(max-width:1300px){
+  .covcard{width:168px}
+  .covrow .cst span{display:none}   /* keep counts + colour bars, drop the tiny labels */
+  td.covtd{min-width:0;padding:12px 6px}
+  .pts{width:270px;min-width:0}
+  .chips.mini{max-width:170px}
+}
+@media(max-width:1140px){
+  #side{width:164px;padding:14px 10px}
+  .covcard{width:auto;min-width:104px;padding:11px 12px 9px}
+  .covrow{display:none}             /* score only — full stage split lives in the expanded row */
+  .covhead{margin-bottom:0;flex-direction:column;gap:3px;align-items:flex-start}
+  .dgrid.r2{grid-template-columns:1fr}
+  .pts{width:180px;min-width:0;font-size:12px}
+  .badge{white-space:normal}
+  table td:first-child{max-width:215px}
+  .pts .pt .ptr .sbar{display:none}
+  .relcell{min-width:0}
+  .relcell .rb{width:40px}
+  .tmcols{gap:16px}
+  .namecell,.fname{overflow-wrap:anywhere}
+}
 </style>
 
 <div class="appbar"><div class="in">
