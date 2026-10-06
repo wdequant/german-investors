@@ -885,6 +885,444 @@
   "Peter Specht": {
    "status": "current",
    "now": null
+  },
+  "Simon Schmincke": {
+   "status": "current",
+   "now": null
+  },
+  "Isabelle Sandblom": {
+   "status": "current",
+   "now": null
+  },
+  "Jakob Stein": {
+   "status": "current",
+   "now": null
+  },
+  "Hanel Baveja": {
+   "status": "current",
+   "now": null
+  },
+  "Ellen Lee": {
+   "status": "moved",
+   "now": "Modal (Marketing / Growth)"
+  },
+  "Gemma Bloemen": {
+   "status": "moved",
+   "now": "Systemiq Capital (Full-time Venture Partner)"
+  }
+ },
+ "crowdcube.com": {
+  "Mathias Pastor": {
+   "status": "moved",
+   "now": "Auctor Group / HodlCo (Director)"
+  }
+ },
+ "crv.com": {
+  "Jon Auerbach": {
+   "status": "current",
+   "now": null
+  },
+  "Izhar Armony": {
+   "status": "current",
+   "now": null
+  },
+  "James Green": {
+   "status": "current",
+   "now": null
+  },
+  "Rebecca Charyn": {
+   "status": "current",
+   "now": null
+  },
+  "Jenny Sun": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cyberstarts.com": {
+  "Lior Simon": {
+   "status": "current",
+   "now": null
+  },
+  "Shiran Ella": {
+   "status": "current",
+   "now": null
+  },
+  "Gili Raanan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "databricks.com": {
+  "Panos Athanasiou": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "datadoghq.com": {
+  "Gabriel Levy": {
+   "status": "current",
+   "now": null
+  },
+  "Varun Mohapatra": {
+   "status": "moved",
+   "now": "Tracebit (Product)"
+  },
+  "Bharat Sajnani": {
+   "status": "current",
+   "now": null
+  },
+  "Brian Peters": {
+   "status": "current",
+   "now": null
+  },
+  "Brenda Newmann": {
+   "status": "current",
+   "now": null
+  },
+  "Robie Evangelista": {
+   "status": "moved",
+   "now": "Cantorna Creative (Executive Business Partner)"
+  }
+ },
+ "dawncapital.com": {
+  "Atiyu Mehta": {
+   "status": "current",
+   "now": null
+  },
+  "Alexandra Tsylnitska": {
+   "status": "current",
+   "now": null
+  },
+  "Romeo Walter": {
+   "status": "current",
+   "now": null
+  },
+  "Shamillah Bankiya": {
+   "status": "current",
+   "now": null
+  },
+  "Jimena Nowack": {
+   "status": "moved",
+   "now": "IVP (Partner)"
+  },
+  "Mina Mutafchieva": {
+   "status": "moved",
+   "now": "HV Capital (Partner, Growth)"
+  },
+  "Dan Chaplin": {
+   "status": "current",
+   "now": null
+  },
+  "Avalon Lee-Bacon": {
+   "status": "current",
+   "now": null
+  },
+  "Josh Bell": {
+   "status": "current",
+   "now": null
+  },
+  "Gamila Hassan": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Garcia": {
+   "status": "moved",
+   "now": "Nauta (Principal)"
+  },
+  "Zoe Qin": {
+   "status": "current",
+   "now": null
+  },
+  "Ties Boukema": {
+   "status": "moved",
+   "now": "Hg (Head of internal AI)"
+  }
+ },
+ "cylonventures.com": {
+  "Grace Cassy": {
+   "status": "moved",
+   "now": "Ten Eleven Ventures (Partner)"
+  }
+ },
+ "deel.com": {
+  "Roman Lobas": {
+   "status": "moved",
+   "now": "Icebreaker Agency (Сo-founder & Partner)"
+  },
+  "Anthony Dann": {
+   "status": "current",
+   "now": null
+  },
+  "Hannes Ortmeier": {
+   "status": "current",
+   "now": null
+  },
+  "Ji Bang": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "demeter-im.com": {
+  "Olivier Bordelanne": {
+   "status": "current",
+   "now": null
+  },
+  "Valentine Clinkspoor": {
+   "status": "current",
+   "now": null
+  },
+  "Eric Marty": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "discovery-ventures.com": {
+  "Finn Weise": {
+   "status": "moved",
+   "now": "Thrivo Wealth Partners (Geschäftsführer)"
+  }
+ },
+ "dogpatchlabs.com": {
+  "Menno Axt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "drysdale.vc": {
+  "Dalia Mahfouf": {
+   "status": "current",
+   "now": null
+  },
+  "Nicolas Essayan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "dvhventures.de": {
+  "Duc Tran": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ec.europa.eu": {
+  "Sevdalis Panagiotis": {
+   "status": "current",
+   "now": null
+  },
+  "Panagiotis Sevdalis": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "dynamo.vc": {
+  "Jon Bradford": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "ecbf.vc": {
+  "Stephane Roussel": {
+   "status": "current",
+   "now": null
+  },
+  "Hakan Karan": {
+   "status": "current",
+   "now": null
+  },
+  "Cornelia Frentz": {
+   "status": "current",
+   "now": null
+  },
+  "Mathias Lorenz": {
+   "status": "moved",
+   "now": "Delphinus Venture Capital (Managing Partner & CEO)"
+  }
+ },
+ "eib.org": {
+  "Lisboa Joana": {
+   "status": "current",
+   "now": null
+  },
+  "Papadimitriou Aristotle": {
+   "status": "current",
+   "now": null
+  },
+  "Katona Marton": {
+   "status": "unknown",
+   "now": null
+  },
+  "Magazzino Donato": {
+   "status": "unknown",
+   "now": null
+  },
+  "Himtcheva-rouzade Milena": {
+   "status": "unknown",
+   "now": null
+  },
+  "Aml-cft - KYC Review": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "eif.org": {
+  "Yakisirer Adem": {
+   "status": "current",
+   "now": null
+  },
+  "Bjorn Tremmerie": {
+   "status": "current",
+   "now": null
+  },
+  "Matthias Ummenhofer": {
+   "status": "moved",
+   "now": "Founders Pledge (Founders Pledge Member)"
+  },
+  "Haeger Philipp": {
+   "status": "current",
+   "now": null
+  },
+  "MARCINKOWSKI Maud": {
+   "status": "moved",
+   "now": "European Investment Bank (EIB) (Senior Operational Assistant)"
+  },
+  "ANDRES René": {
+   "status": "current",
+   "now": null
+  },
+  "Marchal Sarah": {
+   "status": "current",
+   "now": null
+  },
+  "Prikoszovits Lucia": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "eightroads.com": {
+  "Tamina Fogelberg": {
+   "status": "moved",
+   "now": "Nothing (Director of Global Strategy & Corporate Development)"
+  },
+  "Lucile Cornet": {
+   "status": "current",
+   "now": null
+  },
+  "Martin Ericsson": {
+   "status": "moved",
+   "now": "Priori Capital (Founder & CEO)"
+  },
+  "Helena Barman": {
+   "status": "moved",
+   "now": "Antler (VC investor @ Antler Elevate)"
+  },
+  "Asheque Shams": {
+   "status": "unknown",
+   "now": null
+  },
+  "Louis Frach": {
+   "status": "moved",
+   "now": "Left Lane Capital (Investor)"
+  },
+  "Daniel Benjamin": {
+   "status": "moved",
+   "now": "Eon (Seed Investor)"
+  },
+  "Davor Hebel": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Treskow": {
+   "status": "current",
+   "now": null
+  },
+  "Laura Salesse": {
+   "status": "current",
+   "now": null
+  },
+  "Lucy O'Brien": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "elaia.com": {
+  "Louisa Mesnard": {
+   "status": "current",
+   "now": null
+  },
+  "Alexis Frentz": {
+   "status": "current",
+   "now": null
+  },
+  "Gabriel Levy": {
+   "status": "moved",
+   "now": "Datadog (Senior Corpdev, Head of EMEA, Security)"
+  },
+  "Leonor Landeau": {
+   "status": "current",
+   "now": null
+  },
+  "Marie Ekeland": {
+   "status": "moved",
+   "now": "2050 (Founder & CEO)"
+  },
+  "Anya Brochier": {
+   "status": "current",
+   "now": null
+  },
+  "Xavier LAZARUS": {
+   "status": "current",
+   "now": null
+  },
+  "Pauline Roux": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "elephantvc.com": {
+  "Matt Tanenblatt": {
+   "status": "current",
+   "now": null
+  },
+  "Peter Fallon": {
+   "status": "current",
+   "now": null
+  },
+  "Andy Hunt": {
+   "status": "unknown",
+   "now": null
+  },
+  "Christopher Souza": {
+   "status": "current",
+   "now": null
+  },
+  "Jason Shein": {
+   "status": "current",
+   "now": null
+  },
+  "Sandy Destruge": {
+   "status": "moved",
+   "now": "Silversmith Capital Partners (Executive Assistant)"
+  },
+  "Jeremiah Daly": {
+   "status": "current",
+   "now": null
+  },
+  "Dara Li": {
+   "status": "current",
+   "now": null
+  },
+  "Annmarie Singh": {
+   "status": "current",
+   "now": null
+  },
+  "Pat Cammarata": {
+   "status": "current",
+   "now": null
+  },
+  "Jack Connolly": {
+   "status": "current",
+   "now": null
   }
  }
 }
