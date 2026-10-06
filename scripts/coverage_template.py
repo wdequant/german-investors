@@ -1,6 +1,7 @@
 # Multi-region coverage map template v5. Consumed by build_coverage.py.
 
-TEMPLATE = r"""<title>Sonar</title>
+TEMPLATE = r"""<meta charset="utf-8">
+<title>Sonar</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -77,19 +78,28 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .abtn{background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-ink);border-radius:9px;
   padding:9px 16px;font-size:13px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
 .abtn:hover{background:var(--ink);color:var(--surface);border-color:var(--ink)}
-#apback{position:fixed;inset:0;background:rgba(20,18,12,.42);z-index:65;display:none;
-  backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
-#apback.open{display:block}
-#apanel{position:fixed;inset:0;margin:auto;width:min(1260px,95vw);height:min(92vh,980px);
-  background:var(--page);border:1px solid var(--hair);border-radius:18px;z-index:70;
-  display:flex;flex-direction:column;overflow:hidden;opacity:0;pointer-events:none;
-  transform:scale(.97);transition:transform .18s ease,opacity .18s ease;
-  box-shadow:0 24px 80px rgba(0,0,0,.28)}
-#apanel.open{opacity:1;transform:none;pointer-events:auto}
-#apmain{flex:1;display:flex;min-height:0}
-#apscroll{flex:1;overflow-y:auto;min-width:0}
-#aprail{width:272px;flex:none;border-left:1px solid var(--hair);background:var(--surface);
-  overflow-y:auto;padding:14px 16px}
+#shell{display:flex;align-items:flex-start}
+#side{width:218px;flex:none;position:sticky;top:53px;height:calc(100vh - 53px);
+  border-right:1px solid var(--hair);background:var(--surface);padding:16px 10px;box-sizing:border-box}
+.slabel{font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+  padding:0 12px;margin:4px 0 6px}
+.sitem{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;font-size:13.5px;
+  font-weight:600;color:var(--ink2);cursor:pointer;margin-bottom:2px;user-select:none}
+.sitem:hover{background:var(--hair2);color:var(--ink)}
+.sitem.on{background:var(--accent-soft);color:var(--accent-ink)}
+.sitem .si{width:18px;text-align:center;flex:none}
+#content{flex:1;min-width:0}
+.page[hidden]{display:none}
+.whead{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  padding:26px 0 12px;border-bottom:1px solid var(--hair);margin-bottom:14px}
+.whead h1{font-size:26px;margin:0}
+.whead .apctx{border:0;padding:0}
+#apmain{display:flex;gap:26px;align-items:flex-start}
+#apscroll{flex:1;min-width:0}
+#aprail{width:268px;flex:none;position:sticky;top:70px;max-height:calc(100vh - 92px);
+  overflow-y:auto;padding:14px 16px;border:1px solid var(--hair);border-radius:14px;
+  background:var(--surface);box-sizing:border-box}
+@media(max-width:860px){#side{display:none}#shell{display:block}}
 .railh{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .railsub{font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.45}
 .railitem{display:flex;align-items:baseline;gap:7px;padding:6px 0;border-bottom:1px solid var(--hair2);font-size:12.5px}
@@ -112,7 +122,7 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
   font-size:12px;color:var(--muted);flex-wrap:wrap}
 .apctx select{background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:8px;
   padding:6px 10px;font-size:12.5px}
-.apbody{padding:14px 20px 80px}
+.apbody{padding:2px 0 80px}
 .aphint{font-size:12px;color:var(--muted);margin:2px 0 12px}
 .apsec{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:18px 0 8px}
 .apcard{border:1px solid var(--hair);border-radius:14px;padding:14px 18px;margin-bottom:10px;background:var(--raise)}
@@ -161,7 +171,9 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .apcontact .guess{color:var(--thin-ink)}
 .aprow{display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid var(--hair2);font-size:13px;flex-wrap:wrap}
 .aprow .cc{font-size:11px}
-@media(max-width:760px){.apbody{padding:12px 14px 80px}}
+@media(max-width:760px){.apbody{padding:2px 0 80px}}
+body[data-page="h2c"] #viewseg,body[data-page="net"] #viewseg,body[data-page="geo"] #viewseg,body[data-page="dash"] #viewseg{display:none}
+body[data-page="h2c"] #q,body[data-page="net"] #q,body[data-page="geo"] #q,body[data-page="dash"] #q{display:none}
 .subline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .about summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px;font-weight:600;list-style:none;white-space:nowrap}
 .about summary::before{content:"ⓘ ";font-weight:400}
@@ -257,6 +269,26 @@ tr.detailrow td{background:none;box-shadow:none}
   font-size:13.5px;font-weight:600;cursor:pointer;color:var(--ink)}
 #wholist button:hover{border-color:var(--ink)}
 #wholist button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.dhero{padding:30px 0 6px}
+.dhero h1{font-size:30px}
+.dsec{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:26px 0 10px}
+.dgrid{display:grid;gap:12px}
+.dgrid.r4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.dgrid.r2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dgrid.r5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.dtile{background:var(--raise);border:1px solid var(--hair2);border-radius:16px;padding:16px 18px}
+.dtile.go,.dcity.go{cursor:pointer}
+.dtile.go:hover,.dcity.go:hover{border-color:var(--ink2)}
+.dtlabel{font-size:12px;font-weight:700;margin-bottom:10px}
+.dtnum .covnum{font-size:30px}
+.dtnum{display:inline-flex;flex-direction:column}
+.dtduo{display:flex;gap:28px}
+.dtnum .covcap{margin-top:3px}
+.dtsub{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+.dtsub.warn{color:var(--gap-ink)}
+.dcity{background:var(--raise);border:1px solid var(--hair2);border-radius:16px;padding:14px 16px}
+.dcity .fname{font-size:15px}
+@media(max-width:1100px){.dgrid.r4{grid-template-columns:repeat(2,1fr)}.dgrid.r5{grid-template-columns:repeat(2,1fr)}}
 .covword{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px}
 .covword.strong{color:var(--covered-ink)} .covword.medium{color:var(--thin-ink)} .covword.weak{color:var(--gap-ink)}
 .covcmp{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;margin-top:2px;color:var(--muted);white-space:nowrap}
@@ -511,7 +543,7 @@ th.sk:hover{color:var(--accent-ink)}
 <div class="appbar"><div class="in">
   <span class="brand"><span class="mark">S</span><span>Sonar<span class="by">Highland Europe</span></span></span>
   <div class="seg" id="viewseg">
-    <button data-v="funds" class="on">Investors</button><button data-v="htc">H2C paths</button><button data-v="unt">Untracked Dealflow</button>
+    <button data-v="funds" class="on">Investors</button><button data-v="unt">Untracked Dealflow</button>
   </div>
   <button class="btn ghost" id="whoami" title="Sonar is personalised to you — click to switch">👤</button>
   <input type="search" id="q" placeholder="Filter…">
@@ -528,6 +560,29 @@ th.sk:hover{color:var(--accent-ink)}
   </div>
 </div></div>
 
+<div id="shell">
+<nav id="side">
+  <div class="slabel">Sonar</div>
+  <a class="sitem" data-page="dash"><span class="si">◳</span>Dashboard</a>
+  <a class="sitem" data-page="cov"><span class="si">▦</span>Coverage by Region</a>
+  <div class="slabel" style="margin-top:14px">Workflows</div>
+  <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
+  <a class="sitem" data-page="net"><span class="si">⇗</span>Build my Network</a>
+  <a class="sitem" data-page="geo"><span class="si">✈</span>Geo Visit</a>
+</nav>
+<main id="content">
+
+<section id="dashpage" class="page" hidden><div class="wrap" id="dashwrap"></div></section>
+
+<section id="workpage" class="page" hidden><div class="wrap">
+  <header class="whead"><h1 id="worktitle"></h1><div class="apctx" id="apctx"></div></header>
+  <div id="apmain">
+    <div id="apscroll"><div class="apbody" id="apbody"></div></div>
+    <aside id="aprail"></aside>
+  </div>
+</div></section>
+
+<section id="covpage" class="page">
 <div class="wrap">
 <header class="hero">
   <div class="heroL">
@@ -548,12 +603,6 @@ th.sk:hover{color:var(--accent-ink)}
 
 <div class="toolbar">
   <div id="regionseg" class="regionnav"></div>
-  <div class="actionrow">
-    <span class="actlabel" id="actlabel">Workflows</span>
-    <button class="abtn" data-ap="htc">⚡ Solve my hard-to-cracks</button>
-    <button class="abtn" data-ap="net">⇗ Build my network</button>
-    <button class="abtn" data-ap="geo">✈ Geo visit</button>
-  </div>
 </div>
 <div id="changes"></div>
 
@@ -566,11 +615,6 @@ th.sk:hover{color:var(--accent-ink)}
 <table id="angeltable"></table>
 </div>
 
-<div id="htcview" style="display:none">
-<div class="sechead"><h2>H2C paths — hard-to-cracks reachable via mapped investors</h2><p id="htchint"></p></div>
-<table id="htctable"></table>
-</div>
-
 <div id="untview" style="display:none">
 <div class="sechead"><h2>Untracked dealflow — deals we have no CRM record for</h2>
 <div class="untbar"><div class="seg" id="untmode"><button data-um="fund" class="on">By fund</button><button data-um="company">By company</button></div>
@@ -581,22 +625,15 @@ th.sk:hover{color:var(--accent-ink)}
 </div>
 
 <div id="mlist"></div>
+</div></section>
+</main>
+</div>
 <div id="whoback"><div id="whocard" role="dialog" aria-modal="true" aria-label="Who are you?">
   <div class="th">Who are you?</div>
   <p>Sonar personalises coverage, workflows and next moves to you.
   Pick yourself once — it's remembered on this device.</p>
   <div id="wholist"></div>
 </div></div>
-<div id="apback"></div>
-<aside id="apanel" role="dialog" aria-modal="true" aria-label="Action panel">
-  <div class="aphead"><div id="aptitle"></div><button id="apclose" aria-label="Close">✕</button></div>
-  <div class="apctx" id="apctx"></div>
-  <div id="apmain">
-    <div id="apscroll"><div class="apbody" id="apbody"></div></div>
-    <aside id="aprail"></aside>
-  </div>
-</aside>
-
 <div id="sheet" role="dialog" aria-modal="true">
   <div class="sheethead"><button id="sheetclose" aria-label="Close">←</button><div class="fname" id="sheetname"></div></div>
   <div class="sheetstats" id="sheetstats"></div>
@@ -625,7 +662,7 @@ const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], view:"funds", sort:"connectivity", q:"", person:"", cat:"", cc:"",
+const state = {region: REGIONS[0], page:'dash', view:"funds", sort:"connectivity", q:"", person:"", cat:"", cc:"",
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
@@ -682,6 +719,7 @@ function scoreboard(){
     const g=t.dataset.go;
     if(g==='gaps'){ state.view='funds'; state.sort='gap'; render();
       document.getElementById('starthere')?.scrollIntoView({behavior:'smooth',block:'start'}); }
+    else if(g==='htc'){ goPage('h2c'); }
     else { state.view=g; document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on',x.dataset.v===g)); render(); updateHash(); }
   }));
 }
@@ -822,30 +860,127 @@ function renderRail(){
     renderRail(); const body=document.getElementById('apbody'); if(body){ body.querySelectorAll('[data-star]').forEach(b=>{b.classList.remove('on');b.textContent='☆';}); } });
 }
 
-function openAP(mode){
-  ap.mode=mode;
-  if(!ap.who) ap.who=state.person||'';
-  document.getElementById('apanel').classList.add('open');
-  document.getElementById('apback').classList.add('open');
-  renderAP();
+const PAGES={dash:'dashpage',cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage'};
+function renderDash(){
+  const w=document.getElementById('dashwrap'); if(!w) return;
+  const me=state.person||'', fn=me?me.split(' ')[0]:'';
+  const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length):0;
+  const tierOf=v=>v>=50?'strong':v>=22?'medium':'weak';
+
+  // --- coverage quality per region (relevant funds only) ---
+  const regTiles=REGIONS.map(r=>{
+    const rel=D.regions[r].entities.filter(e=>e.kind==='fund'&&!ACCELCAT[e.category]&&(e.relevance?.total||0)>=55);
+    const team=avg(rel.map(e=>e.connectivity));
+    const you=me?avg(rel.map(e=>personCov(e,me))):team;
+    const gaps=rel.filter(e=>(me?personCov(e,me):e.connectivity)<22).length;
+    return `<div class="dtile go" data-go-region="${r}">
+      <div class="dtlabel">${D.regions[r].label}</div>
+      <div class="dtnum"><b class="covnum ${tierOf(you)}">${you}</b><span class="covcap">${me?'your':'team'} coverage</span></div>
+      ${me?`<div class="dtsub">team ${team}</div>`:''}
+      <div class="dtsub ${gaps?'warn':''}">${gaps?`${gaps} relevant fund${gaps>1?'s':''} you can't reach`:'all relevant funds reachable'}</div>
+    </div>`;
+  }).join('');
+
+  // --- hard-to-cracks: mine, and how many my network can open ---
+  const seen=new Set(), hl=[];
+  REGIONS.forEach(r=>(D.regions[r].htc||[]).forEach(c=>{if(!seen.has(c.id)){seen.add(c.id);hl.push(c);}}));
+  (D.xhtc||[]).forEach(c=>{if(!seen.has(c.id)){seen.add(c.id);hl.push(c);}});
+  const mine=me?hl.filter(c=>(c.owners||[]).includes(me)):hl;
+  const reach=mine.filter(c=>(c.investors||[]).some(i=>i.best&&!i.best.moved));
+  const top3=mine.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,3);
+
+  // --- network: top borrow suggestion ---
+  const borrow=me?ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]
+      &&personCov(x.e,me)<22&&x.e.connectivity>=50&&(x.e.points||[]).length)
+    .sort((a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0)):[];
+
+  // --- cities worth a trip: pipeline weight + relevant-fund gap weight ---
+  const cities={};
+  ALLE.forEach(({r,e})=>{
+    const fc=cityOf(e);
+    if(e.kind==='fund'&&fc&&(e.relevance?.total||0)>=55&&!ACCELCAT[e.category]){
+      const c=cities[fc]=cities[fc]||{funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set()};
+      c.funds++; const pc=me?personCov(e,me):e.connectivity;
+      c.gapW+=(e.relevance.total/100)*(1-pc/100); c.str.push(pc);
+    }
+    Object.values(e.buckets||{}).forEach(l=>l.forEach(p=>{
+      if(!p.city) return; const mc=metroOf(p.city); if(!mc) return;
+      if(me&&!(p.own||[]).includes(me)) return;
+      const c=cities[mc]=cities[mc]||{funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set()};
+      if(!c.names.has(p.id)){ c.names.add(p.id); c.pipe++; if((p.uf||0)>=70) c.hiPipe++; }
+    }));
+  });
+  const ranked=Object.entries(cities)
+    .map(([city,c])=>({city,...c,score:c.pipe*0.6+c.hiPipe*1.2+c.gapW*1.6}))
+    .filter(c=>c.score>0.8).sort((a,b)=>b.score-a.score).slice(0,5);
+  const cityCards=ranked.map(c=>`<div class="dcity go" data-go-city="${c.city}">
+    <div class="fname">${c.city}</div>
+    <div class="dtsub">${[c.pipe?`${c.pipe} of ${me?'your':'our'} pipeline${c.hiPipe?` (${c.hiPipe} high-prio)`:''}`:null,
+      c.funds?`${c.funds} relevant fund${c.funds>1?'s':''}${c.str.length?` · ${me?'your':'team'} strength ${avg(c.str)}`:''}`:null]
+      .filter(Boolean).join(' · ')}</div>
+  </div>`).join('');
+
+  w.innerHTML=`
+    <header class="dhero"><div class="kicker">Highland Europe · relationship intelligence · ${D.generated}</div>
+    <h1>${fn?`Good to see you, ${fn}`:'Your coverage at a glance'}</h1>
+    <p class="sub">Where your network is strong, where it isn't, and where to spend the week.</p></header>
+    <div class="dsec">Coverage quality — relevant funds per region</div>
+    <div class="dgrid r4">${regTiles}</div>
+    <div class="dgrid r2" style="margin-top:14px">
+      <div class="dtile go" data-go-page="h2c">
+        <div class="dtlabel">${fn?fn+"'s":'Our'} hard to cracks</div>
+        <div class="dtduo"><span class="dtnum"><b class="covnum">${mine.length}</b><span class="covcap">companies</span></span>
+        <span class="dtnum"><b class="covnum ${reach.length?'strong':'weak'}">${mine.length?Math.round(100*reach.length/mine.length):0}%</b><span class="covcap">reachable via network</span></span></div>
+        ${top3.length?`<div class="dtsub">top: ${top3.map(c=>c.name).join(' · ')}</div>`:''}
+      </div>
+      <div class="dtile go" data-go-page="net">
+        <div class="dtlabel">Build ${fn?fn+"'s":'the'} network</div>
+        <div class="dtnum"><b class="covnum ${borrow.length?'medium':'strong'}">${borrow.length}</b><span class="covcap">intros the team can make you</span></span></div>
+        ${borrow.length?`<div class="dtsub">start with ${borrow[0].e.name} — ask ${borrow[0].e.points[0].internal.split(' ')[0]}</div>`:''}
+      </div>
+    </div>
+    <div class="dsec">Where to go next — dealflow weight × your network × open pipeline</div>
+    <div class="dgrid r5">${cityCards||'<div class="dtsub">City signals appear as pipeline cities fill in.</div>'}</div>`;
+  w.querySelectorAll('[data-go-region]').forEach(t=>t.addEventListener('click',()=>{state.region=t.dataset.goRegion;
+    document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on',x.dataset.r===state.region));goPage('cov');}));
+  w.querySelectorAll('[data-go-page]').forEach(t=>t.addEventListener('click',()=>goPage(t.dataset.goPage)));
+  w.querySelectorAll('[data-go-city]').forEach(t=>t.addEventListener('click',()=>goPage('geo',{city:t.dataset.goCity})));
 }
-function closeAP(){
-  document.getElementById('apanel').classList.remove('open');
-  document.getElementById('apback').classList.remove('open');
+
+function goPage(p, opts){
+  state.page=p;
+  document.body.dataset.page=p;
+  for(const sec of ['dashpage','covpage','workpage'])
+    document.getElementById(sec).hidden = PAGES[p]!==sec;
+  document.querySelectorAll('#side .sitem').forEach(a=>a.classList.toggle('on', a.dataset.page===p));
+  if(p==='h2c'||p==='net'||p==='geo'){
+    ap.mode=p==='h2c'?'htc':p;
+    if(ap.who==='' && !ap.whoTouched) ap.who=state.person||'';
+    if(opts&&opts.city) ap.city=opts.city;
+    renderWork();
+  } else if(p==='cov'){ labels(); scoreboard(); render(); }
+  else renderDash();
+  updateHash();
+  scrollTo(0,0);
 }
-function renderAP(){
-  const titles={htc:'Solve my hard-to-cracks', net:'Build my network', geo:'Geo visit'};
-  document.getElementById('aptitle').textContent=titles[ap.mode]||'';
+function refresh(){  // re-render whatever page is active
+  if(state.page==='cov'){ labels(); scoreboard(); render(); }
+  else if(state.page==='dash') renderDash();
+  else renderWork();
+}
+function renderWork(){
+  const titles={htc:'Solve my Hard to Cracks', net:'Build my Network', geo:'Geo Visit'};
+  document.getElementById('worktitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
   ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
     D.roster.map(n=>`<option${ap.who===n?' selected':''}>${n}</option>`).join('')+`</select>`+
     (ap.mode==='geo'?` City <select id="apcity"><option value="">choose…</option>`+
       Object.keys(TRIPS).sort().map(c=>`<option${ap.city===c?' selected':''}>${c}</option>`).join('')+`</select>`:'')+
     (ap.mode==='htc'?` Sort <span class="aptog"><button data-hs="uf"${ap.hsort==='uf'?' class="on"':''}>Unframe priority</button><button data-hs="ease"${ap.hsort==='ease'?' class="on"':''}>Ease of access</button></span>`:'');
-  ctx.querySelector('#apwho').addEventListener('change',ev=>{ap.who=ev.target.value;renderAP();});
+  ctx.querySelector('#apwho').addEventListener('change',ev=>{ap.who=ev.target.value;ap.whoTouched=true;renderWork();});
   const cs=ctx.querySelector('#apcity');
-  if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderAP();});
-  ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderAP();}));
+  if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderWork();updateHash();});
+  ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderWork();}));
   const body=document.getElementById('apbody');
   body.innerHTML = ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
@@ -1766,7 +1901,6 @@ function render(){
   const chEl = document.getElementById('changes');
   if(chEl) chEl.innerHTML = state.view==='funds' ? changesHTML() : '';
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
-  document.getElementById('htcview').style.display = state.view==='htc'?'':'none';
   document.getElementById('untview').style.display = state.view==='unt'?'':'none';
   const sh = document.getElementById('starthere');
   if(mob){
@@ -1775,7 +1909,6 @@ function render(){
     renderMobile(); updateHash(); return;
   }
   document.getElementById('sheet').classList.remove('open');
-  if(state.view==='htc'){ htcHTML(); return; }
   if(state.view==='unt'){ untHTML(); return; }
   if(sh){
     sh.innerHTML='';
@@ -1872,31 +2005,44 @@ function labels(){
 }
 // ---------- hash routing ----------
 function updateHash(){
-  let h = '#'+state.region;
-  if(state.view==='htc') h+='/htc';
-  else if(state.view==='unt') h+='/unt';
-  else if(state.open) h+='/'+state.open;
+  let h;
+  if(state.page==='dash') h='#dash';
+  else if(state.page==='h2c') h='#h2c';
+  else if(state.page==='net') h='#net';
+  else if(state.page==='geo') h='#geo'+(ap.city?'/'+encodeURIComponent(ap.city):'');
+  else{
+    h = '#'+state.region;
+    if(state.view==='unt') h+='/unt';
+    else if(state.open) h+='/'+state.open;
+  }
   if(state.person) h+='?as='+encodeURIComponent(state.person);
   history.replaceState(null,'',h);
 }
 function readHash(){
-  const m = location.hash.match(/^#([a-z]+)(?:\/([a-z0-9-]+))?(?:\?as=(.+))?$/i);
-  if(!m) return;
-  if(REGIONS.includes(m[1])) state.region=m[1];
+  const m = location.hash.match(/^#([a-z0-9]+)(?:\/([^?]+))?(?:\?as=(.+))?$/i);
+  if(!m){ state.page='dash'; return; }
   if(m[3]) state.person = decodeURIComponent(m[3]);
-  if(m[2]==='htc') state.view='htc';
-  else if(m[2]==='unt') state.view='unt';
-  else if(m[2]) state.pendingOpen = m[2];
+  const head=m[1].toLowerCase();
+  if(head==='dash'){ state.page='dash'; return; }
+  if(head==='h2c'){ state.page='h2c'; return; }
+  if(head==='net'){ state.page='net'; return; }
+  if(head==='geo'){ state.page='geo'; if(m[2]) ap.city=decodeURIComponent(m[2]); return; }
+  if(REGIONS.includes(head)){
+    state.page='cov'; state.region=head;
+    if(m[2]==='htc') state.page='h2c';           // legacy deep link
+    else if(m[2]==='unt') state.view='unt';
+    else if(m[2]) state.pendingOpen = m[2];
+  } else state.page='dash';
 }
 
 addEventListener('hashchange',()=>{  // deep links work without a reload
-  state.view = location.hash.includes('/htc') ? 'htc' : location.hash.includes('/unt') ? 'unt' : 'funds';
+  state.view = location.hash.includes('/unt') ? 'unt' : 'funds';
   state.open = '';
   readHash();
   document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on', x.dataset.r===state.region));
   document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on', x.dataset.v===state.view));
   if(typeof whoChip==='function') whoChip();
-  labels(); scoreboard(); render();
+  goPage(state.page||'dash');
   if(state.pendingOpen){ const s=state.pendingOpen; state.pendingOpen='';
     toggleRow(s); const el=document.querySelector(`tr[data-slug="${s}"]`); el&&el.scrollIntoView({block:'center'}); }
 });
@@ -1930,7 +2076,8 @@ function setWho(n, rerender){
   try{ localStorage.setItem('sonar_who', n); }catch(err){}
   whoChip();
   document.getElementById('whoback').classList.remove('open');
-  if(rerender){ scoreboard(); render(); }
+  ap.who=n; ap.whoTouched=false;
+  if(rerender) refresh();
 }
 function openWho(){
   const l = document.getElementById('wholist');
@@ -1948,10 +2095,7 @@ if(!state.person){  // hash may already carry a person; otherwise use the rememb
 }
 whoChip();
 if(!state.person || !D.roster.includes(state.person)) openWho();
-document.querySelectorAll('.abtn').forEach(b=>b.addEventListener('click',()=>openAP(b.dataset.ap)));
-document.getElementById('apclose').addEventListener('click',closeAP);
-document.getElementById('apback').addEventListener('click',closeAP);
-document.addEventListener('keydown',ev=>{ if(ev.key==='Escape' && ap.mode) closeAP(); });
+document.querySelectorAll('#side .sitem').forEach(a=>a.addEventListener('click',()=>goPage(a.dataset.page)));
 const tip = document.createElement('div'); tip.id='tip'; document.body.appendChild(tip);
 function showTip(target, html){
   tip.innerHTML = html; tip.classList.add('show');
@@ -2053,7 +2197,7 @@ if (window.claude && window.claude.downloads){
     }
   });
 }
-labels(); scoreboard(); render();
+goPage(state.page||'dash');
 if(state.pendingOpen){ setTimeout(()=>{ toggleRow(state.pendingOpen); const el=document.querySelector(`tr[data-slug="${state.pendingOpen}"]`); el&&el.scrollIntoView({block:'center'}); }, 50); }
 </script>
 """
