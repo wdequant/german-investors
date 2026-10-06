@@ -3412,5 +3412,233 @@
    "status": "current",
    "now": null
   }
+ },
+ "radical.vc": {
+  "Rich Kotite": {
+   "status": "current",
+   "now": null
+  },
+  "Rob Toews": {
+   "status": "current",
+   "now": null
+  },
+  "Jessica Esposito": {
+   "status": "current",
+   "now": null
+  },
+  "Aaron Brindle": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "portfolio.ventures": {
+  "Will Brooks": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "portugalventures.pt": {
+  "Fernando Ferreira": {
+   "status": "current",
+   "now": null
+  },
+  "Filomena Pastor": {
+   "status": "current",
+   "now": null
+  },
+  "Maria Almeida": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "psv.xyz": {
+  "Kristian Hansen": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "puzzle-ventures.com": {
+  "Gloria Baeuerlein": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "quantumlightcapital.com": {
+  "James Darby": {
+   "status": "current",
+   "now": null
+  },
+  "Dora Zikouli": {
+   "status": "current",
+   "now": null
+  },
+  "James Popplewell": {
+   "status": "moved",
+   "now": "Brookfield (Senior Vice President)"
+  }
+ },
+ "raine.com": {
+  "Fred Davis": {
+   "status": "current",
+   "now": null
+  },
+  "Gregory Israelyan": {
+   "status": "current",
+   "now": null
+  },
+  "Joe Puthenveetil": {
+   "status": "current",
+   "now": null
+  },
+  "Fariya Khan": {
+   "status": "current",
+   "now": null
+  },
+  "Jason Schretter": {
+   "status": "current",
+   "now": null
+  },
+  "Tommaso Armanini": {
+   "status": "current",
+   "now": null
+  },
+  "Christine Ambrose": {
+   "status": "unknown",
+   "now": null
+  },
+  "Nicola Hughes-Campen": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "redpoint.com": {
+  "Logan Bartlett": {
+   "status": "current",
+   "now": null
+  },
+  "Enzo Wiener": {
+   "status": "current",
+   "now": null
+  },
+  "Kwesi Acquay": {
+   "status": "current",
+   "now": null
+  },
+  "Jacob Effron": {
+   "status": "current",
+   "now": null
+  },
+  "Lily Eusebio": {
+   "status": "current",
+   "now": null
+  },
+  "Mary Stern": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "redseed.vc": {
+  "Daniel Benjamin": {
+   "status": "moved",
+   "now": "Eon (Seed Investor)"
+  },
+  "Héléna Cavell": {
+   "status": "moved",
+   "now": "Jibe Ventures (Partner)"
+  }
+ },
+ "rtp.vc": {
+  "Orson Stadler": {
+   "status": "unknown",
+   "now": null
+  },
+  "Julia Anisimova": {
+   "status": "current",
+   "now": null
+  },
+  "Thomas Cuvelier": {
+   "status": "current",
+   "now": null
+  },
+  "Simon Pastor": {
+   "status": "moved",
+   "now": "Index Ventures (Partner)"
+  },
+  "Elina Rayberg": {
+   "status": "current",
+   "now": null
+  },
+  "Gareth Jefferies": {
+   "status": "current",
+   "now": null
+  },
+  "Galina Chifina": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "redriceventures.com": {
+  "Claudia Yupangco": {
+   "status": "current",
+   "now": null
+  },
+  "Gabrielle Swycher": {
+   "status": "current",
+   "now": null
+  },
+  "Kunaal Kankate": {
+   "status": "current",
+   "now": null
+  },
+  "Andres Gonzales": {
+   "status": "moved",
+   "now": "The Bicester Collection (Business Planning Manager - Guest Knowledge & Insights)"
+  }
+ },
+ "redriverwest.com": {
+  "Chloé Merlet": {
+   "status": "moved",
+   "now": "Hg (Investor)"
+  },
+  "Antoine Boulin": {
+   "status": "current",
+   "now": null
+  },
+  "Olivier Huez": {
+   "status": "current",
+   "now": null
+  },
+  "Alfred Vericel": {
+   "status": "current",
+   "now": null
+  },
+  "Abel Samot": {
+   "status": "current",
+   "now": null
+  },
+  "Joseph Houssais": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "resurgenstech.com": {
+  "Elizabeth Brown": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "revent.vc": {
+  "Henrik Hokamp": {
+   "status": "current",
+   "now": null
+  },
+  "Oana Botez": {
+   "status": "current",
+   "now": null
+  },
+  "Rebecca Brill": {
+   "status": "moved",
+   "now": "Career break (Personal goal pursuit)"
+  }
  }
 }
