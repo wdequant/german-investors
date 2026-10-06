@@ -298,12 +298,16 @@ tr.detailrow td{background:none;box-shadow:none}
 .dringcap{display:flex;flex-direction:column}
 .dlist{margin-top:11px;border-top:1px solid var(--hair2);padding-top:9px;display:flex;flex-direction:column;gap:3px}
 .dlh{font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
-.dli{font-size:12px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:6px;justify-content:space-between}
-.dli .cc{font-weight:500}
+.dli{font-size:12px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:10px;justify-content:space-between;white-space:nowrap}
+.dli .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.dli .cc{font-weight:500;flex:none;font-variant-numeric:tabular-nums;font-size:11px}
 .dlib{min-width:26px;text-align:center;border-radius:999px;padding:1px 7px;font-size:10.5px;font-weight:700}
 .dlib.strong{background:var(--c-lead);color:var(--covered-ink)}
 .dlib.medium{background:var(--c-awaiting);color:var(--thin-ink)}
 .dlib.low{background:var(--hair2);color:var(--ink2)}
+.flags{display:inline-flex;vertical-align:-2px;margin-right:7px}
+.flags svg{width:17px;height:12.5px;border-radius:2.5px;box-shadow:0 0 0 1px rgba(0,0,0,.1);margin-right:-6px;background:#fff}
+.flags svg:last-child{margin-right:0}
 .dtnum{display:inline-flex;flex-direction:column}
 .dtduo{display:flex;gap:28px}
 .dtnum .covcap{margin-top:3px}
@@ -825,7 +829,17 @@ let SHORT = [];
 try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
 const shKey = s => s.t+'|'+s.name;
 const PROF = D.profiles||{};
-const FLAG = {germany:'🇩🇪', nordics:'🇸🇪🇩🇰🇳🇴🇫🇮', france:'🇫🇷', us:'🇺🇸'};
+const FLAGC = {germany:['de'], nordics:['se','dk','no','fi'], france:['fr'], us:['us']};
+const FSVG = {
+ de:'<rect width="18" height="4.33" fill="#1a1a1a"/><rect width="18" height="4.33" y="4.33" fill="#cc2b1d"/><rect width="18" height="4.34" y="8.66" fill="#f5c400"/>',
+ fr:'<rect width="6" height="13" fill="#2443a3"/><rect x="6" width="6" height="13" fill="#fff"/><rect x="12" width="6" height="13" fill="#c8102e"/>',
+ us:'<rect width="18" height="13" fill="#fff"/>'+[0,2,4,6,8,10,12].map(y=>`<rect y="${y}" width="18" height="1" fill="#b22234"/>`).join('')+'<rect width="8" height="7" fill="#3c3b6e"/>',
+ se:'<rect width="18" height="13" fill="#1e5aa8"/><rect x="5" width="3" height="13" fill="#f5c400"/><rect y="5" width="18" height="3" fill="#f5c400"/>',
+ dk:'<rect width="18" height="13" fill="#c8102e"/><rect x="5" width="3" height="13" fill="#fff"/><rect y="5" width="18" height="3" fill="#fff"/>',
+ no:'<rect width="18" height="13" fill="#ba0c2f"/><rect x="4.5" width="4" height="13" fill="#fff"/><rect y="4.5" width="18" height="4" fill="#fff"/><rect x="5.5" width="2" height="13" fill="#00205b"/><rect y="5.5" width="18" height="2" fill="#00205b"/>',
+ fi:'<rect width="18" height="13" fill="#fff" stroke="#e3ded0" stroke-width=".5"/><rect x="4.5" width="4" height="13" fill="#002f6c"/><rect y="4.5" width="18" height="4" fill="#002f6c"/>'
+};
+const flagsOf = r => `<span class="flags">${(FLAGC[r]||[]).map(c=>`<svg viewBox="0 0 18 13">${FSVG[c]}</svg>`).join('')}</span>`;
 const ufTierOf = v => v==null?'none':v>=85?'strong':v>=70?'medium':'low';
 const easeTierOf = v => !v?'none':v>=50?'strong':v>=22?'medium':'weak';
 const bub = (v,tier,cap,big) => `<span class="apstat"><span class="bub${big?' big':''} ${tier}">${v??'—'}</span><span class="covcap">${cap}</span></span>`;
@@ -901,7 +915,7 @@ function renderDash(){
     const you=me?avg(rel.map(e=>personCov(e,me))):team;
     const gaps=rel.filter(e=>(me?personCov(e,me):e.connectivity)<22).length;
     return `<div class="dtile go" data-go-region="${r}">
-      <div class="dtlabel">${FLAG[r]||''} ${D.regions[r].label}</div>
+      <div class="dtlabel">${flagsOf(r)}${D.regions[r].label}</div>
       <div class="dring"><div class="covcell big">${ring(you, tierOf(you), 62)}<b>${you}</b></div>
         <div class="dringcap"><span class="covcap">${me?'your':'team'} coverage</span>${me?`<div class="dtsub" style="margin-top:3px">team ${team}</div>`:''}</div></div>
       <div class="dtsub ${gaps?'warn':''}">${gaps?`${gaps} relevant fund${gaps>1?'s':''} you can't reach`:'all relevant funds reachable'}</div>
@@ -954,8 +968,8 @@ function renderDash(){
     <div class="dtsub">${[c.pipe?`${c.pipe} of ${me?'your':'our'} pipeline${c.hiPipe?` (${c.hiPipe} high-prio)`:''}`:null,
       c.funds?`${c.funds} relevant fund${c.funds>1?'s':''}${c.str.length?` · ${me?'your':'team'} strength ${avg(c.str)}`:''}`:null]
       .filter(Boolean).join(' · ')}</div>
-    ${tc.length?`<div class="dlist"><span class="dlh">Companies to visit</span>${tc.map(x=>`<span class="dli"><span>${x.n}</span>${x.uf!=null?`<b class="dlib ${ufTierOf(Math.round(x.uf))}">${Math.round(x.uf)}</b>`:''}</span>`).join('')}</div>`:''}
-    ${tf.length?`<div class="dlist"><span class="dlh">Funds to visit</span>${tf.map(x=>`<span class="dli"><span>${x.n}</span><span class="cc">rel ${x.rel}${me?` · you ${x.pc}`:''}</span></span>`).join('')}</div>`:''}
+    ${tc.length?`<div class="dlist"><span class="dlh">Companies to visit</span>${tc.map(x=>`<span class="dli"><span class="nm">${x.n}</span>${x.uf!=null?`<b class="dlib ${ufTierOf(Math.round(x.uf))}">${Math.round(x.uf)}</b>`:''}</span>`).join('')}</div>`:''}
+    ${tf.length?`<div class="dlist"><span class="dlh">Funds to visit</span>${tf.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="cc">rel ${x.rel}${me?` · you ${x.pc}`:''}</span></span>`).join('')}</div>`:''}
   </div>`;}).join('');
 
   w.innerHTML=`
@@ -1112,7 +1126,7 @@ function apNet(){
       e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}`:null,
       t0?`top: ${t0.name}${t0.score?` ${Math.round(t0.score)}`:''}`:null,
       (e.coinvest||[]).length?`co-invested ×${e.coinvest.length}`:null].filter(Boolean).join(' · ');
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${FLAG[r]||''} ${D.regions[r].label}</span></div>
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · team ${e.connectivity}, you ${personCov(e,who)}</div>
       ${why?`<div class="apdesc">${why}</div>`:''}
       <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}</div>
@@ -2094,7 +2108,7 @@ addEventListener('hashchange',()=>{  // deep links work without a reload
 // ---------- boot ----------
 readHash();
 const seg = document.getElementById('regionseg');
-REGIONS.forEach(r=>{const b=document.createElement('button');b.textContent=(FLAG[r]?FLAG[r]+' ':'')+D.regions[r].label;b.dataset.r=r;
+REGIONS.forEach(r=>{const b=document.createElement('button');b.innerHTML=flagsOf(r)+D.regions[r].label;b.dataset.r=r;
   if(r===state.region)b.classList.add('on');
   b.addEventListener('click',()=>{state.region=r;state.open='';
     seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
