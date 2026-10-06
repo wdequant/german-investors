@@ -335,6 +335,12 @@ tr.detailrow td{background:none;box-shadow:none}
 @keyframes blink{0%,100%{opacity:.2}50%{opacity:1}}
 .dsplit{display:flex;gap:22px;align-items:center;margin-top:12px}
 .dsplit .dtduo{flex:none}
+.dsplit .dleft{flex:none;display:flex;flex-direction:column;gap:7px;max-width:46%}
+.rtile .dsplit{gap:12px;margin-top:10px}
+.rtile .dprev{padding-left:13px;gap:7px}
+.rtile .dleft{max-width:41%}
+.rtile .dli{font-size:11.5px;gap:7px}
+.rtile .bubs,.rtile .dlcols{gap:4px}
 .dprev{flex:1;min-width:0;border-left:1px solid var(--hair2);padding-left:22px;display:flex;flex-direction:column;
   gap:8px;align-self:stretch;justify-content:center}
 .dph{font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -1011,11 +1017,21 @@ function renderDash(){
     const team=avg(rel.map(e=>e.connectivity));
     const you=me?avg(rel.map(e=>personCov(e,me))):team;
     const gaps=rel.filter(e=>(me?personCov(e,me):e.connectivity)<22).length;
-    return `<div class="dtile go" data-go-region="${r}">
+    const top4f=rel.slice().sort((a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)).slice(0,4);
+    const fRows=top4f.map(e=>`<span class="dli"><span class="nm">${e.name}</span><span class="bubs"><b class="mbub ${covT(e.connectivity)}">${e.connectivity}</b>${me?`<b class="mbub ${covT(personCov(e,me))}">${personCov(e,me)}</b>`:''}</span></span>`).join('');
+    return `<div class="dtile rtile go" data-go-region="${r}">
       <div class="dtlabel">${flagsOf(r)}${D.regions[r].label}</div>
-      <div class="dring"><div class="covcell big">${ring(you, tierOf(you), 62)}<b>${you}</b></div>
-        <div class="dringcap"><span class="covcap">${me?'your':'team'} coverage</span>${me?`<div class="dtsub" style="margin-top:3px">team ${team}</div>`:''}</div></div>
-      <div class="dtsub ${gaps?'warn':''}">${gaps?`${gaps} relevant fund${gaps>1?'s':''} you can't reach`:'all relevant funds reachable'}</div>
+      <div class="dsplit">
+        <div class="dleft">
+          <div class="dring"><div class="covcell big">${ring(you, tierOf(you), 54)}<b>${you}</b></div>
+            <div class="dringcap"><span class="covcap">${me?'your':'team'} coverage</span>${me?`<div class="dtsub" style="margin-top:3px">team ${team}</div>`:''}</div></div>
+          <div class="dtsub ${gaps?'warn':''}">${gaps?`${gaps} relevant fund${gaps>1?'s':''} you can't reach`:'all relevant funds reachable'}</div>
+        </div>
+        <div class="dprev">
+          <span class="dlh"><span>Most relevant</span><span class="dlcols"><i>team</i>${me?'<i>you</i>':''}</span></span>
+          ${fRows}
+        </div>
+      </div>
     </div>`;
   }).join('');
 
