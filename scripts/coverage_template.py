@@ -129,10 +129,20 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .appath a:hover{border-bottom-color:var(--ink2)}
 .apcard .fname{font-size:14.5px}
 .aph2{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.apstats{display:flex;gap:16px;flex:none}
-.apstat{display:flex;flex-direction:column;align-items:center;min-width:44px}
-.apstat .covnum{font-size:16px}
-.apstat .covcap{font-size:7.5px;margin-top:1px;white-space:nowrap}
+.apstats{display:flex;gap:22px;flex:none}
+.apstat{display:flex;flex-direction:column;align-items:center;min-width:52px}
+.apstat .covnum{font-size:23px}
+.apstat .covcap{font-size:8.5px;margin-top:2px;white-space:nowrap}
+.hcard{padding:16px 20px}
+.hcard .fname{font-size:16px}
+.hmeta{font-size:12px;margin-top:2px}
+.hgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:6px 36px;margin-top:9px;align-items:start}
+.hleft .apdesc{font-size:13px;-webkit-line-clamp:3;margin:0 0 7px;line-height:1.55}
+.hleft .biz{font-size:12.5px}
+.pathh{font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.hcard .appath{font-size:13px;margin-top:5px}
+.hcard .apacts{margin-top:12px}
+@media(max-width:900px){.hgrid{grid-template-columns:1fr}}
 .apmeta{font-size:11.5px;color:var(--muted);margin-top:2px}
 .appath{font-size:12.5px;margin-top:6px}
 .appath b{font-weight:650}
@@ -898,13 +908,16 @@ function apHtc(){
                  m.last_meet?`met ${fmtD(m.last_meet)}`:null,
                  !m.last_email&&!m.last_meet&&m.last_touch?`last touch ${fmtD(m.last_touch)}`:null,
                  m.status_since?`H2C for ${since(m.status_since)}`:null].filter(Boolean).join(' · ');
-    return `<div class="apcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
+    return `<div class="apcard hcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
       <div class="apstats"><span class="apstat"><b class="covnum ${ufTier}">${ufV??'—'}</b><span class="covcap">unframe</span></span>
       <span class="apstat"><b class="covnum ${eV?eTier:''}">${eV||'—'}</b><span class="covcap">ease of access</span></span></div></div>
-      <div class="apmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
-      ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:''}
-      ${bizBits(pr0).length?`<div class="apmeta">${bizBits(pr0).join(' · ')}</div>`:''}
-      ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}${acts}</div>`;
+      <div class="apmeta hmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
+      <div class="hgrid"><div class="hleft">
+        ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:'<div class="apdesc" style="color:var(--muted)">No company profile yet.</div>'}
+        ${bizBits(pr0).length?`<div class="apmeta biz">${bizBits(pr0).join(' · ')}</div>`:''}
+      </div><div class="hright"><div class="pathh">Paths in</div>
+        ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}
+      </div></div>${acts}</div>`;
   }).join('');
   return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
 }

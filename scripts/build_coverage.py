@@ -257,7 +257,11 @@ _profiles = {}
 for _d, _p in _profiles_raw.items():
     if not _p or not _p.get("name"):
         continue
-    _desc = (_p.get("desc") or "")[:150]
+    _desc = (_p.get("desc") or "").strip()
+    if len(_desc) > 200:
+        _desc = _desc[:200].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
+    elif len(_desc) >= 165 and _desc[-1] not in ".!?":   # fetch-side mid-word cut
+        _desc = _desc.rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
     _profiles[_d] = {k: v for k, v in {
         "d": _desc or None, "hc": _p.get("hc"), "hg": _p.get("hc_yoy"),
         "f": _p.get("founded"), "fu": _p.get("funding_usd"),
