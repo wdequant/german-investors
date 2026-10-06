@@ -2683,7 +2683,7 @@
    "now": null
   },
   "Rachel Ward": {
-   "status": "unknown",
+   "status": "current",
    "now": null
   },
   "Hannah Greenwald": {
@@ -2747,6 +2747,230 @@
   "Katie Ledger": {
    "status": "unknown",
    "now": null
+  }
+ },
+ "localglobe.vc": {
+  "Tom Lambert": {
+   "status": "current",
+   "now": null
+  },
+  "Julian Rowe": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ophelia Brown": {
+   "status": "moved",
+   "now": "Blossom Capital (Founder & Managing Partner)"
+  },
+  "Ambi Mistry": {
+   "status": "current",
+   "now": null
+  },
+  "Bhrigu Bali": {
+   "status": "moved",
+   "now": "noa (CFO/COO)"
+  },
+  "Ziv Reichert": {
+   "status": "current",
+   "now": null
+  },
+  "Suzanne Ashman": {
+   "status": "moved",
+   "now": "Sovereign AI (Managing Partner)"
+  },
+  "Julia Hawkins": {
+   "status": "current",
+   "now": null
+  },
+  "Remus Brett": {
+   "status": "current",
+   "now": null
+  },
+  "Matt Peplow": {
+   "status": "current",
+   "now": null
+  },
+  "Daisey Hearne": {
+   "status": "unknown",
+   "now": null
+  },
+  "Rajee Seelan": {
+   "status": "current",
+   "now": null
+  },
+  "Robin Klein": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "lifex.vc": {
+  "Inaki Berenguer": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lightbird.vc": {
+  "Thomas Meier": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "loveventures.co.uk": {
+  "Bill Corfield": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lsvp.com": {
+  "Ifet Lawrence": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Schmitt": {
+   "status": "current",
+   "now": null
+  },
+  "Anoushka Vaswani": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Taussig": {
+   "status": "current",
+   "now": null
+  },
+  "Rytis Vitkauskas": {
+   "status": "moved",
+   "now": "DIG Ventures (General Partner)"
+  },
+  "Sam Wholley": {
+   "status": "current",
+   "now": null
+  },
+  "David Gussarsky": {
+   "status": "current",
+   "now": null
+  },
+  "Shan Shan": {
+   "status": "moved",
+   "now": "Baillie Gifford (Investment Manager, Private Companies)"
+  },
+  "Julie Kainz": {
+   "status": "moved",
+   "now": "Lean Technologies (Corp Dev)"
+  },
+  "Adrian Radu": {
+   "status": "moved",
+   "now": "Khosla Ventures (Partner)"
+  },
+  "Dana Mizrahi": {
+   "status": "current",
+   "now": null
+  },
+  "Fatima Vali": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Murphy": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "mangrove.vc": {
+  "Guillaume DURAO": {
+   "status": "moved",
+   "now": "Emblem (Founder & General Partner)"
+  },
+  "Mark Tluszcz": {
+   "status": "current",
+   "now": null
+  },
+  "Denis Schwirtz": {
+   "status": "current",
+   "now": null
+  },
+  "Hans-Jürgen Schmitz": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Rabinowicz": {
+   "status": "current",
+   "now": null
+  },
+  "Antoine Payrar": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "mastercard.com": {
+  "Online Reporting": {
+   "status": "unknown",
+   "now": null
+  },
+  "Arsalan Ahmed": {
+   "status": "unknown",
+   "now": null
+  },
+  "Sara Bertone": {
+   "status": "current",
+   "now": null
+  },
+  "Samuel McGurk": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "lunar.vc": {
+  "Alberto Cresto": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "m12.vc": {
+  "Nagraj Kashyap": {
+   "status": "moved",
+   "now": "Touring Capital (Co-Founder and General Partner)"
+  }
+ },
+ "maki.vc": {
+  "Ella Eskelinen": {
+   "status": "moved",
+   "now": "Verda (Chief of Staff)"
+  }
+ },
+ "marathon.vc": {
+  "Panos Papadopoulos": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Alexakis": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "martletcap.com": {
+  "Paul Bailey": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "matrix.vc": {
+  "David Skok": {
+   "status": "current",
+   "now": null
+  },
+  "Allison Rodman": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "microsoft.com": {
+  "Itxaso del Palacio": {
+   "status": "moved",
+   "now": "Notion Capital (General Partner)"
+  },
+  "Leslie Feinzaig": {
+   "status": "moved",
+   "now": "Graham & Walker VC (Founder & General Partner)"
   }
  }
 }
