@@ -2419,6 +2419,334 @@
   "Jennifer Stillman": {
    "status": "current",
    "now": null
+  },
+  "Helena Bertuello": {
+   "status": "current",
+   "now": null
+  },
+  "Nancy Dong": {
+   "status": "current",
+   "now": null
+  },
+  "John Mazzara": {
+   "status": "current",
+   "now": null
+  },
+  "Jonathan Gleason": {
+   "status": "unknown",
+   "now": null
+  },
+  "William Moukouri": {
+   "status": "current",
+   "now": null
+  },
+  "Jo Leech": {
+   "status": "current",
+   "now": null
+  },
+  "Max Hauer": {
+   "status": "current",
+   "now": null
+  },
+  "Chris Pearce": {
+   "status": "current",
+   "now": null
+  },
+  "Jc Raby": {
+   "status": "current",
+   "now": null
+  },
+  "Alexandra Wyatt": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Mccracken": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "jtventures.cz": {
+  "Jan Sova": {
+   "status": "current",
+   "now": null
+  },
+  "Kočík Adam": {
+   "status": "current",
+   "now": null
+  },
+  "David Polach": {
+   "status": "unknown",
+   "now": null
+  },
+  "Zimola Jakub": {
+   "status": "moved",
+   "now": "Miton (New Ventures)"
+  },
+  "Paleček Matouš": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "junctiongrowthinvestors.com": {
+  "Ruben Lorer": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "kaporcapital.com": {
+  "Cliff Worley": {
+   "status": "moved",
+   "now": "Automate First (Founder & AI Consultant)"
+  }
+ },
+ "kaya.vc": {
+  "Václav Ryšlink": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "kfund.vc": {
+  "Jorge Campo": {
+   "status": "current",
+   "now": null
+  },
+  "Jaime Novoa": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "kimaventures.com": {
+  "Felix Breucker": {
+   "status": "current",
+   "now": null
+  },
+  "Jean de La Rochebrochard": {
+   "status": "current",
+   "now": null
+  },
+  "Alexis Robert": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "kindredcapital.vc": {
+  "Leila Zegna": {
+   "status": "current",
+   "now": null
+  },
+  "Max Bray": {
+   "status": "current",
+   "now": null
+  },
+  "Chrys Chrysanthou": {
+   "status": "current",
+   "now": null
+  },
+  "Karen Swain": {
+   "status": "current",
+   "now": null
+  },
+  "Fiona Lay": {
+   "status": "current",
+   "now": null
+  },
+  "John Potter": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "lakestar.com": {
+  "Jannis Fett": {
+   "status": "moved",
+   "now": "HV (Principal)"
+  },
+  "Ben Clark": {
+   "status": "current",
+   "now": null
+  },
+  "Akis Bratsos": {
+   "status": "current",
+   "now": null
+  },
+  "Enrico Mellis": {
+   "status": "current",
+   "now": null
+  },
+  "Sandra Krivancova": {
+   "status": "current",
+   "now": null
+  },
+  "Fredrik Nylander": {
+   "status": "unknown",
+   "now": null
+  },
+  "Beatrice Aliprandi": {
+   "status": "unknown",
+   "now": null
+  },
+  "Chris Magazzeni": {
+   "status": "current",
+   "now": null
+  },
+  "Oliver Heimes": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Serra": {
+   "status": "moved",
+   "now": "poolside (Director of Partnerships and Business Operations)"
+  },
+  "Nina Cardelus": {
+   "status": "moved",
+   "now": "Lightrock (Vice President)"
+  },
+  "Navid Meyer": {
+   "status": "current",
+   "now": null
+  },
+  "Asha Mistry": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "korys.be": {
+  "Katti Van Oosterwijck": {
+   "status": "current",
+   "now": null
+  },
+  "Vincent Caudron": {
+   "status": "current",
+   "now": null
+  },
+  "Wouter Verstringe": {
+   "status": "current",
+   "now": null
+  },
+  "Thierry François": {
+   "status": "moved",
+   "now": "magenta tree (Managing Director)"
+  },
+  "Hilde Van der Straeten": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lafamiglia.vc": {
+  "Simba Deu": {
+   "status": "moved",
+   "now": "Prima Beta (Investing with mates)"
+  },
+  "Alexandros Bottenbruch": {
+   "status": "moved",
+   "now": "Founder-first Angel (Angel Investor)"
+  },
+  "Judith Dada": {
+   "status": "moved",
+   "now": "Langdock (Co-CEO)"
+  },
+  "Viet Le": {
+   "status": "unknown",
+   "now": null
+  },
+  "Paula Rossini": {
+   "status": "unknown",
+   "now": null
+  },
+  "Samuel Beyer": {
+   "status": "current",
+   "now": null
+  },
+  "Philipp Handel": {
+   "status": "unknown",
+   "now": null
+  },
+  "Marius Groke": {
+   "status": "moved",
+   "now": "Mav9 (Co-Founder)"
+  }
+ },
+ "leftlane.com": {
+  "Louis Frach": {
+   "status": "current",
+   "now": null
+  },
+  "Matt Miller": {
+   "status": "current",
+   "now": null
+  },
+  "Erica Amatori": {
+   "status": "current",
+   "now": null
+  },
+  "Paddy Dillon": {
+   "status": "current",
+   "now": null
+  },
+  "Rachel Ward": {
+   "status": "unknown",
+   "now": null
+  },
+  "Hannah Greenwald": {
+   "status": "current",
+   "now": null
+  },
+  "Coraline Meroni": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "leapartners.de": {
+  "Endres Florian": {
+   "status": "current",
+   "now": null
+  },
+  "Nils Seele": {
+   "status": "current",
+   "now": null
+  },
+  "Weise Kurt": {
+   "status": "current",
+   "now": null
+  },
+  "Berger Nils": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lifelineventures.com": {
+  "Juha Lindfors": {
+   "status": "current",
+   "now": null
+  },
+  "Timo Ahopelto": {
+   "status": "current",
+   "now": null
+  },
+  "Petteri Koponen": {
+   "status": "current",
+   "now": null
+  },
+  "Saana Sairanen": {
+   "status": "moved",
+   "now": "Vipps MobilePay (Account Manager)"
+  },
+  "Mikko Vesterinen": {
+   "status": "moved",
+   "now": "Canatu (Chief Financial Officer)"
+  },
+  "Tuomo Vähäpassi": {
+   "status": "current",
+   "now": null
+  },
+  "Rilla Saukkonen": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ledger.com": {
+  "Katie Ledger": {
+   "status": "unknown",
+   "now": null
   }
  }
 }
