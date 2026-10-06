@@ -169,5 +169,5 @@
   }
  ],
  "notes": "Ambiguity guard applied (B totalCount 24 vs A 3): all keyword-B entries carried an investor value containing 'icebreaker' (Icebreaker VC / Icebreaker Ventures / Icebreaker.vc), so all kept. Helppy had two list entries; kept latest (Lead, 2022-08-18).",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

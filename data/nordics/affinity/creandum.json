@@ -921,5 +921,5 @@
   }
  ],
  "notes": "Query A totalCount 97; Query B keyword totalCount 107 (2 pages). All 97 exact-Creandum entries contained in B; every B entry carries a Creandum investor value. Union deduped 107 to 103 unique companies (Xtract, Cint, Argent, Kurrent each had two list entries; kept latest createdAt, all non-null funnel).",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

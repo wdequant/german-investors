@@ -12,14 +12,6 @@
    "meet": "2026-05-01"
   },
   {
-   "internal": "Gajan Rajanathan",
-   "external": "Eleanor Chaplin",
-   "externalEmail": "eleanor.chaplin@indexventures.com",
-   "score": 1.0,
-   "last": "2026-04-08",
-   "meet": "2026-04-08"
-  },
-  {
    "internal": "Jacob Bernstein",
    "external": "Molly Alter",
    "externalEmail": "molly.alter@indexventures.com",
@@ -34,14 +26,6 @@
    "score": 1.0,
    "last": "2026-09-23",
    "meet": "2026-09-23"
-  },
-  {
-   "internal": "Gajan Rajanathan",
-   "external": "Carlos Gonzalez-Cadenas",
-   "externalEmail": "carlos@indexventures.com",
-   "score": 1.0,
-   "last": "2026-04-08",
-   "meet": "2026-04-08"
   },
   {
    "internal": "Fergal Mullen",
@@ -205,6 +189,14 @@
   },
   {
    "internal": "Gajan Rajanathan",
+   "external": "Eleanor Chaplin",
+   "externalEmail": "eleanor.chaplin@indexventures.com",
+   "score": 1.0,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Gajan Rajanathan",
    "external": "Taylor Gunn",
    "externalEmail": "taylor.gunn@indexventures.com",
    "score": 1.0,
@@ -218,6 +210,14 @@
    "score": 1.0,
    "last": "2026-02-23",
    "meet": "2026-02-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Carlos Gonzalez-Cadenas",
+   "externalEmail": "carlos@indexventures.com",
+   "score": 1.0,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
   },
   {
    "internal": "Irena Goldenberg",
@@ -324,5 +324,5 @@
    "meet": "2026-06-18"
   }
  ],
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

@@ -367,24 +367,32 @@
    "external": "Namratha Kothapalli",
    "externalEmail": "namratha@daphni.com",
    "score": 0.69,
-   "last": "2026-09-28",
-   "meet": "2025-09-09"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Jacob Bernstein",
    "external": "Namratha Kothapalli",
    "externalEmail": "namratha@daphni.com",
    "score": 0.68,
-   "last": "2026-09-28",
-   "meet": "2025-09-09"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Thomas Fernandez-Debets",
+   "externalEmail": "thomas.fernandez-debets@daphni.com",
+   "score": 0.63,
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Fergal Mullen",
    "external": "Namratha Kothapalli",
    "externalEmail": "namratha@daphni.com",
    "score": 0.6,
-   "last": "2026-09-28",
-   "meet": "2025-09-09"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "William De Quant",
@@ -401,14 +409,6 @@
    "score": 0.96,
    "last": "2024-10-16",
    "meet": "2024-06-12"
-  },
-  {
-   "internal": "Fergal Mullen",
-   "external": "Thomas Fernandez-Debets",
-   "externalEmail": "thomas.fernandez-debets@daphni.com",
-   "score": 0.63,
-   "last": "2026-09-28",
-   "meet": null
   },
   {
    "internal": "Emily Tan",
@@ -469,5 +469,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on alias Daphni (incl. 'Daphni SAS', 'Daphni And Motier Ventures' co-investor strings). Affinity company Daphni (daphni.com). Top 10 of 12 qualifying relationships kept after dropping Emily Tan and Anna Faulkner rows; Kyang Yung now at Coalition (ex-daphni contact on record). Live: last contact 2026-06-16 meeting (Irena Goldenberg/Tom Neuberger with Pierre-Eric Leibovici, Jonas Simonin).",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

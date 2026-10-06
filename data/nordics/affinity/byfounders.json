@@ -264,24 +264,24 @@
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 1.0,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Jacob Bernstein",
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 1.0,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "William De Quant",
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 1.0,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Eoghan Dorman",
@@ -304,8 +304,8 @@
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.98,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Helena Richardson",
@@ -368,16 +368,16 @@
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.43,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Lucinda Maxwell",
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.43,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Gajan Rajanathan",
@@ -416,32 +416,32 @@
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.1,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Eoghan Dorman",
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.1,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Tom Neuberger",
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.1,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Tyrone Tee",
    "external": "Eric Lagier",
    "externalEmail": "eric@byfounders.vc",
    "score": 0.1,
-   "last": "2026-09-30",
-   "meet": "2026-09-29"
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
   },
   {
    "internal": "Helena Richardson",
@@ -509,5 +509,5 @@
   }
  ],
  "notes": "Two distinct Willo entities (willo.tech / willo.video) and two Watalook entities (watalook.com / watalook.lt) kept separately — different Affinity company records.",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

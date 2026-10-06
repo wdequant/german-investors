@@ -679,5 +679,5 @@
   }
  ],
  "notes": "Matched investor values 'Heartcore Capital' (31 entries), 'heartcore' (1), 'Snz And Heartcore' (1, Wingbits) plus legacy 'Sunstone Capital' (28) - Heartcore rebranded from Sunstone Capital's tech/consumer practice in 2019 and all plain 'Sunstone Capital' entries are tech/consumer deals (Prezi, Neo4j, Natural Cycles, TravelPerk, Peakon, Tink...), so kept. Skipped UserZoom: its 'Sunstone Capital' tag sits alongside 'TC Growth Partners (now Sunstone Capital Partners)' = US Sunstone Partners, not the Heartcore lineage. Four entries (TrapLight Games, TravelPerk, Natural Cycles, Tink) carry both Sunstone and Heartcore tags on the same list entry - counted once each; no duplicate list entries found. Union deduped to 56 unique companies. Relationships: top 10 by score after dropping departed internals (Emily Tan, Anna Faulkner, Isabel Wright appeared in results; Zina Alfa, Rachel Barbour-Fowles did not); live relationships strong - no dormant fallback needed.",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

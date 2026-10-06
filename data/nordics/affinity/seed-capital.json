@@ -251,5 +251,5 @@
   }
  ],
  "notes": "Query A totalCount 31; Query B keyword totalCount 38 (below 3x guard threshold, but token filter applied since seed-capital is a flagged generic term). Dropped 4 B-only false positives lacking a contiguous seed-capital token: RobosizeME (Seedtwo Capital), Dathena (SEEDS Capital), Pulpo (SeedRocket 4 Founders Capital), Holded (Seedrocket 4Founders Capital). Kept Complir (Jhj Seed Capital) and PerchHQ (Boston Seed Capital) per the literal token rule though they may be unrelated funds; Forecast (SEED Capital Denmark) is genuine. Union = 34. One relationship row excluded (ex-staff Emily Tan).",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }

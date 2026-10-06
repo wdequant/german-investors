@@ -1229,28 +1229,12 @@
    "meet": "2026-07-24"
   },
   {
-   "internal": "William De Quant",
-   "external": "Lon Reception",
-   "externalEmail": "lon@eurazeo.com",
-   "score": 0.99,
-   "last": "2026-04-08",
-   "meet": "2026-04-08"
-  },
-  {
    "internal": "Aude Flecchia",
    "external": "Camille Ha",
    "externalEmail": "cha@eurazeo.com",
    "score": 0.99,
    "last": "2026-06-08",
    "meet": "2026-06-08"
-  },
-  {
-   "internal": "William De Quant",
-   "external": "Ines Patricio",
-   "externalEmail": "ipatricio@eurazeo.com",
-   "score": 0.99,
-   "last": "2026-04-08",
-   "meet": "2026-04-08"
   },
   {
    "internal": "David Blyghton",
@@ -1339,9 +1323,25 @@
    "score": 0.98,
    "last": "2026-09-16",
    "meet": "2026-07-01"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Elizabeth Newman",
+   "externalEmail": "enewman@eurazeo.com",
+   "score": 0.98,
+   "last": "2026-09-01",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Anne-Charlotte PHILBERT",
+   "externalEmail": "acphilbert@eurazeo.com",
+   "score": 0.98,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
   }
  ],
  "dormant": null,
  "notes": "Company 51168683 (eurazeo.com); Eurazeo PME (138203920) not merged. Top 10 of 20+ relationships kept. Pipeline covers legacy Idinvest: matched 'Eurazeo' (82), 'IDInvest Partners' (72), 'Eurazeo Growth' (2), 'Idinvest Venture' (1); deduped by company id.",
- "rels_fetched": "2026-10-05"
+ "rels_fetched": "2026-10-06"
 }
