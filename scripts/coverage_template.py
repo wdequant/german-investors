@@ -720,7 +720,7 @@ const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], page:'dash', view:"funds", sort:"connectivity", q:"", person:"", cat:"", cc:"",
+const state = {region: REGIONS[0], page:'dash', view:"funds", sort:"connectivity", sortDir:1, q:"", person:"", cat:"", cc:"",
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
@@ -796,7 +796,7 @@ function filtersHTML(){
     if(b.dataset.cc!==undefined) state.cc = state.cc===b.dataset.cc?'':b.dataset.cc;
     render();
   }));
-  document.getElementById('sortsel').addEventListener('change',ev=>{ state.sort=ev.target.value; render(); });
+  document.getElementById('sortsel').addEventListener('change',ev=>{ state.sort=ev.target.value; state.sortDir=1; render(); });
 }
 
 const COLS = [
@@ -1372,7 +1372,8 @@ function apGeo(){
 function headHTML(){
   return `<thead><tr>`+COLS.map(c=>{
     const label = c.k==='mycov' ? `${state.person?state.person.split(' ')[0]+"’s":'My'} coverage` : c.label;
-    return `<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''} ${c.cls||''}">${label}</th>`;
+    const arrow = state.sort===c.k ? (state.sortDir<0?' ▲':' ▼') : '';
+    return `<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''} ${c.cls||''}" title="${c.sortable?'Click to sort · click again to reverse':''}">${label}${arrow}</th>`;
   }).join('')+`</tr></thead>`;
 }
 function chipHTML(e, mode){
@@ -2073,9 +2074,12 @@ function rerenderOpen(e){
 
 // ---------- render ----------
 function srt(list){
-  if(state.sort==='ufq') return [...list].sort((a,b)=>((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0)||(b.relevance?.total||0)-(a.relevance?.total||0));
-  if(state.sort==='ufhigh') return [...list].sort((a,b)=>((b.uf&&b.uf.high)||0)-((a.uf&&a.uf.high)||0)||((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0));
-  const col = COLS.find(c=>c.k===state.sort)||COLS[4]; return [...list].sort(col.sort); }
+  let out;
+  if(state.sort==='ufq') out=[...list].sort((a,b)=>((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0)||(b.relevance?.total||0)-(a.relevance?.total||0));
+  else if(state.sort==='ufhigh') out=[...list].sort((a,b)=>((b.uf&&b.uf.high)||0)-((a.uf&&a.uf.high)||0)||((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0));
+  else { const col = COLS.find(c=>c.k===state.sort)||COLS[4]; out=[...list].sort(col.sort); }
+  if(state.sortDir<0) out.reverse();
+  return out; }
 function visible(){
   return E().filter(e=>(!state.q||e.name.toLowerCase().includes(state.q))
     && (!state.cat || e.kind!=='fund' || e.category===state.cat)
@@ -2158,7 +2162,10 @@ function render(){
   updateHash();
 }
 function bindTable(tbl){
-  tbl.querySelectorAll('thead th.sortable').forEach(th=>th.addEventListener('click',()=>{state.sort=th.dataset.k;render();}));
+  tbl.querySelectorAll('thead th.sortable').forEach(th=>th.addEventListener('click',()=>{
+    if(state.sort===th.dataset.k) state.sortDir=-(state.sortDir||1);
+    else { state.sort=th.dataset.k; state.sortDir=1; }
+    render();}));
   tbl.querySelectorAll('tr.mainrow').forEach(r=>{
     const open = ev=>{
       if(ev.target.closest('a')||ev.target.closest('button')) return;
