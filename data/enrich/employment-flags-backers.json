@@ -3190,5 +3190,227 @@
    "status": "current",
    "now": null
   }
+ },
+ "otpp.com": {
+  "Avid Duggan": {
+   "status": "current",
+   "now": null
+  },
+  "Lauren Milligan": {
+   "status": "current",
+   "now": null
+  },
+  "Francisco Jose Vargas Almeida": {
+   "status": "current",
+   "now": null
+  },
+  "Chalani Allen": {
+   "status": "current",
+   "now": null
+  },
+  "Ara YEROMIAN": {
+   "status": "current",
+   "now": null
+  },
+  "Zaya Kadyrova": {
+   "status": "moved",
+   "now": "Aspire11 (Co-founder)"
+  },
+  "Lisa Coble": {
+   "status": "moved",
+   "now": "Jefferies (Executive Assistant)"
+  },
+  "Kieran Mahanty": {
+   "status": "current",
+   "now": null
+  },
+  "Phoebe Kitchen": {
+   "status": "moved",
+   "now": "Molten Ventures (Principal)"
+  }
+ },
+ "nextview.vc": {
+  "Vera Benkoil": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "nvidia.com": {
+  "Chase Overlie": {
+   "status": "current",
+   "now": null
+  },
+  "Georgios Kolovos": {
+   "status": "current",
+   "now": null
+  },
+  "Aishwarya Nadgauda": {
+   "status": "current",
+   "now": null
+  },
+  "Serge Lemonde": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "omnescapital.com": {
+  "Hugo Hubert": {
+   "status": "current",
+   "now": null
+  },
+  "Poulard Renaud": {
+   "status": "current",
+   "now": null
+  },
+  "De Michel": {
+   "status": "current",
+   "now": null
+  },
+  "Joost Notenboom": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "osprey-investors.com": {
+  "Rob Quirke": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "oxx.vc": {
+  "Gokce Ceylan": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ingrid Åkerlind": {
+   "status": "unknown",
+   "now": null
+  },
+  "Phil Edmondson-Jones": {
+   "status": "current",
+   "now": null
+  },
+  "Bob Thomas": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Palmer": {
+   "status": "current",
+   "now": null
+  },
+  "Mimi Snell": {
+   "status": "current",
+   "now": null
+  },
+  "Carole Ginman": {
+   "status": "current",
+   "now": null
+  },
+  "Ashna Ahmad": {
+   "status": "moved",
+   "now": "Galdera (Founding Engineer)"
+  },
+  "Archit Rathi": {
+   "status": "moved",
+   "now": "Atlabs AI (Co-Founder)"
+  },
+  "Toby Lywood": {
+   "status": "moved",
+   "now": "10xHumans (Corp Dev Lead)"
+  },
+  "Maria Hagberg": {
+   "status": "unknown",
+   "now": null
+  },
+  "Mikael Johnsson": {
+   "status": "current",
+   "now": null
+  },
+  "Richard Anton": {
+   "status": "current",
+   "now": null
+  },
+  "Lauren Sophocleos": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "paypal.com": {
+  "Alexandros Bottenbruch": {
+   "status": "moved",
+   "now": "Founder-first Angel (Angel Investor)"
+  },
+  "Ashish Aggarwal": {
+   "status": "moved",
+   "now": "Endeavor (Mentor)"
+  },
+  "Elisabeth Granger": {
+   "status": "moved",
+   "now": "Pebl (VP, Finance - Strategy & Operations)"
+  },
+  "Jonathan Banks": {
+   "status": "unknown",
+   "now": null
+  },
+  "Rachel Sapienza": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "phoenixcourt.vc": {
+  "Daisey Hearne": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "pluralplatform.com": {
+  "Carina Namih": {
+   "status": "current",
+   "now": null
+  },
+  "Isobel Sprules": {
+   "status": "current",
+   "now": null
+  },
+  "Khaled Helioui": {
+   "status": "current",
+   "now": null
+  },
+  "Ian Hogarth": {
+   "status": "current",
+   "now": null
+  },
+  "Taavet Hinrikus": {
+   "status": "current",
+   "now": null
+  },
+  "Daniel Tarver": {
+   "status": "moved",
+   "now": "Trioak Capital (Partner)"
+  },
+  "Victoria Kennard": {
+   "status": "current",
+   "now": null
+  },
+  "Chris Perry": {
+   "status": "current",
+   "now": null
+  },
+  "Sophie Napier": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "pathlight.vc": {
+  "Mahdi Raza": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "pioneerfund.vc": {
+  "James Fong": {
+   "status": "current",
+   "now": null
+  }
  }
 }
