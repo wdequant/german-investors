@@ -1662,6 +1662,10 @@
    "Julie Roze": {
     "status": "moved",
     "now": "Korelya Capital, Partner"
+   },
+   "Cyril Guenoun": {
+    "status": "current",
+    "now": null
    }
   },
   "alven": {
@@ -1672,6 +1676,42 @@
    "Thomas Cuvelier": {
     "status": "moved",
     "now": "RTP Global, Partner"
+   },
+   "Aude Steinberg": {
+    "status": "current",
+    "now": null
+   },
+   "François Meteyer": {
+    "status": "current",
+    "now": null
+   },
+   "Guillaume AUBIN": {
+    "status": "current",
+    "now": null
+   },
+   "Guillaume Aubin": {
+    "status": "current",
+    "now": null
+   },
+   "Jeremy Uzan": {
+    "status": "moved",
+    "now": "Singular (General Partner, Co-Founder)"
+   },
+   "Margaux Gregoir": {
+    "status": "moved",
+    "now": "Serena (Partner)"
+   },
+   "Bartosz Jakubowski": {
+    "status": "current",
+    "now": null
+   },
+   "Raffi KAMBER": {
+    "status": "moved",
+    "now": "Singular (General Partner, Co-Founder)"
+   },
+   "Victor Charpentier": {
+    "status": "current",
+    "now": null
    }
   },
   "bpifrance": {
@@ -1702,6 +1742,18 @@
    "Romain Dufourcq": {
     "status": "current",
     "now": null
+   },
+   "Colombe Moinet": {
+    "status": "current",
+    "now": null
+   },
+   "Costanza Carissimo": {
+    "status": "current",
+    "now": null
+   },
+   "Marion Gregoire": {
+    "status": "current",
+    "now": null
    }
   },
   "daphni": {
@@ -1728,6 +1780,54 @@
    "Louisa Mesnard": {
     "status": "current",
     "now": null
+   },
+   "Alexis Frentz": {
+    "status": "current",
+    "now": null
+   },
+   "Anya Brochier": {
+    "status": "current",
+    "now": null
+   },
+   "Clément Driessche": {
+    "status": "current",
+    "now": null
+   },
+   "Céline Passedouet": {
+    "status": "current",
+    "now": null
+   },
+   "Gemma Romero": {
+    "status": "unknown",
+    "now": null
+   },
+   "Marc Rougier": {
+    "status": "current",
+    "now": null
+   },
+   "Marie Ekeland": {
+    "status": "moved",
+    "now": "2050 (Founder & CEO)"
+   },
+   "Pauline Roux": {
+    "status": "current",
+    "now": null
+   },
+   "Samantha J.": {
+    "status": "current",
+    "now": null
+   },
+   "Sébastien Lefebvre": {
+    "status": "current",
+    "now": null
+   },
+   "Xavier LAZARUS": {
+    "status": "current",
+    "now": null
+   },
+   "Xavier Lazarus": {
+    "status": "current",
+    "now": null
    }
   },
   "eurazeo": {
@@ -1742,6 +1842,102 @@
    "Abigail Raymond": {
     "status": "moved",
     "now": "Noteus Partners (Office Manager)"
+   },
+   "Adrian Kreiser": {
+    "status": "current",
+    "now": null
+   },
+   "Alexandra Pederzani": {
+    "status": "current",
+    "now": null
+   },
+   "Anne-Charlotte PHILBERT": {
+    "status": "current",
+    "now": null
+   },
+   "Anne-Charlotte Philbert": {
+    "status": "current",
+    "now": null
+   },
+   "Benoist Grossmann": {
+    "status": "current",
+    "now": null
+   },
+   "Camille Ha": {
+    "status": "current",
+    "now": null
+   },
+   "Dylan Gokani": {
+    "status": "moved",
+    "now": "Noteus Partners (Vice President)"
+   },
+   "Edouard Guigou": {
+    "status": "current",
+    "now": null
+   },
+   "Elise Stern": {
+    "status": "current",
+    "now": null
+   },
+   "Elizabeth Newman": {
+    "status": "current",
+    "now": null
+   },
+   "Giulia Marchegiani": {
+    "status": "moved",
+    "now": "Balderton (Investor)"
+   },
+   "Guillaume d'Audiffret": {
+    "status": "moved",
+    "now": "Noteus Partners (General Partner)"
+   },
+   "Hala Fadel": {
+    "status": "current",
+    "now": null
+   },
+   "Ioana Iacobescu": {
+    "status": "current",
+    "now": null
+   },
+   "Justin Vibert": {
+    "status": "current",
+    "now": null
+   },
+   "Maryam Mahla": {
+    "status": "current",
+    "now": null
+   },
+   "Maud Gillot": {
+    "status": "current",
+    "now": null
+   },
+   "Nathalie Bruehls": {
+    "status": "moved",
+    "now": "Noteus Partners (General Partner)"
+   },
+   "Nicolas Debock": {
+    "status": "current",
+    "now": null
+   },
+   "Philipp Schmitz": {
+    "status": "unknown",
+    "now": null
+   },
+   "Raluca Ragab": {
+    "status": "current",
+    "now": null
+   },
+   "Reginald De Wasseige": {
+    "status": "current",
+    "now": null
+   },
+   "Reginald Wasseige": {
+    "status": "current",
+    "now": null
+   },
+   "Yoan Pashov": {
+    "status": "moved",
+    "now": "Noteus Partners (Principal)"
    }
   },
   "founders-future": {
@@ -1752,6 +1948,10 @@
    "Paul Varasso": {
     "status": "moved",
     "now": "Axeleo Capital, VC"
+   },
+   "Louis Sautet": {
+    "status": "current",
+    "now": null
    }
   },
   "frst": {
@@ -1800,6 +2000,10 @@
    "Laurine Moureaux": {
     "status": "current",
     "now": null
+   },
+   "Clément Lamolinerie": {
+    "status": "current",
+    "now": null
    }
   },
   "omnes": {
@@ -1826,6 +2030,90 @@
    "Paul Vider": {
     "status": "current",
     "now": null
+   },
+   "Alison Imbert": {
+    "status": "current",
+    "now": null
+   },
+   "Andrew Reason": {
+    "status": "unknown",
+    "now": null
+   },
+   "André François-Poncet": {
+    "status": "moved",
+    "now": "Aletheon Investments (Co-founder and General Partner)"
+   },
+   "Aya Murr": {
+    "status": "current",
+    "now": null
+   },
+   "Boris Golden": {
+    "status": "current",
+    "now": null
+   },
+   "Claire Delabaere": {
+    "status": "current",
+    "now": null
+   },
+   "Cyril Collon": {
+    "status": "current",
+    "now": null
+   },
+   "Elena Moneta": {
+    "status": "moved",
+    "now": "Balderton (Managing Director)"
+   },
+   "Embarcadero Room": {
+    "status": "unknown",
+    "now": null
+   },
+   "Finn Weise": {
+    "status": "moved",
+    "now": "Thrivo Wealth Partners (Geschäftsführer)"
+   },
+   "Henrik Hokamp": {
+    "status": "moved",
+    "now": "Revent (Partner)"
+   },
+   "Julia Najman": {
+    "status": "current",
+    "now": null
+   },
+   "Keji Mustapha": {
+    "status": "current",
+    "now": null
+   },
+   "Klaudyna Augler": {
+    "status": "current",
+    "now": null
+   },
+   "Louis Dessal": {
+    "status": "current",
+    "now": null
+   },
+   "Magda Posluszny": {
+    "status": "current",
+    "now": null
+   },
+   "Marie-alix Motte": {
+    "status": "unknown",
+    "now": null
+   },
+   "Mohamed Damak": {
+    "status": "moved",
+    "now": "Aletheon Investments (Principal)"
+   },
+   "Omri BENAYOUN": {
+    "status": "moved",
+    "now": "Aletheon Investments (Founding and General Partner)"
+   },
+   "Omri Benayoun": {
+    "status": "moved",
+    "now": "Aletheon Investments (Founding and General Partner)"
+   },
+   "Romain LAVAULT": {
+    "status": "current",
+    "now": null
    }
   },
   "serena": {
@@ -1836,6 +2124,50 @@
    "Marie Brayer": {
     "status": "moved",
     "now": "Mox Ventures, Founder"
+   },
+   "Constance Gontier": {
+    "status": "unknown",
+    "now": null
+   },
+   "Eric Gossart": {
+    "status": "current",
+    "now": null
+   },
+   "Guillaume Decugis": {
+    "status": "current",
+    "now": null
+   },
+   "Heba Hitti": {
+    "status": "current",
+    "now": null
+   },
+   "Jérémy Rasori": {
+    "status": "current",
+    "now": null
+   },
+   "Marc Fournier": {
+    "status": "current",
+    "now": null
+   },
+   "Olivier Martret": {
+    "status": "current",
+    "now": null
+   },
+   "Paul Moriou": {
+    "status": "current",
+    "now": null
+   },
+   "Sébastien Le Roy": {
+    "status": "current",
+    "now": null
+   },
+   "Xavier Lorphelin": {
+    "status": "current",
+    "now": null
+   },
+   "Margaux Gregoir": {
+    "status": "current",
+    "now": null
    }
   },
   "seventure": {
@@ -1844,6 +2176,30 @@
     "now": null
    },
    "Ludovic Denis": {
+    "status": "current",
+    "now": null
+   },
+   "Arthur Bourgade": {
+    "status": "current",
+    "now": null
+   },
+   "Denis Ludovic": {
+    "status": "unknown",
+    "now": null
+   },
+   "Guillaume Echaudemaison": {
+    "status": "current",
+    "now": null
+   },
+   "Isabelle De Cremoux": {
+    "status": "current",
+    "now": null
+   },
+   "Leonie Allaeys": {
+    "status": "unknown",
+    "now": null
+   },
+   "Rivet Bruno": {
     "status": "current",
     "now": null
    }
@@ -1866,6 +2222,18 @@
    "Alessio Beverina": {
     "status": "moved",
     "now": "Panakes Partners, Co-Founder & General Partner"
+   },
+   "Antoine Papiernik": {
+    "status": "current",
+    "now": null
+   },
+   "Edward Kliphuis": {
+    "status": "current",
+    "now": null
+   },
+   "Joško Bobanović": {
+    "status": "current",
+    "now": null
    }
   },
   "ventech": {
@@ -1886,6 +2254,40 @@
    "Rodolphe Menegaux": {
     "status": "moved",
     "now": "Alven, Partner (left XAnge 2015)"
+   },
+   "Alexis Du Peloux": {
+    "status": "current",
+    "now": null
+   },
+   "BERTRAND Cyril": {
+    "status": "current",
+    "now": null
+   },
+   "Clementine Gazay": {
+    "status": "current",
+    "now": null
+   },
+   "Jennifer Bemert": {
+    "status": "current",
+    "now": null
+   },
+   "Moulle-berteaux Astrid": {
+    "status": "moved",
+    "now": "Headline (Principal)"
+   },
+   "Paquet Pauline": {
+    "status": "current",
+    "now": null
+   },
+   "Valerie B.": {
+    "status": "current",
+    "now": null
+   }
+  },
+  "newfund": {
+   "Anne-Sophie Saint-Martin": {
+    "status": "current",
+    "now": null
    }
   }
  },
