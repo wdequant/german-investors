@@ -3640,5 +3640,229 @@
    "status": "moved",
    "now": "Career break (Personal goal pursuit)"
   }
+ },
+ "seedcamp.com": {
+  "Millan Suri": {
+   "status": "moved",
+   "now": "Episode 1 Ventures (Principal)"
+  },
+  "Carlos Espinal": {
+   "status": "current",
+   "now": null
+  },
+  "Ece Ozer": {
+   "status": "current",
+   "now": null
+  },
+  "Will Bennett": {
+   "status": "current",
+   "now": null
+  },
+  "Tom Wilson": {
+   "status": "current",
+   "now": null
+  },
+  "Sia Houchangnia": {
+   "status": "current",
+   "now": null
+  },
+  "Philipp Moehring": {
+   "status": "moved",
+   "now": "Tiny Supercomputer Investment Company (Partner)"
+  },
+  "Amber Patel": {
+   "status": "unknown",
+   "now": null
+  },
+  "Olivia Horton": {
+   "status": "unknown",
+   "now": null
+  },
+  "Katherine Bassett": {
+   "status": "unknown",
+   "now": null
+  },
+  "Kirsten Campbell": {
+   "status": "current",
+   "now": null
+  },
+  "Kate McGinn": {
+   "status": "moved",
+   "now": "[tbd] (talent & investing)"
+  }
+ },
+ "s16vc.com": {
+  "Dina Gainullina": {
+   "status": "moved",
+   "now": "Daya Ventures (Limited Partner)"
+  }
+ },
+ "samos.vc": {
+  "Patrick Finnegan": {
+   "status": "moved",
+   "now": "Charlie Health (Director of Growth Strategy, Partnerships)"
+  },
+  "Shan Drummond": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "sap.com": {
+  "Michael Still": {
+   "status": "current",
+   "now": null
+  },
+  "Samar Malik": {
+   "status": "moved",
+   "now": "Stripe (EMEA VC Startup Partner)"
+  },
+  "Henna Mehta": {
+   "status": "current",
+   "now": null
+  },
+  "Lisa Haffey": {
+   "status": "current",
+   "now": null
+  },
+  "Kevin Meier": {
+   "status": "current",
+   "now": null
+  },
+  "Julian Klose": {
+   "status": "unknown",
+   "now": null
+  },
+  "Deepa Gautam-Nigge": {
+   "status": "current",
+   "now": null
+  },
+  "Lisa Martin": {
+   "status": "current",
+   "now": null
+  },
+  "Christine Schöneweis": {
+   "status": "moved",
+   "now": "Phoenix Contact (Mitglied des Beirats)"
+  },
+  "Andreas Weiskam": {
+   "status": "current",
+   "now": null
+  },
+  "Anil Parekh": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "sav.vc": {
+  "Wally Wang": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "shorooq.com": {
+  "Derya Varol": {
+   "status": "unknown",
+   "now": null
+  },
+  "Bilal Baloch": {
+   "status": "current",
+   "now": null
+  },
+  "Shane Shin": {
+   "status": "current",
+   "now": null
+  },
+  "Sali Elagab": {
+   "status": "moved",
+   "now": "First Abu Dhabi Bank (FAB) (AVP, Business Intelligence | AI Innovation Hub)"
+  },
+  "Selim Tira": {
+   "status": "current",
+   "now": null
+  },
+  "Mohammed Altwaijiri": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "sennder.com": {
+  "David Nothacker": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "serena.vc": {
+  "Paul Moriou": {
+   "status": "current",
+   "now": null
+  },
+  "Marie Brayer": {
+   "status": "moved",
+   "now": "Stealth Company (Marie Brayer) (Co-Founder)"
+  },
+  "Olivier Martret": {
+   "status": "current",
+   "now": null
+  },
+  "Bertrand Diard": {
+   "status": "current",
+   "now": null
+  },
+  "Margaux Gregoir": {
+   "status": "current",
+   "now": null
+  },
+  "Xavier Lorphelin": {
+   "status": "current",
+   "now": null
+  },
+  "Marc Fournier": {
+   "status": "current",
+   "now": null
+  },
+  "Heba Hitti": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "shilling.vc": {
+  "Tomás Güida": {
+   "status": "current",
+   "now": null
+  },
+  "Ricardo Jacinto": {
+   "status": "current",
+   "now": null
+  },
+  "Marcia Fernandes": {
+   "status": "current",
+   "now": null
+  },
+  "Maria Frère": {
+   "status": "moved",
+   "now": "Semapa Next (Marketing and Community Manager)"
+  }
+ },
+ "skyfall.vc": {
+  "Cecilie Skjong": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "southparkcommons.com": {
+  "Susannah Laster": {
+   "status": "current",
+   "now": null
+  },
+  "Dylan Itzikowitz": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "sparkcapital.com": {
+  "Alex Finkelstein": {
+   "status": "current",
+   "now": null
+  }
  }
 }
