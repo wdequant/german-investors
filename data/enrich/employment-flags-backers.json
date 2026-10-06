@@ -1323,6 +1323,10 @@
   "Jack Connolly": {
    "status": "current",
    "now": null
+  },
+  "Tom Gill": {
+   "status": "unknown",
+   "now": null
   }
  },
  "elevation-cp.com": {
@@ -1536,6 +1540,14 @@
   },
   "Malcolm Ferguson": {
    "status": "current",
+   "now": null
+  },
+  "Mark Weeks": {
+   "status": "unknown",
+   "now": null
+  },
+  "Patrick Kearney": {
+   "status": "unknown",
    "now": null
   }
  },
@@ -2898,6 +2910,10 @@
   },
   "Antoine Payrar": {
    "status": "current",
+   "now": null
+  },
+  "Christina Grischov": {
+   "status": "unknown",
    "now": null
   }
  },
@@ -4307,6 +4323,136 @@
    "now": null
   },
   "Cecilia Nytorp": {
+   "status": "current",
+   "now": null
+  },
+  "Jenny Petersens": {
+   "status": "current",
+   "now": null
+  },
+  "Franziska Heuer": {
+   "status": "current",
+   "now": null
+  },
+  "Sebastian Wintgens": {
+   "status": "current",
+   "now": null
+  },
+  "Emanuel Johnsson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "vireo.vc": {
+  "Jason Rees": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "vorwerkventures.com": {
+  "Peter Schmetz": {
+   "status": "current",
+   "now": null
+  },
+  "Dirk Meurer": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "wallapop.com": {
+  "Jorge Lluch": {
+   "status": "moved",
+   "now": "Abacum (Co-Founder & COO)"
+  }
+ },
+ "xange.vc": {
+  "Garnier Louison": {
+   "status": "current",
+   "now": null
+  },
+  "Baltrusch Caroline": {
+   "status": "current",
+   "now": null
+  },
+  "Buresboenstroem Valérie": {
+   "status": "current",
+   "now": null
+  },
+  "Bertrand Cyril": {
+   "status": "current",
+   "now": null
+  },
+  "Paquet Pauline": {
+   "status": "current",
+   "now": null
+  },
+  "Bemert Jennifer": {
+   "status": "current",
+   "now": null
+  },
+  "Gazay Clémentine": {
+   "status": "current",
+   "now": null
+  },
+  "Du Alexis": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "yttrium.com": {
+  "Elina Neu": {
+   "status": "current",
+   "now": null
+  },
+  "Sebastian Weschenbach": {
+   "status": "current",
+   "now": null
+  },
+  "Vanessa Pinter": {
+   "status": "current",
+   "now": null
+  },
+  "Tim Kindt": {
+   "status": "current",
+   "now": null
+  },
+  "Dominik Hertzler": {
+   "status": "current",
+   "now": null
+  },
+  "Moritz Sträb": {
+   "status": "current",
+   "now": null
+  },
+  "Concha Zimmer": {
+   "status": "moved",
+   "now": "Citi (Relationship Manager Digital & Technology Companies)"
+  },
+  "Judith Comino": {
+   "status": "unknown",
+   "now": null
+  },
+  "Veronika Belik": {
+   "status": "unknown",
+   "now": null
+  },
+  "Andrea Seelig": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "zf.com": {
+  "Markus Heizmann": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "zkb.ch": {
+  "Schier Robert": {
+   "status": "moved",
+   "now": "Bridging Minds Sàrl (Managing Director and Owner)"
+  },
+  "Granath Nils": {
    "status": "current",
    "now": null
   }
