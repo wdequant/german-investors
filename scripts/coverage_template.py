@@ -329,6 +329,20 @@ tr.detailrow td{background:none;box-shadow:none}
 .askchips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .askchips button{border:1px solid var(--hair2);background:transparent;color:var(--ink2);border-radius:999px;padding:5px 13px;font-size:12px;cursor:pointer}
 .askchips button:hover{border-color:var(--ink2);color:var(--ink)}
+.glaunch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+.gcity{background:var(--raise);border:1px solid var(--hair2);border-radius:16px;padding:16px 18px;cursor:pointer}
+.gcity:hover{border-color:var(--ink2)}
+.gcity .gcname{font-family:var(--display);font-size:19px;font-weight:650;letter-spacing:-.01em;
+  display:flex;justify-content:space-between;align-items:center;gap:10px}
+.gcity .gcstats{font-size:12.3px;color:var(--ink2);margin-top:7px;line-height:1.6}
+.gcity .gcstats b{color:var(--ink)}
+.gchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.gchips button{border:1px solid var(--hair2);background:var(--surface);border-radius:999px;padding:6px 14px;
+  font-size:12.5px;font-weight:600;color:var(--ink2);cursor:pointer}
+.gchips button:hover{border-color:var(--ink2);color:var(--ink)}
+.gchips button b{color:var(--ink)}
+@media(max-width:1100px){.glaunch{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.glaunch{grid-template-columns:1fr}}
 .askacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .askacts button{border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent-ink);
   border-radius:999px;padding:5px 14px;font-size:12px;font-weight:650;cursor:pointer}
@@ -906,6 +920,33 @@ const METRO = {"Norrmalm":"Stockholm","Kongens Lyngby":"Copenhagen","Landshut":"
   "San Francisco":"SF Bay Area","Menlo Park":"SF Bay Area","Palo Alto":"SF Bay Area",
   "Mountain View":"SF Bay Area","Woodside":"SF Bay Area"};
 const cityOf = e => { const c=(e.city||'').split('·')[0].trim(); return METRO[c]||c; };
+// cities ranked by open pipeline x network strength x dealflow weight (shared: dashboard + trip launcher)
+function cityScores(me){
+  const cities={};
+  const blank=()=>({funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set(),topco:[],topf:[]});
+  ALLE.forEach(({r,e})=>{
+    const fc=cityOf(e);
+    if(e.kind==='fund'&&fc&&(e.relevance?.total||0)>=55&&!ACCELCAT[e.category]){
+      const c=cities[fc]=cities[fc]||blank();
+      c.funds++; const pc=me?personCov(e,me):e.connectivity;
+      c.gapW+=(e.relevance.total/100)*(1-pc/100); c.str.push(pc);
+      c.topf.push({n:e.name, rel:e.relevance.total, pc, tc:e.connectivity});
+    }
+    Object.values(e.buckets||{}).forEach(l=>l.forEach(p=>{
+      if(!p.city) return; const mc=metroOf(p.city); if(!mc) return;
+      if(me&&!(p.own||[]).includes(me)) return;
+      const c=cities[mc]=cities[mc]||blank();
+      if(!c.names.has(p.id)){ c.names.add(p.id); c.pipe++; if((p.uf||0)>=70) c.hiPipe++;
+        c.topco.push({n:p.name, uf:p.uf}); }
+    }));
+  });
+  // London is home for everyone except Fergal, Irena and Tony — don't suggest it to Londoners
+  const AWAY=['Fergal Mullen','Irena Goldenberg','Tony Zappala'];
+  if(!me || !AWAY.includes(me)) delete cities['London'];
+  return Object.entries(cities)
+    .map(([city,c])=>({city,...c,score:c.pipe*0.6+c.hiPipe*1.2+c.gapW*1.6}))
+    .sort((a,b)=>b.score-a.score);
+}
 const TRIPS = {};
 REGIONS.forEach(r=>D.regions[r].entities.forEach(e=>{
   if(e.kind!=='fund'||!e.city) return;
@@ -1163,31 +1204,7 @@ function renderDash(){
     return `<div class="dpli"><b class="mbub ${relT(rel||0)}">${rel??'—'}</b><span class="nm">${x.e.name}</span><span class="how">ask ${p.internal.split(' ')[0]}${p.external?` → ${p.external}`:''}${p.pct!=null?` · ${p.pct}%`:''}</span></div>`;
   }).join('');
 
-  // --- cities worth a trip: pipeline weight + relevant-fund gap weight ---
-  const cities={};
-  const blank=()=>({funds:0,gapW:0,pipe:0,hiPipe:0,str:[],names:new Set(),topco:[],topf:[]});
-  ALLE.forEach(({r,e})=>{
-    const fc=cityOf(e);
-    if(e.kind==='fund'&&fc&&(e.relevance?.total||0)>=55&&!ACCELCAT[e.category]){
-      const c=cities[fc]=cities[fc]||blank();
-      c.funds++; const pc=me?personCov(e,me):e.connectivity;
-      c.gapW+=(e.relevance.total/100)*(1-pc/100); c.str.push(pc);
-      c.topf.push({n:e.name, rel:e.relevance.total, pc, tc:e.connectivity});
-    }
-    Object.values(e.buckets||{}).forEach(l=>l.forEach(p=>{
-      if(!p.city) return; const mc=metroOf(p.city); if(!mc) return;
-      if(me&&!(p.own||[]).includes(me)) return;
-      const c=cities[mc]=cities[mc]||blank();
-      if(!c.names.has(p.id)){ c.names.add(p.id); c.pipe++; if((p.uf||0)>=70) c.hiPipe++;
-        c.topco.push({n:p.name, uf:p.uf}); }
-    }));
-  });
-  // London is home for everyone except Fergal, Irena and Tony — don't suggest it to Londoners
-  const AWAY=['Fergal Mullen','Irena Goldenberg','Tony Zappala'];
-  if(!me || !AWAY.includes(me)) delete cities['London'];
-  const ranked=Object.entries(cities)
-    .map(([city,c])=>({city,...c,score:c.pipe*0.6+c.hiPipe*1.2+c.gapW*1.6}))
-    .filter(c=>c.score>0.8).sort((a,b)=>b.score-a.score).slice(0,5);
+  const ranked=cityScores(me).filter(c=>c.score>0.8).slice(0,5);
   const cityCards=ranked.map(c=>{
     const tc=c.topco.sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,3);
     const tf=c.topf.sort((a,b)=>b.rel-a.rel).slice(0,3);
@@ -1295,6 +1312,9 @@ function renderWork(){
     navigator.clipboard?.writeText(decodeURIComponent(b.dataset.copy)); toast('Copied');}));
   body.querySelectorAll('[data-draft]').forEach(b=>b.addEventListener('click',()=>{
     const [kind,r,slug]=b.dataset.draft.split(':'); draftWidget(kind,r,slug);}));
+  body.querySelectorAll('[data-gocity]').forEach(b=>b.addEventListener('click',()=>{
+    ap.city=b.dataset.gocity; renderWork();
+  }));
   bindStars(body);
   renderRail();
   document.getElementById('apscroll').scrollTop=0;
@@ -1444,7 +1464,25 @@ function draftWidget(kind,r,slug){
 
 function apGeo(){
   const city=ap.city;
-  if(!city) return `<div class="aphint">Pick a city above — e.g. Stockholm.</div>`;
+  if(!city){
+    const all=cityScores(ap.who).filter(c=>c.pipe>0||c.funds>0);
+    const main=all.slice(0,6), more=all.slice(6,30);
+    const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length):0;
+    const cards=main.map(c=>{
+      const top=c.topco.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1))[0];
+      const stats=[c.pipe?`${c.pipe} open pipeline${c.hiPipe?` · <b>${c.hiPipe} high-prio</b>`:''}`:null,
+        c.funds?`${c.funds} relevant fund${c.funds>1?'s':''} · your strength ${avg(c.str)}`:null,
+        top?`top: ${top.n}${top.uf!=null?` · ${Math.round(top.uf)}`:''}`:null].filter(Boolean);
+      const badge=c.hiPipe||c.pipe;
+      return `<div class="gcity" data-gocity="${c.city}" tabindex="0">
+        <div class="gcname">${c.city}<span class="mbub ${c.hiPipe?'strong':c.pipe?'medium':'low'}">${badge||c.funds}</span></div>
+        <div class="gcstats">${stats.join('<br>')}</div></div>`;
+    }).join('');
+    const chips=more.map(c=>`<button type="button" data-gocity="${c.city}">${c.city} <b>${c.pipe||c.funds}</b></button>`).join('');
+    return `<div class="aphint">Where should you go? Ranked by your open pipeline × network strength × dealflow weight — tap a city${ap.who?'':' (pick who you are for a personal ranking)'}.</div>
+      <div class="glaunch">${cards||'<div class="aphint">No city signal yet.</div>'}</div>
+      ${chips?`<div class="gchips">${chips}</div>`:''}`;
+  }
   const who=ap.who;
   const anyCity = ALLE.some(({e})=>Object.values(e.buckets||{}).some(l=>l.some(p=>p.city)));
   const seen=new Map();
