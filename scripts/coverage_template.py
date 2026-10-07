@@ -549,6 +549,24 @@ th.sk:hover{color:var(--accent-ink)}
 .minibtn.prep:hover{opacity:.9;color:#fff}
 .note{font-size:12.5px;color:var(--muted);margin-top:48px;line-height:1.65;max-width:1100px;
   border-top:1px solid var(--hair);padding-top:18px}
+body.mkmode{cursor:crosshair}
+.mk-kill{outline:2px dashed var(--gap)!important;outline-offset:2px}
+.mk-simplify{outline:2px dashed var(--thin)!important;outline-offset:2px}
+#mkpop{position:fixed;z-index:95;background:var(--raise);border:1px solid var(--hair);border-radius:12px;
+  box-shadow:var(--shadow);padding:12px 14px;width:290px}
+#mkpop .th{font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:4px;line-height:1.5}
+#mkpop .mkbtns{display:flex;gap:8px;margin:8px 0}
+#mkpop .mkbtns button{flex:1;border:1px solid var(--hair);background:var(--surface);border-radius:8px;
+  padding:7px 0;font-size:12.5px;font-weight:650;cursor:pointer;color:var(--ink2)}
+#mkpop .mkbtns button[data-mk="kill"].on{background:var(--c-hard);border-color:var(--gap);color:var(--gap-ink)}
+#mkpop .mkbtns button[data-mk="simplify"].on{background:var(--c-awaiting);border-color:var(--thin);color:var(--thin-ink)}
+#mknote{width:100%;border:1px solid var(--hair);border-radius:8px;background:var(--surface);color:var(--ink);
+  padding:7px 10px;font-size:12.5px;margin-bottom:9px}
+#mkpop .mkact{display:flex;gap:8px;align-items:center}
+#mktray{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:94;background:var(--ink);
+  color:var(--page);border-radius:999px;padding:9px 18px;display:flex;gap:14px;align-items:center;font-size:12.5px;
+  box-shadow:var(--shadow);white-space:nowrap}
+#mktray button{background:none;border:0;color:var(--page);text-decoration:underline;cursor:pointer;font-size:12px;padding:0}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--page);
   border-radius:8px;padding:10px 18px;font-size:13px;display:none;z-index:40}
 .htc-inv{display:flex;flex-direction:column;gap:2px;font-size:12px}
@@ -704,6 +722,9 @@ th.sk:hover{color:var(--accent-ink)}
     then tap or select anything on the page and write your note. Will &amp; Claude review every
     thread, and you'll get a reply on it when it ships.</p>
     <p>Prefer email? <a id="fbmail" href="mailto:william@highlandeurope.com?subject=Sonar%20feedback&body=What%20I%27d%20like%3A%0A%0AWhere%20(region%20%2F%20fund%20%2F%20view)%3A%0A">Send it to Will</a>.</p>
+    <p><b>Or mark up this app directly:</b> markup mode lets you click anything on any page and tag it
+    <b>Kill</b> or <b>Simplify</b> — then copy the report and paste it to Claude.</p>
+    <button class="minibtn prep" id="mkstart" type="button">✎ Start markup mode</button>
     <button class="minibtn" id="fbclose">Got it</button>
   </div>
 </div></div>
@@ -804,6 +825,13 @@ definition. Every fund dossier has a “Prep brief in Claude” button that open
 
 </div>
 <div class="toast" id="toast"></div>
+<div id="mkpop" hidden>
+  <div class="th" id="mkwhat"></div>
+  <div class="mkbtns"><button type="button" data-mk="kill" class="on">🗑 Kill</button><button type="button" data-mk="simplify">✂ Simplify</button></div>
+  <input id="mknote" placeholder="Optional note — why / what instead…" autocomplete="off">
+  <div class="mkact"><button type="button" class="btn" id="mksave">Save mark</button><button type="button" class="minibtn" id="mkcancel">Cancel</button></div>
+</div>
+<div id="mktray" hidden><b id="mkcount"></b><button type="button" id="mkcopy">Copy report</button><button type="button" id="mkclearall">Clear</button><button type="button" id="mkexit">Exit markup</button></div>
 
 <script>
 const D = __DATA__;
@@ -1905,6 +1933,74 @@ function openSheet(slug){
   document.getElementById('sheet').scrollTop = 0;
   state.open = slug; startLive(e); updateHash();
 }
+// ---------- markup mode: tag anything to kill or simplify, copy a report for Claude ----------
+let MARKS=[]; try{ MARKS=JSON.parse(localStorage.getItem('sonar_marks')||'[]'); }catch(e0){}
+const MK={on:false, el:null, kind:'kill'};
+const mkPersist=()=>{ try{ localStorage.setItem('sonar_marks', JSON.stringify(MARKS)); }catch(e0){} };
+const mkPage=()=>({dash:'Dashboard',cov:'Coverage · '+((D.regions[state.region]||{}).label||''),
+  h2c:'Solve my H2Cs',net:'Build my Network',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
+function mkLabel(el){
+  for(const sel of ['.fname','.dtlabel','.dlh','.dsec','.apsec','.sechead h2','.covcap','.th','h1','h2','summary']){
+    const n=el.querySelector(sel)||el.closest(sel);
+    if(n) { const t=(n.innerText||n.textContent||'').trim().replace(/\s+/g,' ');
+      if(t) return t.slice(0,70); }
+  }
+  const t0=(el.innerText||el.textContent||'').trim().replace(/\s+/g,' ');
+  return t0.slice(0,70)||('<'+el.tagName.toLowerCase()+'>');
+}
+function mkTray(){
+  const t=document.getElementById('mktray'); if(!t) return;
+  t.hidden=!(MK.on||MARKS.length);
+  document.getElementById('mkcount').textContent=(MK.on?'✎ markup on · ':'')+MARKS.length+' mark'+(MARKS.length===1?'':'s');
+  document.getElementById('mkexit').textContent=MK.on?'Exit markup':'Resume markup';
+}
+function mkStart(){ MK.on=true; document.body.classList.add('mkmode'); mkTray();
+  toast('Markup on — click anything to tag it. Sidebar still navigates. Esc to finish.'); }
+function mkStop(){ MK.on=false; document.body.classList.remove('mkmode');
+  document.getElementById('mkpop').hidden=true; mkTray(); }
+document.addEventListener('click',ev=>{
+  if(!MK.on) return;
+  if(ev.target.closest('#mkpop,#mktray,#fbpop,#whoback')) return;
+  if(ev.target.closest('#side')) return;              // keep navigation usable while marking
+  ev.preventDefault(); ev.stopPropagation();
+  const el=ev.target.closest('.apcard,.dtile,.dcity,.gcity,.mcard,tr,.covcard,.dlist,.chgsec,.score .s,.askcard,#aprail,.seg,.filters,.pts,.chips,.note,.dprev,.hero,.whead,.aphint,.glaunch,.gchips,thead,details,button,a,select,input')||ev.target;
+  MK.el=el; MK.kind='kill'; MK.label=mkLabel(el);
+  const pop=document.getElementById('mkpop');
+  pop.hidden=false;
+  pop.style.left=Math.max(10,Math.min(innerWidth-305,ev.clientX-30))+'px';
+  pop.style.top=Math.max(10,Math.min(innerHeight-185,ev.clientY+12))+'px';
+  pop.querySelectorAll('[data-mk]').forEach(b=>b.classList.toggle('on',b.dataset.mk==='kill'));
+  document.getElementById('mkwhat').textContent=mkPage()+' · '+MK.label;
+  document.getElementById('mknote').value='';
+},true);
+document.addEventListener('keydown',ev=>{
+  if(ev.key!=='Escape'||!MK.on) return;
+  const pop=document.getElementById('mkpop');
+  if(!pop.hidden) pop.hidden=true; else mkStop();
+});
+document.querySelectorAll('#mkpop [data-mk]').forEach(b=>b.addEventListener('click',()=>{
+  MK.kind=b.dataset.mk;
+  document.querySelectorAll('#mkpop [data-mk]').forEach(x=>x.classList.toggle('on',x===b));
+}));
+document.getElementById('mksave').addEventListener('click',()=>{
+  MARKS.push({page:mkPage(), label:MK.label||'', kind:MK.kind,
+    note:document.getElementById('mknote').value.trim(), when:new Date().toISOString().slice(0,16)});
+  mkPersist();
+  if(MK.el&&MK.el.classList) MK.el.classList.add('mk-'+MK.kind);
+  document.getElementById('mkpop').hidden=true; mkTray(); toast('Marked — keep going or copy the report below');
+});
+document.getElementById('mkcancel').addEventListener('click',()=>{document.getElementById('mkpop').hidden=true;});
+document.getElementById('mkcopy').addEventListener('click',()=>{
+  const rep=['Sonar markup report — '+(state.person||'team')+' — '+new Date().toLocaleString('en-GB'),'']
+    .concat(MARKS.map(m=>`[${m.kind.toUpperCase()}] ${m.page} · "${m.label}"${m.note?` — ${m.note}`:''}`)).join('\n');
+  navigator.clipboard?.writeText(rep); toast('Report copied — paste it to Claude');
+});
+document.getElementById('mkclearall').addEventListener('click',()=>{ MARKS=[]; mkPersist(); mkTray(); toast('Marks cleared'); });
+document.getElementById('mkexit').addEventListener('click',()=>{ MK.on?mkStop():mkStart(); });
+mkTray();
+const _mks=document.getElementById('mkstart');
+if(_mks) _mks.addEventListener('click',()=>{ document.getElementById('fbpop').hidden=true; mkStart(); });
+
 document.getElementById('fb').addEventListener('click',()=>{
   const p = document.getElementById('fbpop'); p.hidden = !p.hidden;
 });
