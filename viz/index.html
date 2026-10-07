@@ -564,6 +564,7 @@ body.mkmode{cursor:crosshair}
 #mktray{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:94;background:var(--ink);
   color:var(--page);border-radius:999px;padding:9px 18px;display:flex;gap:14px;align-items:center;font-size:12.5px;
   box-shadow:var(--shadow);white-space:nowrap}
+#mktray[hidden]{display:none}
 #mktray button{background:none;border:0;color:var(--page);text-decoration:underline;cursor:pointer;font-size:12px;padding:0}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--page);
   border-radius:8px;padding:10px 18px;font-size:13px;display:none;z-index:40}
@@ -753,7 +754,6 @@ body.mkmode{cursor:crosshair}
 <div class="wrap">
 <header class="hero">
   <div class="heroL">
-    <div class="kicker" id="kick">Highland Europe · relationship intelligence · 07 Oct 2026</div>
     <h1 id="pagetitle"></h1>
     <p class="sub subline"><span id="subcount"></span>
     <details class="about"><summary>How to read this page</summary><div class="aboutbody">
@@ -765,16 +765,13 @@ body.mkmode{cursor:crosshair}
     bridge to ask for. Click a row for the dossier; use <b>View as</b> to see it through one person's
     relationships.</div></details></p>
   </div>
-  <div class="score" id="score"></div>
 </header>
 
 <div class="toolbar">
   <div id="regionseg" class="regionnav"></div>
 </div>
-<div id="changes"></div>
 
 <div id="fundsview">
-<div id="starthere"></div>
 <div class="filters" id="filters"></div>
 <div class="sechead"><h2>Funds</h2><p id="fundhint">sort via column headers · click a row for detail</p></div>
 <table id="fundtable"></table>
@@ -804,8 +801,7 @@ excluded). “Untracked” = their post-Feb-2025 European deals absent from our 
 who appears to have left the fund. Percentages next to people are <b>Affinity relationship strength</b> (0–100%):
 how warm that one-to-one connection is, driven by email &amp; meeting frequency and recency — 100% means an active
 recent dialogue, 10% a thin or faded thread. It is not a probability or ownership figure. Hover any % for this
-definition. Every fund dossier has a “Prep brief in Claude” button that opens Claude with the meeting-prep request prefilled.
-<span id="fresh"></span></p>
+definition. <span id="fresh"></span></p>
 </div></section>
 </main>
 </div>
@@ -879,23 +875,8 @@ function ring(v, tier, sz){
 }
 
 function scoreboard(){
-  const f = E().filter(e=>e.kind==='fund');
-  const gaps = f.filter(e=>eff(e).tier==='weak' && e.relevance.total>=60);
-  const hard = D.regions[state.region].htc.length;
-  const unt = f.reduce((n,e)=>n+((e.untracked||[]).length),0);
   const al = document.getElementById('actlabel');
   if(al) al.textContent = state.person ? `For ${state.person.split(' ')[0]}` : 'Workflows';
-  document.getElementById('score').innerHTML = `
-    <div class="s crit go" data-go="gaps"><b>${gaps.length}</b><span>${state.person?'relevant funds '+state.person.split(' ')[0]+" can't reach":'relevant funds worth time — no warm path'}</span></div>
-    <div class="s warn go" data-go="htc"><b>${hard}</b><span>hard-to-crack companies reachable via these funds</span></div>
-    <div class="s warn go" data-go="unt"><b>${unt}</b><span>recent EU deals we're not tracking</span></div>`;
-  document.querySelectorAll('#score .s.go').forEach(t=>t.addEventListener('click',()=>{
-    const g=t.dataset.go;
-    if(g==='gaps'){ state.view='funds'; state.sort='gap'; render();
-      document.getElementById('starthere')?.scrollIntoView({behavior:'smooth',block:'start'}); }
-    else if(g==='htc'){ goPage('h2c'); }
-    else { state.view=g; document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on',x.dataset.v===g)); render(); updateHash(); }
-  }));
 }
 
 // ---------- filters ----------
@@ -1226,6 +1207,9 @@ function renderDash(){
       &&personCov(x.e,me)<22&&x.e.connectivity>=50&&(x.e.points||[]).length)
     .sort((a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0)):[];
   const relT=v=>v>=70?'strong':v>=55?'medium':'low';
+  const ground3=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]
+      &&x.e.connectivity<22&&(x.e.relevance?.total||0)>=55)
+    .sort((a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0)).slice(0,3);
   const nRows=borrow.slice(0,4).map(x=>{
     const p=(x.e.points||[])[0], rel=x.e.relevance?.total;
     return `<div class="dpli"><b class="mbub ${relT(rel||0)}">${rel??'—'}</b><span class="nm">${x.e.name}</span><span class="how">ask ${p.internal.split(' ')[0]}${p.external?` → ${p.external}`:''}${p.pct!=null?` · ${p.pct}%`:''}</span></div>`;
@@ -1277,7 +1261,8 @@ function renderDash(){
         <div class="dsplit">
           <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
           <div class="dprev"><div class="dph">Start with</div>
-            ${nRows||`<div class="dtsub">${me?'Your coverage already matches the team\'s reach.':'Pick who you are to see personal intro paths.'}</div>`}</div>
+            ${nRows||`<div class="dtsub">${me?'Your coverage already matches the team\'s reach.':'Pick who you are to see personal intro paths.'}</div>`}
+            ${ground3.length?`<div class="dtsub" style="margin-top:6px">Open new ground: ${ground3.map(x=>x.e.name).join(' · ')} — no one at Highland covers them yet</div>`:''}</div>
         </div>
       </div>
     </div>
@@ -1656,21 +1641,19 @@ function rowHTML(e){
   const v = eff(e);
   const rel = e.relevance? e.relevance.total : null;
   const co = e.coinvest.length?`<span class="badge co">✓ co-invested ×${e.coinvest.length}</span>`:'';
-  const ufq = e.uf && e.uf.pts ? `<span class="badge ufq${e.uf.high?' hi':''}" title="Unframe portfolio quality ${e.uf.pts}/40 — ${e.uf.high} backed companies rated ≥85 combined priority, top-10 avg ${e.uf.avg10}">Unframe ${e.uf.pts}/40${e.uf.high?` · ${e.uf.high} high-prio`:''}</span>`:'';
+  const ufq = e.uf && e.uf.pts ? `<span class="badge ufq${e.uf.high?' hi':''}" title="Unframe portfolio quality ${e.uf.pts}/40 — ${e.uf.high} backed companies rated ≥85 combined priority, top-10 avg ${e.uf.avg10}">Unframe ${Math.round(e.uf.pts)}/40${e.uf.high?` · ${e.uf.high} high-prio`:''}</span>`:'';
   const unt = (e.untracked||[]).length?`<span class="badge unt">${e.untracked.length} untracked EU deals</span>`:'';
   const lastT = e.fund_last?`<span>last touch ${fmtD(e.fund_last)}</span>`:'';
   const noCrm = e.no_crm?`<a class="badge" href="${e.harmonic_url}" target="_blank" rel="noopener">no CRM record · Harmonic ↗</a>`:'';
   const known = e.kind==='angel' && (e.notable||[]).length
     ? `<span class="cc">known for: ${e.notable.slice(0,3).map(n=>n.name).join(', ')}</span>` : '';
   const meta = e.kind==='fund'
-    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${e.city||''}</span>${lastT}${co}${ufq}${unt}`
-    : `<span>${e.note||''}</span>${known}${lastT}${noCrm}`;
+    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${(e.city||'').split('·')[0].trim()}</span>${ufq}`
+    : `<span>${e.note||''}</span>${known}${noCrm}`;
   const nm = e.kind==='angel' && e.li ? `<a href="${e.li}" target="_blank" rel="noopener">${e.name}</a>`
     : e.website ? `<a href="https://${e.website}" target="_blank" rel="noopener">${e.name}</a>` : e.name;
   const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
-  const proof = e.kind==='fund' && e.uf && (e.uf.top||[]).length
-    ? `<div class="fmeta ufproof"><span class="cc">Top of portfolio:</span>`+
-      e.uf.top.map(t=>`<span class="ufco">${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:t.name}${ufBadge(t.score)}</span>`).join('')+`</div>` : '';
+  const proof='';
   return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
     <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
     <td class="relcell">${relCell}</td>
@@ -1682,17 +1665,7 @@ function rowHTML(e){
 }
 function detailHTML(e){
   let h='';
-  if(e.liveAt) h += `<div class="meta-line"><span class="livebadge">${liveLabel(e)}</span> <span class="cc">${window.claude?'pipeline refreshed from your Affinity connector':'checked live against Affinity & Harmonic just now'}</span></div>`;
-  if(e.kind==='fund'){
-    const r=e.relevance;
-    h += `<div class="meta-line">Relevance ${r.total} (stage ${r.stage} · sector ${r.sector} · ${r.eu_deals!=null?`EU activity ${r.geo} · ${r.eu_deals} EU deals/24m`:`Europe ${r.geo} at ${Math.round(r.europe)}%`} · activity ${r.activity} · graduation ${r.grad})
-      · ${e.num_investments??'—'} investments · ${e.unicorns??0} unicorns · last investment ${e.last_investment||'—'}
-      ${e.coinvest.length?` · <b style="color:var(--covered-ink)">co-invested:</b> ${e.coinvest.join(', ')}`:''}</div>`;
-    if(e.uf && (e.uf.top||[]).length){
-      h += `<div class="meta-line"><b>Top of their portfolio</b> <span class="cc">· Unframe combined priority</span> &nbsp;`+
-        e.uf.top.map(t=>`${t.domain?`<a href="https://${t.domain}" target="_blank" rel="noopener">${t.name}</a>`:`<b>${t.name}</b>`}${ufBadge(t.score)}${t.tracking==='not_tracked'?' <span class="cc">not in Affinity</span>':''}`).join(' &nbsp;·&nbsp; ')+`</div>`;
-    }
-  } else if(e.relevance){
+  if(e.kind!=='fund' && e.relevance){
     const r=e.relevance;
     h += `<div class="meta-line">Angel relevance ${r.total} (deals ${r.deals} · outcomes ${r.uni} · syndication ${r.synd} · our-pipeline presence ${r.pipe}) · ${e.num_investments??'—'} tracked deals</div>`;
   }
@@ -1767,9 +1740,7 @@ function detailHTML(e){
           return `<div>${nm}${k.email?emIcon(k):''}<span class="t">${bits?` · ${bits}`:''}</span>${uv}</div>`;
         }).join('')+`</div>`;
     }).join('')+`</div>`;
-    if(e.former && e.former.length){
-      h += `<div class="meta-line" style="color:var(--muted)">No longer at ${e.name}: `+
-        e.former.map(f=>`${f.person} → ${f.now}`).join(' · ')+`</div>`;
+    if(false){
     }
   }
   const liq = n => liSearch(n, e.name);
@@ -1781,8 +1752,6 @@ function detailHTML(e){
     h += `<h5>Their partners we don't know${e.partners_total?` (${e.partners_unknown.length} of ${e.partners_total} on roster)`:''}</h5><div class="plist">`+
       e.partners_unknown.map(p=>`<span><a href="${p.linkedin||liq(p.name)}" target="_blank" rel="noopener">${p.name}</a>${emIcon(p)} <span class="cc">${p.title||''}</span></span>`).join('')+`</div>`;
   }
-  {const pr = 'Use the fund-portfolio-prep skill: prep my meeting with '+e.name;
-  h += `<div class="actionrow" style="margin-top:14px"><a class="minibtn prep" href="https://claude.ai/new?q=${encodeURIComponent(pr)}" target="_blank" rel="noopener">⚡ Prep brief in Claude</a><span class="cc" style="align-self:center">prefills the prep request — just hit send</span></div>`;}
   return h;
 }
 function regionCountries(){
@@ -1929,7 +1898,7 @@ function openSheet(slug){
     navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
   document.getElementById('sheet').classList.add('open');
   document.getElementById('sheet').scrollTop = 0;
-  state.open = slug; startLive(e); updateHash();
+  state.open = slug; updateHash();
 }
 // ---------- markup mode: tag anything to kill or simplify, copy a report for Claude ----------
 let MARKS=[]; try{ MARKS=JSON.parse(localStorage.getItem('sonar_marks')||'[]'); }catch(e0){}
@@ -2351,8 +2320,6 @@ function changesHTML(){
 function render(){
   const mob = isMobile();
   if(!state.open) stopLive();
-  const chEl = document.getElementById('changes');
-  if(chEl) chEl.innerHTML = state.view==='funds' ? changesHTML() : '';
   document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
   document.getElementById('untview').style.display = state.view==='unt'?'':'none';
   const sh = document.getElementById('starthere');
@@ -2445,7 +2412,6 @@ function toggleRow(slug, chip){
     det.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
       navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
     state.open = slug;
-    startLive(e);
     if(chip && !chip.classList.contains('empty')){
       const sec=document.getElementById(`sec-${slug}-${chip.dataset.k}`);
       if(sec){ sec.open=true; sec.scrollIntoView({behavior:'smooth', block:'center'}); }
