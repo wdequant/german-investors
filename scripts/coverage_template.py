@@ -170,6 +170,8 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .hcard .appath{font-size:14.5px;padding:3.5px 0}
 .hcard .pathh{margin-top:2px}
 .hinfo .apdesc{font-size:13.5px;color:var(--ink2);line-height:1.65}
+.ncard .fname{font-size:17px}
+.ncard .appath{font-size:14.5px;padding:4px 0 2px}
 .hleft .apdesc{font-size:13px;-webkit-line-clamp:3;margin:0 0 7px;line-height:1.55}
 .hleft .biz{font-size:12.5px}
 .pathh{font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
@@ -1428,14 +1430,12 @@ function apNet(){
   const bCards=borrow.map(({r,e})=>{
     const p=e.points[0];
     const ev=evidence(p);
-    const rr=e.relevance||{}, t0=e.uf&&(e.uf.top||[])[0];
-    const why=[rr.stage>=22?'stage fit':null, rr.sector>=20?'sector fit':null,
-      e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}`:null,
-      t0?`top: ${t0.name}${t0.score?` ${Math.round(t0.score)}`:''}`:null,
-      (e.coinvest||[]).length?`co-invested ×${e.coinvest.length}`:null].filter(Boolean).join(' · ');
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
-      <div class="apmeta">relevance ${e.relevance?.total??'—'} · team ${e.connectivity}, you ${personCov(e,who)}</div>
-      ${why?`<div class="apdesc">${why}</div>`:''}
+    const t0=e.uf&&(e.uf.top||[])[0];
+    const metaLine=[`relevance ${e.relevance?.total??'—'}`, `team ${e.connectivity}, you ${personCov(e,who)}`,
+      e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}${t0?` — top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:''}`:(t0?`top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:null),
+      (e.coinvest||[]).length?`co-invested ×${e.coinvest.length}`:null].filter(Boolean).join('<span class="psep">|</span>');
+    return `<div class="apcard ncard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+      <div class="apmeta hmeta">${metaLine}</div>
       <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}${everTag(p)}</div>
       <div class="apacts">
         <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
@@ -1444,8 +1444,8 @@ function apNet(){
   }).join('');
   const gCards=ground.map(({r,e})=>{
     const pk=(e.partners_unknown||[])[0];
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
-      <div class="apmeta">relevance ${e.relevance?.total??'—'} · team coverage ${e.connectivity}</div>
+    return `<div class="apcard ncard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+      <div class="apmeta hmeta">${[`relevance ${e.relevance?.total??'—'}`,`team coverage ${e.connectivity}`].join('<span class="psep">|</span>')}</div>
       ${pk?`<div class="appath">Door: <b>${pk.name}</b>${pk.title?` <span class="via">· ${pk.title}</span>`:''}</div>`:''}
       <div class="apacts">${pk?`<button data-draft="g:${r}:${e.slug}">Draft outreach</button>`:''}
         ${(e.bridges||[]).length?`<span class="cc" style="align-self:center">or bridge via ${e.bridges[0].name} (${e.bridges[0].internal.split(' ')[0]})</span>`:''}</div>
