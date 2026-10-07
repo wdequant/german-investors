@@ -161,13 +161,15 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .apstat{display:flex;flex-direction:column;align-items:center;min-width:52px}
 .apstat .covnum{font-size:23px}
 .apstat .covcap{font-size:8.5px;margin-top:2px;white-space:nowrap}
-.hcard{padding:16px 20px}
-.hcard .fname{font-size:16px}
-.hmeta{font-size:12px;margin-top:2px}
+.hcard{padding:16px 20px 14px}
+.hcard .fname{font-size:17.5px}
+.hmeta{font-size:13px;margin-top:5px;color:var(--ink2)}
+.hmeta .psep{color:var(--hair);padding:0 7px}
+.hmeta b{color:var(--ink)}
 .hgrid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:6px 36px;margin-top:9px;align-items:start}
-.hcard .appath{font-size:13.5px;padding:2px 0}
-.hinfo .apdesc{font-size:12.5px;color:var(--ink2)}
-.hinfo .biz{margin-top:8px;line-height:1.8}
+.hcard .appath{font-size:14.5px;padding:3.5px 0}
+.hcard .pathh{margin-top:2px}
+.hinfo .apdesc{font-size:13.5px;color:var(--ink2);line-height:1.65}
 .hleft .apdesc{font-size:13px;-webkit-line-clamp:3;margin:0 0 7px;line-height:1.55}
 .hleft .biz{font-size:12.5px}
 .pathh{font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
@@ -1354,8 +1356,7 @@ function apHtc(){
     const pd=htcPaths(c,who);
     let best=pd.team.slice(0,3);
     if(pd.self&&!best.some(p=>p.internal===who)) best=[pd.self,...best].slice(0,3);
-    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.region&&p.region!==c.region?` (${D.regions[p.region].label})`:''}${p.unt?' · untracked backer':''}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · email-only':''}${p.ever===false?' · unverified':''}</span></div>`).join('');
-    const others=(c.others||[]).length?`<div class="apmeta">also on the cap table (untracked): ${c.others.slice(0,4).join(', ')}</div>`:'';
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · email-only':''}${p.ever===false?' · unverified':''}</span></div>`).join('');
     const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
     const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];
     let acts='';
@@ -1377,18 +1378,21 @@ function apHtc(){
     const m=c.meta||{};
     const since=d=>{ if(!d) return null; const mo=Math.round((Date.now()-new Date(d))/26298e5);
       return mo<1?'this month':mo+' mo'; };
-    const comms=[m.last_email?`last email ${fmtD(m.last_email)}`:null,
-                 m.last_meet?`met ${fmtD(m.last_meet)}`:null,
-                 !m.last_email&&!m.last_meet&&m.last_touch?`last touch ${fmtD(m.last_touch)}`:null,
-                 m.status_since?`H2C for ${since(m.status_since)}`:null].filter(Boolean).join(' · ');
+    const metaBits=[c.city||c.country,
+      (c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null,
+      m.last_email?`last email ${fmtD(m.last_email)}`:null,
+      m.last_meet?`met ${fmtD(m.last_meet)}`:null,
+      !m.last_email&&!m.last_meet&&m.last_touch?`last touch ${fmtD(m.last_touch)}`:null,
+      m.status_since?`H2C for ${since(m.status_since)}`:null,
+      ...bizBits(pr0)].filter(Boolean);
+    const metaLine=metaBits.join('<span class="psep">|</span>');
     return `<div class="apcard hcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
       <div class="apstats">${bub(ufV, ufTierOf(ufV), 'unframe')}${bub(eV||null, easeTierOf(eV), 'ease of access')}</div></div>
-      <div class="apmeta hmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
+      <div class="apmeta hmeta">${metaLine}</div>
       <div class="hgrid"><div class="hleft"><div class="pathh">Paths in</div>
-        ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}
+        ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}
       </div><div class="hright hinfo">
         ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:'<div class="apdesc" style="color:var(--muted)">No company profile yet.</div>'}
-        ${bizBits(pr0).length?`<div class="apmeta biz">${bizBits(pr0).join('<br>')}</div>`:''}
       </div></div>${acts}</div>`;
   }).join('');
   return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
