@@ -164,7 +164,10 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .hcard{padding:16px 20px}
 .hcard .fname{font-size:16px}
 .hmeta{font-size:12px;margin-top:2px}
-.hgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:6px 36px;margin-top:9px;align-items:start}
+.hgrid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:6px 36px;margin-top:9px;align-items:start}
+.hcard .appath{font-size:13.5px;padding:2px 0}
+.hinfo .apdesc{font-size:12.5px;color:var(--ink2)}
+.hinfo .biz{margin-top:8px;line-height:1.8}
 .hleft .apdesc{font-size:13px;-webkit-line-clamp:3;margin:0 0 7px;line-height:1.55}
 .hleft .biz{font-size:12.5px}
 .pathh{font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
@@ -710,9 +713,6 @@ body.mkmode{cursor:crosshair}
 <div class="appbar"><div class="in">
   <span class="brand"><span class="mark"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="5.5" fill="#2733f0"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.7"><path d="M7 12.8 A4.2 4.2 0 0 1 11.2 17"/><path d="M7 9.3 A7.7 7.7 0 0 1 14.7 17" opacity=".72"/><path d="M7 5.8 A11.2 11.2 0 0 1 18.2 17" opacity=".45"/></g><circle cx="7" cy="17" r="1.8" fill="#fff"/><circle cx="15.2" cy="8.8" r="1.5" fill="#fff"/></svg></span><span>Sonar<span class="by">Highland Europe</span></span></span>
   <button class="btn ghost" id="whoami" title="Sonar is personalised to you — click to switch">👤</button>
-  <div class="seg" id="viewseg">
-    <button data-v="funds" class="on">Investors</button><button data-v="unt">Untracked Dealflow</button>
-  </div>
   <input type="search" id="q" placeholder="Filter…">
   <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
   <button class="btn" id="export" hidden>Export CSV</button>
@@ -777,8 +777,6 @@ body.mkmode{cursor:crosshair}
 <div class="filters" id="filters"></div>
 <div class="sechead"><h2>Funds</h2><p id="fundhint">sort via column headers · click a row for detail</p></div>
 <table id="fundtable"></table>
-<div class="sechead"><h2>Super-angels</h2><p>vital upstream nodes — ranked by their own relevance blend</p></div>
-<table id="angeltable"></table>
 </div>
 
 <div id="untview" style="display:none">
@@ -887,15 +885,14 @@ function filtersHTML(){
   const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
   let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
   if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
-  const SORTS=[["connectivity","Team coverage"],["mycov",(state.person?state.person.split(' ')[0]+"’s":'My')+" coverage"],["gap","Biggest gaps"],["relevance","Relevance"],["ufq","Portfolio quality (Unframe)"],["ufhigh","High-prio backed (Unframe)"],["name","Name"]];
-  h += `<span class="lbl">Sort</span><select id="sortsel">`+SORTS.map(([k,l])=>`<option value="${k}"${state.sort===k?' selected':''}>${l}</option>`).join('')+`</select>`;
+
   document.getElementById('filters').innerHTML = h;
   document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
     if(b.dataset.cat!==undefined) state.cat = state.cat===b.dataset.cat?'':b.dataset.cat;
     if(b.dataset.cc!==undefined) state.cc = state.cc===b.dataset.cc?'':b.dataset.cc;
     render();
   }));
-  document.getElementById('sortsel').addEventListener('change',ev=>{ state.sort=ev.target.value; state.sortDir=1; render(); });
+
 }
 
 const COLS = [
@@ -1004,7 +1001,7 @@ const htcPaths=(c,who)=>{
   return {all, team, self};
 };
 const metroOf = c => METRO[c]||c;
-const ap = {mode:'', who:'', city:'', hsort:'uf'};
+const ap = {mode:'', who:'', city:'', hsort:'ease'};
 // ---------- shortlist: star anything in a workflow into a persistent "earmarked" rail ----------
 let SHORT = [];
 try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
@@ -1223,9 +1220,7 @@ function renderDash(){
     const tf=c.topf.sort((a,b)=>b.rel-a.rel).slice(0,3);
     return `<div class="dcity go" data-go-city="${c.city}">
     <div class="fname">${c.city}</div>
-    <div class="dtsub">${[c.pipe?`${c.pipe} of ${me?'your':'our'} pipeline${c.hiPipe?` (${c.hiPipe} high-prio)`:''}`:null,
-      c.funds?`${c.funds} relevant fund${c.funds>1?'s':''}${c.str.length?` · ${me?'your':'team'} strength ${avg(c.str)}`:''}`:null]
-      .filter(Boolean).join(' · ')}</div>
+
     ${tc.length?`<div class="dlist"><span class="dlh"><span>Companies to visit</span><span class="dlcols"><i>unframe</i></span></span>${tc.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="bubs"><b class="mbub ${ufTierOf(x.uf!=null?Math.round(x.uf):null)}">${x.uf!=null?Math.round(x.uf):'—'}</b></span></span>`).join('')}</div>`:''}
     ${tf.length?`<div class="dlist"><span class="dlh"><span>Funds to visit</span><span class="dlcols"><i>team</i>${me?'<i>you</i>':''}</span></span>${tf.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="bubs"><b class="mbub ${covT(x.tc)}">${x.tc}</b>${me?`<b class="mbub ${covT(x.pc)}">${x.pc}</b>`:''}</span></span>`).join('')}</div>`:''}
   </div>`;}).join('');
@@ -1264,7 +1259,8 @@ function renderDash(){
           <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
           <div class="dprev"><div class="dph">Start with</div>
             ${nRows||`<div class="dtsub">${me?'Your coverage already matches the team\'s reach.':'Pick who you are to see personal intro paths.'}</div>`}
-            ${ground3.length?`<div class="dtsub" style="margin-top:6px">Open new ground: ${ground3.map(x=>x.e.name).join(' · ')} — no one at Highland covers them yet</div>`:''}</div>
+            ${ground3.length?`<div class="dtsub" style="margin-top:6px">Open new ground: ${ground3.map(x=>x.e.name).join(' · ')} — no one at Highland covers them yet</div>`:''}
+            ${(me&&keepWarm(me).length)?`<div class="dtsub" style="margin-top:4px">Keep warm: ${keepWarm(me).slice(0,3).map(w=>`${w.person.split(' ')[0]} (${w.fund})`).join(' · ')} — going cold</div>`:''}</div>
         </div>
       </div>
     </div>
@@ -1388,16 +1384,32 @@ function apHtc(){
     return `<div class="apcard hcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
       <div class="apstats">${bub(ufV, ufTierOf(ufV), 'unframe')}${bub(eV||null, easeTierOf(eV), 'ease of access')}</div></div>
       <div class="apmeta hmeta">${[c.city||c.country,(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null].filter(Boolean).join(' · ')}${comms?`<span class="commline"> — ${comms}</span>`:''}</div>
-      <div class="hgrid"><div class="hleft">
-        ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:'<div class="apdesc" style="color:var(--muted)">No company profile yet.</div>'}
-        ${bizBits(pr0).length?`<div class="apmeta biz">${bizBits(pr0).join(' · ')}</div>`:''}
-      </div><div class="hright"><div class="pathh">Paths in</div>
+      <div class="hgrid"><div class="hleft"><div class="pathh">Paths in</div>
         ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}${others}
+      </div><div class="hright hinfo">
+        ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:'<div class="apdesc" style="color:var(--muted)">No company profile yet.</div>'}
+        ${bizBits(pr0).length?`<div class="apmeta biz">${bizBits(pr0).join('<br>')}</div>`:''}
       </div></div>${acts}</div>`;
   }).join('');
   return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
 }
 
+function keepWarm(who){
+  if(!who) return [];
+  const out=[], seen=new Set();
+  ALLE.forEach(({r,e})=>{
+    if(e.kind!=='fund') return;
+    const tp=(e.top_people||[]).find(x=>x.name===who);
+    ((tp&&tp.contacts)||[]).forEach(k=>{
+      if((k.pct||0)<60||!k.last||k.moved) return;
+      const mo=(Date.now()-new Date(k.last).getTime())/26298e5;
+      if(mo<4||mo>15) return;
+      const key=k.person+'|'+e.name; if(seen.has(key)) return; seen.add(key);
+      out.push({person:k.person, fund:e.name, region:r, pct:k.pct, last:k.last, email:k.email, mo:Math.round(mo)});
+    });
+  });
+  return out.sort((a,b)=>b.pct-a.pct||b.mo-a.mo);
+}
 function netAskBody(who,e,p){
   const wf=who.split(' ')[0];
   return `Hey ${p.internal.split(' ')[0]} — I'm trying to build my own line into ${e.name} and you hold our strongest path (${p.external}${p.pct!=null?`, ${p.pct}%`:''}). Could you intro me or bring me along next time? Thanks! — ${wf}`;
@@ -1435,7 +1447,16 @@ function apNet(){
         ${(e.bridges||[]).length?`<span class="cc" style="align-self:center">or bridge via ${e.bridges[0].name} (${e.bridges[0].internal.split(' ')[0]})</span>`:''}</div>
       <div class="apdraftwrap" id="dw-${e.slug}"></div></div>`;
   }).join('');
-  return `<div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
+  const warm=keepWarm(who).slice(0,8);
+  const wf=who.split(' ')[0];
+  const wRows=warm.map(w=>{
+    const body=`Hi ${w.person.split(' ')[0]} — been too long since we last caught up. Would love to hear what you're seeing at ${w.fund} at the moment — coffee or a call in the next couple of weeks? — ${wf}`;
+    return `<div class="appath"><b>${w.person}</b> <span class="via">· ${w.fund} · ${w.pct}% · last touch ${fmtD(w.last)} (${w.mo} mo ago)</span>
+      ${w.email?`<a href="mailto:${w.email}?subject=${encodeURIComponent('Catching up')}&body=${encodeURIComponent(body)}" style="margin-left:8px">✉ Re-warm</a>`:''}</div>`;
+  }).join('');
+  return `${warm.length?`<div class="apsec">Keep warm — strong doors going cold</div>
+    <div class="apcard">${wRows}</div>`:''}
+    <div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
     <div class="apsec">Open new ground — relevant funds no one at Highland covers</div>${gCards||'<div class="aphint">None.</div>'}`;
 }
 
@@ -1691,9 +1712,6 @@ function detailHTML(e){
         <td class="num">${money(x.valuation_usd)}${x.valuation_usd&&x.valuation_est?' <span class="cc">est.</span>':''}</td>
         <td>${x.funnel?`<a class="dfst in" href="${affURL(x.affinity_id)}" target="_blank" rel="noopener">${x.funnel.replace(' (free for all)','')}</a>`:`<span class="dfst out">not tracked</span>`}</td>
       </tr>`).join('')+`</tbody></table></div></details>`;
-  } else if((e.untracked||[]).length){
-    h += `<details class="sec"><summary>Recent EU deals we're not tracking <b>${e.untracked.length}</b>${e.recent_eu?`<span class="cnt">of ${e.recent_eu} recent EU deals</span>`:''}</summary><div class="plist">`+
-      e.untracked.map(u=>`<span><span class="st">${(u.date||'').slice(0,7)} · ${(u.round||'').replaceAll('_',' ').toLowerCase()}</span><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a> <span class="cc">${u.country||''}</span></span>`).join('')+`</div></details>`;
   }
   const secs = [...BUCKETS,["portfolio","Portfolio company"]];
   const isGlobal = (e.buckets.prelead.concat(e.buckets.lead)).some(p=>p.country!==undefined);
@@ -1715,6 +1733,10 @@ function detailHTML(e){
     h += `<details class="sec" id="sec-${e.slug}-${k}"><summary>${label} <b>${list.length}</b>${outR.length?`<span class="cnt">${inR.length} in region</span>`:''}</summary><div class="plist">`+
       inR.map(p=>pitem(p,'')).join('')+
       outR.map(p=>pitem(p,'offr')).join('')+`</div></details>`;
+  }
+  if((e.untracked||[]).length){
+    h += `<details class="sec"><summary>Recent EU deals we're not tracking <b>${e.untracked.length}</b>${e.recent_eu?`<span class="cnt">of ${e.recent_eu} recent EU deals</span>`:''}</summary><div class="plist">`+
+      e.untracked.map(u=>`<span><span class="st">${(u.date||'').slice(0,7)} · ${(u.round||'').replaceAll('_',' ').toLowerCase()}</span><a href="https://console.harmonic.ai/dashboard/company/${u.harmonic_company_id}" target="_blank" rel="noopener">${u.name}</a> <span class="cc">${u.country||''}</span></span>`).join('')+`</div></details>`;
   }
   if(e.dormant){
     const mail = dormantMail(e);
@@ -1878,8 +1900,7 @@ function renderMobile(){
     return;
   }
   const vis = visible();
-  el.innerHTML = `<div class="mhead">Funds</div>`+srt(vis.filter(e=>e.kind==='fund')).map(mCardHTML).join('')+
-    `<div class="mhead">Super-angels</div>`+srt(vis.filter(e=>e.kind==='angel')).map(mCardHTML).join('');
+  el.innerHTML = `<div class="mhead">Funds</div>`+srt(vis.filter(e=>e.kind==='fund')).map(mCardHTML).join('');
   el.querySelectorAll('.mcard[data-slug]').forEach(c=>{
     const open = ()=>openSheet(c.dataset.slug);
     c.addEventListener('click',ev=>{ if(!ev.target.closest('a')) open(); });
@@ -2380,8 +2401,8 @@ function render(){
   const vis = visible();
   const ft=document.getElementById('fundtable'), at=document.getElementById('angeltable');
   ft.innerHTML = headHTML()+`<tbody>`+srt(vis.filter(e=>e.kind==='fund')).map(rowHTML).join('')+`</tbody>`;
-  at.innerHTML = headHTML()+`<tbody>`+srt(vis.filter(e=>e.kind==='angel')).map(rowHTML).join('')+`</tbody>`;
-  [ft,at].forEach(bindTable);
+  if(at){ at.innerHTML=''; }
+  bindTable(ft);
   updateHash();
 }
 function bindTable(tbl){
@@ -2424,7 +2445,7 @@ function toggleRow(slug, chip){
 function labels(){
   const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
   document.getElementById('pagetitle').textContent = `${D.regions[state.region].label} coverage`;
-  document.getElementById('subcount').textContent = `The ${f} funds that matter most${a?` plus ${a} super-angels`:''}.`;
+  document.getElementById('subcount').textContent = `The ${f} funds that matter most.`;
   document.getElementById('fresh').innerHTML = ' Data as of: '+Object.entries(D.freshness).map(([k,v])=>`${k} — ${v}`).join(' · ')+'.';
 }
 // ---------- hash routing ----------
