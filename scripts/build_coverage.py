@@ -498,12 +498,12 @@ for _cid, _v in payload["untProfiles"].items():  # sanitize + join Affinity ids
         _v["desc"] = _strip_emoji(_v["desc"].replace("�", ""))
     _v["affinity_id"] = _aff_ids.get(str(_cid)) or _aff_ids.get(_cid)
 html = (_tpl.TEMPLATE
-        .replace("__DATA__", json.dumps(payload, ensure_ascii=False))
+        .replace("__DATA__", json.dumps(payload, ensure_ascii=False).replace("\ufffd", ""))
         .replace("__GENERATED__", payload["generated"]))
 os.makedirs(f"{ROOT}/viz", exist_ok=True)
 open(f"{ROOT}/viz/index.html", "w").write(html)
 # same payload for the /api/ask serverless chat (gitignored; bundled at deploy time)
-open(f"{ROOT}/deploy/api/_data.json", "w").write(json.dumps(payload, ensure_ascii=False))
+open(f"{ROOT}/deploy/api/_data.json", "w").write(json.dumps(payload, ensure_ascii=False).replace("\ufffd", ""))
 for k, r in regions.items():
     f = [e for e in r["entities"] if e["kind"] == "fund"]
     unt = sum(len(e.get("untracked") or []) for e in f)
