@@ -341,6 +341,7 @@ tr.detailrow td{background:none;box-shadow:none}
   font-size:12.5px;font-weight:600;color:var(--ink2);cursor:pointer}
 .gchips button:hover{border-color:var(--ink2);color:var(--ink)}
 .gchips button b{color:var(--ink)}
+.gback{margin:12px 0 2px}
 @media(max-width:1100px){.glaunch{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.glaunch{grid-template-columns:1fr}}
 .askacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
@@ -1522,7 +1523,8 @@ function apGeo(){
       <div class="apmeta">relevance ${e.relevance?.total??'—'}${who?` · team ${e.connectivity}`:''}</div>
       <div class="nm ${nm2.cls}">${nm2.txt}</div>
       ${pk?`<div class="apmeta">Door: ${pk.linkedin?`<a href="${pk.linkedin}" target="_blank" rel="noopener">${pk.name}</a>`:pk.name}${pk.title?` · ${pk.title}`:''}</div>`:''}</div>`;}).join('');
-  return `<div class="aphint">Star ☆ companies and funds as you scan — they land in the Earmarked rail on the right, your next-visit plan.</div>
+  return `<div class="gback"><button type="button" class="minibtn" data-gocity="">← All cities</button></div>
+    <div class="aphint">Star ☆ companies and funds as you scan — they land in the Earmarked rail on the right, your next-visit plan.</div>
     <div class="apsec">${who?who.split(' ')[0]+"'s":'Our'} pipeline in ${city} — ranked by Unframe priority</div>
     ${rows||`<div class="aphint">${anyCity?`No ${who?who.split(' ')[0]+"'s":''} pipeline companies with a known ${city} HQ.`:'City data is still backfilling — check back shortly.'}</div>`}
     <div class="apsec">Investors ${who?'you know':'we know'} here — reconnect</div>${kRows||'<div class="aphint">None yet.</div>'}
