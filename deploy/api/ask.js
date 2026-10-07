@@ -208,6 +208,24 @@ const TOOLS = {
       };
     },
   },
+  earmark_for_trip: {
+    description: "Offer one-tap earmarking into the user's Plan-a-City-Trip shortlist. Call this AFTER answering any 'who should I meet / visit in <city>' style question, passing the city and the concrete companies/funds you named. The UI then shows an earmark button under your answer.",
+    schema: {
+      city: { type: 'string', description: 'City the trip is about' },
+      items: { type: 'array', items: { type: 'object', properties: {
+        type: { type: 'string', enum: ['co', 'fund'] },
+        name: { type: 'string' },
+        note: { type: 'string', description: 'Short context shown next to the name, e.g. "Unframe 83" or "rel 71"' },
+      }, required: ['type', 'name'], additionalProperties: false } },
+    },
+    required: ['city', 'items'],
+    run({ city, items }, who, actions) {
+      const its = (items || []).slice(0, 15);
+      if (!its.length) return { error: 'no items passed' };
+      actions.push({ kind: 'earmark', city, items: its });
+      return { ok: true, note: 'Earmark button added under your answer — tell the user it is there.' };
+    },
+  },
   city_plan: {
     description: "Plan a visit to a city: the asking user's open pipeline companies there (with Unframe priority) and the relevant funds based there with team/your coverage.",
     schema: { city: { type: 'string', description: 'City name, e.g. Berlin, Paris, Stockholm' } },
@@ -251,6 +269,7 @@ Score semantics:
 
 Rules:
 - Always resolve names with search_entities first if unsure, then use the specific tool. Base every claim on tool output; if the data does not contain something, say so plainly — never invent names, scores or relationships.
+- For trip or city questions ("who should I meet in Stockholm"), use city_plan, name the top picks with their scores, then call earmark_for_trip with those picks — the user gets a one-tap button to add them to their Plan a City Trip shortlist. Mention the button exists.
 - Contacts marked employment_verified "unverified" could not be matched to a current Harmonic role: the relationship comes from Affinity history alone, so mention the caveat (they may have changed roles) when recommending such a door.
 - When the asking user already holds a live relationship themselves (your_own_relationships, or a path whose highland_contact is them), recommend going direct through it and mention the teammate's stronger door only as a complement — never tell them to ask a colleague for an intro to someone they already know. Note that path strength only counts interactions logged in Affinity, so their real relationship may be stronger than the number.
 - Be concise and actionable: name the exact person to ask and the door they hold. Lead with the recommendation, then the one or two numbers that justify it.
@@ -287,6 +306,7 @@ export default async function handler(req, res) {
 
   const client = new Anthropic();
   const used = [];
+  const actions = [];
   try {
     for (let i = 0; i < 6; i++) {
       const response = await client.beta.messages.create({
@@ -302,7 +322,7 @@ export default async function handler(req, res) {
       const toolUses = response.content.filter(b => b.type === 'tool_use');
       if (response.stop_reason !== 'tool_use' || !toolUses.length) {
         const answer = response.content.filter(b => b.type === 'text').map(b => b.text).join('\n').trim();
-        res.status(200).json({ answer: answer || 'I could not produce an answer — try rephrasing.', used });
+        res.status(200).json({ answer: answer || 'I could not produce an answer — try rephrasing.', used, actions });
         return;
       }
       messages.push({ role: 'assistant', content: response.content });
@@ -311,7 +331,7 @@ export default async function handler(req, res) {
         content: toolUses.map(tu => {
           used.push(tu.name);
           let result;
-          try { result = TOOLS[tu.name] ? TOOLS[tu.name].run(tu.input || {}, who) : { error: 'unknown tool' }; }
+          try { result = TOOLS[tu.name] ? TOOLS[tu.name].run(tu.input || {}, who, actions) : { error: 'unknown tool' }; }
           catch (e) { result = { error: String(e && e.message || e) }; }
           return { type: 'tool_result', tool_use_id: tu.id, content: JSON.stringify(result) };
         }),

@@ -329,6 +329,12 @@ tr.detailrow td{background:none;box-shadow:none}
 .askchips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .askchips button{border:1px solid var(--hair2);background:transparent;color:var(--ink2);border-radius:999px;padding:5px 13px;font-size:12px;cursor:pointer}
 .askchips button:hover{border-color:var(--ink2);color:var(--ink)}
+.askacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.askacts button{border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent-ink);
+  border-radius:999px;padding:5px 14px;font-size:12px;font-weight:650;cursor:pointer}
+.askacts button:disabled{opacity:.55;cursor:default}
+#askclear{border:0;background:none;color:var(--muted);font-size:11px;cursor:pointer;letter-spacing:.04em}
+#askclear:hover{color:var(--ink)}
 .asklog{display:flex;flex-direction:column;gap:10px;margin:0 0 14px;max-height:440px;overflow:auto}
 .askq{align-self:flex-end;max-width:70%;background:var(--hair2);border-radius:14px 14px 4px 14px;padding:9px 14px;font-size:13px;font-weight:600}
 .aska{align-self:flex-start;max-width:85%;background:var(--surface);border:1px solid var(--hair2);border-radius:14px 14px 14px 4px;padding:11px 15px;font-size:13.5px;line-height:1.55}
@@ -1005,7 +1011,17 @@ function renderRail(){
       items.map(s=>`<div class="railitem"><b>${s.name}</b>${s.extra?`<span class="cc">${s.extra}</span>`:''}
         <button data-unstar="${s.t}|${s.name}" title="Remove">✕</button></div>`).join('');
   }
-  if(SHORT.length) h+=`<div class="railacts"><button id="railcopy">Copy list</button><button id="railclear">Clear</button></div>`;
+  if(SHORT.length){
+    const city = ap.mode==='geo' && ap.city ? ap.city : '';
+    const grp2={co:'Companies',fund:'Funds & investors',person:'People'};
+    const body=Object.entries(grp2).map(([t,label])=>{
+      const its=SHORT.filter(x=>x.t===t);
+      return its.length?label+':\n'+its.map(x=>`- ${x.name}${x.extra?` (${x.extra})`:''}`).join('\n'):null;
+    }).filter(Boolean).join('\n\n');
+    const pr=`I'm planning an investor & company trip${city?` to ${city}`:''}. This is my earmarked shortlist from Sonar, Highland's relationship-intelligence tool:\n\n${body}\n\nPlease: 1) check Unframe for other high-priority pipeline companies${city?` in ${city}`:''} missing from this list, and Sonar's relevant funds there I should also see; 2) pull each company's latest status, news and any open Affinity reminders; 3) draft a short outreach email for each company and fund to set up a meeting during the trip, in my voice; 4) propose a day-by-day visit plan.`;
+    h+=`<div class="railacts"><a class="minibtn prep" href="https://claude.ai/new?q=${encodeURIComponent(pr)}" target="_blank" rel="noopener">⚡ Draft trip brief in Claude</a></div>`;
+    h+=`<div class="railacts"><button id="railcopy">Copy list</button><button id="railclear">Clear</button></div>`;
+  }
   rail.innerHTML=h;
   rail.querySelectorAll('[data-unstar]').forEach(b=>b.addEventListener('click',()=>{
     const [t,...rest]=b.dataset.unstar.split('|'); shToggle(t,rest.join('|'));
@@ -1026,7 +1042,9 @@ function renderRail(){
 }
 
 // ---------- Ask Sonar: chat over the data via /api/ask ----------
-const CHAT=[], ASK={busy:false};
+let CHAT=[]; try{ CHAT=JSON.parse(sessionStorage.getItem('sonar_chat')||'[]'); }catch(e0){}
+const ASK={busy:false};
+const saveChat=()=>{ try{ sessionStorage.setItem('sonar_chat', JSON.stringify(CHAT.slice(-40))); }catch(e0){} };
 const escH=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 function mdLite(t){
   return escH(t).replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').split(/\n{2,}/).map(p=>{
@@ -1037,33 +1055,52 @@ function mdLite(t){
     flush(); return '<p>'+html+'</p>';
   }).join('');
 }
+function askActsHTML(m,i){
+  if(!m.actions||!m.actions.length) return '';
+  return `<div class="askacts">`+m.actions.map((a,j)=>a.kind==='earmark'
+    ?`<button type="button" data-act="${i}:${j}"${a.done?' disabled':''}>${a.done?'✓ Earmarked':`★ Earmark ${a.items.length} for ${escH(a.city)}`}</button>
+      <button type="button" data-actopen="${escH(a.city)}">Open trip plan →</button>`:'').join('')+`</div>`;
+}
 function renderAskLog(){
   const log=document.getElementById('asklog'); if(!log) return;
   log.hidden=!CHAT.length&&!ASK.busy;
-  log.innerHTML=CHAT.map(m=>m.role==='user'
+  log.innerHTML=CHAT.map((m,i)=>m.role==='user'
     ?`<div class="askq">${escH(m.text)}</div>`
-    :`<div class="aska${m.err?' err':''}">${mdLite(m.text)}</div>`).join('')
+    :`<div class="aska${m.err?' err':''}">${mdLite(m.text)}${askActsHTML(m,i)}</div>`).join('')
     +(ASK.busy?'<div class="aska pend">Sonar is checking your data<span class="dots"><i>.</i><i>.</i><i>.</i></span></div>':'');
   log.scrollTop=log.scrollHeight;
   const b=document.getElementById('askgo'); if(b) b.disabled=ASK.busy;
+  const cl=document.getElementById('askclear'); if(cl) cl.hidden=!CHAT.length;
+  log.querySelectorAll('[data-act]').forEach(bt=>bt.addEventListener('click',()=>{
+    const [mi,aj]=bt.dataset.act.split(':').map(Number);
+    const a=((CHAT[mi]||{}).actions||[])[aj]; if(!a||a.done) return;
+    a.items.forEach(it=>{ const t=it.type==='fund'?'fund':'co';
+      if(!shHas(t,it.name)) shToggle(t,it.name,it.note||a.city); });
+    a.done=true; saveChat(); renderAskLog();
+    toast(`${a.items.length} earmarked — open Plan a City Trip to see them`);
+  }));
+  log.querySelectorAll('[data-actopen]').forEach(bt=>bt.addEventListener('click',()=>{
+    ap.city=bt.dataset.actopen; goPage('geo',{city:bt.dataset.actopen});
+  }));
 }
 async function sendAsk(q){
   if(ASK.busy) return;
-  CHAT.push({role:'user',text:q}); ASK.busy=true; renderAskLog();
+  CHAT.push({role:'user',text:q}); saveChat(); ASK.busy=true; renderAskLog();
   const inp=document.getElementById('askin'); if(inp) inp.value='';
   let ans, err;
   try{
     const r=await fetch('/api/ask',{method:'POST',headers:{'content-type':'application/json'},
       body:JSON.stringify({who:state.person||'',messages:CHAT.filter(m=>!m.err).map(m=>({role:m.role,content:m.text}))})});
+    var jacts=null;
     const j=await r.json().catch(()=>({}));
-    if(r.ok) ans=j.answer;
+    if(r.ok){ ans=j.answer; jacts=j.actions&&j.actions.length?j.actions:null; }
     else if(j.error==='not_configured') err='Chat isn\'t live yet — add ANTHROPIC_API_KEY in the Vercel project settings and redeploy.';
     else if(r.status===401) err='Your session expired — reload the page and sign in again.';
     else if(r.status===429) err='Rate limited — give it a few seconds and try again.';
     else err='Something went wrong answering that ('+(j.detail||j.error||r.status)+'). Try again.';
   }catch(e2){ err='Couldn\'t reach the chat service — this works on the deployed site.'; }
-  CHAT.push(ans?{role:'assistant',text:ans}:{role:'assistant',text:err,err:true});
-  ASK.busy=false; renderAskLog();
+  CHAT.push(ans?{role:'assistant',text:ans,actions:jacts||undefined}:{role:'assistant',text:err,err:true});
+  saveChat(); ASK.busy=false; renderAskLog();
 }
 
 const PAGES={dash:'dashpage',cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage'};
@@ -1168,7 +1205,8 @@ function renderDash(){
     <h1>${fn?`Good to see you, ${fn}`:'Your coverage at a glance'}</h1>
     <p class="sub">Where your network is strong, where it isn't, and where to spend the week.</p></header>
     <div class="askcard">
-      <div class="dph" style="margin-bottom:10px">✦ Ask Sonar</div>
+      <div class="dph" style="margin-bottom:10px;display:flex;justify-content:space-between;align-items:center">✦ Ask Sonar
+        <button type="button" id="askclear" hidden title="Clear this conversation">↺ clear</button></div>
       <div class="asklog" id="asklog" hidden></div>
       <form class="askrow" id="askform">
         <input id="askin" placeholder="Ask about your network — paths in, intros, where to focus" autocomplete="off">
@@ -1209,6 +1247,8 @@ function renderDash(){
   if(af){
     af.addEventListener('submit',ev=>{ev.preventDefault();const v=document.getElementById('askin').value.trim();if(v)sendAsk(v);});
     w.querySelectorAll('.askchips button').forEach(b=>b.addEventListener('click',()=>sendAsk(b.dataset.q)));
+    const cl=w.querySelector('#askclear');
+    if(cl) cl.addEventListener('click',()=>{ CHAT=[]; saveChat(); renderAskLog(); });
     renderAskLog();
   }
 }
