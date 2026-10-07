@@ -167,11 +167,16 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .hmeta .psep{color:var(--hair);padding:0 7px}
 .hmeta b{color:var(--ink)}
 .hgrid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:6px 36px;margin-top:9px;align-items:start}
-.hcard .appath{font-size:14.5px;padding:3.5px 0}
+.hcard .appath{font-size:15px;padding:4px 0}
 .hcard .pathh{margin-top:2px}
 .hinfo .apdesc{font-size:13.5px;color:var(--ink2);line-height:1.65}
+.hstats{margin-top:10px;border-top:1px solid var(--hair2);padding-top:9px;display:flex;flex-direction:column;
+  gap:4px;font-size:12.5px;color:var(--ink2)}
+.hstats b{color:var(--ink)}
 .ncard .fname{font-size:17px}
-.ncard .appath{font-size:14.5px;padding:4px 0 2px}
+.ncard .appath{font-size:15px;padding:5px 0 2px}
+.ncard .nchips{display:flex;align-items:center;gap:8px;margin-top:7px}
+.ncard .nchips .chips{display:inline-flex}
 .hleft .apdesc{font-size:13px;-webkit-line-clamp:3;margin:0 0 7px;line-height:1.55}
 .hleft .biz{font-size:12.5px}
 .pathh{font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
@@ -1380,24 +1385,25 @@ function apHtc(){
     const m=c.meta||{};
     const since=d=>{ if(!d) return null; const mo=Math.round((Date.now()-new Date(d))/26298e5);
       return mo<1?'this month':mo+' mo'; };
-    const metaBits=[c.city||c.country,
-      (c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null,
-      m.last_email?`last email ${fmtD(m.last_email)}`:null,
-      m.last_meet?`met ${fmtD(m.last_meet)}`:null,
-      !m.last_email&&!m.last_meet&&m.last_touch?`last touch ${fmtD(m.last_touch)}`:null,
-      m.status_since?`H2C for ${since(m.status_since)}`:null,
-      ...bizBits(pr0)].filter(Boolean);
-    const metaLine=metaBits.join('<span class="psep">|</span>');
+    const statRows=[hcBit(pr0),
+      [pr0.fu?fmtMoney(pr0.fu)+' raised':null, pr0.st?String(pr0.st).replaceAll('_',' ').toLowerCase():null,
+       pr0.f?'founded '+pr0.f:null].filter(Boolean).join(' · ')||null,
+      c.city||c.country,
+      [(c.owners||[]).length?'owner: '+c.owners.map(o=>o.split(' ')[0]).join(', '):null,
+       m.last_email?`last email ${fmtD(m.last_email)}`:null,
+       m.last_meet?`met ${fmtD(m.last_meet)}`:null,
+       m.status_since?`H2C for ${since(m.status_since)}`:null].filter(Boolean).join(' · ')||null
+     ].filter(Boolean);
     return `<div class="apcard hcard"><div class="aph2"><div class="fname">${starBtn('co',c.name,c.city||c.country||'')}${c.domain?`<a href="https://${c.domain}" target="_blank" rel="noopener">${c.name}</a>`:c.name}</div>
       <div class="apstats">${bub(ufV, ufTierOf(ufV), 'unframe')}${bub(eV||null, easeTierOf(eV), 'ease of access')}</div></div>
-      <div class="apmeta hmeta">${metaLine}</div>
-      <div class="hgrid"><div class="hleft"><div class="pathh">Paths in</div>
+      <div class="hgrid"><div class="hleft"><div class="pathh">Who can get you in</div>
         ${paths||'<div class="appath" style="color:var(--muted)">no warm path via any backer yet</div>'}
       </div><div class="hright hinfo">
         ${(pr0.d)?`<div class="apdesc">${pr0.d}</div>`:'<div class="apdesc" style="color:var(--muted)">No company profile yet.</div>'}
+        <div class="hstats">${statRows.map(x=>`<div>${x}</div>`).join('')}</div>
       </div></div>${acts}</div>`;
   }).join('');
-  return `<div class="aphint">${list.length} hard-to-crack compan${list.length>1?'ies':'y'}${who?` owned by ${who.split(' ')[0]}`:''}, ranked by ${ap.hsort==='ease'?'ease of access':'Unframe priority'}${list.length>60?' (showing top 60)':''} — your full Affinity hard-to-crack book, every backer matched against the 111 tracked funds. Warm paths include backers outside our lists wherever Highland holds Affinity ties to them.</div>`+cards;
+  return cards;
 }
 
 function keepWarm(who){
@@ -1421,6 +1427,7 @@ function netAskBody(who,e,p){
   return `Hey ${p.internal.split(' ')[0]} — I'm trying to build my own line into ${e.name} and you hold our strongest path (${p.external}${p.pct!=null?`, ${p.pct}%`:''}). Could you intro me or bring me along next time? Thanks! — ${wf}`;
 }
 function apNet(){
+  const relT=v=>v>=70?'strong':v>=55?'medium':'low';
   const who=ap.who;
   if(!who) return `<div class="aphint">Pick who you are above — this view is personal by design.</div>`;
   const funds=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]);
@@ -1430,12 +1437,17 @@ function apNet(){
   const bCards=borrow.map(({r,e})=>{
     const p=e.points[0];
     const ev=evidence(p);
-    const t0=e.uf&&(e.uf.top||[])[0];
-    const metaLine=[`relevance ${e.relevance?.total??'—'}`, `team ${e.connectivity}, you ${personCov(e,who)}`,
-      e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}${t0?` — top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:''}`:(t0?`top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:null),
+    const t0=e.uf&&(e.uf.top||[])[0], you=personCov(e,who);
+    const metaLine=[e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}${t0?` — top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:''}`:(t0?`top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:null),
       (e.coinvest||[]).length?`co-invested ×${e.coinvest.length}`:null].filter(Boolean).join('<span class="psep">|</span>');
-    return `<div class="apcard ncard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
-      <div class="apmeta hmeta">${metaLine}</div>
+    const pipeChips=BUCKETS.map(([k,label])=>{
+      const n=e.buckets[k].filter(x=>(x.own||[]).includes(who)).length;
+      return n?`<span class="chip ${k}"><b>${n}</b> ${label}</span>`:'';
+    }).join('');
+    return `<div class="apcard ncard"><div class="aph2"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
+      <div class="apstats">${bub(e.relevance?.total??null, relT(e.relevance?.total||0), 'relevance')}${bub(you, easeTierOf(you), `you · team ${e.connectivity}`)}</div></div>
+      ${metaLine?`<div class="apmeta hmeta">${metaLine}</div>`:''}
+      ${pipeChips?`<div class="apmeta nchips"><span class="cc">Your pipeline with them:</span> <span class="chips">${pipeChips}</span></div>`:''}
       <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}${everTag(p)}</div>
       <div class="apacts">
         <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
