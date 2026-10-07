@@ -48,5 +48,5 @@
  ],
  "relationships": [],
  "notes": "Ambiguity guard (marked) trivially satisfied: keyword B (7) identical to strict-filter A (7), so every entry passed the exact 'Voima Ventures' investor filter. No relationships in Affinity; dormant check on voimaventures.com returned no last-contact or first-email data (never contacted / no logged interactions).",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

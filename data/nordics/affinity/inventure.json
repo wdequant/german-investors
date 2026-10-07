@@ -339,5 +339,5 @@
   }
  ],
  "notes": "Query A totalCount 44; Query B keyword totalCount 62. Of the 18 keyword-only extras, 6 genuine Inventure (Nordic fund) variants kept (Samphire Neuroscience, Reveel, ReOrbit, Algorithmiq, Zaver, Jobbatical - values Inventure VC / inventure / Inventure Vc); 12 dropped as other funds: Inventures Collective (Edgeless Systems, CitizenLab, OncoDNA, Cognigy, APROPLAN), InVenture/Inventure Partners (refurbed, MILES, CHRONEXT, Ometria), InVentures/INventures/Inventures (Monite, edrone, VirtuOz). Union = 50.",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

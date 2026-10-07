@@ -182,5 +182,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on investor aliases Demeter/Demeter Partners/Demeter IM (prefix, case/punct-insensitive) against _list-entries.json. Affinity company Demeter (demeter-im.com). Relationships are Demeter IM team members; internal exclusions applied. Fund last-contact 2024-06-28 (Digital Equity Club meeting incl. Tony Zappala).",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

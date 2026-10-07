@@ -649,5 +649,5 @@
   }
  ],
  "notes": "Pipeline: 94 list entries, 93 unique companies (Polar Analytics appeared twice; kept highest funnel rank 'Passed'). Company resolution: multiple Point Nine records exist in Affinity; picked id 1573962 (pointnine.com), which carries the team's relationship data.",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

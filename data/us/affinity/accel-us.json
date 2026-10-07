@@ -4,6 +4,14 @@
  "pipeline": [],
  "relationships": [
   {
+   "internal": "Jacob Bernstein",
+   "external": "Rich Kotite",
+   "externalEmail": "rkotite@accel.com",
+   "score": 1.0,
+   "last": "2026-09-15",
+   "meet": "2026-06-09"
+  },
+  {
    "internal": "Lucinda Maxwell",
    "external": "Alex Reinert",
    "externalEmail": "areinert@accel.com",
@@ -34,14 +42,6 @@
    "score": 1.0,
    "last": "2026-05-12",
    "meet": "2026-05-12"
-  },
-  {
-   "internal": "Jacob Bernstein",
-   "external": "Richard Kotite",
-   "externalEmail": "rkotite@accel.com",
-   "score": 1.0,
-   "last": "2026-06-09",
-   "meet": "2026-06-09"
   },
   {
    "internal": "Jacob Bernstein",
@@ -324,5 +324,5 @@
    "meet": "2023-11-29"
   }
  ],
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

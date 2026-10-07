@@ -686,9 +686,17 @@
    "score": 0.1,
    "last": "2026-09-24",
    "meet": "2026-09-24"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Maria Tahri",
+   "externalEmail": "maria@alven.co",
+   "score": 0.1,
+   "last": "2026-10-06",
+   "meet": null
   }
  ],
  "dormant": null,
  "notes": "Company 1517871 (alven.co); stale duplicate 224645580 (alvencapital.com) exists. Top 10 of 20+ kept (dropped 1 Emily Tan row). Pipeline matched 'Alven Capital' (67), 'Alven' (1), 'Alven And Daphni'/'Alven And Racine' (2), and 'Alven Magazine' (2 - Typology, Qover; both genuine Alven portfolio, string is a data artifact).",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

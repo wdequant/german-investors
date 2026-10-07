@@ -133,5 +133,5 @@
   "context": "Harry Williams emailed Egil Edvardsen (egil.edvardsen@almiinvest.se) re 'Alma <> Highland Europe'; thread ran Nov 2021 to Jan 2022, nothing since."
  },
  "notes": "Per-row rule applied: kept only entries with an investor value containing 'almi invest' (incl. 'Almi Invest Greentech') — all 20 keyword matches qualified. Affinity org 263510079 'Almi Företagspartner' (almi.se + almiinvest.se) used; a separate sparse 'Almi Invest' record (alminvest.com, id 291891604) exists with no relationships.",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

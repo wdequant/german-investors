@@ -72,16 +72,16 @@
    "external": "Zabie Elmgren",
    "externalEmail": "zelmgren@a16z.com",
    "score": 0.83,
-   "last": "2026-09-29",
-   "meet": null
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
   },
   {
    "internal": "Helena Richardson",
    "external": "Zabie Elmgren",
    "externalEmail": "zelmgren@a16z.com",
    "score": 0.73,
-   "last": "2026-09-29",
-   "meet": null
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
   },
   {
    "internal": "Gajan Rajanathan",
@@ -220,5 +220,5 @@
    "meet": null
   }
  ],
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

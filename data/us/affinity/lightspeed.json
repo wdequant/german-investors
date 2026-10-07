@@ -4,6 +4,14 @@
  "pipeline": [],
  "relationships": [
   {
+   "internal": "Jacob Bernstein",
+   "external": "Will Wells",
+   "externalEmail": "wwells@lsvp.com",
+   "score": 0.97,
+   "last": "2026-09-15",
+   "meet": "2025-10-06"
+  },
+  {
    "internal": "William De Quant",
    "external": "Ifet Lawrence",
    "externalEmail": "ifet@lsvp.com",
@@ -149,19 +157,19 @@
   },
   {
    "internal": "Harry Williams",
+   "external": "Paul Murphy",
+   "externalEmail": "pmurphy@lsvp.com",
+   "score": 0.1,
+   "last": "2026-09-28",
+   "meet": "2020-01-16"
+  },
+  {
+   "internal": "Harry Williams",
    "external": "Rytis Vitkauskas",
    "externalEmail": "rytis@lsvp.com",
    "score": 0.1,
    "last": "2026-06-18",
    "meet": "2022-10-25"
-  },
-  {
-   "internal": "Harry Williams",
-   "external": "Paul Murphy",
-   "externalEmail": "pmurphy@lsvp.com",
-   "score": 0.1,
-   "last": "2026-03-16",
-   "meet": "2020-01-16"
   },
   {
    "internal": "Fergal Mullen",
@@ -180,5 +188,5 @@
    "meet": null
   }
  ],
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

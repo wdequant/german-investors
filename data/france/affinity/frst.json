@@ -193,11 +193,19 @@
    "external": "Bruno Raillard",
    "externalEmail": "bruno@frst.vc",
    "score": 0.83,
-   "last": "2026-07-15",
+   "last": "2026-10-06",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Bruno Raillard",
+   "externalEmail": "bruno@frst.vc",
+   "score": 0.73,
+   "last": "2026-10-06",
    "meet": "2026-07-15"
   }
  ],
  "dormant": null,
  "notes": "Pipeline matched on alias Frst/FRST (incl. 'Frst Capital', 'Frst VC'). Affinity company Frst (frst.vc). Only 2 relationships exist, both kept (Aude Flecchia x Samuel Fitoussi, Harry Williams x Bruno Raillard). Live: last contact 2026-07-15 meeting Harry Williams x Bruno Raillard.",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

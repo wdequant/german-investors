@@ -109,5 +109,5 @@
   "context": "Affinity company record exists (Financiere Saint James, finsj.com) but carries no interaction history at all: first/last email, events and last-contact are all empty and no team relationships are recorded."
  },
  "notes": "Pipeline matched on aliases Financière/Financiere Saint James and Saint James (prefix). Affinity company Financiere Saint James (finsj.com) found via semantic search only; record is a bare shell with no interaction history, hence dormant with no internal owner or date.",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

@@ -24,7 +24,7 @@
    "external": "Rachel Geller",
    "externalEmail": "rgeller@insightpartners.com",
    "score": 1.0,
-   "last": "2026-09-16",
+   "last": "2026-10-06",
    "meet": "2026-09-16"
   },
   {
@@ -204,20 +204,20 @@
    "meet": "2026-07-16"
   },
   {
+   "internal": "Harry Williams",
+   "external": "Rachel Geller",
+   "externalEmail": "rgeller@insightpartners.com",
+   "score": 0.53,
+   "last": "2026-10-06",
+   "meet": "2026-09-16"
+  },
+  {
    "internal": "Sam Brooks",
    "external": "Arthur Paleologos",
    "externalEmail": "apaleologos@insightpartners.com",
    "score": 1.0,
    "last": "2025-09-29",
    "meet": "2025-09-17"
-  },
-  {
-   "internal": "Harry Williams",
-   "external": "Rachel Geller",
-   "externalEmail": "rgeller@insightpartners.com",
-   "score": 0.5,
-   "last": "2026-09-16",
-   "meet": "2026-09-16"
   },
   {
    "internal": "Sam Brooks",
@@ -320,9 +320,9 @@
    "external": "Rachel Geller",
    "externalEmail": "rgeller@insightpartners.com",
    "score": 0.38,
-   "last": "2026-09-16",
+   "last": "2026-10-06",
    "meet": "2026-09-16"
   }
  ],
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

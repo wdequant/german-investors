@@ -297,7 +297,7 @@
    "external": "Paul Moriou",
    "externalEmail": "paul@serena.vc",
    "score": 1.0,
-   "last": "2026-09-23",
+   "last": "2026-10-06",
    "meet": "2026-06-12"
   },
   {
@@ -305,7 +305,7 @@
    "external": "Paul Moriou",
    "externalEmail": "paul@serena.vc",
    "score": 1.0,
-   "last": "2026-09-23",
+   "last": "2026-10-06",
    "meet": "2026-06-12"
   },
   {
@@ -409,7 +409,7 @@
    "external": "Paul Moriou",
    "externalEmail": "paul@serena.vc",
    "score": 0.4,
-   "last": "2026-09-23",
+   "last": "2026-10-06",
    "meet": "2026-06-12"
   },
   {
@@ -567,5 +567,5 @@
  ],
  "dormant": null,
  "notes": "Company 1534996 (serena.vc + serenacapital.com); stray duplicate 291898907. Top 10 of 15 kept. Pipeline: kept 'Serena Capital' (25), 'Serena Data Ventures' (2), 'Serena Vc' (1) and bare 'Serena' on non-US companies plus known French-Serena US-tagged portfolio (Dataiku, Odaseva, Implicity, DeepIP); excluded 'Serena Williams', 'Serena Ventures' (US fund) and bare 'Serena' on Bestmile (US-tagged, unverified).",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }

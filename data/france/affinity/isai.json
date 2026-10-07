@@ -385,6 +385,14 @@
    "meet": "2026-09-08"
   },
   {
+   "internal": "Helena Richardson",
+   "external": "William Vermont",
+   "externalEmail": "william@isai.fr",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-02-27"
+  },
+  {
    "internal": "Stan Laurent",
    "external": "Christophe Raynaud",
    "externalEmail": "raynaud@isai.fr",
@@ -407,14 +415,6 @@
    "score": 0.94,
    "last": "2026-06-09",
    "meet": "2026-06-09"
-  },
-  {
-   "internal": "Helena Richardson",
-   "external": "William Vermont",
-   "externalEmail": "william@isai.fr",
-   "score": 1.0,
-   "last": "2026-04-01",
-   "meet": "2026-02-27"
   },
   {
    "internal": "Stan Laurent",
@@ -461,7 +461,7 @@
    "external": "William Vermont",
    "externalEmail": "william@isai.fr",
    "score": 0.1,
-   "last": "2026-04-01",
+   "last": "2026-10-07",
    "meet": "2026-02-27"
   },
   {
@@ -475,5 +475,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on aliases ISAI/Isai Gestion (incl. ISAI Expansion/Build/Cap Venture fund names). Affinity company Isai (isai.fr). Top 10 of 12 relationships kept; Christophe Raynaud tracked on a personal gmail. Live: last contact 2026-08-07 (Eoghan Dorman email to Jean-Patrice Anciaux).",
- "rels_fetched": "2026-10-06"
+ "rels_fetched": "2026-10-07"
 }
