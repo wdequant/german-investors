@@ -1,0 +1,6986 @@
+{
+ "cornelius menke": {
+  "city": null,
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": null
+ },
+ "alexandre berriche": {
+  "city": "Paris",
+  "metro": "Paris",
+  "company": "Sequoia Capital",
+  "title": "Scout Investor"
+ },
+ "chrissy cope": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Talent Principal, Early Stage - Europe"
+ },
+ "carrie macasaet": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Talent Consultant - Coordinator"
+ },
+ "david perry": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Sequoia Capital Builder"
+ },
+ "anas biad": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "david a.": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Scout Investor"
+ },
+ "assaf elovic": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Sequoia Capital",
+  "title": "Scout"
+ },
+ "ollie george": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Director, Executive Talent"
+ },
+ "luciana lixandru": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "austin morales": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Talent"
+ },
+ "george robson": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "cole pergament": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "haim sadger": {
+  "city": "Israel",
+  "metro": "Israel",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "joanne foster": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": null
+ },
+ "madeleine conway": {
+  "city": "St Albans",
+  "metro": "St Albans",
+  "company": "Sequoia Capital",
+  "title": "Executive Assistant"
+ },
+ "liam corrigan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "zoe jervier hewitt": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Advisor"
+ },
+ "david de picciotto": {
+  "city": null,
+  "metro": "LON",
+  "company": "Sequoia Capital",
+  "title": "Scout"
+ },
+ "stephen chau": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Sequoia Capital Scout"
+ },
+ "natalie miyake": {
+  "city": "San Carlos",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Partner, Marketing"
+ },
+ "valerie sarnataro": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Senior Director of Communications"
+ },
+ "pamon forouhar": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Head of Business Operations, Bio + Health"
+ },
+ "nadia rybalskaya": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner, Investor Relations and Fundraising"
+ },
+ "frank chen": {
+  "city": "Belmont",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "justin bethune": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Talent Partner, Growth"
+ },
+ "samantha gelt": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Andreessen Horowitz",
+  "title": "Operations Partner"
+ },
+ "zabie elmgren": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "madeline lawrence": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Growth Engineering Fellow"
+ },
+ "gabriel vasquez": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Andreessen Horowitz",
+  "title": "Investment Partner"
+ },
+ "peter blackwood": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": null
+ },
+ "david george": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "General Partner"
+ },
+ "angela strange": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "General Partner"
+ },
+ "adi agrawal": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Andreessen Horowitz",
+  "title": "Venture Scout"
+ },
+ "mohamed mohamed": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Scout Investor"
+ },
+ "dima shvets": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Scout"
+ },
+ "parin shah": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Andreessen Horowitz",
+  "title": "\\scout\\\"\""
+ },
+ "olivia moore": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "marcus krylborn": {
+  "city": "Copenhagen",
+  "metro": "Copenhagen",
+  "company": "Andreessen Horowitz",
+  "title": "Scout & Angel Investor"
+ },
+ "michelangelo pagliara": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Andreessen Horowitz",
+  "title": "Angel Investor"
+ },
+ "jason franklin": {
+  "city": "San Francisco Bay Area",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Limited Partner"
+ },
+ "joe schmidt iv": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "zane lackey": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Andreessen Horowitz",
+  "title": "General Partner"
+ },
+ "stephenie zhang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Investment Partner"
+ },
+ "sarah wang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "General Partner"
+ },
+ "alexey moiseenkov": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Scout"
+ },
+ "melanie galang": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Andreessen Horowitz",
+  "title": "Marketing Partner"
+ },
+ "brittney le roy": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Andreessen Horowitz",
+  "title": "Marketing & Communications Partner"
+ },
+ "susan hager": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Andreessen Horowitz",
+  "title": "Member"
+ },
+ "tracye redding": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Andreessen Horowitz",
+  "title": "Executive Assistant Project Manager"
+ },
+ "bryan kim": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "bas van den brande": {
+  "city": "Amsterdam",
+  "metro": "Amsterdam",
+  "company": "Andreessen Horowitz",
+  "title": "Scout"
+ },
+ "yoav vilner": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Andreessen Horowitz",
+  "title": "Scout"
+ },
+ "james da costa": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Investing Partner"
+ },
+ "yasmin shiller": {
+  "city": "Burlingame",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Member"
+ },
+ "pedro velasco": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Lightspeed Venture Partners",
+  "title": "Head of Investment Operations (Europe)"
+ },
+ "gaurav gupta": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "rytis vitkauskas": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Lightspeed Venture Partners",
+  "title": "General Partner"
+ },
+ "timothy k.": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Lightspeed Venture Partners",
+  "title": "Advisor, Blockchain"
+ },
+ "dana mizrahi": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Lightspeed Venture Partners",
+  "title": "Office Manager"
+ },
+ "yoni cheifetz": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "adrian nicholas radu": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "mahau ma": {
+  "city": "San Diego",
+  "metro": "San Diego",
+  "company": "Lightspeed Venture Partners",
+  "title": "Operating Partner"
+ },
+ "julie kainz": {
+  "city": "Dubai",
+  "metro": "Dubai",
+  "company": "Lightspeed Venture Partners",
+  "title": "Corp Dev"
+ },
+ "sam wholley": {
+  "city": null,
+  "metro": "United States",
+  "company": "Lightspeed Venture Partners",
+  "title": "Operating Partner"
+ },
+ "manuel gonzalez": {
+  "city": null,
+  "metro": "United States",
+  "company": "Lightspeed Venture Partners",
+  "title": "Consultant"
+ },
+ "andrew moley": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Operating Partner/Chief Financial Officer"
+ },
+ "alex taussig": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Board Partner"
+ },
+ "tal morgenstern": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "brian k.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "taylor parker": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Senior Director, Business Development"
+ },
+ "fatima vali": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lightspeed Venture Partners",
+  "title": "Office Manager/Executive Assistant to Partner"
+ },
+ "sebastian duesterhoeft": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "anoushka vaswani": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "nakul mandan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Venture Partner"
+ },
+ "alexander schmitt": {
+  "city": "Berlin",
+  "metro": "Berlin",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "rachel grill": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Vice President of Marketing and Head of Global Communications"
+ },
+ "jonathan sousa": {
+  "city": null,
+  "metro": "Portugal",
+  "company": "Lightspeed Venture Partners",
+  "title": "Managing Partner"
+ },
+ "ifet lawrence": {
+  "city": "Chelmsford",
+  "metro": "Chelmsford",
+  "company": "Lightspeed Venture Partners",
+  "title": "Executive Assistant"
+ },
+ "david gussarsky": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "raviraj jain": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "paul murphy": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "cecilia z.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Investor"
+ },
+ "matthew garrett": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Finance Manager"
+ },
+ "alex mackenzie": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Investor"
+ },
+ "sarah martin": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Events Specialist, Marketing (Europe)"
+ },
+ "adam valkin": {
+  "city": "Newton",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Partner at Vine Ventures"
+ },
+ "nicole bodinnar": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Executive Assistant & Office Coordinator"
+ },
+ "ashley paston": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Partner"
+ },
+ "samantha van gent": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Global Portfolio Communications Lead"
+ },
+ "ripley hartmeyer": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Vice President, Portfolio Talent (AI, Enterprise, Fintech, Consumer, International)"
+ },
+ "arielle gross samuels": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Chief Marketing and Communications Officer"
+ },
+ "amanda lennon": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Executive Assistant"
+ },
+ "mark crane": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Partner"
+ },
+ "neeraj arora": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Managing Director"
+ },
+ "paula hübner wehmeyer": {
+  "city": "Brooklyn",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Partner"
+ },
+ "liv parry": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Director of Executive Talent, Europe"
+ },
+ "sophia jaenecke": {
+  "city": "Munich",
+  "metro": "Munich",
+  "company": "General Catalyst",
+  "title": null
+ },
+ "addie lerner": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Founder & Managing Partner"
+ },
+ "drew gordon": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Vice President"
+ },
+ "juliet bailin": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Venture Partner"
+ },
+ "chris bischoff": {
+  "city": null,
+  "metro": "United States",
+  "company": "General Catalyst",
+  "title": "Managing Director & COO of GC Capital (GC Funds)"
+ },
+ "tyler olkowski": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Principal"
+ },
+ "simone batille": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Business Development Specialist"
+ },
+ "sonam khare": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Partner"
+ },
+ "garrett haddad": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Partner, Strategic Capital"
+ },
+ "kristen camarota": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "VC"
+ },
+ "pranav singhvi": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Managing Director"
+ },
+ "larry bohn": {
+  "city": "Arlington",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Managing Director at General Catalyst Partners"
+ },
+ "reva nohria": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Partner"
+ },
+ "matt brennan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "Co-founder and General Partner"
+ },
+ "alexandre momeni": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Partner"
+ },
+ "adit swarup": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Partner, CVF"
+ },
+ "trevor oelschig": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Seed Investor"
+ },
+ "hemant taneja": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "CEO"
+ },
+ "alex tran": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Managing Director"
+ },
+ "joel cutler": {
+  "city": "Cambridge",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Managing Director"
+ },
+ "carolin kubanke": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Chief of Staff"
+ },
+ "hyde patterson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Early stage"
+ },
+ "samuel beyer": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Catalyst",
+  "title": "Investor"
+ },
+ "dana eliaz": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Accel",
+  "title": "Vice President"
+ },
+ "cecilia wang": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "tim rawlinson": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "alexandra reinert": {
+  "city": null,
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "andrei brasoveanu": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "harry nelis": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "sonali de rycker": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "nate niparko": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "charlie serota": {
+  "city": "Chicago",
+  "metro": "Chicago",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "laura grimmelmann": {
+  "city": null,
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Co-Founder"
+ },
+ "ronié williams": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Senior Executive Assistant and London Office Manager"
+ },
+ "ulrika werdelin": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Managing Director, Talent, Europe"
+ },
+ "terhi veijalainen": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Executive Assistant"
+ },
+ "pia d'iribarne": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Founder & Managing Partner"
+ },
+ "paula judge": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Advisor"
+ },
+ "alexandra cody harty": {
+  "city": "Charleston",
+  "metro": "Charleston",
+  "company": "Accel",
+  "title": "Founder & Principal"
+ },
+ "arun mathew": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "raphaël vullierme": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "kelly kung": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "layla powell": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Executive Assistant"
+ },
+ "robert sternberg": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Director"
+ },
+ "varun purandare": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "henry jefferies": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Accel",
+  "title": "Co-Founder"
+ },
+ "jonathan turner": {
+  "city": null,
+  "metro": "United States",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "richard kotite": {
+  "city": null,
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "carlo b.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "bilal mobarik": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "jenny gyllander": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Angel investor"
+ },
+ "zhenya loginov": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "peter clarke": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Forward Deployed Talent Density Engineer"
+ },
+ "matt park": {
+  "city": "Seattle",
+  "metro": "Seattle",
+  "company": "Accel",
+  "title": "Venture Partner"
+ },
+ "georgia hardcastle": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "A3C"
+ },
+ "will sheldon": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Investor"
+ },
+ "luca bocchio": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "General Partner"
+ },
+ "katie kruyff": {
+  "city": null,
+  "metro": "LON",
+  "company": "Accel",
+  "title": null
+ },
+ "sophie denny": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Executive Assistant"
+ },
+ "julien bek": {
+  "city": null,
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Board Member"
+ },
+ "vas natarajan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Venture"
+ },
+ "jess segal": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Global IR Partner"
+ },
+ "salman kothari": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Executive in Residence"
+ },
+ "jack p. h.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Associate / Intern"
+ },
+ "luca ascani": {
+  "city": null,
+  "metro": "Italy",
+  "company": "Accel",
+  "title": "Starter"
+ },
+ "andrew braccia": {
+  "city": "Burlingame",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "lucy wimmer": {
+  "city": null,
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Senior Vice President Marketing"
+ },
+ "breanna c.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Executive Assistant"
+ },
+ "rich wong": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "General Partner"
+ },
+ "philippe botteri": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "anand daniel": {
+  "city": "Bangalore",
+  "metro": "Bangalore",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "karen besserman": {
+  "city": "Seattle",
+  "metro": "Seattle",
+  "company": "Bessemer Venture Partners",
+  "title": "Executive Director"
+ },
+ "rita goldman": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Bessemer Venture Partners",
+  "title": "Sr. Executive Assistant"
+ },
+ "justina chung": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Bessemer Venture Partners",
+  "title": "Vice President"
+ },
+ "alec mcniff": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Senior Manager, Operations, Solutions"
+ },
+ "hannah kim": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Vice President"
+ },
+ "melissa bezruchko": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Sr. Manager, Community & Platform"
+ },
+ "kiran a.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Platform"
+ },
+ "amy w.": {
+  "city": null,
+  "metro": "United States",
+  "company": "Bessemer Venture Partners",
+  "title": "VP Global Talent"
+ },
+ "alexandra sukin": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Investor"
+ },
+ "michael droesch": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "rob stavis": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "yael schiff": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Bessemer Venture Partners",
+  "title": "Vice President"
+ },
+ "michelle c.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Bessemer Venture Partners",
+  "title": "European Talent & Network"
+ },
+ "brian feinstein": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "alex ferrara": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "adam fisher": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "megan ananian": {
+  "city": "Brooklyn",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Director of Business Development"
+ },
+ "roei haviv": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Bessemer Venture Partners",
+  "title": "Investor"
+ },
+ "valentin menedetter": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Bessemer Venture Partners",
+  "title": "Operating Partner"
+ },
+ "hannah waldman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Counsel"
+ },
+ "lindsay mcneil": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner, Deputy General Counsel"
+ },
+ "aditya nidmarti": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Co-Founder & Executive Chair"
+ },
+ "rob soni": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bessemer Venture Partners",
+  "title": "Managing Partner/LP"
+ },
+ "byron deeter": {
+  "city": "Atherton",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "dhruv jain": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Bessemer Venture Partners",
+  "title": "Founder"
+ },
+ "kent bennett": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "steve kraus": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "caty rea": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Vice President"
+ },
+ "amie rubenstein": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Vice President of Communications"
+ },
+ "carolina küng": {
+  "city": null,
+  "metro": "United States",
+  "company": "Bessemer Venture Partners",
+  "title": "VP Platform & Community"
+ },
+ "christine deakers": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Global Head of Content"
+ },
+ "nikki horn": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "VP of Events"
+ },
+ "amit karp": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner"
+ },
+ "andrew schmitt": {
+  "city": null,
+  "metro": "United States",
+  "company": "Bessemer Venture Partners",
+  "title": "Principal"
+ },
+ "navid oreizy": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner, BVP Forge"
+ },
+ "katie holmes": {
+  "city": "Dublin",
+  "metro": "Dublin",
+  "company": "Bessemer Venture Partners",
+  "title": "Sales Administrator"
+ },
+ "emmanuel cassimatis": {
+  "city": null,
+  "metro": "France",
+  "company": "Bessemer Venture Partners",
+  "title": "Venture Partner (scout, select areas)"
+ },
+ "naama schlamm": {
+  "city": "Israel",
+  "metro": "Israel",
+  "company": "Bessemer Venture Partners",
+  "title": null
+ },
+ "bastian hasslinger": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "emil schaefer": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "hannah seal": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "sofia dolfe": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "georgia stevenson": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "molly alter": {
+  "city": "Brooklyn",
+  "metro": "NYC",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "jimena nowack": {
+  "city": null,
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "aimee keegan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": null
+ },
+ "andré dubois": {
+  "city": "Geneva",
+  "metro": "Geneva",
+  "company": "Index Ventures",
+  "title": "General Counsel"
+ },
+ "gloria baeuerlein": {
+  "city": "Berlin",
+  "metro": "Berlin",
+  "company": "Index Ventures",
+  "title": "Founding Partner"
+ },
+ "luke buhl-nielsen": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Co-Founder"
+ },
+ "jan hammer": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "shardul shah": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "joe abbott": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Vice President, Talent"
+ },
+ "jacob jofe": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "Board Observer"
+ },
+ "dominic jacquesson mbe": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Angel Investor"
+ },
+ "vojtech horna": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Founding team"
+ },
+ "ana andreescu": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "VP, Marketing and Comms"
+ },
+ "isaiah baril-dore": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "VP - Strategist"
+ },
+ "julia andre": {
+  "city": null,
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "eliza brabyn": {
+  "city": "Brisbane",
+  "metro": "Brisbane",
+  "company": "Index Ventures",
+  "title": "Executive Assistant"
+ },
+ "neil rimer": {
+  "city": "Geneva",
+  "metro": "Geneva",
+  "company": "Index Ventures",
+  "title": "General Partner, Founder"
+ },
+ "arden hoffman": {
+  "city": "Detroit",
+  "metro": "Detroit",
+  "company": "Index Ventures",
+  "title": "Talent Advisor"
+ },
+ "arden h.": {
+  "city": "Detroit",
+  "metro": "Detroit",
+  "company": "Index Ventures",
+  "title": "Non Executive Board Member"
+ },
+ "natacha pantet": {
+  "city": "Geneva",
+  "metro": "Geneva",
+  "company": "Index Ventures",
+  "title": "Executive Assistant"
+ },
+ "ari helgason": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner, co-founder"
+ },
+ "danny rimer": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "martin mignot": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "dominique vidal": {
+  "city": "Lausanne",
+  "metro": "Lausanne",
+  "company": "Index Ventures",
+  "title": "Business angel"
+ },
+ "‍julian levy": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Executive In Residence"
+ },
+ "kelly barton": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "carlos gonzalez-cadenas": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Chief Operating Officer (COO)"
+ },
+ "giuseppe zocco": {
+  "city": "Geneva",
+  "metro": "Geneva",
+  "company": "Index Ventures",
+  "title": "Co-Founder"
+ },
+ "mike volpi": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "Retired Partner"
+ },
+ "benjamin o'hanlon": {
+  "city": "Geneva",
+  "metro": "Geneva",
+  "company": "Index Ventures",
+  "title": "Finance Manager"
+ },
+ "sally appleton": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Consultant"
+ },
+ "aude jaccard": {
+  "city": "Geneva",
+  "metro": "Geneva",
+  "company": "Index Ventures",
+  "title": "Office Manager"
+ },
+ "sophia amoruso": {
+  "city": "England",
+  "metro": "England",
+  "company": "Index Ventures",
+  "title": "Limited Partner"
+ },
+ "alex bangash": {
+  "city": null,
+  "metro": "United States",
+  "company": "Index Ventures",
+  "title": "Advisor"
+ },
+ "shirlie hemmings-portas": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Accounts"
+ },
+ "phil balderson": {
+  "city": "St. Helier, St. Helier",
+  "metro": "St. Helier, St. Helier",
+  "company": "Index Ventures",
+  "title": "Director"
+ },
+ "taylor gunn": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Index Ventures",
+  "title": "Executive Assistant"
+ },
+ "paula garcia domingo": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Chief of Staff"
+ },
+ "guzman d.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": null
+ },
+ "adrianna ma": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Operating Partner"
+ },
+ "joseph stolerman": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "VP, Europe Legal (Investments)"
+ },
+ "stephane kurgan": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Venture Partner"
+ },
+ "eryk dobrushkin": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "alice higdon": {
+  "city": null,
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Executive Assistant"
+ },
+ "simon pastor": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "khalehla n.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "VP Community & Events"
+ },
+ "adrian grenier": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Founders Fund",
+  "title": "Limited Partner"
+ },
+ "neil ruthven": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Chief Financial Officer"
+ },
+ "john luttig": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Partner"
+ },
+ "abraham lópez": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Founders Fund",
+  "title": "Limited Partner"
+ },
+ "matias van thienen": {
+  "city": "Miami",
+  "metro": "Miami",
+  "company": "Founders Fund",
+  "title": "Partner"
+ },
+ "david weiden": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Founding Partner & Managing Director"
+ },
+ "maddy gaiman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Khosla Ventures",
+  "title": "Director of Business Development"
+ },
+ "brett browman": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Board Member"
+ },
+ "ryan scott": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Khosla Ventures",
+  "title": "Board Member"
+ },
+ "alexander a. morgan, md phd": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Partner"
+ },
+ "kara hamblen": {
+  "city": "San Clemente",
+  "metro": "San Clemente",
+  "company": "Khosla Ventures",
+  "title": "Executive Assistant"
+ },
+ "chloé kong": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Executive Assistant"
+ },
+ "lauren (schultz) potter": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Kleiner Perkins",
+  "title": "Operating Partner"
+ },
+ "ryan panchadsaram": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Advisor to the Chairman"
+ },
+ "josh coyne": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Partner"
+ },
+ "astasia myers": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Senior Venture Partner"
+ },
+ "jake storm": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "General Partner"
+ },
+ "zoe siegel": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Talent"
+ },
+ "sundeep peechu": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Managing Partner"
+ },
+ "emily baine": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Member"
+ },
+ "shanna hendriks": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Director, Portfolio Services - Business Development"
+ },
+ "luke pappas": {
+  "city": "London",
+  "metro": "LON",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Partner"
+ },
+ "philip chopin": {
+  "city": "London",
+  "metro": "LON",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Investor"
+ },
+ "tiffany le": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Principal"
+ },
+ "darcy casarella": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Member"
+ },
+ "brooke seawell": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Board of Directors / Audit Committee Chair"
+ },
+ "aaron jacobson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Investor"
+ },
+ "rick yang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Partner, Head of Technology"
+ },
+ "erica sunkin mclaughlin": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Director, Communications & Marketing"
+ },
+ "ashley mitchell": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Director, Marketing"
+ },
+ "kemi odusan": {
+  "city": "London",
+  "metro": "LON",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Head of Growth"
+ },
+ "kate barrett": {
+  "city": "Washington",
+  "metro": "Washington",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Partner, Communications"
+ },
+ "chetan puttagunta": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "General Partner"
+ },
+ "reid christian": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "General Partner"
+ },
+ "izhar armony": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "CRV",
+  "title": "General Partner"
+ },
+ "james green": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "General Partner"
+ },
+ "heather judd": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "Head of Investor Relations"
+ },
+ "jon auerbach": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "General Partner"
+ },
+ "james cooper": {
+  "city": "Marietta",
+  "metro": "Marietta",
+  "company": "CRV",
+  "title": "Operations Manager"
+ },
+ "amy holober": {
+  "city": "Millbrae",
+  "metro": "Millbrae",
+  "company": "CRV",
+  "title": "Executive Assistant"
+ },
+ "rebecca charyn": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "Executive Assistant"
+ },
+ "cailen dsa": {
+  "city": "San Diego Metropolitan Area",
+  "metro": "San Diego Metropolitan Area",
+  "company": "CRV",
+  "title": "Advisor"
+ },
+ "murat bicer": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "General Partner"
+ },
+ "andee constine": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "Director of Events"
+ },
+ "vivian chaves": {
+  "city": "Oakland",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": "Head of Community"
+ },
+ "connor mullaney": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Spark Capital",
+  "title": "Partner, Innovation Strategy"
+ },
+ "hanseul nam": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Spark Capital",
+  "title": "Partner"
+ },
+ "alex finkelstein": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Spark Capital",
+  "title": "General Partner"
+ },
+ "heather mahoney": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Spark Capital",
+  "title": "Executive Assistant"
+ },
+ "nabeel hyatt": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Spark Capital",
+  "title": "EIR"
+ },
+ "clay fisher": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Spark Capital",
+  "title": "General Partner"
+ },
+ "william r.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Spark Capital",
+  "title": "General Partner"
+ },
+ "santo politi": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Spark Capital",
+  "title": "Founder and General Partner"
+ },
+ "fred wilson": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Partner"
+ },
+ "fredeliza p.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Office Operations"
+ },
+ "rebecca kaden": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Managing Partner"
+ },
+ "jess oynick": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Head of Talent"
+ },
+ "lauren young": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Head of Platform"
+ },
+ "jonah waldman": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Insight Partners",
+  "title": "Investment Team"
+ },
+ "arjun mehta": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Senior Advisor"
+ },
+ "hilary gosher": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "blair flicker": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Senior Advisor"
+ },
+ "christina nanfeldt": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "VP & Head of Portfolio Experience"
+ },
+ "sara clark": {
+  "city": "Denver",
+  "metro": "Denver",
+  "company": "Insight Partners",
+  "title": "Senior Vice President, Executive Talent"
+ },
+ "thomas norris": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Principal"
+ },
+ "suneel mudaliar": {
+  "city": "Washington",
+  "metro": "Washington",
+  "company": "Insight Partners",
+  "title": "VP, AI Transformation and Investments"
+ },
+ "jonathan rosenbaum": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Founder, General Partner"
+ },
+ "miles n.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Senior Advisor"
+ },
+ "miles neumann": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Investment Team"
+ },
+ "madalyn cannon": {
+  "city": "Savannah",
+  "metro": "Savannah",
+  "company": "Insight Partners",
+  "title": "Executive Assistant"
+ },
+ "sherri zimmerman": {
+  "city": "Chicago",
+  "metro": "Chicago",
+  "company": "Insight Partners",
+  "title": "Executive Assistant"
+ },
+ "jeffrey lieberman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Partner"
+ },
+ "sophie beshar": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "aditya agrawal": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Technology Investor"
+ },
+ "joshua zelman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "thomas krane": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "matt gatto": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "kevin hurth": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "adam berger": {
+  "city": "Santa Barbara",
+  "metro": "Santa Barbara",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "dave cates": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "candi xaysana": {
+  "city": "San Diego",
+  "metro": "San Diego",
+  "company": "Insight Partners",
+  "title": "Executive Talent"
+ },
+ "rachel geller": {
+  "city": "Chicago",
+  "metro": "Chicago",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "jeremey donovan": {
+  "city": "Asheville",
+  "metro": "Asheville",
+  "company": "Insight Partners",
+  "title": "Instructor, Revenue Operations & Strategy | Chief Revenue Officer Executive Education Program"
+ },
+ "alberto p.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Insight Partners",
+  "title": "Executive Vice President"
+ },
+ "geneva bass": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "lauren murphy": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Executive Assistant"
+ },
+ "jonathan grossman, cpa": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Chief Financial Officer"
+ },
+ "charlene chen": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Executive Vice President, Insight Onsite"
+ },
+ "aaron kolenda": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Growth Equity Investing"
+ },
+ "evan richter": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "anshul sachdeva": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Insight Partners",
+  "title": "Board Observer"
+ },
+ "mercedes chatfield-taylor": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "ted b.": {
+  "city": "Houston",
+  "metro": "Houston",
+  "company": "Insight Partners",
+  "title": "Marketing Principal"
+ },
+ "ryan hinkle": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "peter sobiloff": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "deven parekh": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "richard wells": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "nikitas koutoupes": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "teddie wardi": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "henry frankievich": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "lonne jaffe": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "nick sinai": {
+  "city": "Westwood",
+  "metro": "Westwood",
+  "company": "Insight Partners",
+  "title": "Author"
+ },
+ "ved narayan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "kuran malhotra": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "ashley michelson": {
+  "city": "Chicago",
+  "metro": "Chicago",
+  "company": "Insight Partners",
+  "title": "Executive Assistant"
+ },
+ "sunpreet singh": {
+  "city": "Queens",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "ira advincula": {
+  "city": null,
+  "metro": "Philippines",
+  "company": "Insight Partners",
+  "title": "Executive Assistant"
+ },
+ "alessandro luciano": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Insight Partners",
+  "title": "Principal"
+ },
+ "abdi adan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "ash tutika": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Insight Partners",
+  "title": "Director, Agentic Partnerships & Ventures"
+ },
+ "jessie sheff": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Principal"
+ },
+ "sam dreyfuss": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Insight Partners",
+  "title": "Senior Director, AI & Data Science"
+ },
+ "will mishkin": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "bas godska": {
+  "city": "Amsterdam",
+  "metro": "Amsterdam",
+  "company": "Insight Partners",
+  "title": "Limited Partner"
+ },
+ "nikki parker": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Executive Vice President"
+ },
+ "roshni dugar": {
+  "city": null,
+  "metro": "United States",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "stuart mayer": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "rohan s.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Senior Associate"
+ },
+ "cian cotter": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "apoorva goyal": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Investor"
+ },
+ "veronica gomez": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Executive Assistant to David Haigh - Howden Private Capital"
+ },
+ "david spiro": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Managing Director"
+ },
+ "verena prescher": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Head of Finance"
+ },
+ "leo seigal": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Y Combinator",
+  "title": "W13 Class"
+ },
+ "nicolas dessaigne": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "General Partner"
+ },
+ "mario grigorov": {
+  "city": "Monte Carlo",
+  "metro": "Monte Carlo",
+  "company": "Y Combinator",
+  "title": "Investor (YC S26)"
+ },
+ "joseph perrotta": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Founder (F26)"
+ },
+ "jovani kimble": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "Executive Assistant"
+ },
+ "danielle london": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "Principal"
+ },
+ "rexhep dollaku": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "General Partner"
+ },
+ "jackie chen 🦦": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "CEO and Co-Founder"
+ },
+ "sarah ramos": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "Head of Marketing"
+ },
+ "stephen kennedy": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Talent Partner"
+ },
+ "veronique st-germain": {
+  "city": "Waterloo",
+  "metro": "Waterloo",
+  "company": "8VC",
+  "title": "Head of Talent"
+ },
+ "andres blumer": {
+  "city": "Madrid",
+  "metro": "Madrid",
+  "company": "8VC",
+  "title": "Advisor"
+ },
+ "jon soberg": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Advisor"
+ },
+ "naresh soni": {
+  "city": "San Diego",
+  "metro": "San Diego",
+  "company": "8VC",
+  "title": "Limited Partner"
+ },
+ "isaac applbaum": {
+  "city": "Oakland",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Member Of The Board Of Advisors"
+ },
+ "nick dolik": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "8VC",
+  "title": "Partner"
+ },
+ "asher noel": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Redpoint",
+  "title": null
+ },
+ "ashley law": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Senior Director, Events and Experience"
+ },
+ "santiago regan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": null
+ },
+ "kwesi acquay": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Principal"
+ },
+ "mary stern": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "OM | Executive Assistant"
+ },
+ "scott raney": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Partner/Venture Capitalist"
+ },
+ "timothy haley": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Managing Director"
+ },
+ "vivek ramaswami": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Partner"
+ },
+ "satish d.": {
+  "city": "Saratoga",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Managing Director"
+ },
+ "enzo wiener": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Principal"
+ },
+ "patrick chase": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Managing Director"
+ },
+ "sebastian escarrer bisbal": {
+  "city": "London",
+  "metro": "LON",
+  "company": "IVP",
+  "title": "Investor"
+ },
+ "eric liaw": {
+  "city": "London",
+  "metro": "LON",
+  "company": "IVP",
+  "title": "General Partner"
+ },
+ "sabina von koskull": {
+  "city": "London",
+  "metro": "LON",
+  "company": "IVP",
+  "title": "Investor"
+ },
+ "steve harrick": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "General Partner"
+ },
+ "todd chaffee": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Managing Director & Partner"
+ },
+ "sam parker": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Head of Executive Partnerships"
+ },
+ "lisa prasadi": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Executive Assistant"
+ },
+ "michael miao": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "VP of Finance & BizOps"
+ },
+ "amelia hobbs (gale)": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Communications Lead"
+ },
+ "blair shane": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Partner and Chief Marketing Officer"
+ },
+ "alex lim": {
+  "city": "London",
+  "metro": "LON",
+  "company": "IVP",
+  "title": "General Partner"
+ },
+ "somesh dash": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "General Partner"
+ },
+ "karthik ramakrishnan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "IVP",
+  "title": null
+ },
+ "roxie rum": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Talent Partner"
+ },
+ "zack grimmer": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Head of Talent"
+ },
+ "james black": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Corporate Development & Strategy"
+ },
+ "sarah dixson": {
+  "city": "London",
+  "metro": "LON",
+  "company": "IVP",
+  "title": "Executive Assistant"
+ },
+ "shreyas garg": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Partner"
+ },
+ "kelly o'kane": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Partner & CFO"
+ },
+ "emily jones": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": null
+ },
+ "prithvi boggavaram": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Investor, ICONIQ"
+ },
+ "marie-louise o'callaghan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Principal, Technology/VC Investing"
+ },
+ "amine athamena": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Investor - ICONIQ"
+ },
+ "calvin yeoh": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Something new"
+ },
+ "sarah stebbins": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Principal - ICONIQ"
+ },
+ "greg stanger": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Venture Partner"
+ },
+ "ritika pai": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Partner, Investment Team"
+ },
+ "teresa pelayo": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Executive Assistant"
+ },
+ "yoonkee sull": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "General Partner"
+ },
+ "matthew jacobson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Partner"
+ },
+ "sophie binks": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Executive Assistant"
+ },
+ "mariam abbott": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Principal, Leadership Advisory EMEA, ICONIQ Growth"
+ },
+ "brianna jo t.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Senior Marketing Manager, ICONIQ"
+ },
+ "malia n.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Digital Marketing Manager"
+ },
+ "anna h.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Partner & Head of Marketing"
+ },
+ "adam alfi": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "General Partner"
+ },
+ "aoife o'leary": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Principal, Head of Cybersecurity Portfolio Operations"
+ },
+ "tommy dwyer": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Principal"
+ },
+ "shruti tournatory": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Partner"
+ },
+ "austin liang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Principal"
+ },
+ "matti navellou": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Managing Director, Head of ICONIQ Impact"
+ },
+ "arnav bimbhet": {
+  "city": null,
+  "metro": "United States",
+  "company": "ICONIQ",
+  "title": "Investor"
+ },
+ "ben bernstein": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Advisor"
+ },
+ "sophia fernyhough": {
+  "city": null,
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Executive Assistant"
+ },
+ "matt eccleston": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Technical Advisory Board"
+ },
+ "lou thorne": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Chief Operating Officer"
+ },
+ "seth pierrepont": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "General Partner"
+ },
+ "zuzanna czapinska": {
+  "city": "London",
+  "metro": "LON",
+  "company": "ICONIQ",
+  "title": "Investor"
+ },
+ "yidrienne lai": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "General Partner, ICONIQ"
+ },
+ "will griffith": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Co-Founder – IPI"
+ },
+ "max b.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Associate"
+ },
+ "alice colantuoni": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Coatue",
+  "title": "Senior Vice President, Talent"
+ },
+ "jared schulman": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Coatue",
+  "title": "Lead, Strategic Finance"
+ },
+ "angelica costa": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Coatue",
+  "title": "Operations"
+ },
+ "andre woon": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Coatue",
+  "title": "Vice President"
+ },
+ "kareem zaki": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Partner"
+ },
+ "sam teller": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Partner"
+ },
+ "rehan zafar": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Associate"
+ },
+ "patrick o'neill": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Head of Talent"
+ },
+ "rachel rosenzweig": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "VP, Portfolio Communications"
+ },
+ "neil shah": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Partner"
+ },
+ "josh cho": {
+  "city": null,
+  "metro": "South Korea",
+  "company": "Greenoaks",
+  "title": "Vice President, Coupang Eats"
+ },
+ "neil mehta": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Investor"
+ },
+ "ben solarz": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Partner"
+ },
+ "mac steele": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Partner, Head of Research"
+ },
+ "patrick backhouse": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Partner"
+ },
+ "anlei tang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Principal"
+ },
+ "jonathan poffley": {
+  "city": null,
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Vice President"
+ },
+ "archie jones": {
+  "city": "London",
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Technology Investing"
+ },
+ "karol ciesluk": {
+  "city": null,
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Growth Equity"
+ },
+ "will o'callaghan": {
+  "city": null,
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Growth Equity Investor"
+ },
+ "elie de fressenel": {
+  "city": "London",
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Growth Equity Investor"
+ },
+ "will o.": {
+  "city": null,
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Tech Investor"
+ },
+ "john doran": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "General Partner, TCV"
+ },
+ "marta suarez estebanez": {
+  "city": null,
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Partner"
+ },
+ "serhat kizilboga": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "TCV",
+  "title": "Growth Equity"
+ },
+ "leroy lim": {
+  "city": "Singapore",
+  "metro": "Singapore",
+  "company": "TCV",
+  "title": "Executive Advisor"
+ },
+ "muz ashraf": {
+  "city": "London",
+  "metro": "LON",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "alexander wortmann": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "Partner"
+ },
+ "rafael birnbaum": {
+  "city": "London",
+  "metro": "LON",
+  "company": "TCV",
+  "title": "Technology Growth Equity Investor"
+ },
+ "patrick morrison": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "Head of Portfolio Talent"
+ },
+ "amy rees-ku": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "Executive Assistant"
+ },
+ "jessica tabor-fritch": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "TCV",
+  "title": "Executive Assistant"
+ },
+ "morgan gerlak": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "Partner"
+ },
+ "faris nathoo": {
+  "city": "London",
+  "metro": "LON",
+  "company": "TCV",
+  "title": null
+ },
+ "rhiannon jones": {
+  "city": "Caerdydd",
+  "metro": "Caerdydd",
+  "company": "TCV",
+  "title": "Executive Assistant"
+ },
+ "jeffrey baldwin": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "TCV",
+  "title": "Principal"
+ },
+ "faris n.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "Investor"
+ },
+ "gopi vaddi": {
+  "city": null,
+  "metro": "United States",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "michael kalfayan": {
+  "city": null,
+  "metro": "LON",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "doug gilstrap": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "TCV",
+  "title": "Venture Partner"
+ },
+ "kai o’donobhan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "TCV",
+  "title": "Investor"
+ },
+ "georgie davies": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sapphire Ventures",
+  "title": "Principal | 1GT Fund"
+ },
+ "anya rajani": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sapphire Ventures",
+  "title": "Investment Associate"
+ },
+ "tiffany chandra": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Vice President, Head of Talent"
+ },
+ "jason morris": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Vice President"
+ },
+ "elizabeth arnsdorf patterson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner, People + Talent"
+ },
+ "hannah cohn": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Group Coordinator, Fund Accounting"
+ },
+ "annalise dragic": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Co-Founder & Co-CEO"
+ },
+ "derek asbun": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Sapphire Ventures",
+  "title": "Head of Portfolio Development"
+ },
+ "tori (thompson) robertson": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Senior Director, Marketing & Comms"
+ },
+ "jenny bavinger": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Vice President, Marketing & Communications"
+ },
+ "steve abbott": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "lizzy miller": {
+  "city": "Sunnyvale",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Executive Assistant"
+ },
+ "anders ranum": {
+  "city": "San Carlos",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "david carter": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "MD, Technology"
+ },
+ "xiaoping f.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Head of Data & Analytics"
+ },
+ "krupa vankayala": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "VP, People & HR"
+ },
+ "aditya reddy": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Vice President"
+ },
+ "demi o.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Principal"
+ },
+ "casber wang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "paul levine": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "michael spirito": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "jai das": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "President, Partner & Co-Founder"
+ },
+ "cathy gao": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "michael w. notaro": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Associate"
+ },
+ "ashley caldwell": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner, General Counsel"
+ },
+ "nino marakovic": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "CEO & Partner"
+ },
+ "rami branitzky": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "rajeev dham": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Managing Director"
+ },
+ "ciara campbell bowen": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Executive Assistant"
+ },
+ "sarah alfadda": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Associate General Counsel"
+ },
+ "brett ripperger, cpa": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Director, Investor Reporting & Business Analytics"
+ },
+ "will suttle": {
+  "city": "Dallas",
+  "metro": "Dallas",
+  "company": "Sapphire Ventures",
+  "title": "VP of Finance"
+ },
+ "andrew vogeley": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Investor"
+ },
+ "shatakshi mohan": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Sapphire Ventures",
+  "title": "Growth Investor"
+ },
+ "preston snider": {
+  "city": "Hutto",
+  "metro": "Hutto",
+  "company": "Sapphire Ventures",
+  "title": "IT Manager"
+ },
+ "john baird": {
+  "city": "San Jose",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Fellow"
+ },
+ "kevin burke": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Partner, Strategy"
+ },
+ "maureen curran": {
+  "city": "Redwood City",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Executive Assistant"
+ },
+ "rosie tersigni": {
+  "city": null,
+  "metro": "LON",
+  "company": "Sapphire Ventures",
+  "title": "Executive Assistant"
+ },
+ "robert severo": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "CCO, Partner"
+ },
+ "charlie rexford": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Chief of Staff to CEO"
+ },
+ "shinta yulia, cpa, mba": {
+  "city": "Dublin",
+  "metro": "Dublin",
+  "company": "Sapphire Ventures",
+  "title": "VP Finance"
+ },
+ "kevin knieriem": {
+  "city": "Park City",
+  "metro": "Park City",
+  "company": "Sapphire Ventures",
+  "title": "Sapphire Fellow"
+ },
+ "justin liu": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Vice President"
+ },
+ "nicole torres": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Marketing Director, Events & PG"
+ },
+ "jacob dehardt": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Fund Accounting Manager"
+ },
+ "adam liu": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Vice President"
+ },
+ "andreas weiskam": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Sapphire Ventures",
+  "title": "Managing Director"
+ },
+ "nate leung": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Partner"
+ },
+ "jason brooke": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Principal"
+ },
+ "monica soliz (escobedo)": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Director, Marketing (Digital Marketing & Brand)"
+ },
+ "andrea scholz": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Senior Executive Assistant"
+ },
+ "doug higgins": {
+  "city": "Park City",
+  "metro": "Park City",
+  "company": "Sapphire Ventures",
+  "title": "Co-Founder and Managing Director"
+ },
+ "abigail johnson": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Partner, COO"
+ },
+ "seamus dunne": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Sapphire Ventures",
+  "title": "Vice President"
+ },
+ "dave wilner": {
+  "city": "Seattle",
+  "metro": "Seattle",
+  "company": "Sapphire Ventures",
+  "title": "Venture Partner"
+ },
+ "justin white": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Vice President Finance"
+ },
+ "ralph debernardo": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Partner, Head of Capital Formation & IR"
+ },
+ "lacy balsama": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Sapphire Ventures",
+  "title": "Executive Assistant"
+ },
+ "kevin diestel": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Sapphire Ventures",
+  "title": "Investor"
+ },
+ "john torrey": {
+  "city": "Fort Worth",
+  "metro": "Fort Worth",
+  "company": "Sapphire Ventures",
+  "title": "Fellow"
+ },
+ "ilana corney": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Battery Ventures",
+  "title": "Senior Executive Assistant"
+ },
+ "thomas marchioni": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Battery Ventures",
+  "title": "Private Equity | Associate"
+ },
+ "scott tobin": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Battery Ventures",
+  "title": "Senior Advisor"
+ },
+ "shiran shalev": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Battery Ventures",
+  "title": "Partner"
+ },
+ "isabel von stauffenberg": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Business Operations"
+ },
+ "michael brown": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "estelle tessaro": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Battery Ventures",
+  "title": "Growth & Private Equity | Analyst"
+ },
+ "scott goering": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Battery Ventures",
+  "title": "Partner - Business Development"
+ },
+ "evan witte": {
+  "city": "Bend",
+  "metro": "Bend",
+  "company": "Battery Ventures",
+  "title": "Vice President of Business Development"
+ },
+ "marcus ryu": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "rebecca buckman": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Marketing Partner"
+ },
+ "susanne richman": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "Talent Partner"
+ },
+ "jenny kang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Talent Partner"
+ },
+ "benjamin passafuime": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Talent Partner"
+ },
+ "jennie a.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Senior Executive Assistant"
+ },
+ "danel dayan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Principal"
+ },
+ "lior m.": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Battery Ventures",
+  "title": "Early/growth investments"
+ },
+ "itzik parnafes": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Battery Ventures",
+  "title": "Advisor"
+ },
+ "stefan momic": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Battery Ventures",
+  "title": "Vice President"
+ },
+ "erin lens": {
+  "city": "Santa Clara",
+  "metro": "Santa Clara",
+  "company": "Battery Ventures",
+  "title": "Executive Assistant"
+ },
+ "dillon joyce": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Principal"
+ },
+ "chiraag deora": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Investor"
+ },
+ "barak schoster goihman": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "Battery Ventures",
+  "title": "Partner"
+ },
+ "collier searle": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Battery Ventures",
+  "title": "Principal"
+ },
+ "luis-luca de haas": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Battery Ventures",
+  "title": "Technology Investor"
+ },
+ "olivia henkoff": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Battery Ventures",
+  "title": "Vice President"
+ },
+ "jennifer padilla": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "Executive Assistant"
+ },
+ "zak ewen": {
+  "city": null,
+  "metro": "LON",
+  "company": "Battery Ventures",
+  "title": "Partner"
+ },
+ "paul morrissey": {
+  "city": "Greater London",
+  "metro": "LON",
+  "company": "Battery Ventures",
+  "title": "Board Member"
+ },
+ "paz eshel": {
+  "city": "San Diego",
+  "metro": "San Diego",
+  "company": "Battery Ventures",
+  "title": null
+ },
+ "dharmesh thakker": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "neeraj agrawal": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "marc vangerven": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Investment Professional | Healthcare"
+ },
+ "constantin boye": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Board Member"
+ },
+ "benjamin chew": {
+  "city": null,
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Senior Associate"
+ },
+ "joshua rothkugel": {
+  "city": "Berlin",
+  "metro": "Berlin",
+  "company": "Summit Partners",
+  "title": "Investor"
+ },
+ "irina müller": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Investment Professional"
+ },
+ "nik ohri": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Vice President"
+ },
+ "matthias allgaier": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Managing Director"
+ },
+ "han sikkens": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Managing Director & Head of Summit Partners Europe"
+ },
+ "scott collins": {
+  "city": "Miami",
+  "metro": "Miami",
+  "company": "Summit Partners",
+  "title": "Senior Advisor"
+ },
+ "luke timothy farrugia": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Vice President"
+ },
+ "kurt b.": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Summit Partners",
+  "title": "Vice President"
+ },
+ "maximilian b.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Investment Professional"
+ },
+ "antony clavel": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Managing Director"
+ },
+ "lukas krieg": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Investment Professional"
+ },
+ "sunkyu han": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Growth Equity Investor"
+ },
+ "stephen melia": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Summit Partners",
+  "title": "Principal, Human Capital"
+ },
+ "christian strain": {
+  "city": null,
+  "metro": "France",
+  "company": "Summit Partners",
+  "title": "Senior Advisor"
+ },
+ "steffan peyer": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Managing Director"
+ },
+ "andi kullashi": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Investment Professional"
+ },
+ "paul-hugo thiboult": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "Vice President"
+ },
+ "paddy dillon": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Principal"
+ },
+ "kenza zayani": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Investor"
+ },
+ "matthew miller": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Managing Partner"
+ },
+ "kristina igoe": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Executive Assistant"
+ },
+ "maya illovsky": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Executive Assistant and Office Manager"
+ },
+ "rachel ward": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Executive Assistant and Office Manager"
+ },
+ "matthew j. miller": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Principal"
+ },
+ "vinny pujji": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Managing Partner, co-founder"
+ },
+ "mary glenn altamarino": {
+  "city": "Manila",
+  "metro": "Manila",
+  "company": "Left Lane Capital",
+  "title": "Virtual Assistant"
+ },
+ "alicia garabedian": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Board Observer"
+ },
+ "dan ahrens": {
+  "city": null,
+  "metro": "United States",
+  "company": "Left Lane Capital",
+  "title": "Managing Partner"
+ },
+ "magnus karnehm": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Partner"
+ },
+ "louis frach": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Investor"
+ },
+ "kathryn widdowson": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Senior Associate of Finance, Compliance, & Operations"
+ },
+ "glenn tucker": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Chief Financial Officer and Chief Compliance Officer"
+ },
+ "liz atkisson, cpa": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Senior Vice President of Finance, Compliance & Operations"
+ },
+ "harley miller": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Founder, CEO and Managing Partner"
+ },
+ "coraline kamuleta": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Investor"
+ },
+ "derek urben": {
+  "city": "Switzerland",
+  "metro": "Switzerland",
+  "company": "Left Lane Capital",
+  "title": "Head of Growth and Venture Investments"
+ },
+ "maximilian wilhelm": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Investor"
+ },
+ "erica amatori": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Partner of Platform"
+ },
+ "francesca bresciani": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Director of Platform"
+ },
+ "alice inchauspé": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Left Lane Capital",
+  "title": "Partner Operations"
+ },
+ "jason fiedler": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Venture Partner"
+ },
+ "esther gonzalez": {
+  "city": "Zurich",
+  "metro": "Zurich",
+  "company": "Left Lane Capital",
+  "title": "Head Business Development & Investor Relations"
+ },
+ "harald braunstein": {
+  "city": "Munich",
+  "metro": "Munich",
+  "company": "Left Lane Capital",
+  "title": "LP"
+ },
+ "frank visciano": {
+  "city": "Amsterdam",
+  "metro": "Amsterdam",
+  "company": "Left Lane Capital",
+  "title": "Venture Advisor"
+ },
+ "ade okuwoga": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Climate Growth Equity"
+ },
+ "mohit daryanani": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "jas rajput": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "guy cheney": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Investment Professional"
+ },
+ "alexander baungaard": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "bat chen green": {
+  "city": null,
+  "metro": "Israel",
+  "company": "General Atlantic",
+  "title": "Executive Assistant"
+ },
+ "dhairya kapadia": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Investment Professional | Beyond Net Zero"
+ },
+ "laura gallagher": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Co-Founder"
+ },
+ "sam robson": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Senior Associate"
+ },
+ "sarah stevens": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Associate"
+ },
+ "lauren austin-harvey": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Executive Assistant"
+ },
+ "simisola oyesanya": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "jennifer barsky": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "georgia hayes": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Investment Professional"
+ },
+ "bhumi shah, md": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Investment Professional"
+ },
+ "catherine s.": {
+  "city": null,
+  "metro": "United States",
+  "company": "General Atlantic",
+  "title": "Office of the Chairman and CEO"
+ },
+ "christian osterland": {
+  "city": "Munich",
+  "metro": "Munich",
+  "company": "General Atlantic",
+  "title": "Principal"
+ },
+ "caroline woodworth": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Managing Director"
+ },
+ "aaron goldman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director"
+ },
+ "jasmine lee-thurgood": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Executive Assistant"
+ },
+ "melissa saunders": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Executive Assistant"
+ },
+ "christopher apfel": {
+  "city": "Munich",
+  "metro": "Munich",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "andrea calabrò": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "melis kahya": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Managing Director and Head of Consumer for EMEA"
+ },
+ "nelly markova": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Partner"
+ },
+ "anna vershebeniuk": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "General Partner"
+ },
+ "jack harris": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "harry m.": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "chiara barelli": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Executive Assistant to Head of Consumer for EMEA"
+ },
+ "lisa latrèche": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Senior Vice President"
+ },
+ "ahmad khokher": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Senior Vice President"
+ },
+ "erin lacerna": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Founder & Managing Partner"
+ },
+ "paul stamas": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director"
+ },
+ "chris caulkin": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Head of EMEA, Global Growth Equity"
+ },
+ "ingrid van der hoorn": {
+  "city": "Amsterdam",
+  "metro": "Amsterdam",
+  "company": "General Atlantic",
+  "title": "Vice President, Finance"
+ },
+ "claire hogg": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "gabriel caillaux": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Co-President and Global Head of Energy Transition & Infrastructure"
+ },
+ "meili eubank": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "yongzhen teow": {
+  "city": null,
+  "metro": "Singapore",
+  "company": "General Atlantic",
+  "title": "Investment Professional"
+ },
+ "brad carpenter": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Chief Information Security Officer (CISO)"
+ },
+ "fraser johnston-donne": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "natasha fowlie": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Principal - BeyondNetZero"
+ },
+ "christian braunfisch": {
+  "city": null,
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Director"
+ },
+ "jon galitzer": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "sofia kouzinopoulos": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President, Portfolio Human Capital"
+ },
+ "anthony costa": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "christian figge": {
+  "city": "Munich",
+  "metro": "Munich",
+  "company": "General Atlantic",
+  "title": "Advisory Board Member"
+ },
+ "manita bijl": {
+  "city": "Amsterdam",
+  "metro": "Amsterdam",
+  "company": "General Atlantic",
+  "title": "Strategic Righthand to the CEO"
+ },
+ "alex crisses": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director"
+ },
+ "felix  bachmaier": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Investment Professional"
+ },
+ "eli a.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director - BeyondNetZero"
+ },
+ "jonathan durham": {
+  "city": "Miami",
+  "metro": "Miami",
+  "company": "General Atlantic",
+  "title": "Managing Director"
+ },
+ "michael gosk": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director, Chief Financial Officer"
+ },
+ "vishal chandran": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Senior Director"
+ },
+ "tom hussey": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Board Member"
+ },
+ "arianna tosolini": {
+  "city": "Munich",
+  "metro": "Munich",
+  "company": "General Atlantic",
+  "title": "Executive Assistant"
+ },
+ "héloïse marleau": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Principal"
+ },
+ "preston mckenzie": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Operating Partner"
+ },
+ "asheque shams": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Vice President"
+ },
+ "mohit k.": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "General Atlantic",
+  "title": "Senior Advisor"
+ },
+ "jemina opman-auge": {
+  "city": "London",
+  "metro": "LON",
+  "company": "General Atlantic",
+  "title": "Investment team"
+ },
+ "katharine goerlich": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Executive Assistant"
+ },
+ "matthew wachter": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Investor"
+ },
+ "benjamin tso": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Tiger Global",
+  "title": "Investor"
+ },
+ "evan feinberg": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "scott shleifer": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "rohit iragavarapu": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "eric lane": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "President and Chief Operating Officer"
+ },
+ "roshni chandwani": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Addition",
+  "title": "Investor"
+ },
+ "lee fixel": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Addition",
+  "title": "Investor"
+ },
+ "todd arfman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Addition",
+  "title": "Partner"
+ },
+ "allison pecchia": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Addition",
+  "title": "Executive Assistant"
+ },
+ "reid hoffman": {
+  "city": null,
+  "metro": "United States",
+  "company": "Greylock",
+  "title": "Partner"
+ },
+ "kaitlin durkosh": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "VP, Communications"
+ },
+ "jerry chen": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "General Partner"
+ },
+ "mike duboe": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "General Partner"
+ },
+ "david s.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Advisory Partner"
+ },
+ "seth rosenberg": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Greylock",
+  "title": "General Partner"
+ },
+ "asheem chandna": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Partner"
+ },
+ "saam motamedi": {
+  "city": "Stanford",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "General Partner"
+ },
+ "sarah guo": {
+  "city": null,
+  "metro": "United States",
+  "company": "Greylock",
+  "title": "Board Partner"
+ },
+ "josh mcfarland": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Partner"
+ },
+ "sri pangulur": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Limited Partner"
+ },
+ "mykolas rambus": {
+  "city": "Detroit",
+  "metro": "Detroit",
+  "company": "Greylock",
+  "title": "Consultant"
+ },
+ "max motschwiller": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "General Partner"
+ },
+ "paul madera": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Managing Director/Co-Founder"
+ },
+ "hannah biser": {
+  "city": "San Carlos",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Medical Affairs Specialist"
+ },
+ "anthony decamillo": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Meritech",
+  "title": "Head of Growth Investing"
+ },
+ "christina canady": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Vice President, Director Advisory Services"
+ },
+ "george bischof": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "General Partner"
+ },
+ "alex kurland": {
+  "city": null,
+  "metro": "United States",
+  "company": "Meritech",
+  "title": "General Partner"
+ },
+ "cathy c.": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Partner"
+ },
+ "laurent bride": {
+  "city": "Los Altos",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CTO Advisory Board member"
+ },
+ "curt sigfstead": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CFO Advisory Board Member"
+ },
+ "matt harris": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Partner"
+ },
+ "leslie crowe": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Partner, Head of Platform"
+ },
+ "vaibhav n.": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CTO Advisory Board Member"
+ },
+ "philip lacor": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CRO Advisory Board Member"
+ },
+ "will lehmann": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Seed Investor"
+ },
+ "allison braley": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Partner + Head of Marketing"
+ },
+ "javier o.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CRO Advisory Board Member"
+ },
+ "bruce bowden": {
+  "city": "Belmont",
+  "metro": "Belmont",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CFO Advisory Board Member"
+ },
+ "enrique salem": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Board Member"
+ },
+ "samuel ackah-yensu": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Salesforce Ventures",
+  "title": "Investor"
+ },
+ "kartik gupta": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Salesforce Ventures",
+  "title": "Investor - Global Investments"
+ },
+ "christian lehner": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Salesforce Ventures",
+  "title": "Manager"
+ },
+ "alex quie": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Salesforce Ventures",
+  "title": "Principal"
+ },
+ "nowi kallen": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Salesforce Ventures",
+  "title": "Partner"
+ },
+ "noah knauf": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "BOND",
+  "title": "General Partner"
+ },
+ "nimay mehta": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Managing Partner"
+ },
+ "sydney nelson": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Investor Relations"
+ },
+ "zach ullman": {
+  "city": null,
+  "metro": "United States",
+  "company": "Lead Edge Capital",
+  "title": "Partner"
+ },
+ "brian lobdell": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Lead Edge Capital",
+  "title": "Partner"
+ },
+ "minda lising-afriyie": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Lead Edge Capital",
+  "title": "Executive Assistant"
+ },
+ "robbie waxman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Investor"
+ },
+ "ilan nissan": {
+  "city": "North Miami Beach",
+  "metro": "North Miami Beach",
+  "company": "Lead Edge Capital",
+  "title": "Advisor"
+ },
+ "stephan dietrich": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Lead Edge Capital",
+  "title": "Operating Partner"
+ },
+ "lubomir cuba": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Investor"
+ },
+ "alex gaulkin": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Investor"
+ },
+ "steven munsie": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lead Edge Capital",
+  "title": "Partner"
+ },
+ "nathan nikkhoo": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Lead Edge Capital",
+  "title": "Summer Analyst"
+ },
+ "hari badale": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Lead Edge Capital",
+  "title": "Vice President"
+ },
+ "olivia tulkoff": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Chief of Staff"
+ },
+ "samuel nicklin": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Growth Investor"
+ },
+ "james sincavage": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Principal"
+ },
+ "melissa fulenwider": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Principal"
+ },
+ "ron shah": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Partner"
+ },
+ "karen kenworthy": {
+  "city": "Aspen",
+  "metro": "Aspen",
+  "company": "Stripes",
+  "title": "Partner"
+ },
+ "lucy stenovec": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Senior Associate, Talent & Network"
+ },
+ "reza nazeman": {
+  "city": "Seattle",
+  "metro": "Seattle",
+  "company": "Stripes",
+  "title": "CIO Advisor"
+ },
+ "addison beaulieu": {
+  "city": "Bethesda",
+  "metro": "Bethesda",
+  "company": "Stripes",
+  "title": "Executive Assistant"
+ },
+ "victoria villalba": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "MBA Venture Fellow"
+ },
+ "jason s.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Partner and Chief Technology Officer"
+ },
+ "kelly barnum": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Volition Capital",
+  "title": null
+ },
+ "steve achatz": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Head of M&A"
+ },
+ "larry cheng": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Managing Partner and Co-Founder"
+ },
+ "pat robertson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "President & Co-founder"
+ },
+ "aneesh shah": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Partner"
+ },
+ "taylor gilland": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Partner"
+ },
+ "christian jensen": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Partner, Co-Head of Private Investments"
+ },
+ "patrick gordon": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Partner"
+ },
+ "bilal khan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Investor"
+ },
+ "luke dinday": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Chief Financial Officer"
+ },
+ "dr. thomas otter": {
+  "city": "Heidelberg",
+  "metro": "Heidelberg",
+  "company": "PSG",
+  "title": "Senior Advisor"
+ },
+ "hugo buret": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Associate"
+ },
+ "anna grigoryeva": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Senior Vice President"
+ },
+ "tom hadland": {
+  "city": null,
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Growth Investor"
+ },
+ "derek pimentel": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Managing Director"
+ },
+ "christian stein": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Managing Director"
+ },
+ "kimberly eynon": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Senior Vice President, Nordic Lead"
+ },
+ "amandine exshaw": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Growth Investor"
+ },
+ "antonio weingärtner alemparte": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Growth Investor"
+ },
+ "asaf joffe": {
+  "city": null,
+  "metro": "Israel",
+  "company": "PSG",
+  "title": "Senior Associate"
+ },
+ "charles vernudachi, caia": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Managing Director, EMEA Head of Investor Relations"
+ },
+ "adam marcus": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Managing Director"
+ },
+ "dany rammal": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Managing Director, Head of Europe"
+ },
+ "ronen nir": {
+  "city": "Tel Aviv-Yafo",
+  "metro": "Tel Aviv-Yafo",
+  "company": "PSG",
+  "title": "Managing Director"
+ },
+ "rotem shacham": {
+  "city": "Israel",
+  "metro": "Israel",
+  "company": "PSG",
+  "title": "Director"
+ },
+ "antony edwards": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Managing Director"
+ },
+ "paul russ": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Managing Director"
+ },
+ "hendrik w.": {
+  "city": null,
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Director"
+ },
+ "pierre-louis bret": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Vice President"
+ },
+ "emely baez": {
+  "city": null,
+  "metro": "United States",
+  "company": "PSG",
+  "title": "Executive Assistant"
+ },
+ "goda gaušaitė": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Associate"
+ },
+ "nathaniel myers": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Great Hill Partners",
+  "title": "Investment Professional"
+ },
+ "christopher wilson": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "nick cayer": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Managing Director, Executive Committee and Investment Committee"
+ },
+ "leslie fasulo": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Great Hill Partners",
+  "title": "Office Manager"
+ },
+ "chris wilson": {
+  "city": null,
+  "metro": "LON",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "chris busby": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Managing Director"
+ },
+ "diogo ribeiro": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Great Hill Partners",
+  "title": "Private Equity Investor"
+ },
+ "connor white": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Associate"
+ },
+ "drew loucks": {
+  "city": "United Kingdom",
+  "metro": "LON",
+  "company": "Great Hill Partners",
+  "title": "Managing Director"
+ },
+ "douglas wigley": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Principal"
+ },
+ "don valentine": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Founder"
+ },
+ "harris bellamy": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "Investment and Management"
+ },
+ "mary glide": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Sequoia Capital",
+  "title": "VP of Technology"
+ },
+ "gary li": {
+  "city": "China",
+  "metro": "China",
+  "company": "Sequoia Capital",
+  "title": "VP"
+ },
+ "jiang liang": {
+  "city": "China",
+  "metro": "China",
+  "company": "Sequoia Capital",
+  "title": "vice president"
+ },
+ "molly xiao 肖茉莉": {
+  "city": "Beijing",
+  "metro": "Beijing",
+  "company": "Sequoia Capital",
+  "title": "Vice President"
+ },
+ "ian qian": {
+  "city": "China",
+  "metro": "China",
+  "company": "Sequoia Capital",
+  "title": "Vice President"
+ },
+ "ellicia li": {
+  "city": "Beijing",
+  "metro": "Beijing",
+  "company": "Sequoia Capital",
+  "title": "Vice President"
+ },
+ "fan helen": {
+  "city": null,
+  "metro": "Hong Kong",
+  "company": "Sequoia Capital",
+  "title": "VP"
+ },
+ "marc l. andreessen": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Founder"
+ },
+ "margit wennmachers": {
+  "city": "Jackson",
+  "metro": "Jackson",
+  "company": "Andreessen Horowitz",
+  "title": "Operating Partner"
+ },
+ "jeff stump": {
+  "city": "San Jose",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Operating Partner"
+ },
+ "scott weiss": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "General Partner"
+ },
+ "jeff jordan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "General Partner at a16z"
+ },
+ "alexis l.": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Corporate Controller"
+ },
+ "caroline horn": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "john m. jack": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Andreessen Horowitz",
+  "title": "Board Partner"
+ },
+ "jason sun": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Andreessen Horowitz",
+  "title": "Partner"
+ },
+ "peter nieh": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Co-Founder & Partner"
+ },
+ "barry eggers": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Founding Partner"
+ },
+ "ravi mhatre": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Founder, Managing Director"
+ },
+ "herry han": {
+  "city": "Shanghai",
+  "metro": "Shanghai",
+  "company": "Lightspeed Venture Partners",
+  "title": "Cofounder and Partner"
+ },
+ "luke beseda": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "VP, Talent Infrastructure"
+ },
+ "cat flanagan": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Vice President, Early Stage"
+ },
+ "brett nissenberg": {
+  "city": "Wilson",
+  "metro": "Wilson",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner and General Counsel"
+ },
+ "morgan worth": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner, Legal"
+ },
+ "kelvin wambui": {
+  "city": null,
+  "metro": "United States",
+  "company": "Lightspeed Venture Partners",
+  "title": "Commercial Investment Partner | Senior Partner, Audit and Risk Committee (Semi-retired)"
+ },
+ "david fialkow": {
+  "city": "Cambridge",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Co-founder and Managing Director"
+ },
+ "robert gierkink": {
+  "city": "Wellington",
+  "metro": "Wellington",
+  "company": "General Catalyst",
+  "title": "Executive-In-Residence"
+ },
+ "paul verrochi": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Executive in Residence/Partner"
+ },
+ "christopher mccain": {
+  "city": "Cambridge",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Chief Legal Officer"
+ },
+ "yuchun lee": {
+  "city": "Waltham",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "XIR -- Executive Partner"
+ },
+ "rich gliklich": {
+  "city": "Weston",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "XIR & Partner"
+ },
+ "boomer dell": {
+  "city": "Cambridge",
+  "metro": "BOS",
+  "company": "General Catalyst",
+  "title": "Chief Compliance Officer"
+ },
+ "anna geor": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Catalyst",
+  "title": "VP Business Administration"
+ },
+ "paul fielding": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "General Catalyst",
+  "title": "Chief Financial Officer"
+ },
+ "arthur patterson": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Founding Partner"
+ },
+ "jim swartz": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Founding Partner"
+ },
+ "sally roberts": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Accel",
+  "title": "General Counsel"
+ },
+ "khan zainahmed": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Chief Risk Officer (CRO)"
+ },
+ "sudheeksha m.": {
+  "city": null,
+  "metro": "United States",
+  "company": "Accel",
+  "title": "Chief Risk Officer（CRO）"
+ },
+ "adarsh shukla": {
+  "city": "Mumbai",
+  "metro": "Mumbai",
+  "company": "Accel",
+  "title": "CRO"
+ },
+ "vinod kumar menon": {
+  "city": "Bangalore",
+  "metro": "Bangalore",
+  "company": "Accel",
+  "title": "General Counsel"
+ },
+ "matt weigand": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Partner"
+ },
+ "jaspreet singh": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Accel",
+  "title": "Chief Financial Officer at Accel, US"
+ },
+ "sandy grippo": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "COO at Bessemer Venture Partners"
+ },
+ "scott ring": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner, Chief Strategy Officer, and General Counsel"
+ },
+ "sara byrne": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "Partner and CFO"
+ },
+ "jeff epstein": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Operating Partner"
+ },
+ "chini k.": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Bessemer Venture Partners",
+  "title": "Operating Partner"
+ },
+ "andy geisse": {
+  "city": "Zephyr Cove",
+  "metro": "Zephyr Cove",
+  "company": "Bessemer Venture Partners",
+  "title": "Operating Partner"
+ },
+ "bob sun": {
+  "city": "Daly City",
+  "metro": "Daly City",
+  "company": "Bessemer Venture Partners",
+  "title": "Chief Investment Officer"
+ },
+ "jo anne ambrosino": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bessemer Venture Partners",
+  "title": "VP Operations / HR"
+ },
+ "sandra schwarzer": {
+  "city": null,
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Vice President, C-Suite/Board & EU Talent & Insights Team leader"
+ },
+ "alexandra fisher sweet": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Index Ventures",
+  "title": "Vice President, People"
+ },
+ "simon cunningham": {
+  "city": null,
+  "metro": "LON",
+  "company": "Index Ventures",
+  "title": "Chief Financial and Administration Officer"
+ },
+ "lauren gross": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Partner & COO"
+ },
+ "michael solana": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Chief Marketing Officer"
+ },
+ "lauren vance": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Vice President, Client Services"
+ },
+ "louis chen": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Founders Fund",
+  "title": "Partner"
+ },
+ "neil pai": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "General Counsel"
+ },
+ "marina alvarado": {
+  "city": "Denver",
+  "metro": "Denver",
+  "company": "Founders Fund",
+  "title": "General Partner"
+ },
+ "valencia gisella": {
+  "city": "Minneapolis",
+  "metro": "Minneapolis",
+  "company": "Founders Fund",
+  "title": "General Partner"
+ },
+ "erin gleason": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Chief Communications Officer (CCO)"
+ },
+ "elly untermeyer": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Founders Fund",
+  "title": "Chief of Staff -- Trae Stephens"
+ },
+ "vinod khosla": {
+  "city": "Portola Valley",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Founder and Managing Director"
+ },
+ "samir kaul": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Founding General Partner"
+ },
+ "john demeter": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "General Counsel"
+ },
+ "sanh hong": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "VP of Finance"
+ },
+ "kanu gulati": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Partner"
+ },
+ "��jieyi chen��": {
+  "city": "Sausalito",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Chief Risk Officer (CRO)"
+ },
+ "michael  f.": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Partner"
+ },
+ "michael fowler": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Managing Partner"
+ },
+ "jenny b": {
+  "city": null,
+  "metro": "United States",
+  "company": "Khosla Ventures",
+  "title": "Operating Partner"
+ },
+ "ryno blignaut": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Khosla Ventures",
+  "title": "Chief Financial Officer"
+ },
+ "susan biglieri": {
+  "city": "Saratoga",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Chief Financial Officer"
+ },
+ "dave morin": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Special Partner"
+ },
+ "james huang": {
+  "city": "Millbrae",
+  "metro": "Millbrae",
+  "company": "Kleiner Perkins",
+  "title": "Managing Partner"
+ },
+ "erik lindquist": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "VP of Finance"
+ },
+ "nikki t. z.": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Kleiner Perkins",
+  "title": "Partner"
+ },
+ "mamoon hamid": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Partner"
+ },
+ "moustafa elbialy": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Chief Information Officer"
+ },
+ "gavin wang": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Kleiner Perkins",
+  "title": "Senior Vice President, Investment Banking"
+ },
+ "sanjey sivanesan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Executive In Residence"
+ },
+ "luis ruwe": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Kleiner Perkins",
+  "title": "Chief Risk Officer (CRO)/Limited partner(LP)"
+ },
+ "aydin senkut": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Founder and Managing Partner"
+ },
+ "dasha maggio": {
+  "city": null,
+  "metro": "United States",
+  "company": "Felicis",
+  "title": "Co-COO"
+ },
+ "viviana faga": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "General Partner at Felicis"
+ },
+ "teresa chan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Chief Financial Officer, Co-Chief Operating Officer"
+ },
+ "raychel bailon": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "VP of Finance"
+ },
+ "ryan thompson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "General Counsel / Partner"
+ },
+ "peter deng": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Felicis",
+  "title": "General Partner"
+ },
+ "elisa schreiber": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Chief Marketing Officer"
+ },
+ "kate sommer": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Felicis",
+  "title": "Chief of Staff & VP of Investment Operations"
+ },
+ "forest baskett": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "General Partner"
+ },
+ "mohamad makhzoumi": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Co-CEO"
+ },
+ "harry weller": {
+  "city": "Washington",
+  "metro": "Washington",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "General Partner"
+ },
+ "tony florence": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Co-CEO"
+ },
+ "megan meloni": {
+  "city": "San Mateo",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Executive Business Partner to Executive Chairman & Chief Investment Officer"
+ },
+ "david tresmontan": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Chief Global Security Officer"
+ },
+ "melissa taunton": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Partner"
+ },
+ "albert l.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Operating Partner - Design & Product"
+ },
+ "hai lin": {
+  "city": null,
+  "metro": "United States",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Partner and data analysis department manager"
+ },
+ "prashant dubey": {
+  "city": "Washington",
+  "metro": "Washington",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Partner and data analysis department manager"
+ },
+ "gina boyle": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Benchmark",
+  "title": "Client Service and Operations Executive"
+ },
+ "phil puchner": {
+  "city": "Bellevue",
+  "metro": "Bellevue",
+  "company": "Benchmark",
+  "title": "Retired Owner"
+ },
+ "jill jarrett": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "CFO"
+ },
+ "daniel slutzky": {
+  "city": null,
+  "metro": "Israel",
+  "company": "Benchmark",
+  "title": "Operating Partner and CFO"
+ },
+ "peter fenton": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "General Partner"
+ },
+ "luis buhler": {
+  "city": "Cupertino",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "Consulting CFO"
+ },
+ "leo pang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "Chief Product Officer & Executive Vice President"
+ },
+ "eric vishria": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "General Partner"
+ },
+ "shone lee": {
+  "city": "San Jose",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "VP of GPU Platform Operations"
+ },
+ "p. jeffrey ungar": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Benchmark",
+  "title": "Chief Scientist, TrueMask ILT"
+ },
+ "rick burnes": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "CRV",
+  "title": "General Partner & Founder"
+ },
+ "bruce sachs": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "CRV",
+  "title": "General Partner"
+ },
+ "bill tai": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "Partner Emeritus / General Partner"
+ },
+ "sachin sood": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "Chief Financial Officer"
+ },
+ "krista canfield mcnish": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "CRV",
+  "title": "Vice President of Marketing and Communications"
+ },
+ "adam amero": {
+  "city": "Waltham",
+  "metro": "BOS",
+  "company": "Greylock",
+  "title": "Vice President Finance"
+ },
+ "joseph monaco": {
+  "city": "Mansfield",
+  "metro": "BOS",
+  "company": "CRV",
+  "title": "CFO"
+ },
+ "joseph pignato": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "CRV",
+  "title": "Chief Financial Officer"
+ },
+ "marinda luk": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": "CFO"
+ },
+ "brett gibson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": "Managing Partner"
+ },
+ "garry tan": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": "Board Partner & Advisor"
+ },
+ "eric woersching, cfa": {
+  "city": "Bainbridge Island",
+  "metro": "Bainbridge Island",
+  "company": "Initialized Capital",
+  "title": "Board Member"
+ },
+ "alina libova": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": null
+ },
+ "elisabeth garvin": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Initialized Capital",
+  "title": "Director"
+ },
+ "steven pham": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": "Head of Media"
+ },
+ "harj taggar": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Initialized Capital",
+  "title": "Managing Partner"
+ },
+ "jennifer w.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Initialized Capital",
+  "title": null
+ },
+ "livingston miller": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Initialized Capital",
+  "title": "General Counsel & Chief Business Officer"
+ },
+ "todd dagres": {
+  "city": "Miami Beach",
+  "metro": "Miami Beach",
+  "company": "Spark Capital",
+  "title": "Founder and General Partner"
+ },
+ "paul conway": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Spark Capital",
+  "title": "General Partner Emeritus"
+ },
+ "jeff doran, cfa": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Spark Capital",
+  "title": "General Partner & Head of Investor Relations"
+ },
+ "alexa lyons": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Spark Capital",
+  "title": "CFO and General Partner"
+ },
+ "diana berisha": {
+  "city": null,
+  "metro": "United States",
+  "company": "Spark Capital",
+  "title": "General Counsel"
+ },
+ "meera venkatramanan": {
+  "city": "Chennai",
+  "metro": "Chennai",
+  "company": "Spark Capital",
+  "title": "Compliance Officer"
+ },
+ "crystal peng": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Union Square Ventures",
+  "title": "Partner"
+ },
+ "nick grossman": {
+  "city": null,
+  "metro": "United States",
+  "company": "Union Square Ventures",
+  "title": "General Partner"
+ },
+ "the librarian": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Chief AI Officer"
+ },
+ "samson mesele": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Union Square Ventures",
+  "title": "Global Technology Group"
+ },
+ "brittany laughlin": {
+  "city": "Paris",
+  "metro": "Paris",
+  "company": "Union Square Ventures",
+  "title": "Chairperson of the Board"
+ },
+ "matthew lefkowitz": {
+  "city": "Ann Arbor",
+  "metro": "Ann Arbor",
+  "company": "Insight Partners",
+  "title": "Vice President of Financial Planning Analysis"
+ },
+ "gary survis": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Operating Partner - AI Transformation"
+ },
+ "ian sandler": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Chief Operating Officer"
+ },
+ "julian marcu": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "connor guess": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "eugenia (bejar) lustgarten": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "rachel harkins": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Insight Partners",
+  "title": "Vice President"
+ },
+ "jessica livingston": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Co-Founder"
+ },
+ "cindy li": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Group CFO"
+ },
+ "li xiaolin": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Group CFO"
+ },
+ "li cindy": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Group CFO"
+ },
+ "hiu lam li": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Group CFO"
+ },
+ "wat atwork": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Y Combinator",
+  "title": "Group CFO"
+ },
+ "yandri tuarez": {
+  "city": null,
+  "metro": "United States",
+  "company": "Y Combinator",
+  "title": "Group CFO"
+ },
+ "anna li": {
+  "city": null,
+  "metro": "United States",
+  "company": "Y Combinator",
+  "title": "VP Finance and Operations"
+ },
+ "tj nahigian": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "Co-Founder & Managing Partner"
+ },
+ "laura weidman powers": {
+  "city": "Brooklyn",
+  "metro": "NYC",
+  "company": "Base10 Partners",
+  "title": "Operating Partner"
+ },
+ "anna torraca": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "Chief Operating Officer"
+ },
+ "aaron hinz": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Base10 Partners",
+  "title": "Chief Financial Officer"
+ },
+ "jake medwell": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "8VC",
+  "title": "Co-Founder and Partner"
+ },
+ "drew oetting": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "8VC",
+  "title": "Founder"
+ },
+ "alex kolicich": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Founding Partner"
+ },
+ "ian m. shannon": {
+  "city": "Washington",
+  "metro": "Washington",
+  "company": "8VC",
+  "title": "General Counsel"
+ },
+ "jacob m.": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "8VC",
+  "title": "Build Executive"
+ },
+ "stephen c.": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "8VC",
+  "title": "CFO"
+ },
+ "asanka jayasuriya": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "8VC",
+  "title": "CTO"
+ },
+ "karen white": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Executive Partner"
+ },
+ "mitch parker": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Executive in Residence"
+ },
+ "sallie kim": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "8VC",
+  "title": "Chief Compliance Officer & Chief Regulatory Counsel"
+ },
+ "john w.": {
+  "city": "Atherton",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Advisor"
+ },
+ "chris moore": {
+  "city": "Hilton Head Island",
+  "metro": "Hilton Head Island",
+  "company": "Redpoint",
+  "title": "Partner"
+ },
+ "jeff brody": {
+  "city": "Atherton",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Partner"
+ },
+ "carrie rule": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "VP Finance"
+ },
+ "brad jones": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Redpoint",
+  "title": "Founder and Advisory Partner"
+ },
+ "lars pedersen": {
+  "city": "Washington",
+  "metro": "Washington",
+  "company": "Redpoint",
+  "title": "Partner, CFO"
+ },
+ "travis bryant": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Operating Partner"
+ },
+ "atli thorkelsson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "VP of Talent Network"
+ },
+ "jordan segall": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Partner"
+ },
+ "urvashi barooah": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Redpoint",
+  "title": "Partner"
+ },
+ "zack willis": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "SVP, Technology"
+ },
+ "cack wilhelm": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "General Partner"
+ },
+ "christopher esqueda": {
+  "city": "San Mateo",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Senior Vice President of Finance"
+ },
+ "leslie schuster stolper": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "VP, Legal and Compliance"
+ },
+ "alexandria simcox (chatt)": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "IVP",
+  "title": "Vice President, Capital Formation"
+ },
+ "wolf m.": {
+  "city": null,
+  "metro": "United States",
+  "company": "ICONIQ",
+  "title": "Senior Vice President"
+ },
+ "michael anders": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Founding Partner"
+ },
+ "lindzey dau": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Senior Vice President, Relationship Manager"
+ },
+ "molly duffey ahrabian": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Managing Director, Family Office Advisory"
+ },
+ "siobhan daly": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "ICONIQ",
+  "title": "Vice President, Operations"
+ },
+ "tom ngo, cfp®": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Chief Operating Officer"
+ },
+ "sabina johnston": {
+  "city": null,
+  "metro": "United States",
+  "company": "ICONIQ",
+  "title": "Corporate Controller"
+ },
+ "christopher moy": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Senior Vice President"
+ },
+ "erica hewitt": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "ICONIQ",
+  "title": "Vice President"
+ },
+ "philippe laffont": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Coatue",
+  "title": "Founder & Portfolio Manager"
+ },
+ "thomas laffont": {
+  "city": "Beverly Hills",
+  "metro": "Beverly Hills",
+  "company": "Coatue",
+  "title": "Co-Founder"
+ },
+ "parag jain": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Coatue",
+  "title": "Chief Technology Officer"
+ },
+ "erik lam": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Coatue",
+  "title": "Chief Relationship Officer"
+ },
+ "kai jiang": {
+  "city": "Hong Kong",
+  "metro": "Hong Kong",
+  "company": "Coatue",
+  "title": "Senior MD (Asia tech & Consumer)"
+ },
+ "bofei han": {
+  "city": "Hong Kong",
+  "metro": "Hong Kong",
+  "company": "Coatue",
+  "title": "Vice President"
+ },
+ "dan rose": {
+  "city": "Kawaihae",
+  "metro": "Kawaihae",
+  "company": "Coatue",
+  "title": "Chairman"
+ },
+ "rebecca schein (basloe)": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Coatue",
+  "title": "VP of Data Acquisition and Strategy"
+ },
+ "rebecca (basloe) schein": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Coatue",
+  "title": "VP of Data Acquisition and Strategy"
+ },
+ "caryn marooney": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Coatue",
+  "title": "General Partner"
+ },
+ "joshua kushner": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Founder"
+ },
+ "nabil mallick": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Partner"
+ },
+ "katie josephson": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Partner"
+ },
+ "yashoda clark": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Vice President"
+ },
+ "ashwin budhiraja": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Partner, Chief Financial Officer"
+ },
+ "jed feldman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Partner, Chief Legal Officer, and Chief People Officer"
+ },
+ "katie crumbaugh": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Deputy Chief Legal Officer"
+ },
+ "tessa schneider": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "VP, People"
+ },
+ "sam ungerleider": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Thrive Capital",
+  "title": "Chief of Staff"
+ },
+ "patrick l.": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Greenoaks",
+  "title": "Chief Financial Officer/Partner"
+ },
+ "anna zhang": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Vice President of Investor Relations"
+ },
+ "lindsey keenan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Greenoaks",
+  "title": "Chief Compliance Officer, Associate Counsel"
+ },
+ "kara gula mccrossan": {
+  "city": "Philadelphia",
+  "metro": "Philadelphia",
+  "company": "Greenoaks",
+  "title": "Head of Investor Relations and Capital Formation"
+ },
+ "svetlana titkova": {
+  "city": "Boca Raton",
+  "metro": "Boca Raton",
+  "company": "Greenoaks",
+  "title": null
+ },
+ "david wilkinson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greenoaks",
+  "title": "Chief Compliance Officer"
+ },
+ "angela d. mccray": {
+  "city": null,
+  "metro": "United States",
+  "company": "Greenoaks",
+  "title": "General Counsel & Chief Compliance Officer"
+ },
+ "svetlana titkova, ms": {
+  "city": "Alpharetta",
+  "metro": "Alpharetta",
+  "company": "Greenoaks",
+  "title": "Founder & Therapist"
+ },
+ "martial charbon": {
+  "city": "Lausanne",
+  "metro": "Lausanne",
+  "company": "TCV",
+  "title": "Directeur général"
+ },
+ "rick kimball": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "jake reynolds": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "ric fenton": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "woody marshall": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "amol helekar": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "tim mcadam": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "General Partner"
+ },
+ "john delfino": {
+  "city": "Menlo Park",
+  "metro": "SF",
+  "company": "TCV",
+  "title": "Partner - General Counsel"
+ },
+ "roger lee": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "jesse feldman": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "chelsea stoner": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Battery Ventures",
+  "title": "General Partner"
+ },
+ "lizette perez-deisboeck": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "Chief Compliance Officer"
+ },
+ "michael hoeksema": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Battery Ventures",
+  "title": "Vice President"
+ },
+ "dawit workie": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "Vice President"
+ },
+ "maximilian jessen": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Battery Ventures",
+  "title": "Vice President"
+ },
+ "roe stamps": {
+  "city": "Miami",
+  "metro": "Miami",
+  "company": "Summit Partners",
+  "title": "Cofounder and Senior Advisor"
+ },
+ "stephen g. woodsum": {
+  "city": "Monroe County, Florida",
+  "metro": "Monroe County, Florida",
+  "company": "Summit Partners",
+  "title": "Co Founder"
+ },
+ "gavin turner": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Summit Partners",
+  "title": "Vice President, Senior Associate, Associate"
+ },
+ "debby lower": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Summit Partners",
+  "title": "Vice President, Administration"
+ },
+ "adam hennessey": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Summit Partners",
+  "title": "Chief Financial Officer"
+ },
+ "adam h.": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Summit Partners",
+  "title": "Chief Financial Officer"
+ },
+ "susan barr": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Summit Partners",
+  "title": "Vice President Marketing"
+ },
+ "steve maher": {
+  "city": "London",
+  "metro": "LON",
+  "company": "Summit Partners",
+  "title": "VP of IT, Europe"
+ },
+ "erin white": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Summit Partners",
+  "title": "Chief Compliance Officer"
+ },
+ "lindsi kimizuka": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Summit Partners",
+  "title": "Vice President - Product"
+ },
+ "chris taylor": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Chief Growth Officer"
+ },
+ "gomathi ramalingam": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Principal, Data"
+ },
+ "alexa t.": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "BizOps and Strategy"
+ },
+ "rachel schow": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Left Lane Capital",
+  "title": "Board"
+ },
+ "georgia forbes": {
+  "city": null,
+  "metro": "LON",
+  "company": "Left Lane Capital",
+  "title": "Principal"
+ },
+ "david hodgson": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Vice Chairman"
+ },
+ "bill ford": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Chairman & Chief Executive Officer"
+ },
+ "brian walsh": {
+  "city": "Stratford",
+  "metro": "Stratford",
+  "company": "General Atlantic",
+  "title": "Vice President - Finance"
+ },
+ "christopher lanning": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director and Chief Legal Officer"
+ },
+ "richard gold": {
+  "city": "Greenwich",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Senior Vice President"
+ },
+ "manoj purohit": {
+  "city": "Mumbai",
+  "metro": "Mumbai",
+  "company": "General Atlantic",
+  "title": "Vice President Finance"
+ },
+ "mec kot": {
+  "city": null,
+  "metro": "China",
+  "company": "General Atlantic",
+  "title": "Senior Vice President"
+ },
+ "kelly pettit": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "General Atlantic",
+  "title": "Managing Director, Associate General Counsel, Chief Complince Officer"
+ },
+ "martín escobari": {
+  "city": null,
+  "metro": "United States",
+  "company": "General Atlantic",
+  "title": "Co-President"
+ },
+ "chase coleman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Founder"
+ },
+ "john t.": {
+  "city": "United States",
+  "metro": "United States",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "theo muhumuza": {
+  "city": "Atlanta",
+  "metro": "Atlanta",
+  "company": "Tiger Global",
+  "title": "General Partner"
+ },
+ "griffin schroeder": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "pengfei wang": {
+  "city": null,
+  "metro": "Hong Kong",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "william winkenwerder": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "gideon shiffman": {
+  "city": null,
+  "metro": "United States",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "zaahid khan": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Tiger Global",
+  "title": "Partner"
+ },
+ "glenn ormsby": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Addition",
+  "title": "Chief Financial Officer"
+ },
+ "zander lurie": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Addition",
+  "title": "Operating Partner"
+ },
+ "henry mccance": {
+  "city": "Waltham",
+  "metro": "BOS",
+  "company": "Greylock",
+  "title": "Chairman Emeritus"
+ },
+ "allie dalglish": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Operating Partner"
+ },
+ "cyrus pinto": {
+  "city": "Mountain View",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Vice President, CXO Program"
+ },
+ "manuel bernal": {
+  "city": "San Mateo",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "VP of Technology"
+ },
+ "tom levey": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Executive in Residence"
+ },
+ "kerry buckley": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Greylock",
+  "title": "VP of Data Platforms"
+ },
+ "joe sexton": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Greylock",
+  "title": "Chairman of the Board"
+ },
+ "michael korcuska": {
+  "city": "Paris",
+  "metro": "Paris",
+  "company": "Greylock",
+  "title": "Head of Product Management"
+ },
+ "rob ward": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Co-founder and General Partner"
+ },
+ "veronica santana": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Senior VP of Finance"
+ },
+ "alex c.": {
+  "city": null,
+  "metro": "United States",
+  "company": "Meritech",
+  "title": "General Partner"
+ },
+ "stephanie parr": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "General Counsel"
+ },
+ "andrew heck": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "Chief Operating Officer & Chief Financial Officer"
+ },
+ "arsham memarzadeh": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": "General Partner"
+ },
+ "mike gordon": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Meritech",
+  "title": null
+ },
+ "andrew cleverdon": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "CFO"
+ },
+ "merritt hummer": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Partner"
+ },
+ "rak garg": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Partner"
+ },
+ "michael chagnon": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Vice President"
+ },
+ "rick gross": {
+  "city": "Tampa",
+  "metro": "Tampa",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Chief Customer Service Officer"
+ },
+ "amelia mango": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Senior Director of Marketing"
+ },
+ "frank f. britt": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Senior Partner"
+ },
+ "jeff schwartz": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Managing Partner"
+ },
+ "ben holzman": {
+  "city": "Park City",
+  "metro": "Park City",
+  "company": "Bain Capital Ventures (BCV)",
+  "title": "Venture Guide"
+ },
+ "camila li": {
+  "city": "Los Angeles",
+  "metro": "Los Angeles",
+  "company": "Salesforce Ventures",
+  "title": "CTO"
+ },
+ "paul drews": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Salesforce Ventures",
+  "title": "Managing Partner"
+ },
+ "shinji asada": {
+  "city": "Tokyo",
+  "metro": "Tokyo",
+  "company": "Salesforce Ventures",
+  "title": "Co-founder & CEO, Projection"
+ },
+ "khushboo patel": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Salesforce Ventures",
+  "title": "Head of Technical Accounting - M&A and Investments"
+ },
+ "kate roberts": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "BOND",
+  "title": "Chief Financial Officer"
+ },
+ "william wnekowicz": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "BOND",
+  "title": null
+ },
+ "scott b.": {
+  "city": "Italy",
+  "metro": "Italy",
+  "company": "Lead Edge Capital",
+  "title": "Founder & Special Advisor"
+ },
+ "jim schneider": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Lead Edge Capital",
+  "title": "Operating Partner"
+ },
+ "lorrie norrington": {
+  "city": null,
+  "metro": "United States",
+  "company": "Lead Edge Capital",
+  "title": "Operating Partner"
+ },
+ "paul bell": {
+  "city": "Austin",
+  "metro": "Austin",
+  "company": "Lead Edge Capital",
+  "title": "Operating Partner"
+ },
+ "nicholas jones": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Vice President, Public Markets"
+ },
+ "michael sutter": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Vice President"
+ },
+ "michaela balderston": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Chief Communications Officer"
+ },
+ "josh zirman": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Lead Edge Capital",
+  "title": "Vice President"
+ },
+ "ken fox 💥": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Founder and Partner"
+ },
+ "margaret barrientos": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Chief Compliance Officer & Director, Finance"
+ },
+ "brigitte kleine": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Operating Partner"
+ },
+ "sharon rothstein": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Operating Partner"
+ },
+ "marco lorenzon": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Vice President"
+ },
+ "paul melchiorre": {
+  "city": "Philadelphia",
+  "metro": "Philadelphia",
+  "company": "Stripes",
+  "title": "Operating Partner"
+ },
+ "oliver chernyk": {
+  "city": "New York",
+  "metro": "NYC",
+  "company": "Stripes",
+  "title": "Vice President"
+ },
+ "julie herendeen": {
+  "city": "Palo Alto",
+  "metro": "SF",
+  "company": "Stripes",
+  "title": "Operating Partner"
+ },
+ "scott aronson": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Stripes",
+  "title": "Operating Partner"
+ },
+ "sean cantwell": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Co-Founder and Managing Partner"
+ },
+ "christopher fahey": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "SVP of Talent & HR"
+ },
+ "melanie jordan": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Vice President"
+ },
+ "michael wilkens": {
+  "city": "Suffolk County",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Chief Financial Officer"
+ },
+ "steve shaffer": {
+  "city": "Minneapolis",
+  "metro": "Minneapolis",
+  "company": "Volition Capital",
+  "title": "Operating Partner"
+ },
+ "tiger henderson": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Vice President"
+ },
+ "pete lamson": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Chief Operating Officer and Head of Portfolio Operations"
+ },
+ "emily pawlak": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Vice President"
+ },
+ "marie epstein": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Volition Capital",
+  "title": "Principal"
+ },
+ "marc stad": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Founder and Managing Partner"
+ },
+ "michael dimitruk": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Chief Operating Officer"
+ },
+ "erin schneider": {
+  "city": null,
+  "metro": "United States",
+  "company": "Dragoneer Investment Group",
+  "title": "Chief Compliance Officer and Deputy General Counsel"
+ },
+ "chris metzcus": {
+  "city": "Burlingame",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "VP of Technology"
+ },
+ "susan grant": {
+  "city": null,
+  "metro": "United States",
+  "company": "Dragoneer Investment Group",
+  "title": "Director, Technology Growth Investing"
+ },
+ "jaq bernhelm": {
+  "city": "San Francisco",
+  "metro": "SF",
+  "company": "Dragoneer Investment Group",
+  "title": "Product Leader, Business AI"
+ },
+ "carlos o.": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Senior Vice President, HCM Operations & Analytics"
+ },
+ "carlos oñate jr": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Senior Vice President, HCM Operations & Analytics"
+ },
+ "tomás olalde pablos": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Senior Vice President"
+ },
+ "liza konovalova": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Senior Vice President"
+ },
+ "paul spetrini": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Senior Vice President, Valuation & Strategic Analysis"
+ },
+ "zoé lintz": {
+  "city": "London",
+  "metro": "LON",
+  "company": "PSG",
+  "title": "Vice President"
+ },
+ "alex glavan": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Senior Vice President"
+ },
+ "ajay chinni": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "PSG",
+  "title": "Vice President"
+ },
+ "lizzy acock": {
+  "city": "Kansas City",
+  "metro": "Kansas City",
+  "company": "PSG",
+  "title": "Senior Vice President"
+ },
+ "anne z. hawkins": {
+  "city": "Nashville",
+  "metro": "Nashville",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "ryan o'malley": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "ben warner": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "ben lopez": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "john dwyer": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Managing Director, Chief Financial Officer and Chief Compliance Officer"
+ },
+ "brian isaac": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "tucker albert": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Vice President"
+ },
+ "atle skalleberg": {
+  "city": "Boston",
+  "metro": "BOS",
+  "company": "Great Hill Partners",
+  "title": "Growth Partner (Operating Partner)"
+ }
+}
