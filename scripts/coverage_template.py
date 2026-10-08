@@ -746,6 +746,11 @@ body.mkmode{cursor:crosshair}
 .cmdetn{font-size:17px;font-weight:700}
 .cmdett{margin-top:4px}
 .cmego{max-width:520px}
+.cmmapwrap.full #cmsvg{height:calc(100vh - 252px);min-height:520px}
+.cmpanel.float{position:absolute;top:12px;right:12px;width:332px;max-height:calc(100% - 24px);
+  overflow-y:auto;background:rgba(252,251,246,.96);box-shadow:0 8px 26px rgba(0,0,0,.1);z-index:3}
+.cmexpl{line-height:1.5;margin:8px 0 2px}
+@media(max-width:1000px){ .cmpanel.float{position:static;width:auto;max-height:none;margin-top:10px;box-shadow:none} }
 .cmmapwrap{position:relative;background:var(--surface);border:1px solid var(--hair);border-radius:14px;overflow:hidden}
 #cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px}
 .cmpanel{flex:none;width:360px;background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px;overflow-y:auto;max-height:calc(100vh - 230px)}
@@ -1643,17 +1648,17 @@ function apMap(){
   const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
   let main;
   if(MAP.ent) main=cmDetail(me);
-  else if(isMapLvl) main=`<div class="cmmapwrap"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}</div>`;
+  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div></div>`;
   else main=`<div class="cmcards">${cmCards(me)}</div>${cmAffCards(me)}${cmPeopleIn(me)}`;
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
 
     </div>
     ${cmLegend(me)}
-    <div class="cmflex">
+    ${(isMapLvl&&!MAP.ent)?main:`<div class="cmflex">
       <div class="cmmain">${main}</div>
       <div class="cmpanel" id="cmpanel">${cmPanel(me)}</div>
-    </div>`;
+    </div>`}`;
 }
 function cmSvg(me){
   const nordic=new Set(CM.nordics);
@@ -1757,6 +1762,15 @@ function cmDetail(me){
       <div class="cmfm">${e.city||'—'} · ${e.cat||e.kind}${e.fs?' · '+e.fs:''} · opportunity <b>${Math.round(cmOpp(e,me))}</b> · team <b>${Math.round(e.CT)}</b>${me?` · you <b style="color:${CMTIER(u.cu)}">${Math.round(u.cu)}</b>`:''}</div>
       <div class="cmwhy">${cmWhy(e,me)}</div>
     </div></div>
+    ${e.dfl&&e.dfl.length?`<div class="apsec">Recent investments</div>
+      ${e.dfl.map(d=>`<div class="dpli"><span class="nm">${d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.fu?`in our pipeline: ${d.fu}`:null].filter(Boolean).join(' · ')}</span></div>`).join('')}`:''}
+    ${e.pipe&&Object.keys(e.pipe).length?`<div class="apsec">Our pipeline with them</div>
+      ${(typeof BUCKETS!=='undefined'?[...BUCKETS,['portfolio','Portfolio']]:[]).map(([bk,label])=>{
+        const v=e.pipe[bk]; if(!v||!v.length) return '';
+        return `<div class="dpli"><span class="chip ${bk}"><b>${v.length}</b> ${label}</span><span class="how">${v.map(co=>co.o.includes(me)?`<b>${co.n}</b>`:co.n).join(' · ')}</span></div>`;
+      }).join('')}
+      ${me?`<div class="dtsub">Bold = on your own book.</div>`:''}`:''}
+    <div class="apsec">People</div>
     <table class="nettab cmdett"><thead><tr><th>You</th><th>Name</th><th>Role</th><th>Team best</th><th>Last touch</th></tr></thead>
     <tbody>${rows||`<tr><td colspan="5" class="lt" style="padding:12px">No contacts mapped yet — coverage 0 by construction.</td></tr>`}</tbody></table>
     ${cmEgo(e,me)}
@@ -1805,6 +1819,7 @@ function cmPanel(me){
     const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:null;
     return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of Nordic opportunity; the team covers <b>${a.covT}%</b>.`:`The team covers <b>${a.covT}%</b> of Nordic opportunity.`} Other regions go live in M2.</div>
       ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
+      <div class="dtsub cmexpl">The % = how strongly you hold the funds that matter here, weighted by how much each one matters. 100% would mean a strong, senior door into every fund that drives deal flow — knowing a few small funds well moves it less than one big gap closed.</div>
       <div class="apsec">Where to spend time</div>${cmTop5(me,cmVisible(me))}`;
   }
   if(MAP.lvl==='l1'){
@@ -1814,6 +1829,7 @@ function cmPanel(me){
     const bcov=who&&A[biggest].u[who]?A[biggest].u[who].covu:0;
     return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of the Nordics (team ${a.covT}%).`:`Team covers <b>${a.covT}%</b> of the Nordics.`} ${CM.ccName[biggest]} is ${share}% of the opportunity${who?` and you cover ${bcov}% of it`:''}.</div>
       ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
+      <div class="dtsub cmexpl">The % weighs each fund by how much it matters: closing one big gap (EQT Ventures) moves it far more than knowing several small funds.</div>
       <div class="apsec">Where to spend time</div>${cmTop5(me,cmVisible(me))}`;
   }
   const cc=MAP.cc, a=A[cc]||{covT:0,u:{}};
@@ -1904,6 +1920,16 @@ function mapBind(body){
     const up=()=>{ drag=null; setTimeout(()=>{mapBind._dragged=false;},50); };
     svg.addEventListener('pointerup',up); svg.addEventListener('pointercancel',up);
     svg.style.cursor='grab';
+    svg.addEventListener('wheel',ev=>{   // ctrl+scroll (and trackpad pinch) zooms, like any map
+      if(!ev.ctrlKey) return;
+      ev.preventDefault();
+      const vb=svg.getAttribute('viewBox').split(' ').map(Number);
+      const L0=CM.vb.l0, k=Math.exp(ev.deltaY*0.002);
+      const nw=Math.min(Math.max(vb[2]*k, L0[2]/16), L0[2]*1.8), nh=vb[3]*(nw/vb[2]);
+      const r=svg.getBoundingClientRect();
+      const px=vb[0]+(ev.clientX-r.left)/r.width*vb[2], py=vb[1]+(ev.clientY-r.top)/r.height*vb[3];
+      svg.setAttribute('viewBox', `${px-(px-vb[0])*(nw/vb[2])} ${py-(py-vb[1])*(nh/vb[3])} ${nw} ${nh}`);
+    },{passive:false});
   }
   const hov=body.querySelector('#cmhover');
   if(hov) body.querySelectorAll('g[data-cment],g[data-cmcc2]').forEach(g=>{

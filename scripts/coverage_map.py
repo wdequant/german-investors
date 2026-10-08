@@ -21,6 +21,8 @@ EURO_BG = ["Germany", "Austria", "Switzerland", "France", "Netherlands", "Belgiu
            "Hungary", "Slovakia", "Slovenia", "Croatia", "Bulgaria", "Serbia",
            "Bosnia and Herz.", "Albania", "North Macedonia", "Ukraine", "Belarus",
            "Moldova", "Montenegro", "Kosovo"]
+EXTRA_BG = ["Greenland", "Turkey", "Morocco", "Algeria", "Tunisia", "Libya", "Egypt",
+            "Israel", "Lebanon", "Jordan", "Syria", "Cyprus", "Georgia", "Armenia", "Azerbaijan", "Iraq"]
 REGIONS = [  # L0 bubbles; only nordics is live in M1
     {"id": "nordics", "name": "Nordics", "ll": (16.0, 62.5), "active": True},
     {"id": "dach", "name": "DACH", "ll": (10.8, 48.8)},
@@ -108,17 +110,19 @@ def _decode_topo(topo, names):
     return res
 
 
-def _keep_ring(r):
+def _keep_ring(r, loose=False):
     """Drop overseas territories and Svalbard so Europe fills the frame."""
     lon = sum(p[0] for p in r) / len(r)
     lat = sum(p[1] for p in r) / len(r)
+    if loose:
+        return -75 <= lon <= 55 and 18 <= lat <= 85
     return -26 <= lon <= 45 and 34 <= lat <= 71.5
 
 
-def _path(rings, proj):
+def _path(rings, proj, loose=False):
     out = []
     for r in rings:
-        if len(r) < 4 or not _keep_ring(r):
+        if len(r) < 4 or not _keep_ring(r, loose):
             continue
         pts = [proj.px(lon, lat) for lon, lat in r]
         # light simplification: skip points closer than 0.7px to the last kept one
@@ -181,6 +185,7 @@ def build_covmap(regions, mynet, roster, load_json):
     topo = json.load(open(topo_path))
     names = set(CC_NAME.values()) | set(EURO_BG)
     shapes = _decode_topo(topo, names)
+    extra_shapes = _decode_topo(topo, set(EXTRA_BG))
 
     # fit projection to the shapes we keep, centred in the frame
     p0 = _Proj(1.0, 0.0, 0.0)
@@ -206,6 +211,10 @@ def build_covmap(regions, mynet, roster, load_json):
         else:
             ent["bg"] = 1
         countries.append(ent)
+    for nm, rings in extra_shapes.items():   # world context beyond the frame; visible when zooming out/panning
+        d = _path(rings, proj, loose=True)
+        if d:
+            countries.append({"d": d, "bg": 1})
 
     # viewboxes per level, padded
     def vb(x0, y0, x1, y1, pad):
@@ -300,7 +309,13 @@ def build_covmap(regions, mynet, roster, load_json):
                         pu[u] = pu.get(u, 0) + wgt
         for u, v in pu.items():
             pu_raws[u].append(v)
+        _dfl = [{"n": _d7.get("name"), "r": (_d7.get("round") or "").replace("_", " ").title(),
+                 "d": _d7.get("date"), "fu": _d7.get("funnel")} for _d7 in (e.get("dealflow") or [])[:6]]
+        _pipe = {bk: [{"n": co.get("name"), "o": [u for u in (co.get("own") or []) if u in roster]}
+                      for co in v[:8]]
+                 for bk, v in (e.get("buckets") or {}).items() if v}
         ents.append({
+            "dfl": _dfl, "pipe": _pipe,
             "slug": e["slug"], "name": e["name"], "kind": e["kind"],
             "cat": e.get("category"), "tier": e.get("tier"),
             "city": city_raw or None, "cc": cc, "tray": tray or None,
