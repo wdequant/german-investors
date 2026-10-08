@@ -225,6 +225,14 @@ def _pctile(vals):
 
 def build_covmap(regions, mynet, roster, load_json):
     pm = load_json(f"{ROOT}/data/enrich/person-meta.json", {}) or {}
+    _EMPF = load_json(f"{ROOT}/data/enrich/employment-flags.json", {}) or {}
+    # stage focus per curated fund (uk-funds for the UK; fund-meta for firms it knows)
+    _FS_BY_SLUG = {}
+    _ukf = load_json(f"{ROOT}/data/enrich/uk-funds.json", {}) or {}
+    _uksm = load_json(f"{ROOT}/data/uk/slug-map.json", {}) or {}
+    for _d12, _m12 in _ukf.items():
+        if _uksm.get(_d12) and _m12.get("stage"):
+            _FS_BY_SLUG[_uksm[_d12]] = _m12["stage"]
     topo_path = TOPO if os.path.exists(TOPO) else TOPO_FALLBACK
     topo = json.load(open(topo_path))
     shapes = _decode_topo(topo, None)   # the whole world
@@ -352,10 +360,13 @@ def build_covmap(regions, mynet, roster, load_json):
         _NETJUNK = re.compile(r"assistant|office manager|recruiter|reception|counsel|legal"
                               r"|head of finance|chief financial|people|talent|marketing"
                               r"|platform|community|comms|press", re.I)
+        _empf7 = ((_EMPF.get(_rgid) or {}).get(e["slug"]) or {})
         for _nr in (e.get("net") or []):
             _nm7 = _nr.get("n")
             if not _nm7 or (pm.get(_nm7.lower()) or {}).get("inv") is False:
                 continue
+            if (_empf7.get(_nm7) or {}).get("status") == "moved":
+                continue   # left this fund (Harmonic-verified): not a door into it
             if _nr.get("t") and _NETJUNK.search(_nr["t"]):
                 continue
             for _u7, _srcs7 in (_nr.get("via") or {}).items():
@@ -414,6 +425,7 @@ def build_covmap(regions, mynet, roster, load_json):
         ents.append({
             "dfl": _dfl, "pipe": _pipe, "dom": _dom or None,
             "slug": e["slug"], "name": e["name"], "kind": e["kind"],
+            "fs": _FS_BY_SLUG.get(e["slug"]),
             "cat": e.get("category"), "tier": e.get("tier"),
             "city": city_raw or None, "cc": cc, "rg": _rgid, "tray": tray or None,
             "rel": (e.get("relevance") or {}).get("total") or 0,
@@ -777,7 +789,8 @@ def _sr_from_title(title):
     t = (title or "").lower()
     if not t:
         return None
-    if any(k in t for k in ("partner", "managing director", "head of", "chief", "founder", "cio", "ceo")):
+    if (any(k in t for k in ("partner", "managing director", "head of", "chief", "founder", "cio", "ceo"))
+            or re.search(r"\bgp\b", t)):
         return "Partner"
     if any(k in t for k in ("principal", "director", "vice president", " vp", "vp ", "investment manager", "lead")):
         return "Director"

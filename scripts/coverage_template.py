@@ -1853,7 +1853,22 @@ function cmCountryPage(me){
     }).join('')}`;
   }).join('');
   const allN=cmEnts().filter(e=>e.cc===cc).length+(CM.aff||[]).filter(e=>e.cc===cc).length;
-  return `<div class="cmhead">${CM.ccName[cc]}: you are <b>${qu}</b> here, the team is ${qt}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.</div>
+  // stage shape: one honest sentence when the viewer's early vs growth coverage diverge hard
+  const stageLine=(()=>{
+    if(!me) return '';
+    const bucket=f=>/early|seed/i.test(f||'')?'e':/growth|late/i.test(f||'')?'g':null;
+    const agg={e:[0,0,0],g:[0,0,0]};
+    cmEnts().filter(e=>e.cc===cc&&!e.rm&&e.fs).forEach(x=>{
+      const b=bucket(x.fs); if(!b) return;
+      agg[b][0]+=x.O*((x.cu||{})[me]||0); agg[b][1]+=x.O; agg[b][2]++;
+    });
+    if(agg.e[2]<3||agg.g[2]<3) return '';
+    const ce=agg.e[0]/agg.e[1], cg=agg.g[0]/agg.g[1];
+    if(cg-ce>=25) return ` At the growth funds here you are <b>${cmQualU(cg)[0]}</b> — the gap is early-stage volume.`;
+    if(ce-cg>=25) return ` Your strength here is early-stage — the gap is the growth funds.`;
+    return '';
+  })();
+  return `<div class="cmhead">${CM.ccName[cc]}: you are <b>${qu}</b> here, the team is ${qt}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>
     <div class="cmv2grid">
       <div>
         ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
