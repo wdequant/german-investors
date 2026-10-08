@@ -391,8 +391,11 @@
   "company": "HV"
  },
  "alexander klingensjo": {
-  "inv": null,
-  "company": "SEB Venture Capital"
+  "inv": true,
+  "company": "SEB Venture Capital",
+  "title": "Vice President",
+  "city": "Stockholm",
+  "src": "harmonic"
  },
  "alexander leichter": {
   "inv": null,
@@ -1699,8 +1702,11 @@
   "company": "The Social Gaming Group"
  },
  "carl fritjofsson": {
-  "inv": null,
-  "company": "Creandum"
+  "inv": true,
+  "company": "Creandum",
+  "title": "General Partner",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "carla": {
   "inv": true,
@@ -1845,8 +1851,11 @@
   "company": "Alven"
  },
  "charles martin": {
-  "inv": null,
-  "company": "Kinnevik"
+  "inv": true,
+  "company": "Kinnevik",
+  "title": "AI Natives Lead",
+  "city": "United Kingdom",
+  "src": "harmonic"
  },
  "charles miele": {
   "inv": true,
@@ -2336,8 +2345,10 @@
   "company": "Left Lane Capital"
  },
  "cv": {
-  "inv": null,
-  "company": "Founderment"
+  "inv": false,
+  "company": "Founderment",
+  "src": "harmonic-sweep",
+  "note": "junk name, not a person"
  },
  "daisey hearne": {
   "inv": null,
@@ -3733,12 +3744,18 @@
   "company": "Columbia Lake Partners"
  },
  "hampus appelgren": {
-  "inv": null,
-  "company": "SEB Venture Capital"
+  "inv": true,
+  "company": "SEB Venture Capital",
+  "title": "Managing Director - Corporate Finance",
+  "city": "Stockholm",
+  "src": "harmonic"
  },
  "hampus ljunglof": {
-  "inv": null,
-  "company": "SEB Venture Capital"
+  "inv": true,
+  "company": "SEB Venture Capital",
+  "title": "Corporate Finance Analyst",
+  "city": "Stockholm",
+  "src": "harmonic"
  },
  "hanna lewis": {
   "inv": true,
@@ -4104,8 +4121,11 @@
   "company": "Greyhound Capital"
  },
  "ingrid åkerlind": {
-  "inv": null,
-  "company": "Oxx"
+  "inv": true,
+  "company": "Oxx",
+  "title": "Principal",
+  "city": "Stockholm",
+  "src": "harmonic"
  },
  "ioana iacobescu": {
   "inv": true,
@@ -4794,8 +4814,11 @@
   "company": "byFounders"
  },
  "johanna grytli": {
-  "inv": null,
-  "company": "SEB Venture Capital"
+  "inv": true,
+  "company": "SEB Venture Capital",
+  "title": "Corporate Finance Growth",
+  "city": "Stockholm",
+  "src": "harmonic"
  },
  "johannes hausmann": {
   "inv": true,
@@ -5805,8 +5828,10 @@
   "company": "Elaia"
  },
  "localglobe x creandum day zero drinks": {
-  "inv": null,
-  "company": "Creandum"
+  "inv": false,
+  "company": "Creandum",
+  "src": "harmonic-sweep",
+  "note": "event listing, not a person"
  },
  "logan bartlett": {
   "inv": true,
@@ -6621,8 +6646,11 @@
   "company": "Entrepreneur First"
  },
  "max niederhofer": {
-  "inv": null,
-  "company": "Heartcore"
+  "inv": true,
+  "company": "Heartcore",
+  "title": "Partner",
+  "city": "Austin",
+  "src": "harmonic"
  },
  "maxim frenkel": {
   "inv": true,
@@ -6669,8 +6697,11 @@
   "company": "Verdane"
  },
  "maxine rior": {
-  "inv": null,
-  "company": "Northzone"
+  "inv": true,
+  "company": "Northzone",
+  "title": "Building something new",
+  "city": "Sweden",
+  "src": "harmonic"
  },
  "mbreiner": {
   "inv": true,
@@ -7118,8 +7149,11 @@
   "company": "Index Ventures"
  },
  "natalie tydeman": {
-  "inv": null,
-  "company": "Kinnevik"
+  "inv": true,
+  "company": "Kinnevik",
+  "title": "Board Member, Chair of Audit Committee",
+  "city": "Greater London, England",
+  "src": "harmonic"
  },
  "natasha lopez": {
   "inv": false,
@@ -8617,7 +8651,8 @@
  "sanjot malhi": {
   "inv": true,
   "title": "Partner",
-  "company": "Northzone"
+  "company": "Northzone",
+  "src": "harmonic"
  },
  "santiago rodriguez": {
   "inv": true,
@@ -9036,8 +9071,11 @@
   "company": "BNVT Capital"
  },
  "simon mannheimer": {
-  "inv": null,
-  "company": "SEB Venture Capital"
+  "inv": true,
+  "company": "SEB Venture Capital",
+  "title": "Head of Corporate Finance Growth",
+  "city": "Stockholm",
+  "src": "harmonic"
  },
  "simon pastor": {
   "inv": true,
@@ -9400,8 +9438,11 @@
   "company": "EQT Ventures"
  },
  "teemu korhonen": {
-  "inv": null,
-  "company": "Illusian"
+  "inv": true,
+  "company": "Illusian",
+  "title": "Partner",
+  "city": "Helsinki",
+  "src": "harmonic"
  },
  "tejas choudhary": {
   "inv": null,
@@ -10218,7 +10259,9 @@
  "zanna millns": {
   "inv": true,
   "title": "Investor",
-  "company": "NordicNinja VC"
+  "company": "NordicNinja VC",
+  "city": "London Area",
+  "src": "harmonic"
  },
  "zeynep yavuz": {
   "inv": true,
@@ -10279,5 +10322,823 @@
   "company": "Cori Clinical",
   "src": "harmonic",
   "note": "Same person as Jorn Jansen Schoonhoven"
+ },
+ "michael wiatr aagaard": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Copenhagen",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "mathias owing maanum": {
+  "inv": true,
+  "title": "Partner",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "aleksandra zajac": {
+  "inv": true,
+  "title": "VC Investor - Global Investments",
+  "city": "Elk",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "anthony millet": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Dubai",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "martell von hardenberg": {
+  "inv": true,
+  "title": "Managing Partner - Antler Elevate",
+  "city": "San Francisco",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "tobias bengtsdahl": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Stockholm",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "trond riiber knudsen": {
+  "inv": true,
+  "title": "Venture Partner and Founding Investor",
+  "city": "Singapore",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "alpesh doshi": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "david fischer": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "Sydney",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "elif sancak": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "tord störtebecker": {
+  "inv": true,
+  "title": "Advisor to Antler",
+  "city": "Gothenburg",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "peter taylor": {
+  "inv": true,
+  "title": "Visiting Expert",
+  "city": "Austin",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "geet khosla": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "Ry",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "jonathan labin": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Dubai",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "jim jansen": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Amsterdam",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "olivier grinda": {
+  "inv": true,
+  "title": "Antler Advisor",
+  "city": "Austin",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "bede moore": {
+  "inv": true,
+  "title": "Chief Commercial Officer",
+  "city": "Sydney",
+  "company": "Antler",
+  "src": "harmonic"
+ },
+ "dominik esen": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "william jilltoft": {
+  "inv": true,
+  "title": "Director Strategy & Operations",
+  "city": "Stockholm",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "hans otterling": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Stockholm",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "jessica schultz": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Stockholm",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "pascual cortés-monroy e.": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "wendy xiao": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "manavi m.": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "grace bentley": {
+  "inv": false,
+  "title": "HR Manager",
+  "city": "London",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "alex a.": {
+  "inv": true,
+  "title": "VC",
+  "city": "London",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "naseem m.": {
+  "inv": true,
+  "title": "VP",
+  "city": "London",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "pär-jörgen pärson": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Stockholm",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "bjørn stray": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Oslo",
+  "company": "Northzone",
+  "src": "harmonic"
+ },
+ "hanel baveja": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "fredrik cassel": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Norrmalm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "staffan helgesson": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Stockholm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "peter stilwell": {
+  "inv": true,
+  "title": "Operating Partner",
+  "city": "London",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "johan brenner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Stockholm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "lisa m. selke": {
+  "inv": true,
+  "title": "Head of Executive Support",
+  "city": "Berlin",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "richard keuntje": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "patrik uppman": {
+  "inv": true,
+  "title": "Head of Offices & IT Security Manager",
+  "city": "Stockholm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "veronica estole, cssyb": {
+  "inv": true,
+  "title": "Executive Partner",
+  "city": "Los Angeles",
+  "company": "Athena",
+  "src": "harmonic"
+ },
+ "niclas engström": {
+  "inv": true,
+  "title": "Finance Director",
+  "city": "Stockholm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "lovisa wahlberg": {
+  "inv": false,
+  "title": "Head of Events",
+  "city": "Stockholm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "daniel blomquist": {
+  "inv": true,
+  "title": "Fund Partner",
+  "city": "Stockholm",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "alexandre berriche": {
+  "inv": true,
+  "title": "Investor (LP)",
+  "city": "Paris",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "katharina wilhelm": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "maria raga": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "gustav lindqvist": {
+  "inv": true,
+  "title": "Data Scientist in Residence",
+  "city": "San Francisco",
+  "company": "Creandum",
+  "src": "harmonic"
+ },
+ "elina holkko": {
+  "inv": true,
+  "title": "Partner and CFO",
+  "city": "Helsinki",
+  "company": "Lifeline Ventures",
+  "src": "harmonic"
+ },
+ "teemu mattila": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Helsinki",
+  "company": "Lifeline Ventures",
+  "src": "harmonic"
+ },
+ "fredrik lehmann": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Stockholm",
+  "company": "Industrifonden",
+  "src": "harmonic"
+ },
+ "iliam barkino": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Stockholm",
+  "company": "Industrifonden",
+  "src": "harmonic"
+ },
+ "anne cathrine wilhjelm": {
+  "inv": true,
+  "title": "Partner, Lawyer",
+  "city": "Copenhagen",
+  "company": "Seed Capital",
+  "src": "harmonic"
+ },
+ "ulla brockenhuus-schack": {
+  "inv": true,
+  "title": "Founder and GP",
+  "city": "Ringsted",
+  "company": "Seed Capital",
+  "src": "harmonic"
+ },
+ "geeta schmidt": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Copenhagen",
+  "company": "Seed Capital",
+  "src": "harmonic"
+ },
+ "lars andersen": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Copenhagen",
+  "company": "Seed Capital",
+  "src": "harmonic"
+ },
+ "ulrik bo larsen": {
+  "inv": true,
+  "title": "Limited Partner",
+  "city": "Copenhagen",
+  "company": "Seed Capital",
+  "src": "harmonic"
+ },
+ "anders kjær": {
+  "inv": true,
+  "title": "Founder & Managing Partner @PSV Hafnium",
+  "city": "Copenhagen",
+  "company": "PSV",
+  "src": "harmonic"
+ },
+ "alexander viterbo-horten": {
+  "inv": true,
+  "title": "General Partner at the PSV Tech",
+  "city": "Copenhagen",
+  "company": "PSV",
+  "src": "harmonic"
+ },
+ "suzanne lauritzen": {
+  "inv": true,
+  "title": "Limited Partner, Tech Fund II",
+  "city": "Copenhagen",
+  "company": "PSV",
+  "src": "harmonic"
+ },
+ "christian dalsgaard": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Copenhagen",
+  "company": "PSV",
+  "src": "harmonic"
+ },
+ "sami lampinen": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Helsinki",
+  "company": "Inventure",
+  "src": "harmonic"
+ },
+ "adrian arnsvik bjurefalk": {
+  "inv": true,
+  "title": "Principal -> Venture Partner",
+  "city": "Stockholm",
+  "company": "Inventure",
+  "src": "harmonic"
+ },
+ "egil garberg": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Malvik",
+  "company": "Investinor",
+  "src": "harmonic"
+ },
+ "lasse lehtinen": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Helsinki",
+  "company": "Icebreaker.vc",
+  "src": "harmonic"
+ },
+ "aleksi partanen": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "Tallinn",
+  "company": "Icebreaker.vc",
+  "src": "harmonic"
+ },
+ "riku seppälä": {
+  "inv": true,
+  "title": "Co-founder and General Partner",
+  "city": "Helsinki",
+  "company": "Icebreaker.vc",
+  "src": "harmonic"
+ },
+ "teddie wardi": {
+  "inv": true,
+  "title": "Advisor, co-founder",
+  "city": "New York",
+  "company": "Icebreaker.vc",
+  "src": "harmonic"
+ },
+ "mikko suonenlahti": {
+  "inv": true,
+  "title": "Chairperson, Limited Partner",
+  "city": "Helsinki",
+  "company": "Icebreaker.vc",
+  "src": "harmonic"
+ },
+ "iris krigsvoll auran": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Oslo",
+  "company": "Startuplab",
+  "src": "harmonic"
+ },
+ "lauri karjalainen": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Helsinki",
+  "company": "Innovestor",
+  "src": "harmonic"
+ },
+ "aleksi huhta": {
+  "inv": true,
+  "title": "Director, Investor Relations",
+  "city": "Helsinki",
+  "company": "Innovestor",
+  "src": "harmonic"
+ },
+ "linda hasi": {
+  "inv": false,
+  "title": "Finance & Operations Manager",
+  "city": "Espoo",
+  "company": "Innovestor",
+  "src": "harmonic"
+ },
+ "anders hallin": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Stockholm",
+  "company": "Alliance VC",
+  "src": "harmonic"
+ },
+ "bente loe": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Oslo",
+  "company": "Alliance VC",
+  "src": "harmonic"
+ },
+ "stine mølgaard": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Copenhagen",
+  "company": "Alliance VC",
+  "src": "harmonic"
+ },
+ "arne tonning 🚀": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Oslo",
+  "company": "Alliance VC",
+  "src": "harmonic"
+ },
+ "niklas adalberth": {
+  "inv": true,
+  "title": "Founder",
+  "city": "Stockholm",
+  "company": "Norrsken",
+  "src": "harmonic"
+ },
+ "frank visciano": {
+  "inv": true,
+  "title": "Mentor @ Norrsken Foundation Impact Accelerator",
+  "city": "Amsterdam",
+  "company": "Norrsken",
+  "src": "harmonic"
+ },
+ "martin krag": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Denmark",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "tommy andersen": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Copenhagen",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "casper nicolai bjarnason": {
+  "inv": true,
+  "title": "Angel Collective",
+  "city": "Copenhagen",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "juha christensen": {
+  "inv": true,
+  "title": "Co-Founder, Founders Collective",
+  "city": "San Francisco",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "morten e. wulff": {
+  "inv": true,
+  "title": "Limited Partner (Fund 1)",
+  "city": "Copenhagen",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "lars thinggaard": {
+  "inv": true,
+  "title": "Private Investor",
+  "city": "Copenhagen",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "sune alstrup (johansen)": {
+  "inv": true,
+  "title": "Founder in byFounders Collective",
+  "city": "Copenhagen",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "lasse surland": {
+  "inv": true,
+  "title": "Founder in the byFounders Collective",
+  "city": "Copenhagen",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "daniel caetanya fossum": {
+  "inv": true,
+  "title": "Angel Collective",
+  "city": "Oslo",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "elin ashrafi": {
+  "inv": true,
+  "title": "Angel Investor",
+  "city": "San Francisco",
+  "company": "byFounders",
+  "src": "harmonic"
+ },
+ "eske gunge": {
+  "inv": true,
+  "title": "Accelerace All Star Mentor",
+  "city": "Copenhagen",
+  "company": "Accelerace",
+  "src": "harmonic"
+ },
+ "pauliina martikainen-rahnu": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Helsinki",
+  "company": "Maki.vc",
+  "src": "harmonic"
+ },
+ "ilkka kivimäki": {
+  "inv": true,
+  "title": "Founder & Advisor to Fund I, II and III portfolio companies",
+  "city": "Helsinki",
+  "company": "Maki.vc",
+  "src": "harmonic"
+ },
+ "kalle palomäki": {
+  "inv": true,
+  "title": "Limited Partner",
+  "city": "Amsterdam",
+  "company": "Maki.vc",
+  "src": "harmonic"
+ },
+ "wilson tukiainen": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Helsinki",
+  "company": "Maki.vc",
+  "src": "harmonic"
+ },
+ "caritta seppä": {
+  "inv": true,
+  "title": "Senior Investment Manager",
+  "city": "Helsinki",
+  "company": "Spintop Ventures",
+  "src": "harmonic"
+ },
+ "jasenko hadzic": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Copenhagen",
+  "company": "Spintop Ventures",
+  "src": "harmonic"
+ },
+ "moa belaieff kronborg": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Stockholm",
+  "company": "Spintop Ventures",
+  "src": "harmonic"
+ },
+ "magnus bergman": {
+  "inv": true,
+  "title": "Founding and General Partner",
+  "city": "Stockholm",
+  "company": "Luminar Ventures",
+  "src": "harmonic"
+ },
+ "kim groop": {
+  "inv": true,
+  "title": "Co-founder & Managing Partner",
+  "city": "Helsinki",
+  "company": "First Fellow Partners",
+  "src": "harmonic"
+ },
+ "jussi sainiemi": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Helsinki",
+  "company": "Voima Ventures",
+  "src": "harmonic"
+ },
+ "juha ruohonen": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Espoo",
+  "company": "Superhero Capital",
+  "src": "harmonic"
+ },
+ "audrius milukas": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Vilniaus",
+  "company": "Superhero Capital",
+  "src": "harmonic"
+ },
+ "bo mattsson": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Stockholm",
+  "company": "J12",
+  "src": "harmonic"
+ },
+ "maja shapiro": {
+  "inv": false,
+  "title": "Head of Brand, Marketing and Communication",
+  "city": "Stockholm",
+  "company": "J12",
+  "src": "harmonic"
+ },
+ "ilkka paananen": {
+  "inv": true,
+  "title": "CEO",
+  "city": "Helsinki",
+  "company": "Supercell",
+  "src": "harmonic"
+ },
+ "ali omar": {
+  "inv": true,
+  "title": "COO, Co-Founder",
+  "city": "Helsinki",
+  "company": "Caleido.io",
+  "src": "harmonic"
+ },
+ "sophia bendz": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Stockholm",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "hampus jakobsson": {
+  "inv": true,
+  "title": "Co-Founder & Showrunner",
+  "city": "Malmo",
+  "company": "The Drop",
+  "src": "harmonic"
+ },
+ "jimmy fussing nielsen": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Copenhagen",
+  "company": "Heartcore Capital",
+  "src": "harmonic"
+ },
+ "signe marie sveinbjørnsson": {
+  "inv": true,
+  "title": "Partner & COO",
+  "city": "Frederiksberg",
+  "company": "Heartcore Capital",
+  "src": "harmonic"
+ },
+ "christian jepsen": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Copenhagen",
+  "company": "Heartcore Capital",
+  "src": "harmonic"
+ },
+ "paulina koschitz": {
+  "inv": true,
+  "title": "Venture Capitalist",
+  "city": "Berlin",
+  "company": "Heartcore Capital",
+  "src": "harmonic"
+ },
+ "kenza zayani": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "RTP Global",
+  "src": "harmonic"
+ },
+ "laerke hansen": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Copenhagen",
+  "company": "Heartcore Capital",
+  "src": "harmonic"
+ },
+ "michael baczyk": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Warsaw",
+  "company": "Heartcore Capital",
+  "src": "harmonic"
+ },
+ "neil murray": {
+  "inv": true,
+  "title": "Solo GP (Angel Investor)",
+  "city": "Copenhagen",
+  "company": "The Nordic Web Ventures",
+  "src": "harmonic"
+ },
+ "bjarke staun": {
+  "inv": true,
+  "title": "Angel Investor",
+  "city": "Copenhagen",
+  "company": "My Holding Company",
+  "src": "harmonic"
+ },
+ "marcus krylborn": {
+  "inv": true,
+  "title": "Senior Client Partner, Mid-market",
+  "city": "Copenhagen",
+  "company": "Snap Inc.",
+  "src": "harmonic"
+ },
+ "tommy ahlers": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Copenhagen",
+  "company": "Giant Ventures",
+  "src": "harmonic"
+ },
+ "rebecca pantzer": {
+  "inv": false,
+  "title": "EA to CEO Erik Engellau-Nilsson & Founder Niklas Adalberth",
+  "city": "Sundbyberg",
+  "company": "Norrsken",
+  "src": "harmonic"
  }
 }

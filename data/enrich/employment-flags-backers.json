@@ -909,6 +909,11 @@
   "Gemma Bloemen": {
    "status": "moved",
    "now": "Systemiq Capital (Full-time Venture Partner)"
+  },
+  "Veronica Estole, Cssyb": {
+   "status": "moved",
+   "now": "Athena (Executive Partner)",
+   "note": "Harmonic: Creandum role ended 2022-05-01"
   }
  },
  "crowdcube.com": {
@@ -2705,6 +2710,11 @@
   "Coraline Meroni": {
    "status": "current",
    "now": null
+  },
+  "Kenza Zayani": {
+   "status": "moved",
+   "now": "RTP Global (Investor)",
+   "note": "Harmonic: Left Lane Capital role ended 2026-07-01"
   }
  },
  "leapartners.de": {
@@ -4465,6 +4475,25 @@
   "Jorn Schoonhoven": {
    "status": "moved",
    "now": "Cori Clinical (Co-Founder)"
+  }
+ },
+ "northzone.com": {
+  "Maxine Rior": {
+   "status": "moved",
+   "now": "Stealth Company (Maxine Rior) (Building something new)",
+   "note": "Harmonic: Northzone role ended 2026-04-01"
+  }
+ },
+ "kinnevik.com": {
+  "Natalie Tydeman": {
+   "status": "moved",
+   "now": "Betterment (Board Member, Chair of Audit Committee)",
+   "note": "Harmonic: Kinnevik role ended 2026-09-01"
+  },
+  "Charles Martin": {
+   "status": "moved",
+   "now": "Parallel Web Systems (AI Natives Lead)",
+   "note": "Harmonic: Kinnevik role ended 2025-11-01"
   }
  }
 }

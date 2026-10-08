@@ -1120,6 +1120,11 @@
    "Staffan Helgesson": {
     "status": "current",
     "now": null
+   },
+   "Veronica Estole, Cssyb": {
+    "status": "moved",
+    "now": "Athena (Executive Partner)",
+    "note": "Harmonic: Creandum role ended 2022-05-01"
    }
   },
   "eqt-ventures": {
@@ -1640,6 +1645,18 @@
    "Deepka Rana": {
     "status": "moved",
     "now": "Stealth startup (Building)"
+   }
+  },
+  "aff-kinnevik": {
+   "Natalie Tydeman": {
+    "status": "moved",
+    "now": "Betterment (Board Member, Chair of Audit Committee)",
+    "note": "Harmonic: Kinnevik role ended 2026-09-01"
+   },
+   "Charles Martin": {
+    "status": "moved",
+    "now": "Parallel Web Systems (AI Natives Lead)",
+    "note": "Harmonic: Kinnevik role ended 2025-11-01"
    }
   }
  },
@@ -3551,6 +3568,13 @@
     "status": "moved",
     "now": "Cori Clinical (Co-Founder)",
     "note": "Harmonic: Octopus stint ended Dec 2024; octopusventures.com email still live in Affinity"
+   }
+  },
+  "left-lane-capital": {
+   "Kenza Zayani": {
+    "status": "moved",
+    "now": "RTP Global (Investor)",
+    "note": "Harmonic: Left Lane Capital role ended 2026-07-01"
    }
   }
  }
