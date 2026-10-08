@@ -2,5 +2,87 @@
  "slug": "moonfire",
  "affinity_domain": "moonfire.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Fergal Mullen",
+   "external": "Mattias Ljungman",
+   "externalEmail": "mattias@moonfire.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Saran Davies",
+   "externalEmail": "saran@moonfire.com",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Alina Gounina",
+   "externalEmail": "alina@moonfire.com",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Akshat Goenka",
+   "externalEmail": "akshat@moonfire.com",
+   "score": 0.99,
+   "last": "2026-09-29",
+   "meet": "2026-08-05"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Mattias Ljungman",
+   "externalEmail": "mattias@moonfire.com",
+   "score": 0.99,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Alina Gounina",
+   "externalEmail": "alina@moonfire.com",
+   "score": 0.97,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Akshat Goenka",
+   "externalEmail": "akshat@moonfire.com",
+   "score": 0.97,
+   "last": "2026-09-29",
+   "meet": "2026-08-05"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Andrea Gurnari",
+   "externalEmail": "andrea@moonfire.com",
+   "score": 0.83,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jonas Vetterle",
+   "externalEmail": "jonas@moonfire.com",
+   "score": 0.83,
+   "last": "2026-01-20",
+   "meet": "2026-01-20"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Nicholas Lowden",
+   "externalEmail": "nic@moonfire.com",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

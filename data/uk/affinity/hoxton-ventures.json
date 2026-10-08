@@ -2,5 +2,159 @@
  "slug": "hoxton-ventures",
  "affinity_domain": "hoxtonventures.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Sam Brooks",
+   "external": "Payton Dobbs",
+   "externalEmail": "payton@hoxtonventures.com",
+   "score": 1.0,
+   "last": "2026-06-09",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 1.0,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Imogen Mazzier",
+   "externalEmail": "imogen@hoxtonventures.com",
+   "score": 0.86,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Payton Dobbs",
+   "externalEmail": "payton@hoxtonventures.com",
+   "score": 0.86,
+   "last": "2026-06-09",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 0.8,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Zsuzsanna Godany",
+   "externalEmail": "zsuzsanna@hoxtonventures.com",
+   "score": 0.86,
+   "last": "2024-11-13",
+   "meet": "2024-11-13"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 0.43,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Bryan Gartner",
+   "externalEmail": "bryan@hoxtonventures.com",
+   "score": 0.96,
+   "last": "2024-03-06",
+   "meet": "2024-02-20"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Andie Mortimer",
+   "externalEmail": "andie@hoxtonventures.com",
+   "score": 0.95,
+   "last": "2024-02-20",
+   "meet": "2024-02-20"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Robert Ludwig",
+   "externalEmail": "rl@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-09-08",
+   "meet": "2026-09-08"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Robert Ludwig",
+   "externalEmail": "rl@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-09-08",
+   "meet": "2026-09-08"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Robert Ludwig",
+   "externalEmail": "rl@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-09-08",
+   "meet": "2026-09-08"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Hussein Kanji",
+   "externalEmail": "hussein@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2026-10-04",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Dahlia J",
+   "externalEmail": "dahlia@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2025-07-14",
+   "meet": "2024-04-16"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Rob Kniaz",
+   "externalEmail": "rob@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2024-07-17",
+   "meet": "2023-06-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Charles Seely",
+   "externalEmail": "charles@hoxtonventures.com",
+   "score": 0.1,
+   "last": "2024-07-17",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

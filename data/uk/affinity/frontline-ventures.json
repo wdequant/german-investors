@@ -2,5 +2,295 @@
  "slug": "frontline-ventures",
  "affinity_domain": "frontline.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Philipp Werner",
+   "externalEmail": "philipp@frontline.vc",
+   "score": 1.0,
+   "last": "2026-09-29",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "George Radford",
+   "externalEmail": "george@frontline.vc",
+   "score": 1.0,
+   "last": "2026-09-01",
+   "meet": "2026-07-07"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "George Radford",
+   "externalEmail": "george@frontline.vc",
+   "score": 1.0,
+   "last": "2026-09-01",
+   "meet": "2026-07-07"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.98,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.98,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.97,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "George Radford",
+   "externalEmail": "george@frontline.vc",
+   "score": 0.95,
+   "last": "2026-09-01",
+   "meet": "2026-07-07"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.94,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Allison Graf",
+   "externalEmail": "allison@frontline.vc",
+   "score": 0.95,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Dylan Scully",
+   "externalEmail": "dylan@frontline.vc",
+   "score": 0.95,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ruth Sheridan",
+   "externalEmail": "ruth@frontline.vc",
+   "score": 0.95,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "William McQuillan",
+   "externalEmail": "willmcq@frontline.vc",
+   "score": 0.95,
+   "last": "2026-01-07",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ruth Sheridan",
+   "externalEmail": "ruth@frontline.vc",
+   "score": 0.93,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ruth Sheridan",
+   "externalEmail": "ruth@frontline.vc",
+   "score": 0.67,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Dylan Scully",
+   "externalEmail": "dylan@frontline.vc",
+   "score": 0.63,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Ruth Sheridan",
+   "externalEmail": "ruth@frontline.vc",
+   "score": 0.54,
+   "last": "2025-11-25",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.48,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "William McQuillan",
+   "externalEmail": "willmcq@frontline.vc",
+   "score": 0.51,
+   "last": "2026-01-07",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.43,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Stephen McIntyre",
+   "externalEmail": "stephen@frontline.vc",
+   "score": 0.43,
+   "last": "2026-02-17",
+   "meet": "2021-04-21"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "William McQuillan",
+   "externalEmail": "willmcq@frontline.vc",
+   "score": 0.43,
+   "last": "2026-01-07",
+   "meet": "2025-11-25"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.35,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.35,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Zoe Chambers",
+   "externalEmail": "zoe@frontline.vc",
+   "score": 0.63,
+   "last": "2025-09-17",
+   "meet": "2022-08-10"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Zoe Chambers",
+   "externalEmail": "zoe@frontline.vc",
+   "score": 0.43,
+   "last": "2025-09-17",
+   "meet": "2022-08-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Hannah Skingle",
+   "externalEmail": "hannah@frontline.vc",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-08-06"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.1,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Will Prendergast",
+   "externalEmail": "willp@frontline.vc",
+   "score": 0.1,
+   "last": "2026-10-06",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Eimear Cahalin",
+   "externalEmail": "eimear@frontline.vc",
+   "score": 0.1,
+   "last": "2025-07-14",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

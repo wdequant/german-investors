@@ -2,5 +2,127 @@
  "slug": "hummingbird-ventures",
  "affinity_domain": "hummingbird.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Samuel Meijer",
+   "external": "Marc Rizk",
+   "externalEmail": "marc@hummingbird.vc",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-07-14"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Ani Mouradyan",
+   "externalEmail": "ani@hummingbird.vc",
+   "score": 1.0,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Firat Ileri",
+   "externalEmail": "firat@hummingbird.vc",
+   "score": 0.97,
+   "last": "2026-07-20",
+   "meet": "2026-05-21"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Firat Ileri",
+   "externalEmail": "firat@hummingbird.vc",
+   "score": 0.95,
+   "last": "2026-07-20",
+   "meet": "2026-05-21"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Lukas Decoster",
+   "externalEmail": "lukas@hummingbird.vc",
+   "score": 0.99,
+   "last": "2026-04-09",
+   "meet": "2026-03-27"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Nikita Andersson",
+   "externalEmail": "nikita@hummingbird.vc",
+   "score": 0.97,
+   "last": "2025-12-18",
+   "meet": "2025-12-18"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Lukas Decoster",
+   "externalEmail": "lukas@hummingbird.vc",
+   "score": 0.96,
+   "last": "2026-04-09",
+   "meet": "2026-03-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Firat Ileri",
+   "externalEmail": "firat@hummingbird.vc",
+   "score": 0.83,
+   "last": "2026-07-20",
+   "meet": "2026-05-21"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Teal Frost",
+   "externalEmail": "teal@hummingbird.vc",
+   "score": 0.96,
+   "last": "2025-05-22",
+   "meet": "2025-05-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Firat Ileri",
+   "externalEmail": "firat@hummingbird.vc",
+   "score": 0.38,
+   "last": "2026-07-20",
+   "meet": "2026-05-21"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sofia Di Meola",
+   "externalEmail": "sofia@hummingbird.vc",
+   "score": 0.51,
+   "last": "2026-04-02",
+   "meet": null
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Sofia Di Meola",
+   "externalEmail": "sofia@hummingbird.vc",
+   "score": 0.35,
+   "last": "2026-04-02",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Katherine Jones",
+   "externalEmail": "katherine@hummingbird.vc",
+   "score": 0.38,
+   "last": "2025-01-21",
+   "meet": null
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Lola Wajskop",
+   "externalEmail": "lola@hummingbird.vc",
+   "score": 0.43,
+   "last": "2023-12-01",
+   "meet": "2021-06-01"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Sofia Di Meola",
+   "externalEmail": "sofia@hummingbird.vc",
+   "score": 0.1,
+   "last": "2026-04-02",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

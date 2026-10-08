@@ -2,5 +2,207 @@
  "slug": "kennet-partners",
  "affinity_domain": "kennet.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Capucine Viard",
+   "externalEmail": "cviard@kennet.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-03-10"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Gillian Skendaj",
+   "externalEmail": "gskendaj@kennet.com",
+   "score": 1.0,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Hillel Zidel",
+   "externalEmail": "hzidel@kennet.com",
+   "score": 1.0,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Capucine Viard",
+   "externalEmail": "cviard@kennet.com",
+   "score": 0.97,
+   "last": "2026-10-07",
+   "meet": "2026-03-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Gillian Skendaj",
+   "externalEmail": "gskendaj@kennet.com",
+   "score": 0.97,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Gillian Skendaj",
+   "externalEmail": "gskendaj@kennet.com",
+   "score": 0.95,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alex Taylor-Harris",
+   "externalEmail": "ataylorharris@kennet.com",
+   "score": 1.0,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Paul Vider",
+   "externalEmail": "pvider@kennet.com",
+   "score": 1.0,
+   "last": "2026-02-25",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alex Taylor-Harris",
+   "externalEmail": "ataylorharris@kennet.com",
+   "score": 0.88,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Big Room",
+   "externalEmail": "bigroom@kennet.com",
+   "score": 0.98,
+   "last": "2025-02-11",
+   "meet": "2025-02-11"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Anila Repaj",
+   "externalEmail": "arepaj@kennet.com",
+   "score": 0.96,
+   "last": "2025-02-10",
+   "meet": "2024-04-12"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Paul Vider",
+   "externalEmail": "pvider@kennet.com",
+   "score": 0.43,
+   "last": "2026-02-25",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Hillel Zidel",
+   "externalEmail": "hzidel@kennet.com",
+   "score": 0.35,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Michael Elias",
+   "externalEmail": "melias@kennet.com",
+   "score": 1.0,
+   "last": "2024-04-12",
+   "meet": "2024-04-12"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Fidel Manolopoulos",
+   "externalEmail": "fmanolopoulos@kennet.com",
+   "score": 1.0,
+   "last": "2024-09-09",
+   "meet": "2024-09-09"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Anila Repaj",
+   "externalEmail": "arepaj@kennet.com",
+   "score": 0.38,
+   "last": "2025-02-10",
+   "meet": "2024-04-12"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Jonathan Hewitson",
+   "externalEmail": "jhewitson@kennet.com",
+   "score": 0.3,
+   "last": "2025-07-14",
+   "meet": "2024-04-16"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Michael Elias",
+   "externalEmail": "melias@kennet.com",
+   "score": 0.38,
+   "last": "2024-04-12",
+   "meet": "2024-04-12"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Deepa Patel",
+   "externalEmail": "dpatel@kennet.com",
+   "score": 0.1,
+   "last": "2026-05-26",
+   "meet": "2020-10-22"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Deepa Patel",
+   "externalEmail": "dpatel@kennet.com",
+   "score": 0.1,
+   "last": "2026-05-26",
+   "meet": "2020-10-22"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Hillel Zidel",
+   "externalEmail": "hzidel@kennet.com",
+   "score": 0.1,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Don Stalter",
+   "externalEmail": "dstalter@kennet.com",
+   "score": 0.1,
+   "last": "2026-04-13",
+   "meet": null
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Neil Cooper",
+   "externalEmail": "ncooper@kennet.com",
+   "score": 0.1,
+   "last": "2025-07-14",
+   "meet": "2024-04-16"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Cillian Hilliard",
+   "externalEmail": "chilliard@kennet.com",
+   "score": 0.1,
+   "last": "2024-04-22",
+   "meet": "2022-06-30"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Cillian Hilliard",
+   "externalEmail": "chilliard@kennet.com",
+   "score": 0.1,
+   "last": "2024-04-22",
+   "meet": "2022-06-30"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

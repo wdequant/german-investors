@@ -2,5 +2,175 @@
  "slug": "lightrock",
  "affinity_domain": "lightrock.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Fil Lekkas",
+   "externalEmail": "fil@lightrock.com",
+   "score": 1.0,
+   "last": "2026-08-01",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Andrei Xydas",
+   "externalEmail": "andrei@lightrock.com",
+   "score": 1.0,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Nigel McCleave",
+   "externalEmail": "nigel@lightrock.com",
+   "score": 1.0,
+   "last": "2026-07-02",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Henna Piispa",
+   "externalEmail": "henna@lightrock.com",
+   "score": 0.95,
+   "last": "2026-07-02",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Martin Karschkes",
+   "externalEmail": "martin@lightrock.com",
+   "score": 1.0,
+   "last": "2026-02-26",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Rory Glover",
+   "externalEmail": "rory@lightrock.com",
+   "score": 0.99,
+   "last": "2026-04-02",
+   "meet": "2026-04-02"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Mehdi Lichani",
+   "externalEmail": "mehdi@lightrock.com",
+   "score": 0.96,
+   "last": "2026-02-02",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Andrea Gluscevic",
+   "externalEmail": "andrea.g@lightrock.com",
+   "score": 0.84,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Olivia Watson",
+   "externalEmail": "olivia@lightrock.com",
+   "score": 1.0,
+   "last": "2025-05-20",
+   "meet": "2025-05-20"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ashish Puri",
+   "externalEmail": "ash@lightrock.com",
+   "score": 1.0,
+   "last": "2025-09-24",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Sophie Neuber",
+   "externalEmail": "sophie@lightrock.com",
+   "score": 0.43,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Andrei Xydas",
+   "externalEmail": "andrei@lightrock.com",
+   "score": 0.35,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Nina Cardelus",
+   "externalEmail": "nina.c@lightrock.com",
+   "score": 0.59,
+   "last": "2025-02-24",
+   "meet": "2025-02-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jessica Ivan",
+   "externalEmail": "jessica@lightrock.com",
+   "score": 0.91,
+   "last": "2023-11-27",
+   "meet": "2023-11-27"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Ashish Puri",
+   "externalEmail": "ash@lightrock.com",
+   "score": 0.54,
+   "last": "2025-09-24",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Nina Cardelus",
+   "externalEmail": "nina.c@lightrock.com",
+   "score": 0.43,
+   "last": "2025-02-24",
+   "meet": "2025-02-24"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Marta Pyrzyk",
+   "externalEmail": "marta@lightrock.com",
+   "score": 0.41,
+   "last": "2024-05-17",
+   "meet": "2024-01-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jorrit Haan",
+   "externalEmail": "jorrit@lightrock.com",
+   "score": 0.1,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Jorrit Haan",
+   "externalEmail": "jorrit@lightrock.com",
+   "score": 0.1,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Olivia Watson",
+   "externalEmail": "olivia@lightrock.com",
+   "score": 0.1,
+   "last": "2025-05-20",
+   "meet": "2025-05-20"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Sarah Knox",
+   "externalEmail": "sarah@lightrock.com",
+   "score": 0.1,
+   "last": "2024-06-24",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

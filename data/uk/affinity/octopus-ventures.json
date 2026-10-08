@@ -2,5 +2,327 @@
  "slug": "octopus-ventures",
  "affinity_domain": "octopusventures.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "William De Quant",
+   "external": "Emma Falconer",
+   "externalEmail": "emma.falconer@octopusventures.com",
+   "score": 1.0,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Laura Willming",
+   "externalEmail": "lauraw@octopusventures.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Laura Willming",
+   "externalEmail": "lauraw@octopusventures.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Chloe Allan",
+   "externalEmail": "chloe@octopusventures.com",
+   "score": 1.0,
+   "last": "2026-09-17",
+   "meet": "2026-05-06"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Simon King",
+   "externalEmail": "simon.king@octopusventures.com",
+   "score": 1.0,
+   "last": "2026-07-20",
+   "meet": "2026-03-26"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Simon King",
+   "externalEmail": "simon.king@octopusventures.com",
+   "score": 0.99,
+   "last": "2026-07-20",
+   "meet": "2026-03-26"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Erin Platts",
+   "externalEmail": "erin@octopusventures.com",
+   "score": 0.99,
+   "last": "2026-10-02",
+   "meet": "2025-02-24"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Simon King",
+   "externalEmail": "simon.king@octopusventures.com",
+   "score": 0.98,
+   "last": "2026-07-20",
+   "meet": "2026-03-26"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Erin Platts",
+   "externalEmail": "erin@octopusventures.com",
+   "score": 0.98,
+   "last": "2026-10-02",
+   "meet": "2025-02-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Zihao Xu",
+   "externalEmail": "zihao@octopusventures.com",
+   "score": 0.97,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Adam Said",
+   "externalEmail": "adam@octopusventures.com",
+   "score": 0.93,
+   "last": "2026-07-28",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Becky Hazell",
+   "externalEmail": "becky@octopusventures.com",
+   "score": 0.93,
+   "last": "2026-06-20",
+   "meet": "2023-10-31"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Jorn Schoonhoven",
+   "externalEmail": "jorn@octopusventures.com",
+   "score": 1.0,
+   "last": "2026-02-06",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Matthew Chandler",
+   "externalEmail": "matthew@octopusventures.com",
+   "score": 1.0,
+   "last": "2025-11-26",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jebran Raashed",
+   "externalEmail": "jebran@octopusventures.com",
+   "score": 0.99,
+   "last": "2026-03-11",
+   "meet": "2026-03-11"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Juliette Souliman",
+   "externalEmail": "juliette@octopusventures.com",
+   "score": 0.99,
+   "last": "2025-10-15",
+   "meet": "2025-10-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Mason Sinclair",
+   "externalEmail": "mason@octopusventures.com",
+   "score": 0.88,
+   "last": "2026-10-02",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Simon King",
+   "externalEmail": "simon.king@octopusventures.com",
+   "score": 0.87,
+   "last": "2026-07-20",
+   "meet": "2026-03-26"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Chris Oliver",
+   "externalEmail": "chris.oliver@octopusventures.com",
+   "score": 0.96,
+   "last": "2026-02-17",
+   "meet": "2026-02-17"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Richard Bolton",
+   "externalEmail": "rich@octopusventures.com",
+   "score": 0.95,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Jebran Raashed",
+   "externalEmail": "jebran@octopusventures.com",
+   "score": 0.95,
+   "last": "2026-03-11",
+   "meet": "2026-03-11"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Simon King",
+   "externalEmail": "simon.king@octopusventures.com",
+   "score": 0.84,
+   "last": "2026-07-20",
+   "meet": "2026-03-26"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Matthew Chandler",
+   "externalEmail": "matthew@octopusventures.com",
+   "score": 0.92,
+   "last": "2025-11-26",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Emma Falconer",
+   "externalEmail": "emma.falconer@octopusventures.com",
+   "score": 0.76,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Tilly Fleming",
+   "externalEmail": "tilly.fleming@octopusventures.com",
+   "score": 0.74,
+   "last": "2026-08-25",
+   "meet": "2024-09-26"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Maria Thoomkuzhiyil",
+   "externalEmail": "maria.thoomkuzhiyil@octopusventures.com",
+   "score": 0.7,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Adam Said",
+   "externalEmail": "adam@octopusventures.com",
+   "score": 0.57,
+   "last": "2026-07-28",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Becky Hazell",
+   "externalEmail": "becky@octopusventures.com",
+   "score": 0.53,
+   "last": "2026-06-20",
+   "meet": "2023-10-31"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Erin Platts",
+   "externalEmail": "erin@octopusventures.com",
+   "score": 0.51,
+   "last": "2026-10-02",
+   "meet": "2025-02-24"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Saranyah Douse",
+   "externalEmail": "saranyah@octopusventures.com",
+   "score": 1.0,
+   "last": "2025-02-27",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Alliott Cole",
+   "externalEmail": "alliott@octopusventures.com",
+   "score": 1.0,
+   "last": "2025-02-19",
+   "meet": "2025-01-17"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Malcolm Ferguson",
+   "externalEmail": "malcolm@octopusventures.com",
+   "score": 1.0,
+   "last": "2024-10-28",
+   "meet": "2024-01-26"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Marieke Christmann",
+   "externalEmail": "marieke@octopusventures.com",
+   "score": 0.55,
+   "last": "2026-03-18",
+   "meet": "2023-10-03"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Mario Rojas",
+   "externalEmail": "mario@octopusventures.com",
+   "score": 0.98,
+   "last": "2025-03-25",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Alliott Cole",
+   "externalEmail": "alliott@octopusventures.com",
+   "score": 0.98,
+   "last": "2025-02-19",
+   "meet": "2025-01-17"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ben Newsome",
+   "externalEmail": "ben@octopusventures.com",
+   "score": 0.53,
+   "last": "2025-10-28",
+   "meet": "2025-07-31"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Conor Scanlan",
+   "externalEmail": "conor@octopusventures.com",
+   "score": 0.95,
+   "last": "2025-09-24",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Alliott Cole",
+   "externalEmail": "alliott@octopusventures.com",
+   "score": 0.95,
+   "last": "2025-02-19",
+   "meet": "2025-01-17"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Marieke Christmann",
+   "externalEmail": "marieke@octopusventures.com",
+   "score": 0.51,
+   "last": "2026-03-18",
+   "meet": "2023-10-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Albert Puig",
+   "externalEmail": "albert.puig@octopusventures.com",
+   "score": 0.8,
+   "last": "2025-09-04",
+   "meet": "2025-09-04"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

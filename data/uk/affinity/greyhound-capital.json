@@ -2,5 +2,55 @@
  "slug": "greyhound-capital",
  "affinity_domain": "greyhoundcapital.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Federico Colombo",
+   "externalEmail": "federico@greyhoundcapital.com",
+   "score": 0.98,
+   "last": "2026-02-27",
+   "meet": "2026-02-26"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Abby Wong",
+   "externalEmail": "abby@greyhoundcapital.com",
+   "score": 0.95,
+   "last": "2026-01-21",
+   "meet": "2026-01-21"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Ines Verschueren",
+   "externalEmail": "ines@greyhoundcapital.com",
+   "score": 0.85,
+   "last": "2026-05-19",
+   "meet": "2026-05-19"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alice Kemp",
+   "externalEmail": "alice@greyhoundcapital.com",
+   "score": 0.38,
+   "last": "2026-05-19",
+   "meet": null
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Ayush Jain",
+   "externalEmail": "ayush@greyhoundcapital.com",
+   "score": 0.84,
+   "last": "2023-11-14",
+   "meet": "2023-11-14"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Michele Chang",
+   "externalEmail": "michele@greyhoundcapital.com",
+   "score": 0.1,
+   "last": "2026-07-21",
+   "meet": "2026-05-14"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

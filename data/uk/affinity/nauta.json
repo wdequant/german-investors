@@ -2,5 +2,327 @@
  "slug": "nauta",
  "affinity_domain": "nautacapital.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Tom Neuberger",
+   "external": "Josh Trup",
+   "externalEmail": "joshua.trup@nautacapital.com",
+   "score": 1.0,
+   "last": "2026-09-01",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Ana Fernandez",
+   "externalEmail": "ana.fernandez@nautacapital.com",
+   "score": 1.0,
+   "last": "2026-07-30",
+   "meet": "2026-07-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Borja Breña",
+   "externalEmail": "borja.brena@nautacapital.com",
+   "score": 0.99,
+   "last": "2026-06-04",
+   "meet": "2026-06-04"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ana Fernandez",
+   "externalEmail": "ana.fernandez@nautacapital.com",
+   "score": 0.98,
+   "last": "2026-07-30",
+   "meet": "2026-07-30"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.98,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Josh Trup",
+   "externalEmail": "joshua.trup@nautacapital.com",
+   "score": 0.97,
+   "last": "2026-09-01",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alexander Krespi",
+   "externalEmail": "alex.krespi@nautacapital.com",
+   "score": 0.95,
+   "last": "2026-06-03",
+   "meet": "2026-06-03"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Andrea Oliver",
+   "externalEmail": "andrea.oliver@nautacapital.com",
+   "score": 0.94,
+   "last": "2026-05-20",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.92,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Stella Buhalis",
+   "externalEmail": "stella.buhalis@nautacapital.com",
+   "score": 1.0,
+   "last": "2025-12-01",
+   "meet": "2025-12-01"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Rocio Hodaly",
+   "externalEmail": "rocio.hodaly@nautacapital.com",
+   "score": 0.93,
+   "last": "2026-01-29",
+   "meet": "2025-05-28"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Rocio Hodaly",
+   "externalEmail": "rocio.hodaly@nautacapital.com",
+   "score": 0.92,
+   "last": "2026-01-29",
+   "meet": "2025-05-28"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Theo Wethered",
+   "externalEmail": "theo.wethered@nautacapital.com",
+   "score": 0.76,
+   "last": "2026-09-21",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Guillem Sagué",
+   "externalEmail": "guillem.sague@nautacapital.com",
+   "score": 0.76,
+   "last": "2026-07-10",
+   "meet": "2026-03-04"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Rocio Hodaly",
+   "externalEmail": "rocio.hodaly@nautacapital.com",
+   "score": 0.84,
+   "last": "2026-01-29",
+   "meet": "2025-05-28"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.68,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.65,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Rocio Hodaly",
+   "externalEmail": "rocio.hodaly@nautacapital.com",
+   "score": 0.67,
+   "last": "2026-01-29",
+   "meet": "2025-05-28"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Carles Roqueta",
+   "externalEmail": "carles.ferrer@nautacapital.com",
+   "score": 0.6,
+   "last": "2026-09-21",
+   "meet": "2023-06-19"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.59,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Theo Wethered",
+   "externalEmail": "theo.wethered@nautacapital.com",
+   "score": 0.51,
+   "last": "2026-09-21",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.51,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Pratima Aiyagari",
+   "externalEmail": "pratima@nautacapital.com",
+   "score": 1.0,
+   "last": "2025-07-30",
+   "meet": "2024-10-25"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.5,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Oriol Juncosa",
+   "externalEmail": "oriol.juncosa@nautacapital.com",
+   "score": 0.99,
+   "last": "2025-09-01",
+   "meet": "2025-07-29"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Carles Roqueta",
+   "externalEmail": "carles.ferrer@nautacapital.com",
+   "score": 0.48,
+   "last": "2026-09-21",
+   "meet": "2023-06-19"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Conor Scanlan",
+   "externalEmail": "conor.scanlan@nautacapital.com",
+   "score": 0.95,
+   "last": "2025-09-24",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ryan Procter",
+   "externalEmail": "ryan.procter@nautacapital.com",
+   "score": 0.92,
+   "last": "2025-09-12",
+   "meet": "2025-09-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Joao Espadanal",
+   "externalEmail": "joao.espadanal@nautacapital.com",
+   "score": 0.91,
+   "last": "2024-12-12",
+   "meet": "2024-12-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Meeting Room 3 London",
+   "externalEmail": "meetingroom3london@nautacapital.com",
+   "score": 0.91,
+   "last": "2024-12-12",
+   "meet": "2024-12-12"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Josh Trup",
+   "externalEmail": "joshua.trup@nautacapital.com",
+   "score": 0.45,
+   "last": "2026-09-01",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alexander Krespi",
+   "externalEmail": "alex.krespi@nautacapital.com",
+   "score": 0.43,
+   "last": "2026-06-03",
+   "meet": "2026-06-03"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Oriol Juncosa",
+   "externalEmail": "oriol.juncosa@nautacapital.com",
+   "score": 0.81,
+   "last": "2025-09-01",
+   "meet": "2025-07-29"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Carles Roqueta",
+   "externalEmail": "carles.ferrer@nautacapital.com",
+   "score": 0.39,
+   "last": "2026-09-21",
+   "meet": "2023-06-19"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Carles Roqueta",
+   "externalEmail": "carles.ferrer@nautacapital.com",
+   "score": 0.38,
+   "last": "2026-09-21",
+   "meet": "2023-06-19"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Marcel Rafart",
+   "externalEmail": "marcel.rafart@nautacapital.com",
+   "score": 0.35,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Josh Trup",
+   "externalEmail": "joshua.trup@nautacapital.com",
+   "score": 0.34,
+   "last": "2026-09-01",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Rita Fernandes",
+   "externalEmail": "rita.fernandes@nautacapital.com",
+   "score": 1.0,
+   "last": "2024-05-20",
+   "meet": "2024-05-20"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

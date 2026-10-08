@@ -2,5 +2,287 @@
  "slug": "mmc-ventures",
  "affinity_domain": "mmc.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Carla Boichon",
+   "externalEmail": "carla@mmc.vc",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Joanna Graiver",
+   "externalEmail": "joanna@mmc.vc",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Mina Samaan",
+   "externalEmail": "mina@mmc.vc",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Jamie Shelton",
+   "externalEmail": "jamie@mmc.vc",
+   "score": 0.99,
+   "last": "2026-09-07",
+   "meet": "2026-09-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Lina Estlind",
+   "externalEmail": "lina@mmc.vc",
+   "score": 0.91,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alexandra Reinert",
+   "externalEmail": "alexandra@mmc.vc",
+   "score": 1.0,
+   "last": "2026-03-17",
+   "meet": "2025-09-18"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Sevi Uras",
+   "externalEmail": "sevi@mmc.vc",
+   "score": 0.99,
+   "last": "2026-01-13",
+   "meet": "2026-01-13"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Emily Tsen",
+   "externalEmail": "emily@mmc.vc",
+   "score": 0.67,
+   "last": "2026-10-08",
+   "meet": "2024-06-26"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Simon Menashy",
+   "externalEmail": "simon@mmc.vc",
+   "score": 0.66,
+   "last": "2026-09-08",
+   "meet": "2025-12-04"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Mina Samaan",
+   "externalEmail": "mina@mmc.vc",
+   "score": 0.66,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Emily Tsen",
+   "externalEmail": "emily@mmc.vc",
+   "score": 0.55,
+   "last": "2026-10-08",
+   "meet": "2024-06-26"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.99,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Tom Scowsill",
+   "externalEmail": "tom.scowsill@mmc.vc",
+   "score": 0.98,
+   "last": "2025-06-18",
+   "meet": "2025-06-18"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.97,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.95,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.95,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Sevi Uras",
+   "externalEmail": "sevi@mmc.vc",
+   "score": 0.5,
+   "last": "2026-01-13",
+   "meet": "2026-01-13"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Georgia Haigh",
+   "externalEmail": "georgia@mmc.vc",
+   "score": 0.43,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Dele Akinyemi",
+   "externalEmail": "dele@mmc.vc",
+   "score": 0.43,
+   "last": "2026-01-10",
+   "meet": "2026-01-10"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Simon Menashy",
+   "externalEmail": "simon@mmc.vc",
+   "score": 0.38,
+   "last": "2026-09-08",
+   "meet": "2025-12-04"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.74,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Hannah Meehan",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.72,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Dan Barrett-Nembhard",
+   "externalEmail": "daniel@mmc.vc",
+   "score": 0.34,
+   "last": "2026-08-04",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Mina Samaan",
+   "externalEmail": "mina@mmc.vc",
+   "score": 0.34,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Lina Estlind",
+   "externalEmail": "lina@mmc.vc",
+   "score": 0.33,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Masamba Senghore",
+   "externalEmail": "masamba@mmc.vc",
+   "score": 0.4,
+   "last": "2025-01-16",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Dan Barrett-Nembhard",
+   "externalEmail": "daniel@mmc.vc",
+   "score": 0.1,
+   "last": "2026-08-04",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Ameerul Miah",
+   "externalEmail": "ameerul@mmc.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Victoria Ferguson",
+   "externalEmail": "victoria@mmc.vc",
+   "score": 0.1,
+   "last": "2026-08-04",
+   "meet": "2022-10-04"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Simon Menashy",
+   "externalEmail": "simon@mmc.vc",
+   "score": 0.1,
+   "last": "2026-09-08",
+   "meet": "2025-12-04"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Mina Samaan",
+   "externalEmail": "mina@mmc.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Alexandra Reinert",
+   "externalEmail": "alexandra@mmc.vc",
+   "score": 0.1,
+   "last": "2026-03-17",
+   "meet": "2025-09-18"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sevi Uras",
+   "externalEmail": "sevi@mmc.vc",
+   "score": 0.1,
+   "last": "2026-01-13",
+   "meet": "2026-01-13"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Tom Scowsill",
+   "externalEmail": "tom.scowsill@mmc.vc",
+   "score": 0.1,
+   "last": "2025-06-18",
+   "meet": "2025-06-18"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Oliver Richards",
+   "externalEmail": "ollie@mmc.vc",
+   "score": 0.1,
+   "last": "2025-09-24",
+   "meet": "2022-05-24"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

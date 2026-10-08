@@ -2,5 +2,167 @@
  "slug": "seedcamp",
  "affinity_domain": "seedcamp.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ece Ozer",
+   "externalEmail": "ece@seedcamp.com",
+   "score": 1.0,
+   "last": "2026-07-28",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Will Bennett",
+   "externalEmail": "will@seedcamp.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Tom Wilson",
+   "externalEmail": "tom@seedcamp.com",
+   "score": 1.0,
+   "last": "2026-08-15",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Sia Houchangnia",
+   "externalEmail": "sia@seedcamp.com",
+   "score": 1.0,
+   "last": "2026-09-01",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Will Bennett",
+   "externalEmail": "will@seedcamp.com",
+   "score": 0.98,
+   "last": "2026-10-07",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Tom Wilson",
+   "externalEmail": "tom@seedcamp.com",
+   "score": 0.97,
+   "last": "2026-08-15",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Sia Houchangnia",
+   "externalEmail": "sia@seedcamp.com",
+   "score": 0.97,
+   "last": "2026-09-01",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Millan Suri",
+   "externalEmail": "millan@seedcamp.com",
+   "score": 0.98,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Philipp Moehring",
+   "externalEmail": "philipp@seedcamp.com",
+   "score": 0.86,
+   "last": "2026-04-24",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Tom Wilson",
+   "externalEmail": "tom@seedcamp.com",
+   "score": 0.35,
+   "last": "2026-08-15",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Olivia Horton",
+   "externalEmail": "olivia@seedcamp.com",
+   "score": 0.35,
+   "last": "2025-10-24",
+   "meet": null
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Amber Patel",
+   "externalEmail": "amber@seedcamp.com",
+   "score": 0.54,
+   "last": "2024-02-22",
+   "meet": "2024-02-22"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Carlos Espinal",
+   "externalEmail": "carlos@seedcamp.com",
+   "score": 0.1,
+   "last": "2026-08-15",
+   "meet": "2024-12-04"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Carlos Espinal",
+   "externalEmail": "carlos@seedcamp.com",
+   "score": 0.1,
+   "last": "2026-08-15",
+   "meet": "2024-12-04"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Philipp Moehring",
+   "externalEmail": "philipp@seedcamp.com",
+   "score": 0.1,
+   "last": "2026-04-24",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Millan Suri",
+   "externalEmail": "millan@seedcamp.com",
+   "score": 0.1,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Millan Suri",
+   "externalEmail": "millan@seedcamp.com",
+   "score": 0.1,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Katherine Bassett",
+   "externalEmail": "kat.bassett@seedcamp.com",
+   "score": 0.1,
+   "last": "2026-09-10",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Kirsten Campbell",
+   "externalEmail": "kirsten@seedcamp.com",
+   "score": 0.1,
+   "last": "2026-08-04",
+   "meet": null
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Kate McGinn",
+   "externalEmail": "kate@seedcamp.com",
+   "score": 0.1,
+   "last": "2024-10-30",
+   "meet": "2024-10-30"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

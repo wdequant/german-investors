@@ -2,5 +2,327 @@
  "slug": "general-catalyst",
  "affinity_domain": "generalcatalyst.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Amanda Lennon",
+   "externalEmail": "alennon@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2026-06-19",
+   "meet": "2024-10-01"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Mark Crane",
+   "externalEmail": "mcrane@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2026-08-13",
+   "meet": "2026-08-13"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alex Mackenzie",
+   "externalEmail": "amackenzie@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Electra Niarchos",
+   "externalEmail": "eniarchos@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2026-09-14",
+   "meet": "2026-09-14"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Zeynep Yavuz",
+   "externalEmail": "zyavuz@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2026-07-09",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Alex Mackenzie",
+   "externalEmail": "amackenzie@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Zeynep Yavuz",
+   "externalEmail": "zyavuz@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2026-07-09",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Zeynep Yavuz",
+   "externalEmail": "zyavuz@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2026-07-09",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Zeynep Yavuz",
+   "externalEmail": "zyavuz@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2026-07-09",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Alex Mackenzie",
+   "externalEmail": "amackenzie@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Amanda Lennon",
+   "externalEmail": "alennon@generalcatalyst.com",
+   "score": 0.91,
+   "last": "2026-06-19",
+   "meet": "2024-10-01"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Mark Crane",
+   "externalEmail": "mcrane@generalcatalyst.com",
+   "score": 0.91,
+   "last": "2026-08-13",
+   "meet": "2026-08-13"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alex Mackenzie",
+   "externalEmail": "amackenzie@generalcatalyst.com",
+   "score": 0.91,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Paula Wehmeyer",
+   "externalEmail": "pwehmeyer@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2026-01-13",
+   "meet": "2025-12-22"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Paula Wehmeyer",
+   "externalEmail": "pwehmeyer@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2026-01-13",
+   "meet": "2025-12-22"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alex Mackenzie",
+   "externalEmail": "amackenzie@generalcatalyst.com",
+   "score": 0.6,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Nicole Bodinnar",
+   "externalEmail": "nbodinnar@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Josephine Kinney",
+   "externalEmail": "jkinney@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2025-01-22",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Cecilia Zhao",
+   "externalEmail": "cczhao@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Juliet Bailin",
+   "externalEmail": "jbailin@generalcatalyst.com",
+   "score": 1.0,
+   "last": "2025-09-03",
+   "meet": "2025-09-02"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Ashley Paston",
+   "externalEmail": "apaston@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Nicole Bodinnar",
+   "externalEmail": "nbodinnar@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Josephine Kinney",
+   "externalEmail": "jkinney@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2025-01-22",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Cecilia Zhao",
+   "externalEmail": "cczhao@generalcatalyst.com",
+   "score": 0.99,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Ashley Paston",
+   "externalEmail": "apaston@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Nicole Bodinnar",
+   "externalEmail": "nbodinnar@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Nicole Bodinnar",
+   "externalEmail": "nbodinnar@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Cecilia Zhao",
+   "externalEmail": "cczhao@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Cecilia Zhao",
+   "externalEmail": "cczhao@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Juliet Bailin",
+   "externalEmail": "jbailin@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-09-03",
+   "meet": "2025-09-02"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Larry Bohn",
+   "externalEmail": "lbohn@generalcatalyst.com",
+   "score": 0.98,
+   "last": "2025-04-03",
+   "meet": "2025-04-03"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Josephine Kinney",
+   "externalEmail": "jkinney@generalcatalyst.com",
+   "score": 0.95,
+   "last": "2025-01-22",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Cecilia Zhao",
+   "externalEmail": "cczhao@generalcatalyst.com",
+   "score": 0.94,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Liv Parry",
+   "externalEmail": "lparry@generalcatalyst.com",
+   "score": 0.5,
+   "last": "2026-03-03",
+   "meet": "2026-03-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Cecilia Zhao",
+   "externalEmail": "cczhao@generalcatalyst.com",
+   "score": 0.86,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Nicole Bodinnar",
+   "externalEmail": "nbodinnar@generalcatalyst.com",
+   "score": 0.82,
+   "last": "2025-07-07",
+   "meet": "2025-07-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Juliet Bailin",
+   "externalEmail": "jbailin@generalcatalyst.com",
+   "score": 0.82,
+   "last": "2025-09-03",
+   "meet": "2025-09-02"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Linn Raphael",
+   "externalEmail": "lraphael@generalcatalyst.com",
+   "score": 0.59,
+   "last": "2026-04-01",
+   "meet": null
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Aleksandra Solak",
+   "externalEmail": "asolak@generalcatalyst.com",
+   "score": 0.43,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ripley Hartmeyer",
+   "externalEmail": "rhartmeyer@generalcatalyst.com",
+   "score": 0.38,
+   "last": "2026-06-15",
+   "meet": "2024-11-12"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

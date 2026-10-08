@@ -2,5 +2,327 @@
  "slug": "vitruvian-partners",
  "affinity_domain": "vitruvianpartners.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Tanya Blignaut",
+   "externalEmail": "tanya.blignaut@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-04-20",
+   "meet": "2026-04-20"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Jasper Koid",
+   "externalEmail": "jasper.koid@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-04-20",
+   "meet": "2026-04-20"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Alec Kingham",
+   "externalEmail": "alec.kingham@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-09-25",
+   "meet": "2025-03-19"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alec Kingham",
+   "externalEmail": "alec.kingham@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-09-25",
+   "meet": "2025-03-19"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Michael Mitterlehner",
+   "externalEmail": "michael.mitterlehner@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-07-07",
+   "meet": "2025-07-04"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Peter Read",
+   "externalEmail": "peter.read@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-04-21",
+   "meet": "2026-04-20"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Peter Read",
+   "externalEmail": "peter.read@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-04-21",
+   "meet": "2026-04-20"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Daniel Wolf",
+   "externalEmail": "daniel.wolf@vitruvianpartners.com",
+   "score": 0.99,
+   "last": "2026-05-13",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Raluca Ragab",
+   "externalEmail": "raluca.ragab@vitruvianpartners.com",
+   "score": 0.99,
+   "last": "2026-07-22",
+   "meet": "2026-07-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Raluca Ragab",
+   "externalEmail": "raluca.ragab@vitruvianpartners.com",
+   "score": 0.99,
+   "last": "2026-07-22",
+   "meet": "2026-07-22"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Daniel Wolf",
+   "externalEmail": "daniel.wolf@vitruvianpartners.com",
+   "score": 0.98,
+   "last": "2026-05-13",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Raluca Ragab",
+   "externalEmail": "raluca.ragab@vitruvianpartners.com",
+   "score": 0.97,
+   "last": "2026-07-22",
+   "meet": "2026-07-22"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Peter Read",
+   "externalEmail": "peter.read@vitruvianpartners.com",
+   "score": 0.95,
+   "last": "2026-04-21",
+   "meet": "2026-04-20"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Raluca Ragab",
+   "externalEmail": "raluca.ragab@vitruvianpartners.com",
+   "score": 0.92,
+   "last": "2026-07-22",
+   "meet": "2026-07-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Shash Jha",
+   "externalEmail": "shash.jha@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Maximilian Abt",
+   "externalEmail": "maximilian.abt@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2025-11-24",
+   "meet": "2024-11-22"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Maximilian Abt",
+   "externalEmail": "maximilian.abt@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2025-11-24",
+   "meet": "2024-11-22"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Maximilian Abt",
+   "externalEmail": "maximilian.abt@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2025-11-24",
+   "meet": "2024-11-22"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Hendrik Pauw",
+   "externalEmail": "hendrik.pauw@vitruvianpartners.com",
+   "score": 0.99,
+   "last": "2026-03-24",
+   "meet": "2025-10-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Shash Jha",
+   "externalEmail": "shash.jha@vitruvianpartners.com",
+   "score": 0.99,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Petter Roald",
+   "externalEmail": "petter.roald@vitruvianpartners.com",
+   "score": 0.98,
+   "last": "2026-02-18",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Andrea Olivares",
+   "externalEmail": "andrea.solisolivares@vitruvianpartners.com",
+   "score": 0.98,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Jussi Wuoristo",
+   "externalEmail": "jussi.wuoristo@vitruvianpartners.com",
+   "score": 0.98,
+   "last": "2026-02-18",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Petter Roald",
+   "externalEmail": "petter.roald@vitruvianpartners.com",
+   "score": 0.95,
+   "last": "2026-02-18",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jussi Wuoristo",
+   "externalEmail": "jussi.wuoristo@vitruvianpartners.com",
+   "score": 0.95,
+   "last": "2026-02-18",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Nowi Kallen",
+   "externalEmail": "nowi.kallen@vitruvianpartners.com",
+   "score": 0.93,
+   "last": "2026-03-16",
+   "meet": "2023-10-10"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Brigott Bruintjies",
+   "externalEmail": "brigott.bruintjies@vitruvianpartners.com",
+   "score": 0.92,
+   "last": "2025-10-27",
+   "meet": "2025-10-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jack Alcock",
+   "externalEmail": "jack.alcock@vitruvianpartners.com",
+   "score": 0.74,
+   "last": "2026-08-20",
+   "meet": "2026-08-20"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Michael Mitterlehner",
+   "externalEmail": "michael.mitterlehner@vitruvianpartners.com",
+   "score": 0.74,
+   "last": "2026-07-07",
+   "meet": "2025-07-04"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Maximilian Abt",
+   "externalEmail": "maximilian.abt@vitruvianpartners.com",
+   "score": 0.72,
+   "last": "2025-11-24",
+   "meet": "2024-11-22"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Michael Mitterlehner",
+   "externalEmail": "michael.mitterlehner@vitruvianpartners.com",
+   "score": 0.51,
+   "last": "2026-07-07",
+   "meet": "2025-07-04"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Jade Langley",
+   "externalEmail": "jade.langley@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2025-10-07",
+   "meet": "2025-10-07"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Erik Lunning",
+   "externalEmail": "erik.lunning@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2024-11-07",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Duncan Reek",
+   "externalEmail": "duncan.reek@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2024-10-23",
+   "meet": "2024-10-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Sylvia Reid",
+   "externalEmail": "sylvia.reid@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2025-03-16",
+   "meet": "2024-12-16"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Rosa Cho",
+   "externalEmail": "rosa.cho@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2024-11-22",
+   "meet": "2024-11-22"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Rosa Cho",
+   "externalEmail": "rosa.cho@vitruvianpartners.com",
+   "score": 1.0,
+   "last": "2024-11-22",
+   "meet": "2024-11-22"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Robert Lang",
+   "externalEmail": "robert.lang@vitruvianpartners.com",
+   "score": 0.98,
+   "last": "2025-05-21",
+   "meet": "2025-05-21"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Sylvia Reid",
+   "externalEmail": "sylvia.reid@vitruvianpartners.com",
+   "score": 0.95,
+   "last": "2025-03-16",
+   "meet": "2024-12-16"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Nowi Kallen",
+   "externalEmail": "nowi.kallen@vitruvianpartners.com",
+   "score": 0.45,
+   "last": "2026-03-16",
+   "meet": "2023-10-10"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

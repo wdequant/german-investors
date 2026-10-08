@@ -2,5 +2,127 @@
  "slug": "mercia-asset-management-plc",
  "affinity_domain": "mercia.co.uk",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Shubham Jaipuria",
+   "externalEmail": "shubham.jaipuria@mercia.co.uk",
+   "score": 1.0,
+   "last": "2026-04-30",
+   "meet": "2026-04-30"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Jan Oosthuizen",
+   "externalEmail": "jan.oosthuizen@mercia.co.uk",
+   "score": 0.98,
+   "last": "2026-09-22",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Adam Lovell",
+   "externalEmail": "adam.lovell@mercia.co.uk",
+   "score": 1.0,
+   "last": "2025-10-16",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Jake Christoforou",
+   "externalEmail": "jake.christoforou@mercia.co.uk",
+   "score": 0.89,
+   "last": "2026-08-10",
+   "meet": "2025-06-10"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Chris Borrett",
+   "externalEmail": "chris.borrett@mercia.co.uk",
+   "score": 0.85,
+   "last": "2026-07-26",
+   "meet": "2026-07-24"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Adam Lovell",
+   "externalEmail": "adam.lovell@mercia.co.uk",
+   "score": 0.87,
+   "last": "2025-10-16",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jan Oosthuizen",
+   "externalEmail": "jan.oosthuizen@mercia.co.uk",
+   "score": 0.76,
+   "last": "2026-09-22",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Lisa Ward",
+   "externalEmail": "lisa.ward@mercia.co.uk",
+   "score": 0.8,
+   "last": "2026-03-04",
+   "meet": "2025-10-06"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Jonathan Kruger",
+   "externalEmail": "jonathan.kruger@mercia.co.uk",
+   "score": 0.73,
+   "last": "2025-10-16",
+   "meet": "2025-10-16"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Lisa Ward",
+   "externalEmail": "lisa.ward@mercia.co.uk",
+   "score": 0.52,
+   "last": "2026-03-04",
+   "meet": "2025-10-06"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Hugo Lough",
+   "externalEmail": "hugo.lough@mercia.co.uk",
+   "score": 1.0,
+   "last": "2024-08-21",
+   "meet": "2024-08-21"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ruth Coleman",
+   "externalEmail": "ruth.coleman@mercia.co.uk",
+   "score": 0.54,
+   "last": "2025-03-17",
+   "meet": "2025-03-17"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Hugo Lough",
+   "externalEmail": "hugo.lough@mercia.co.uk",
+   "score": 0.6,
+   "last": "2024-08-21",
+   "meet": "2024-08-21"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Jan Oosthuizen",
+   "externalEmail": "jan.oosthuizen@mercia.co.uk",
+   "score": 0.1,
+   "last": "2026-09-22",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Adam Lovell",
+   "externalEmail": "adam.lovell@mercia.co.uk",
+   "score": 0.1,
+   "last": "2025-10-16",
+   "meet": "2025-02-19"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

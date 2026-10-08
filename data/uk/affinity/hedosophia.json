@@ -2,5 +2,327 @@
  "slug": "hedosophia",
  "affinity_domain": "hedosophia.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "external": "Ben Bieler",
+   "externalEmail": "bb@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-09-29",
+   "meet": "2026-09-18"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Beatrice Jaubert",
+   "externalEmail": "bxj@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Alina Negulescu",
+   "externalEmail": "aen@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-08-05"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Antoine De Wilde D'Estmael",
+   "externalEmail": "adw@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-09-16",
+   "meet": "2026-09-16"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Mark Batunskiy",
+   "externalEmail": "mb@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-08-27"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alexandre Charlet",
+   "externalEmail": "ac@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Alexandre Charlet",
+   "externalEmail": "ac@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Beatrice Jaubert",
+   "externalEmail": "bxj@hedosophia.com",
+   "score": 0.95,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Mark Batunskiy",
+   "externalEmail": "mb@hedosophia.com",
+   "score": 0.95,
+   "last": "2026-10-07",
+   "meet": "2026-08-27"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ed Perry",
+   "externalEmail": "ep@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-01-05",
+   "meet": "2026-01-05"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Ed Perry",
+   "externalEmail": "ep@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-01-05",
+   "meet": "2026-01-05"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Heidi Kortbaek",
+   "externalEmail": "hk@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Caspar Wahler",
+   "externalEmail": "cjw@hedosophia.com",
+   "score": 1.0,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Caspar Wahler",
+   "externalEmail": "cjw@hedosophia.com",
+   "score": 0.97,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Andrew Smyth",
+   "externalEmail": "aps@hedosophia.com",
+   "score": 0.95,
+   "last": "2026-03-06",
+   "meet": "2026-03-06"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jan Ebbinghaus",
+   "externalEmail": "je@hedosophia.com",
+   "score": 0.93,
+   "last": "2026-02-26",
+   "meet": "2025-04-15"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Beatrice Jaubert",
+   "externalEmail": "bxj@hedosophia.com",
+   "score": 0.68,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Caspar Wahler",
+   "externalEmail": "cjw@hedosophia.com",
+   "score": 0.7,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Jan Ebbinghaus",
+   "externalEmail": "je@hedosophia.com",
+   "score": 0.67,
+   "last": "2026-02-26",
+   "meet": "2025-04-15"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Jake Shyne",
+   "externalEmail": "jds@hedosophia.com",
+   "score": 1.0,
+   "last": "2025-03-05",
+   "meet": "2025-03-05"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Anna Yasuhara-Macer",
+   "externalEmail": "ak@hedosophia.com",
+   "score": 1.0,
+   "last": "2025-07-31",
+   "meet": "2025-07-31"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Chiara Panunzi",
+   "externalEmail": "cp@hedosophia.com",
+   "score": 1.0,
+   "last": "2025-04-26",
+   "meet": "2024-10-04"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ivana Dominkovic",
+   "externalEmail": "id@hedosophia.com",
+   "score": 0.93,
+   "last": "2025-06-18",
+   "meet": "2025-06-18"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Heidi Kortbaek",
+   "externalEmail": "hk@hedosophia.com",
+   "score": 0.51,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Sophie Fisher",
+   "externalEmail": "sf@hedosophia.com",
+   "score": 0.57,
+   "last": "2025-12-15",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Jan Ebbinghaus",
+   "externalEmail": "je@hedosophia.com",
+   "score": 0.41,
+   "last": "2026-02-26",
+   "meet": "2025-04-15"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Alexandre Charlet",
+   "externalEmail": "ac@hedosophia.com",
+   "score": 0.35,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Scarlett Ginolfi",
+   "externalEmail": "sg@hedosophia.com",
+   "score": 0.48,
+   "last": "2026-02-27",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Scarlett Ginolfi",
+   "externalEmail": "sg@hedosophia.com",
+   "score": 0.43,
+   "last": "2026-02-27",
+   "meet": null
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "John Lynch",
+   "externalEmail": "jl@hedosophia.com",
+   "score": 0.38,
+   "last": "2025-02-20",
+   "meet": "2023-04-26"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Chiara Panunzi",
+   "externalEmail": "cp@hedosophia.com",
+   "score": 0.35,
+   "last": "2025-04-26",
+   "meet": "2024-10-04"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Sandra Allou",
+   "externalEmail": "sa@hedosophia.com",
+   "score": 0.54,
+   "last": "2023-11-09",
+   "meet": null
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alexandre Charlet",
+   "externalEmail": "ac@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Heidi Kortbaek",
+   "externalEmail": "hk@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Jan Ebbinghaus",
+   "externalEmail": "je@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-02-26",
+   "meet": "2025-04-15"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Jan Ebbinghaus",
+   "externalEmail": "je@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-02-26",
+   "meet": "2025-04-15"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Caspar Wahler",
+   "externalEmail": "cjw@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Caspar Wahler",
+   "externalEmail": "cjw@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Caspar Wahler",
+   "externalEmail": "cjw@hedosophia.com",
+   "score": 0.1,
+   "last": "2026-04-08",
+   "meet": "2026-04-08"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Anna Yasuhara-Macer",
+   "externalEmail": "ak@hedosophia.com",
+   "score": 0.1,
+   "last": "2025-07-31",
+   "meet": "2025-07-31"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

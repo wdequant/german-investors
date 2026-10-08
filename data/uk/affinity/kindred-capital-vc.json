@@ -2,5 +2,103 @@
  "slug": "kindred-capital-vc",
  "affinity_domain": "kindredcapital.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Helena Richardson",
+   "external": "Leila Zegna",
+   "externalEmail": "leila@kindredcapital.vc",
+   "score": 0.98,
+   "last": "2026-09-10",
+   "meet": "2026-05-18"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Leila Zegna",
+   "externalEmail": "leila@kindredcapital.vc",
+   "score": 0.98,
+   "last": "2026-09-10",
+   "meet": "2026-05-18"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Max Bray",
+   "externalEmail": "max@kindredcapital.vc",
+   "score": 0.92,
+   "last": "2026-10-07",
+   "meet": "2025-05-16"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Chrys Chrysanthou",
+   "externalEmail": "chrys@kindredcapital.vc",
+   "score": 1.0,
+   "last": "2024-11-01",
+   "meet": "2024-10-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Karen Swain",
+   "externalEmail": "karen@kindredcapital.vc",
+   "score": 0.43,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Max Bray",
+   "externalEmail": "max@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2025-05-16"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Karen Swain",
+   "externalEmail": "karen@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Leila Zegna",
+   "externalEmail": "leila@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2026-09-10",
+   "meet": "2026-05-18"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Fiona Lay",
+   "externalEmail": "fiona@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2026-04-15",
+   "meet": null
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "John Potter",
+   "externalEmail": "john@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2025-03-21",
+   "meet": "2025-03-20"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Chrys Chrysanthou",
+   "externalEmail": "chrys@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2024-11-01",
+   "meet": "2024-10-30"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Chrys Chrysanthou",
+   "externalEmail": "chrys@kindredcapital.vc",
+   "score": 0.1,
+   "last": "2024-11-01",
+   "meet": "2024-10-30"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

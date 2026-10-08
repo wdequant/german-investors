@@ -2,5 +2,23 @@
  "slug": "northern-gritstone",
  "affinity_domain": "northern-gritstone.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Sallie Trenell",
+   "externalEmail": "sallie.trenell@northern-gritstone.com",
+   "score": 0.96,
+   "last": "2025-09-09",
+   "meet": "2025-09-09"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "James Hadley",
+   "externalEmail": "james.hadley@northern-gritstone.com",
+   "score": 0.95,
+   "last": "2025-09-09",
+   "meet": "2025-09-09"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

@@ -2,5 +2,303 @@
  "slug": "expedition-growth-capital",
  "affinity_domain": "expedition.capital",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Samuel Meijer",
+   "external": "Sebastian Hodge",
+   "externalEmail": "seb@expedition.capital",
+   "score": 1.0,
+   "last": "2026-08-28",
+   "meet": "2026-08-28"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Raja Ohri",
+   "externalEmail": "raja@expedition.capital",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sourour Chtatou",
+   "externalEmail": "sourour@expedition.capital",
+   "score": 1.0,
+   "last": "2026-09-04",
+   "meet": "2025-10-02"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Tom Denford",
+   "externalEmail": "tom@expedition.capital",
+   "score": 1.0,
+   "last": "2026-04-15",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Klaas Seynaeve",
+   "externalEmail": "klaas@expedition.capital",
+   "score": 1.0,
+   "last": "2026-04-30",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Klaas Seynaeve",
+   "externalEmail": "klaas@expedition.capital",
+   "score": 1.0,
+   "last": "2026-04-30",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "David Olsson",
+   "externalEmail": "david@expedition.capital",
+   "score": 1.0,
+   "last": "2026-07-28",
+   "meet": "2026-06-24"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Will Sheldon",
+   "externalEmail": "will@expedition.capital",
+   "score": 1.0,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Will Sheldon",
+   "externalEmail": "will@expedition.capital",
+   "score": 1.0,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Sebastian Hodge",
+   "externalEmail": "seb@expedition.capital",
+   "score": 0.99,
+   "last": "2026-08-28",
+   "meet": "2026-08-28"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "David Olsson",
+   "externalEmail": "david@expedition.capital",
+   "score": 0.99,
+   "last": "2026-07-28",
+   "meet": "2026-06-24"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Steven Twomey",
+   "externalEmail": "steve@expedition.capital",
+   "score": 0.99,
+   "last": "2026-05-06",
+   "meet": "2026-05-05"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Will Sheldon",
+   "externalEmail": "will@expedition.capital",
+   "score": 0.99,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sebastian Hodge",
+   "externalEmail": "seb@expedition.capital",
+   "score": 0.98,
+   "last": "2026-08-28",
+   "meet": "2026-08-28"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "David Olsson",
+   "externalEmail": "david@expedition.capital",
+   "score": 0.97,
+   "last": "2026-07-28",
+   "meet": "2026-06-24"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Maria Percuklievska",
+   "externalEmail": "maria@expedition.capital",
+   "score": 1.0,
+   "last": "2025-12-25",
+   "meet": "2025-12-25"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Oliver Thomas",
+   "externalEmail": "oliver@expedition.capital",
+   "score": 0.99,
+   "last": "2026-03-18",
+   "meet": "2025-02-05"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sebastian Hodge",
+   "externalEmail": "seb@expedition.capital",
+   "score": 0.85,
+   "last": "2026-08-28",
+   "meet": "2026-08-28"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Klaas Seynaeve",
+   "externalEmail": "klaas@expedition.capital",
+   "score": 0.84,
+   "last": "2026-04-30",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Shuli Levy",
+   "externalEmail": "shuli@expedition.capital",
+   "score": 1.0,
+   "last": "2025-07-14",
+   "meet": "2025-04-24"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Sourour Chtatou",
+   "externalEmail": "sourour@expedition.capital",
+   "score": 0.43,
+   "last": "2026-09-04",
+   "meet": "2025-10-02"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Will Sheldon",
+   "externalEmail": "will@expedition.capital",
+   "score": 0.43,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Oliver Thomas",
+   "externalEmail": "oliver@expedition.capital",
+   "score": 0.46,
+   "last": "2026-03-18",
+   "meet": "2025-02-05"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Alba Topallaj",
+   "externalEmail": "alba@expedition.capital",
+   "score": 0.43,
+   "last": "2025-10-24",
+   "meet": "2024-01-29"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alba Topallaj",
+   "externalEmail": "alba@expedition.capital",
+   "score": 0.43,
+   "last": "2025-10-24",
+   "meet": "2024-01-29"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Alba Topallaj",
+   "externalEmail": "alba@expedition.capital",
+   "score": 0.38,
+   "last": "2025-10-24",
+   "meet": "2024-01-29"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Latifa Mohdar",
+   "externalEmail": "latifa@expedition.capital",
+   "score": 0.66,
+   "last": "2024-06-13",
+   "meet": "2024-06-13"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Sourour Chtatou",
+   "externalEmail": "sourour@expedition.capital",
+   "score": 0.1,
+   "last": "2026-09-04",
+   "meet": "2025-10-02"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Sourour Chtatou",
+   "externalEmail": "sourour@expedition.capital",
+   "score": 0.1,
+   "last": "2026-09-04",
+   "meet": "2025-10-02"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "David Olsson",
+   "externalEmail": "david@expedition.capital",
+   "score": 0.1,
+   "last": "2026-07-28",
+   "meet": "2026-06-24"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "David Olsson",
+   "externalEmail": "david@expedition.capital",
+   "score": 0.1,
+   "last": "2026-07-28",
+   "meet": "2026-06-24"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "David Olsson",
+   "externalEmail": "david@expedition.capital",
+   "score": 0.1,
+   "last": "2026-07-28",
+   "meet": "2026-06-24"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Steven Twomey",
+   "externalEmail": "steve@expedition.capital",
+   "score": 0.1,
+   "last": "2026-05-06",
+   "meet": "2026-05-05"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Oliver Thomas",
+   "externalEmail": "oliver@expedition.capital",
+   "score": 0.1,
+   "last": "2026-03-18",
+   "meet": "2025-02-05"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Oliver Thomas",
+   "externalEmail": "oliver@expedition.capital",
+   "score": 0.1,
+   "last": "2026-03-18",
+   "meet": "2025-02-05"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Oliver Thomas",
+   "externalEmail": "oliver@expedition.capital",
+   "score": 0.1,
+   "last": "2026-03-18",
+   "meet": "2025-02-05"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Charles Covell",
+   "externalEmail": "charles@expedition.capital",
+   "score": 0.32,
+   "last": "2024-01-18",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

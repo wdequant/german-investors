@@ -2,5 +2,159 @@
  "slug": "sequoia-capital",
  "affinity_domain": "sequoiacap.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 1.0,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 0.99,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 0.99,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 0.98,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 0.83,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Matt Miller",
+   "externalEmail": "miller@sequoiacap.com",
+   "score": 1.0,
+   "last": "2025-08-20",
+   "meet": "2025-07-29"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Liam Corrigan",
+   "externalEmail": "lcorrigan@sequoiacap.com",
+   "score": 0.62,
+   "last": "2026-09-15",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Madeleine Conway",
+   "externalEmail": "mconway@sequoiacap.com",
+   "score": 0.58,
+   "last": "2026-04-14",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Carrie Macasaet",
+   "externalEmail": "cmacasaet@sequoiacap.com",
+   "score": 0.46,
+   "last": "2025-11-21",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Maria Dowling",
+   "externalEmail": "mdowling@sequoiacap.com",
+   "score": 0.67,
+   "last": "2025-07-07",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Zoe Hewitt",
+   "externalEmail": "zhewitt@sequoiacap.com",
+   "score": 0.83,
+   "last": "2023-11-15",
+   "meet": "2023-11-15"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Gili Raanan",
+   "externalEmail": "gili@sequoiacap.com",
+   "score": 0.38,
+   "last": "2024-06-28",
+   "meet": "2019-06-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Zoe Jervier",
+   "externalEmail": "zoe@sequoiacap.com",
+   "score": 0.36,
+   "last": "2023-10-19",
+   "meet": "2023-03-21"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 0.1,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "George Robson",
+   "externalEmail": "grobson@sequoiacap.com",
+   "score": 0.1,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Madeleine Conway",
+   "externalEmail": "mconway@sequoiacap.com",
+   "score": 0.1,
+   "last": "2026-04-14",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Madeleine Conway",
+   "externalEmail": "mconway@sequoiacap.com",
+   "score": 0.1,
+   "last": "2026-04-14",
+   "meet": null
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Duncan Tennant",
+   "externalEmail": "dtennant@sequoiacap.com",
+   "score": 0.31,
+   "last": "2024-02-19",
+   "meet": null
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Anas Biad",
+   "externalEmail": "abiad@sequoiacap.com",
+   "score": 0.1,
+   "last": "2024-05-22",
+   "meet": "2023-02-21"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

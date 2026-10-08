@@ -2,5 +2,39 @@
  "slug": "ip-group-plc",
  "affinity_domain": "ipgroupplc.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Laurence Garrett",
+   "external": "Jon Edington",
+   "externalEmail": "jon.edington@ipgroupplc.com",
+   "score": 1.0,
+   "last": "2026-09-14",
+   "meet": "2026-09-14"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Mal Daniel",
+   "externalEmail": "mal.daniel@ipgroupplc.com",
+   "score": 0.99,
+   "last": "2026-06-19",
+   "meet": "2026-02-27"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Jeanine Ankama",
+   "externalEmail": "jeanine.ankama@ipgroupplc.com",
+   "score": 0.98,
+   "last": "2024-12-04",
+   "meet": "2024-12-04"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "David Baynes",
+   "externalEmail": "david.baynes@ipgroupplc.com",
+   "score": 0.3,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

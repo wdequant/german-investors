@@ -2,5 +2,167 @@
  "slug": "rtp-global",
  "affinity_domain": "rtp.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Julia Anisimova",
+   "externalEmail": "janisimova@rtp.vc",
+   "score": 1.0,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Thomas Cuvelier",
+   "externalEmail": "thomas@rtp.vc",
+   "score": 1.0,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Orson Stadler",
+   "externalEmail": "orson@rtp.vc",
+   "score": 1.0,
+   "last": "2025-11-19",
+   "meet": "2024-10-21"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Simon Pastor",
+   "externalEmail": "simon@rtp.vc",
+   "score": 0.99,
+   "last": "2025-12-16",
+   "meet": "2025-12-16"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Julia Anisimova",
+   "externalEmail": "janisimova@rtp.vc",
+   "score": 0.99,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Julia Anisimova",
+   "externalEmail": "janisimova@rtp.vc",
+   "score": 0.99,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Thomas Cuvelier",
+   "externalEmail": "thomas@rtp.vc",
+   "score": 0.99,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Thomas Cuvelier",
+   "externalEmail": "thomas@rtp.vc",
+   "score": 0.99,
+   "last": "2025-11-19",
+   "meet": "2025-11-19"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Orson Stadler",
+   "externalEmail": "orson@rtp.vc",
+   "score": 0.98,
+   "last": "2025-11-19",
+   "meet": "2024-10-21"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Elina Rayberg",
+   "externalEmail": "elina@rtp.vc",
+   "score": 1.0,
+   "last": "2024-12-04",
+   "meet": "2024-11-27"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Gareth Jefferies",
+   "externalEmail": "gareth@rtp.vc",
+   "score": 1.0,
+   "last": "2025-08-20",
+   "meet": "2025-08-18"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Gareth Jefferies",
+   "externalEmail": "gareth@rtp.vc",
+   "score": 0.98,
+   "last": "2025-08-20",
+   "meet": "2025-08-18"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Gareth Jefferies",
+   "externalEmail": "gareth@rtp.vc",
+   "score": 0.96,
+   "last": "2025-08-20",
+   "meet": "2025-08-18"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Orson Stadler",
+   "externalEmail": "orson@rtp.vc",
+   "score": 0.43,
+   "last": "2025-11-19",
+   "meet": "2024-10-21"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Gareth Jefferies",
+   "externalEmail": "gareth@rtp.vc",
+   "score": 0.53,
+   "last": "2025-08-20",
+   "meet": "2025-08-18"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Gareth Jefferies",
+   "externalEmail": "gareth@rtp.vc",
+   "score": 0.43,
+   "last": "2025-08-20",
+   "meet": "2025-08-18"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Galina Chifina",
+   "externalEmail": "gchifina@rtp.vc",
+   "score": 0.4,
+   "last": "2024-10-10",
+   "meet": "2024-10-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Orson Stadler",
+   "externalEmail": "orson@rtp.vc",
+   "score": 0.1,
+   "last": "2025-11-19",
+   "meet": "2024-10-21"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Orson Stadler",
+   "externalEmail": "orson@rtp.vc",
+   "score": 0.1,
+   "last": "2025-11-19",
+   "meet": "2024-10-21"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Gareth Jefferies",
+   "externalEmail": "gareth@rtp.vc",
+   "score": 0.1,
+   "last": "2025-08-20",
+   "meet": "2025-08-18"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

@@ -2,5 +2,239 @@
  "slug": "firstminute-capital",
  "affinity_domain": "firstminute.capital",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Lorcan Delaney",
+   "externalEmail": "lorcan@firstminute.capital",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Lorcan Delaney",
+   "externalEmail": "lorcan@firstminute.capital",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Michael Stothard",
+   "externalEmail": "michael@firstminute.capital",
+   "score": 1.0,
+   "last": "2026-09-22",
+   "meet": "2025-10-13"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Adriana Vitagliano",
+   "externalEmail": "adriana@firstminute.capital",
+   "score": 1.0,
+   "last": "2026-06-13",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sam Endacott",
+   "externalEmail": "sam@firstminute.capital",
+   "score": 1.0,
+   "last": "2026-07-21",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Anais Benazet",
+   "externalEmail": "anais@firstminute.capital",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Lina Wenner",
+   "externalEmail": "kira@firstminute.capital",
+   "score": 0.96,
+   "last": "2026-08-11",
+   "meet": "2025-07-03"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Lorcan Delaney",
+   "externalEmail": "lorcan@firstminute.capital",
+   "score": 0.85,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Lina Wenner",
+   "externalEmail": "kira@firstminute.capital",
+   "score": 0.61,
+   "last": "2026-08-11",
+   "meet": "2025-07-03"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Harri Walsh",
+   "externalEmail": "harri@firstminute.capital",
+   "score": 0.75,
+   "last": "2026-09-03",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Spencer Crawley",
+   "externalEmail": "spencer@firstminute.capital",
+   "score": 0.53,
+   "last": "2026-09-14",
+   "meet": "2018-11-08"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Lina Wenner",
+   "externalEmail": "kira@firstminute.capital",
+   "score": 0.45,
+   "last": "2026-08-11",
+   "meet": "2025-07-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Liv Price",
+   "externalEmail": "liv@firstminute.capital",
+   "score": 0.86,
+   "last": "2025-02-17",
+   "meet": "2024-03-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Lina Wenner",
+   "externalEmail": "kira@firstminute.capital",
+   "score": 0.43,
+   "last": "2026-08-11",
+   "meet": "2025-07-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Anais Benazet",
+   "externalEmail": "anais@firstminute.capital",
+   "score": 0.43,
+   "last": "2026-09-24",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Sam Endacott",
+   "externalEmail": "sam@firstminute.capital",
+   "score": 0.38,
+   "last": "2026-07-21",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Adriana Vitagliano",
+   "externalEmail": "adriana@firstminute.capital",
+   "score": 0.35,
+   "last": "2026-06-13",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Harri Walsh",
+   "externalEmail": "harri@firstminute.capital",
+   "score": 0.46,
+   "last": "2026-09-03",
+   "meet": null
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Steph Mcintosh",
+   "externalEmail": "steph@firstminute.capital",
+   "score": 0.67,
+   "last": "2024-10-29",
+   "meet": null
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Nicola Green",
+   "externalEmail": "nicola@firstminute.capital",
+   "score": 0.43,
+   "last": "2024-11-21",
+   "meet": null
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Steph Mcintosh",
+   "externalEmail": "steph@firstminute.capital",
+   "score": 0.43,
+   "last": "2024-10-29",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Ben McCloskey",
+   "externalEmail": "ben@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-04-16",
+   "meet": "2026-04-16"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Lorcan Delaney",
+   "externalEmail": "lorcan@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Lorcan Delaney",
+   "externalEmail": "lorcan@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Lorcan Delaney",
+   "externalEmail": "lorcan@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Spencer Crawley",
+   "externalEmail": "spencer@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-09-14",
+   "meet": "2018-11-08"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Anais Benazet",
+   "externalEmail": "anais@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-09-24",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Min Nolan",
+   "externalEmail": "min@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-04-10",
+   "meet": "2026-01-14"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Lauren Kalinauckas",
+   "externalEmail": "eventsupport@firstminute.capital",
+   "score": 0.1,
+   "last": "2026-09-15",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

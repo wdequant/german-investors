@@ -2,5 +2,31 @@
  "slug": "entrepreneur-first",
  "affinity_domain": "joinef.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Zina Alfa",
+   "external": "Seyi Oluwasanmi",
+   "externalEmail": "seyi@joinef.com",
+   "score": 0.46,
+   "last": "2026-02-25",
+   "meet": "2026-02-25"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Max Neuberger",
+   "externalEmail": "max.neuberger@joinef.com",
+   "score": 0.51,
+   "last": "2025-12-03",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ella Morris",
+   "externalEmail": "ella.morris@joinef.com",
+   "score": 0.43,
+   "last": "2025-12-16",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

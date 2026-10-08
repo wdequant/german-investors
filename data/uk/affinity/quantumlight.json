@@ -2,5 +2,31 @@
  "slug": "quantumlight",
  "affinity_domain": "quantumlightcapital.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "external": "James Darby",
+   "externalEmail": "james.d@quantumlightcapital.com",
+   "score": 0.99,
+   "last": "2026-08-25",
+   "meet": "2026-08-25"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Dora Zikouli",
+   "externalEmail": "dora@quantumlightcapital.com",
+   "score": 0.99,
+   "last": "2025-12-08",
+   "meet": "2025-12-08"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "James Popplewell",
+   "externalEmail": "james@quantumlightcapital.com",
+   "score": 0.1,
+   "last": "2026-07-29",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

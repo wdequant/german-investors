@@ -2,5 +2,95 @@
  "slug": "iq-capital",
  "affinity_domain": "iqcapital.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Archie Muirhead",
+   "externalEmail": "archie@iqcapital.vc",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Max Bautin",
+   "externalEmail": "max@iqcapital.vc",
+   "score": 0.99,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Archie Muirhead",
+   "externalEmail": "archie@iqcapital.vc",
+   "score": 0.95,
+   "last": "2026-10-07",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Max Bautin",
+   "externalEmail": "max@iqcapital.vc",
+   "score": 0.95,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Mason Sinclair",
+   "externalEmail": "mason@iqcapital.vc",
+   "score": 0.88,
+   "last": "2026-10-02",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Catherine Knott",
+   "externalEmail": "catherine@iqcapital.vc",
+   "score": 0.87,
+   "last": "2026-07-27",
+   "meet": "2024-12-02"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Max Bautin",
+   "externalEmail": "max@iqcapital.vc",
+   "score": 0.51,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Simon Hirtzel",
+   "externalEmail": "simon@iqcapital.vc",
+   "score": 0.8,
+   "last": "2025-04-10",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Kerry Baldwin",
+   "externalEmail": "kerry@iqcapital.vc",
+   "score": 0.38,
+   "last": "2025-10-30",
+   "meet": "2025-09-30"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Christopher Magazzeni",
+   "externalEmail": "chris@iqcapital.vc",
+   "score": 0.41,
+   "last": "2023-12-18",
+   "meet": "2023-12-14"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Christopher Magazzeni",
+   "externalEmail": "chris@iqcapital.vc",
+   "score": 0.35,
+   "last": "2023-12-18",
+   "meet": "2023-12-14"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

@@ -2,5 +2,223 @@
  "slug": "hg",
  "affinity_domain": "hgcapital.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Churn Lim",
+   "externalEmail": "churn.yi-lim@hgcapital.com",
+   "score": 1.0,
+   "last": "2026-07-02",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Katie Yuan",
+   "externalEmail": "katie.yuan@hgcapital.com",
+   "score": 0.99,
+   "last": "2026-08-27",
+   "meet": "2026-08-27"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Churn Lim",
+   "externalEmail": "churn.yi-lim@hgcapital.com",
+   "score": 0.99,
+   "last": "2026-07-02",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Churn Lim",
+   "externalEmail": "churn.yi-lim@hgcapital.com",
+   "score": 0.99,
+   "last": "2026-07-02",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Joshua Gielessen",
+   "externalEmail": "joshua.gielessen@hgcapital.com",
+   "score": 0.96,
+   "last": "2026-05-20",
+   "meet": "2026-05-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Myriam Dimmock",
+   "externalEmail": "myriam.dimmock@hgcapital.com",
+   "score": 0.95,
+   "last": "2026-05-15",
+   "meet": "2026-05-15"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Alexandre Flavier",
+   "externalEmail": "alexandre.flavier@hgcapital.com",
+   "score": 0.98,
+   "last": "2026-01-21",
+   "meet": "2026-01-12"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Aida Chushkina",
+   "externalEmail": "aida.chushkina@hgcapital.com",
+   "score": 0.85,
+   "last": "2026-09-09",
+   "meet": "2025-03-11"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Jacob Kinneging",
+   "externalEmail": "jacob.kinneging@hgcapital.com",
+   "score": 0.74,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Hannah Mitchell",
+   "externalEmail": "hannah.mitchell@hgcapital.com",
+   "score": 0.7,
+   "last": "2026-02-27",
+   "meet": "2026-02-27"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Martin Wygas",
+   "externalEmail": "martin.wygas@hgcapital.com",
+   "score": 0.99,
+   "last": "2025-02-27",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Christopher Fielding",
+   "externalEmail": "christopher.fielding@hgcapital.com",
+   "score": 0.96,
+   "last": "2025-04-10",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Sascha Kaumann",
+   "externalEmail": "sascha.kaumann@hgcapital.com",
+   "score": 0.84,
+   "last": "2025-04-30",
+   "meet": "2023-12-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sarah Schneider",
+   "externalEmail": "sarah.schneider@hgcapital.com",
+   "score": 0.83,
+   "last": "2025-03-11",
+   "meet": "2025-03-11"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Martin Wygas",
+   "externalEmail": "martin.wygas@hgcapital.com",
+   "score": 0.81,
+   "last": "2025-02-27",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Aida Chushkina",
+   "externalEmail": "aida.chushkina@hgcapital.com",
+   "score": 0.4,
+   "last": "2026-09-09",
+   "meet": "2025-03-11"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Daniel Ward",
+   "externalEmail": "daniel.ward@hgcapital.com",
+   "score": 0.43,
+   "last": "2026-01-15",
+   "meet": null
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Charlotte Williams",
+   "externalEmail": "charlotte.williams@hgcapital.com",
+   "score": 0.35,
+   "last": "2026-02-24",
+   "meet": null
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Alex Madison",
+   "externalEmail": "alexandra.madison@hgcapital.com",
+   "score": 0.38,
+   "last": "2025-04-02",
+   "meet": "2023-11-28"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Jo Bonetti",
+   "externalEmail": "jo.bonetti@hgcapital.com",
+   "score": 0.43,
+   "last": "2025-04-02",
+   "meet": null
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Anna Gunningham",
+   "externalEmail": "anna.gunningham@hgcapital.com",
+   "score": 0.5,
+   "last": "2024-01-25",
+   "meet": "2024-01-25"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Aida Chushkina",
+   "externalEmail": "aida.chushkina@hgcapital.com",
+   "score": 0.1,
+   "last": "2026-09-09",
+   "meet": "2025-03-11"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Aida Chushkina",
+   "externalEmail": "aida.chushkina@hgcapital.com",
+   "score": 0.1,
+   "last": "2026-09-09",
+   "meet": "2025-03-11"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Louis Kinsella",
+   "externalEmail": "louis.kinsella@hgcapital.com",
+   "score": 0.1,
+   "last": "2026-05-20",
+   "meet": null
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Maurizio Boatto",
+   "externalEmail": "maurizio.boatto@hgcapital.com",
+   "score": 0.1,
+   "last": "2025-12-11",
+   "meet": null
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Nick Latner",
+   "externalEmail": "nick.latner@hgcapital.com",
+   "score": 0.1,
+   "last": "2025-07-14",
+   "meet": "2025-04-29"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "David Issott",
+   "externalEmail": "david.issott@hgcapital.com",
+   "score": 0.1,
+   "last": "2025-03-31",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

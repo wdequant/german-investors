@@ -2,5 +2,127 @@
  "slug": "notion-capital",
  "affinity_domain": "notioncapital.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Thomas Diehl",
+   "externalEmail": "tdiehl@notioncapital.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jessica Thomas",
+   "externalEmail": "jess@notioncapital.com",
+   "score": 1.0,
+   "last": "2026-06-11",
+   "meet": "2026-06-11"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Kamil Mieczakowski",
+   "externalEmail": "kmieczakowski@notioncapital.com",
+   "score": 1.0,
+   "last": "2026-07-30",
+   "meet": "2026-04-01"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Stephanie Opdam",
+   "externalEmail": "sopdam@notioncapital.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Stephen Millard",
+   "externalEmail": "smillard@notioncapital.com",
+   "score": 1.0,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Stephen Millard",
+   "externalEmail": "smillard@notioncapital.com",
+   "score": 0.98,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "JooBee Yeow",
+   "externalEmail": "jyeow@notioncapital.com",
+   "score": 0.93,
+   "last": "2026-05-29",
+   "meet": "2026-05-29"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Andrè Welponer",
+   "externalEmail": "awelponer@notioncapital.com",
+   "score": 0.88,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Stephanie Opdam",
+   "externalEmail": "sopdam@notioncapital.com",
+   "score": 0.79,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Patrick Norris",
+   "externalEmail": "pnorris@notioncapital.com",
+   "score": 1.0,
+   "last": "2025-03-20",
+   "meet": "2025-03-20"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Dan Toole",
+   "externalEmail": "dotoole@notioncapital.com",
+   "score": 0.35,
+   "last": "2023-11-29",
+   "meet": "2023-11-21"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Jessica Bartos",
+   "externalEmail": "jbartos@notioncapital.com",
+   "score": 0.1,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Stephanie Opdam",
+   "externalEmail": "sopdam@notioncapital.com",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Stephanie Opdam",
+   "externalEmail": "sopdam@notioncapital.com",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Stephen Chandler",
+   "externalEmail": "schandler@notioncapital.com",
+   "score": 0.1,
+   "last": "2024-05-22",
+   "meet": "2010-09-29"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

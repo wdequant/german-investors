@@ -2,5 +2,127 @@
  "slug": "smedvig-ventures",
  "affinity_domain": "smedvig.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Joe Knowles",
+   "externalEmail": "joe@smedvig.vc",
+   "score": 1.0,
+   "last": "2026-08-18",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Robbie Player",
+   "externalEmail": "robbie@smedvig.vc",
+   "score": 0.76,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Freddie Kalfayan",
+   "externalEmail": "freddie@smedvig.vc",
+   "score": 0.74,
+   "last": "2026-08-04",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Freddie Kalfayan",
+   "externalEmail": "freddie@smedvig.vc",
+   "score": 0.73,
+   "last": "2026-08-04",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Maeve Crowley",
+   "externalEmail": "maeve@smedvig.vc",
+   "score": 0.54,
+   "last": "2025-04-03",
+   "meet": "2025-04-03"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Peter Duffy",
+   "externalEmail": "peter@smedvig.vc",
+   "score": 0.59,
+   "last": "2024-05-29",
+   "meet": "2024-05-15"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Joe Knowles",
+   "externalEmail": "joe@smedvig.vc",
+   "score": 0.1,
+   "last": "2026-08-18",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Joe Knowles",
+   "externalEmail": "joe@smedvig.vc",
+   "score": 0.1,
+   "last": "2026-08-18",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Joe Knowles",
+   "externalEmail": "joe@smedvig.vc",
+   "score": 0.1,
+   "last": "2026-08-18",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Phoebe Merritt",
+   "externalEmail": "phoebe@smedvig.vc",
+   "score": 0.1,
+   "last": "2026-03-11",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Lucia Vita",
+   "externalEmail": "lucia@smedvig.vc",
+   "score": 0.1,
+   "last": "2025-04-14",
+   "meet": "2024-10-07"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Maeve Crowley",
+   "externalEmail": "maeve@smedvig.vc",
+   "score": 0.1,
+   "last": "2025-04-03",
+   "meet": "2025-04-03"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sophie Day",
+   "externalEmail": "sophie@smedvig.vc",
+   "score": 0.1,
+   "last": "2024-04-22",
+   "meet": "2023-09-12"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Sophie Day",
+   "externalEmail": "sophie@smedvig.vc",
+   "score": 0.1,
+   "last": "2024-04-22",
+   "meet": "2023-09-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Sophie Day",
+   "externalEmail": "sophie@smedvig.vc",
+   "score": 0.1,
+   "last": "2024-04-22",
+   "meet": "2023-09-12"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

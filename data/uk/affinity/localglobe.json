@@ -2,5 +2,327 @@
  "slug": "localglobe",
  "affinity_domain": "localglobe.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "William De Quant",
+   "external": "Tom Lambert",
+   "externalEmail": "tom@localglobe.vc",
+   "score": 0.99,
+   "last": "2026-10-06",
+   "meet": "2025-09-09"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Tom Lambert",
+   "externalEmail": "tom@localglobe.vc",
+   "score": 0.91,
+   "last": "2026-10-06",
+   "meet": "2025-09-09"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Julian Rowe",
+   "externalEmail": "julian@localglobe.vc",
+   "score": 1.0,
+   "last": "2026-03-12",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Ophelia Brown",
+   "externalEmail": "ophelia@localglobe.vc",
+   "score": 1.0,
+   "last": "2026-02-18",
+   "meet": "2025-06-13"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Julian Rowe",
+   "externalEmail": "julian@localglobe.vc",
+   "score": 0.98,
+   "last": "2026-03-12",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Julian Rowe",
+   "externalEmail": "julian@localglobe.vc",
+   "score": 0.98,
+   "last": "2026-03-12",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ambi Mistry",
+   "externalEmail": "ambi@localglobe.vc",
+   "score": 0.92,
+   "last": "2026-03-31",
+   "meet": "2023-12-06"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Bhrigu Bali",
+   "externalEmail": "bhrigu@localglobe.vc",
+   "score": 0.81,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Tom Lambert",
+   "externalEmail": "tom@localglobe.vc",
+   "score": 0.55,
+   "last": "2026-10-06",
+   "meet": "2025-09-09"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Ziv Reichert",
+   "externalEmail": "ziv@localglobe.vc",
+   "score": 0.52,
+   "last": "2026-09-22",
+   "meet": "2022-07-21"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Suzanne Ashman",
+   "externalEmail": "suzanne@localglobe.vc",
+   "score": 1.0,
+   "last": "2025-06-24",
+   "meet": "2025-06-24"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Julia Hawkins",
+   "externalEmail": "julia@localglobe.vc",
+   "score": 0.98,
+   "last": "2025-02-13",
+   "meet": "2025-02-13"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Remus Brett",
+   "externalEmail": "remus@localglobe.vc",
+   "score": 0.98,
+   "last": "2025-03-05",
+   "meet": "2025-03-05"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Robin Klein",
+   "externalEmail": "robin@localglobe.vc",
+   "score": 0.47,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Bhrigu Bali",
+   "externalEmail": "bhrigu@localglobe.vc",
+   "score": 0.43,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Julian Rowe",
+   "externalEmail": "julian@localglobe.vc",
+   "score": 0.43,
+   "last": "2026-03-12",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Ophelia Brown",
+   "externalEmail": "ophelia@localglobe.vc",
+   "score": 0.38,
+   "last": "2026-02-18",
+   "meet": "2025-06-13"
+  },
+  {
+   "internal": "Hannah Meehan",
+   "external": "Matt Peplow",
+   "externalEmail": "matt@localglobe.vc",
+   "score": 0.34,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Daisey Hearne",
+   "externalEmail": "daisey@localglobe.vc",
+   "score": 0.44,
+   "last": "2026-09-22",
+   "meet": null
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Rajee Seelan",
+   "externalEmail": "rajee@localglobe.vc",
+   "score": 0.3,
+   "last": "2026-04-16",
+   "meet": "2026-04-16"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Robin Klein",
+   "externalEmail": "robin@localglobe.vc",
+   "score": 0.3,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Daisey Hearne",
+   "externalEmail": "daisey@localglobe.vc",
+   "score": 0.38,
+   "last": "2026-09-22",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Ferdinando Sigona",
+   "externalEmail": "ferdi@localglobe.vc",
+   "score": 0.72,
+   "last": "2024-08-29",
+   "meet": "2024-08-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Michael Mashkautsan",
+   "externalEmail": "mish@localglobe.vc",
+   "score": 0.43,
+   "last": "2025-04-30",
+   "meet": "2025-04-30"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Saul Klein",
+   "externalEmail": "saul@localglobe.vc",
+   "score": 0.43,
+   "last": "2025-06-23",
+   "meet": "2021-03-03"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Yvonne Bajela",
+   "externalEmail": "yvonne@localglobe.vc",
+   "score": 0.38,
+   "last": "2025-02-01",
+   "meet": "2024-10-07"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Julia Hawkins",
+   "externalEmail": "julia@localglobe.vc",
+   "score": 0.38,
+   "last": "2025-02-13",
+   "meet": "2025-02-13"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Saul Klein",
+   "externalEmail": "saul@localglobe.vc",
+   "score": 0.38,
+   "last": "2025-06-23",
+   "meet": "2021-03-03"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Remus Brett",
+   "externalEmail": "remus@localglobe.vc",
+   "score": 0.35,
+   "last": "2025-03-05",
+   "meet": "2025-03-05"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Alvina Fair",
+   "externalEmail": "alvina@localglobe.vc",
+   "score": 0.75,
+   "last": "2024-09-24",
+   "meet": null
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Yvonne Bajela",
+   "externalEmail": "yvonne@localglobe.vc",
+   "score": 0.33,
+   "last": "2025-02-01",
+   "meet": "2024-10-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Suzanne Ashman",
+   "externalEmail": "suzanne@localglobe.vc",
+   "score": 0.32,
+   "last": "2025-06-24",
+   "meet": "2025-06-24"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Rosie Boggis",
+   "externalEmail": "rosie@localglobe.vc",
+   "score": 0.59,
+   "last": "2024-09-13",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Ash Arora",
+   "externalEmail": "ash@localglobe.vc",
+   "score": 0.43,
+   "last": "2024-02-12",
+   "meet": "2023-03-23"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Rajee Seelan",
+   "externalEmail": "rajee@localglobe.vc",
+   "score": 0.1,
+   "last": "2026-04-16",
+   "meet": "2026-04-16"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Rebekah Kasumu",
+   "externalEmail": "rebekah@localglobe.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Rebekah Kasumu",
+   "externalEmail": "rebekah@localglobe.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Bhrigu Bali",
+   "externalEmail": "bhrigu@localglobe.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Julian Rowe",
+   "externalEmail": "julian@localglobe.vc",
+   "score": 0.1,
+   "last": "2026-03-12",
+   "meet": "2026-03-12"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Ophelia Brown",
+   "externalEmail": "ophelia@localglobe.vc",
+   "score": 0.1,
+   "last": "2026-02-18",
+   "meet": "2025-06-13"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

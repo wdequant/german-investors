@@ -2,5 +2,191 @@
  "slug": "plural",
  "affinity_domain": "pluralplatform.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Tony Zappala",
+   "external": "Khaled Helioui",
+   "externalEmail": "khaled@pluralplatform.com",
+   "score": 1.0,
+   "last": "2026-07-07",
+   "meet": "2026-06-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ian Hogarth",
+   "externalEmail": "ian@pluralplatform.com",
+   "score": 1.0,
+   "last": "2026-06-04",
+   "meet": "2026-06-04"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Taavet Hinrikus",
+   "externalEmail": "th@pluralplatform.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Taavet Hinrikus",
+   "externalEmail": "th@pluralplatform.com",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Taavet Hinrikus",
+   "externalEmail": "th@pluralplatform.com",
+   "score": 0.98,
+   "last": "2026-10-07",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Taavet Hinrikus",
+   "externalEmail": "th@pluralplatform.com",
+   "score": 0.97,
+   "last": "2026-10-07",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Taavet Hinrikus",
+   "externalEmail": "th@pluralplatform.com",
+   "score": 0.95,
+   "last": "2026-10-07",
+   "meet": "2026-06-18"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Victoria Kennard",
+   "externalEmail": "victoria@pluralplatform.com",
+   "score": 0.89,
+   "last": "2026-10-08",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Carina Namih",
+   "externalEmail": "carina@pluralplatform.com",
+   "score": 0.76,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Daniel Tarver",
+   "externalEmail": "daniel@pluralplatform.com",
+   "score": 1.0,
+   "last": "2024-12-18",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Daniel Tarver",
+   "externalEmail": "daniel@pluralplatform.com",
+   "score": 0.97,
+   "last": "2024-12-18",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Daniel Tarver",
+   "externalEmail": "daniel@pluralplatform.com",
+   "score": 0.95,
+   "last": "2024-12-18",
+   "meet": "2024-11-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Victoria Kennard",
+   "externalEmail": "victoria@pluralplatform.com",
+   "score": 0.44,
+   "last": "2026-10-08",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Chris Perry",
+   "externalEmail": "chris@pluralplatform.com",
+   "score": 0.43,
+   "last": "2026-09-08",
+   "meet": "2026-09-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Sophie Napier",
+   "externalEmail": "sophie@pluralplatform.com",
+   "score": 0.54,
+   "last": "2026-10-07",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Carina Namih",
+   "externalEmail": "carina@pluralplatform.com",
+   "score": 0.38,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Sophie Napier",
+   "externalEmail": "sophie@pluralplatform.com",
+   "score": 0.48,
+   "last": "2026-10-07",
+   "meet": null
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Isobel Sprules",
+   "externalEmail": "izzy@pluralplatform.com",
+   "score": 0.35,
+   "last": "2026-06-03",
+   "meet": "2019-03-12"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Isobel Sprules",
+   "externalEmail": "izzy@pluralplatform.com",
+   "score": 0.34,
+   "last": "2026-06-03",
+   "meet": "2019-03-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Khaled Helioui",
+   "externalEmail": "khaled@pluralplatform.com",
+   "score": 0.1,
+   "last": "2026-07-07",
+   "meet": "2026-06-10"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Isobel Sprules",
+   "externalEmail": "izzy@pluralplatform.com",
+   "score": 0.1,
+   "last": "2026-06-03",
+   "meet": "2019-03-12"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Carina Namih",
+   "externalEmail": "carina@pluralplatform.com",
+   "score": 0.1,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ellie Horoz",
+   "externalEmail": "ellie@pluralplatform.com",
+   "score": 0.1,
+   "last": "2026-04-21",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

@@ -2,5 +2,327 @@
  "slug": "felix-capital",
  "affinity_domain": "felixcap.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Helena Richardson",
+   "external": "Phoebe Wallwork",
+   "externalEmail": "phoebe@felixcap.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Phoebe Wallwork",
+   "externalEmail": "phoebe@felixcap.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Francesco Frontani",
+   "externalEmail": "francesco@felixcap.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-09-16"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alexandra Thornton",
+   "externalEmail": "alexandra@felixcap.com",
+   "score": 1.0,
+   "last": "2026-08-06",
+   "meet": "2025-12-17"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Willian Shiang",
+   "externalEmail": "willian@felixcap.com",
+   "score": 1.0,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Frederic Court",
+   "externalEmail": "frederic@felixcap.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Antoine Nussenbaum",
+   "externalEmail": "antoine@felixcap.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Julien Codorniou",
+   "externalEmail": "julien@felixcap.com",
+   "score": 0.99,
+   "last": "2026-10-08",
+   "meet": "2024-12-12"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Angela Chou",
+   "externalEmail": "angela@felixcap.com",
+   "score": 0.99,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Willian Shiang",
+   "externalEmail": "willian@felixcap.com",
+   "score": 0.97,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Julien Codorniou",
+   "externalEmail": "julien@felixcap.com",
+   "score": 0.95,
+   "last": "2026-10-08",
+   "meet": "2024-12-12"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Phoebe Wallwork",
+   "externalEmail": "phoebe@felixcap.com",
+   "score": 0.94,
+   "last": "2026-10-05",
+   "meet": "2026-10-05"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Fabian Small",
+   "externalEmail": "fabian@felixcap.com",
+   "score": 1.0,
+   "last": "2026-03-24",
+   "meet": "2026-03-24"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Susan Lin",
+   "externalEmail": "susan@felixcap.com",
+   "score": 0.85,
+   "last": "2026-08-04",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Willian Shiang",
+   "externalEmail": "willian@felixcap.com",
+   "score": 0.79,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Antoine Nussenbaum",
+   "externalEmail": "antoine@felixcap.com",
+   "score": 0.74,
+   "last": "2026-10-06",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Antoine Nussenbaum",
+   "externalEmail": "antoine@felixcap.com",
+   "score": 0.72,
+   "last": "2026-10-06",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Phylia Phoon",
+   "externalEmail": "phylia@felixcap.com",
+   "score": 0.7,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Phylia Phoon",
+   "externalEmail": "phylia@felixcap.com",
+   "score": 0.7,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Frederic Court",
+   "externalEmail": "frederic@felixcap.com",
+   "score": 0.57,
+   "last": "2026-10-06",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Phylia Phoon",
+   "externalEmail": "phylia@felixcap.com",
+   "score": 0.56,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Willian Shiang",
+   "externalEmail": "willian@felixcap.com",
+   "score": 0.52,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Frederic Court",
+   "externalEmail": "frederic@felixcap.com",
+   "score": 0.48,
+   "last": "2026-10-06",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Joyce Santos",
+   "externalEmail": "joyce@felixcap.com",
+   "score": 0.46,
+   "last": "2026-09-07",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Hannah Meehan",
+   "external": "Jack Eastgate",
+   "externalEmail": "jack@felixcap.com",
+   "score": 0.88,
+   "last": "2025-08-27",
+   "meet": "2025-08-05"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Joyce Santos",
+   "externalEmail": "joyce@felixcap.com",
+   "score": 0.44,
+   "last": "2026-09-07",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Phylia Phoon",
+   "externalEmail": "phylia@felixcap.com",
+   "score": 0.44,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sophie Luck",
+   "externalEmail": "sophie@felixcap.com",
+   "score": 0.87,
+   "last": "2025-09-09",
+   "meet": "2025-09-09"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Joyce Santos",
+   "externalEmail": "joyce@felixcap.com",
+   "score": 0.43,
+   "last": "2026-09-07",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Henry White",
+   "externalEmail": "henry@felixcap.com",
+   "score": 0.43,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Angela Chou",
+   "externalEmail": "angela@felixcap.com",
+   "score": 0.43,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Antoine Nussenbaum",
+   "externalEmail": "antoine@felixcap.com",
+   "score": 0.43,
+   "last": "2026-10-06",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Willian Shiang",
+   "externalEmail": "willian@felixcap.com",
+   "score": 0.42,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Joyce Santos",
+   "externalEmail": "joyce@felixcap.com",
+   "score": 0.35,
+   "last": "2026-09-07",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Angela Chou",
+   "externalEmail": "angela@felixcap.com",
+   "score": 0.33,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Fabian Small",
+   "externalEmail": "fabian@felixcap.com",
+   "score": 0.34,
+   "last": "2026-03-24",
+   "meet": "2026-03-24"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Claudia Lilley",
+   "externalEmail": "claudia@felixcap.com",
+   "score": 1.0,
+   "last": "2024-02-20",
+   "meet": "2024-02-20"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Sophie Luck",
+   "externalEmail": "sophie@felixcap.com",
+   "score": 0.43,
+   "last": "2025-09-09",
+   "meet": "2025-09-09"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Indah Cia",
+   "externalEmail": "indah@felixcap.com",
+   "score": 0.6,
+   "last": "2023-12-13",
+   "meet": "2023-12-13"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Farrah Hamid",
+   "externalEmail": "farrah@felixcap.com",
+   "score": 0.43,
+   "last": "2024-10-24",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

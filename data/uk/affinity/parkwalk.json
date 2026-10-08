@@ -2,5 +2,15 @@
  "slug": "parkwalk",
  "affinity_domain": "parkwalk.vc",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Laurence Garrett",
+   "external": "Anne Dobree",
+   "externalEmail": "adobree@parkwalk.vc",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-09-24"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }
