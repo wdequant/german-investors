@@ -1,0 +1,9 @@
+{
+  "pins": ["zobito.com", "norrsken.vc", "oxx.vc", "kinnevik.com", "eqtventures.com"],
+  "removes": ["mattias miksche", "sebastian knutsson"],
+  "notes": {
+    "kinnevik.com": "Assumed = voice-dictated 'Shinovic' - Will to confirm",
+    "mattias miksche": "Voice: 'Matthias Michka'",
+    "sebastian knutsson": "Voice: 'Sebastian', surname inferred - Will to confirm"
+  }
+}

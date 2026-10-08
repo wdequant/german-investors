@@ -40,6 +40,14 @@ CITY_LL = {  # map anchor per city; suburbs fold into the metro
     "Oslo": ("NO", 10.75, 59.91), "Trondheim": ("NO", 10.40, 63.43), "Bergen": ("NO", 5.32, 60.39),
     "Helsinki": ("FI", 24.94, 60.17), "Espoo": ("FI", 24.94, 60.17), "Oulu": ("FI", 25.47, 65.01),
     "Reykjavik": ("IS", -21.94, 64.15), "Reykjavík": ("IS", -21.94, 64.15),
+    "Lund": ("SE", 13.19, 55.70), "Uppsala": ("SE", 17.64, 59.86), "Are": ("SE", 13.08, 63.40),
+    "Vaxjo": ("SE", 14.81, 56.88), "Sodertalje": ("SE", 18.07, 59.33), "Solna": ("SE", 18.07, 59.33),
+    "Kista": ("SE", 18.07, 59.33), "Limhamn": ("SE", 13.00, 55.60), "Eskilstuna": ("SE", 16.51, 59.37),
+    "Hellerup": ("DK", 12.57, 55.68), "Frederiksberg": ("DK", 12.57, 55.68),
+    "Humlebaek": ("DK", 12.57, 55.68), "Vedbaek": ("DK", 12.57, 55.68),
+    "Odense": ("DK", 10.39, 55.40), "Aalborg": ("DK", 9.92, 57.05),
+    "Fornebu": ("NO", 10.75, 59.91), "Stavanger": ("NO", 5.73, 58.97),
+    "Tampere": ("FI", 23.76, 61.50),
 }
 CITY2CC = {"copenhagen": "DK", "aarhus": "DK", "odense": "DK", "aalborg": "DK",
            "kongens lyngby": "DK", "hellerup": "DK", "frederiksberg": "DK",
@@ -310,12 +318,14 @@ def build_covmap(regions, mynet, roster, load_json):
         for u, v in pu.items():
             pu_raws[u].append(v)
         _dfl = [{"n": _d7.get("name"), "r": (_d7.get("round") or "").replace("_", " ").title(),
-                 "d": _d7.get("date"), "fu": _d7.get("funnel")} for _d7 in (e.get("dealflow") or [])[:6]]
+                 "d": _d7.get("date"), "fu": _d7.get("funnel"), "do": _d7.get("domain"),
+                 "aid": _d7.get("affinity_id")} for _d7 in (e.get("dealflow") or [])[:12]]
         _pipe = {bk: [{"n": co.get("name"), "o": [u for u in (co.get("own") or []) if u in roster]}
                       for co in v[:8]]
                  for bk, v in (e.get("buckets") or {}).items() if v}
+        _dom = (e.get("website") or "").lower().replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0]
         ents.append({
-            "dfl": _dfl, "pipe": _pipe,
+            "dfl": _dfl, "pipe": _pipe, "dom": _dom or None,
             "slug": e["slug"], "name": e["name"], "kind": e["kind"],
             "cat": e.get("category"), "tier": e.get("tier"),
             "city": city_raw or None, "cc": cc, "tray": tray or None,
@@ -432,14 +442,22 @@ def build_covmap(regions, mynet, roster, load_json):
                 _mnd.setdefault(_mx5["d"].lower(), []).append((_u5, _mx5["n"], R5, _mx5.get("l")))
             if _mx5.get("f"):
                 _mnn.setdefault(_nrm(_mx5["f"]), []).append((_u5, _mx5["n"], R5, _mx5.get("l")))
-    aff_ents = []
+    aff_ents, _alias_rows = [], {}
     _nim = load_json(f"{ROOT}/data/enrich/nordic-investors-meta.json", {}) or {}
+    _cards = load_json(f"{ROOT}/data/enrich/nordic-fund-cards.json", {}) or {}
+    _cur = load_json(f"{ROOT}/data/enrich/curation.json", {}) or {}
+    _pins = set(_cur.get("pins") or [])
+    _removes = set(_cur.get("removes") or [])
     for _row in (load_json(f"{ROOT}/data/enrich/nordic-investors-affinity.json", []) or []):
         if _nrm(_row["name"]) in _curn or (_row.get("domain") or "") in _curd:
             continue
         _m9 = _nim.get(_row.get("domain") or "") or _nim.get(_nrm(_row["name"])) or {}
-        if _m9.get("verdict") in ("drop", "alias"):
-            continue   # operating parent, bank, science park, grant agency, or duplicate record
+        if _m9.get("verdict") == "drop":
+            continue   # operating parent, bank, science park, grant agency
+        if _m9.get("verdict") == "alias":
+            if _m9.get("alias_of"):
+                _alias_rows.setdefault(_m9["alias_of"], []).append(_row)
+            continue
         if _m9.get("name"):
             _row = dict(_row, name=_m9["name"])   # e.g. Statkraft -> Statkraft Ventures
         _cc5 = CNTRY_CC.get(_row.get("country"))
@@ -465,7 +483,100 @@ def build_covmap(regions, mynet, roster, load_json):
             _ae["ft"] = _m9["type"]
         if _m9.get("stage"):
             _ae["fs"] = _m9["stage"]
+        _card = _cards.get(_row.get("domain") or "") or _cards.get(_nrm(_row["name"])) or {}
+        if _card.get("team"):
+            _ae["team"] = _card["team"][:10]
+        if _card.get("desc"):
+            _ae["desc"] = _card["desc"]
+        _anchor5 = CITY_LL.get(_row.get("city") or "")
+        if _anchor5:
+            _ae["x"], _ae["y"] = proj.px(_anchor5[1], _anchor5[2])
+        _ae["dom"] = _row.get("domain")
         aff_ents.append(_ae)
+
+    # ---- alias merge: fold duplicate records' relationships into the canonical card ----
+    _bydom = {}
+    for _e8 in ents + aff_ents:
+        if _e8.get("dom"):
+            _bydom[_e8["dom"]] = _e8
+        _bydom.setdefault(_nrm(_e8["name"]), _e8)
+    for _canon_key, _rows8 in _alias_rows.items():
+        _tgt = _bydom.get(_canon_key)
+        if not _tgt:
+            continue
+        for _row8 in _rows8:
+            _hits8 = (_mnd.get((_row8.get("domain") or "").lower(), []) + _mnn.get(_nrm(_row8["name"]), []))
+            _ppl8 = {p["n"]: p for p in _tgt.get("people") or []}
+            for _u8, _nm8, _r8, _l8 in _hits8:
+                _p8 = _ppl8.setdefault(_nm8, {"n": _nm8, "r": {}, "last": None})
+                if _r8 > _p8["r"].get(_u8, 0):
+                    _p8["r"][_u8] = _r8
+                if _l8 and (not _p8["last"] or _l8 > _p8["last"]):
+                    _p8["last"] = _l8
+            _tgt["people"] = sorted(_ppl8.values(), key=lambda p: -max(p["r"].values(), default=0))[:10]
+        # recompute coverage on the merged people (seniority defaults where unknown)
+        def _sw8(p):
+            return SCORING["sr_w"].get(p.get("sr"), 0.75)
+        _tgt["CT"] = max(_tgt.get("CT") or 0, _noisy_or([(max(p["r"].values(), default=0), _sw8(p)) for p in _tgt["people"]]))
+        for _u8 in roster:
+            _it8 = [(p["r"].get(_u8, 0), _sw8(p)) for p in _tgt["people"] if p["r"].get(_u8)]
+            if _it8:
+                _tgt.setdefault("cu", {})[_u8] = max((_tgt.get("cu") or {}).get(_u8, 0), _noisy_or(_it8))
+
+    # ---- arm merge: "Almi"+"Almi Invest", "Norrsken"+"Norrsken VC" are one investor ----
+    _ARM_SUFFIX = {"vc", "ventures", "venture", "capital", "invest", "ventureCapital".lower(), "venturecapital", "growth"}
+    _all9 = ents + aff_ents
+    _dead = set()
+    for _a9 in _all9:
+        for _b9 in _all9:
+            if _a9 is _b9 or id(_a9) in _dead or id(_b9) in _dead:
+                continue
+            na, nb = _nrm(_a9["name"]), _nrm(_b9["name"])
+            if _a9.get("cc") != _b9.get("cc") or not nb.startswith(na) or na == nb:
+                continue
+            if nb[len(na):] not in _ARM_SUFFIX:
+                continue
+            # canonical keeps the scored record: if the SHORT-named side is curated and the
+            # arm-named side is a bare Affinity row, keep the curated one and give it the arm's name
+            if _a9.get("kind") != "aff" and _b9.get("kind") == "aff":
+                _a9["name"] = _b9["name"]
+                _a9, _b9 = _b9, _a9   # fold the bare row into the curated one
+            # _b9 is canonical; fold _a9 into it
+            _pplB = {p["n"]: p for p in _b9.get("people") or []}
+            for _pA in _a9.get("people") or []:
+                _pB = _pplB.setdefault(_pA["n"], _pA)
+                if _pB is not _pA:
+                    for _uA, _rA in _pA["r"].items():
+                        _pB["r"][_uA] = max(_pB["r"].get(_uA, 0), _rA)
+            _b9["people"] = sorted(_pplB.values(), key=lambda p: -max(p["r"].values(), default=0))[:10]
+            _b9["CT"] = max(_b9.get("CT") or 0, _a9.get("CT") or 0)
+            for _uA, _vA in (_a9.get("cu") or {}).items():
+                _b9.setdefault("cu", {})[_uA] = max((_b9.get("cu") or {}).get(_uA, 0), _vA)
+            if _a9.get("dfw", 0) > _b9.get("dfw", 0):
+                _b9["dfw"], _b9["df12"], _b9["dfl"] = _a9["dfw"], _a9.get("df12", 0), _a9.get("dfl", [])
+            if _a9.get("O", 0) > _b9.get("O", 0):
+                _b9["O"] = _a9["O"]
+            if _a9.get("pin"):
+                _b9["pin"] = 1
+            _dead.add(id(_a9))
+    ents[:] = [e for e in ents if id(e) not in _dead]
+    aff_ents[:] = [e for e in aff_ents if id(e) not in _dead]
+
+    # ---- shortlist (v2 spec section 5): 20-30 per country, deal-flow ranked ----
+    for _e9 in ents + aff_ents:
+        _key9 = _e9.get("dom") or _nrm(_e9["name"])
+        _e9["pin"] = 1 if (_key9 in _pins or _nrm(_e9["name"]) in _pins) else 0
+        _e9["rm"] = 1 if (_e9["name"].lower() in _removes or _key9 in _removes) else 0
+    for _cc9 in NORDIC_CC:
+        _pool = [e for e in ents if e.get("cc") == _cc9 and not e.get("rm")]
+        _poolA = [e for e in aff_ents if e.get("cc") == _cc9 and not e.get("rm")]
+        _ranked = sorted(_pool, key=lambda e: (-e.get("dfw", 0), -e.get("rel", 0)))[:25]
+        _sl = {id(e) for e in _ranked}
+        for e in _pool + _poolA:
+            if e.get("pin") or (e in _poolA and (e.get("CT") or 0) >= 30):
+                _sl.add(id(e))
+        for e in _pool + _poolA:
+            e["sl"] = 1 if id(e) in _sl else 0
 
     _entnames = {e["name"].lower() for e in ents}
     _entppl = {p["n"].lower() for e in ents for p in e["people"]}
@@ -483,8 +594,45 @@ def build_covmap(regions, mynet, roster, load_json):
         for _u3 in people_in[_cc3]:
             people_in[_cc3][_u3] = sorted(people_in[_cc3][_u3], key=lambda x: -x["p"])[:30]
 
+    # ---- "Who do you know in <country>": every edge with a person there ----
+    who_in = {}
+    for _e10 in ents:
+        if not _e10.get("cc"):
+            continue
+        for _p10 in _e10.get("people") or []:
+            _r10 = {u: r for u, r in _p10["r"].items() if r >= 15}
+            if _r10:
+                who_in.setdefault(_e10["cc"], {}).setdefault(_p10["n"], {
+                    "n": _p10["n"], "org": _e10["name"], "last": _p10.get("last"), "r": {}})["r"].update(_r10)
+    for _cc10, _by10 in (people_in or {}).items():
+        for _u10, _lst10 in _by10.items():
+            for _px10 in _lst10:
+                _rec10 = who_in.setdefault(_cc10, {}).setdefault(_px10["n"], {
+                    "n": _px10["n"], "org": _px10.get("f"), "last": None, "r": {}})
+                _rec10["r"][_u10] = max(_rec10["r"].get(_u10, 0), _px10["p"])
+    who_in = {cc: sorted(v.values(), key=lambda x: -max(x["r"].values(), default=0))[:80]
+              for cc, v in who_in.items()}
+
+    # shortlist-based roll-ups replace the raw ones (a long tail cannot drag the number)
+    for _cc11 in list(areas.keys()):
+        if _cc11 == "nordics":
+            _sel11 = [e for e in ents if e.get("sl")]
+        else:
+            _sel11 = [e for e in ents if e.get("cc") == _cc11 and e.get("sl")]
+        if _sel11:
+            _ru = rollup(_sel11)
+            _ru["sln"] = len(_sel11) + sum(1 for a in aff_ents if a.get("sl") and (
+                _cc11 == "nordics" or a.get("cc") == _cc11))
+            _ru["known"] = ({u: len([1 for p in who_in.get(_cc11, []) if p["r"].get(u)]) for u in roster}
+                            if _cc11 != "nordics" else
+                            {u: len({p["n"] for cc2 in who_in for p in who_in[cc2] if p["r"].get(u)}) for u in roster})
+            for _u11 in list(areas[_cc11].get("u") or {}):
+                if _u11 in _ru["u"] and "exp" in areas[_cc11]["u"][_u11]:
+                    _ru["u"][_u11]["exp"] = areas[_cc11]["u"][_u11]["exp"]
+            areas[_cc11] = _ru
+
     return {
-        "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "countries": countries, "regions": region_pts,
+        "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "who": who_in, "countries": countries, "regions": region_pts,
         "ccent": {k: [round(v[0], 1), round(v[1], 1)] for k, v in ccent.items()},
         "cities": {c: [city_px[c][0], city_px[c][1]] for c in city_px},
         "zoomL1": round(zoom_l1, 2), "zoomL2": {k: round(v, 2) for k, v in zoom_l2.items()},

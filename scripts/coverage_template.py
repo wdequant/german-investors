@@ -742,6 +742,23 @@ body.mkmode{cursor:crosshair}
 .cmfm{font-size:12px;color:var(--ink2);margin-top:1px}
 .cmdoor{color:var(--muted)}
 .cmdet{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px}
+.cmv2grid{display:grid;grid-template-columns:7fr 5fr;gap:18px;align-items:start;margin-top:4px}
+@media(max-width:1000px){.cmv2grid{grid-template-columns:1fr}}
+.cmspend{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.cmspend .cmfn{font-size:15px}
+.cmask{color:var(--ink);margin-top:5px}
+.cmquiet{opacity:.72}
+.cmminimap{background:var(--surface);border:1px solid var(--hair);border-radius:12px;overflow:hidden}
+.cmminimap svg{display:block;width:100%;height:330px}
+.cmacc{background:var(--surface);border:1px solid var(--hair);border-radius:11px;margin-top:10px;padding:0 14px}
+.cmacc summary{cursor:pointer;padding:10px 0;font-size:13px;font-weight:700;color:var(--ink2);list-style:none}
+.cmacc summary b{color:var(--ink);margin-left:4px}
+.cmacc[open] summary{border-bottom:1px solid var(--hair2)}
+.cmacc .dpli{padding:6px 0}
+.cmregbtn .cmdisc{opacity:0;transition:opacity .2s}
+.cmregbtn .cmbtn{transition:opacity .2s}
+.cmregbtn:hover .cmdisc,.cmregbtn:focus .cmdisc{opacity:1}
+.cmregbtn:hover .cmbtn,.cmregbtn:focus .cmbtn{opacity:0}
 .cmdeth{display:flex;gap:14px;align-items:center;margin-bottom:12px}
 .cmdetn{font-size:17px;font-weight:700}
 .cmdett{margin-top:4px}
@@ -1652,16 +1669,13 @@ function apMap(){
   let main;
   if(MAP.ent) main=cmDetail(me);
   else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid slice">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div></div>`;
-  else main=`<div class="cmcards">${cmCards(me)}</div>${cmAffCards(me)}${cmPeopleIn(me)}`;
+  else main=cmCountryPage(me);
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
 
     </div>
-    ${cmLegend(me)}
-    ${(isMapLvl&&!MAP.ent)?main:`<div class="cmflex">
-      <div class="cmmain">${main}</div>
-      <div class="cmpanel" id="cmpanel">${cmPanel(me)}</div>
-    </div>`}`;
+    ${isMapLvl&&!MAP.ent?cmLegend(me):''}
+    ${main}`;
 }
 function cmSvg(me){
   const nordic=new Set(CM.nordics);
@@ -1677,11 +1691,12 @@ function cmSvg(me){
     layer=CM.regions.map(r=>{
       if(!r.active) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><title>${r.name} — live in M2</title><circle r="4.5"/></g>`;
       const a=CM.areas.nordics, covu=me&&a.u[me]?a.u[me].covu:0;
-      const R=36, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
-      return `<g class="cmreg live" data-cmgo="l1" transform="translate(${r.x},${r.y})">
-        <circle r="${R}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
-        ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
-        <text y="${R+14}">${r.name}</text></g>`;
+      const R=26, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      return `<g class="cmreg live cmregbtn" data-cmgo="l1" transform="translate(${r.x},${r.y})">
+        <g class="cmbtn"><circle r="9" fill="${CMTIER(covu)}" stroke="#fff" stroke-width="1.4"/></g>
+        <g class="cmdisc"><circle r="${R}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
+          ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}</g>
+        <text y="${R+13}">${r.name}${me?` ${Math.round(covu)}%`:''}</text></g>`;
     }).join('');
   } else {
     const z=CM.zoomL1;
@@ -1718,8 +1733,108 @@ function cmCards(me){
       </div></div>`;
   }).join('');
 }
+const SRRANK={Partner:0,Director:1,Associate:2};
+function cmReasons(e,me){
+  const out=[];
+  const ORDER=[['lead','Lead'],['prelead','Pre-lead'],['awaiting','Awaiting lead'],['hard','Hard to crack']];
+  let mine=[], team=[];
+  ORDER.forEach(([bk,label])=>{(e.pipe&&e.pipe[bk]||[]).forEach(co=>{
+    (co.o&&co.o.includes(me)?mine:team).push({n:co.n,st:label});});});
+  const pool=mine.length?mine:team, lbl=mine.length?'your':'the team’s';
+  if(pool.length) out.push([pool.length*10+5,`Backs <b>${pool.length}</b> of ${lbl} pipeline — ${pool.slice(0,3).map(c=>`${c.n} <span class="cc">(${c.st})</span>`).join(', ')}`]);
+  if(e.df12) out.push([e.df12*3,`<b>${e.df12}</b> new deals in 12 months`]);
+  const h=(e.pipe&&e.pipe.hard||[]).length;
+  if(h) out.push([h*8,`Backs <b>${h}</b> hard to crack${h>1?'s':''}`]);
+  return out.sort((a,b)=>b[0]-a[0]).slice(0,2).map(x=>x[1]);
+}
+function cmTarget(e,me){
+  const ppl=[...(e.people||[])].sort((a,b)=>(SRRANK[a.sr]??3)-(SRRANK[b.sr]??3));
+  return ppl.find(p=>!me||(p.r[me]||0)<15)||ppl[0];
+}
+function cmSpendCards(me,sel){
+  const cards=[...sel].sort((a,b)=>cmU(b,me).m-cmU(a,me).m)
+    .filter(e=>{const u=cmU(e,me);return u.st==='build'||u.st==='maintain';}).slice(0,8)
+    .map(e=>{
+      const u=cmU(e,me), tb=cmTeamBest(e), tgt=cmTarget(e,me);
+      const state=u.st==='build'?(u.tag==='warm'?'Build · warm path':u.tag==='cold'?'Build · cold start':'Build'):'Re-engage';
+      const reasons=cmReasons(e,me);
+      const ask=u.tag==='warm'&&tb?`Ask <b>${tb.u.split(' ')[0]}</b> for an intro to ${tb.n}`:
+                tgt?`Approach <b>${tgt.n}</b>${tgt.sr?` <span class="cc">(${tgt.sr})</span>`:''} directly`:'No people mapped yet';
+      return `<div class="cmspend">
+        <div class="cmfn">${e.name} <span class="cmst ${u.st}">${state}</span></div>
+        ${reasons.map(r=>`<div class="cmfm">${r}</div>`).join('')||'<div class="cmfm cc">Relevant by deal flow ranking</div>'}
+        <div class="cmfm cmask">${ask}</div>
+        <div class="apacts">
+          ${u.tag==='warm'&&tb?`<a href="mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — could you introduce me to '+tb.n+' at '+e.name+'? The coverage map says you hold our strongest line in. — '+(me||'').split(' ')[0])}">✉ Draft intro request</a>`:''}
+          ${tgt?`<a href="${liSearch(tgt.n,e.name)}" target="_blank" rel="noopener">Draft outreach ↗</a>`:''}
+          <button class="minibtn" data-cment="${e.slug}">Open fund page</button>
+        </div></div>`;
+    }).join('');
+  return cards||'<div class="aphint">Nothing to build here.</div>';
+}
+function cmWhoRows(me){
+  const rows=(CM.who||{})[MAP.cc]||[];
+  const mine=!MAP.whoTeam;
+  const list=rows.map(p=>{
+    const best=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
+    const r=mine?(me?(p.r[me]||0):0):(best?best[1]:0);
+    if(r<15) return null;
+    return {p, r, holder: mine?null:(best?best[0]:null)};
+  }).filter(Boolean).sort((a,b)=>b.r-a.r);
+  const html=list.slice(0,18).map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm">${p.n}</span><span class="how">${p.org||''} · ${cmTierWord(r)}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('');
+  return {html: html||`<div class="dtsub">${mine?'No one on your book here yet.':'No team edges here.'}</div>`, n:list.length};
+}
+function cmCountryPage(me){
+  const cc=MAP.cc, A=CM.areas[cc]||{covT:0,u:{},known:{}};
+  const covu=me&&A.u[me]?A.u[me].covu:0, exp=me&&A.u[me]?A.u[me].exp:null;
+  const [qu]=cmQualU(covu), [qt]=cmQualT(A.covT);
+  const known=me?(A.known&&A.known[me]||0):0;
+  const sel=cmEnts().filter(e=>e.cc===cc&&e.sl&&!e.rm);
+  const selAff=(CM.aff||[]).filter(e=>e.cc===cc&&e.sl&&!e.rm);
+  const forceIn=me?cmEnts().filter(e=>e.cc===cc&&!e.sl&&!e.rm&&(e.pu&&e.pu[me])):[];
+  const short=[...sel,...forceIn];
+  const who=cmWhoRows(me);
+  const over=short.filter(e=>cmU(e,me).st==='over').sort((a,b)=>cmU(b,me).cu-cmU(a,me).cu);
+  const groups=[['build','Build'],['maintain','Maintain'],['over','Over-invested']].map(([st,label])=>{
+    const g=short.filter(e=>cmU(e,me).st===st);
+    if(!g.length) return '';
+    return `<div class="apsec">${label} — ${g.length}</div>${g.sort((a,b)=>cmU(b,me).gu-cmU(a,me).gu).map(e=>{
+      const u=cmU(e,me);
+      return `<div class="dpli" data-cment="${e.slug}"><b class="mbub ${u.cu>=70?'strong':u.cu>=40?'medium':u.cu>=15?'low':'weak'}">${Math.round(u.cu)}</b><span class="nm">${e.name}${e.pin?' ★':''}${!e.sl?' <span class="cc">· in via your pipeline</span>':''}</span><span class="how">${e.city||''} · team ${Math.round(e.CT)}${u.tag?' · '+(u.tag==='warm'?'warm path':'cold start'):''}</span></div>`;
+    }).join('')}`;
+  }).join('');
+  const allN=cmEnts().filter(e=>e.cc===cc).length+(CM.aff||[]).filter(e=>e.cc===cc).length;
+  return `<div class="cmhead">${CM.ccName[cc]}: your coverage is <b>${qu}</b>, the team's is ${qt}.${exp!=null?` ${Math.round(exp)}% of your Nordic pipeline sits here.`:''} You know <b>${known}</b> people here.</div>
+    <div class="cmv2grid">
+      <div>
+        <div class="apsec">Where to spend time</div>
+        ${cmSpendCards(me,[...short,...selAff])}
+      </div>
+      <div>
+        <div class="apsec">Who do you know in ${CM.ccName[cc]} <span class="aptog" style="margin-left:8px"><button data-cmwho="me"${!MAP.whoTeam?' class="on"':''}>Mine</button><button data-cmwho="team"${MAP.whoTeam?' class="on"':''}>Team</button></span></div>
+        <div class="apcard">${who.html}</div>
+        ${over.length?`<div class="apsec" style="margin-top:14px">Maintain lightly</div>
+        <div class="apcard cmquiet">${over.slice(0,8).map(e=>`<div class="dpli" data-cment="${e.slug}"><b class="mbub low">${Math.round(cmU(e,me).cu)}</b><span class="nm">${e.name}</span><span class="how">strong relationship · little deal flow</span></div>`).join('')}</div>`:''}
+      </div>
+    </div>
+    <div class="apsec" style="margin-top:16px">On the map — shortlisted investors</div>
+    <div class="cmminimap"><svg viewBox="${(CM.vb[cc]||CM.vb.nordics).join(' ')}" preserveAspectRatio="xMidYMid meet">
+      <g>${CM.countries.map(c=>c.bg?'':`<path d="${c.d}" class="cmcty${c.id===cc?' on':''}"/>`).join('')}</g>
+      <g>${short.concat(selAff).filter(e=>e.x!=null).map(e=>{
+        const u=cmU(e,me), z=CM.zoomL2[cc]||6, r=e.r2||8/z;
+        const rt=r*Math.sqrt(Math.min(e.CT,100)/100), rm=r*Math.sqrt(Math.min(u.cu,100)/100);
+        const fade=u.st==='over'?' opacity="0.35"':u.st==='maintain'?' opacity="0.7"':'';
+        return `<g transform="translate(${e.x},${e.y})"${fade} class="cment" data-cment="${e.slug}">
+          <circle r="${r}" class="cmouter"/><circle r="${rt.toFixed(2)}" class="cmteam"/>
+          ${rm>0.4?`<circle r="${rm.toFixed(2)}" fill="${CMTIER(u.cu)}" class="cmme"/>`:''}</g>`+
+          (u.st==='build'?`<text class="cmlab" x="${e.x}" y="${(e.y-r-3/z).toFixed(1)}" style="font-size:${(10.5/z).toFixed(2)}px">${e.name}</text>`:'');
+      }).join('')}</g>
+    </svg></div>
+    <div style="margin-top:14px">${groups}</div>
+    <div style="margin-top:12px">${MAP.showAll?`${cmAffCards(me)}${cmPeopleIn(me)}`:`<button class="minibtn" data-cmshowall>Show all ${allN} investors in ${CM.ccName[cc]}</button>`}</div>`;
+}
 function cmAffCards(me){
-  const sel=(CM.aff||[]).filter(e=>e.cc===MAP.cc)
+  const sel=(CM.aff||[]).filter(e=>e.cc===MAP.cc&&!e.sl)
     .sort((a,b)=>((me&&b.cu[me])||0)-((me&&a.cu[me])||0)||b.CT-a.CT||a.name.localeCompare(b.name));
   if(!sel.length) return '';
   const known=sel.filter(e=>e.CT>0).length;
@@ -1750,37 +1865,60 @@ function cmPeopleIn(me){
 function cmDetail(me){
   const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);
   if(!e) return '';
-  const u=cmU(e,me), tb=cmTeamBest(e);
-  const ppl=(e.people||[]).slice(0,10);
+  const u=cmU(e,me), tb=cmTeamBest(e), tgt=cmTarget(e,me);
+  const state=u.st==='build'?(u.tag==='warm'?'Build · warm path':u.tag==='cold'?'Build · cold start':'Build'):u.st==='maintain'?'Maintain':u.st==='over'?'Over-invested':'Quiet';
+  // why, as numbers, largest first
+  const ORDER=[['lead','Lead'],['prelead','Pre-lead'],['awaiting','Awaiting lead'],['hard','Hard to crack'],['reachout','Reach out'],['portfolio','Portfolio']];
+  const pipeAll=[]; ORDER.forEach(([bk,label])=>{(e.pipe&&e.pipe[bk]||[]).forEach(co=>pipeAll.push({n:co.n,st:label,mine:co.o&&co.o.includes(me)}));});
+  const myN=pipeAll.filter(c=>c.mine).length, h2cN=(e.pipe&&e.pipe.hard||[]).length;
+  const why=[[myN,`backs <b>${myN}</b> of your pipeline`],[e.df12||0,`<b>${e.df12||0}</b> new deals in 12 months`],[h2cN,`backs <b>${h2cN}</b> hard to crack${h2cN>1?'s':''}`],[pipeAll.length,`<b>${pipeAll.length}</b> pipeline links in all`]]
+    .filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+  const topCos=[...pipeAll].sort((a,b)=>(a.mine===b.mine?0:a.mine?-1:1)).slice(0,3);
+  const move=u.tag==='warm'&&tb?[`Ask ${tb.u.split(' ')[0]} for an intro to ${tb.n}`,`mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — could you introduce me to '+tb.n+' at '+e.name+'? — '+(me||'').split(' ')[0])}`,'✉ Draft intro request']:
+    u.st==='over'?['Slow the cadence — little deal flow for the time spent',null,null]:
+    tgt?[`Approach ${tgt.n}${tgt.sr?` (${tgt.sr})`:''} directly`,liSearch(tgt.n,e.name),'Draft outreach ↗']:['Map the team first',null,null];
+  const ppl=[...(e.people||[])].sort((a,b)=>{
+    const sr=(SRRANK[a.sr]??3)-(SRRANK[b.sr]??3); if(sr) return sr;
+    const gap=p=>{const best=Math.max(...Object.values(p.r),0);return best-(me?(p.r[me]||0):0);};
+    return gap(b)-gap(a);
+  });
   const rows=ppl.map(p=>{
     const mr=me?Math.round(p.r[me]||0):0, bt=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
     return `<tr><td><b class="mbub ${mr>=70?'strong':mr>=40?'medium':mr>=15?'low':'weak'}">${mr}</b></td>
       <td class="nmc">${p.n}</td><td>${p.sr||'—'}</td>
-      <td>${bt?`${bt[0].split(' ')[0]} · ${Math.round(bt[1])}`:'—'}</td>
-      <td class="lt">${p.last?fmtD(p.last):'—'}</td></tr>`;
+      <td>${bt?`${cmTierWord(bt[1])} · ${bt[0].split(' ')[0]}`:'—'}</td>
+      <td class="lt">${p.last?fmtD(p.last):'—'}</td>
+      <td><a href="${liSearch(p.n,e.name)}" target="_blank" rel="noopener">↗</a></td></tr>`;
   }).join('');
+  const untracked=(e.dfl||[]).filter(d=>!d.aid);
+  const others=pipeAll.filter(c=>['Reach out','Portfolio'].includes(c.st));
+  const acc=(id,label,n,body,open)=>n?`<details class="cmacc"${open?' open':''}><summary>${label} <b>${n}</b></summary>${body}</details>`:'';
+  const pipeRows=bk=>((e.pipe&&e.pipe[bk])||[]).map(co=>`<div class="dpli"><span class="nm">${co.o&&co.o.includes(me)?`<b>${co.n}</b>`:co.n}</span><span class="how">${(co.o||[]).map(x=>x.split(' ')[0]).join(', ')}</span></div>`).join('');
+  const topReason=why[0]||'';
+  const openKey=topReason.includes('pipeline')?'pipe':topReason.includes('deals')?'df':topReason.includes('hard')?'h2c':'df';
   return `<div class="cmdet">
-    <div class="cmdeth">${cmGlyphSvg(e,me,74)}<div>
-      <div class="cmdetn">${e.name} <span class="cmst ${u.st}">${u.st}</span>${u.tag?` <span class="cmst">${u.tag==='warm'?'warm path':'cold start'}</span>`:''}</div>
-      <div class="cmfm">${e.city||'—'} · ${e.cat||e.kind}${e.fs?' · '+e.fs:''} · opportunity <b>${Math.round(cmOpp(e,me))}</b> · team <b>${Math.round(e.CT)}</b>${me?` · you <b style="color:${CMTIER(u.cu)}">${Math.round(u.cu)}</b>`:''}</div>
-      <div class="cmwhy">${cmWhy(e,me)}</div>
+    <div class="cmdeth">${cmGlyphSvg(e,me,74)}<div style="min-width:0">
+      <div class="cmdetn">${e.name} <span class="cmst ${u.st}">${state}</span></div>
+      <div class="cmfm">${e.city||'—'} · ${e.cat||e.kind}${e.fs?' · '+e.fs:''} · team <b>${Math.round(e.CT)}</b>${me?` · you <b style="color:${CMTIER(u.cu)}">${Math.round(u.cu)}</b>`:''}</div>
+      ${why.length?`<div class="cmfm">${why.join(' · ')}</div>`:''}
+      ${topCos.length?`<div class="cmfm">${topCos.map(c=>`${c.mine?`<b>${c.n}</b>`:c.n} <span class="cc">(${c.st})</span>`).join(' · ')}</div>`:''}
+      <div class="cmfm cmask">${move[0]}${move[1]?` — <a href="${move[1]}"${move[2].includes('↗')?' target="_blank" rel="noopener"':''}>${move[2]}</a>`:''}</div>
     </div></div>
-    ${e.dfl&&e.dfl.length?`<div class="apsec">Recent investments</div>
-      ${e.dfl.map(d=>`<div class="dpli"><span class="nm">${d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.fu?`in our pipeline: ${d.fu}`:null].filter(Boolean).join(' · ')}</span></div>`).join('')}`:''}
-    ${e.pipe&&Object.keys(e.pipe).length?`<div class="apsec">Our pipeline with them</div>
-      ${(typeof BUCKETS!=='undefined'?[...BUCKETS,['portfolio','Portfolio']]:[]).map(([bk,label])=>{
-        const v=e.pipe[bk]; if(!v||!v.length) return '';
-        return `<div class="dpli"><span class="chip ${bk}"><b>${v.length}</b> ${label}</span><span class="how">${v.map(co=>co.o.includes(me)?`<b>${co.n}</b>`:co.n).join(' · ')}</span></div>`;
-      }).join('')}
-      ${me?`<div class="dtsub">Bold = on your own book.</div>`:''}`:''}
-    <div class="apsec">People</div>
-    <table class="nettab cmdett"><thead><tr><th>You</th><th>Name</th><th>Role</th><th>Team best</th><th>Last touch</th></tr></thead>
-    <tbody>${rows||`<tr><td colspan="5" class="lt" style="padding:12px">No contacts mapped yet — coverage 0 by construction.</td></tr>`}</tbody></table>
-    ${cmEgo(e,me)}
-    <div class="apacts" style="margin-top:12px">
-      ${u.tag==='warm'&&tb?`<a href="mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — the coverage map says you hold our strongest line into '+e.name+' ('+tb.n+'). Could you bring me in or make an intro? — '+(me||'').split(' ')[0])}">✉ Ask ${tb.u.split(' ')[0]}</a>`:''}
-      <a href="${liSearch(e.name,'')}" target="_blank" rel="noopener">LinkedIn ↗</a>
-    </div></div>`;
+    <div class="cmv2grid">
+      <div>
+        <div class="apsec">People</div>
+        <table class="nettab cmdett"><thead><tr><th>You</th><th>Name</th><th>Role</th><th>Team best</th><th>Last touch</th><th></th></tr></thead>
+        <tbody>${rows||`<tr><td colspan="6" class="lt" style="padding:12px">No people mapped yet.</td></tr>`}</tbody></table>
+      </div>
+      <div>${cmEgo(e,me)}</div>
+    </div>
+    ${acc('df','Recent deal flow',(e.dfl||[]).length,(e.dfl||[]).map(d=>`<div class="dpli"><span class="nm">${d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.fu?`in pipeline: ${d.fu}`:null].filter(Boolean).join(' · ')}</span></div>`).join(''),openKey==='df')}
+    ${acc('pl','Pre-lead',((e.pipe||{}).prelead||[]).length,pipeRows('prelead'),openKey==='pipe')}
+    ${acc('aw','Awaiting lead',((e.pipe||{}).awaiting||[]).length,pipeRows('awaiting'),false)}
+    ${acc('h2','Hard to crack portfolio',h2cN,pipeRows('hard'),openKey==='h2c')}
+    ${acc('un','Recent deals we are not tracking',untracked.length,untracked.map(d=>`<div class="dpli"><span class="nm">${d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.do||null].filter(Boolean).join(' · ')}</span><button class="minibtn" data-copy="${encodeURIComponent(d.n+(d.do?' — '+d.do:''))}">Add to Affinity</button></div>`).join(''),false)}
+    ${acc('ot','Other portfolio in Highland pipeline',others.length,others.map(c=>`<div class="dpli"><span class="nm">${c.mine?`<b>${c.n}</b>`:c.n}</span><span class="how">${c.st}</span></div>`).join(''),false)}
+  </div>`;
 }
 function cmEgo(e,me){
   const ppl=(e.people||[]).slice(0,8);
@@ -1878,6 +2016,7 @@ function cmAnimVB(svg,to){
   requestAnimationFrame(step);
 }
 function cmGo(lvl,cc,ent){
+  if(cc!==MAP.cc){ MAP.showAll=false; MAP.whoTeam=false; }
   const wasMap=(MAP.lvl==='l0'||MAP.lvl==='l1')&&!MAP.ent, toMap=(lvl==='l0'||lvl==='l1')&&!ent;
   MAP.lvl=lvl; MAP.cc=cc||''; MAP.ent=ent||'';
   const svg=document.getElementById('cmsvg');
@@ -1893,6 +2032,9 @@ function mapBind(body){
   const me=ap.who||'';
   const bk=body.querySelector('[data-cmback]');
   if(bk) bk.addEventListener('click',cmBack);
+  body.querySelectorAll('[data-cmwho]').forEach(b=>b.addEventListener('click',()=>{MAP.whoTeam=b.dataset.cmwho==='team';renderWork();}));
+  const sa=body.querySelector('[data-cmshowall]');
+  if(sa) sa.addEventListener('click',()=>{MAP.showAll=true;renderWork();});
   body.querySelectorAll('[data-cmgo]').forEach(b=>b.addEventListener('click',()=>{
     const l=b.dataset.cmgo; cmGo(l, l==='l2'?MAP.cc:'', '');
   }));
@@ -1946,8 +2088,8 @@ function mapBind(body){
     g.addEventListener('mouseenter',()=>{
       const cc=g.dataset.cmcc2;
       if(cc){ const a=CM.areas[cc]; if(!a) return;
-        const covu=me&&a.u[me]?a.u[me].covu:0;
-        hov.innerHTML=`<div class="cmcn"><b>${CM.ccName[cc]}</b></div><div class="cmnums"><span>Opportunity share <b>${Math.round(a.opp)}</b></span><span>You <b>${Math.round(covu)}%</b></span><span>Team <b>${Math.round(a.covT)}%</b></span></div>`;
+        const covu=me&&a.u[me]?a.u[me].covu:0, kn=me&&a.known?a.known[me]||0:0;
+        hov.innerHTML=`<div class="cmcn"><b>${CM.ccName[cc]}</b></div><div class="cmnums"><span>Shortlisted funds <b>${a.sln||0}</b></span><span>You know <b>${kn}</b></span><span>Team <b>${Math.round(a.covT)}%</b></span></div>`;
         hov.hidden=false; }
     });
     g.addEventListener('mousemove',ev=>{
