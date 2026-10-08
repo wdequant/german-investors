@@ -1,7 +1,8 @@
 """Assemble the Nordics region entities from data/nordics/*."""
 import math, os
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, norm_name, dedup_key, clean_rels)
+                             points_from, load_json, norm_name, dedup_key, clean_rels,
+                             net_from_cells)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -122,5 +123,6 @@ def assemble(team):
             "buckets": bucket_pipeline(aff.get("pipeline")),
             "coinvest": (co or {}).get("company_names", []),
             "dormant": dormant,
+            "net": net_from_cells(cells) if kind == "fund" else [],
         })
     return entities

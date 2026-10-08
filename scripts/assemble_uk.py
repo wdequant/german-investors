@@ -1,14 +1,16 @@
 """Assemble the UK region entities from data/uk/* + data/enrich/uk-funds.json.
 
 The UK universe was curated top-down (66 funds ranked in uk-funds.json, keyed by
-domain) with Harmonic profiles in data/uk/investors.json (keyed by name). There is
-no Harmonic team-network dump for the UK yet, so coverage comes from the live
-Affinity relationship edges in data/uk/affinity/<slug>.json.
+domain) with Harmonic profiles in data/uk/investors.json (keyed by name). Coverage
+blends the live Affinity relationship edges in data/uk/affinity/<slug>.json with
+the Harmonic team-network dump in data/uk/connections.json (email, calendar and
+LinkedIn connections per fund, same shape as the other regions).
 """
+import math
 import os
 import re
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, clean_rels)
+                             points_from, load_json, clean_rels, dedup_key, net_from_cells)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -27,6 +29,7 @@ def assemble(team):
     slugmap = load_json(f"{ROOT}/data/uk/slug-map.json") or {}
     if not investors or not funds:
         return []
+    connections = {int(k): v for k, v in (load_json(f"{ROOT}/data/uk/connections.json") or {}).items()}
     byname = {_nrm(v["name"]): d for d, v in funds.items()}
 
     def domain_of(name):
@@ -48,8 +51,16 @@ def assemble(team):
         rels = clean_rels(aff.get("relationships"))
         aff_max = max((r.get("score") or 0 for r in rels), default=0)
         aff_strong = sum(1 for r in rels if (r.get("score") or 0) >= 0.5)
-        cells, li = harmonic_cells(None, team_order)
+        cid = int(inv["company_urn"].rsplit(":", 1)[1])
+        cells, li = harmonic_cells(connections.get(cid), team_order)
+        max_cell = max(c["score"] for c in cells.values())
+        total_w = sum(c["score"] for c in cells.values())
+        harmonic_raw = 0.7 * math.sqrt(max_cell) + 0.3 * math.sqrt(total_w)
         tp = top_people(cells, rels)
+        for p in tp:
+            for k in p["contacts"]:
+                if not k.get("linkedin"):
+                    k["linkedin"] = li.get(dedup_key(k["person"]))
         entities.append({
             "name": meta["name"], "slug": slug, "kind": "fund",
             "category": TYPE_CAT.get(meta.get("type"), "vc"),
@@ -62,8 +73,9 @@ def assemble(team):
             "last_investment": (inv.get("last_investment") or "")[:10] or None,
             "relevance": relevance(inv), "top_people": tp,
             "points": points_from(rels, cells, li),
-            "harmonic_raw": 0, "aff_max": aff_max, "aff_strong": aff_strong,
+            "harmonic_raw": harmonic_raw, "aff_max": aff_max, "aff_strong": aff_strong,
             "buckets": bucket_pipeline(aff.get("pipeline")),
             "coinvest": [], "dormant": aff.get("dormant"),
+            "net": net_from_cells(cells),
         })
     return entities

@@ -5,7 +5,7 @@ projected (Lambert azimuthal equal-area, centre 10E 52N) and emitted as SVG path
 strings; all five scores from spec section 6 are computed per user; bubbles are
 packed per city. The client only draws. M1 scope: Nordics active, rest greyed.
 """
-import json, math, os
+import json, math, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPO = f"{ROOT}/data/geo/countries-50m.json"
@@ -347,9 +347,32 @@ def build_covmap(regions, mynet, roster, load_json):
                     p1["r"][_u1] = R2
                 if _mx.get("l") and (not p1["last"] or _mx["l"] > p1["last"]):
                     p1["last"] = _mx["l"]
+        # Harmonic team-network layer: LinkedIn/email/calendar connections that never
+        # made it into Affinity still count as (weak) coverage — they are real paths in
+        _NETJUNK = re.compile(r"assistant|office manager|recruiter|reception|counsel|legal"
+                              r"|head of finance|chief financial|people|talent|marketing"
+                              r"|platform|community|comms|press", re.I)
+        for _nr in (e.get("net") or []):
+            _nm7 = _nr.get("n")
+            if not _nm7 or (pm.get(_nm7.lower()) or {}).get("inv") is False:
+                continue
+            if _nr.get("t") and _NETJUNK.search(_nr["t"]):
+                continue
+            for _u7, _srcs7 in (_nr.get("via") or {}).items():
+                if _u7 not in roster:
+                    continue
+                R7 = 38.0 if ({"EMAIL", "CALENDAR"} & set(_srcs7 or [])) else 28.0
+                _p7 = people.setdefault(_nm7, {"n": _nm7, "r": {}, "last": None})
+                if R7 > _p7["r"].get(_u7, 0):
+                    _p7["r"][_u7] = R7
+                if _nr.get("li") and not _p7.get("li"):
+                    _p7["li"] = _nr["li"]
+                if _nr.get("t") and not _p7.get("t"):
+                    _p7["t"] = _nr["t"]
         for p in people.values():
             meta = pm.get(p["n"].lower()) or {}
-            p["sr"] = "Partner" if e["kind"] == "angel" else _sr_from_title(meta.get("title"))
+            p["sr"] = ("Partner" if e["kind"] == "angel"
+                       else _sr_from_title(meta.get("title") or p.get("t")))
             if meta.get("title"):
                 p["t"] = meta["title"]
         # seniority weights
@@ -396,7 +419,7 @@ def build_covmap(regions, mynet, roster, load_json):
             "rel": (e.get("relevance") or {}).get("total") or 0,
             "df12": df12, "dfw": round(dfw, 2), "coinv": len(e.get("coinvest") or []),
             "CT": CT, "cu": cu, "pu": pu,
-            "people": sorted(people.values(), key=lambda p: -max(p["r"].values(), default=0))[:10],
+            "people": sorted(people.values(), key=lambda p: -max(p["r"].values(), default=0))[:25],
         })
 
     # ---- O, O_u, G, M, states ----
@@ -704,8 +727,16 @@ def build_covmap(regions, mynet, roster, load_json):
                 _rec10 = who_in.setdefault(_cc10, {}).setdefault(_px10["n"], {
                     "n": _px10["n"], "org": _px10.get("f"), "last": None, "r": {}})
                 _rec10["r"][_u10] = max(_rec10["r"].get(_u10, 0), _px10["p"])
-    who_in = {cc: sorted(v.values(), key=lambda x: -max(x["r"].values(), default=0))[:80]
-              for cc, v in who_in.items()}
+    # cap per geo, but never let the team's strongest edges crowd out a member's own
+    # network: keep the global top 80 plus every member's personal top 40
+    def _who_cap(rows):
+        ranked = sorted(rows, key=lambda x: -max(x["r"].values(), default=0))
+        keep = {id(x) for x in ranked[:80]}
+        for u in roster:
+            mine = sorted((x for x in rows if x["r"].get(u)), key=lambda x: -x["r"][u])[:40]
+            keep.update(id(x) for x in mine)
+        return [x for x in ranked if id(x) in keep]
+    who_in = {cc: _who_cap(list(v.values())) for cc, v in who_in.items()}
 
     # shortlist-based roll-ups replace the raw ones (a long tail cannot drag the number)
     for _cc11 in list(areas.keys()):
@@ -725,6 +756,11 @@ def build_covmap(regions, mynet, roster, load_json):
             if _u11 in _ru["u"] and "exp" in areas[_cc11]["u"][_u11]:
                 _ru["u"][_u11]["exp"] = areas[_cc11]["u"][_u11]["exp"]
         areas[_cc11] = _ru
+
+    # the full network rows were only needed for scoring — keep them out of the payload
+    for _reg9 in regions.values():
+        for _e9 in _reg9.get("entities") or []:
+            _e9.pop("net", None)
 
     return {
         "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "who": who_in,

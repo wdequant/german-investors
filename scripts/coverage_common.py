@@ -322,6 +322,21 @@ def eff_edge(r):
     return sc * recency_decay(r.get("last")) * channel
 
 
+def net_from_cells(cells):
+    """Full Harmonic team-network rows for an entity (uncapped, with sources),
+    so the coverage map can score LinkedIn/email connections that never made
+    it into Affinity. One row per known person: {n, t, li, via: {user: sources}}."""
+    rows = {}
+    for u, c in (cells or {}).items():
+        for k in c["contacts"]:
+            if k.get("external"):
+                continue
+            r = rows.setdefault(k["person"], {"n": k["person"], "t": k.get("title"),
+                                              "li": k.get("linkedin"), "via": {}})
+            r["via"][u] = k.get("sources") or []
+    return list(rows.values())
+
+
 def top_people(cells, aff_rels):
     discount_unverified(cells, aff_rels)
     people = {}
