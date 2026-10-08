@@ -1174,5 +1174,577 @@
  "summit partners": {
   "type": "PE",
   "stage": "Growth"
+ },
+ "stripe": {
+  "type": "Other",
+  "stage": null
+ },
+ "blume equity": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "avp": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "heal capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "visionaries": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "gradient": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "orbit capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "giant ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "felix capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "heartcore capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "oprtrs club": {
+  "type": "Angel",
+  "stage": "Early"
+ },
+ "m&g": {
+  "type": "Other",
+  "stage": "Late"
+ },
+ "revaia": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "hitachi ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "seedcamp": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "episode 1": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "greenfield partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "creator collective capital (c3 vc)": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "shorooq": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mcwin.partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "princeville capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "battery ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "nauta": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "iron nation fund": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ten eleven ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "databricks": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "zürcher kantonalbank": {
+  "type": "Bank",
+  "stage": null
+ },
+ "spore.bio": {
+  "type": "Other",
+  "stage": null
+ },
+ "3vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "tcv": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "cyberstarts": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "entrepreneur first": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "axon partners group": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "paypal": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "yara latinoamérica": {
+  "type": "CVC",
+  "stage": null
+ },
+ "dnbcarnegie.no": {
+  "type": "Bank",
+  "stage": null
+ },
+ "hv": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "one peak": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "dtcp": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "smedvig ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "israel growth partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "madrona": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "pictet group": {
+  "type": "Bank",
+  "stage": null
+ },
+ "presto ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "episode 1 ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "kompas vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "teampact.ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mandatum asset management": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "revo capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "concept ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vela partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "albion ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "european circular bioeconomy fund": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "founderpath": {
+  "type": "Other",
+  "stage": null
+ },
+ "lea partners": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "localglobe": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "plural": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "rtp global": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "sap": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "mustard seed": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "kibo ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "move capital fund i": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "bridgepoint group": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "begin capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "shilling capital partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "apis partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "acurio ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "centerview partners": {
+  "type": "Bank",
+  "stage": null
+ },
+ "playfair": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cathay capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "luxinnovation gie": {
+  "type": "State",
+  "stage": null
+ },
+ "cusp capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "concentric": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "eniac ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "chausson partners": {
+  "type": "Advisor",
+  "stage": null
+ },
+ "zobito ab": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "system.one": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "42cap": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "the nordic web ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "armilar": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "amity ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "adara ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "645 ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "4impact capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "connect ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "illuminate financial": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "target global": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "kindred capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "calm storm": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "radical ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "alpine space ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "flexstone partners": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "imaginary": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "deutsche bank": {
+  "type": "Bank",
+  "stage": null
+ },
+ "samos investments": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "stepstone": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "frontline ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "korys": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "mangrove capital partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "20vc": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "anthemis": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "chalfen ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "crédit agricole cib": {
+  "type": "Bank",
+  "stage": null
+ },
+ "camber partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "ledger": {
+  "type": "Other",
+  "stage": null
+ },
+ "cdp venture capital": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "gresham house": {
+  "type": "Other",
+  "stage": null
+ },
+ "deel": {
+  "type": "Other",
+  "stage": null
+ },
+ "mastercard": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "atlassian": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "zf group": {
+  "type": "Other",
+  "stage": null
+ },
+ "techstars": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "vireo ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "resurgens technology partners": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "celonis": {
+  "type": "Other",
+  "stage": null
+ },
+ "drysdale ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "south park commons": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "kaya": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "dn capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "claret capital partners": {
+  "type": "Other",
+  "stage": null
+ },
+ "beringea": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "swisscom services ag": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "flyer one ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ace ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "notion capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "hedosophia": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "mouro capital": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "maven capital partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "apollo global management, inc.": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "norrsken vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "eka ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mmc ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "visionaries tomorrow": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "ip group plc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "lvp": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "credo ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "xtx markets": {
+  "type": "Other",
+  "stage": null
+ },
+ "giesecke+devrient": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "valar ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "brightcap ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "european commission": {
+  "type": "State",
+  "stage": null
+ },
+ "etfs capital": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "silicon valley bank": {
+  "type": "Bank",
+  "stage": null
  }
 }
