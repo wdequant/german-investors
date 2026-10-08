@@ -606,5 +606,573 @@
  "silversmith capital partners": {
   "type": "PE",
   "stage": "Growth"
+ },
+ "westcap": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "brighton park capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "investec": {
+  "type": "Bank",
+  "stage": null
+ },
+ "softbank group corp.": {
+  "type": "VC",
+  "stage": "Late"
+ },
+ "ardian": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "triple point": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cipio partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "lakestar": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "motive partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "cardumen capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "blackfinch group": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cambridge innovation capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "tiny supercomputer investment company": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bek ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cambridge judge business school": {
+  "type": "Other",
+  "stage": null
+ },
+ "crane venture partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "dawn capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "common magic": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "hummingbird": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "moonfire": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "nea": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "revent": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "the raine": {
+  "type": "Bank",
+  "stage": null
+ },
+ "microsoft": {
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "verdane": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "iris": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "finch capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "sixth street": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "endeit capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "translink capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "inovo vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "left lane capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "parkwalk": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "seaya": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "lombard odier group": {
+  "type": "Bank",
+  "stage": null
+ },
+ "oak hc/ft": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "schroders": {
+  "type": "Other",
+  "stage": "Late"
+ },
+ "eqt group": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "octopus ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "otb ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "eifo": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "seb venture capital": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "redalpine": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "armira": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "highland capital partners": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "marlin equity partners": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "searchlight capital partners": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "forestay capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "allianz": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "morgan stanley": {
+  "type": "Bank",
+  "stage": null
+ },
+ "nato innovation fund (nif)": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "chemistry": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "sav (scale asia ventures)": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "smash capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "greyhound capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "tpg": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "openocean": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "hg": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "contrarian ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "speedinvest": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "nesta": {
+  "type": "Other",
+  "stage": null
+ },
+ "kennet partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "educapital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "venturefriends": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "capitalg": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "ftv capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "lightrock": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "baybg bayerische beteiligungsgesellschaft mbh": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "fintech collective": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "susquehanna growth equity (sge)": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "liontree": {
+  "type": "Bank",
+  "stage": null
+ },
+ "sapphire ventures": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "calculus capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mishcon de reya llp": {
+  "type": "Advisor",
+  "stage": null
+ },
+ "business finland": {
+  "type": "State",
+  "stage": null
+ },
+ "relationship investments inc": {
+  "type": "Sovereign/LP",
+  "stage": "Late"
+ },
+ "horizon capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "accenture": {
+  "type": "Advisor",
+  "stage": null
+ },
+ "activate capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "blackstone": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "mercia asset management plc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "blackrock": {
+  "type": "Other",
+  "stage": "Late"
+ },
+ "kfw": {
+  "type": "State",
+  "stage": null
+ },
+ "psgequity.co.uk": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "generation investment management": {
+  "type": "Other",
+  "stage": "Growth"
+ },
+ "deeptech labs": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "amazon": {
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "hubert burda media": {
+  "type": "Other",
+  "stage": null
+ },
+ "apax": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "l catterton": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "satgana": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "qed investors": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "expansion ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "playground global": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "palatine": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "zinal growth": {
+  "type": "Family Office",
+  "stage": "Multi-Stage"
+ },
+ "saas consortium": {
+  "type": "State",
+  "stage": null
+ },
+ "lead edge capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "pumagp.co.uk": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "7percent ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "fuel ventures 🚀": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "national wealth fund": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "harbourvest partners": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "truesight ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "hoxton ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "susquehanna international group, llp (sig)": {
+  "type": "Other",
+  "stage": null
+ },
+ "vitruvian partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "pi labs": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "wellington management": {
+  "type": "Other",
+  "stage": "Late"
+ },
+ "amadeus capital partners": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "eos ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "general atlantic": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "white star capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "focus capital partners": {
+  "type": "Advisor",
+  "stage": null
+ },
+ "fifth wall": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "addition": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "portage": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "transition ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "natwest": {
+  "type": "Bank",
+  "stage": null
+ },
+ "energy impact partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "elevator ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "deeptech & climate fonds (dtcf)": {
+  "type": "State",
+  "stage": "Growth"
+ },
+ "fidelity international strategic ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "iq capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "13books capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "inven capital": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "spectrum equity": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "arkwright x": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "etf partners - the environmental technologies fund": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "psg": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "axeleo": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "astanor": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bain capital": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "fintop": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "sofina": {
+  "type": "Family Office",
+  "stage": "Growth"
+ },
+ "valo ventures": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "inovia capital": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "vendep capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "hiro capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "kinnevik": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "curiosity vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "summit partners": {
+  "type": "PE",
+  "stage": "Growth"
  }
 }
