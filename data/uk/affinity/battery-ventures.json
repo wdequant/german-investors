@@ -2,5 +2,327 @@
  "slug": "battery-ventures",
  "affinity_domain": "battery.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Evan Witte",
+   "externalEmail": "ewitte@battery.com",
+   "score": 1.0,
+   "last": "2026-04-15",
+   "meet": "2026-02-13"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Marcus Ryu",
+   "externalEmail": "marcus@battery.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Marcus Ryu",
+   "externalEmail": "marcus@battery.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Marcus Ryu",
+   "externalEmail": "marcus@battery.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Marcus Ryu",
+   "externalEmail": "marcus@battery.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Thomas Marchioni",
+   "externalEmail": "tmarchioni@battery.com",
+   "score": 1.0,
+   "last": "2026-06-16",
+   "meet": "2026-06-16"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 1.0,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Paul Morrissey",
+   "externalEmail": "paul@battery.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2025-05-14"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ilana Corney",
+   "externalEmail": "icorney@battery.com",
+   "score": 1.0,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 0.98,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Paul Morrissey",
+   "externalEmail": "paul@battery.com",
+   "score": 0.98,
+   "last": "2026-10-05",
+   "meet": "2025-05-14"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Ilana Corney",
+   "externalEmail": "icorney@battery.com",
+   "score": 0.98,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Jennifer Padilla",
+   "externalEmail": "jpadilla@battery.com",
+   "score": 0.97,
+   "last": "2026-09-22",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Olivia Henkoff",
+   "externalEmail": "ohenkoff@battery.com",
+   "score": 0.97,
+   "last": "2026-09-22",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 0.97,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 0.97,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Dave Tabors",
+   "externalEmail": "dave@battery.com",
+   "score": 0.96,
+   "last": "2026-09-04",
+   "meet": "2026-09-04"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ilana Corney",
+   "externalEmail": "icorney@battery.com",
+   "score": 0.92,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 0.91,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Lior Mallul",
+   "externalEmail": "lior@battery.com",
+   "score": 1.0,
+   "last": "2025-12-14",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Logan Bartlett",
+   "externalEmail": "logan@battery.com",
+   "score": 1.0,
+   "last": "2026-03-12",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Estelle Tessaro",
+   "externalEmail": "etessaro@battery.com",
+   "score": 0.7,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Estelle Tessaro",
+   "externalEmail": "etessaro@battery.com",
+   "score": 0.68,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Enzo Wiener",
+   "externalEmail": "ewiener@battery.com",
+   "score": 1.0,
+   "last": "2025-07-23",
+   "meet": "2025-07-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Olivia Henkoff",
+   "externalEmail": "ohenkoff@battery.com",
+   "score": 0.5,
+   "last": "2026-09-22",
+   "meet": "2026-09-01"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 0.5,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Shiran Shalev",
+   "externalEmail": "shiran@battery.com",
+   "score": 1.0,
+   "last": "2025-03-26",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Ilana Corney",
+   "externalEmail": "icorney@battery.com",
+   "score": 0.5,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Enzo Wiener",
+   "externalEmail": "ewiener@battery.com",
+   "score": 0.99,
+   "last": "2025-07-23",
+   "meet": "2025-07-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sanjiv Kalevar",
+   "externalEmail": "sanjiv@battery.com",
+   "score": 0.99,
+   "last": "2025-05-20",
+   "meet": "2024-07-26"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Christophe Rainville",
+   "externalEmail": "crainville@battery.com",
+   "score": 0.98,
+   "last": "2024-10-15",
+   "meet": "2024-10-15"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Shiran Shalev",
+   "externalEmail": "shiran@battery.com",
+   "score": 0.97,
+   "last": "2025-03-26",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Collier Searle",
+   "externalEmail": "csearle@battery.com",
+   "score": 0.48,
+   "last": "2026-09-04",
+   "meet": "2026-09-04"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Danel Dayan",
+   "externalEmail": "ddayan@battery.com",
+   "score": 0.96,
+   "last": "2025-04-02",
+   "meet": "2025-03-19"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Shiran Shalev",
+   "externalEmail": "shiran@battery.com",
+   "score": 0.91,
+   "last": "2025-03-26",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Isabel Von Stauffenberg",
+   "externalEmail": "isabel@battery.com",
+   "score": 0.74,
+   "last": "2025-03-17",
+   "meet": "2025-03-17"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Antonia Heiss",
+   "externalEmail": "aheiss@battery.com",
+   "score": 0.37,
+   "last": "2026-09-04",
+   "meet": "2026-09-04"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Christophe Rainville",
+   "externalEmail": "crainville@battery.com",
+   "score": 0.73,
+   "last": "2024-10-15",
+   "meet": "2024-10-15"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Marcus Ryu",
+   "externalEmail": "marcus@battery.com",
+   "score": 0.36,
+   "last": "2026-10-05",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Scott Tobin",
+   "externalEmail": "scott@battery.com",
+   "score": 0.36,
+   "last": "2026-04-14",
+   "meet": "2026-04-14"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

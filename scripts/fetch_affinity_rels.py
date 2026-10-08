@@ -38,7 +38,7 @@ AUTH = "Basic " + base64.b64encode(f":{key}".encode()).decode()
 JUNK_LOCAL = {"events", "event", "info", "hello", "team", "office", "press",
               "contact", "noreply", "no-reply", "invites", "news", "careers",
               "jobs", "hi", "mail", "admin", "ir", "lp", "legal", "invest"}
-JUNK_NAME = re.compile(r"drinks|dinner|event|day zero|summit|team|newsletter", re.I)
+JUNK_NAME = re.compile(r"drinks|dinner|event|day zero|summit|team|newsletter|noname|conference|\bconf\b|\broom\b", re.I)
 
 
 def get(path, tries=4):

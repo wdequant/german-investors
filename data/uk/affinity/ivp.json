@@ -2,5 +2,327 @@
  "slug": "ivp",
  "affinity_domain": "ivp.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jimena Nowack",
+   "externalEmail": "jnowack@ivp.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Eric Liaw",
+   "externalEmail": "eliaw@ivp.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Eric Liaw",
+   "externalEmail": "eliaw@ivp.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sarah Dixson",
+   "externalEmail": "sdixson@ivp.com",
+   "score": 0.99,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Karthik Ramakrishnan",
+   "externalEmail": "kramakrishnan@ivp.com",
+   "score": 1.0,
+   "last": "2025-10-31",
+   "meet": "2025-03-27"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Sabina von Koskull",
+   "externalEmail": "svonkoskull@ivp.com",
+   "score": 1.0,
+   "last": "2026-01-26",
+   "meet": "2026-01-26"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sarah Dixson",
+   "externalEmail": "sdixson@ivp.com",
+   "score": 0.89,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Karthik Ramakrishnan",
+   "externalEmail": "kramakrishnan@ivp.com",
+   "score": 0.98,
+   "last": "2025-10-31",
+   "meet": "2025-03-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alex Lim",
+   "externalEmail": "alex@ivp.com",
+   "score": 0.87,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Karthik Ramakrishnan",
+   "externalEmail": "kramakrishnan@ivp.com",
+   "score": 0.95,
+   "last": "2025-10-31",
+   "meet": "2025-03-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sabina von Koskull",
+   "externalEmail": "svonkoskull@ivp.com",
+   "score": 0.83,
+   "last": "2026-01-26",
+   "meet": "2026-01-26"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Sam Parker",
+   "externalEmail": "sparker@ivp.com",
+   "score": 0.62,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Zack Grimmer",
+   "externalEmail": "zgrimmer@ivp.com",
+   "score": 0.51,
+   "last": "2026-06-09",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Room 22",
+   "externalEmail": "sflarge@ivp.com",
+   "score": 0.99,
+   "last": "2025-05-14",
+   "meet": "2025-05-14"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Alex Lim",
+   "externalEmail": "alex@ivp.com",
+   "score": 0.43,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Roxie Rum",
+   "externalEmail": "rrum@ivp.com",
+   "score": 0.4,
+   "last": "2026-06-09",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Zack Grimmer",
+   "externalEmail": "zgrimmer@ivp.com",
+   "score": 0.4,
+   "last": "2026-06-09",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Alex Lim",
+   "externalEmail": "alex@ivp.com",
+   "score": 0.4,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Shravan Narayen",
+   "externalEmail": "snarayen@ivp.com",
+   "score": 0.69,
+   "last": "2025-08-04",
+   "meet": "2023-08-02"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Dawson Poinelli",
+   "externalEmail": "dpoinelli@ivp.com",
+   "score": 0.44,
+   "last": "2026-09-24",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Ajay Vashee",
+   "externalEmail": "ajay@ivp.com",
+   "score": 0.98,
+   "last": "2024-10-02",
+   "meet": "2024-10-02"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "James Black",
+   "externalEmail": "jblack@ivp.com",
+   "score": 0.98,
+   "last": "2024-06-19",
+   "meet": "2024-01-16"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jake Storm",
+   "externalEmail": "jstorm@ivp.com",
+   "score": 0.43,
+   "last": "2025-01-09",
+   "meet": "2022-08-04"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Jules Maltz",
+   "externalEmail": "jules@ivp.com",
+   "score": 0.35,
+   "last": "2025-02-03",
+   "meet": "2020-06-02"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "James Black",
+   "externalEmail": "jblack@ivp.com",
+   "score": 0.57,
+   "last": "2024-06-19",
+   "meet": "2024-01-16"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Shreyas Garg",
+   "externalEmail": "sgarg@ivp.com",
+   "score": 0.51,
+   "last": "2023-10-31",
+   "meet": "2023-10-31"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "James Black",
+   "externalEmail": "jblack@ivp.com",
+   "score": 0.51,
+   "last": "2024-06-19",
+   "meet": "2024-01-16"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "James Black",
+   "externalEmail": "jblack@ivp.com",
+   "score": 0.43,
+   "last": "2024-06-19",
+   "meet": "2024-01-16"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Eric Liaw",
+   "externalEmail": "eliaw@ivp.com",
+   "score": 0.1,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Eric Liaw",
+   "externalEmail": "eliaw@ivp.com",
+   "score": 0.1,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Karthik Ramakrishnan",
+   "externalEmail": "kramakrishnan@ivp.com",
+   "score": 0.1,
+   "last": "2025-10-31",
+   "meet": "2025-03-27"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alex Lim",
+   "externalEmail": "alim@ivp.com",
+   "score": 0.1,
+   "last": "2026-03-16",
+   "meet": "2023-03-10"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Dawson Poinelli",
+   "externalEmail": "dpoinelli@ivp.com",
+   "score": 0.1,
+   "last": "2026-09-24",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Lisa Prasadi",
+   "externalEmail": "lprasadi@ivp.com",
+   "score": 0.1,
+   "last": "2025-01-23",
+   "meet": "2023-09-28"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Jules Maltz",
+   "externalEmail": "jules@ivp.com",
+   "score": 0.1,
+   "last": "2025-02-03",
+   "meet": "2020-06-02"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jules Maltz",
+   "externalEmail": "jules@ivp.com",
+   "score": 0.1,
+   "last": "2025-02-03",
+   "meet": "2020-06-02"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Emily Jones",
+   "externalEmail": "ejones@ivp.com",
+   "score": 0.1,
+   "last": "2025-02-07",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Susan Buencamino",
+   "externalEmail": "sbuencamino@ivp.com",
+   "score": 0.1,
+   "last": "2025-06-25",
+   "meet": null
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Steve Harrick",
+   "externalEmail": "sharrick@ivp.com",
+   "score": 0.1,
+   "last": "2025-09-11",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Catie Young",
+   "externalEmail": "cyoung@ivp.com",
+   "score": 0.1,
+   "last": "2024-01-30",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

@@ -2,5 +2,223 @@
  "slug": "bessemer-venture-partners",
  "affinity_domain": "bvp.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Amit Karp",
+   "externalEmail": "karp@bvp.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-09-02"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Amit Karp",
+   "externalEmail": "karp@bvp.com",
+   "score": 0.98,
+   "last": "2026-10-01",
+   "meet": "2026-09-02"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Rita Goldman",
+   "externalEmail": "rgoldman@bvp.com",
+   "score": 0.95,
+   "last": "2026-06-14",
+   "meet": "2026-05-13"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Kiran Arokiasamy",
+   "externalEmail": "karokiasamy@bvp.com",
+   "score": 1.0,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Justina Chung",
+   "externalEmail": "jchung@bvp.com",
+   "score": 0.98,
+   "last": "2025-11-27",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Megan Ananian",
+   "externalEmail": "mananian@bvp.com",
+   "score": 0.96,
+   "last": "2025-12-12",
+   "meet": "2025-10-30"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Michelle Cheng",
+   "externalEmail": "mcheng@bvp.com",
+   "score": 0.83,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Roei Haviv",
+   "externalEmail": "rhaviv@bvp.com",
+   "score": 0.73,
+   "last": "2026-07-08",
+   "meet": "2026-07-08"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Kiran Arokiasamy",
+   "externalEmail": "karokiasamy@bvp.com",
+   "score": 0.7,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Alex Ferrara",
+   "externalEmail": "alex@bvp.com",
+   "score": 0.58,
+   "last": "2026-08-20",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Alex Ferrara",
+   "externalEmail": "alex@bvp.com",
+   "score": 0.48,
+   "last": "2026-08-20",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Alex Ferrara",
+   "externalEmail": "alex@bvp.com",
+   "score": 0.43,
+   "last": "2026-08-20",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Alex Ferrara",
+   "externalEmail": "alex@bvp.com",
+   "score": 0.38,
+   "last": "2026-08-20",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "NoName Conf-ldn-bondst@bvp.com",
+   "externalEmail": "conf-ldn-bondst@bvp.com",
+   "score": 0.98,
+   "last": "2024-06-25",
+   "meet": "2024-06-25"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Nancy Straface",
+   "externalEmail": "nancyn@bvp.com",
+   "score": 0.97,
+   "last": "2023-11-22",
+   "meet": "2023-11-22"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Aditya Nidmarti",
+   "externalEmail": "anidmarti@bvp.com",
+   "score": 0.76,
+   "last": "2024-09-25",
+   "meet": "2024-02-22"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Pedro Espinoza",
+   "externalEmail": "pespinoza@bvp.com",
+   "score": 0.7,
+   "last": "2023-11-20",
+   "meet": "2023-11-20"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Katie Holmes",
+   "externalEmail": "kholmes@bvp.com",
+   "score": 0.38,
+   "last": "2025-07-10",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Amy Weyler",
+   "externalEmail": "aweyler@bvp.com",
+   "score": 0.43,
+   "last": "2025-04-29",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Andrew Schmitt",
+   "externalEmail": "aschmitt@bvp.com",
+   "score": 0.43,
+   "last": "2023-12-13",
+   "meet": "2023-03-15"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Alex Ferrara",
+   "externalEmail": "alex@bvp.com",
+   "score": 0.1,
+   "last": "2026-08-20",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alex Ferrara",
+   "externalEmail": "alex@bvp.com",
+   "score": 0.1,
+   "last": "2026-08-20",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Hannah Waldman",
+   "externalEmail": "hwaldman@bvp.com",
+   "score": 0.1,
+   "last": "2026-09-14",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Katie Holmes",
+   "externalEmail": "kholmes@bvp.com",
+   "score": 0.1,
+   "last": "2025-07-10",
+   "meet": "2025-07-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Alexandra Sukin",
+   "externalEmail": "asukin@bvp.com",
+   "score": 0.1,
+   "last": "2024-10-11",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Aditya Nidmarti",
+   "externalEmail": "anidmarti@bvp.com",
+   "score": 0.1,
+   "last": "2024-09-25",
+   "meet": "2024-02-22"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Alison Crawford",
+   "externalEmail": "alison@bvp.com",
+   "score": 0.1,
+   "last": "2023-10-30",
+   "meet": "2023-10-30"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }

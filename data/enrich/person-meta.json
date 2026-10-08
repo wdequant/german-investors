@@ -7369,8 +7369,9 @@
   "company": "Summit Partners"
  },
  "noname conf-ldn-bondst@bvp.com": {
-  "inv": null,
-  "company": "Bessemer Venture Partners"
+  "inv": false,
+  "src": "will",
+  "note": "Affinity conference-room mailbox, not a person"
  },
  "nour alnuaimi": {
   "inv": true,

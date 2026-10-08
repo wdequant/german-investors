@@ -2,5 +2,327 @@
  "slug": "insight-partners",
  "affinity_domain": "insightpartners.com",
  "pipeline": [],
- "relationships": []
+ "relationships": [
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Abdi Adan",
+   "externalEmail": "aadan@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-05-11",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Alessandro Luciano",
+   "externalEmail": "aluciano@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Rachel Geller",
+   "externalEmail": "rgeller@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-09-16"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Henry Frankievich",
+   "externalEmail": "hfrankievich@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Henry Frankievich",
+   "externalEmail": "hfrankievich@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Matt Gatto",
+   "externalEmail": "mgatto@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Matt Gatto",
+   "externalEmail": "mgatto@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Jessie Sheff",
+   "externalEmail": "jsheff@insightpartners.com",
+   "score": 0.99,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Geneva Bass",
+   "externalEmail": "geneva.bass@insightpartners.com",
+   "score": 0.99,
+   "last": "2026-05-20",
+   "meet": "2026-05-20"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Richard Wells",
+   "externalEmail": "rwells@insightpartners.com",
+   "score": 0.99,
+   "last": "2026-06-19",
+   "meet": "2026-06-19"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Nikhil Trivedi",
+   "externalEmail": "nbt@insightpartners.com",
+   "score": 0.98,
+   "last": "2026-09-20",
+   "meet": "2025-04-02"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Henry Frankievich",
+   "externalEmail": "hfrankievich@insightpartners.com",
+   "score": 0.97,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Caroline Comben",
+   "externalEmail": "cons.ccomben@insightpartners.com",
+   "score": 0.95,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Lonne Jaffe",
+   "externalEmail": "ljaffe@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-01-22",
+   "meet": "2024-12-19"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Thomas Krane",
+   "externalEmail": "tkrane@insightpartners.com",
+   "score": 1.0,
+   "last": "2025-11-13",
+   "meet": "2025-11-13"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Nimay Mehta",
+   "externalEmail": "nmehta@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-03-11",
+   "meet": "2026-03-11"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Nimay Mehta",
+   "externalEmail": "nmehta@insightpartners.com",
+   "score": 1.0,
+   "last": "2026-03-11",
+   "meet": "2026-03-11"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Alberto Padilla-Rivera",
+   "externalEmail": "apadilla@insightpartners.com",
+   "score": 0.88,
+   "last": "2026-06-24",
+   "meet": "2024-06-17"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Richard Wells",
+   "externalEmail": "rwells@insightpartners.com",
+   "score": 0.82,
+   "last": "2026-06-19",
+   "meet": "2026-06-19"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Kuran Malhotra",
+   "externalEmail": "kmalhotra@insightpartners.com",
+   "score": 0.87,
+   "last": "2025-10-08",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Rohan Sinha",
+   "externalEmail": "rsinha@insightpartners.com",
+   "score": 0.76,
+   "last": "2026-08-26",
+   "meet": "2026-08-26"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Jessie Sheff",
+   "externalEmail": "jsheff@insightpartners.com",
+   "score": 0.73,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Nnamdi Okike",
+   "externalEmail": "nokike@insightpartners.com",
+   "score": 0.7,
+   "last": "2026-10-07",
+   "meet": "2018-10-02"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alessandro Luciano",
+   "externalEmail": "aluciano@insightpartners.com",
+   "score": 0.61,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Alessandro Luciano",
+   "externalEmail": "aluciano@insightpartners.com",
+   "score": 0.61,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Rachel Geller",
+   "externalEmail": "rgeller@insightpartners.com",
+   "score": 0.53,
+   "last": "2026-10-06",
+   "meet": "2026-09-16"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Arthur Paleologos",
+   "externalEmail": "apaleologos@insightpartners.com",
+   "score": 1.0,
+   "last": "2025-09-29",
+   "meet": "2025-09-17"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Vinny Pujji",
+   "externalEmail": "vpujji@insightpartners.com",
+   "score": 1.0,
+   "last": "2025-06-28",
+   "meet": "2025-06-11"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Joe Farned",
+   "externalEmail": "jfarned@insightpartners.com",
+   "score": 0.99,
+   "last": "2025-04-14",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Arjun Mehta",
+   "externalEmail": "amehta@insightpartners.com",
+   "score": 0.99,
+   "last": "2024-12-23",
+   "meet": "2024-12-11"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Arthur Paleologos",
+   "externalEmail": "apaleologos@insightpartners.com",
+   "score": 0.99,
+   "last": "2025-09-29",
+   "meet": "2025-09-17"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Chelsea Chen",
+   "externalEmail": "chelsea.chen@insightpartners.com",
+   "score": 0.99,
+   "last": "2025-05-01",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Vinny Pujji",
+   "externalEmail": "vpujji@insightpartners.com",
+   "score": 0.97,
+   "last": "2025-06-28",
+   "meet": "2025-06-11"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Suneel Mudaliar",
+   "externalEmail": "smudaliar@insightpartners.com",
+   "score": 0.87,
+   "last": "2025-09-03",
+   "meet": "2024-11-12"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Thomas Krane",
+   "externalEmail": "tkrane@insightpartners.com",
+   "score": 0.48,
+   "last": "2025-11-13",
+   "meet": "2025-11-13"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Lauren Bonett",
+   "externalEmail": "lmurphy@insightpartners.com",
+   "score": 0.43,
+   "last": "2026-09-22",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Thomas Norris",
+   "externalEmail": "tnorris@insightpartners.com",
+   "score": 0.84,
+   "last": "2025-07-30",
+   "meet": "2025-07-29"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Lauren Bonett",
+   "externalEmail": "lmurphy@insightpartners.com",
+   "score": 0.4,
+   "last": "2026-09-22",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Cian Cotter",
+   "externalEmail": "ccotter@insightpartners.com",
+   "score": 0.44,
+   "last": "2025-10-09",
+   "meet": "2021-09-15"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Rachel Geller",
+   "externalEmail": "rgeller@insightpartners.com",
+   "score": 0.38,
+   "last": "2026-10-06",
+   "meet": "2026-09-16"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
 }
