@@ -1952,7 +1952,7 @@ function cmPanel(me){
     const borrow=a.covT>=55&&covu<55;
     return `<div class="cmhead">${who?(covu>=50
         ?`Your ${regName} network is <b>well covered</b>. ${CM.ccName[biggest]||''} drives the most opportunity here.`
-        :`${regName==='Germany'?'Germany':'The '+regName} is where your network has the most room to grow: ${CM.ccName[biggest]||''} drives the most opportunity${borrow?` — and the team can already make the intros`:''}.`)
+        :`${['Germany','US tier-1'].includes(regName)?regName:'The '+regName} is where your network has the most room to grow: ${CM.ccName[biggest]||''} drives the most opportunity${borrow?` — and the team can already make the intros`:''}.`)
       :`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
       ${cmQualRow(covu,a.covT,who)}`;
   }
@@ -3248,14 +3248,14 @@ function readHash(){
   if(head==='geo'){ state.page='geo'; if(m[2]) ap.city=decodeURIComponent(m[2]); return; }
   if(head==='map'){ state.page='map';
     const p2=m[2], p3=(location.hash.split('/')[2]||'');
-    if(p2==='nordics'||p2==='germany'||p2==='uk'){ MAP.lvl='l1'; MAP.reg=p2; MAP.cc=''; MAP.ent=''; }
+    if(p2==='nordics'||p2==='germany'||p2==='uk'||p2==='us'){ MAP.lvl='l1'; MAP.reg=p2; MAP.cc=''; MAP.ent=''; }
     else if(p2&&CM.ccName&&CM.ccName[p2.toUpperCase()]){ MAP.lvl=p3?'l3':'l2'; MAP.cc=p2.toUpperCase(); if(CM.regOf) MAP.reg=CM.regOf[MAP.cc]||MAP.reg; MAP.ent=p3||''; }
     else { MAP.lvl='l0'; MAP.cc=''; MAP.ent=''; }
     return; }
   if(REGIONS.includes(head)){           // legacy region links land on the map now
     state.page='map'; MAP.ent='';
     if(head==='france'){ MAP.lvl='l2'; MAP.cc='FR'; MAP.reg='france'; }
-    else if(head==='us'){ MAP.lvl='l2'; MAP.cc='US'; MAP.reg='us'; }
+    else if(head==='us'){ MAP.lvl='l1'; MAP.reg='us'; MAP.cc=''; }
     else { MAP.lvl='l1'; MAP.reg=head; MAP.cc=''; }
     if(m[2]==='htc') state.page='h2c';           // legacy deep link
   } else state.page='map';

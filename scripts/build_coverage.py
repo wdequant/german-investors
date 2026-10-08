@@ -103,6 +103,8 @@ for key, cfg in REGION_CFG.items():
     _df_block = {b.get("harmonic_company_id")
                  for b in load_json(f"{ROOT}/data/enrich/dealflow-blocklist.json", []) or []}
     _df = load_json(f"{ROOT}/data/enrich/dealflow-{key}.json", {}) or {}
+    if key == "us":   # the metro expansion's 24 added funds ship in a second file
+        _df = {**_df, **(load_json(f"{ROOT}/data/enrich/dealflow-us2.json", {}) or {})}
     if _df_block:
         _df = {s: ([x for x in rows if isinstance(x, dict)
                     and x.get("harmonic_company_id") not in _df_block]

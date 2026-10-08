@@ -36,6 +36,7 @@ G_ANCHOR = {"BER": (13.40, 52.52), "MUC": (11.58, 48.25), "FRA": (8.95, 49.95),
             "CGN": (6.55, 51.15), "HAM": (9.99, 53.55)}
 UK_ANCHOR = {"LON": (-0.13, 51.51), "CAM": (0.12, 52.21), "OXF": (-1.26, 51.75),
              "EDI": (-3.19, 55.95), "MAN": (-2.24, 53.48)}
+US_METRO = {"SF": (-122.42, 37.77), "NYC": (-74.00, 40.71), "BOS": (-71.06, 42.36)}
 G_CITY_LL = {"Berlin": (13.40, 52.52), "Potsdam": (13.06, 52.39), "Leipzig": (12.37, 51.34),
              "Munich": (11.58, 48.14), "Landshut": (12.15, 48.54), "Pullach": (11.52, 48.06),
              "Nuremberg": (11.08, 49.45), "Stuttgart": (9.18, 48.78),
@@ -43,17 +44,17 @@ G_CITY_LL = {"Berlin": (13.40, 52.52), "Potsdam": (13.06, 52.39), "Leipzig": (12
              "Karlsruhe": (8.40, 49.01), "Cologne": (6.96, 50.94), "Bonn": (7.10, 50.73),
              "Dusseldorf": (6.78, 51.23), "Essen": (7.01, 51.46), "Hamburg": (9.99, 53.55)}
 REGION_SUBS = {"nordics": ["SE", "DK", "NO", "FI"], "germany": ["BER", "MUC", "CGN", "FRA", "HAM"],
-               "france": ["FR"], "uk": ["LON", "CAM", "OXF", "EDI", "MAN"], "us": ["US"]}
+               "france": ["FR"], "uk": ["LON", "CAM", "OXF", "EDI", "MAN"], "us": ["SF", "NYC", "BOS"]}
 SUB_NAME = {"SE": "Sweden", "DK": "Denmark", "NO": "Norway", "FI": "Finland", "FR": "France",
             "BER": "Berlin", "MUC": "Munich", "FRA": "Frankfurt", "CGN": "Cologne/Bonn", "HAM": "Hamburg",
             "LON": "London", "CAM": "Cambridge", "OXF": "Oxford", "EDI": "Edinburgh", "MAN": "Manchester",
-            "US": "US tier-1"}
+            "US": "US tier-1", "SF": "SF Bay Area", "NYC": "New York", "BOS": "Boston"}
 REGIONS = [  # L0 bubbles; only nordics is live in M1
     {"id": "nordics", "name": "Nordics", "ll": (16.0, 62.5), "active": True},
     {"id": "germany", "name": "Germany", "ll": (10.3, 51.2), "active": True},
     {"id": "france", "name": "France", "ll": (2.5, 46.8), "active": True, "solo": "FR"},
     {"id": "uk", "name": "UK", "ll": (-1.5, 52.8), "active": True},
-    {"id": "us", "name": "US tier-1", "ll": (-74.5, 41.2), "active": True, "solo": "US"},
+    {"id": "us", "name": "US tier-1", "ll": (-91.0, 40.0), "active": True},
     {"id": "benelux", "name": "Benelux", "ll": (5.0, 52.0)},
     {"id": "south", "name": "Southern Europe", "ll": (3.0, 40.5)},
     {"id": "cee", "name": "CEE & Baltics", "ll": (21.0, 51.5)},
@@ -77,10 +78,10 @@ CITY_LL = {  # map anchor per city; suburbs fold into the metro
     "London": ("LON", -0.13, 51.51), "Cambridge": ("CAM", 0.12, 52.21),
     "Oxford": ("OXF", -1.26, 51.75), "Edinburgh": ("EDI", -3.19, 55.95),
     "Manchester": ("MAN", -2.24, 53.48), "Glasgow": ("EDI", -4.25, 55.86),
-    "San Francisco": ("US", -122.42, 37.77), "Menlo Park": ("US", -122.18, 37.45),
-    "Palo Alto": ("US", -122.14, 37.44), "Mountain View": ("US", -122.08, 37.39),
-    "Woodside": ("US", -122.25, 37.43), "New York": ("US", -74.00, 40.71),
-    "Boston": ("US", -71.06, 42.36), "Austin": ("US", -97.74, 30.27),
+    "San Francisco": ("SF", -122.42, 37.77), "Menlo Park": ("SF", -122.18, 37.45),
+    "Palo Alto": ("SF", -122.14, 37.44), "Mountain View": ("SF", -122.08, 37.39),
+    "Woodside": ("SF", -122.25, 37.43), "New York": ("NYC", -74.00, 40.71),
+    "Boston": ("BOS", -71.06, 42.36), "Austin": ("SF", -97.74, 30.27),
 }
 CITY2CC = {"paris": "FR", "lyon": "FR", "berlin": "BER", "potsdam": "BER", "munich": "MUC", "m\u00fcnchen": "MUC",
            "frankfurt": "FRA", "hamburg": "HAM", "cologne": "CGN", "k\u00f6ln": "CGN",
@@ -93,8 +94,8 @@ CITY2CC = {"paris": "FR", "lyon": "FR", "berlin": "BER", "potsdam": "BER", "muni
            "reykjavik": "IS", "reykjav\u00edk": "IS",
            "london": "LON", "cambridge": "CAM", "oxford": "OXF",
            "edinburgh": "EDI", "glasgow": "EDI", "manchester": "MAN",
-           "san francisco": "US", "menlo park": "US", "palo alto": "US",
-           "mountain view": "US", "new york": "US", "boston": "US", "austin": "US"}
+           "san francisco": "SF", "menlo park": "SF", "palo alto": "SF",
+           "mountain view": "SF", "new york": "NYC", "boston": "BOS"}
 SCORING = {
     "sr_w": {"Partner": 0.95, "Director": 0.75, "Associate": 0.40, None: 0.55},
     "stage_w": {"prelead": 1, "reachout": 1, "awaiting": 2, "lead": 3, "hard": 2, "portfolio": 0},
@@ -297,8 +298,7 @@ def build_covmap(regions, mynet, roster, load_json):
     _usx0, _usy0 = proj.px(-130, 52)   # continental US frame (coast to coast)
     _usx1, _usy1 = proj.px(-62, 23)
     vbs["us"] = vb(_usx0, _usy0, _usx1, _usy1, 0.04)
-    vbs["US"] = vbs["us"]
-    for _gk, (_glon, _glat) in {**G_ANCHOR, **UK_ANCHOR}.items():
+    for _gk, (_glon, _glat) in {**G_ANCHOR, **UK_ANCHOR, **US_METRO}.items():
         _gx0, _gy0 = proj.px(_glon - 0.95, _glat + 0.55)
         _gx1, _gy1 = proj.px(_glon + 0.95, _glat - 0.55)
         vbs[_gk] = vb(_gx0, _gy0, _gx1, _gy1, 0.0)
@@ -339,7 +339,7 @@ def build_covmap(regions, mynet, roster, load_json):
         elif _rgid == "us":
             if _nrm0(e["name"]) in _euro_names:
                 continue   # its European seat is a curated entity elsewhere on the map
-            cc = "US"
+            cc = e.get("us_sub") or "SF"
         else:   # france: one node, Paris in all but name
             cc = "FR" if (e.get("city") or "").endswith("FR") or city_raw in ("Paris", "Lyon") or e["kind"] == "angel" and city_raw == "Paris" else ("FR" if city_raw in ("Saint-Jacques-de-la-Lande",) else None)
         if _rgid != "us":
@@ -521,7 +521,7 @@ def build_covmap(regions, mynet, roster, load_json):
     _ANCHOR.update(G_ANCHOR)
     _ANCHOR.update(UK_ANCHOR)
     _ANCHOR["FR"] = (2.35, 47.5)
-    _ANCHOR["US"] = (-74.5, 41.2)
+    _ANCHOR.update(US_METRO)
     ccent = {k: proj.px(*_ANCHOR[k]) for k in _ANCHOR}
     subs_of = {rg: [{"id": k, "name": SUB_NAME[k], "x": ccent[k][0], "y": ccent[k][1]}
                     for k in subs] for rg, subs in REGION_SUBS.items()}
@@ -738,6 +738,16 @@ def build_covmap(regions, mynet, roster, load_json):
             people_in[_cc3][_u3] = sorted(people_in[_cc3][_u3], key=lambda x: -x["p"])[:30]
 
     # ---- "Who do you know in <country>": every edge with a person there ----
+    _pcs = load_json(f"{ROOT}/data/us/people-cities.json", {}) or {}
+    def _person_cc(e, nm):
+        """US funds pin people where they actually sit (Harmonic office), so a
+        London-based Sequoia partner files under London, not SF."""
+        if e.get("rg") != "us":
+            return e["cc"]
+        _m = ((_pcs.get((nm or "").lower()) or {}).get("metro") or "")
+        if _m in ("SF", "NYC", "BOS", "LON"):
+            return _m
+        return CITY2CC.get(_m.lower()) or e["cc"]
     who_in = {}
     for _e10 in ents + aff_ents:
         if not _e10.get("cc"):
@@ -745,7 +755,7 @@ def build_covmap(regions, mynet, roster, load_json):
         for _p10 in _e10.get("people") or []:
             _r10 = {u: r for u, r in _p10["r"].items() if r >= 15}
             if _r10:
-                _w10 = who_in.setdefault(_e10["cc"], {}).setdefault(_p10["n"], {
+                _w10 = who_in.setdefault(_person_cc(_e10, _p10["n"]), {}).setdefault(_p10["n"], {
                     "n": _p10["n"], "org": _e10["name"], "last": _p10.get("last"), "r": {}})
                 _w10["r"].update(_r10)
                 for _k10 in ("sr", "t", "li"):

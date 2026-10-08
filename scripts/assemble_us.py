@@ -6,7 +6,7 @@ US giants are scored on their European early-stage activity, not their
 """
 import math, os
 from coverage_common import (relevance, bucket_pipeline, harmonic_cells, top_people,
-                             points_from, load_json, clean_rels, dedup_key)
+                             points_from, load_json, clean_rels, dedup_key, net_from_cells)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -33,6 +33,9 @@ def assemble(team):
     connections = {int(k): v for k, v in (load_json(f"{ROOT}/data/us/connections.json") or {}).items()}
     coinvest = {c["name"]: c for c in (load_json(f"{ROOT}/data/us/coinvestments.json") or [])
                 if isinstance(c, dict) and c.get("name")}  # skip _gaps metadata entries
+    _usf = load_json(f"{ROOT}/data/us/us-funds.json") or {}
+    _usm = load_json(f"{ROOT}/data/us/slug-map.json") or {}
+    sub_by_slug = {_usm[d]: m.get("sub") for d, m in _usf.items() if d in _usm}
     affdir = f"{ROOT}/data/us/affinity"
 
     entities = []
@@ -72,5 +75,7 @@ def assemble(team):
             "buckets": bucket_pipeline(aff.get("pipeline")),
             "coinvest": (co or {}).get("company_names", []),
             "dormant": aff.get("dormant"),
+            "us_sub": sub_by_slug.get(slug) or "SF",
+            "net": net_from_cells(cells),
         })
     return entities
