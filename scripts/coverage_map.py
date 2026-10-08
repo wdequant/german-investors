@@ -219,8 +219,8 @@ def build_covmap(regions, mynet, roster, load_json):
         w, h = x1 - x0, y1 - y0
         return [round(x0 - w * pad, 1), round(y0 - h * pad, 1),
                 round(w * (1 + 2 * pad), 1), round(h * (1 + 2 * pad), 1)]
-    wx0, wy0 = proj.px(-169, 83.6)
-    wx1, wy1 = proj.px(190, -55.8)
+    wx0, wy0 = proj.px(-141, 74.5)   # L0 frame: North America + Europe
+    wx1, wy1 = proj.px(55, 21.5)
     nx0 = min(cbounds[c][0] for c in NORDIC_CC if c in cbounds)
     ny0 = min(cbounds[c][1] for c in NORDIC_CC if c in cbounds)
     nx1 = max(cbounds[c][2] for c in NORDIC_CC if c in cbounds)
@@ -433,9 +433,15 @@ def build_covmap(regions, mynet, roster, load_json):
             if _mx5.get("f"):
                 _mnn.setdefault(_nrm(_mx5["f"]), []).append((_u5, _mx5["n"], R5, _mx5.get("l")))
     aff_ents = []
+    _nim = load_json(f"{ROOT}/data/enrich/nordic-investors-meta.json", {}) or {}
     for _row in (load_json(f"{ROOT}/data/enrich/nordic-investors-affinity.json", []) or []):
         if _nrm(_row["name"]) in _curn or (_row.get("domain") or "") in _curd:
             continue
+        _m9 = _nim.get(_row.get("domain") or "") or _nim.get(_nrm(_row["name"])) or {}
+        if _m9.get("verdict") in ("drop", "alias"):
+            continue   # operating parent, bank, science park, grant agency, or duplicate record
+        if _m9.get("name"):
+            _row = dict(_row, name=_m9["name"])   # e.g. Statkraft -> Statkraft Ventures
         _cc5 = CNTRY_CC.get(_row.get("country"))
         if not _cc5:
             continue
@@ -451,10 +457,15 @@ def build_covmap(regions, mynet, roster, load_json):
             if _it6:
                 _cu5[_u6] = _noisy_or(_it6)
         _ct5 = _noisy_or([(max(_p6["r"].values(), default=0), 0.75) for _p6 in _pp5.values()])
-        aff_ents.append({"slug": "aff-" + _nrm(_row["name"])[:30], "name": _row["name"], "kind": "aff",
-                         "city": _row.get("city"), "cc": _cc5, "lc": _row.get("last_call"),
-                         "CT": _ct5, "cu": _cu5,
-                         "people": sorted(_pp5.values(), key=lambda p: -max(p["r"].values(), default=0))[:6]})
+        _ae = {"slug": "aff-" + _nrm(_row["name"])[:30], "name": _row["name"], "kind": "aff",
+               "city": _row.get("city"), "cc": _cc5, "lc": _row.get("last_call"),
+               "CT": _ct5, "cu": _cu5,
+               "people": sorted(_pp5.values(), key=lambda p: -max(p["r"].values(), default=0))[:6]}
+        if _m9.get("type"):
+            _ae["ft"] = _m9["type"]
+        if _m9.get("stage"):
+            _ae["fs"] = _m9["stage"]
+        aff_ents.append(_ae)
 
     _entnames = {e["name"].lower() for e in ents}
     _entppl = {p["n"].lower() for e in ents for p in e["people"]}
