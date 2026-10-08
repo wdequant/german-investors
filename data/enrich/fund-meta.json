@@ -1746,5 +1746,513 @@
  "silicon valley bank": {
   "type": "Bank",
   "stage": null
+ },
+ "team8": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "angular ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "datadog": {
+  "type": "Other",
+  "stage": null
+ },
+ "k fund": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "united ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "newion": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "enterprise ireland": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "futury capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "peak": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "btov partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "future energy ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "vorwerk ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "act venture capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "outward vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "idékapital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "firstpick": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "amundi alpha associates": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "c capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "htgf | high-tech gründerfonds": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "first momentum ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "founderment": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "yzr capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "nextalia": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "fortino capital": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "smartfin": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "volition capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "yfm equity partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "peakspan capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "firstminute capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "galdana ventures": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "blossom capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "thoma bravo": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "henq": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "senovo": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "permira": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "gohub ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "triplepoint capital": {
+  "type": "Other",
+  "stage": null
+ },
+ "salesforce ventures": {
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "shilling vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "portugal ventures": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "dynamo ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cambridge enterprise": {
+  "type": "Other",
+  "stage": null
+ },
+ "european investment bank (eib)": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "ttp plc": {
+  "type": "Other",
+  "stage": null
+ },
+ "pitango": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "martlet": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bgf": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "nybc ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "lighthouse ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cibc innovation banking": {
+  "type": "Bank",
+  "stage": null
+ },
+ "active partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "jamjar investments": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "edge": {
+  "type": "Other",
+  "stage": null
+ },
+ "true.": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "pembroke vct": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "systemiq capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "firstmark": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bp": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "autodesk": {
+  "type": "Other",
+  "stage": null
+ },
+ "mosaic ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "backed vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "squareone venture capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "pentland limited": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "market one capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vi partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "collaborative fund": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "intel": {
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "planet a": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "salica investments": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "souter investments": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "dmg ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "love ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "angel invest": {
+  "type": "Angel",
+  "stage": "Early"
+ },
+ "glilot capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "tapestry": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "eight roads": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "junction growth investors": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "blackbird": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "marathon venture capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "adams street partners": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "la famiglia": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "fdj united": {
+  "type": "Other",
+  "stage": null
+ },
+ "coatue": {
+  "type": "VC",
+  "stage": "Late"
+ },
+ "forto": {
+  "type": "Other",
+  "stage": null
+ },
+ "station f": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "evolution equity partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "orange": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "pioneer fund": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "xt group": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "auriga partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "nordicninja vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "frenchfounders": {
+  "type": "Other",
+  "stage": null
+ },
+ "coatue management": {
+  "type": "VC",
+  "stage": "Late"
+ },
+ "branded hospitality": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "agoranov": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "entourage ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vista equity partners": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "supernode global": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "unbound": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "maor investments": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "qumra capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "quadrille capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "ui investissement": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "blackfin capital partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "canaan": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "matrix partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "innovacom": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "five elms capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "cogito capital partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "galaxy": {
+  "type": "Other",
+  "stage": null
+ },
+ "pivot investment partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "scale capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "activant capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "backbone ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ebrd": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "healthcare": {
+  "type": "Other",
+  "stage": null
+ },
+ "alliance": {
+  "type": "Other",
+  "stage": null
+ },
+ "cdp venture capital sgr": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "uipath": {
+  "type": "Other",
+  "stage": null
+ },
+ "msm fund (mustard seed maze)": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "golden seeds": {
+  "type": "Angel",
+  "stage": "Early"
+ },
+ "ubon partners": {
+  "type": "VC",
+  "stage": null
+ },
+ "twin path ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cmt digital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "seraphim space": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "aquiline": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "mountside ventures": {
+  "type": "Advisor",
+  "stage": null
  }
 }
