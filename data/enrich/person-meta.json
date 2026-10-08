@@ -3,7 +3,8 @@
   "inv": false,
   "title": "PA/EA",
   "company": "Lightspeed",
-  "src": "will"
+  "src": "will",
+  "city": "Chelmsford"
  },
  "katie holmes": {
   "inv": false,
@@ -30,7 +31,9 @@
  "aaron israel": {
   "inv": true,
   "title": "Principal",
-  "company": "Secret Chord Ventures"
+  "company": "Secret Chord Ventures",
+  "city": "Israel",
+  "src": "harmonic"
  },
  "aashay": {
   "inv": null,
@@ -1364,7 +1367,9 @@
  "beatrice aliprandi": {
   "inv": true,
   "title": "Chief Revenue Officer",
-  "company": "Praktika.ai"
+  "company": "Praktika.ai",
+  "city": "Leading Finance",
+  "src": "harmonic"
  },
  "beatrice rellman": {
   "inv": true,
@@ -1602,7 +1607,8 @@
  "bohdan svyrydov": {
   "inv": true,
   "title": "Principal",
-  "company": "Horizon Capital"
+  "company": "Horizon Capital",
+  "src": "harmonic"
  },
  "boris golden": {
   "inv": true,
@@ -2282,7 +2288,9 @@
  "covadonga garcía-valdés": {
   "inv": true,
   "title": "Principal",
-  "company": "Kibo Ventures"
+  "company": "Kibo Ventures",
+  "city": "Madrid",
+  "src": "harmonic"
  },
  "craig": {
   "inv": true,
@@ -2389,7 +2397,9 @@
  "dana mizrahi": {
   "inv": false,
   "title": "Office Manager",
-  "company": "Lightspeed Venture Partners"
+  "company": "Lightspeed Venture Partners",
+  "city": "Menlo Park",
+  "src": "harmonic"
  },
  "dani andrade": {
   "inv": false,
@@ -2593,7 +2603,9 @@
  "denis barrier": {
   "inv": true,
   "title": "Co-founder and CEO",
-  "company": "Cathay Innovation"
+  "company": "Cathay Innovation",
+  "city": "France",
+  "src": "harmonic"
  },
  "denis ludovic": {
   "inv": true,
@@ -2731,7 +2743,8 @@
  "ece sagar": {
   "inv": false,
   "title": "Executive Assistant",
-  "company": "Bek Ventures"
+  "company": "Bek Ventures",
+  "src": "harmonic"
  },
  "daniel riley": {
   "inv": null,
@@ -3000,8 +3013,10 @@
   "company": "Verdane"
  },
  "embarcadero room": {
-  "inv": null,
-  "company": "Partech"
+  "inv": false,
+  "company": "Partech",
+  "src": "harmonic-sweep",
+  "note": "meeting room, not a person"
  },
  "emil schaefer": {
   "inv": true,
@@ -3740,7 +3755,8 @@
  "grace cassy": {
   "inv": true,
   "title": "Partner",
-  "company": "Ten Eleven Ventures"
+  "company": "Ten Eleven Ventures",
+  "src": "harmonic"
  },
  "granath nils": {
   "inv": true,
@@ -4687,7 +4703,9 @@
  "jelle-jan bruinsma": {
   "inv": true,
   "title": "Partner",
-  "company": "Endeit Capital"
+  "company": "Endeit Capital",
+  "city": "Netherlands",
+  "src": "harmonic"
  },
  "jenna conti": {
   "inv": false,
@@ -5254,7 +5272,9 @@
  "juliette moortgat": {
   "inv": true,
   "title": "Early stage VC investor",
-  "company": "Clover"
+  "company": "Clover",
+  "city": "Paris & London",
+  "src": "harmonic"
  },
  "juliette mopin": {
   "inv": true,
@@ -5446,7 +5466,9 @@
  "katti van oosterwijck": {
   "inv": true,
   "title": "Senior Investment Manager",
-  "company": "Korys"
+  "company": "Korys",
+  "city": "Belgium",
+  "src": "harmonic"
  },
  "kaushik subramanian": {
   "inv": true,
@@ -5683,7 +5705,8 @@
  "laali vadlamani": {
   "inv": true,
   "title": "Principal",
-  "company": "KKR"
+  "company": "KKR",
+  "src": "harmonic"
  },
  "laerke": {
   "inv": true,
@@ -5937,7 +5960,9 @@
  "lior simon": {
   "inv": true,
   "title": "General Partner",
-  "company": "Cyberstarts"
+  "company": "Cyberstarts",
+  "city": "Israel",
+  "src": "harmonic"
  },
  "liran grinberg": {
   "inv": true,
@@ -6060,7 +6085,9 @@
  "luca meloncelli": {
   "inv": true,
   "title": "Partner",
-  "company": "CDP Venture Capital SGR"
+  "company": "CDP Venture Capital SGR",
+  "city": "Italy",
+  "src": "harmonic"
  },
  "lucanus polagnoli": {
   "inv": true,
@@ -6733,7 +6760,8 @@
  "matthew sykes": {
   "inv": true,
   "title": "Associate - Growth Capital Advisory",
-  "company": "Lazard"
+  "company": "Lazard",
+  "src": "harmonic"
  },
  "matthias buchinger": {
   "inv": true,
@@ -6904,8 +6932,10 @@
   "company": "13books Capital"
  },
  "meeting room 3": {
-  "inv": null,
-  "company": "Palatine"
+  "inv": false,
+  "company": "Palatine",
+  "src": "harmonic-sweep",
+  "note": "meeting room, not a person"
  },
  "meg": {
   "inv": true,
@@ -7087,7 +7117,9 @@
  "mick mackaay": {
   "inv": true,
   "title": "Partner & CFO",
-  "company": "henQ"
+  "company": "henQ",
+  "city": "The Randstad, Netherlands",
+  "src": "harmonic"
  },
  "mickael borger": {
   "inv": true,
@@ -7127,7 +7159,9 @@
  "mikko savolainen": {
   "inv": true,
   "title": "Partner",
-  "company": "Illusian"
+  "company": "Illusian",
+  "city": "Helsinki",
+  "src": "harmonic"
  },
  "mikko vesterinen": {
   "inv": true,
@@ -7137,7 +7171,9 @@
  "mikolaj firlej": {
   "inv": true,
   "title": "Co-Founder and General Partner",
-  "company": "Expeditions"
+  "company": "Expeditions",
+  "city": "Warsaw",
+  "src": "harmonic"
  },
  "mikolaj kaim": {
   "inv": true,
@@ -7296,7 +7332,9 @@
  "morven brown": {
   "inv": false,
   "title": "Executive Assistant",
-  "company": "Blackbird"
+  "company": "Blackbird",
+  "city": "Surry Hills",
+  "src": "harmonic"
  },
  "mozoner": {
   "inv": null,
@@ -7345,7 +7383,9 @@
  "natacha pantet": {
   "inv": false,
   "title": "Executive Assistant",
-  "company": "Index Ventures"
+  "company": "Index Ventures",
+  "city": "Geneva",
+  "src": "harmonic"
  },
  "natalie tydeman": {
   "inv": true,
@@ -7363,7 +7403,9 @@
  "natasha sanders": {
   "inv": true,
   "title": "Co-Head of EMEA Equity Capital Markets",
-  "company": "Morgan Stanley"
+  "company": "Morgan Stanley",
+  "city": "London",
+  "src": "harmonic"
  },
  "nate niparko": {
   "inv": true,
@@ -7375,7 +7417,9 @@
  "nathalie schwarzkopf": {
   "inv": true,
   "title": "VC Investor",
-  "company": "BlackFin Capital Partners"
+  "company": "BlackFin Capital Partners",
+  "city": "London",
+  "src": "harmonic"
  },
  "nathan getlatka": {
   "inv": true,
@@ -8142,7 +8186,9 @@
  "philippine horak": {
   "inv": true,
   "title": "Senior Principal",
-  "company": "Orange"
+  "company": "Orange",
+  "city": "Issy-les-Moulineaux",
+  "src": "harmonic"
  },
  "phillip cunningham": {
   "inv": true,
@@ -8189,7 +8235,8 @@
  "pierre tramon": {
   "inv": true,
   "title": "Venture Investor",
-  "company": "FDJ UNITED"
+  "company": "FDJ UNITED",
+  "src": "harmonic"
  },
  "pierre-eric leibovici": {
   "inv": true,
@@ -8603,8 +8650,10 @@
   "company": "GV (Google Ventures)"
  },
  "room 22": {
-  "inv": null,
-  "company": "IVP"
+  "inv": false,
+  "company": "IVP",
+  "src": "harmonic-sweep",
+  "note": "meeting room, not a person"
  },
  "room campath": {
   "inv": null,
@@ -8873,7 +8922,9 @@
  "samuel mcgurk": {
   "inv": true,
   "title": "Director",
-  "company": "Mastercard"
+  "company": "Mastercard",
+  "city": "On-site",
+  "src": "harmonic"
  },
  "sandra krivancova": {
   "inv": true,
@@ -8974,7 +9025,9 @@
  "sarit firon": {
   "inv": true,
   "title": "Managing Partner",
-  "company": "Team8"
+  "company": "Team8",
+  "city": "Israel",
+  "src": "harmonic"
  },
  "sarp can bayrakdar": {
   "inv": true,
@@ -10253,7 +10306,9 @@
  "vitor silvestre": {
   "inv": true,
   "title": "Investment Professional",
-  "company": "LTS Investments"
+  "company": "LTS Investments",
+  "city": "London / São Paulo",
+  "src": "harmonic"
  },
  "vivian": {
   "inv": null,
@@ -19923,5 +19978,15 @@
   "city": "London",
   "company": "BACKED VC",
   "src": "harmonic"
+ },
+ "big room": {
+  "inv": false,
+  "src": "harmonic-sweep",
+  "note": "meeting room, not a person"
+ },
+ "meeting room 3 london": {
+  "inv": false,
+  "src": "harmonic-sweep",
+  "note": "meeting room, not a person"
  }
 }
