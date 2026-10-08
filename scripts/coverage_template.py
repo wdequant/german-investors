@@ -738,7 +738,8 @@ body.mkmode{cursor:crosshair}
   background:var(--surface);color:var(--ink);width:170px}
 .ntfilt input:focus{outline:none;border-color:var(--accent)}
 .ntfilt select{padding:6px 8px;font-size:12.5px;border:1px solid var(--hair);border-radius:9px;
-  background:var(--surface);color:var(--ink2)}
+  background:var(--surface);color:var(--ink2);max-width:150px}
+.ntfilt select.on{border-color:var(--accent);color:var(--accent-ink);background:var(--accent-soft)}
 .ntcard{padding:0;overflow-x:auto}
 table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 .nettab th{text-align:left;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
@@ -1385,8 +1386,8 @@ function renderWork(){
     if(ap.ns===k) ap.nd*=-1; else {ap.ns=k; ap.nd=(k==='p'||k==='l')?-1:1;}
     renderWork();
   }));
-  body.querySelectorAll('[data-nfk]').forEach(b=>b.addEventListener('click',()=>{
-    const k=b.dataset.nfk; ap.nf[k]=ap.nf[k]===b.dataset.nfv?'':b.dataset.nfv; renderWork();
+  body.querySelectorAll('[data-nfs]').forEach(s=>s.addEventListener('change',()=>{
+    ap.nf[s.dataset.nfs]=s.value; renderWork();
   }));
   const nq=body.querySelector('#nq');
   if(nq) nq.addEventListener('input',()=>{
@@ -1396,8 +1397,6 @@ function renderWork(){
       if(el){ el.focus(); try{el.setSelectionRange(el.value.length,el.value.length);}catch(err){} }
     },300);
   });
-  const nci=body.querySelector('#nci');
-  if(nci) nci.addEventListener('change',()=>{ap.nf.ci=nci.value;renderWork();});
   body.querySelectorAll('[data-cad]').forEach(b=>b.addEventListener('click',()=>{
     const k=decodeURIComponent(b.dataset.cad), cur=+b.dataset.cur||0;
     CAD[k]={0:4,4:6,6:12,12:0}[cur]??4; saveCad(); renderWork();
@@ -1509,12 +1508,13 @@ function netApply(list){
 function netFilterBar(list){
   const F=ap.nf;
   const counts=k=>{const m={};list.forEach(e=>{if(e[k])m[e[k]]=(m[e[k]]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);};
-  const chips=(fk,ek)=>counts(ek).map(([v,n])=>`<button class="fchip${F[fk]===v?' on':''}" data-nfk="${fk}" data-nfv="${v}">${v} <b>${n}</b></button>`).join('');
-  const cities=counts('c').slice(0,30);
+  const sel=(id,label,fk,ek,cap)=>{
+    const vs=counts(ek); if(!vs.length) return '';
+    return `<select id="${id}" data-nfs="${fk}"${F[fk]?' class="on"':''}><option value="">${label}</option>${vs.slice(0,cap||99).map(([v,n])=>`<option value="${v.replace(/"/g,'&quot;')}"${F[fk]===v?' selected':''}>${v} (${n})</option>`).join('')}</select>`;
+  };
   return `<div class="ntfilt">
     <input id="nq" type="search" placeholder="Name or fund…" value="${(F.q||'').replace(/"/g,'&quot;')}">
-    ${chips('ty','ft')}${chips('st','fs')}${chips('sr','sr')}
-    ${cities.length?`<select id="nci"><option value="">All cities</option>${cities.map(([v,n])=>`<option${F.ci===v?' selected':''}>${v}</option>`).join('')}</select>`:''}
+    ${sel('nty','Type','ty','ft')}${sel('nst','Stage','st','fs')}${sel('nsr','Role','sr','sr')}${sel('nci','City','ci','c',30)}
   </div>`;
 }
 const NCOLS=[['p','You'],['n','Name'],['sr','Role'],['f','Fund'],['ft','Type'],['fs','Stage'],['c','City'],['l','Last touch']];
