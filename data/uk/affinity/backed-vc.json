@@ -1,0 +1,88 @@
+{
+ "slug": "backed-vc",
+ "affinity_domain": "backed.vc",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "David Linsey",
+   "externalEmail": "david@backed.vc",
+   "score": 0.83,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Clare Hunter",
+   "externalEmail": "clare@backed.vc",
+   "score": 0.51,
+   "last": "2026-10-01",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Lucia Cerchlan",
+   "externalEmail": "lucia@backed.vc",
+   "score": 0.44,
+   "last": "2026-09-21",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Andre Haes",
+   "externalEmail": "andre@backed.vc",
+   "score": 0.43,
+   "last": "2026-10-01",
+   "meet": "2023-06-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Andre Haes",
+   "externalEmail": "andre@backed.vc",
+   "score": 0.38,
+   "last": "2026-10-01",
+   "meet": "2023-06-22"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Tom Hopkins",
+   "externalEmail": "tom@backed.vc",
+   "score": 0.35,
+   "last": "2024-06-27",
+   "meet": "2024-06-27"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "David Linsey",
+   "externalEmail": "david@backed.vc",
+   "score": 0.1,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Clare Hunter",
+   "externalEmail": "clare@backed.vc",
+   "score": 0.1,
+   "last": "2026-10-01",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Andre Haes",
+   "externalEmail": "andre@backed.vc",
+   "score": 0.1,
+   "last": "2026-10-01",
+   "meet": "2023-06-22"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Dominic Barnard",
+   "externalEmail": "dominic@backed.vc",
+   "score": 0.1,
+   "last": "2024-06-20",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

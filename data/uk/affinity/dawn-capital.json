@@ -1,0 +1,328 @@
+{
+ "slug": "dawn-capital",
+ "affinity_domain": "dawncapital.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "external": "Atiyu Mehta",
+   "externalEmail": "atiyu@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-09-16",
+   "meet": "2026-09-16"
+  },
+  {
+   "internal": "Samuel Meijer",
+   "external": "Alexandra Tsylnitska",
+   "externalEmail": "alexandra@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Romeo Walter",
+   "externalEmail": "romeo@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-09-08",
+   "meet": "2026-09-08"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Romeo Walter",
+   "externalEmail": "romeo@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-09-08",
+   "meet": "2026-09-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Shamillah Bankiya",
+   "externalEmail": "shamillah@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-09-28",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jimena Nowack",
+   "externalEmail": "jimena@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Mina Mutafchieva",
+   "externalEmail": "mina@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-09-10",
+   "meet": "2025-09-19"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Dan Chaplin",
+   "externalEmail": "dan@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Dan Chaplin",
+   "externalEmail": "dan@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Dan Chaplin",
+   "externalEmail": "dan@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-07-16",
+   "meet": "2026-07-16"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Avalon Lee-Bacon",
+   "externalEmail": "avalon@dawncapital.com",
+   "score": 0.99,
+   "last": "2026-06-15",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Shamillah Bankiya",
+   "externalEmail": "shamillah@dawncapital.com",
+   "score": 0.99,
+   "last": "2026-09-28",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Josh Bell",
+   "externalEmail": "josh@dawncapital.com",
+   "score": 1.0,
+   "last": "2026-02-26",
+   "meet": "2026-02-26"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Gamila Hassan",
+   "externalEmail": "gamila@dawncapital.com",
+   "score": 0.84,
+   "last": "2026-05-08",
+   "meet": "2026-05-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Shamillah Bankiya",
+   "externalEmail": "shamillah@dawncapital.com",
+   "score": 0.76,
+   "last": "2026-09-28",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Andrea Garcia",
+   "externalEmail": "andrea@dawncapital.com",
+   "score": 0.75,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Zoe Qin",
+   "externalEmail": "zoe@dawncapital.com",
+   "score": 0.8,
+   "last": "2026-03-31",
+   "meet": "2025-06-18"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Andrea Garcia",
+   "externalEmail": "andrea@dawncapital.com",
+   "score": 0.71,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Ties Boukema",
+   "externalEmail": "ties@dawncapital.com",
+   "score": 0.77,
+   "last": "2025-11-13",
+   "meet": "2025-09-11"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Avalon Lee-Bacon",
+   "externalEmail": "avalon@dawncapital.com",
+   "score": 0.62,
+   "last": "2026-06-15",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ties Boukema",
+   "externalEmail": "ties@dawncapital.com",
+   "score": 0.68,
+   "last": "2025-11-13",
+   "meet": "2025-09-11"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Daniela Raffel",
+   "externalEmail": "daniela@dawncapital.com",
+   "score": 0.57,
+   "last": "2026-09-17",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Ties Boukema",
+   "externalEmail": "ties@dawncapital.com",
+   "score": 0.61,
+   "last": "2025-11-13",
+   "meet": "2025-09-11"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Alexandra Tsylnitska",
+   "externalEmail": "alexandra@dawncapital.com",
+   "score": 0.53,
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Emily Coughlan",
+   "externalEmail": "emily@dawncapital.com",
+   "score": 0.51,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Avalon Lee-Bacon",
+   "externalEmail": "avalon@dawncapital.com",
+   "score": 0.51,
+   "last": "2026-06-15",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Henry Mason",
+   "externalEmail": "henry@dawncapital.com",
+   "score": 0.51,
+   "last": "2026-10-08",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Owen Brooks",
+   "externalEmail": "owen@dawncapital.com",
+   "score": 1.0,
+   "last": "2025-08-04",
+   "meet": "2025-08-04"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Owen Brooks",
+   "externalEmail": "owen@dawncapital.com",
+   "score": 1.0,
+   "last": "2025-08-04",
+   "meet": "2025-08-04"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Josh Bell",
+   "externalEmail": "josh@dawncapital.com",
+   "score": 0.51,
+   "last": "2026-02-26",
+   "meet": "2026-02-26"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Chloe Dodson",
+   "externalEmail": "chloe@dawncapital.com",
+   "score": 0.44,
+   "last": "2026-09-14",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Reception London",
+   "externalEmail": "reception@dawncapital.com",
+   "score": 0.48,
+   "last": "2025-11-13",
+   "meet": "2024-11-14"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Adina Goga",
+   "externalEmail": "adina@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Sam Jervier",
+   "externalEmail": "sam@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-07-02",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Shamillah Bankiya",
+   "externalEmail": "shamillah@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-09-28",
+   "meet": "2026-07-02"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Mina Mutafchieva",
+   "externalEmail": "mina@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-09-10",
+   "meet": "2025-09-19"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Henry Mason",
+   "externalEmail": "henry@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-10-08",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Evgenia Plotnikova",
+   "externalEmail": "evgenia@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Bryony Milton",
+   "externalEmail": "bryony@dawncapital.com",
+   "score": 0.52,
+   "last": "2026-10-05",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Zoe Qin",
+   "externalEmail": "zoe@dawncapital.com",
+   "score": 0.43,
+   "last": "2026-03-31",
+   "meet": "2025-06-18"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

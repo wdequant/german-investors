@@ -1,0 +1,160 @@
+{
+ "slug": "amadeus-capital-partners",
+ "affinity_domain": "amadeuscapital.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Laurence Garrett",
+   "external": "Amelia Armour",
+   "externalEmail": "aarmour@amadeuscapital.com",
+   "score": 0.97,
+   "last": "2026-05-07",
+   "meet": "2026-05-07"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Nick Kingsbury",
+   "externalEmail": "nkingsbury@amadeuscapital.com",
+   "score": 0.98,
+   "last": "2026-03-18",
+   "meet": "2026-01-06"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Emma Christie",
+   "externalEmail": "echristie@amadeuscapital.com",
+   "score": 0.97,
+   "last": "2026-01-06",
+   "meet": "2026-01-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "James Baker",
+   "externalEmail": "jbaker@amadeuscapital.com",
+   "score": 0.84,
+   "last": "2026-07-07",
+   "meet": "2026-07-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Ben Balmforth",
+   "externalEmail": "bbalmforth@amadeuscapital.com",
+   "score": 0.86,
+   "last": "2026-01-19",
+   "meet": "2026-01-16"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Nick Kingsbury",
+   "externalEmail": "nkingsbury@amadeuscapital.com",
+   "score": 0.51,
+   "last": "2026-03-18",
+   "meet": "2026-01-06"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Nick Kingsbury",
+   "externalEmail": "nkingsbury@amadeuscapital.com",
+   "score": 0.37,
+   "last": "2026-03-18",
+   "meet": "2026-01-06"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Ben Balmforth",
+   "externalEmail": "bbalmforth@amadeuscapital.com",
+   "score": 0.35,
+   "last": "2026-01-19",
+   "meet": "2026-01-16"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Richard Anton",
+   "externalEmail": "richard.anton@amadeuscapital.com",
+   "score": 0.51,
+   "last": "2025-03-17",
+   "meet": "2024-02-15"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Richard Anton",
+   "externalEmail": "richard.anton@amadeuscapital.com",
+   "score": 0.43,
+   "last": "2025-03-17",
+   "meet": "2024-02-15"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Richard Anton",
+   "externalEmail": "richard.anton@amadeuscapital.com",
+   "score": 0.38,
+   "last": "2025-03-17",
+   "meet": "2024-02-15"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Hermann Hauser",
+   "externalEmail": "hhauser@amadeuscapital.com",
+   "score": 0.31,
+   "last": "2024-11-17",
+   "meet": "2023-09-18"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Andrea Traversone",
+   "externalEmail": "atravers@amadeuscapital.com",
+   "score": 0.38,
+   "last": "2024-07-11",
+   "meet": "2017-10-13"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Amelia Armour",
+   "externalEmail": "aarmour@amadeuscapital.com",
+   "score": 0.1,
+   "last": "2026-05-07",
+   "meet": "2026-05-07"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Amadeus Partners",
+   "externalEmail": "amadeus@amadeuscapital.com",
+   "score": 0.1,
+   "last": "2026-10-02",
+   "meet": null
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Richard Anton",
+   "externalEmail": "richard.anton@amadeuscapital.com",
+   "score": 0.1,
+   "last": "2025-03-17",
+   "meet": "2024-02-15"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Michael Lacey",
+   "externalEmail": "mlacey@amadeuscapital.com",
+   "score": 0.1,
+   "last": "2025-07-14",
+   "meet": null
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Andrea Traversone",
+   "externalEmail": "atravers@amadeuscapital.com",
+   "score": 0.1,
+   "last": "2024-07-11",
+   "meet": "2017-10-13"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Alex van Someren",
+   "externalEmail": "alex.vansomeren@amadeuscapital.com",
+   "score": 0.1,
+   "last": "2024-05-15",
+   "meet": "2023-06-14"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

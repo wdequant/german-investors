@@ -1,0 +1,328 @@
+{
+ "slug": "atomico",
+ "affinity_domain": "atomico.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Samuel Meijer",
+   "external": "Slavi Arnaudov",
+   "externalEmail": "slavi@atomico.com",
+   "score": 1.0,
+   "last": "2026-07-29",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alex Harrison-Spain",
+   "externalEmail": "alex@atomico.com",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Katharine McCallum",
+   "externalEmail": "katharine@atomico.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Sherington Amarapala",
+   "externalEmail": "sherington@atomico.com",
+   "score": 1.0,
+   "last": "2026-06-26",
+   "meet": "2026-06-26"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Paddy Lambros",
+   "externalEmail": "paddy@atomico.com",
+   "score": 1.0,
+   "last": "2026-07-07",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Axelle Decoutere",
+   "externalEmail": "axelle@atomico.com",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Foucault Fraguier",
+   "externalEmail": "foucault@atomico.com",
+   "score": 1.0,
+   "last": "2026-09-02",
+   "meet": "2026-09-02"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Hillary Ball",
+   "externalEmail": "hillary@atomico.com",
+   "score": 1.0,
+   "last": "2026-05-13",
+   "meet": "2026-05-13"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Mattias Ljungman",
+   "externalEmail": "mattias@atomico.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Constantin Fleck",
+   "externalEmail": "constantin@atomico.com",
+   "score": 0.99,
+   "last": "2026-04-28",
+   "meet": "2026-04-28"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Foucault Fraguier",
+   "externalEmail": "foucault@atomico.com",
+   "score": 0.99,
+   "last": "2026-09-02",
+   "meet": "2026-09-02"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Mattias Ljungman",
+   "externalEmail": "mattias@atomico.com",
+   "score": 0.99,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Ben Blume",
+   "externalEmail": "ben@atomico.com",
+   "score": 0.99,
+   "last": "2026-10-07",
+   "meet": "2026-07-08"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Ben Blume",
+   "externalEmail": "ben@atomico.com",
+   "score": 0.97,
+   "last": "2026-10-07",
+   "meet": "2026-07-08"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Katharine McCallum",
+   "externalEmail": "katharine@atomico.com",
+   "score": 0.96,
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Alex Harrison-Spain",
+   "externalEmail": "alex@atomico.com",
+   "score": 0.95,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Alexander Vidiborskiy",
+   "externalEmail": "avidiborskiy@atomico.com",
+   "score": 0.95,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ben Blume",
+   "externalEmail": "ben@atomico.com",
+   "score": 0.95,
+   "last": "2026-10-07",
+   "meet": "2026-07-08"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Ben Blume",
+   "externalEmail": "ben@atomico.com",
+   "score": 0.95,
+   "last": "2026-10-07",
+   "meet": "2026-07-08"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Mia Paschali",
+   "externalEmail": "mia@atomico.com",
+   "score": 1.0,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Andreas Helbig",
+   "externalEmail": "andreas@atomico.com",
+   "score": 1.0,
+   "last": "2026-03-31",
+   "meet": "2026-03-31"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Pranav Vangala",
+   "externalEmail": "pranav@atomico.com",
+   "score": 1.0,
+   "last": "2026-02-17",
+   "meet": "2025-04-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Zhan Shi",
+   "externalEmail": "zhan@atomico.com",
+   "score": 0.99,
+   "last": "2026-01-09",
+   "meet": "2026-01-09"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Constantin Fleck",
+   "externalEmail": "constantin@atomico.com",
+   "score": 0.87,
+   "last": "2026-04-28",
+   "meet": "2026-04-28"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Marina Paschali",
+   "externalEmail": "marina@atomico.com",
+   "score": 0.95,
+   "last": "2025-12-10",
+   "meet": "2025-12-10"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Paddy Lambros",
+   "externalEmail": "paddy@atomico.com",
+   "score": 0.85,
+   "last": "2026-07-07",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Paddy Lambros",
+   "externalEmail": "paddy@atomico.com",
+   "score": 0.75,
+   "last": "2026-07-07",
+   "meet": "2026-07-06"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Andrew Duncan",
+   "externalEmail": "andrew.d@atomico.com",
+   "score": 0.7,
+   "last": "2026-10-05",
+   "meet": "2023-08-22"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Victor Jolly",
+   "externalEmail": "victor@atomico.com",
+   "score": 1.0,
+   "last": "2025-05-06",
+   "meet": "2025-05-06"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Irina Haivas",
+   "externalEmail": "irina@atomico.com",
+   "score": 0.96,
+   "last": "2025-04-17",
+   "meet": "2024-01-29"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Georgia Forbes",
+   "externalEmail": "georgia.f@atomico.com",
+   "score": 0.94,
+   "last": "2024-11-06",
+   "meet": "2024-11-06"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Arabella Reeves",
+   "externalEmail": "arabella@atomico.com",
+   "score": 0.49,
+   "last": "2026-02-13",
+   "meet": "2025-04-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ben Blume",
+   "externalEmail": "ben@atomico.com",
+   "score": 0.43,
+   "last": "2026-10-07",
+   "meet": "2026-07-08"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Evgenia Plotnikova",
+   "externalEmail": "evgenia@atomico.com",
+   "score": 0.43,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Megan Redding",
+   "externalEmail": "megan@atomico.com",
+   "score": 0.58,
+   "last": "2026-03-30",
+   "meet": null
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Lucie Jaronowski",
+   "externalEmail": "lucie@atomico.com",
+   "score": 0.76,
+   "last": "2025-07-14",
+   "meet": "2024-12-04"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Annalise Dragic",
+   "externalEmail": "adragic@atomico.com",
+   "score": 0.38,
+   "last": "2026-05-19",
+   "meet": "2023-05-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Joanna Stanton",
+   "externalEmail": "joanna@atomico.com",
+   "score": 0.39,
+   "last": "2025-10-30",
+   "meet": "2021-01-06"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Arabella Reeves",
+   "externalEmail": "arabella@atomico.com",
+   "score": 0.38,
+   "last": "2026-02-13",
+   "meet": "2025-04-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Evgenia Plotnikova",
+   "externalEmail": "evgenia@atomico.com",
+   "score": 0.32,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,248 @@
+{
+ "slug": "albionvc",
+ "affinity_domain": "albion.vc",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Lucia Rodriguez",
+   "externalEmail": "lucia@albion.vc",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Lauren Apostolidis",
+   "externalEmail": "lauren@albion.vc",
+   "score": 1.0,
+   "last": "2026-06-02",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Sebastian Hunte",
+   "externalEmail": "sebastian@albion.vc",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Paul Lehair",
+   "externalEmail": "paul@albion.vc",
+   "score": 1.0,
+   "last": "2026-08-04",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 1.0,
+   "last": "2026-03-05",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Nadine Torbey",
+   "externalEmail": "nadine@albion.vc",
+   "score": 0.97,
+   "last": "2026-01-28",
+   "meet": "2024-11-28"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Cat McDonald",
+   "externalEmail": "cat@albion.vc",
+   "score": 0.92,
+   "last": "2025-11-27",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Valerie Aelbrecht",
+   "externalEmail": "valerie@albion.vc",
+   "score": 0.79,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Cat McDonald",
+   "externalEmail": "cat@albion.vc",
+   "score": 0.62,
+   "last": "2025-11-27",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Paul Lehair",
+   "externalEmail": "paul@albion.vc",
+   "score": 0.49,
+   "last": "2026-08-04",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Rosie Samuels",
+   "externalEmail": "rosie@albion.vc",
+   "score": 0.94,
+   "last": "2025-08-07",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Valerie Aelbrecht",
+   "externalEmail": "valerie@albion.vc",
+   "score": 0.45,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Jay Wilson",
+   "externalEmail": "jay@albion.vc",
+   "score": 0.45,
+   "last": "2026-08-24",
+   "meet": "2025-03-26"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.48,
+   "last": "2026-03-05",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Cat McDonald",
+   "externalEmail": "cat@albion.vc",
+   "score": 0.38,
+   "last": "2025-11-27",
+   "meet": "2025-11-27"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Kibriya Rahman",
+   "externalEmail": "kibriya@albion.vc",
+   "score": 0.68,
+   "last": "2025-09-24",
+   "meet": "2025-09-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.37,
+   "last": "2026-03-05",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Jessica Bartos",
+   "externalEmail": "jbartos@albion.vc",
+   "score": 0.62,
+   "last": "2025-04-26",
+   "meet": "2024-07-11"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.32,
+   "last": "2026-03-05",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Valerie Aelbrecht",
+   "externalEmail": "valerie@albion.vc",
+   "score": 0.1,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Ekaterina Pogudina",
+   "externalEmail": "katya@albion.vc",
+   "score": 0.1,
+   "last": "2026-07-29",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ekaterina Pogudina",
+   "externalEmail": "katya@albion.vc",
+   "score": 0.1,
+   "last": "2026-07-29",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ekaterina Pogudina",
+   "externalEmail": "katya@albion.vc",
+   "score": 0.1,
+   "last": "2026-07-29",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Ekaterina Pogudina",
+   "externalEmail": "katya@albion.vc",
+   "score": 0.1,
+   "last": "2026-07-29",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Ekaterina Pogudina",
+   "externalEmail": "katya@albion.vc",
+   "score": 0.1,
+   "last": "2026-07-29",
+   "meet": "2025-08-07"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Jay Wilson",
+   "externalEmail": "jay@albion.vc",
+   "score": 0.1,
+   "last": "2026-08-24",
+   "meet": "2025-03-26"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.1,
+   "last": "2026-03-05",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.1,
+   "last": "2026-03-05",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Avc Index",
+   "externalEmail": "avc_index@albion.vc",
+   "score": 0.33,
+   "last": "2023-12-20",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Robert Whitby-Smith",
+   "externalEmail": "robert@albion.vc",
+   "score": 0.1,
+   "last": "2025-01-24",
+   "meet": "2025-01-22"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

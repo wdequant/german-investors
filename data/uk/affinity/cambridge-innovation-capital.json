@@ -1,0 +1,80 @@
+{
+ "slug": "cambridge-innovation-capital",
+ "affinity_domain": "cic.vc",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "external": "Richard Hall",
+   "externalEmail": "richard.hall@cic.vc",
+   "score": 0.94,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Ian Lane",
+   "externalEmail": "ian.lane@cic.vc",
+   "score": 0.93,
+   "last": "2026-06-02",
+   "meet": "2026-06-02"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ian Lane",
+   "externalEmail": "ian.lane@cic.vc",
+   "score": 0.91,
+   "last": "2026-06-02",
+   "meet": "2026-06-02"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Ian Lane",
+   "externalEmail": "ian.lane@cic.vc",
+   "score": 0.86,
+   "last": "2026-06-02",
+   "meet": "2026-06-02"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Ian Lane",
+   "externalEmail": "ian.lane@cic.vc",
+   "score": 0.5,
+   "last": "2026-06-02",
+   "meet": "2026-06-02"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Matt Maynard",
+   "externalEmail": "matt.maynard@cic.vc",
+   "score": 0.38,
+   "last": "2026-09-07",
+   "meet": null
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Andrew Williamson",
+   "externalEmail": "andrew.williamson@cic.vc",
+   "score": 0.33,
+   "last": "2024-07-23",
+   "meet": "2020-10-21"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Andrew Williamson",
+   "externalEmail": "andrew.williamson@cic.vc",
+   "score": 0.1,
+   "last": "2024-07-23",
+   "meet": "2020-10-21"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Andrew Williamson",
+   "externalEmail": "andrew.williamson@cic.vc",
+   "score": 0.1,
+   "last": "2024-07-23",
+   "meet": "2020-10-21"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

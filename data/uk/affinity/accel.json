@@ -1,0 +1,328 @@
+{
+ "slug": "accel",
+ "affinity_domain": "accel.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Rich Kotite",
+   "externalEmail": "rkotite@accel.com",
+   "score": 1.0,
+   "last": "2026-09-15",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Alex Reinert",
+   "externalEmail": "areinert@accel.com",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Bodi Tent",
+   "externalEmail": "btent@accel.com",
+   "score": 1.0,
+   "last": "2026-06-16",
+   "meet": "2026-06-16"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Tim Rawlinson",
+   "externalEmail": "trawlinson@accel.com",
+   "score": 1.0,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Tim Rawlinson",
+   "externalEmail": "trawlinson@accel.com",
+   "score": 1.0,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Robert Sternberg",
+   "externalEmail": "res@accel.com",
+   "score": 1.0,
+   "last": "2026-06-22",
+   "meet": "2026-06-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Aman Ghei",
+   "externalEmail": "aghei@accel.com",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Aman Ghei",
+   "externalEmail": "aghei@accel.com",
+   "score": 1.0,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Pia d'Iribarne",
+   "externalEmail": "pdiribarne@accel.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-03-03"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Fred Destin",
+   "externalEmail": "fdestin@accel.com",
+   "score": 1.0,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Fred Destin",
+   "externalEmail": "fdestin@accel.com",
+   "score": 1.0,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@accel.com",
+   "score": 1.0,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@accel.com",
+   "score": 1.0,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Alex Reinert",
+   "externalEmail": "areinert@accel.com",
+   "score": 0.99,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Ben Fletcher",
+   "externalEmail": "bfletcher@accel.com",
+   "score": 0.99,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Fred Destin",
+   "externalEmail": "fdestin@accel.com",
+   "score": 0.99,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@accel.com",
+   "score": 0.99,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Dana Eliaz",
+   "externalEmail": "deliaz@accel.com",
+   "score": 0.95,
+   "last": "2026-07-21",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Varun Purandare",
+   "externalEmail": "vpurandare@accel.com",
+   "score": 1.0,
+   "last": "2025-12-15",
+   "meet": "2025-12-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Kelly Kung",
+   "externalEmail": "kkung@accel.com",
+   "score": 0.97,
+   "last": "2026-01-13",
+   "meet": "2026-01-13"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Michiel Kotting",
+   "externalEmail": "mkotting@accel.com",
+   "score": 0.96,
+   "last": "2026-02-20",
+   "meet": "2026-02-20"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Zhenya Loginov",
+   "externalEmail": "zhenya@accel.com",
+   "score": 0.84,
+   "last": "2026-06-25",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Andrei Brasoveanu",
+   "externalEmail": "abrasoveanu@accel.com",
+   "score": 0.83,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Andrei Brasoveanu",
+   "externalEmail": "abrasoveanu@accel.com",
+   "score": 0.58,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Avid Larizadeh",
+   "externalEmail": "alarizadeh@accel.com",
+   "score": 0.73,
+   "last": "2026-08-05",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Seth Pierrepont",
+   "externalEmail": "slp@accel.com",
+   "score": 1.0,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Kelly Kung",
+   "externalEmail": "kkung@accel.com",
+   "score": 0.5,
+   "last": "2026-01-13",
+   "meet": "2026-01-13"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Andrei Brasoveanu",
+   "externalEmail": "abrasoveanu@accel.com",
+   "score": 0.44,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Candice du Fretay",
+   "externalEmail": "cdufretay@accel.com",
+   "score": 0.43,
+   "last": "2026-06-02",
+   "meet": "2023-10-12"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Aman Ghei",
+   "externalEmail": "aghei@accel.com",
+   "score": 0.43,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@accel.com",
+   "score": 0.43,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Avid Larizadeh",
+   "externalEmail": "alarizadeh@accel.com",
+   "score": 0.56,
+   "last": "2026-08-05",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Sophie Denny",
+   "externalEmail": "sdenny@accel.com",
+   "score": 0.55,
+   "last": "2026-09-24",
+   "meet": null
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Ben Dooley",
+   "externalEmail": "bdooley@accel.com",
+   "score": 0.76,
+   "last": "2025-07-14",
+   "meet": "2024-02-13"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sophie Denny",
+   "externalEmail": "sdenny@accel.com",
+   "score": 0.48,
+   "last": "2026-09-24",
+   "meet": null
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Peter Clarke",
+   "externalEmail": "pclarke@accel.com",
+   "score": 0.43,
+   "last": "2026-08-19",
+   "meet": null
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Fred Destin",
+   "externalEmail": "fdestin@accel.com",
+   "score": 0.32,
+   "last": "2026-09-10",
+   "meet": "2026-09-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Nate Niparko",
+   "externalEmail": "nniparko@accel.com",
+   "score": 1.0,
+   "last": "2024-07-23",
+   "meet": "2024-07-23"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Jonathan Turner",
+   "externalEmail": "jturner@accel.com",
+   "score": 0.99,
+   "last": "2024-03-09",
+   "meet": "2024-03-06"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Michael Treskow",
+   "externalEmail": "mtreskow@accel.com",
+   "score": 0.98,
+   "last": "2024-06-20",
+   "meet": "2023-11-29"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

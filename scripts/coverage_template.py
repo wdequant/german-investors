@@ -1727,16 +1727,25 @@ function cmSvg(me){
     const sEst=Math.min(1500/rvb[2], 680/rvb[3]);
     const maxo=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].opp:0),1);
     const maxp=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].pw||0:0),1);
-    layer=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
+    const nodes=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
       const a=CM.areas[sb.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const wgt=0.5*(a.opp/maxo)+0.5*((a.pw||0)/maxp);   // size = deal flow opportunity + the team's pipeline weight here
       const R=(12+58*Math.sqrt(wgt))/sEst, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
-      return `<g class="cmreg live" data-cmcc2="${sb.id}" transform="translate(${sb.x},${sb.y})">
-        <circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
-        ${rm>0.4?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
-        <text y="${(sb.y>rvb[1]+rvb[3]*0.8?-(R+8/sEst):(R+16/sEst)).toFixed(1)}" style="font-size:${(14.5/sEst).toFixed(2)}px">${sb.name}${exp?' ⚑':''}</text></g>`;
-    }).join('');
+      return {sb,a,covu,R,rt,rm,exp,x:sb.x,y:sb.y};
+    });
+    // satellite cities can sit inside a giant neighbour's disc (Cambridge/Oxford vs London):
+    // push the smaller node out along the joining axis until the discs clear
+    for(let it=0;it<3;it++) for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){
+      const A=nodes[i],B=nodes[j];
+      const dx=B.x-A.x, dy=B.y-A.y, d=Math.hypot(dx,dy)||0.01, need=A.R+B.R+10/sEst;
+      if(d<need){ const s=A.R>=B.R?B:A, dir=s===B?1:-1, push=need-d;
+        s.x+=dx/d*push*dir; s.y+=dy/d*push*dir; }
+    }
+    layer=nodes.map(n=>`<g class="cmreg live" data-cmcc2="${n.sb.id}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})">
+        <circle r="${n.R.toFixed(1)}" class="cmouter"/><circle r="${n.rt.toFixed(1)}" class="cmteam"/>
+        ${n.rm>0.4?`<circle r="${n.rm.toFixed(1)}" fill="${CMTIER(n.covu)}" class="cmme"/>`:''}
+        <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(n.R+8/sEst):(n.R+16/sEst)).toFixed(1)}" style="font-size:${(14.5/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}</text></g>`).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
 }

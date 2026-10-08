@@ -1,0 +1,56 @@
+{
+ "slug": "connect-ventures",
+ "affinity_domain": "connectventures.co",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Rory Stirling",
+   "externalEmail": "rory@connectventures.co",
+   "score": 0.94,
+   "last": "2026-08-05",
+   "meet": "2026-08-05"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Rory Stirling",
+   "externalEmail": "rory@connectventures.co",
+   "score": 0.43,
+   "last": "2026-08-05",
+   "meet": "2026-08-05"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Rory Stirling",
+   "externalEmail": "rory@connectventures.co",
+   "score": 0.33,
+   "last": "2026-08-05",
+   "meet": "2026-08-05"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Sitar Teli",
+   "externalEmail": "sitar@connectventures.co",
+   "score": 0.61,
+   "last": "2024-10-07",
+   "meet": "2024-10-07"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Mark Pettit",
+   "externalEmail": "mark@connectventures.co",
+   "score": 0.31,
+   "last": "2025-07-11",
+   "meet": "2021-12-17"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Rory Stirling",
+   "externalEmail": "rory@connectventures.co",
+   "score": 0.1,
+   "last": "2026-08-05",
+   "meet": "2026-08-05"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

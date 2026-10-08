@@ -1,0 +1,96 @@
+{
+ "slug": "anthemis-group",
+ "affinity_domain": "anthemis.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sophie Winwood",
+   "externalEmail": "sophie@anthemis.com",
+   "score": 0.9,
+   "last": "2026-08-26",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Sophie Winwood",
+   "externalEmail": "sophie@anthemis.com",
+   "score": 0.64,
+   "last": "2026-08-26",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Sophie Winwood",
+   "externalEmail": "sophie@anthemis.com",
+   "score": 0.59,
+   "last": "2026-08-26",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Sophie Winwood",
+   "externalEmail": "sophie@anthemis.com",
+   "score": 0.48,
+   "last": "2026-08-26",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Georgia Haigh",
+   "externalEmail": "georgia@anthemis.com",
+   "score": 0.43,
+   "last": "2026-01-29",
+   "meet": "2026-01-29"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jeremy Brown",
+   "externalEmail": "jeremy@anthemis.com",
+   "score": 0.43,
+   "last": "2024-06-11",
+   "meet": "2024-02-01"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Sophie Winwood",
+   "externalEmail": "sophie@anthemis.com",
+   "score": 0.1,
+   "last": "2026-08-26",
+   "meet": "2025-04-10"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Marin Cauvas",
+   "externalEmail": "marin@anthemis.com",
+   "score": 0.38,
+   "last": "2024-08-20",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Mia Merrill",
+   "externalEmail": "mia@anthemis.com",
+   "score": 0.1,
+   "last": "2026-05-21",
+   "meet": null
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Derya Varol",
+   "externalEmail": "derya@anthemis.com",
+   "score": 0.1,
+   "last": "2025-04-28",
+   "meet": null
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Ruth Blader",
+   "externalEmail": "ruth@anthemis.com",
+   "score": 0.1,
+   "last": "2023-10-09",
+   "meet": "2023-03-23"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

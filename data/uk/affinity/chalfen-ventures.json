@@ -1,0 +1,88 @@
+{
+ "slug": "chalfen-ventures",
+ "affinity_domain": "chalfenventures.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Stan Laurent",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 1.0,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 0.48,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ben Johnson",
+   "externalEmail": "ben@chalfenventures.com",
+   "score": 0.87,
+   "last": "2025-09-12",
+   "meet": "2025-09-12"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 0.43,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 0.38,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Ben Johnson",
+   "externalEmail": "ben@chalfenventures.com",
+   "score": 0.74,
+   "last": "2025-09-12",
+   "meet": "2025-09-12"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 0.34,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Ben Johnson",
+   "externalEmail": "ben@chalfenventures.com",
+   "score": 0.53,
+   "last": "2025-09-12",
+   "meet": "2025-09-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 0.1,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Mike Chalfen",
+   "externalEmail": "mike@chalfenventures.com",
+   "score": 0.1,
+   "last": "2026-10-02",
+   "meet": "2026-09-30"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "ada-ventures",
+ "affinity_domain": "adaventures.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Diarra Smith",
+   "externalEmail": "diarra@adaventures.com",
+   "score": 0.57,
+   "last": "2025-09-24",
+   "meet": "2025-09-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Jasmin Thomas",
+   "externalEmail": "jasmin@adaventures.com",
+   "score": 0.83,
+   "last": "2024-07-30",
+   "meet": "2024-07-30"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Diarra Smith",
+   "externalEmail": "diarra@adaventures.com",
+   "score": 0.45,
+   "last": "2025-09-24",
+   "meet": "2025-09-12"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Francesca Warner",
+   "externalEmail": "check@adaventures.com",
+   "score": 0.43,
+   "last": "2024-09-30",
+   "meet": "2022-10-04"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Ben Norton",
+   "externalEmail": "ben@adaventures.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2025-09-12"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,64 @@
+{
+ "slug": "13books-capital",
+ "affinity_domain": "13bookscapital.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Joanna Wlazlak",
+   "externalEmail": "joanna@13bookscapital.com",
+   "score": 1.0,
+   "last": "2026-07-13",
+   "meet": "2024-02-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Nitya Gupta",
+   "externalEmail": "nitya@13bookscapital.com",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-05-22"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Meera Bissoondeeal",
+   "externalEmail": "meera@13bookscapital.com",
+   "score": 0.88,
+   "last": "2026-08-07",
+   "meet": "2026-08-07"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Nitya Gupta",
+   "externalEmail": "nitya@13bookscapital.com",
+   "score": 0.43,
+   "last": "2026-09-23",
+   "meet": "2026-05-22"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Aleksandra Tyurina",
+   "externalEmail": "aleksandra@13bookscapital.com",
+   "score": 0.1,
+   "last": "2026-07-13",
+   "meet": "2024-07-11"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Nitya Gupta",
+   "externalEmail": "nitya@13bookscapital.com",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2026-05-22"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Daniele Weiss",
+   "externalEmail": "daniele@13bookscapital.com",
+   "score": 0.42,
+   "last": "2024-05-07",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

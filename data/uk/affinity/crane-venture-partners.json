@@ -1,0 +1,208 @@
+{
+ "slug": "crane-venture-partners",
+ "affinity_domain": "crane.vc",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Agnieszka Paliwoda",
+   "externalEmail": "aga@crane.vc",
+   "score": 1.0,
+   "last": "2026-07-24",
+   "meet": "2026-07-24"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ayala Ples",
+   "externalEmail": "ayala@crane.vc",
+   "score": 1.0,
+   "last": "2026-09-23",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Morgane Zerath",
+   "externalEmail": "morgane@crane.vc",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-05-15"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Krishna Visvanathan",
+   "externalEmail": "krishna@crane.vc",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Guy Bentley",
+   "externalEmail": "guy@crane.vc",
+   "score": 0.99,
+   "last": "2026-08-18",
+   "meet": "2025-04-15"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Sam Kester",
+   "externalEmail": "sam@crane.vc",
+   "score": 0.99,
+   "last": "2026-05-18",
+   "meet": "2026-05-18"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Ben Wright",
+   "externalEmail": "ben@crane.vc",
+   "score": 0.92,
+   "last": "2026-09-22",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Krishna Visvanathan",
+   "externalEmail": "krishna@crane.vc",
+   "score": 0.92,
+   "last": "2026-10-07",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sam Kester",
+   "externalEmail": "sam@crane.vc",
+   "score": 0.84,
+   "last": "2026-05-18",
+   "meet": "2026-05-18"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Rav Dhaliwal",
+   "externalEmail": "rav@crane.vc",
+   "score": 0.82,
+   "last": "2026-09-22",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Anna Cachadina",
+   "externalEmail": "anna@crane.vc",
+   "score": 0.8,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Krishna Visvanathan",
+   "externalEmail": "krishna@crane.vc",
+   "score": 0.51,
+   "last": "2026-10-07",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sam Kester",
+   "externalEmail": "sam@crane.vc",
+   "score": 0.43,
+   "last": "2026-05-18",
+   "meet": "2026-05-18"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Morgane Zerath",
+   "externalEmail": "morgane@crane.vc",
+   "score": 0.43,
+   "last": "2026-10-05",
+   "meet": "2026-05-15"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Ayala Ples",
+   "externalEmail": "ayala@crane.vc",
+   "score": 0.35,
+   "last": "2026-09-23",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Ayala Ples",
+   "externalEmail": "ayala@crane.vc",
+   "score": 0.33,
+   "last": "2026-09-23",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Ayala Ples",
+   "externalEmail": "ayala@crane.vc",
+   "score": 0.1,
+   "last": "2026-09-23",
+   "meet": "2026-09-21"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Bonnie Kraus",
+   "externalEmail": "bonnie@crane.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Bonnie Kraus",
+   "externalEmail": "bonnie@crane.vc",
+   "score": 0.1,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Scott Sage",
+   "externalEmail": "scott@crane.vc",
+   "score": 0.1,
+   "last": "2026-10-05",
+   "meet": "2022-11-16"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Scott Sage",
+   "externalEmail": "scott@crane.vc",
+   "score": 0.1,
+   "last": "2026-10-05",
+   "meet": "2022-11-16"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Krishna Visvanathan",
+   "externalEmail": "krishna@crane.vc",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Krishna Visvanathan",
+   "externalEmail": "krishna@crane.vc",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Krishna Visvanathan",
+   "externalEmail": "krishna@crane.vc",
+   "score": 0.1,
+   "last": "2026-10-07",
+   "meet": "2026-09-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Aneel Lakhani",
+   "externalEmail": "aneel@crane.vc",
+   "score": 0.1,
+   "last": "2023-11-22",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

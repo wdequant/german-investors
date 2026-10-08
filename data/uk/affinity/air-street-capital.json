@@ -1,0 +1,16 @@
+{
+ "slug": "air-street-capital",
+ "affinity_domain": "airstreet.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Nathan Benaich",
+   "externalEmail": "nathan@airstreet.com",
+   "score": 0.38,
+   "last": "2024-10-09",
+   "meet": "2022-11-16"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

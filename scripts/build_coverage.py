@@ -7,7 +7,7 @@ from coverage_common import (finalize, TODAY, AFFINITY_ORG, load_json, apply_enr
                              compute_bridges_and_synd, build_htc, angel_relevance,
                              affinity_sync, inject_htc_captables,
                              collect_linkedin, backfill_linkedin, attach_dealflow)
-import assemble_germany, assemble_nordics, assemble_france, assemble_us
+import assemble_germany, assemble_nordics, assemble_france, assemble_us, assemble_uk
 import importlib.util as _ilu
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -67,6 +67,7 @@ REGION_CFG = {
     "germany": {"label": "Germany", "adj": "German", "assemble": assemble_germany.assemble},
     "nordics": {"label": "Nordics", "adj": "Nordic", "assemble": assemble_nordics.assemble},
     "france": {"label": "France", "adj": "French", "assemble": assemble_france.assemble},
+    "uk": {"label": "UK", "adj": "UK", "assemble": assemble_uk.assemble},
     "us": {"label": "US → EU", "adj": "US tier-1", "assemble": assemble_us.assemble},
 }
 

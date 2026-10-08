@@ -1,0 +1,16 @@
+{
+ "slug": "20vc",
+ "affinity_domain": "thetwentyminutevc.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Fergal Mullen",
+   "external": "Harry Stebbings",
+   "externalEmail": "harry@thetwentyminutevc.com",
+   "score": 0.43,
+   "last": "2023-11-04",
+   "meet": "2017-11-23"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,328 @@
+{
+ "slug": "balderton",
+ "affinity_domain": "balderton.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "external": "Zain Waheed",
+   "externalEmail": "zwaheed@balderton.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-10-06"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Giulia Marchegiani",
+   "externalEmail": "gmarchegiani@balderton.com",
+   "score": 1.0,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Leah Sutton",
+   "externalEmail": "lsutton@balderton.com",
+   "score": 1.0,
+   "last": "2026-07-22",
+   "meet": "2026-02-24"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Claudia Rowe",
+   "externalEmail": "crowe@balderton.com",
+   "score": 1.0,
+   "last": "2026-07-29",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Elena Moneta",
+   "externalEmail": "emoneta@balderton.com",
+   "score": 1.0,
+   "last": "2026-06-11",
+   "meet": "2026-04-10"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Elena Moneta",
+   "externalEmail": "emoneta@balderton.com",
+   "score": 1.0,
+   "last": "2026-06-11",
+   "meet": "2026-04-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Suranga Chandratillake",
+   "externalEmail": "suranga@balderton.com",
+   "score": 1.0,
+   "last": "2026-04-20",
+   "meet": "2026-03-17"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Elena Moneta",
+   "externalEmail": "emoneta@balderton.com",
+   "score": 0.99,
+   "last": "2026-06-11",
+   "meet": "2026-04-10"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Michael Lavner",
+   "externalEmail": "michael@balderton.com",
+   "score": 0.98,
+   "last": "2026-10-08",
+   "meet": "2024-04-09"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Lena Hinkelmann",
+   "externalEmail": "lhinkelmann@balderton.com",
+   "score": 0.95,
+   "last": "2026-07-17",
+   "meet": "2026-07-17"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Emma Kerr",
+   "externalEmail": "ekerr@balderton.com",
+   "score": 0.91,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Tobias Winczer",
+   "externalEmail": "twinczer@balderton.com",
+   "score": 1.0,
+   "last": "2026-03-18",
+   "meet": "2026-03-18"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Lucie Anderson",
+   "externalEmail": "landerson@balderton.com",
+   "score": 1.0,
+   "last": "2026-03-17",
+   "meet": "2026-03-17"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Daniel Waterhouse",
+   "externalEmail": "dwaterhouse@balderton.com",
+   "score": 0.99,
+   "last": "2026-01-27",
+   "meet": "2025-04-29"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Lena Hinkelmann",
+   "externalEmail": "lhinkelmann@balderton.com",
+   "score": 0.87,
+   "last": "2026-07-17",
+   "meet": "2026-07-17"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Magda Lukaszewicz",
+   "externalEmail": "magda@balderton.com",
+   "score": 0.87,
+   "last": "2026-08-05",
+   "meet": "2026-08-04"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Bernard Liautaud",
+   "externalEmail": "bliautaud@balderton.com",
+   "score": 0.96,
+   "last": "2026-01-15",
+   "meet": "2023-12-05"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Shannon Harrington",
+   "externalEmail": "sharrington@balderton.com",
+   "score": 0.77,
+   "last": "2026-09-23",
+   "meet": "2026-06-09"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Tamasha Ginige",
+   "externalEmail": "tginige@balderton.com",
+   "score": 0.83,
+   "last": "2026-03-06",
+   "meet": "2026-02-20"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Lena Hinkelmann",
+   "externalEmail": "lhinkelmann@balderton.com",
+   "score": 0.73,
+   "last": "2026-07-17",
+   "meet": "2026-07-17"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Tobias Winczer",
+   "externalEmail": "twinczer@balderton.com",
+   "score": 0.7,
+   "last": "2026-03-18",
+   "meet": "2026-03-18"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Tobias Winczer",
+   "externalEmail": "twinczer@balderton.com",
+   "score": 0.68,
+   "last": "2026-03-18",
+   "meet": "2026-03-18"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Ed Cubitt",
+   "externalEmail": "ecubitt@balderton.com",
+   "score": 0.57,
+   "last": "2026-07-29",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Suranga Chandratillake",
+   "externalEmail": "suranga@balderton.com",
+   "score": 0.56,
+   "last": "2026-04-20",
+   "meet": "2026-03-17"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Claudia Rowe",
+   "externalEmail": "crowe@balderton.com",
+   "score": 0.53,
+   "last": "2026-07-29",
+   "meet": "2026-07-29"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "David Thevenon",
+   "externalEmail": "david@balderton.com",
+   "score": 0.98,
+   "last": "2025-06-04",
+   "meet": "2025-06-04"
+  },
+  {
+   "internal": "Zina Alfa",
+   "external": "Chantal Cantle",
+   "externalEmail": "ccantle@balderton.com",
+   "score": 0.43,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Michael Lavner",
+   "externalEmail": "michael@balderton.com",
+   "score": 0.43,
+   "last": "2026-10-08",
+   "meet": "2024-04-09"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Rob Moffat",
+   "externalEmail": "rmoffat@balderton.com",
+   "score": 0.46,
+   "last": "2026-02-26",
+   "meet": "2023-03-23"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Chantal Cantle",
+   "externalEmail": "ccantle@balderton.com",
+   "score": 0.41,
+   "last": "2026-09-24",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Tobias Winczer",
+   "externalEmail": "twinczer@balderton.com",
+   "score": 0.45,
+   "last": "2026-03-18",
+   "meet": "2026-03-18"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Daniel Waterhouse",
+   "externalEmail": "dwaterhouse@balderton.com",
+   "score": 0.43,
+   "last": "2026-01-27",
+   "meet": "2025-04-29"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Elena Moneta",
+   "externalEmail": "emoneta@balderton.com",
+   "score": 0.38,
+   "last": "2026-06-11",
+   "meet": "2026-04-10"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Sivesh Sukumar",
+   "externalEmail": "ssukumar@balderton.com",
+   "score": 0.37,
+   "last": "2026-06-10",
+   "meet": "2026-06-10"
+  },
+  {
+   "internal": "Zina Alfa",
+   "external": "Tamasha Ginige",
+   "externalEmail": "tginige@balderton.com",
+   "score": 0.41,
+   "last": "2026-03-06",
+   "meet": "2026-02-20"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Danny Bloom",
+   "externalEmail": "dbloom@balderton.com",
+   "score": 0.36,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Fiona Blakemore",
+   "externalEmail": "fblakemore@balderton.com",
+   "score": 0.35,
+   "last": "2026-09-30",
+   "meet": "2026-09-30"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Leah Sutton",
+   "externalEmail": "lsutton@balderton.com",
+   "score": 0.33,
+   "last": "2026-07-22",
+   "meet": "2026-02-24"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Leah Sutton",
+   "externalEmail": "lsutton@balderton.com",
+   "score": 0.33,
+   "last": "2026-07-22",
+   "meet": "2026-02-24"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Giulia Marchegiani",
+   "externalEmail": "gmarchegiani@balderton.com",
+   "score": 0.32,
+   "last": "2026-09-24",
+   "meet": "2026-09-23"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}
