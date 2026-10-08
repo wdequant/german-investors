@@ -1,14 +1,1671 @@
 {
-"ifet lawrence": {
-"inv": false,
-"title": "PA/EA",
-"company": "Lightspeed",
-"src": "will"
-},
-"katie holmes": {
-"inv": false,
-"title": "EA",
-"company": "Bessemer Venture Partners",
-"src": "will"
-}
+ "ifet lawrence": {
+  "inv": false,
+  "title": "PA/EA",
+  "company": "Lightspeed",
+  "src": "will"
+ },
+ "katie holmes": {
+  "inv": false,
+  "title": "EA",
+  "company": "Bessemer Venture Partners",
+  "src": "will"
+ },
+ "a mateus": {
+  "inv": true,
+  "title": "Senior Investment Officer",
+  "company": "Aqua for All"
+ },
+ "aadan": {
+  "inv": null,
+  "company": "Insight Partners"
+ },
+ "aadit gandhi": {
+  "inv": null,
+  "company": "Apis Partners"
+ },
+ "aaron israel": {
+  "inv": true,
+  "title": "Principal",
+  "company": "Secret Chord Ventures"
+ },
+ "aashay": {
+  "inv": null,
+  "company": "Smash Capital"
+ },
+ "aashay shah": {
+  "inv": null,
+  "company": "Smash Capital"
+ },
+ "aashna kumar": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Upside"
+ },
+ "aathamena": {
+  "inv": null,
+  "company": "ICONIQ"
+ },
+ "abbey kaminker": {
+  "inv": true,
+  "title": "Associate, Growth Equity",
+  "city": "Toronto",
+  "company": "CPP Investments"
+ },
+ "abby wong": {
+  "inv": null,
+  "company": "Greyhound Capital"
+ },
+ "abdi adan": {
+  "inv": null,
+  "company": "Insight Partners"
+ },
+ "abel samot": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "commit"
+ },
+ "abi adeyemi": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "TPG"
+ },
+ "adam awad": {
+  "inv": null,
+  "company": "Apis Partners"
+ },
+ "adam kočík": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Prague",
+  "company": "J&T Ventures"
+ },
+ "adam mee": {
+  "inv": null,
+  "company": "Hiro Capital"
+ },
+ "adam nelson": {
+  "inv": null,
+  "company": "FirstMark"
+ },
+ "adam noily": {
+  "inv": true,
+  "title": "Managing Director, Head of US Technology and Innovation Investment Banking",
+  "city": "San Francisco",
+  "company": "CIBC Innovation Banking"
+ },
+ "adam shuaib": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "EPISODE 1"
+ },
+ "adama jatta": {
+  "inv": null,
+  "company": "psgequity.co.uk"
+ },
+ "adeyinka okuwoga": {
+  "inv": true,
+  "title": "Venture Investor",
+  "city": "London",
+  "company": "Headline"
+ },
+ "adi blecher": {
+  "inv": null,
+  "company": "Team8"
+ },
+ "adrian kreiser": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Eurazeo"
+ },
+ "adrian lloyd": {
+  "inv": null,
+  "company": "EPISODE 1"
+ },
+ "adriana beattie": {
+  "inv": true,
+  "title": "Analyst",
+  "city": "Hong Kong",
+  "company": "Deloitte"
+ },
+ "adrien levacic": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "OpenOcean"
+ },
+ "adrienn nagy": {
+  "inv": false,
+  "title": "Executive Assistant and Office Manager",
+  "city": "Stockholm",
+  "company": "Kinnevik"
+ },
+ "adw": {
+  "inv": null,
+  "company": "Hedosophia"
+ },
+ "agate freimane": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Stockholm",
+  "company": "Norrsken"
+ },
+ "agnieszka paliwoda": {
+  "inv": false,
+  "title": "Executive Assistant to Co-Founders",
+  "city": "London",
+  "company": "Crane Venture Partners"
+ },
+ "ahmed harrath": {
+  "inv": null,
+  "company": "Lazard"
+ },
+ "ahugener": {
+  "inv": null,
+  "company": "Energize Capital"
+ },
+ "aida chushkina": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Hg"
+ },
+ "ainhoa saralegui": {
+  "inv": true,
+  "title": "Senior Investor",
+  "city": "Bilbao",
+  "company": "Acurio Ventures"
+ },
+ "aishwarya nadgauda": {
+  "inv": true,
+  "title": "Director, NVentures",
+  "city": "San Francisco",
+  "company": "NVIDIA"
+ },
+ "akaminker": {
+  "inv": null,
+  "company": "Relationship Investments Inc"
+ },
+ "akash popat": {
+  "inv": true,
+  "title": "Portfolio Manager",
+  "city": "London",
+  "company": "bp"
+ },
+ "akhil jimmy": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Berlin",
+  "company": "T.Capital"
+ },
+ "akhil madan": {
+  "inv": true,
+  "title": "Vice President, Expansion Capital",
+  "city": "New York",
+  "company": "Morgan Stanley"
+ },
+ "akis bratsos": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Lakestar"
+ },
+ "akshat goenka": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Moonfire"
+ },
+ "alaric wilson": {
+  "inv": true,
+  "title": "Senior Partner Development Manager - AI-Natives",
+  "city": "London",
+  "company": "Microsoft"
+ },
+ "alastair moore": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Edinburgh",
+  "company": "PXN Group"
+ },
+ "albert puig": {
+  "inv": true,
+  "title": "Software Investor",
+  "city": "London",
+  "company": "Octopus Ventures"
+ },
+ "alberto cresto": {
+  "inv": true,
+  "title": "General Partner",
+  "company": "Lunar Ventures"
+ },
+ "alberto padilla-rivera": {
+  "inv": true,
+  "title": "Executive Vice President",
+  "city": "London",
+  "company": "Insight Partners"
+ },
+ "aleksandra lament": {
+  "inv": true,
+  "title": "IR & Sustainability Operations Manager",
+  "city": "London",
+  "company": "ETF Partners"
+ },
+ "alessandro bertino": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Contrarian Ventures"
+ },
+ "alessandro calamia": {
+  "inv": true,
+  "title": "Associate",
+  "city": "Zurich",
+  "company": "ACE Ventures"
+ },
+ "alessandro luciano": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Insight Partners"
+ },
+ "alex": {
+  "inv": null,
+  "company": "Northzone"
+ },
+ "alex bain": {
+  "inv": true,
+  "title": "Growth Investor",
+  "city": "London",
+  "company": "Alanda Capital Management"
+ },
+ "alex davis": {
+  "inv": null,
+  "company": "Speedinvest"
+ },
+ "alex ferrara": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Bessemer Venture Partners"
+ },
+ "alex finkelstein": {
+  "inv": null,
+  "company": "Spark Capital"
+ },
+ "alex gaulkin": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "Lead Edge Capital"
+ },
+ "alex hook": {
+  "inv": null,
+  "company": "Nesta"
+ },
+ "alex hughes": {
+  "inv": true,
+  "title": "Corporate Finance Analyst",
+  "city": "Limerick",
+  "company": "FOCUS Capital Partners"
+ },
+ "alex lim": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "IVP"
+ },
+ "alex mackenzie": {
+  "inv": null,
+  "company": "General Catalyst"
+ },
+ "alex mccracken": {
+  "inv": true,
+  "title": "Managing Director, Venture Capital Relationships, EMEA",
+  "city": "London",
+  "company": "J.P. Morgan"
+ },
+ "alex morgan": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Palo Alto",
+  "company": "Khosla Ventures"
+ },
+ "alex pitt": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "MSM fund (Mustard Seed Maze)"
+ },
+ "alex rahaman": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Idékapital"
+ },
+ "alex reinert": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Accel"
+ },
+ "alex schmitt": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Lightspeed Venture Partners"
+ },
+ "alex taylor-harris": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "Kennet Partners"
+ },
+ "alex wilson": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "Generation Investment Management"
+ },
+ "alexander agureev": {
+  "inv": true,
+  "title": "VC",
+  "city": "London",
+  "company": "Northzone"
+ },
+ "alexander danielsson": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Stockholm",
+  "company": "Norrsken"
+ },
+ "alexander joel-carbonell": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "HV"
+ },
+ "alexander klingensjo": {
+  "inv": null,
+  "company": "SEB Venture Capital"
+ },
+ "alexander leichter": {
+  "inv": null,
+  "company": "Cambridge Judge Business School"
+ },
+ "alexander schmitt": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Lightspeed Venture Partners"
+ },
+ "alexander taussig": {
+  "inv": null,
+  "company": "Lightspeed Venture Partners"
+ },
+ "alexander thompson": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "HarbourVest Partners"
+ },
+ "alexander vidiborskiy": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Atomico"
+ },
+ "alexandra dombrowski": {
+  "inv": null,
+  "company": "Target Global"
+ },
+ "alexandra kurmulis": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Munich",
+  "company": "Capnamic"
+ },
+ "alexandra reinert": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Accel"
+ },
+ "alexandra soto": {
+  "inv": true,
+  "title": "Global Chief Operating Officer",
+  "city": "London",
+  "company": "Lazard"
+ },
+ "alexandra stolt": {
+  "inv": true,
+  "title": "General Counsel and Board Secretary",
+  "city": "Stockholm",
+  "company": "Gilion"
+ },
+ "alexandra thornton": {
+  "inv": null,
+  "company": "Felix Capital"
+ },
+ "alexandra tsylnitska": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Dawn Capital"
+ },
+ "alexandra wyatt": {
+  "inv": true,
+  "title": "Executive Director",
+  "city": "London",
+  "company": "J.P. Morgan"
+ },
+ "alexandre glaser": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Paris",
+  "company": "Educapital"
+ },
+ "alexia catutoiu": {
+  "inv": true,
+  "title": "University Program Fellow",
+  "city": "Manchester",
+  "company": "Plug and Play"
+ },
+ "alexis frentz": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Elaia"
+ },
+ "alexis lancien": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Paris",
+  "company": "Aletheon Investments"
+ },
+ "alexis pavy": {
+  "inv": true,
+  "title": "VC Associate",
+  "city": "Paris",
+  "company": "Educapital"
+ },
+ "alexis robert": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Paris",
+  "company": "Kima Ventures"
+ },
+ "alfonso de león": {
+  "inv": null,
+  "company": "Axon Partners Group"
+ },
+ "alfred vericel": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Los Angeles",
+  "company": "Red River West"
+ },
+ "ali najafbagy": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "The Hague",
+  "company": "4impact capital"
+ },
+ "ali shirvani": {
+  "inv": null,
+  "company": "Plug and Play"
+ },
+ "alice chan": {
+  "inv": null,
+  "company": "ETF Partners"
+ },
+ "alice whittaker": {
+  "inv": null,
+  "company": "Sixth Street"
+ },
+ "alicia garabedian": {
+  "inv": null,
+  "company": "Left Lane Capital"
+ },
+ "alicia guindulain": {
+  "inv": true,
+  "title": "Private Equity Principal",
+  "city": "Madrid",
+  "company": "KKR"
+ },
+ "alina gounina": {
+  "inv": false,
+  "title": "Executive Assistant / Events Manager",
+  "city": "London",
+  "company": "Moonfire"
+ },
+ "alina negulescu": {
+  "inv": true,
+  "title": "Growth Equity Investor, Associate",
+  "company": "Hedosophia"
+ },
+ "alistair owen": {
+  "inv": null,
+  "company": "VentureFriends"
+ },
+ "aliyang": {
+  "inv": null,
+  "company": "CapitalG"
+ },
+ "alliott cole": {
+  "inv": null,
+  "company": "Octopus Ventures"
+ },
+ "allison graf": {
+  "inv": true,
+  "title": "Investor Relations Manager",
+  "city": "London",
+  "company": "Frontline Ventures"
+ },
+ "alokik advani": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "7RIDGE"
+ },
+ "alun williams": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "London",
+  "company": "Parkwalk"
+ },
+ "amackenzie": {
+  "inv": null,
+  "company": "General Catalyst"
+ },
+ "aman ghei": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Finch Capital"
+ },
+ "amanda floyd": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "InReach Ventures"
+ },
+ "amanda lennon": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "San Francisco",
+  "company": "General Catalyst"
+ },
+ "amaury de buyser": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Amsterdam",
+  "company": "HPE Growth"
+ },
+ "amber patel": {
+  "inv": null,
+  "company": "Seedcamp"
+ },
+ "ambi mistry": {
+  "inv": true,
+  "title": "Partner - Portfolio Operations",
+  "city": "London",
+  "company": "LocalGlobe"
+ },
+ "amias": {
+  "inv": null,
+  "company": "QED Investors"
+ },
+ "amin manzouri": {
+  "inv": true,
+  "title": "EMEA Private Equity Industry Lead",
+  "city": "London",
+  "company": "Stripe"
+ },
+ "amine athamena": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "ICONIQ"
+ },
+ "amine raji": {
+  "inv": true,
+  "title": "Co-Founder & CEO",
+  "city": "New York",
+  "company": "Spore.Bio"
+ },
+ "amit karp": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Tel Aviv",
+  "company": "Bessemer Venture Partners"
+ },
+ "amrita bhasin": {
+  "inv": null,
+  "company": "Relationship Investments Inc"
+ },
+ "amy weyler": {
+  "inv": true,
+  "title": "VP Global Talent",
+  "company": "Bessemer Venture Partners"
+ },
+ "ana fernandez": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "Nauta"
+ },
+ "ana munoz": {
+  "inv": true,
+  "title": "Software Investor",
+  "city": "London",
+  "company": "Five Elms Capital"
+ },
+ "anand kotecha": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "FTV Capital"
+ },
+ "anastasiia shabliienko": {
+  "inv": true,
+  "title": "Associate",
+  "city": "Warsaw",
+  "company": "Flyer One Ventures"
+ },
+ "ander michelena": {
+  "inv": true,
+  "title": "Founder Partner",
+  "city": "Madrid",
+  "company": "Acurio Ventures"
+ },
+ "anderson ng": {
+  "inv": true,
+  "title": "Investments",
+  "city": "London",
+  "company": "Columbia Lake Partners"
+ },
+ "andre purits": {
+  "inv": true,
+  "title": "Senior Associate",
+  "city": "Paris",
+  "company": "Five Seasons Ventures"
+ },
+ "andre woon": {
+  "inv": true,
+  "title": "Strategic Finance",
+  "city": "San Francisco",
+  "company": "OpenAI"
+ },
+ "andrea bernabeu": {
+  "inv": true,
+  "title": "ISV Partner Development Manager - Recruit",
+  "city": "Madrid",
+  "company": "Microsoft"
+ },
+ "andrea iriondo bernabeu": {
+  "inv": true,
+  "title": "ISV Partner Development Manager - Recruit",
+  "city": "Madrid",
+  "company": "Microsoft"
+ },
+ "andrea gagliardi": {
+  "inv": true,
+  "title": "Director Corporate Development",
+  "city": "London",
+  "company": "BlackRock"
+ },
+ "andrea gluscevic": {
+  "inv": true,
+  "title": "Growth Investor",
+  "city": "London",
+  "company": "Lightrock"
+ },
+ "andrea gurnari": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Moonfire"
+ },
+ "andrea livecchi": {
+  "inv": true,
+  "title": "Analyst",
+  "city": "Milan",
+  "company": "CDP Venture Capital"
+ },
+ "andrea oliver": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Barcelona",
+  "company": "Nauta"
+ },
+ "andrea riganti": {
+  "inv": true,
+  "title": "Growth Equity Off-Cycle Analyst",
+  "city": "London",
+  "company": "Noteus Partners"
+ },
+ "andrea solis olivares": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "Vitruvian Partners"
+ },
+ "andreas heubl": {
+  "inv": true,
+  "title": "Senior Investment Manager, Venture Capital",
+  "city": "Munich",
+  "company": "BayBG Bayerische Beteiligungsgesellschaft mbH"
+ },
+ "andreas ioannou": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "FinTech Collective"
+ },
+ "andreas schenk": {
+  "inv": true,
+  "title": "Managing Partner & Geschäftsführer",
+  "city": "Munich",
+  "company": "Alstin Capital"
+ },
+ "andreas schenk alstin capital": {
+  "inv": true,
+  "title": "Managing Partner & Geschäftsführer",
+  "city": "Munich",
+  "company": "Alstin Capital"
+ },
+ "andreas unseld": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "UVC Partners"
+ },
+ "andreas weiskam": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "SAP"
+ },
+ "andrei brasoveanu": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Accel"
+ },
+ "andres rené": {
+  "inv": true,
+  "title": "VC Fund of Fund Investor",
+  "city": "Trier",
+  "company": "European Investment Fund (EIF)"
+ },
+ "andrew mccormack": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "New York",
+  "company": "Valar Ventures"
+ },
+ "andrew o'neill": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Dublin",
+  "company": "Act Venture Capital"
+ },
+ "andrew williamson": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Cambridge",
+  "company": "Cambridge Innovation Capital"
+ },
+ "andré dubois": {
+  "inv": true,
+  "title": "General Counsel",
+  "city": "London",
+  "company": "Index Ventures"
+ },
+ "andy champion": {
+  "inv": true,
+  "title": "Global Head of Enterprise Sales",
+  "city": "London",
+  "company": "Atlassian"
+ },
+ "anett posza": {
+  "inv": false,
+  "title": "Head of Office Management",
+  "city": "London",
+  "company": "Target Global"
+ },
+ "angela strange": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "San Francisco",
+  "company": "Andreessen Horowitz"
+ },
+ "ani mouradyan": {
+  "inv": true,
+  "city": "London",
+  "company": "Hummingbird"
+ },
+ "anil parekh": {
+  "inv": true,
+  "title": "Global Vice President, Strategic Partnerships Business Development",
+  "city": "London",
+  "company": "SAP"
+ },
+ "ankit prasad": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "New York",
+  "company": "LionTree"
+ },
+ "ann-christin stiehl": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Munich",
+  "company": "HV"
+ },
+ "anna cachadina": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Crane Venture Partners"
+ },
+ "anna faulkner": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Headline"
+ },
+ "anna lauring": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "Athens",
+  "company": "VentureFriends"
+ },
+ "anna serafini": {
+  "inv": true,
+  "title": "Principal / Head of Private Equity",
+  "city": "Barcelona",
+  "company": "Amundi Alpha Associates"
+ },
+ "anna sweetman": {
+  "inv": true,
+  "title": "Investor",
+  "company": "Unilever Ventures"
+ },
+ "anne-charlotte philbert": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "Paris",
+  "company": "Eurazeo"
+ },
+ "anne-sophie krechting": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Berlin",
+  "company": "Atlantic"
+ },
+ "annmarie singh": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Boston",
+  "company": "Elephant"
+ },
+ "annukka käsnänen": {
+  "inv": true,
+  "title": "Senior Legal Counsel",
+  "city": "Helsinki",
+  "company": "Tesi"
+ },
+ "anoushka vaswani": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners"
+ },
+ "anthony kail": {
+  "inv": true,
+  "title": "Investment Banking Vice President",
+  "city": "New York",
+  "company": "LionTree"
+ },
+ "ander": {
+  "inv": null,
+  "company": "Cambridge Judge Business School"
+ },
+ "andra": {
+  "inv": null,
+  "company": "FIRSTPICK"
+ },
+ "andrea": {
+  "inv": null,
+  "company": "Moonfire"
+ },
+ "andrea guariglia": {
+  "inv": null,
+  "company": "Dawn Capital"
+ },
+ "andrea seelig": {
+  "inv": null,
+  "company": "Yttrium"
+ },
+ "andreas": {
+  "inv": null,
+  "company": "FinTech Collective"
+ },
+ "andreas tuczka": {
+  "inv": null,
+  "company": "Aldridge Capital Partners"
+ },
+ "andrew bentley": {
+  "inv": null,
+  "company": "Microsoft"
+ },
+ "andrew reason": {
+  "inv": null,
+  "company": "Partech"
+ },
+ "andy chung": {
+  "inv": null,
+  "company": "Tiny Supercomputer Investment Company"
+ },
+ "andy hunt": {
+  "inv": null,
+  "company": "Elephant"
+ },
+ "aneesha raghunathan": {
+  "inv": null,
+  "company": "Susquehanna Growth Equity (SGE)"
+ },
+ "anna kalon yasuhara-macer": {
+  "inv": null,
+  "company": "Hedosophia"
+ },
+ "anna marshall": {
+  "inv": null,
+  "company": "Raven Partners LLP"
+ },
+ "anna ott": {
+  "inv": null,
+  "company": "HV"
+ },
+ "anna schulte": {
+  "inv": null,
+  "company": "Armira"
+ },
+ "anthony dann": {
+  "inv": null,
+  "company": "Deel"
+ },
+ "anthony danon": {
+  "inv": null,
+  "company": "Rerail"
+ },
+ "antoine boulin": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Los Angeles",
+  "company": "Red River West"
+ },
+ "antoine pruvot": {
+  "inv": true,
+  "title": "Chief Financial Officer",
+  "city": "Paris",
+  "company": "Emblem"
+ },
+ "anya": {
+  "inv": null,
+  "company": "Sapphire Ventures"
+ },
+ "anya brochier": {
+  "inv": true,
+  "title": "Senior Marketing & Communications Associate",
+  "city": "Paris",
+  "company": "Elaia"
+ },
+ "anya rajani": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "Sapphire Ventures"
+ },
+ "aoife": {
+  "inv": null,
+  "company": "Twin Path Ventures"
+ },
+ "aquiles avila": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "Sao Paulo",
+  "company": "LTS Investments"
+ },
+ "ara yeromian": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Ontario Teachers' Pension Plan"
+ },
+ "archie jones": {
+  "inv": true,
+  "title": "Technology Investing",
+  "city": "London",
+  "company": "TCV"
+ },
+ "arda kirkagac": {
+  "inv": true,
+  "title": "Senior Associate",
+  "city": "London",
+  "company": "Bek Ventures"
+ },
+ "ari rosenstein": {
+  "inv": true,
+  "title": "Investment Banking Analyst",
+  "city": "New York",
+  "company": "LionTree"
+ },
+ "arina andronov": {
+  "inv": false,
+  "title": "Senior Executive Assistant",
+  "city": "Tel Aviv",
+  "company": "Pitango"
+ },
+ "arjun mehta": {
+  "inv": true,
+  "title": "Senior Advisor",
+  "city": "New York",
+  "company": "Insight Partners"
+ },
+ "arnaud hochart": {
+  "inv": true,
+  "title": "Head of Portfolio Revenue",
+  "city": "Paris",
+  "company": "BREEGA"
+ },
+ "arnaud sutter": {
+  "inv": true,
+  "title": "ECM Associate",
+  "city": "London",
+  "company": "Morgan Stanley"
+ },
+ "arne tonning": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Oslo",
+  "company": "Alliance VC"
+ },
+ "arnon dinur": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Tel Aviv",
+  "company": "83NORTH"
+ },
+ "arsalan ahmed": {
+  "inv": null,
+  "company": "Mastercard"
+ },
+ "arthur": {
+  "inv": null,
+  "company": "Frenchfounders"
+ },
+ "arthur paleologos": {
+  "inv": null,
+  "company": "Insight Partners"
+ },
+ "arvind": {
+  "inv": null,
+  "company": "Calculus Capital"
+ },
+ "asha mistry": {
+  "inv": null,
+  "company": "Lakestar"
+ },
+ "ashaggarwal": {
+  "inv": null,
+  "company": "PayPal"
+ },
+ "asheque shams": {
+  "inv": true,
+  "title": "Chief Executive Officer & Founder",
+  "city": "London",
+  "company": "Abingdon"
+ },
+ "ashley paston": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "General Catalyst"
+ },
+ "ashna ahmad": {
+  "inv": null,
+  "company": "Oxx"
+ },
+ "ask nørgaard": {
+  "inv": true,
+  "title": "Director",
+  "city": "Copenhagen",
+  "company": "Verdane"
+ },
+ "asseri lehtiniemi": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Helsinki",
+  "company": "Tesi"
+ },
+ "atiyu mehta": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Dawn Capital"
+ },
+ "attilio leccisotti": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Oxford",
+  "company": "Mishcon de Reya LLP"
+ },
+ "aude steinberg": {
+  "inv": true,
+  "title": "Head of Legal",
+  "city": "Paris",
+  "company": "Alven"
+ },
+ "audrey miller": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Tapestry"
+ },
+ "austin liang": {
+  "inv": null,
+  "company": "ICONIQ"
+ },
+ "austin meacham": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "Sentinel Global"
+ },
+ "avalon lee-bacon": {
+  "inv": true,
+  "title": "Director of Talent",
+  "city": "London",
+  "company": "Dawn Capital"
+ },
+ "avandamme": {
+  "inv": null,
+  "company": "Bain Capital"
+ },
+ "avid duggan": {
+  "inv": true,
+  "title": "Senior Managing Director, Teachers' Venture Growth",
+  "city": "London",
+  "company": "Ontario Teachers Pension Plan"
+ },
+ "awelponer": {
+  "inv": null,
+  "company": "Notion Capital"
+ },
+ "awoon": {
+  "inv": null,
+  "company": "Coatue Management"
+ },
+ "axelle decoutere": {
+  "inv": true,
+  "title": "Growth Equity",
+  "city": "London",
+  "company": "Blackstone"
+ },
+ "aya murr": {
+  "inv": true,
+  "title": "Growth Investor",
+  "city": "Paris",
+  "company": "Partech"
+ },
+ "ayala ples": {
+  "inv": true,
+  "title": "Head of Platform",
+  "city": "London",
+  "company": "Crane Venture Partners"
+ },
+ "aydin senkut": {
+  "inv": true,
+  "title": "Founder and Managing Partner",
+  "city": "San Francisco",
+  "company": "Felicis"
+ },
+ "aymeric duhamel": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Paris",
+  "company": "InfraVia Capital Partners"
+ },
+ "aziz rahman": {
+  "inv": null,
+  "company": "Business Finland"
+ },
+ "aziza zakhidova": {
+  "inv": true,
+  "title": "Venture and Growth Investor",
+  "city": "London",
+  "company": "EBRD"
+ },
+ "baltrusch caroline": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Berlin",
+  "company": "XAnge"
+ },
+ "bar kozlovsky": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Tel Aviv",
+  "company": "XT Group"
+ },
+ "bardo droege": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "468 Capital"
+ },
+ "bartosz jakubowski": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Paris",
+  "company": "Alven"
+ },
+ "bat chen green": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Tel Aviv",
+  "company": "General Atlantic"
+ },
+ "bb": {
+  "inv": null,
+  "company": "Hedosophia"
+ },
+ "bbb office": {
+  "inv": null,
+  "company": "British Business Investments"
+ },
+ "beatrice aliprandi": {
+  "inv": true,
+  "title": "Chief Revenue Officer",
+  "company": "Praktika.ai"
+ },
+ "beatrice rellman": {
+  "inv": true,
+  "title": "General Counsel",
+  "city": "Stockholm",
+  "company": "Creandum"
+ },
+ "bella rose silk": {
+  "inv": null,
+  "company": "General Atlantic"
+ },
+ "bemert jennifer": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "XAnge"
+ },
+ "ben blume": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Atomico"
+ },
+ "ben cheng": {
+  "inv": true,
+  "title": "Chief Executive Officer",
+  "city": "Hong Kong",
+  "company": "C Capital"
+ },
+ "ben clark": {
+  "inv": true,
+  "title": "Associate",
+  "city": "London",
+  "company": "Lakestar"
+ },
+ "ben dooley": {
+  "inv": true,
+  "title": "Chief Financial Officer",
+  "city": "Palo Alto",
+  "company": "Accel"
+ },
+ "ben fletcher": {
+  "inv": null,
+  "company": "Accel"
+ },
+ "ben gammon": {
+  "inv": true,
+  "title": "Co-Founder & General Partner",
+  "city": "London",
+  "company": "Pledge Ventures"
+ },
+ "ben johnson": {
+  "inv": true,
+  "title": "Operations Partner",
+  "city": "London",
+  "company": "Chalfen Ventures"
+ },
+ "ben lawrence": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Investec"
+ },
+ "ben marrel": {
+  "inv": true,
+  "title": "CEO & Cofounder",
+  "city": "London",
+  "company": "BREEGA"
+ },
+ "ben palmer": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Oxx"
+ },
+ "ben takowsky": {
+  "inv": true,
+  "title": "Investment Banking Associate",
+  "city": "New York",
+  "company": "Lazard"
+ },
+ "ben wright": {
+  "inv": true,
+  "title": "GTM Venture Partner",
+  "city": "London",
+  "company": "Crane Venture Partners"
+ },
+ "benjamin arndt": {
+  "inv": true,
+  "title": "Technology Investor",
+  "city": "Stockholm",
+  "company": "EQT Group"
+ },
+ "benjamin bieler": {
+  "inv": null,
+  "company": "Ventech"
+ },
+ "benjamin cohen": {
+  "inv": null,
+  "company": "Inter Invest Capital"
+ },
+ "benjamin dezube": {
+  "inv": true,
+  "title": "Software Investor",
+  "city": "Kansas City",
+  "company": "Five Elms Capital"
+ },
+ "benjamin kleinschnitz": {
+  "inv": true,
+  "title": "Senior Investment Manager",
+  "city": "Munich",
+  "company": "Alstin Capital"
+ },
+ "benoist grossmann": {
+  "inv": true,
+  "title": "CEO Eurazeo Investment Manager",
+  "city": "Paris",
+  "company": "Eurazeo"
+ },
+ "benoit fouilland": {
+  "inv": true,
+  "title": "Chief Financial Officer",
+  "city": "Paris",
+  "company": "Celonis"
+ },
+ "bernard liautaud": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "Balderton"
+ },
+ "bernardo": {
+  "inv": null,
+  "company": "Mouro Capital"
+ },
+ "bernd schafberger": {
+  "inv": true,
+  "title": "Head of Venture Capital Investments",
+  "city": "Regensburg",
+  "company": "Bayern Kapital"
+ },
+ "bernhard janke": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "468 Capital"
+ },
+ "bertrand cyril": {
+  "inv": true,
+  "title": "CEO & Managing Partner",
+  "city": "Paris",
+  "company": "XAnge"
+ },
+ "bertrand diard": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Paris",
+  "company": "Serena"
+ },
+ "bharat sajnani": {
+  "inv": true,
+  "title": "Head of Corporate Development and New Platforms",
+  "city": "New York",
+  "company": "Datadog"
+ },
+ "bhewitt": {
+  "inv": null,
+  "company": "Relationship Investments Inc"
+ },
+ "bianca kellaway": {
+  "inv": null,
+  "company": "BlackRock"
+ },
+ "bilal baloch": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Abu Dhabi",
+  "company": "Shorooq"
+ },
+ "bill corfield": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Love Ventures"
+ },
+ "billy fox": {
+  "inv": true,
+  "title": "Early-stage Investor",
+  "city": "London",
+  "company": "Active Partners"
+ },
+ "bjorn tremmerie": {
+  "inv": true,
+  "title": "Head of Venture Capital and Impact Investing",
+  "city": "Luxembourg",
+  "company": "European Investment Fund (EIF)"
+ },
+ "björn beckman": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Stockholm",
+  "company": "Verdane"
+ },
+ "björn heinz": {
+  "inv": true,
+  "title": "Investment Director, Yara Growth Ventures",
+  "city": "Frankfurt",
+  "company": "Yara International"
+ },
+ "björn nilsen": {
+  "inv": true,
+  "title": "Principal",
+  "company": "Heartcore Capital"
+ },
+ "bob thomas": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Stockholm",
+  "company": "Oxx"
+ },
+ "bodi": {
+  "inv": null,
+  "company": "Heartcore Capital"
+ },
+ "bodi tent": {
+  "inv": null,
+  "company": "Heartcore"
+ },
+ "bohdan svyrydov": {
+  "inv": true,
+  "title": "Principal",
+  "company": "Horizon Capital"
+ },
+ "boris golden": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Paris",
+  "company": "Partech"
+ },
+ "borja breña": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Madrid",
+  "company": "Nauta"
+ },
+ "brad scott": {
+  "inv": null,
+  "company": "Maven Capital Partners"
+ },
+ "brandon coll": {
+  "inv": null,
+  "company": "Lazard"
+ },
+ "brenda newmann": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "New York",
+  "company": "Datadog"
+ },
+ "brett browman": {
+  "inv": true,
+  "title": "Growth Operating Partner",
+  "city": "San Francisco",
+  "company": "Khosla Ventures"
+ },
+ "brian peters": {
+  "inv": true,
+  "title": "Director Corporate Development",
+  "city": "San Francisco",
+  "company": "Datadog"
+ },
+ "brian roberts": {
+  "inv": null,
+  "company": "Andreessen Horowitz"
+ },
+ "brs": {
+  "inv": null,
+  "company": "Seaya"
+ },
+ "bruno du breuil": {
+  "inv": true,
+  "title": "Senior Associate - Growth",
+  "company": "IRIS"
+ },
+ "bruno raillard": {
+  "inv": true,
+  "title": "Co-founder & Partner",
+  "city": "Paris",
+  "company": "Frst"
+ },
+ "bryan e rich": {
+  "inv": null,
+  "company": "Accenture"
+ },
+ "bryton hewitt": {
+  "inv": null,
+  "company": "Relationship Investments Inc"
+ },
+ "btent": {
+  "inv": null,
+  "company": "Accel"
+ },
+ "bulent altan": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "Alpine Space Ventures"
+ },
+ "buresboenstroem valérie": {
+  "inv": true,
+  "title": "Partner & Managing Director of DACH",
+  "city": "Berlin",
+  "company": "XAnge"
+ },
+ "c arndt": {
+  "inv": null,
+  "company": "HTGF | High-Tech Gründerfonds"
+ },
+ "callum westwood": {
+  "inv": null,
+  "company": "Raven Partners LLP"
+ },
+ "calvin yeoh": {
+  "inv": null,
+  "company": "ICONIQ"
+ },
+ "cam": {
+  "inv": null,
+  "company": "Branded Hospitality"
+ },
+ "cameron follows": {
+  "inv": null,
+  "company": "Healthcare"
+ },
+ "cameron sellers": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "San Francisco",
+  "company": "Creandum"
+ },
+ "camilla gaetani": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Marlin Equity Partners"
+ },
+ "camilla hellgren": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Stockholm",
+  "company": "EQT Ventures"
+ },
+ "camilla yahaya": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "New York",
+  "company": "BlackRock"
+ },
+ "camille": {
+  "inv": null,
+  "company": "STATION F"
+ },
+ "camille aubery": {
+  "inv": null,
+  "company": "Station F"
+ },
+ "camille cros": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Paris",
+  "company": "Yellow"
+ }
 }
