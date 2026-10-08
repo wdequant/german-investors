@@ -5721,5 +5721,2724 @@
    }
   ],
   "headcount": 10
+ },
+ "13bookscapital.com": {
+  "urn": "urn:harmonic:company:687130",
+  "desc": "The company provides financial technology solutions aimed at enhancing B2B payment processes while ensuring compliance with European insurance regulations.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 9
+ },
+ "2150.vc": {
+  "urn": "urn:harmonic:company:2213349",
+  "desc": "The company focuses on investing in transformative technologies across various sectors, including energy, industrial decarbonization, advanced manufacturing, and mobility solutions.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Christian Jølck",
+    "t": "Co-founder and Partner"
+   },
+   {
+    "n": "Jacob Bro",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Christian Hernandez Gallardo",
+    "t": "Co-founder & Partner"
+   },
+   {
+    "n": "Alexander Kielland",
+    "t": "COO"
+   }
+  ],
+  "headcount": 25
+ },
+ "7pc.vc": {
+  "urn": "urn:harmonic:company:3268126",
+  "desc": "The company focuses on investing in transformative technologies that have the potential to dominate large markets, particularly in early-stage ventures.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Andrew J Scott",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 8
+ },
+ "83north.com": {
+  "urn": "urn:harmonic:company:717268",
+  "desc": "83North is a global venture capital firm with more than $2B under management that invests in European and Israeli entrepreneurs creating global businesses.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Maayan Sharon",
+    "t": "VP Finance"
+   },
+   {
+    "n": "Simona Cohen",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 16
+ },
+ "accel.com": {
+  "urn": "urn:harmonic:company:703319",
+  "desc": "Accel is a global venture capital firm that is the first partner to exceptional teams everywhere, from inception through all phases of private company growth.",
+  "city": "Palo Alto",
+  "country": "United States",
+  "team": [
+   {
+    "n": "Arthur Patterson",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Jim Swartz",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Andrew Braccia",
+    "t": "Partner"
+   },
+   {
+    "n": "Sally Roberts",
+    "t": "General Counsel"
+   },
+   {
+    "n": "Khan Zainahmed",
+    "t": "Chief Risk Officer (CRO)"
+   },
+   {
+    "n": "Sudheeksha M.",
+    "t": "Chief Risk Officer（CRO）"
+   },
+   {
+    "n": "Adarsh Shukla",
+    "t": "CRO"
+   },
+   {
+    "n": "Vinod Kumar Menon",
+    "t": "General Counsel"
+   },
+   {
+    "n": "Matt Weigand",
+    "t": "Partner"
+   },
+   {
+    "n": "Jaspreet Singh",
+    "t": "Tax Manager"
+   }
+  ],
+  "headcount": 1314
+ },
+ "indexventures.com": {
+  "urn": "urn:harmonic:company:770022",
+  "desc": "Index Ventures partners with exceptional entrepreneurs – those with unique insight who are intrinsically driven to make their vision a reality.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Neil Rimer",
+    "t": "General Partner, Founder"
+   },
+   {
+    "n": "Giuseppe Zocco",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "André Dubois",
+    "t": "General Counsel"
+   },
+   {
+    "n": "Ana Andreescu",
+    "t": "VP, Marketing and Comms"
+   },
+   {
+    "n": "Georgia Stevenson",
+    "t": "Partner"
+   },
+   {
+    "n": "Sandra Schwarzer",
+    "t": "Vice President, C-Suite/Board & EU Talent & Insights Team leader"
+   },
+   {
+    "n": "Adrianna Ma",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Alexandra Fisher Sweet",
+    "t": "Vice President, People"
+   },
+   {
+    "n": "Joseph Stolerman",
+    "t": "VP, Europe Legal (Investments)"
+   },
+   {
+    "n": "Simon Cunningham",
+    "t": "Chief Financial and Administration Officer"
+   }
+  ],
+  "headcount": 84
+ },
+ "balderton.com": {
+  "urn": "urn:harmonic:company:670743",
+  "desc": "Balderton is a multistage venture firm with 25 years of experience supporting Europe’s best founders from Seed to IPO.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Bernard Liautaud",
+    "t": "Managing Partner"
+   },
+   {
+    "n": "Fiona Blakemore",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Dave Kellogg",
+    "t": "Executive In Residence"
+   },
+   {
+    "n": "Adrian Rainey",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Rachel Bremer",
+    "t": "Chief Marketing and Communications Officer"
+   },
+   {
+    "n": "Andrew Wigfall",
+    "t": "Executive In Residence"
+   },
+   {
+    "n": "Dan Teodosiu",
+    "t": "Executive in Residence"
+   },
+   {
+    "n": "Leah Sutton",
+    "t": "Chief Portfolio Talent Officer"
+   }
+  ],
+  "headcount": 94
+ },
+ "atomico.com": {
+  "urn": "urn:harmonic:company:719230",
+  "desc": "Atomico is the founder-built European venture capital firm.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Niklas Zennström",
+    "t": "CEO & Founding Partner"
+   },
+   {
+    "n": "Ben Blume",
+    "t": "Partner"
+   },
+   {
+    "n": "Chris Barnes",
+    "t": "Partner & Chief Operating Officer"
+   },
+   {
+    "n": "Alison Smith",
+    "t": "Chief of Staff"
+   },
+   {
+    "n": "Joen Bonnier",
+    "t": "Partner"
+   },
+   {
+    "n": "Caroline Chayot",
+    "t": "Talent Partner and Chief People Officer"
+   },
+   {
+    "n": "Kasit Rochanakorn",
+    "t": "Partner & General Counsel"
+   },
+   {
+    "n": "Konstantin Zedelius",
+    "t": "Senior Associate"
+   },
+   {
+    "n": "Mathieu Marc",
+    "t": "Vice President"
+   },
+   {
+    "n": "Luca Eisenstecken",
+    "t": "Partner"
+   }
+  ],
+  "headcount": 117
+ },
+ "dawncapital.com": {
+  "urn": "urn:harmonic:company:737526",
+  "desc": "Dawn is Europe’s leading specialist B2B software investor, with total commitments of $2bn.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Haakon Overli",
+    "t": "General Partner"
+   },
+   {
+    "n": "Norman Fiore",
+    "t": "Founder and General Partner"
+   },
+   {
+    "n": "Alex Goodway",
+    "t": "CFO"
+   },
+   {
+    "n": "Roméo Walter",
+    "t": "Vice President"
+   },
+   {
+    "n": "Seyon Indran",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 44
+ },
+ "pluralplatform.com": {
+  "urn": "urn:harmonic:company:6833648",
+  "desc": "Plural is an early-stage investment fund that backs the most ambitious founders on a mission to change the world through technology.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Khaled Helioui",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 30
+ },
+ "localglobe.vc": {
+  "urn": "urn:harmonic:company:621088",
+  "desc": "We've seeded impactful founders since 1999 at places like Citymapper, Improbable, Lovefilm, Moo, Wise and Zoopla.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Saul Klein",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Robin Klein",
+    "t": "Co-Founder. General Partner"
+   },
+   {
+    "n": "Rose Mccourt",
+    "t": "Operations Manager"
+   }
+  ],
+  "headcount": 32
+ },
+ "seedcamp.com": {
+  "urn": "urn:harmonic:company:614647",
+  "desc": "Seedcamp is a European venture capital fund, investing early in Europe's next generation of global companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Saul Klein",
+    "t": "Co-founder"
+   },
+   {
+    "n": "Carlos Eduardo Espinal Mbe",
+    "t": "Managing Partner"
+   },
+   {
+    "n": "Tom Wilson",
+    "t": "Partner"
+   },
+   {
+    "n": "Antonia Whitecourt",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 36
+ },
+ "sequoiacap.com": {
+  "urn": "urn:harmonic:company:3673701",
+  "desc": "Sequoia helps daring founders build legendary companies from idea to IPO and beyond.",
+  "city": "Menlo Park",
+  "country": "United States",
+  "team": [
+   {
+    "n": "Don Valentine",
+    "t": "Founder"
+   },
+   {
+    "n": "Harris Bellamy",
+    "t": "Venture Capital and Management"
+   },
+   {
+    "n": "Mary Glide",
+    "t": "VP of Technology"
+   },
+   {
+    "n": "Gary Li",
+    "t": "VP"
+   },
+   {
+    "n": "Jiang Liang",
+    "t": "vice president"
+   },
+   {
+    "n": "Molly Xiao 肖茉莉",
+    "t": "Vice President"
+   },
+   {
+    "n": "Ian Qian",
+    "t": "Vice President"
+   },
+   {
+    "n": "Ellicia Li",
+    "t": "Vice President"
+   },
+   {
+    "n": "Fan Helen",
+    "t": "VP"
+   }
+  ],
+  "headcount": 214
+ },
+ "octopusventures.com": {
+  "urn": "urn:harmonic:company:668012",
+  "desc": "Octopus Ventures focuses on investing in companies across various sectors, including B2B Software, Bio, Climate, Consumer, Deep Tech, Fintech, and Health, targeting innovations that address significant global challenges.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Erin Platts",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Peter Globokar",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Jamie Kennell",
+    "t": "Senior Partner - Head of Portfolio Strategy"
+   },
+   {
+    "n": "Jim Watts",
+    "t": "Consultant"
+   }
+  ],
+  "headcount": 91
+ },
+ "notioncapital.com": {
+  "urn": "urn:harmonic:company:640849",
+  "desc": "Notion Capital offers a platform designed to support founders and their teams throughout the growth journey from $1 million to $100 million in revenue, providing resources such as comprehensive training, operational support, and a network of experts.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Chris Tottman",
+    "t": "General Partner"
+   },
+   {
+    "n": "Ian Milbourn",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Stephen Chandler",
+    "t": "Co-Founder & Managing Partner"
+   },
+   {
+    "n": "Ben White",
+    "t": "Founder Partner"
+   },
+   {
+    "n": "Krzysztof Jakubowski",
+    "t": "Vice President"
+   },
+   {
+    "n": "Thomas Diehl",
+    "t": "Vice President"
+   },
+   {
+    "n": "Andreas Panayiotou",
+    "t": "Operating Partner"
+   }
+  ],
+  "headcount": 54
+ },
+ "generalcatalyst.com": {
+  "urn": "urn:harmonic:company:1881527",
+  "desc": "The company focuses on creating and transforming businesses through applied AI, addressing unmet needs across various sectors by partnering with founders to develop innovative solutions.",
+  "city": "San Francisco",
+  "country": "United States",
+  "team": [
+   {
+    "n": "David Fialkow",
+    "t": "Co-founder and Managing Director"
+   },
+   {
+    "n": "Robert Gierkink",
+    "t": "Venture Partner"
+   },
+   {
+    "n": "Paul Verrochi",
+    "t": "Executive in Residence/Partner"
+   },
+   {
+    "n": "Christopher Mccain",
+    "t": "Chief Legal Officer"
+   },
+   {
+    "n": "Yuchun Lee",
+    "t": "XIR -- Executive Partner"
+   },
+   {
+    "n": "Rich Gliklich",
+    "t": "XIR & Partner"
+   },
+   {
+    "n": "Boomer Dell",
+    "t": "Chief Compliance Officer"
+   },
+   {
+    "n": "Anna Geor",
+    "t": "VP Business Administration"
+   },
+   {
+    "n": "Hemant Taneja",
+    "t": "CEO"
+   },
+   {
+    "n": "Paul Fielding",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 367
+ },
+ "moltenventures.com": {
+  "urn": "urn:harmonic:company:756071",
+  "desc": "Molten Ventures is a venture capital firm that invests in high-growth technology companies across various sectors, including Enterprise & SaaS, Deeptech & Hardware, HealthTech, and Consumer technology.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Benjamin Wilkinson",
+    "t": "CFO"
+   },
+   {
+    "n": "Ben Wilkinson",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Chantal Cantle Mcipd 🎗️",
+    "t": "Chief People Officer"
+   },
+   {
+    "n": "Malcolm Ferguson",
+    "t": "Partner, Secondaries"
+   }
+  ],
+  "headcount": 66
+ },
+ "lsvp.com": {
+  "urn": "urn:harmonic:company:662045",
+  "desc": "Lightspeed Venture Partners is a venture capital firm that invests in innovative companies across various stages, focusing on disruptive technologies and trends.",
+  "city": "Menlo Park",
+  "country": "United States",
+  "team": [
+   {
+    "n": "Peter Nieh",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Barry Eggers",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Ravi Mhatre",
+    "t": "Founder, Managing Director"
+   },
+   {
+    "n": "Andrew Moley",
+    "t": "Operating Partner/Chief Financial Officer"
+   },
+   {
+    "n": "Herry Han",
+    "t": "Cofounder and Partner"
+   },
+   {
+    "n": "Luke Beseda",
+    "t": "VP, Talent Infrastructure"
+   },
+   {
+    "n": "Cat Flanagan",
+    "t": "Vice President, Early Stage"
+   },
+   {
+    "n": "Brett Nissenberg",
+    "t": "Partner and General Counsel"
+   },
+   {
+    "n": "Morgan Worth",
+    "t": "Partner, Legal"
+   },
+   {
+    "n": "Kelvin Wambui",
+    "t": "Commercial Investment Partner | Senior Partner, Audit and Risk Committee (Semi-retired)"
+   }
+  ],
+  "headcount": 504
+ },
+ "onepeak.tech": {
+  "urn": "urn:harmonic:company:1498148",
+  "desc": "The main product is a proprietary data platform that utilizes advanced AI, machine learning, and automation workflows to enhance investment decision-making by providing insights ahead of typical market signals.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "David Klein",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Mario Mazarese",
+    "t": "Partner and CFO"
+   }
+  ],
+  "headcount": 37
+ },
+ "hoxtonventures.com": {
+  "urn": "urn:harmonic:company:2161846",
+  "desc": "We take risks on brilliant people and products.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Robert Ludwig",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Rob Kniaz",
+    "t": "Partner Emeritus"
+   }
+  ],
+  "headcount": 9
+ },
+ "firstminute.capital": {
+  "urn": "urn:harmonic:company:3185522",
+  "desc": "The company operates as a seed fund focused on investing in early-stage technology startups, particularly in verticals such as artificial intelligence and deep tech.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Spencer Crawley",
+    "t": "Managing Partner & Co-Founder"
+   },
+   {
+    "n": "Amelia Marsh",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Wendy Mitchell",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Brent Hoberman",
+    "t": "Co-Founder and Executive Chair"
+   },
+   {
+    "n": "Min Nolan",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Timian Brierley",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 12
+ },
+ "felixcap.com": {
+  "urn": "urn:harmonic:company:738941",
+  "desc": "The company operates as a venture capital firm focused on investing in consumer brands and enabling technologies that enhance digital lifestyles.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Antoine Nussenbaum",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Frederic Court",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 31
+ },
+ "eightroads.com": {
+  "urn": "urn:harmonic:company:712836",
+  "desc": "Eight Roads Ventures is a global venture capital firm backed by Fidelity that helps entrepreneurs scale.",
+  "city": "Bangalore",
+  "country": "India",
+  "team": [
+   {
+    "n": "Bo Zhu",
+    "t": "Vice President"
+   },
+   {
+    "n": "Allen Huo",
+    "t": "Vice President"
+   },
+   {
+    "n": "Allen (Feilong) Huo",
+    "t": "Vice President"
+   },
+   {
+    "n": "Dan O' Toole",
+    "t": "Vice President"
+   },
+   {
+    "n": "Haoming Zhang",
+    "t": "Vice President"
+   },
+   {
+    "n": "Liena Suzuki",
+    "t": "Vice President"
+   },
+   {
+    "n": "Zhifan(April) Hu",
+    "t": "Vice President Healthcare (Therapeutics & Incubation)"
+   },
+   {
+    "n": "Antonin Gury",
+    "t": "Vice President"
+   },
+   {
+    "n": "Abhishek Jain",
+    "t": "Vice President"
+   },
+   {
+    "n": "Arjun S.",
+    "t": "Vice President, Healthcare Investments"
+   }
+  ],
+  "headcount": 158
+ },
+ "thetwentyminutevc.com": {
+  "urn": "urn:harmonic:company:4185331",
+  "desc": "Twenty VC LLP",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Harry Stebbings",
+    "t": "Founder"
+   },
+   {
+    "n": "Kieran Hill",
+    "t": "General Partner"
+   },
+   {
+    "n": "Paul Bonnet",
+    "t": "General Partner"
+   },
+   {
+    "n": "Yanjie Long, Ca",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 24
+ },
+ "mmc.vc": {
+  "urn": "urn:harmonic:company:693583",
+  "desc": "The company focuses on investing in early-stage technology firms, particularly in sectors such as enterprise AI, fintech, data-driven health, and cloud infrastructure.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Simon Menashy",
+    "t": "General Partner"
+   },
+   {
+    "n": "Ameerul Miah",
+    "t": "Partner and CFO/COO"
+   },
+   {
+    "n": "Oliver Richards",
+    "t": "General Partner"
+   },
+   {
+    "n": "Alan Morgan",
+    "t": "Senior Adviser"
+   },
+   {
+    "n": "Bruce Macfarlane",
+    "t": "Founder Partner"
+   }
+  ],
+  "headcount": 31
+ },
+ "hummingbird.vc": {
+  "urn": "urn:harmonic:company:2182839",
+  "desc": "Hummingbird Ventures is an agile investor in entrepreneurial genius.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Barend Van Den Brande",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Firat Ileri",
+    "t": "Managing Partner"
+   },
+   {
+    "n": "Leen Demaegdt",
+    "t": "Chief of Staff"
+   }
+  ],
+  "headcount": 35
+ },
+ "blossomcap.com": {
+  "urn": "urn:harmonic:company:681360",
+  "desc": "Early stage capital is long-term strategy We bring relentless belief and powerful support to Europe’s most visionary founders Blossom's growing portfolio of companies represents the best of European tech talent and ambition.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Ophelia Brown",
+    "t": "Founder, Managing Partner"
+   },
+   {
+    "n": "Santiago Ribero",
+    "t": "Founder"
+   },
+   {
+    "n": "Ksenia Kokareva",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Marianne B.",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 13
+ },
+ "airstreet.com": {
+  "urn": "urn:harmonic:company:1504701",
+  "desc": "Air Street Capital is a venture capital firm investing in AI-first companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Phil Keslin",
+    "t": "Operating Partner"
+   }
+  ],
+  "headcount": 6
+ },
+ "iqcapital.vc": {
+  "urn": "urn:harmonic:company:736386",
+  "desc": "IQ Capital focuses on investing in deep tech companies that leverage scientific breakthroughs to create innovative products aimed at disrupting industrial norms and enhancing everyday life.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Max Bautin",
+    "t": "Managing Partner, co-founder"
+   },
+   {
+    "n": "Kerry Baldwin",
+    "t": "Managing Partner, co-founder"
+   },
+   {
+    "n": "Simon Hirtzel",
+    "t": "General Partner & COO"
+   }
+  ],
+  "headcount": 30
+ },
+ "crane.vc": {
+  "urn": "urn:harmonic:company:708905",
+  "desc": "The company focuses on backing founders in the enterprise technology sector, particularly in areas such as deep tech, fintech, healthcare, and hardware, providing resources and strategic guidance from inception through seed stages.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Scott Sage",
+    "t": "Co-founder and Partner"
+   },
+   {
+    "n": "Krishna Visvanathan",
+    "t": "Co-founder & Partner"
+   },
+   {
+    "n": "Bonnie Kraus",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 38
+ },
+ "kindredcapital.vc": {
+  "urn": "urn:harmonic:company:762113",
+  "desc": "At Kindred we align our ambitions and achievements with our portfolio - in structure and in spirit.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 23
+ },
+ "connectventures.co": {
+  "urn": "urn:harmonic:company:757966",
+  "desc": "Connect Ventures is a London-based, Pan-European venture capital firm that leads pre-seed and seed rounds for outlier founders from day zero.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Pietro Bezza",
+    "t": "Co-Founder and Managing Partner"
+   },
+   {
+    "n": "Mark Pettit",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 20
+ },
+ "moonfire.com": {
+  "urn": "urn:harmonic:company:692769",
+  "desc": "Moonfire focuses on investing in early-stage companies that are developing innovative products across various sectors, including work, security, finance, and gaming, with an emphasis on leveraging data for improved access, efficiency, and service quality.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mattias Ljungman",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 16
+ },
+ "quantumlightcapital.com": {
+  "urn": "urn:harmonic:company:4197957",
+  "desc": "QuantumLight offers a proprietary AI system that analyzes over 10 billion data points from 700,000 venture-backed companies to identify successful growth patterns and enhance investment performance.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Ilya Kondrashov",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Garret Loporto",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 37
+ },
+ "rtp.vc": {
+  "urn": "urn:harmonic:company:700452",
+  "desc": "A global, early-stage venture capital firm, backing ambitious founders who are reshaping the world with technology.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Leonid Boguslavsky",
+    "t": "Founder and Partner"
+   },
+   {
+    "n": "Maria Krajukhina",
+    "t": "Partner, COO"
+   },
+   {
+    "n": "Galina Chifina",
+    "t": "Partner/CEO"
+   },
+   {
+    "n": "Tom Sheridan",
+    "t": "Investor"
+   },
+   {
+    "n": "Jelmer De Jong",
+    "t": "Chief Technology Officer"
+   },
+   {
+    "n": "Ewa Kompowska",
+    "t": "VP, Investment Team"
+   },
+   {
+    "n": "Smita Goel",
+    "t": "Director Finance, Tax and Compliance"
+   }
+  ],
+  "headcount": 48
+ },
+ "amadeuscapital.com": {
+  "urn": "urn:harmonic:company:664171",
+  "desc": "Amadeus Capital Partners focuses on deep tech venture capital, investing in companies across three primary technology areas: Intelligence, which includes AI, advanced computing, and quantum technologies; Human, which encompasses innovations in health, medicine, and wellness; and Planet, which targets sustainability, energy, and novel materials.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 40
+ },
+ "cic.vc": {
+  "urn": "urn:harmonic:company:615732",
+  "desc": "Cambridge Innovation Capital focuses on investing in disruptive deep-tech businesses, particularly in sectors such as artificial intelligence, internet of things, quantum technologies, therapeutics, medtech/diagnostics, digital health, and genomics/proteomics.",
+  "city": "Cambridge",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Rob Sprawson",
+    "t": "Partner & CFO"
+   },
+   {
+    "n": "Ian Jauncey",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Paul Anson",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Andy Neely",
+    "t": "Vice Chair"
+   }
+  ],
+  "headcount": 32
+ },
+ "dst-global.com": {
+  "urn": "urn:harmonic:company:1490163",
+  "desc": "DST Global is one of the leading Internet investment firms globally.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Yuri Milner",
+    "t": "Founder"
+   },
+   {
+    "n": "Michelle Johnson",
+    "t": "Vice President, Asia-Pacific"
+   },
+   {
+    "n": "Breck Hancock",
+    "t": "Partner, Chief Operating Officer"
+   },
+   {
+    "n": "Arihant Pamecha",
+    "t": "Vice President"
+   },
+   {
+    "n": "Michael Brogan",
+    "t": "Vice President"
+   },
+   {
+    "n": "Grace Geng",
+    "t": "Vice President"
+   },
+   {
+    "n": "Andrew Li",
+    "t": "Vice President"
+   },
+   {
+    "n": "Lipei (Richard) Zhang",
+    "t": "Vice President"
+   },
+   {
+    "n": "Yoseph Taslim",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 137
+ },
+ "frontline.vc": {
+  "urn": "urn:harmonic:company:735954",
+  "desc": "Frontline provides investment services through two distinct funds aimed at facilitating the growth of B2B technology companies in the US and Europe, focusing on both early-stage and expansion phases.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Natasha Morrison",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 21
+ },
+ "expedition.capital": {
+  "urn": "urn:harmonic:company:3100426",
+  "desc": "Expedition Growth Capital provides growth capital and shareholder liquidity investments specifically targeting rapidly growing software and AI companies, typically ranging from €10 million to €30 million.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Tom Denford",
+    "t": "Vice President"
+   },
+   {
+    "n": "Oliver Thomas",
+    "t": "Founder and Managing Partner"
+   },
+   {
+    "n": "Imogen Moore",
+    "t": "VP"
+   }
+  ],
+  "headcount": 30
+ },
+ "albion.vc": {
+  "urn": "urn:harmonic:company:1497085",
+  "desc": "AlbionVC supports visionary founders with long-term capital and scale-up expertise.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Janie Links",
+    "t": "People and Talent Operating Partner (Fractional)"
+   }
+  ],
+  "headcount": 60
+ },
+ "kennet.com": {
+  "urn": "urn:harmonic:company:628715",
+  "desc": "Kennet Partners specializes in providing growth capital to companies in the AI and AI services sector, focusing on those that integrate artificial intelligence into essential business workflows, such as contract intelligence and financial automation.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Neil Cooper",
+    "t": "Consultant CFO (Interim)"
+   }
+  ],
+  "headcount": 18
+ },
+ "chalfenventures.com": {
+  "urn": "urn:harmonic:company:777057",
+  "desc": "Chalfen Ventures is Mike Chalfen's VC firm.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 2
+ },
+ "hedosophia.com": {
+  "urn": "urn:harmonic:company:644495",
+  "desc": "Hedosophia's main product focuses on leveraging advanced financial technologies and regulatory compliance to support Internet and technology companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Ian Osborne",
+    "t": "Co-founder & CEO"
+   },
+   {
+    "n": "Simon Williams",
+    "t": "Chief Administrative Officer"
+   },
+   {
+    "n": "Peter Oldham",
+    "t": "Chief Technology Officer"
+   },
+   {
+    "n": "Ben Griffiths",
+    "t": "Managing Partner, CFO and COO"
+   },
+   {
+    "n": "Kristina L.",
+    "t": "Chief People Officer"
+   },
+   {
+    "n": "Philipp S.",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 78
+ },
+ "joinef.com": {
+  "urn": "urn:harmonic:company:701928",
+  "desc": "Entrepreneurs First specializes in talent investing, focusing on identifying and supporting exceptional individuals to co-found startups from the ground up.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Tom Shinner",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Matt Clifford",
+    "t": "Co-founder and non-executive Chair"
+   }
+  ],
+  "headcount": 1067
+ },
+ "parequity.com": {
+  "urn": "urn:harmonic:company:2019247",
+  "desc": "The company primarily engages in venture capital investments targeting high-growth technology sectors, particularly in enterprise software and deep tech.",
+  "city": "Edinburgh",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Prof. Paul A.",
+    "t": "Co-Founder & Partner"
+   }
+  ],
+  "headcount": 32
+ },
+ "oxfordscienceenterprises.com": {
+  "urn": "urn:harmonic:company:35121418",
+  "desc": "Oxford Science Enterprises (OSE) exists to transform Oxford’s cutting-edge scientific research into companies to tackle the world’s greatest challenges.",
+  "city": "Oxford",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Jim Wilkinson",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Craig Fox",
+    "t": "Operating Partner (Lifesciences)"
+   },
+   {
+    "n": "Jack Edmondson",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Edward Bussey",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Katherine Ward",
+    "t": "Entrepreneur in Residence"
+   },
+   {
+    "n": "Scott Ellis",
+    "t": "Scientific Operating Partner"
+   },
+   {
+    "n": "Antonia Jenkinson",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 65
+ },
+ "nautacapital.com": {
+  "urn": "urn:harmonic:company:642062",
+  "desc": "Nauta focuses on investing in early-stage B2B software companies across various sectors, including RetailTech, Fintech, HealthTech, and AI/ML.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Jordi Viñas",
+    "t": "Co-founder and General Partner"
+   },
+   {
+    "n": "Daniel Sanchez",
+    "t": "Co-founder and Venture Partner"
+   }
+  ],
+  "headcount": 41
+ },
+ "vitruvianpartners.com": {
+  "urn": "urn:harmonic:company:1490144",
+  "desc": "Vitruvian Partners is an international investment firm that supports the most ambitious and talented entrepreneurs and higher growth companies to achieve their goals.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "David Nahama",
+    "t": "Founder & Senior Partner"
+   },
+   {
+    "n": "Adrian Mitri",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Gary W.",
+    "t": "Vice President"
+   },
+   {
+    "n": "Liselotte Cornelissen",
+    "t": "Senior Vice President"
+   },
+   {
+    "n": "António Gomes",
+    "t": "Chief Compliance Officer"
+   },
+   {
+    "n": "Kerstin Remer",
+    "t": "Vice President Value Add"
+   },
+   {
+    "n": "Edward Foxon",
+    "t": "Senior Legal Counsel"
+   },
+   {
+    "n": "Kate Mccaw",
+    "t": "Vice President - Value Add"
+   },
+   {
+    "n": "Gary Chen",
+    "t": "Vice President"
+   },
+   {
+    "n": "Aljosha Ellmer",
+    "t": "Senior Vice President"
+   }
+  ],
+  "headcount": 168
+ },
+ "backed.vc": {
+  "urn": "urn:harmonic:company:603115",
+  "desc": "We invest in Europe's generational founders with global ambitions.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Alex Brunicki",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Andre De Haes",
+    "t": "Founder"
+   },
+   {
+    "n": "Vinay Chaudhri",
+    "t": "VP of Special Projects"
+   }
+  ],
+  "headcount": 22
+ },
+ "parkwalk.vc": {
+  "urn": "urn:harmonic:company:2135955",
+  "desc": "Parkwalk focuses on investing in deeptech innovations that emerge from UK universities, facilitating the transition of academic research into commercially viable solutions.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Alastair Kilgour",
+    "t": "Founder"
+   },
+   {
+    "n": "Moray Wright",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "John Pearson",
+    "t": "Investment Director"
+   }
+  ],
+  "headcount": 23
+ },
+ "ipgroupplc.com": {
+  "urn": "urn:harmonic:company:2139790",
+  "desc": "IP Group accelerates the impact of science for a better future.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Sina Jon",
+    "t": "Group CEO"
+   },
+   {
+    "n": "David Baynes",
+    "t": "COO"
+   },
+   {
+    "n": "Alistair Mccreadie",
+    "t": "Chief Investment Officer, Asia Pacific"
+   },
+   {
+    "n": "Greg Smith",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "George Van Horn, Cfa",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 249
+ },
+ "ahreninnovationcapital.com": {
+  "urn": "urn:harmonic:company:643789",
+  "desc": "Ahren Innovation Capital focuses on investing in companies that operate at the intersection of deep technology and deep science, with interests spanning Brain & AI, Genetics & Platform Technologies, Space & Robotics, and Efficient Energy.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Alice Newcombe-Ellis",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Peter Lourensz, Fca",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 14
+ },
+ "dig.ventures": {
+  "urn": "urn:harmonic:company:1502895",
+  "desc": "DIG Ventures focuses on investing in early-stage B2B software companies, particularly in the areas of SaaS and cloud infrastructure.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Ross Mason",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 7
+ },
+ "hgcapital.com": {
+  "urn": "urn:harmonic:company:605811",
+  "desc": "The company focuses on investing in and supporting businesses that leverage artificial intelligence to enhance workplace automation and professional productivity, particularly in mission-critical systems that manage complex workflows and proprietary data.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Steven Batchelor",
+    "t": "Managing Partner and Co-CEO"
+   },
+   {
+    "n": "Caroline Lofgren",
+    "t": "Head of Responsible Investment"
+   },
+   {
+    "n": "Joshua Haringman",
+    "t": "Cybersecurity Specialist/Fractional CISO"
+   },
+   {
+    "n": "Nick Hemmings",
+    "t": "Growth Operating Partner"
+   },
+   {
+    "n": "William Granruth",
+    "t": "Vice President"
+   },
+   {
+    "n": "Paul Zuber",
+    "t": "Operating Partner, North American Lead"
+   },
+   {
+    "n": "Christopher Maloof",
+    "t": "Operating Partner / Serial Chair"
+   },
+   {
+    "n": "Chris Jurasek",
+    "t": "Senior Operating Partner"
+   },
+   {
+    "n": "Isabella Gillström",
+    "t": "Vice President"
+   },
+   {
+    "n": "Victor Werkmeister",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 2214
+ },
+ "projecteurope.co": {
+  "urn": "urn:harmonic:company:75727792",
+  "desc": "Project Europe supports the development of advanced technologies across various sectors, including high-precision metal manufacturing, computer vision for retail operations, and brain-computer interface technology for robotic control.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Kitty Mayo",
+    "t": "Co-Founder, CEO"
+   },
+   {
+    "n": "Iwona Anna Biernat",
+    "t": "COO"
+   },
+   {
+    "n": "Jade Yarrow",
+    "t": "Co-founder / Chief of Staff"
+   }
+  ],
+  "headcount": 13
+ },
+ "greyhoundcapital.com": {
+  "urn": "urn:harmonic:company:674871",
+  "desc": "Greyhound is a specialist growth equity investment firm.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Luke Mccormack",
+    "t": "VP Finance"
+   },
+   {
+    "n": "Aakash G.",
+    "t": "VP"
+   }
+  ],
+  "headcount": 20
+ },
+ "northern-gritstone.com": {
+  "urn": "urn:harmonic:company:6759071",
+  "desc": "Northern Gritstone focuses on investing in science and technology startups, particularly in deep technology and life sciences, that demonstrate strong intellectual property and the potential for global impact.",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Duncan Johnson",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Marion Bernard",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "James Hadley",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Simon Braham",
+    "t": "Chief Investment Officer"
+   }
+  ],
+  "headcount": 33
+ },
+ "adaventures.com": {
+  "urn": "urn:harmonic:company:1499782",
+  "desc": "Ada Ventures is a pre-seed venture capital firm that invests in technology companies focused on climate equity, economic empowerment, and healthy aging.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 83
+ },
+ "smedvig.vc": {
+  "urn": "urn:harmonic:company:47675884",
+  "desc": "Smedvig Ventures supports B2B tech teams in scaling from early traction to success, investing between €4-8m in rounds of up to €20m across Europe.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 12
+ },
+ "praeturaventures.com": {
+  "urn": "urn:harmonic:company:1535771",
+  "desc": "Praetura Ventures functions as a venture capital firm that invests in early-stage businesses, providing not only financial support but also a structured system designed to promote growth through the expertise of experienced partners.",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "David Foreman",
+    "t": "Managing Partner"
+   }
+  ],
+  "headcount": 17
+ },
+ "lightrock.com": {
+  "urn": "urn:harmonic:company:2003985",
+  "desc": "Lightrock operates as a global investment platform that focuses on supporting the growth of technology-enabled companies through its strategies in both private and public markets.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Guilherme Cardoso",
+    "t": "Vice President"
+   },
+   {
+    "n": "Pal Erik Sjatil",
+    "t": "Managing Partner and CEO"
+   },
+   {
+    "n": "Daria Bakatina",
+    "t": "Partner, CFO"
+   },
+   {
+    "n": "Mark Pleaner",
+    "t": "Chief Compliance Officer"
+   },
+   {
+    "n": "Nina Cardelús Vilalta",
+    "t": "Vice President"
+   },
+   {
+    "n": "Hemal Gandhi",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Waseem Raad",
+    "t": "Chief Technology Officer"
+   },
+   {
+    "n": "Pallavi Rathi",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 120
+ },
+ "pentech.vc": {
+  "urn": "urn:harmonic:company:928465",
+  "desc": "The main service involves investing in early-stage software that creates innovative solutions for sectors such as financial services and healthcare.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 7
+ },
+ "anthemis.com": {
+  "urn": "urn:harmonic:company:631104",
+  "desc": "Anthemis is an early-stage venture capital firm shaping the future of the digital economy.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Amy Nauiokas",
+    "t": "Founder and CEO"
+   },
+   {
+    "n": "Naoshir Vachha",
+    "t": "General Counsel & Chief Compliance Officer"
+   },
+   {
+    "n": "Sean Park",
+    "t": "Founder and Chairman"
+   }
+  ],
+  "headcount": 36
+ },
+ "thecreatorfund.com": {
+  "urn": "urn:harmonic:company:1520375",
+  "desc": "The company focuses on investing in scientific founders who are developing deep tech businesses based on advanced research from leading universities in Europe.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Jamie Macfarlane",
+    "t": "CEO & Founder"
+   },
+   {
+    "n": "Alexandra Ntemourtsidou",
+    "t": "COO"
+   }
+  ],
+  "headcount": 34
+ },
+ "mercia.co.uk": {
+  "urn": "urn:harmonic:company:3268906",
+  "desc": "Mercia Asset Management PLC offers a UK Real Estate Development Debt Fund that provides senior secured lending to experienced developers, focusing on industrial and logistics projects.",
+  "city": "Street",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mark Payton - Mercia Asset Management",
+    "t": "Managing Director"
+   },
+   {
+    "n": "Martin Glanfield Fca, Frsa",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Martin Glanfield",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Robin Lincoln",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Edwin Abl",
+    "t": "GTM AI Operating Partner"
+   },
+   {
+    "n": "Julian Castelli",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Rachel Mooney",
+    "t": "Operating Partner - Mercia Ventures"
+   }
+  ],
+  "headcount": 119
+ },
+ "techstart.vc": {
+  "urn": "urn:harmonic:company:1530543",
+  "desc": "Techstart Ventures is a first cheque investor for extraordinary founders who are pursing uncapped global opportunities from a base in Scotland or Northern Ireland.",
+  "city": "Belfast",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Allen Martin",
+    "t": "Chief Financial Officer and Investment Director"
+   }
+  ],
+  "headcount": 13
+ },
+ "scottish-enterprise.com": {
+  "urn": "urn:harmonic:company:1502693",
+  "desc": "The company provides support for businesses in Scotland to innovate and scale, focusing on the energy transition and high-growth industries.",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Alvaro Robledo, Mba",
+    "t": "VP Energy and Low Carbon Transition"
+   },
+   {
+    "n": "Adrian Gillespie",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Gill Mcneill",
+    "t": "Chief People Officer: People, Digital & Communications"
+   },
+   {
+    "n": "Kerry Sharp",
+    "t": "Chief Finance & Investment Officer"
+   }
+  ],
+  "headcount": 1102
+ },
+ "active.partners": {
+  "urn": "urn:harmonic:company:700684",
+  "desc": "Active Partners is an investment firm that focuses on consumer brands, emphasizing mission-driven initiatives and community engagement.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Tom Curling",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Jasper Smith",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 18
+ },
+ "apax.com": {
+  "urn": "urn:harmonic:company:1758460",
+  "desc": "Apax Partners is a private equity advisory firm that focuses on investing in mid-market businesses within the Technology, Services, and Internet/Consumer sectors, utilizing operational value creation strategies to enhance business performance.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mitch Truwit",
+    "t": "Co-Chief Executive Officer"
+   },
+   {
+    "n": "Jessica Ross",
+    "t": "Operating Partner - AI & Digital"
+   },
+   {
+    "n": "Devora Har-Tuv",
+    "t": "CFO Israel"
+   },
+   {
+    "n": "Marty Guinoo",
+    "t": "Operating Executive"
+   },
+   {
+    "n": "Christine Ma",
+    "t": "Principal, China General Manager"
+   },
+   {
+    "n": "Christina Lu",
+    "t": "Vice President"
+   },
+   {
+    "n": "Laef Olson",
+    "t": "Operating Partner, Technology Practice Lead"
+   },
+   {
+    "n": "Jon Simmons",
+    "t": "Operating Partner, Digital & Growth Practice Lead"
+   },
+   {
+    "n": "David Jaslow",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 618
+ },
+ "bgf.co.uk": {
+  "urn": "urn:harmonic:company:16707798",
+  "desc": "BGF is the UK and Ireland's most active growth investor, backing ambitious businesses with minority investment to help them scale on their own terms.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Marc Bertrand",
+    "t": "CEO"
+   },
+   {
+    "n": "Tom Newman",
+    "t": "US Operating Partner United States"
+   },
+   {
+    "n": "Andy Gregory",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Chris Olds",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Ben Barker",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Stephen Welton Cbe",
+    "t": "Chair of Trustees"
+   }
+  ],
+  "headcount": 520
+ },
+ "bluewirecapital.com": {
+  "urn": "urn:harmonic:company:607413",
+  "desc": "https://bluwirecapital.com",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 6
+ },
+ "blumeequity.com": {
+  "urn": "urn:harmonic:company:2244295",
+  "desc": "Blume Equity focuses on investing in climate-tech companies that address the climate emergency through innovative solutions.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Raxita Kapashi",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 12
+ },
+ "bnvtcapital.com": {
+  "urn": "urn:harmonic:company:64005285",
+  "desc": "Benevolent Capital (bnvt.com) is a global venture capital firm, launched by investors previously at the Gates Foundation, Hedosophia and Goldman Sachs.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Arthur Jebb",
+    "t": "COO"
+   }
+  ],
+  "headcount": 36
+ },
+ "bridgepoint.eu": {
+  "urn": "urn:harmonic:company:637273",
+  "desc": "Bridgepoint specializes in mid-market investments across private equity, infrastructure, credit, and secondaries, focusing on market-leading businesses and innovative companies utilizing digital technologies for growth.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Alan Payne",
+    "t": "Partner"
+   },
+   {
+    "n": "Xavier Robert",
+    "t": "Partner - Deputy CEO"
+   },
+   {
+    "n": "François Davy",
+    "t": "Operating PARTNER"
+   },
+   {
+    "n": "Zach Kramer",
+    "t": "Credit Opportunities / Special Situations"
+   },
+   {
+    "n": "Jamie Lucas",
+    "t": "Chief Operating Officer - Bridgepoint Credit"
+   },
+   {
+    "n": "Caoimhe Morris",
+    "t": "Vice President at Bridgepoint Credit"
+   },
+   {
+    "n": "Pawel Siwek",
+    "t": "Vice President"
+   },
+   {
+    "n": "Laura Johansson-Rosen",
+    "t": "Vice-President"
+   },
+   {
+    "n": "Jun Hee Park",
+    "t": "Vice President"
+   },
+   {
+    "n": "Sarah Overlander",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 588
+ },
+ "british-business-bank.co.uk": {
+  "urn": "urn:harmonic:company:2108830",
+  "desc": "British Business Investments focuses on enhancing access to diverse financing options for smaller businesses in the UK, primarily through partnerships with various delivery partners.",
+  "city": "Sheffield",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Harrison Smith",
+    "t": "General Manager"
+   },
+   {
+    "n": "Judith Hartley",
+    "t": "Chief Executive Officer"
+   }
+  ],
+  "headcount": 22
+ },
+ "claret-capital.com": {
+  "urn": "urn:harmonic:company:1758500",
+  "desc": "Claret Capital Partners specializes in providing growth debt financing to small and medium-sized enterprises (SMEs) across various sectors, including technology and life sciences.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Philip Treacy, Cfa",
+    "t": "Vice President"
+   },
+   {
+    "n": "Philip Treacy",
+    "t": "Vice President"
+   },
+   {
+    "n": "Raj Shah",
+    "t": "CFO and Operating Partner"
+   }
+  ],
+  "headcount": 32
+ },
+ "clpgrowth.com": {
+  "urn": "urn:harmonic:company:1497052",
+  "desc": "Columbia Lake Partners provides growth loans to European technology companies, focusing on venture debt as a means to support business scaling with less dilution than equity financing.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 16
+ },
+ "commonmagic.xyz": {
+  "urn": "urn:harmonic:company:19305673",
+  "desc": "Common Magic.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 7
+ },
+ "concentric.vc": {
+  "urn": "urn:harmonic:company:614028",
+  "desc": "The company focuses on developing innovative technologies in sectors such as healthcare and digital payments, emphasizing personalized healthcare solutions powered by AI and the creation of open, programmable infrastructure for real-time currency settlement.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Denis Shafranik",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 21
+ },
+ "conceptventures.vc": {
+  "urn": "urn:harmonic:company:660525",
+  "desc": "Concept Ventures is the UKs largest dedicated pre-seed fund at £54M, backing founders laser-focused on reshaping how we work, play, and learn.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 30
+ },
+ "dtl.vc": {
+  "urn": "urn:harmonic:company:2215776",
+  "desc": "Deeptech Labs operates as a venture capital fund and accelerator, focusing on seed-stage deep tech startups that possess established technologies.",
+  "city": "Cambridge",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Miles Kirby",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Stewart Mctavish",
+    "t": "Chief Platform Officer"
+   }
+  ],
+  "headcount": 35
+ },
+ "ekavc.com": {
+  "urn": "urn:harmonic:company:2094838",
+  "desc": "We work with founders building category-defining technology companies that positively shape the world, making it more sustainable, healthy and inclusive.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Jon Coker",
+    "t": "General Partner & Founder"
+   }
+  ],
+  "headcount": 13
+ },
+ "eosvc.com": {
+  "urn": "urn:harmonic:company:45482090",
+  "desc": "Eos Ventures focuses on investing in innovative companies within the insurance sector and related fields, utilizing a strategic partnership model to enhance the innovation capabilities of (re)insurers.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Carl-Georg Bauer-Schlichtegroll",
+    "t": "Co-Founder & General Partner"
+   },
+   {
+    "n": "Bill Keogh",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Felipe Jaramillo",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 10
+ },
+ "evantic.ai": {
+  "urn": "urn:harmonic:company:60676237",
+  "desc": "Evantic specializes in venture capital investments, focusing on high-conviction opportunities in emerging market leaders and early-stage teams, leveraging a network of experienced technologists and investors.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Matt Miller",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Spencer Hemphill",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 12
+ },
+ "fisv.com": {
+  "urn": "urn:harmonic:company:1497146",
+  "desc": "We invest in founders that are shaping the future of finance.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 8
+ },
+ "fuel.ventures": {
+  "urn": "urn:harmonic:company:652032",
+  "desc": "Fuel Ventures Limited (FRN: 723915) is an Appointed Representative of Palace Ventures (FRN: 433291) which is authorised and regulated by the Financial Conduct Authority.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mark Pearson 🔥",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 34
+ },
+ "generationim.com": {
+  "urn": "urn:harmonic:company:653616",
+  "desc": "Generation Investment Management focuses on sustainable investing through a range of strategies, including global equity, Asia equity, growth equity, and private equity, integrating sustainability analysis into financial decision-making.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mark Ferguson",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Miguel Nogales",
+    "t": "Founding Partner, Co-Chief Investment Officer"
+   },
+   {
+    "n": "Peter Knight",
+    "t": "Retired Partner, Co-Founder"
+   },
+   {
+    "n": "Jonathan N.",
+    "t": "Chief Technology Officer (CTO)"
+   },
+   {
+    "n": "Ghessycka Bennett",
+    "t": "Partner, Chief Compliance Officer & Chief Operating Officer - US"
+   },
+   {
+    "n": "Andrew Given",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Sinisa K.",
+    "t": "COO - Private Equity"
+   }
+  ],
+  "headcount": 164
+ },
+ "giant.vc": {
+  "urn": "urn:harmonic:company:796594",
+  "desc": "Giant backs purpose-driven technology founders solving the world’s biggest challenges.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Cameron Mclain",
+    "t": "Co-Founder & Managing Partner"
+   },
+   {
+    "n": "Tommy Stadlen",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Rob Hicks",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 48
+ },
+ "hiro.capital": {
+  "urn": "urn:harmonic:company:696438",
+  "desc": "Hiro Capital focuses on investing in technologies related to Spatial AI, Autonomy, Robotics, Longevity, Augmentation, and Space & Defence, supporting companies that develop innovative solutions in these areas.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Luke Alvarez",
+    "t": "Founder, Managing General Partner"
+   },
+   {
+    "n": "Ian Livingstone",
+    "t": "Co-Founder and Partner"
+   },
+   {
+    "n": "Cherry Freeman",
+    "t": "Founder & General Partner"
+   }
+  ],
+  "headcount": 24
+ },
+ "illuminatefinancial.com": {
+  "urn": "urn:harmonic:company:735436",
+  "desc": "The company focuses on investing in early-stage technology solutions within the fintech and enterprise software sectors, specifically designed to meet the needs of financial institutions.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mark Beeston",
+    "t": "Founder and Managing Partner"
+   },
+   {
+    "n": "Andrew Patey",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 23
+ },
+ "jamjarinvestments.com": {
+  "urn": "urn:harmonic:company:758180",
+  "desc": "We love and invest in category defining consumer brands of tomorrow.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Richard Reed",
+    "t": "Co-founder"
+   },
+   {
+    "n": "Jonathan Wright",
+    "t": "Co Founder"
+   },
+   {
+    "n": "Adam Balon",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 15
+ },
+ "londonvp.com": {
+  "urn": "urn:harmonic:company:674161",
+  "desc": "LVP is a venture capital fund that invests in the gaming ecosystem, focusing on interactive entertainment, studios, content, technology, platforms, and services, particularly at the seed stage.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Gavin Harrison Fca",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 14
+ },
+ "mandg.com": {
+  "urn": "urn:harmonic:company:473692",
+  "desc": "The company offers a range of savings and investment products, including pension solutions, retirement accounts, and various investment plans, aimed at helping individuals manage and grow their financial assets.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Kenneth Everestus",
+    "t": "General Manager"
+   },
+   {
+    "n": "Roney Rodrigues",
+    "t": "Vice President - Brand & Communications"
+   },
+   {
+    "n": "Lesley Johnson",
+    "t": "EA to Chief International Officer"
+   },
+   {
+    "n": "Stuart Hopkinson",
+    "t": "Chief Operations Officer, Internal Audit"
+   },
+   {
+    "n": "Shubhankar Limaye",
+    "t": "Manager - Quants"
+   },
+   {
+    "n": "Rosie Kentley",
+    "t": "EA to Chief Customer & Innovation Officer"
+   },
+   {
+    "n": "Wanda Adam",
+    "t": "Senior Privacy Lawyer & Privacy Governance Lead"
+   },
+   {
+    "n": "Andrew Brown",
+    "t": "Chief Data Officer"
+   },
+   {
+    "n": "Biju Balachandran",
+    "t": "Vice President — Quality Engineering & AI Transformation | M&G Global Services GCC"
+   },
+   {
+    "n": "Guy Barton",
+    "t": "Chief Risk Officer, M&G Life"
+   }
+  ],
+  "headcount": 3848
+ },
+ "mavencp.com": {
+  "urn": "urn:harmonic:company:1729947",
+  "desc": "Maven Capital Partners specializes in private equity and property fund management, focusing on providing capital and expertise to support the growth of businesses across various sectors.",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 131
+ },
+ "mourocapital.com": {
+  "urn": "urn:harmonic:company:2139126",
+  "desc": "Mouro Capital is a venture capital firm that backs entrepreneurs and start-ups who are shaping the future of financial services.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Álvaro Meliá Navarro, Cfa",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 18
+ },
+ "nationalwealthfund.org.uk": {
+  "urn": "urn:harmonic:company:57168307",
+  "desc": "The company provides a range of financing tools, including loans, guarantees, and equity investments, aimed at supporting projects that align with their strategic focus on infrastructure and clean energy transition.",
+  "city": "Leeds",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Helen Williams",
+    "t": "Chief Strategy and Policy Officer (jobshare)"
+   },
+   {
+    "n": "John Flint",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Patricia Galloway",
+    "t": "Chief People Officer"
+   },
+   {
+    "n": "Sheer Khan",
+    "t": "Chief Impact Officer and Chief Economist"
+   },
+   {
+    "n": "Jennifer Anderson",
+    "t": "Chief Information Officer"
+   },
+   {
+    "n": "Jack Averty",
+    "t": "Chief of Staff"
+   },
+   {
+    "n": "Oliver Holbourn",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Susan Urkevich",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 361
+ },
+ "nicklebycapital.com": {
+  "urn": "urn:harmonic:company:1642016",
+  "desc": "Nickleby Capital helps top entrepreneurs to back the next generation of founders.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Latika Vij",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 6
+ },
+ "northzone.com": {
+  "urn": "urn:harmonic:company:761875",
+  "desc": "Northzone is a technology investment partnership.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Torleif Ahlsand",
+    "t": "General Partner"
+   },
+   {
+    "n": "Hans Otterling",
+    "t": "General Partner"
+   },
+   {
+    "n": "Jackson Heddy",
+    "t": "CFO"
+   },
+   {
+    "n": "Naseem M.",
+    "t": "VP"
+   },
+   {
+    "n": "Manavi Mehra",
+    "t": "Vice President"
+   },
+   {
+    "n": "Manavi M.",
+    "t": "Vice President"
+   },
+   {
+    "n": "Alessandro De Benedetti",
+    "t": "Investor"
+   }
+  ],
+  "headcount": 54
+ },
+ "otf.vc": {
+  "urn": "urn:harmonic:company:64798733",
+  "desc": "OTF Ventures writes a fixed €150k pre-seed cheque into Europe's best founders, backed by operators who have gone from zero to IPO.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Navid Meyer",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 1
+ },
+ "pentland.com": {
+  "urn": "urn:harmonic:company:29297920",
+  "desc": "null",
+  "city": "Cowley",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": null
+ },
+ "permira.com": {
+  "urn": "urn:harmonic:company:650458",
+  "desc": "Permira is a global investment firm that focuses on private equity and credit, primarily investing in the Technology, Consumer, Healthcare, and Services sectors.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "James Greenwood",
+    "t": "CEO Permira Credit"
+   },
+   {
+    "n": "Christopher Crozier",
+    "t": "Chief Risk Officer"
+   },
+   {
+    "n": "Taylor S",
+    "t": "VP - Oil & Gas"
+   },
+   {
+    "n": "Caroline Carr",
+    "t": "Chief Human Resources Officer"
+   },
+   {
+    "n": "Jonny Tovey",
+    "t": "Vice President, Permira Credit"
+   },
+   {
+    "n": "Ignacio Faus",
+    "t": "Partner & COO"
+   },
+   {
+    "n": "Nilay Patel",
+    "t": "Vice President"
+   },
+   {
+    "n": "Lorenzo Viani",
+    "t": "Vice President"
+   },
+   {
+    "n": "Tak Sing Wong",
+    "t": "Investment Professional"
+   },
+   {
+    "n": "Kyle Butler",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 614
+ },
+ "playfair.vc": {
+  "urn": "urn:harmonic:company:12820111",
+  "desc": "The company specializes in pre-seed investment across the UK and Europe, utilizing a high conviction, low volume approach to support early-stage startups.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Federico Pirzio-Biroli",
+    "t": "Founder & Director"
+   },
+   {
+    "n": "Matt Gill, Cfa",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 21
+ },
+ "pledgeventures.vc": {
+  "urn": "urn:harmonic:company:40913157",
+  "desc": "Risk warning: Don't invest unless you're prepared to lose all your money invested.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Ben Gammon",
+    "t": "Co-Founder & General Partner"
+   },
+   {
+    "n": "Niki Buys",
+    "t": "Co-Founder and Partner"
+   },
+   {
+    "n": "David Goldberg",
+    "t": "Founder and Partner"
+   }
+  ],
+  "headcount": 9
+ },
+ "ravenpartners.com": {
+  "urn": "urn:harmonic:company:63634372",
+  "desc": "Raven Partners specializes in advising high-growth technology companies on mergers and acquisitions (M&A) and private capital transactions, focusing on complex cross-border deals.",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 7
+ },
+ "redriceventures.com": {
+  "urn": "urn:harmonic:company:1603701",
+  "desc": "Redrice Ventures focuses on supporting early-stage companies that create premium consumer brands, platforms, and B2B tech solutions, particularly in the retail tech sector.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Tom March",
+    "t": "Founder and Managing Partner"
+   }
+  ],
+  "headcount": 17
+ },
+ "seraphim.vc": {
+  "urn": "urn:harmonic:company:10656645",
+  "desc": "Seraphim specializes in investing in SpaceTech, focusing on technologies that enhance global security, infrastructure resilience, and address critical environmental challenges.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Mark Boggett",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "James Bruegger",
+    "t": "General Partner, Chief Investment Officer"
+   },
+   {
+    "n": "Rob Desborough",
+    "t": "General Partner/Managing Partner"
+   },
+   {
+    "n": "Sarah Shackleton",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Christoph Keese",
+    "t": "Operating Partner and Managing Director Europe"
+   },
+   {
+    "n": "Ulrich Hermann",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Lucas Bishop",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 36
+ },
+ "solanopartners.com": {
+  "urn": "urn:harmonic:company:10437938",
+  "desc": "Solano Partners provides strategic advisory and capital solutions tailored for technology businesses, with a focus on private fundraising and sell-side M&A advisory services.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Jon Edirmanasinghe",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 10
+ },
+ "souterinvestments.com": {
+  "urn": "urn:harmonic:company:8378334",
+  "desc": "Souter Investments is one of the UK’s leading family investment offices, founded by Sir Brian Souter.",
+  "city": "Edinburgh",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 12
+ },
+ "sprints.com": {
+  "urn": "urn:harmonic:company:1497119",
+  "desc": "Sprints partners with select European growth companies that use technology to significantly enhance their customers’ lives.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Alexander Postlethwaite",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 18
+ },
+ "supernodeglobal.com": {
+  "urn": "urn:harmonic:company:3641105",
+  "desc": "Supernode Global is a venture capital fund that invests in early-stage companies focused on developing digital content platforms and tools across sectors such as entertainment, education, and communication.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Michael S.",
+    "t": "Managing Partner"
+   }
+  ],
+  "headcount": 4
+ },
+ "tiny.vc": {
+  "urn": "urn:harmonic:company:684784",
+  "desc": "Tiny Supercomputer Investment Company invests in ambitious and unique technology startups at pre-seed and seed stages, providing 150-200K in funding and support from a community of 600+ founders.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Andy Chung",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 25
+ },
+ "transition.vc": {
+  "urn": "urn:harmonic:company:3626516",
+  "desc": "The company focuses on supporting founders in developing innovative solutions that integrate hardware and software with frontier science to address climate challenges and promote sustainable economic growth.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Ari Helgason",
+    "t": "Partner, co-founder"
+   },
+   {
+    "n": "Tom Burkinshaw",
+    "t": "Operating Partner"
+   }
+  ],
+  "headcount": 19
+ },
+ "true.global": {
+  "urn": "urn:harmonic:company:681231",
+  "desc": "True specializes in investment and advisory services within the consumer and retail sectors, employing strategies that include venture capital and private equity to support early-stage and established companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Matthew Truman",
+    "t": "Executive Chair & Co-founder"
+   },
+   {
+    "n": "Paul Cocker",
+    "t": "CEO & Co-Founder"
+   },
+   {
+    "n": "Will Pearson",
+    "t": "Managing Director, Investment & CFO"
+   }
+  ],
+  "headcount": 55
+ },
+ "truesight.vc": {
+  "urn": "urn:harmonic:company:1497360",
+  "desc": "> TrueSight Ventures is a venture capital firm with offices in London and Stockholm, focused on seed and early stage investments in Europe.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 4
+ },
+ "twinpath.vc": {
+  "urn": "urn:harmonic:company:19305750",
+  "desc": "Twin Path Ventures focuses on investing in early-stage AI startups, emphasizing the development and deployment of innovative AI-first products that deliver value to customers.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 7
+ },
+ "un-bound.com": {
+  "urn": "urn:harmonic:company:1508547",
+  "desc": "Building and backing the next generation of 100-year companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Shravin Bharti Mittal",
+    "t": "Founder"
+   },
+   {
+    "n": "Rob Tragen",
+    "t": "CFO"
+   },
+   {
+    "n": "Hasan Veli Kundi",
+    "t": "Vice President"
+   },
+   {
+    "n": "Ashwin Raghav Mohan Ganesh",
+    "t": "Chief Technology Officer"
+   }
+  ],
+  "headcount": 10
+ },
+ "upsd.vc": {
+  "urn": "urn:harmonic:company:39421662",
+  "desc": "Upside Ventures focuses on early-stage consumer investing by leveraging access to distribution and community, which are critical factors for success in the current market.",
+  "city": "Worthing",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 11
+ },
+ "xtxmarkets.com": {
+  "urn": "urn:harmonic:company:724303",
+  "desc": "XTX Markets specializes in algorithmic trading, utilizing advanced machine learning technologies to generate price forecasts for a wide range of financial instruments, including equities, fixed income, currencies, commodities, and cryptocurrencies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Michael Irwin",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Alexander Gerko",
+    "t": "Founder"
+   },
+   {
+    "n": "Bernie Denis",
+    "t": "Chief Compliance Officer"
+   },
+   {
+    "n": "Karl Schaum",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Jonathan N.",
+    "t": "Chief Risk Officer"
+   },
+   {
+    "n": "Aileen Postlethwaite",
+    "t": "Chief Compliance Officer, US"
+   },
+   {
+    "n": "Paul Bereza",
+    "t": "CTO"
+   }
+  ],
+  "headcount": 306
+ },
+ "zinal.com": {
+  "urn": "urn:harmonic:company:3219708",
+  "desc": "Global investment firm empowering exceptional founders building generational technology companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 4
+ },
+ "begincl.com": {
+  "urn": "urn:harmonic:company:1572363",
+  "desc": "Begin Capital is a venture capital fund that focuses on investing in technologies related to DeepTech, Artificial Intelligence, and SaaS, primarily targeting the European market during Seed and Series A funding stages.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [],
+  "headcount": 8
+ },
+ "creator.ventures": {
+  "urn": "urn:harmonic:company:4169073",
+  "desc": "Creator Collective Capital (C3) specializes in investing in high-growth consumer and technology start-ups, particularly those associated with influential creators such as YouTubers, musicians, athletes, and influencers.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Sasha Kaletsky",
+    "t": "Co-Founder and Managing Partner"
+   }
+  ],
+  "headcount": 4
+ },
+ "kivukocap.com": {
+  "urn": "urn:harmonic:company:63606856",
+  "desc": "Kivuko Capital is an investment firm serving relentless founders building global companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Jon Coller",
+    "t": "Founder & GP"
+   }
+  ],
+  "headcount": 1
+ },
+ "triplepoint.vc": {
+  "urn": "urn:harmonic:company:1505914",
+  "desc": "Triple Point offers investment management solutions that focus on connecting capital with various industries and asset classes, addressing real-world financial challenges.",
+  "city": "London",
+  "country": "United Kingdom",
+  "team": [
+   {
+    "n": "Isobel Gunn-Brown",
+    "t": "Partner"
+   },
+   {
+    "n": "Seb Wallace",
+    "t": "Co-Founder and Investor, Triple Point Ventures"
+   },
+   {
+    "n": "Sean A.",
+    "t": "Chief Information Officer"
+   },
+   {
+    "n": "Sean Brophy",
+    "t": "Chief Commercial Officer, Private Credit - Business Finance"
+   },
+   {
+    "n": "Steve Gordon",
+    "t": "Chief Commercial Officer - Corporate, Public Sector and Infrastructure"
+   }
+  ],
+  "headcount": 283
  }
 }
