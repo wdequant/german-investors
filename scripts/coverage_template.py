@@ -1311,6 +1311,8 @@ function renderWork(){
   body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet()+askCard():apGeo();
   if(ap.mode==='map') mapBind(body);
   if(ap.mode==='net') bindAsk(body);
+  body.querySelectorAll('[data-gofund]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();goFund(a.dataset.gofund);}));
+  body.querySelectorAll('[data-goh2c]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();goPage('h2c');}));
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
     navigator.clipboard?.writeText(decodeURIComponent(b.dataset.copy)); toast('Copied');}));
   body.querySelectorAll('[data-draft]').forEach(b=>b.addEventListener('click',()=>{
@@ -1370,7 +1372,7 @@ function apHtc(){
     const pd=htcPaths(c,who);
     let best=pd.team.slice(0,3);
     if(pd.self&&!best.some(p=>p.internal===who)) best=[pd.self,...best].slice(0,3);
-    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${p.fund}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · email-only':''}${p.ever===false?' · unverified':''}</span></div>`).join('');
+    const paths=best.map(p=>`<div class="appath"><b>${p.internal===who?'you':p.internal}</b> ↔ <a href="${p.linkedin||liSearch(p.external||'',p.fund)}" target="_blank" rel="noopener">${p.external||'?'}</a> <span class="via">via ${cmFundLink(p.fund)}${p.pct!=null?` · ${p.pct}%`:''}${p.unverified?' · email-only':''}${p.ever===false?' · unverified':''}</span></div>`).join('');
     const pSelf=who?best.find(p=>p.internal===who):null;   // acting user holds this door themselves
     const p0=pSelf||best.find(p=>!who||p.internal!==who)||best[0];
     let acts='';
@@ -1438,6 +1440,17 @@ function cmU(e,me){
 function cmEnts(){ return (CM.ents||[]).filter(e=>!e.tray); }
 function cmVisible(me){
   return cmEnts();
+}
+function goFund(slug){
+  const e=(CM.ents||[]).find(x=>x.slug===slug); if(!e||!e.cc) return;
+  MAP.reg=(CM.regOf||{})[e.cc]||MAP.reg; MAP.cc=e.cc; MAP.ent=slug; MAP.lvl='l3';
+  if(state.page==='map'){ renderWork(); updateHash(); } else goPage('map');
+}
+function cmFundLink(name){
+  if(!name) return name||'';
+  const k=String(name).toLowerCase().replace(/[^a-z0-9]/g,'');
+  const e=(CM.ents||[]).find(x=>x.cc&&String(x.name).toLowerCase().replace(/[^a-z0-9]/g,'')===k);
+  return e?`<a href="#" data-gofund="${e.slug}">${name}</a>`:name;
 }
 function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Known':'Dormant'; }
 
@@ -1639,7 +1652,13 @@ function cmCountryPage(me){
     :qu==='building'?`your network is <b>building</b>`
     :`<b>open ground</b> for you`;
   const teamBit=A.covT>=55&&covu<50?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
-  return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>
+  const tripBit=(()=>{
+    const CITY_OF={SE:'Stockholm',DK:'Copenhagen',NO:'Oslo',FI:'Helsinki',FR:'Paris',BER:'Berlin',MUC:'Munich',CGN:'Cologne',FRA:'Frankfurt',HAM:'Hamburg',LON:'London',CAM:'Cambridge',OXF:'Oxford',EDI:'Edinburgh',MAN:'Manchester',SF:'San Francisco',NYC:'New York',BOS:'Boston'};
+    const tc=CITY_OF[cc]; if(!tc||typeof cityScores!=='function') return '';
+    try{ if(!cityScores(me).some(x=>x.city===tc)) return ''; }catch(err){ return ''; }
+    return `<div style="margin:8px 0 2px"><button class="minibtn" data-cmtrip="${tc}">\u2708 Plan a ${tc} trip</button></div>`;
+  })();
+  return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>${tripBit}
     <div class="cmv2grid">
       <div>
         ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
@@ -1756,7 +1775,7 @@ function cmDetail(me){
     ${acc('df','Recent deal flow',(e.dfl||[]).length,(e.dfl||[]).map(d=>`<div class="dpli"><span class="nm">${d.aid?`<a href="${affURL(d.aid)}" target="_blank" rel="noopener">${d.n}</a>`:d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.fu?`in pipeline: ${d.fu}`:null].filter(Boolean).join(' · ')}</span></div>`).join(''),openKey==='df')}
     ${acc('pl','Pre-lead',((e.pipe||{}).prelead||[]).length,pipeRows('prelead'),openKey==='pipe')}
     ${acc('aw','Awaiting lead',((e.pipe||{}).awaiting||[]).length,pipeRows('awaiting'),false)}
-    ${acc('h2','Hard to crack portfolio',h2cN,pipeRows('hard'),openKey==='h2c')}
+    ${acc('h2','Hard to crack portfolio',h2cN,pipeRows('hard')+(h2cN?`<div class="dtsub" style="margin-top:6px"><a href="#" data-goh2c>Work these in Solve my Hard to Cracks \u2192</a></div>`:''),openKey==='h2c')}
     ${acc('un','Recent deals we are not tracking',untracked.length,untracked.map(d=>`<div class="dpli"><span class="nm">${d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.do||null].filter(Boolean).join(' · ')}</span><button class="minibtn" data-copy="${encodeURIComponent(d.n+(d.do?' — '+d.do:''))}">Add to Affinity</button></div>`).join(''),false)}
     ${acc('ot','Other portfolio in Highland pipeline',others.length,others.map(c=>`<div class="dpli"><span class="nm">${c.mine?`<b>${c.n}</b>`:c.n}</span><span class="how">${c.st}</span></div>`).join(''),false)}
   </div>`;
@@ -2181,12 +2200,12 @@ function apGeo(){
     const sig=who?personSignal(e,who):null; const k=sig&&sig.contacts&&sig.contacts[0];
     const line=k?`<b>${k.person}</b>${k.pct!=null?` <span class="via">· ${k.pct}%</span>`:''}${evidence(k)?` <span class="via">· ${evidence(k)}</span>`:''}`
       :(e.points&&e.points[0]?`<b>${e.points[0].external||''}</b> <span class="via">via ${e.points[0].internal}</span>`:'');
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,city)}${e.name}</div>
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,city)}${cmFundLink(e.name)}</div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'} · ${who?`your coverage ${pc}`:`team ${e.connectivity}`}</div>
       ${line?`<div class="appath">Reconnect: ${line}</div>`:''}</div>`;}).join('');
   const cRows=cold.map(({e})=>{
     const nm2=nextMove(e)||{cls:'gap',txt:''}; const pk=(e.partners_unknown||[])[0];
-    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,city)}${e.name}${ACCELCAT[e.category]?' <span class="cc">· accelerator</span>':''}</div>
+    return `<div class="apcard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,city)}${cmFundLink(e.name)}${ACCELCAT[e.category]?' <span class="cc">· accelerator</span>':''}</div>
       <div class="apmeta">relevance ${e.relevance?.total??'—'}${who?` · team ${e.connectivity}`:''}</div>
       <div class="nm ${nm2.cls}">${nm2.txt}</div>
       ${pk?`<div class="apmeta">Door: ${pk.linkedin?`<a href="${pk.linkedin}" target="_blank" rel="noopener">${pk.name}</a>`:pk.name}${pk.title?` · ${pk.title}`:''}</div>`:''}</div>`;}).join('');
@@ -2576,7 +2595,7 @@ function readHash(){
   if(head==='net'){ state.page='net'; return; }
   if(head==='geo'){ state.page='geo'; if(m[2]) ap.city=decodeURIComponent(m[2]); return; }
   if(head==='map'){ state.page='map';
-    const p2=m[2], p3=(location.hash.split('/')[2]||'');
+    const p2=(m[2]||'').split('/')[0], p3=(location.hash.split('/')[2]||'').split('?')[0];
     if(p2==='nordics'||p2==='germany'||p2==='uk'||p2==='us'){ MAP.lvl='l1'; MAP.reg=p2; MAP.cc=''; MAP.ent=''; }
     else if(p2&&CM.ccName&&CM.ccName[p2.toUpperCase()]){ MAP.lvl=p3?'l3':'l2'; MAP.cc=p2.toUpperCase(); if(CM.regOf) MAP.reg=CM.regOf[MAP.cc]||MAP.reg; MAP.ent=p3||''; }
     else { MAP.lvl='l0'; MAP.cc=''; MAP.ent=''; }
