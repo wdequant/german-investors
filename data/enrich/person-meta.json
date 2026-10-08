@@ -21,8 +21,11 @@
   "company": "Insight Partners"
  },
  "aadit gandhi": {
-  "inv": null,
-  "company": "Apis Partners"
+  "inv": true,
+  "company": "Apis Partners",
+  "title": "Director",
+  "city": "London",
+  "src": "harmonic"
  },
  "aaron israel": {
   "inv": true,
@@ -54,12 +57,17 @@
   "company": "CPP Investments"
  },
  "abby wong": {
-  "inv": null,
-  "company": "Greyhound Capital"
+  "inv": true,
+  "company": "Greyhound Capital",
+  "city": "London",
+  "src": "harmonic"
  },
  "abdi adan": {
-  "inv": null,
-  "company": "Insight Partners"
+  "inv": true,
+  "company": "Insight Partners",
+  "title": "Investor",
+  "city": "New York",
+  "src": "harmonic"
  },
  "abel samot": {
   "inv": true,
@@ -74,8 +82,11 @@
   "company": "TPG"
  },
  "adam awad": {
-  "inv": null,
-  "company": "Apis Partners"
+  "inv": true,
+  "company": "Apis Partners",
+  "title": "Vice President",
+  "city": "Dubai",
+  "src": "harmonic"
  },
  "adam kočík": {
   "inv": true,
@@ -84,8 +95,11 @@
   "company": "J&T Ventures"
  },
  "adam mee": {
-  "inv": null,
-  "company": "Hiro Capital"
+  "inv": true,
+  "company": "Hiro Capital",
+  "title": "Associate",
+  "city": "London",
+  "src": "harmonic"
  },
  "adam nelson": {
   "inv": null,
@@ -124,8 +138,11 @@
   "company": "Eurazeo"
  },
  "adrian lloyd": {
-  "inv": null,
-  "company": "EPISODE 1"
+  "inv": true,
+  "company": "EPISODE 1",
+  "title": "Founding Partner",
+  "city": "London",
+  "src": "harmonic"
  },
  "adriana beattie": {
   "inv": true,
@@ -326,8 +343,11 @@
   "company": "IVP"
  },
  "alex mackenzie": {
-  "inv": null,
-  "company": "General Catalyst"
+  "inv": true,
+  "company": "General Catalyst",
+  "title": "Partner",
+  "city": "London Area",
+  "src": "harmonic"
  },
  "alex mccracken": {
   "inv": true,
@@ -413,8 +433,11 @@
   "company": "Lightspeed Venture Partners"
  },
  "alexander taussig": {
-  "inv": null,
-  "company": "Lightspeed Venture Partners"
+  "inv": true,
+  "company": "Lightspeed Venture Partners",
+  "title": "Board Partner",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "alexander thompson": {
   "inv": true,
@@ -457,8 +480,11 @@
   "company": "Gilion"
  },
  "alexandra thornton": {
-  "inv": null,
-  "company": "Felix Capital"
+  "inv": true,
+  "company": "Felix Capital",
+  "title": "Investor",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "alexandra tsylnitska": {
   "inv": true,
@@ -529,16 +555,22 @@
   "company": "Plug and Play"
  },
  "alice chan": {
-  "inv": null,
-  "company": "ETF Partners"
+  "inv": true,
+  "company": "ETF Partners",
+  "title": "Investor",
+  "city": "London",
+  "src": "harmonic"
  },
  "alice whittaker": {
   "inv": null,
   "company": "Sixth Street"
  },
  "alicia garabedian": {
-  "inv": null,
-  "company": "Left Lane Capital"
+  "inv": true,
+  "company": "Left Lane Capital",
+  "title": "Board Observer",
+  "city": "New York",
+  "src": "harmonic"
  },
  "alicia guindulain": {
   "inv": true,
@@ -555,7 +587,9 @@
  "alina negulescu": {
   "inv": true,
   "title": "Growth Equity Investor, Associate",
-  "company": "Hedosophia"
+  "company": "Hedosophia",
+  "city": "On-site",
+  "src": "harmonic"
  },
  "alistair owen": {
   "inv": null,
@@ -566,8 +600,11 @@
   "company": "CapitalG"
  },
  "alliott cole": {
-  "inv": null,
-  "company": "Octopus Ventures"
+  "inv": true,
+  "company": "Octopus Ventures",
+  "title": "CEO",
+  "city": "New York",
+  "src": "harmonic"
  },
  "allison graf": {
   "inv": true,
@@ -616,8 +653,11 @@
   "company": "HPE Growth"
  },
  "amber patel": {
-  "inv": null,
-  "company": "Seedcamp"
+  "inv": true,
+  "company": "Seedcamp",
+  "title": "Financial Investment Professional",
+  "city": "London",
+  "src": "harmonic"
  },
  "ambi mistry": {
   "inv": true,
@@ -660,7 +700,9 @@
  "amy weyler": {
   "inv": true,
   "title": "VP Global Talent",
-  "company": "Bessemer Venture Partners"
+  "company": "Bessemer Venture Partners",
+  "city": "San Francisco / Sun Valley",
+  "src": "harmonic"
  },
  "ana fernandez": {
   "inv": true,
@@ -857,7 +899,9 @@
  "ani mouradyan": {
   "inv": true,
   "city": "London",
-  "company": "Hummingbird"
+  "company": "Hummingbird",
+  "title": "curating outlier minds..",
+  "src": "harmonic"
  },
  "anil parekh": {
   "inv": true,
@@ -904,7 +948,9 @@
  "anna sweetman": {
   "inv": true,
   "title": "Investor",
-  "company": "Unilever Ventures"
+  "company": "Unilever Ventures",
+  "city": "Oxford",
+  "src": "harmonic"
  },
  "anne-charlotte philbert": {
   "inv": true,
@@ -982,8 +1028,11 @@
   "note": "ParTech Inc (POS co), not Partech the fund"
  },
  "andy chung": {
-  "inv": null,
-  "company": "Tiny Supercomputer Investment Company"
+  "inv": true,
+  "company": "Tiny Supercomputer Investment Company",
+  "title": "Co-Founder",
+  "city": "London",
+  "src": "harmonic"
  },
  "andy hunt": {
   "inv": null,
@@ -1017,8 +1066,11 @@
   "company": "Deel"
  },
  "anthony danon": {
-  "inv": null,
-  "company": "Rerail"
+  "inv": true,
+  "company": "Rerail",
+  "title": "Investment Forum, Mentor, LP",
+  "city": "London",
+  "src": "harmonic"
  },
  "antoine boulin": {
   "inv": true,
@@ -1355,8 +1407,11 @@
   "company": "Accel"
  },
  "ben fletcher": {
-  "inv": null,
-  "company": "Accel"
+  "inv": true,
+  "company": "Accel",
+  "title": "Partner",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "ben gammon": {
   "inv": true,
@@ -2083,7 +2138,9 @@
  "chrys chrysanthou": {
   "inv": true,
   "title": "General Partner",
-  "company": "Kindred Capital"
+  "company": "Kindred Capital",
+  "city": "London",
+  "src": "harmonic"
  },
  "churn yi lim": {
   "inv": true,
@@ -2194,7 +2251,9 @@
  "constantin fleck": {
   "inv": true,
   "title": "VP, Growth",
-  "company": "Atomico"
+  "company": "Atomico",
+  "city": "London Area",
+  "src": "harmonic"
  },
  "constantine manos": {
   "inv": true,
@@ -2363,8 +2422,10 @@
   "company": "Enterprise Ireland"
  },
  "clare zhang": {
-  "inv": null,
-  "company": "Playfair"
+  "inv": true,
+  "company": "Playfair",
+  "city": "New York",
+  "src": "harmonic"
  },
  "conor finn": {
   "inv": null,
@@ -2751,8 +2812,11 @@
   "company": "Albion Ventures"
  },
  "ed perry": {
-  "inv": null,
-  "company": "Hedosophia"
+  "inv": true,
+  "company": "Hedosophia",
+  "title": "Director",
+  "city": "London",
+  "src": "harmonic"
  },
  "edefressenel": {
   "inv": null,
@@ -2952,8 +3016,10 @@
   "company": "New Enterprise Associates (NEA)"
  },
  "emily bourne": {
-  "inv": null,
-  "company": "pumagp.co.uk"
+  "inv": true,
+  "company": "pumagp.co.uk",
+  "title": "Investment Manager",
+  "src": "harmonic"
  },
  "emma crowley": {
   "inv": true,
@@ -4415,8 +4481,11 @@
   "company": "Energy Impact Partners"
  },
  "james steel": {
-  "inv": null,
-  "company": "Fuel Ventures 🚀"
+  "inv": true,
+  "company": "Fuel Ventures 🚀",
+  "title": "Head of Growth Capital",
+  "city": "London",
+  "src": "harmonic"
  },
  "james tighe": {
   "inv": true,
@@ -4611,7 +4680,9 @@
  "jebran raashed": {
   "inv": true,
   "title": "Investment Manager",
-  "company": "Octopus Ventures"
+  "company": "Octopus Ventures",
+  "city": "Regno Unito",
+  "src": "harmonic"
  },
  "jelle-jan bruinsma": {
   "inv": true,
@@ -4978,8 +5049,11 @@
   "company": "J.P. Morgan"
  },
  "jonathan kruger": {
-  "inv": null,
-  "company": "Mercia Asset Management PLC"
+  "inv": true,
+  "company": "Mercia Asset Management PLC",
+  "title": "Venture Capital Investor",
+  "city": "London",
+  "src": "harmonic"
  },
  "jonathan mandel": {
   "inv": true,
@@ -4990,12 +5064,14 @@
  "jonathan poffley": {
   "inv": true,
   "title": "Vice President",
-  "company": "TCV"
+  "company": "TCV",
+  "src": "harmonic"
  },
  "jonathan turner": {
   "inv": true,
   "title": "Partner",
-  "company": "Accel"
+  "company": "Accel",
+  "src": "harmonic"
  },
  "jonno southam": {
   "inv": true,
@@ -5046,13 +5122,18 @@
   "company": "Norwest"
  },
  "josh trup": {
-  "inv": null,
-  "company": "Greenfield Partners"
+  "inv": true,
+  "company": "Greenfield Partners",
+  "title": "Principal",
+  "city": "Tel Aviv-Yafo",
+  "src": "harmonic"
  },
  "joshua rothkugel": {
   "inv": true,
   "title": "Investor",
-  "company": "Summit Partners"
+  "company": "Summit Partners",
+  "city": "Berlin",
+  "src": "harmonic"
  },
  "joy boustani": {
   "inv": true,
@@ -5298,8 +5379,10 @@
   "company": "OTB Ventures"
  },
  "karthik ramakrishnan": {
-  "inv": null,
-  "company": "IVP"
+  "inv": true,
+  "company": "IVP",
+  "city": "New York",
+  "src": "harmonic"
  },
  "kasey davies": {
   "inv": true,
@@ -5332,7 +5415,9 @@
  "katherine jones": {
   "inv": true,
   "title": "Investor",
-  "company": "Hummingbird"
+  "company": "Hummingbird",
+  "city": "England",
+  "src": "harmonic"
  },
  "katherine orrell": {
   "inv": true,
@@ -5663,8 +5748,11 @@
   "company": "CDP Venture Capital"
  },
  "laura wiggins": {
-  "inv": null,
-  "company": "YFM Equity Partners"
+  "inv": true,
+  "company": "YFM Equity Partners",
+  "title": "Investment Director",
+  "city": "Manchester",
+  "src": "harmonic"
  },
  "laurel bowden": {
   "inv": true,
@@ -5800,8 +5888,11 @@
   "company": "Balderton"
  },
  "liam corrigan": {
-  "inv": null,
-  "company": "Sequoia Capital"
+  "inv": true,
+  "company": "Sequoia Capital",
+  "title": "Partner",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "liam gribben": {
   "inv": true,
@@ -5881,7 +5972,8 @@
  "liv parry": {
   "inv": true,
   "title": "Talent Partner, Europe",
-  "company": "General Catalyst"
+  "company": "General Catalyst",
+  "src": "harmonic"
  },
  "lkolosiejmitchell": {
   "inv": null,
@@ -6309,8 +6401,11 @@
   "company": "KKR"
  },
  "maria dowling": {
-  "inv": null,
-  "company": "Sequoia Capital"
+  "inv": true,
+  "company": "Sequoia Capital",
+  "title": "Executive Business Partner",
+  "city": "London",
+  "src": "harmonic"
  },
  "maria hagberg": {
   "inv": true,
@@ -6321,7 +6416,8 @@
  "maria percuklievska": {
   "inv": true,
   "city": "London",
-  "company": "Expedition Growth Capital"
+  "company": "Expedition Growth Capital",
+  "src": "harmonic"
  },
  "mariam abbott": {
   "inv": true,
@@ -6400,8 +6496,11 @@
   "company": "OTF"
  },
  "mark crane": {
-  "inv": null,
-  "company": "General Catalyst"
+  "inv": true,
+  "company": "General Catalyst",
+  "title": "Partner",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "mark gallagher": {
   "inv": true,
@@ -6528,16 +6627,22 @@
   "company": "Vi Partners"
  },
  "martyn james": {
-  "inv": null,
-  "company": "ETFS Capital"
+  "inv": true,
+  "company": "ETFS Capital",
+  "title": "Managing Partner",
+  "city": "London Area",
+  "src": "harmonic"
  },
  "marvin he": {
   "inv": null,
   "company": "S2S Ventures"
  },
  "mary altamarino": {
-  "inv": null,
-  "company": "Left Lane Capital"
+  "inv": false,
+  "company": "Left Lane Capital",
+  "title": "Virtual Assistant",
+  "city": "Manila",
+  "src": "harmonic"
  },
  "mary stern": {
   "inv": false,
@@ -6581,8 +6686,11 @@
   "company": "Collaborative Fund"
  },
  "matt maynard": {
-  "inv": null,
-  "company": "Cambridge Innovation Capital"
+  "inv": false,
+  "company": "Cambridge Innovation Capital",
+  "title": "Events Manager",
+  "city": "Northstowe",
+  "src": "harmonic"
  },
  "matt miller": {
   "inv": true,
@@ -6666,7 +6774,8 @@
  "mauricio urresta": {
   "inv": true,
   "title": "Investment Manager",
-  "company": "British Business Investments"
+  "company": "British Business Investments",
+  "src": "harmonic"
  },
  "max": {
   "inv": null,
@@ -7259,7 +7368,9 @@
  "nate niparko": {
   "inv": true,
   "title": "Partner",
-  "company": "Accel"
+  "company": "Accel",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "nathalie schwarzkopf": {
   "inv": true,
@@ -7456,8 +7567,11 @@
   "src": "harmonic"
  },
  "nimay mehta": {
-  "inv": null,
-  "company": "Insight Partners"
+  "inv": true,
+  "company": "Insight Partners",
+  "title": "Managing Partner",
+  "city": "New York",
+  "src": "harmonic"
  },
  "nithyasri manikandan": {
   "inv": true,
@@ -7641,8 +7755,10 @@
   "company": "Project A Ventures"
  },
  "ophelia cai": {
-  "inv": null,
-  "company": "Tiny Supercomputer Investment Company"
+  "inv": true,
+  "company": "Tiny Supercomputer Investment Company",
+  "title": "Partner",
+  "src": "harmonic"
  },
  "ori barzilay": {
   "inv": true,
@@ -7661,11 +7777,15 @@
   "company": "Mustard Seed",
   "title": "Investor",
   "src": "harmonic",
-  "note": "VC investor & board member; fund affiliation unclear on Harmonic"
+  "note": "VC investor & board member; fund affiliation unclear on Harmonic",
+  "city": "London"
  },
  "owen brooks": {
-  "inv": null,
-  "company": "Dawn Capital"
+  "inv": true,
+  "company": "Dawn Capital",
+  "title": "Co-Founder",
+  "city": "London",
+  "src": "harmonic"
  },
  "pablo diez": {
   "inv": true,
@@ -7772,8 +7892,11 @@
   "company": "ETF Partners"
  },
  "paul bailey": {
-  "inv": null,
-  "company": "Martlet"
+  "inv": true,
+  "company": "Martlet",
+  "title": "Non Executive Director",
+  "city": "Greater Cambridge Area",
+  "src": "harmonic"
  },
  "paul krause": {
   "inv": true,
@@ -8145,8 +8268,11 @@
   "company": "Insight Partners"
  },
  "rachel ward": {
-  "inv": null,
-  "company": "Left Lane Capital"
+  "inv": false,
+  "company": "Left Lane Capital",
+  "title": "Executive Assistant and Office Manager",
+  "city": "New York",
+  "src": "harmonic"
  },
  "raffaele lucantonio": {
   "inv": true,
@@ -8286,8 +8412,11 @@
   "company": "Radical Ventures"
  },
  "richard anton": {
-  "inv": null,
-  "company": "Oxx"
+  "inv": true,
+  "company": "Oxx",
+  "title": "General Partner",
+  "city": "London",
+  "src": "harmonic"
  },
  "richard baillie": {
   "inv": true,
@@ -8308,8 +8437,11 @@
   "company": "Morgan Stanley"
  },
  "richard wells": {
-  "inv": null,
-  "company": "Insight Partners"
+  "inv": true,
+  "company": "Insight Partners",
+  "title": "Managing Director",
+  "city": "New York",
+  "src": "harmonic"
  },
  "rilla saukkonen": {
   "inv": true,
@@ -8382,8 +8514,11 @@
   "company": "Morgan Stanley"
  },
  "robin klein": {
-  "inv": null,
-  "company": "LocalGlobe"
+  "inv": true,
+  "company": "LocalGlobe",
+  "title": "Co-Founder. General Partner",
+  "city": "London",
+  "src": "harmonic"
  },
  "robin murray": {
   "inv": true,
@@ -8684,7 +8819,8 @@
  "sam wholley": {
   "inv": true,
   "title": "Operating Partner",
-  "company": "Lightspeed Venture Partners"
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
  },
  "samantha burch": {
   "inv": false,
@@ -8986,8 +9122,10 @@
   "company": "redalpine"
  },
  "secretariat york": {
-  "inv": null,
-  "company": "Index Ventures"
+  "inv": false,
+  "company": "Index Ventures",
+  "src": "harmonic-sweep",
+  "note": "secretariat/mailbox, not a person"
  },
  "semra sadikoglu": {
   "inv": null,
@@ -8998,8 +9136,10 @@
   "company": "Plug and Play"
  },
  "sevi uras": {
-  "inv": null,
-  "company": "MMC Ventures"
+  "inv": true,
+  "company": "MMC Ventures",
+  "title": "Principal",
+  "src": "harmonic"
  },
  "shajeed surani": {
   "inv": true,
@@ -9102,7 +9242,9 @@
  "shiran": {
   "inv": true,
   "title": "Partner",
-  "company": "Battery Ventures"
+  "company": "Battery Ventures",
+  "city": "Israel",
+  "src": "harmonic"
  },
  "shiran ella": {
   "inv": true,
@@ -9133,8 +9275,10 @@
   "company": "Mercia Asset Management PLC"
  },
  "shuli levy": {
-  "inv": null,
-  "company": "Expedition Growth Capital"
+  "inv": true,
+  "company": "Expedition Growth Capital",
+  "city": "London",
+  "src": "harmonic"
  },
  "sia houchangnia": {
   "inv": true,
@@ -9149,8 +9293,11 @@
   "company": "Heartcore"
  },
  "silvana gracia": {
-  "inv": null,
-  "company": "True."
+  "inv": true,
+  "company": "True.",
+  "title": "VC Associate",
+  "city": "London",
+  "src": "harmonic"
  },
  "silvia ersetti": {
   "inv": true,
@@ -9554,8 +9701,11 @@
   "src": "harmonic"
  },
  "tejas choudhary": {
-  "inv": null,
-  "company": "Blume Equity"
+  "inv": true,
+  "company": "Blume Equity",
+  "title": "MBA Candidate",
+  "city": "New York",
+  "src": "harmonic"
  },
  "temitayo odukoya": {
   "inv": true,
@@ -9642,8 +9792,11 @@
   "company": "Lightbird"
  },
  "thomas norris": {
-  "inv": null,
-  "company": "Insight Partners"
+  "inv": true,
+  "company": "Insight Partners",
+  "title": "Principal",
+  "city": "New York",
+  "src": "harmonic"
  },
  "thomas preuß": {
   "inv": true,
@@ -10339,7 +10492,9 @@
  "yoram snir": {
   "inv": true,
   "title": "Partner",
-  "company": "83NORTH"
+  "company": "83NORTH",
+  "city": "israel",
+  "src": "harmonic"
  },
  "younes": {
   "inv": true,
@@ -10401,8 +10556,10 @@
   "company": "Atomico"
  },
  "zhen shen": {
-  "inv": null,
-  "company": "XTX Markets"
+  "inv": true,
+  "company": "XTX Markets",
+  "title": "Investment Manager",
+  "src": "harmonic"
  },
  "zhenya loginov": {
   "inv": true,
@@ -15033,6 +15190,4738 @@
   "title": "Administrative and Operations Manager",
   "city": "San Francisco",
   "company": "CRV",
+  "src": "harmonic"
+ },
+ "ophelia brown": {
+  "inv": true,
+  "title": "Founder, Managing Partner",
+  "city": "London",
+  "company": "Blossom Capital",
+  "src": "harmonic"
+ },
+ "jan hammer": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Index Ventures",
+  "src": "harmonic"
+ },
+ "georgia stevenson": {
+  "inv": true,
+  "title": "Partner",
+  "city": "United Kingdom",
+  "company": "Index Ventures",
+  "src": "harmonic"
+ },
+ "bastian hasslinger": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Index Ventures",
+  "src": "harmonic"
+ },
+ "julia andre": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London Area",
+  "company": "Index Ventures",
+  "src": "harmonic"
+ },
+ "pia d'iribarne": {
+  "inv": true,
+  "title": "Founder & Managing Partner",
+  "city": "London",
+  "company": "Main Object",
+  "src": "harmonic"
+ },
+ "robert sternberg": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "EQT Group",
+  "src": "harmonic"
+ },
+ "carlo b.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Accel",
+  "src": "harmonic"
+ },
+ "sonali de rycker": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Accel",
+  "src": "harmonic"
+ },
+ "cecilia wang": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Accel",
+  "src": "harmonic"
+ },
+ "paddy lambros": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London Area",
+  "company": "Dex",
+  "src": "harmonic"
+ },
+ "andreas helbig": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "andrew duncan": {
+  "inv": false,
+  "title": "Talent Director",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "irina haivas": {
+  "inv": true,
+  "title": "Venture Partner",
+  "company": "Kindred Capital VC",
+  "src": "harmonic"
+ },
+ "megan redding": {
+  "inv": false,
+  "title": "Executive Assistant & Communications",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "arabella reeves": {
+  "inv": true,
+  "title": "UKI Head of Startup and VC Ecosystem Google Cloud",
+  "city": "United Kingdom",
+  "company": "Google",
+  "src": "harmonic"
+ },
+ "tom wehmeier": {
+  "inv": true,
+  "title": "Partner | Head of Intelligence",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "konstantin zedelius": {
+  "inv": true,
+  "title": "VP",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "luca eisenstecken": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "henry mason": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "ties boukema": {
+  "inv": true,
+  "title": "Head of internal AI",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "evgenia plotnikova": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "zoe (ziwen) qin": {
+  "inv": true,
+  "title": "Principal",
+  "city": "United Kingdom",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "daniela raffel torrebiarte": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "hannah gubbins": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "kate klaver": {
+  "inv": true,
+  "title": "Deputy Director",
+  "city": "London",
+  "company": "One Horizon Capital Advisors",
+  "src": "harmonic"
+ },
+ "stefan schmidt": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "Berlin",
+  "company": "STS Capital GmbH",
+  "src": "harmonic"
+ },
+ "david a.": {
+  "inv": true,
+  "title": "Investor",
+  "city": "United Kingdom",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "henry jefferies": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "New York",
+  "company": "Recur Software",
+  "src": "harmonic"
+ },
+ "daniel tarver": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Trioak Capital",
+  "src": "harmonic"
+ },
+ "anna stojanovic": {
+  "inv": false,
+  "title": "Communications Manager",
+  "city": "London",
+  "company": "Plural",
+  "src": "harmonic"
+ },
+ "saul klein": {
+  "inv": true,
+  "title": "Co-Founder & Chair",
+  "city": "London",
+  "company": "Phoenix Court",
+  "src": "harmonic"
+ },
+ "emma phillips": {
+  "inv": true,
+  "title": "Investment Partner",
+  "city": "London",
+  "company": "LocalGlobe",
+  "src": "harmonic"
+ },
+ "yvonne bajela": {
+  "inv": true,
+  "title": "Co-Founder",
+  "company": "Black Venture Network",
+  "src": "harmonic"
+ },
+ "julia svennerstål-hawkins": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "LocalGlobe",
+  "src": "harmonic"
+ },
+ "rose mccourt": {
+  "inv": true,
+  "title": "Operating Partner",
+  "city": "London",
+  "company": "LocalGlobe",
+  "src": "harmonic"
+ },
+ "george henry": {
+  "inv": true,
+  "city": "London",
+  "src": "harmonic"
+ },
+ "mish mashkautsan": {
+  "inv": true,
+  "src": "harmonic"
+ },
+ "ferdi sigona": {
+  "inv": true,
+  "title": "Co-founder and CEO",
+  "company": "Stealth Company (Ferdi Sigona)",
+  "src": "harmonic"
+ },
+ "aashima arora": {
+  "inv": true,
+  "title": "Head of Applied GTM",
+  "city": "San Francisco",
+  "company": "Prime Intellect",
+  "src": "harmonic"
+ },
+ "carlos eduardo espinal mbe": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "reshma sohoni": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "felix martinez": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London Area",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "shannon briggs": {
+  "inv": true,
+  "src": "harmonic"
+ },
+ "alexander bruehl": {
+  "inv": true,
+  "title": "Co-Investor ⇨ Minubo",
+  "city": "Munich",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "abeed janmohamed": {
+  "inv": true,
+  "title": "Mentor",
+  "city": "Alton",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "tim jackson": {
+  "inv": true,
+  "title": "Mentor",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "daniel king": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "richard muirhead": {
+  "inv": true,
+  "title": "Mentor",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "taylor wescoatt": {
+  "inv": true,
+  "title": "Expert in Residence",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "ondrej bartos": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Prague",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "ashish (ash) puri": {
+  "inv": true,
+  "title": "Mentor",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "stephen allott": {
+  "inv": true,
+  "title": "Venture Partner Emeritus",
+  "city": "London",
+  "company": "Seedcamp",
+  "src": "harmonic"
+ },
+ "luciana lixandru": {
+  "inv": true,
+  "title": "Partner",
+  "city": "United Kingdom",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "anas biad": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "cornelius menke": {
+  "inv": true,
+  "src": "harmonic"
+ },
+ "cole pergament": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "haim sadger": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Israel",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "david perry": {
+  "inv": true,
+  "title": "Sequoia Capital Builder",
+  "city": "London",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "stephen chau": {
+  "inv": true,
+  "title": "Sequoia Capital Scout",
+  "city": "Palo Alto",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "enrique s.": {
+  "inv": true,
+  "title": "Scout",
+  "city": "New York",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "david de picciotto": {
+  "inv": true,
+  "title": "Scout",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "zoe jervier hewitt": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Sequoia Capital",
+  "src": "harmonic"
+ },
+ "erin platts": {
+  "inv": true,
+  "title": "Chief Executive Officer",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "zihao xu": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "becky hazell": {
+  "inv": false,
+  "title": "Executive Assistant - Team Lead",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "tilly fleming": {
+  "inv": true,
+  "title": "Investor",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "conor scanlan": {
+  "inv": true,
+  "title": "Associate Partner",
+  "city": "London",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "maria thoomkuzhiyil": {
+  "inv": true,
+  "title": "Portfolio Associate",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "chantal cox": {
+  "inv": true,
+  "title": "Founder",
+  "company": "Stealth Company (Chantal Cox)",
+  "src": "harmonic"
+ },
+ "edward keelan": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "stephanie opdam": {
+  "inv": true,
+  "title": "Partner, Growth",
+  "city": "St Albans",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "stephen millard": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Egham",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "kamil mieczakowski": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Greater London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "andrè welponer": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "jessica thomas": {
+  "inv": true,
+  "title": "Partner - Growth Investments",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "patrick norris": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "stephanie opdam, cfa": {
+  "inv": true,
+  "title": "Partner, Growth",
+  "city": "St Albans",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "charlotte salasky": {
+  "inv": true,
+  "title": "Partner, Investor Relations",
+  "city": "Dubai",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "itxaso del palacio, phd": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "melissa d.": {
+  "inv": true,
+  "title": "VC Investor - B2B SaaS",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "andy leaver": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "stephen chandler": {
+  "inv": true,
+  "title": "Co-Founder & Managing Partner",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "jinil shah": {
+  "inv": true,
+  "title": "Finance Director",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "anika broadway": {
+  "inv": true,
+  "title": "Operations Officer",
+  "city": "London",
+  "company": "EduFin (Education Finance Solutions Ltd)",
+  "src": "harmonic"
+ },
+ "ines de lestapis": {
+  "inv": true,
+  "title": "Commercial Partnerships Spain",
+  "city": "Madrid",
+  "company": "Tandem Health",
+  "src": "harmonic"
+ },
+ "chris tottman": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "St Peter Port, Guernsey",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "even walser": {
+  "inv": true,
+  "title": "Notion Expert",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "adam valkin": {
+  "inv": true,
+  "title": "Partner at Vine Ventures",
+  "city": "Newton",
+  "company": "Vine Ventures",
+  "src": "harmonic"
+ },
+ "cecilia z.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "paula hübner wehmeyer": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Brooklyn",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "hemant taneja": {
+  "inv": true,
+  "title": "CEO",
+  "city": "Palo Alto",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "adit swarup": {
+  "inv": true,
+  "title": "Partner, CVF",
+  "city": "San Francisco",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "reva nohria": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "pranav singhvi": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "San Francisco",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "alexandre momeni": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "alex tran": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "San Francisco",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "joel cutler": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "Cambridge",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "matt brennan": {
+  "inv": true,
+  "title": "Co-founder and General Partner",
+  "city": "New York",
+  "company": "Strata Capital Partners",
+  "src": "harmonic"
+ },
+ "kristen camarota": {
+  "inv": true,
+  "title": "VC",
+  "city": "Boston",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "trevor oelschig": {
+  "inv": true,
+  "title": "Seed Investor",
+  "city": "San Francisco",
+  "company": "Stilla (acquired by Meta)",
+  "src": "harmonic"
+ },
+ "nelly markova": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "george chalmers, cfa": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "phoebe kitchen": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "vinoth j.": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Revolut",
+  "src": "harmonic"
+ },
+ "jonathan sibilia": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "nic brisbourne": {
+  "inv": true,
+  "title": "Senior Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "ceyda sabanci dincer": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "grace savage": {
+  "inv": true,
+  "title": "IR Associate",
+  "city": "London",
+  "company": "Federated Hermes Limited",
+  "src": "harmonic"
+ },
+ "luke smith": {
+  "inv": true,
+  "title": "Head of Early Investing",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "stephanie edwards": {
+  "inv": true,
+  "title": "PA",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "diana krantz": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "2050",
+  "src": "harmonic"
+ },
+ "ollie forsyth": {
+  "inv": true,
+  "title": "Founder",
+  "city": "Bangkok",
+  "company": "NEW ECONOMIES",
+  "src": "harmonic"
+ },
+ "christoph hornung": {
+  "inv": true,
+  "city": "United Kingdom",
+  "src": "harmonic"
+ },
+ "inga deakin": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "nicola mcclafferty": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Dublin",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "philip o'reilly": {
+  "inv": true,
+  "title": "Head of Venture Operations",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "bakhrom i.": {
+  "inv": true,
+  "title": "Partner - Head of Molten East",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "gervaise slowey": {
+  "inv": true,
+  "title": "Non-Executive Director; Chair ESG Committee; Employee Engagement Director; Member RemCo, ARC",
+  "city": "Dublin",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "stuart chapman": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "steven mendel": {
+  "inv": true,
+  "title": "Partner, Secondaries",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "adam pikett": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Saint Martin",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "david cummings": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "alan duncan": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Molten Ventures",
+  "src": "harmonic"
+ },
+ "david buttress": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "83NORTH",
+  "src": "harmonic"
+ },
+ "gil goren": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Switzerland",
+  "company": "83NORTH",
+  "src": "harmonic"
+ },
+ "erez ofer": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Tel Aviv",
+  "company": "83NORTH",
+  "src": "harmonic"
+ },
+ "mandy lior": {
+  "inv": true,
+  "city": "Israel",
+  "src": "harmonic"
+ },
+ "rytis vitkauskas": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "DIG Ventures",
+  "src": "harmonic"
+ },
+ "julie kainz": {
+  "inv": true,
+  "title": "Corp Dev & Strategy",
+  "city": "Dubai",
+  "company": "Lean Technologies",
+  "src": "harmonic"
+ },
+ "paul murphy": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "tal morgenstern": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Tel Aviv-Yafo",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "yoni cheifetz": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Israel",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "alex taussig": {
+  "inv": true,
+  "title": "Board Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "nakul mandan": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "adrian nicholas radu": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Khosla Ventures",
+  "src": "harmonic"
+ },
+ "raviraj jain": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "gaurav gupta": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "brian k.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "mahau ma": {
+  "inv": true,
+  "title": "Operating Partner",
+  "city": "San Diego",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "sebastian duesterhoeft": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "pedro velasco": {
+  "inv": true,
+  "title": "Head of Investment Operations (Europe)",
+  "city": "London",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "timothy k.": {
+  "inv": true,
+  "title": "Advisor, Blockchain",
+  "city": "Los Angeles",
+  "company": "Lightspeed Venture Partners",
+  "src": "harmonic"
+ },
+ "humbert liedekerke": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "francois delmas": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "christoph mayer": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "victoria lim": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London Area",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "mario mazarese": {
+  "inv": true,
+  "title": "Partner and CFO",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "alexandra steele": {
+  "inv": false,
+  "title": "Executive Assistant to Co-Founders, Managing Partners",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "nicholas hancock": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "thibault mallion": {
+  "inv": true,
+  "title": "Co-Founder, Co-CEO",
+  "city": "London",
+  "company": "Benford",
+  "src": "harmonic"
+ },
+ "humbert de liedekerke beaufort": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "david klein": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "United Kingdom",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "roni elchahal": {
+  "inv": true,
+  "title": "Partner, Head of Capital Partnering",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "françois delmas": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "mattias iglésias langer": {
+  "inv": true,
+  "title": "Tech Investor",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "bertrand goetchel": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Tenzing",
+  "src": "harmonic"
+ },
+ "jon madigan": {
+  "inv": false,
+  "title": "Senior Fund Controller",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "martin moran": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "Reading",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "laurent séraphin": {
+  "inv": true,
+  "title": "Advisor / Value Creation Team",
+  "city": "New York",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "hussein kanji": {
+  "inv": true,
+  "title": "Analyst",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "payton dobbs": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "robert ludwig": {
+  "inv": false,
+  "title": "Chief Operating Officer",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "rob kniaz": {
+  "inv": true,
+  "title": "Partner Emeritus",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "robert swerling": {
+  "inv": true,
+  "title": "Limited Partner",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "rishabh kaul": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "bert navarrete": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "New York",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "bryan g.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "anais benazet": {
+  "inv": false,
+  "title": "Head of Events & Community",
+  "city": "Toulouse",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "michael stothard": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Kensington",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "lina wenner": {
+  "inv": true,
+  "title": "Chief of Staff",
+  "city": "Berlin",
+  "company": "Langdock",
+  "src": "harmonic"
+ },
+ "adriana vitagliano": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "spencer crawley": {
+  "inv": true,
+  "title": "Managing Partner & Co-Founder",
+  "city": "London",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "min nolan": {
+  "inv": false,
+  "title": "Chief Operating Officer",
+  "city": "United Kingdom",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "abby hughes": {
+  "inv": false,
+  "title": "Head of Operations",
+  "city": "London",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "brent hoberman": {
+  "inv": true,
+  "title": "Co-Founder and Executive Chair",
+  "city": "London",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "antoine nussenbaum": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "frederic court": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "julien codorniou": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "20VC",
+  "src": "harmonic"
+ },
+ "susan lin": {
+  "inv": true,
+  "title": "Partner, early-stage and growth investor",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "angela chou": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "tessa jaspers": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "sasha astafyeva": {
+  "inv": true,
+  "title": "CEO & Co-Founder",
+  "city": "London",
+  "company": "Stealth Company (Sasha Astafyeva)",
+  "src": "harmonic"
+ },
+ "joseph pizzolato": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "src": "harmonic"
+ },
+ "farrah hamid": {
+  "inv": true,
+  "city": "London",
+  "src": "harmonic"
+ },
+ "sarah shanfield": {
+  "inv": true,
+  "title": "VP, Operations",
+  "city": "New York",
+  "company": "Saturn",
+  "src": "harmonic"
+ },
+ "tom ryan": {
+  "inv": true,
+  "title": "Venture Advisor",
+  "city": "Los Angeles",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "lopo champalimaud": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "jon kamaluddin": {
+  "inv": true,
+  "title": "Independent Advisor",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "martin ericsson": {
+  "inv": true,
+  "title": "Founder & CEO",
+  "city": "London",
+  "company": "Priori Capital",
+  "src": "harmonic"
+ },
+ "virginia bassano": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Milan",
+  "company": "Italian Founders Fund",
+  "src": "harmonic"
+ },
+ "tamina f.": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "alston zecha": {
+  "inv": true,
+  "title": "Partner",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "olivia snow": {
+  "inv": true,
+  "title": "Director, CEO Office",
+  "city": "London",
+  "company": "Checkout.com",
+  "src": "harmonic"
+ },
+ "katy barnett": {
+  "inv": true,
+  "city": "United Kingdom",
+  "src": "harmonic"
+ },
+ "eyal r.": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London",
+  "company": "Stealth Company (Eyal R.)",
+  "src": "harmonic"
+ },
+ "dominic reardon": {
+  "inv": true,
+  "title": "Building",
+  "city": "Sydney",
+  "company": "Cable",
+  "src": "harmonic"
+ },
+ "antonin gury": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "Paris",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "jed wrigley": {
+  "inv": true,
+  "title": "Senior Advisor",
+  "city": "London",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "sonia ahmad-o’ halloran": {
+  "inv": false,
+  "title": "Risk & Compliance Co-ordinator / PA",
+  "city": "London",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "laura salesse": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "Paris",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "michael stephanblome": {
+  "inv": true,
+  "title": "Investor and Venture Partner",
+  "city": "London",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "ankit batra": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "Mumbai",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "alicia macleod": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Edinburgh",
+  "company": "Epidarex Capital",
+  "src": "harmonic"
+ },
+ "paul bonnet": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "20VC",
+  "src": "harmonic"
+ },
+ "alexandre dewez": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Londres et périphérie",
+  "company": "20VC",
+  "src": "harmonic"
+ },
+ "niall kiely": {
+  "inv": true,
+  "title": "Venture",
+  "city": "London",
+  "company": "20VC",
+  "src": "harmonic"
+ },
+ "mina samaan": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "carla boichon": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London Area",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "jamie shelton": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "masamba senghore": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "simon menashy": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "oliver richards": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "ameerul miah": {
+  "inv": true,
+  "title": "Partner and CFO/COO",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "bruce macfarlane": {
+  "inv": true,
+  "title": "Founder Partner",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "dele akinyemi": {
+  "inv": true,
+  "city": "London",
+  "src": "harmonic"
+ },
+ "charlotte barttelot": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "tom scowsill": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "anna slemmings": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "dan bailey": {
+  "inv": true,
+  "title": "Co-founder / CEO",
+  "company": "Nexcade",
+  "src": "harmonic"
+ },
+ "sevi u.": {
+  "inv": true,
+  "title": "Principal",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "alice azzarelli": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "London Area",
+  "company": "OKO",
+  "src": "harmonic"
+ },
+ "aidan w.": {
+  "inv": true,
+  "title": "Chief of Staff",
+  "city": "United Kingdom",
+  "company": "Gousto",
+  "src": "harmonic"
+ },
+ "nitish malhotra": {
+  "inv": true,
+  "title": "Building",
+  "city": "London",
+  "company": "Stealth Company (Nitish Malhotra)",
+  "src": "harmonic"
+ },
+ "itay haber": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "nikita andersson": {
+  "inv": true,
+  "title": "Angel",
+  "city": "London",
+  "company": "Angel Investor",
+  "src": "harmonic"
+ },
+ "lola wajskop": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Brooklyn",
+  "company": "Asylum Ventures",
+  "src": "harmonic"
+ },
+ "yousif al-dujaili": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Anfa",
+  "src": "harmonic"
+ },
+ "akshay mehra": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "United States",
+  "company": "NewCo",
+  "src": "harmonic"
+ },
+ "ani m.": {
+  "inv": true,
+  "title": "curating outlier minds..",
+  "city": "London",
+  "company": "Hummingbird Ventures",
+  "src": "harmonic"
+ },
+ "barend van den brande": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "United Kingdom",
+  "company": "Hummingbird Ventures",
+  "src": "harmonic"
+ },
+ "konrad kordowski": {
+  "inv": true,
+  "title": "VC",
+  "city": "Finland",
+  "company": "Hummingbird Ventures",
+  "src": "harmonic"
+ },
+ "bill leaver": {
+  "inv": true,
+  "title": "Scout",
+  "city": "London",
+  "company": "Hummingbird Ventures",
+  "src": "harmonic"
+ },
+ "imran ghory": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Blossom Capital",
+  "src": "harmonic"
+ },
+ "nick r.": {
+  "inv": true,
+  "title": "Founding Engineer",
+  "city": "London",
+  "company": "Meticulous",
+  "src": "harmonic"
+ },
+ "nathan benaich": {
+  "inv": true,
+  "title": "Solo Member of Investment Staff",
+  "city": "London",
+  "company": "Air Street Capital",
+  "src": "harmonic"
+ },
+ "archie muirhead": {
+  "inv": true,
+  "title": "Partner",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "max bautin": {
+  "inv": true,
+  "title": "Managing Partner, co-founder",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "simon hirtzel": {
+  "inv": true,
+  "title": "General Partner & COO",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "kerry baldwin": {
+  "inv": true,
+  "title": "Managing Partner, co-founder",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "jonno evans": {
+  "inv": true,
+  "title": "Partner",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "elaine hegarty": {
+  "inv": true,
+  "title": "Chief of Staff",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "jordan billiald": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "kushaal desai": {
+  "inv": true,
+  "title": "Investment Team",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "scott sage": {
+  "inv": true,
+  "title": "Co-founder and Partner",
+  "city": "London",
+  "company": "Crane Venture Partners",
+  "src": "harmonic"
+ },
+ "anna cachadina abello": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Crane Venture Partners",
+  "src": "harmonic"
+ },
+ "bonnie kraus": {
+  "inv": false,
+  "title": "Chief Operating Officer",
+  "city": "London",
+  "company": "Crane Venture Partners",
+  "src": "harmonic"
+ },
+ "megan reynolds": {
+  "inv": true,
+  "title": "Founder",
+  "city": "New York",
+  "company": "infra.nyc",
+  "src": "harmonic"
+ },
+ "justyna skop": {
+  "inv": false,
+  "title": "Business Operations Manager",
+  "city": "London",
+  "company": "Crane Venture Partners",
+  "src": "harmonic"
+ },
+ "yara alenazi": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Crane Venture Partners",
+  "src": "harmonic"
+ },
+ "vincent molina": {
+  "inv": true,
+  "title": "Scout Investor",
+  "city": "Paris",
+  "company": "Crane Venture Partners",
+  "src": "harmonic"
+ },
+ "leila rastegar zegna": {
+  "inv": true,
+  "title": "Founding General Partner",
+  "city": "London",
+  "company": "Kindred Capital VC",
+  "src": "harmonic"
+ },
+ "chrysanthos chrysanthou": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Kindred Capital VC",
+  "src": "harmonic"
+ },
+ "john w cassidy": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Kindred Capital VC",
+  "src": "harmonic"
+ },
+ "david wascha": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Kindred Capital VC",
+  "src": "harmonic"
+ },
+ "sitar teli": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "Connect Ventures",
+  "src": "harmonic"
+ },
+ "bill earner": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Westminster",
+  "company": "Entrepreneur First",
+  "src": "harmonic"
+ },
+ "alice pillar": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "Cambridge",
+  "company": "Moonfire",
+  "src": "harmonic"
+ },
+ "saran davies, phd": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Moonfire",
+  "src": "harmonic"
+ },
+ "maryna omelchenko": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "QuantumLight",
+  "src": "harmonic"
+ },
+ "sébastien gros": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London Area",
+  "company": "QuantumLight",
+  "src": "harmonic"
+ },
+ "warrick shanly": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "QuantumLight",
+  "src": "harmonic"
+ },
+ "christian repole": {
+  "inv": true,
+  "title": "Growth/VC Investor",
+  "city": "London",
+  "company": "QuantumLight",
+  "src": "harmonic"
+ },
+ "robert berluti": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "RTP Global",
+  "src": "harmonic"
+ },
+ "ewa kompowska": {
+  "inv": true,
+  "title": "VP, Investment Team",
+  "city": "London",
+  "company": "RTP Global",
+  "src": "harmonic"
+ },
+ "tom sheridan": {
+  "inv": true,
+  "title": "VP",
+  "city": "New York",
+  "company": "RTP Global",
+  "src": "harmonic"
+ },
+ "dzmitry mikhaliov": {
+  "inv": true,
+  "title": "Vice President - Strategy & BizDev",
+  "city": "Dubai",
+  "company": "Yango",
+  "src": "harmonic"
+ },
+ "laura brooks": {
+  "inv": true,
+  "title": "PR Lead, EMEA",
+  "city": "London",
+  "company": "Datadog",
+  "src": "harmonic"
+ },
+ "amelia armour": {
+  "inv": true,
+  "title": "Early Stage Fund",
+  "city": "Cambridge",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "nick kingsbury": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "emma christie": {
+  "inv": true,
+  "title": "PA",
+  "city": "Cambridge",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "andrea traversone": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Greater Cambridge Area",
+  "company": "Jolt Capital",
+  "src": "harmonic"
+ },
+ "hermann hauser": {
+  "inv": true,
+  "title": "Director",
+  "city": "Cambridge",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "dame anne margaret glover": {
+  "inv": true,
+  "title": "CEO",
+  "city": "London",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "pierre socha": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Cambridge",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "dr manjari chandran-ramesh": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "benjamin balmforth": {
+  "inv": true,
+  "title": "Corporate Development Director",
+  "city": "London",
+  "company": "TEKEVER",
+  "src": "harmonic"
+ },
+ "tom weatherall": {
+  "inv": true,
+  "title": "Associate",
+  "city": "London",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "anne horgan (nee nguyen)": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Cambridge",
+  "company": "Cambridge Innovation Capital",
+  "src": "harmonic"
+ },
+ "rob sprawson": {
+  "inv": true,
+  "title": "Partner & CFO",
+  "city": "Cambridge",
+  "company": "Cambridge Innovation Capital",
+  "src": "harmonic"
+ },
+ "ilana wisby": {
+  "inv": true,
+  "title": "Entrepreneur in Residence",
+  "city": "London",
+  "company": "Cambridge Innovation Capital",
+  "src": "harmonic"
+ },
+ "emily james, phd": {
+  "inv": true,
+  "title": "Investment Analyst",
+  "city": "Cambridge",
+  "company": "Cambridge Innovation Capital",
+  "src": "harmonic"
+ },
+ "nick brito": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "DST Global",
+  "src": "harmonic"
+ },
+ "william sutcliffe": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "DST Global",
+  "src": "harmonic"
+ },
+ "zoe chambers": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Frontline Ventures",
+  "src": "harmonic"
+ },
+ "stephen mcintyre": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Ireland",
+  "company": "Frontline Ventures",
+  "src": "harmonic"
+ },
+ "shay garvey": {
+  "inv": true,
+  "title": "Partner Emeritus",
+  "city": "Ireland",
+  "company": "Frontline Ventures",
+  "src": "harmonic"
+ },
+ "🌎🌍will prendergast": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Dublin",
+  "company": "Frontline Ventures",
+  "src": "harmonic"
+ },
+ "🌎  🌍 stephen mcintyre": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Ireland",
+  "company": "Frontline Ventures",
+  "src": "harmonic"
+ },
+ "lauren kang": {
+  "inv": true,
+  "title": "Associate Director, Investments",
+  "city": "San Francisco",
+  "company": "The James Irvine Foundation",
+  "src": "harmonic"
+ },
+ "brennan o'donnell": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Palo Alto",
+  "company": "Frontline Ventures",
+  "src": "harmonic"
+ },
+ "raja ohri, md": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London Area",
+  "company": "Expedition Growth Capital",
+  "src": "harmonic"
+ },
+ "imogen moore": {
+  "inv": true,
+  "title": "VP",
+  "city": "London Area",
+  "company": "Expedition Growth Capital",
+  "src": "harmonic"
+ },
+ "josh newman": {
+  "inv": true,
+  "title": "Head of Data & Research",
+  "city": "London",
+  "company": "Expedition Growth Capital",
+  "src": "harmonic"
+ },
+ "theo pincemin": {
+  "inv": true,
+  "title": "Growth Investor",
+  "city": "London",
+  "company": "Expedition Growth Capital",
+  "src": "harmonic"
+ },
+ "kibriya rahman": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "andrew elder": {
+  "inv": true,
+  "title": "Partner at AlbionVC (Deputy Managing Partner)",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "valérie aelbrecht": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "London Area",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "robert whitby-smith": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "emil gigov": {
+  "inv": true,
+  "title": "Albion Care Communities - Member Board Of Directors",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "adam chirkowski": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "eve-yasmine saoud-easton": {
+  "inv": true,
+  "title": "Musician",
+  "city": "Los Angeles",
+  "company": "Eve-Yasmine",
+  "src": "harmonic"
+ },
+ "christoph ruedig": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "molly gilmartin": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "leigh brody": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "London",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "capucine viard": {
+  "inv": true,
+  "title": "Associate",
+  "city": "Paris",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "hillel zidel": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "michael elias": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "anila repaj": {
+  "inv": true,
+  "title": "Operations & Investor Relations Manager",
+  "city": "London",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "cillian hilliard": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "olivier verhage": {
+  "inv": true,
+  "title": "Principal",
+  "city": "San Mateo",
+  "company": "Savant Growth",
+  "src": "harmonic"
+ },
+ "javier rojas": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "Burlingame",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "mike laven": {
+  "inv": true,
+  "title": "Executive Advisory Board",
+  "city": "London",
+  "company": "Kennet Partners",
+  "src": "harmonic"
+ },
+ "antoine de wilde d'estmael": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "alexandre charlet": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "beatrice jaubert": {
+  "inv": false,
+  "title": "Office Manager and Executive Assitant",
+  "city": "Paris",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "andrew smyth": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Palo Alto",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "scarlett ginolfi": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "caspar w.": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "john lynch": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "julius bleinroth": {
+  "inv": true,
+  "city": "Singapore",
+  "src": "harmonic"
+ },
+ "doğuş mordeniz": {
+  "inv": true,
+  "title": "Early Growth Investor",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "ines streimelweger": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "scott tully": {
+  "inv": true,
+  "title": "Principal",
+  "city": "United Kingdom",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "lisa maria soares": {
+  "inv": true,
+  "city": "Los Angeles",
+  "src": "harmonic"
+ },
+ "sarra zayani": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "ed oram": {
+  "inv": true,
+  "title": "Managing Director of Investor Relations",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "sofiane a.": {
+  "inv": true,
+  "title": "Founder in Residence | EF 2025 @ Station F",
+  "city": "Paris",
+  "company": "Entrepreneur First",
+  "src": "harmonic"
+ },
+ "david ola": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London Area",
+  "company": "Entrepreneur First",
+  "src": "harmonic"
+ },
+ "nick sopuch": {
+  "inv": true,
+  "title": "Manager",
+  "city": "London",
+  "company": "Entrepreneur First",
+  "src": "harmonic"
+ },
+ "ayman ali": {
+  "inv": true,
+  "title": "Associate",
+  "city": "London",
+  "company": "Entrepreneur First",
+  "src": "harmonic"
+ },
+ "paul beglin": {
+  "inv": true,
+  "title": "Entrepreneur in Residence",
+  "city": "Paris",
+  "company": "Entrepreneur First",
+  "src": "harmonic"
+ },
+ "sam harman": {
+  "inv": true,
+  "title": "Partner, Head of Deep Tech",
+  "city": "Oxford",
+  "company": "Oxford Science Enterprises",
+  "src": "harmonic"
+ },
+ "nick dixon-clegg": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Oxford Science Enterprises",
+  "src": "harmonic"
+ },
+ "edward bussey": {
+  "inv": true,
+  "title": "Chief Executive Officer",
+  "city": "Oxford",
+  "company": "Oxford Science Enterprises",
+  "src": "harmonic"
+ },
+ "jack edmondson": {
+  "inv": true,
+  "title": "Chief Investment Officer",
+  "city": "Oxford",
+  "company": "Oxford Science Enterprises",
+  "src": "harmonic"
+ },
+ "craig fox": {
+  "inv": true,
+  "title": "Operating Partner (Lifesciences)",
+  "city": "Oxford",
+  "company": "Oxford Science Enterprises",
+  "src": "harmonic"
+ },
+ "sami walter": {
+  "inv": true,
+  "title": "Senior Investment Associate",
+  "city": "London",
+  "company": "Oxford Science Enterprises",
+  "src": "harmonic"
+ },
+ "alexander krespi": {
+  "inv": true,
+  "title": "Venture Investor",
+  "company": "Paladin Capital Group",
+  "src": "harmonic"
+ },
+ "carles roqueta": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "andrea oliver garcia": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Barcelona",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "borja breña lajas": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Madrid",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "jordi viñas": {
+  "inv": true,
+  "title": "Co-founder and General Partner",
+  "city": "Barcelona",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "daniel sanchez": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Barcelona",
+  "company": "Nauta Capital",
+  "src": "harmonic"
+ },
+ "pratima a.": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Civo",
+  "src": "harmonic"
+ },
+ "claudia urquiola": {
+  "inv": true,
+  "title": "Chief Transformation Officer",
+  "city": "Madrid",
+  "company": "ScreenSYS",
+  "src": "harmonic"
+ },
+ "hannah robbins acma, cgma": {
+  "inv": false,
+  "title": "Financial Controller",
+  "city": "London",
+  "company": "MonetizationOS",
+  "src": "harmonic"
+ },
+ "alec kingham": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "daniel wolf": {
+  "inv": true,
+  "title": "Senior Vice President",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "jasper koid": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "peter read": {
+  "inv": true,
+  "title": "Cortex Partner",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "petter roald": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "jussi wuoristo": {
+  "inv": true,
+  "title": "Partner, Member of Founding Team",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "nowi kallen": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Salesforce Ventures",
+  "src": "harmonic"
+ },
+ "erik lunning": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "Stockholm",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "duncan reek": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "robert lang": {
+  "inv": true,
+  "title": "Special Partner",
+  "city": "Bavaria",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "brigott bruintjies": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Cape Town",
+  "company": "PwC South Africa",
+  "src": "harmonic"
+ },
+ "sophie bower-straziota": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "fabian wasmus": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Munich",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "petter a. roald": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Vitruvian Partners",
+  "src": "harmonic"
+ },
+ "david linsey": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "BACKED VC",
+  "src": "harmonic"
+ },
+ "andre haes": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London",
+  "company": "BACKED VC",
+  "src": "harmonic"
+ },
+ "andre de haes": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London",
+  "company": "BACKED VC",
+  "src": "harmonic"
+ },
+ "jenny gyllander": {
+  "inv": true,
+  "title": "Director, Product",
+  "city": "San Francisco",
+  "company": "ShopMy",
+  "src": "harmonic"
+ },
+ "vinay chaudhri": {
+  "inv": true,
+  "title": "VP of Special Projects",
+  "city": "London",
+  "company": "BACKED VC",
+  "src": "harmonic"
+ },
+ "yasmin siraj": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Boston",
+  "company": "BACKED VC",
+  "src": "harmonic"
+ },
+ "nitya gupta": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "13books Capital",
+  "src": "harmonic"
+ },
+ "aleksandra tyurina": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "13books Capital",
+  "src": "harmonic"
+ },
+ "steve gibson": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "13books Capital",
+  "src": "harmonic"
+ },
+ "maximilian bräuninger": {
+  "inv": true,
+  "title": "Fintech Investor",
+  "city": "London",
+  "company": "13books Capital",
+  "src": "harmonic"
+ },
+ "christian nentwich, phd": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "13books Capital",
+  "src": "harmonic"
+ },
+ "chloe woodacre": {
+  "inv": true,
+  "title": "Head Of Investor Relations",
+  "city": "London",
+  "company": "Parkwalk",
+  "src": "harmonic"
+ },
+ "karolina zapadka, phd mba": {
+  "inv": true,
+  "title": "Life Science Investor",
+  "city": "United Kingdom",
+  "company": "Parkwalk",
+  "src": "harmonic"
+ },
+ "malaq-neo daniel": {
+  "inv": true,
+  "title": "Investment Associate",
+  "city": "London",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "joyce dan xie, cfa": {
+  "inv": true,
+  "title": "Managing Director, Global Capital",
+  "city": "London",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "lois day, cfa": {
+  "inv": true,
+  "title": "Chair, AI Working Group",
+  "city": "London",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "george van horn, cfa": {
+  "inv": true,
+  "title": "Vice President",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "ben murphy": {
+  "inv": true,
+  "title": "Investment Director, Cleantech",
+  "city": "Stockholm",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "eva k.": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "London",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "joanna green": {
+  "inv": true,
+  "title": "Partner",
+  "company": "Ahren Innovation Capital",
+  "src": "harmonic"
+ },
+ "peter baines": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Ahren Innovation Capital",
+  "src": "harmonic"
+ },
+ "melissa lester": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London Area",
+  "company": "DIG Ventures",
+  "src": "harmonic"
+ },
+ "scott grimes": {
+  "inv": true,
+  "title": "Partner",
+  "city": "United Kingdom",
+  "company": "Celero Ventures",
+  "src": "harmonic"
+ },
+ "melissa (lester) klinger": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London Area",
+  "company": "DIG Ventures",
+  "src": "harmonic"
+ },
+ "ross mason": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Geneva",
+  "company": "DIG Ventures",
+  "src": "harmonic"
+ },
+ "nikita arora": {
+  "inv": true,
+  "title": "Co-Founder & CEO",
+  "city": "New York",
+  "company": "Sentiero Health",
+  "src": "harmonic"
+ },
+ "joshua gielessen": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "alexandre flavier": {
+  "inv": true,
+  "title": "Partner",
+  "city": "France",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "nic humphries": {
+  "inv": true,
+  "title": "Senior Partner, Executive Chair and Co-Head of the Saturn Team",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "daniel ward": {
+  "inv": true,
+  "title": "Principal, Secondaries",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "charlotte williams": {
+  "inv": true,
+  "city": "London",
+  "src": "harmonic"
+ },
+ "manja schindler": {
+  "inv": true,
+  "title": "Client Relations Executive Hg Wealth",
+  "city": "Munich",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "jemma willis": {
+  "inv": true,
+  "title": "Operations Executive",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "shiv pabari": {
+  "inv": true,
+  "title": "Associate Director - Portfolio Growth",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "giulia poletti de chaurand": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "maddie lavery": {
+  "inv": true,
+  "title": "Pricing Executive - Portfolio Growth at Hg",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "simon comfort": {
+  "inv": true,
+  "title": "Senior Executive - Portfolio Growth",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "sarah yasmin schneider": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "serena doshi": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "kitty mayo": {
+  "inv": true,
+  "title": "Co-Founder, CEO",
+  "city": "London",
+  "company": "Project Europe",
+  "src": "harmonic"
+ },
+ "cristina vila vives": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "Project Europe",
+  "src": "harmonic"
+ },
+ "wolfgang reisinger": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Haag",
+  "company": "Project Europe",
+  "src": "harmonic"
+ },
+ "nico de luis": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Madrid",
+  "company": "Project Europe",
+  "src": "harmonic"
+ },
+ "héctor mata": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Madrid",
+  "company": "Project Europe",
+  "src": "harmonic"
+ },
+ "brad van leeuwen": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "Project Europe",
+  "src": "harmonic"
+ },
+ "pogos saiadian": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Greyhound Capital",
+  "src": "harmonic"
+ },
+ "alice kemp": {
+  "inv": false,
+  "title": "EA & People Operations",
+  "city": "London",
+  "company": "Greyhound Capital",
+  "src": "harmonic"
+ },
+ "yu-an(michele) chang": {
+  "inv": true,
+  "title": "Investor",
+  "city": "United Kingdom",
+  "company": "Greyhound Capital",
+  "src": "harmonic"
+ },
+ "alexander macpherson": {
+  "inv": true,
+  "title": "Non Executive Director and Investment Committee Member",
+  "city": "London",
+  "company": "Northern Gritstone",
+  "src": "harmonic"
+ },
+ "eve howarth": {
+  "inv": true,
+  "title": "Co-Investor and Capital Manager",
+  "city": "London Area",
+  "company": "Northern Gritstone",
+  "src": "harmonic"
+ },
+ "jessica zoutsos": {
+  "inv": true,
+  "title": "Investment Advisor",
+  "company": "Northern Gritstone",
+  "src": "harmonic"
+ },
+ "thomas kaye": {
+  "inv": true,
+  "title": "Investment Manager",
+  "company": "Northern Gritstone",
+  "src": "harmonic"
+ },
+ "matt penneycard": {
+  "inv": true,
+  "title": "Co-founding Partner",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "francesca (check) warner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Greater London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "michael tefula": {
+  "inv": true,
+  "title": "Principal & Head of Product",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "luciana c.": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "Lisbon",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "ed zimmerman": {
+  "inv": true,
+  "title": "Member Of The Board Of Advisors",
+  "city": "New York",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "charles hudson": {
+  "inv": true,
+  "title": "Member of the Steering Committee",
+  "city": "San Francisco",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "fátima sani": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "Lisbon",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "hailey eustace": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "benjamin norton": {
+  "inv": true,
+  "title": "Scout",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "june angelides, mbe": {
+  "inv": true,
+  "title": "Ada's Angel",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "kat wendelstadt": {
+  "inv": true,
+  "title": "Growth Angel",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "david newman": {
+  "inv": true,
+  "title": "Ada Angel & Venture Scout",
+  "city": "Manchester",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "celia chartres-aris (née hensman)": {
+  "inv": true,
+  "title": "Ada Scout",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "srinivas allanki, phd": {
+  "inv": true,
+  "title": "Ada Scout",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "jake chatburn": {
+  "inv": true,
+  "title": "Venture Capital Scout",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "joe knowles": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Smedvig Ventures",
+  "src": "harmonic"
+ },
+ "peter duffy": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Smedvig Ventures",
+  "src": "harmonic"
+ },
+ "lucia vita": {
+  "inv": true,
+  "title": "Board Observer",
+  "city": "London",
+  "company": "poq",
+  "src": "harmonic"
+ },
+ "jonathan lerner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Smedvig Ventures",
+  "src": "harmonic"
+ },
+ "maeve crowley": {
+  "inv": true,
+  "title": "Senior Investment Associate",
+  "city": "London",
+  "company": "Smedvig Ventures",
+  "src": "harmonic"
+ },
+ "robert toms": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Smedvig Ventures",
+  "src": "harmonic"
+ },
+ "olivia neale": {
+  "inv": true,
+  "title": "Sr. Project Director",
+  "city": "Denmark",
+  "company": "Novo Nordisk",
+  "src": "harmonic"
+ },
+ "sophie day": {
+  "inv": false,
+  "title": "Head of Community Marketing",
+  "city": "London",
+  "company": "BGF",
+  "src": "harmonic"
+ },
+ "fil lekkas": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "nigel mccleave": {
+  "inv": true,
+  "title": "Partner",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "andrei xydas": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "ashish puri": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "olivia watson": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "DIG Ventures",
+  "src": "harmonic"
+ },
+ "daria bakatina": {
+  "inv": true,
+  "title": "Partner, CFO",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "christopher steinau": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "rachael zhu, ca": {
+  "inv": true,
+  "title": "Investment Analyst",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "oliver sweeney": {
+  "inv": true,
+  "title": "Principal, Climate & Energy",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "estella langheim": {
+  "inv": true,
+  "title": "Growth Investor",
+  "city": "Zurich",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "marta pyrzyk-standring": {
+  "inv": false,
+  "title": "CFO",
+  "city": "London",
+  "company": "Greyparrot",
+  "src": "harmonic"
+ },
+ "sophie lara n.": {
+  "inv": true,
+  "title": "Growth Investor",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "olya klueppel": {
+  "inv": true,
+  "title": "Senior Advisor",
+  "city": "Zurich",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "andrás botond d.": {
+  "inv": true,
+  "title": "Growth Equity Investor",
+  "city": "London Area",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "eddie anderson": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Pentech Ventures",
+  "src": "harmonic"
+ },
+ "tiffany young": {
+  "inv": true,
+  "title": "Origination Director",
+  "city": "London",
+  "company": "YFM Equity Partners",
+  "src": "harmonic"
+ },
+ "sophie winwood": {
+  "inv": true,
+  "title": "Co-Founder & CEO",
+  "company": "unlock VC",
+  "src": "harmonic"
+ },
+ "amy nauiokas": {
+  "inv": true,
+  "title": "Founder and CEO",
+  "city": "New York",
+  "company": "Anthemis Group",
+  "src": "harmonic"
+ },
+ "iason nikolakis": {
+  "inv": true,
+  "title": "Partner, Investments",
+  "city": "London",
+  "company": "Anthemis Group",
+  "src": "harmonic"
+ },
+ "alex corbett": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Reigate",
+  "company": "Anthemis Group",
+  "src": "harmonic"
+ },
+ "archie cochrane": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "Mexico City",
+  "company": "Mexico Tech Week",
+  "src": "harmonic"
+ },
+ "matthew jones": {
+  "inv": true,
+  "title": "Head of Partnership Development",
+  "city": "New York",
+  "company": "MS Transverse",
+  "src": "harmonic"
+ },
+ "swarnali mitra": {
+  "inv": true,
+  "title": "Director, Carbon Finance",
+  "city": "London",
+  "company": "CUR8",
+  "src": "harmonic"
+ },
+ "alexander mayall": {
+  "inv": true,
+  "title": "Investment Principal",
+  "city": "London",
+  "company": "Anthemis Group",
+  "src": "harmonic"
+ },
+ "udayan goyal": {
+  "inv": true,
+  "title": "Founder Managing Partner (former) and Non Executive Director of Board (current)",
+  "city": "London",
+  "company": "Anthemis Group",
+  "src": "harmonic"
+ },
+ "sonia powar": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Anthemis Group",
+  "src": "harmonic"
+ },
+ "alexandra ntemourtsidou": {
+  "inv": false,
+  "title": "COO",
+  "company": "Creator Fund",
+  "src": "harmonic"
+ },
+ "reece  khan": {
+  "inv": true,
+  "title": "Investment Partner",
+  "city": "London",
+  "company": "Creator Fund",
+  "src": "harmonic"
+ },
+ "iain mackie, phd": {
+  "inv": true,
+  "title": "Advisor & LP",
+  "city": "Edinburgh",
+  "company": "Creator Fund",
+  "src": "harmonic"
+ },
+ "agostino trapani": {
+  "inv": true,
+  "title": "Advisor / Investor",
+  "city": "Milan",
+  "company": "Creator Fund",
+  "src": "harmonic"
+ },
+ "andres bluhm": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "London",
+  "company": "Creator Fund",
+  "src": "harmonic"
+ },
+ "adam lovell": {
+  "inv": true,
+  "title": "Venture Capital Investor",
+  "city": "Altrincham",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "hugo lough": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "London",
+  "company": "Mercia Ventures",
+  "src": "harmonic"
+ },
+ "lisa ward": {
+  "inv": true,
+  "title": "Head of Value Creation - Mercia Ventures",
+  "city": "United Kingdom",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "henry hamilton": {
+  "inv": true,
+  "city": "London",
+  "src": "harmonic"
+ },
+ "gina hood": {
+  "inv": true,
+  "city": "Warwick",
+  "src": "harmonic"
+ },
+ "edwin abl": {
+  "inv": true,
+  "title": "GTM AI Operating Partner",
+  "city": "San Francisco",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "jason warren": {
+  "inv": true,
+  "title": "Software Engineer",
+  "city": "London",
+  "company": "Rokos Capital Management",
+  "src": "harmonic"
+ },
+ "yael schiff": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "Tel Aviv District",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "naama schlamm": {
+  "inv": true,
+  "city": "Israel",
+  "src": "harmonic"
+ },
+ "michael droesch": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Boston",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "rob stavis": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "kent bennett": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Boston",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "rob soni": {
+  "inv": true,
+  "title": "Managing Partner/LP",
+  "city": "Boston",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "nik ohri": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "steffan peyer": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "sunkyu han": {
+  "inv": true,
+  "title": "Growth Equity Investor",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "marc vangerven": {
+  "inv": true,
+  "title": "Investment Professional | Healthcare",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "irina müller": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "matthias allgaier": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "United Kingdom",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "antony clavel": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "han sikkens": {
+  "inv": true,
+  "title": "Managing Director & Head of Summit Partners Europe",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "scott collins": {
+  "inv": true,
+  "title": "Senior Advisor",
+  "city": "Miami",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "paul-hugo thiboult": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "christian strain": {
+  "inv": true,
+  "title": "Senior Advisor",
+  "city": "Boston",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "constantin boye": {
+  "inv": true,
+  "title": "Head of Carlyle Growth, Europe",
+  "city": "London",
+  "company": "The Carlyle Group",
+  "src": "harmonic"
+ },
+ "luke timothy farrugia": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "stephen melia": {
+  "inv": true,
+  "title": "Principal, Human Capital",
+  "city": "Boston",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "maximilian b.": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Summit Partners",
+  "src": "harmonic"
+ },
+ "james black": {
+  "inv": true,
+  "title": "Corporate Development & Strategy",
+  "city": "San Francisco",
+  "company": "Anthropic",
+  "src": "harmonic"
+ },
+ "shreyas garg": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "emily jones": {
+  "inv": true,
+  "city": "San Francisco",
+  "src": "harmonic"
+ },
+ "steve harrick": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Menlo Park",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "todd chaffee": {
+  "inv": true,
+  "title": "Managing Director & Partner",
+  "city": "San Francisco",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "kelly o'kane": {
+  "inv": true,
+  "title": "Partner & CFO",
+  "city": "San Francisco",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "somesh dash": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Menlo Park",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "sebastian escarrer bisbal": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "lisa prasadi": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Menlo Park",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "matthew miller": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "New York",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "dan ahrens": {
+  "inv": true,
+  "title": "Managing Partner",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "harley miller": {
+  "inv": true,
+  "title": "Founder, CEO and Managing Partner",
+  "city": "New York",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "matthew j. miller": {
+  "inv": true,
+  "title": "Principal",
+  "city": "New York",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "esther gonzalez": {
+  "inv": true,
+  "title": "Head Business Development & Investor Relations",
+  "city": "Zurich",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "mary glenn altamarino": {
+  "inv": false,
+  "title": "Virtual Assistant",
+  "city": "Manila",
+  "company": "ClearDesk",
+  "src": "harmonic"
+ },
+ "derek urben": {
+  "inv": true,
+  "title": "Head of Growth and Venture Investments",
+  "city": "Switzerland",
+  "company": "Arctos Capital Ltd",
+  "src": "harmonic"
+ },
+ "maximilian wilhelm": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "kathryn widdowson": {
+  "inv": false,
+  "title": "Senior Associate of Finance, Compliance, & Operations",
+  "city": "New York",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "liz atkisson, cpa": {
+  "inv": false,
+  "title": "Senior Vice President of Finance, Compliance & Operations",
+  "city": "New York",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "harald braunstein": {
+  "inv": true,
+  "title": "LP",
+  "city": "Munich",
+  "company": "Left Lane Capital",
+  "src": "harmonic"
+ },
+ "rosie tersigni": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "cathy gao": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "kevin diestel": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Generation Investment Management",
+  "src": "harmonic"
+ },
+ "ralph debernardo": {
+  "inv": true,
+  "title": "Partner, Head of Capital Formation & IR",
+  "city": "Austin",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "steve abbott": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Austin",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "chris kilroy": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Singapore",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "joe jarman": {
+  "inv": true,
+  "title": "Portfolio Director",
+  "city": "London",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "jan oosthuizen - mercia ventures": {
+  "inv": true,
+  "title": "Investor",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "marina fuentes": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "London",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "ruth coleman": {
+  "inv": true,
+  "title": "Venture Capital Investment Manager",
+  "city": "London",
+  "company": "Mercia Asset Management PLC",
+  "src": "harmonic"
+ },
+ "audrey osborne": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Belfast Metropolitan Area",
+  "company": "Techstart Ventures",
+  "src": "harmonic"
+ },
+ "graeme carruth": {
+  "inv": true,
+  "title": "Investment Solutions - Lead",
+  "city": "Edinburgh",
+  "company": "Scottish Enterprise",
+  "src": "harmonic"
+ },
+ "mairi henderson": {
+  "inv": true,
+  "title": "Investment Specialist",
+  "city": "Glasgow",
+  "company": "Scottish Enterprise",
+  "src": "harmonic"
+ },
+ "cameron c.": {
+  "inv": true,
+  "title": "Investment Solutions Specialist",
+  "city": "London",
+  "company": "Scottish Enterprise",
+  "src": "harmonic"
+ },
+ "jeffrey lieberman": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Insight Partners",
+  "src": "harmonic"
+ },
+ "muz ashraf": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "kai o'donobhan": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "marta estebanez": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "amy rees-ku": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Menlo Park",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "john doran": {
+  "inv": true,
+  "title": "General Partner, TCV",
+  "city": "San Francisco",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "rafael birnbaum": {
+  "inv": true,
+  "title": "Technology Growth Equity Investor",
+  "city": "London",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "elie privat de fressenel": {
+  "inv": true,
+  "title": "Growth Equity Investor",
+  "city": "London",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "marta suarez estebanez": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "serhat kizilboga": {
+  "inv": true,
+  "title": "Growth Equity",
+  "city": "New York",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "leroy lim": {
+  "inv": true,
+  "title": "Executive Advisor",
+  "city": "Singapore",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "gopi vaddi": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Boston",
+  "company": "Cover Drive Partners",
+  "src": "harmonic"
+ },
+ "alexander wortmann": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Menlo Park",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "marcus ryu": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "San Francisco",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "paul morrissey": {
+  "inv": true,
+  "title": "Blackstone Growth Senior Managing Director",
+  "city": "Greater London",
+  "company": "Blackstone",
+  "src": "harmonic"
+ },
+ "olivia henkoff": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "New York",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "jennifer padilla": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "San Francisco",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "ilana corney": {
+  "inv": false,
+  "title": "Senior Executive Assistant",
+  "city": "Israel",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "scott tobin": {
+  "inv": true,
+  "title": "Senior Advisor",
+  "city": "Israel",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "estelle tessaro": {
+  "inv": true,
+  "title": "Growth & Private Equity | Analyst",
+  "city": "London",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "danel dayan": {
+  "inv": true,
+  "title": "Principal",
+  "city": "San Francisco",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "shiran shalev": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Israel",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "collier searle": {
+  "inv": true,
+  "title": "Principal",
+  "city": "New York",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "zak ewen": {
+  "inv": true,
+  "title": "Partner",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "michael brown": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Boston",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "dharmesh thakker": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Menlo Park",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "itzik parnafes": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "Tel Aviv",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "chiraag deora": {
+  "inv": true,
+  "title": "Principal",
+  "city": "San Francisco",
+  "company": "Greycroft",
+  "src": "harmonic"
+ },
+ "aditya nidmarti": {
+  "inv": true,
+  "title": "Investor and Business Partner",
+  "city": "New York",
+  "company": "Fieldguide",
+  "src": "harmonic"
+ },
+ "brian feinstein": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "andrew schmitt": {
+  "inv": true,
+  "title": "Principal",
+  "city": "San Francisco",
+  "company": "Builders VC",
+  "src": "harmonic"
+ },
+ "alexandra sukin": {
+  "inv": true,
+  "title": "Investor",
+  "city": "New York",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "adam fisher": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Tel Aviv District",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "navid oreizy": {
+  "inv": true,
+  "title": "Partner, BVP Forge",
+  "city": "Austin",
+  "company": "Bessemer Venture Partners",
+  "src": "harmonic"
+ },
+ "dhruv jain": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London",
+  "src": "harmonic"
+ },
+ "john torrey": {
+  "inv": true,
+  "title": "Fellow (Sapphire Fellows); Venture Partner at Madrona",
+  "city": "Fort Worth",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "elizabeth arnsdorf patterson": {
+  "inv": false,
+  "title": "Partner, People + Talent",
+  "city": "San Francisco",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "ferdinando sigona": {
+  "inv": true,
+  "title": "Co-founder and CEO",
+  "company": "Stealth Company (Ferdi Sigona)",
+  "src": "harmonic"
+ },
+ "adrian radu": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "Khosla Ventures",
+  "src": "harmonic"
+ },
+ "ben balmforth": {
+  "inv": true,
+  "title": "Corporate Development Director",
+  "city": "London",
+  "company": "TEKEVER",
+  "src": "harmonic"
+ },
+ "francesca warner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Greater London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "elizabeth patterson": {
+  "inv": false,
+  "title": "Partner, People + Talent",
+  "city": "San Francisco",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "michael mashkautsan": {
+  "inv": true,
+  "src": "harmonic"
+ },
+ "pratima aiyagari": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "Civo",
+  "src": "harmonic"
+ },
+ "nick hancock": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "amadeus partners": {
+  "inv": false,
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic-sweep",
+  "note": "fund listing, not a person"
+ },
+ "avc index": {
+  "inv": false,
+  "company": "AlbionVC",
+  "src": "harmonic-sweep",
+  "note": "mailbox/list, not a person"
+ },
+ "sayula kirby": {
+  "inv": true,
+  "title": "Director",
+  "city": "United Kingdom",
+  "company": "Burlington PR",
+  "src": "harmonic"
+ },
+ "david rimer": {
+  "inv": true,
+  "title": "Founder",
+  "city": "Geneva",
+  "company": "The StoryBoard Collective",
+  "src": "harmonic"
+ },
+ "timm schipporeit": {
+  "inv": true,
+  "title": "Partner - FinTech & Tech",
+  "city": "London",
+  "company": "Perella Weinberg",
+  "src": "harmonic"
+ },
+ "leonard picardo": {
+  "inv": true,
+  "title": "Non Executive Director",
+  "company": "HeliosX Group",
+  "src": "harmonic"
+ },
+ "avid larizadeh": {
+  "inv": true,
+  "title": "Finance Leaders Fellow",
+  "city": "United Kingdom",
+  "company": "The Aspen Institute",
+  "src": "harmonic"
+ },
+ "candice du fretay": {
+  "inv": true,
+  "title": "Investor (seed)",
+  "city": "London",
+  "company": "Perceptic",
+  "src": "harmonic"
+ },
+ "michael lavner": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "Never Lift",
+  "src": "harmonic"
+ },
+ "alex harrison-spain": {
+  "inv": true,
+  "title": "VP Product",
+  "city": "London",
+  "company": "Stream",
+  "src": "harmonic"
+ },
+ "zhan shi": {
+  "inv": true,
+  "title": "Co-founder & CEO",
+  "city": "London",
+  "company": "CAREER26",
+  "src": "harmonic"
+ },
+ "jessica bartos": {
+  "inv": true,
+  "title": "Partner - Growth Investments",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "shan shan": {
+  "inv": true,
+  "title": "Investment Manager, Private Companies",
+  "city": "San Francisco",
+  "company": "Baillie Gifford",
+  "src": "harmonic"
+ },
+ "suzanne gillespie": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "tom wood": {
+  "inv": true,
+  "title": "Partner and General Counsel",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "beth tulley": {
+  "inv": false,
+  "title": "Senior Legal Counsel",
+  "city": "London",
+  "company": "One Peak",
+  "src": "harmonic"
+ },
+ "bryan gartner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "andie mortimer": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Hoxton Ventures",
+  "src": "harmonic"
+ },
+ "charles seely": {
+  "inv": true,
+  "title": "Lead Seed Investor (Hoxton Ventures)",
+  "company": "CuspAI",
+  "src": "harmonic"
+ },
+ "harri walsh": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "firstminute capital",
+  "src": "harmonic"
+ },
+ "liv price": {
+  "inv": false,
+  "title": "Director of Executive Talent, Europe",
+  "city": "San Francisco",
+  "company": "General Catalyst",
+  "src": "harmonic"
+ },
+ "fabian small": {
+  "inv": true,
+  "title": "Investor, VC & Growth Equity",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "jack eastgate": {
+  "inv": true,
+  "title": "Head of Finance",
+  "city": "United Kingdom",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "joyce santos": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Felix Capital",
+  "src": "harmonic"
+ },
+ "tamina fogelberg": {
+  "inv": true,
+  "title": "Director of Global Strategy & Corporate Development",
+  "city": "London",
+  "company": "Nothing",
+  "src": "harmonic"
+ },
+ "andrea garcia": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Barcelona",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "bryony milton": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "chloe dodson": {
+  "inv": false,
+  "title": "Portfolio & Talent Lead",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "sam jervier": {
+  "inv": false,
+  "title": "Head of Events & Ecosystem",
+  "city": "London",
+  "company": "Dawn Capital",
+  "src": "harmonic"
+ },
+ "bhrigu bali": {
+  "inv": false,
+  "title": "CFO/COO",
+  "city": "London",
+  "company": "noa",
+  "src": "harmonic"
+ },
+ "suzanne ashman": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "Sovereign AI",
+  "src": "harmonic"
+ },
+ "duncan tennant": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "London",
+  "company": "Bloxii",
+  "src": "harmonic"
+ },
+ "laura willming": {
+  "inv": false,
+  "title": "Head of Portfolio Talent",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "chloe allan": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "simon king": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Lakestar",
+  "src": "harmonic"
+ },
+ "adam said": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "matthew chandler": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Brussels",
+  "company": "V3 Ventures",
+  "src": "harmonic"
+ },
+ "chris oliver": {
+  "inv": false,
+  "title": "Portfolio People & Talent",
+  "city": "London",
+  "company": "Octopus Ventures",
+  "src": "harmonic"
+ },
+ "richard bolton": {
+  "inv": true,
+  "title": "Director Strategy & Corporate Development",
+  "city": "London, England",
+  "company": "Checkatrade",
+  "src": "harmonic"
+ },
+ "ben newsome": {
+  "inv": false,
+  "title": "VP Portfolio Talent & People",
+  "city": "London",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "joobee yeow": {
+  "inv": true,
+  "title": "People & Org Director",
+  "city": "London",
+  "company": "Notion Capital",
+  "src": "harmonic"
+ },
+ "dan toole": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "United Kingdom",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "julie von schweinitz": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Eight Roads",
+  "src": "harmonic"
+ },
+ "emily tsen": {
+  "inv": true,
+  "title": "Chief of Staff - Strategy & Growth",
+  "city": "London",
+  "company": "Meticulous",
+  "src": "harmonic"
+ },
+ "dan barrett-nembhard": {
+  "inv": false,
+  "title": "General Counsel",
+  "city": "London",
+  "company": "MMC Ventures",
+  "src": "harmonic"
+ },
+ "rosie loyd": {
+  "inv": false,
+  "title": "Executive Assistant to Investment Partner",
+  "city": "London",
+  "company": "Blossom Capital",
+  "src": "harmonic"
+ },
+ "frankie casimir": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Blossom Capital",
+  "src": "harmonic"
+ },
+ "catherine knott": {
+  "inv": false,
+  "title": "Operations Lead & EA",
+  "city": "London",
+  "company": "IQ Capital",
+  "src": "harmonic"
+ },
+ "christopher magazzeni": {
+  "inv": true,
+  "title": "Investment Director - Special Projects",
+  "city": "London",
+  "company": "Lakestar",
+  "src": "harmonic"
+ },
+ "james popplewell": {
+  "inv": true,
+  "title": "Senior Vice President",
+  "city": "Private Equity specialist",
+  "company": "Brookfield",
+  "src": "harmonic"
+ },
+ "michael lacey": {
+  "inv": false,
+  "title": "Accountant",
+  "city": "Cambridge",
+  "company": "Amadeus Capital Partners",
+  "src": "harmonic"
+ },
+ "eimear cahalin": {
+  "inv": true,
+  "title": "Independent Non-Executive Director",
+  "city": "Dublin",
+  "src": "harmonic"
+ },
+ "alba topallaj": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "Copilot Capital",
+  "src": "harmonic"
+ },
+ "ekaterina pogudina": {
+  "inv": false,
+  "title": "Head Of Marketing",
+  "company": "AlbionVC",
+  "src": "harmonic"
+ },
+ "fidel manolopoulos": {
+  "inv": true,
+  "title": "Partner & Co-Head of EMEA Investment",
+  "city": "London",
+  "company": "Federated Hermes Limited",
+  "src": "harmonic"
+ },
+ "jonathan hewitson": {
+  "inv": false,
+  "title": "Chief Financial Officer",
+  "city": "London",
+  "company": "Atomico",
+  "src": "harmonic"
+ },
+ "neil cooper": {
+  "inv": true,
+  "city": "London",
+  "src": "harmonic"
+ },
+ "heidi kortbaek": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "jan ebbinghaus": {
+  "inv": true,
+  "title": "CEO, Co-Founder",
+  "city": "United Kingdom",
+  "company": "Stealth Company (Jan Ebbinghaus)",
+  "src": "harmonic"
+ },
+ "chiara panunzi": {
+  "inv": true,
+  "title": "Chief of Staff",
+  "city": "London",
+  "company": "Nuitée",
+  "src": "harmonic"
+ },
+ "jake shyne": {
+  "inv": true,
+  "title": "Key Accounts and AI Deployment",
+  "city": "London",
+  "company": "Junior",
+  "src": "harmonic"
+ },
+ "marcel rafart": {
+  "inv": true,
+  "title": "Chairman",
+  "city": "Barcelona",
+  "company": "Ignion",
+  "src": "harmonic"
+ },
+ "caspar wahler": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "London",
+  "company": "Hedosophia",
+  "src": "harmonic"
+ },
+ "oriol juncosa": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Barcelona",
+  "company": "Plus Partners",
+  "src": "harmonic"
+ },
+ "rocio hodaly": {
+  "inv": false,
+  "title": "Executive Assistant to Managing Director",
+  "city": "Barcelona",
+  "company": "Galdana Ventures",
+  "src": "harmonic"
+ },
+ "rita fernandes": {
+  "inv": false,
+  "title": "Executive Assistant & Office Manager",
+  "city": "London",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "ryan procter": {
+  "inv": false,
+  "title": "Head of Marketing & Platform",
+  "city": "London",
+  "company": "Nauta",
+  "src": "harmonic"
+ },
+ "joao espadanal": {
+  "inv": true,
+  "title": "Principal Machine Learning Eng/Scientist",
+  "city": "London",
+  "company": "PolyModels Hub",
+  "src": "harmonic"
+ },
+ "michael mitterlehner": {
+  "inv": true,
+  "title": "Co-Founder & CEO",
+  "company": "Aries Global",
+  "src": "harmonic"
+ },
+ "lucia cerchlan": {
+  "inv": true,
+  "title": "Head of Portfolio Management and Product",
+  "city": "London",
+  "company": "BACKED VC",
+  "src": "harmonic"
+ },
+ "joanna wlazlak": {
+  "inv": false,
+  "title": "Head of Platform",
+  "city": "London",
+  "company": "13books Capital",
+  "src": "harmonic"
+ },
+ "daniele weiss": {
+  "inv": true,
+  "title": "Founder",
+  "city": "London Area",
+  "company": "Curating Kismet",
+  "src": "harmonic"
+ },
+ "anne dobree": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Greater Cambridge Area",
+  "company": "Parkwalk",
+  "src": "harmonic"
+ },
+ "jon edington": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "david baynes": {
+  "inv": false,
+  "title": "COO",
+  "city": "Greater Cambridge Area",
+  "company": "IP Group plc",
+  "src": "harmonic"
+ },
+ "churn lim": {
+  "inv": true,
+  "title": "Investment Professional",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "martin wygas": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "London",
+  "company": "Axiom Equity",
+  "src": "harmonic"
+ },
+ "christopher fielding": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "sascha kaumann": {
+  "inv": true,
+  "title": "Partner for External Growth",
+  "city": "Munich",
+  "company": "GENII Software Group",
+  "src": "harmonic"
+ },
+ "jo bonetti": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "alex madison": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London",
+  "company": "Hg",
+  "src": "harmonic"
+ },
+ "sallie trenell": {
+  "inv": false,
+  "title": "Personal Assistant",
+  "city": "Stockport",
+  "company": "Northern Gritstone",
+  "src": "harmonic"
+ },
+ "james hadley": {
+  "inv": false,
+  "title": "Chief Financial Officer",
+  "city": "Lymm",
+  "company": "Northern Gritstone",
+  "src": "harmonic"
+ },
+ "diarra smith": {
+  "inv": false,
+  "title": "Head of Portfolio and Brand",
+  "city": "London",
+  "company": "Ada Ventures",
+  "src": "harmonic"
+ },
+ "mehdi lichani": {
+  "inv": true,
+  "title": "Director, Value Creation & AI",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "jessica ivan": {
+  "inv": true,
+  "title": "Senior Sales Manager",
+  "city": "London",
+  "company": "MP Investment Group",
+  "src": "harmonic"
+ },
+ "sophie neuber": {
+  "inv": true,
+  "title": "Growth Investor",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "nina cardelus": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "London",
+  "company": "Lightrock",
+  "src": "harmonic"
+ },
+ "craig anderson": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Edinburgh",
+  "company": "Pentech Ventures",
+  "src": "harmonic"
+ },
+ "derya varol": {
+  "inv": false,
+  "title": "Executive Assistant to Founder & CEO",
+  "city": "United Kingdom",
+  "company": "Enki Trade",
+  "src": "harmonic"
+ },
+ "jake christoforou": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "London",
+  "company": "Wayra",
+  "src": "harmonic"
+ },
+ "john rosenberg": {
+  "inv": true,
+  "title": "Founder and Partner",
+  "city": "London",
+  "company": "Farview Equity Partners",
+  "src": "harmonic"
+ },
+ "isabella smith": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London Area",
+  "company": "TCV",
+  "src": "harmonic"
+ },
+ "dave tabors": {
+  "inv": true,
+  "title": "Private Equity Partner",
+  "city": "Boston",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "sanjiv kalevar": {
+  "inv": true,
+  "title": "Partner | Building Beyond Seed",
+  "city": "San Francisco",
+  "company": "Mucker Capital",
+  "src": "harmonic"
+ },
+ "antonia heiss": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "Boston",
+  "company": "Battery Ventures",
+  "src": "harmonic"
+ },
+ "kirk lepke": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "EQT Group",
+  "src": "harmonic"
+ },
+ "nicolas slim": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "InfraVia Capital Partners",
+  "src": "harmonic"
+ },
+ "lidija massenko": {
+  "inv": true,
+  "title": "Growth Equity Investor",
+  "city": "London",
+  "company": "Keensight Capital",
+  "src": "harmonic"
+ },
+ "ajay vashee": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "San Francisco",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "jules maltz": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "San Francisco",
+  "company": "IVP",
+  "src": "harmonic"
+ },
+ "derek asbun": {
+  "inv": true,
+  "title": "Head of Portfolio Development",
+  "city": "New York",
+  "company": "Salesforce Ventures",
+  "src": "harmonic"
+ },
+ "tiffany chandra": {
+  "inv": false,
+  "title": "Vice President, Head of Talent",
+  "city": "San Francisco",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "xiaoping feng": {
+  "inv": true,
+  "title": "Head of Data & Analytics",
+  "city": "San Francisco",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "hannah cohn": {
+  "inv": false,
+  "title": "Group Coordinator, Fund Accounting",
+  "city": "San Francisco",
+  "company": "DivcoWest",
+  "src": "harmonic"
+ },
+ "annalise dragic": {
+  "inv": true,
+  "title": "Co-Founder & Co-CEO",
+  "city": "Austin",
+  "company": "Azlin Software",
+  "src": "harmonic"
+ },
+ "elizabeth miller": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Sunnyvale",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "krupa vankayala": {
+  "inv": false,
+  "title": "VP, People & HR",
+  "city": "Austin",
+  "company": "Sapphire Ventures",
+  "src": "harmonic"
+ },
+ "david carter": {
+  "inv": true,
+  "title": "MD, Technology",
+  "city": "Austin",
+  "company": "Wells Fargo",
+  "src": "harmonic"
+ },
+ "sophie hyde": {
+  "inv": false,
+  "title": "PA & Office Manager",
+  "city": "Dorking",
+  "company": "Greens Team",
+  "src": "harmonic"
+ },
+ "marina paschali": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "London Area",
+  "company": "TDR Capital",
+  "src": "harmonic"
+ },
+ "daniel benjamin": {
+  "inv": true,
+  "title": "Seed Investor",
+  "city": "Tel Aviv-Yafo",
+  "company": "Eon",
+  "src": "harmonic"
+ },
+ "clare hunter": {
+  "inv": false,
+  "title": "Head of Brand, Communications and Marketing",
+  "city": "London",
+  "company": "BACKED VC",
   "src": "harmonic"
  }
 }

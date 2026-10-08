@@ -3724,6 +3724,36 @@
     "status": "moved",
     "now": "Moonfire (Founder)",
     "note": "Harmonic: Atomico co-founder role ended Dec 2019; Founder at Moonfire since Jul 2019. Affinity still carries mattias@atomico.com. Flagged by Will Oct 2026."
+   },
+   "Paddy Lambros": {
+    "status": "moved",
+    "now": "Dex (Founder)",
+    "note": "Harmonic: Atomico role ended 2025-02-01"
+   },
+   "Irina Haivas": {
+    "status": "moved",
+    "now": "Kindred Capital VC (Venture Partner)",
+    "note": "Harmonic: Atomico role ended 2025-09-01"
+   },
+   "Arabella Reeves": {
+    "status": "moved",
+    "now": "Google (UKI Head of Startup and VC Ecosystem Google Cloud)",
+    "note": "Harmonic: Atomico role ended 2024-02-01"
+   },
+   "Alex Harrison-Spain": {
+    "status": "moved",
+    "now": "Stream (VP Product)",
+    "note": "Harmonic: Atomico role ended 2017-11-01"
+   },
+   "Zhan Shi": {
+    "status": "moved",
+    "now": "CAREER26 (Co-founder & CEO)",
+    "note": "Harmonic: Atomico role ended 2026-02-01"
+   },
+   "Marina Paschali": {
+    "status": "moved",
+    "now": "TDR Capital (Executive Assistant)",
+    "note": "Harmonic: Atomico role ended 2026-04-01"
    }
   },
   "octopus-ventures": {
@@ -3736,6 +3766,36 @@
     "status": "moved",
     "now": "Cori Clinical (Co-Founder)",
     "note": "Harmonic: Octopus stint ended Dec 2024; octopusventures.com email still live in Affinity"
+   },
+   "Alliott Cole": {
+    "status": "moved",
+    "now": "Oakland (CEO)",
+    "note": "Harmonic: Octopus Ventures role ended 2025-12-01"
+   },
+   "Chantal Cox": {
+    "status": "moved",
+    "now": "Stealth Company (Chantal Cox) (Founder)",
+    "note": "Harmonic: Octopus Ventures role ended 2025-12-01"
+   },
+   "Simon King": {
+    "status": "moved",
+    "now": "Lakestar (Partner)",
+    "note": "Harmonic: Octopus Ventures role ended 2025-08-01"
+   },
+   "Matthew Chandler": {
+    "status": "moved",
+    "now": "V3 Ventures (Partner)",
+    "note": "Harmonic: Octopus Ventures role ended 2026-02-01"
+   },
+   "Richard Bolton": {
+    "status": "moved",
+    "now": "Checkatrade (Director Strategy & Corporate Development)",
+    "note": "Harmonic: Octopus Ventures role ended 2026-09-01"
+   },
+   "Ben Newsome": {
+    "status": "moved",
+    "now": "Cherry Ventures (VP Portfolio Talent & People)",
+    "note": "Harmonic: Octopus Ventures role ended 2026-02-01"
    }
   },
   "left-lane-capital": {
@@ -3743,6 +3803,944 @@
     "status": "moved",
     "now": "RTP Global (Investor)",
     "note": "Harmonic: Left Lane Capital role ended 2026-07-01"
+   },
+   "Alicia Garabedian": {
+    "status": "moved",
+    "now": "Stealth Company (Alicia Garabedian) (Board Observer)",
+    "note": "Harmonic: Left Lane Capital role ended 2025-12-01"
+   },
+   "Mary Glenn Altamarino": {
+    "status": "moved",
+    "now": "ClearDesk (Virtual Assistant)",
+    "note": "Harmonic: Left Lane Capital role ended 2026-09-01"
+   },
+   "Derek Urben": {
+    "status": "moved",
+    "now": "Arctos Capital Ltd (Head of Growth and Venture Investments)",
+    "note": "Harmonic: Left Lane Capital role ended 2024-01-01"
+   },
+   "Mary Altamarino": {
+    "status": "moved",
+    "now": "ClearDesk (Virtual Assistant)",
+    "note": "Harmonic: Left Lane Capital role ended 2026-09-01"
+   }
+  },
+  "accel": {
+   "Pia d'Iribarne": {
+    "status": "moved",
+    "now": "Main Object (Founder & Managing Partner)",
+    "note": "Harmonic: Accel role ended 2019-01-01"
+   },
+   "Robert Sternberg": {
+    "status": "moved",
+    "now": "EQT Group (Director)",
+    "note": "Harmonic: Accel role ended 2024-12-01"
+   },
+   "Avid Larizadeh": {
+    "status": "moved",
+    "now": "The Aspen Institute (Finance Leaders Fellow)",
+    "note": "Harmonic: Accel role ended 2009-05-01"
+   },
+   "Candice du Fretay": {
+    "status": "moved",
+    "now": "Perceptic (Investor (seed))",
+    "note": "Harmonic: Accel role ended 2024-07-01"
+   }
+  },
+  "dawn-capital": {
+   "Owen Brooks": {
+    "status": "moved",
+    "now": "Ironbridge (Co-Founder)",
+    "note": "Harmonic: Dawn Capital role ended 2025-12-01"
+   },
+   "Ties Boukema": {
+    "status": "moved",
+    "now": "Hg (Head of internal AI)",
+    "note": "Harmonic: Dawn Capital role ended 2026-08-01"
+   },
+   "Kate Klaver": {
+    "status": "moved",
+    "now": "One Horizon Capital Advisors (Deputy Director)",
+    "note": "Harmonic: Dawn Capital role ended 2024-09-01"
+   },
+   "Stefan Schmidt": {
+    "status": "moved",
+    "now": "STS Capital GmbH (Managing Director)",
+    "note": "Harmonic: Dawn Capital role ended 2020-12-01"
+   },
+   "Henry Jefferies": {
+    "status": "moved",
+    "now": "Recur Software (Co-Founder)",
+    "note": "Harmonic: Dawn Capital role ended 2020-01-01"
+   },
+   "Andrea Garcia": {
+    "status": "moved",
+    "now": "Nauta (Principal)",
+    "note": "Harmonic: Dawn Capital role ended 2016-09-01"
+   }
+  },
+  "plural": {
+   "Daniel Tarver": {
+    "status": "moved",
+    "now": "Trioak Capital (Partner)",
+    "note": "Harmonic: Plural role ended 2025-04-01"
+   }
+  },
+  "localglobe": {
+   "Yvonne Bajela": {
+    "status": "moved",
+    "now": "Black Venture Network (Co-Founder)",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2026-07-01"
+   },
+   "George Henry": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2026-06-01"
+   },
+   "Mish Mashkautsan": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2026-06-01"
+   },
+   "Ferdi Sigona": {
+    "status": "moved",
+    "now": "Stealth Company (Ferdi Sigona) (Co-founder and CEO)",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2025-10-01"
+   },
+   "Aashima Arora": {
+    "status": "moved",
+    "now": "Prime Intellect (Head of Applied GTM)",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2025-10-31"
+   },
+   "Ferdinando Sigona": {
+    "status": "moved",
+    "now": "Stealth Company (Ferdi Sigona) (Co-founder and CEO)",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2025-10-01"
+   },
+   "Michael Mashkautsan": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2026-06-01"
+   },
+   "Bhrigu Bali": {
+    "status": "moved",
+    "now": "noa (CFO/COO)",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2021-09-01"
+   },
+   "Suzanne Ashman": {
+    "status": "moved",
+    "now": "Sovereign AI (Managing Partner)",
+    "note": "Harmonic: LocalGlobe / Phoenix Court role ended 2026-02-01"
+   }
+  },
+  "seedcamp": {
+   "Amber Patel": {
+    "status": "moved",
+    "now": "Goldman Sachs (Financial Investment Professional)",
+    "note": "Harmonic: Seedcamp role ended 2024-06-01"
+   },
+   "Shannon Briggs": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Seedcamp role ended 2020-03-01"
+   }
+  },
+  "sequoia-capital": {
+   "Cornelius Menke": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Sequoia Capital role ended 2025-01-01"
+   },
+   "Maria Dowling": {
+    "status": "moved",
+    "now": "Evantic Capital (Executive Business Partner)",
+    "note": "Harmonic: Sequoia Capital role ended 2025-09-01"
+   },
+   "Duncan Tennant": {
+    "status": "moved",
+    "now": "Bloxii (Co-Founder)",
+    "note": "Harmonic: Sequoia Capital role ended 2024-02-01"
+   }
+  },
+  "notion-capital": {
+   "Anika Broadway": {
+    "status": "moved",
+    "now": "EduFin (Education Finance Solutions Ltd) (Operations Officer)",
+    "note": "Harmonic: Notion Capital role ended 2018-05-01"
+   },
+   "Ines De Lestapis": {
+    "status": "moved",
+    "now": "Tandem Health (Commercial Partnerships Spain)",
+    "note": "Harmonic: Notion Capital role ended 2023-04-01"
+   },
+   "Dan Toole": {
+    "status": "moved",
+    "now": "Eight Roads (Vice President)",
+    "note": "Harmonic: Notion Capital role ended 2018-05-01"
+   }
+  },
+  "general-catalyst": {
+   "Adam Valkin": {
+    "status": "moved",
+    "now": "Vine Ventures (Partner at Vine Ventures)",
+    "note": "Harmonic: General Catalyst role ended 2025-07-01"
+   },
+   "Matt Brennan": {
+    "status": "moved",
+    "now": "Strata Capital Partners (Co-founder and General Partner)",
+    "note": "Harmonic: General Catalyst role ended 2021-06-01"
+   },
+   "Trevor Oelschig": {
+    "status": "moved",
+    "now": "Stilla (acquired by Meta) (Seed Investor)",
+    "note": "Harmonic: General Catalyst role ended 2026-03-01"
+   }
+  },
+  "molten-ventures": {
+   "Vinoth J.": {
+    "status": "moved",
+    "now": "Revolut (Investor)",
+    "note": "Harmonic: Molten Ventures role ended 2026-01-01"
+   },
+   "Grace Savage": {
+    "status": "moved",
+    "now": "Federated Hermes Limited (IR Associate)",
+    "note": "Harmonic: Molten Ventures role ended 2025-10-01"
+   },
+   "Diana Krantz": {
+    "status": "moved",
+    "now": "2050 (Partner)",
+    "note": "Harmonic: Molten Ventures role ended 2020-08-01"
+   },
+   "Ollie Forsyth": {
+    "status": "moved",
+    "now": "NEW ECONOMIES (Founder)",
+    "note": "Harmonic: Molten Ventures role ended 2021-01-01"
+   },
+   "Christoph Hornung": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Molten Ventures role ended 2026-01-01"
+   }
+  },
+  "83north": {
+   "Mandy Lior": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: 83North role ended 2025-06-01"
+   }
+  },
+  "lightspeed-venture-partners": {
+   "Julie Kainz": {
+    "status": "moved",
+    "now": "Lean Technologies (Corp Dev & Strategy)",
+    "note": "Harmonic: Lightspeed Venture Partners role ended 2025-09-01"
+   },
+   "Shan Shan": {
+    "status": "moved",
+    "now": "Baillie Gifford (Investment Manager, Private Companies)",
+    "note": "Harmonic: Lightspeed Venture Partners role ended 2024-06-01"
+   }
+  },
+  "one-peak": {
+   "Thibault Mallion": {
+    "status": "moved",
+    "now": "Benford (Co-Founder, Co-CEO)",
+    "note": "Harmonic: One Peak role ended 2026-06-01"
+   },
+   "Bertrand Goetchel": {
+    "status": "moved",
+    "now": "Tenzing (Partner)",
+    "note": "Harmonic: One Peak role ended 2019-01-01"
+   }
+  },
+  "firstminute-capital": {
+   "Lina Wenner": {
+    "status": "moved",
+    "now": "Langdock (Chief of Staff)",
+    "note": "Harmonic: firstminute capital role ended 2026-09-01"
+   },
+   "Liv Price": {
+    "status": "moved",
+    "now": "General Catalyst (Director of Executive Talent, Europe)",
+    "note": "Harmonic: firstminute capital role ended 2024-10-31"
+   }
+  },
+  "felix-capital": {
+   "Alexandra Thornton": {
+    "status": "moved",
+    "now": "Personal Investments (Investor)",
+    "note": "Harmonic: Felix Capital role ended 2026-07-01"
+   },
+   "Sasha Astafyeva": {
+    "status": "moved",
+    "now": "Stealth Company (Sasha Astafyeva) (CEO & Co-Founder)",
+    "note": "Harmonic: Felix Capital role ended 2020-04-01"
+   },
+   "Joseph Pizzolato": {
+    "status": "moved",
+    "now": "None (Managing Partner)",
+    "note": "Harmonic: Felix Capital role ended 2023-12-01"
+   },
+   "Farrah Hamid": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Felix Capital role ended 2026-03-01"
+   },
+   "Sarah Shanfield": {
+    "status": "moved",
+    "now": "Saturn (VP, Operations)",
+    "note": "Harmonic: Felix Capital role ended 2021-10-01"
+   }
+  },
+  "eight-roads": {
+   "Martin Ericsson": {
+    "status": "moved",
+    "now": "Priori Capital (Founder & CEO)",
+    "note": "Harmonic: Eight Roads role ended 2026-01-01"
+   },
+   "Virginia Bassano": {
+    "status": "moved",
+    "now": "Italian Founders Fund (Principal)",
+    "note": "Harmonic: Eight Roads role ended 2025-10-01"
+   },
+   "Olivia Snow": {
+    "status": "moved",
+    "now": "Checkout.com (Director, CEO Office)",
+    "note": "Harmonic: Eight Roads role ended 2019-02-01"
+   },
+   "Katy Barnett": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Eight Roads role ended 2025-12-01"
+   },
+   "Eyal R.": {
+    "status": "moved",
+    "now": "Stealth Company (Eyal R.) (Founder)",
+    "note": "Harmonic: Eight Roads role ended 2026-01-01"
+   },
+   "Dominic Reardon": {
+    "status": "moved",
+    "now": "Cable (Building)",
+    "note": "Harmonic: Eight Roads role ended 2020-11-01"
+   },
+   "Alicia MacLeod": {
+    "status": "moved",
+    "now": "Epidarex Capital (Executive Assistant)",
+    "note": "Harmonic: Eight Roads role ended 2026-01-01"
+   },
+   "Tamina Fogelberg": {
+    "status": "moved",
+    "now": "Nothing (Director of Global Strategy & Corporate Development)",
+    "note": "Harmonic: Eight Roads role ended 2024-12-01"
+   },
+   "Daniel Benjamin": {
+    "status": "moved",
+    "now": "Eon (Seed Investor)",
+    "note": "Harmonic: Eight Roads role ended 2024-09-30"
+   }
+  },
+  "mmc-ventures": {
+   "Dele Akinyemi": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: MMC Ventures role ended 2021-12-01"
+   },
+   "Dan Bailey": {
+    "status": "moved",
+    "now": "Nexcade (Co-founder / CEO)",
+    "note": "Harmonic: MMC Ventures role ended 2015-01-01"
+   },
+   "Alice Azzarelli": {
+    "status": "moved",
+    "now": "OKO (Co-Founder)",
+    "note": "Harmonic: MMC Ventures role ended 2023-03-01"
+   },
+   "Aidan W.": {
+    "status": "moved",
+    "now": "Gousto (Chief of Staff)",
+    "note": "Harmonic: MMC Ventures role ended 2018-03-01"
+   },
+   "Nitish Malhotra": {
+    "status": "moved",
+    "now": "Stealth Company (Nitish Malhotra) (Building)",
+    "note": "Harmonic: MMC Ventures role ended 2026-05-01"
+   },
+   "Emily Tsen": {
+    "status": "moved",
+    "now": "Meticulous (Chief of Staff - Strategy & Growth)",
+    "note": "Harmonic: MMC Ventures role ended 2024-10-01"
+   }
+  },
+  "hummingbird-ventures": {
+   "Nikita Andersson": {
+    "status": "moved",
+    "now": "Angel Investor (Angel)",
+    "note": "Harmonic: Hummingbird Ventures role ended 2026-03-01"
+   },
+   "Lola Wajskop": {
+    "status": "moved",
+    "now": "Asylum Ventures (Partner)",
+    "note": "Harmonic: Hummingbird Ventures role ended 2023-12-01"
+   },
+   "Yousif Al-Dujaili": {
+    "status": "moved",
+    "now": "Anfa (Partner)",
+    "note": "Harmonic: Hummingbird Ventures role ended 2021-07-01"
+   },
+   "Akshay Mehra": {
+    "status": "moved",
+    "now": "NewCo (General Partner)",
+    "note": "Harmonic: Hummingbird Ventures role ended 2026-06-01"
+   }
+  },
+  "blossom-capital": {
+   "Nick R.": {
+    "status": "moved",
+    "now": "Meticulous (Founding Engineer)",
+    "note": "Harmonic: Blossom Capital role ended 2024-06-01"
+   }
+  },
+  "crane-venture-partners": {
+   "Megan Reynolds": {
+    "status": "moved",
+    "now": "infra.nyc (Founder)",
+    "note": "Harmonic: Crane Venture Partners role ended 2022-11-01"
+   }
+  },
+  "rtp-global": {
+   "Orson Stadler": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: RTP Global role ended 2025-08-01"
+   },
+   "Dzmitry Mikhaliov": {
+    "status": "moved",
+    "now": "Yango (Vice President - Strategy & BizDev)",
+    "note": "Harmonic: RTP Global role ended 2021-06-01"
+   },
+   "Laura Brooks": {
+    "status": "moved",
+    "now": "Datadog (PR Lead, EMEA)",
+    "note": "Harmonic: RTP Global role ended 2025-10-01"
+   }
+  },
+  "amadeus-capital-partners": {
+   "Andrea Traversone": {
+    "status": "moved",
+    "now": "Jolt Capital (Managing Partner)",
+    "note": "Harmonic: Amadeus Capital Partners role ended 2023-08-01"
+   },
+   "Benjamin Balmforth": {
+    "status": "moved",
+    "now": "TEKEVER (Corporate Development Director)",
+    "note": "Harmonic: Amadeus Capital Partners role ended 2023-04-01"
+   },
+   "Ben Balmforth": {
+    "status": "moved",
+    "now": "TEKEVER (Corporate Development Director)",
+    "note": "Harmonic: Amadeus Capital Partners role ended 2023-04-01"
+   },
+   "Richard Anton": {
+    "status": "moved",
+    "now": "Oxx (General Partner)",
+    "note": "Harmonic: Amadeus Capital Partners role ended 2016-12-01"
+   }
+  },
+  "frontline-ventures": {
+   "Lauren Kang": {
+    "status": "moved",
+    "now": "The James Irvine Foundation (Associate Director, Investments)",
+    "note": "Harmonic: Frontline Ventures role ended 2023-01-01"
+   },
+   "Eimear Cahalin": {
+    "status": "moved",
+    "now": "None (Independent Non-Executive Director)",
+    "note": "Harmonic: Frontline Ventures role ended 2025-01-01"
+   }
+  },
+  "expedition-growth-capital": {
+   "Maria Percuklievska": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Expedition Growth Capital role ended 2025-06-01"
+   },
+   "Shuli Levy": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Expedition Growth Capital role ended 2025-09-01"
+   },
+   "Alba Topallaj": {
+    "status": "moved",
+    "now": "Copilot Capital (Director)",
+    "note": "Harmonic: Expedition Growth Capital role ended 2023-01-01"
+   }
+  },
+  "albionvc": {
+   "Eve-Yasmine Saoud-Easton": {
+    "status": "moved",
+    "now": "Eve-Yasmine (Musician)",
+    "note": "Harmonic: AlbionVC role ended 2023-10-01"
+   }
+  },
+  "kennet-partners": {
+   "Olivier Verhage": {
+    "status": "moved",
+    "now": "Savant Growth (Principal)",
+    "note": "Harmonic: Kennet Partners role ended 2018-03-01"
+   },
+   "Fidel Manolopoulos": {
+    "status": "moved",
+    "now": "Federated Hermes Limited (Partner & Co-Head of EMEA Investment)",
+    "note": "Harmonic: Kennet Partners role ended 2016-06-01"
+   },
+   "Jonathan Hewitson": {
+    "status": "moved",
+    "now": "Atomico (Chief Financial Officer)",
+    "note": "Harmonic: Kennet Partners role ended 2026-01-01"
+   },
+   "Neil Cooper": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Kennet Partners role ended 2019-11-01"
+   }
+  },
+  "hedosophia": {
+   "Julius Bleinroth": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Hedosophia role ended 2024-12-01"
+   },
+   "Lisa Maria Soares": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Hedosophia role ended 2026-03-01"
+   },
+   "Jan Ebbinghaus": {
+    "status": "moved",
+    "now": "Stealth Company (Jan Ebbinghaus) (CEO, Co-Founder)",
+    "note": "Harmonic: Hedosophia role ended 2025-01-01"
+   },
+   "Chiara Panunzi": {
+    "status": "moved",
+    "now": "Nuitée (Chief of Staff)",
+    "note": "Harmonic: Hedosophia role ended 2025-12-01"
+   },
+   "Jake Shyne": {
+    "status": "moved",
+    "now": "Junior (Key Accounts and AI Deployment)",
+    "note": "Harmonic: Hedosophia role ended 2026-05-01"
+   }
+  },
+  "nauta": {
+   "Josh Trup": {
+    "status": "moved",
+    "now": "Greenfield Partners (Principal)",
+    "note": "Harmonic: Nauta role ended 2024-01-01"
+   },
+   "Alexander Krespi": {
+    "status": "moved",
+    "now": "Paladin Capital Group (Venture Investor)",
+    "note": "Harmonic: Nauta role ended 2025-06-01"
+   },
+   "Pratima A.": {
+    "status": "moved",
+    "now": "Civo (Advisor)",
+    "note": "Harmonic: Nauta role ended 2025-06-01"
+   },
+   "Claudia Urquiola": {
+    "status": "moved",
+    "now": "ScreenSYS (Chief Transformation Officer)",
+    "note": "Harmonic: Nauta role ended 2024-10-01"
+   },
+   "Hannah Robbins Acma, Cgma": {
+    "status": "moved",
+    "now": "MonetizationOS (Financial Controller)",
+    "note": "Harmonic: Nauta role ended 2021-09-01"
+   },
+   "Pratima Aiyagari": {
+    "status": "moved",
+    "now": "Civo (Advisor)",
+    "note": "Harmonic: Nauta role ended 2025-06-01"
+   },
+   "Marcel Rafart": {
+    "status": "moved",
+    "now": "Ignion (Chairman)",
+    "note": "Harmonic: Nauta role ended 2014-04-01"
+   },
+   "Oriol Juncosa": {
+    "status": "moved",
+    "now": "Plus Partners (Founding Partner)",
+    "note": "Harmonic: Nauta role ended 2011-01-01"
+   },
+   "Rocio Hodaly": {
+    "status": "moved",
+    "now": "Galdana Ventures (Executive Assistant to Managing Director)",
+    "note": "Harmonic: Nauta role ended 2011-05-01"
+   },
+   "Joao Espadanal": {
+    "status": "moved",
+    "now": "PolyModels Hub (Principal Machine Learning Eng/Scientist)",
+    "note": "Harmonic: Nauta role ended 2026-06-01"
+   }
+  },
+  "vitruvian-partners": {
+   "Brigott Bruintjies": {
+    "status": "moved",
+    "now": "PwC South Africa (Executive Assistant)",
+    "note": "Harmonic: Vitruvian Partners role ended 2026-03-01"
+   },
+   "Michael Mitterlehner": {
+    "status": "moved",
+    "now": "Aries Global (Co-Founder & CEO)",
+    "note": "Harmonic: Vitruvian Partners role ended 2020-01-01"
+   }
+  },
+  "backed-vc": {
+   "Jenny Gyllander": {
+    "status": "moved",
+    "now": "ShopMy (Director, Product)",
+    "note": "Harmonic: Backed VC role ended 2019-03-01"
+   }
+  },
+  "dig-ventures": {
+   "Scott Grimes": {
+    "status": "moved",
+    "now": "Celero Ventures (Partner)",
+    "note": "Harmonic: DIG Ventures role ended 2026-04-01"
+   },
+   "Nikita Arora": {
+    "status": "moved",
+    "now": "Sentiero Health (Co-Founder & CEO)",
+    "note": "Harmonic: DIG Ventures role ended 2024-02-01"
+   }
+  },
+  "hg": {
+   "Charlotte Williams": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Hg role ended unknown"
+   },
+   "Martin Wygas": {
+    "status": "moved",
+    "now": "Axiom Equity (Founding Partner)",
+    "note": "Harmonic: Hg role ended 2022-06-01"
+   },
+   "Sascha Kaumann": {
+    "status": "moved",
+    "now": "GENII Software Group (Partner for External Growth)",
+    "note": "Harmonic: Hg role ended 2015-08-01"
+   }
+  },
+  "greyhound-capital": {
+   "Abby Wong": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Greyhound Capital role ended 2026-03-01"
+   }
+  },
+  "smedvig-ventures": {
+   "Lucia Vita": {
+    "status": "moved",
+    "now": "poq (Board Observer)",
+    "note": "Harmonic: Smedvig Ventures role ended 2026-09-01"
+   },
+   "Olivia Neale": {
+    "status": "moved",
+    "now": "Novo Nordisk (Sr. Project Director)",
+    "note": "Harmonic: Smedvig Ventures role ended 2018-08-01"
+   },
+   "Sophie Day": {
+    "status": "moved",
+    "now": "BGF (Head of Community Marketing)",
+    "note": "Harmonic: Smedvig Ventures role ended 2024-09-01"
+   }
+  },
+  "praetura-ventures": {
+   "Emily Bourne": {
+    "status": "moved",
+    "now": "Puma Growth Partners (Investment Manager)",
+    "note": "Harmonic: Praetura Ventures role ended 2023-09-01"
+   }
+  },
+  "lightrock": {
+   "Olivia Watson": {
+    "status": "moved",
+    "now": "DIG Ventures (Executive Assistant)",
+    "note": "Harmonic: Lightrock role ended 2025-08-01"
+   },
+   "Marta Pyrzyk-Standring": {
+    "status": "moved",
+    "now": "Greyparrot (CFO)",
+    "note": "Harmonic: Lightrock role ended 2024-05-01"
+   },
+   "Jessica Ivan": {
+    "status": "moved",
+    "now": "MP Investment Group (Senior Sales Manager)",
+    "note": "Harmonic: Lightrock role ended 2023-11-01"
+   }
+  },
+  "pentech-ventures": {
+   "Tiffany Young": {
+    "status": "moved",
+    "now": "YFM Equity Partners (Origination Director)",
+    "note": "Harmonic: Pentech Ventures role ended 2021-04-01"
+   }
+  },
+  "anthemis-group": {
+   "Sophie Winwood": {
+    "status": "moved",
+    "now": "unlock VC (Co-Founder & CEO)",
+    "note": "Harmonic: Anthemis role ended 2023-12-01"
+   },
+   "Archie Cochrane": {
+    "status": "moved",
+    "now": "Mexico Tech Week (Co-Founder)",
+    "note": "Harmonic: Anthemis role ended 2023-02-01"
+   },
+   "Matthew Jones": {
+    "status": "moved",
+    "now": "MS Transverse (Head of Partnership Development)",
+    "note": "Harmonic: Anthemis role ended 2024-08-01"
+   },
+   "Swarnali Mitra": {
+    "status": "moved",
+    "now": "CUR8 (Director, Carbon Finance)",
+    "note": "Harmonic: Anthemis role ended 2023-02-01"
+   },
+   "Derya Varol": {
+    "status": "moved",
+    "now": "Enki Trade (Executive Assistant to Founder & CEO)",
+    "note": "Harmonic: Anthemis role ended 2018-09-01"
+   }
+  },
+  "mercia-asset-management-plc": {
+   "Henry Hamilton": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Mercia role ended 2026-07-01"
+   },
+   "Gina Hood": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Mercia role ended 2026-06-01"
+   },
+   "Jason Warren": {
+    "status": "moved",
+    "now": "Rokos Capital Management (Software Engineer)",
+    "note": "Harmonic: Mercia role ended 2023-07-01"
+   },
+   "Jake Christoforou": {
+    "status": "moved",
+    "now": "Wayra (Investment Manager)",
+    "note": "Harmonic: Mercia role ended 2022-12-01"
+   }
+  },
+  "bessemer-venture-partners": {
+   "Naama Schlamm": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Bessemer Venture Partners role ended 2022-07-01"
+   },
+   "Aditya Nidmarti": {
+    "status": "moved",
+    "now": "Fieldguide (Investor and Business Partner)",
+    "note": "Harmonic: Bessemer Venture Partners role ended 2026-01-01"
+   },
+   "Andrew Schmitt": {
+    "status": "moved",
+    "now": "Builders VC (Principal)",
+    "note": "Harmonic: Bessemer Venture Partners role ended 2024-04-30"
+   },
+   "Dhruv Jain": {
+    "status": "moved",
+    "now": "None (Founder)",
+    "note": "Harmonic: Bessemer Venture Partners role ended 2022-01-01"
+   }
+  },
+  "summit-partners": {
+   "Constantin Boye": {
+    "status": "moved",
+    "now": "The Carlyle Group (Head of Carlyle Growth, Europe)",
+    "note": "Harmonic: Summit Partners role ended 2016-01-01"
+   },
+   "Kirk Lepke": {
+    "status": "moved",
+    "now": "EQT Group (Partner)",
+    "note": "Harmonic: Summit Partners role ended 2015-12-01"
+   },
+   "Nicolas Slim": {
+    "status": "moved",
+    "now": "InfraVia Capital Partners (Partner)",
+    "note": "Harmonic: Summit Partners role ended 2016-08-01"
+   },
+   "Lidija Massenko": {
+    "status": "moved",
+    "now": "Keensight Capital (Growth Equity Investor)",
+    "note": "Harmonic: Summit Partners role ended 2024-05-01"
+   }
+  },
+  "ivp": {
+   "Karthik Ramakrishnan": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: IVP role ended 2026-01-01"
+   },
+   "James Black": {
+    "status": "moved",
+    "now": "Anthropic (Corporate Development & Strategy)",
+    "note": "Harmonic: IVP role ended 2024-01-01"
+   },
+   "Emily Jones": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: IVP role ended 2025-08-01"
+   }
+  },
+  "sapphire-ventures": {
+   "Kevin Diestel": {
+    "status": "moved",
+    "now": "Generation Investment Management (Partner)",
+    "note": "Harmonic: Sapphire Ventures role ended 2023-04-01"
+   },
+   "Derek Asbun": {
+    "status": "moved",
+    "now": "Salesforce Ventures (Head of Portfolio Development)",
+    "note": "Harmonic: Sapphire Ventures role ended 2024-08-01"
+   },
+   "Hannah Cohn": {
+    "status": "moved",
+    "now": "DivcoWest (Group Coordinator, Fund Accounting)",
+    "note": "Harmonic: Sapphire Ventures role ended 2025-05-01"
+   },
+   "Annalise Dragic": {
+    "status": "moved",
+    "now": "Azlin Software (Co-Founder & Co-CEO)",
+    "note": "Harmonic: Sapphire Ventures role ended 2023-08-01"
+   },
+   "David Carter": {
+    "status": "moved",
+    "now": "Wells Fargo (MD, Technology)",
+    "note": "Harmonic: Sapphire Ventures role ended 2026-08-01"
+   },
+   "Sophie Hyde": {
+    "status": "moved",
+    "now": "Greens Team (PA & Office Manager)",
+    "note": "Harmonic: Sapphire Ventures role ended 2025-09-01"
+   }
+  },
+  "tcv": {
+   "Gopi Vaddi": {
+    "status": "moved",
+    "now": "Cover Drive Partners (General Partner)",
+    "note": "Harmonic: TCV role ended 2025-10-01"
+   },
+   "John Rosenberg": {
+    "status": "moved",
+    "now": "Farview Equity Partners (Founder and Partner)",
+    "note": "Harmonic: TCV role ended 2018-06-01"
+   }
+  },
+  "battery-ventures": {
+   "Paul Morrissey": {
+    "status": "moved",
+    "now": "Blackstone (Blackstone Growth Senior Managing Director)",
+    "note": "Harmonic: Battery Ventures role ended 2021-04-01"
+   },
+   "Chiraag Deora": {
+    "status": "moved",
+    "now": "Greycroft (Principal)",
+    "note": "Harmonic: Battery Ventures role ended 2022-07-01"
+   },
+   "Sanjiv Kalevar": {
+    "status": "moved",
+    "now": "Mucker Capital (Partner | Building Beyond Seed)",
+    "note": "Harmonic: Battery Ventures role ended 2020-11-01"
+   }
+  },
+  "index-ventures": {
+   "Sayula Kirby": {
+    "status": "moved",
+    "now": "Burlington PR (Director)",
+    "note": "Harmonic: Index Ventures role ended 2013-01-01"
+   },
+   "David Rimer": {
+    "status": "moved",
+    "now": "The StoryBoard Collective (Founder)",
+    "note": "Harmonic: Index Ventures role ended 2013-08-01"
+   },
+   "Timm Schipporeit": {
+    "status": "moved",
+    "now": "Perella Weinberg (Partner - FinTech & Tech)",
+    "note": "Harmonic: Index Ventures role ended 2017-01-01"
+   },
+   "Leonard Picardo": {
+    "status": "moved",
+    "now": "HeliosX Group (Non Executive Director)",
+    "note": "Harmonic: Index Ventures role ended 2013-01-01"
+   }
+  },
+  "balderton": {
+   "Michael Lavner": {
+    "status": "moved",
+    "now": "Never Lift (General Partner)",
+    "note": "Harmonic: Balderton Capital role ended 2023-01-01"
+   }
+  },
+  "hoxton-ventures": {
+   "Charles Seely": {
+    "status": "moved",
+    "now": "CuspAI (Lead Seed Investor (Hoxton Ventures))",
+    "note": "Harmonic: Hoxton Ventures role ended 2025-10-01"
+   }
+  },
+  "iq-capital": {
+   "Christopher Magazzeni": {
+    "status": "moved",
+    "now": "Lakestar (Investment Director - Special Projects)",
+    "note": "Harmonic: IQ Capital role ended 2025-02-01"
+   }
+  },
+  "quantumlight": {
+   "James Popplewell": {
+    "status": "moved",
+    "now": "Brookfield (Senior Vice President)",
+    "note": "Harmonic: QuantumLight role ended 2024-03-01"
+   }
+  },
+  "13books-capital": {
+   "Daniele Weiss": {
+    "status": "moved",
+    "now": "Curating Kismet (Founder)",
+    "note": "Harmonic: 13books Capital role ended 2024-06-01"
+   }
+  },
+  "aff-activepartners": {
+   "Anna Sweetman": {
+    "status": "moved",
+    "now": "University of Oxford (Strategy Consultant)",
+    "note": "Harmonic: Active Partners role ended 2026-02-01"
+   }
+  },
+  "aff-blumeequity": {
+   "Tejas Choudhary": {
+    "status": "moved",
+    "now": "Columbia Business School (MBA Candidate)",
+    "note": "Harmonic: Blume Equity role ended 2026-08-01"
+   }
+  },
+  "aff-martlet": {
+   "Paul Bailey": {
+    "status": "moved",
+    "now": "Eco-Inject (Non Executive Director)",
+    "note": "Harmonic: Martlet role ended 2024-12-01"
+   }
+  },
+  "aff-playfair": {
+   "Clare Zhang": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Playfair role ended 2025-07-01"
    }
   }
  }

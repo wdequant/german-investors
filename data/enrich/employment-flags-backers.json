@@ -2995,8 +2995,9 @@
  },
  "martletcap.com": {
   "Paul Bailey": {
-   "status": "unknown",
-   "now": null
+   "status": "moved",
+   "now": "Eco-Inject (Non Executive Director)",
+   "note": "Harmonic: Martlet role ended 2024-12-01"
   }
  },
  "matrix.vc": {
@@ -4611,6 +4612,27 @@
    "status": "moved",
    "now": "Stealth Company (Jackie Chen) (CEO and Co-Founder)",
    "note": "Harmonic: Base10 Partners role ended 2025-06-01"
+  }
+ },
+ "active.partners": {
+  "Anna Sweetman": {
+   "status": "moved",
+   "now": "University of Oxford (Strategy Consultant)",
+   "note": "Harmonic: Active Partners role ended 2026-02-01"
+  }
+ },
+ "blumeequity.com": {
+  "Tejas Choudhary": {
+   "status": "moved",
+   "now": "Columbia Business School (MBA Candidate)",
+   "note": "Harmonic: Blume Equity role ended 2026-08-01"
+  }
+ },
+ "playfair.vc": {
+  "Clare Zhang": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: Playfair role ended 2025-07-01"
   }
  }
 }
