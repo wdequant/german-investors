@@ -1,0 +1,536 @@
+{
+ "indexventures.com": {
+  "name": "Index Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 95,
+  "note": "The defining London franchise; feeds Highland at A/B and competes at growth. Every serious UK process touches them."
+ },
+ "accel.com": {
+  "name": "Accel",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 95,
+  "note": "US fund, London office; Europe's best Series A portfolio for 20 years - the single richest feeder of Highland-stage assets.",
+  "in_affinity": false
+ },
+ "balderton.com": {
+  "name": "Balderton Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 92,
+  "note": "Series A plus dedicated growth fund; the most consistent UK co-investor and upstream source."
+ },
+ "atomico.com": {
+  "name": "Atomico",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 90,
+  "note": "A through growth, pan-European reach; direct competitor on growth rounds and a strong signal when they lead early."
+ },
+ "dawncapital.com": {
+  "name": "Dawn Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 88,
+  "note": "Europe's largest B2B software specialist; their A/B portfolio is a ready-made Highland pipeline."
+ },
+ "pluralplatform.com": {
+  "name": "Plural",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 88,
+  "note": "Operator-led (Hinrikus, Hogarth); the strongest new early-stage franchise in Europe - watch everything they seed."
+ },
+ "localglobe.vc": {
+  "name": "LocalGlobe / Phoenix Court",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 88,
+  "note": "London's premier seed platform (plus Latitude growth); dominant top-of-funnel for UK tech."
+ },
+ "seedcamp.com": {
+  "name": "Seedcamp",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 88,
+  "note": "Pre-seed institution (Wise, Revolut, UiPath); highest-coverage early index of UK founders."
+ },
+ "sequoiacap.com": {
+  "name": "Sequoia Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 85,
+  "note": "US fund, London office since 2021; leads the most contested seed-to-growth deals in the UK.",
+  "in_affinity": false
+ },
+ "octopusventures.com": {
+  "name": "Octopus Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 85,
+  "note": "One of Europe's largest VCs by volume; ubiquitous across UK health, fintech and deeptech pipeline."
+ },
+ "notioncapital.com": {
+  "name": "Notion Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 85,
+  "note": "SaaS/cloud specialist with opportunity fund; cleanest B2B feeder into Highland's sweet spot."
+ },
+ "generalcatalyst.com": {
+  "name": "General Catalyst",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 82,
+  "note": "US fund, London office (absorbed La Famiglia); aggressive European early and growth cheques.",
+  "in_affinity": false
+ },
+ "moltenventures.com": {
+  "name": "Molten Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 82,
+  "note": "Listed multi-stage VC; broad UK portfolio and secondaries appetite make them a frequent counterpart."
+ },
+ "83north.com": {
+  "name": "83North",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 80,
+  "note": "London/Tel Aviv, A through growth; strong enterprise and fintech book on the UK-Israel axis."
+ },
+ "lsvp.com": {
+  "name": "Lightspeed Venture Partners",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 80,
+  "note": "US fund, London office; leads UK AI and enterprise rounds from seed to pre-IPO.",
+  "in_affinity": false
+ },
+ "onepeak.tech": {
+  "name": "One Peak",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 80,
+  "note": "B2B software growth equity (€10-100m); one of the most direct London competitors for Highland's core deal."
+ },
+ "hoxtonventures.com": {
+  "name": "Hoxton Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 78,
+  "note": "Contrarian seed (Darktrace, Deliveroo); best outlier-hit-rate per pound at UK seed."
+ },
+ "firstminute.capital": {
+  "name": "firstminute capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 78,
+  "note": "Hoberman's seed fund; unrivalled founder/LP network and broad UK seed coverage."
+ },
+ "felixcap.com": {
+  "name": "Felix Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 78,
+  "note": "Consumer and digital-lifestyle specialist; the reference feeder for Highland consumer-internet deals."
+ },
+ "eightroads.com": {
+  "name": "Eight Roads",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 78,
+  "note": "Fidelity's proprietary-capital arm, London-led in Europe; B/C cheques directly adjacent to Highland's range.",
+  "in_affinity": false
+ },
+ "thetwentyminutevc.com": {
+  "name": "20VC",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 76,
+  "note": "Stebbings's 20VC/20Growth; founder access and signal density beyond its AUM."
+ },
+ "mmc.vc": {
+  "name": "MMC Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 75,
+  "note": "Research-led Series A in AI/data; consistently early into UK enterprise winners."
+ },
+ "hummingbird.vc": {
+  "name": "Hummingbird Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 75,
+  "note": "High-conviction early fund; exceptional outlier record (Deliveroo, Peak, Kraken)."
+ },
+ "blossomcap.com": {
+  "name": "Blossom Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 75,
+  "note": "Concentrated Series A (Checkout.com, Duffel); few deals, high quality bar."
+ },
+ "airstreet.com": {
+  "name": "Air Street Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 75,
+  "note": "Benaich's AI-first seed fund; the best-networked AI seed investor in Europe and an early-warning system for the category."
+ },
+ "iqcapital.vc": {
+  "name": "IQ Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 75,
+  "note": "Deeptech seed-to-growth; the strongest institutional feeder of UK deeptech into growth rounds."
+ },
+ "crane.vc": {
+  "name": "Crane Venture Partners",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 74,
+  "note": "Enterprise/AI seed specialist; disciplined B2B theses that mature into Highland-stage assets."
+ },
+ "kindredcapital.vc": {
+  "name": "Kindred Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 72,
+  "note": "Quality generalist seed (Paddle, Five); reliable A-round feeder."
+ },
+ "connectventures.co": {
+  "name": "Connect Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 72,
+  "note": "Product-led seed (Typeform, TrueLayer); small portfolio, high craft."
+ },
+ "moonfire.com": {
+  "name": "Moonfire Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 72,
+  "note": "Ljungman's AI-native seed fund; data-driven sourcing, growing UK footprint."
+ },
+ "quantumlightcapital.com": {
+  "name": "QuantumLight",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 72,
+  "note": "Storonsky's quant fund; fast, data-led A/B cheques - increasingly present in competitive UK processes."
+ },
+ "rtp.vc": {
+  "name": "RTP Global",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 72,
+  "note": "Global early-stage fund HQ'd in London (Datadog, DeliveryHero); deep pockets at seed/A."
+ },
+ "amadeuscapital.com": {
+  "name": "Amadeus Capital Partners",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 70,
+  "note": "Deeptech veteran (Cambridge roots); steady source of technical companies reaching growth stage."
+ },
+ "cic.vc": {
+  "name": "Cambridge Innovation Capital",
+  "sub": "CAM",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 70,
+  "note": "The institutional anchor of Cambridge deeptech/life sciences; gateway to the cluster."
+ },
+ "dst-global.com": {
+  "name": "DST Global",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 70,
+  "note": "Milner's growth firm; when DST moves on a UK company it defines the round. Signal more than partner."
+ },
+ "frontline.vc": {
+  "name": "Frontline Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 70,
+  "note": "Dublin/London B2B seed plus Frontline Growth; strong US-Europe bridge thesis."
+ },
+ "expedition.capital": {
+  "name": "Expedition Growth Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 70,
+  "note": "Bootstrapped-software growth equity; hunts the same capital-efficient assets as Highland below €30m."
+ },
+ "albion.vc": {
+  "name": "AlbionVC",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 68,
+  "note": "Series A B2B software and health; manages UCL Technology Fund - university-pipeline access."
+ },
+ "kennet.com": {
+  "name": "Kennet Partners",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 68,
+  "note": "Bootstrapped-SaaS growth equity; direct competitor on capital-efficient software deals."
+ },
+ "chalfenventures.com": {
+  "name": "Chalfen Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 68,
+  "note": "Solo GP with top-decile judgment; co-invests alongside tier-1 funds up the stack."
+ },
+ "hedosophia.com": {
+  "name": "Hedosophia",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 68,
+  "note": "Osborne's secretive growth firm; large fintech/marketplace positions, no publicity. Worth tracking via rounds, not PR."
+ },
+ "joinef.com": {
+  "name": "Entrepreneur First",
+  "sub": "LON",
+  "type": "Accelerator",
+  "stage": "Early",
+  "rel": 65,
+  "note": "Talent investor; the single densest source of ambitious technical founders in the UK."
+ },
+ "parequity.com": {
+  "name": "Par Equity",
+  "sub": "EDI",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 65,
+  "note": "Edinburgh's leading early-stage investor; the gateway to Scottish dealflow."
+ },
+ "oxfordscienceenterprises.com": {
+  "name": "Oxford Science Enterprises",
+  "sub": "OXF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 65,
+  "note": "The preferred investor for Oxford spinouts (£850m+ raised); the institutional door to the Oxford cluster.",
+  "in_affinity": false
+ },
+ "nautacapital.com": {
+  "name": "Nauta",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 65,
+  "note": "B2B software seed/A (London/Barcelona); steady enterprise feeder."
+ },
+ "vitruvianpartners.com": {
+  "name": "Vitruvian Partners",
+  "sub": "LON",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 65,
+  "note": "Tech growth buyout above Highland's range; competitor at the top end and a buyer of growth assets."
+ },
+ "backed.vc": {
+  "name": "Backed VC",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 65,
+  "note": "Human-centric seed brand with loyal technical founder following."
+ },
+ "13bookscapital.com": {
+  "name": "13books Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 62,
+  "note": "Fintech specialist seed/A; the UK fintech pipeline in miniature."
+ },
+ "parkwalk.vc": {
+  "name": "Parkwalk Advisors",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 62,
+  "note": "University-spinout EIS leader (IP Group-owned); volume access to Oxbridge deeptech."
+ },
+ "ipgroupplc.com": {
+  "name": "IP Group",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 62,
+  "note": "Listed deeptech/life-sciences investor; patient balance-sheet capital behind UK science."
+ },
+ "ahreninnovationcapital.com": {
+  "name": "Ahren Innovation Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 62,
+  "note": "Deep-science fund (Cambridge DNA); large cheques into frontier tech."
+ },
+ "dig.ventures": {
+  "name": "DIG Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 62,
+  "note": "Ross Mason's (MuleSoft) SaaS/infra seed; operator-grade B2B judgment."
+ },
+ "hgcapital.com": {
+  "name": "Hg",
+  "sub": "LON",
+  "type": "PE",
+  "stage": "Late",
+  "rel": 62,
+  "note": "Europe's software buyout machine; the most likely buyer of Highland's B2B portfolio - relationship matters."
+ },
+ "projecteurope.co": {
+  "name": "Project Europe",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 62,
+  "note": "New pre-seed fund with 128 top founders as LPs; early index of the next European cohort."
+ },
+ "greyhoundcapital.com": {
+  "name": "Greyhound Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 62,
+  "note": "Quiet growth investor (fintech/software); occasional direct competitor."
+ },
+ "northern-gritstone.com": {
+  "name": "Northern Gritstone",
+  "sub": "MAN",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 60,
+  "note": "University-spinout capital for Leeds/Manchester/Sheffield; the institutional seed of the North."
+ },
+ "adaventures.com": {
+  "name": "Ada Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 60,
+  "note": "Inclusive-thesis seed; differentiated sourcing outside the usual networks."
+ },
+ "smedvig.vc": {
+  "name": "Smedvig Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 60,
+  "note": "Family-backed evergreen Series A; patient, concentrated B2B."
+ },
+ "praeturaventures.com": {
+  "name": "Praetura Ventures",
+  "sub": "MAN",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 58,
+  "note": "Manchester's leading early-stage manager; core north-west coverage."
+ },
+ "lightrock.com": {
+  "name": "Lightrock",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 58,
+  "note": "LGT-backed impact growth; large cheques, mission filter limits overlap."
+ },
+ "pentech.vc": {
+  "name": "Pentech",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 58,
+  "note": "B2B software seed with Scottish roots (FanDuel heritage)."
+ },
+ "anthemis.com": {
+  "name": "Anthemis",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 55,
+  "note": "Fintech pioneer; quieter post-2022 but networks still deep."
+ },
+ "thecreatorfund.com": {
+  "name": "Creator Fund",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 55,
+  "note": "PhD/student founder seed across UK universities; cheap early look at academic talent."
+ },
+ "mercia.co.uk": {
+  "name": "Mercia",
+  "sub": "MAN",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 52,
+  "note": "Regional VCT/EIS volume manager; wide Midlands/North coverage, small cheques."
+ },
+ "techstart.vc": {
+  "name": "Techstart Ventures",
+  "sub": "EDI",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 50,
+  "note": "Pre-seed across Scotland and Northern Ireland; earliest regional signal."
+ },
+ "scottish-enterprise.com": {
+  "name": "Scottish Enterprise",
+  "sub": "EDI",
+  "type": "State",
+  "stage": "Early",
+  "rel": 45,
+  "note": "Scotland's development agency; highest-volume co-investor in Scottish rounds - coverage, not competition."
+ }
+}
