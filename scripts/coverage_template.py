@@ -202,9 +202,7 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .aprow{display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid var(--hair2);font-size:13px;flex-wrap:wrap}
 .aprow .cc{font-size:11px}
 @media(max-width:760px){.apbody{padding:2px 0 80px}}
-body[data-page="h2c"] #viewseg,body[data-page="net"] #viewseg,body[data-page="geo"] #viewseg,body[data-page="dash"] #viewseg{display:none}
-body[data-page="h2c"] #q,body[data-page="net"] #q,body[data-page="geo"] #q,body[data-page="dash"] #q{display:none}
-body[data-page="h2c"] #fb,body[data-page="net"] #fb,body[data-page="geo"] #fb,body[data-page="dash"] #fb{margin-left:auto}
+body[data-page="h2c"] #fb,body[data-page="net"] #fb,body[data-page="geo"] #fb{margin-left:auto}
 .subline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .about summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px;font-weight:600;list-style:none;white-space:nowrap}
 .about summary::before{content:"ⓘ ";font-weight:400}
@@ -714,7 +712,6 @@ body.mkmode{cursor:crosshair}
   /* app bar: brand + identity + feedback on one row, toggle next, filter last */
   .appbar .in{row-gap:8px}
   #fb{order:1;margin-left:auto}
-  #viewseg{order:2}
   #q{order:3;flex-basis:100%;max-width:none;margin-left:0}
 }
 
@@ -922,57 +919,6 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
   </div>
 </div></section>
 
-<section id="covpage" class="page">
-<div class="wrap">
-<header class="hero">
-  <div class="heroL">
-    <h1 id="pagetitle"></h1>
-    <p class="sub subline"><span id="subcount"></span>
-    <details class="about"><summary>How to read this page</summary><div class="aboutbody">
-    Read each fund left to right: <b>why they matter</b> — the top of their portfolio through our Unframe
-    lens; <b>where we stand</b> — <b style="color:var(--covered-ink)">covered</b>,
-    <b style="color:var(--thin-ink)">thin</b> or <b style="color:var(--gap-ink)">gap</b>, blending the
-    team's Harmonic network with Affinity relationships and decayed by recency — a path untouched for over
-    a year fades; and <b>your next move</b> — the warm path to use, the tie to re-warm, or the co-investor
-    bridge to ask for. Click a row for the dossier; use <b>View as</b> to see it through one person's
-    relationships.</div></details></p>
-  </div>
-</header>
-
-<div class="toolbar">
-  <div id="regionseg" class="regionnav"></div>
-</div>
-
-<div id="fundsview">
-<div class="filters" id="filters"></div>
-<div class="sechead"><h2>Funds</h2><p id="fundhint">sort via column headers · click a row for detail</p></div>
-<table id="fundtable"></table>
-</div>
-
-<div id="untview" style="display:none">
-<div class="sechead"><h2>Untracked dealflow — deals we have no CRM record for</h2>
-<div class="untbar"><div class="seg" id="untmode"><button data-um="fund" class="on">By fund</button><button data-um="company">By company</button></div>
-<span id="untfilters" hidden><label class="cc">Min FTE <select id="unthc"><option value="0">any</option><option value="10">10+</option><option value="25">25+</option><option value="50">50+</option><option value="100">100+</option></select></label>
-<label class="cc">Growth <select id="untgr"><option value="">any</option><option value="0">&gt;0%</option><option value="25">&gt;25%</option><option value="50">&gt;50%</option><option value="100">&gt;100%</option></select></label></span></div>
-<p id="unthint"></p></div>
-<table id="unttable"></table>
-</div>
-
-<div id="mlist"></div>
-<p class="note" id="method" style="max-width:none"><b>Method.</b> Relevance (funds) = stage fit 25 · sector fit 25 · Europe share 20 ·
-activity 15 · graduation 15. Relevance (angels) = deal velocity + unicorns + syndication with covered funds +
-presence on our pipeline cap tables. Coverage = 55% Harmonic team-network + 45% Affinity partnership
-relationships (incl. Laurence, Fergal, Ronan), multiplied by a recency decay (≤6m ×1.0 · ≤1y ×0.9 · ≤2y ×0.5 ·
-older ×0.3); dormant ties floor the score and show as ⏱ re-warmable paths. Company badges and 40% of fund
-relevance come from <b>Unframe combined priority</b> (brain score blended with note priority &amp; note sentiment;
-green ≥85 · amber 70–84); fund relevance = 0.6 × thesis fit + portfolio quality. Pipeline chips = companies on the
-Highland Companies list backed by the investor (Lead includes Qualified Lead and Deal; passed/deprioritised
-excluded). “Untracked” = their post-Feb-2025 European deals absent from our pipeline list. ⚠ marks a contact
-who appears to have left the fund. Percentages next to people are <b>Affinity relationship strength</b> (0–100%):
-how warm that one-to-one connection is, driven by email &amp; meeting frequency and recency — 100% means an active
-recent dialogue, 10% a thin or faded thread. It is not a probability or ownership figure. Hover any % for this
-definition. <span id="fresh"></span></p>
-</div></section>
 </main>
 </div>
 <div id="whoback"><div id="whocard" role="dialog" aria-modal="true" aria-label="Who are you?">
@@ -1044,26 +990,10 @@ function ring(v, tier, sz){
       stroke-linecap="round" transform="rotate(-90 ${m} ${m})"/></svg>`;
 }
 
-function scoreboard(){
-  const al = document.getElementById('actlabel');
-  if(al) al.textContent = state.person ? `For ${state.person.split(' ')[0]}` : 'Workflows';
-}
+
 
 // ---------- filters ----------
-function filtersHTML(){
-  const ccs = [...new Set(E().filter(e=>e.kind==='fund').map(e=>(e.city||'').split('·').pop().trim()).filter(Boolean))].sort();
-  const cats = [...new Set(E().filter(e=>e.kind==='fund').map(e=>e.category))].sort();
-  let h = `<span class="lbl">Type</span>`+cats.map(c=>`<button class="fchip${state.cat===c?' on':''}" data-cat="${c}">${c.toUpperCase()}</button>`).join('');
-  if(ccs.length>1) h += `<span class="lbl">Country</span>`+ccs.map(c=>`<button class="fchip${state.cc===c?' on':''}" data-cc="${c}">${c}</button>`).join('');
 
-  document.getElementById('filters').innerHTML = h;
-  document.querySelectorAll('#filters .fchip').forEach(b=>b.addEventListener('click',()=>{
-    if(b.dataset.cat!==undefined) state.cat = state.cat===b.dataset.cat?'':b.dataset.cat;
-    if(b.dataset.cc!==undefined) state.cc = state.cc===b.dataset.cc?'':b.dataset.cc;
-    render();
-  }));
-
-}
 
 const COLS = [
   {k:"name", label:"Investor", sortable:true, sort:(a,b)=>a.name.localeCompare(b.name)},
@@ -1322,7 +1252,7 @@ async function sendAsk(q){
   saveChat(); ASK.busy=false; renderAskLog();
 }
 
-const PAGES={cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
+const PAGES={h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
 function askCard(){
   return `<div class="askcard" style="margin-top:20px">
       <div class="dph" style="margin-bottom:10px;display:flex;justify-content:space-between;align-items:center">\u2726 Ask Sonar
@@ -1352,24 +1282,18 @@ function goPage(p, opts){
   if(!PAGES[p]) p='map';
   state.page=p;
   document.body.dataset.page=p;
-  for(const sec of ['covpage','workpage'])
-    document.getElementById(sec).hidden = PAGES[p]!==sec;
+  document.getElementById('workpage').hidden = false;
   document.querySelectorAll('#side .sitem').forEach(a=>a.classList.toggle('on', a.dataset.page===p));
   const onItem=document.querySelector('#side .sitem.on');
   if(onItem&&matchMedia('(max-width:860px)').matches) onItem.scrollIntoView({block:'nearest',inline:'center'});
-  if(p==='h2c'||p==='net'||p==='geo'||p==='map'){
-    ap.mode=p==='h2c'?'htc':p;
-    if(ap.who==='' && !ap.whoTouched) ap.who=state.person||'';
-    if(opts&&opts.city) ap.city=opts.city;
-    renderWork();
-  } else { labels(); scoreboard(); render(); }
+  ap.mode=p==='h2c'?'htc':p;
+  if(ap.who==='' && !ap.whoTouched) ap.who=state.person||'';
+  if(opts&&opts.city) ap.city=opts.city;
+  renderWork();
   updateHash();
   scrollTo(0,0);
 }
-function refresh(){  // re-render whatever page is active
-  if(state.page==='cov'){ labels(); scoreboard(); render(); }
-  else renderWork();
-}
+function refresh(){ renderWork(); }  // re-render whatever page is active
 function renderWork(){
   const titles={htc:'Solve my Hard to Cracks', net:'My Network', geo:'Plan a City Trip', map:'Coverage Map'};
   document.getElementById('worktitle').textContent=titles[ap.mode]||'';
@@ -1489,22 +1413,7 @@ function apHtc(){
   return cards;
 }
 
-function keepWarm(who){
-  if(!who) return [];
-  const out=[], seen=new Set();
-  ALLE.forEach(({r,e})=>{
-    if(e.kind!=='fund') return;
-    const tp=(e.top_people||[]).find(x=>x.name===who);
-    ((tp&&tp.contacts)||[]).forEach(k=>{
-      if((k.pct||0)<60||!k.last||k.moved) return;
-      const mo=(Date.now()-new Date(k.last).getTime())/26298e5;
-      if(mo<4||mo>15) return;
-      const key=k.person+'|'+e.name; if(seen.has(key)) return; seen.add(key);
-      out.push({person:k.person, fund:e.name, region:r, pct:k.pct, last:k.last, email:k.email, mo:Math.round(mo)});
-    });
-  });
-  return out.sort((a,b)=>b.pct-a.pct||b.mo-a.mo);
-}
+
 // per-contact cadence (localStorage): how often you want to touch each relationship
 const CAD=(()=>{try{return JSON.parse(localStorage.getItem('sonar_cadence')||'{}');}catch(err){return {};}})();
 function saveCad(){try{localStorage.setItem('sonar_cadence',JSON.stringify(CAD));}catch(err){}}
@@ -1531,12 +1440,7 @@ function cmVisible(me){
   return cmEnts();
 }
 function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Known':'Dormant'; }
-function cmBestOf(e,who){
-  let best=null;
-  (e.people||[]).forEach(p=>{ const r=who?(p.r[who]||0):Math.max(...Object.values(p.r),0);
-    if(r>0&&(!best||r>best.r)) best={n:p.n, r:Math.round(r), sr:p.sr, last:p.last}; });
-  return best;
-}
+
 function cmTeamBest(e){
   let best=null;
   (e.people||[]).forEach(p=>Object.entries(p.r).forEach(([u,r])=>{ if(!best||r>best.r) best={u, n:p.n, r:Math.round(r)}; }));
@@ -1642,39 +1546,9 @@ function cmSvg(me){
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
 }
-function cmCards(me){
-  const sel=cmVisible(me).filter(e=>e.cc===MAP.cc)
-    .sort((a,b)=>cmU(b,me).gu-cmU(a,me).gu);
-  if(!sel.length) return '<div class="aphint">No tracked funds here yet.</div>';
-  return sel.map(e=>{
-    const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
-    const door=u.tag==='warm'&&tb?`ask ${tb.u.split(' ')[0]} → ${tb.n}`:
-               best&&best.r>=15?`your door: ${best.n}`:
-               u.tag==='cold'?'first mover — nobody at Highland yet':'no path yet';
-    return `<div class="cmfcard" data-cment="${e.slug}">
-      <div class="cmfg">${cmGlyphSvg(e,me,64)}</div>
-      <div class="cmfi">
-        <div class="cmfn">${e.name} <span class="cmst ${u.st}">${u.st}</span></div>
-        <div class="cmfm">${e.city||'—'} · ${e.cat||e.kind}${e.fs?' · '+e.fs:''}</div>
-        <div class="cmfm">team <b>${Math.round(e.CT)}</b>${me?` · you <b style="color:${CMTIER(u.cu)}">${Math.round(u.cu)}</b>`:''}${e.df12?` · ${e.df12} deals/12m`:''}</div>
-        <div class="cmfm cmdoor">${door}</div>
-      </div></div>`;
-  }).join('');
-}
+
 const SRRANK={Partner:0,Director:1,Associate:2};
-function cmReasons(e,me){
-  const out=[];
-  const ORDER=[['lead','Lead'],['prelead','Pre-lead'],['awaiting','Awaiting lead'],['hard','Hard to crack']];
-  let mine=[], team=[];
-  ORDER.forEach(([bk,label])=>{(e.pipe&&e.pipe[bk]||[]).forEach(co=>{
-    (co.o&&co.o.includes(me)?mine:team).push({n:co.n,st:label});});});
-  const pool=mine.length?mine:team, lbl=mine.length?'your':'the team’s';
-  if(pool.length) out.push([pool.length*10+5,`Backs <b>${pool.length}</b> of ${lbl} pipeline — ${pool.slice(0,3).map(c=>`${c.n} <span class="cc">(${c.st})</span>`).join(', ')}`]);
-  if(e.df12) out.push([e.df12*3,`<b>${e.df12}</b> new deals in 12 months`]);
-  const h=(e.pipe&&e.pipe.hard||[]).length;
-  if(h) out.push([h*8,`Backs <b>${h}</b> hard to crack${h>1?'s':''}`]);
-  return out.sort((a,b)=>b[0]-a[0]).slice(0,2).map(x=>x[1]);
-}
+
 function cmTarget(e,me){
   const ppl=[...(e.people||[])].sort((a,b)=>(SRRANK[a.sr]??3)-(SRRANK[b.sr]??3));
   return ppl.find(p=>!me||(p.r[me]||0)<15)||ppl[0];
@@ -1905,11 +1779,7 @@ function cmEgo(e,me){
       ${ppl.map((p,i)=>`<text x="311" y="${py(i)+4}" class="cml3t">${p.n}${p.sr?` · ${p.sr}`:''}</text>`).join('')}
     </svg>`;
 }
-function cmTray(){
-  const t=(CM.ents||[]).filter(e=>e.tray&&e.rg===MAP.reg);
-  if(!t.length||MAP.lvl==='l0') return '';
-  return `<div class="cmtray">Outside the region: ${t.map(e=>`<b data-cment="${e.slug}" class="cmtl">${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
-}
+
 function cmYouLine(covu,covT){
   const [qu]=cmQualU(covu), [qt]=cmQualT(covT);
   if(covu>=50) return `Your network here is <b>${qu}</b>; the team's graph is ${qt}.`;
@@ -1922,9 +1792,7 @@ function cmQualRow(covu,covT,me){
   const [qu,cu]=cmQualU(covu), [qt,ct]=cmQualT(covT);
   return `<div class="cmquals">${me?`<span class="cmqual" style="color:${cu};border-color:${cu}">You · ${qu}</span>`:''}<span class="cmqual" style="color:${ct};border-color:${ct}">Team · ${qt}</span></div>`;
 }
-function cmGauge(lbl,v,col){
-  return `<div class="cmg"><span class="cmgl">${lbl}</span><span class="cmgbar"><i style="width:${Math.min(v,100)}%;background:${col||CMTIER(v)}"></i></span><b>${Math.round(v)}%</b></div>`;
-}
+
 function cmTop5(me,pool){
   const rows=[...pool].sort((a,b)=>cmU(b,me).m-cmU(a,me).m).slice(0,5).map(e=>{
     const u=cmU(e,me), tb=cmTeamBest(e);
@@ -1972,16 +1840,7 @@ function cmPanel(me){
     ${tripBtn}
     <div class="apsec">Where to spend time</div>${cmTop5(me,sel)}`;
 }
-function cmWhy(e,me){
-  const u=cmU(e,me), bits=[`opportunity ${Math.round(cmOpp(e,me))}`];
-  bits.push(`relevance ${Math.round(e.rel)}`);
-  if(e.df12) bits.push(`${e.df12} investment${e.df12>1?'s':''} in 12m`);
-  if(e.coinv) bits.push(`co-invested ×${e.coinv}`);
-  if(u.pu) bits.push(`linked to your pipeline (${u.pu} pts)`);
-  const best=me?cmBestOf(e,me):null;
-  bits.push(best?`your best door: ${best.n} (${cmTierWord(best.r)} ${best.r}${best.last?`, ${fmtD(best.last)}`:''})`:(me?'you know no one here':''));
-  return bits.filter(Boolean).join(' · ');
-}
+
 function cmAnimVB(svg,to){
   const from=svg.getAttribute('viewBox').split(' ').map(Number);
   const t0=performance.now(), dur=550;
@@ -2338,34 +2197,8 @@ function apGeo(){
     <div class="apsec">Investors ${who?'you know':'we know'} here — reconnect</div>${kRows||'<div class="aphint">None yet.</div>'}
     <div class="apsec">Funds ${who?"you don't know":'we barely know'} — prioritise</div>${cRows||'<div class="aphint">None.</div>'}`;
 }
-function headHTML(){
-  return `<thead><tr>`+COLS.map(c=>{
-    const label = c.k==='mycov' ? `${state.person?state.person.split(' ')[0]+"’s":'My'} coverage` : c.label;
-    const arrow = state.sort===c.k ? (state.sortDir<0?' ▲':' ▼') : '';
-    return `<th data-k="${c.k}" class="${c.sortable?'sortable':''} ${state.sort===c.k?'on':''} ${c.cls||''}" title="${c.sortable?'Click to sort · click again to reverse':''}">${label}${arrow}</th>`;
-  }).join('')+`</tr></thead>`;
-}
-function chipHTML(e, mode){
-  if(mode==='mine'){  // only the person's own entries at this investor
-    const chips = BUCKETS.map(([k,label])=>{
-      const own = e.buckets[k].filter(isOwned).length;
-      return own?`<span class="chip ${k}" data-k="${k}"><b>${own}</b> ${label}</span>`:'';
-    }).join('');
-    return chips || `<span class="nochip">none of yours</span>`;
-  }
-  if(mode!=='team' && state.person){  // mobile cards: own count vs team count, side by side
-    const chips = BUCKETS.map(([k,label])=>{
-      const team = e.buckets[k].length; if(!team) return '';
-      const own = e.buckets[k].filter(isOwned).length;
-      return `<span class="chip ${k}${own?'':' dim'}" data-k="${k}"><b>${own}</b><span class="of">/${team}</span> ${label}</span>`;
-    }).join('');
-    return chips || `<span class="nochip">no pipeline overlap</span>`;
-  }
-  return BUCKETS.map(([k,label])=>{
-    const n = e.buckets[k].length;
-    return n?`<span class="chip ${k}" data-k="${k}"><b>${n}</b> ${label}</span>`:'';
-  }).join('') || `<span class="nochip">no pipeline overlap</span>`;
-}
+
+
 const liSearch = (n,f) => `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n+' '+(f||''))}`;
 const emIcon = p => {
   const em = p.email || p.email_guess;
@@ -2374,47 +2207,9 @@ const emIcon = p => {
 };
 const evidence = o => o.meet?`met ${fmtD(o.meet)}`:(o.last?`em ${fmtD(o.last)}`:null);
 const everTag = o => o.ever===false?` <span class="uvtag emp" title="Not matched against a current Harmonic role — relationship shown from Affinity history alone">unverified</span>`:'';
-function pathLine(p, ctx){
-  const nm = `<a href="${p.linkedin||liSearch(p.external,ctx)}" target="_blank" rel="noopener"><b>${p.external}</b></a>`;
-  const ev = evidence(p);
-  const when = ev?`<span class="when">${ev}</span>`:'';
-  const moved = p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:'';
-  const stale = p.last && isStale(p.last) ? ' stale' : '';
-  const uv = (p.unverified?` <span class="uvtag">email-only</span>`:'')+everTag(p);
-  const bar = p.pct!=null?`<span class="sbar"><i style="width:${p.pct}%"></i></span>`:'';
-  return `<span class="pt${stale}"><span class="ptl">${nm} <span class="via">↔ ${avi(p.internal)} ${p.internal}</span>${p.email?emIcon(p):''}${moved}${uv}</span><span class="ptr">${bar}${p.pct!=null?`<span class="pct">${p.pct}%</span>`:''}${when}</span></span>`;
-}
-function ptsHTML(e){
-  const v = eff(e);
-  if(state.person){
-    const s = v.sig;
-    const dormP = s.dorm ? `<span class="pt dorm" title="${s.dorm.context}">⏱ dormant · last touch ${s.dorm.last}</span>` : '';
-    let mine = s.contacts.map(k=>{
-      const nm = `<a href="${k.linkedin||liSearch(k.person,e.name)}" target="_blank" rel="noopener"><b>${k.person}</b></a>`;
-      const ev = evidence(k);
-      return `<span class="pt${k.last&&isStale(k.last)?' stale':''}"><span class="ptl">${nm}${k.email?emIcon(k):''}${k.title?` <span class="via">· ${k.title}</span>`:''}${everTag(k)}</span><span class="ptr">${k.pct!=null?`<span class="pct">${k.pct}%</span>`:''}${ev?`<span class="when">${ev}</span>`:''}</span></span>`;
-    }).join('')+dormP;
-    if(!mine){
-      const bits=[];
-      const best = e.points && e.points[0];
-      if(best) bits.push(`<span class="askx">ask <b>${best.internal}</b> (${best.external}${best.pct!=null?' · '+best.pct+'%':''})</span>`);
-      if(!best && e.dormant) bits.push(`<span class="pt dorm" title="${e.dormant.context}">⏱ dormant — <b>${e.dormant.internal.join(' + ')}</b> <span class="via">· ${e.dormant.last}</span></span>`);
-      if(!best) bits.push(...bridgeLines(e));
-      mine = bits.join('') || `<span style="color:var(--muted)">no team path either</span>`;
-    }
-    return `<div class="pts">${mine}</div>`;
-  }
-  const dorm = e.dormant ? `<span class="pt dorm" title="${e.dormant.context}">⏱ <b>${e.dormant.internal.join(' + ')}</b> <span class="via">dormant · ${e.dormant.last}</span></span>` : '';
-  const bridges = !e.points.length ? bridgeLines(e).join('') : '';
-  const nm = nextMove(e);
-  const nmH = nm ? `<div class="nm ${nm.cls}">${nm.txt}</div>` : '';
-  if(!e.points.length && !dorm && !bridges) return `<div class="pts">${nmH||`<span style="color:var(--muted)">No mapped way in yet</span>`}</div>`;
-  return `<div class="pts">`+nmH+e.points.map(p=>pathLine(p,e.name)).join('')+dorm+bridges+`</div>`;
-}
-function bridgeLines(e){
-  return (e.bridges||[]).slice(0,2).map(b=>
-    `<span class="pt bridge">↪ via <b>${b.name}</b> <span class="via">(${b.internal}${b.pct!=null?' · '+b.pct+'%':''})</span></span>`);
-}
+
+
+
 const ufBadge = s => s==null?'':` <span class="ufb ${s>=85?'hi':s>=70?'mid':'lo'}" title="Unframe combined priority ${Math.round(s)}/100">${Math.round(s)}</span>`;
 const AVI_COLORS=['#2733f0','#0e7a4a','#a05a00','#7a2e8a','#b3403a','#11607a','#5a5a2e','#8a2e55'];
 const avi = n => {
@@ -2434,32 +2229,7 @@ function covCardHTML(e, mine){
     <div class="covhead"><b class="covnum ${v.tier}">${v.cov}</b><span class="covcap">${mine?'my':'team'} coverage</span></div>
     <div class="covrow">${cols}</div></div>`;
 }
-function rowHTML(e){
-  const v = eff(e);
-  const rel = e.relevance? e.relevance.total : null;
-  const co = e.coinvest.length?`<span class="badge co">✓ co-invested ×${e.coinvest.length}</span>`:'';
-  const ufq = e.uf && e.uf.pts ? `<span class="badge ufq${e.uf.high?' hi':''}" title="Unframe portfolio quality ${e.uf.pts}/40 — ${e.uf.high} backed companies rated ≥85 combined priority, top-10 avg ${e.uf.avg10}">Unframe ${Math.round(e.uf.pts)}/40${e.uf.high?` · ${e.uf.high} high-prio`:''}</span>`:'';
-  const unt = (e.untracked||[]).length?`<span class="badge unt">${e.untracked.length} untracked EU deals</span>`:'';
-  const lastT = e.fund_last?`<span>last touch ${fmtD(e.fund_last)}</span>`:'';
-  const noCrm = e.no_crm?`<a class="badge" href="${e.harmonic_url}" target="_blank" rel="noopener">no CRM record · Harmonic ↗</a>`:'';
-  const known = e.kind==='angel' && (e.notable||[]).length
-    ? `<span class="cc">known for: ${e.notable.slice(0,3).map(n=>n.name).join(', ')}</span>` : '';
-  const meta = e.kind==='fund'
-    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${(e.city||'').split('·')[0].trim()}</span>${ufq}`
-    : `<span>${e.note||''}</span>${known}${noCrm}`;
-  const nm = e.kind==='angel' && e.li ? `<a href="${e.li}" target="_blank" rel="noopener">${e.name}</a>`
-    : e.website ? `<a href="https://${e.website}" target="_blank" rel="noopener">${e.name}</a>` : e.name;
-  const relCell = `<b>${rel??'—'}</b><span class="rb"><i style="width:${rel||0}%"></i></span>`;
-  const proof='';
-  return `<tr class="mainrow" data-slug="${e.slug}" tabindex="0">
-    <td><div class="fname ${v.tier}"><span class="tdot"></span>${nm}</div><div class="fmeta">${meta}</div>${proof}</td>
-    <td class="relcell">${relCell}</td>
-    <td class="covtd">${covCardHTML(e, false)}</td>
-    <td class="covtd mytd">${covCardHTML(e, true)}</td>
-    <td>${ptsHTML(e)}</td>
-  </tr>
-  <tr class="detailrow" id="d-${e.slug}"><td colspan="5"><div class="detail"></div></td></tr>`;
-}
+
 function detailHTML(e){
   let h='';
   if(e.kind!=='fund' && e.relevance){
@@ -2586,122 +2356,21 @@ ${sender}`);
 }
 
 // ---------- HTC view ----------
-function orderPaths(i){  // personal view: the viewer's own paths lead
-  const ps = i.paths||[];
-  return state.person ? [...ps].sort((a,b)=>(b.internal===state.person)-(a.internal===state.person)) : ps;
-}
-function htcHTML(){
-  let rows = D.regions[state.region].htc;
-  if(state.person) rows = rows.filter(c=>(c.owners||[]).includes(state.person));
-  if(state.q) rows = rows.filter(c=>c.name.toLowerCase().includes(state.q));
-  document.getElementById('htchint').textContent = state.person
-    ? `companies owned by ${state.person} in Affinity, reachable via mapped investors`
-    : `every hard-to-crack with a mapped investor on its cap table — sorted by reachability`;
-  const body = rows.map(c=>`<tr>
-    <td><div class="fname"><a href="${affURL(c.id)}" target="_blank" rel="noopener">${c.name}</a></div>
-      <div class="fmeta"><span>${c.domain||''}</span><span>${c.country||''}</span></div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>`<span class="nm ${i.tier}">${i.name}</span>`).join('')}</div></td>
-    <td><div class="htc-inv">${c.investors.map(i=>(i.paths&&i.paths.length)?`<span>${orderPaths(i).map(p=>`<b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.email?emIcon(p):''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}${p.moved?` <span class="flag" data-moved="${p.moved}">⚠</span>`:''}`).join('<br>')}</span>`:`<span style="color:var(--muted)">—</span>`).join('')}</div></td>
-    <td style="font-size:12px;color:var(--ink2)">${(c.owners||[]).join(', ')||'<span style="color:var(--muted)">unowned</span>'}</td>
-  </tr>`).join('');
-  document.getElementById('htctable').innerHTML =
-    `<thead><tr><th>Company</th><th>On cap table</th><th>Our path via them</th><th>Affinity owner</th></tr></thead><tbody>${body||'<tr><td colspan="4" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
-}
+
+
 
 // ---------- mobile experience ----------
 const isMobile = () => matchMedia('(max-width:700px)').matches;
-function mPathLine(e){
-  const v = eff(e);
-  if(state.person){
-    const k = v.sig.contacts[0];
-    if(k) return `<div class="mpath"><b>${k.person}</b>${k.pct!=null?` <span class="pct">${k.pct}%</span>`:''}${k.last?` <span class="when">· ${fmtD(k.last)}</span>`:''}</div>`;
-    const best = e.points && e.points[0];
-    if(best) return `<div class="mpath askx">ask <b>${best.internal}</b> (${best.external})</div>`;
-  }
-  const nm = nextMove(e);
-  if(nm) return `<div class="mpath nm ${nm.cls}">${nm.txt}</div>`;
-  const p0 = e.points && e.points[0];
-  if(p0) return `<div class="mpath"><b>${p0.external}</b>${p0.email?emIcon(p0):''} <span class="via">↔ ${p0.internal}</span>${p0.pct!=null?` <span class="pct">${p0.pct}%</span>`:''}${p0.moved?' <span class="flag">⚠</span>':''}</div>`;
-  if(e.dormant) return `<div class="mpath dorm">⏱ <b>${e.dormant.internal.join(' + ')}</b> dormant · ${e.dormant.last}</div>`;
-  if(e.bridges && e.bridges.length) return `<div class="mpath">↪ via <b>${e.bridges[0].name}</b> <span class="via">(${e.bridges[0].internal})</span></div>`;
-  return `<div class="mpath" style="color:var(--muted)">No mapped way in yet</div>`;
-}
-function mCardHTML(e){
-  const v = eff(e); const rel = e.relevance?e.relevance.total:null;
-  const meta = e.kind==='fund'
-    ? `<span class="badge">${e.category.toUpperCase()}</span><span>${(e.city||'').split('·')[0].trim()}</span>${rel!=null?`<span>rel ${rel}</span>`:''}${e.uf&&e.uf.pts?`<span class="badge ufq${e.uf.high?' hi':''}">UF ${e.uf.pts}/40${e.uf.high?` · ${e.uf.high} hi-prio`:''}</span>`:''}${(e.untracked||[]).length?`<span class="badge unt">${e.untracked.length} untracked</span>`:''}`
-    : `<span>${e.note||''}</span>${(e.notable||[]).length?`<span class="cc">known for: ${e.notable.slice(0,2).map(n=>n.name).join(', ')}</span>`:''}`;
-  return `<div class="mcard" data-slug="${e.slug}" tabindex="0">
-    <div class="mtop"><div class="fname ${v.tier}"><span class="tdot"></span>${e.name}</div>
-      <div class="mcov">${ring(v.cov, v.tier)}<b>${v.cov}</b>${state.person?`<span class="teamcov">team ${e.connectivity}</span>`:''}</div></div>
-    <div class="mmeta">${meta}</div>
-    ${mPathLine(e)}
-    <div class="mchips">${chipHTML(e)}</div>
-  </div>`;
-}
-function mHtcCardHTML(c){
-  const paths = c.investors.map(i=>(i.paths&&i.paths.length)
-    ? orderPaths(i).slice(0,2).map(p=>`<div class="mpath"><b>${p.internal}</b>${p.external&&p.external!==i.name?` <span class="via">↔ ${p.external}</span>`:''}${p.email?emIcon(p):''}${p.pct!=null?` <span class="pct">${p.pct}%</span>`:''}</div>`).join('') : '').join('');
-  return `<div class="mcard" onclick="window.open('${affURL(c.id)}','_blank')">
-    <div class="mtop"><div class="fname">${c.name}</div><span class="cc">${c.country||''}</span></div>
-    <div class="mmeta">on cap table: ${c.investors.map(i=>i.name).join(', ')}${(c.owners||[]).length?` · owner: ${c.owners.join(', ')}`:''}</div>
-    ${paths||'<div class="mpath" style="color:var(--muted)">no mapped path yet</div>'}
-  </div>`;
-}
-function renderMobile(){
-  const el = document.getElementById('mlist');
-  if(state.view==='unt'){
-    const seg = `<div class="seg" id="msegunt" style="display:inline-flex;margin-bottom:10px">
-      <button data-um="fund"${state.untMode==='fund'?' class="on"':''}>By fund</button>
-      <button data-um="company"${state.untMode==='company'?' class="on"':''}>By company</button></div>`;
-    const bodyHtml = state.untMode==='company' ? mUntCompanyCards() : mUntCards();
-    el.innerHTML = seg + (bodyHtml || '<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');
-    el.querySelectorAll('#msegunt button').forEach(b=>b.addEventListener('click',()=>{
-      state.untMode=b.dataset.um; renderMobile();}));
-    el.querySelectorAll('.suntchip').forEach(c=>c.addEventListener('click',()=>{
-      const k=c.dataset.sk;
-      if(state.untSort.k===k) state.untSort.d*=-1; else state.untSort={k,d:-1};
-      renderMobile();}));
-    bindAddAff(el);
-    return;
-  }
-  if(state.view==='htc'){
-    let rows = D.regions[state.region].htc;
-    if(state.person) rows = rows.filter(c=>(c.owners||[]).includes(state.person));
-    if(state.q) rows = rows.filter(c=>c.name.toLowerCase().includes(state.q));
-    el.innerHTML = `<div class="mhead">Hard to crack — tap for Affinity</div>`+
-      (rows.map(mHtcCardHTML).join('')||'<div class="mpath" style="color:var(--muted)">Nothing matches.</div>');
-    return;
-  }
-  const vis = visible();
-  el.innerHTML = `<div class="mhead">Funds</div>`+srt(vis.filter(e=>e.kind==='fund')).map(mCardHTML).join('');
-  el.querySelectorAll('.mcard[data-slug]').forEach(c=>{
-    const open = ()=>openSheet(c.dataset.slug);
-    c.addEventListener('click',ev=>{ if(!ev.target.closest('a')) open(); });
-    c.addEventListener('keydown',ev=>{ if(ev.key==='Enter') open(); });
-  });
-}
-function openSheet(slug){
-  const e = E().find(x=>x.slug===slug); if(!e) return;
-  const v = eff(e);
-  document.getElementById('sheetname').innerHTML = `<span class="fname ${v.tier}"><span class="tdot"></span>${e.name}</span>`;
-  document.getElementById('sheetstats').innerHTML = `
-    <span><b>${v.cov}</b>coverage${state.person?` · team ${e.connectivity}`:''}</span>
-    <span><b>${e.relevance?e.relevance.total:'—'}</b>relevance</span>
-    <span><b>${pipeCount(e)}</b>${state.person?state.person.split(' ')[0]+"'s":'live'} pipeline</span>`;
-  const det = document.getElementById('sheetdetail');
-  det.innerHTML = detailHTML(e);
-  det.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
-    navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
-  document.getElementById('sheet').classList.add('open');
-  document.getElementById('sheet').scrollTop = 0;
-  state.open = slug; updateHash();
-}
+
+
+
+
+
 // ---------- markup mode: tag anything to kill or simplify, copy a report for Claude ----------
 let MARKS=[]; try{ MARKS=JSON.parse(localStorage.getItem('sonar_marks')||'[]'); }catch(e0){}
 const MK={on:false, el:null, kind:'kill'};
 const mkPersist=()=>{ try{ localStorage.setItem('sonar_marks', JSON.stringify(MARKS)); }catch(e0){} };
-const mkPage=()=>({map:'Coverage Map',cov:'Coverage · '+((D.regions[state.region]||{}).label||''),
+const mkPage=()=>({map:'Coverage Map',
   h2c:'Solve my H2Cs',net:'My Network',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
 function mkLabel(el){
   for(const sel of ['.fname','.dtlabel','.dlh','.dsec','.apsec','.sechead h2','.covcap','.th','h1','h2','summary']){
@@ -2772,17 +2441,12 @@ document.getElementById('fbclose').addEventListener('click',()=>{ document.getEl
 document.getElementById('sheetclose').addEventListener('click',()=>{
   document.getElementById('sheet').classList.remove('open'); state.open=''; stopLive(); updateHash();
 });
-matchMedia('(max-width:700px)').addEventListener('change',()=>render());
+matchMedia('(max-width:700px)').addEventListener('change',()=>refresh());
 
 // ---------- untracked dealflow view ----------
 const fmtMoney = v => (v==null||v===0)?'\u2014':v>=995e6?('$'+(v/1e9).toFixed(1)+'B'):v>=1e6?('$'+Math.round(v/1e6)+'M'):('$'+Math.round(v/1e3)+'K');
 const fmtStage = st => (st||'').replaceAll('_',' ').toLowerCase().replace(/(^|\s)\S/g, c=>c.toUpperCase()).replace('Pre Seed','Pre-seed') || '\u2014';
-function untFunds(){
-  let fs = E().filter(e=>e.kind==='fund' && (e.untracked||[]).length);
-  if(state.q) fs = fs.filter(e=>e.name.toLowerCase().includes(state.q)
-    || (e.untracked||[]).some(u=>(u.name||'').toLowerCase().includes(state.q)));
-  return fs.sort((a,b)=>(b.untracked||[]).length-(a.untracked||[]).length);
-}
+
 const growthColor = pct => {
   const t = (Math.max(-25, Math.min(100, pct)) + 25) / 125;   // -25% -> 0, 100%+ -> 1
   return `hsl(${Math.round(8 + t*(145-8))},60%,30%)`;         // dark red -> dark green
@@ -2795,167 +2459,13 @@ const harmBtn = u => `<a class="minibtn" href="https://console.harmonic.ai/dashb
 const affBtn = (p,u) => p.affinity_id
   ? `<a class="minibtn" href="https://${D.affinityOrg}.affinity.co/companies/${p.affinity_id}" target="_blank" rel="noopener">Affinity \u2197</a>`
   : `<button class="minibtn addaff" data-dom="${u.domain||''}" data-nm="${u.name}">\uff0b Affinity</button>`;
-function untCompanyRows(e){
-  const prof = D.untProfiles||{};
-  return (e.untracked||[]).slice().sort((a,b)=>((b.uf??-1)-(a.uf??-1)) || (b.date||'').localeCompare(a.date||'')).map(u=>{
-    const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
-    const founders = (p.founders||[]).slice(0,3).map(f=>
-      `${f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name}<span class="cc">${f.title?` \u00b7 ${f.title.replace('Co-Founder','Co-founder')}`:''}</span>`).join('<br>')||'<span class="cc">\u2014</span>';
-    return `<tr>
-      <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a>${ufBadge(u.uf)}<div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
-      <td class="udesc">${p.desc||''}</td>
-      <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
-      <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
-      <td class="num">${fmtMoney(p.funding_total_usd)}</td>
-      <td class="num" style="white-space:nowrap">${p.headcount!=null?`<b class="hc">${p.headcount}</b>`:'\u2014'}${growthHTML(p.headcount_growth)}</td>
-      <td>${founders}</td>
-      <td><span class="btnstack">${harmBtn(u)}${affBtn(p,u)}</span></td>
-    </tr>`;
-  }).join('');
-}
-function untCompanies(){
-  const prof = D.untProfiles||{};
-  const by = new Map();
-  E().filter(e=>e.kind==='fund'&&(e.untracked||[]).length).forEach(e=>{
-    (e.untracked||[]).forEach(u=>{
-      const id = u.harmonic_company_id;
-      let r = by.get(id);
-      if(!r){ r = {u, p: prof[id]||prof[String(id)]||{}, invs:[]}; by.set(id, r); }
-      if(!r.invs.includes(e.name)) r.invs.push(e.name);
-      if((u.date||'') > (r.u.date||'')) r.u = u;
-    });
-  });
-  let rows = [...by.values()];
-  if(state.q) rows = rows.filter(r=>(r.u.name||'').toLowerCase().includes(state.q)
-    || (r.p.desc||'').toLowerCase().includes(state.q)
-    || r.invs.some(n=>n.toLowerCase().includes(state.q)));
-  if(state.untHC) rows = rows.filter(r=>(r.p.headcount||0)>=state.untHC);
-  if(state.untGR!=null) rows = rows.filter(r=>r.p.headcount_growth && r.p.headcount_growth.pct>state.untGR);
-  const key = r => ({date: r.u.date||'', raised: r.p.funding_total_usd||0,
-    hc: r.p.headcount!=null?r.p.headcount:-1,
-    gr: (r.p.headcount_growth&&r.p.headcount_growth.pct!=null)?r.p.headcount_growth.pct:-1e9,
-    uf: r.u.uf??-1,
-    name: (r.u.name||'').toLowerCase()})[state.untSort.k];
-  rows.sort((a,b)=>{const ka=key(a),kb=key(b); return (ka<kb?-1:ka>kb?1:0)*state.untSort.d;});
-  return rows;
-}
-function untCompanyTable(){
-  const rows = untCompanies();
-  document.getElementById('unthint').textContent =
-    `${rows.length} untracked ${D.regions[state.region].label} companies \u2014 click a column header to sort`;
-  const arrow = k => state.untSort.k===k ? (state.untSort.d<0?' \u25be':' \u25b4') : '';
-  const th = (label,k) => `<th class="sk" data-sk="${k}">${label}${arrow(k)}</th>`;
-  const body = rows.map(r=>{
-    const p=r.p, u=r.u;
-    const seenF = new Set();
-    const founders = (p.founders||[]).filter(f=>f.name && !seenF.has(f.name) && seenF.add(f.name)).slice(0,2).map(f=>
-      f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')||'<span class="cc">\u2014</span>';
-    return `<tr>
-      <td><a href="${untURL(u)}" target="_blank" rel="noopener"><b>${u.name}</b></a><div class="fmeta" style="padding-left:0">${p.hq||u.country||''}</div></td>
-      <td class="udesc">${p.desc||''}</td>
-      <td class="ubak" style="font-size:12px;color:var(--ink2)">${r.invs.join(', ')}</td>
-      <td class="num">${ufBadge(u.uf)||'—'}</td>
-      <td style="white-space:nowrap">${fmtStage(p.stage||u.round)}</td>
-      <td class="num">${(u.date||'').slice(0,7)||'\u2014'}</td>
-      <td class="num">${fmtMoney(p.funding_total_usd)}</td>
-      <td class="num">${p.headcount!=null?`<b class="hc">${p.headcount}</b>`:'\u2014'}</td>
-      <td class="num" style="white-space:nowrap">${growthHTML(p.headcount_growth)||'\u2014'}</td>
-      <td class="ufo">${founders}</td>
-      <td><span class="btnstack">${harmBtn(u)}${affBtn(p,u)}</span></td></tr>`;
-  }).join('');
-  const tbl = document.getElementById('unttable');
-  tbl.className = 'df';
-  tbl.innerHTML = `<thead><tr>${th('Company','name')}<th>What they do</th><th>Backed by</th>${th('Unframe','uf')}<th>Stage</th>${th('Latest round','date')}${th('Raised','raised')}${th('FTE','hc')}${th('Growth','gr')}<th>Founders / CEO</th><th></th></tr></thead>
-    <tbody>${body||`<tr><td colspan="11" style="color:var(--muted)">Nothing matches.</td></tr>`}</tbody>`;
-  tbl.querySelectorAll('th.sk').forEach(h=>h.addEventListener('click',()=>{
-    const k = h.dataset.sk;
-    if(state.untSort.k===k) state.untSort.d*=-1;
-    else state.untSort = {k, d: k==='name'?1:-1};
-    untCompanyTable();
-  }));
-  bindAddAff(tbl);
-}
-function untHTML(){
-  document.getElementById('untfilters').hidden = state.untMode!=='company';
-  if(state.untMode==='company'){ untCompanyTable(); return; }
-  document.getElementById('unttable').className = '';
-  const fs = untFunds();
-  const total = fs.reduce((n,e)=>n+e.untracked.length,0);
-  document.getElementById('unthint').textContent =
-    `${total} recent deals by tracked ${D.regions[state.region].label} investors with no Affinity record \u2014 click a fund`;
-  const body = fs.map(e=>{
-    const v = eff(e);
-    const latest = e.untracked.reduce((m,u)=>(u.date||'')>m?u.date:m,'');
-    const preview = e.untracked.slice(0,3).map(u=>u.name).join(', ');
-    return `<tr class="mainrow" data-uslug="${e.slug}" tabindex="0">
-      <td><div class="fname ${v.tier}"><span class="tdot"></span>${e.name}</div>
-        <div class="fmeta"><span class="badge">${e.category.toUpperCase()}</span><span>${(e.city||'').split('\u00b7')[0].trim()}</span></div></td>
-      <td><span class="badge unt">${e.untracked.length} untracked</span></td>
-      <td class="num">${latest?latest.slice(0,7):'\u2014'}</td>
-      <td style="font-size:12px;color:var(--ink2)">${preview}${e.untracked.length>3?` <span class="cc">+${e.untracked.length-3} more</span>`:''}</td>
-    </tr>
-    <tr class="detailrow" id="ud-${e.slug}"><td colspan="4"><div class="detail"><div class="dfwrap"><table class="df">
-      <thead><tr><th>Company</th><th>What they do</th><th>Stage</th><th>Latest round</th><th>Raised</th><th>Headcount</th><th>Founders / CEO</th><th></th></tr></thead>
-      <tbody>${untCompanyRows(e)}</tbody></table></div></div></td></tr>`;
-  }).join('');
-  document.getElementById('unttable').innerHTML =
-    `<thead><tr><th>Investor</th><th>Untracked deals</th><th>Most recent</th><th>Latest companies</th></tr></thead><tbody>${body||'<tr><td colspan="4" style="color:var(--muted)">Nothing matches.</td></tr>'}</tbody>`;
-  const tbl = document.getElementById('unttable');
-  tbl.querySelectorAll('tr.mainrow').forEach(r=>{
-    const open = ev=>{ if(ev.target.closest('a')||ev.target.closest('.addaff')) return;
-      const det = document.getElementById('ud-'+r.dataset.uslug);
-      const was = det.classList.contains('open');
-      tbl.querySelectorAll('tr.detailrow.open').forEach(x=>x.classList.remove('open'));
-      if(!was) det.classList.add('open');
-    };
-    r.addEventListener('click', open);
-    r.addEventListener('keydown', ev=>{ if(ev.key==='Enter') open(ev); });
-  });
-  bindAddAff(tbl);
-}
-function bindAddAff(root){
-  root.querySelectorAll('.addaff').forEach(b=>b.addEventListener('click',ev=>{
-    ev.stopPropagation();
-    const v = b.dataset.dom || b.dataset.nm;
-    navigator.clipboard?.writeText(v);
-    toast(`Copied ${v} \u2014 paste into Affinity's Add Company`);
-    window.open(`https://${D.affinityOrg}.affinity.co/lists/9387`,'_blank');
-  }));
-}
-function mUntCards(){
-  const prof = D.untProfiles||{};
-  return untFunds().map(e=>{
-    const cards = e.untracked.map(u=>{
-      const p = prof[u.harmonic_company_id]||prof[String(u.harmonic_company_id)]||{};
-      return `<div class="mcard">
-        <div class="mtop"><div class="fname"><a href="${untURL(u)}" target="_blank" rel="noopener">${u.name}</a></div>
-          <span class="cc">${(u.date||'').slice(0,7)}</span></div>
-        ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
-        <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
-        ${(p.founders||[]).length?`<div class="mpath">${p.founders.map(f=>f.linkedin?`<a href="${f.linkedin}" target="_blank" rel="noopener">${f.name}</a>`:f.name).join(' \u00b7 ')}</div>`:''}
-        <div class="actionrow">${harmBtn(u)} ${affBtn(p,u)}</div>
-      </div>`;
-    }).join('');
-    return `<details class="munt"${state.q?' open':''}><summary><span class="fname">${e.name}</span><span class="badge unt">${e.untracked.length} untracked</span></summary><div class="muntbody">${cards}</div></details>`;
-  }).join('');
-}
-function mUntCompanyCards(){
-  const sorts = [['uf','Unframe'],['date','Newest'],['hc','FTE'],['gr','Growth'],['raised','Raised']];
-  const chips = `<div class="mchips" style="padding-left:0;margin-bottom:12px">`+
-    sorts.map(([k,l])=>`<span class="chip suntchip${state.untSort.k===k?' on':''}" data-sk="${k}">${l}${state.untSort.k===k?(state.untSort.d<0?' ▾':' ▴'):''}</span>`).join('')+`</div>`;
-  const cards = untCompanies().map(r=>{
-    const p=r.p, u=r.u;
-    return `<div class="mcard" style="cursor:default">
-      <div class="mtop"><div class="fname"><a href="${untURL(u)}" target="_blank" rel="noopener">${u.name}</a>${ufBadge(u.uf)}</div>
-        <span class="cc">${(u.date||'').slice(0,7)}</span></div>
-      ${p.desc?`<div class="mpath" style="color:var(--ink2)">${p.desc}</div>`:''}
-      <div class="mmeta"><span>${p.hq||u.country||''}</span><span>${fmtStage(p.stage||u.round)}</span><span>${fmtMoney(p.funding_total_usd)}</span>${p.headcount!=null?`<span><b class="hc">${p.headcount}</b> ppl${growthHTML(p.headcount_growth)}</span>`:''}</div>
-      <div class="mpath cc">Backed by ${r.invs.join(', ')}</div>
-      <div class="actionrow">${harmBtn(u)} ${affBtn(p,u)}</div>
-    </div>`;
-  }).join('');
-  return chips+cards;
-}
+
+
+
+
+
+
+
 
 // ---------- live sync (viewer's Affinity connector via window.claude.mcp) ----------
 const LIVE_BUCKET = {'Pre-lead':'prelead','Reach Out Now':'reachout','Awaiting Reply':'awaiting',
@@ -2963,75 +2473,12 @@ const LIVE_BUCKET = {'Pre-lead':'prelead','Reach Out Now':'reachout','Awaiting R
 let liveSub = null;   // {slug, unsub}
 const nrmInv = s => (s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g,'')
   .replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();
-function aliasHit(inv, aliases){
-  const ni = nrmInv(inv);
-  return aliases.some(a => ni===a || (ni.startsWith(a+' ') && a.split(' ').length>=2));
-}
+
 function stopLive(){ if(liveSub){ liveSub.unsub(); liveSub=null; } }
-function startLive(e){
-  stopLive();
-  if(e.kind!=='fund') return;
-  if(!window.claude || window.claude.mcp===undefined){ startWebLive(e); return; }
-  if(!e.liveTerm) return;
-  if(!e._baked) e._baked = JSON.parse(JSON.stringify(e.buckets));
-  const input = {list_id: 9387, limit: 100,
-    field_ids: ["field-81237","field-81239","affinity-data-investors"],
-    search_criteria: {search: {term: e.liveTerm, fieldIds: ["affinity-data-investors"]}}};
-  const unsub = window.claude.mcp.watchTool('Affinity','search_list_entries', input, ev=>{
-    if(liveSub && liveSub.slug!==e.slug) return;
-    if(ev.type==='error'){
-      const c = ev.error.code;
-      if(['needs_reauth','server_not_connected','blocked_by_policy','approval_required',
-          'not_granted','capability_disabled','capability_removed','not_in_manifest',
-          'selection_required'].includes(c)){
-        e.buckets = JSON.parse(JSON.stringify(e._baked)); e.liveAt = null; e.liveOff = true;
-        rerenderOpen(e);
-      } // transient errors: keep last-good data, no UI churn
-      return;
-    }
-    const rows = (ev.result.payload && ev.result.payload.data) || [];
-    const seenIds = new Set();
-    let changed = false;
-    const allItems = {};
-    for(const k in e.buckets) for(const p of e.buckets[k]) allItems[p.id] = {k, p};
-    for(const r of rows){
-      const ent = r.entity || {}; const f = {};
-      for(const fl of ent.fields||[]) f[fl.id] = fl.value && fl.value.data;
-      const invs = f['affinity-data-investors'];
-      if(!Array.isArray(invs) || !invs.some(x=>aliasHit(x, e.liveAliases))) continue;
-      seenIds.add(ent.id);
-      const funnel = f['field-81237'] && f['field-81237'].text;
-      const bk = LIVE_BUCKET[funnel];
-      const own = Array.isArray(f['field-81239']) ? f['field-81239'].map(o=>((o.firstName||'')+' '+(o.lastName||'')).trim()) : [];
-      const cur = allItems[ent.id];
-      if(cur){
-        if(cur.p.funnel!==funnel){
-          e.buckets[cur.k] = e.buckets[cur.k].filter(x=>x.id!==ent.id);
-          if(bk){ cur.p.funnel = funnel; e.buckets[bk].push(cur.p); }
-          changed = true;
-        }
-        if(own.length){ cur.p.own = own; }
-      } else if(bk){
-        e.buckets[bk].push({id: ent.id, name: ent.name, domain: ent.domain, funnel, country: null, own});
-        changed = true;
-      }
-    }
-    const at = (ev.result.cache && ev.result.cache.storedAt) || Date.now();
-    if(changed || !e.liveAt){ e.liveAt = at; e.liveOff = false; rerenderOpen(e); }
-    else { e.liveAt = at; const b = document.querySelector('.livebadge'); if(b) b.textContent = liveLabel(e); }
-  }, {cache: {staleTime: 60000}, refetchInterval: 120000});
-  liveSub = {slug: e.slug, unsub};
-}
+
 const liveLabel = e => `● live · Affinity · ${new Date(e.liveAt).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'})}`;
 // ---------- website live path: same-origin /api/live (Affinity + Harmonic) ----------
-function startWebLive(e){
-  if(location.protocol!=='https:' && location.protocol!=='http:') return;
-  if(!e._baked) e._baked = JSON.parse(JSON.stringify(e.buckets));
-  const tick = () => webLiveTick(e).catch(()=>{});
-  tick();
-  const iv = setInterval(()=>{ if(liveSub && liveSub.slug===e.slug) tick(); }, 120000);
-  liveSub = {slug: e.slug, unsub: ()=>clearInterval(iv)};
-}
+
 async function webLiveTick(e){
   const idSet = new Set();
   for(const k in e.buckets) for(const p of e.buckets[k]) if(p.id) idSet.add(p.id);
@@ -3093,135 +2540,17 @@ function rerenderOpen(e){
 }
 
 // ---------- render ----------
-function srt(list){
-  let out;
-  if(state.sort==='ufq') out=[...list].sort((a,b)=>((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0)||(b.relevance?.total||0)-(a.relevance?.total||0));
-  else if(state.sort==='ufhigh') out=[...list].sort((a,b)=>((b.uf&&b.uf.high)||0)-((a.uf&&a.uf.high)||0)||((b.uf&&b.uf.pts)||0)-((a.uf&&a.uf.pts)||0));
-  else { const col = COLS.find(c=>c.k===state.sort)||COLS[4]; out=[...list].sort(col.sort); }
-  if(state.sortDir<0) out.reverse();
-  return out; }
+
 function visible(){
   return E().filter(e=>(!state.q||e.name.toLowerCase().includes(state.q))
     && (!state.cat || e.kind!=='fund' || e.category===state.cat)
     && (!state.cc || e.kind!=='fund' || (e.city||'').endsWith(state.cc)));
 }
-function changesHTML(){
-  const ch = (D.changes||{})[state.region];
-  if(!ch || (!(ch.moves||[]).length && !(ch.added||[]).length)) return '';
-  const items = (ch.moves||[]).map(m=>
-      `<span class="chg ${m.up?'up':'down'}"><a href="${affURL(m.id)}" target="_blank" rel="noopener">${m.name}</a> <span class="cc">${m.from||'—'} →</span> <b>${m.to}</b> <span class="cc">· ${m.fund}</span></span>`)
-    .concat((ch.added||[]).map(a=>
-      `<span class="chg add"><a href="${affURL(a.id)}" target="_blank" rel="noopener">${a.name}</a> <b>new on our list</b>${a.funnel?` <span class="cc">as ${a.funnel}</span>`:''} <span class="cc">· ${a.fund}</span></span>`));
-  return `<details class="chgsec"><summary>What's Changed since Last Week <b>${items.length}</b><span class="cnt">pipeline moves at tracked ${D.regions[state.region].label} investors · baseline ${ch.since}</span></summary><div class="chglist">${items.join('')}</div></details>`;
-}
-function render(){
-  const mob = isMobile();
-  if(!state.open) stopLive();
-  document.getElementById('fundsview').style.display = state.view==='funds'?'':'none';
-  document.getElementById('untview').style.display = state.view==='unt'?'':'none';
-  const sh = document.getElementById('starthere');
-  if(mob){
-    if(sh) sh.innerHTML='';
-    if(state.view==='funds') filtersHTML();
-    renderMobile(); updateHash(); return;
-  }
-  document.getElementById('sheet').classList.remove('open');
-  if(state.view==='unt'){ untHTML(); return; }
-  if(sh){
-    sh.innerHTML='';
-    if(state.view==='funds' && !state.q){
-      const shCard=(e, verdict, why)=>`<div class="shcard" data-slug="${e.slug}" tabindex="0" role="button">
-          <div class="fname ${e.tier}"><span class="tdot"></span>${e.name}</div>
-          <div class="shwhy">${why}</div>
-          <div class="nm ${verdict.cls}">${verdict.txt}</div></div>`;
-      const whyLine=e=>{
-        const t0=e.uf&&(e.uf.top||[])[0];
-        return [e.relevance?`relevance ${e.relevance.total}`:null,
-                e.uf&&e.uf.high?`backs ${e.uf.high} high-prio ${e.uf.high>1?'cos':'co'}`:null,
-                t0?`top: ${t0.name}${ufBadge(t0.score)}`:null].filter(Boolean).join(' · ');
-      };
-      const funds=E().filter(e=>e.kind==='fund' && !ACCELCAT[e.category]);
-      const byRel=(a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0);
-      let html='';
-      if(!state.person){
-        const top=funds.filter(e=>e.connectivity<50).sort(byRel).slice(0,3);
-        if(top.length) html=`<div class="shhead">Start here — the most relevant funds we under-cover</div><div class="shrow">`+
-          top.map(e=>shCard(e, nextMove(e)||{cls:'gap',txt:''}, whyLine(e))).join('')+`</div>`;
-      } else {
-        const fn=state.person.split(' ')[0];
-        const borrow=funds.filter(e=>personCov(e,state.person)<22 && e.connectivity>=50 && (e.points||[]).length)
-          .sort(byRel).slice(0,3);
-        const ground=funds.filter(e=>e.connectivity<22).sort(byRel).slice(0,3);
-        if(borrow.length) html+=`<div class="shhead">Raise your coverage, ${fn} — relevant funds the team can open for you</div><div class="shrow">`+
-          borrow.map(e=>{const p=e.points[0];
-            return shCard(e, {cls:'warm', txt:`Get introduced — ask ${p.internal.split(' ')[0]} (knows ${p.external}${p.pct!=null?` · ${p.pct}%`:''})`},
-              `relevance ${e.relevance?e.relevance.total:'—'} · team ${e.connectivity}, you ${personCov(e,state.person)}`);
-          }).join('')+`</div>`;
-        if(ground.length) html+=`<div class="shhead" style="margin-top:14px">Open new ground — relevant funds no one at Highland covers yet</div><div class="shrow">`+
-          ground.map(e=>shCard(e, nextMove(e)||{cls:'gap',txt:''}, whyLine(e))).join('')+`</div>`;
-      }
-      if(html){
-        sh.innerHTML=html;
-        sh.querySelectorAll('.shcard').forEach(c=>{
-          const go=()=>{toggleRow(c.dataset.slug);
-            document.querySelector(`tr.mainrow[data-slug="${CSS.escape(c.dataset.slug)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});};
-          c.addEventListener('click',go);
-          c.addEventListener('keydown',ev=>{if(ev.key==='Enter')go();});
-        });
-      }
-    }
-  }
-  filtersHTML();
-  const vis = visible();
-  const ft=document.getElementById('fundtable'), at=document.getElementById('angeltable');
-  ft.innerHTML = headHTML()+`<tbody>`+srt(vis.filter(e=>e.kind==='fund')).map(rowHTML).join('')+`</tbody>`;
-  if(at){ at.innerHTML=''; }
-  bindTable(ft);
-  updateHash();
-}
-function bindTable(tbl){
-  tbl.querySelectorAll('thead th.sortable').forEach(th=>th.addEventListener('click',()=>{
-    if(state.sort===th.dataset.k) state.sortDir=-(state.sortDir||1);
-    else { state.sort=th.dataset.k; state.sortDir=1; }
-    render();}));
-  tbl.querySelectorAll('tr.mainrow').forEach(r=>{
-    const open = ev=>{
-      if(ev.target.closest('a')||ev.target.closest('button')) return;
-      const slug=r.dataset.slug;
-      toggleRow(slug, ev.target.closest('.chip'));
-    };
-    r.addEventListener('click', open);
-    r.addEventListener('keydown', ev=>{ if(ev.key==='Enter') open(ev); });
-  });
-  tbl.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
-    const e=E().find(x=>x.slug===b.dataset.copy);
-    navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}). Coverage ${e.connectivity}, relevance ${e.relevance?e.relevance.total:'—'}.`);
-    toast('Copied');
-  }));
-}
-function toggleRow(slug, chip){
-  if(isMobile()){ openSheet(slug); return; }
-  const e=E().find(x=>x.slug===slug); if(!e) return;
-  const det=document.getElementById('d-'+slug); if(!det) return;
-  const wasOpen = det.classList.contains('open');
-  document.querySelectorAll('tr.detailrow.open').forEach(x=>x.classList.remove('open'));
-  if(!wasOpen){ det.querySelector('.detail').innerHTML=detailHTML(e); det.classList.add('open');
-    det.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
-      navigator.clipboard?.writeText(`${e.name}: dormant tie via ${e.dormant.internal.join(' + ')} — ${e.dormant.context} (last ${e.dormant.last}).`); toast('Copied');}));
-    state.open = slug;
-    if(chip && !chip.classList.contains('empty')){
-      const sec=document.getElementById(`sec-${slug}-${chip.dataset.k}`);
-      if(sec){ sec.open=true; sec.scrollIntoView({behavior:'smooth', block:'center'}); }
-    }
-  } else { state.open = ''; stopLive(); }
-  updateHash();
-}
-function labels(){
-  const f=E().filter(e=>e.kind==='fund').length, a=E().length-f;
-  document.getElementById('pagetitle').textContent = `${D.regions[state.region].label} coverage`;
-  document.getElementById('subcount').textContent = `The ${f} funds that matter most.`;
-  document.getElementById('fresh').innerHTML = ' Data as of: '+Object.entries(D.freshness).map(([k,v])=>`${k} — ${v}`).join(' · ')+'.';
-}
+
+
+
+
+
 // ---------- hash routing ----------
 function updateHash(){
   let h;
@@ -3262,36 +2591,12 @@ function readHash(){
 }
 
 addEventListener('hashchange',()=>{  // deep links work without a reload
-  state.view = location.hash.includes('/unt') ? 'unt' : 'funds';
-  state.open = '';
   readHash();
-  document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on', x.dataset.r===state.region));
-  document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on', x.dataset.v===state.view));
   if(typeof whoChip==='function') whoChip();
   goPage(state.page||'map');
-  if(state.pendingOpen){ const s=state.pendingOpen; state.pendingOpen='';
-    toggleRow(s); const el=document.querySelector(`tr[data-slug="${s}"]`); el&&el.scrollIntoView({block:'center'}); }
 });
 // ---------- boot ----------
 readHash();
-const seg = document.getElementById('regionseg');
-REGIONS.forEach(r=>{const b=document.createElement('button');b.innerHTML=flagsOf(r)+D.regions[r].label;b.dataset.r=r;
-  if(r===state.region)b.classList.add('on');
-  b.addEventListener('click',()=>{state.region=r;state.open='';
-    seg.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');labels();scoreboard();render();});
-  seg.appendChild(b);});
-document.querySelectorAll('#viewseg button').forEach(b=>b.addEventListener('click',()=>{
-  document.querySelectorAll('#viewseg button').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on'); state.view=b.dataset.v; render(); updateHash();
-}));
-document.querySelectorAll('#untmode button').forEach(b=>b.addEventListener('click',()=>{
-  document.querySelectorAll('#untmode button').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on'); state.untMode=b.dataset.um; untHTML();
-}));
-document.getElementById('unthc').addEventListener('change',ev=>{
-  state.untHC = +ev.target.value; untHTML();});
-document.getElementById('untgr').addEventListener('change',ev=>{
-  state.untGR = ev.target.value===''?null:+ev.target.value; untHTML();});
 // ---------- identity: Sonar is personalised to you ----------
 function whoChip(){
   const w = document.getElementById('whoami');
@@ -3395,7 +2700,6 @@ document.addEventListener('mouseout',ev=>{
   if(ev.target.closest && (ev.target.closest('.pct')||ev.target.closest('.flag')||ev.target.closest('td.covtd')||ev.target.closest('td.relcell')||ev.target.closest('.em'))) tip.classList.remove('show');
 });
 addEventListener('scroll',()=>tip.classList.remove('show'),true);
-document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.toLowerCase();render()});
 
 function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',2400)}
 function csv(){
@@ -3424,6 +2728,5 @@ if (window.claude && window.claude.downloads){
   });
 }
 goPage(state.page||'map');
-if(state.pendingOpen){ setTimeout(()=>{ toggleRow(state.pendingOpen); const el=document.querySelector(`tr[data-slug="${state.pendingOpen}"]`); el&&el.scrollIntoView({block:'center'}); }, 50); }
 </script>
 """
