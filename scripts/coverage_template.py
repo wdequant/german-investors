@@ -906,17 +906,13 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 <div id="shell">
 <nav id="side">
   <div class="slabel">Sonar</div>
-  <a class="sitem" data-page="dash"><span class="si">◳</span>Dashboard</a>
-  <a class="sitem" data-page="cov"><span class="si">▦</span>Coverage by Region</a>
-  <div class="slabel" style="margin-top:14px">Workflows</div>
-  <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
+  <a class="sitem" data-page="map" id="simap"><span class="si">◍</span>Coverage Map</a>
   <a class="sitem" data-page="net"><span class="si">⇗</span>My Network</a>
-  <a class="sitem" data-page="map" id="simap" hidden><span class="si">◍</span>Coverage Map</a>
+  <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
   <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
 </nav>
 <main id="content">
 
-<section id="dashpage" class="page" hidden><div class="wrap" id="dashwrap"></div></section>
 
 <section id="workpage" class="page" hidden><div class="wrap">
   <header class="whead"><h1 id="worktitle"></h1><div class="apctx" id="apctx"></div></header>
@@ -1006,7 +1002,7 @@ const D = __DATA__;
 const REGIONS = Object.keys(D.regions);
 const BUCKETS = [["prelead","Pre-lead"],["reachout","Reach out"],["awaiting","Awaiting"],["lead","Lead"],["hard","Hard to crack"]];
 const TIER = {strong:"var(--covered)", medium:"var(--thin)", weak:"var(--gap)"};
-const state = {region: REGIONS[0], page:'dash', view:"funds", sort:"connectivity", sortDir:1, q:"", person:"", cat:"", cc:"",
+const state = {region: REGIONS[0], page:'map', view:"funds", sort:"connectivity", sortDir:1, q:"", person:"", cat:"", cc:"",
   untMode:"fund", untSort:{k:"date",d:-1}, untHC:0, untGR:null};
 const E = () => D.regions[state.region].entities;
 const affURL = id => `https://${D.affinityOrg}.affinity.co/companies/${id}`;
@@ -1326,139 +1322,37 @@ async function sendAsk(q){
   saveChat(); ASK.busy=false; renderAskLog();
 }
 
-const PAGES={dash:'dashpage',cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
-function renderDash(){
-  const w=document.getElementById('dashwrap'); if(!w) return;
-  const me=state.person||'', fn=me?me.split(' ')[0]:'';
-  const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length):0;
-  const tierOf=v=>v>=50?'strong':v>=22?'medium':'weak';
-  const covT=v=>v>=50?'strong':v>=22?'medium':v>0?'weak':'none';
-
-  // --- coverage quality per region (relevant funds only) ---
-  const regTiles=REGIONS.map(r=>{
-    const rel=D.regions[r].entities.filter(e=>e.kind==='fund'&&!ACCELCAT[e.category]&&(e.relevance?.total||0)>=55);
-    const team=avg(rel.map(e=>e.connectivity));
-    const you=me?avg(rel.map(e=>personCov(e,me))):team;
-    const gaps=rel.filter(e=>(me?personCov(e,me):e.connectivity)<22).length;
-    const top4f=rel.slice().sort((a,b)=>(b.relevance?.total||0)-(a.relevance?.total||0)).slice(0,4);
-    const fRows=top4f.map(e=>`<span class="dli"><span class="nm">${e.name}</span><span class="bubs"><b class="mbub ${covT(e.connectivity)}">${e.connectivity}</b>${me?`<b class="mbub ${covT(personCov(e,me))}">${personCov(e,me)}</b>`:''}</span></span>`).join('');
-    return `<div class="dtile rtile go" data-go-region="${r}">
-      <div class="dtlabel">${flagsOf(r)}${D.regions[r].label}</div>
-      <div class="dsplit">
-        <div class="dleft">
-          <div class="dring"><div class="covcell big">${ring(you, tierOf(you), 54)}<b>${you}</b></div>
-            <div class="dringcap"><span class="covcap">${me?'your':'team'} coverage</span>${me?`<div class="dtsub" style="margin-top:3px">team ${team}</div>`:''}</div></div>
-          <div class="dtsub ${gaps?'warn':''}">${gaps?`${gaps} relevant fund${gaps>1?'s':''} you can't reach`:'all relevant funds reachable'}</div>
-        </div>
-        <div class="dprev">
-          <span class="dlh"><span>Most relevant</span><span class="dlcols"><i>team</i>${me?'<i>you</i>':''}</span></span>
-          ${fRows}
-        </div>
-      </div>
-    </div>`;
-  }).join('');
-
-  // --- hard-to-cracks: mine, and how many my network can open ---
-  const seen=new Set(), hl=[];
-  REGIONS.forEach(r=>(D.regions[r].htc||[]).forEach(c=>{if(!seen.has(c.id)){seen.add(c.id);hl.push(c);}}));
-  (D.xhtc||[]).forEach(c=>{if(!seen.has(c.id)){seen.add(c.id);hl.push(c);}});
-  const mine=me?hl.filter(c=>(c.owners||[]).includes(me)):hl;
-  const reach=mine.filter(c=>(c.investors||[]).some(i=>i.best&&!i.best.moved));
-  const door=c=>{ const pd=htcPaths(c,me); return pd.self||pd.team[0]||null; };
-  const top4=mine.slice().sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,4);
-  const hRows=top4.map(c=>{
-    const d=door(c), ufV=c.uf!=null?Math.round(c.uf):null;
-    const how=d?(me&&d.internal===me
-        ?`you hold the door — ${d.external||d.fund}`
-        :`ask ${d.internal.split(' ')[0]} → ${d.external||d.fund}`)
-      +(d.fund&&d.external?` (${d.fund})`:'')+(d.pct!=null?` · ${d.pct}%`:'')
-      :'no warm path yet';
-    return `<div class="dpli"><b class="mbub ${ufTierOf(ufV)}">${ufV??'—'}</b><span class="nm">${c.name}</span><span class="how">${how}</span></div>`;
-  }).join('');
-
-  // --- network: top borrow suggestion ---
-  const borrow=me?ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]
-      &&personCov(x.e,me)<22&&x.e.connectivity>=50&&(x.e.points||[]).length)
-    .sort((a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0)):[];
-  const relT=v=>v>=70?'strong':v>=55?'medium':'low';
-  const ground3=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]
-      &&x.e.connectivity<22&&(x.e.relevance?.total||0)>=55)
-    .sort((a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0)).slice(0,3);
-  const nRows=borrow.slice(0,4).map(x=>{
-    const p=(x.e.points||[])[0], rel=x.e.relevance?.total;
-    return `<div class="dpli"><b class="mbub ${relT(rel||0)}">${rel??'—'}</b><span class="nm">${x.e.name}</span><span class="how">ask ${p.internal.split(' ')[0]}${p.external?` → ${p.external}`:''}${p.pct!=null?` · ${p.pct}%`:''}</span></div>`;
-  }).join('');
-
-  const ranked=cityScores(me).filter(c=>c.score>0.8).slice(0,5);
-  const cityCards=ranked.map(c=>{
-    const tc=c.topco.sort((a,b)=>(b.uf??-1)-(a.uf??-1)).slice(0,3);
-    const tf=c.topf.sort((a,b)=>b.rel-a.rel).slice(0,3);
-    return `<div class="dcity go" data-go-city="${c.city}">
-    <div class="fname">${c.city}</div>
-
-    ${tc.length?`<div class="dlist"><span class="dlh"><span>Companies to visit</span><span class="dlcols"><i>unframe</i></span></span>${tc.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="bubs"><b class="mbub ${ufTierOf(x.uf!=null?Math.round(x.uf):null)}">${x.uf!=null?Math.round(x.uf):'—'}</b></span></span>`).join('')}</div>`:''}
-    ${tf.length?`<div class="dlist"><span class="dlh"><span>Funds to visit</span><span class="dlcols"><i>team</i>${me?'<i>you</i>':''}</span></span>${tf.map(x=>`<span class="dli"><span class="nm">${x.n}</span><span class="bubs"><b class="mbub ${covT(x.tc)}">${x.tc}</b>${me?`<b class="mbub ${covT(x.pc)}">${x.pc}</b>`:''}</span></span>`).join('')}</div>`:''}
-  </div>`;}).join('');
-
-  w.innerHTML=`
-    <header class="dhero"><div class="kicker">Highland Europe · relationship intelligence · ${D.generated}</div>
-    <h1>${fn?`Good to see you, ${fn}`:'Your coverage at a glance'}</h1>
-    <p class="sub">Where your network is strong, where it isn't, and where to spend the week.</p></header>
-    <div class="askcard">
-      <div class="dph" style="margin-bottom:10px;display:flex;justify-content:space-between;align-items:center">✦ Ask Sonar
-        <button type="button" id="askclear" hidden title="Clear this conversation">↺ clear</button></div>
+const PAGES={cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
+function askCard(){
+  return `<div class="askcard" style="margin-top:20px">
+      <div class="dph" style="margin-bottom:10px;display:flex;justify-content:space-between;align-items:center">\u2726 Ask Sonar
+        <button type="button" id="askclear" hidden title="Clear this conversation">\u21ba clear</button></div>
       <div class="asklog" id="asklog" hidden></div>
       <form class="askrow" id="askform">
-        <input id="askin" placeholder="Ask about your network — paths in, intros, where to focus" autocomplete="off">
+        <input id="askin" placeholder="Ask about your network \u2014 paths in, intros, where to focus" autocomplete="off">
         <button type="submit" id="askgo">Ask</button>
       </form>
       <div class="askchips">${['Who should I build a relationship with next?',
-          top4[0]?`How do I get into ${top4[0].name}?`:null,
-          'Where are my biggest coverage gaps?'].filter(Boolean)
+          'Where are my biggest coverage gaps?',
+          'Who on the team can open doors for me in London?']
         .map(q=>`<button type="button" data-q="${q.replace(/"/g,'&quot;')}">${q}</button>`).join('')}</div>
-    </div>
-    <div class="dsec">Coverage quality — relevant funds per region</div>
-    <div class="dgrid r4">${regTiles}</div>
-    <div class="dgrid r2" style="margin-top:14px">
-      <div class="dtile go" data-go-page="h2c">
-        <div class="dtlabel">${fn?fn+"'s":'Our'} hard to cracks</div>
-        <div class="dsplit">
-          <div class="dtduo">${bub(mine.length,'low','companies',true)}${bub((mine.length?Math.round(100*reach.length/mine.length):0)+'%', reach.length?'strong':'weak', 'reachable via network', true)}</div>
-          <div class="dprev"><div class="dph">Crack these first</div>
-            ${hRows||'<div class="dtsub">No hard-to-cracks on your book.</div>'}</div>
-        </div>
-      </div>
-      <div class="dtile go" data-go-page="net">
-        <div class="dtlabel">${fn?fn+"'s":'Our'} network</div>
-        <div class="dsplit">
-          <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
-          <div class="dprev"><div class="dph">Start with</div>
-            ${nRows||`<div class="dtsub">${me?'Your coverage already matches the team\'s reach.':'Pick who you are to see personal intro paths.'}</div>`}
-            ${ground3.length?`<div class="dtsub" style="margin-top:6px">Open new ground: ${ground3.map(x=>x.e.name).join(' · ')} — no one at Highland covers them yet</div>`:''}
-            ${(me&&keepWarm(me).length)?`<div class="dtsub" style="margin-top:4px">Keep warm: ${keepWarm(me).slice(0,3).map(w=>`${w.person.split(' ')[0]} (${w.fund})`).join(' · ')} — going cold</div>`:''}</div>
-        </div>
-      </div>
-    </div>
-    <div class="dsec">Where to go next — dealflow weight × your network × open pipeline</div>
-    <div class="dgrid r5">${cityCards||'<div class="dtsub">City signals appear as pipeline cities fill in.</div>'}</div>`;
-  w.querySelectorAll('[data-go-region]').forEach(t=>t.addEventListener('click',()=>{state.region=t.dataset.goRegion;
-    document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on',x.dataset.r===state.region));goPage('cov');}));
-  w.querySelectorAll('[data-go-page]').forEach(t=>t.addEventListener('click',()=>goPage(t.dataset.goPage)));
-  w.querySelectorAll('[data-go-city]').forEach(t=>t.addEventListener('click',()=>goPage('geo',{city:t.dataset.goCity})));
-  const af=w.querySelector('#askform');
-  if(af){
-    af.addEventListener('submit',ev=>{ev.preventDefault();const v=document.getElementById('askin').value.trim();if(v)sendAsk(v);});
-    w.querySelectorAll('.askchips button').forEach(b=>b.addEventListener('click',()=>sendAsk(b.dataset.q)));
-    const cl=w.querySelector('#askclear');
-    if(cl) cl.addEventListener('click',()=>{ CHAT=[]; saveChat(); renderAskLog(); });
-    renderAskLog();
-  }
+    </div>`;
+}
+function bindAsk(root){
+  const af=root.querySelector('#askform');
+  if(!af) return;
+  af.addEventListener('submit',ev=>{ev.preventDefault();const v=document.getElementById('askin').value.trim();if(v)sendAsk(v);});
+  root.querySelectorAll('.askchips button').forEach(b=>b.addEventListener('click',()=>sendAsk(b.dataset.q)));
+  const cl=root.querySelector('#askclear');
+  if(cl) cl.addEventListener('click',()=>{ CHAT=[]; saveChat(); renderAskLog(); });
+  renderAskLog();
 }
 
 function goPage(p, opts){
+  if(!PAGES[p]) p='map';
   state.page=p;
   document.body.dataset.page=p;
-  for(const sec of ['dashpage','covpage','workpage'])
+  for(const sec of ['covpage','workpage'])
     document.getElementById(sec).hidden = PAGES[p]!==sec;
   document.querySelectorAll('#side .sitem').forEach(a=>a.classList.toggle('on', a.dataset.page===p));
   const onItem=document.querySelector('#side .sitem.on');
@@ -1468,14 +1362,12 @@ function goPage(p, opts){
     if(ap.who==='' && !ap.whoTouched) ap.who=state.person||'';
     if(opts&&opts.city) ap.city=opts.city;
     renderWork();
-  } else if(p==='cov'){ labels(); scoreboard(); render(); }
-  else renderDash();
+  } else { labels(); scoreboard(); render(); }
   updateHash();
   scrollTo(0,0);
 }
 function refresh(){  // re-render whatever page is active
   if(state.page==='cov'){ labels(); scoreboard(); render(); }
-  else if(state.page==='dash') renderDash();
   else renderWork();
 }
 function renderWork(){
@@ -1492,8 +1384,9 @@ function renderWork(){
   if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderWork();updateHash();});
   ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderWork();}));
   const body=document.getElementById('apbody');
-  body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
+  body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet()+askCard():apGeo();
   if(ap.mode==='map') mapBind(body);
+  if(ap.mode==='net') bindAsk(body);
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
     navigator.clipboard?.writeText(decodeURIComponent(b.dataset.copy)); toast('Copied');}));
   body.querySelectorAll('[data-draft]').forEach(b=>b.addEventListener('click',()=>{
@@ -2205,7 +2098,6 @@ function mapBind(body){
     });
   }
 }
-try{ if((localStorage.getItem('sonar_flags')||'').includes('coverageMap')){ const si=document.getElementById('simap'); if(si) si.hidden=false; } }catch(err){}
 
 function netApply(list){
   const F=ap.nf, q=(F.q||'').trim().toLowerCase();
@@ -2796,7 +2688,7 @@ function openSheet(slug){
 let MARKS=[]; try{ MARKS=JSON.parse(localStorage.getItem('sonar_marks')||'[]'); }catch(e0){}
 const MK={on:false, el:null, kind:'kill'};
 const mkPersist=()=>{ try{ localStorage.setItem('sonar_marks', JSON.stringify(MARKS)); }catch(e0){} };
-const mkPage=()=>({dash:'Dashboard',cov:'Coverage · '+((D.regions[state.region]||{}).label||''),
+const mkPage=()=>({map:'Coverage Map',cov:'Coverage · '+((D.regions[state.region]||{}).label||''),
   h2c:'Solve my H2Cs',net:'My Network',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
 function mkLabel(el){
   for(const sel of ['.fname','.dtlabel','.dlh','.dsec','.apsec','.sechead h2','.covcap','.th','h1','h2','summary']){
@@ -3320,8 +3212,7 @@ function labels(){
 // ---------- hash routing ----------
 function updateHash(){
   let h;
-  if(state.page==='dash') h='#dash';
-  else if(state.page==='h2c') h='#h2c';
+  if(state.page==='h2c') h='#h2c';
   else if(state.page==='net') h='#net';
   else if(state.page==='geo') h='#geo'+(ap.city?'/'+encodeURIComponent(ap.city):'');
   else if(state.page==='map') h='#map'+(MAP.lvl==='l1'?'/'+MAP.reg:MAP.cc?'/'+MAP.cc+(MAP.ent?'/'+MAP.ent:''):'');
@@ -3335,26 +3226,26 @@ function updateHash(){
 }
 function readHash(){
   const m = location.hash.match(/^#([a-z0-9]+)(?:\/([^?]+))?(?:\?as=(.+))?$/i);
-  if(!m){ state.page='dash'; return; }
+  if(!m){ state.page='map'; return; }
   if(m[3]) state.person = decodeURIComponent(m[3]);
   const head=m[1].toLowerCase();
-  if(head==='dash'){ state.page='dash'; return; }
+  if(head==='dash'){ state.page='map'; MAP.lvl='l0'; MAP.cc=''; MAP.ent=''; return; }
   if(head==='h2c'){ state.page='h2c'; return; }
   if(head==='net'){ state.page='net'; return; }
   if(head==='geo'){ state.page='geo'; if(m[2]) ap.city=decodeURIComponent(m[2]); return; }
   if(head==='map'){ state.page='map';
-    try{ const fl=localStorage.getItem('sonar_flags')||''; if(!fl.includes('coverageMap')) localStorage.setItem('sonar_flags', fl+',coverageMap'); const si=document.getElementById('simap'); if(si) si.hidden=false; }catch(err){}
     const p2=m[2], p3=(location.hash.split('/')[2]||'');
-    if(p2==='nordics'||p2==='germany'){ MAP.lvl='l1'; MAP.reg=p2; MAP.cc=''; MAP.ent=''; }
+    if(p2==='nordics'||p2==='germany'||p2==='uk'){ MAP.lvl='l1'; MAP.reg=p2; MAP.cc=''; MAP.ent=''; }
     else if(p2&&CM.ccName&&CM.ccName[p2.toUpperCase()]){ MAP.lvl=p3?'l3':'l2'; MAP.cc=p2.toUpperCase(); if(CM.regOf) MAP.reg=CM.regOf[MAP.cc]||MAP.reg; MAP.ent=p3||''; }
     else { MAP.lvl='l0'; MAP.cc=''; MAP.ent=''; }
     return; }
-  if(REGIONS.includes(head)){
-    state.page='cov'; state.region=head;
+  if(REGIONS.includes(head)){           // legacy region links land on the map now
+    state.page='map'; MAP.ent='';
+    if(head==='france'){ MAP.lvl='l2'; MAP.cc='FR'; MAP.reg='france'; }
+    else if(head==='us'){ MAP.lvl='l2'; MAP.cc='US'; MAP.reg='us'; }
+    else { MAP.lvl='l1'; MAP.reg=head; MAP.cc=''; }
     if(m[2]==='htc') state.page='h2c';           // legacy deep link
-    else if(m[2]==='unt') state.view='unt';
-    else if(m[2]) state.pendingOpen = m[2];
-  } else state.page='dash';
+  } else state.page='map';
 }
 
 addEventListener('hashchange',()=>{  // deep links work without a reload
@@ -3364,7 +3255,7 @@ addEventListener('hashchange',()=>{  // deep links work without a reload
   document.querySelectorAll('#regionseg button').forEach(x=>x.classList.toggle('on', x.dataset.r===state.region));
   document.querySelectorAll('#viewseg button').forEach(x=>x.classList.toggle('on', x.dataset.v===state.view));
   if(typeof whoChip==='function') whoChip();
-  goPage(state.page||'dash');
+  goPage(state.page||'map');
   if(state.pendingOpen){ const s=state.pendingOpen; state.pendingOpen='';
     toggleRow(s); const el=document.querySelector(`tr[data-slug="${s}"]`); el&&el.scrollIntoView({block:'center'}); }
 });
@@ -3519,7 +3410,7 @@ if (window.claude && window.claude.downloads){
     }
   });
 }
-goPage(state.page||'dash');
+goPage(state.page||'map');
 if(state.pendingOpen){ setTimeout(()=>{ toggleRow(state.pendingOpen); const el=document.querySelector(`tr[data-slug="${state.pendingOpen}"]`); el&&el.scrollIntoView({block:'center'}); }, 50); }
 </script>
 """
