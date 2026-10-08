@@ -1724,7 +1724,7 @@ function cmWhoRows(me){
   const restHtml=rest.length?(MAP.whoMore
     ?rest.map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm"><a href="${p.li||liSearch(p.n,p.org||'')}" target="_blank" rel="noopener">${p.n}</a></span><span class="how">${p.org||''}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('')+`<button class="minibtn" data-cmwhomore="0">Hide ↑</button>`
     :`<button class="minibtn" data-cmwhomore="1">+ ${rest.length} more</button>`):'';
-  return {html:(doors||`<div class="dtsub">${mine?'Open ground — the team\'s doors are your way in.':'No team edges here.'}</div>`)+restHtml, n:list.length};
+  return {html:(doors||`<div class="dtsub">${mine?'Open ground — flip to Team and ask for an intro.':'No team edges here.'}</div>`)+restHtml, n:list.length};
 }
 function cmCountryPage(me){
   const cc=MAP.cc, A=CM.areas[cc]||{covT:0,u:{},known:{}};
@@ -1764,7 +1764,7 @@ function cmCountryPage(me){
   const youBit=qu==='well covered'?`your network is <b>well covered</b>`
     :qu==='building'?`your network is <b>building</b>`
     :`<b>open ground</b> for you`;
-  const teamBit=A.covT>=55&&covu<50?`the team is <b>${qt}</b> — doors ready to borrow`:`the team is ${qt}`;
+  const teamBit=A.covT>=55&&covu<50?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
   return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>
     <div class="cmv2grid">
       <div>
@@ -1913,7 +1913,7 @@ function cmTray(){
 function cmYouLine(covu,covT){
   const [qu]=cmQualU(covu), [qt]=cmQualT(covT);
   if(covu>=50) return `Your network here is <b>${qu}</b>; the team's graph is ${qt}.`;
-  if(covT>=55) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — and the team's graph here is <b>strong</b>, ready to borrow.`;
+  if(covT>=55) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — the team's network here is <b>strong</b>, and the intros are one ask away.`;
   return `<b>${qu==='building'?'Building':'Open ground'}</b> — for you and the team. First-mover territory.`;
 }
 const cmQualU=v=>v<25?['open ground','#3a6fa5']:v<50?['building','#c98a1b']:['well covered','#2e7d4f'];
@@ -1952,7 +1952,7 @@ function cmPanel(me){
     const borrow=a.covT>=55&&covu<55;
     return `<div class="cmhead">${who?(covu>=50
         ?`Your ${regName} network is <b>well covered</b>. ${CM.ccName[biggest]||''} drives the most opportunity here.`
-        :`${regName==='Germany'?'Germany':'The '+regName} is where your network has the most room to grow: ${CM.ccName[biggest]||''} drives the most opportunity${borrow?` — and the team already holds doors you can borrow`:''}.`)
+        :`${regName==='Germany'?'Germany':'The '+regName} is where your network has the most room to grow: ${CM.ccName[biggest]||''} drives the most opportunity${borrow?` — and the team can already make the intros`:''}.`)
       :`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
       ${cmQualRow(covu,a.covT,who)}`;
   }
