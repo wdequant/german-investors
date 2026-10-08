@@ -1701,15 +1701,19 @@ function cmSvg(me){
   }).join('');
   let layer='';
   if(MAP.lvl==='l0'){
+    const liveR=CM.regions.filter(r=>r.active&&CM.areas[r.id]);
+    const maxW0=Math.max(...liveR.map(r=>0.5*CM.areas[r.id].opp+0.5*(CM.areas[r.id].pw||0)),1);
     layer=CM.regions.map(r=>{
       if(!r.active||!CM.areas[r.id]) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><title>${r.name} — coming soon</title><circle r="4.5"/></g>`;
       const a=CM.areas[r.id], covu=me&&a.u[me]?a.u[me].covu:0;
-      const R=26, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const w0=(0.5*a.opp+0.5*(a.pw||0))/maxW0;   // node weight = deal flow + team pipeline
+      const R=(16+14*Math.sqrt(w0)), rb=(5+7*Math.sqrt(w0));
+      const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       return `<g class="cmreg live cmregbtn" data-cmgo="l1" data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
-        <g class="cmbtn"><circle r="9" fill="${CMTIER(covu)}" stroke="#fff" stroke-width="1.4"/></g>
-        <g class="cmdisc"><circle r="${R}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
-          ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}</g>
-        <text y="${R+13}">${r.name}</text></g>`;
+        <title>${r.name}</title>
+        <g class="cmbtn"><circle r="${rb.toFixed(1)}" fill="${CMTIER(covu)}" stroke="#fff" stroke-width="1.4"/></g>
+        <g class="cmdisc"><circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
+          ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}</g></g>`;
     }).join('');
   } else {
     const subs=(CM.subsOf||{})[MAP.reg]||[];
