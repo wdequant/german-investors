@@ -733,8 +733,29 @@ body.mkmode{cursor:crosshair}
   padding:2px 9px;font-size:11px;cursor:pointer;font-family:inherit}
 .cadchip.on{color:var(--ink2);border-color:var(--ink2)}
 .nrow.cold .nl{color:var(--gap-ink);font-weight:600}
+.ntfilt{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:2px 0 12px}
+.ntfilt input{padding:6px 10px;font-size:13px;border:1px solid var(--hair);border-radius:9px;
+  background:var(--surface);color:var(--ink);width:170px}
+.ntfilt input:focus{outline:none;border-color:var(--accent)}
+.ntfilt select{padding:6px 8px;font-size:12.5px;border:1px solid var(--hair);border-radius:9px;
+  background:var(--surface);color:var(--ink2)}
+.ntcard{padding:0;overflow-x:auto}
+table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
+.nettab th{text-align:left;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--muted);cursor:pointer;padding:9px 10px;border-bottom:1px solid var(--hair);white-space:nowrap;user-select:none}
+.nettab th.on{color:var(--ink)}
+.nettab td{padding:7px 10px;border-bottom:1px solid var(--hair2);white-space:nowrap;color:var(--ink2)}
+.nettab tbody tr:last-child td{border-bottom:0}
+.nettab tbody tr:hover td{background:var(--hair2)}
+.nettab td.nmc{font-weight:600;color:var(--ink)}
+.nettab td.lt{color:var(--muted);font-size:12.5px}
+.nettab tr.coldr td.lt{color:var(--gap-ink);font-weight:600}
+@media(max-width:860px){
+  table.nettab{min-width:760px}
+  .ntcard{max-width:calc(100vw - 32px)}  /* viewport-bound: the table scrolls inside the card */
+}
 .t3row{display:flex;align-items:baseline;gap:8px;padding:7px 0;font-size:15px;flex-wrap:wrap}
-.t3row .t3what{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;flex:none;width:96px}
+.t3row .t3what{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;flex:none;width:118px}
 @media(max-width:700px){
   .nrow{flex-wrap:wrap;row-gap:2px}
   .nrow .nf{flex-basis:100%;padding-left:36px;white-space:normal}
@@ -1033,7 +1054,8 @@ const htcPaths=(c,who)=>{
   return {all, team, self};
 };
 const metroOf = c => METRO[c]||c;
-const ap = {mode:'', who:'', city:'', hsort:'ease', nseg:'target'};
+const ap = {mode:'', who:'', city:'', hsort:'ease', nseg:'target',
+  nf:{q:'',ty:'',st:'',sr:'',ci:''}, ns:'p', nd:-1};
 // ---------- shortlist: star anything in a workflow into a persistent "earmarked" rail ----------
 let SHORT = [];
 try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
@@ -1358,6 +1380,24 @@ function renderWork(){
     ap.city=b.dataset.gocity; renderWork();
   }));
   body.querySelectorAll('[data-nseg]').forEach(b=>b.addEventListener('click',()=>{ap.nseg=b.dataset.nseg;renderWork();}));
+  body.querySelectorAll('[data-nsort]').forEach(h=>h.addEventListener('click',()=>{
+    const k=h.dataset.nsort;
+    if(ap.ns===k) ap.nd*=-1; else {ap.ns=k; ap.nd=(k==='p'||k==='l')?-1:1;}
+    renderWork();
+  }));
+  body.querySelectorAll('[data-nfk]').forEach(b=>b.addEventListener('click',()=>{
+    const k=b.dataset.nfk; ap.nf[k]=ap.nf[k]===b.dataset.nfv?'':b.dataset.nfv; renderWork();
+  }));
+  const nq=body.querySelector('#nq');
+  if(nq) nq.addEventListener('input',()=>{
+    ap.nf.q=nq.value; clearTimeout(ap._nqt);
+    ap._nqt=setTimeout(()=>{ renderWork();
+      const el=document.getElementById('nq');
+      if(el){ el.focus(); try{el.setSelectionRange(el.value.length,el.value.length);}catch(err){} }
+    },300);
+  });
+  const nci=body.querySelector('#nci');
+  if(nci) nci.addEventListener('change',()=>{ap.nf.ci=nci.value;renderWork();});
   body.querySelectorAll('[data-cad]').forEach(b=>b.addEventListener('click',()=>{
     const k=decodeURIComponent(b.dataset.cad), cur=+b.dataset.cur||0;
     CAD[k]={0:4,4:6,6:12,12:0}[cur]??4; saveCad(); renderWork();
@@ -1461,16 +1501,44 @@ function rewarmMail(e,who){
   const body=`Hi ${e.n.split(' ')[0]} — been too long since we last caught up. Would love to hear what you are seeing at ${e.f} at the moment — coffee or a call in the next couple of weeks? — ${wf}`;
   return `mailto:${e.e}?subject=${encodeURIComponent('Catching up')}&body=${encodeURIComponent(body)}`;
 }
-function netRow(e,who){
-  const cad=cadOf(e), cold=isCold(e), mo=moAgo(e.l);
-  return `<div class="nrow${cold?' cold':''}">
-    <b class="mbub ${easeTierOf(e.p)}">${e.p}</b>
-    <span class="nm"${e.t?` title="${e.t}"`:''}>${e.n}</span>${everTag({ever:e.v})}
-    <span class="nf">${e.f||e.d||''}${e.c?` · ${e.c}`:''}</span>
-    <span class="nl">${e.l?`${fmtD(e.l)}${cold?` · ${Math.round(mo)} mo`:''}`:'no touch logged'}</span>
-    <button class="cadchip${cad?' on':''}" data-cad="${encodeURIComponent(e.n+'|'+e.f)}" data-cur="${cad}" title="How often you want to touch this relationship — click to change">${cad?`every ${cad}mo`:'no cadence'}</button>
-    ${e.e?`<a class="nmail" href="${rewarmMail(e,who)}" title="Email ${e.n.split(' ')[0]}">✉</a>`:''}
+function netApply(list){
+  const F=ap.nf, q=(F.q||'').trim().toLowerCase();
+  return list.filter(e=>(!q||e.n.toLowerCase().includes(q)||(e.f||'').toLowerCase().includes(q))
+    &&(!F.ty||e.ft===F.ty)&&(!F.st||e.fs===F.st)&&(!F.sr||e.sr===F.sr)&&(!F.ci||e.c===F.ci));
+}
+function netFilterBar(list){
+  const F=ap.nf;
+  const counts=k=>{const m={};list.forEach(e=>{if(e[k])m[e[k]]=(m[e[k]]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);};
+  const chips=(fk,ek)=>counts(ek).map(([v,n])=>`<button class="fchip${F[fk]===v?' on':''}" data-nfk="${fk}" data-nfv="${v}">${v} <b>${n}</b></button>`).join('');
+  const cities=counts('c').slice(0,30);
+  return `<div class="ntfilt">
+    <input id="nq" type="search" placeholder="Name or fund…" value="${(F.q||'').replace(/"/g,'&quot;')}">
+    ${chips('ty','ft')}${chips('st','fs')}${chips('sr','sr')}
+    ${cities.length?`<select id="nci"><option value="">All cities</option>${cities.map(([v,n])=>`<option${F.ci===v?' selected':''}>${v}</option>`).join('')}</select>`:''}
   </div>`;
+}
+const NCOLS=[['p','You'],['n','Name'],['sr','Role'],['f','Fund'],['ft','Type'],['fs','Stage'],['c','City'],['l','Last touch']];
+function netTable(full,who){
+  const list=netApply(full);
+  const sk=ap.ns, dir=ap.nd;
+  const sorted=[...list].sort((a,b)=>{
+    const va=a[sk], vb=b[sk];
+    if(va==null&&vb==null) return b.p-a.p;
+    if(va==null) return 1; if(vb==null) return -1;
+    const c=typeof va==='number'?va-vb:String(va).localeCompare(String(vb));
+    return c*dir||b.p-a.p;
+  });
+  const head=NCOLS.map(([k,lab])=>`<th data-nsort="${k}"${sk===k?' class="on"':''}>${lab}${sk===k?(dir===1?' ↑':' ↓'):''}</th>`).join('');
+  const body=sorted.map(e=>{
+    const cad=cadOf(e), cold=isCold(e), mo=moAgo(e.l);
+    return `<tr${cold?' class="coldr"':''}><td><b class="mbub ${easeTierOf(e.p)}">${e.p}</b></td>
+      <td class="nmc"${e.t?` title="${e.t}"`:''}>${e.n}${everTag({ever:e.v})}${e.e?` <a class="nmail" href="${rewarmMail(e,who)}" title="Email ${e.n.split(' ')[0]}">✉</a>`:''}</td>
+      <td>${e.sr||'—'}</td><td>${e.f||e.d||''}</td><td>${e.ft||'—'}</td><td>${e.fs||'—'}</td><td>${e.c||'—'}</td>
+      <td class="lt">${e.l?`${fmtD(e.l)}${cold?` · ${Math.round(mo)} mo`:''}`:'—'}</td>
+      <td><button class="cadchip${cad?' on':''}" data-cad="${encodeURIComponent(e.n+'|'+e.f)}" data-cur="${cad}" title="How often you want to touch this relationship — click to change">${cad?`every ${cad}mo`:'off'}</button></td></tr>`;
+  }).join('');
+  return `${netFilterBar(full)}
+    <div class="apcard ntcard"><table class="nettab"><thead><tr>${head}<th></th></tr></thead><tbody>${body||`<tr><td colspan="9" class="lt" style="padding:14px">No one matches these filters.</td></tr>`}</tbody></table></div>`;
 }
 function netAskBody(who,e,p){
   const wf=who.split(' ')[0];
@@ -1541,13 +1609,13 @@ function apNet(){
   const segs=[['target','Target',borrow.length+ground.length],['building','Building',building.length],
               ['strong','Strong',strong.length],['cold','Going cold',cold.length]];
   const segBar=`<div class="segbar">${segs.map(([k,lab,n])=>`<button data-nseg="${k}"${seg===k?' class="on"':''}>${lab}<b>${n}</b></button>`).join('')}</div>`;
-  const rows=list=>list.length?`<div class="apcard">${list.slice(0,120).map(e=>netRow(e,who)).join('')}</div>`:'<div class="aphint">No one here yet.</div>';
+  const tbl=list=>list.length?netTable(list,who):'<div class="aphint">No one here yet.</div>';
   let segBody='';
   if(seg==='target') segBody=`<div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
     <div class="apsec">Open new ground — relevant funds no one at Highland covers</div>${gCards||'<div class="aphint">None.</div>'}`;
-  else if(seg==='building') segBody=rows(building.sort((a,b)=>b.p-a.p));
-  else if(seg==='strong') segBody=rows(strong.sort((a,b)=>b.p-a.p));
-  else segBody=cold.length?rows(cold):'<div class="aphint">No one is going cold — every relationship with a cadence has been touched in time.</div>';
+  else if(seg==='building') segBody=tbl(building);
+  else if(seg==='strong') segBody=tbl(strong);
+  else segBody=cold.length?tbl(cold):'<div class="aphint">No one is going cold — every relationship with a cadence has been touched in time.</div>';
   return `${todayRows.length?`<div class="apsec">Your ${todayRows.length===1?'1':todayRows.length} today</div><div class="apcard">${todayRows.join('')}</div>`:''}
     ${mvRows?`<div class="apsec">Moves in your network — people you know in new seats</div><div class="apcard">${mvRows}</div>`:''}
     ${segBar}${segBody}`;

@@ -486,11 +486,12 @@ if _base.get("entries") and (aff_dump or {}).get("entries"):
 # ---- per-person investor network (My People page) + recent movers feed ----
 import glob as _glob
 from coverage_common import _strip_emoji
-_slug2 = {}
+_slug2, _cat2 = {}, {}
 for _rk0, _reg0 in regions.items():
     for _e0 in _reg0["entities"]:
         if _e0["kind"] == "fund":
             _slug2[_e0["slug"]] = (_e0["name"], _rk0)
+            _cat2[_e0["name"].lower()] = _e0.get("category")
 _bflags2 = load_json(f"{ROOT}/data/enrich/employment-flags-backers.json", {}) or {}
 _mvdates = load_json(f"{ROOT}/data/enrich/mover-dates.json", {}) or {}
 _bd2 = {}
@@ -499,6 +500,21 @@ for _bn, _bm in (load_json(f"{ROOT}/data/enrich/backer-domains.json", {}) or {})
     if _d0 and _d0 not in _bd2:
         _bd2[_d0] = _bn
 _pm = load_json(f"{ROOT}/data/enrich/person-meta.json", {}) or {}   # Harmonic role check: investor? title? city?
+_fmq = load_json(f"{ROOT}/data/enrich/fund-meta.json", {}) or {}    # firm type + stage focus
+_CATTYPE = {"vc": "VC", "cvc": "CVC", "pe": "PE", "fo": "Family Office", "state": "State",
+            "accelerator": "Accelerator", "accel": "Accelerator", "studio": "Other",
+            "growth": "PE", "angel": "Angel"}
+def _sr_of(title):
+    t = (title or "").lower()
+    if not t:
+        return None
+    if any(k in t for k in ("partner", "managing director", "head of", "chief", "founder", "cio", "ceo", "président", "president")):
+        return "Partner"
+    if any(k in t for k in ("principal", "director", "vice president", " vp", "vp ", "investment manager", "lead")):
+        return "Director"
+    if any(k in t for k in ("associate", "analyst")):
+        return "Associate"
+    return None
 _mynet, _knew = {}, {}
 def _net_add(intern, entry):
     _mynet.setdefault(intern, []).append(entry)
@@ -578,18 +594,28 @@ for _k2 in _mynet:   # dedupe same contact tracked under two region entries, str
             _e3["v"] = True
         if _m3.get("title"):
             _e3["t"] = _m3["title"]
+            _e3["sr"] = _sr_of(_m3["title"])
         if _m3.get("city"):   # Harmonic location beats curated entity city
             _e3["c"] = _m3["city"]
-        _old = _best.get(_e3["n"].lower())
+        _fl = (_e3.get("f") or "").lower()
+        _fme = _fmq.get(_fl) or {}
+        if _fl == "angel":
+            _e3["ft"], _e3["fs"] = "Angel", "Early"
+        else:
+            _e3["ft"] = _CATTYPE.get(_cat2.get(_fl) or "") or _fme.get("type")
+            _e3["fs"] = _fme.get("stage")
+        _bk = (_e3.get("e") or "").lower() or _e3["n"].lower()   # same email = same person (Alex vs Alexander)
+        _old = _best.get(_bk)
         if _old is None:
-            _best[_e3["n"].lower()] = _e3
+            _best[_bk] = _e3
         else:
             if (_e3.get("l") or "") > (_old.get("l") or ""):   # keep freshest touch either way
                 _old["l"], _old["m"] = _e3["l"], _e3.get("m")
             if (_e3["v"], _e3["p"]) > (_old["v"], _old["p"]):
                 _e3["l"], _e3["m"] = _old["l"], _old.get("m")
-                _best[_e3["n"].lower()] = _e3
-    _mynet[_k2] = sorted(_best.values(), key=lambda x: -x["p"])[:400]
+                _best[_bk] = _e3
+    _mynet[_k2] = [{_f5: _v5 for _f5, _v5 in _e5.items() if _v5 is not None}
+                   for _e5 in sorted(_best.values(), key=lambda x: -x["p"])[:400]]
 _movers, _mvseen = [], set()
 def _mv_add(name, from_name, info):
     _nk = name.lower()   # "Omri BENAYOUN" and "Omri Benayoun" are one person
