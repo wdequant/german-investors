@@ -1870,6 +1870,11 @@
    "Ugo Varrasso": {
     "status": "moved",
     "now": "BREEGA (Principal)"
+   },
+   "Domitille Dubern": {
+    "status": "moved",
+    "now": "ISAI (Principal)",
+    "note": "Harmonic: Bpifrance role ended 2024-09-01"
    }
   },
   "breega": {
@@ -2162,6 +2167,11 @@
    "Yoan Pashov": {
     "status": "moved",
     "now": "Noteus Partners (Principal)"
+   },
+   "Chiara Volta": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Eurazeo role ended 2026-04-01"
    }
   },
   "founders-future": {
@@ -2254,6 +2264,11 @@
    "Jean De La Rochebrochard": {
     "status": "current",
     "now": null
+   },
+   "Chloe Timsit": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Kima Ventures role ended 2026-03-01"
    }
   },
   "motier": {
@@ -2398,6 +2413,11 @@
    "Romain LAVAULT": {
     "status": "current",
     "now": null
+   },
+   "Lucas Liabeuf": {
+    "status": "moved",
+    "now": "Najar (Chief of Staff)",
+    "note": "Harmonic: Partech role ended 2024-05-01"
    }
   },
   "serena": {
@@ -2452,6 +2472,11 @@
    "Margaux Gregoir": {
     "status": "current",
     "now": null
+   },
+   "Victoria Jevremovic": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Serena role ended 2025-12-01"
    }
   },
   "seventure": {

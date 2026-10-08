@@ -1613,6 +1613,11 @@
   "Romain Mombert": {
    "status": "current",
    "now": null
+  },
+  "Chiara Volta": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: Eurazeo role ended 2026-04-01"
   }
  },
  "exor.com": {
@@ -2554,6 +2559,11 @@
   "Alexis Robert": {
    "status": "unknown",
    "now": null
+  },
+  "Chloe Timsit": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: Kima Ventures role ended 2026-03-01"
   }
  },
  "kindredcapital.vc": {
@@ -3859,6 +3869,11 @@
   "Heba Hitti": {
    "status": "current",
    "now": null
+  },
+  "Victoria Jevremovic": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: Serena role ended 2025-12-01"
   }
  },
  "shilling.vc": {
@@ -4565,6 +4580,20 @@
    "status": "moved",
    "now": "EMUN (Growth Equity & Venture Capital)",
    "note": "Harmonic: Perpetual Investors role ended 2026-06-01"
+  }
+ },
+ "bpifrance.fr": {
+  "Domitille Dubern": {
+   "status": "moved",
+   "now": "ISAI (Principal)",
+   "note": "Harmonic: Bpifrance role ended 2024-09-01"
+  }
+ },
+ "partechpartners.com": {
+  "Lucas Liabeuf": {
+   "status": "moved",
+   "now": "Najar (Chief of Staff)",
+   "note": "Harmonic: Partech role ended 2024-05-01"
   }
  }
 }

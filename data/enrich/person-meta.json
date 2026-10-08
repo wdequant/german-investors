@@ -972,8 +972,11 @@
   "company": "Microsoft"
  },
  "andrew reason": {
-  "inv": null,
-  "company": "Partech"
+  "inv": false,
+  "company": "Partech",
+  "title": "Senior Director Sales EMEA",
+  "src": "harmonic",
+  "note": "ParTech Inc (POS co), not Partech the fund"
  },
  "andy chung": {
   "inv": null,
@@ -1398,8 +1401,11 @@
   "company": "EQT Group"
  },
  "benjamin bieler": {
-  "inv": null,
-  "company": "Ventech"
+  "inv": true,
+  "company": "Ventech",
+  "title": "Investor",
+  "city": "Munich",
+  "src": "harmonic"
  },
  "benjamin cohen": {
   "inv": null,
@@ -1907,8 +1913,10 @@
   "company": "Lazard"
  },
  "chiara volta": {
-  "inv": null,
-  "company": "Eurazeo"
+  "inv": true,
+  "company": "Eurazeo",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "chloe": {
   "inv": null,
@@ -2686,8 +2694,11 @@
   "company": "Amazon"
  },
  "de michel": {
-  "inv": null,
-  "company": "Omnes"
+  "inv": true,
+  "company": "Omnes",
+  "title": "Managing Partner Venture Capital",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "denis schwirtz": {
   "inv": null,
@@ -2705,8 +2716,11 @@
   "src": "harmonic"
  },
  "du alexis": {
-  "inv": null,
-  "company": "XAnge"
+  "inv": true,
+  "company": "XAnge",
+  "title": "Partner",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "duc tran": {
   "inv": true,
@@ -4129,8 +4143,11 @@
   "company": "Satgana"
  },
  "ines patricio": {
-  "inv": null,
-  "company": "Eurazeo"
+  "inv": true,
+  "company": "Eurazeo",
+  "title": "Vice President",
+  "city": "London Area",
+  "src": "harmonic"
  },
  "ines verschueren": {
   "inv": true,
@@ -4670,7 +4687,9 @@
  "jeremy uzan": {
   "inv": true,
   "title": "General Partner, Co-Founder",
-  "company": "Singular"
+  "company": "Singular",
+  "city": "Europe",
+  "src": "harmonic"
  },
  "jerome faul": {
   "inv": true,
@@ -5349,7 +5368,8 @@
  "keji mustapha": {
   "inv": true,
   "title": "Chief Marketing Officer",
-  "company": "Partech"
+  "company": "Partech",
+  "src": "harmonic"
  },
  "kelly kung": {
   "inv": true,
@@ -5943,8 +5963,11 @@
   "company": "Seraphim Space"
  },
  "lucas liabeuf": {
-  "inv": null,
-  "company": "Partech"
+  "inv": true,
+  "company": "Partech",
+  "title": "Chief of Staff",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "lucia": {
   "inv": true,
@@ -6197,8 +6220,11 @@
   "company": "HappyRobot"
  },
  "marc fournier": {
-  "inv": null,
-  "company": "Serena"
+  "inv": true,
+  "company": "Serena",
+  "title": "Co-founder & Managing Partner",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "marc kuehn": {
   "inv": true,
@@ -6683,8 +6709,11 @@
   "company": "Blossom Capital"
  },
  "maxime browaeys": {
-  "inv": null,
-  "company": "Bpifrance"
+  "inv": true,
+  "company": "Bpifrance",
+  "title": "Associate - Large Venture fund",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "maxime lhoustau": {
   "inv": true,
@@ -7791,8 +7820,11 @@
   "company": "General Catalyst"
  },
  "pauline roux": {
-  "inv": null,
-  "company": "Elaia"
+  "inv": true,
+  "company": "Elaia",
+  "title": "Managing Partner",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "pb": {
   "inv": null,
@@ -8542,8 +8574,10 @@
   "company": "TriplePoint Capital"
  },
  "salle paris": {
-  "inv": null,
-  "company": "Ventech"
+  "inv": false,
+  "company": "Ventech",
+  "src": "harmonic-sweep",
+  "note": "meeting room, not a person"
  },
  "salome caillat": {
   "inv": true,
@@ -9544,8 +9578,10 @@
   "company": "StepStone"
  },
  "thomas fernandez-debets": {
-  "inv": null,
-  "company": "Daphni"
+  "inv": true,
+  "company": "Daphni",
+  "title": "VC Analyst",
+  "src": "harmonic"
  },
  "thomas krane": {
   "inv": true,
@@ -9792,8 +9828,11 @@
   "company": "NATO Innovation Fund (NIF)"
  },
  "tuan tran": {
-  "inv": null,
-  "company": "Bpifrance"
+  "inv": true,
+  "company": "Bpifrance",
+  "title": "Investment Director VC@ Bpifrance",
+  "city": "Paris",
+  "src": "harmonic"
  },
  "tuomas rekonen": {
   "inv": true,
@@ -9950,8 +9989,10 @@
   "company": "Morgan Stanley"
  },
  "victoria jevremovic": {
-  "inv": null,
-  "company": "Serena"
+  "inv": true,
+  "company": "Serena",
+  "city": "Copenhagen Metropolitan Area",
+  "src": "harmonic"
  },
  "victoria kennard": {
   "inv": true,
@@ -12519,6 +12560,1113 @@
   "title": "CEO",
   "city": "Berlin",
   "company": "IBB Ventures",
+  "src": "harmonic"
+ },
+ "felix de breucker": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "Kima Ventures",
+  "src": "harmonic"
+ },
+ "chloe timsit": {
+  "inv": true,
+  "city": "Paris",
+  "src": "harmonic"
+ },
+ "maud gillot": {
+  "inv": true,
+  "title": "Managing Director - Eurazeo Growth",
+  "city": "Paris",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "edouard guigou": {
+  "inv": true,
+  "title": "Partner - Buyout",
+  "city": "London Area",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "philipp schmitz": {
+  "inv": true,
+  "title": "Analyst - Growth Equity",
+  "city": "Berlin",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "alexandra pederzani": {
+  "inv": true,
+  "title": "Director",
+  "city": "Berlin",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "maryam mahla": {
+  "inv": true,
+  "title": "Investor - Vice President",
+  "city": "Paris",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "maxime de bentzmann": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Paris",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "louis bô": {
+  "inv": true,
+  "title": "Managing Director - Venture Capital",
+  "city": "Paris",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "justin schlegel": {
+  "inv": true,
+  "title": "Director",
+  "city": "London",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "déborah loye": {
+  "inv": true,
+  "title": "Director - Value Creation - Venture & Growth",
+  "city": "Paris",
+  "company": "Eurazeo",
+  "src": "harmonic"
+ },
+ "magda posluszny": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "cyril collon": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Dubai",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "alison imbert": {
+  "inv": true,
+  "title": "Partner",
+  "city": "France",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "philippe collombel": {
+  "inv": true,
+  "title": "Président and Founding Partner",
+  "city": "Paris",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "nicolas el baze": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "San Francisco",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "jean sini": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "New York",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "jean o'connor": {
+  "inv": true,
+  "title": "Human Resource Analyst IV",
+  "city": "New York",
+  "company": "PAR Technology",
+  "src": "harmonic"
+ },
+ "bruno cremel": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Paris",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "andrew whiting": {
+  "inv": true,
+  "title": "Investor - Growth Equity",
+  "city": "Paris",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "pauline lissavalid": {
+  "inv": true,
+  "title": "Growth Impact Investor",
+  "city": "Paris",
+  "company": "Partech",
+  "src": "harmonic"
+ },
+ "cyril guenoun": {
+  "inv": true,
+  "title": "Co-founder & General Partner",
+  "city": "Paris",
+  "company": "AGLAÉ VENTURES",
+  "src": "harmonic"
+ },
+ "brendan rempel": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Los Angeles",
+  "company": "AGLAÉ VENTURES",
+  "src": "harmonic"
+ },
+ "marc rougier": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "samantha j.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "clément vanden driessche": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "christophe primault": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Barcelona",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "julien macquet": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "gabrielle de massol": {
+  "inv": true,
+  "title": "VC",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "léonor landeau": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "clément driessche": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Elaia",
+  "src": "harmonic"
+ },
+ "ahmed fourati": {
+  "inv": true,
+  "title": "Investor Relations Officer",
+  "city": "Paris",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "aziliz le roux": {
+  "inv": true,
+  "title": "Investor Relations",
+  "city": "Paris",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "javier nunez-vicandi": {
+  "inv": true,
+  "title": "Principal - Digital Medicine Strategy",
+  "city": "Paris",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "antoine papiernik": {
+  "inv": true,
+  "title": "Chairman & Managing Partner",
+  "city": "Paris",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "edward kliphuis": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Madrid",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "joško bobanović": {
+  "inv": true,
+  "title": "Partner, Industrial Biotechnology",
+  "city": "Paris",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "thomas clozel": {
+  "inv": true,
+  "title": "Venture advisor",
+  "city": "New York",
+  "company": "Sofinnova Partners",
+  "src": "harmonic"
+ },
+ "valerie b.": {
+  "inv": true,
+  "title": "Partner @XAnge & Managing Director of DACH",
+  "city": "Berlin",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "jennifer bemert": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "alexis du peloux": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "clementine gazay": {
+  "inv": true,
+  "title": "Principal",
+  "city": "New York",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "cyril bertrand": {
+  "inv": true,
+  "title": "CEO & Managing Partner",
+  "city": "Paris",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "nicolas rose": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Paris",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "patrice thiry": {
+  "inv": true,
+  "title": "Investisseur",
+  "city": "Paris",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "andreas oetker": {
+  "inv": true,
+  "title": "Mentor",
+  "city": "Munich",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "louison garnier": {
+  "inv": true,
+  "title": "Senior Associate",
+  "city": "Paris",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "caroline baltrusch": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Berlin",
+  "company": "XAnge",
+  "src": "harmonic"
+ },
+ "pauline ancona": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "Alven",
+  "src": "harmonic"
+ },
+ "maria tahri": {
+  "inv": true,
+  "title": "VC investor",
+  "city": "Paris et périphérie",
+  "company": "Alven",
+  "src": "harmonic"
+ },
+ "paul pouyanne": {
+  "inv": true,
+  "title": "Vice président",
+  "city": "Paris",
+  "company": "Cathay Innovation",
+  "src": "harmonic"
+ },
+ "marion gregoire": {
+  "inv": true,
+  "title": "Director",
+  "city": "Paris",
+  "company": "Cathay Innovation",
+  "src": "harmonic"
+ },
+ "costanza carissimo": {
+  "inv": true,
+  "title": "Director",
+  "city": "Berlin",
+  "company": "Cathay Innovation",
+  "src": "harmonic"
+ },
+ "marguerite de tavernost": {
+  "inv": true,
+  "title": "VC Investor (web3)",
+  "city": "Paris",
+  "company": "Cathay Innovation",
+  "src": "harmonic"
+ },
+ "anne-sophie saint-martin": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Newfund",
+  "src": "harmonic"
+ },
+ "sacha doliner": {
+  "inv": true,
+  "title": "LP",
+  "city": "Paris",
+  "company": "Newfund",
+  "src": "harmonic"
+ },
+ "thomas bodin": {
+  "inv": true,
+  "title": "Early-Stage VC Investor - Associate",
+  "city": "Paris",
+  "company": "Newfund",
+  "src": "harmonic"
+ },
+ "louis sautet": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Founders Future",
+  "src": "harmonic"
+ },
+ "clément lamolinerie": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Paris",
+  "company": "Motier Ventures",
+  "src": "harmonic"
+ },
+ "guillaume decugis": {
+  "inv": true,
+  "title": "Partner - Data Ventures",
+  "city": "New York",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "eric gossart": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "sylvie nhansana": {
+  "inv": true,
+  "title": "CFO & Partner",
+  "city": "Paris",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "louis natier de la marnierre": {
+  "inv": true,
+  "title": "Senior Investor Relations",
+  "city": "Paris",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "thibaut hartog": {
+  "inv": true,
+  "title": "Senior Financial Manager",
+  "city": "Paris",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "mamadou bilo diallo": {
+  "inv": false,
+  "title": "Senior Financial Controller",
+  "city": "Paris",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "sébastien le roy": {
+  "inv": true,
+  "title": "Partner",
+  "city": "France",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "alix trebaol": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Paris",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "isabelle de cremoux": {
+  "inv": true,
+  "title": "président du directoire / CEO",
+  "city": "Paris",
+  "company": "Seventure Partners",
+  "src": "harmonic"
+ },
+ "guillaume echaudemaison": {
+  "inv": true,
+  "title": "VC Principal",
+  "city": "Paris",
+  "company": "Seventure Partners",
+  "src": "harmonic"
+ },
+ "arthur bourgade": {
+  "inv": true,
+  "title": "Venture Capital Principal Sportech & Life Sciences",
+  "city": "Paris",
+  "company": "Seventure Partners",
+  "src": "harmonic"
+ },
+ "guilhem stoll": {
+  "inv": true,
+  "title": "VC Analyst - Blue Forward Fund",
+  "city": "Paris",
+  "company": "Seventure Partners",
+  "src": "harmonic"
+ },
+ "bruno rivet": {
+  "inv": true,
+  "title": "Directeur Associé",
+  "city": "Paris",
+  "company": "Seventure Partners",
+  "src": "harmonic"
+ },
+ "oxana kukhaneva": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Geneva",
+  "company": "Seventure Partners",
+  "src": "harmonic"
+ },
+ "grégoire samain": {
+  "inv": true,
+  "title": "Partner - Investor Relations",
+  "city": "Brussels",
+  "company": "Omnes",
+  "src": "harmonic"
+ },
+ "michel de lempdes": {
+  "inv": true,
+  "title": "Managing Partner Venture Capital",
+  "city": "Paris",
+  "company": "Omnes",
+  "src": "harmonic"
+ },
+ "fabien collangettes": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Omnes",
+  "src": "harmonic"
+ },
+ "geoffroy dubus": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Demeter",
+  "src": "harmonic"
+ },
+ "corinne roussel": {
+  "inv": true,
+  "title": "Directrice financière",
+  "city": "Lyon",
+  "company": "Demeter",
+  "src": "harmonic"
+ },
+ "kevin coornaden": {
+  "inv": true,
+  "title": "Secrétaire général",
+  "city": "Paris",
+  "company": "Demeter",
+  "src": "harmonic"
+ },
+ "pierre-alexis maillart": {
+  "inv": true,
+  "title": "VC Analyst",
+  "city": "Paris",
+  "company": "Demeter",
+  "src": "harmonic"
+ },
+ "valentine clinkspoor": {
+  "inv": false,
+  "title": "Investor (Legal)",
+  "city": "Paris",
+  "company": "Demeter",
+  "src": "harmonic"
+ },
+ "florent malbranche": {
+  "inv": true,
+  "title": "Investor & Partner",
+  "city": "Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "alexandre pachulski, ph.d.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "joël bentolila": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "nicolas lombard": {
+  "inv": true,
+  "title": "Partner Impact",
+  "city": "Courbevoie, Île-de-France",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "nicolas marchal": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "vincent cabanel": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Ville de Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "thomas perraud": {
+  "inv": true,
+  "title": "Tech investment Director - Venture Capital",
+  "city": "Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "stanislas gruau": {
+  "inv": true,
+  "title": "50 Partners Rockstars - Promo 2020 (Accélérateur)",
+  "city": "Annecy",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "nicolas barthalon": {
+  "inv": true,
+  "title": "Partner at Ventech VC",
+  "city": "Bavaria",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "joel uddén": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Stockholm",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "charles fourault": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "albin serviant": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "christian claussen": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "louis aurières": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "ben bieler": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Munich",
+  "company": "Ventech",
+  "src": "harmonic"
+ },
+ "diego vega": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "françois paulus": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "jounghyun shim": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "emmanuel gallet de saint-aurin": {
+  "inv": false,
+  "title": "Finance Manager | VC",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "kyra fantou": {
+  "inv": false,
+  "title": "Content Manager",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "sixtine raffelsbauer": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "daniel shellard": {
+  "inv": true,
+  "title": "Venture Partner",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "augustin blanchard": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "alexandre fretti": {
+  "inv": true,
+  "title": "Investment Committee Member & Investor",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "driss ibenmansour": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "cléa dosne": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "BREEGA",
+  "src": "harmonic"
+ },
+ "frederic le brun": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "GO CAPITAL",
+  "src": "harmonic"
+ },
+ "thomas rival": {
+  "inv": true,
+  "title": "Partner @ Evolem Start",
+  "city": "Lyon",
+  "company": "Evolem",
+  "src": "harmonic"
+ },
+ "adrien muller": {
+  "inv": true,
+  "title": "Principal, Deeptech @ Bpifrance Large Venture",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "marc adamowicz": {
+  "inv": true,
+  "title": "Consultant stratégie & croissance | Partenaire agréé Bpifrance",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "nicolas dufourcq": {
+  "inv": true,
+  "title": "CEO - Bpifrance",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "thierry sommelet": {
+  "inv": true,
+  "title": "Managing Director - Direct Investments - Head of Technology, Media, Telecom Investments",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "chloé mayenobe": {
+  "inv": true,
+  "title": "Board Member",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "maxime lotigie": {
+  "inv": true,
+  "title": "Associate - Large Venture fund",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "olivia de la rivière": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Paris",
+  "company": "Bpifrance Large Venture",
+  "src": "harmonic"
+ },
+ "claire waché": {
+  "inv": true,
+  "title": "Venture Capital Investor @ Deeptech Venture",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "thomas bigagli 🪐": {
+  "inv": true,
+  "title": "Advisory Board Member",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "domitille dubern": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "axelle salmon": {
+  "inv": true,
+  "title": "Chargée d'Affaires Innovation",
+  "city": "Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "corentin molson": {
+  "inv": true,
+  "title": "Chargé d’affaires financement innovation (santé / deeptech/ industries culturelles)",
+  "city": "Direction Paris",
+  "company": "Bpifrance",
+  "src": "harmonic"
+ },
+ "giulia van waeyenberge": {
+  "inv": true,
+  "title": "Member of LPAC (Advisory Committee)",
+  "city": "Brussels",
+  "company": "Singular",
+  "src": "harmonic"
+ },
+ "carolina neri": {
+  "inv": false,
+  "title": "Director, Communications & Marketing",
+  "city": "London",
+  "company": "Singular",
+  "src": "harmonic"
+ },
+ "arnaud de scorbiac": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "jean-patrice anciaux": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "jean-david chamboredon": {
+  "inv": true,
+  "title": "Chief Executive Officer",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "stéphane treppoz": {
+  "inv": true,
+  "title": "Co Founder",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "pierre dumas": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "francois collet": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "pierre martini": {
+  "inv": true,
+  "title": "Managing Partner",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "nelly barbault": {
+  "inv": true,
+  "title": "Partner, General Secretary & Head of compliance",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "pierre kosciusko-morizet": {
+  "inv": true,
+  "title": "Co Founder & Chairman",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "laurent horwitz": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Greater Paris Metropolitan Region",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "jan borgstädt": {
+  "inv": true,
+  "title": "Investor / Mentor",
+  "city": "Berlin",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "stephane vais": {
+  "inv": true,
+  "title": "LP at ISAI (ISAI Venture and ISAI Expansion funds)",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "philippe bouissou, ph.d.": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Palo Alto",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "jérome joaug": {
+  "inv": true,
+  "title": "Advisor",
+  "city": "London",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "arthur falinower": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "louison jost": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "ISAI",
+  "src": "harmonic"
+ },
+ "thibaud elziere": {
+  "inv": true,
+  "title": "Founder",
+  "city": "Brussels",
+  "company": "Kate",
+  "src": "harmonic"
+ },
+ "quentin nickmans": {
+  "inv": true,
+  "title": "Founder & Partner",
+  "city": "Brussels",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "raphaël vullierme": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "matthieu vaxelaire": {
+  "inv": true,
+  "title": "Partner",
+  "city": "San Francisco",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "robin chapelet": {
+  "inv": true,
+  "title": "Limited Partner",
+  "city": "Paris",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "oleg tscheltzoff": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Carta",
+  "src": "harmonic"
+ },
+ "paul vidal": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Paris",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "nicolas coupanec": {
+  "inv": true,
+  "title": "Software Investor",
+  "city": "Paris",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "sarah barron": {
+  "inv": false,
+  "title": "Head of Communications",
+  "city": "Paris",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "paul terrasson duvernon": {
+  "inv": true,
+  "title": "Chief of Staff",
+  "city": "Gothenburg",
+  "company": "Hexa",
+  "src": "harmonic"
+ },
+ "eduardo ronzano": {
+  "inv": true,
+  "title": "CEO",
+  "city": "Paris",
+  "company": "Kolet",
+  "src": "harmonic"
+ },
+ "olivier pomel": {
+  "inv": true,
+  "title": "Co-founder, CEO",
+  "city": "New York",
+  "company": "Datadog",
+  "src": "harmonic"
+ },
+ "marc simoncini": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "daphni",
+  "src": "harmonic"
+ },
+ "antoine martin": {
+  "inv": true,
+  "title": "Co-founder & CEO",
+  "city": "Paris",
+  "company": "amo",
+  "src": "harmonic"
+ },
+ "clément delangue": {
+  "inv": true,
+  "title": "Co-founder & CEO",
+  "city": "Miami",
+  "company": "Hugging Face",
+  "src": "harmonic"
+ },
+ "constance gontier": {
+  "inv": true,
+  "title": "Associate",
+  "company": "Serena",
+  "src": "harmonic"
+ },
+ "kevin bourgeois": {
+  "inv": true,
+  "title": "Partner 51 member",
+  "city": "Paris",
+  "company": "50 Partners",
+  "src": "harmonic"
+ },
+ "aurelie daphni": {
+  "inv": false,
+  "title": "Partner - Chief Marketing Officer",
+  "city": "Paris",
+  "company": "daphni",
+  "src": "harmonic"
+ },
+ "eric marty": {
+  "inv": true,
+  "title": "Managing Partner",
+  "company": "Demeter",
+  "src": "harmonic"
+ },
+ "j-david chamboredon": {
+  "inv": true,
+  "title": "Chief Executive Officer",
+  "city": "Paris",
+  "company": "ISAI",
   "src": "harmonic"
  }
 }
