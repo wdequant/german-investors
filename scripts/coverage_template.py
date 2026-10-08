@@ -743,8 +743,16 @@ body.mkmode{cursor:crosshair}
 .ntcard{padding:0;overflow-x:auto}
 table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 .nettab th{text-align:left;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
-  color:var(--muted);cursor:pointer;padding:9px 10px;border-bottom:1px solid var(--hair);white-space:nowrap;user-select:none}
-.nettab th.on{color:var(--ink)}
+  color:var(--muted);padding:9px 10px;border-bottom:1px solid var(--hair);white-space:nowrap;user-select:none}
+.thsort{cursor:pointer}
+.thsort.on{color:var(--ink)}
+.thfilt{appearance:none;-webkit-appearance:none;border:0;padding:0;margin:0 0 0 5px;width:16px;height:14px;
+  vertical-align:-2px;cursor:pointer;color:transparent;
+  background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M1.5 2h9L7 6.6V10L5 8.6V6.6z' fill='none' stroke='%23a09a8c' stroke-width='1.3' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat}
+.thfilt.on{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M1.5 2h9L7 6.6V10L5 8.6V6.6z' fill='%232733f0' stroke='%232733f0' stroke-width='1.3' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.thfilt option{color:#1a1a1a;background:#fff}
+.thval{margin-left:4px;color:var(--accent-ink);text-transform:none;letter-spacing:0;font-weight:600;
+  display:inline-block;max-width:72px;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom}
 .nettab td{padding:7px 10px;border-bottom:1px solid var(--hair2);white-space:nowrap;color:var(--ink2)}
 .nettab tbody tr:last-child td{border-bottom:0}
 .nettab tbody tr:hover td{background:var(--hair2)}
@@ -1389,6 +1397,8 @@ function renderWork(){
   body.querySelectorAll('[data-nfs]').forEach(s=>s.addEventListener('change',()=>{
     ap.nf[s.dataset.nfs]=s.value; renderWork();
   }));
+  const ncl=body.querySelector('#nclear');
+  if(ncl) ncl.addEventListener('click',()=>{ap.nf={q:'',ty:'',st:'',sr:'',ci:''};renderWork();});
   const nq=body.querySelector('#nq');
   if(nq) nq.addEventListener('input',()=>{
     ap.nf.q=nq.value; clearTimeout(ap._nqt);
@@ -1505,21 +1515,9 @@ function netApply(list){
   return list.filter(e=>(!q||e.n.toLowerCase().includes(q)||(e.f||'').toLowerCase().includes(q))
     &&(!F.ty||e.ft===F.ty)&&(!F.st||e.fs===F.st)&&(!F.sr||e.sr===F.sr)&&(!F.ci||e.c===F.ci));
 }
-function netFilterBar(list){
-  const F=ap.nf;
-  const counts=k=>{const m={};list.forEach(e=>{if(e[k])m[e[k]]=(m[e[k]]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);};
-  const sel=(id,label,fk,ek,cap)=>{
-    const vs=counts(ek); if(!vs.length) return '';
-    return `<select id="${id}" data-nfs="${fk}"${F[fk]?' class="on"':''}><option value="">${label}</option>${vs.slice(0,cap||99).map(([v,n])=>`<option value="${v.replace(/"/g,'&quot;')}"${F[fk]===v?' selected':''}>${v} (${n})</option>`).join('')}</select>`;
-  };
-  return `<div class="ntfilt">
-    <input id="nq" type="search" placeholder="Name or fund…" value="${(F.q||'').replace(/"/g,'&quot;')}">
-    ${sel('nty','Type','ty','ft')}${sel('nst','Stage','st','fs')}${sel('nsr','Role','sr','sr')}${sel('nci','City','ci','c',30)}
-  </div>`;
-}
-const NCOLS=[['p','You'],['n','Name'],['sr','Role'],['f','Fund'],['ft','Type'],['fs','Stage'],['c','City'],['l','Last touch']];
+const NCOLS=[['p','You'],['n','Name'],['sr','Role','sr'],['f','Fund'],['ft','Type','ty'],['fs','Stage','st'],['c','City','ci',30],['l','Last touch']];
 function netTable(full,who){
-  const list=netApply(full);
+  const list=netApply(full), F=ap.nf;
   const sk=ap.ns, dir=ap.nd;
   const sorted=[...list].sort((a,b)=>{
     const va=a[sk], vb=b[sk];
@@ -1528,7 +1526,16 @@ function netTable(full,who){
     const c=typeof va==='number'?va-vb:String(va).localeCompare(String(vb));
     return c*dir||b.p-a.p;
   });
-  const head=NCOLS.map(([k,lab])=>`<th data-nsort="${k}"${sk===k?' class="on"':''}>${lab}${sk===k?(dir===1?' ↑':' ↓'):''}</th>`).join('');
+  const counts=k=>{const m={};full.forEach(e=>{if(e[k])m[e[k]]=(m[e[k]]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);};
+  const head=NCOLS.map(([k,lab,fk,cap])=>{
+    let filt='';
+    if(fk){
+      const vs=counts(k);
+      if(vs.length) filt=`<select class="thfilt${F[fk]?' on':''}" data-nfs="${fk}" title="${F[fk]?`${lab}: ${F[fk]} — click to change`:`Filter by ${lab.toLowerCase()}`}">
+        <option value="">All</option>${vs.slice(0,cap||99).map(([v,n])=>`<option value="${v.replace(/"/g,'&quot;')}"${F[fk]===v?' selected':''}>${v} (${n})</option>`).join('')}</select>`;
+    }
+    return `<th><span class="thsort${sk===k?' on':''}" data-nsort="${k}">${lab}${sk===k?(dir===1?' ↑':' ↓'):''}</span>${filt}${F[fk]?`<span class="thval">${F[fk]}</span>`:''}</th>`;
+  }).join('');
   const body=sorted.map(e=>{
     const cad=cadOf(e), cold=isCold(e), mo=moAgo(e.l);
     return `<tr${cold?' class="coldr"':''}><td><b class="mbub ${easeTierOf(e.p)}">${e.p}</b></td>
@@ -1537,7 +1544,11 @@ function netTable(full,who){
       <td class="lt">${e.l?`${fmtD(e.l)}${cold?` · ${Math.round(mo)} mo`:''}`:'—'}</td>
       <td><button class="cadchip${cad?' on':''}" data-cad="${encodeURIComponent(e.n+'|'+e.f)}" data-cur="${cad}" title="How often you want to touch this relationship — click to change">${cad?`every ${cad}mo`:'off'}</button></td></tr>`;
   }).join('');
-  return `${netFilterBar(full)}
+  const active=['ty','st','sr','ci'].some(k=>F[k])||F.q;
+  return `<div class="ntfilt">
+      <input id="nq" type="search" placeholder="Name or fund…" value="${(F.q||'').replace(/"/g,'&quot;')}">
+      ${active?`<button class="minibtn" id="nclear">Clear filters · showing ${list.length} of ${full.length}</button>`:''}
+    </div>
     <div class="apcard ntcard"><table class="nettab"><thead><tr>${head}<th></th></tr></thead><tbody>${body||`<tr><td colspan="9" class="lt" style="padding:14px">No one matches these filters.</td></tr>`}</tbody></table></div>`;
 }
 function netAskBody(who,e,p){
