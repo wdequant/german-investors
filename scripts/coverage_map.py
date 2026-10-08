@@ -673,8 +673,16 @@ def build_covmap(regions, mynet, roster, load_json):
         for _p10 in _e10.get("people") or []:
             _r10 = {u: r for u, r in _p10["r"].items() if r >= 15}
             if _r10:
-                who_in.setdefault(_e10["cc"], {}).setdefault(_p10["n"], {
-                    "n": _p10["n"], "org": _e10["name"], "last": _p10.get("last"), "r": {}})["r"].update(_r10)
+                _w10 = who_in.setdefault(_e10["cc"], {}).setdefault(_p10["n"], {
+                    "n": _p10["n"], "org": _e10["name"], "last": _p10.get("last"), "r": {}})
+                _w10["r"].update(_r10)
+                for _k10 in ("sr", "t", "li"):
+                    if _p10.get(_k10) and not _w10.get(_k10):
+                        _w10[_k10] = _p10[_k10]
+                if (_e10.get("O") or 0) >= (_w10.get("o") or 0):
+                    _w10["o"] = _e10.get("O") or 0
+                    _w10["df"] = _e10.get("df12") or 0
+                    _w10["slug"] = _e10["slug"]
     for _cc10, _by10 in (people_in or {}).items():
         for _u10, _lst10 in _by10.items():
             for _px10 in _lst10:

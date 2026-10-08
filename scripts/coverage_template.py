@@ -758,6 +758,10 @@ body.mkmode{cursor:crosshair}
 .nettab td.nmc a,.dpli .nm a{color:inherit;text-decoration:none;border-bottom:1px dashed var(--hair)}
 .nettab td.nmc a:hover,.dpli .nm a:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
 .cmspend .cmfn{font-size:15px}
+.cmdoor{padding:10px 13px;margin-bottom:8px}
+.cmdoor .cmbig{font-size:12.5px;padding:4px 10px}
+.cmdoor .cmfn a{color:inherit;text-decoration:none;border-bottom:1px dashed var(--hair)}
+.cmdoor .cmfn a:hover{color:var(--accent-ink)}
 .cmask{color:var(--ink);margin-top:5px}
 .cmquiet{opacity:.72}
 .cmminimap{background:var(--surface);border:1px solid var(--hair);border-radius:12px;overflow:hidden}
@@ -1794,14 +1798,31 @@ function cmSpendList(me,list){
 function cmWhoRows(me){
   const rows=(CM.who||{})[MAP.cc]||[];
   const mine=!MAP.whoTeam;
+  const SRW={Partner:1,Director:.8,Associate:.55};
   const list=rows.map(p=>{
     const best=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
     const r=mine?(me?(p.r[me]||0):0):(best?best[1]:0);
     if(r<15) return null;
-    return {p, r, holder: mine?null:(best?best[0]:null)};
-  }).filter(Boolean).sort((a,b)=>b.r-a.r);
-  const html=list.slice(0,18).map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm"><a href="${p.li||liSearch(p.n,p.org||'')}" target="_blank" rel="noopener">${p.n}</a></span><span class="how">${p.org||''} · ${cmTierWord(r)}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('');
-  return {html: html||`<div class="dtsub">${mine?'No one on your book here yet.':'No team edges here.'}</div>`, n:list.length};
+    // door value: how strong the line is x how much the seat matters
+    const val=(r/100)*(0.45+((p.o??40)/100)*0.55)*(SRW[p.sr]||0.7);
+    return {p, r, val, holder: mine?null:(best?best[0]:null)};
+  }).filter(Boolean).sort((a,b)=>b.val-a.val);
+  const doors=list.slice(0,7).map(({p,r,holder})=>{
+    const tc=r>=70?'warm':r>=40?'df':'pipe';
+    return `<div class="cmspend cmdoor${p.slug?' go':''}"${p.slug?` data-cment="${p.slug}"`:''}>
+      <div class="cmfn"><a href="${p.li||liSearch(p.n,p.org||'')}" target="_blank" rel="noopener">${p.n}</a>${p.sr?` <span class="cc">· ${p.sr}</span>`:''}</div>
+      <div class="cmbigs">
+        <span class="cmbig">${p.org||'—'}</span>
+        <span class="cmbig ${tc}">${cmTierWord(r)}${p.last?` · ${fmtD(p.last)}`:''}</span>
+        ${(p.o||0)>=70?`<span class="cmbig df">Top fund here</span>`:(p.df||0)>=6?`<span class="cmbig df">High deal flow</span>`:''}
+        ${holder?`<span class="cmbig">via ${holder.split(' ')[0]}</span>`:''}
+      </div></div>`;
+  }).join('');
+  const rest=list.slice(7);
+  const restHtml=rest.length?(MAP.whoMore
+    ?rest.map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm"><a href="${p.li||liSearch(p.n,p.org||'')}" target="_blank" rel="noopener">${p.n}</a></span><span class="how">${p.org||''}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('')+`<button class="minibtn" data-cmwhomore="0">Hide ↑</button>`
+    :`<button class="minibtn" data-cmwhomore="1">+ ${rest.length} more</button>`):'';
+  return {html:(doors||`<div class="dtsub">${mine?'No one on your book here yet.':'No team edges here.'}</div>`)+restHtml, n:list.length};
 }
 function cmCountryPage(me){
   const cc=MAP.cc, A=CM.areas[cc]||{covT:0,u:{},known:{}};
@@ -1835,8 +1856,9 @@ function cmCountryPage(me){
           </div>`;})()}
       </div>
       <div>
-        <div class="apsec">Who do you know in ${CM.ccName[cc]} <span class="aptog" style="margin-left:8px"><button data-cmwho="me"${!MAP.whoTeam?' class="on"':''}>Mine</button><button data-cmwho="team"${MAP.whoTeam?' class="on"':''}>Team</button></span></div>
-        <div class="apcard">${who.html}</div>
+        <div class="apsec">Your doors in ${CM.ccName[cc]} <span class="aptog" style="margin-left:8px"><button data-cmwho="me"${!MAP.whoTeam?' class="on"':''}>Mine</button><button data-cmwho="team"${MAP.whoTeam?' class="on"':''}>Team</button></span></div>
+        <div class="dtsub" style="margin:-2px 0 8px">Strongest first — relationship × how much the seat matters.</div>
+        <div>${who.html}</div>
         ${over.length?`<div class="apsec" style="margin-top:14px">Maintain lightly</div>
         <div class="apcard cmquiet">${over.slice(0,8).map(e=>`<div class="dpli" data-cment="${e.slug}"><b class="mbub low">${Math.round(cmU(e,me).cu)}</b><span class="nm">${e.name}</span><span class="how">strong relationship · little deal flow</span></div>`).join('')}</div>`:''}
       </div>
@@ -1993,8 +2015,7 @@ function cmPanel(me){
     const a=A[MAP.reg]||A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
     const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
     return `<div class="cmhead">${who?`Your ${regName} network is <b>${qu}</b> relative to the deal flow there; the team's is ${qt}.`:`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
-      ${cmQualRow(covu,a.covT,who)}
-      <div class="apsec">How to improve it</div>${cmTop5(me,regPool)}`;
+      ${cmQualRow(covu,a.covT,who)}`;
   }
   if(MAP.lvl==='l1'){
     const a=A[MAP.reg], covu=who&&a.u[who]?a.u[who].covu:0;
@@ -2003,8 +2024,7 @@ function cmPanel(me){
     const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
     const borrow=a.covT>=55&&covu<55;
     return `<div class="cmhead">${who?`You are <b>${qu}</b> on network coverage in ${regName==='Germany'?'Germany':'the '+regName} relative to its deal flow and your pipeline.`:`The team's ${regName} coverage is <b>${qt}</b>.`} ${CM.ccName[biggest]||''} drives the most opportunity${who&&bcov<25?` and is where you are thinnest`:''}${borrow?` — the team holds doors you can borrow`:''}.</div>
-      ${cmQualRow(covu,a.covT,who)}
-      <div class="apsec">How to improve it</div>${cmTop5(me,regPool)}`;
+      ${cmQualRow(covu,a.covT,who)}`;
   }
   const cc=MAP.cc, a=A[cc]||{covT:0,u:{}};
   const sel=cmEnts().filter(e=>e.cc===cc);
@@ -2066,6 +2086,7 @@ function mapBind(body){
   const sa=body.querySelector('[data-cmshowall]');
   if(sa) sa.addEventListener('click',()=>{MAP.showAll=true;renderWork();});
   body.querySelectorAll('[data-cmhideall]').forEach(b=>b.addEventListener('click',()=>{MAP.showAll=false;renderWork();}));
+  body.querySelectorAll('[data-cmwhomore]').forEach(b=>b.addEventListener('click',()=>{MAP.whoMore=b.dataset.cmwhomore==='1';renderWork();}));
   body.querySelectorAll('[data-cmgo]').forEach(b=>b.addEventListener('click',()=>{
     if(mapBind._dragged) return;
     const l=b.dataset.cmgo; cmGo(l, l==='l2'?MAP.cc:'', '', b.dataset.cmreg);
