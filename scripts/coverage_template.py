@@ -1651,7 +1651,7 @@ function cmCountryPage(me){
   const youBit=qu==='well covered'?`your network is <b>well covered</b>`
     :qu==='building'?`your network is <b>building</b>`
     :`<b>open ground</b> for you`;
-  const teamBit=A.covT>=55&&covu<50?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
+  const teamBit=A.covT>=50&&covu<50?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
   const tripBit=(()=>{
     const CITY_OF={SE:'Stockholm',DK:'Copenhagen',NO:'Oslo',FI:'Helsinki',FR:'Paris',BER:'Berlin',MUC:'Munich',CGN:'Cologne',FRA:'Frankfurt',HAM:'Hamburg',LON:'London',CAM:'Cambridge',OXF:'Oxford',EDI:'Edinburgh',MAN:'Manchester',SF:'San Francisco',NYC:'New York',BOS:'Boston'};
     const tc=CITY_OF[cc]; if(!tc||typeof cityScores!=='function') return '';
@@ -1802,11 +1802,11 @@ function cmEgo(e,me){
 function cmYouLine(covu,covT){
   const [qu]=cmQualU(covu), [qt]=cmQualT(covT);
   if(covu>=50) return `Your network here is <b>${qu}</b>; the team's graph is ${qt}.`;
-  if(covT>=55) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — the team's network here is <b>strong</b>, and the intros are one ask away.`;
+  if(covT>=50) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — the team's network here is <b>strong</b>, and the intros are one ask away.`;
   return `<b>${qu==='building'?'Building':'Open ground'}</b> — for you and the team. First-mover territory.`;
 }
 const cmQualU=v=>v<25?['open ground','#3a6fa5']:v<50?['building','#c98a1b']:['well covered','#2e7d4f'];
-const cmQualT=v=>v<25?['early','#3a6fa5']:v<55?['growing','#c98a1b']:['strong','#2e7d4f'];
+const cmQualT=v=>v<25?['early','#3a6fa5']:v<50?['growing','#c98a1b']:['strong','#2e7d4f'];
 function cmQualRow(covu,covT,me){
   const [qu,cu]=cmQualU(covu), [qt,ct]=cmQualT(covT);
   return `<div class="cmquals">${me?`<span class="cmqual" style="color:${cu};border-color:${cu}">You · ${qu}</span>`:''}<span class="cmqual" style="color:${ct};border-color:${ct}">Team · ${qt}</span></div>`;
@@ -1836,7 +1836,7 @@ function cmPanel(me){
     const biggest=regSubs.filter(c=>A[c]).sort((x,y)=>A[y].opp-A[x].opp)[0];
     const bcov=who&&A[biggest]&&A[biggest].u[who]?A[biggest].u[who].covu:0;
     const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
-    const borrow=a.covT>=55&&covu<55;
+    const borrow=a.covT>=50&&covu<50;
     return `<div class="cmhead">${who?(covu>=50
         ?`Your ${regName} network is <b>well covered</b>. ${CM.ccName[biggest]||''} drives the most opportunity here.`
         :`${['Germany','US tier-1'].includes(regName)?regName:'The '+regName} is where your network has the most room to grow: ${CM.ccName[biggest]||''} drives the most opportunity${borrow?` — and the team can already make the intros`:''}.`)
