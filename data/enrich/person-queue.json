@@ -1,0 +1,3734 @@
+{
+"juha lindfors": {
+"name": "Juha Lindfors",
+"company": "Lifeline Ventures"
+},
+"timo ahopelto": {
+"name": "Timo Ahopelto",
+"company": "Lifeline Ventures"
+},
+"petteri koponen": {
+"name": "Petteri Koponen",
+"company": "Lifeline Ventures"
+},
+"mikko vesterinen": {
+"name": "Mikko Vesterinen",
+"company": "Lifeline Ventures"
+},
+"tuomo vähäpassi": {
+"name": "Tuomo Vähäpassi",
+"company": "Lifeline Ventures"
+},
+"nitya hinduja": {
+"name": "Nitya Hinduja",
+"company": "EQT Ventures"
+},
+"hala fadel": {
+"name": "Hala Fadel",
+"company": "Eurazeo"
+},
+"bertrand cyril": {
+"name": "BERTRAND Cyril",
+"company": "XAnge"
+},
+"stephan von perger": {
+"name": "Stephan von Perger",
+"company": "Anthropic"
+},
+"william ruis-john": {
+"name": "William Ruis-John",
+"company": "Columbia Lake Partners"
+},
+"peter fallon": {
+"name": "Peter Fallon",
+"company": "Elephant"
+},
+"oliver hildebrandt": {
+"name": "Oliver Hildebrandt",
+"company": "ArK Kapital"
+},
+"mina-niqole sandberg": {
+"name": "Mina-Niqole Sandberg",
+"company": "ArK Kapital"
+},
+"henrik landgren": {
+"name": "Henrik Landgren",
+"company": "ArK Kapital"
+},
+"christian leybold": {
+"name": "Christian Leybold",
+"company": "Headline"
+},
+"mikko savolainen": {
+"name": "Mikko Savolainen",
+"company": "Illusian"
+},
+"teemu korhonen": {
+"name": "Teemu Korhonen",
+"company": "Illusian"
+},
+"eric liaw": {
+"name": "Eric Liaw",
+"company": "IVP"
+},
+"jennifer stillman": {
+"name": "Jennifer Stillman",
+"company": "J.P. Morgan"
+},
+"jonathan gleason": {
+"name": "Jonathan Gleason",
+"company": "J.P. Morgan"
+},
+"max hauer": {
+"name": "Max Hauer",
+"company": "J.P. Morgan"
+},
+"chris pearce": {
+"name": "Chris Pearce",
+"company": "J.P. Morgan"
+},
+"antoine boulin": {
+"name": "Antoine Boulin",
+"company": "Red River West"
+},
+"olivier huez": {
+"name": "Olivier Huez",
+"company": "Red River West"
+},
+"annukka käsnänen": {
+"name": "Annukka Käsnänen",
+"company": "Tesi"
+},
+"tomi salo": {
+"name": "Tomi Salo",
+"company": "Tesi"
+},
+"pia lemmetty": {
+"name": "Pia Lemmetty",
+"company": "Tesi"
+},
+"keith bonnici": {
+"name": "Keith Bonnici",
+"company": "Tesi"
+},
+"magnus hambleton": {
+"name": "Magnus Hambleton",
+"company": "byFounders"
+},
+"maxime browaeys": {
+"name": "Maxime Browaeys",
+"company": "Bpifrance"
+},
+"vianney grully": {
+"name": "Vianney Grully",
+"company": "Bpifrance"
+},
+"cindy ung": {
+"name": "Cindy Ung",
+"company": "Bpifrance"
+},
+"jonas simonin": {
+"name": "Jonas Simonin",
+"company": "Daphni"
+},
+"pierre-eric leibovici": {
+"name": "Pierre-Eric Leibovici",
+"company": "Daphni"
+},
+"paquet pauline": {
+"name": "Paquet Pauline",
+"company": "XAnge"
+},
+"mauricio urresta": {
+"name": "Mauricio Urresta",
+"company": "British Business Investments"
+},
+"michael laycock": {
+"name": "Michael Laycock",
+"company": "British Business Investments"
+},
+"megha jain": {
+"name": "Megha Jain",
+"company": "British Business Investments"
+},
+"maria hagberg": {
+"name": "Maria Hagberg",
+"company": "Oxx"
+},
+"mikael johnsson": {
+"name": "Mikael Johnsson",
+"company": "Oxx"
+},
+"keji mustapha": {
+"name": "Keji Mustapha",
+"company": "Partech"
+},
+"victor charpentier": {
+"name": "Victor Charpentier",
+"company": "Alven"
+},
+"roberto bonanzinga": {
+"name": "Roberto Bonanzinga",
+"company": "InReach Ventures"
+},
+"guillaume durao": {
+"name": "Guillaume DURAO",
+"company": "Emblem"
+},
+"pat cammarata": {
+"name": "Pat Cammarata",
+"company": "Elephant"
+},
+"saana sairanen": {
+"name": "Saana Sairanen",
+"company": "Lifeline Ventures"
+},
+"rilla saukkonen": {
+"name": "Rilla Saukkonen",
+"company": "Lifeline Ventures"
+},
+"du alexis": {
+"name": "Du Alexis",
+"company": "XAnge"
+},
+"antoine pruvot": {
+"name": "Antoine Pruvot",
+"company": "Emblem"
+},
+"christian brøndum": {
+"name": "Christian Brøndum",
+"company": "Seed Capital"
+},
+"philip chopin": {
+"name": "Philip Chopin",
+"company": "New Enterprise Associates (NEA)"
+},
+"laurel bowden": {
+"name": "Laurel Bowden",
+"company": "83NORTH"
+},
+"christian siegele": {
+"name": "Christian Siegele",
+"company": "Capnamic"
+},
+"jeremiah daly": {
+"name": "Jeremiah Daly",
+"company": "Elephant"
+},
+"bjorn tremmerie": {
+"name": "Bjorn Tremmerie",
+"company": "European Investment Fund (EIF)"
+},
+"alexandra stolt": {
+"name": "Alexandra Stolt",
+"company": "ArK Kapital"
+},
+"gazay clémentine": {
+"name": "Gazay Clémentine",
+"company": "XAnge"
+},
+"haeger philipp": {
+"name": "Haeger Philipp",
+"company": "European Investment Fund (EIF)"
+},
+"m preuss": {
+"name": "M Preuss",
+"company": "ING"
+},
+"alexander danielsson": {
+"name": "Alexander Danielsson",
+"company": "Norrsken"
+},
+"alexander agureev": {
+"name": "Alexander Agureev",
+"company": "Northzone"
+},
+"manavi mehra": {
+"name": "Manavi Mehra",
+"company": "Northzone"
+},
+"jackie chen": {
+"name": "Jackie Chen",
+"company": "Base10 Partners"
+},
+"tim rawlinson": {
+"name": "Tim Rawlinson",
+"company": "Accel"
+},
+"aya murr": {
+"name": "Aya Murr",
+"company": "Partech"
+},
+"louis dessal": {
+"name": "Louis Dessal",
+"company": "Partech"
+},
+"axelle decoutere": {
+"name": "Axelle Decoutere",
+"company": "Atomico"
+},
+"foucault fraguier": {
+"name": "Foucault Fraguier",
+"company": "Atomico"
+},
+"claudia rowe": {
+"name": "Claudia Rowe",
+"company": "Balderton"
+},
+"alexandra wyatt": {
+"name": "Alexandra Wyatt",
+"company": "J.P. Morgan"
+},
+"kočík adam": {
+"name": "Kočík Adam",
+"company": "J&T Ventures"
+},
+"francisco jose vargas almeida": {
+"name": "Francisco Jose Vargas Almeida",
+"company": "Ontario Teachers Pension Plan"
+},
+"claudia yupangco": {
+"name": "Claudia Yupangco",
+"company": "Redrice Ventures"
+},
+"hugo hubert": {
+"name": "Hugo Hubert",
+"company": "Omnes"
+},
+"fabrice bienfait": {
+"name": "Fabrice Bienfait",
+"company": "ETF Partners"
+},
+"andre purits": {
+"name": "Andre Purits",
+"company": "Five Seasons Ventures"
+},
+"roni hiranand": {
+"name": "Roni Hiranand",
+"company": "Google"
+},
+"zuzanna czapinska": {
+"name": "Zuzanna Czapinska",
+"company": "ICONIQ"
+},
+"alberto cresto": {
+"name": "Alberto Cresto",
+"company": "Lunar Ventures"
+},
+"chase overlie": {
+"name": "Chase Overlie",
+"company": "NVIDIA"
+},
+"gokce ceylan": {
+"name": "Gokce Ceylan",
+"company": "Oxx"
+},
+"dora zikouli": {
+"name": "Dora Zikouli",
+"company": "QuantumLight"
+},
+"gabrielle swycher": {
+"name": "Gabrielle Swycher",
+"company": "Redrice Ventures"
+},
+"moritz sträb": {
+"name": "Moritz Sträb",
+"company": "Yttrium"
+},
+"sebastian hodge": {
+"name": "Sebastian Hodge",
+"company": "Expedition Growth Capital"
+},
+"lena hinkelmann": {
+"name": "Lena Hinkelmann",
+"company": "Balderton"
+},
+"sarah dixson": {
+"name": "Sarah Dixson",
+"company": "IVP"
+},
+"tine marie kjærgaard lindgreen": {
+"name": "Tine Marie Kjærgaard Lindgreen",
+"company": "Seed Capital"
+},
+"luke pappas": {
+"name": "Luke Pappas",
+"company": "New Enterprise Associates (NEA)"
+},
+"sandra krivancova": {
+"name": "Sandra Krivancova",
+"company": "Lakestar"
+},
+"isabel hallett": {
+"name": "Isabel Hallett",
+"company": "Motive Partners"
+},
+"magda lukaszewicz": {
+"name": "Magda Lukaszewicz",
+"company": "Inventure"
+},
+"kuran malhotra": {
+"name": "Kuran Malhotra",
+"company": "Insight Partners"
+},
+"gonzalo martínez de azagra": {
+"name": "Gonzalo Martínez De Azagra",
+"company": "Cardumen Capital"
+},
+"jason shein": {
+"name": "Jason Shein",
+"company": "Elephant"
+},
+"alex lim": {
+"name": "Alex Lim",
+"company": "IVP"
+},
+"cecilia zhao": {
+"name": "Cecilia Zhao",
+"company": "General Catalyst"
+},
+"hassaan mehmood": {
+"name": "Hassaan Mehmood",
+"company": "Blackfinch Group"
+},
+"max middleton": {
+"name": "Max Middleton",
+"company": "British Business Investments"
+},
+"ian lane": {
+"name": "Ian Lane",
+"company": "Cambridge Innovation Capital"
+},
+"imke koberg": {
+"name": "Imke Koberg",
+"company": "Evantic"
+},
+"mikolaj firlej": {
+"name": "Mikolaj Firlej",
+"company": "Expeditions"
+},
+"philipp moehring": {
+"name": "Philipp Moehring",
+"company": "Tiny Supercomputer Investment Company"
+},
+"charlotte lawrence": {
+"name": "Charlotte Lawrence",
+"company": "British Business Investments"
+},
+"thomas norris": {
+"name": "Thomas Norris",
+"company": "Insight Partners"
+},
+"laurine moureaux": {
+"name": "Laurine Moureaux",
+"company": "Motier Ventures"
+},
+"maud larbey": {
+"name": "Maud Larbey",
+"company": "Singular"
+},
+"arda kirkagac": {
+"name": "Arda Kirkagac",
+"company": "Bek Ventures"
+},
+"tim leach": {
+"name": "Tim Leach",
+"company": "Cambridge Judge Business School"
+},
+"noa shamay": {
+"name": "Noa Shamay",
+"company": "Cardumen Capital"
+},
+"sam kester": {
+"name": "Sam Kester",
+"company": "Crane Venture Partners"
+},
+"gamila hassan": {
+"name": "Gamila Hassan",
+"company": "Dawn Capital"
+},
+"klaas seynaeve": {
+"name": "Klaas Seynaeve",
+"company": "Expedition Growth Capital"
+},
+"vidu shanmugarajah": {
+"name": "Vidu Shanmugarajah",
+"company": "Google"
+},
+"arne tonning": {
+"name": "Arne Tonning",
+"company": "Alliance VC"
+},
+"george robson": {
+"name": "George Robson",
+"company": "Sequoia Capital"
+},
+"andrei brasoveanu": {
+"name": "Andrei Brasoveanu",
+"company": "Accel"
+},
+"bruno raillard": {
+"name": "Bruno Raillard",
+"company": "Frst"
+},
+"sarah moffatt": {
+"name": "Sarah Moffatt",
+"company": "Common Magic"
+},
+"dara li": {
+"name": "Dara Li",
+"company": "Elephant"
+},
+"oliver lane": {
+"name": "Oliver Lane",
+"company": "Google"
+},
+"firat ileri": {
+"name": "Firat Ileri",
+"company": "Hummingbird"
+},
+"sabina von koskull": {
+"name": "Sabina von Koskull",
+"company": "IVP"
+},
+"chris magazzeni": {
+"name": "Chris Magazzeni",
+"company": "Lakestar"
+},
+"jonas vetterle": {
+"name": "Jonas Vetterle",
+"company": "Moonfire"
+},
+"kemi odusan": {
+"name": "Kemi Odusan",
+"company": "NEA"
+},
+"henrik hokamp": {
+"name": "Henrik Hokamp",
+"company": "Revent"
+},
+"jan-patrick haikkola": {
+"name": "Jan-Patrick Haikkola",
+"company": "Tesi"
+},
+"nicole bodinnar": {
+"name": "Nicole Bodinnar",
+"company": "General Catalyst"
+},
+"gregory israelyan": {
+"name": "Gregory Israelyan",
+"company": "The Raine"
+},
+"yacine ghalim": {
+"name": "Yacine Ghalim",
+"company": "Heartcore"
+},
+"kristina chvilova": {
+"name": "Kristina Chvilova",
+"company": "Aglaé Ventures"
+},
+"margaux gregoir": {
+"name": "Margaux Gregoir",
+"company": "Serena"
+},
+"annmarie singh": {
+"name": "Annmarie Singh",
+"company": "Elephant"
+},
+"patrick sheehan": {
+"name": "Patrick Sheehan",
+"company": "ETF Partners"
+},
+"andrea bernabeu": {
+"name": "Andrea Bernabeu",
+"company": "Microsoft"
+},
+"jody wharton": {
+"name": "Jody Wharton",
+"company": "Microsoft"
+},
+"aishwarya nadgauda": {
+"name": "Aishwarya Nadgauda",
+"company": "NVIDIA"
+},
+"klaus majanen": {
+"name": "Klaus Majanen",
+"company": "Tesi"
+},
+"paula azcue": {
+"name": "Paula Azcue",
+"company": "Verdane"
+},
+"olivia de la riviere": {
+"name": "Olivia De La Riviere",
+"company": "Bpifrance"
+},
+"johan gjesdahl": {
+"name": "Johan Gjesdahl",
+"company": "Alliance VC"
+},
+"rohan sinha": {
+"name": "Rohan Sinha",
+"company": "Insight Partners"
+},
+"tuomas rekonen": {
+"name": "Tuomas Rekonen",
+"company": "Endeit Capital"
+},
+"lucy rands": {
+"name": "Lucy Rands",
+"company": "ETF Partners"
+},
+"caroline wadstein": {
+"name": "Caroline Wadstein",
+"company": "Industrifonden"
+},
+"joe puthenveetil": {
+"name": "Joe Puthenveetil",
+"company": "The Raine"
+},
+"kelvin mu": {
+"name": "Kelvin Mu",
+"company": "Translink Capital"
+},
+"de michel": {
+"name": "De Michel",
+"company": "Omnes"
+},
+"saskia hoebée": {
+"name": "Saskia Hoebée",
+"company": "Five Seasons Ventures"
+},
+"isabel holding": {
+"name": "Isabel Holding",
+"company": "Motive Partners"
+},
+"cedric asselman": {
+"name": "Cedric Asselman",
+"company": "Global Founders Capital"
+},
+"tomasz swieboda": {
+"name": "Tomasz Swieboda",
+"company": "Inovo VC"
+},
+"namratha kothapalli": {
+"name": "Namratha Kothapalli",
+"company": "Daphni"
+},
+"cecilie skjong": {
+"name": "Cecilie Skjong",
+"company": "Skyfall Ventures"
+},
+"alessandro luciano": {
+"name": "Alessandro Luciano",
+"company": "Insight Partners"
+},
+"alex mackenzie": {
+"name": "Alex Mackenzie",
+"company": "General Catalyst"
+},
+"rachel geller": {
+"name": "Rachel Geller",
+"company": "Insight Partners"
+},
+"mark goldberg": {
+"name": "Mark Goldberg",
+"company": "Chemistry"
+},
+"wally wang": {
+"name": "Wally Wang",
+"company": "SAV (Scale Asia Ventures)"
+},
+"sofia di meola": {
+"name": "Sofia Di Meola",
+"company": "Hummingbird"
+},
+"abel samot": {
+"name": "Abel Samot",
+"company": "Red River West"
+},
+"sophie denny": {
+"name": "Sophie Denny",
+"company": "Accel"
+},
+"thibault magnen": {
+"name": "Thibault Magnen",
+"company": "Founders Future"
+},
+"camille zivré": {
+"name": "Camille Zivré",
+"company": "byFounders"
+},
+"eric lagier": {
+"name": "Eric Lagier",
+"company": "byFounders"
+},
+"jeremy brown": {
+"name": "Jeremy Brown",
+"company": "Anthemis"
+},
+"duc tran": {
+"name": "Duc Tran",
+"company": "Dieter von Holtzbrinck Ventures"
+},
+"a mateus": {
+"name": "A Mateus",
+"company": "Eneco Ventures"
+},
+"amanda floyd": {
+"name": "Amanda Floyd",
+"company": "InReach Ventures"
+},
+"panos papadopoulos": {
+"name": "Panos Papadopoulos",
+"company": "Marathon Venture Capital"
+},
+"chris perry": {
+"name": "Chris Perry",
+"company": "Plural"
+},
+"nicola hughes-campen": {
+"name": "Nicola Hughes-Campen",
+"company": "The Raine"
+},
+"kunaal kankate": {
+"name": "Kunaal Kankate",
+"company": "Redrice Ventures"
+},
+"seb wallace": {
+"name": "Seb Wallace",
+"company": "Triple Point"
+},
+"caroline lebel": {
+"name": "Caroline Lebel",
+"company": "Bpifrance"
+},
+"michael hock": {
+"name": "Michael Hock",
+"company": "Motive Partners"
+},
+"daisey hearne": {
+"name": "Daisey Hearne",
+"company": "Phoenix Court"
+},
+"jimmy nielsen": {
+"name": "Jimmy Nielsen",
+"company": "Heartcore"
+},
+"jack connolly": {
+"name": "Jack Connolly",
+"company": "Elephant"
+},
+"giulia marchegiani": {
+"name": "Giulia Marchegiani",
+"company": "Balderton"
+},
+"tom denford": {
+"name": "Tom Denford",
+"company": "Expedition Growth Capital"
+},
+"jean-david herld": {
+"name": "Jean-David Herld",
+"company": "Revaia"
+},
+"anna faulkner": {
+"name": "Anna Faulkner",
+"company": "Headline"
+},
+"galina sagan": {
+"name": "Galina Sagan",
+"company": "Hitachi Ventures"
+},
+"chalani allen": {
+"name": "Chalani Allen",
+"company": "Ontario Teachers Pension Plan"
+},
+"will bennett": {
+"name": "Will Bennett",
+"company": "Seedcamp"
+},
+"millan suri": {
+"name": "Millan Suri",
+"company": "EPISODE 1"
+},
+"bilal baloch": {
+"name": "Bilal Baloch",
+"company": "Shorooq"
+},
+"ben palmer": {
+"name": "Ben Palmer",
+"company": "Oxx"
+},
+"oksana stowe": {
+"name": "Oksana Stowe",
+"company": "Google"
+},
+"prit boggavaram": {
+"name": "Prit Boggavaram",
+"company": "ICONIQ"
+},
+"guillem sagué": {
+"name": "Guillem Sagué",
+"company": "Nauta"
+},
+"marie-louise o'callaghan": {
+"name": "Marie-Louise O'Callaghan",
+"company": "ICONIQ"
+},
+"jason wolf": {
+"name": "Jason Wolf",
+"company": "Iron Nation Fund"
+},
+"shane shin": {
+"name": "Shane Shin",
+"company": "Shorooq"
+},
+"roei haviv": {
+"name": "Roei Haviv",
+"company": "Bessemer Venture Partners"
+},
+"jessie sheff": {
+"name": "Jessie Sheff",
+"company": "Insight Partners"
+},
+"david palmer": {
+"name": "David Palmer",
+"company": "Ten Eleven Ventures"
+},
+"panos athanasiou": {
+"name": "Panos Athanasiou",
+"company": "Databricks"
+},
+"granath nils": {
+"name": "Granath Nils",
+"company": "Zürcher Kantonalbank"
+},
+"silvia ersetti": {
+"name": "Silvia Ersetti",
+"company": "Endeit Capital"
+},
+"martijn hamann": {
+"name": "Martijn Hamann",
+"company": "Endeit Capital"
+},
+"philipp schroeder": {
+"name": "Philipp Schroeder",
+"company": "Endeit Capital"
+},
+"tobias graf": {
+"name": "Tobias Graf",
+"company": "Hitachi Ventures"
+},
+"amine raji": {
+"name": "Amine Raji",
+"company": "Spore.Bio"
+},
+"björn nilsen": {
+"name": "Björn Nilsen",
+"company": "Heartcore"
+},
+"amber patel": {
+"name": "Amber Patel",
+"company": "Seedcamp"
+},
+"shiran ella": {
+"name": "Shiran Ella",
+"company": "Cyberstarts"
+},
+"max neuberger": {
+"name": "Max Neuberger",
+"company": "Entrepreneur First"
+},
+"david gussarsky": {
+"name": "David Gussarsky",
+"company": "Lightspeed Venture Partners"
+},
+"lior simon": {
+"name": "Lior Simon",
+"company": "Cyberstarts"
+},
+"navid meyer": {
+"name": "Navid Meyer",
+"company": "Lakestar"
+},
+"valerie aelbrecht": {
+"name": "Valerie Aelbrecht",
+"company": "Albion Ventures"
+},
+"david polach": {
+"name": "David Polach",
+"company": "J&T Ventures"
+},
+"hakan karan": {
+"name": "Hakan Karan",
+"company": "European Circular Bioeconomy Fund"
+},
+"stephane roussel": {
+"name": "Stephane Roussel",
+"company": "European Circular Bioeconomy Fund"
+},
+"hannah leach": {
+"name": "Hannah Leach",
+"company": "Antler"
+},
+"ed lascelles": {
+"name": "Ed Lascelles",
+"company": "Albion Ventures"
+},
+"ifet lawrence": {
+"name": "Ifet Lawrence",
+"company": "Lightspeed"
+},
+"alexander schmitt": {
+"name": "Alexander Schmitt",
+"company": "Lightspeed Venture Partners"
+},
+"enzo wiener": {
+"name": "Enzo Wiener",
+"company": "Redpoint"
+},
+"benoist grossmann": {
+"name": "Benoist Grossmann",
+"company": "Eurazeo"
+},
+"paul moriou": {
+"name": "Paul Moriou",
+"company": "Serena"
+},
+"romain dufourcq": {
+"name": "Romain Dufourcq",
+"company": "Cathay Innovation"
+},
+"mamoun idrissi": {
+"name": "Mamoun Idrissi",
+"company": "Bpifrance"
+},
+"lucas liabeuf": {
+"name": "Lucas Liabeuf",
+"company": "Partech"
+},
+"tom gill": {
+"name": "Tom Gill",
+"company": "Elephant"
+},
+"alice chan": {
+"name": "Alice Chan",
+"company": "ETF Partners"
+},
+"dominic long-innes": {
+"name": "Dominic Long-Innes",
+"company": "Headline"
+},
+"ann-christin stiehl": {
+"name": "Ann-Christin Stiehl",
+"company": "HV"
+},
+"alexander joel-carbonell": {
+"name": "Alexander Joel-Carbonell",
+"company": "HV"
+},
+"ingrid åkerlind": {
+"name": "Ingrid Åkerlind",
+"company": "Oxx"
+},
+"franziska heuer": {
+"name": "Franziska Heuer",
+"company": "Verdane"
+},
+"sebastian wintgens": {
+"name": "Sebastian Wintgens",
+"company": "Verdane"
+},
+"buresboenstroem valérie": {
+"name": "Buresboenstroem Valérie",
+"company": "XAnge"
+},
+"sebastian weschenbach": {
+"name": "Sebastian Weschenbach",
+"company": "Yttrium"
+},
+"vanessa pinter": {
+"name": "Vanessa Pinter",
+"company": "Yttrium"
+},
+"sarah otter": {
+"name": "Sarah Otter",
+"company": "Creandum"
+},
+"casper bjarnason": {
+"name": "Casper Bjarnason",
+"company": "byFounders"
+},
+"pascual cortes-monroy": {
+"name": "Pascual Cortes-Monroy",
+"company": "Northzone"
+},
+"romain mombert": {
+"name": "Romain Mombert",
+"company": "Eurazeo"
+},
+"bartosz jakubowski": {
+"name": "Bartosz Jakubowski",
+"company": "Alven"
+},
+"nour alnuaimi": {
+"name": "Nour Alnuaimi",
+"company": "BREEGA"
+},
+"ben marrel": {
+"name": "Ben Marrel",
+"company": "BREEGA"
+},
+"elena moneta": {
+"name": "Elena Moneta",
+"company": "Balderton"
+},
+"carrie babcock": {
+"name": "Carrie Babcock",
+"company": "British Business Investments"
+},
+"david olsson": {
+"name": "David Olsson",
+"company": "Expedition Growth Capital"
+},
+"steven twomey": {
+"name": "Steven Twomey",
+"company": "Expedition Growth Capital"
+},
+"will sheldon": {
+"name": "Will Sheldon",
+"company": "Expedition Growth Capital"
+},
+"nathan getlatka": {
+"name": "Nathan GetLatka",
+"company": "Founderpath"
+},
+"jannis fett": {
+"name": "Jannis Fett",
+"company": "HV"
+},
+"endres florian": {
+"name": "Endres Florian",
+"company": "LEA Partners"
+},
+"tom lambert": {
+"name": "Tom Lambert",
+"company": "LocalGlobe"
+},
+"alina gounina": {
+"name": "Alina Gounina",
+"company": "Moonfire"
+},
+"akshat goenka": {
+"name": "Akshat Goenka",
+"company": "Moonfire"
+},
+"mattias ljungman": {
+"name": "Mattias Ljungman",
+"company": "Moonfire"
+},
+"taavet hinrikus": {
+"name": "Taavet Hinrikus",
+"company": "Plural"
+},
+"julia anisimova": {
+"name": "Julia Anisimova",
+"company": "RTP Global"
+},
+"thomas cuvelier": {
+"name": "Thomas Cuvelier",
+"company": "RTP Global"
+},
+"michael still": {
+"name": "Michael Still",
+"company": "SAP"
+},
+"juha lehtola": {
+"name": "Juha Lehtola",
+"company": "Tesi"
+},
+"bemert jennifer": {
+"name": "Bemert Jennifer",
+"company": "XAnge"
+},
+"charlotte ekelund": {
+"name": "Charlotte Ekelund",
+"company": "Sting"
+},
+"justina chung": {
+"name": "Justina Chung",
+"company": "Bessemer Venture Partners"
+},
+"noname conf-ldn-bondst@bvp.com": {
+"name": "NoName Conf-ldn-bondst@bvp.com",
+"company": "Bessemer Venture Partners"
+},
+"zeynep yavuz": {
+"name": "Zeynep Yavuz",
+"company": "General Catalyst"
+},
+"guillaume aubin": {
+"name": "Guillaume AUBIN",
+"company": "Alven"
+},
+"charles letourneur": {
+"name": "Charles Letourneur",
+"company": "Alven"
+},
+"rivet bruno": {
+"name": "Rivet Bruno",
+"company": "Seventure Partners"
+},
+"bertrand diard": {
+"name": "Bertrand Diard",
+"company": "Serena"
+},
+"jean lebrument": {
+"name": "Jean Lebrument",
+"company": "50 Partners"
+},
+"salle paris": {
+"name": "Salle Paris",
+"company": "Ventech"
+},
+"jean bourcereau": {
+"name": "Jean Bourcereau",
+"company": "Ventech"
+},
+"claire delabaere": {
+"name": "Claire Delabaere",
+"company": "Partech"
+},
+"embarcadero room": {
+"name": "Embarcadero Room",
+"company": "Partech"
+},
+"pierre-yves meerschman": {
+"name": "Pierre-Yves Meerschman",
+"company": "Daphni"
+},
+"xavier lazarus": {
+"name": "Xavier LAZARUS",
+"company": "Elaia"
+},
+"sébastien lefebvre": {
+"name": "Sébastien Lefebvre",
+"company": "Elaia"
+},
+"pauline roux": {
+"name": "Pauline Roux",
+"company": "Elaia"
+},
+"julian rowe": {
+"name": "Julian Rowe",
+"company": "LocalGlobe"
+},
+"orson stadler": {
+"name": "Orson Stadler",
+"company": "Mustard Seed"
+},
+"gareth jefferies": {
+"name": "Gareth Jefferies",
+"company": "RTP Global"
+},
+"ricardo jacinto": {
+"name": "Ricardo Jacinto",
+"company": "Shilling Capital Partners"
+},
+"lisa martin": {
+"name": "Lisa Martin",
+"company": "SAP"
+},
+"judith comino": {
+"name": "Judith Comino",
+"company": "Yttrium"
+},
+"veronika belik": {
+"name": "Veronika Belik",
+"company": "Yttrium"
+},
+"andrea seelig": {
+"name": "Andrea Seelig",
+"company": "Yttrium"
+},
+"dan shellard": {
+"name": "Dan Shellard",
+"company": "BREEGA"
+},
+"pierre ljubic": {
+"name": "Pierre Ljubic",
+"company": "Emblem"
+},
+"katie holmes": {
+"name": "Katie Holmes",
+"company": "Bessemer Venture Partners"
+},
+"juliette mopin": {
+"name": "Juliette Mopin",
+"company": "ISAI"
+},
+"ali najafbagy": {
+"name": "Ali Najafbagy",
+"company": "4impact capital"
+},
+"l klardie": {
+"name": "L Klardie",
+"company": "ING"
+},
+"justine guers": {
+"name": "Justine Guers",
+"company": "Elaia"
+},
+"isobel sprules": {
+"name": "Isobel Sprules",
+"company": "Plural"
+},
+"lærke hansen": {
+"name": "Lærke Hansen",
+"company": "Heartcore"
+},
+"signe sveinbjørnsson": {
+"name": "Signe Sveinbjørnsson",
+"company": "Heartcore"
+},
+"marc fournier": {
+"name": "Marc Fournier",
+"company": "Serena"
+},
+"tero mennander": {
+"name": "Tero Mennander",
+"company": "Ventech"
+},
+"rory stirling": {
+"name": "Rory Stirling",
+"company": "Connect Ventures"
+},
+"morgan kessous": {
+"name": "Morgan Kessous",
+"company": "Revaia"
+},
+"olivier bordelanne": {
+"name": "Olivier Bordelanne",
+"company": "Demeter"
+},
+"kajsa johansson": {
+"name": "Kajsa Johansson",
+"company": "ETF Partners"
+},
+"william vermont": {
+"name": "William Vermont",
+"company": "ISAI"
+},
+"alexander leichter": {
+"name": "Alexander Leichter",
+"company": "Cambridge Judge Business School"
+},
+"alexandra kurmulis": {
+"name": "Alexandra Kurmulis",
+"company": "Capnamic"
+},
+"dan chaplin": {
+"name": "Dan Chaplin",
+"company": "Dawn Capital"
+},
+"konstantin koenig": {
+"name": "Konstantin Koenig",
+"company": "Illuminate Financial"
+},
+"nancy dong": {
+"name": "Nancy Dong",
+"company": "J.P. Morgan"
+},
+"john mazzara": {
+"name": "John Mazzara",
+"company": "J.P. Morgan"
+},
+"william moukouri": {
+"name": "William Moukouri",
+"company": "J.P. Morgan"
+},
+"gloria baeuerlein": {
+"name": "Gloria Baeuerlein",
+"company": "Puzzle Ventures"
+},
+"maximilian kempken": {
+"name": "Maximilian Kempken",
+"company": "Verdane"
+},
+"björn beckman": {
+"name": "Björn Beckman",
+"company": "Verdane"
+},
+"dominik hertzler": {
+"name": "Dominik Hertzler",
+"company": "Yttrium"
+},
+"james dening": {
+"name": "James Dening",
+"company": "Target Global"
+},
+"carl fritjofsson": {
+"name": "Carl Fritjofsson",
+"company": "Creandum"
+},
+"isabelle sandblom": {
+"name": "Isabelle Sandblom",
+"company": "Creandum"
+},
+"molly cooke": {
+"name": "Molly Cooke",
+"company": "Northzone"
+},
+"leila zegna": {
+"name": "Leila Zegna",
+"company": "Kindred Capital"
+},
+"julia hawkins": {
+"name": "Julia Hawkins",
+"company": "LocalGlobe"
+},
+"beatrice rellman": {
+"name": "Beatrice Rellman",
+"company": "Creandum"
+},
+"jeanpatrice anciaux": {
+"name": "Jeanpatrice Anciaux",
+"company": "ISAI"
+},
+"tom wilson": {
+"name": "Tom Wilson",
+"company": "Seedcamp"
+},
+"sia houchangnia": {
+"name": "Sia Houchangnia",
+"company": "Seedcamp"
+},
+"shruti tournatory": {
+"name": "Shruti Tournatory",
+"company": "ICONIQ"
+},
+"beatrice aliprandi": {
+"name": "Beatrice Aliprandi",
+"company": "Lakestar"
+},
+"yaron valler": {
+"name": "Yaron Valler",
+"company": "Target Global"
+},
+"caroline hultman": {
+"name": "Caroline Hultman",
+"company": "J12 Ventures"
+},
+"shamillah bankiya": {
+"name": "Shamillah Bankiya",
+"company": "Dawn Capital"
+},
+"zabie elmgren": {
+"name": "Zabie Elmgren",
+"company": "Andreessen Horowitz"
+},
+"peter specht": {
+"name": "Peter Specht",
+"company": "Creandum"
+},
+"linn raphael": {
+"name": "Linn Raphael",
+"company": "General Catalyst"
+},
+"simon schmincke": {
+"name": "Simon Schmincke",
+"company": "Creandum"
+},
+"lucanus polagnoli": {
+"name": "Lucanus Polagnoli",
+"company": "Calm Storm"
+},
+"rob toews": {
+"name": "Rob Toews",
+"company": "Radical Ventures"
+},
+"thomas krane": {
+"name": "Thomas Krane",
+"company": "Insight Partners"
+},
+"nabeel hyatt": {
+"name": "Nabeel Hyatt",
+"company": "Spark Capital"
+},
+"olivia horton": {
+"name": "Olivia Horton",
+"company": "Seedcamp"
+},
+"shan drummond": {
+"name": "Shan Drummond",
+"company": "Samos Investments"
+},
+"elina berrebi": {
+"name": "Elina Berrebi",
+"company": "Revaia"
+},
+"johan jessen": {
+"name": "Johan Jessen",
+"company": "byFounders"
+},
+"neil rimer": {
+"name": "Neil Rimer",
+"company": "Index Ventures"
+},
+"alex finkelstein": {
+"name": "Alex Finkelstein",
+"company": "Spark Capital"
+},
+"heather mahoney": {
+"name": "Heather Mahoney",
+"company": "Spark Capital"
+},
+"fred destin": {
+"name": "Fred Destin",
+"company": "Accel"
+},
+"arnon dinur": {
+"name": "Arnon Dinur",
+"company": "83NORTH"
+},
+"yakisirer adem": {
+"name": "Yakisirer Adem",
+"company": "European Investment Fund (EIF)"
+},
+"thomas dupont": {
+"name": "Thomas Dupont",
+"company": "StepStone"
+},
+"larry bohn": {
+"name": "Larry Bohn",
+"company": "General Catalyst"
+},
+"natacha pantet": {
+"name": "Natacha Pantet",
+"company": "Index Ventures"
+},
+"ben blume": {
+"name": "Ben Blume",
+"company": "Atomico"
+},
+"will prendergast": {
+"name": "Will Prendergast",
+"company": "Frontline Ventures"
+},
+"avid duggan": {
+"name": "Avid Duggan",
+"company": "Ontario Teachers Pension Plan"
+},
+"ask nørgaard": {
+"name": "Ask Nørgaard",
+"company": "Verdane"
+},
+"cecilia nytorp": {
+"name": "Cecilia Nytorp",
+"company": "Verdane"
+},
+"jenny petersens": {
+"name": "Jenny Petersens",
+"company": "Verdane"
+},
+"brian roberts": {
+"name": "Brian Roberts",
+"company": "Andreessen Horowitz"
+},
+"alexander taussig": {
+"name": "Alexander Taussig",
+"company": "Lightspeed Venture Partners"
+},
+"bernard liautaud": {
+"name": "Bernard Liautaud",
+"company": "Balderton"
+},
+"joe schmidt": {
+"name": "Joe Schmidt",
+"company": "Andreessen Horowitz"
+},
+"stacey lachmi": {
+"name": "Stacey Lachmi",
+"company": "83NORTH"
+},
+"lyn blithe": {
+"name": "Lyn Blithe",
+"company": "StepStone"
+},
+"vc shared": {
+"name": "Vc Shared",
+"company": "StepStone"
+},
+"richard wells": {
+"name": "Richard Wells",
+"company": "Insight Partners"
+},
+"jon auerbach": {
+"name": "Jon Auerbach",
+"company": "CRV"
+},
+"thomas fernandez-debets": {
+"name": "Thomas Fernandez-Debets",
+"company": "Daphni"
+},
+"katti van oosterwijck": {
+"name": "Katti Van Oosterwijck",
+"company": "Korys"
+},
+"vincent caudron": {
+"name": "Vincent Caudron",
+"company": "Korys"
+},
+"ivan farneti": {
+"name": "Ivan Farneti",
+"company": "Five Seasons Ventures"
+},
+"hans-jürgen schmitz": {
+"name": "Hans-Jürgen Schmitz",
+"company": "Mangrove Capital Partners"
+},
+"cem sertoglu": {
+"name": "Cem Sertoglu",
+"company": "Bek Ventures"
+},
+"max niederhofer": {
+"name": "Max Niederhofer",
+"company": "Heartcore"
+},
+"richard anton": {
+"name": "Richard Anton",
+"company": "Oxx"
+},
+"harry stebbings": {
+"name": "Harry Stebbings",
+"company": "20VC"
+},
+"marin cauvas": {
+"name": "Marin Cauvas",
+"company": "Anthemis"
+},
+"mike chalfen": {
+"name": "Mike Chalfen",
+"company": "Chalfen Ventures"
+},
+"justine boucher": {
+"name": "Justine Boucher",
+"company": "Five Seasons Ventures"
+},
+"michelle ervin": {
+"name": "Michelle Ervin",
+"company": "Andreessen Horowitz"
+},
+"yoram snir": {
+"name": "Yoram Snir",
+"company": "83NORTH"
+},
+"simona cohen": {
+"name": "Simona Cohen",
+"company": "83NORTH"
+},
+"jerome perrier": {
+"name": "Jerome Perrier",
+"company": "Crédit Agricole CIB"
+},
+"gordon harold": {
+"name": "Gordon Harold",
+"company": "Cambridge Judge Business School"
+},
+"fariya khan": {
+"name": "Fariya Khan",
+"company": "The Raine"
+},
+"samantha gelt": {
+"name": "Samantha Gelt",
+"company": "Andreessen Horowitz"
+},
+"kiran arokiasamy": {
+"name": "Kiran Arokiasamy",
+"company": "Bessemer Venture Partners"
+},
+"lauren young": {
+"name": "Lauren Young",
+"company": "Union Square Ventures"
+},
+"louisa mesnard": {
+"name": "Louisa Mesnard",
+"company": "Elaia"
+},
+"lauren apostolidis": {
+"name": "Lauren Apostolidis",
+"company": "Albion Ventures"
+},
+"leah sutton": {
+"name": "Leah Sutton",
+"company": "Balderton"
+},
+"ayala ples": {
+"name": "Ayala Ples",
+"company": "Crane Venture Partners"
+},
+"hannah skingle": {
+"name": "Hannah Skingle",
+"company": "Frontline Ventures"
+},
+"jonno southam": {
+"name": "Jonno Southam",
+"company": "Google"
+},
+"anna ott": {
+"name": "Anna Ott",
+"company": "HV"
+},
+"fredrik nylander": {
+"name": "Fredrik Nylander",
+"company": "Lakestar"
+},
+"erica amatori": {
+"name": "Erica Amatori",
+"company": "Left Lane Capital"
+},
+"henna mehta": {
+"name": "Henna Mehta",
+"company": "SAP"
+},
+"lisa haffey": {
+"name": "Lisa Haffey",
+"company": "SAP"
+},
+"huff millard": {
+"name": "Huff Millard",
+"company": "StepStone"
+},
+"samar malik": {
+"name": "Samar Malik",
+"company": "Stripe"
+},
+"kamael sugrim": {
+"name": "Kamael Sugrim",
+"company": "Stripe"
+},
+"austin liang": {
+"name": "Austin Liang",
+"company": "ICONIQ"
+},
+"michiel kotting": {
+"name": "Michiel Kotting",
+"company": "Northzone"
+},
+"megan ananian": {
+"name": "Megan Ananian",
+"company": "Bessemer Venture Partners"
+},
+"arnaud hochart": {
+"name": "Arnaud Hochart",
+"company": "BREEGA"
+},
+"marie-alix motte": {
+"name": "Marie-alix Motte",
+"company": "Partech"
+},
+"dave dowdall": {
+"name": "Dave Dowdall",
+"company": "Anthropic"
+},
+"sarabeth scott": {
+"name": "Sarabeth Scott",
+"company": "Camber Partners"
+},
+"jelle-jan bruinsma": {
+"name": "Jelle-Jan Bruinsma",
+"company": "Endeit Capital"
+},
+"sean cloney": {
+"name": "Sean Cloney",
+"company": "Headline"
+},
+"teal frost": {
+"name": "Teal Frost",
+"company": "Hummingbird"
+},
+"katie ledger": {
+"name": "Katie Ledger",
+"company": "Ledger"
+},
+"job wever": {
+"name": "Job Wever",
+"company": "Antler"
+},
+"laura cesenni": {
+"name": "Laura Cesenni",
+"company": "CDP Venture Capital"
+},
+"stefano pelagallo": {
+"name": "Stefano Pelagallo",
+"company": "CDP Venture Capital"
+},
+"george radford": {
+"name": "George Radford",
+"company": "Frontline Ventures"
+},
+"allison graf": {
+"name": "Allison Graf",
+"company": "Frontline Ventures"
+},
+"dylan scully": {
+"name": "Dylan Scully",
+"company": "Frontline Ventures"
+},
+"ruth sheridan": {
+"name": "Ruth Sheridan",
+"company": "Frontline Ventures"
+},
+"william mcquillan": {
+"name": "William McQuillan",
+"company": "Frontline Ventures"
+},
+"jens düing": {
+"name": "Jens Düing",
+"company": "Gresham House"
+},
+"kay matthews": {
+"name": "Kay Matthews",
+"company": "Gresham House"
+},
+"rosie samuels": {
+"name": "Rosie Samuels",
+"company": "Albion Ventures"
+},
+"sagar gupta": {
+"name": "Sagar Gupta",
+"company": "Anthropic"
+},
+"anthony dann": {
+"name": "Anthony Dann",
+"company": "Deel"
+},
+"kasey davies": {
+"name": "Kasey Davies",
+"company": "HV"
+},
+"sara bertone": {
+"name": "Sara Bertone",
+"company": "Mastercard"
+},
+"michelle coventry": {
+"name": "Michelle Coventry",
+"company": "Creandum"
+},
+"andy champion": {
+"name": "Andy Champion",
+"company": "Atlassian"
+},
+"cyrille olive": {
+"name": "Cyrille Olive",
+"company": "Google"
+},
+"jérôme tomasini": {
+"name": "Jérôme Tomasini",
+"company": "Stripe"
+},
+"ben wright": {
+"name": "Ben Wright",
+"company": "Crane Venture Partners"
+},
+"ambi mistry": {
+"name": "Ambi Mistry",
+"company": "LocalGlobe"
+},
+"markus heizmann": {
+"name": "Markus Heizmann",
+"company": "ZF Group"
+},
+"victoria kennard": {
+"name": "Victoria Kennard",
+"company": "Plural"
+},
+"anil parekh": {
+"name": "Anil Parekh",
+"company": "SAP"
+},
+"alberto padilla-rivera": {
+"name": "Alberto Padilla-Rivera",
+"company": "Insight Partners"
+},
+"suneel mudaliar": {
+"name": "Suneel Mudaliar",
+"company": "Insight Partners"
+},
+"ben johnson": {
+"name": "Ben Johnson",
+"company": "Chalfen Ventures"
+},
+"mariam abbott": {
+"name": "Mariam Abbott",
+"company": "ICONIQ"
+},
+"georgie smithwick": {
+"name": "Georgie Smithwick",
+"company": "Techstars"
+},
+"elena pantazi": {
+"name": "Elena Pantazi",
+"company": "Northzone"
+},
+"oana botez": {
+"name": "Oana Botez",
+"company": "Revent"
+},
+"michelle cheng": {
+"name": "Michelle Cheng",
+"company": "Bessemer Venture Partners"
+},
+"zoe hewitt": {
+"name": "Zoe Hewitt",
+"company": "Sequoia Capital"
+},
+"tamasha ginige": {
+"name": "Tamasha Ginige",
+"company": "Balderton"
+},
+"hannes ortmeier": {
+"name": "Hannes Ortmeier",
+"company": "Deel"
+},
+"rav dhaliwal": {
+"name": "Rav Dhaliwal",
+"company": "Crane Venture Partners"
+},
+"jason rees": {
+"name": "Jason Rees",
+"company": "Vireo Ventures"
+},
+"joost van der mersch": {
+"name": "Joost van der Mersch",
+"company": "Stripe"
+},
+"darren murphy": {
+"name": "Darren Murphy",
+"company": "Antler"
+},
+"ji bang": {
+"name": "Ji Bang",
+"company": "Deel"
+},
+"asha mistry": {
+"name": "Asha Mistry",
+"company": "Lakestar"
+},
+"marlowe cameron": {
+"name": "Marlowe Cameron",
+"company": "Northzone"
+},
+"veronique germain": {
+"name": "Veronique Germain",
+"company": "8VC"
+},
+"avalon lee-bacon": {
+"name": "Avalon Lee-Bacon",
+"company": "Dawn Capital"
+},
+"sam parker": {
+"name": "Sam Parker",
+"company": "IVP"
+},
+"anya brochier": {
+"name": "Anya Brochier",
+"company": "Elaia"
+},
+"ryan libster": {
+"name": "Ryan Libster",
+"company": "Anthropic"
+},
+"paul veck": {
+"name": "Paul Veck",
+"company": "Microsoft"
+},
+"tanya parks": {
+"name": "Tanya Parks",
+"company": "Atlassian"
+},
+"marieke christmann": {
+"name": "Marieke Christmann",
+"company": "Gresham House"
+},
+"zack grimmer": {
+"name": "Zack Grimmer",
+"company": "IVP"
+},
+"arsalan ahmed": {
+"name": "Arsalan Ahmed",
+"company": "Mastercard"
+},
+"carrie macasaet": {
+"name": "Carrie Macasaet",
+"company": "Sequoia Capital"
+},
+"elizabeth brown": {
+"name": "Elizabeth Brown",
+"company": "Resurgens Technology Partners"
+},
+"brett browman": {
+"name": "Brett Browman",
+"company": "Khosla Ventures"
+},
+"dawson poinelli": {
+"name": "Dawson Poinelli",
+"company": "IVP"
+},
+"hannah greenwald": {
+"name": "Hannah Greenwald",
+"company": "Left Lane Capital"
+},
+"serge lemonde": {
+"name": "Serge Lemonde",
+"company": "NVIDIA"
+},
+"ryan scott": {
+"name": "Ryan Scott",
+"company": "Khosla Ventures"
+},
+"sam wholley": {
+"name": "Sam Wholley",
+"company": "Lightspeed Venture Partners"
+},
+"yakun wang": {
+"name": "Yakun Wang",
+"company": "Ventech"
+},
+"benoit fouilland": {
+"name": "Benoit Fouilland",
+"company": "Celonis"
+},
+"ella morris": {
+"name": "Ella Morris",
+"company": "Entrepreneur First"
+},
+"sandra vargas": {
+"name": "Sandra Vargas",
+"company": "Stripe"
+},
+"samuel mcgurk": {
+"name": "Samuel McGurk",
+"company": "Mastercard"
+},
+"andrew bentley": {
+"name": "Andrew Bentley",
+"company": "Microsoft"
+},
+"galina chifina": {
+"name": "Galina Chifina",
+"company": "RTP Global"
+},
+"amin manzouri": {
+"name": "Amin Manzouri",
+"company": "Stripe"
+},
+"ripley hartmeyer": {
+"name": "Ripley Hartmeyer",
+"company": "General Catalyst"
+},
+"andrew reason": {
+"name": "Andrew Reason",
+"company": "Partech"
+},
+"fatma dogan": {
+"name": "Fatma Dogan",
+"company": "Anthropic"
+},
+"dalia mahfouf": {
+"name": "Dalia Mahfouf",
+"company": "Drysdale Ventures"
+},
+"nicolas essayan": {
+"name": "Nicolas Essayan",
+"company": "Drysdale Ventures"
+},
+"alaric wilson": {
+"name": "Alaric Wilson",
+"company": "Microsoft"
+},
+"susannah laster": {
+"name": "Susannah Laster",
+"company": "South Park Commons"
+},
+"dylan itzikowitz": {
+"name": "Dylan Itzikowitz",
+"company": "South Park Commons"
+},
+"zoe jervier": {
+"name": "Zoe Jervier",
+"company": "Sequoia Capital"
+},
+"temitayo odukoya": {
+"name": "Temitayo Odukoya",
+"company": "Stripe"
+},
+"emily baine": {
+"name": "Emily Baine",
+"company": "New Enterprise Associates (NEA)"
+},
+"ross kennedy": {
+"name": "Ross Kennedy",
+"company": "Microsoft"
+},
+"andrea livecchi": {
+"name": "Andrea Livecchi",
+"company": "CDP Venture Capital"
+},
+"heba hitti": {
+"name": "Heba Hitti",
+"company": "Serena"
+},
+"bodi tent": {
+"name": "Bodi Tent",
+"company": "Heartcore"
+},
+"benjamin bieler": {
+"name": "Benjamin Bieler",
+"company": "Ventech"
+},
+"sherington amarapala": {
+"name": "Sherington Amarapala",
+"company": "Atomico"
+},
+"zain waheed": {
+"name": "Zain Waheed",
+"company": "Balderton"
+},
+"jan faflik": {
+"name": "Jan Faflik",
+"company": "Bek Ventures"
+},
+"atiyu mehta": {
+"name": "Atiyu Mehta",
+"company": "Dawn Capital"
+},
+"edoardo stazio": {
+"name": "Edoardo Stazio",
+"company": "Hitachi Ventures"
+},
+"jasmin jutila": {
+"name": "Jasmin Jutila",
+"company": "Illusian"
+},
+"václav ryšlink": {
+"name": "Václav Ryšlink",
+"company": "KAYA"
+},
+"baltrusch caroline": {
+"name": "Baltrusch Caroline",
+"company": "XAnge"
+},
+"cameron sellers": {
+"name": "Cameron Sellers",
+"company": "Creandum"
+},
+"eira tobrand": {
+"name": "Eira Tobrand",
+"company": "Luminar Ventures"
+},
+"moa kronborg": {
+"name": "Moa Kronborg",
+"company": "Spintop Ventures"
+},
+"shim jounghyun": {
+"name": "Shim Jounghyun",
+"company": "BREEGA"
+},
+"karin yaacobi": {
+"name": "Karin Yaacobi",
+"company": "Cardumen Capital"
+},
+"adeyinka okuwoga": {
+"name": "Adeyinka Okuwoga",
+"company": "Headline"
+},
+"frazier christie": {
+"name": "Frazier Christie",
+"company": "HV"
+},
+"jan sova": {
+"name": "Jan Sova",
+"company": "J&T Ventures"
+},
+"james darby": {
+"name": "James Darby",
+"company": "QuantumLight"
+},
+"richard hall": {
+"name": "Richard Hall",
+"company": "Cambridge Innovation Capital"
+},
+"matt maynard": {
+"name": "Matt Maynard",
+"company": "Cambridge Innovation Capital"
+},
+"cecilia ma": {
+"name": "Cecilia Ma",
+"company": "Norrsken"
+},
+"agate freimane": {
+"name": "Agate Freimane",
+"company": "Norrsken"
+},
+"hochholzer michael": {
+"name": "Hochholzer Michael",
+"company": "Giesecke+Devrient"
+},
+"kaushik subramanian": {
+"name": "Kaushik Subramanian",
+"company": "EQT Ventures"
+},
+"claire brown": {
+"name": "Claire Brown",
+"company": "EQT Ventures"
+},
+"martin mignot": {
+"name": "Martin Mignot",
+"company": "Index Ventures"
+},
+"eleanor chaplin": {
+"name": "Eleanor Chaplin",
+"company": "Index Ventures"
+},
+"taylor gunn": {
+"name": "Taylor Gunn",
+"company": "Index Ventures"
+},
+"carlos gonzalez-cadenas": {
+"name": "Carlos Gonzalez-Cadenas",
+"company": "Index Ventures"
+},
+"zane lackey": {
+"name": "Zane Lackey",
+"company": "Andreessen Horowitz"
+},
+"amanda lennon": {
+"name": "Amanda Lennon",
+"company": "General Catalyst"
+},
+"mark crane": {
+"name": "Mark Crane",
+"company": "General Catalyst"
+},
+"aman ghei": {
+"name": "Aman Ghei",
+"company": "Accel"
+},
+"nate niparko": {
+"name": "Nate Niparko",
+"company": "Accel"
+},
+"alexis robert": {
+"name": "Alexis Robert",
+"company": "Kima Ventures"
+},
+"ece ozer": {
+"name": "Ece Ozer",
+"company": "Seedcamp"
+},
+"elina rayberg": {
+"name": "Elina Rayberg",
+"company": "Valar Ventures"
+},
+"james fitzgerald": {
+"name": "James Fitzgerald",
+"company": "Valar Ventures"
+},
+"andrew mccormack": {
+"name": "Andrew McCormack",
+"company": "Valar Ventures"
+},
+"bernhard janke": {
+"name": "Bernhard Janke",
+"company": "468 Capital"
+},
+"bardo droege": {
+"name": "Bardo Droege",
+"company": "468 Capital"
+},
+"suranga chandratillake": {
+"name": "Suranga Chandratillake",
+"company": "Balderton"
+},
+"lucie anderson": {
+"name": "Lucie Anderson",
+"company": "Balderton"
+},
+"dimitar korsakov": {
+"name": "Dimitar Korsakov",
+"company": "BrightCap Ventures"
+},
+"elina halatcheva": {
+"name": "Elina Halatcheva",
+"company": "BrightCap Ventures"
+},
+"kate vine": {
+"name": "Kate Vine",
+"company": "Columbia Lake Partners"
+},
+"agnieszka paliwoda": {
+"name": "Agnieszka Paliwoda",
+"company": "Crane Venture Partners"
+},
+"krishna visvanathan": {
+"name": "Krishna Visvanathan",
+"company": "Crane Venture Partners"
+},
+"sevdalis panagiotis": {
+"name": "Sevdalis Panagiotis",
+"company": "European Commission"
+},
+"panagiotis sevdalis": {
+"name": "Panagiotis Sevdalis",
+"company": "European Commission"
+},
+"adam shuaib": {
+"name": "Adam Shuaib",
+"company": "EPISODE 1"
+},
+"mark weeks": {
+"name": "Mark Weeks",
+"company": "ETFS Capital"
+},
+"patrick kearney": {
+"name": "Patrick Kearney",
+"company": "ETFS Capital"
+},
+"martyn james": {
+"name": "Martyn James",
+"company": "ETFS Capital"
+},
+"malcolm ferguson": {
+"name": "Malcolm Ferguson",
+"company": "ETFS Capital"
+},
+"uffelmann ena": {
+"name": "Uffelmann Ena",
+"company": "Giesecke+Devrient"
+},
+"shamia assaf": {
+"name": "Shamia Assaf",
+"company": "Giesecke+Devrient"
+},
+"oleksandra leshchynska": {
+"name": "Oleksandra Leshchynska",
+"company": "Global Founders Capital"
+},
+"donald stalter": {
+"name": "Donald Stalter",
+"company": "Global Founders Capital"
+},
+"mina mutafchieva": {
+"name": "Mina Mutafchieva",
+"company": "HV"
+},
+"karthik ramakrishnan": {
+"name": "Karthik Ramakrishnan",
+"company": "IVP"
+},
+"jo leech": {
+"name": "Jo Leech",
+"company": "J.P. Morgan"
+},
+"jc raby": {
+"name": "Jc Raby",
+"company": "J.P. Morgan"
+},
+"alex mccracken": {
+"name": "Alex Mccracken",
+"company": "J.P. Morgan"
+},
+"chrys chrysanthou": {
+"name": "Chrys Chrysanthou",
+"company": "Kindred Capital"
+},
+"tim wanders": {
+"name": "Tim Wanders",
+"company": "Motive Partners"
+},
+"hugo bongers": {
+"name": "Hugo Bongers",
+"company": "Motive Partners"
+},
+"lauren milligan": {
+"name": "Lauren Milligan",
+"company": "Ontario Teachers Pension Plan"
+},
+"ara yeromian": {
+"name": "Ara YEROMIAN",
+"company": "Ontario Teachers Pension Plan"
+},
+"mahdi raza": {
+"name": "Mahdi Raza",
+"company": "Pathlight Ventures"
+},
+"ian hogarth": {
+"name": "Ian Hogarth",
+"company": "Plural"
+},
+"david cohen": {
+"name": "David Cohen",
+"company": "Silicon Valley Bank"
+},
+"mark gallagher": {
+"name": "Mark Gallagher",
+"company": "Silicon Valley Bank"
+},
+"guy israeli": {
+"name": "Guy Israeli",
+"company": "Techstars"
+},
+"emanuel johnsson": {
+"name": "Emanuel Johnsson",
+"company": "Verdane"
+},
+"electra niarchos": {
+"name": "Electra Niarchos",
+"company": "General Catalyst"
+},
+"raluca ragab": {
+"name": "Raluca Ragab",
+"company": "Eurazeo"
+},
+"andreas weiskam": {
+"name": "Andreas Weiskam",
+"company": "SAP"
+},
+"liran grinberg": {
+"name": "Liran Grinberg",
+"company": "Team8"
+},
+"sarit firon": {
+"name": "Sarit Firon",
+"company": "Team8"
+},
+"naza metghalchi": {
+"name": "Naza Metghalchi",
+"company": "Heartcore"
+},
+"paul lehair": {
+"name": "Paul Lehair",
+"company": "Albion Ventures"
+},
+"steph poulier": {
+"name": "Steph Poulier",
+"company": "ETFS Capital"
+},
+"jay wilson": {
+"name": "Jay Wilson",
+"company": "Albion Ventures"
+},
+"oliver heimes": {
+"name": "Oliver Heimes",
+"company": "Lakestar"
+},
+"grace cassy": {
+"name": "Grace Cassy",
+"company": "Ten Eleven Ventures"
+},
+"dana mizrahi": {
+"name": "Dana Mizrahi",
+"company": "Lightspeed Venture Partners"
+},
+"sara rywe": {
+"name": "Sara Rywe",
+"company": "byFounders"
+},
+"alex ferrara": {
+"name": "Alex Ferrara",
+"company": "Bessemer Venture Partners"
+},
+"izhar armony": {
+"name": "Izhar Armony",
+"company": "CRV"
+},
+"gil dibner": {
+"name": "Gil Dibner",
+"company": "Angular Ventures"
+},
+"mehmet atici": {
+"name": "Mehmet Atici",
+"company": "Bek Ventures"
+},
+"gili raanan": {
+"name": "Gili Raanan",
+"company": "Cyberstarts"
+},
+"matthias müller": {
+"name": "Matthias Müller",
+"company": "Global Founders Capital"
+},
+"katherine jones": {
+"name": "Katherine Jones",
+"company": "Hummingbird"
+},
+"lisa jochum": {
+"name": "Lisa Jochum",
+"company": "Creandum"
+},
+"tracye redding": {
+"name": "Tracye Redding",
+"company": "Andreessen Horowitz"
+},
+"bharat sajnani": {
+"name": "Bharat Sajnani",
+"company": "Datadog"
+},
+"jean de la rochebrochard": {
+"name": "Jean de La Rochebrochard",
+"company": "Kima Ventures"
+},
+"johannes lenhard": {
+"name": "Johannes Lenhard",
+"company": "Cambridge Judge Business School"
+},
+"brenda newmann": {
+"name": "Brenda Newmann",
+"company": "Datadog"
+},
+"brian peters": {
+"name": "Brian Peters",
+"company": "Datadog"
+},
+"alexis lancien": {
+"name": "Alexis Lancien",
+"company": "Partech"
+},
+"eva mayoud": {
+"name": "Eva Mayoud",
+"company": "Singular"
+},
+"andreas schenk alstin capital": {
+"name": "Andreas Schenk Alstin Capital",
+"company": "Alstin Capital"
+},
+"romeo walter": {
+"name": "Romeo Walter",
+"company": "Dawn Capital"
+},
+"matt tanenblatt": {
+"name": "Matt Tanenblatt",
+"company": "Elephant"
+},
+"kiran modi": {
+"name": "Kiran Modi",
+"company": "Headline"
+},
+"jack mcguinness": {
+"name": "Jack McGuinness",
+"company": "HV"
+},
+"jaime novoa": {
+"name": "Jaime Novoa",
+"company": "K Fund"
+},
+"fabio pirovano": {
+"name": "Fabio Pirovano",
+"company": "United Ventures"
+},
+"guy bentley": {
+"name": "Guy Bentley",
+"company": "Crane Venture Partners"
+},
+"borja breña": {
+"name": "Borja Breña",
+"company": "Nauta"
+},
+"dorus olgers": {
+"name": "Dorus Olgers",
+"company": "Newion"
+},
+"pieter welten": {
+"name": "Pieter Welten",
+"company": "Newion"
+},
+"ashley paston": {
+"name": "Ashley Paston",
+"company": "General Catalyst"
+},
+"elizabeth newman": {
+"name": "Elizabeth Newman",
+"company": "Eurazeo"
+},
+"anne-charlotte philbert": {
+"name": "Anne-Charlotte PHILBERT",
+"company": "Eurazeo"
+},
+"léa verdillon": {
+"name": "Léa Verdillon",
+"company": "Aglaé Ventures"
+},
+"sam mcallister": {
+"name": "Sam McAllister",
+"company": "Anthropic"
+},
+"markus merz": {
+"name": "Markus Merz",
+"company": "Capnamic"
+},
+"jane rogers": {
+"name": "Jane Rogers",
+"company": "Enterprise Ireland"
+},
+"shahin dashti": {
+"name": "Shahin Dashti",
+"company": "Futury Capital"
+},
+"paddy dillon": {
+"name": "Paddy Dillon",
+"company": "Left Lane Capital"
+},
+"denis schwirtz": {
+"name": "Denis Schwirtz",
+"company": "Mangrove Capital Partners"
+},
+"tomás güida": {
+"name": "Tomás Güida",
+"company": "Shilling Capital Partners"
+},
+"andy chung": {
+"name": "Andy Chung",
+"company": "Tiny Supercomputer Investment Company"
+},
+"martina canarelli": {
+"name": "Martina Canarelli",
+"company": "United Ventures"
+},
+"paolo gesess": {
+"name": "Paolo Gesess",
+"company": "United Ventures"
+},
+"katharine mccallum": {
+"name": "Katharine McCallum",
+"company": "Atomico"
+},
+"alexander vidiborskiy": {
+"name": "Alexander Vidiborskiy",
+"company": "Atomico"
+},
+"andrea gurnari": {
+"name": "Andrea Gurnari",
+"company": "Moonfire"
+},
+"swathi vankayalapati": {
+"name": "Swathi Vankayalapati",
+"company": "Motive Partners"
+},
+"tommaso armanini": {
+"name": "Tommaso Armanini",
+"company": "The Raine"
+},
+"marisa krummrich": {
+"name": "Marisa Krummrich",
+"company": "BTOV Partners"
+},
+"moritz jungmann": {
+"name": "Moritz Jungmann",
+"company": "Future Energy Ventures"
+},
+"sai sriramagiri": {
+"name": "Sai Sriramagiri",
+"company": "EQT Ventures"
+},
+"peter schmetz": {
+"name": "Peter Schmetz",
+"company": "Vorwerk Ventures"
+},
+"ziv reichert": {
+"name": "Ziv Reichert",
+"company": "LocalGlobe"
+},
+"jakob stein": {
+"name": "Jakob Stein",
+"company": "Creandum"
+},
+"tammy winter": {
+"name": "Tammy Winter",
+"company": "Stripe"
+},
+"fernando ferreira": {
+"name": "Fernando Ferreira",
+"company": "Portugal Ventures"
+},
+"filomena pastor": {
+"name": "Filomena Pastor",
+"company": "Portugal Ventures"
+},
+"mark tluszcz": {
+"name": "Mark Tluszcz",
+"company": "Mangrove Capital Partners"
+},
+"angela strange": {
+"name": "Angela Strange",
+"company": "Andreessen Horowitz"
+},
+"lonne jaffe": {
+"name": "Lonne Jaffe",
+"company": "Insight Partners"
+},
+"nimay mehta": {
+"name": "Nimay Mehta",
+"company": "Insight Partners"
+},
+"helena bertuello": {
+"name": "Helena Bertuello",
+"company": "J.P. Morgan"
+},
+"bob thomas": {
+"name": "Bob Thomas",
+"company": "Oxx"
+},
+"daniel waterhouse": {
+"name": "Daniel Waterhouse",
+"company": "Balderton"
+},
+"jon bradford": {
+"name": "Jon Bradford",
+"company": "Dynamo Ventures"
+},
+"mahesh santiapillai": {
+"name": "Mahesh Santiapillai",
+"company": "Cambridge Enterprise"
+},
+"christine martin": {
+"name": "Christine Martin",
+"company": "Cambridge Enterprise"
+},
+"henry frankievich": {
+"name": "Henry Frankievich",
+"company": "Insight Partners"
+},
+"christophe poupinel": {
+"name": "Christophe Poupinel",
+"company": "ISAI"
+},
+"dan patrick": {
+"name": "Dan Patrick",
+"company": "British Business Investments"
+},
+"bbb office": {
+"name": "Bbb Office",
+"company": "British Business Investments"
+},
+"lisboa joana": {
+"name": "Lisboa Joana",
+"company": "European Investment Bank (EIB)"
+},
+"papadimitriou aristotle": {
+"name": "Papadimitriou Aristotle",
+"company": "European Investment Bank (EIB)"
+},
+"katona marton": {
+"name": "Katona Marton",
+"company": "European Investment Bank (EIB)"
+},
+"magazzino donato": {
+"name": "Magazzino Donato",
+"company": "European Investment Bank (EIB)"
+},
+"megan meredith-rodriguez": {
+"name": "Megan Meredith-Rodriguez",
+"company": "Cambridge Enterprise"
+},
+"georgios kolovos": {
+"name": "Georgios Kolovos",
+"company": "NVIDIA"
+},
+"christophe raynaud": {
+"name": "Christophe Raynaud",
+"company": "ISAI"
+},
+"cat mcdonald": {
+"name": "Cat McDonald",
+"company": "Albion Ventures"
+},
+"room campath": {
+"name": "Room Campath",
+"company": "Cambridge Enterprise"
+},
+"paul bailey": {
+"name": "Paul Bailey",
+"company": "Martlet"
+},
+"santiago rodriguez": {
+"name": "Santiago Rodriguez",
+"company": "Andreessen Horowitz"
+},
+"robin klein": {
+"name": "Robin Klein",
+"company": "LocalGlobe"
+},
+"poulard renaud": {
+"name": "Poulard Renaud",
+"company": "Omnes"
+},
+"aleksandra lament": {
+"name": "Aleksandra Lament",
+"company": "ETF Partners"
+},
+"christina grischov": {
+"name": "Christina Grischov",
+"company": "Mangrove Capital Partners"
+},
+"andrew williamson": {
+"name": "Andrew Williamson",
+"company": "Cambridge Innovation Capital"
+},
+"michael rabinowicz": {
+"name": "Michael Rabinowicz",
+"company": "Mangrove Capital Partners"
+},
+"alex reinert": {
+"name": "Alex Reinert",
+"company": "Accel"
+},
+"tobias winczer": {
+"name": "Tobias Winczer",
+"company": "Balderton"
+},
+"sourour chtatou": {
+"name": "Sourour Chtatou",
+"company": "Expedition Growth Capital"
+},
+"jorge campo": {
+"name": "Jorge Campo",
+"company": "K Fund"
+},
+"ana fernandez": {
+"name": "Ana Fernandez",
+"company": "Nauta"
+},
+"andrea oliver": {
+"name": "Andrea Oliver",
+"company": "Nauta"
+},
+"kieran mahanty": {
+"name": "Kieran Mahanty",
+"company": "Ontario Teachers Pension Plan"
+},
+"max bray": {
+"name": "Max Bray",
+"company": "Kindred Capital"
+},
+"hannah seal": {
+"name": "Hannah Seal",
+"company": "Index Ventures"
+},
+"kay chan": {
+"name": "Kay Chan",
+"company": "Index Ventures"
+},
+"emma kerr": {
+"name": "Emma Kerr",
+"company": "Balderton"
+},
+"olaf jacobi": {
+"name": "Olaf Jacobi",
+"company": "Capnamic"
+},
+"anna cachadina": {
+"name": "Anna Cachadina",
+"company": "Crane Venture Partners"
+},
+"maria almeida": {
+"name": "Maria Almeida",
+"company": "Portugal Ventures"
+},
+"bill corfield": {
+"name": "Bill Corfield",
+"company": "Love Ventures"
+},
+"linus dahg": {
+"name": "Linus Dahg",
+"company": "Inventure"
+},
+"molly alter": {
+"name": "Molly Alter",
+"company": "Northzone"
+},
+"amit karp": {
+"name": "Amit Karp",
+"company": "Bessemer Venture Partners"
+},
+"paula wehmeyer": {
+"name": "Paula Wehmeyer",
+"company": "General Catalyst"
+},
+"varun purandare": {
+"name": "Varun Purandare",
+"company": "Accel"
+},
+"henri tilloy": {
+"name": "Henri Tilloy",
+"company": "Singular"
+},
+"alexis frentz": {
+"name": "Alexis Frentz",
+"company": "Elaia"
+},
+"remo mahler": {
+"name": "Remo Mahler",
+"company": "Angel Invest"
+},
+"morgane zerath": {
+"name": "Morgane Zerath",
+"company": "Crane Venture Partners"
+},
+"gabriel levy": {
+"name": "Gabriel Levy",
+"company": "Datadog"
+},
+"tomer strikovsky": {
+"name": "Tomer Strikovsky",
+"company": "ETF Partners"
+},
+"daniel ziv": {
+"name": "Daniel Ziv",
+"company": "Glilot Capital"
+},
+"jimena nowack": {
+"name": "Jimena Nowack",
+"company": "IVP"
+},
+"enrico mellis": {
+"name": "Enrico Mellis",
+"company": "Lakestar"
+},
+"thomas meier": {
+"name": "Thomas Meier",
+"company": "Lightbird"
+},
+"phil edmondson-jones": {
+"name": "Phil Edmondson-Jones",
+"company": "Oxx"
+},
+"audrey miller": {
+"name": "Audrey Miller",
+"company": "Tapestry"
+},
+"adi blecher": {
+"name": "Adi Blecher",
+"company": "Team8"
+},
+"ori barzilay": {
+"name": "Ori Barzilay",
+"company": "Team8"
+},
+"davide opromolla": {
+"name": "Davide Opromolla",
+"company": "CDP Venture Capital"
+},
+"akis bratsos": {
+"name": "Akis Bratsos",
+"company": "Lakestar"
+},
+"will wells": {
+"name": "Will Wells",
+"company": "Lightspeed Venture Partners"
+},
+"kelly kung": {
+"name": "Kelly Kung",
+"company": "Accel"
+},
+"nadine torbey": {
+"name": "Nadine Torbey",
+"company": "Albion Ventures"
+},
+"jens lapinski": {
+"name": "Jens Lapinski",
+"company": "Angel Invest"
+},
+"lukas decoster": {
+"name": "Lukas Decoster",
+"company": "Hummingbird"
+},
+"dana bublil": {
+"name": "Dana Bublil",
+"company": "Target Global"
+},
+"rita goldman": {
+"name": "Rita Goldman",
+"company": "Bessemer Venture Partners"
+},
+"dana eliaz": {
+"name": "Dana Eliaz",
+"company": "Accel"
+},
+"caroline comben": {
+"name": "Caroline Comben",
+"company": "Insight Partners"
+},
+"olivier martret": {
+"name": "Olivier Martret",
+"company": "Serena"
+},
+"asheque shams": {
+"name": "Asheque Shams",
+"company": "Eight Roads"
+},
+"akhil jimmy": {
+"name": "Akhil Jimmy",
+"company": "Hitachi Ventures"
+},
+"ruben lorer": {
+"name": "Ruben Lorer",
+"company": "Junction Growth Investors"
+},
+"lauren sophocleos": {
+"name": "Lauren Sophocleos",
+"company": "Oxx"
+},
+"michael tolo": {
+"name": "Michael Tolo",
+"company": "Blackbird"
+},
+"benjamin kleinschnitz": {
+"name": "Benjamin Kleinschnitz",
+"company": "Capnamic"
+},
+"kwesi acquay": {
+"name": "Kwesi Acquay",
+"company": "Redpoint"
+},
+"morven brown": {
+"name": "Morven Brown",
+"company": "Blackbird"
+},
+"mimi snell": {
+"name": "Mimi Snell",
+"company": "Oxx"
+},
+"theo wethered": {
+"name": "Theo Wethered",
+"company": "Nauta"
+},
+"carina namih": {
+"name": "Carina Namih",
+"company": "Plural"
+},
+"anoushka vaswani": {
+"name": "Anoushka Vaswani",
+"company": "Lightspeed Venture Partners"
+},
+"ritika pai": {
+"name": "Ritika Pai",
+"company": "ICONIQ"
+},
+"sanjot malhi": {
+"name": "Sanjot Malhi",
+"company": "Northzone"
+},
+"helena barman": {
+"name": "Helena Barman",
+"company": "Antler"
+},
+"fatima vali": {
+"name": "Fatima Vali",
+"company": "Lightspeed"
+},
+"paula rossini": {
+"name": "Paula Rossini",
+"company": "La Famiglia"
+},
+"rich kotite": {
+"name": "Rich Kotite",
+"company": "Radical Ventures"
+},
+"jake storm": {
+"name": "Jake Storm",
+"company": "Felicis"
+},
+"benjamin cohen": {
+"name": "Benjamin Cohen",
+"company": "Inter Invest Capital"
+},
+"sophie napier": {
+"name": "Sophie Napier",
+"company": "Plural"
+},
+"ophelia cai": {
+"name": "Ophelia Cai",
+"company": "Tiny Supercomputer Investment Company"
+},
+"sam endacott": {
+"name": "Sam Endacott",
+"company": "Northzone"
+},
+"stephan wirries": {
+"name": "Stephan WIRRIES",
+"company": "Ventech"
+},
+"xavier lorphelin": {
+"name": "Xavier Lorphelin",
+"company": "Serena"
+},
+"simon pastor": {
+"name": "Simon Pastor",
+"company": "Index Ventures"
+},
+"samuel fitoussi": {
+"name": "Samuel Fitoussi",
+"company": "Frst"
+},
+"maxime lhoustau": {
+"name": "Maxime Lhoustau",
+"company": "Motier Ventures"
+},
+"ugo varrasso": {
+"name": "Ugo Varrasso",
+"company": "BREEGA"
+},
+"lucia rodriguez": {
+"name": "Lucia Rodriguez",
+"company": "Albion Ventures"
+},
+"sebastian hunte": {
+"name": "Sebastian Hunte",
+"company": "Albion Ventures"
+},
+"pierre tramon": {
+"name": "Pierre Tramon",
+"company": "FDJ UNITED"
+},
+"philipp werner": {
+"name": "Philipp Werner",
+"company": "Frontline Ventures"
+},
+"linda brosig": {
+"name": "Linda Brosig",
+"company": "Headline"
+},
+"amine athamena": {
+"name": "Amine Athamena",
+"company": "ICONIQ"
+},
+"julia hubo": {
+"name": "Julia Hubo",
+"company": "Motive Partners"
+},
+"martina facchin": {
+"name": "Martina Facchin",
+"company": "Target Global"
+},
+"garnier louison": {
+"name": "Garnier Louison",
+"company": "XAnge"
+},
+"desmond poon": {
+"name": "Desmond Poon",
+"company": "Antler"
+},
+"geneva bass": {
+"name": "Geneva Bass",
+"company": "Insight Partners"
+},
+"justin vibert": {
+"name": "Justin Vibert",
+"company": "Eurazeo"
+},
+"camille ha": {
+"name": "Camille Ha",
+"company": "Eurazeo"
+},
+"jeanne bouresche": {
+"name": "Jeanne Bouresche",
+"company": "Bpifrance"
+},
+"julia najman": {
+"name": "Julia Najman",
+"company": "Partech"
+},
+"felix breucker": {
+"name": "Felix Breucker",
+"company": "Kima Ventures"
+},
+"constantin fleck": {
+"name": "Constantin Fleck",
+"company": "Atomico"
+},
+"ece sagar": {
+"name": "Ece Sagar",
+"company": "Bek Ventures"
+},
+"semra sadikoglu": {
+"name": "Semra Sadikoglu",
+"company": "Bek Ventures"
+},
+"simon levy": {
+"name": "Simon Levy",
+"company": "BNVT Capital"
+},
+"andre woon": {
+"name": "Andre Woon",
+"company": "Coatue"
+},
+"leonor landeau": {
+"name": "Leonor Landeau",
+"company": "Elaia"
+},
+"louis cournot": {
+"name": "Louis Cournot",
+"company": "FDJ UNITED"
+},
+"petit-perrin guillaume": {
+"name": "Petit-Perrin Guillaume",
+"company": "Forto"
+},
+"carlos perez-pla": {
+"name": "Carlos Perez-Pla",
+"company": "Illuminate Financial"
+},
+"saran davies": {
+"name": "Saran Davies",
+"company": "Moonfire"
+},
+"camille aubery": {
+"name": "Camille Aubery",
+"company": "Station F"
+},
+"richard baillie": {
+"name": "Richard Baillie",
+"company": "Antler"
+},
+"james fong": {
+"name": "James Fong",
+"company": "Pioneer Fund"
+},
+"tobias reimann-dubbers": {
+"name": "Tobias Reimann-Dubbers",
+"company": "BNVT Capital"
+},
+"sarah finegan": {
+"name": "Sarah Finegan",
+"company": "Antler"
+},
+"meike vetter": {
+"name": "Meike Vetter",
+"company": "Forto"
+},
+"matthew saliba": {
+"name": "Matthew Saliba",
+"company": "Forto"
+},
+"surbhit rai": {
+"name": "Surbhit Rai",
+"company": "Forto"
+},
+"paul krause": {
+"name": "Paul Krause",
+"company": "British Business Investments"
+},
+"himtcheva-rouzade milena": {
+"name": "Himtcheva-rouzade Milena",
+"company": "European Investment Bank (EIB)"
+},
+"prikoszovits lucia": {
+"name": "Prikoszovits Lucia",
+"company": "European Investment Fund (EIF)"
+},
+"matt peplow": {
+"name": "Matt Peplow",
+"company": "LocalGlobe"
+},
+"zhenya loginov": {
+"name": "Zhenya Loginov",
+"company": "Accel"
+},
+"isaiah baril-dore": {
+"name": "Isaiah Baril-Dore",
+"company": "Index Ventures"
+},
+"shannon harrington": {
+"name": "Shannon Harrington",
+"company": "Balderton"
+},
+"dennis eriksson": {
+"name": "Dennis Eriksson",
+"company": "Northzone"
+},
+"lucy o'brien": {
+"name": "Lucy O'Brien",
+"company": "Eight Roads"
+},
+"liv parry": {
+"name": "Liv Parry",
+"company": "General Catalyst"
+},
+"amy weyler": {
+"name": "Amy Weyler",
+"company": "Bessemer Venture Partners"
+},
+"peter clarke": {
+"name": "Peter Clarke",
+"company": "Accel"
+},
+"dani andrade": {
+"name": "Dani Andrade",
+"company": "Ten Eleven Ventures"
+},
+"roxie rum": {
+"name": "Roxie Rum",
+"company": "IVP"
+},
+"khaled helioui": {
+"name": "Khaled Helioui",
+"company": "Plural"
+},
+"andré dubois": {
+"name": "André Dubois",
+"company": "Index Ventures"
+},
+"mailys ferrere": {
+"name": "Mailys Ferrere",
+"company": "Bpifrance"
+},
+"christian saller": {
+"name": "Christian Saller",
+"company": "HV"
+},
+"ted persson": {
+"name": "Ted Persson",
+"company": "EQT Ventures"
+},
+"laura scaramella": {
+"name": "Laura Scaramella",
+"company": "CDP Venture Capital"
+},
+"romain lavault": {
+"name": "Romain LAVAULT",
+"company": "Partech"
+},
+"jason schretter": {
+"name": "Jason Schretter",
+"company": "The Raine"
+},
+"fred davis": {
+"name": "Fred Davis",
+"company": "The Raine"
+},
+"secretariat york": {
+"name": "Secretariat York",
+"company": "Index Ventures"
+},
+"christine ambrose": {
+"name": "Christine Ambrose",
+"company": "The Raine"
+},
+"raffi kamber": {
+"name": "Raffi KAMBER",
+"company": "Singular"
+},
+"malin posern": {
+"name": "Malin Posern",
+"company": "Index Ventures"
+},
+"mariana santini": {
+"name": "Mariana Santini",
+"company": "Angular Ventures"
+},
+"camilla hellgren": {
+"name": "Camilla Hellgren",
+"company": "EQT Ventures"
+},
+"boris golden": {
+"name": "Boris Golden",
+"company": "Partech"
+},
+"joydeep bhattacharyya": {
+"name": "Joydeep Bhattacharyya",
+"company": "Canaan"
+},
+"alfred vericel": {
+"name": "Alfred Vericel",
+"company": "Red River West"
+},
+"colombe moinet": {
+"name": "Colombe Moinet",
+"company": "Cathay Innovation"
+},
+"tuan tran": {
+"name": "Tuan Tran",
+"company": "Bpifrance"
+},
+"yassine brahimi": {
+"name": "Yassine Brahimi",
+"company": "Crédit Agricole CIB"
+},
+"joy boustani": {
+"name": "Joy Boustani",
+"company": "Bpifrance"
+},
+"david skok": {
+"name": "David Skok",
+"company": "Matrix Partners"
+},
+"reginald wasseige": {
+"name": "Reginald Wasseige",
+"company": "Eurazeo"
+},
+"damien fietta": {
+"name": "Damien FIETTA",
+"company": "Eurazeo"
+},
+"rodolphe menegaux": {
+"name": "Rodolphe Menegaux",
+"company": "Alven"
+},
+"denis ludovic": {
+"name": "Denis Ludovic",
+"company": "Seventure Partners"
+},
+"david manjarres": {
+"name": "David Manjarres",
+"company": "Seventure Partners"
+},
+"staffan morndal": {
+"name": "Staffan Morndal",
+"company": "Verdane"
+},
+"oliver thomas": {
+"name": "Oliver Thomas",
+"company": "Expedition Growth Capital"
+},
+"paul lauriston": {
+"name": "Paul Lauriston",
+"company": "Bpifrance"
+},
+"timothée mas": {
+"name": "Timothée Mas",
+"company": "Bpifrance"
+},
+"tobias jahn": {
+"name": "Tobias Jahn",
+"company": "Hitachi Ventures"
+},
+"remus brett": {
+"name": "Remus Brett",
+"company": "LocalGlobe"
+},
+"harsh govil": {
+"name": "Harsh Govil",
+"company": "Motive Partners"
+},
+"aude steinberg": {
+"name": "Aude Steinberg",
+"company": "Alven"
+},
+"sofia spiegel-renshaw": {
+"name": "Sofia Spiegel-Renshaw",
+"company": "Cambridge Enterprise"
+},
+"alex morgan": {
+"name": "Alex Morgan",
+"company": "Khosla Ventures"
+},
+"françois meteyer": {
+"name": "François Meteyer",
+"company": "Alven"
+},
+"davor hebel": {
+"name": "Davor Hebel",
+"company": "Eight Roads"
+},
+"denis barrier": {
+"name": "Denis Barrier",
+"company": "INNOVACOM"
+},
+"dirk meurer": {
+"name": "Dirk Meurer",
+"company": "Vorwerk Ventures"
+},
+"abdi adan": {
+"name": "Abdi Adan",
+"company": "Insight Partners"
+},
+"adrian kreiser": {
+"name": "Adrian Kreiser",
+"company": "Eurazeo"
+},
+"raja ohri": {
+"name": "Raja Ohri",
+"company": "Expedition Growth Capital"
+},
+"maria percuklievska": {
+"name": "Maria Percuklievska",
+"company": "Expedition Growth Capital"
+},
+"elina neu": {
+"name": "Elina Neu",
+"company": "Yttrium"
+},
+"ioana iacobescu": {
+"name": "Ioana Iacobescu",
+"company": "Eurazeo"
+},
+"dawid sugier": {
+"name": "Dawid Sugier",
+"company": "Inovo VC"
+},
+"lorenzo cerchi": {
+"name": "Lorenzo Cerchi",
+"company": "Singular"
+},
+"céline passedouet": {
+"name": "Céline Passedouet",
+"company": "Elaia"
+},
+"luca limoncelli": {
+"name": "Luca Limoncelli",
+"company": "CDP Venture Capital"
+},
+"giorgio oriani": {
+"name": "Giorgio Oriani",
+"company": "Galaxy"
+},
+"louis frach": {
+"name": "Louis Frach",
+"company": "Left Lane Capital"
+},
+"mario scuderi": {
+"name": "Mario Scuderi",
+"company": "CDP Venture Capital"
+},
+"klaudyna augler": {
+"name": "Klaudyna Augler",
+"company": "Partech"
+},
+"uk shoreditch": {
+"name": "Uk Shoreditch",
+"company": "New Enterprise Associates (NEA)"
+},
+"jeremy uzan": {
+"name": "Jeremy Uzan",
+"company": "Singular"
+},
+"aydin senkut": {
+"name": "Aydin Senkut",
+"company": "Felicis"
+},
+"logan bartlett": {
+"name": "Logan Bartlett",
+"company": "Redpoint"
+},
+"seth pierrepont": {
+"name": "Seth Pierrepont",
+"company": "ICONIQ"
+},
+"matt gatto": {
+"name": "Matt Gatto",
+"company": "Insight Partners"
+},
+"elise stern": {
+"name": "Elise Stern",
+"company": "Eurazeo"
+},
+"paul vider": {
+"name": "Paul Vider",
+"company": "Partech"
+},
+"hillary ball": {
+"name": "Hillary Ball",
+"company": "Atomico"
+},
+"josh bell": {
+"name": "Josh Bell",
+"company": "Dawn Capital"
+},
+"lucile cornet": {
+"name": "Lucile Cornet",
+"company": "Eight Roads"
+},
+"christopher souza": {
+"name": "Christopher Souza",
+"company": "Elephant"
+},
+"shalini rao": {
+"name": "Shalini Rao",
+"company": "Headline"
+},
+"felix kluehr": {
+"name": "Felix Kluehr",
+"company": "HV"
+},
+"vijay khanna": {
+"name": "Vijay Khanna",
+"company": "UiPath"
+},
+"tim kindt": {
+"name": "Tim Kindt",
+"company": "Yttrium"
+},
+"vanessa paredes": {
+"name": "Vanessa Paredes",
+"company": "Felicis"
+},
+"james green": {
+"name": "James Green",
+"company": "CRV"
+},
+"ben fletcher": {
+"name": "Ben Fletcher",
+"company": "Accel"
+},
+"joe farned": {
+"name": "Joe Farned",
+"company": "Insight Partners"
+},
+"arjun mehta": {
+"name": "Arjun Mehta",
+"company": "Insight Partners"
+},
+"arthur paleologos": {
+"name": "Arthur Paleologos",
+"company": "Insight Partners"
+},
+"chelsea chen": {
+"name": "Chelsea Chen",
+"company": "Insight Partners"
+},
+"wyatt horan": {
+"name": "Wyatt Horan",
+"company": "Anthropic"
+},
+"matt miller": {
+"name": "Matt Miller",
+"company": "Evantic"
+},
+"room 22": {
+"name": "Room 22",
+"company": "IVP"
+},
+"nils seele": {
+"name": "Nils Seele",
+"company": "LEA Partners"
+},
+"kevin meier": {
+"name": "Kevin Meier",
+"company": "SAP"
+},
+"julian klose": {
+"name": "Julian Klose",
+"company": "SAP"
+},
+"deepa gautam-nigge": {
+"name": "Deepa Gautam-Nigge",
+"company": "SAP"
+},
+"alexandra dombrowski": {
+"name": "Alexandra Dombrowski",
+"company": "Target Global"
+},
+"michael treskow": {
+"name": "Michael Treskow",
+"company": "Eight Roads"
+},
+"shravan narayen": {
+"name": "Shravan Narayen",
+"company": "IVP"
+},
+"maria dowling": {
+"name": "Maria Dowling",
+"company": "Sequoia Capital"
+},
+"madeleine conway": {
+"name": "Madeleine Conway",
+"company": "Sequoia Capital"
+},
+"vivien monory": {
+"name": "Vivien Monory",
+"company": "Evantic"
+},
+"jeppe zink": {
+"name": "Jeppe Zink",
+"company": "Northzone"
+},
+"adrian lloyd": {
+"name": "Adrian Lloyd",
+"company": "EPISODE 1"
+},
+"lauren bonett": {
+"name": "Lauren Bonett",
+"company": "Insight Partners"
+},
+"melanie galang": {
+"name": "Melanie Galang",
+"company": "Andreessen Horowitz"
+},
+"mary stern": {
+"name": "Mary Stern",
+"company": "Redpoint"
+},
+"sarah wang": {
+"name": "Sarah Wang",
+"company": "Andreessen Horowitz"
+},
+"harriet dedman": {
+"name": "Harriet Dedman",
+"company": "Tiny Supercomputer Investment Company"
+},
+"kasia koleda": {
+"name": "Kasia Koleda",
+"company": "Index Ventures"
+},
+"shuli levy": {
+"name": "Shuli Levy",
+"company": "Expedition Growth Capital"
+},
+"phoebe walsh": {
+"name": "Phoebe Walsh",
+"company": "Silicon Valley Bank"
+},
+"nancy straface": {
+"name": "Nancy Straface",
+"company": "Bessemer Venture Partners"
+},
+"jackson heddy": {
+"name": "Jackson Heddy",
+"company": "Northzone"
+},
+"rob quirke": {
+"name": "Rob Quirke",
+"company": "Osprey Investors"
+},
+"ben dooley": {
+"name": "Ben Dooley",
+"company": "Accel"
+},
+"pedro espinoza": {
+"name": "Pedro Espinoza",
+"company": "Bessemer Venture Partners"
+},
+"claire carroll": {
+"name": "Claire Carroll",
+"company": "Enterprise Ireland"
+},
+"eimear nuallain": {
+"name": "Eimear Nuallain",
+"company": "Enterprise Ireland"
+},
+"andres rené": {
+"name": "ANDRES René",
+"company": "European Investment Fund (EIF)"
+},
+"marchal sarah": {
+"name": "Marchal Sarah",
+"company": "European Investment Fund (EIF)"
+},
+"rajee seelan": {
+"name": "Rajee Seelan",
+"company": "LocalGlobe"
+},
+"rainer märkle": {
+"name": "Rainer Märkle",
+"company": "HV"
+},
+"nikhil trivedi": {
+"name": "Nikhil Trivedi",
+"company": "Insight Partners"
+},
+"alex pitt": {
+"name": "Alex Pitt",
+"company": "MSM fund (Mustard Seed Maze)"
+},
+"andy hunt": {
+"name": "Andy Hunt",
+"company": "Elephant"
+},
+"anett posza": {
+"name": "Anett Posza",
+"company": "Target Global"
+},
+"nnamdi okike": {
+"name": "Nnamdi Okike",
+"company": "Insight Partners"
+},
+"jo corkran": {
+"name": "Jo Corkran",
+"company": "Golden Seeds"
+},
+"cian cotter": {
+"name": "Cian Cotter",
+"company": "Insight Partners"
+},
+"rexhi dollaku": {
+"name": "Rexhi Dollaku",
+"company": "Base10 Partners"
+},
+"rachel ward": {
+"name": "Rachel Ward",
+"company": "Left Lane Capital"
+},
+"mark pettit": {
+"name": "Mark Pettit",
+"company": "Connect Ventures"
+},
+"jonathan turner": {
+"name": "Jonathan Turner",
+"company": "Accel"
+},
+"jerome faul": {
+"name": "Jerome Faul",
+"company": "INNOVACOM"
+},
+"nilufer ayangil": {
+"name": "Nilufer Ayangil",
+"company": "Bek Ventures"
+},
+"fredrik halvorsen": {
+"name": "Fredrik Halvorsen",
+"company": "UBON PARTNERS"
+},
+"remy tonnac": {
+"name": "Remy Tonnac",
+"company": "ETF Partners"
+},
+"victoria jevremovic": {
+"name": "Victoria Jevremovic",
+"company": "Serena"
+},
+"helene brouillard": {
+"name": "Helene Brouillard",
+"company": "Singular"
+},
+"stéphanie nizard": {
+"name": "Stéphanie Nizard",
+"company": "Serena"
+},
+"slavi arnaudov": {
+"name": "Slavi Arnaudov",
+"company": "Atomico"
+},
+"alexandra tsylnitska": {
+"name": "Alexandra Tsylnitska",
+"company": "Dawn Capital"
+},
+"marc rizk": {
+"name": "Marc Rizk",
+"company": "Hummingbird"
+},
+"ani mouradyan": {
+"name": "Ani Mouradyan",
+"company": "Hummingbird"
+},
+"stella buhalis": {
+"name": "Stella Buhalis",
+"company": "Nauta"
+},
+"ben clark": {
+"name": "Ben Clark",
+"company": "Lakestar"
+},
+"joe mckeever": {
+"name": "Joe McKeever",
+"company": "Evantic"
+},
+"liam corrigan": {
+"name": "Liam Corrigan",
+"company": "Sequoia Capital"
+},
+"weise kurt": {
+"name": "Weise Kurt",
+"company": "LEA Partners"
+}
+}

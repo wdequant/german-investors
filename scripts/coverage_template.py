@@ -737,7 +737,7 @@ body.mkmode{cursor:crosshair}
 .t3row .t3what{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;flex:none;width:96px}
 @media(max-width:700px){
   .nrow{flex-wrap:wrap;row-gap:2px}
-  .nrow .nf{flex-basis:100%;padding-left:36px}
+  .nrow .nf{flex-basis:100%;padding-left:36px;white-space:normal}
   .t3row .t3what{width:auto;flex-basis:100%}
 }
 </style>
@@ -1465,8 +1465,8 @@ function netRow(e,who){
   const cad=cadOf(e), cold=isCold(e), mo=moAgo(e.l);
   return `<div class="nrow${cold?' cold':''}">
     <b class="mbub ${easeTierOf(e.p)}">${e.p}</b>
-    <span class="nm">${e.n}</span>${everTag({ever:e.v})}
-    <span class="nf">${e.f}</span>
+    <span class="nm"${e.t?` title="${e.t}"`:''}>${e.n}</span>${everTag({ever:e.v})}
+    <span class="nf">${e.f||e.d||''}${e.c?` · ${e.c}`:''}</span>
     <span class="nl">${e.l?`${fmtD(e.l)}${cold?` · ${Math.round(mo)} mo`:''}`:'no touch logged'}</span>
     <button class="cadchip${cad?' on':''}" data-cad="${encodeURIComponent(e.n+'|'+e.f)}" data-cur="${cad}" title="How often you want to touch this relationship — click to change">${cad?`every ${cad}mo`:'no cadence'}</button>
     ${e.e?`<a class="nmail" href="${rewarmMail(e,who)}" title="Email ${e.n.split(' ')[0]}">✉</a>`:''}

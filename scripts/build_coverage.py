@@ -498,6 +498,7 @@ for _bn, _bm in (load_json(f"{ROOT}/data/enrich/backer-domains.json", {}) or {})
     _d0 = (_bm.get("domain") or "").lower().removeprefix("www.")
     if _d0 and _d0 not in _bd2:
         _bd2[_d0] = _bn
+_pm = load_json(f"{ROOT}/data/enrich/person-meta.json", {}) or {}   # Harmonic role check: investor? title? city?
 _mynet, _knew = {}, {}
 def _net_add(intern, entry):
     _mynet.setdefault(intern, []).append(entry)
@@ -542,17 +543,57 @@ for _dm, _bv in (_brels or {}).items():
         _net_add(_in, {"n": _ex, "f": _bnm, "d": _dm, "p": _pc,
                        "l": _r2.get("last"), "m": _r2.get("meet"),
                        "e": _r2.get("externalEmail"), "v": _st2 == "current"})
+for _rk3, _reg3 in regions.items():   # angels: the contact IS the entity
+    for _e4 in _reg3["entities"]:
+        if _e4["kind"] != "angel":
+            continue
+        _af = load_json(f"{ROOT}/data/{_rk3}/affinity/angel-{_e4['slug']}.json", {}) or {}
+        for _r3 in _af.get("relationships") or []:
+            _in = _NM.get(_r3.get("internal"), _r3.get("internal"))
+            _pc = round((_r3.get("score") or 0) * 100)
+            if _in in _EX or _pc < 15:
+                continue
+            if _pc >= 40:
+                _knew.setdefault(_e4["name"], set()).add(_in)
+            _net_add(_in, {"n": _e4["name"], "f": "Angel", "s": _e4["slug"], "g": _rk3,
+                           "p": _pc, "l": None, "m": None, "e": None, "v": True,
+                           "c": _e4.get("city")})
+for _in4, _ces in (load_json(f"{ROOT}/data/enrich/compass-network.json", {}) or {}).items():
+    if _in4 in _EX:   # calendar-derived investor contacts (Compass), beyond tracked funds
+        continue
+    for _ce in _ces:
+        if (_ce.get("p") or 0) >= 15 and _ce.get("n"):
+            _net_add(_in4, {"n": _ce["n"], "f": _ce.get("f"), "d": _ce.get("d"),
+                            "p": _ce["p"], "l": _ce.get("l"), "m": _ce.get("l"),
+                            "e": _ce.get("e"), "v": False, "src": "cal"})
+            if _ce["p"] >= 40:
+                _knew.setdefault(_ce["n"], set()).add(_in4)
 for _k2 in _mynet:   # dedupe same contact tracked under two region entries, strongest first, cap
     _best = {}
     for _e3 in _mynet[_k2]:
-        _old = _best.get(_e3["n"])
-        if _old is None or (_e3["v"], _e3["p"], _e3.get("l") or "") > (_old["v"], _old["p"], _old.get("l") or ""):
-            _best[_e3["n"]] = _e3
+        _m3 = _pm.get((_e3["n"] or "").lower()) or {}
+        if _m3.get("inv") is False:   # Harmonic says assistant/ops, or Will flagged: not network
+            continue
+        if _m3.get("inv") is True:
+            _e3["v"] = True
+        if _m3.get("title"):
+            _e3["t"] = _m3["title"]
+        if _m3.get("city"):   # Harmonic location beats curated entity city
+            _e3["c"] = _m3["city"]
+        _old = _best.get(_e3["n"].lower())
+        if _old is None:
+            _best[_e3["n"].lower()] = _e3
+        else:
+            if (_e3.get("l") or "") > (_old.get("l") or ""):   # keep freshest touch either way
+                _old["l"], _old["m"] = _e3["l"], _e3.get("m")
+            if (_e3["v"], _e3["p"]) > (_old["v"], _old["p"]):
+                _e3["l"], _e3["m"] = _old["l"], _old.get("m")
+                _best[_e3["n"].lower()] = _e3
     _mynet[_k2] = sorted(_best.values(), key=lambda x: -x["p"])[:400]
 _movers, _mvseen = [], set()
 def _mv_add(name, from_name, info):
     _nk = name.lower()   # "Omri BENAYOUN" and "Omri Benayoun" are one person
-    if _nk in _mvseen:
+    if _nk in _mvseen or (_pm.get(_nk) or {}).get("inv") is False:
         return
     _mvseen.add(_nk)
     _md = _mvdates.get(name) or {}
