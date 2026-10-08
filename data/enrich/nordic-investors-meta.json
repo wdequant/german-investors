@@ -289,5 +289,293 @@
   "type": "Other",
   "stage": "Early",
   "note": "Copenhagen venture studio (Founders A/S); first cheques go into its own spinouts."
+ },
+ "foundryventures.ai": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "AI-focused early-stage investor, Stockholm (Harmonic investor record)."
+ },
+ "fov.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish/UK VC for XR and spatial computing."
+ },
+ "framtid.tech": {
+  "verdict": "fund",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Swedish collective of entrepreneurs and operators investing together."
+ },
+ "futuristic.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish pre-seed micro-VC."
+ },
+ "gorillacapital.fi": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish pre-seed VC."
+ },
+ "greencode.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish/German climate-tech VC."
+ },
+ "greens.ventures": {
+  "verdict": "fund",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "50+ Spotify alumni investing pre-seed in Nordic founders."
+ },
+ "gungnir.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Defence-tech early-stage fund (tactical autonomy, robotics, cyber)."
+ },
+ "hmgroupventures.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "H&M Group's venture arm."
+ },
+ "healthincubatorhelsinki.com": {
+  "verdict": "drop",
+  "note": "City of Helsinki incubator programme; no equity cheque."
+ },
+ "healthcap.eu": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Nordic life-sciences VC."
+ },
+ "heartcore.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Copenhagen consumer/B2C VC."
+ },
+ "helenventures.fi": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Venture arm of Helsinki energy company Helen."
+ },
+ "icebreaker.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish pre-seed/seed VC."
+ },
+ "idcventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Copenhagen-based, fintech/marketplaces, global mandate."
+ },
+ "idekapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Norwegian software investor, Series A and beyond."
+ },
+ "ideoninnovation.se": {
+  "verdict": "drop",
+  "note": "Incubator at Ideon science park; no equity cheque."
+ },
+ "ideon.se": {
+  "verdict": "drop",
+  "note": "Science park, not an investor."
+ },
+ "illusian.org": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Family office of Ilkka Paananen (Supercell co-founder/CEO), Helsinki."
+ },
+ "inboxcap.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Harmonic lists it as an investor; limited public info."
+ },
+ "inceptionfund.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish early-stage fund (Harmonic investor record); limited public info."
+ },
+ "industrifonden.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Evergreen Swedish foundation fund."
+ },
+ "innovationsfonden.dk": {
+  "verdict": "drop",
+  "note": "Innovation Fund Denmark: grants and soft funding; Danish state equity flows through EIFO (separate record, stays)."
+ },
+ "innovasjonnorge.no": {
+  "verdict": "drop",
+  "note": "Grants and loans, not equity cheques; Norwegian state equity flows through Investinor (separate record, stays)."
+ },
+ "innovestorgroup.com": {
+  "verdict": "fund",
+  "name": "Innovestor",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish VC and angel co-investment platform."
+ },
+ "inventure.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish early-stage VC."
+ },
+ "investinor.no": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Norwegian state investment company; direct equity."
+ },
+ "j12ventures.com": {
+  "verdict": "fund",
+  "name": "J12 Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm early-stage VC."
+ },
+ "karaokeclub.io": {
+  "verdict": "fund",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Danish founder community whose membership comes with a EUR 50k investment; micro pre-seed cheques."
+ },
+ "katapult.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian impact investor (ocean/climate); accelerator funds that take equity."
+ },
+ "kinnevik.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Listed investment company; active growth-stage cheques into tech."
+ },
+ "klp.no": {
+  "verdict": "drop",
+  "note": "Norwegian pension fund; LP, not a direct venture investor."
+ },
+ "kompas.vc": {
+  "verdict": "fund",
+  "name": "KOMPAS VC",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Corporate-backed proptech/construction-tech VC, Copenhagen/Berlin."
+ },
+ "kvanted.com": {
+  "verdict": "fund",
+  "name": "Kvanted Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish industrial-tech VC."
+ },
+ "kvantia.no": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Harmonic lists it as an investor; little public info. Kept so a possibly real fund is not hidden; verify."
+ },
+ "lifelineventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish seed VC."
+ },
+ "likeminded.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish early-stage VC investing through an operator network (Harmonic)."
+ },
+ "linkcapital.no": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Norwegian growth investor."
+ },
+ "luinnovation.lu.se": {
+  "verdict": "drop",
+  "note": "Lund University TTO; no venture cheque."
+ },
+ "luminarventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish seed VC."
+ },
+ "growth.maersk.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Maersk's venture arm."
+ },
+ "maki.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish seed VC."
+ },
+ "mandatumam.com": {
+  "verdict": "fund",
+  "name": "Mandatum AM Growth Equity",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "The relevant vehicle: MAM Growth Equity II (EUR 140m, Finland's largest active growth fund; EUR 10-30m minority cheques into EUR 10-100m revenue companies). The wider asset manager is not venture-relevant."
+ },
+ "momentumpartners.no": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Bergen-based early-stage investor."
+ },
+ "morrowvc.com": {
+  "verdict": "fund",
+  "name": "Morrow Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish investor (Harmonic investor record); limited public info."
+ },
+ "mppensjon.no": {
+  "verdict": "drop",
+  "note": "Pension fund; not a venture investor."
+ },
+ "mudcake.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm foodtech seed VC."
+ },
+ "naava.io": {
+  "verdict": "drop",
+  "note": "Operating company (green walls / indoor-air purification), mislabeled as investor."
+ },
+ "nascent.se": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Swedish evergreen investor backing teams at the nascent stage."
+ },
+ "navigareventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish deep-tech/science VC (Wallenberg-backed)."
  }
 }
