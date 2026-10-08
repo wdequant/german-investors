@@ -578,6 +578,9 @@ for _in4, _ces in (load_json(f"{ROOT}/data/enrich/compass-network.json", {}) or 
     if _in4 in _EX:   # calendar-derived investor contacts (Compass), beyond tracked funds
         continue
     for _ce in _ces:
+        _st6 = ((_bflags2.get((_ce.get("d") or "").lower()) or {}).get(_ce.get("n")) or {}).get("status")
+        if _st6 == "moved":
+            continue   # employment flags apply to calendar-derived contacts too
         if (_ce.get("p") or 0) >= 15 and _ce.get("n"):
             _net_add(_in4, {"n": _ce["n"], "f": _ce.get("f"), "d": _ce.get("d"),
                             "p": _ce["p"], "l": _ce.get("l"), "m": _ce.get("l"),

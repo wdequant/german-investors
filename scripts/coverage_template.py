@@ -744,6 +744,8 @@ body.mkmode{cursor:crosshair}
 .cmdet{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px}
 .cmv2grid{display:grid;grid-template-columns:7fr 5fr;gap:18px;align-items:start;margin-top:4px}
 @media(max-width:1000px){.cmv2grid{grid-template-columns:1fr}}
+.cmspendcols{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
+@media(max-width:1250px){.cmspendcols{grid-template-columns:1fr}}
 .cmspend{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:10px}
 .cmspend.go{cursor:pointer;transition:border-color .12s, box-shadow .12s}
 .cmspend.go:hover{border-color:var(--accent);box-shadow:0 3px 14px rgba(39,51,240,.08)}
@@ -1661,7 +1663,7 @@ function cmGlyphSvg(e,me,px){
 }
 function cmLegend(me){
   return `<div class="cmlegend">
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/></svg>size = how much the fund matters (your pipeline + Highland deal flow)</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/></svg>size = how much the ${(MAP.lvl==='l0'||MAP.lvl==='l1')?'area matters (deal flow + team pipeline)':'fund matters (your pipeline + Highland deal flow)'}</span>
     <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/></svg>pale disc = team coverage</span>
     <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" fill="#2e7d4f"/></svg>solid centre = ${me?'your':'my'} coverage</span>
     <span class="cmlgi">${['#c2452f','#d96a2b','#c98a1b','#2e7d4f'].map(c=>`<i class="cmdot" style="background:${c}"></i>`).join('')}cold → strong</span>
@@ -1680,7 +1682,7 @@ function apMap(){
   const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
   let main;
   if(MAP.ent) main=cmDetail(me);
-  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.reg]||CM.vb.l0).join(' ')}" preserveAspectRatio="${MAP.lvl==='l0'?'xMidYMid slice':'xMidYMid meet'}">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
+  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.reg]||CM.vb.l0).join(' ')}" preserveAspectRatio="${MAP.lvl==='l0'?'xMidYMid slice':'xMidYMid meet'}">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
   else main=cmCountryPage(me);
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
@@ -1766,12 +1768,9 @@ function cmTarget(e,me){
   const ppl=[...(e.people||[])].sort((a,b)=>(SRRANK[a.sr]??3)-(SRRANK[b.sr]??3));
   return ppl.find(p=>!me||(p.r[me]||0)<15)||ppl[0];
 }
-function cmSpendCards(me,sel){
-  const cards=[...sel].sort((a,b)=>cmU(b,me).m-cmU(a,me).m)
-    .filter(e=>{const u=cmU(e,me);return u.st==='build'||u.st==='maintain';}).slice(0,8)
-    .map(e=>{
+function cmSpendList(me,list){
+  const cards=list.map(e=>{
       const u=cmU(e,me);
-      const state=u.st==='build'?'Build':'Re-engage';
       const myN=(()=>{let n=0;Object.entries(e.pipe||{}).forEach(([bk,v])=>{if(bk!=='portfolio')v.forEach(co=>{if(co.o&&co.o.includes(me))n++;});});return n;})();
       const h2cN=((e.pipe||{}).hard||[]).length;
       const chips=[];
@@ -1781,11 +1780,11 @@ function cmSpendCards(me,sel){
       if(myN>0) chips.push(['pipe','Active in your pipe']);
       else if(h2cN>0) chips.push(['pipe',`Backs ${h2cN} H2C${h2cN>1?'s':''}`]);
       return `<div class="cmspend go" data-cment="${e.slug}" tabindex="0">
-        <div class="cmfn">${e.name} <span class="cmst ${u.st}">${state}</span></div>
+        <div class="cmfn">${e.name}</div>
         <div class="cmbigs">${chips.slice(0,3).map(([k,l])=>`<span class="cmbig ${k}">${l}</span>`).join('')||'<span class="cmbig">Top deal flow here</span>'}</div>
       </div>`;
     }).join('');
-  return cards||'<div class="aphint">Nothing to build here.</div>';
+  return cards||'<div class="aphint">None right now.</div>';
 }
 function cmWhoRows(me){
   const rows=(CM.who||{})[MAP.cc]||[];
@@ -1822,8 +1821,13 @@ function cmCountryPage(me){
   return `<div class="cmhead">${CM.ccName[cc]}: your coverage is <b>${qu}</b>, the team's is ${qt}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.</div>
     <div class="cmv2grid">
       <div>
-        <div class="apsec">Where to spend time</div>
-        ${cmSpendCards(me,[...short,...selAff])}
+        ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
+          const builds=all.filter(e=>cmU(e,me).st==='build').slice(0,6);
+          const reng=all.filter(e=>cmU(e,me).st==='maintain').slice(0,6);
+          return `<div class="cmspendcols">
+            <div><div class="apsec">Build</div>${cmSpendList(me,builds)}</div>
+            <div><div class="apsec">Re-engage</div>${cmSpendList(me,reng)}</div>
+          </div>`;})()}
       </div>
       <div>
         <div class="apsec">Who do you know in ${CM.ccName[cc]} <span class="aptog" style="margin-left:8px"><button data-cmwho="me"${!MAP.whoTeam?' class="on"':''}>Mine</button><button data-cmwho="team"${MAP.whoTeam?' class="on"':''}>Team</button></span></div>
