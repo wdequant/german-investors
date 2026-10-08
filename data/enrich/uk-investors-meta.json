@@ -1,0 +1,2498 @@
+{
+ "highlandeurope.com": {
+  "verdict": "drop",
+  "note": "us"
+ },
+ "10xvaluepartners.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Felix Haas's Munich/London investment firm; opportunistic tech cheques."
+ },
+ "13bookscapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Fintech specialist seed/Series A fund; strong UK fintech pipeline feeder."
+ },
+ "thetwentyminutevc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Harry Stebbings's 20VC funds (seed through 20Growth); exceptional founder access."
+ },
+ "2100.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Early-stage fund backing European B2B; small and young."
+ },
+ "2150.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Urban-sustainability VC (Series A/B climate tech for cities); Copenhagen/London."
+ },
+ "6degrees.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Fintech-focused seed/A fund, London/Brussels."
+ },
+ "7pc.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "7percent Ventures, pre-seed/seed deeptech and frontier bets."
+ },
+ "83north.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "London/Tel Aviv fund, Series A through growth; Israeli-UK axis, strong enterprise portfolio."
+ },
+ "8point8capital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint; noise."
+ },
+ "accelerateventures.co.uk": {
+  "verdict": "drop",
+  "note": "No calls, minimal footprint; not a recognised UK fund."
+ },
+ "acfinvestors.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "ACF Investors (ex-Angel CoFund), co-invests alongside angel syndicates."
+ },
+ "active.partners": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Consumer-brand growth investor (Soho House, Leon heritage); consumer only."
+ },
+ "adaventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Inclusive-thesis seed fund (Check Warner); credible seed feeder."
+ },
+ "adjuvo.com": {
+  "verdict": "drop",
+  "note": "Private angel/investor club, not a fund."
+ },
+ "accelerated.ventures": {
+  "verdict": "drop",
+  "note": "ADV (Accelerated Digital Ventures) effectively wound down; no new investments."
+ },
+ "aria.org.uk": {
+  "verdict": "drop",
+  "note": "UK government R&D funding agency (grants), not an investor."
+ },
+ "aerionpartners.com": {
+  "verdict": "drop",
+  "note": "Corporate finance advisory boutique, not a fund."
+ },
+ "xelerated.aero": {
+  "verdict": "drop",
+  "note": "Boeing-backed aerospace accelerator programme."
+ },
+ "ahreninnovationcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Cambridge deep-science fund (Suranga Chandratillake co-founded); large cheques into DeepTech."
+ },
+ "aiseedfund.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Micro-fund for pre-seed AI; small."
+ },
+ "airstreet.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Nathan Benaich's AI-first seed fund; best-networked AI seed investor in London."
+ },
+ "alandacapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Low-profile London growth/crossover investor in tech."
+ },
+ "albion.capital": {
+  "verdict": "alias",
+  "note": "Parent group record; AlbionVC is the venture arm.",
+  "alias_of": "albion.vc",
+  "name": "AlbionVC"
+ },
+ "albion.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Series A B2B software and digital health; consistent UK pipeline source."
+ },
+ "alicorn-vp.com": {
+  "verdict": "drop",
+  "note": "No calls, minimal footprint; not a recognised UK fund."
+ },
+ "allica.bank": {
+  "verdict": "drop",
+  "note": "SME challenger bank, not an investor."
+ },
+ "alma-angels.com": {
+  "verdict": "drop",
+  "note": "Angel community for female founders, not a fund."
+ },
+ "aloniq.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Low-profile London growth investor; limited public footprint."
+ },
+ "amadeuscapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Deeptech-focused, Cambridge roots; seed through growth via separate vehicles."
+ },
+ "amplifierlab.io": {
+  "verdict": "drop",
+  "note": "No calls and unclear entity; likely mislabeled record."
+ },
+ "angliacapitalgroup.co.uk": {
+  "verdict": "drop",
+  "note": "Norfolk angel network, not a fund."
+ },
+ "angularventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Enterprise/deeptech seed, London/Tel Aviv (Gil Dibner)."
+ },
+ "anthemis.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Fintech specialist; quieter post-2022 but deep fintech networks."
+ },
+ "apax.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Large-cap PE; Apax Digital does growth software. Exit buyer more than co-investor."
+ },
+ "apis.pe": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Fintech growth equity, emerging-markets tilt."
+ },
+ "araya.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Rupa Popat's early-stage fund; consumer/commerce tilt, small."
+ },
+ "archangelsonline.com": {
+  "verdict": "drop",
+  "note": "Edinburgh angel syndicate, not a fund."
+ },
+ "arm.com": {
+  "verdict": "drop",
+  "note": "Operating company (semiconductors), not an investor record."
+ },
+ "ascension.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "High-volume EIS/SEIS seed manager; impact and consumer tilt."
+ },
+ "athletico.vc": {
+  "verdict": "drop",
+  "note": "Sports-focused angel syndicate."
+ },
+ "atlasven.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint; not the US Atlas Venture."
+ },
+ "atomico.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Top-tier European fund, Series A through growth; key co-investor and competitor."
+ },
+ "augmentum.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Listed fintech investor (LSE); patient capital into UK/EU fintech."
+ },
+ "avantgarde.finance": {
+  "verdict": "drop",
+  "note": "Crypto/DeFi asset manager, out of scope."
+ },
+ "avellinia.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Flexible growth credit/structured capital; not an equity peer."
+ },
+ "avonmoredevelopments.com": {
+  "verdict": "drop",
+  "note": "Private property/development vehicle."
+ },
+ "backed.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Seed fund with strong brand among technical founders."
+ },
+ "baesystems.com": {
+  "verdict": "drop",
+  "note": "Defence corporate, not an investor record."
+ },
+ "bailliegifford.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Late",
+  "note": "Edinburgh asset manager; large private growth/crossover cheques (pre-IPO)."
+ },
+ "balderton.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Top-tier London fund; Series A plus Growth fund. Key co-investor and competitor."
+ },
+ "balticventures.uk": {
+  "verdict": "drop",
+  "note": "Liverpool accelerator programme."
+ },
+ "home.barclays": {
+  "verdict": "drop",
+  "note": "Bank; retail/corporate banking entity."
+ },
+ "barclays.co.uk": {
+  "verdict": "drop",
+  "note": "Barclays wealth arm; bank retail entity."
+ },
+ "beacontech.vc": {
+  "verdict": "drop",
+  "note": "No calls; ambiguous record (Beacon VC is Kasikornbank's Thai CVC)."
+ },
+ "begincl.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Begin Capital, London seed/A generalist."
+ },
+ "benchmarkcapital.co.uk": {
+  "verdict": "drop",
+  "note": "Schroders-owned financial advisory network, not the US Benchmark and not a fund."
+ },
+ "joinbeyond.co": {
+  "verdict": "drop",
+  "note": "Founder/angel community, not a fund."
+ },
+ "bgf.co.uk": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "UK's highest-volume growth investor; smaller cheques (£1-15m), regional reach. Pipeline overlap at the margin."
+ },
+ "birchwaycapital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "blackfinch.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Blackfinch Ventures: EIS manager writing seed cheques; retail-capital vehicle."
+ },
+ "blissgrowth.com": {
+  "verdict": "drop",
+  "note": "Growth advisory, not a fund."
+ },
+ "blocventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Deeptech CVC-backed fund (Arm, Bosch LPs); semis/infra software."
+ },
+ "blossomcap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Ophelia Brown's Series A fund; concentrated, high-conviction. Strong feeder."
+ },
+ "bluelakevc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small seed fund, UK/Israel axis."
+ },
+ "bluewirecapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small London seed investor; active dialogue but limited scale."
+ },
+ "blueheart.io": {
+  "verdict": "drop",
+  "note": "Digital-health startup mislabeled as investor."
+ },
+ "blumeequity.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Climate-tech growth equity (ex-Temasek/leadership); mid-size cheques into European scale-ups."
+ },
+ "bnvtcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Low public profile; team has recent dialogue."
+ },
+ "boostcp.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Boost Capital Partners, fintech-tilted seed."
+ },
+ "braavos.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Oxford spinout investor (science/deeptech)."
+ },
+ "braninvestments.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "bridfordgroup.com": {
+  "verdict": "drop",
+  "note": "Family-office services firm, not a fund."
+ },
+ "bridgepoint.eu": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Large PE; Bridgepoint Growth covers tech minorities. Mostly an exit route."
+ },
+ "britishpatientcapital.co.uk": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "British Patient Capital: UK gov LP into VC/growth funds, selective co-invest; LP relationship, not dealflow peer."
+ },
+ "british-business-bank.co.uk": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "British Business Bank/BBI: state LP programmes; relevant as LP, not dealflow."
+ },
+ "calculuscapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "EIS/VCT manager; small cheques."
+ },
+ "cambridgeangels.com": {
+  "verdict": "drop",
+  "note": "Angel network, not a fund."
+ },
+ "cambridgecapitalgroup.co.uk": {
+  "verdict": "drop",
+  "note": "Cambridge angel group, not a fund."
+ },
+ "cic.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Cambridge Innovation Capital: preferred investor for Cambridge deeptech/life sciences; seed to growth."
+ },
+ "cam.ac.uk": {
+  "verdict": "drop",
+  "note": "University (business school record)."
+ },
+ "bcr-ltd.com": {
+  "verdict": "drop",
+  "note": "RBS alternative-remedies grant scheme, wound up."
+ },
+ "capita.com": {
+  "verdict": "drop",
+  "note": "Outsourcing corporate, not an investor."
+ },
+ "carbonthirteen.com": {
+  "verdict": "drop",
+  "note": "Climate venture-builder programme (Cambridge)."
+ },
+ "cellcap.co": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "chalfenventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Mike Chalfen's solo-GP vehicle; sharp software judgment, co-invests up the stack."
+ },
+ "channel4ventures.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Media-for-equity (TV airtime for stakes); consumer only."
+ },
+ "charlottestreetcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small early-stage London investor."
+ },
+ "chroma.ventures": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "4J Studios founders' vehicle (Dundee); gaming tilt."
+ },
+ "chrysalisinvestments.co.uk": {
+  "verdict": "drop",
+  "note": "Listed investment trust in run-off mode post-2022; no new platform cheques."
+ },
+ "cibusfund.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Agrifood specialist; sector rarely overlaps."
+ },
+ "clarendon-fm.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Belfast fund manager; NI regional mandates."
+ },
+ "claret-capital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Venture debt (ex-Harbert Europe team); frequent lender to growth-stage companies."
+ },
+ "cleangrowthfund.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "UK climate seed fund."
+ },
+ "realestatealternatives.com": {
+  "verdict": "drop",
+  "note": "Real-estate securities manager."
+ },
+ "clearancevp.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "climateinvestment.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "OGCI-backed decarbonisation investor; strategic oil-and-gas LPs."
+ },
+ "climate.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "UK climate pre-seed/seed fund."
+ },
+ "cocoa.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small seed fund; community-driven."
+ },
+ "thisiscodebase.com": {
+  "verdict": "drop",
+  "note": "Edinburgh startup incubator/workspace."
+ },
+ "clpgrowth.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Columbia Lake Partners: European venture debt."
+ },
+ "commonmagic.xyz": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Seed fund focused on products with community at the core."
+ },
+ "concentric.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "London early-stage generalist."
+ },
+ "conceptventures.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Dedicated pre-seed fund; high volume at the very top of funnel."
+ },
+ "conceptionx.org": {
+  "verdict": "drop",
+  "note": "PhD venture programme, not a fund."
+ },
+ "concretevc.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "theconduitconnect.com": {
+  "verdict": "drop",
+  "note": "Impact angel/investor network."
+ },
+ "connectventures.co": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Product-led seed fund (Typeform, TrueLayer); quality seed feeder."
+ },
+ "cp.catapult.org.uk": {
+  "verdict": "drop",
+  "note": "Government innovation catapult programme."
+ },
+ "conviction-sfo.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Single family office with direct tech positions."
+ },
+ "cornerstonevc.co": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Rodney Appiah's seed fund backing underrepresented founders."
+ },
+ "counteract.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Carbon-removal seed specialist."
+ },
+ "crane.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Enterprise/AI seed specialist; consistently early into strong B2B companies."
+ },
+ "wearecreative.uk": {
+  "verdict": "drop",
+  "note": "Public body for creative industries."
+ },
+ "creator.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Creator Ventures (Sasha Kaletsky/Caspar Lee): consumer internet seed."
+ },
+ "thecreatorfund.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Student/PhD-founder seed fund across UK universities."
+ },
+ "cristagalli.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Family-backed healthtech VC."
+ },
+ "cur8.capital": {
+  "verdict": "drop",
+  "note": "Retail (sharia-compliant) investment platform, not a direct fund."
+ },
+ "cylonventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Cyber-security specialist seed investor."
+ },
+ "d2.fund": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "d4ventures.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "dvcap.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Da Vinci Capital: growth equity, CIS heritage; reputational caution post-2022."
+ },
+ "daedalus.gg": {
+  "verdict": "drop",
+  "note": "Gaming angel syndicate."
+ },
+ "dawncapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Europe's largest B2B software specialist (A/B plus opportunities fund); direct competitor and frequent earlier-stage feeder."
+ },
+ "deepbridge.com": {
+  "verdict": "drop",
+  "note": "EIS manager sold/restructured; retail vehicle, minimal tech signal."
+ },
+ "deeptechinnovation.org.uk": {
+  "verdict": "drop",
+  "note": "Regional incubator programme."
+ },
+ "dtl.vc": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Deeptech Labs: Cambridge accelerator writing real cheques."
+ },
+ "delinventures.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Delin family's venture vehicle."
+ },
+ "civil-service-careers.gov.uk": {
+  "verdict": "drop",
+  "note": "Government department record."
+ },
+ "deusx.capital": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Fintech/gaming family capital vehicle (Malta/London)."
+ },
+ "developmentbank.wales": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Early",
+  "note": "Welsh state development bank; direct equity into Welsh companies."
+ },
+ "dhyan.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "dig.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Ross Mason's (MuleSoft) SaaS/infra seed fund."
+ },
+ "migarage.digicatapult.org.uk": {
+  "verdict": "drop",
+  "note": "Government digital catapult programme."
+ },
+ "digitalhealth.london": {
+  "verdict": "drop",
+  "note": "NHS accelerator programme."
+ },
+ "digventures.com": {
+  "verdict": "drop",
+  "note": "Archaeology crowdfunding platform; mislabeled."
+ },
+ "dmgventures.co.uk": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Daily Mail Group's venture arm; consumer/media."
+ },
+ "dpmn.io": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "institutional.downing.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Downing Ventures: VCT/EIS manager; broad but retail-capital."
+ },
+ "dst-global.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "US/global growth giant with London presence; late-stage consumer/fintech. Signal when they move."
+ },
+ "innovateeast.org": {
+  "verdict": "drop",
+  "note": "Regional innovation programme."
+ },
+ "ebrd.com": {
+  "verdict": "alias",
+  "note": "Development bank parent; the VC programme is the investing arm.",
+  "alias_of": "ebrdvcip.com",
+  "name": "EBRD Venture Capital"
+ },
+ "ebrdvcip.com": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "EBRD's venture capital programme; emerging-Europe mandate."
+ },
+ "ecipartners.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "UK mid-market PE with software appetite; occasional competition at the top of Highland's range."
+ },
+ "edenrockgroup.com": {
+  "verdict": "drop",
+  "note": "Alternatives/hedge fund-of-funds."
+ },
+ "edenredventures.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Edenred's corporate venture arm (payments/benefits)."
+ },
+ "edge.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Edge Investments: creative-industries VCT/EIS."
+ },
+ "edinburgh-innovations.ed.ac.uk": {
+  "verdict": "drop",
+  "note": "University tech-transfer office."
+ },
+ "ekavc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Consumer health/sustainable-consumption seed fund."
+ },
+ "elbowbeach.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Decarbonisation/industrial seed fund."
+ },
+ "emergeconf.io": {
+  "verdict": "drop",
+  "note": "Conference, not a fund."
+ },
+ "emergecapital.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Emerge: edtech/future-of-work seed specialist."
+ },
+ "empiricalventures.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Deep-science seed fund (Bristol/London)."
+ },
+ "joinef.com": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Entrepreneur First: talent investor; top-of-funnel source for ambitious technical founders."
+ },
+ "entropyindustrial.com": {
+  "verdict": "drop",
+  "note": "No calls and minimal footprint."
+ },
+ "eosvc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Eos Venture Partners: insurtech specialist."
+ },
+ "episode1.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "B2B software seed fund."
+ },
+ "equitygap.co.uk": {
+  "verdict": "drop",
+  "note": "Edinburgh angel syndicate."
+ },
+ "esocapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Special-situations credit; not an equity peer."
+ },
+ "etcapital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "etfpartners.capital": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "ETF Partners: sustainability-focused Series A/B."
+ },
+ "etfscapital.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Growth",
+  "note": "ETF-industry strategic investor (Tuttle/ETF Securities wealth)."
+ },
+ "2020fm.co.uk": {
+  "verdict": "drop",
+  "note": "ERDF grant programme record."
+ },
+ "eeas.europa.eu": {
+  "verdict": "drop",
+  "note": "EU institution record."
+ },
+ "evantic.ai": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "New AI-focused fund; limited public footprint but active dialogue."
+ },
+ "exceptional.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Health/wellness seed fund (Paolo Pio)."
+ },
+ "ex-cap.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "expedition.capital": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Expedition Growth Capital: bootstrapped-software growth equity; direct competitor for sub-€30m cheques."
+ },
+ "f2-ventures.com": {
+  "verdict": "drop",
+  "note": "No calls; not the Tel Aviv F2 (f2vc.com); unclear entity."
+ },
+ "fasanara.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "Fintech credit/quant asset manager; occasional venture cheques via Fasanara's fintech funds."
+ },
+ "hermes-investment.com": {
+  "verdict": "drop",
+  "note": "Asset manager (Federated Hermes); no direct venture relevance."
+ },
+ "felixcap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Consumer/digital-lifestyle specialist, Series A to growth; key London peer for consumer deals."
+ },
+ "fisv.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Fidelity International Strategic Ventures: fintech-focused strategic investor."
+ },
+ "firedrop.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "firestartr.co": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Early London seed firm; quieter recently."
+ },
+ "firstminute.capital": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Brent Hoberman's seed fund; exceptional founder/LP network, strong feeder."
+ },
+ "flashpointvc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Growth equity and debt for emigre-founded software."
+ },
+ "fomcap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Force Over Mass: B2B/fintech early stage."
+ },
+ "foresight.group": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Early",
+  "note": "Listed VCT/infra manager; regional and retail vehicles."
+ },
+ "formventures.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Seed fund for regulated-market startups."
+ },
+ "forwardpartners.com": {
+  "verdict": "alias",
+  "note": "Acquired by Molten Ventures (2023); no longer independent.",
+  "alias_of": "moltenventures.com",
+  "name": "Molten Ventures"
+ },
+ "foundcapital.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "founderfactor.com": {
+  "verdict": "drop",
+  "note": "Advisory/platform, not a fund."
+ },
+ "founders-capital.com": {
+  "verdict": "drop",
+  "note": "No calls; ambiguous entity, possibly duplicate of founderscap.co.uk."
+ },
+ "founderscap.co.uk": {
+  "verdict": "drop",
+  "note": "No calls; ambiguous entity, possibly duplicate of founders-capital.com."
+ },
+ "foundersfactory.com": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Venture studio/accelerator with corporate partners; top-of-funnel volume."
+ },
+ "frogcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Scale-up capital for European software; smaller growth cheques."
+ },
+ "frontline.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Dublin/London B2B fund; Frontline Growth helps US firms into Europe. Good seed feeder."
+ },
+ "ventures.ft.com": {
+  "verdict": "drop",
+  "note": "FT corporate development record, not an active fund."
+ },
+ "fuel.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "High-volume EIS seed manager (Mark Pearson); quantity over selectivity."
+ },
+ "cofundni.com": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Early",
+  "note": "Co-Fund NI: Northern Ireland co-investment fund."
+ },
+ "fundinglondon.co.uk": {
+  "verdict": "drop",
+  "note": "GLA funding vehicle; operates via appointed managers."
+ },
+ "fuseventure.partners": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "futurefifty.com": {
+  "verdict": "drop",
+  "note": "Scale-up programme, not a fund."
+ },
+ "futureplanetcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "University-linked impact investor; broad mandate, diffuse focus."
+ },
+ "futurepresent.london": {
+  "verdict": "drop",
+  "note": "No calls and unclear entity."
+ },
+ "futureworlds.com": {
+  "verdict": "drop",
+  "note": "Southampton university accelerator."
+ },
+ "g1.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "G1 Ventures: gulf-backed early-stage fund with London base; low profile."
+ },
+ "generationim.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Late",
+  "note": "Generation IM (Al Gore): sustainable growth equity; large, disciplined, occasional tech overlap."
+ },
+ "geovation.uk": {
+  "verdict": "drop",
+  "note": "Ordnance Survey accelerator programme."
+ },
+ "giant.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Purpose-driven fund (Tommy Stadlen/Cameron McLain); seed plus growth vehicle."
+ },
+ "goldacre.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Noé family proptech vehicle."
+ },
+ "enterprise.cam.ac.uk": {
+  "verdict": "drop",
+  "note": "Cambridge college record."
+ },
+ "deepmind.google": {
+  "verdict": "drop",
+  "note": "Research lab, not an investor."
+ },
+ "london.gov.uk": {
+  "verdict": "drop",
+  "note": "Greater London Authority."
+ },
+ "greatermanchester-ca.gov.uk": {
+  "verdict": "drop",
+  "note": "Combined authority (government)."
+ },
+ "greenangelsyndicate.com": {
+  "verdict": "drop",
+  "note": "Climate angel syndicate."
+ },
+ "greshamhouseventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "VCT-backed growth investor in UK software/consumer; sub-£20m cheques."
+ },
+ "greyhoundcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "London growth investor (fintech/software); quiet but real cheques."
+ },
+ "gsr.io": {
+  "verdict": "drop",
+  "note": "Crypto market maker."
+ },
+ "guinnessgi.com": {
+  "verdict": "alias",
+  "note": "Asset-management parent; Guinness Ventures is the investing arm.",
+  "alias_of": "guinnessventures.com",
+  "name": "Guinness Ventures"
+ },
+ "guinnessventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "EIS/VCT manager; retail capital."
+ },
+ "gurudev.capital": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "haatch.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Pre-seed/seed EIS fund."
+ },
+ "hedosophia.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Ian Osborne's secretive growth firm; large fintech/marketplace positions, minimal publicity."
+ },
+ "hgcapital.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Europe's dominant software buyout house; most relevant as an exit route for Highland portfolio."
+ },
+ "hiro.capital": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Games/creator-tech VC (Luke Alvarez)."
+ },
+ "hoaq.club": {
+  "verdict": "drop",
+  "note": "Angel collective."
+ },
+ "houghtonstreet.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "LSE-alumni-backed early-stage fund."
+ },
+ "hoxtonventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Contrarian seed fund (Darktrace, Deliveroo); outstanding outlier record for its size."
+ },
+ "hsbcinnovationbanking.com": {
+  "verdict": "drop",
+  "note": "Bank (ex-SVB UK); lender, not a fund."
+ },
+ "hummingbird.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "High-conviction early fund (Antwerp/London); exceptional outlier-hunting record."
+ },
+ "ianhogarth.com": {
+  "verdict": "drop",
+  "note": "Individual angel (Plural partner); Plural tracked separately."
+ },
+ "illuminatefinancial.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Capital-markets/enterprise-fintech specialist with bank LPs."
+ },
+ "indexventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Top-tier global fund rooted in London; seed through growth. Key competitor and co-investor."
+ },
+ "initialcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Games/consumer seed (Supercell early backer)."
+ },
+ "inkberry.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "inmotionventures.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "JLR's venture arm; mobility."
+ },
+ "innovateuk.gov.uk": {
+  "verdict": "drop",
+  "note": "Government grant agency."
+ },
+ "inreachventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Data-driven sourcing seed fund (Roberto Bonanzinga)."
+ },
+ "insiders.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "insurtechgateway.com": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Insurtech incubator writing first cheques."
+ },
+ "interface-online.org.uk": {
+  "verdict": "drop",
+  "note": "Scottish academic-business matchmaking body."
+ },
+ "iairgroup.com": {
+  "verdict": "drop",
+  "note": "Airline group corporate."
+ },
+ "invokecapital.com": {
+  "verdict": "drop",
+  "note": "Mike Lynch vehicle; defunct."
+ },
+ "ipgroupplc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Listed deeptech/life-sciences investor; owns Parkwalk, backs university spinouts at scale."
+ },
+ "ipgl.co.uk": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Michael Spencer's family office; fintech tilt."
+ },
+ "iqcapital.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Cambridge/London deeptech fund, seed to growth; strongest deeptech feeder outside Oxbridge TTOs."
+ },
+ "isomercapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "European VC fund-of-funds with co-invest; market-signal relationship, not a competitor."
+ },
+ "itvplc.com": {
+  "verdict": "drop",
+  "note": "Broadcaster; ITV AdVentures is media-for-equity only."
+ },
+ "iwcapital.co.uk": {
+  "verdict": "drop",
+  "note": "Retail EIS placement/brokerage."
+ },
+ "jamjarinvestments.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Innocent founders' consumer seed fund."
+ },
+ "jensonventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "SEIS/EIS micro-cheque manager."
+ },
+ "jupiteronline.co.uk": {
+  "verdict": "drop",
+  "note": "Asset-management trust record."
+ },
+ "kadmoscapital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "karatage.io": {
+  "verdict": "drop",
+  "note": "Crypto fund; out of scope."
+ },
+ "kennet.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Bootstrapped-SaaS growth equity; direct competitor in capital-efficient software deals."
+ },
+ "kiko.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "IP Group's cleantech platform."
+ },
+ "kindredcapital.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Equitable-venture seed fund; quality A-round feeder."
+ },
+ "ashparkcapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "Kingsway Capital: consumer/EM/crypto-tilted investor; diffuse."
+ },
+ "kivukocap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Low public profile; team has recent dialogue."
+ },
+ "km-capital.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Manchester early-stage fund."
+ },
+ "korovc.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "kreoscapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Venture debt leader (BlackRock-owned); lender alongside growth rounds."
+ },
+ "latitude.vc": {
+  "verdict": "alias",
+  "note": "Phoenix Court's growth fund; tracked under LocalGlobe/Phoenix Court.",
+  "alias_of": "localglobe.vc",
+  "name": "LocalGlobe / Phoenix Court"
+ },
+ "launchbaycapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Growth-stage secondaries/direct platform."
+ },
+ "group.legalandgeneral.com": {
+  "verdict": "alias",
+  "note": "Insurer parent; L&G Capital is the investing arm.",
+  "alias_of": "legalandgeneralcapital.com",
+  "name": "Legal & General Capital"
+ },
+ "legalandgeneralcapital.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "L&G's principal-investment arm; housing/infra/climate plus some fintech."
+ },
+ "am.landg.com": {
+  "verdict": "drop",
+  "note": "Asset-management arm (LGIM), not venture."
+ },
+ "leolion.co": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "lightrock.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "LGT-backed impact growth fund; global, large cheques."
+ },
+ "lingotto.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Late",
+  "note": "Exor-owned investment manager (public/private crossover)."
+ },
+ "lloyds.com": {
+  "verdict": "drop",
+  "note": "Insurance market, not an investor."
+ },
+ "lloydsbankinggroup.com": {
+  "verdict": "drop",
+  "note": "Bank."
+ },
+ "localglobe.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Phoenix Court family (LocalGlobe seed, Latitude growth); London's premier seed platform and a critical pipeline source."
+ },
+ "lcif.co": {
+  "verdict": "drop",
+  "note": "London Co-Investment Fund; dormant programme."
+ },
+ "longwallventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Oxford/Harwell science seed fund."
+ },
+ "loveventures.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Consumer/fintech seed, small."
+ },
+ "luminous.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Healthtech/deep-science seed."
+ },
+ "londonvp.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "LVP: games-specialist seed (Unity, Supercell early); world-class in gaming."
+ },
+ "mandg.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Late",
+  "note": "M&G Catalyst: large private-assets mandate with growth-equity cheques; crossover LP-like behaviour."
+ },
+ "mandg.co.uk": {
+  "verdict": "alias",
+  "note": "Duplicate record of M&G.",
+  "alias_of": "mandg.com",
+  "name": "M&G"
+ },
+ "m7re.co.uk": {
+  "verdict": "drop",
+  "note": "Real-estate manager."
+ },
+ "m7structura.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "M7-backed proptech venture vehicle; niche."
+ },
+ "macmillan.org.uk": {
+  "verdict": "drop",
+  "note": "Charity."
+ },
+ "mahrprojects.com": {
+  "verdict": "drop",
+  "note": "No calls and unclear entity."
+ },
+ "mainset.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "mantaray.vc": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Manta Ray: family-capital vehicle backing frontier tech (Improbable backer)."
+ },
+ "martletcap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Marshall-group-backed Cambridge seed investor."
+ },
+ "material.ventures": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "mavencp.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Early",
+  "note": "Regional VCT/PE manager (Glasgow); UK regional mandates."
+ },
+ "md-one.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "UK healthtech seed fund."
+ },
+ "lab.mdr.london": {
+  "verdict": "drop",
+  "note": "Law-firm legaltech incubator (Mishcon)."
+ },
+ "mediaforgrowth.co": {
+  "verdict": "drop",
+  "note": "Media-for-equity fund network/platform."
+ },
+ "meltwind.co.uk": {
+  "verdict": "drop",
+  "note": "Advisory LLP, not a fund."
+ },
+ "mercia.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Regional VCT/EIS manager (Midlands/North); high volume, small cheques."
+ },
+ "mercuri.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "London pre-seed fund."
+ },
+ "merian.com": {
+  "verdict": "drop",
+  "note": "Defunct asset manager (absorbed into Jupiter)."
+ },
+ "meridianhealthventures.com": {
+  "verdict": "drop",
+  "note": "No calls; minimal UK footprint."
+ },
+ "meif.co.uk": {
+  "verdict": "drop",
+  "note": "BBB regional programme; invests via appointed managers (Mercia, Midven et al.)."
+ },
+ "midven.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Birmingham regional fund manager."
+ },
+ "mishcon.com": {
+  "verdict": "drop",
+  "note": "Law firm."
+ },
+ "mmc.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Research-led Series A investor (AI/data); consistent UK enterprise feeder."
+ },
+ "mobeus.co.uk": {
+  "verdict": "alias",
+  "note": "Mobeus VCT business acquired by Gresham House.",
+  "alias_of": "greshamhouseventures.com",
+  "name": "Gresham House Ventures"
+ },
+ "moltenventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Listed multi-stage VC (ex-Draper Esprit); Series A to growth, secondaries appetite."
+ },
+ "monzo.com": {
+  "verdict": "drop",
+  "note": "Bank mislabeled as investor."
+ },
+ "moonfire.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Mattias Ljungman's (Atomico co-founder) AI-native seed fund."
+ },
+ "mosaicventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Series A boutique; largely inactive on new deals."
+ },
+ "mountsideventures.com": {
+  "verdict": "drop",
+  "note": "Fundraising advisory/placement agent."
+ },
+ "mourocapital.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Santander-backed fintech fund."
+ },
+ "mustardseed.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Impact seed fund."
+ },
+ "nationalwealthfund.org.uk": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Late",
+  "note": "UK state infra/climate investor (ex-UKIB); no tech venture overlap."
+ },
+ "nationwide.co.uk": {
+  "verdict": "drop",
+  "note": "Building society."
+ },
+ "diana.nato.int": {
+  "verdict": "drop",
+  "note": "NATO defence accelerator programme."
+ },
+ "natwest.com": {
+  "verdict": "drop",
+  "note": "Bank."
+ },
+ "jobs.natwestgroup.com": {
+  "verdict": "drop",
+  "note": "Bank (duplicate NatWest record)."
+ },
+ "nautacapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "B2B software seed/A (London/Barcelona); reliable enterprise feeder."
+ },
+ "nbsventures.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "nesta.org.uk": {
+  "verdict": "drop",
+  "note": "Innovation foundation; investing activity minimal/impact-only."
+ },
+ "newwave.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Pia d'Iribarne's seed fund (Paris/London); strong consumer/AI network."
+ },
+ "nicklebycapital.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Low-profile London investment office; recent dialogue."
+ },
+ "njg.co.uk": {
+  "verdict": "drop",
+  "note": "Private hospitality/property group."
+ },
+ "njfcapital.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Nicole Junkermann's vehicle; healthtech/deeptech tilt."
+ },
+ "nolabel.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Ramzi Rafih's fund backing immigrant founders in Europe."
+ },
+ "noavc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small London seed fund; low profile."
+ },
+ "nobacapital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "nordstar.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Low-profile London fund; fintech tilt."
+ },
+ "northern-gritstone.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "University-spinout investor for Leeds/Manchester/Sheffield; the institutional seed capital of the North."
+ },
+ "northzone.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Multi-stage fund, Nordic roots but London-led; already tracked in the Nordic region set."
+ },
+ "notioncapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "SaaS/cloud specialist (Series A plus opportunity fund); core UK enterprise feeder and co-investor."
+ },
+ "nova-cap.com": {
+  "verdict": "drop",
+  "note": "Legacy PE secondaries vehicle; inactive."
+ },
+ "octopusenergygeneration.com": {
+  "verdict": "alias",
+  "note": "Octopus group parent record; Octopus Ventures is the venture arm.",
+  "alias_of": "octopusventures.com",
+  "name": "Octopus Ventures"
+ },
+ "octopusventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "One of Europe's largest multi-stage VCs (health, fintech, deeptech, consumer); ubiquitous in UK pipeline."
+ },
+ "oldcollegecapital.co.uk": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "University of Edinburgh's venture fund."
+ },
+ "oleka.rocks": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "onepeak.tech": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "B2B software growth equity (€10-100m); one of Highland's most direct London competitors."
+ },
+ "oneplanet.capital": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small climate EIS fund."
+ },
+ "osneycapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Cyber-security specialist seed fund."
+ },
+ "otf.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Low public profile; team has recent dialogue."
+ },
+ "outlierventures.io": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Web3 accelerator; out-of-thesis sector."
+ },
+ "outrunventures.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "outwardvc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Fintech seed fund."
+ },
+ "oxcp.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Oxford Capital: EIS manager around Oxford ecosystem."
+ },
+ "oxfordseedfund.com": {
+  "verdict": "drop",
+  "note": "Student-run fund."
+ },
+ "innovation.ox.ac.uk": {
+  "verdict": "drop",
+  "note": "University tech-transfer office."
+ },
+ "pactvc.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Female-led seed fund (ex-Atomico angels)."
+ },
+ "palatinepe.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Manchester mid-market PE; impact fund, occasional software."
+ },
+ "parequity.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Edinburgh's leading early-stage investor; the key Scottish feeder."
+ },
+ "paragonbankinggroup.co.uk": {
+  "verdict": "drop",
+  "note": "Bank."
+ },
+ "parioventures.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "parkwalk.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "University-spinout EIS leader (IP Group-owned); Oxbridge deeptech volume."
+ },
+ "passioncapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Early-stage fintech/consumer fund (Monzo, GoCardless); quieter on new funds."
+ },
+ "pembrokevct.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Consumer-tilted VCT."
+ },
+ "pentech.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "B2B software seed (Edinburgh roots, London base)."
+ },
+ "pentland.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Pentland Group (Rubin family); consumer brands wealth, direct stakes."
+ },
+ "pentland.vc": {
+  "verdict": "drop",
+  "note": "No calls; unclear relation to Pentland Group, minimal footprint."
+ },
+ "permira.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Global PE; Permira Growth Opportunities competes above Highland's range and buys growth assets."
+ },
+ "perwyn.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Family-backed PE; software/consumer growth deals."
+ },
+ "phoenixcourt.vc": {
+  "verdict": "alias",
+  "note": "Parent brand of LocalGlobe/Latitude/Solar; tracked under LocalGlobe.",
+  "alias_of": "localglobe.vc",
+  "name": "LocalGlobe / Phoenix Court"
+ },
+ "pilabs.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Proptech specialist seed fund."
+ },
+ "pinksaltventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Female-founder seed fund."
+ },
+ "pitoncap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Network-effects/marketplace specialist (Auto1, Depop)."
+ },
+ "platformxit.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "playfair.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Generalist pre-seed/seed fund."
+ },
+ "pledgeventures.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Low public profile; team has recent dialogue."
+ },
+ "pluralplatform.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Operator-led early fund (Hinrikus, Hogarth et al.); the strongest new seed/A franchise in Europe and a prime feeder."
+ },
+ "pollenstreetgroup.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Financial-services PE/credit; fintech overlap at buyout end."
+ },
+ "portfolio.ventures": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "praeturaventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Manchester's leading early-stage manager (EIS/NPIF mandates)."
+ },
+ "pretiosum.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Solo-GP B2B seed fund."
+ },
+ "profounderscapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Founder-backed early-stage fund; quieter recently."
+ },
+ "projecteurope.co": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "New pan-European pre-seed fund (Stebbings-initiated, 128 founders as LPs)."
+ },
+ "pumagrowthpartners.co.uk": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Puma's growth-capital arm (VCT money); small cheques."
+ },
+ "pxnventures.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "qpventures.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "quadri.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "quantumlightcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Nik Storonsky's quant-driven fund; data-led A/B cheques, fast-moving."
+ },
+ "qubis.co.uk": {
+  "verdict": "drop",
+  "note": "Queen's University Belfast tech-transfer office."
+ },
+ "quilamcapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Specialty-finance investor (debt/equity into lenders)."
+ },
+ "qventures.co": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Co-investment/syndicate platform with discretionary funds."
+ },
+ "raisestartups.co.uk": {
+  "verdict": "drop",
+  "note": "Startup advisory/community."
+ },
+ "ravenpartners.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "Manchester LLP, unverified mandate; team has recent dialogue - classify before relying on it."
+ },
+ "re7.capital": {
+  "verdict": "drop",
+  "note": "DeFi/crypto yield fund."
+ },
+ "realtycorp.co.uk": {
+  "verdict": "drop",
+  "note": "Property company."
+ },
+ "redbus.uk": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Simon Franks's (LoveFilm) investment vehicle."
+ },
+ "redriceventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Consumer-brand seed fund."
+ },
+ "reutersinstitute.politics.ox.ac.uk": {
+  "verdict": "drop",
+  "note": "University institute."
+ },
+ "revenue-syndicate.com": {
+  "verdict": "drop",
+  "note": "Angel syndicate."
+ },
+ "roosh.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Ukrainian-rooted fund (AI/ML tilt), London presence."
+ },
+ "raeng.org.uk": {
+  "verdict": "drop",
+  "note": "Professional academy (grants/programmes)."
+ },
+ "rsjinvestments.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "rtp.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "RTP Global: early-stage global fund (DeliveryHero, Datadog); London HQ'd, deep pockets at seed/A."
+ },
+ "rule30.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "ryseam.com": {
+  "verdict": "drop",
+  "note": "Asset-management boutique."
+ },
+ "salicainvestments.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Ex-Hambro Perks; venture plus growth vehicles, mixed signal post-rebrand."
+ },
+ "samos.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Family-backed early-growth investor."
+ },
+ "sanacapital.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "sarascapital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "sbrihealthcare.co.uk": {
+  "verdict": "drop",
+  "note": "NHS grant programme."
+ },
+ "scalarnorthcapital.co.uk": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "schroders.com": {
+  "verdict": "alias",
+  "note": "Asset-management parent; Schroders Capital is the private-markets arm.",
+  "alias_of": "schroderscapital.com",
+  "name": "Schroders Capital"
+ },
+ "schroderscapital.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Late",
+  "note": "Private-markets arm (ex-Adveq); venture FoF plus direct co-invest."
+ },
+ "scottishedge.com": {
+  "verdict": "drop",
+  "note": "Grant competition."
+ },
+ "scottish-enterprise.com": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Early",
+  "note": "Scotland's development agency; highest-volume co-investor in Scottish deals."
+ },
+ "seedcamp.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Europe's defining pre-seed fund (Wise, Revolut, UiPath); first-order pipeline feeder."
+ },
+ "semantic.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "seraphim.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Space-tech specialist (fund plus listed trust)."
+ },
+ "investors.seraphim.vc": {
+  "verdict": "alias",
+  "note": "Listed trust record of Seraphim Space.",
+  "alias_of": "seraphim.vc",
+  "name": "Seraphim Space"
+ },
+ "accelerator.seraphim.vc": {
+  "verdict": "alias",
+  "note": "Accelerator programme record of Seraphim Space.",
+  "alias_of": "seraphim.vc",
+  "name": "Seraphim Space"
+ },
+ "sfccapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "SFC Capital: highest-volume SEIS investor in the UK; spray-and-pray model."
+ },
+ "shawbrook.co.uk": {
+  "verdict": "drop",
+  "note": "Bank."
+ },
+ "sie.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Platform/fund backing female-led companies; small."
+ },
+ "silencevc.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "siliconroundabout.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Deeptech pre-seed solo GP."
+ },
+ "simplescaling.com": {
+  "verdict": "drop",
+  "note": "Scaling advisory (Belfast)."
+ },
+ "simplyhealth.co.uk": {
+  "verdict": "drop",
+  "note": "Health-plan provider."
+ },
+ "smedvig.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Smedvig family evergreen; Series A B2B, patient capital."
+ },
+ "socialtechtrust.org": {
+  "verdict": "drop",
+  "note": "Foundation."
+ },
+ "visionfund.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Late",
+  "note": "SoftBank Vision Fund (London team); late-stage mega-rounds."
+ },
+ "solanopartners.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "Unverified mandate; team has recent dialogue - classify before relying on it."
+ },
+ "souterinvestments.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Brian Souter's (Stagecoach) family office."
+ },
+ "surrey.ac.uk": {
+  "verdict": "drop",
+  "note": "University record."
+ },
+ "spexcapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Healthtech/medtech imaging specialist."
+ },
+ "sprints.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Likely Sprints Capital (growth equity, Vinted/Pipedrive); domain ambiguous on this record."
+ },
+ "stanfordangels.uk": {
+  "verdict": "drop",
+  "note": "Alumni angel network."
+ },
+ "start-capital.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "startpointcap.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "stride.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Fred Destin's seed fund; wound down new investing."
+ },
+ "supernodeglobal.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Media/entertainment-tech seed."
+ },
+ "superseed.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "B2B AI/automation seed fund."
+ },
+ "surevalleyventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Software/AI fund (UK/Ireland, Manchester presence)."
+ },
+ "symvancapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Small EIS manager."
+ },
+ "syndicateroom.com": {
+  "verdict": "drop",
+  "note": "Retail co-investment platform (Access EIS)."
+ },
+ "systemanova.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "systemiqcapital.earth": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Climate seed fund spun from Systemiq."
+ },
+ "systemiq.earth": {
+  "verdict": "drop",
+  "note": "Sustainability consultancy; capital arm tracked separately (systemiqcapital.earth)."
+ },
+ "taliscapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Family-capital-backed VC (cyber/data tilt); quieter since 2022."
+ },
+ "techstart.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Pre-seed across Scotland and Northern Ireland."
+ },
+ "tempocap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Direct secondaries and growth; buys positions in European tech."
+ },
+ "crick.ac.uk": {
+  "verdict": "drop",
+  "note": "Research institute."
+ },
+ "thefsegroup.com": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Early",
+  "note": "Manages regional/government debt-and-equity mandates in the South East."
+ },
+ "founderandlightning.com": {
+  "verdict": "drop",
+  "note": "Venture studio/agency."
+ },
+ "playersfund.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Athlete-backed consumer/sports seed fund; small."
+ },
+ "thebank.scot": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Scottish National Investment Bank; mission-driven direct cheques."
+ },
+ "thesidebysidepartnership.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "EIS growth investor; small cheques into scale-ups."
+ },
+ "timechain.concentric.vc": {
+  "verdict": "alias",
+  "note": "Concentric's crypto vehicle.",
+  "alias_of": "concentric.vc",
+  "name": "Concentric"
+ },
+ "tiny.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "High-volume pre-seed micro-fund."
+ },
+ "transition.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Energy-transition seed fund."
+ },
+ "triplepoint.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Triple Point Ventures: VCT/EIS-backed B2B seed."
+ },
+ "true.global": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Retail/consumer-tech specialist (fund plus innovation arm)."
+ },
+ "truesight.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Generalist seed fund."
+ },
+ "ttp.com": {
+  "verdict": "drop",
+  "note": "Technology consultancy (Melbourn); not an investment firm."
+ },
+ "twinpath.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "AI-focused pre-seed fund."
+ },
+ "twintrack.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "ucltf.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "UCL Technology Fund (managed with AlbionVC); UCL spinouts."
+ },
+ "gov.uk": {
+  "verdict": "drop",
+  "note": "Government record."
+ },
+ "ukgi.org.uk": {
+  "verdict": "drop",
+  "note": "Government shareholding body."
+ },
+ "ukinnovationscienceseedfund.co.uk": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Early",
+  "note": "UKI2S: gov-backed deeptech seed fund (Midven/Future Planet managed)."
+ },
+ "ukri.org": {
+  "verdict": "drop",
+  "note": "Research funding agency."
+ },
+ "un-bound.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Shravin Mittal's growth fund (Bharti family capital)."
+ },
+ "uncorrelated.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Uncorrelated Ventures (Salil Deshpande); US fund, infra software - London record likely satellite."
+ },
+ "unrulycap.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful UK footprint."
+ },
+ "upventuresgroup.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Manchester early-stage investor; low profile."
+ },
+ "upfundcap.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "upsd.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Low public profile; team has recent dialogue."
+ },
+ "ux-design.agency": {
+  "verdict": "drop",
+  "note": "Design agency; mislabeled."
+ },
+ "valacap.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Jasper Smith's EIS venture firm."
+ },
+ "velopartners.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Gaming/gambling-sector specialist; niche."
+ },
+ "velocity-group.com": {
+  "verdict": "drop",
+  "note": "Unclear entity; no recent signal."
+ },
+ "venturestogether.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "verb.ventures": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "vgcp.co.uk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Media/consumer growth boutique; small."
+ },
+ "virgin.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Virgin Group: Branson holding company, direct stakes in consumer/travel tech."
+ },
+ "vitruvianpartners.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Tech-focused growth buyout (€50m+); competes above Highland's range and buys growth assets."
+ },
+ "voltacircle.com": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "vorcapital.co.uk": {
+  "verdict": "drop",
+  "note": "Public-markets internet fund."
+ },
+ "voyagers.io": {
+  "verdict": "drop",
+  "note": "Community/climate collective; no institutional fund signal."
+ },
+ "w23.vc": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Woolworths Group's retail-tech CVC."
+ },
+ "waveline.vc": {
+  "verdict": "drop",
+  "note": "No calls and no meaningful public footprint."
+ },
+ "wealthclub.co.uk": {
+  "verdict": "drop",
+  "note": "Retail EIS/VCT distribution platform."
+ },
+ "wellcome.org": {
+  "verdict": "drop",
+  "note": "Research foundation; no tech venture co-investing."
+ },
+ "westhillcapital.co.uk": {
+  "verdict": "drop",
+  "note": "EIS placement broker."
+ },
+ "westerlywinds.com": {
+  "verdict": "drop",
+  "note": "No calls and unclear entity."
+ },
+ "whartonco.com": {
+  "verdict": "drop",
+  "note": "Asset-management company; no venture signal."
+ },
+ "wintermute.com": {
+  "verdict": "drop",
+  "note": "Crypto market maker's venture arm; out of scope."
+ },
+ "woodfordfunds.com": {
+  "verdict": "drop",
+  "note": "Defunct (Woodford collapse)."
+ },
+ "xtxmarkets.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "XTX Markets; XTX Ventures backs AI/quant startups selectively."
+ },
+ "francoisderbaix.com": {
+  "verdict": "drop",
+  "note": "Individual angel record (domain points to a Spanish angel); mislabeled."
+ },
+ "yfmep.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "YFM: VCT-backed regional growth equity."
+ },
+ "zerocarbon.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Zero Carbon Capital: climate/science seed."
+ },
+ "zinal.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Guillaume Pousaz's (Checkout.com) family office; large solo cheques."
+ },
+ "zouk.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Cleantech/infra growth investor."
+ }
+}
