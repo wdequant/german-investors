@@ -532,5 +532,77 @@
   "stage": "Early",
   "rel": 45,
   "note": "Scotland's development agency; highest-volume co-investor in Scottish rounds - coverage, not competition."
+ },
+ "insightpartners.com": {
+  "name": "Insight Partners",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 82,
+  "note": "Software growth at industrial scale from NY with a London office; prices and wins the European rounds Highland sees in every process.",
+  "in_affinity": false
+ },
+ "tcv.com": {
+  "name": "TCV",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 78,
+  "note": "US fund, London office since 2012 (Doran); Revolut, Mollie, Trade Republic - the US growth franchise most embedded in European software and fintech.",
+  "in_affinity": false
+ },
+ "battery.com": {
+  "name": "Battery Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 74,
+  "note": "US fund, London office since 2016 (Ewen/Elhafed); later-stage European software and industrial tech - frequent competitor on capital-efficient growth deals.",
+  "in_affinity": false
+ },
+ "bvp.com": {
+  "name": "Bessemer Venture Partners",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 72,
+  "note": "US fund, London office since 2021; Ferrara/Nidmarti/Chung cover expansion and growth European SaaS - direct Highland-stage overlap.",
+  "in_affinity": false
+ },
+ "summitpartners.com": {
+  "name": "Summit Partners",
+  "sub": "LON",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 70,
+  "note": "Boston growth equity with a dedicated EUR1.4bn Europe fund run from London; hunts the same capital-efficient software Highland does.",
+  "in_affinity": false
+ },
+ "ivp.com": {
+  "name": "IVP",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Late",
+  "rel": 70,
+  "note": "Late-stage venture; first office outside the Bay Area opened in London 2023 (Liaw) - cheques above Highland's entry but a strong downstream signal.",
+  "in_affinity": false
+ },
+ "leftlanecapital.com": {
+  "name": "Left Lane Capital",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 68,
+  "note": "Brooklyn growth firm with a real London seat (Dillon); internet and consumer subscription growth - roughly a quarter of deals European.",
+  "in_affinity": false
+ },
+ "sapphireventures.com": {
+  "name": "Sapphire Ventures",
+  "sub": "LON",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 62,
+  "note": "Enterprise software growth with an SAP-anchored LP base; London office since 2020 (Diestel) - co-invests at Highland's stage.",
+  "in_affinity": false
  }
 }
