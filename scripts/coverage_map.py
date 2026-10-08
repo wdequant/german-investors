@@ -476,9 +476,9 @@ def build_covmap(regions, mynet, roster, load_json):
     for _rg, _subs in REGION_SUBS.items():
         areas[_rg] = rollup([e for e in ents if e.get("rg") == _rg and not e["tray"]])
         for cc in _subs:
-            sel = [e for e in ents if e["cc"] == cc]
-            if sel:
-                areas[cc] = rollup(sel)
+            # every registered sub gets an area, even with no curated funds yet
+            # (Hamburg holds only Affinity-layer investors) — the node must still render
+            areas[cc] = rollup([e for e in ents if e["cc"] == cc])
         for u in roster:   # pipeline exposure: share of the user's stage-weighted regional pipeline
             tot = sum(e["pu"].get(u, 0) for e in ents if e.get("rg") == _rg) or 0
             if not tot:
@@ -698,18 +698,18 @@ def build_covmap(regions, mynet, roster, load_json):
             _sel11 = [e for e in ents if e.get("rg") == _cc11 and e.get("sl")]
         else:
             _sel11 = [e for e in ents if e.get("cc") == _cc11 and e.get("sl")]
-        if _sel11:
-            _ru = rollup(_sel11)
-            _subs11 = REGION_SUBS.get(_cc11)
-            _ru["sln"] = len(_sel11) + sum(1 for a in aff_ents if a.get("sl") and (
-                (a.get("cc") in _subs11) if _subs11 else a.get("cc") == _cc11))
-            _ru["known"] = ({u: len({p["n"] for cc2 in _subs11 for p in who_in.get(cc2, []) if p["r"].get(u)}) for u in roster}
-                            if _subs11 else
-                            {u: len([1 for p in who_in.get(_cc11, []) if p["r"].get(u)]) for u in roster})
-            for _u11 in list(areas[_cc11].get("u") or {}):
-                if _u11 in _ru["u"] and "exp" in areas[_cc11]["u"][_u11]:
-                    _ru["u"][_u11]["exp"] = areas[_cc11]["u"][_u11]["exp"]
-            areas[_cc11] = _ru
+        # with no curated shortlist (Hamburg) keep the raw rollup, but still count the aff layer
+        _ru = rollup(_sel11) if _sel11 else dict(areas[_cc11])
+        _subs11 = REGION_SUBS.get(_cc11)
+        _ru["sln"] = len(_sel11) + sum(1 for a in aff_ents if a.get("sl") and (
+            (a.get("cc") in _subs11) if _subs11 else a.get("cc") == _cc11))
+        _ru["known"] = ({u: len({p["n"] for cc2 in _subs11 for p in who_in.get(cc2, []) if p["r"].get(u)}) for u in roster}
+                        if _subs11 else
+                        {u: len([1 for p in who_in.get(_cc11, []) if p["r"].get(u)]) for u in roster})
+        for _u11 in list(areas[_cc11].get("u") or {}):
+            if _u11 in _ru["u"] and "exp" in areas[_cc11]["u"][_u11]:
+                _ru["u"][_u11]["exp"] = areas[_cc11]["u"][_u11]["exp"]
+        areas[_cc11] = _ru
 
     return {
         "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "who": who_in,

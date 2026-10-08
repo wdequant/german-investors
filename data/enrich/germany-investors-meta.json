@@ -1527,10 +1527,8 @@
   "note": "state programme"
  },
  "statkraftventures.com": {
-  "verdict": "fund",
-  "name": "Statkraft Ventures",
-  "type": "CVC",
-  "stage": "Early"
+  "verdict": "drop",
+  "note": "duplicate of the Norwegian-view record (statkraft.com -> Statkraft Ventures); Will placed the arm in the Norwegian view"
  },
  "summiteer.com": {
   "verdict": "drop",

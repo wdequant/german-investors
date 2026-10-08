@@ -1844,7 +1844,7 @@ function cmCountryPage(me){
     }).join('')}`;
   }).join('');
   const allN=cmEnts().filter(e=>e.cc===cc).length+(CM.aff||[]).filter(e=>e.cc===cc).length;
-  return `<div class="cmhead">${CM.ccName[cc]}: your coverage is <b>${qu}</b>, the team's is ${qt}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.</div>
+  return `<div class="cmhead">${CM.ccName[cc]}: you are <b>${qu}</b> here, the team is ${qt}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.</div>
     <div class="cmv2grid">
       <div>
         ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
@@ -1989,7 +1989,7 @@ function cmTray(){
   if(!t.length||MAP.lvl==='l0') return '';
   return `<div class="cmtray">Outside the region: ${t.map(e=>`<b data-cment="${e.slug}" class="cmtl">${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
 }
-const cmQualU=v=>v<25?['underweight','#c2452f']:v<55?['light','#c98a1b']:['well covered','#2e7d4f'];
+const cmQualU=v=>v<25?['underweight','#c2452f']:v<50?['light','#c98a1b']:['well covered','#2e7d4f'];
 const cmQualT=v=>v<25?['thin','#c2452f']:v<55?['patchy','#c98a1b']:['strong','#2e7d4f'];
 function cmQualRow(covu,covT,me){
   const [qu,cu]=cmQualU(covu), [qt,ct]=cmQualT(covT);
@@ -2157,6 +2157,7 @@ function mapBind(body){
     g.addEventListener('mouseleave',()=>{ hov.hidden=true; });
   });
   if(hov) body.querySelectorAll('g[data-cment],g[data-cmcc2]').forEach(g=>{
+    if(g.classList.contains('cmregbtn')) return;   // solo-region world buttons keep the region verdict card
     g.addEventListener('mouseenter',()=>{
       const cc=g.dataset.cmcc2;
       if(cc){ const a=CM.areas[cc]; if(!a) return;
