@@ -577,5 +577,299 @@
   "type": "VC",
   "stage": "Early",
   "note": "Swedish deep-tech/science VC (Wallenberg-backed)."
+ },
+ "neptuniainvest.se": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Swedish investment company across real estate, finance, defence & security."
+ },
+ "nfrontventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian early-stage VC."
+ },
+ "nokia.com": {
+  "verdict": "fund",
+  "name": "NGP Capital",
+  "type": "CVC",
+  "stage": "Growth",
+  "note": "Nokia is an operating company; the Nordic-relevant vehicle is NGP Capital, its independent growth fund."
+ },
+ "nordea.com": {
+  "verdict": "drop",
+  "note": "Retail/commercial bank; no active venture vehicle."
+ },
+ "nordiccapital.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Buyout firm; relevant as exit route and for growth deals, not venture rounds."
+ },
+ "nordicmakers.vc": {
+  "verdict": "fund",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Angel collective of Nordic founders (Zendesk, Skype alumni)."
+ },
+ "n2f.vc": {
+  "verdict": "fund",
+  "name": "Nordic Secondary Fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "Secondaries buyer of startup stakes."
+ },
+ "nordicninja.com": {
+  "verdict": "fund",
+  "name": "NordicNinja VC",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "JBIC/Japanese-backed Nordic-Baltic fund."
+ },
+ "norron.com": {
+  "verdict": "drop",
+  "note": "Public-markets asset manager; not venture-relevant."
+ },
+ "norrsken.org": {
+  "verdict": "alias",
+  "name": "Norrsken VC",
+  "note": "Norrsken Foundation parent record; the investing vehicles are Norrsken VC (norrsken.vc) and Norrsken Evolve (norrskenevolve.vc), both kept."
+ },
+ "norrskenevolve.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norrsken's emerging-markets impact vehicle."
+ },
+ "norrsken.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norrsken Foundation's impact VC."
+ },
+ "northventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish deep-tech investor (GaN semiconductors and similar, per Harmonic)."
+ },
+ "nefo.com": {
+  "verdict": "fund",
+  "name": "North-East Family Office",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Danish single-family office, active in tech."
+ },
+ "novoholdings.dk": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "Novo Nordisk Foundation's investment arm; Novo Seeds through growth and principal investments, life science."
+ },
+ "nysnoinvest.no": {
+  "verdict": "fund",
+  "name": "Nysno Climate Investments",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Norwegian state climate investor, direct equity."
+ },
+ "obos.no": {
+  "verdict": "fund",
+  "name": "OBOS Ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Housing co-op's venture arm (plus Construct Venture JV with AF Gruppen); proptech/construction tech - Otovo, Spacemaker, Consigli."
+ },
+ "ohmanholding.se": {
+  "verdict": "drop",
+  "note": "Family-owned asset-management group (public markets); no direct venture vehicle."
+ },
+ "openocean.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish/London data-infrastructure VC."
+ },
+ "oxx.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "SaaS specialist, Series A/B+ (Stockholm/London)."
+ },
+ "paleblue.vc": {
+  "verdict": "fund",
+  "name": "Pale Blue Dot",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Malmo climate seed VC."
+ },
+ "people.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Copenhagen early-stage VC."
+ },
+ "planetary.dk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish regenerative food-system venture fund plus a soil fund."
+ },
+ "psv.xyz": {
+  "verdict": "fund",
+  "name": "PSV (PreSeed Ventures)",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish pre-seed institution; PSV Tech, PSV DeepTech, PSV Hafnium."
+ },
+ "rainmaking.io": {
+  "verdict": "drop",
+  "note": "Venture studio / corporate-innovation consultancy; equity comes via studio JVs, no active blind-pool fund writing external cheques. Borderline call."
+ },
+ "hhs.se": {
+  "verdict": "drop",
+  "note": "RAMP is a Stockholm School of Economics accelerator programme; no equity cheque."
+ },
+ "runwayfbu.com": {
+  "verdict": "alias",
+  "name": "Runway VC",
+  "note": "RunwayFBU rebranded to Runway VC (runway.vc) - same Rokke/Baekkelund fund; keep the runway.vc record."
+ },
+ "runway.vc": {
+  "verdict": "fund",
+  "name": "Runway VC",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Ex-RunwayFBU (Fornebu, Aker/Rokke-backed); industrial AI, robotics, automation; Fund II EUR 40m first close."
+ },
+ "rymdkapital.se": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish space-tech investor."
+ },
+ "saab.com": {
+  "verdict": "drop",
+  "note": "Defence OEM; no active external venture vehicle under its own name (Saab Ventures is dormant)."
+ },
+ "projectsandwater.com": {
+  "verdict": "fund",
+  "name": "Sandwater",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Oslo impact VC."
+ },
+ "scalecapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish-US early-stage fund."
+ },
+ "scania.com": {
+  "verdict": "fund",
+  "name": "Scania Growth Capital",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Scania itself is an OEM, but Scania Growth Capital is active (vialytics Dec 2024, Neutreeno, Black Semiconductor; deal as late as Nov 2025) and managed by East Hill Equity, also on this list."
+ },
+ "sciety.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Swedish investment platform/syndicate for health and impact; coordinates angel cheques rather than running a blind pool."
+ },
+ "sebgroup.com": {
+  "verdict": "drop",
+  "note": "Banking group; SEB Venture Capital is its own record (seb.se) and stays."
+ },
+ "seb.se": {
+  "verdict": "fund",
+  "name": "SEB Venture Capital",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "SEB's venture arm; fintech and B2B."
+ },
+ "seedcapital.dk": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish seed VC."
+ },
+ "sisu.vc": {
+  "verdict": "fund",
+  "name": "Sisu Game Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish gaming-only fund."
+ },
+ "skyfall.vc": {
+  "verdict": "fund",
+  "name": "Skyfall Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian seed VC."
+ },
+ "sno.vc": {
+  "verdict": "fund",
+  "name": "SNO Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian early-stage VC."
+ },
+ "solidium.fi": {
+  "verdict": "drop",
+  "note": "Finnish state holding in listed blue chips; not a venture investor."
+ },
+ "sondo.com": {
+  "verdict": "fund",
+  "name": "Sondo Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian pre-seed/seed investor, NOK 2-6m cheques."
+ },
+ "sony-acceleration-platform.com": {
+  "verdict": "drop",
+  "note": "Sony's corporate acceleration programme; services, not equity cheques."
+ },
+ "spintopventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish seed VC."
+ },
+ "lifeatspotify.com": {
+  "verdict": "drop",
+  "note": "Spotify careers domain; operating company, no venture vehicle."
+ },
+ "ssebusinesslab.se": {
+  "verdict": "drop",
+  "note": "Stockholm School of Economics incubator; no equity cheque."
+ },
+ "ssebl.com": {
+  "verdict": "fund",
+  "name": "SSE Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Student-run micro-fund at the Stockholm School of Economics; cheques are small but real. Borderline keep."
+ },
+ "standoutcapital.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Swedish tech growth/buyout fund."
+ },
+ "startuplab.no": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Oslo incubator investing through StartupLab Founders Fund."
+ },
+ "statkraft.com": {
+  "verdict": "fund",
+  "name": "Statkraft Ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Statkraft is the utility; the investing arm is Statkraft Ventures - this is the record the Norwegian view should show."
  }
 }
