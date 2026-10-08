@@ -3532,5 +3532,14 @@
     "now": null
    }
   }
+ },
+ "uk": {
+  "atomico": {
+   "Mattias Ljungman": {
+    "status": "moved",
+    "now": "Moonfire (Founder)",
+    "note": "Harmonic: Atomico co-founder role ended Dec 2019; Founder at Moonfire since Jul 2019. Affinity still carries mattias@atomico.com. Flagged by Will Oct 2026."
+   }
+  }
  }
 }

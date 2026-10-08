@@ -1,4460 +1,4460 @@
 {
-"1011vc.com": {
-"David Palmer": {
-"status": "current",
-"now": null
-},
-"Grace Cassy": {
-"status": "current",
-"now": null
-},
-"Dani Andrade": {
-"status": "current",
-"now": null
-}
-},
-"2100.vc": {
-"Andrea Gurnari": {
-"status": "moved",
-"now": "Moonfire (Partner)"
-}
-},
-"468cap.com": {
-"Bernhard Janke": {
-"status": "current",
-"now": null
-},
-"Bardo Droege": {
-"status": "current",
-"now": null
-},
-"Diogo Cunha": {
-"status": "moved",
-"now": "Stealth Company (Co-Founder & CEO)"
-}
-},
-"4impact.vc": {
-"Ali Najafbagy": {
-"status": "current",
-"now": null
-}
-},
-"83north.com": {
-"Philip Chopin": {
-"status": "moved",
-"now": "NEA (Managing Director)"
-},
-"Yoram Snir": {
-"status": "current",
-"now": null
-},
-"Arnon Dinur": {
-"status": "current",
-"now": null
-},
-"Stacey Lachmi": {
-"status": "unknown",
-"now": null
-},
-"Laurel Bowden": {
-"status": "current",
-"now": null
-},
-"Simona Cohen": {
-"status": "current",
-"now": null
-}
-},
-"accel.com": {
-"Alex Reinert": {
-"status": "current",
-"now": null
-},
-"Bodi Tent": {
-"status": "unknown",
-"now": null
-},
-"Tim Rawlinson": {
-"status": "current",
-"now": null
-},
-"Richard Kotite": {
-"status": "moved",
-"now": "Radical Ventures (Partner)"
-},
-"Robert Sternberg": {
-"status": "moved",
-"now": "EQT Group (Director)"
-},
-"Aman Ghei": {
-"status": "moved",
-"now": "Finch Capital (Partner)"
-},
-"Pia d'Iribarne": {
-"status": "moved",
-"now": "Main Object (Founder & Managing Partner)"
-},
-"Fred Destin": {
-"status": "moved",
-"now": "Stride.VC (Founder)"
-},
-"Will Sheldon": {
-"status": "moved",
-"now": "Expedition Growth Capital (Partner)"
-},
-"Ben Fletcher": {
-"status": "current",
-"now": null
-},
-"Dana Eliaz": {
-"status": "current",
-"now": null
-},
-"Varun Purandare": {
-"status": "moved",
-"now": "Marcho Partners (Investor)"
-},
-"Kelly Kung": {
-"status": "current",
-"now": null
-}
-},
-"acecap.com": {
-"Leif Danielsen": {
-"status": "current",
-"now": null
-}
-},
-"aglaeventures.com": {
-"Kristina Chvilova": {
-"status": "current",
-"now": null
-},
-"Léa Verdillon": {
-"status": "current",
-"now": null
-},
-"Julie Roze": {
-"status": "moved",
-"now": "Korelya Capital (Partner)"
-}
-},
-"albion.vc": {
-"Lauren Apostolidis": {
-"status": "current",
-"now": null
-},
-"Sebastian Hunte": {
-"status": "current",
-"now": null
-},
-"Paul Lehair": {
-"status": "current",
-"now": null
-},
-"Ed Lascelles": {
-"status": "current",
-"now": null
-},
-"Nadine Torbey": {
-"status": "current",
-"now": null
-},
-"Cat McDonald": {
-"status": "current",
-"now": null
-},
-"Valerie Aelbrecht": {
-"status": "current",
-"now": null
-},
-"Rosie Samuels": {
-"status": "current",
-"now": null
-},
-"Jay Wilson": {
-"status": "current",
-"now": null
-},
-"Kibriya Rahman": {
-"status": "current",
-"now": null
-},
-"Jessica Bartos": {
-"status": "moved",
-"now": "Notion Capital (Partner - Growth Investments)"
-},
-"Lucia Rodriguez": {
-"status": "unknown",
-"now": null
-}
-},
-"alstin.capital": {
-"Andreas Schenk Alstin Capital": {
-"status": "current",
-"now": null
-}
-},
-"and-ventures.com": {
-"Danielle Zettel": {
-"status": "current",
-"now": null
-}
-},
-"angelinvest.ventures": {
-"Remo Mahler": {
-"status": "current",
-"now": null
-},
-"Jens Lapinski": {
-"status": "current",
-"now": null
-},
-"Nazanin Daneshvar": {
-"status": "current",
-"now": null
-}
-},
-"angularventures.com": {
-"Gil Dibner": {
-"status": "current",
-"now": null
-},
-"Mariana Santini": {
-"status": "current",
-"now": null
-}
-},
-"anthemis.com": {
-"Sophie Winwood": {
-"status": "moved",
-"now": "unlock VC (Co-Founder & CEO)"
-},
-"Georgia Haigh": {
-"status": "unknown",
-"now": null
-},
-"Jeremy Brown": {
-"status": "current",
-"now": null
-},
-"Marin Cauvas": {
-"status": "current",
-"now": null
-},
-"Mia Merrill": {
-"status": "current",
-"now": null
-},
-"Derya Varol": {
-"status": "unknown",
-"now": null
-},
-"Ruth Blader": {
-"status": "moved",
-"now": "Citrine Venture Partners (Co-Founder & Managing Partner)"
-}
-},
-"anthropic.com": {
-"Stephan von Perger": {
-"status": "current",
-"now": null
-},
-"Dave Dowdall": {
-"status": "unknown",
-"now": null
-},
-"Sagar Gupta": {
-"status": "current",
-"now": null
-},
-"Wyatt Horan": {
-"status": "current",
-"now": null
-},
-"Sam McAllister": {
-"status": "current",
-"now": null
-},
-"Ryan Libster": {
-"status": "current",
-"now": null
-},
-"Fatma Dogan": {
-"status": "current",
-"now": null
-}
-},
-"atlassian.com": {
-"Andy Champion": {
-"status": "current",
-"now": null
-},
-"Tanya Parks": {
-"status": "current",
-"now": null
-},
-"Zeynep Ozdemir": {
-"status": "moved",
-"now": "Legora (formerly Leya) (Chief Marketing Officer)"
-}
-},
-"atomico.com": {
-"Slavi Arnaudov": {
-"status": "current",
-"now": null
-},
-"Alex Harrison-Spain": {
-"status": "moved",
-"now": "Stream (VP Product)"
-},
-"Katharine McCallum": {
-"status": "current",
-"now": null
-},
-"Sherington Amarapala": {
-"status": "current",
-"now": null
-},
-"Paddy Lambros": {
-"status": "moved",
-"now": "Dex (Founder)"
-},
-"Axelle Decoutere": {
-"status": "unknown",
-"now": null
-},
-"Foucault Fraguier": {
-"status": "current",
-"now": null
-},
-"Hillary Ball": {
-"status": "current",
-"now": null
-},
-"Mattias Ljungman": {
-"status": "moved",
-"now": "Moonfire (Founder)"
-},
-"Constantin Fleck": {
-"status": "current",
-"now": null
-},
-"Ben Blume": {
-"status": "current",
-"now": null
-},
-"Alexander Vidiborskiy": {
-"status": "current",
-"now": null
-},
-"Mia Paschali": {
-"status": "moved",
-"now": "TDR Capital (Executive Assistant)"
-}
-},
-"b2venture.vc": {
-"Anna Bosch": {
-"status": "current",
-"now": null
-},
-"Marisa Krummrich": {
-"status": "current",
-"now": null
-},
-"Damian Zaker": {
-"status": "moved",
-"now": "Visionaries (Investment Analyst)"
-},
-"Jochen Gutbrod": {
-"status": "moved",
-"now": "Raffay & Cie.GmbH (Gründer:in)"
-}
-},
-"balderton.com": {
-"Zain Waheed": {
-"status": "current",
-"now": null
-},
-"Giulia Marchegiani": {
-"status": "current",
-"now": null
-},
-"Leah Sutton": {
-"status": "current",
-"now": null
-},
-"Claudia Rowe": {
-"status": "current",
-"now": null
-},
-"Elena Moneta": {
-"status": "current",
-"now": null
-},
-"Suranga Chandratillake": {
-"status": "current",
-"now": null
-},
-"Lena Hinkelmann": {
-"status": "current",
-"now": null
-},
-"Michael Lavner": {
-"status": "moved",
-"now": "Never Lift (General Partner)"
-},
-"Emma Kerr": {
-"status": "current",
-"now": null
-},
-"Tobias Winczer": {
-"status": "current",
-"now": null
-},
-"Lucie Anderson": {
-"status": "current",
-"now": null
-},
-"Daniel Waterhouse": {
-"status": "current",
-"now": null
-},
-"Magda Lukaszewicz": {
-"status": "moved",
-"now": "Inventure (Partner)"
-},
-"Bernard Liautaud": {
-"status": "current",
-"now": null
-},
-"Shannon Harrington": {
-"status": "unknown",
-"now": null
-},
-"Tamasha Ginige": {
-"status": "unknown",
-"now": null
-}
-},
-"bekventures.com": {
-"Jan Faflik": {
-"status": "unknown",
-"now": null
-},
-"Mehmet Atici": {
-"status": "current",
-"now": null
-},
-"Cem Sertoglu": {
-"status": "current",
-"now": null
-},
-"Ece Sagar": {
-"status": "unknown",
-"now": null
-},
-"Kaan Polat": {
-"status": "moved",
-"now": "Grand Games (Chief of Staff)"
-},
-"Nilufer Ayangil": {
-"status": "unknown",
-"now": null
-},
-"Arda Kirkagac": {
-"status": "current",
-"now": null
-},
-"Semra Sadikoglu": {
-"status": "unknown",
-"now": null
-}
-},
-"blackbird.vc": {
-"Michael Tolo": {
-"status": "current",
-"now": null
-},
-"Morven Brown": {
-"status": "current",
-"now": null
-}
-},
-"blackfinch.com": {
-"Hassaan Mehmood": {
-"status": "current",
-"now": null
-}
-},
-"bnvtcapital.com": {
-"Simon Levy": {
-"status": "unknown",
-"now": null
-},
-"Tobias Reimann-Dubbers": {
-"status": "unknown",
-"now": null
-}
-},
-"brightcap.vc": {
-"Dimitar Korsakov": {
-"status": "current",
-"now": null
-},
-"Elina Halatcheva": {
-"status": "current",
-"now": null
-},
-"Georgi Mitov": {
-"status": "current",
-"now": null
-}
-},
-"british-business-bank.co.uk": {
-"Mauricio Urresta": {
-"status": "current",
-"now": null
-},
-"Michael Laycock": {
-"status": "current",
-"now": null
-},
-"Megha Jain": {
-"status": "current",
-"now": null
-},
-"Carrie Babcock": {
-"status": "unknown",
-"now": null
-},
-"Max Middleton": {
-"status": "current",
-"now": null
-},
-"Charlotte Lawrence": {
-"status": "current",
-"now": null
-},
-"Paul Krause": {
-"status": "current",
-"now": null
-},
-"Dan Patrick": {
-"status": "unknown",
-"now": null
-},
-"Bbb Office": {
-"status": "unknown",
-"now": null
-}
-},
-"ca-cib.com": {
-"Yassine Brahimi": {
-"status": "current",
-"now": null
-},
-"Olivier Justic": {
-"status": "current",
-"now": null
-},
-"Laurent Pellerin": {
-"status": "current",
-"now": null
-},
-"Armand Mingasson": {
-"status": "current",
-"now": null
-},
-"Jerome Perrier": {
-"status": "unknown",
-"now": null
-}
-},
-"calmstorm.vc": {
-"Lucanus Polagnoli": {
-"status": "current",
-"now": null
-}
-},
-"cam.ac.uk": {
-"Alexander Leichter": {
-"status": "unknown",
-"now": null
-},
-"Tim Leach": {
-"status": "unknown",
-"now": null
-},
-"Matthew Juniper": {
-"status": "unknown",
-"now": null
-},
-"Gordon Harold": {
-"status": "unknown",
-"now": null
-},
-"Johannes Lenhard": {
-"status": "unknown",
-"now": null
-}
-},
-"camber.io": {
-"Sarabeth Scott": {
-"status": "current",
-"now": null
-},
-"Ashley Lundquist": {
-"status": "current",
-"now": null
-}
-},
-"canaan.com": {
-"Joydeep Bhattacharyya": {
-"status": "current",
-"now": null
-},
-"Heidi You": {
-"status": "unknown",
-"now": null
-}
-},
-"capnamic.com": {
-"Alexandra Kurmulis": {
-"status": "current",
-"now": null
-},
-"Christian Siegele": {
-"status": "current",
-"now": null
-},
-"Markus Merz": {
-"status": "current",
-"now": null
-},
-"Olaf Jacobi": {
-"status": "current",
-"now": null
-},
-"Jason Grüninger": {
-"status": "current",
-"now": null
-},
-"Dorothea Gotthardt": {
-"status": "moved",
-"now": "QuantPi (COO)"
-},
-"Benjamin Kleinschnitz": {
-"status": "current",
-"now": null
-},
-"Franz Diekmann": {
-"status": "moved",
-"now": "Basic Ventures (Partner)"
-},
-"Thorben Rothe": {
-"status": "moved",
-"now": "IRIS (Partner - Head of Early Stage Germany)"
-},
-"Lukas Vogt": {
-"status": "moved",
-"now": "Sunhat (Co-Founder & CEO)"
-}
-},
-"cardumencapital.com": {
-"Karin Yaacobi": {
-"status": "current",
-"now": null
-},
-"Gonzalo Martínez De Azagra": {
-"status": "current",
-"now": null
-},
-"Noa Shamay": {
-"status": "current",
-"now": null
-},
-"Aitor Almendros": {
-"status": "moved",
-"now": "Renascentia AI (Partner)"
-}
-},
-"ccap.co": {
-"Christopher Caesar": {
-"status": "current",
-"now": null
-}
-},
-"cdpventurecapital.it": {
-"Laura Cesenni": {
-"status": "current",
-"now": null
-},
-"Davide Opromolla": {
-"status": "current",
-"now": null
-},
-"Stefano Pelagallo": {
-"status": "current",
-"now": null
-},
-"Mario Scuderi": {
-"status": "current",
-"now": null
-},
-"Luca Limoncelli": {
-"status": "current",
-"now": null
-},
-"Andrea Livecchi": {
-"status": "current",
-"now": null
-},
-"Laura Scaramella": {
-"status": "current",
-"now": null
-},
-"Niccolò Mussi": {
-"status": "current",
-"now": null
-},
-"Cristina Dachille": {
-"status": "current",
-"now": null
-}
-},
-"celonis.com": {
-"Benoit Fouilland": {
-"status": "current",
-"now": null
-}
-},
-"chalfenventures.com": {
-"Mike Chalfen": {
-"status": "current",
-"now": null
-},
-"Ben Johnson": {
-"status": "current",
-"now": null
-}
-},
-"chemistry.vc": {
-"Mark Goldberg": {
-"status": "current",
-"now": null
-}
-},
-"cic.vc": {
-"Ian Lane": {
-"status": "current",
-"now": null
-},
-"Richard Hall": {
-"status": "current",
-"now": null
-},
-"Matt Maynard": {
-"status": "current",
-"now": null
-},
-"Andrew Williamson": {
-"status": "current",
-"now": null
-}
-},
-"clpgrowth.com": {
-"Ryan Cherry": {
-"status": "moved",
-"now": "Crestline (Investment Associate)"
-},
-"Kate Vine": {
-"status": "current",
-"now": null
-},
-"William Ruis-John": {
-"status": "current",
-"now": null
-}
-},
-"coatue.com": {
-"Andre Woon": {
-"status": "current",
-"now": null
-},
-"Chase Packard": {
-"status": "moved",
-"now": "Marathon Management Partners (Founding Partner)"
-},
-"Jared Schulman": {
-"status": "moved",
-"now": "Neuralink (Lead, Strategic Finance)"
-},
-"Angelica Costa": {
-"status": "moved",
-"now": "Mighty Capital (Operations)"
-}
-},
-"commonmagic.xyz": {
-"Sarah Moffatt": {
-"status": "unknown",
-"now": null
-}
-},
-"connectventures.co": {
-"Rory Stirling": {
-"status": "current",
-"now": null
-},
-"Sitar Teli": {
-"status": "current",
-"now": null
-},
-"Mark Pettit": {
-"status": "current",
-"now": null
-}
-},
-"crane.vc": {
-"Agnieszka Paliwoda": {
-"status": "unknown",
-"now": null
-},
-"Ayala Ples": {
-"status": "current",
-"now": null
-},
-"Morgane Zerath": {
-"status": "current",
-"now": null
-},
-"Krishna Visvanathan": {
-"status": "current",
-"now": null
-},
-"Guy Bentley": {
-"status": "current",
-"now": null
-},
-"Sam Kester": {
-"status": "current",
-"now": null
-},
-"Ben Wright": {
-"status": "current",
-"now": null
-},
-"Rav Dhaliwal": {
-"status": "current",
-"now": null
-},
-"Anna Cachadina": {
-"status": "current",
-"now": null
-},
-"Bonnie Kraus": {
-"status": "current",
-"now": null
-},
-"Scott Sage": {
-"status": "current",
-"now": null
-}
-},
-"creandum.com": {
-"Sarah Otter": {
-"status": "current",
-"now": null
-},
-"Carl Fritjofsson": {
-"status": "current",
-"now": null
-},
-"Beatrice Rellman": {
-"status": "current",
-"now": null
-},
-"Michelle Coventry": {
-"status": "current",
-"now": null
-},
-"Cameron Sellers": {
-"status": "current",
-"now": null
-},
-"Peter Specht": {
-"status": "current",
-"now": null
-},
-"Simon Schmincke": {
-"status": "current",
-"now": null
-},
-"Isabelle Sandblom": {
-"status": "current",
-"now": null
-},
-"Jakob Stein": {
-"status": "current",
-"now": null
-},
-"Hanel Baveja": {
-"status": "current",
-"now": null
-},
-"Ellen Lee": {
-"status": "moved",
-"now": "Modal (Marketing / Growth)"
-},
-"Gemma Bloemen": {
-"status": "moved",
-"now": "Systemiq Capital (Full-time Venture Partner)"
-}
-},
-"crowdcube.com": {
-"Mathias Pastor": {
-"status": "moved",
-"now": "Auctor Group / HodlCo (Director)"
-}
-},
-"crv.com": {
-"Jon Auerbach": {
-"status": "current",
-"now": null
-},
-"Izhar Armony": {
-"status": "current",
-"now": null
-},
-"James Green": {
-"status": "current",
-"now": null
-},
-"Rebecca Charyn": {
-"status": "current",
-"now": null
-},
-"Jenny Sun": {
-"status": "current",
-"now": null
-}
-},
-"cyberstarts.com": {
-"Lior Simon": {
-"status": "current",
-"now": null
-},
-"Shiran Ella": {
-"status": "current",
-"now": null
-},
-"Gili Raanan": {
-"status": "current",
-"now": null
-}
-},
-"databricks.com": {
-"Panos Athanasiou": {
-"status": "current",
-"now": null
-}
-},
-"datadoghq.com": {
-"Gabriel Levy": {
-"status": "current",
-"now": null
-},
-"Varun Mohapatra": {
-"status": "moved",
-"now": "Tracebit (Product)"
-},
-"Bharat Sajnani": {
-"status": "current",
-"now": null
-},
-"Brian Peters": {
-"status": "current",
-"now": null
-},
-"Brenda Newmann": {
-"status": "current",
-"now": null
-},
-"Robie Evangelista": {
-"status": "moved",
-"now": "Cantorna Creative (Executive Business Partner)"
-}
-},
-"dawncapital.com": {
-"Atiyu Mehta": {
-"status": "current",
-"now": null
-},
-"Alexandra Tsylnitska": {
-"status": "current",
-"now": null
-},
-"Romeo Walter": {
-"status": "current",
-"now": null
-},
-"Shamillah Bankiya": {
-"status": "current",
-"now": null
-},
-"Jimena Nowack": {
-"status": "moved",
-"now": "IVP (Partner)"
-},
-"Mina Mutafchieva": {
-"status": "moved",
-"now": "HV Capital (Partner, Growth)"
-},
-"Dan Chaplin": {
-"status": "current",
-"now": null
-},
-"Avalon Lee-Bacon": {
-"status": "current",
-"now": null
-},
-"Josh Bell": {
-"status": "current",
-"now": null
-},
-"Gamila Hassan": {
-"status": "current",
-"now": null
-},
-"Andrea Garcia": {
-"status": "moved",
-"now": "Nauta (Principal)"
-},
-"Zoe Qin": {
-"status": "current",
-"now": null
-},
-"Ties Boukema": {
-"status": "moved",
-"now": "Hg (Head of internal AI)"
-}
-},
-"cylonventures.com": {
-"Grace Cassy": {
-"status": "moved",
-"now": "Ten Eleven Ventures (Partner)"
-}
-},
-"deel.com": {
-"Roman Lobas": {
-"status": "moved",
-"now": "Icebreaker Agency (Сo-founder & Partner)"
-},
-"Anthony Dann": {
-"status": "current",
-"now": null
-},
-"Hannes Ortmeier": {
-"status": "current",
-"now": null
-},
-"Ji Bang": {
-"status": "current",
-"now": null
-}
-},
-"demeter-im.com": {
-"Olivier Bordelanne": {
-"status": "current",
-"now": null
-},
-"Valentine Clinkspoor": {
-"status": "current",
-"now": null
-},
-"Eric Marty": {
-"status": "current",
-"now": null
-}
-},
-"discovery-ventures.com": {
-"Finn Weise": {
-"status": "moved",
-"now": "Thrivo Wealth Partners (Geschäftsführer)"
-}
-},
-"dogpatchlabs.com": {
-"Menno Axt": {
-"status": "current",
-"now": null
-}
-},
-"drysdale.vc": {
-"Dalia Mahfouf": {
-"status": "current",
-"now": null
-},
-"Nicolas Essayan": {
-"status": "current",
-"now": null
-}
-},
-"dvhventures.de": {
-"Duc Tran": {
-"status": "current",
-"now": null
-}
-},
-"ec.europa.eu": {
-"Sevdalis Panagiotis": {
-"status": "current",
-"now": null
-},
-"Panagiotis Sevdalis": {
-"status": "current",
-"now": null
-}
-},
-"dynamo.vc": {
-"Jon Bradford": {
-"status": "unknown",
-"now": null
-}
-},
-"ecbf.vc": {
-"Stephane Roussel": {
-"status": "current",
-"now": null
-},
-"Hakan Karan": {
-"status": "current",
-"now": null
-},
-"Cornelia Frentz": {
-"status": "current",
-"now": null
-},
-"Mathias Lorenz": {
-"status": "moved",
-"now": "Delphinus Venture Capital (Managing Partner & CEO)"
-}
-},
-"eib.org": {
-"Lisboa Joana": {
-"status": "current",
-"now": null
-},
-"Papadimitriou Aristotle": {
-"status": "current",
-"now": null
-},
-"Katona Marton": {
-"status": "unknown",
-"now": null
-},
-"Magazzino Donato": {
-"status": "unknown",
-"now": null
-},
-"Himtcheva-rouzade Milena": {
-"status": "unknown",
-"now": null
-},
-"Aml-cft - KYC Review": {
-"status": "unknown",
-"now": null
-}
-},
-"eif.org": {
-"Yakisirer Adem": {
-"status": "current",
-"now": null
-},
-"Bjorn Tremmerie": {
-"status": "current",
-"now": null
-},
-"Matthias Ummenhofer": {
-"status": "moved",
-"now": "Founders Pledge (Founders Pledge Member)"
-},
-"Haeger Philipp": {
-"status": "current",
-"now": null
-},
-"MARCINKOWSKI Maud": {
-"status": "moved",
-"now": "European Investment Bank (EIB) (Senior Operational Assistant)"
-},
-"ANDRES René": {
-"status": "current",
-"now": null
-},
-"Marchal Sarah": {
-"status": "current",
-"now": null
-},
-"Prikoszovits Lucia": {
-"status": "unknown",
-"now": null
-}
-},
-"eightroads.com": {
-"Tamina Fogelberg": {
-"status": "moved",
-"now": "Nothing (Director of Global Strategy & Corporate Development)"
-},
-"Lucile Cornet": {
-"status": "current",
-"now": null
-},
-"Martin Ericsson": {
-"status": "moved",
-"now": "Priori Capital (Founder & CEO)"
-},
-"Helena Barman": {
-"status": "moved",
-"now": "Antler (VC investor @ Antler Elevate)"
-},
-"Asheque Shams": {
-"status": "unknown",
-"now": null
-},
-"Louis Frach": {
-"status": "moved",
-"now": "Left Lane Capital (Investor)"
-},
-"Daniel Benjamin": {
-"status": "moved",
-"now": "Eon (Seed Investor)"
-},
-"Davor Hebel": {
-"status": "current",
-"now": null
-},
-"Michael Treskow": {
-"status": "current",
-"now": null
-},
-"Laura Salesse": {
-"status": "current",
-"now": null
-},
-"Lucy O'Brien": {
-"status": "current",
-"now": null
-}
-},
-"elaia.com": {
-"Louisa Mesnard": {
-"status": "current",
-"now": null
-},
-"Alexis Frentz": {
-"status": "current",
-"now": null
-},
-"Gabriel Levy": {
-"status": "moved",
-"now": "Datadog (Senior Corpdev, Head of EMEA, Security)"
-},
-"Leonor Landeau": {
-"status": "current",
-"now": null
-},
-"Marie Ekeland": {
-"status": "moved",
-"now": "2050 (Founder & CEO)"
-},
-"Anya Brochier": {
-"status": "current",
-"now": null
-},
-"Xavier LAZARUS": {
-"status": "current",
-"now": null
-},
-"Pauline Roux": {
-"status": "current",
-"now": null
-}
-},
-"elephantvc.com": {
-"Matt Tanenblatt": {
-"status": "current",
-"now": null
-},
-"Peter Fallon": {
-"status": "current",
-"now": null
-},
-"Andy Hunt": {
-"status": "unknown",
-"now": null
-},
-"Christopher Souza": {
-"status": "current",
-"now": null
-},
-"Jason Shein": {
-"status": "current",
-"now": null
-},
-"Sandy Destruge": {
-"status": "moved",
-"now": "Silversmith Capital Partners (Executive Assistant)"
-},
-"Jeremiah Daly": {
-"status": "current",
-"now": null
-},
-"Dara Li": {
-"status": "current",
-"now": null
-},
-"Annmarie Singh": {
-"status": "current",
-"now": null
-},
-"Pat Cammarata": {
-"status": "current",
-"now": null
-},
-"Jack Connolly": {
-"status": "current",
-"now": null
-},
-"Tom Gill": {
-"status": "unknown",
-"now": null
-}
-},
-"elevation-cp.com": {
-"Benjamin Cohen": {
-"status": "current",
-"now": null
-}
-},
-"emblem.vc": {
-"Pierre Ljubic": {
-"status": "current",
-"now": null
-},
-"Guillaume DURAO": {
-"status": "current",
-"now": null
-},
-"Antoine Pruvot": {
-"status": "current",
-"now": null
-},
-"Bénédicte de Raphélis Soissan": {
-"status": "current",
-"now": null
-}
-},
-"endeit.com": {
-"Silvia Ersetti": {
-"status": "current",
-"now": null
-},
-"Ilan Goudsmit": {
-"status": "moved",
-"now": "Goldsmith Ventures (Founder & Strategic Advisor)"
-},
-"Martijn Hamann": {
-"status": "current",
-"now": null
-},
-"Philipp Schroeder": {
-"status": "current",
-"now": null
-},
-"Niclas Englert": {
-"status": "moved",
-"now": "London Business School (MBA Candidate)"
-},
-"Jelle-Jan Bruinsma": {
-"status": "current",
-"now": null
-},
-"Tuomas Rekonen": {
-"status": "current",
-"now": null
-},
-"Carin Stjernefeldt": {
-"status": "unknown",
-"now": null
-}
-},
-"enterprise-ireland.com": {
-"Jane Rogers": {
-"status": "unknown",
-"now": null
-},
-"Eimear Nuallain": {
-"status": "unknown",
-"now": null
-},
-"Claire Carroll": {
-"status": "current",
-"now": null
-},
-"David Scanlon": {
-"status": "moved",
-"now": "Resolve Ventures (Partner)"
-},
-"Karole Egan": {
-"status": "current",
-"now": null
-},
-"Leo McAdams": {
-"status": "current",
-"now": null
-},
-"Scaling Finance": {
-"status": "unknown",
-"now": null
-}
-},
-"enterprise.cam.ac.uk": {
-"Anne Dobree": {
-"status": "moved",
-"now": "Parkwalk Advisors (Investment Director)"
-},
-"Mahesh Santiapillai": {
-"status": "current",
-"now": null
-},
-"Christine Martin": {
-"status": "current",
-"now": null
-},
-"Megan Meredith-Rodriguez": {
-"status": "unknown",
-"now": null
-},
-"Sofia Spiegel-Renshaw": {
-"status": "current",
-"now": null
-},
-"Room Campath": {
-"status": "unknown",
-"now": null
-}
-},
-"eneco.com": {
-"A Mateus": {
-"status": "unknown",
-"now": null
-}
-},
-"episode1.com": {
-"Millan Suri": {
-"status": "current",
-"now": null
-},
-"Carina Namih": {
-"status": "moved",
-"now": "Plural (General Partner)"
-},
-"Nuan Zhang": {
-"status": "current",
-"now": null
-},
-"Adam Shuaib": {
-"status": "current",
-"now": null
-},
-"Adrian Lloyd": {
-"status": "current",
-"now": null
-},
-"Katie Conn": {
-"status": "unknown",
-"now": null
-},
-"Dominic Lester": {
-"status": "current",
-"now": null
-},
-"Stephanie Orde": {
-"status": "current",
-"now": null
-}
-},
-"etfpartners.capital": {
-"Alice Chan": {
-"status": "current",
-"now": null
-},
-"Patrick Sheehan": {
-"status": "current",
-"now": null
-},
-"Tomer Strikovsky": {
-"status": "current",
-"now": null
-},
-"Fabrice Bienfait": {
-"status": "current",
-"now": null
-},
-"Elisabeth Kuester": {
-"status": "moved",
-"now": "Deliveroo (Finance & Strategy Senior Manager)"
-},
-"Lucy Rands": {
-"status": "current",
-"now": null
-},
-"Isobel Sprules": {
-"status": "moved",
-"now": "Plural (Executive Assistant to Partner)"
-},
-"Remy Tonnac": {
-"status": "current",
-"now": null
-},
-"Aleksandra Lament": {
-"status": "current",
-"now": null
-},
-"Kajsa Johansson": {
-"status": "current",
-"now": null
-}
-},
-"etfscapital.com": {
-"Martyn James": {
-"status": "current",
-"now": null
-},
-"Steph Poulier": {
-"status": "current",
-"now": null
-},
-"Chloe Barlass": {
-"status": "moved",
-"now": "Fundment (Head of Business Administration)"
-},
-"Malcolm Ferguson": {
-"status": "current",
-"now": null
-},
-"Mark Weeks": {
-"status": "unknown",
-"now": null
-},
-"Patrick Kearney": {
-"status": "unknown",
-"now": null
-}
-},
-"eurazeo.com": {
-"Giulia Marchegiani": {
-"status": "moved",
-"now": "Balderton (Investor)"
-},
-"Adrian Kreiser": {
-"status": "current",
-"now": null
-},
-"Hala Fadel": {
-"status": "current",
-"now": null
-},
-"Abigail Raymond": {
-"status": "moved",
-"now": "Noteus Partners (Office Manager)"
-},
-"Elise Stern": {
-"status": "current",
-"now": null
-},
-"Reginald Wasseige": {
-"status": "current",
-"now": null
-},
-"Guillaume d'Audiffret": {
-"status": "moved",
-"now": "Noteus Partners (General Partner)"
-},
-"Dylan Gokani": {
-"status": "moved",
-"now": "Noteus Partners (Vice President)"
-},
-"Elizabeth Newman": {
-"status": "current",
-"now": null
-},
-"Anne-Charlotte PHILBERT": {
-"status": "current",
-"now": null
-},
-"Benoist Grossmann": {
-"status": "current",
-"now": null
-},
-"Damien FIETTA": {
-"status": "current",
-"now": null
-},
-"Romain Mombert": {
-"status": "current",
-"now": null
-}
-},
-"exor.com": {
-"Michael Lavner": {
-"status": "moved",
-"now": "Never Lift (General Partner)"
-}
-},
-"evantic.ai": {
-"Matt Miller": {
-"status": "current",
-"now": null
-},
-"Imke Koberg": {
-"status": "current",
-"now": null
-},
-"Joe McKeever": {
-"status": "unknown",
-"now": null
-},
-"Vivien Monory": {
-"status": "current",
-"now": null
-}
-},
-"expedition.capital": {
-"Sebastian Hodge": {
-"status": "current",
-"now": null
-},
-"Raja Ohri": {
-"status": "current",
-"now": null
-},
-"Sourour Chtatou": {
-"status": "current",
-"now": null
-},
-"Tom Denford": {
-"status": "current",
-"now": null
-},
-"Klaas Seynaeve": {
-"status": "current",
-"now": null
-},
-"David Olsson": {
-"status": "current",
-"now": null
-},
-"Will Sheldon": {
-"status": "current",
-"now": null
-},
-"Steven Twomey": {
-"status": "current",
-"now": null
-},
-"Maria Percuklievska": {
-"status": "unknown",
-"now": null
-},
-"Oliver Thomas": {
-"status": "current",
-"now": null
-},
-"Shuli Levy": {
-"status": "unknown",
-"now": null
-}
-},
-"expeditionsfund.com": {
-"Mikolaj Firlej": {
-"status": "current",
-"now": null
-}
-},
-"fdjunited.com": {
-"Pierre Tramon": {
-"status": "current",
-"now": null
-},
-"Louis Cournot": {
-"status": "current",
-"now": null
-}
-},
-"fev.vc": {
-"Moritz Jungmann": {
-"status": "current",
-"now": null
-},
-"Jan Palasinski": {
-"status": "current",
-"now": null
-}
-},
-"fiveseasons.vc": {
-"Ivan Farneti": {
-"status": "current",
-"now": null
-},
-"Andre Purits": {
-"status": "current",
-"now": null
-},
-"Valerie Evans": {
-"status": "current",
-"now": null
-},
-"Justine Boucher": {
-"status": "current",
-"now": null
-},
-"Saskia Hoebée": {
-"status": "current",
-"now": null
-}
-},
-"forto.com": {
-"Petit-Perrin Guillaume": {
-"status": "current",
-"now": null
-},
-"Meike Vetter": {
-"status": "current",
-"now": null
-},
-"Matthew Saliba": {
-"status": "current",
-"now": null
-},
-"Surbhit Rai": {
-"status": "current",
-"now": null
-}
-},
-"founderpath.com": {
-"Nathan GetLatka": {
-"status": "current",
-"now": null
-}
-},
-"foundersfactory.com": {
-"Peony Li": {
-"status": "moved",
-"now": "Jude (Founder and CEO)"
-}
-},
-"foundersfuture.com": {
-"Thibault Magnen": {
-"status": "current",
-"now": null
-},
-"Paul Varasso": {
-"status": "moved",
-"now": "Axeleo (Principal)"
-}
-},
-"frontline.vc": {
-"Philipp Werner": {
-"status": "current",
-"now": null
-},
-"George Radford": {
-"status": "current",
-"now": null
-},
-"Hannah Skingle": {
-"status": "current",
-"now": null
-},
-"Will Prendergast": {
-"status": "current",
-"now": null
-},
-"Allison Graf": {
-"status": "current",
-"now": null
-},
-"Dylan Scully": {
-"status": "current",
-"now": null
-},
-"Ruth Sheridan": {
-"status": "current",
-"now": null
-},
-"William McQuillan": {
-"status": "current",
-"now": null
-}
-},
-"futurycapital.vc": {
-"Shahin Dashti": {
-"status": "unknown",
-"now": null
-}
-},
-"gaiacap.co": {
-"Jean-David Herld": {
-"status": "current",
-"now": null
-},
-"Morgan Kessous": {
-"status": "current",
-"now": null
-},
-"Elina Berrebi": {
-"status": "current",
-"now": null
-}
-},
-"galaxy.com": {
-"Giorgio Oriani": {
-"status": "current",
-"now": null
-}
-},
-"generalcatalyst.com": {
-"Amanda Lennon": {
-"status": "current",
-"now": null
-},
-"Mark Crane": {
-"status": "current",
-"now": null
-},
-"Alex Mackenzie": {
-"status": "current",
-"now": null
-},
-"Electra Niarchos": {
-"status": "unknown",
-"now": null
-},
-"Zeynep Yavuz": {
-"status": "current",
-"now": null
-},
-"Paula Wehmeyer": {
-"status": "current",
-"now": null
-},
-"Nicole Bodinnar": {
-"status": "current",
-"now": null
-},
-"Josephine Kinney": {
-"status": "moved",
-"now": "Pinegrove Opportunity Partners (Executive Assistant)"
-},
-"Cecilia Zhao": {
-"status": "unknown",
-"now": null
-},
-"Juliet Bailin": {
-"status": "moved",
-"now": "Kindred Capital VC (Venture Partner)"
-}
-},
-"gi-de.com": {
-"Uffelmann Ena": {
-"status": "current",
-"now": null
-},
-"Shamia Assaf": {
-"status": "current",
-"now": null
-},
-"Hochholzer Michael": {
-"status": "current",
-"now": null
-}
-},
-"gilion.com": {
-"Oliver Hildebrandt": {
-"status": "current",
-"now": null
-},
-"Mina-Niqole Sandberg": {
-"status": "current",
-"now": null
-},
-"Henrik Landgren": {
-"status": "current",
-"now": null
-},
-"Alexandra Stolt": {
-"status": "current",
-"now": null
-},
-"Oscar Werner": {
-"status": "current",
-"now": null
-},
-"Axel Bruzelius": {
-"status": "current",
-"now": null
-}
-},
-"glilotcapital.com": {
-"Daniel Ziv": {
-"status": "current",
-"now": null
-},
-"Arik Kleinstein": {
-"status": "current",
-"now": null
-}
-},
-"globalfounderscapital.com": {
-"Cedric Asselman": {
-"status": "current",
-"now": null
-},
-"Alexandre Charlet": {
-"status": "moved",
-"now": "Hedosophia (Partner)"
-},
-"Soheil Mirpour": {
-"status": "moved",
-"now": "Melotech (Founder)"
-},
-"Levin Bunz": {
-"status": "moved",
-"now": "Heartcore Capital (Partner)"
-},
-"Julia Morrongiello": {
-"status": "moved",
-"now": "BVNK (VP Corporate Development & Strategy)"
-},
-"Tom Lambert": {
-"status": "moved",
-"now": "LocalGlobe (Partner)"
-},
-"Nick Stocks": {
-"status": "moved",
-"now": "Personal (Angel, LP, and more)"
-},
-"Matthias Müller": {
-"status": "current",
-"now": null
-},
-"Oleksandra Leshchynska": {
-"status": "unknown",
-"now": null
-},
-"Donald Stalter": {
-"status": "unknown",
-"now": null
-}
-},
-"goldenseeds.com": {
-"Jo Corkran": {
-"status": "current",
-"now": null
-}
-},
-"google.com": {
-"Nishu Lahoti": {
-"status": "moved",
-"now": "Nonlinear Labs (Founder)"
-},
-"Jonno Southam": {
-"status": "current",
-"now": null
-},
-"Avid Duggan": {
-"status": "moved",
-"now": "The Operator Network (Partner & Co-Founder)"
-},
-"Cyrille Olive": {
-"status": "current",
-"now": null
-},
-"Jon Koplin": {
-"status": "moved",
-"now": "Cisco Investments (Managing Director)"
-},
-"Sandeep Jayaram": {
-"status": "moved",
-"now": "Lambda (Executive Vice President, AI Infrastructure)"
-},
-"Roni Hiranand": {
-"status": "current",
-"now": null
-},
-"Oksana Stowe": {
-"status": "current",
-"now": null
-},
-"Oliver Lane": {
-"status": "current",
-"now": null
-},
-"Vidu Shanmugarajah": {
-"status": "current",
-"now": null
-}
-},
-"greshamhouse.com": {
-"Jens Düing": {
-"status": "current",
-"now": null
-},
-"Kay Matthews": {
-"status": "current",
-"now": null
-},
-"Marieke Christmann": {
-"status": "current",
-"now": null
-}
-},
-"headline.com": {
-"Linda Brosig": {
-"status": "current",
-"now": null
-},
-"Anna Faulkner": {
-"status": "current",
-"now": null
-},
-"Kiran Modi": {
-"status": "current",
-"now": null
-},
-"Shalini Rao": {
-"status": "current",
-"now": null
-},
-"Isabel Wrubel": {
-"status": "moved",
-"now": "Hyde (AI Strategist)"
-},
-"Sean Cloney": {
-"status": "current",
-"now": null
-},
-"Dominic Long-Innes": {
-"status": "moved",
-"now": null
-},
-"Christian Leybold": {
-"status": "current",
-"now": null
-},
-"Adeyinka Okuwoga": {
-"status": "current",
-"now": null
-}
-},
-"hitachi-ventures.com": {
-"Edoardo Stazio": {
-"status": "current",
-"now": null
-},
-"Galina Sagan": {
-"status": "current",
-"now": null
-},
-"Tobias Graf": {
-"status": "current",
-"now": null
-},
-"Tobias Jahn": {
-"status": "current",
-"now": null
-},
-"Akhil Jimmy": {
-"status": "current",
-"now": null
-}
-},
-"hummingbird.vc": {
-"Marc Rizk": {
-"status": "current",
-"now": null
-},
-"Ani Mouradyan": {
-"status": "current",
-"now": null
-},
-"Lukas Decoster": {
-"status": "current",
-"now": null
-},
-"Firat Ileri": {
-"status": "current",
-"now": null
-},
-"Nikita Andersson": {
-"status": "moved",
-"now": "Independent angel investor"
-},
-"Teal Frost": {
-"status": "current",
-"now": null
-},
-"Sofia Di Meola": {
-"status": "current",
-"now": null
-},
-"Katherine Jones": {
-"status": "current",
-"now": null
-},
-"Lola Wajskop": {
-"status": "moved",
-"now": "Asylum Ventures (Partner)"
-}
-},
-"hvcapital.com": {
-"Mina Mutafchieva": {
-"status": "current",
-"now": null
-},
-"Jack McGuinness": {
-"status": "current",
-"now": null
-},
-"Frazier Christie": {
-"status": "current",
-"now": null
-},
-"Ann-Christin Stiehl": {
-"status": "current",
-"now": null
-},
-"Anna Ott": {
-"status": "current",
-"now": null
-},
-"Alexander Joel-Carbonell": {
-"status": "current",
-"now": null
-},
-"Rainer Märkle": {
-"status": "current",
-"now": null
-},
-"Jannis Fett": {
-"status": "current",
-"now": null
-},
-"Felix Kluehr": {
-"status": "current",
-"now": null
-},
-"Christian Saller": {
-"status": "current",
-"now": null
-},
-"Kasey Davies": {
-"status": "current",
-"now": null
-}
-},
-"ibanfirst.com": {
-"Patrick Mollard": {
-"status": "moved",
-"now": "Fipto (Co Founder & CEO)"
-}
-},
-"iconiqcapital.com": {
-"Amine Athamena": {
-"status": "current",
-"now": null
-},
-"Shruti Tournatory": {
-"status": "current",
-"now": null
-},
-"Zuzanna Czapinska": {
-"status": "current",
-"now": null
-},
-"Mariam Abbott": {
-"status": "current",
-"now": null
-},
-"Calvin Yeoh": {
-"status": "moved",
-"now": "Stealth Company (Calvin Yeoh) (Something new)"
-},
-"Prit Boggavaram": {
-"status": "current",
-"now": null
-},
-"Sarah Stebbins": {
-"status": "current",
-"now": null
-},
-"Ritika Pai": {
-"status": "current",
-"now": null
-},
-"Seth Pierrepont": {
-"status": "current",
-"now": null
-},
-"Marie-Louise O'Callaghan": {
-"status": "current",
-"now": null
-},
-"Austin Liang": {
-"status": "current",
-"now": null
-}
-},
-"ing.com": {
-"L Klardie": {
-"status": "unknown",
-"now": null
-},
-"Project Gate": {
-"status": "unknown",
-"now": null
-},
-"M Preuss": {
-"status": "unknown",
-"now": null
-},
-"A Boham": {
-"status": "unknown",
-"now": null
-},
-"Tim Boer": {
-"status": "moved",
-"now": "AXECO (Partner)"
-},
-"Mathias Blumschein": {
-"status": "current",
-"now": null
-}
-},
-"illuminatefinancial.com": {
-"Hugo Hazon": {
-"status": "moved",
-"now": "Concept Ventures (Principal)"
-},
-"Carlos Perez-Pla": {
-"status": "current",
-"now": null
-},
-"Esther Muschamp": {
-"status": "current",
-"now": null
-},
-"Konstantin Koenig": {
-"status": "current",
-"now": null
-},
-"Julie McCrimlisk": {
-"status": "current",
-"now": null
-},
-"Andrew Patey": {
-"status": "current",
-"now": null
-},
-"Max Prozorovskyi": {
-"status": "moved",
-"now": "TimelyAI(Acquired by upstage) (Investment Director)"
-}
-},
-"illusian.org": {
-"Jasmin Jutila": {
-"status": "current",
-"now": null
-},
-"Mikko Savolainen": {
-"status": "current",
-"now": null
-},
-"Teemu Korhonen": {
-"status": "unknown",
-"now": null
-}
-},
-"innoenergy.com": {
-"Gianmarco Panone": {
-"status": "current",
-"now": null
-}
-},
-"innovacom.com": {
-"Jerome Faul": {
-"status": "current",
-"now": null
-},
-"Denis Barrier": {
-"status": "current",
-"now": null
-}
-},
-"inovo.vc": {
-"Dawid Sugier": {
-"status": "current",
-"now": null
-},
-"Tomasz Swieboda": {
-"status": "current",
-"now": null
-}
-},
-"inreachventures.com": {
-"Amanda Floyd": {
-"status": "current",
-"now": null
-},
-"Roberto Bonanzinga": {
-"status": "current",
-"now": null
-}
-},
-"ivp.com": {
-"Jimena Nowack": {
-"status": "current",
-"now": null
-},
-"Room 22": {
-"status": "unknown",
-"now": null
-},
-"Eric Liaw": {
-"status": "current",
-"now": null
-},
-"Sarah Dixson": {
-"status": "current",
-"now": null
-},
-"Karthik Ramakrishnan": {
-"status": "unknown",
-"now": null
-},
-"Sabina von Koskull": {
-"status": "current",
-"now": null
-},
-"Alex Lim": {
-"status": "current",
-"now": null
-},
-"Sam Parker": {
-"status": "current",
-"now": null
-},
-"Zack Grimmer": {
-"status": "current",
-"now": null
-},
-"Roxie Rum": {
-"status": "current",
-"now": null
-},
-"Shravan Narayen": {
-"status": "unknown",
-"now": null
-},
-"Dawson Poinelli": {
-"status": "unknown",
-"now": null
-}
-},
-"ironnation.org": {
-"Jason Wolf": {
-"status": "current",
-"now": null
-}
-},
-"isai.fr": {
-"Jeanpatrice Anciaux": {
-"status": "current",
-"now": null
-},
-"William Vermont": {
-"status": "current",
-"now": null
-},
-"Christophe Poupinel": {
-"status": "current",
-"now": null
-},
-"Juliette Mopin": {
-"status": "current",
-"now": null
-},
-"J-David Chamboredon": {
-"status": "current",
-"now": null
-},
-"Christophe Raynaud": {
-"status": "unknown",
-"now": null
-}
-},
-"j12ventures.com": {
-"Caroline Hultman": {
-"status": "current",
-"now": null
-},
-"Maja Shapiro": {
-"status": "current",
-"now": null
-}
-},
-"joinef.com": {
-"Seyi Oluwasanmi": {
-"status": "unknown",
-"now": null
-},
-"Max Neuberger": {
-"status": "current",
-"now": null
-},
-"Ella Morris": {
-"status": "current",
-"now": null
-}
-},
-"jpmorgan.com": {
-"Jennifer Stillman": {
-"status": "current",
-"now": null
-},
-"Helena Bertuello": {
-"status": "current",
-"now": null
-},
-"Nancy Dong": {
-"status": "current",
-"now": null
-},
-"John Mazzara": {
-"status": "current",
-"now": null
-},
-"Jonathan Gleason": {
-"status": "unknown",
-"now": null
-},
-"William Moukouri": {
-"status": "current",
-"now": null
-},
-"Jo Leech": {
-"status": "current",
-"now": null
-},
-"Max Hauer": {
-"status": "current",
-"now": null
-},
-"Chris Pearce": {
-"status": "current",
-"now": null
-},
-"Jc Raby": {
-"status": "current",
-"now": null
-},
-"Alexandra Wyatt": {
-"status": "current",
-"now": null
-},
-"Alex Mccracken": {
-"status": "current",
-"now": null
-}
-},
-"jtventures.cz": {
-"Jan Sova": {
-"status": "current",
-"now": null
-},
-"Kočík Adam": {
-"status": "current",
-"now": null
-},
-"David Polach": {
-"status": "unknown",
-"now": null
-},
-"Zimola Jakub": {
-"status": "moved",
-"now": "Miton (New Ventures)"
-},
-"Paleček Matouš": {
-"status": "current",
-"now": null
-}
-},
-"junctiongrowthinvestors.com": {
-"Ruben Lorer": {
-"status": "current",
-"now": null
-}
-},
-"kaporcapital.com": {
-"Cliff Worley": {
-"status": "moved",
-"now": "Automate First (Founder & AI Consultant)"
-}
-},
-"kaya.vc": {
-"Václav Ryšlink": {
-"status": "current",
-"now": null
-}
-},
-"kfund.vc": {
-"Jorge Campo": {
-"status": "current",
-"now": null
-},
-"Jaime Novoa": {
-"status": "current",
-"now": null
-}
-},
-"kimaventures.com": {
-"Felix Breucker": {
-"status": "current",
-"now": null
-},
-"Jean de La Rochebrochard": {
-"status": "current",
-"now": null
-},
-"Alexis Robert": {
-"status": "unknown",
-"now": null
-}
-},
-"kindredcapital.vc": {
-"Leila Zegna": {
-"status": "current",
-"now": null
-},
-"Max Bray": {
-"status": "current",
-"now": null
-},
-"Chrys Chrysanthou": {
-"status": "current",
-"now": null
-},
-"Karen Swain": {
-"status": "current",
-"now": null
-},
-"Fiona Lay": {
-"status": "current",
-"now": null
-},
-"John Potter": {
-"status": "unknown",
-"now": null
-}
-},
-"lakestar.com": {
-"Jannis Fett": {
-"status": "moved",
-"now": "HV (Principal)"
-},
-"Ben Clark": {
-"status": "current",
-"now": null
-},
-"Akis Bratsos": {
-"status": "current",
-"now": null
-},
-"Enrico Mellis": {
-"status": "current",
-"now": null
-},
-"Sandra Krivancova": {
-"status": "current",
-"now": null
-},
-"Fredrik Nylander": {
-"status": "unknown",
-"now": null
-},
-"Beatrice Aliprandi": {
-"status": "unknown",
-"now": null
-},
-"Chris Magazzeni": {
-"status": "current",
-"now": null
-},
-"Oliver Heimes": {
-"status": "current",
-"now": null
-},
-"Andrea Serra": {
-"status": "moved",
-"now": "poolside (Director of Partnerships and Business Operations)"
-},
-"Nina Cardelus": {
-"status": "moved",
-"now": "Lightrock (Vice President)"
-},
-"Navid Meyer": {
-"status": "current",
-"now": null
-},
-"Asha Mistry": {
-"status": "current",
-"now": null
-}
-},
-"korys.be": {
-"Katti Van Oosterwijck": {
-"status": "current",
-"now": null
-},
-"Vincent Caudron": {
-"status": "current",
-"now": null
-},
-"Wouter Verstringe": {
-"status": "current",
-"now": null
-},
-"Thierry François": {
-"status": "moved",
-"now": "magenta tree (Managing Director)"
-},
-"Hilde Van der Straeten": {
-"status": "current",
-"now": null
-}
-},
-"lafamiglia.vc": {
-"Simba Deu": {
-"status": "moved",
-"now": "Prima Beta (Investing with mates)"
-},
-"Alexandros Bottenbruch": {
-"status": "moved",
-"now": "Founder-first Angel (Angel Investor)"
-},
-"Judith Dada": {
-"status": "moved",
-"now": "Langdock (Co-CEO)"
-},
-"Viet Le": {
-"status": "unknown",
-"now": null
-},
-"Paula Rossini": {
-"status": "unknown",
-"now": null
-},
-"Samuel Beyer": {
-"status": "current",
-"now": null
-},
-"Philipp Handel": {
-"status": "unknown",
-"now": null
-},
-"Marius Groke": {
-"status": "moved",
-"now": "Mav9 (Co-Founder)"
-}
-},
-"leftlane.com": {
-"Louis Frach": {
-"status": "current",
-"now": null
-},
-"Matt Miller": {
-"status": "current",
-"now": null
-},
-"Erica Amatori": {
-"status": "current",
-"now": null
-},
-"Paddy Dillon": {
-"status": "current",
-"now": null
-},
-"Rachel Ward": {
-"status": "current",
-"now": null
-},
-"Hannah Greenwald": {
-"status": "current",
-"now": null
-},
-"Coraline Meroni": {
-"status": "current",
-"now": null
-}
-},
-"leapartners.de": {
-"Endres Florian": {
-"status": "current",
-"now": null
-},
-"Nils Seele": {
-"status": "current",
-"now": null
-},
-"Weise Kurt": {
-"status": "current",
-"now": null
-},
-"Berger Nils": {
-"status": "current",
-"now": null
-}
-},
-"lifelineventures.com": {
-"Juha Lindfors": {
-"status": "current",
-"now": null
-},
-"Timo Ahopelto": {
-"status": "current",
-"now": null
-},
-"Petteri Koponen": {
-"status": "current",
-"now": null
-},
-"Saana Sairanen": {
-"status": "moved",
-"now": "Vipps MobilePay (Account Manager)"
-},
-"Mikko Vesterinen": {
-"status": "moved",
-"now": "Canatu (Chief Financial Officer)"
-},
-"Tuomo Vähäpassi": {
-"status": "current",
-"now": null
-},
-"Rilla Saukkonen": {
-"status": "current",
-"now": null
-}
-},
-"ledger.com": {
-"Katie Ledger": {
-"status": "unknown",
-"now": null
-}
-},
-"localglobe.vc": {
-"Tom Lambert": {
-"status": "current",
-"now": null
-},
-"Julian Rowe": {
-"status": "unknown",
-"now": null
-},
-"Ophelia Brown": {
-"status": "moved",
-"now": "Blossom Capital (Founder & Managing Partner)"
-},
-"Ambi Mistry": {
-"status": "current",
-"now": null
-},
-"Bhrigu Bali": {
-"status": "moved",
-"now": "noa (CFO/COO)"
-},
-"Ziv Reichert": {
-"status": "current",
-"now": null
-},
-"Suzanne Ashman": {
-"status": "moved",
-"now": "Sovereign AI (Managing Partner)"
-},
-"Julia Hawkins": {
-"status": "current",
-"now": null
-},
-"Remus Brett": {
-"status": "current",
-"now": null
-},
-"Matt Peplow": {
-"status": "current",
-"now": null
-},
-"Daisey Hearne": {
-"status": "unknown",
-"now": null
-},
-"Rajee Seelan": {
-"status": "current",
-"now": null
-},
-"Robin Klein": {
-"status": "unknown",
-"now": null
-}
-},
-"lifex.vc": {
-"Inaki Berenguer": {
-"status": "current",
-"now": null
-}
-},
-"lightbird.vc": {
-"Thomas Meier": {
-"status": "current",
-"now": null
-}
-},
-"loveventures.co.uk": {
-"Bill Corfield": {
-"status": "current",
-"now": null
-}
-},
-"lsvp.com": {
-"Ifet Lawrence": {
-"status": "current",
-"now": null
-},
-"Alexander Schmitt": {
-"status": "current",
-"now": null
-},
-"Anoushka Vaswani": {
-"status": "current",
-"now": null
-},
-"Alexander Taussig": {
-"status": "current",
-"now": null
-},
-"Rytis Vitkauskas": {
-"status": "moved",
-"now": "DIG Ventures (General Partner)"
-},
-"Sam Wholley": {
-"status": "current",
-"now": null
-},
-"David Gussarsky": {
-"status": "current",
-"now": null
-},
-"Shan Shan": {
-"status": "moved",
-"now": "Baillie Gifford (Investment Manager, Private Companies)"
-},
-"Julie Kainz": {
-"status": "moved",
-"now": "Lean Technologies (Corp Dev)"
-},
-"Adrian Radu": {
-"status": "moved",
-"now": "Khosla Ventures (Partner)"
-},
-"Dana Mizrahi": {
-"status": "current",
-"now": null
-},
-"Fatima Vali": {
-"status": "current",
-"now": null
-},
-"Paul Murphy": {
-"status": "current",
-"now": null
-}
-},
-"mangrove.vc": {
-"Guillaume DURAO": {
-"status": "moved",
-"now": "Emblem (Founder & General Partner)"
-},
-"Mark Tluszcz": {
-"status": "current",
-"now": null
-},
-"Denis Schwirtz": {
-"status": "current",
-"now": null
-},
-"Hans-Jürgen Schmitz": {
-"status": "current",
-"now": null
-},
-"Michael Rabinowicz": {
-"status": "current",
-"now": null
-},
-"Antoine Payrar": {
-"status": "current",
-"now": null
-},
-"Christina Grischov": {
-"status": "unknown",
-"now": null
-}
-},
-"mastercard.com": {
-"Online Reporting": {
-"status": "unknown",
-"now": null
-},
-"Arsalan Ahmed": {
-"status": "unknown",
-"now": null
-},
-"Sara Bertone": {
-"status": "current",
-"now": null
-},
-"Samuel McGurk": {
-"status": "unknown",
-"now": null
-}
-},
-"lunar.vc": {
-"Alberto Cresto": {
-"status": "current",
-"now": null
-}
-},
-"m12.vc": {
-"Nagraj Kashyap": {
-"status": "moved",
-"now": "Touring Capital (Co-Founder and General Partner)"
-}
-},
-"maki.vc": {
-"Ella Eskelinen": {
-"status": "moved",
-"now": "Verda (Chief of Staff)"
-}
-},
-"marathon.vc": {
-"Panos Papadopoulos": {
-"status": "current",
-"now": null
-},
-"Alex Alexakis": {
-"status": "current",
-"now": null
-}
-},
-"martletcap.com": {
-"Paul Bailey": {
-"status": "unknown",
-"now": null
-}
-},
-"matrix.vc": {
-"David Skok": {
-"status": "current",
-"now": null
-},
-"Allison Rodman": {
-"status": "current",
-"now": null
-}
-},
-"microsoft.com": {
-"Itxaso del Palacio": {
-"status": "moved",
-"now": "Notion Capital (General Partner)"
-},
-"Leslie Feinzaig": {
-"status": "moved",
-"now": "Graham & Walker VC (Founder & General Partner)"
-},
-"Andrea Bernabeu": {
-"status": "current",
-"now": null
-},
-"Manuel Miguez": {
-"status": "moved",
-"now": "elpatin.com (Founder)"
-},
-"Jody Wharton": {
-"status": "current",
-"now": null
-},
-"Andrew Bentley": {
-"status": "current",
-"now": null
-},
-"Ross Kennedy": {
-"status": "current",
-"now": null
-},
-"Paul Veck": {
-"status": "current",
-"now": null
-},
-"Alaric Wilson": {
-"status": "current",
-"now": null
-},
-"Valle del Aguila Rodrigo": {
-"status": "current",
-"now": null
-},
-"Cathy Zhu": {
-"status": "current",
-"now": null
-},
-"Hitoshi Yoshida": {
-"status": "moved",
-"now": "ixi - Innovate, Transform, Include. Doing it together (Chief Executive Officer, ixi Inc.)"
-}
-},
-"moonfire.com": {
-"Mattias Ljungman": {
-"status": "current",
-"now": null
-},
-"Andrea Gurnari": {
-"status": "current",
-"now": null
-},
-"Saran Davies": {
-"status": "current",
-"now": null
-},
-"Alina Gounina": {
-"status": "current",
-"now": null
-},
-"Akshat Goenka": {
-"status": "current",
-"now": null
-},
-"Jonas Vetterle": {
-"status": "current",
-"now": null
-},
-"Nicholas Lowden": {
-"status": "current",
-"now": null
-}
-},
-"montecarlocap.com": {
-"Ian Sosso": {
-"status": "current",
-"now": null
-}
-},
-"motivepartners.com": {
-"Tim Wanders": {
-"status": "current",
-"now": null
-},
-"Hugo Bongers": {
-"status": "current",
-"now": null
-},
-"Michael Hock": {
-"status": "current",
-"now": null
-},
-"Julia Hubo": {
-"status": "current",
-"now": null
-},
-"Isabel Hallett": {
-"status": "current",
-"now": null
-},
-"Inês Delgado": {
-"status": "moved",
-"now": "iCapital (Strategic Expansion & Product Development, Vice President)"
-},
-"Harsh Govil": {
-"status": "current",
-"now": null
-},
-"Isabel Holding": {
-"status": "current",
-"now": null
-},
-"Swathi Vankayalapati": {
-"status": "current",
-"now": null
-}
-},
-"nea.com": {
-"Philip Chopin": {
-"status": "current",
-"now": null
-},
-"Uk Shoreditch": {
-"status": "unknown",
-"now": null
-},
-"Kemi Odusan": {
-"status": "unknown",
-"now": null
-},
-"Luke Pappas": {
-"status": "current",
-"now": null
-},
-"Emily Baine": {
-"status": "current",
-"now": null
-},
-"Toni Holmes": {
-"status": "current",
-"now": null
-}
-},
-"ndrc.ie": {
-"David Scanlon": {
-"status": "moved",
-"now": "Resolve Ventures (Partner)"
-},
-"Menno Axt": {
-"status": "current",
-"now": null
-}
-},
-"nautacapital.com": {
-"Andrea Oliver": {
-"status": "current",
-"now": null
-},
-"Josh Trup": {
-"status": "moved",
-"now": "Greenfield Partners (Principal)"
-},
-"Ana Fernandez": {
-"status": "current",
-"now": null
-},
-"Marcel Rafart": {
-"status": "moved",
-"now": "Galdana Ventures (Founder and Chairman)"
-},
-"Borja Breña": {
-"status": "current",
-"now": null
-},
-"Alexander Krespi": {
-"status": "moved",
-"now": "Paladin Capital Group (Venture Investor)"
-},
-"Stella Buhalis": {
-"status": "current",
-"now": null
-},
-"Rocio Hodaly": {
-"status": "moved",
-"now": "Galdana Ventures (Executive Assistant to Managing Director)"
-},
-"Theo Wethered": {
-"status": "current",
-"now": null
-},
-"Guillem Sagué": {
-"status": "unknown",
-"now": null
-}
-},
-"msm.vc": {
-"Alex Pitt": {
-"status": "current",
-"now": null
-}
-},
-"mustardseed.vc": {
-"Orson Stadler": {
-"status": "unknown",
-"now": null
-},
-"Alex Pitt": {
-"status": "current",
-"now": null
-}
-},
-"newion.com": {
-"Dorus Olgers": {
-"status": "current",
-"now": null
-},
-"Pieter Welten": {
-"status": "current",
-"now": null
-}
-},
-"otpp.com": {
-"Avid Duggan": {
-"status": "current",
-"now": null
-},
-"Lauren Milligan": {
-"status": "current",
-"now": null
-},
-"Francisco Jose Vargas Almeida": {
-"status": "current",
-"now": null
-},
-"Chalani Allen": {
-"status": "current",
-"now": null
-},
-"Ara YEROMIAN": {
-"status": "current",
-"now": null
-},
-"Zaya Kadyrova": {
-"status": "moved",
-"now": "Aspire11 (Co-founder)"
-},
-"Lisa Coble": {
-"status": "moved",
-"now": "Jefferies (Executive Assistant)"
-},
-"Kieran Mahanty": {
-"status": "current",
-"now": null
-},
-"Phoebe Kitchen": {
-"status": "moved",
-"now": "Molten Ventures (Principal)"
-}
-},
-"nextview.vc": {
-"Vera Benkoil": {
-"status": "current",
-"now": null
-}
-},
-"nvidia.com": {
-"Chase Overlie": {
-"status": "current",
-"now": null
-},
-"Georgios Kolovos": {
-"status": "current",
-"now": null
-},
-"Aishwarya Nadgauda": {
-"status": "current",
-"now": null
-},
-"Serge Lemonde": {
-"status": "current",
-"now": null
-}
-},
-"omnescapital.com": {
-"Hugo Hubert": {
-"status": "current",
-"now": null
-},
-"Poulard Renaud": {
-"status": "current",
-"now": null
-},
-"De Michel": {
-"status": "current",
-"now": null
-},
-"Joost Notenboom": {
-"status": "current",
-"now": null
-}
-},
-"osprey-investors.com": {
-"Rob Quirke": {
-"status": "current",
-"now": null
-}
-},
-"oxx.vc": {
-"Gokce Ceylan": {
-"status": "unknown",
-"now": null
-},
-"Ingrid Åkerlind": {
-"status": "unknown",
-"now": null
-},
-"Phil Edmondson-Jones": {
-"status": "current",
-"now": null
-},
-"Bob Thomas": {
-"status": "current",
-"now": null
-},
-"Ben Palmer": {
-"status": "current",
-"now": null
-},
-"Mimi Snell": {
-"status": "current",
-"now": null
-},
-"Carole Ginman": {
-"status": "current",
-"now": null
-},
-"Ashna Ahmad": {
-"status": "moved",
-"now": "Galdera (Founding Engineer)"
-},
-"Archit Rathi": {
-"status": "moved",
-"now": "Atlabs AI (Co-Founder)"
-},
-"Toby Lywood": {
-"status": "moved",
-"now": "10xHumans (Corp Dev Lead)"
-},
-"Maria Hagberg": {
-"status": "unknown",
-"now": null
-},
-"Mikael Johnsson": {
-"status": "current",
-"now": null
-},
-"Richard Anton": {
-"status": "current",
-"now": null
-},
-"Lauren Sophocleos": {
-"status": "unknown",
-"now": null
-}
-},
-"paypal.com": {
-"Alexandros Bottenbruch": {
-"status": "moved",
-"now": "Founder-first Angel (Angel Investor)"
-},
-"Ashish Aggarwal": {
-"status": "moved",
-"now": "Endeavor (Mentor)"
-},
-"Elisabeth Granger": {
-"status": "moved",
-"now": "Pebl (VP, Finance - Strategy & Operations)"
-},
-"Jonathan Banks": {
-"status": "unknown",
-"now": null
-},
-"Rachel Sapienza": {
-"status": "unknown",
-"now": null
-}
-},
-"phoenixcourt.vc": {
-"Daisey Hearne": {
-"status": "unknown",
-"now": null
-}
-},
-"pluralplatform.com": {
-"Carina Namih": {
-"status": "current",
-"now": null
-},
-"Isobel Sprules": {
-"status": "current",
-"now": null
-},
-"Khaled Helioui": {
-"status": "current",
-"now": null
-},
-"Ian Hogarth": {
-"status": "current",
-"now": null
-},
-"Taavet Hinrikus": {
-"status": "current",
-"now": null
-},
-"Daniel Tarver": {
-"status": "moved",
-"now": "Trioak Capital (Partner)"
-},
-"Victoria Kennard": {
-"status": "current",
-"now": null
-},
-"Chris Perry": {
-"status": "current",
-"now": null
-},
-"Sophie Napier": {
-"status": "current",
-"now": null
-}
-},
-"pathlight.vc": {
-"Mahdi Raza": {
-"status": "current",
-"now": null
-}
-},
-"pioneerfund.vc": {
-"James Fong": {
-"status": "current",
-"now": null
-}
-},
-"radical.vc": {
-"Rich Kotite": {
-"status": "current",
-"now": null
-},
-"Rob Toews": {
-"status": "current",
-"now": null
-},
-"Jessica Esposito": {
-"status": "current",
-"now": null
-},
-"Aaron Brindle": {
-"status": "current",
-"now": null
-}
-},
-"portfolio.ventures": {
-"Will Brooks": {
-"status": "unknown",
-"now": null
-}
-},
-"portugalventures.pt": {
-"Fernando Ferreira": {
-"status": "current",
-"now": null
-},
-"Filomena Pastor": {
-"status": "current",
-"now": null
-},
-"Maria Almeida": {
-"status": "current",
-"now": null
-}
-},
-"psv.xyz": {
-"Kristian Hansen": {
-"status": "unknown",
-"now": null
-}
-},
-"puzzle-ventures.com": {
-"Gloria Baeuerlein": {
-"status": "current",
-"now": null
-}
-},
-"quantumlightcapital.com": {
-"James Darby": {
-"status": "current",
-"now": null
-},
-"Dora Zikouli": {
-"status": "current",
-"now": null
-},
-"James Popplewell": {
-"status": "moved",
-"now": "Brookfield (Senior Vice President)"
-}
-},
-"raine.com": {
-"Fred Davis": {
-"status": "current",
-"now": null
-},
-"Gregory Israelyan": {
-"status": "current",
-"now": null
-},
-"Joe Puthenveetil": {
-"status": "current",
-"now": null
-},
-"Fariya Khan": {
-"status": "current",
-"now": null
-},
-"Jason Schretter": {
-"status": "current",
-"now": null
-},
-"Tommaso Armanini": {
-"status": "current",
-"now": null
-},
-"Christine Ambrose": {
-"status": "unknown",
-"now": null
-},
-"Nicola Hughes-Campen": {
-"status": "unknown",
-"now": null
-}
-},
-"redpoint.com": {
-"Logan Bartlett": {
-"status": "current",
-"now": null
-},
-"Enzo Wiener": {
-"status": "current",
-"now": null
-},
-"Kwesi Acquay": {
-"status": "current",
-"now": null
-},
-"Jacob Effron": {
-"status": "current",
-"now": null
-},
-"Lily Eusebio": {
-"status": "current",
-"now": null
-},
-"Mary Stern": {
-"status": "current",
-"now": null
-}
-},
-"redseed.vc": {
-"Daniel Benjamin": {
-"status": "moved",
-"now": "Eon (Seed Investor)"
-},
-"Héléna Cavell": {
-"status": "moved",
-"now": "Jibe Ventures (Partner)"
-}
-},
-"rtp.vc": {
-"Orson Stadler": {
-"status": "unknown",
-"now": null
-},
-"Julia Anisimova": {
-"status": "current",
-"now": null
-},
-"Thomas Cuvelier": {
-"status": "current",
-"now": null
-},
-"Simon Pastor": {
-"status": "moved",
-"now": "Index Ventures (Partner)"
-},
-"Elina Rayberg": {
-"status": "current",
-"now": null
-},
-"Gareth Jefferies": {
-"status": "current",
-"now": null
-},
-"Galina Chifina": {
-"status": "current",
-"now": null
-}
-},
-"redriceventures.com": {
-"Claudia Yupangco": {
-"status": "current",
-"now": null
-},
-"Gabrielle Swycher": {
-"status": "current",
-"now": null
-},
-"Kunaal Kankate": {
-"status": "current",
-"now": null
-},
-"Andres Gonzales": {
-"status": "moved",
-"now": "The Bicester Collection (Business Planning Manager - Guest Knowledge & Insights)"
-}
-},
-"redriverwest.com": {
-"Chloé Merlet": {
-"status": "moved",
-"now": "Hg (Investor)"
-},
-"Antoine Boulin": {
-"status": "current",
-"now": null
-},
-"Olivier Huez": {
-"status": "current",
-"now": null
-},
-"Alfred Vericel": {
-"status": "current",
-"now": null
-},
-"Abel Samot": {
-"status": "current",
-"now": null
-},
-"Joseph Houssais": {
-"status": "current",
-"now": null
-}
-},
-"resurgenstech.com": {
-"Elizabeth Brown": {
-"status": "current",
-"now": null
-}
-},
-"revent.vc": {
-"Henrik Hokamp": {
-"status": "current",
-"now": null
-},
-"Oana Botez": {
-"status": "current",
-"now": null
-},
-"Rebecca Brill": {
-"status": "moved",
-"now": "Career break (Personal goal pursuit)"
-}
-},
-"seedcamp.com": {
-"Millan Suri": {
-"status": "moved",
-"now": "Episode 1 Ventures (Principal)"
-},
-"Carlos Espinal": {
-"status": "current",
-"now": null
-},
-"Ece Ozer": {
-"status": "current",
-"now": null
-},
-"Will Bennett": {
-"status": "current",
-"now": null
-},
-"Tom Wilson": {
-"status": "current",
-"now": null
-},
-"Sia Houchangnia": {
-"status": "current",
-"now": null
-},
-"Philipp Moehring": {
-"status": "moved",
-"now": "Tiny Supercomputer Investment Company (Partner)"
-},
-"Amber Patel": {
-"status": "unknown",
-"now": null
-},
-"Olivia Horton": {
-"status": "unknown",
-"now": null
-},
-"Katherine Bassett": {
-"status": "unknown",
-"now": null
-},
-"Kirsten Campbell": {
-"status": "current",
-"now": null
-},
-"Kate McGinn": {
-"status": "moved",
-"now": "[tbd] (talent & investing)"
-}
-},
-"s16vc.com": {
-"Dina Gainullina": {
-"status": "moved",
-"now": "Daya Ventures (Limited Partner)"
-}
-},
-"samos.vc": {
-"Patrick Finnegan": {
-"status": "moved",
-"now": "Charlie Health (Director of Growth Strategy, Partnerships)"
-},
-"Shan Drummond": {
-"status": "unknown",
-"now": null
-}
-},
-"sap.com": {
-"Michael Still": {
-"status": "current",
-"now": null
-},
-"Samar Malik": {
-"status": "moved",
-"now": "Stripe (EMEA VC Startup Partner)"
-},
-"Henna Mehta": {
-"status": "current",
-"now": null
-},
-"Lisa Haffey": {
-"status": "current",
-"now": null
-},
-"Kevin Meier": {
-"status": "current",
-"now": null
-},
-"Julian Klose": {
-"status": "unknown",
-"now": null
-},
-"Deepa Gautam-Nigge": {
-"status": "current",
-"now": null
-},
-"Lisa Martin": {
-"status": "current",
-"now": null
-},
-"Christine Schöneweis": {
-"status": "moved",
-"now": "Phoenix Contact (Mitglied des Beirats)"
-},
-"Andreas Weiskam": {
-"status": "current",
-"now": null
-},
-"Anil Parekh": {
-"status": "current",
-"now": null
-}
-},
-"sav.vc": {
-"Wally Wang": {
-"status": "current",
-"now": null
-}
-},
-"shorooq.com": {
-"Derya Varol": {
-"status": "unknown",
-"now": null
-},
-"Bilal Baloch": {
-"status": "current",
-"now": null
-},
-"Shane Shin": {
-"status": "current",
-"now": null
-},
-"Sali Elagab": {
-"status": "moved",
-"now": "First Abu Dhabi Bank (FAB) (AVP, Business Intelligence | AI Innovation Hub)"
-},
-"Selim Tira": {
-"status": "current",
-"now": null
-},
-"Mohammed Altwaijiri": {
-"status": "current",
-"now": null
-}
-},
-"sennder.com": {
-"David Nothacker": {
-"status": "current",
-"now": null
-}
-},
-"serena.vc": {
-"Paul Moriou": {
-"status": "current",
-"now": null
-},
-"Marie Brayer": {
-"status": "moved",
-"now": "Stealth Company (Marie Brayer) (Co-Founder)"
-},
-"Olivier Martret": {
-"status": "current",
-"now": null
-},
-"Bertrand Diard": {
-"status": "current",
-"now": null
-},
-"Margaux Gregoir": {
-"status": "current",
-"now": null
-},
-"Xavier Lorphelin": {
-"status": "current",
-"now": null
-},
-"Marc Fournier": {
-"status": "current",
-"now": null
-},
-"Heba Hitti": {
-"status": "current",
-"now": null
-}
-},
-"shilling.vc": {
-"Tomás Güida": {
-"status": "current",
-"now": null
-},
-"Ricardo Jacinto": {
-"status": "current",
-"now": null
-},
-"Marcia Fernandes": {
-"status": "current",
-"now": null
-},
-"Maria Frère": {
-"status": "moved",
-"now": "Semapa Next (Marketing and Community Manager)"
-}
-},
-"skyfall.vc": {
-"Cecilie Skjong": {
-"status": "current",
-"now": null
-}
-},
-"southparkcommons.com": {
-"Susannah Laster": {
-"status": "current",
-"now": null
-},
-"Dylan Itzikowitz": {
-"status": "current",
-"now": null
-}
-},
-"sparkcapital.com": {
-"Alex Finkelstein": {
-"status": "current",
-"now": null
-},
-"Connor Mullaney": {
-"status": "moved",
-"now": "Lingotto (Partner, Innovation Strategy)"
-},
-"Heather Mahoney": {
-"status": "current",
-"now": null
-},
-"Hanseul Nam": {
-"status": "moved",
-"now": "Coatue Management (Partner)"
-},
-"Santo Politi": {
-"status": "current",
-"now": null
-},
-"Nabeel Hyatt": {
-"status": "current",
-"now": null
-}
-},
-"stripe.com": {
-"Sam McAllister": {
-"status": "moved",
-"now": "Anthropic (Member of Staff)"
-},
-"Ryan Libster": {
-"status": "moved",
-"now": "Anthropic (Head of Sales, Claude for Work)"
-},
-"Sagar Gupta": {
-"status": "moved",
-"now": "Anthropic (Startup Partnerships)"
-},
-"Samar Malik": {
-"status": "current",
-"now": null
-},
-"Kamael Sugrim": {
-"status": "current",
-"now": null
-},
-"Helena Horsburgh": {
-"status": "moved",
-"now": "Personio (Head of Business Operations - CEO Office)"
-},
-"Jérôme Tomasini": {
-"status": "current",
-"now": null
-},
-"Amin Manzouri": {
-"status": "current",
-"now": null
-},
-"Joost van der Mersch": {
-"status": "current",
-"now": null
-},
-"Sandra Vargas": {
-"status": "current",
-"now": null
-},
-"Temitayo Odukoya": {
-"status": "current",
-"now": null
-},
-"Tammy Winter": {
-"status": "current",
-"now": null
-}
-},
-"startupbootcamp.org": {
-"Startupbootcamp Amsterdam": {
-"status": "unknown",
-"now": null
-}
-},
-"stepstonegroup.com": {
-"Vc Shared": {
-"status": "unknown",
-"now": null
-},
-"Huff Millard": {
-"status": "current",
-"now": null
-},
-"Thomas Dupont": {
-"status": "current",
-"now": null
-},
-"Leyla Holterud": {
-"status": "moved",
-"now": "Vintage Investment Partners (Partner)"
-},
-"Pippa Crabtree": {
-"status": "current",
-"now": null
-},
-"Umberto Prencipe": {
-"status": "moved",
-"now": "Autonomous"
-},
-"Lyn Blithe": {
-"status": "unknown",
-"now": null
-}
-},
-"spintopventures.com": {
-"Moa Kronborg": {
-"status": "current",
-"now": null
-}
-},
-"spore.bio": {
-"Amine Raji": {
-"status": "current",
-"now": null
-}
-},
-"stationf.co": {
-"Camille Aubery": {
-"status": "unknown",
-"now": null
-}
-},
-"targetglobal.vc": {
-"Tobias Winczer": {
-"status": "moved",
-"now": "Balderton (Investor)"
-},
-"Martina Facchin": {
-"status": "current",
-"now": null
-},
-"James Dening": {
-"status": "current",
-"now": null
-},
-"Seda Ambartsumian": {
-"status": "moved",
-"now": "Heritage Holdings (Principal, Alternative Investments)"
-},
-"Yaron Valler": {
-"status": "current",
-"now": null
-},
-"Ugo Carminati": {
-"status": "moved",
-"now": "Anthropic (GTM)"
-},
-"Alexandra Dombrowski": {
-"status": "current",
-"now": null
-},
-"Varun Mohapatra": {
-"status": "moved",
-"now": "Tracebit (Product)"
-},
-"Rytis Vitkauskas": {
-"status": "moved",
-"now": "DIG Ventures (General Partner)"
-},
-"Joshua Stein": {
-"status": "current",
-"now": null
-},
-"Dana Bublil": {
-"status": "current",
-"now": null
-},
-"Anett Posza": {
-"status": "current",
-"now": null
-}
-},
-"svb.com": {
-"Phoebe Walsh": {
-"status": "current",
-"now": null
-},
-"David Cohen": {
-"status": "unknown",
-"now": null
-},
-"Mark Gallagher": {
-"status": "current",
-"now": null
-},
-"Ryan Phayer": {
-"status": "moved",
-"now": "HSBC Innovation Banking (Managing Director, Strategic Fund Solutions)"
-},
-"Ben Tickler": {
-"status": "moved",
-"now": "J.P. Morgan (UK Innovation Economy)"
-},
-"James Downing": {
-"status": "moved",
-"now": "Hercules Capital (Managing Director, Europe)"
-},
-"Erin Platts": {
-"status": "moved",
-"now": "Octopus Ventures (Chief Executive Officer)"
-},
-"Ella Botham": {
-"status": "moved",
-"now": "HSBC Innovation Banking (Director, Credit Solutions Nordics)"
-},
-"Linnea Engstrand": {
-"status": "moved",
-"now": "HSBC Innovation Banking (Senior Associate - FinTech)"
-},
-"Tom Butterworth": {
-"status": "moved",
-"now": "HSBC Innovation Banking (Managing Director, Investor Coverage)"
-},
-"John Robinson": {
-"status": "moved",
-"now": "Maven Capital Partners (Partner)"
-},
-"Liam Jocson": {
-"status": "moved",
-"now": "J.P. Morgan (Associate)"
-}
-},
-"tapestry.vc": {
-"Audrey Miller": {
-"status": "current",
-"now": null
-},
-"Alex Mackenzie": {
-"status": "moved",
-"now": "General Catalyst (Partner)"
-},
-"Patrick Murphy": {
-"status": "current",
-"now": null
-}
-},
-"tiny.vc": {
-"Philipp Moehring": {
-"status": "current",
-"now": null
-},
-"Andy Chung": {
-"status": "current",
-"now": null
-},
-"Tiny Ops": {
-"status": "unknown",
-"now": null
-},
-"Harriet Dedman": {
-"status": "current",
-"now": null
-},
-"Ophelia Cai": {
-"status": "current",
-"now": null
-}
-},
-"team8.vc": {
-"Adi Blecher": {
-"status": "unknown",
-"now": null
-},
-"Yael Livne": {
-"status": "moved",
-"now": "PwC (Head of Client Strategy, Assurance)"
-},
-"Ori Barzilay": {
-"status": "current",
-"now": null
-},
-"Liran Grinberg": {
-"status": "current",
-"now": null
-},
-"Sarit Firon": {
-"status": "current",
-"now": null
-}
-},
-"techstars.com": {
-"Guy Israeli": {
-"status": "current",
-"now": null
-},
-"Georgie Smithwick": {
-"status": "current",
-"now": null
-}
-},
-"tesi.fi": {
-"Juha Lehtola": {
-"status": "current",
-"now": null
-},
-"Tony Nysten": {
-"status": "moved",
-"now": "OpenOcean (Partner)"
-},
-"Annukka Käsnänen": {
-"status": "current",
-"now": null
-},
-"Tomi Salo": {
-"status": "current",
-"now": null
-},
-"Klaus Majanen": {
-"status": "current",
-"now": null
-},
-"Pia Lemmetty": {
-"status": "current",
-"now": null
-},
-"Keith Bonnici": {
-"status": "current",
-"now": null
-},
-"Jan-Patrick Haikkola": {
-"status": "current",
-"now": null
-}
-},
-"thetwentyminutevc.com": {
-"Harry Stebbings": {
-"status": "current",
-"now": null
-}
-},
-"thrivecap.com": {
-"Anna Vershebeniuk": {
-"status": "moved",
-"now": "Lazard Elaia Capital (General Partner)"
-}
-},
-"tigerglobal.com": {
-"Lee Fixel": {
-"status": "moved",
-"now": "Addition (Investor)"
-}
-},
-"valar.com": {
-"Elina Rayberg": {
-"status": "current",
-"now": null
-},
-"James Fitzgerald": {
-"status": "current",
-"now": null
-},
-"Andrew McCormack": {
-"status": "current",
-"now": null
-}
-},
-"translinkcapital.com": {
-"Kelvin Mu": {
-"status": "current",
-"now": null
-}
-},
-"triplepoint.co.uk": {
-"Jamie Tomalin": {
-"status": "current",
-"now": null
-},
-"Seb Wallace": {
-"status": "current",
-"now": null
-}
-},
-"ubonpartners.com": {
-"Fredrik Halvorsen": {
-"status": "current",
-"now": null
-},
-"Oj Winge": {
-"status": "current",
-"now": null
-}
-},
-"uipath.com": {
-"Tasha Denham": {
-"status": "moved",
-"now": "Andreessen Horowitz (Executive Assistant)"
-},
-"Vijay Khanna": {
-"status": "unknown",
-"now": null
-}
-},
-"unitedventures.com": {
-"Fabio Pirovano": {
-"status": "current",
-"now": null
-},
-"Martina Canarelli": {
-"status": "current",
-"now": null
-},
-"Paolo Gesess": {
-"status": "current",
-"now": null
-},
-"Massimiliano Magrini": {
-"status": "current",
-"now": null
-}
-},
-"verdane.com": {
-"Maximilian Kempken": {
-"status": "current",
-"now": null
-},
-"Parham Benisi": {
-"status": "moved",
-"now": "Pophouse Entertainment (Partner)"
-},
-"Staffan Morndal": {
-"status": "current",
-"now": null
-},
-"Björn Beckman": {
-"status": "current",
-"now": null
-},
-"Paula Azcue": {
-"status": "current",
-"now": null
-},
-"Tymoteusz Staniszewski": {
-"status": "moved",
-"now": "LATO (YC S26) (Co-Founder)"
-},
-"Ask Nørgaard": {
-"status": "current",
-"now": null
-},
-"Cecilia Nytorp": {
-"status": "current",
-"now": null
-},
-"Jenny Petersens": {
-"status": "current",
-"now": null
-},
-"Franziska Heuer": {
-"status": "current",
-"now": null
-},
-"Sebastian Wintgens": {
-"status": "current",
-"now": null
-},
-"Emanuel Johnsson": {
-"status": "current",
-"now": null
-}
-},
-"vireo.vc": {
-"Jason Rees": {
-"status": "current",
-"now": null
-}
-},
-"vorwerkventures.com": {
-"Peter Schmetz": {
-"status": "current",
-"now": null
-},
-"Dirk Meurer": {
-"status": "current",
-"now": null
-}
-},
-"wallapop.com": {
-"Jorge Lluch": {
-"status": "moved",
-"now": "Abacum (Co-Founder & COO)"
-}
-},
-"xange.vc": {
-"Garnier Louison": {
-"status": "current",
-"now": null
-},
-"Baltrusch Caroline": {
-"status": "current",
-"now": null
-},
-"Buresboenstroem Valérie": {
-"status": "current",
-"now": null
-},
-"Bertrand Cyril": {
-"status": "current",
-"now": null
-},
-"Paquet Pauline": {
-"status": "current",
-"now": null
-},
-"Bemert Jennifer": {
-"status": "current",
-"now": null
-},
-"Gazay Clémentine": {
-"status": "current",
-"now": null
-},
-"Du Alexis": {
-"status": "current",
-"now": null
-}
-},
-"yttrium.com": {
-"Elina Neu": {
-"status": "current",
-"now": null
-},
-"Sebastian Weschenbach": {
-"status": "current",
-"now": null
-},
-"Vanessa Pinter": {
-"status": "current",
-"now": null
-},
-"Tim Kindt": {
-"status": "current",
-"now": null
-},
-"Dominik Hertzler": {
-"status": "current",
-"now": null
-},
-"Moritz Sträb": {
-"status": "current",
-"now": null
-},
-"Concha Zimmer": {
-"status": "moved",
-"now": "Citi (Relationship Manager Digital & Technology Companies)"
-},
-"Judith Comino": {
-"status": "unknown",
-"now": null
-},
-"Veronika Belik": {
-"status": "unknown",
-"now": null
-},
-"Andrea Seelig": {
-"status": "unknown",
-"now": null
-}
-},
-"zf.com": {
-"Markus Heizmann": {
-"status": "unknown",
-"now": null
-}
-},
-"zkb.ch": {
-"Schier Robert": {
-"status": "moved",
-"now": "Bridging Minds Sàrl (Managing Director and Owner)"
-},
-"Granath Nils": {
-"status": "current",
-"now": null
-}
-}
+ "1011vc.com": {
+  "David Palmer": {
+   "status": "current",
+   "now": null
+  },
+  "Grace Cassy": {
+   "status": "current",
+   "now": null
+  },
+  "Dani Andrade": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "2100.vc": {
+  "Andrea Gurnari": {
+   "status": "moved",
+   "now": "Moonfire (Partner)"
+  }
+ },
+ "468cap.com": {
+  "Bernhard Janke": {
+   "status": "current",
+   "now": null
+  },
+  "Bardo Droege": {
+   "status": "current",
+   "now": null
+  },
+  "Diogo Cunha": {
+   "status": "moved",
+   "now": "Stealth Company (Co-Founder & CEO)"
+  }
+ },
+ "4impact.vc": {
+  "Ali Najafbagy": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "83north.com": {
+  "Philip Chopin": {
+   "status": "moved",
+   "now": "NEA (Managing Director)"
+  },
+  "Yoram Snir": {
+   "status": "current",
+   "now": null
+  },
+  "Arnon Dinur": {
+   "status": "current",
+   "now": null
+  },
+  "Stacey Lachmi": {
+   "status": "unknown",
+   "now": null
+  },
+  "Laurel Bowden": {
+   "status": "current",
+   "now": null
+  },
+  "Simona Cohen": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "accel.com": {
+  "Alex Reinert": {
+   "status": "current",
+   "now": null
+  },
+  "Bodi Tent": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tim Rawlinson": {
+   "status": "current",
+   "now": null
+  },
+  "Richard Kotite": {
+   "status": "moved",
+   "now": "Radical Ventures (Partner)"
+  },
+  "Robert Sternberg": {
+   "status": "moved",
+   "now": "EQT Group (Director)"
+  },
+  "Aman Ghei": {
+   "status": "moved",
+   "now": "Finch Capital (Partner)"
+  },
+  "Pia d'Iribarne": {
+   "status": "moved",
+   "now": "Main Object (Founder & Managing Partner)"
+  },
+  "Fred Destin": {
+   "status": "moved",
+   "now": "Stride.VC (Founder)"
+  },
+  "Will Sheldon": {
+   "status": "moved",
+   "now": "Expedition Growth Capital (Partner)"
+  },
+  "Ben Fletcher": {
+   "status": "current",
+   "now": null
+  },
+  "Dana Eliaz": {
+   "status": "current",
+   "now": null
+  },
+  "Varun Purandare": {
+   "status": "moved",
+   "now": "Marcho Partners (Investor)"
+  },
+  "Kelly Kung": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "acecap.com": {
+  "Leif Danielsen": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "aglaeventures.com": {
+  "Kristina Chvilova": {
+   "status": "current",
+   "now": null
+  },
+  "Léa Verdillon": {
+   "status": "current",
+   "now": null
+  },
+  "Julie Roze": {
+   "status": "moved",
+   "now": "Korelya Capital (Partner)"
+  }
+ },
+ "albion.vc": {
+  "Lauren Apostolidis": {
+   "status": "current",
+   "now": null
+  },
+  "Sebastian Hunte": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Lehair": {
+   "status": "current",
+   "now": null
+  },
+  "Ed Lascelles": {
+   "status": "current",
+   "now": null
+  },
+  "Nadine Torbey": {
+   "status": "current",
+   "now": null
+  },
+  "Cat McDonald": {
+   "status": "current",
+   "now": null
+  },
+  "Valerie Aelbrecht": {
+   "status": "current",
+   "now": null
+  },
+  "Rosie Samuels": {
+   "status": "current",
+   "now": null
+  },
+  "Jay Wilson": {
+   "status": "current",
+   "now": null
+  },
+  "Kibriya Rahman": {
+   "status": "current",
+   "now": null
+  },
+  "Jessica Bartos": {
+   "status": "moved",
+   "now": "Notion Capital (Partner - Growth Investments)"
+  },
+  "Lucia Rodriguez": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "alstin.capital": {
+  "Andreas Schenk Alstin Capital": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "and-ventures.com": {
+  "Danielle Zettel": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "angelinvest.ventures": {
+  "Remo Mahler": {
+   "status": "current",
+   "now": null
+  },
+  "Jens Lapinski": {
+   "status": "current",
+   "now": null
+  },
+  "Nazanin Daneshvar": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "angularventures.com": {
+  "Gil Dibner": {
+   "status": "current",
+   "now": null
+  },
+  "Mariana Santini": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "anthemis.com": {
+  "Sophie Winwood": {
+   "status": "moved",
+   "now": "unlock VC (Co-Founder & CEO)"
+  },
+  "Georgia Haigh": {
+   "status": "unknown",
+   "now": null
+  },
+  "Jeremy Brown": {
+   "status": "current",
+   "now": null
+  },
+  "Marin Cauvas": {
+   "status": "current",
+   "now": null
+  },
+  "Mia Merrill": {
+   "status": "current",
+   "now": null
+  },
+  "Derya Varol": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ruth Blader": {
+   "status": "moved",
+   "now": "Citrine Venture Partners (Co-Founder & Managing Partner)"
+  }
+ },
+ "anthropic.com": {
+  "Stephan von Perger": {
+   "status": "current",
+   "now": null
+  },
+  "Dave Dowdall": {
+   "status": "unknown",
+   "now": null
+  },
+  "Sagar Gupta": {
+   "status": "current",
+   "now": null
+  },
+  "Wyatt Horan": {
+   "status": "current",
+   "now": null
+  },
+  "Sam McAllister": {
+   "status": "current",
+   "now": null
+  },
+  "Ryan Libster": {
+   "status": "current",
+   "now": null
+  },
+  "Fatma Dogan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "atlassian.com": {
+  "Andy Champion": {
+   "status": "current",
+   "now": null
+  },
+  "Tanya Parks": {
+   "status": "current",
+   "now": null
+  },
+  "Zeynep Ozdemir": {
+   "status": "moved",
+   "now": "Legora (formerly Leya) (Chief Marketing Officer)"
+  }
+ },
+ "atomico.com": {
+  "Slavi Arnaudov": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Harrison-Spain": {
+   "status": "moved",
+   "now": "Stream (VP Product)"
+  },
+  "Katharine McCallum": {
+   "status": "current",
+   "now": null
+  },
+  "Sherington Amarapala": {
+   "status": "current",
+   "now": null
+  },
+  "Paddy Lambros": {
+   "status": "moved",
+   "now": "Dex (Founder)"
+  },
+  "Axelle Decoutere": {
+   "status": "unknown",
+   "now": null
+  },
+  "Foucault Fraguier": {
+   "status": "current",
+   "now": null
+  },
+  "Hillary Ball": {
+   "status": "current",
+   "now": null
+  },
+  "Mattias Ljungman": {
+   "status": "moved",
+   "now": "Moonfire (Founder)"
+  },
+  "Constantin Fleck": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Blume": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Vidiborskiy": {
+   "status": "current",
+   "now": null
+  },
+  "Mia Paschali": {
+   "status": "moved",
+   "now": "TDR Capital (Executive Assistant)"
+  }
+ },
+ "b2venture.vc": {
+  "Anna Bosch": {
+   "status": "current",
+   "now": null
+  },
+  "Marisa Krummrich": {
+   "status": "current",
+   "now": null
+  },
+  "Damian Zaker": {
+   "status": "moved",
+   "now": "Visionaries (Investment Analyst)"
+  },
+  "Jochen Gutbrod": {
+   "status": "moved",
+   "now": "Raffay & Cie.GmbH (Gründer:in)"
+  }
+ },
+ "balderton.com": {
+  "Zain Waheed": {
+   "status": "current",
+   "now": null
+  },
+  "Giulia Marchegiani": {
+   "status": "current",
+   "now": null
+  },
+  "Leah Sutton": {
+   "status": "current",
+   "now": null
+  },
+  "Claudia Rowe": {
+   "status": "current",
+   "now": null
+  },
+  "Elena Moneta": {
+   "status": "current",
+   "now": null
+  },
+  "Suranga Chandratillake": {
+   "status": "current",
+   "now": null
+  },
+  "Lena Hinkelmann": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Lavner": {
+   "status": "moved",
+   "now": "Never Lift (General Partner)"
+  },
+  "Emma Kerr": {
+   "status": "current",
+   "now": null
+  },
+  "Tobias Winczer": {
+   "status": "current",
+   "now": null
+  },
+  "Lucie Anderson": {
+   "status": "current",
+   "now": null
+  },
+  "Daniel Waterhouse": {
+   "status": "current",
+   "now": null
+  },
+  "Magda Lukaszewicz": {
+   "status": "moved",
+   "now": "Inventure (Partner)"
+  },
+  "Bernard Liautaud": {
+   "status": "current",
+   "now": null
+  },
+  "Shannon Harrington": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tamasha Ginige": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "bekventures.com": {
+  "Jan Faflik": {
+   "status": "unknown",
+   "now": null
+  },
+  "Mehmet Atici": {
+   "status": "current",
+   "now": null
+  },
+  "Cem Sertoglu": {
+   "status": "current",
+   "now": null
+  },
+  "Ece Sagar": {
+   "status": "unknown",
+   "now": null
+  },
+  "Kaan Polat": {
+   "status": "moved",
+   "now": "Grand Games (Chief of Staff)"
+  },
+  "Nilufer Ayangil": {
+   "status": "unknown",
+   "now": null
+  },
+  "Arda Kirkagac": {
+   "status": "current",
+   "now": null
+  },
+  "Semra Sadikoglu": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "blackbird.vc": {
+  "Michael Tolo": {
+   "status": "current",
+   "now": null
+  },
+  "Morven Brown": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "blackfinch.com": {
+  "Hassaan Mehmood": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "bnvtcapital.com": {
+  "Simon Levy": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tobias Reimann-Dubbers": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "brightcap.vc": {
+  "Dimitar Korsakov": {
+   "status": "current",
+   "now": null
+  },
+  "Elina Halatcheva": {
+   "status": "current",
+   "now": null
+  },
+  "Georgi Mitov": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "british-business-bank.co.uk": {
+  "Mauricio Urresta": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Laycock": {
+   "status": "current",
+   "now": null
+  },
+  "Megha Jain": {
+   "status": "current",
+   "now": null
+  },
+  "Carrie Babcock": {
+   "status": "unknown",
+   "now": null
+  },
+  "Max Middleton": {
+   "status": "current",
+   "now": null
+  },
+  "Charlotte Lawrence": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Krause": {
+   "status": "current",
+   "now": null
+  },
+  "Dan Patrick": {
+   "status": "unknown",
+   "now": null
+  },
+  "Bbb Office": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "ca-cib.com": {
+  "Yassine Brahimi": {
+   "status": "current",
+   "now": null
+  },
+  "Olivier Justic": {
+   "status": "current",
+   "now": null
+  },
+  "Laurent Pellerin": {
+   "status": "current",
+   "now": null
+  },
+  "Armand Mingasson": {
+   "status": "current",
+   "now": null
+  },
+  "Jerome Perrier": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "calmstorm.vc": {
+  "Lucanus Polagnoli": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cam.ac.uk": {
+  "Alexander Leichter": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tim Leach": {
+   "status": "unknown",
+   "now": null
+  },
+  "Matthew Juniper": {
+   "status": "unknown",
+   "now": null
+  },
+  "Gordon Harold": {
+   "status": "unknown",
+   "now": null
+  },
+  "Johannes Lenhard": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "camber.io": {
+  "Sarabeth Scott": {
+   "status": "current",
+   "now": null
+  },
+  "Ashley Lundquist": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "canaan.com": {
+  "Joydeep Bhattacharyya": {
+   "status": "current",
+   "now": null
+  },
+  "Heidi You": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "capnamic.com": {
+  "Alexandra Kurmulis": {
+   "status": "current",
+   "now": null
+  },
+  "Christian Siegele": {
+   "status": "current",
+   "now": null
+  },
+  "Markus Merz": {
+   "status": "current",
+   "now": null
+  },
+  "Olaf Jacobi": {
+   "status": "current",
+   "now": null
+  },
+  "Jason Grüninger": {
+   "status": "current",
+   "now": null
+  },
+  "Dorothea Gotthardt": {
+   "status": "moved",
+   "now": "QuantPi (COO)"
+  },
+  "Benjamin Kleinschnitz": {
+   "status": "current",
+   "now": null
+  },
+  "Franz Diekmann": {
+   "status": "moved",
+   "now": "Basic Ventures (Partner)"
+  },
+  "Thorben Rothe": {
+   "status": "moved",
+   "now": "IRIS (Partner - Head of Early Stage Germany)"
+  },
+  "Lukas Vogt": {
+   "status": "moved",
+   "now": "Sunhat (Co-Founder & CEO)"
+  }
+ },
+ "cardumencapital.com": {
+  "Karin Yaacobi": {
+   "status": "current",
+   "now": null
+  },
+  "Gonzalo Martínez De Azagra": {
+   "status": "current",
+   "now": null
+  },
+  "Noa Shamay": {
+   "status": "current",
+   "now": null
+  },
+  "Aitor Almendros": {
+   "status": "moved",
+   "now": "Renascentia AI (Partner)"
+  }
+ },
+ "ccap.co": {
+  "Christopher Caesar": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cdpventurecapital.it": {
+  "Laura Cesenni": {
+   "status": "current",
+   "now": null
+  },
+  "Davide Opromolla": {
+   "status": "current",
+   "now": null
+  },
+  "Stefano Pelagallo": {
+   "status": "current",
+   "now": null
+  },
+  "Mario Scuderi": {
+   "status": "current",
+   "now": null
+  },
+  "Luca Limoncelli": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Livecchi": {
+   "status": "current",
+   "now": null
+  },
+  "Laura Scaramella": {
+   "status": "current",
+   "now": null
+  },
+  "Niccolò Mussi": {
+   "status": "current",
+   "now": null
+  },
+  "Cristina Dachille": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "celonis.com": {
+  "Benoit Fouilland": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "chalfenventures.com": {
+  "Mike Chalfen": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Johnson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "chemistry.vc": {
+  "Mark Goldberg": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cic.vc": {
+  "Ian Lane": {
+   "status": "current",
+   "now": null
+  },
+  "Richard Hall": {
+   "status": "current",
+   "now": null
+  },
+  "Matt Maynard": {
+   "status": "current",
+   "now": null
+  },
+  "Andrew Williamson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "clpgrowth.com": {
+  "Ryan Cherry": {
+   "status": "moved",
+   "now": "Crestline (Investment Associate)"
+  },
+  "Kate Vine": {
+   "status": "current",
+   "now": null
+  },
+  "William Ruis-John": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "coatue.com": {
+  "Andre Woon": {
+   "status": "current",
+   "now": null
+  },
+  "Chase Packard": {
+   "status": "moved",
+   "now": "Marathon Management Partners (Founding Partner)"
+  },
+  "Jared Schulman": {
+   "status": "moved",
+   "now": "Neuralink (Lead, Strategic Finance)"
+  },
+  "Angelica Costa": {
+   "status": "moved",
+   "now": "Mighty Capital (Operations)"
+  }
+ },
+ "commonmagic.xyz": {
+  "Sarah Moffatt": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "connectventures.co": {
+  "Rory Stirling": {
+   "status": "current",
+   "now": null
+  },
+  "Sitar Teli": {
+   "status": "current",
+   "now": null
+  },
+  "Mark Pettit": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "crane.vc": {
+  "Agnieszka Paliwoda": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ayala Ples": {
+   "status": "current",
+   "now": null
+  },
+  "Morgane Zerath": {
+   "status": "current",
+   "now": null
+  },
+  "Krishna Visvanathan": {
+   "status": "current",
+   "now": null
+  },
+  "Guy Bentley": {
+   "status": "current",
+   "now": null
+  },
+  "Sam Kester": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Wright": {
+   "status": "current",
+   "now": null
+  },
+  "Rav Dhaliwal": {
+   "status": "current",
+   "now": null
+  },
+  "Anna Cachadina": {
+   "status": "current",
+   "now": null
+  },
+  "Bonnie Kraus": {
+   "status": "current",
+   "now": null
+  },
+  "Scott Sage": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "creandum.com": {
+  "Sarah Otter": {
+   "status": "current",
+   "now": null
+  },
+  "Carl Fritjofsson": {
+   "status": "current",
+   "now": null
+  },
+  "Beatrice Rellman": {
+   "status": "current",
+   "now": null
+  },
+  "Michelle Coventry": {
+   "status": "current",
+   "now": null
+  },
+  "Cameron Sellers": {
+   "status": "current",
+   "now": null
+  },
+  "Peter Specht": {
+   "status": "current",
+   "now": null
+  },
+  "Simon Schmincke": {
+   "status": "current",
+   "now": null
+  },
+  "Isabelle Sandblom": {
+   "status": "current",
+   "now": null
+  },
+  "Jakob Stein": {
+   "status": "current",
+   "now": null
+  },
+  "Hanel Baveja": {
+   "status": "current",
+   "now": null
+  },
+  "Ellen Lee": {
+   "status": "moved",
+   "now": "Modal (Marketing / Growth)"
+  },
+  "Gemma Bloemen": {
+   "status": "moved",
+   "now": "Systemiq Capital (Full-time Venture Partner)"
+  }
+ },
+ "crowdcube.com": {
+  "Mathias Pastor": {
+   "status": "moved",
+   "now": "Auctor Group / HodlCo (Director)"
+  }
+ },
+ "crv.com": {
+  "Jon Auerbach": {
+   "status": "current",
+   "now": null
+  },
+  "Izhar Armony": {
+   "status": "current",
+   "now": null
+  },
+  "James Green": {
+   "status": "current",
+   "now": null
+  },
+  "Rebecca Charyn": {
+   "status": "current",
+   "now": null
+  },
+  "Jenny Sun": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "cyberstarts.com": {
+  "Lior Simon": {
+   "status": "current",
+   "now": null
+  },
+  "Shiran Ella": {
+   "status": "current",
+   "now": null
+  },
+  "Gili Raanan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "databricks.com": {
+  "Panos Athanasiou": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "datadoghq.com": {
+  "Gabriel Levy": {
+   "status": "current",
+   "now": null
+  },
+  "Varun Mohapatra": {
+   "status": "moved",
+   "now": "Tracebit (Product)"
+  },
+  "Bharat Sajnani": {
+   "status": "current",
+   "now": null
+  },
+  "Brian Peters": {
+   "status": "current",
+   "now": null
+  },
+  "Brenda Newmann": {
+   "status": "current",
+   "now": null
+  },
+  "Robie Evangelista": {
+   "status": "moved",
+   "now": "Cantorna Creative (Executive Business Partner)"
+  }
+ },
+ "dawncapital.com": {
+  "Atiyu Mehta": {
+   "status": "current",
+   "now": null
+  },
+  "Alexandra Tsylnitska": {
+   "status": "current",
+   "now": null
+  },
+  "Romeo Walter": {
+   "status": "current",
+   "now": null
+  },
+  "Shamillah Bankiya": {
+   "status": "current",
+   "now": null
+  },
+  "Jimena Nowack": {
+   "status": "moved",
+   "now": "IVP (Partner)"
+  },
+  "Mina Mutafchieva": {
+   "status": "moved",
+   "now": "HV Capital (Partner, Growth)"
+  },
+  "Dan Chaplin": {
+   "status": "current",
+   "now": null
+  },
+  "Avalon Lee-Bacon": {
+   "status": "current",
+   "now": null
+  },
+  "Josh Bell": {
+   "status": "current",
+   "now": null
+  },
+  "Gamila Hassan": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Garcia": {
+   "status": "moved",
+   "now": "Nauta (Principal)"
+  },
+  "Zoe Qin": {
+   "status": "current",
+   "now": null
+  },
+  "Ties Boukema": {
+   "status": "moved",
+   "now": "Hg (Head of internal AI)"
+  }
+ },
+ "cylonventures.com": {
+  "Grace Cassy": {
+   "status": "moved",
+   "now": "Ten Eleven Ventures (Partner)"
+  }
+ },
+ "deel.com": {
+  "Roman Lobas": {
+   "status": "moved",
+   "now": "Icebreaker Agency (Сo-founder & Partner)"
+  },
+  "Anthony Dann": {
+   "status": "current",
+   "now": null
+  },
+  "Hannes Ortmeier": {
+   "status": "current",
+   "now": null
+  },
+  "Ji Bang": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "demeter-im.com": {
+  "Olivier Bordelanne": {
+   "status": "current",
+   "now": null
+  },
+  "Valentine Clinkspoor": {
+   "status": "current",
+   "now": null
+  },
+  "Eric Marty": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "discovery-ventures.com": {
+  "Finn Weise": {
+   "status": "moved",
+   "now": "Thrivo Wealth Partners (Geschäftsführer)"
+  }
+ },
+ "dogpatchlabs.com": {
+  "Menno Axt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "drysdale.vc": {
+  "Dalia Mahfouf": {
+   "status": "current",
+   "now": null
+  },
+  "Nicolas Essayan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "dvhventures.de": {
+  "Duc Tran": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ec.europa.eu": {
+  "Sevdalis Panagiotis": {
+   "status": "current",
+   "now": null
+  },
+  "Panagiotis Sevdalis": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "dynamo.vc": {
+  "Jon Bradford": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "ecbf.vc": {
+  "Stephane Roussel": {
+   "status": "current",
+   "now": null
+  },
+  "Hakan Karan": {
+   "status": "current",
+   "now": null
+  },
+  "Cornelia Frentz": {
+   "status": "current",
+   "now": null
+  },
+  "Mathias Lorenz": {
+   "status": "moved",
+   "now": "Delphinus Venture Capital (Managing Partner & CEO)"
+  }
+ },
+ "eib.org": {
+  "Lisboa Joana": {
+   "status": "current",
+   "now": null
+  },
+  "Papadimitriou Aristotle": {
+   "status": "current",
+   "now": null
+  },
+  "Katona Marton": {
+   "status": "unknown",
+   "now": null
+  },
+  "Magazzino Donato": {
+   "status": "unknown",
+   "now": null
+  },
+  "Himtcheva-rouzade Milena": {
+   "status": "unknown",
+   "now": null
+  },
+  "Aml-cft - KYC Review": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "eif.org": {
+  "Yakisirer Adem": {
+   "status": "current",
+   "now": null
+  },
+  "Bjorn Tremmerie": {
+   "status": "current",
+   "now": null
+  },
+  "Matthias Ummenhofer": {
+   "status": "moved",
+   "now": "Founders Pledge (Founders Pledge Member)"
+  },
+  "Haeger Philipp": {
+   "status": "current",
+   "now": null
+  },
+  "MARCINKOWSKI Maud": {
+   "status": "moved",
+   "now": "European Investment Bank (EIB) (Senior Operational Assistant)"
+  },
+  "ANDRES René": {
+   "status": "current",
+   "now": null
+  },
+  "Marchal Sarah": {
+   "status": "current",
+   "now": null
+  },
+  "Prikoszovits Lucia": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "eightroads.com": {
+  "Tamina Fogelberg": {
+   "status": "moved",
+   "now": "Nothing (Director of Global Strategy & Corporate Development)"
+  },
+  "Lucile Cornet": {
+   "status": "current",
+   "now": null
+  },
+  "Martin Ericsson": {
+   "status": "moved",
+   "now": "Priori Capital (Founder & CEO)"
+  },
+  "Helena Barman": {
+   "status": "moved",
+   "now": "Antler (VC investor @ Antler Elevate)"
+  },
+  "Asheque Shams": {
+   "status": "unknown",
+   "now": null
+  },
+  "Louis Frach": {
+   "status": "moved",
+   "now": "Left Lane Capital (Investor)"
+  },
+  "Daniel Benjamin": {
+   "status": "moved",
+   "now": "Eon (Seed Investor)"
+  },
+  "Davor Hebel": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Treskow": {
+   "status": "current",
+   "now": null
+  },
+  "Laura Salesse": {
+   "status": "current",
+   "now": null
+  },
+  "Lucy O'Brien": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "elaia.com": {
+  "Louisa Mesnard": {
+   "status": "current",
+   "now": null
+  },
+  "Alexis Frentz": {
+   "status": "current",
+   "now": null
+  },
+  "Gabriel Levy": {
+   "status": "moved",
+   "now": "Datadog (Senior Corpdev, Head of EMEA, Security)"
+  },
+  "Leonor Landeau": {
+   "status": "current",
+   "now": null
+  },
+  "Marie Ekeland": {
+   "status": "moved",
+   "now": "2050 (Founder & CEO)"
+  },
+  "Anya Brochier": {
+   "status": "current",
+   "now": null
+  },
+  "Xavier LAZARUS": {
+   "status": "current",
+   "now": null
+  },
+  "Pauline Roux": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "elephantvc.com": {
+  "Matt Tanenblatt": {
+   "status": "current",
+   "now": null
+  },
+  "Peter Fallon": {
+   "status": "current",
+   "now": null
+  },
+  "Andy Hunt": {
+   "status": "unknown",
+   "now": null
+  },
+  "Christopher Souza": {
+   "status": "current",
+   "now": null
+  },
+  "Jason Shein": {
+   "status": "current",
+   "now": null
+  },
+  "Sandy Destruge": {
+   "status": "moved",
+   "now": "Silversmith Capital Partners (Executive Assistant)"
+  },
+  "Jeremiah Daly": {
+   "status": "current",
+   "now": null
+  },
+  "Dara Li": {
+   "status": "current",
+   "now": null
+  },
+  "Annmarie Singh": {
+   "status": "current",
+   "now": null
+  },
+  "Pat Cammarata": {
+   "status": "current",
+   "now": null
+  },
+  "Jack Connolly": {
+   "status": "current",
+   "now": null
+  },
+  "Tom Gill": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "elevation-cp.com": {
+  "Benjamin Cohen": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "emblem.vc": {
+  "Pierre Ljubic": {
+   "status": "current",
+   "now": null
+  },
+  "Guillaume DURAO": {
+   "status": "current",
+   "now": null
+  },
+  "Antoine Pruvot": {
+   "status": "current",
+   "now": null
+  },
+  "Bénédicte de Raphélis Soissan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "endeit.com": {
+  "Silvia Ersetti": {
+   "status": "current",
+   "now": null
+  },
+  "Ilan Goudsmit": {
+   "status": "moved",
+   "now": "Goldsmith Ventures (Founder & Strategic Advisor)"
+  },
+  "Martijn Hamann": {
+   "status": "current",
+   "now": null
+  },
+  "Philipp Schroeder": {
+   "status": "current",
+   "now": null
+  },
+  "Niclas Englert": {
+   "status": "moved",
+   "now": "London Business School (MBA Candidate)"
+  },
+  "Jelle-Jan Bruinsma": {
+   "status": "current",
+   "now": null
+  },
+  "Tuomas Rekonen": {
+   "status": "current",
+   "now": null
+  },
+  "Carin Stjernefeldt": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "enterprise-ireland.com": {
+  "Jane Rogers": {
+   "status": "unknown",
+   "now": null
+  },
+  "Eimear Nuallain": {
+   "status": "unknown",
+   "now": null
+  },
+  "Claire Carroll": {
+   "status": "current",
+   "now": null
+  },
+  "David Scanlon": {
+   "status": "moved",
+   "now": "Resolve Ventures (Partner)"
+  },
+  "Karole Egan": {
+   "status": "current",
+   "now": null
+  },
+  "Leo McAdams": {
+   "status": "current",
+   "now": null
+  },
+  "Scaling Finance": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "enterprise.cam.ac.uk": {
+  "Anne Dobree": {
+   "status": "moved",
+   "now": "Parkwalk Advisors (Investment Director)"
+  },
+  "Mahesh Santiapillai": {
+   "status": "current",
+   "now": null
+  },
+  "Christine Martin": {
+   "status": "current",
+   "now": null
+  },
+  "Megan Meredith-Rodriguez": {
+   "status": "unknown",
+   "now": null
+  },
+  "Sofia Spiegel-Renshaw": {
+   "status": "current",
+   "now": null
+  },
+  "Room Campath": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "eneco.com": {
+  "A Mateus": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "episode1.com": {
+  "Millan Suri": {
+   "status": "current",
+   "now": null
+  },
+  "Carina Namih": {
+   "status": "moved",
+   "now": "Plural (General Partner)"
+  },
+  "Nuan Zhang": {
+   "status": "current",
+   "now": null
+  },
+  "Adam Shuaib": {
+   "status": "current",
+   "now": null
+  },
+  "Adrian Lloyd": {
+   "status": "current",
+   "now": null
+  },
+  "Katie Conn": {
+   "status": "unknown",
+   "now": null
+  },
+  "Dominic Lester": {
+   "status": "current",
+   "now": null
+  },
+  "Stephanie Orde": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "etfpartners.capital": {
+  "Alice Chan": {
+   "status": "current",
+   "now": null
+  },
+  "Patrick Sheehan": {
+   "status": "current",
+   "now": null
+  },
+  "Tomer Strikovsky": {
+   "status": "current",
+   "now": null
+  },
+  "Fabrice Bienfait": {
+   "status": "current",
+   "now": null
+  },
+  "Elisabeth Kuester": {
+   "status": "moved",
+   "now": "Deliveroo (Finance & Strategy Senior Manager)"
+  },
+  "Lucy Rands": {
+   "status": "current",
+   "now": null
+  },
+  "Isobel Sprules": {
+   "status": "moved",
+   "now": "Plural (Executive Assistant to Partner)"
+  },
+  "Remy Tonnac": {
+   "status": "current",
+   "now": null
+  },
+  "Aleksandra Lament": {
+   "status": "current",
+   "now": null
+  },
+  "Kajsa Johansson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "etfscapital.com": {
+  "Martyn James": {
+   "status": "current",
+   "now": null
+  },
+  "Steph Poulier": {
+   "status": "current",
+   "now": null
+  },
+  "Chloe Barlass": {
+   "status": "moved",
+   "now": "Fundment (Head of Business Administration)"
+  },
+  "Malcolm Ferguson": {
+   "status": "current",
+   "now": null
+  },
+  "Mark Weeks": {
+   "status": "unknown",
+   "now": null
+  },
+  "Patrick Kearney": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "eurazeo.com": {
+  "Giulia Marchegiani": {
+   "status": "moved",
+   "now": "Balderton (Investor)"
+  },
+  "Adrian Kreiser": {
+   "status": "current",
+   "now": null
+  },
+  "Hala Fadel": {
+   "status": "current",
+   "now": null
+  },
+  "Abigail Raymond": {
+   "status": "moved",
+   "now": "Noteus Partners (Office Manager)"
+  },
+  "Elise Stern": {
+   "status": "current",
+   "now": null
+  },
+  "Reginald Wasseige": {
+   "status": "current",
+   "now": null
+  },
+  "Guillaume d'Audiffret": {
+   "status": "moved",
+   "now": "Noteus Partners (General Partner)"
+  },
+  "Dylan Gokani": {
+   "status": "moved",
+   "now": "Noteus Partners (Vice President)"
+  },
+  "Elizabeth Newman": {
+   "status": "current",
+   "now": null
+  },
+  "Anne-Charlotte PHILBERT": {
+   "status": "current",
+   "now": null
+  },
+  "Benoist Grossmann": {
+   "status": "current",
+   "now": null
+  },
+  "Damien FIETTA": {
+   "status": "current",
+   "now": null
+  },
+  "Romain Mombert": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "exor.com": {
+  "Michael Lavner": {
+   "status": "moved",
+   "now": "Never Lift (General Partner)"
+  }
+ },
+ "evantic.ai": {
+  "Matt Miller": {
+   "status": "current",
+   "now": null
+  },
+  "Imke Koberg": {
+   "status": "current",
+   "now": null
+  },
+  "Joe McKeever": {
+   "status": "unknown",
+   "now": null
+  },
+  "Vivien Monory": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "expedition.capital": {
+  "Sebastian Hodge": {
+   "status": "current",
+   "now": null
+  },
+  "Raja Ohri": {
+   "status": "current",
+   "now": null
+  },
+  "Sourour Chtatou": {
+   "status": "current",
+   "now": null
+  },
+  "Tom Denford": {
+   "status": "current",
+   "now": null
+  },
+  "Klaas Seynaeve": {
+   "status": "current",
+   "now": null
+  },
+  "David Olsson": {
+   "status": "current",
+   "now": null
+  },
+  "Will Sheldon": {
+   "status": "current",
+   "now": null
+  },
+  "Steven Twomey": {
+   "status": "current",
+   "now": null
+  },
+  "Maria Percuklievska": {
+   "status": "unknown",
+   "now": null
+  },
+  "Oliver Thomas": {
+   "status": "current",
+   "now": null
+  },
+  "Shuli Levy": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "expeditionsfund.com": {
+  "Mikolaj Firlej": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "fdjunited.com": {
+  "Pierre Tramon": {
+   "status": "current",
+   "now": null
+  },
+  "Louis Cournot": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "fev.vc": {
+  "Moritz Jungmann": {
+   "status": "current",
+   "now": null
+  },
+  "Jan Palasinski": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "fiveseasons.vc": {
+  "Ivan Farneti": {
+   "status": "current",
+   "now": null
+  },
+  "Andre Purits": {
+   "status": "current",
+   "now": null
+  },
+  "Valerie Evans": {
+   "status": "current",
+   "now": null
+  },
+  "Justine Boucher": {
+   "status": "current",
+   "now": null
+  },
+  "Saskia Hoebée": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "forto.com": {
+  "Petit-Perrin Guillaume": {
+   "status": "current",
+   "now": null
+  },
+  "Meike Vetter": {
+   "status": "current",
+   "now": null
+  },
+  "Matthew Saliba": {
+   "status": "current",
+   "now": null
+  },
+  "Surbhit Rai": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "founderpath.com": {
+  "Nathan GetLatka": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "foundersfactory.com": {
+  "Peony Li": {
+   "status": "moved",
+   "now": "Jude (Founder and CEO)"
+  }
+ },
+ "foundersfuture.com": {
+  "Thibault Magnen": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Varasso": {
+   "status": "moved",
+   "now": "Axeleo (Principal)"
+  }
+ },
+ "frontline.vc": {
+  "Philipp Werner": {
+   "status": "current",
+   "now": null
+  },
+  "George Radford": {
+   "status": "current",
+   "now": null
+  },
+  "Hannah Skingle": {
+   "status": "current",
+   "now": null
+  },
+  "Will Prendergast": {
+   "status": "current",
+   "now": null
+  },
+  "Allison Graf": {
+   "status": "current",
+   "now": null
+  },
+  "Dylan Scully": {
+   "status": "current",
+   "now": null
+  },
+  "Ruth Sheridan": {
+   "status": "current",
+   "now": null
+  },
+  "William McQuillan": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "futurycapital.vc": {
+  "Shahin Dashti": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "gaiacap.co": {
+  "Jean-David Herld": {
+   "status": "current",
+   "now": null
+  },
+  "Morgan Kessous": {
+   "status": "current",
+   "now": null
+  },
+  "Elina Berrebi": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "galaxy.com": {
+  "Giorgio Oriani": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "generalcatalyst.com": {
+  "Amanda Lennon": {
+   "status": "current",
+   "now": null
+  },
+  "Mark Crane": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Mackenzie": {
+   "status": "current",
+   "now": null
+  },
+  "Electra Niarchos": {
+   "status": "unknown",
+   "now": null
+  },
+  "Zeynep Yavuz": {
+   "status": "current",
+   "now": null
+  },
+  "Paula Wehmeyer": {
+   "status": "current",
+   "now": null
+  },
+  "Nicole Bodinnar": {
+   "status": "current",
+   "now": null
+  },
+  "Josephine Kinney": {
+   "status": "moved",
+   "now": "Pinegrove Opportunity Partners (Executive Assistant)"
+  },
+  "Cecilia Zhao": {
+   "status": "unknown",
+   "now": null
+  },
+  "Juliet Bailin": {
+   "status": "moved",
+   "now": "Kindred Capital VC (Venture Partner)"
+  }
+ },
+ "gi-de.com": {
+  "Uffelmann Ena": {
+   "status": "current",
+   "now": null
+  },
+  "Shamia Assaf": {
+   "status": "current",
+   "now": null
+  },
+  "Hochholzer Michael": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "gilion.com": {
+  "Oliver Hildebrandt": {
+   "status": "current",
+   "now": null
+  },
+  "Mina-Niqole Sandberg": {
+   "status": "current",
+   "now": null
+  },
+  "Henrik Landgren": {
+   "status": "current",
+   "now": null
+  },
+  "Alexandra Stolt": {
+   "status": "current",
+   "now": null
+  },
+  "Oscar Werner": {
+   "status": "current",
+   "now": null
+  },
+  "Axel Bruzelius": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "glilotcapital.com": {
+  "Daniel Ziv": {
+   "status": "current",
+   "now": null
+  },
+  "Arik Kleinstein": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "globalfounderscapital.com": {
+  "Cedric Asselman": {
+   "status": "current",
+   "now": null
+  },
+  "Alexandre Charlet": {
+   "status": "moved",
+   "now": "Hedosophia (Partner)"
+  },
+  "Soheil Mirpour": {
+   "status": "moved",
+   "now": "Melotech (Founder)"
+  },
+  "Levin Bunz": {
+   "status": "moved",
+   "now": "Heartcore Capital (Partner)"
+  },
+  "Julia Morrongiello": {
+   "status": "moved",
+   "now": "BVNK (VP Corporate Development & Strategy)"
+  },
+  "Tom Lambert": {
+   "status": "moved",
+   "now": "LocalGlobe (Partner)"
+  },
+  "Nick Stocks": {
+   "status": "moved",
+   "now": "Personal (Angel, LP, and more)"
+  },
+  "Matthias Müller": {
+   "status": "current",
+   "now": null
+  },
+  "Oleksandra Leshchynska": {
+   "status": "unknown",
+   "now": null
+  },
+  "Donald Stalter": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "goldenseeds.com": {
+  "Jo Corkran": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "google.com": {
+  "Nishu Lahoti": {
+   "status": "moved",
+   "now": "Nonlinear Labs (Founder)"
+  },
+  "Jonno Southam": {
+   "status": "current",
+   "now": null
+  },
+  "Avid Duggan": {
+   "status": "moved",
+   "now": "The Operator Network (Partner & Co-Founder)"
+  },
+  "Cyrille Olive": {
+   "status": "current",
+   "now": null
+  },
+  "Jon Koplin": {
+   "status": "moved",
+   "now": "Cisco Investments (Managing Director)"
+  },
+  "Sandeep Jayaram": {
+   "status": "moved",
+   "now": "Lambda (Executive Vice President, AI Infrastructure)"
+  },
+  "Roni Hiranand": {
+   "status": "current",
+   "now": null
+  },
+  "Oksana Stowe": {
+   "status": "current",
+   "now": null
+  },
+  "Oliver Lane": {
+   "status": "current",
+   "now": null
+  },
+  "Vidu Shanmugarajah": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "greshamhouse.com": {
+  "Jens Düing": {
+   "status": "current",
+   "now": null
+  },
+  "Kay Matthews": {
+   "status": "current",
+   "now": null
+  },
+  "Marieke Christmann": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "headline.com": {
+  "Linda Brosig": {
+   "status": "current",
+   "now": null
+  },
+  "Anna Faulkner": {
+   "status": "current",
+   "now": null
+  },
+  "Kiran Modi": {
+   "status": "current",
+   "now": null
+  },
+  "Shalini Rao": {
+   "status": "current",
+   "now": null
+  },
+  "Isabel Wrubel": {
+   "status": "moved",
+   "now": "Hyde (AI Strategist)"
+  },
+  "Sean Cloney": {
+   "status": "current",
+   "now": null
+  },
+  "Dominic Long-Innes": {
+   "status": "moved",
+   "now": null
+  },
+  "Christian Leybold": {
+   "status": "current",
+   "now": null
+  },
+  "Adeyinka Okuwoga": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "hitachi-ventures.com": {
+  "Edoardo Stazio": {
+   "status": "current",
+   "now": null
+  },
+  "Galina Sagan": {
+   "status": "current",
+   "now": null
+  },
+  "Tobias Graf": {
+   "status": "current",
+   "now": null
+  },
+  "Tobias Jahn": {
+   "status": "current",
+   "now": null
+  },
+  "Akhil Jimmy": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "hummingbird.vc": {
+  "Marc Rizk": {
+   "status": "current",
+   "now": null
+  },
+  "Ani Mouradyan": {
+   "status": "current",
+   "now": null
+  },
+  "Lukas Decoster": {
+   "status": "current",
+   "now": null
+  },
+  "Firat Ileri": {
+   "status": "current",
+   "now": null
+  },
+  "Nikita Andersson": {
+   "status": "moved",
+   "now": "Independent angel investor"
+  },
+  "Teal Frost": {
+   "status": "current",
+   "now": null
+  },
+  "Sofia Di Meola": {
+   "status": "current",
+   "now": null
+  },
+  "Katherine Jones": {
+   "status": "current",
+   "now": null
+  },
+  "Lola Wajskop": {
+   "status": "moved",
+   "now": "Asylum Ventures (Partner)"
+  }
+ },
+ "hvcapital.com": {
+  "Mina Mutafchieva": {
+   "status": "current",
+   "now": null
+  },
+  "Jack McGuinness": {
+   "status": "current",
+   "now": null
+  },
+  "Frazier Christie": {
+   "status": "current",
+   "now": null
+  },
+  "Ann-Christin Stiehl": {
+   "status": "current",
+   "now": null
+  },
+  "Anna Ott": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Joel-Carbonell": {
+   "status": "current",
+   "now": null
+  },
+  "Rainer Märkle": {
+   "status": "current",
+   "now": null
+  },
+  "Jannis Fett": {
+   "status": "current",
+   "now": null
+  },
+  "Felix Kluehr": {
+   "status": "current",
+   "now": null
+  },
+  "Christian Saller": {
+   "status": "current",
+   "now": null
+  },
+  "Kasey Davies": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ibanfirst.com": {
+  "Patrick Mollard": {
+   "status": "moved",
+   "now": "Fipto (Co Founder & CEO)"
+  }
+ },
+ "iconiqcapital.com": {
+  "Amine Athamena": {
+   "status": "current",
+   "now": null
+  },
+  "Shruti Tournatory": {
+   "status": "current",
+   "now": null
+  },
+  "Zuzanna Czapinska": {
+   "status": "current",
+   "now": null
+  },
+  "Mariam Abbott": {
+   "status": "current",
+   "now": null
+  },
+  "Calvin Yeoh": {
+   "status": "moved",
+   "now": "Stealth Company (Calvin Yeoh) (Something new)"
+  },
+  "Prit Boggavaram": {
+   "status": "current",
+   "now": null
+  },
+  "Sarah Stebbins": {
+   "status": "current",
+   "now": null
+  },
+  "Ritika Pai": {
+   "status": "current",
+   "now": null
+  },
+  "Seth Pierrepont": {
+   "status": "current",
+   "now": null
+  },
+  "Marie-Louise O'Callaghan": {
+   "status": "current",
+   "now": null
+  },
+  "Austin Liang": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ing.com": {
+  "L Klardie": {
+   "status": "unknown",
+   "now": null
+  },
+  "Project Gate": {
+   "status": "unknown",
+   "now": null
+  },
+  "M Preuss": {
+   "status": "unknown",
+   "now": null
+  },
+  "A Boham": {
+   "status": "unknown",
+   "now": null
+  },
+  "Tim Boer": {
+   "status": "moved",
+   "now": "AXECO (Partner)"
+  },
+  "Mathias Blumschein": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "illuminatefinancial.com": {
+  "Hugo Hazon": {
+   "status": "moved",
+   "now": "Concept Ventures (Principal)"
+  },
+  "Carlos Perez-Pla": {
+   "status": "current",
+   "now": null
+  },
+  "Esther Muschamp": {
+   "status": "current",
+   "now": null
+  },
+  "Konstantin Koenig": {
+   "status": "current",
+   "now": null
+  },
+  "Julie McCrimlisk": {
+   "status": "current",
+   "now": null
+  },
+  "Andrew Patey": {
+   "status": "current",
+   "now": null
+  },
+  "Max Prozorovskyi": {
+   "status": "moved",
+   "now": "TimelyAI(Acquired by upstage) (Investment Director)"
+  }
+ },
+ "illusian.org": {
+  "Jasmin Jutila": {
+   "status": "current",
+   "now": null
+  },
+  "Mikko Savolainen": {
+   "status": "current",
+   "now": null
+  },
+  "Teemu Korhonen": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "innoenergy.com": {
+  "Gianmarco Panone": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "innovacom.com": {
+  "Jerome Faul": {
+   "status": "current",
+   "now": null
+  },
+  "Denis Barrier": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "inovo.vc": {
+  "Dawid Sugier": {
+   "status": "current",
+   "now": null
+  },
+  "Tomasz Swieboda": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "inreachventures.com": {
+  "Amanda Floyd": {
+   "status": "current",
+   "now": null
+  },
+  "Roberto Bonanzinga": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ivp.com": {
+  "Jimena Nowack": {
+   "status": "current",
+   "now": null
+  },
+  "Room 22": {
+   "status": "unknown",
+   "now": null
+  },
+  "Eric Liaw": {
+   "status": "current",
+   "now": null
+  },
+  "Sarah Dixson": {
+   "status": "current",
+   "now": null
+  },
+  "Karthik Ramakrishnan": {
+   "status": "unknown",
+   "now": null
+  },
+  "Sabina von Koskull": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Lim": {
+   "status": "current",
+   "now": null
+  },
+  "Sam Parker": {
+   "status": "current",
+   "now": null
+  },
+  "Zack Grimmer": {
+   "status": "current",
+   "now": null
+  },
+  "Roxie Rum": {
+   "status": "current",
+   "now": null
+  },
+  "Shravan Narayen": {
+   "status": "unknown",
+   "now": null
+  },
+  "Dawson Poinelli": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "ironnation.org": {
+  "Jason Wolf": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "isai.fr": {
+  "Jeanpatrice Anciaux": {
+   "status": "current",
+   "now": null
+  },
+  "William Vermont": {
+   "status": "current",
+   "now": null
+  },
+  "Christophe Poupinel": {
+   "status": "current",
+   "now": null
+  },
+  "Juliette Mopin": {
+   "status": "current",
+   "now": null
+  },
+  "J-David Chamboredon": {
+   "status": "current",
+   "now": null
+  },
+  "Christophe Raynaud": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "j12ventures.com": {
+  "Caroline Hultman": {
+   "status": "current",
+   "now": null
+  },
+  "Maja Shapiro": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "joinef.com": {
+  "Seyi Oluwasanmi": {
+   "status": "unknown",
+   "now": null
+  },
+  "Max Neuberger": {
+   "status": "current",
+   "now": null
+  },
+  "Ella Morris": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "jpmorgan.com": {
+  "Jennifer Stillman": {
+   "status": "current",
+   "now": null
+  },
+  "Helena Bertuello": {
+   "status": "current",
+   "now": null
+  },
+  "Nancy Dong": {
+   "status": "current",
+   "now": null
+  },
+  "John Mazzara": {
+   "status": "current",
+   "now": null
+  },
+  "Jonathan Gleason": {
+   "status": "unknown",
+   "now": null
+  },
+  "William Moukouri": {
+   "status": "current",
+   "now": null
+  },
+  "Jo Leech": {
+   "status": "current",
+   "now": null
+  },
+  "Max Hauer": {
+   "status": "current",
+   "now": null
+  },
+  "Chris Pearce": {
+   "status": "current",
+   "now": null
+  },
+  "Jc Raby": {
+   "status": "current",
+   "now": null
+  },
+  "Alexandra Wyatt": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Mccracken": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "jtventures.cz": {
+  "Jan Sova": {
+   "status": "current",
+   "now": null
+  },
+  "Kočík Adam": {
+   "status": "current",
+   "now": null
+  },
+  "David Polach": {
+   "status": "unknown",
+   "now": null
+  },
+  "Zimola Jakub": {
+   "status": "moved",
+   "now": "Miton (New Ventures)"
+  },
+  "Paleček Matouš": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "junctiongrowthinvestors.com": {
+  "Ruben Lorer": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "kaporcapital.com": {
+  "Cliff Worley": {
+   "status": "moved",
+   "now": "Automate First (Founder & AI Consultant)"
+  }
+ },
+ "kaya.vc": {
+  "Václav Ryšlink": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "kfund.vc": {
+  "Jorge Campo": {
+   "status": "current",
+   "now": null
+  },
+  "Jaime Novoa": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "kimaventures.com": {
+  "Felix Breucker": {
+   "status": "current",
+   "now": null
+  },
+  "Jean de La Rochebrochard": {
+   "status": "current",
+   "now": null
+  },
+  "Alexis Robert": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "kindredcapital.vc": {
+  "Leila Zegna": {
+   "status": "current",
+   "now": null
+  },
+  "Max Bray": {
+   "status": "current",
+   "now": null
+  },
+  "Chrys Chrysanthou": {
+   "status": "current",
+   "now": null
+  },
+  "Karen Swain": {
+   "status": "current",
+   "now": null
+  },
+  "Fiona Lay": {
+   "status": "current",
+   "now": null
+  },
+  "John Potter": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "lakestar.com": {
+  "Jannis Fett": {
+   "status": "moved",
+   "now": "HV (Principal)"
+  },
+  "Ben Clark": {
+   "status": "current",
+   "now": null
+  },
+  "Akis Bratsos": {
+   "status": "current",
+   "now": null
+  },
+  "Enrico Mellis": {
+   "status": "current",
+   "now": null
+  },
+  "Sandra Krivancova": {
+   "status": "current",
+   "now": null
+  },
+  "Fredrik Nylander": {
+   "status": "unknown",
+   "now": null
+  },
+  "Beatrice Aliprandi": {
+   "status": "unknown",
+   "now": null
+  },
+  "Chris Magazzeni": {
+   "status": "current",
+   "now": null
+  },
+  "Oliver Heimes": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Serra": {
+   "status": "moved",
+   "now": "poolside (Director of Partnerships and Business Operations)"
+  },
+  "Nina Cardelus": {
+   "status": "moved",
+   "now": "Lightrock (Vice President)"
+  },
+  "Navid Meyer": {
+   "status": "current",
+   "now": null
+  },
+  "Asha Mistry": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "korys.be": {
+  "Katti Van Oosterwijck": {
+   "status": "current",
+   "now": null
+  },
+  "Vincent Caudron": {
+   "status": "current",
+   "now": null
+  },
+  "Wouter Verstringe": {
+   "status": "current",
+   "now": null
+  },
+  "Thierry François": {
+   "status": "moved",
+   "now": "magenta tree (Managing Director)"
+  },
+  "Hilde Van der Straeten": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lafamiglia.vc": {
+  "Simba Deu": {
+   "status": "moved",
+   "now": "Prima Beta (Investing with mates)"
+  },
+  "Alexandros Bottenbruch": {
+   "status": "moved",
+   "now": "Founder-first Angel (Angel Investor)"
+  },
+  "Judith Dada": {
+   "status": "moved",
+   "now": "Langdock (Co-CEO)"
+  },
+  "Viet Le": {
+   "status": "unknown",
+   "now": null
+  },
+  "Paula Rossini": {
+   "status": "unknown",
+   "now": null
+  },
+  "Samuel Beyer": {
+   "status": "current",
+   "now": null
+  },
+  "Philipp Handel": {
+   "status": "unknown",
+   "now": null
+  },
+  "Marius Groke": {
+   "status": "moved",
+   "now": "Mav9 (Co-Founder)"
+  }
+ },
+ "leftlane.com": {
+  "Louis Frach": {
+   "status": "current",
+   "now": null
+  },
+  "Matt Miller": {
+   "status": "current",
+   "now": null
+  },
+  "Erica Amatori": {
+   "status": "current",
+   "now": null
+  },
+  "Paddy Dillon": {
+   "status": "current",
+   "now": null
+  },
+  "Rachel Ward": {
+   "status": "current",
+   "now": null
+  },
+  "Hannah Greenwald": {
+   "status": "current",
+   "now": null
+  },
+  "Coraline Meroni": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "leapartners.de": {
+  "Endres Florian": {
+   "status": "current",
+   "now": null
+  },
+  "Nils Seele": {
+   "status": "current",
+   "now": null
+  },
+  "Weise Kurt": {
+   "status": "current",
+   "now": null
+  },
+  "Berger Nils": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lifelineventures.com": {
+  "Juha Lindfors": {
+   "status": "current",
+   "now": null
+  },
+  "Timo Ahopelto": {
+   "status": "current",
+   "now": null
+  },
+  "Petteri Koponen": {
+   "status": "current",
+   "now": null
+  },
+  "Saana Sairanen": {
+   "status": "moved",
+   "now": "Vipps MobilePay (Account Manager)"
+  },
+  "Mikko Vesterinen": {
+   "status": "moved",
+   "now": "Canatu (Chief Financial Officer)"
+  },
+  "Tuomo Vähäpassi": {
+   "status": "current",
+   "now": null
+  },
+  "Rilla Saukkonen": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ledger.com": {
+  "Katie Ledger": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "localglobe.vc": {
+  "Tom Lambert": {
+   "status": "current",
+   "now": null
+  },
+  "Julian Rowe": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ophelia Brown": {
+   "status": "moved",
+   "now": "Blossom Capital (Founder & Managing Partner)"
+  },
+  "Ambi Mistry": {
+   "status": "current",
+   "now": null
+  },
+  "Bhrigu Bali": {
+   "status": "moved",
+   "now": "noa (CFO/COO)"
+  },
+  "Ziv Reichert": {
+   "status": "current",
+   "now": null
+  },
+  "Suzanne Ashman": {
+   "status": "moved",
+   "now": "Sovereign AI (Managing Partner)"
+  },
+  "Julia Hawkins": {
+   "status": "current",
+   "now": null
+  },
+  "Remus Brett": {
+   "status": "current",
+   "now": null
+  },
+  "Matt Peplow": {
+   "status": "current",
+   "now": null
+  },
+  "Daisey Hearne": {
+   "status": "unknown",
+   "now": null
+  },
+  "Rajee Seelan": {
+   "status": "current",
+   "now": null
+  },
+  "Robin Klein": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "lifex.vc": {
+  "Inaki Berenguer": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lightbird.vc": {
+  "Thomas Meier": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "loveventures.co.uk": {
+  "Bill Corfield": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "lsvp.com": {
+  "Ifet Lawrence": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Schmitt": {
+   "status": "current",
+   "now": null
+  },
+  "Anoushka Vaswani": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Taussig": {
+   "status": "current",
+   "now": null
+  },
+  "Rytis Vitkauskas": {
+   "status": "moved",
+   "now": "DIG Ventures (General Partner)"
+  },
+  "Sam Wholley": {
+   "status": "current",
+   "now": null
+  },
+  "David Gussarsky": {
+   "status": "current",
+   "now": null
+  },
+  "Shan Shan": {
+   "status": "moved",
+   "now": "Baillie Gifford (Investment Manager, Private Companies)"
+  },
+  "Julie Kainz": {
+   "status": "moved",
+   "now": "Lean Technologies (Corp Dev)"
+  },
+  "Adrian Radu": {
+   "status": "moved",
+   "now": "Khosla Ventures (Partner)"
+  },
+  "Dana Mizrahi": {
+   "status": "current",
+   "now": null
+  },
+  "Fatima Vali": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Murphy": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "mangrove.vc": {
+  "Guillaume DURAO": {
+   "status": "moved",
+   "now": "Emblem (Founder & General Partner)"
+  },
+  "Mark Tluszcz": {
+   "status": "current",
+   "now": null
+  },
+  "Denis Schwirtz": {
+   "status": "current",
+   "now": null
+  },
+  "Hans-Jürgen Schmitz": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Rabinowicz": {
+   "status": "current",
+   "now": null
+  },
+  "Antoine Payrar": {
+   "status": "current",
+   "now": null
+  },
+  "Christina Grischov": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "mastercard.com": {
+  "Online Reporting": {
+   "status": "unknown",
+   "now": null
+  },
+  "Arsalan Ahmed": {
+   "status": "unknown",
+   "now": null
+  },
+  "Sara Bertone": {
+   "status": "current",
+   "now": null
+  },
+  "Samuel McGurk": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "lunar.vc": {
+  "Alberto Cresto": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "m12.vc": {
+  "Nagraj Kashyap": {
+   "status": "moved",
+   "now": "Touring Capital (Co-Founder and General Partner)"
+  }
+ },
+ "maki.vc": {
+  "Ella Eskelinen": {
+   "status": "moved",
+   "now": "Verda (Chief of Staff)"
+  }
+ },
+ "marathon.vc": {
+  "Panos Papadopoulos": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Alexakis": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "martletcap.com": {
+  "Paul Bailey": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "matrix.vc": {
+  "David Skok": {
+   "status": "current",
+   "now": null
+  },
+  "Allison Rodman": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "microsoft.com": {
+  "Itxaso del Palacio": {
+   "status": "moved",
+   "now": "Notion Capital (General Partner)"
+  },
+  "Leslie Feinzaig": {
+   "status": "moved",
+   "now": "Graham & Walker VC (Founder & General Partner)"
+  },
+  "Andrea Bernabeu": {
+   "status": "current",
+   "now": null
+  },
+  "Manuel Miguez": {
+   "status": "moved",
+   "now": "elpatin.com (Founder)"
+  },
+  "Jody Wharton": {
+   "status": "current",
+   "now": null
+  },
+  "Andrew Bentley": {
+   "status": "current",
+   "now": null
+  },
+  "Ross Kennedy": {
+   "status": "current",
+   "now": null
+  },
+  "Paul Veck": {
+   "status": "current",
+   "now": null
+  },
+  "Alaric Wilson": {
+   "status": "current",
+   "now": null
+  },
+  "Valle del Aguila Rodrigo": {
+   "status": "current",
+   "now": null
+  },
+  "Cathy Zhu": {
+   "status": "current",
+   "now": null
+  },
+  "Hitoshi Yoshida": {
+   "status": "moved",
+   "now": "ixi - Innovate, Transform, Include. Doing it together (Chief Executive Officer, ixi Inc.)"
+  }
+ },
+ "moonfire.com": {
+  "Mattias Ljungman": {
+   "status": "current",
+   "now": null
+  },
+  "Andrea Gurnari": {
+   "status": "current",
+   "now": null
+  },
+  "Saran Davies": {
+   "status": "current",
+   "now": null
+  },
+  "Alina Gounina": {
+   "status": "current",
+   "now": null
+  },
+  "Akshat Goenka": {
+   "status": "current",
+   "now": null
+  },
+  "Jonas Vetterle": {
+   "status": "current",
+   "now": null
+  },
+  "Nicholas Lowden": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "montecarlocap.com": {
+  "Ian Sosso": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "motivepartners.com": {
+  "Tim Wanders": {
+   "status": "current",
+   "now": null
+  },
+  "Hugo Bongers": {
+   "status": "current",
+   "now": null
+  },
+  "Michael Hock": {
+   "status": "current",
+   "now": null
+  },
+  "Julia Hubo": {
+   "status": "current",
+   "now": null
+  },
+  "Isabel Hallett": {
+   "status": "current",
+   "now": null
+  },
+  "Inês Delgado": {
+   "status": "moved",
+   "now": "iCapital (Strategic Expansion & Product Development, Vice President)"
+  },
+  "Harsh Govil": {
+   "status": "current",
+   "now": null
+  },
+  "Isabel Holding": {
+   "status": "current",
+   "now": null
+  },
+  "Swathi Vankayalapati": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "nea.com": {
+  "Philip Chopin": {
+   "status": "current",
+   "now": null
+  },
+  "Uk Shoreditch": {
+   "status": "unknown",
+   "now": null
+  },
+  "Kemi Odusan": {
+   "status": "unknown",
+   "now": null
+  },
+  "Luke Pappas": {
+   "status": "current",
+   "now": null
+  },
+  "Emily Baine": {
+   "status": "current",
+   "now": null
+  },
+  "Toni Holmes": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ndrc.ie": {
+  "David Scanlon": {
+   "status": "moved",
+   "now": "Resolve Ventures (Partner)"
+  },
+  "Menno Axt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "nautacapital.com": {
+  "Andrea Oliver": {
+   "status": "current",
+   "now": null
+  },
+  "Josh Trup": {
+   "status": "moved",
+   "now": "Greenfield Partners (Principal)"
+  },
+  "Ana Fernandez": {
+   "status": "current",
+   "now": null
+  },
+  "Marcel Rafart": {
+   "status": "moved",
+   "now": "Galdana Ventures (Founder and Chairman)"
+  },
+  "Borja Breña": {
+   "status": "current",
+   "now": null
+  },
+  "Alexander Krespi": {
+   "status": "moved",
+   "now": "Paladin Capital Group (Venture Investor)"
+  },
+  "Stella Buhalis": {
+   "status": "current",
+   "now": null
+  },
+  "Rocio Hodaly": {
+   "status": "moved",
+   "now": "Galdana Ventures (Executive Assistant to Managing Director)"
+  },
+  "Theo Wethered": {
+   "status": "current",
+   "now": null
+  },
+  "Guillem Sagué": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "msm.vc": {
+  "Alex Pitt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "mustardseed.vc": {
+  "Orson Stadler": {
+   "status": "unknown",
+   "now": null
+  },
+  "Alex Pitt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "newion.com": {
+  "Dorus Olgers": {
+   "status": "current",
+   "now": null
+  },
+  "Pieter Welten": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "otpp.com": {
+  "Avid Duggan": {
+   "status": "current",
+   "now": null
+  },
+  "Lauren Milligan": {
+   "status": "current",
+   "now": null
+  },
+  "Francisco Jose Vargas Almeida": {
+   "status": "current",
+   "now": null
+  },
+  "Chalani Allen": {
+   "status": "current",
+   "now": null
+  },
+  "Ara YEROMIAN": {
+   "status": "current",
+   "now": null
+  },
+  "Zaya Kadyrova": {
+   "status": "moved",
+   "now": "Aspire11 (Co-founder)"
+  },
+  "Lisa Coble": {
+   "status": "moved",
+   "now": "Jefferies (Executive Assistant)"
+  },
+  "Kieran Mahanty": {
+   "status": "current",
+   "now": null
+  },
+  "Phoebe Kitchen": {
+   "status": "moved",
+   "now": "Molten Ventures (Principal)"
+  }
+ },
+ "nextview.vc": {
+  "Vera Benkoil": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "nvidia.com": {
+  "Chase Overlie": {
+   "status": "current",
+   "now": null
+  },
+  "Georgios Kolovos": {
+   "status": "current",
+   "now": null
+  },
+  "Aishwarya Nadgauda": {
+   "status": "current",
+   "now": null
+  },
+  "Serge Lemonde": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "omnescapital.com": {
+  "Hugo Hubert": {
+   "status": "current",
+   "now": null
+  },
+  "Poulard Renaud": {
+   "status": "current",
+   "now": null
+  },
+  "De Michel": {
+   "status": "current",
+   "now": null
+  },
+  "Joost Notenboom": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "osprey-investors.com": {
+  "Rob Quirke": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "oxx.vc": {
+  "Gokce Ceylan": {
+   "status": "unknown",
+   "now": null
+  },
+  "Ingrid Åkerlind": {
+   "status": "unknown",
+   "now": null
+  },
+  "Phil Edmondson-Jones": {
+   "status": "current",
+   "now": null
+  },
+  "Bob Thomas": {
+   "status": "current",
+   "now": null
+  },
+  "Ben Palmer": {
+   "status": "current",
+   "now": null
+  },
+  "Mimi Snell": {
+   "status": "current",
+   "now": null
+  },
+  "Carole Ginman": {
+   "status": "current",
+   "now": null
+  },
+  "Ashna Ahmad": {
+   "status": "moved",
+   "now": "Galdera (Founding Engineer)"
+  },
+  "Archit Rathi": {
+   "status": "moved",
+   "now": "Atlabs AI (Co-Founder)"
+  },
+  "Toby Lywood": {
+   "status": "moved",
+   "now": "10xHumans (Corp Dev Lead)"
+  },
+  "Maria Hagberg": {
+   "status": "unknown",
+   "now": null
+  },
+  "Mikael Johnsson": {
+   "status": "current",
+   "now": null
+  },
+  "Richard Anton": {
+   "status": "current",
+   "now": null
+  },
+  "Lauren Sophocleos": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "paypal.com": {
+  "Alexandros Bottenbruch": {
+   "status": "moved",
+   "now": "Founder-first Angel (Angel Investor)"
+  },
+  "Ashish Aggarwal": {
+   "status": "moved",
+   "now": "Endeavor (Mentor)"
+  },
+  "Elisabeth Granger": {
+   "status": "moved",
+   "now": "Pebl (VP, Finance - Strategy & Operations)"
+  },
+  "Jonathan Banks": {
+   "status": "unknown",
+   "now": null
+  },
+  "Rachel Sapienza": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "phoenixcourt.vc": {
+  "Daisey Hearne": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "pluralplatform.com": {
+  "Carina Namih": {
+   "status": "current",
+   "now": null
+  },
+  "Isobel Sprules": {
+   "status": "current",
+   "now": null
+  },
+  "Khaled Helioui": {
+   "status": "current",
+   "now": null
+  },
+  "Ian Hogarth": {
+   "status": "current",
+   "now": null
+  },
+  "Taavet Hinrikus": {
+   "status": "current",
+   "now": null
+  },
+  "Daniel Tarver": {
+   "status": "moved",
+   "now": "Trioak Capital (Partner)"
+  },
+  "Victoria Kennard": {
+   "status": "current",
+   "now": null
+  },
+  "Chris Perry": {
+   "status": "current",
+   "now": null
+  },
+  "Sophie Napier": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "pathlight.vc": {
+  "Mahdi Raza": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "pioneerfund.vc": {
+  "James Fong": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "radical.vc": {
+  "Rich Kotite": {
+   "status": "current",
+   "now": null
+  },
+  "Rob Toews": {
+   "status": "current",
+   "now": null
+  },
+  "Jessica Esposito": {
+   "status": "current",
+   "now": null
+  },
+  "Aaron Brindle": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "portfolio.ventures": {
+  "Will Brooks": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "portugalventures.pt": {
+  "Fernando Ferreira": {
+   "status": "current",
+   "now": null
+  },
+  "Filomena Pastor": {
+   "status": "current",
+   "now": null
+  },
+  "Maria Almeida": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "psv.xyz": {
+  "Kristian Hansen": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "puzzle-ventures.com": {
+  "Gloria Baeuerlein": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "quantumlightcapital.com": {
+  "James Darby": {
+   "status": "current",
+   "now": null
+  },
+  "Dora Zikouli": {
+   "status": "current",
+   "now": null
+  },
+  "James Popplewell": {
+   "status": "moved",
+   "now": "Brookfield (Senior Vice President)"
+  }
+ },
+ "raine.com": {
+  "Fred Davis": {
+   "status": "current",
+   "now": null
+  },
+  "Gregory Israelyan": {
+   "status": "current",
+   "now": null
+  },
+  "Joe Puthenveetil": {
+   "status": "current",
+   "now": null
+  },
+  "Fariya Khan": {
+   "status": "current",
+   "now": null
+  },
+  "Jason Schretter": {
+   "status": "current",
+   "now": null
+  },
+  "Tommaso Armanini": {
+   "status": "current",
+   "now": null
+  },
+  "Christine Ambrose": {
+   "status": "unknown",
+   "now": null
+  },
+  "Nicola Hughes-Campen": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "redpoint.com": {
+  "Logan Bartlett": {
+   "status": "current",
+   "now": null
+  },
+  "Enzo Wiener": {
+   "status": "current",
+   "now": null
+  },
+  "Kwesi Acquay": {
+   "status": "current",
+   "now": null
+  },
+  "Jacob Effron": {
+   "status": "current",
+   "now": null
+  },
+  "Lily Eusebio": {
+   "status": "current",
+   "now": null
+  },
+  "Mary Stern": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "redseed.vc": {
+  "Daniel Benjamin": {
+   "status": "moved",
+   "now": "Eon (Seed Investor)"
+  },
+  "Héléna Cavell": {
+   "status": "moved",
+   "now": "Jibe Ventures (Partner)"
+  }
+ },
+ "rtp.vc": {
+  "Orson Stadler": {
+   "status": "unknown",
+   "now": null
+  },
+  "Julia Anisimova": {
+   "status": "current",
+   "now": null
+  },
+  "Thomas Cuvelier": {
+   "status": "current",
+   "now": null
+  },
+  "Simon Pastor": {
+   "status": "moved",
+   "now": "Index Ventures (Partner)"
+  },
+  "Elina Rayberg": {
+   "status": "current",
+   "now": null
+  },
+  "Gareth Jefferies": {
+   "status": "current",
+   "now": null
+  },
+  "Galina Chifina": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "redriceventures.com": {
+  "Claudia Yupangco": {
+   "status": "current",
+   "now": null
+  },
+  "Gabrielle Swycher": {
+   "status": "current",
+   "now": null
+  },
+  "Kunaal Kankate": {
+   "status": "current",
+   "now": null
+  },
+  "Andres Gonzales": {
+   "status": "moved",
+   "now": "The Bicester Collection (Business Planning Manager - Guest Knowledge & Insights)"
+  }
+ },
+ "redriverwest.com": {
+  "Chloé Merlet": {
+   "status": "moved",
+   "now": "Hg (Investor)"
+  },
+  "Antoine Boulin": {
+   "status": "current",
+   "now": null
+  },
+  "Olivier Huez": {
+   "status": "current",
+   "now": null
+  },
+  "Alfred Vericel": {
+   "status": "current",
+   "now": null
+  },
+  "Abel Samot": {
+   "status": "current",
+   "now": null
+  },
+  "Joseph Houssais": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "resurgenstech.com": {
+  "Elizabeth Brown": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "revent.vc": {
+  "Henrik Hokamp": {
+   "status": "current",
+   "now": null
+  },
+  "Oana Botez": {
+   "status": "current",
+   "now": null
+  },
+  "Rebecca Brill": {
+   "status": "moved",
+   "now": "Career break (Personal goal pursuit)"
+  }
+ },
+ "seedcamp.com": {
+  "Millan Suri": {
+   "status": "moved",
+   "now": "Episode 1 Ventures (Principal)"
+  },
+  "Carlos Espinal": {
+   "status": "current",
+   "now": null
+  },
+  "Ece Ozer": {
+   "status": "current",
+   "now": null
+  },
+  "Will Bennett": {
+   "status": "current",
+   "now": null
+  },
+  "Tom Wilson": {
+   "status": "current",
+   "now": null
+  },
+  "Sia Houchangnia": {
+   "status": "current",
+   "now": null
+  },
+  "Philipp Moehring": {
+   "status": "moved",
+   "now": "Tiny Supercomputer Investment Company (Partner)"
+  },
+  "Amber Patel": {
+   "status": "unknown",
+   "now": null
+  },
+  "Olivia Horton": {
+   "status": "unknown",
+   "now": null
+  },
+  "Katherine Bassett": {
+   "status": "unknown",
+   "now": null
+  },
+  "Kirsten Campbell": {
+   "status": "current",
+   "now": null
+  },
+  "Kate McGinn": {
+   "status": "moved",
+   "now": "[tbd] (talent & investing)"
+  }
+ },
+ "s16vc.com": {
+  "Dina Gainullina": {
+   "status": "moved",
+   "now": "Daya Ventures (Limited Partner)"
+  }
+ },
+ "samos.vc": {
+  "Patrick Finnegan": {
+   "status": "moved",
+   "now": "Charlie Health (Director of Growth Strategy, Partnerships)"
+  },
+  "Shan Drummond": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "sap.com": {
+  "Michael Still": {
+   "status": "current",
+   "now": null
+  },
+  "Samar Malik": {
+   "status": "moved",
+   "now": "Stripe (EMEA VC Startup Partner)"
+  },
+  "Henna Mehta": {
+   "status": "current",
+   "now": null
+  },
+  "Lisa Haffey": {
+   "status": "current",
+   "now": null
+  },
+  "Kevin Meier": {
+   "status": "current",
+   "now": null
+  },
+  "Julian Klose": {
+   "status": "unknown",
+   "now": null
+  },
+  "Deepa Gautam-Nigge": {
+   "status": "current",
+   "now": null
+  },
+  "Lisa Martin": {
+   "status": "current",
+   "now": null
+  },
+  "Christine Schöneweis": {
+   "status": "moved",
+   "now": "Phoenix Contact (Mitglied des Beirats)"
+  },
+  "Andreas Weiskam": {
+   "status": "current",
+   "now": null
+  },
+  "Anil Parekh": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "sav.vc": {
+  "Wally Wang": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "shorooq.com": {
+  "Derya Varol": {
+   "status": "unknown",
+   "now": null
+  },
+  "Bilal Baloch": {
+   "status": "current",
+   "now": null
+  },
+  "Shane Shin": {
+   "status": "current",
+   "now": null
+  },
+  "Sali Elagab": {
+   "status": "moved",
+   "now": "First Abu Dhabi Bank (FAB) (AVP, Business Intelligence | AI Innovation Hub)"
+  },
+  "Selim Tira": {
+   "status": "current",
+   "now": null
+  },
+  "Mohammed Altwaijiri": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "sennder.com": {
+  "David Nothacker": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "serena.vc": {
+  "Paul Moriou": {
+   "status": "current",
+   "now": null
+  },
+  "Marie Brayer": {
+   "status": "moved",
+   "now": "Stealth Company (Marie Brayer) (Co-Founder)"
+  },
+  "Olivier Martret": {
+   "status": "current",
+   "now": null
+  },
+  "Bertrand Diard": {
+   "status": "current",
+   "now": null
+  },
+  "Margaux Gregoir": {
+   "status": "current",
+   "now": null
+  },
+  "Xavier Lorphelin": {
+   "status": "current",
+   "now": null
+  },
+  "Marc Fournier": {
+   "status": "current",
+   "now": null
+  },
+  "Heba Hitti": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "shilling.vc": {
+  "Tomás Güida": {
+   "status": "current",
+   "now": null
+  },
+  "Ricardo Jacinto": {
+   "status": "current",
+   "now": null
+  },
+  "Marcia Fernandes": {
+   "status": "current",
+   "now": null
+  },
+  "Maria Frère": {
+   "status": "moved",
+   "now": "Semapa Next (Marketing and Community Manager)"
+  }
+ },
+ "skyfall.vc": {
+  "Cecilie Skjong": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "southparkcommons.com": {
+  "Susannah Laster": {
+   "status": "current",
+   "now": null
+  },
+  "Dylan Itzikowitz": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "sparkcapital.com": {
+  "Alex Finkelstein": {
+   "status": "current",
+   "now": null
+  },
+  "Connor Mullaney": {
+   "status": "moved",
+   "now": "Lingotto (Partner, Innovation Strategy)"
+  },
+  "Heather Mahoney": {
+   "status": "current",
+   "now": null
+  },
+  "Hanseul Nam": {
+   "status": "moved",
+   "now": "Coatue Management (Partner)"
+  },
+  "Santo Politi": {
+   "status": "current",
+   "now": null
+  },
+  "Nabeel Hyatt": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "stripe.com": {
+  "Sam McAllister": {
+   "status": "moved",
+   "now": "Anthropic (Member of Staff)"
+  },
+  "Ryan Libster": {
+   "status": "moved",
+   "now": "Anthropic (Head of Sales, Claude for Work)"
+  },
+  "Sagar Gupta": {
+   "status": "moved",
+   "now": "Anthropic (Startup Partnerships)"
+  },
+  "Samar Malik": {
+   "status": "current",
+   "now": null
+  },
+  "Kamael Sugrim": {
+   "status": "current",
+   "now": null
+  },
+  "Helena Horsburgh": {
+   "status": "moved",
+   "now": "Personio (Head of Business Operations - CEO Office)"
+  },
+  "Jérôme Tomasini": {
+   "status": "current",
+   "now": null
+  },
+  "Amin Manzouri": {
+   "status": "current",
+   "now": null
+  },
+  "Joost van der Mersch": {
+   "status": "current",
+   "now": null
+  },
+  "Sandra Vargas": {
+   "status": "current",
+   "now": null
+  },
+  "Temitayo Odukoya": {
+   "status": "current",
+   "now": null
+  },
+  "Tammy Winter": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "startupbootcamp.org": {
+  "Startupbootcamp Amsterdam": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "stepstonegroup.com": {
+  "Vc Shared": {
+   "status": "unknown",
+   "now": null
+  },
+  "Huff Millard": {
+   "status": "current",
+   "now": null
+  },
+  "Thomas Dupont": {
+   "status": "current",
+   "now": null
+  },
+  "Leyla Holterud": {
+   "status": "moved",
+   "now": "Vintage Investment Partners (Partner)"
+  },
+  "Pippa Crabtree": {
+   "status": "current",
+   "now": null
+  },
+  "Umberto Prencipe": {
+   "status": "moved",
+   "now": "Autonomous"
+  },
+  "Lyn Blithe": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "spintopventures.com": {
+  "Moa Kronborg": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "spore.bio": {
+  "Amine Raji": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "stationf.co": {
+  "Camille Aubery": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "targetglobal.vc": {
+  "Tobias Winczer": {
+   "status": "moved",
+   "now": "Balderton (Investor)"
+  },
+  "Martina Facchin": {
+   "status": "current",
+   "now": null
+  },
+  "James Dening": {
+   "status": "current",
+   "now": null
+  },
+  "Seda Ambartsumian": {
+   "status": "moved",
+   "now": "Heritage Holdings (Principal, Alternative Investments)"
+  },
+  "Yaron Valler": {
+   "status": "current",
+   "now": null
+  },
+  "Ugo Carminati": {
+   "status": "moved",
+   "now": "Anthropic (GTM)"
+  },
+  "Alexandra Dombrowski": {
+   "status": "current",
+   "now": null
+  },
+  "Varun Mohapatra": {
+   "status": "moved",
+   "now": "Tracebit (Product)"
+  },
+  "Rytis Vitkauskas": {
+   "status": "moved",
+   "now": "DIG Ventures (General Partner)"
+  },
+  "Joshua Stein": {
+   "status": "current",
+   "now": null
+  },
+  "Dana Bublil": {
+   "status": "current",
+   "now": null
+  },
+  "Anett Posza": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "svb.com": {
+  "Phoebe Walsh": {
+   "status": "current",
+   "now": null
+  },
+  "David Cohen": {
+   "status": "unknown",
+   "now": null
+  },
+  "Mark Gallagher": {
+   "status": "current",
+   "now": null
+  },
+  "Ryan Phayer": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Managing Director, Strategic Fund Solutions)"
+  },
+  "Ben Tickler": {
+   "status": "moved",
+   "now": "J.P. Morgan (UK Innovation Economy)"
+  },
+  "James Downing": {
+   "status": "moved",
+   "now": "Hercules Capital (Managing Director, Europe)"
+  },
+  "Erin Platts": {
+   "status": "moved",
+   "now": "Octopus Ventures (Chief Executive Officer)"
+  },
+  "Ella Botham": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Director, Credit Solutions Nordics)"
+  },
+  "Linnea Engstrand": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Senior Associate - FinTech)"
+  },
+  "Tom Butterworth": {
+   "status": "moved",
+   "now": "HSBC Innovation Banking (Managing Director, Investor Coverage)"
+  },
+  "John Robinson": {
+   "status": "moved",
+   "now": "Maven Capital Partners (Partner)"
+  },
+  "Liam Jocson": {
+   "status": "moved",
+   "now": "J.P. Morgan (Associate)"
+  }
+ },
+ "tapestry.vc": {
+  "Audrey Miller": {
+   "status": "current",
+   "now": null
+  },
+  "Alex Mackenzie": {
+   "status": "moved",
+   "now": "General Catalyst (Partner)"
+  },
+  "Patrick Murphy": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "tiny.vc": {
+  "Philipp Moehring": {
+   "status": "current",
+   "now": null
+  },
+  "Andy Chung": {
+   "status": "current",
+   "now": null
+  },
+  "Tiny Ops": {
+   "status": "unknown",
+   "now": null
+  },
+  "Harriet Dedman": {
+   "status": "current",
+   "now": null
+  },
+  "Ophelia Cai": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "team8.vc": {
+  "Adi Blecher": {
+   "status": "unknown",
+   "now": null
+  },
+  "Yael Livne": {
+   "status": "moved",
+   "now": "PwC (Head of Client Strategy, Assurance)"
+  },
+  "Ori Barzilay": {
+   "status": "current",
+   "now": null
+  },
+  "Liran Grinberg": {
+   "status": "current",
+   "now": null
+  },
+  "Sarit Firon": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "techstars.com": {
+  "Guy Israeli": {
+   "status": "current",
+   "now": null
+  },
+  "Georgie Smithwick": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "tesi.fi": {
+  "Juha Lehtola": {
+   "status": "current",
+   "now": null
+  },
+  "Tony Nysten": {
+   "status": "moved",
+   "now": "OpenOcean (Partner)"
+  },
+  "Annukka Käsnänen": {
+   "status": "current",
+   "now": null
+  },
+  "Tomi Salo": {
+   "status": "current",
+   "now": null
+  },
+  "Klaus Majanen": {
+   "status": "current",
+   "now": null
+  },
+  "Pia Lemmetty": {
+   "status": "current",
+   "now": null
+  },
+  "Keith Bonnici": {
+   "status": "current",
+   "now": null
+  },
+  "Jan-Patrick Haikkola": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "thetwentyminutevc.com": {
+  "Harry Stebbings": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "thrivecap.com": {
+  "Anna Vershebeniuk": {
+   "status": "moved",
+   "now": "Lazard Elaia Capital (General Partner)"
+  }
+ },
+ "tigerglobal.com": {
+  "Lee Fixel": {
+   "status": "moved",
+   "now": "Addition (Investor)"
+  }
+ },
+ "valar.com": {
+  "Elina Rayberg": {
+   "status": "current",
+   "now": null
+  },
+  "James Fitzgerald": {
+   "status": "current",
+   "now": null
+  },
+  "Andrew McCormack": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "translinkcapital.com": {
+  "Kelvin Mu": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "triplepoint.co.uk": {
+  "Jamie Tomalin": {
+   "status": "current",
+   "now": null
+  },
+  "Seb Wallace": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "ubonpartners.com": {
+  "Fredrik Halvorsen": {
+   "status": "current",
+   "now": null
+  },
+  "Oj Winge": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "uipath.com": {
+  "Tasha Denham": {
+   "status": "moved",
+   "now": "Andreessen Horowitz (Executive Assistant)"
+  },
+  "Vijay Khanna": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "unitedventures.com": {
+  "Fabio Pirovano": {
+   "status": "current",
+   "now": null
+  },
+  "Martina Canarelli": {
+   "status": "current",
+   "now": null
+  },
+  "Paolo Gesess": {
+   "status": "current",
+   "now": null
+  },
+  "Massimiliano Magrini": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "verdane.com": {
+  "Maximilian Kempken": {
+   "status": "current",
+   "now": null
+  },
+  "Parham Benisi": {
+   "status": "moved",
+   "now": "Pophouse Entertainment (Partner)"
+  },
+  "Staffan Morndal": {
+   "status": "current",
+   "now": null
+  },
+  "Björn Beckman": {
+   "status": "current",
+   "now": null
+  },
+  "Paula Azcue": {
+   "status": "current",
+   "now": null
+  },
+  "Tymoteusz Staniszewski": {
+   "status": "moved",
+   "now": "LATO (YC S26) (Co-Founder)"
+  },
+  "Ask Nørgaard": {
+   "status": "current",
+   "now": null
+  },
+  "Cecilia Nytorp": {
+   "status": "current",
+   "now": null
+  },
+  "Jenny Petersens": {
+   "status": "current",
+   "now": null
+  },
+  "Franziska Heuer": {
+   "status": "current",
+   "now": null
+  },
+  "Sebastian Wintgens": {
+   "status": "current",
+   "now": null
+  },
+  "Emanuel Johnsson": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "vireo.vc": {
+  "Jason Rees": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "vorwerkventures.com": {
+  "Peter Schmetz": {
+   "status": "current",
+   "now": null
+  },
+  "Dirk Meurer": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "wallapop.com": {
+  "Jorge Lluch": {
+   "status": "moved",
+   "now": "Abacum (Co-Founder & COO)"
+  }
+ },
+ "xange.vc": {
+  "Garnier Louison": {
+   "status": "current",
+   "now": null
+  },
+  "Baltrusch Caroline": {
+   "status": "current",
+   "now": null
+  },
+  "Buresboenstroem Valérie": {
+   "status": "current",
+   "now": null
+  },
+  "Bertrand Cyril": {
+   "status": "current",
+   "now": null
+  },
+  "Paquet Pauline": {
+   "status": "current",
+   "now": null
+  },
+  "Bemert Jennifer": {
+   "status": "current",
+   "now": null
+  },
+  "Gazay Clémentine": {
+   "status": "current",
+   "now": null
+  },
+  "Du Alexis": {
+   "status": "current",
+   "now": null
+  }
+ },
+ "yttrium.com": {
+  "Elina Neu": {
+   "status": "current",
+   "now": null
+  },
+  "Sebastian Weschenbach": {
+   "status": "current",
+   "now": null
+  },
+  "Vanessa Pinter": {
+   "status": "current",
+   "now": null
+  },
+  "Tim Kindt": {
+   "status": "current",
+   "now": null
+  },
+  "Dominik Hertzler": {
+   "status": "current",
+   "now": null
+  },
+  "Moritz Sträb": {
+   "status": "current",
+   "now": null
+  },
+  "Concha Zimmer": {
+   "status": "moved",
+   "now": "Citi (Relationship Manager Digital & Technology Companies)"
+  },
+  "Judith Comino": {
+   "status": "unknown",
+   "now": null
+  },
+  "Veronika Belik": {
+   "status": "unknown",
+   "now": null
+  },
+  "Andrea Seelig": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "zf.com": {
+  "Markus Heizmann": {
+   "status": "unknown",
+   "now": null
+  }
+ },
+ "zkb.ch": {
+  "Schier Robert": {
+   "status": "moved",
+   "now": "Bridging Minds Sàrl (Managing Director and Owner)"
+  },
+  "Granath Nils": {
+   "status": "current",
+   "now": null
+  }
+ }
 }
