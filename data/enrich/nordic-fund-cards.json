@@ -1,0 +1,1142 @@
+{
+ "eqtgroup.com": {
+  "urn": "urn:harmonic:company:643592",
+  "desc": "The company specializes in private capital investments, focusing on sectors such as private equity, infrastructure, and real estate, leveraging advanced technologies like agentic AI to optimize operations and enhance performance.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Conni Jonsson",
+    "t": "Honorary Chairperson and Founder of EQT AB"
+   },
+   {
+    "n": "Alexandra Edlund",
+    "t": "Chief People Officer"
+   },
+   {
+    "n": "Thomas Jenson",
+    "t": "Vice President"
+   },
+   {
+    "n": "Erwin Thompson",
+    "t": "CEO, EQT Infrastructure Company (“EQIC”)"
+   },
+   {
+    "n": "Kim Henriksson",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Polly Barnes",
+    "t": "Operating Partner EQT"
+   },
+   {
+    "n": "Chloe Chen",
+    "t": "Vice President"
+   },
+   {
+    "n": "Danny Chung",
+    "t": "Vice President"
+   },
+   {
+    "n": "Amahdi Shabaka",
+    "t": "Vice President"
+   },
+   {
+    "n": "Judit T.",
+    "t": "HR Specialist VP"
+   }
+  ],
+  "headcount": 1794
+ },
+ "eqtventures.com": {
+  "urn": "urn:harmonic:company:673870",
+  "desc": "EQT Ventures focuses on providing early-stage investment and operational support to founders of innovative companies, leveraging a global platform to facilitate growth.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Lars Jörnow",
+    "t": "Partner"
+   },
+   {
+    "n": "Ted Persson",
+    "t": "Partner"
+   },
+   {
+    "n": "Rania Belkahia",
+    "t": "Partner"
+   },
+   {
+    "n": "Sofie Grant",
+    "t": "Operating Partner & Head of Marketing"
+   },
+   {
+    "n": "Chantal Ambord",
+    "t": "Operating Partner and Head of Platform"
+   },
+   {
+    "n": "Kaushik Subramanian",
+    "t": "Partner"
+   },
+   {
+    "n": "Gustav Von Sydow",
+    "t": "Partner"
+   },
+   {
+    "n": "William F. C. Evensen",
+    "t": "Vice President"
+   },
+   {
+    "n": "Shivram Ayyagari",
+    "t": "Founder"
+   },
+   {
+    "n": "Hjalmar Winbladh",
+    "t": "Chairperson"
+   }
+  ],
+  "headcount": 56
+ },
+ "kinnevik.com": {
+  "urn": "urn:harmonic:company:4150525",
+  "desc": "Kinnevik is a leading growth investor on a mission to redefine industries and create remarkable growth companies.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Anna Stenberg",
+    "t": "Chief Platform Officer"
+   },
+   {
+    "n": "Samuel Sjöström",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Charlie Malmquist",
+    "t": "CFO Trainee"
+   },
+   {
+    "n": "Matthew Bryant",
+    "t": "CIO"
+   },
+   {
+    "n": "Anders Kronborg",
+    "t": "Chairman"
+   },
+   {
+    "n": "Mathew Joseph",
+    "t": "Consultant"
+   },
+   {
+    "n": "Matthew Chelap",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Tom Nyman",
+    "t": "Investor"
+   },
+   {
+    "n": "Johanna Unghanse",
+    "t": "Senior konsult"
+   },
+   {
+    "n": "Mehran Farshid",
+    "t": "Co-founder and CEO | CFO"
+   }
+  ],
+  "headcount": 36
+ },
+ "norrsken.org": {
+  "urn": "urn:harmonic:company:700289",
+  "desc": "Norrsken operates a network of hubs designed to support entrepreneurs focused on creating positive global impact through innovative business solutions.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Niklas Adalberth",
+    "t": "Founder"
+   },
+   {
+    "n": "Sara Kappelmark",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Funda Sezgi",
+    "t": "Board Member"
+   },
+   {
+    "n": "Daniel Goldberg",
+    "t": "CCO & deputy CEO"
+   },
+   {
+    "n": "Pacific Tuyishime, Jd, Cfa",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Maria Björholt",
+    "t": "Chief Strategic Growth & Sustainability Officer"
+   },
+   {
+    "n": "Jamie Corley",
+    "t": "Head of Brands & Global Markets"
+   },
+   {
+    "n": "Max Larsson Von Reybekiel",
+    "t": "CMO / Founding team"
+   },
+   {
+    "n": "Erik Engellau-Nilsson",
+    "t": "Managing Partner"
+   },
+   {
+    "n": "Thom Feeney",
+    "t": "Site Director & Operations Lead North"
+   }
+  ],
+  "headcount": 109
+ },
+ "norrskenevolve.vc": {
+  "urn": "urn:harmonic:company:63734588",
+  "desc": "Norrsken Evolve provides pre-seed funding and support for early-stage founders focused on innovative solutions across various sectors, including energy generation, manufacturing, logistics, construction, food production, healthcare, and information security.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Rapelang Rabana",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Inez Atmer",
+    "t": "VP of Platform & Operations"
+   }
+  ],
+  "headcount": 11
+ },
+ "norrsken.vc": {
+  "urn": "urn:harmonic:company:62857398",
+  "desc": "Norrsken VC focuses on early-stage investments in technology aimed at addressing significant global challenges across sectors such as energy, industry, and healthcare.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Agate S. Freimane",
+    "t": "General Partner, co-founder"
+   },
+   {
+    "n": "Denice Carbell",
+    "t": "CFO"
+   },
+   {
+    "n": "Agnes Bredinger (Formerly Svensson)",
+    "t": "Chief Impact Officer"
+   },
+   {
+    "n": "Agnes Bredinger",
+    "t": "Chief Impact Officer"
+   },
+   {
+    "n": "Agnes Svensson",
+    "t": "Chief Impact Officer"
+   },
+   {
+    "n": "Per Frykebrant",
+    "t": "Chief Communications Officer"
+   },
+   {
+    "n": "Luke Richardson",
+    "t": "VP Marketing"
+   }
+  ],
+  "headcount": 21
+ },
+ "oxx.vc": {
+  "urn": "urn:harmonic:company:1706915",
+  "desc": "Oxx specializes in providing support to European B2B software companies at the scale-up stage, focusing on developing a \"Go-To-Market Fit\" strategy that emphasizes creating a sustainable growth engine for SaaS businesses.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Mikael Johnsson",
+    "t": "Co-Founder and General Partner"
+   }
+  ],
+  "headcount": 16
+ },
+ "zobito.com": {
+  "urn": "urn:harmonic:company:1504613",
+  "desc": "Zobito specializes in identifying and investing in high-potential European enterprise software companies, employing a unique investment model that integrates co-investment strategies with hands-on guidance.",
+  "city": "Limhamn",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Markus Roithmeier",
+    "t": "Partner/Co-Founder"
+   },
+   {
+    "n": "Jens Schroder",
+    "t": "Partner and Co-Founder"
+   }
+  ],
+  "headcount": 9
+ },
+ "skyfall.vc": {
+  "urn": "urn:harmonic:company:1541191",
+  "desc": "Skyfall Ventures focuses on investing in companies that leverage advanced technologies, including artificial intelligence, to create innovative solutions across various sectors.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Espen Malmo",
+    "t": "Managing Partner & Co-Founder"
+   },
+   {
+    "n": "Lasse Johansen",
+    "t": "Founder"
+   },
+   {
+    "n": "Jon Kåre Stene",
+    "t": "Co-founder & partner"
+   }
+  ],
+  "headcount": 11
+ },
+ "spintopventures.com": {
+  "urn": "urn:harmonic:company:1502692",
+  "desc": "Spintop Ventures is an investment firm founded in 2009 by accomplished entrepreneurs and executives from the technology sector.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Erik Wenngren",
+    "t": "Partner and Co-Founder"
+   },
+   {
+    "n": "Mats Johansson",
+    "t": "Investor"
+   }
+  ],
+  "headcount": 19
+ },
+ "standoutcapital.com": {
+  "urn": "urn:harmonic:company:1552539",
+  "desc": "The company focuses on investing in B2B SaaS businesses in the Nordic region, emphasizing the digital transformation of business solutions and processes from manual to automated systems.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Erik Wästlund",
+    "t": "Co-founder Standout Capital"
+   },
+   {
+    "n": "Klas Hillström",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Anja Wik",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Fredrik Arnander",
+    "t": "Investor"
+   }
+  ],
+  "headcount": 11
+ },
+ "sting.co": {
+  "urn": "urn:harmonic:company:4432524",
+  "desc": "Sting provides strategic support and resources to early-stage startups, focusing on sectors such as ClimateTech, HealthTech, and DeepTech.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Pär Hedberg",
+    "t": "Founder of Sting, senior advisor and Business Coach"
+   },
+   {
+    "n": "Emanuel Andersson",
+    "t": "Chief Executive Officer at Sting Holding"
+   },
+   {
+    "n": "Charlotte Ekelund Limé",
+    "t": "Account Executive Nordics Digital Natives Pursuit, EMEA"
+   }
+  ],
+  "headcount": 113
+ },
+ "summaequity.com": {
+  "urn": "urn:harmonic:company:1526028",
+  "desc": "Founded in 2016, Summa Equity is an investment firm focusing on the thematic areas of Circularity, Energy Transition, Sustainable Food, and Tech-Enabled Resilience.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Reynir Indahl",
+    "t": "Founder and Managing Partner"
+   },
+   {
+    "n": "Christian Melby",
+    "t": "Partner and Chief Investment Officer"
+   },
+   {
+    "n": "Mohamad Ali Zahed",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Hannah Jacobsen",
+    "t": "Partner and COO"
+   },
+   {
+    "n": "Hannah Gunvor Jacobsen",
+    "t": "Partner and COO"
+   },
+   {
+    "n": "Christian Fuhrhop",
+    "t": "CFO Via Summa"
+   },
+   {
+    "n": "Terje Marthinussen",
+    "t": "CTO Via Summa"
+   },
+   {
+    "n": "Katarina Kahlmann",
+    "t": "CEO, Summa Foundation"
+   },
+   {
+    "n": "Seth Goldstein",
+    "t": "Strategic Advisor"
+   },
+   {
+    "n": "Karin Cakste",
+    "t": "Senior Advisor"
+   }
+  ],
+  "headcount": 88
+ },
+ "tesi.fi": {
+  "urn": "urn:harmonic:company:1497051",
+  "desc": "The company specializes in private equity and venture capital investments, with a focus on sustainable infrastructure and healthcare technologies.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Pia Santavirta",
+    "t": "CEO"
+   },
+   {
+    "n": "Henri Hakamo",
+    "t": "Chief Strategy & Research Officer"
+   },
+   {
+    "n": "Marko Häikiö",
+    "t": "CFO"
+   },
+   {
+    "n": "Jan Sasse",
+    "t": "Board Member"
+   },
+   {
+    "n": "Matts Grönholm",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 105
+ },
+ "vendep.com": {
+  "urn": "urn:harmonic:company:640574",
+  "desc": "Vendep Capital focuses on investing in early-stage AI-native B2B software companies in the Nordics and Baltics, providing capital and expertise to support their growth.",
+  "city": "Espoo",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Tanja Alanen",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 9
+ },
+ "verdane.com": {
+  "urn": "urn:harmonic:company:679153",
+  "desc": "Verdane specializes in growth investments in technology-enabled and sustainable businesses, focusing on sectors that drive digitalization and decarbonization within the European economy.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Birger Nergaard",
+    "t": "Founder and Director"
+   },
+   {
+    "n": "Bjarne Kveim Lie",
+    "t": "Founder and Managing Partner"
+   },
+   {
+    "n": "Lars Bjørn Thoresen",
+    "t": "Co-Founder, Partner, Managing Partner & more"
+   },
+   {
+    "n": "Giles Whiting",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Christopher Parmo",
+    "t": "Partner and COO"
+   },
+   {
+    "n": "Ellen Katharina Köhler",
+    "t": "Chief Financial Officer at Verdane Elevate"
+   },
+   {
+    "n": "Christian Melgaard",
+    "t": "CFO"
+   },
+   {
+    "n": "Ellen Marie Nyhus",
+    "t": "CEO | Verdane Elevate"
+   },
+   {
+    "n": "Morten Reinhardtsen",
+    "t": "Chief Information Officer"
+   },
+   {
+    "n": "Bjarne Abrahamsen",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 224
+ },
+ "byfounders.vc": {
+  "urn": "urn:harmonic:company:716306",
+  "desc": "The company operates as a community-powered early-stage venture capital firm, focusing on investing in ambitious founders from the New Nordics.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Bjarne Christiansen",
+    "t": "Founder in byFounders Collective"
+   },
+   {
+    "n": "Eric Lagier",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Jacob Busck Andersen",
+    "t": "VP Finance & Fund Operations"
+   }
+  ],
+  "headcount": 60
+ },
+ "nfrontventures.com": {
+  "urn": "urn:harmonic:company:1745047",
+  "desc": "nFront Ventures specializes in providing operational support and capital to software companies, focusing on scalable and capital-efficient solutions in both B2B and B2C markets.",
+  "city": "Oslo",
+  "country": "Norway",
+  "headcount": 4
+ },
+ "heartcore.com": {
+  "urn": "urn:harmonic:company:624015",
+  "desc": "Heartcore Capital is one of Europe’s longest-standing, pure early-stage investors.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Jimmy Fussing Nielsen",
+    "t": "Partner"
+   },
+   {
+    "n": "Signe Marie Sveinbjørnsson",
+    "t": "Partner & COO"
+   },
+   {
+    "n": "Jeppe Høier",
+    "t": "Co-Founder EUVC Corporate"
+   }
+  ],
+  "headcount": 32
+ },
+ "helenventures.fi": {
+  "urn": "urn:harmonic:company:1575778",
+  "desc": "Helen Ventures invests in startups that create innovative technologies in the energy sector, with a focus on e-mobility, circular economy, and digital solutions that support the energy transition.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Dr. Terhi (Tj) Vapola",
+    "t": "Investor & Board Observer"
+   },
+   {
+    "n": "Mikael Myllymäki",
+    "t": "Board Observer"
+   }
+  ],
+  "headcount": 4
+ },
+ "icebreaker.vc": {
+  "urn": "urn:harmonic:company:1515630",
+  "desc": "The company focuses on providing funding to idea-stage teams in Finland, Estonia, and Sweden, with initial investments ranging from €300k to €1.5M to support the development of globally scalable software solutions.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Teddie Wardi",
+    "t": "Advisor, co-founder"
+   },
+   {
+    "n": "Aleksi Partanen",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Aleksi Partanen",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Riku Seppälä",
+    "t": "Co-founder and General Partner"
+   }
+  ],
+  "headcount": 9
+ },
+ "idekapital.com": {
+  "urn": "urn:harmonic:company:1576337",
+  "desc": "Idékapital provides growth equity and strategic advisory services tailored for B2B software and technology companies with scalable business models.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Espen Agdestein",
+    "t": "Co-Founder & Partner"
+   }
+  ],
+  "headcount": 10
+ },
+ "illusian.org": {
+  "urn": "urn:harmonic:company:4588164",
+  "desc": "Illusian is the family office of Ilkka Paananen, entrepreneur, investor, and co-founder & CEO of Supercell, the global leader in mobile games.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Sirkku Soini",
+    "t": "Interim CEO and co-founder"
+   }
+  ],
+  "headcount": 32
+ },
+ "industrifonden.com": {
+  "urn": "urn:harmonic:company:1498533",
+  "desc": "Sweden’s Venture Capital Fund.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Jonas Jendi",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Caroline Murray",
+    "t": "CFO"
+   },
+   {
+    "n": "Peter Wolpert 🇺🇦",
+    "t": "CEO"
+   },
+   {
+    "n": "Peter Wolpert 🇺🇦",
+    "t": "CEO"
+   },
+   {
+    "n": "Tomas Nygren",
+    "t": "Board Member"
+   },
+   {
+    "n": "David Sonnek",
+    "t": "Investment Director"
+   },
+   {
+    "n": "Björn Ogenstam",
+    "t": "Managing Director"
+   },
+   {
+    "n": "Lennart Lübeck",
+    "t": null
+   },
+   {
+    "n": "Sara Mattsson",
+    "t": null
+   },
+   {
+    "n": "Mårten Skogö",
+    "t": "Board Member"
+   }
+  ],
+  "headcount": 51
+ },
+ "innovestorgroup.com": {
+  "urn": "urn:harmonic:company:3090429",
+  "desc": "Innovestor is an active Finnish investment manager that focuses on venture capital, real estate, and energy storage, providing corporate venturing services to facilitate startup collaboration.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Tommi Äijälä",
+    "t": "Chair"
+   },
+   {
+    "n": "Antti Parviainen",
+    "t": "Chairman of the Board"
+   },
+   {
+    "n": "Janne Roiha",
+    "t": "Senior lecturer, Team coach"
+   }
+  ],
+  "headcount": 29
+ },
+ "inventure.vc": {
+  "urn": "urn:harmonic:company:709515",
+  "desc": "Inventure is the early-stage VC that knows how to get Nordic and Baltic founders to the next level.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Timo Tirkkonen",
+    "t": "Partner, Co-founder"
+   },
+   {
+    "n": "Sameer Chavan",
+    "t": "Associate Vice President"
+   },
+   {
+    "n": "Cristina Koehn",
+    "t": "COO"
+   }
+  ],
+  "headcount": 31
+ },
+ "kompas.vc": {
+  "urn": "urn:harmonic:company:3640161",
+  "desc": "The company focuses on investing in enabling technologies for physical industries, including manufacturing, energy, logistics, and construction, with an emphasis on sustainability and operational efficiency.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "headcount": 19
+ },
+ "lifelineventures.com": {
+  "urn": "urn:harmonic:company:760662",
+  "desc": "Lifeline Ventures is a Helsinki-based sector-agnostic early-stage VC firm.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Timo Ahopelto",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Elina Holkko",
+    "t": "Partner and CFO"
+   }
+  ],
+  "headcount": 14
+ },
+ "alliance.vc": {
+  "urn": "urn:harmonic:company:766862",
+  "desc": "Alliance Venture Capital focuses on investing in early-stage tech companies that address real-world problems, emphasizing scalable solutions that enhance environmental and social sustainability.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Jan-Erik Hareid",
+    "t": "Founder and Chairman"
+   }
+  ],
+  "headcount": 14
+ },
+ "almiinvest.se": {
+  "urn": "urn:harmonic:company:60099356",
+  "desc": "Almi Invest provides venture capital funding to startups across Sweden through multiple regional and national funds, focusing on various sectors including Green Tech.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Michael Clausén",
+    "t": "Kreditcontroller"
+   },
+   {
+    "n": "Jens Bäckbom",
+    "t": "Angel Investor"
+   },
+   {
+    "n": "Marcus Boijemyr",
+    "t": "Chief Product Officer"
+   },
+   {
+    "n": "Stefan Söderling",
+    "t": "General Partner"
+   },
+   {
+    "n": "Natasa Pahlm",
+    "t": "Board Member"
+   },
+   {
+    "n": "Åsa Otterlund",
+    "t": "Accredited Teacher Board Governance"
+   },
+   {
+    "n": "Lars Ekström",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Björn Persson",
+    "t": "Chairman"
+   },
+   {
+    "n": "Jenny Engerfelt",
+    "t": "Board Member"
+   }
+  ],
+  "headcount": 77
+ },
+ "arkwrightx.vc": {
+  "urn": "urn:harmonic:company:3093963",
+  "desc": "Arkwright X is an early stage VC company focused on B2B tech startups.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Esben A. Poulsen",
+    "t": "Angel Investor"
+   }
+  ],
+  "headcount": 7
+ },
+ "blackwood.vc": {
+  "urn": "urn:harmonic:company:10969791",
+  "desc": "BlackWood provides venture capital funding primarily for early-stage companies in sectors such as Fintech, Cleantech, and Web3, with initial investments of up to €1M.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Bastian R. Larsen",
+    "t": "Founder & CEO"
+   },
+   {
+    "n": "Oliver Preisler",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 8
+ },
+ "butterfly.vc": {
+  "urn": "urn:harmonic:company:60102202",
+  "desc": "Butterfly Ventures is one of the leading seed-stage focused VCs in the Nordics.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Juho Risku",
+    "t": "Co-founder, Partner"
+   }
+  ],
+  "headcount": 8
+ },
+ "augustinusfabrikker.dk": {
+  "urn": "urn:harmonic:company:3221799",
+  "desc": "Chr.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Steffen Kaj Pedersen",
+    "t": "CFO"
+   }
+  ],
+  "headcount": 22
+ },
+ "creandum.com": {
+  "urn": "urn:harmonic:company:639148",
+  "desc": "Creandum is a leading early-stage venture capital firm backing the world's most ambitious founders building generational companies, including Spotify, Lovable, Klarna, Trade Republic, Depop, Bolt, and many more.",
+  "city": "Norrmalm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Peter Specht",
+    "t": "General Partner"
+   },
+   {
+    "n": "Marvin Corrál",
+    "t": "Management Executive"
+   },
+   {
+    "n": "Richard Keuntje",
+    "t": "Vice President"
+   },
+   {
+    "n": "Beatrice Rellman Skantze",
+    "t": "General Counsel"
+   },
+   {
+    "n": "Peter Stilwell",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Sarah Otter",
+    "t": "Vice President"
+   },
+   {
+    "n": "Cameron Sellers",
+    "t": "Vice President"
+   },
+   {
+    "n": "Nelson Casata",
+    "t": "VP"
+   },
+   {
+    "n": "Filip Mark",
+    "t": "VP"
+   },
+   {
+    "n": "Clara L. Leise",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 62
+ },
+ "dreamcraft.vc": {
+  "urn": "urn:harmonic:company:1508952",
+  "desc": "Dreamcraft focuses on investing in proprietary audiences and communities that leverage human attention as a scarce resource, particularly in sectors like gaming, media, and sports.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Jesper Søgaard",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 11
+ },
+ "eifo.dk": {
+  "urn": "urn:harmonic:company:12462316",
+  "desc": "The company provides state-financed risk capital to Danish entrepreneurs and small to medium-sized enterprises, facilitating their growth and market entry, particularly in export sectors.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Peder Lundquist",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Peter Boeskov",
+    "t": "Member of the executive committee, Chief Commercial Officer (CCO), Large Corporates"
+   },
+   {
+    "n": "Erik Balck Sørensen",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Brian Østergaard",
+    "t": "Chief Credit Risk Officer"
+   },
+   {
+    "n": "Henriette Krogh Bjørneboe Fynsk",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Dorthe Lanng",
+    "t": null
+   },
+   {
+    "n": "Jacob Bruun",
+    "t": "Chairperson of the Board"
+   },
+   {
+    "n": "Christian Motzfeldt",
+    "t": "Member of the Board"
+   },
+   {
+    "n": "Søren Møller",
+    "t": "Head of Office, Kyiv"
+   },
+   {
+    "n": "Troels Torp",
+    "t": "Managing Director/Owner"
+   }
+  ],
+  "headcount": 498
+ },
+ "firstfellow.com": {
+  "urn": "urn:harmonic:company:1504842",
+  "desc": "Quanscient provides multi-physics simulation tools that utilize quantum hardware to improve the precision and efficiency of simulations.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Kim Groop",
+    "t": "Co-founder & Managing Partner"
+   },
+   {
+    "n": "Risto Siilasmaa",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 3
+ },
+ "luminarventures.com": {
+  "urn": "urn:harmonic:company:757993",
+  "desc": "Luminar Ventures provides seed-stage financing and operational support to early-stage technology companies in the Nordics, focusing on scalable digital solutions that aim to disrupt major industries.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Erwan Derlyn",
+    "t": "Operating Partner, Growth"
+   },
+   {
+    "n": "Irene Ardenstedt",
+    "t": "CFO"
+   },
+   {
+    "n": "Rikard Steiber",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Daniel Karsberg",
+    "t": "Board Member"
+   }
+  ],
+  "headcount": 15
+ },
+ "mandatumam.com": {
+  "urn": "urn:harmonic:company:9006329",
+  "desc": "Mandatum Asset Management specializes in credit and alternative investments, utilizing a benchmark-agnostic approach to portfolio management that emphasizes direct investments in local markets and partnerships with global managers.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Petri Väisänen",
+    "t": "Vice President, Private Wealth Management"
+   },
+   {
+    "n": "Lauri Vaittinen",
+    "t": "Board Member"
+   }
+  ],
+  "headcount": 141
+ },
+ "nordicninja.com": {
+  "urn": "urn:harmonic:company:1497311",
+  "desc": "The company focuses on investing in technologies aimed at reducing carbon emissions, employing AI-driven satellite data for climate risk assessment and precision fermentation methods to create animal-free alternatives.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Marek Kiisa",
+    "t": "Co-Founder and General Partner"
+   },
+   {
+    "n": "Tomosaku Sohara",
+    "t": "Co-Founder/General Partner"
+   },
+   {
+    "n": "Shinichi N.",
+    "t": "Co-Founder and Managing Partner"
+   }
+  ],
+  "headcount": 15
+ },
+ "openocean.vc": {
+  "urn": "urn:harmonic:company:735825",
+  "desc": "The company focuses on investing in early-stage European B2B software companies that are innovating in the data economy, particularly in areas such as AI-native software, automation, and foundational technology.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Patrik Backman",
+    "t": "General Partner, CEO and Co-founder"
+   },
+   {
+    "n": "Dan Shearer",
+    "t": "Cybersecurity visitor"
+   },
+   {
+    "n": "Niklas Rosenberg",
+    "t": "CEO at Kasnäsudden"
+   }
+  ],
+  "headcount": 21
+ },
+ "paleblue.vc": {
+  "urn": "urn:harmonic:company:29590910",
+  "desc": "Pale blue dot is a venture capital fund that invests in early-stage companies focused on developing technologies aimed at addressing climate change, including both software and hardware solutions.",
+  "city": "Malmo",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Heidi Lindvall",
+    "t": "General Partner"
+   },
+   {
+    "n": "Rickard Vernet",
+    "t": "Head of Legal"
+   }
+  ],
+  "headcount": 11
+ },
+ "seb.se": {
+  "urn": "urn:harmonic:company:2108239",
+  "desc": "SEB Venture Capital is a Fintech investor that helps entrepreneurs and innovators launch and grow profitable businesses.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 2
+ },
+ "sno.vc": {
+  "urn": "urn:harmonic:company:660409",
+  "desc": "Supporting the tech superstars of tomorrow.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Caroline Folkeson Jensen",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 6
+ },
+ "scalecapital.com": {
+  "urn": "urn:harmonic:company:659804",
+  "desc": "Scale Capital focuses on investing in critical technologies across various sectors, including defense, digital infrastructure, and energy, supporting companies from late-seed to Series B stages.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "headcount": 18
+ },
+ "seedcapital.dk": {
+  "urn": "urn:harmonic:company:656212",
+  "desc": "Seed Capital has established itself as the most successful seed stage investor in Denmark – respected by winning entrepreneurs and top international syndication partners.",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "team": [
+   {
+    "n": "Jakob Fuglede Nielsen",
+    "t": "CFO, Partner"
+   },
+   {
+    "n": "Ulla Brockenhuus-Schack",
+    "t": "Founder and GP"
+   },
+   {
+    "n": "Jakob Sand",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 30
+ },
+ "sisu.vc": {
+  "urn": "urn:harmonic:company:1499173",
+  "desc": "Sisu Game Ventures operates as an early-stage venture capital fund focused exclusively on the gaming industry, providing financial support and expertise to game developers, particularly in the Nordic region.",
+  "city": "Helsinki",
+  "country": "Finland",
+  "team": [
+   {
+    "n": "Moaffak Ahmed",
+    "t": "Co-founder and Chairman"
+   }
+  ],
+  "headcount": 13
+ }
+}
