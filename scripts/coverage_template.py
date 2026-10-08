@@ -724,7 +724,27 @@ body.mkmode{cursor:crosshair}
 .cmcrumb button[disabled]{color:var(--ink);cursor:default}
 .cmall{font-size:12px;color:var(--muted);margin-left:auto;display:flex;gap:5px;align-items:center}
 .cmflex{display:flex;gap:14px;align-items:stretch}
-.cmmapwrap{flex:1;min-width:0;position:relative;background:var(--surface);border:1px solid var(--hair);border-radius:14px;overflow:hidden}
+.cmmain{flex:1;min-width:0}
+.cmback{font-weight:700}
+.cmlegend{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin:0 0 10px;padding:7px 12px;
+  background:var(--surface);border:1px solid var(--hair);border-radius:11px;font-size:11.5px;color:var(--ink2)}
+.cmlgi{display:inline-flex;align-items:center;gap:6px}
+.cmdot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:2px}
+.cmcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.cmfcard{display:flex;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--hair);
+  border-radius:12px;padding:10px 12px;cursor:pointer}
+.cmfcard:hover{border-color:var(--accent)}
+.cmfg{flex:none}
+.cmfi{min-width:0}
+.cmfn{font-weight:700;font-size:14.5px}
+.cmfm{font-size:12px;color:var(--ink2);margin-top:1px}
+.cmdoor{color:var(--muted)}
+.cmdet{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px}
+.cmdeth{display:flex;gap:14px;align-items:center;margin-bottom:12px}
+.cmdetn{font-size:17px;font-weight:700}
+.cmdett{margin-top:4px}
+.cmego{max-width:520px}
+.cmmapwrap{position:relative;background:var(--surface);border:1px solid var(--hair);border-radius:14px;overflow:hidden}
 #cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px}
 .cmpanel{flex:none;width:360px;background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px;overflow-y:auto;max-height:calc(100vh - 230px)}
 .cmbg{fill:var(--hair2);stroke:var(--bg);stroke-width:.6}
@@ -758,8 +778,6 @@ body.mkmode{cursor:crosshair}
 .cmg .cmgl{width:36px;color:var(--muted)}
 .cmgbar{flex:1;height:8px;background:var(--hair2);border-radius:5px;overflow:hidden}
 .cmgbar i{display:block;height:100%;border-radius:5px}
-.cml3{position:absolute;inset:14px;background:rgba(252,251,246,.97);border:1px solid var(--hair);border-radius:12px;padding:14px 16px;overflow:auto;z-index:4}
-.cml3h{font-size:14px;margin-bottom:8px}
 .cml3t{font-size:11px;fill:var(--ink2)}
 .cml3t.me{font-weight:700;fill:var(--accent-ink)}
 body[data-page=map] #aprail{display:none}
@@ -1587,50 +1605,53 @@ function cmTeamBest(e){
   (e.people||[]).forEach(p=>Object.entries(p.r).forEach(([u,r])=>{ if(!best||r>best.r) best={u, n:p.n, r:Math.round(r)}; }));
   return best;
 }
-function cmRadius(e,me){
-  const u=cmU(e,me), base=e.r2||2;
-  if(MAP.basis!=='pipe') return base;
-  return Math.max(base*Math.sqrt(Math.max(u.ou,2)/Math.max(e.O,2)), (e.r2||2)*0.45);
-}
-function cmGlyph(e,me){
-  const u=cmU(e,me), r=cmRadius(e,me);
-  const rt=r*Math.sqrt(Math.min(e.CT,100)/100), rm=r*Math.sqrt(Math.min(u.cu,100)/100);
-  const col=CMTIER(u.cu), lens=MAP.lens;
-  const showT=lens==='both'||lens==='team'||lens==='warm', showM=lens==='both'||lens==='me'||lens==='warm';
-  const dim=lens==='warm'&&!(e.CT-u.cu>=30);
-  const ring=u.tag==='warm'?`stroke-dasharray="${(r/4).toFixed(1)} ${(r/6).toFixed(1)}"`:'';
-  const dbl=u.tag==='cold'?`<circle r="${(r*1.22).toFixed(2)}" class="cmring2"/>`:'';
-  const badge=u.st==='build'?'B':u.st==='maintain'?'M':u.st==='over'?'O':'';
+function cmOpp(e,me){ return MAP.basis==='pipe'?cmU(e,me).ou:e.O; }
+function cmGlyphSvg(e,me,px){
+  // fixed-pixel glyph for cards and the legend: no zoom scaling, no clutter
+  const u=cmU(e,me);
+  const maxO=Math.max(...cmEnts().map(x=>cmOpp(x,me)),1);
+  const R=(px/2-4)*(0.45+0.55*Math.sqrt(Math.max(cmOpp(e,me),1)/maxO));
+  const rt=R*Math.sqrt(Math.min(e.CT,100)/100), rm=R*Math.sqrt(Math.min(u.cu,100)/100);
+  const ring=u.tag==='warm'?`stroke-dasharray="${(R/4).toFixed(1)} ${(R/6).toFixed(1)}"`:'';
+  const dbl=u.tag==='cold'?`<circle cx="${px/2}" cy="${px/2}" r="${(R*1.16).toFixed(1)}" class="cmring2"/>`:'';
   const shape=e.kind==='angel'
-    ? `<rect x="${-r}" y="${-r}" width="${2*r}" height="${2*r}" transform="rotate(45)" class="cmouter" ${ring}/>`
-    : `<circle r="${r}" class="cmouter" ${ring}/>`;
-  return `<g class="cment${dim?' cmdim':''}" data-cment="${e.slug}" transform="translate(${e.x},${e.y})">
-    ${dbl}${shape}
-    ${showT?`<circle r="${rt.toFixed(2)}" class="cmteam"/>`:''}
-    ${showM&&rm>0.4?`<circle r="${rm.toFixed(2)}" fill="${col}" class="cmme"/>`:''}
-    ${badge?`<text class="cmbadge" x="${(r*0.95).toFixed(1)}" y="${(-r*0.8).toFixed(1)}">${badge}</text>`:''}
-  </g>`;
+    ? `<rect x="${px/2-R}" y="${px/2-R}" width="${2*R}" height="${2*R}" transform="rotate(45 ${px/2} ${px/2})" class="cmouter" ${ring}/>`
+    : `<circle cx="${px/2}" cy="${px/2}" r="${R}" class="cmouter" ${ring}/>`;
+  return `<svg width="${px}" height="${px}" viewBox="0 0 ${px} ${px}">${dbl}${shape}
+    <circle cx="${px/2}" cy="${px/2}" r="${rt.toFixed(1)}" class="cmteam"/>
+    ${rm>0.6?`<circle cx="${px/2}" cy="${px/2}" r="${rm.toFixed(1)}" fill="${CMTIER(u.cu)}" class="cmme"/>`:''}</svg>`;
+}
+function cmLegend(me){
+  return `<div class="cmlegend">
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/></svg>size = how much it matters${MAP.basis==='pipe'?' to your pipeline':' to Highland'}</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/></svg>pale disc = team coverage</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" fill="#2e7d4f"/></svg>solid centre = ${me?'your':'my'} coverage</span>
+    <span class="cmlgi">${['#c2452f','#d96a2b','#c98a1b','#2e7d4f'].map(c=>`<i class="cmdot" style="background:${c}"></i>`).join('')}cold → strong</span>
+    <span class="cmlgi"><svg width="22" height="22" viewBox="0 0 26 26"><rect x="4" y="4" width="18" height="18" transform="rotate(45 13 13)" class="cmouter"/></svg>angel</span>
+  </div>`;
 }
 function apMap(){
   if(!CM.ents) return '<div class="aphint">Coverage map data has not been built yet.</div>';
   const me=ap.who||'';
-  const crumbs=[`<button data-cmgo="l0">Europe</button>`];
-  if(MAP.lvl!=='l0') crumbs.push(`<button data-cmgo="l1">Nordics</button>`);
-  if(MAP.cc) crumbs.push(`<button data-cmgo="l2">${CM.ccName[MAP.cc]||MAP.cc}</button>`);
+  const crumbs=[`<button data-cmgo="l0"${MAP.lvl==='l0'?' disabled':''}>Europe</button>`];
+  if(MAP.lvl!=='l0') crumbs.push(`<button data-cmgo="l1"${MAP.lvl==='l1'?' disabled':''}>Nordics</button>`);
+  if(MAP.cc) crumbs.push(`<button data-cmgo="l2"${!MAP.ent?' disabled':''}>${CM.ccName[MAP.cc]||MAP.cc}</button>`);
   if(MAP.ent){ const e=(CM.ents||[]).find(x=>x.slug===MAP.ent); if(e) crumbs.push(`<button disabled>${e.name}</button>`); }
+  const back=MAP.lvl!=='l0'?`<button class="minibtn cmback" data-cmback>← Back</button>`:'';
+  const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
+  let main;
+  if(MAP.ent) main=cmDetail(me);
+  else if(isMapLvl) main=`<div class="cmmapwrap"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}</div>`;
+  else main=`<div class="cmcards">${cmCards(me)}</div>`;
   return `<div class="cmtop">
-      <span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
+      ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
       <span class="aptog cmlens">${[['both','Me vs team'],['me','Me only'],['team','Team only'],['warm','Warm paths']].map(([k,l])=>`<button data-cmlens="${k}"${MAP.lens===k?' class="on"':''}>${l}</button>`).join('')}</span>
       <span class="aptog">${[['pipe','My pipeline'],['hl','Highland deal flow']].map(([k,l])=>`<button data-cmbasis="${k}"${MAP.basis===k?' class="on"':''}>${l}</button>`).join('')}</span>
       <label class="cmall"><input type="checkbox" id="cmallcb"${MAP.all?' checked':''}> show quiet funds</label>
     </div>
+    ${cmLegend(me)}
     <div class="cmflex">
-      <div class="cmmapwrap">
-        <svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.lvl==='l1'?'nordics':MAP.cc]||CM.vb.l0).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg>
-        <div id="cmhover" class="cmcard" hidden></div>
-        ${MAP.ent?cmL3(me):''}
-        ${cmTray()}
-      </div>
+      <div class="cmmain">${main}</div>
       <div class="cmpanel" id="cmpanel">${cmPanel(me)}</div>
     </div>`;
 }
@@ -1641,7 +1662,7 @@ function cmSvg(me){
     const a=CM.areas[c.id], covu=a&&me&&a.u[me]?a.u[me].covu:0, covT=a?a.covT:0;
     const v=MAP.lens==='team'?covT:covu;
     const on=(MAP.lvl!=='l0')&&nordic.has(c.id);
-    return `<path d="${c.d}" class="cmcty${on?' on':''}" data-cmcc="${c.id}" style="${on?`fill:${CMTIER(v)};fill-opacity:.14`:''}"/>`;
+    return `<path d="${c.d}" class="cmcty${on?' on':''}" data-cmcc="${c.id}" style="${on?`fill:${CMTIER(v)};fill-opacity:.1`:''}"/>`;
   }).join('');
   let layer='';
   if(MAP.lvl==='l0'){
@@ -1654,7 +1675,7 @@ function cmSvg(me){
         ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
         <text y="${R+14}">${r.name}</text></g>`;
     }).join('');
-  } else if(MAP.lvl==='l1'){
+  } else {
     const z=CM.zoomL1;
     layer=CM.nordics.filter(cc=>CM.areas[cc]).map(cc=>{
       const a=CM.areas[cc], covu=me&&a.u[me]?a.u[me].covu:0;
@@ -1667,19 +1688,76 @@ function cmSvg(me){
         ${rm>0.4?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
         <text y="${(R+14/z).toFixed(1)}" style="font-size:${(14/z).toFixed(1)}px">${CM.ccName[cc]}${exp?' ⚑':''}</text></g>`;
     }).join('');
-  } else {
-    const z=CM.zoomL2[MAP.cc]||6, vis=cmVisible(me).filter(e=>e.cc===MAP.cc);
-    const byO=[...vis].sort((a,b)=>cmU(b,me).ou-cmU(a,me).ou);
-    const lab=new Set(byO.slice(0,8).map(e=>e.slug));
-    layer=vis.map(e=>cmGlyph(e,me)).join('')+
-      byO.filter(e=>lab.has(e.slug)).map(e=>`<text class="cmlab" x="${e.x}" y="${(e.y-cmRadius(e,me)-3/z).toFixed(1)}" style="font-size:${(10.5/z).toFixed(2)}px">${e.name}</text>`).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
+}
+function cmCards(me){
+  const sel=cmVisible(me).filter(e=>e.cc===MAP.cc)
+    .sort((a,b)=>cmU(b,me).gu-cmU(a,me).gu);
+  if(!sel.length) return '<div class="aphint">No tracked funds here yet.</div>';
+  return sel.map(e=>{
+    const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
+    const door=u.tag==='warm'&&tb?`ask ${tb.u.split(' ')[0]} → ${tb.n}`:
+               best&&best.r>=15?`your door: ${best.n}`:
+               u.tag==='cold'?'cold start — nobody at Highland':'no path yet';
+    return `<div class="cmfcard" data-cment="${e.slug}">
+      <div class="cmfg">${cmGlyphSvg(e,me,64)}</div>
+      <div class="cmfi">
+        <div class="cmfn">${e.name} <span class="cmst ${u.st}">${u.st}</span></div>
+        <div class="cmfm">${e.city||'—'} · ${e.cat||e.kind}${e.fs?' · '+e.fs:''}</div>
+        <div class="cmfm">team <b>${Math.round(e.CT)}</b>${me?` · you <b style="color:${CMTIER(u.cu)}">${Math.round(u.cu)}</b>`:''}${e.df12?` · ${e.df12} deals/12m`:''}</div>
+        <div class="cmfm cmdoor">${door}</div>
+      </div></div>`;
+  }).join('');
+}
+function cmDetail(me){
+  const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);
+  if(!e) return '';
+  const u=cmU(e,me), tb=cmTeamBest(e);
+  const ppl=(e.people||[]).slice(0,10);
+  const rows=ppl.map(p=>{
+    const mr=me?Math.round(p.r[me]||0):0, bt=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
+    return `<tr><td><b class="mbub ${mr>=70?'strong':mr>=40?'medium':mr>=15?'low':'weak'}">${mr}</b></td>
+      <td class="nmc">${p.n}</td><td>${p.sr||'—'}</td>
+      <td>${bt?`${bt[0].split(' ')[0]} · ${Math.round(bt[1])}`:'—'}</td>
+      <td class="lt">${p.last?fmtD(p.last):'—'}</td></tr>`;
+  }).join('');
+  return `<div class="cmdet">
+    <div class="cmdeth">${cmGlyphSvg(e,me,74)}<div>
+      <div class="cmdetn">${e.name} <span class="cmst ${u.st}">${u.st}</span>${u.tag?` <span class="cmst">${u.tag==='warm'?'warm path':'cold start'}</span>`:''}</div>
+      <div class="cmfm">${e.city||'—'} · ${e.cat||e.kind}${e.fs?' · '+e.fs:''} · opportunity <b>${Math.round(cmOpp(e,me))}</b> · team <b>${Math.round(e.CT)}</b>${me?` · you <b style="color:${CMTIER(u.cu)}">${Math.round(u.cu)}</b>`:''}</div>
+      <div class="cmwhy">${cmWhy(e,me)}</div>
+    </div></div>
+    <table class="nettab cmdett"><thead><tr><th>You</th><th>Name</th><th>Role</th><th>Team best</th><th>Last touch</th></tr></thead>
+    <tbody>${rows||`<tr><td colspan="5" class="lt" style="padding:12px">No contacts mapped yet — coverage 0 by construction.</td></tr>`}</tbody></table>
+    ${cmEgo(e,me)}
+    <div class="apacts" style="margin-top:12px">
+      ${u.tag==='warm'&&tb?`<a href="mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — the coverage map says you hold our strongest line into '+e.name+' ('+tb.n+'). Could you bring me in or make an intro? — '+(me||'').split(' ')[0])}">✉ Ask ${tb.u.split(' ')[0]}</a>`:''}
+      <a href="${liSearch(e.name,'')}" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div></div>`;
+}
+function cmEgo(e,me){
+  const ppl=(e.people||[]).slice(0,8);
+  if(!ppl.length) return '';
+  const ints=[...new Set(ppl.flatMap(p=>Object.keys(p.r)))].sort((a,b)=>Math.max(...ppl.map(p=>p.r[b]||0))-Math.max(...ppl.map(p=>p.r[a]||0))).slice(0,6);
+  if(!ints.length) return '';
+  const H=Math.max(ppl.length,ints.length)*32+36;
+  const iy=i=>26+i*((H-36)/Math.max(ints.length-1,1)||0);
+  const py=i=>26+i*((H-36)/Math.max(ppl.length-1,1)||0);
+  const lines=ints.flatMap((u,ui)=>ppl.map((p,pi)=>{
+    const r=p.r[u]||0; if(r<10) return '';
+    return `<line x1="155" y1="${iy(ui)}" x2="305" y2="${py(pi)}" stroke="${CMTIER(r)}" stroke-width="${(0.6+r/40).toFixed(1)}" opacity="${u===me?0.95:0.3}"/>`;
+  })).join('');
+  return `<div class="apsec" style="margin-top:14px">Who holds the lines in</div>
+    <svg class="cmego" width="100%" height="${H}" viewBox="0 0 470 ${H}">${lines}
+      ${ints.map((u,i)=>`<text x="149" y="${iy(i)+4}" text-anchor="end" class="cml3t${u===me?' me':''}">${u}</text>`).join('')}
+      ${ppl.map((p,i)=>`<text x="311" y="${py(i)+4}" class="cml3t">${p.n}${p.sr?` · ${p.sr}`:''}</text>`).join('')}
+    </svg>`;
 }
 function cmTray(){
   const t=(CM.ents||[]).filter(e=>e.tray);
   if(!t.length||MAP.lvl==='l0') return '';
-  return `<div class="cmtray">Outside the region: ${t.map(e=>`<b>${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
+  return `<div class="cmtray">Outside the region: ${t.map(e=>`<b data-cment="${e.slug}" class="cmtl">${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
 }
 function cmGauge(lbl,v,col){
   return `<div class="cmg"><span class="cmgl">${lbl}</span><span class="cmgbar"><i style="width:${Math.min(v,100)}%;background:${col||CMTIER(v)}"></i></span><b>${Math.round(v)}%</b></div>`;
@@ -1694,12 +1772,11 @@ function cmTop5(me,pool){
 }
 function cmPanel(me){
   const A=CM.areas, who=me||null;
-  if(MAP.ent){ const e=(CM.ents||[]).find(x=>x.slug===MAP.ent); if(e) return cmEntPanel(e,me); }
   if(MAP.lvl==='l0'){
     const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:null;
     return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of Nordic opportunity; the team covers <b>${a.covT}%</b>.`:`The team covers <b>${a.covT}%</b> of Nordic opportunity.`} Other regions go live in M2.</div>
       ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
-      <div class="apsec">Where to spend time</div>${cmTop5(me,cmEnts())}`;
+      <div class="apsec">Where to spend time</div>${cmTop5(me,cmVisible(me))}`;
   }
   if(MAP.lvl==='l1'){
     const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
@@ -1708,7 +1785,7 @@ function cmPanel(me){
     const bcov=who&&A[biggest].u[who]?A[biggest].u[who].covu:0;
     return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of the Nordics (team ${a.covT}%).`:`Team covers <b>${a.covT}%</b> of the Nordics.`} ${CM.ccName[biggest]} is ${share}% of the opportunity${who?` and you cover ${bcov}% of it`:''}.</div>
       ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
-      <div class="apsec">Where to spend time</div>${cmTop5(me,cmEnts())}`;
+      <div class="apsec">Where to spend time</div>${cmTop5(me,cmVisible(me))}`;
   }
   const cc=MAP.cc, a=A[cc]||{covT:0,u:{}};
   const sel=cmEnts().filter(e=>e.cc===cc);
@@ -1717,34 +1794,15 @@ function cmPanel(me){
   const cities={}; builds.forEach(e=>{cities[e.city]=(cities[e.city]||0)+1;});
   const topCity=Object.entries(cities).sort((x,y)=>y[1]-x[1])[0];
   const covu=who&&a.u[who]?a.u[who].covu:0, exp=who&&a.u[who]?a.u[who].exp:null;
-  const rows=[...sel].sort((x,y)=>cmU(y,me).gu-cmU(x,me).gu).map(e=>{
-    const u=cmU(e,me);
-    return `<div class="dpli" data-cment="${e.slug}"><b class="mbub ${u.cu>=70?'strong':u.cu>=40?'medium':u.cu>=15?'low':'weak'}">${Math.round(u.cu)}</b><span class="nm">${e.name}</span><span class="how">${u.st}${u.tag?' · '+(u.tag==='warm'?'warm path':'cold start'):''} · team ${Math.round(e.CT)}</span></div>`;
-  }).join('');
   const tripBtn=(typeof TRIPS!=='undefined'&&topCity&&TRIPS[topCity[0]])?`<button class="minibtn" data-cmtrip="${topCity[0]}">Plan a ${topCity[0]} trip →</button>`:'';
   return `<div class="cmhead">${topCity?`${topCity[0]} holds ${topCity[1]} of ${CM.ccName[cc]}'s ${builds.length} Build funds.`:`No Build funds in ${CM.ccName[cc]} right now.`} ${warm?`${warm} have a warm path through the team.`:''}</div>
     ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
     ${exp!=null?`<div class="dtsub">${Math.round(exp)}% of your Nordic pipeline sits here.</div>`:''}
     ${tripBtn}
-    <div class="apsec">All funds — biggest gap first</div>${rows||'<div class="dtsub">No tracked funds.</div>'}`;
-}
-function cmEntPanel(e,me){
-  const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
-  return `<div class="cmhead"><b>${e.name}</b> · ${e.city||'—'} · ${u.st}${u.tag?' ('+(u.tag==='warm'?'warm path':'cold start')+')':''}</div>
-    <div class="dtsub">${cmWhy(e,me)}</div>
-    ${me?cmGauge('You',u.cu):''}${cmGauge('Team',e.CT,'#8a86c9')}
-    <div class="apsec">People</div>
-    ${(e.people||[]).map(p=>{
-      const mr=me?Math.round(p.r[me]||0):0, bt=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
-      return `<div class="dpli"><b class="mbub ${mr>=70?'strong':mr>=40?'medium':mr>=15?'low':'weak'}">${mr}</b><span class="nm">${p.n}${p.sr?` <span class="cc">· ${p.sr}</span>`:''}</span><span class="how">${bt?`best: ${bt[0].split(' ')[0]} ${Math.round(bt[1])}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`;
-    }).join('')||'<div class="dtsub">No contacts mapped yet.</div>'}
-    <div class="apacts" style="margin-top:10px">
-      ${u.tag==='warm'&&tb?`<a href="mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — the coverage map says you hold our strongest line into '+e.name+' ('+tb.n+'). Could you bring me in or make an intro? — '+(me||'').split(' ')[0])}">✉ Ask ${tb.u.split(' ')[0]}</a>`:''}
-      <a href="${liSearch(e.name,'')}" target="_blank" rel="noopener">LinkedIn ↗</a>
-    </div>`;
+    <div class="apsec">Where to spend time</div>${cmTop5(me,sel.filter(e=>{const u=cmU(e,me);return MAP.all||u.st==='build'||u.st==='maintain';}))}`;
 }
 function cmWhy(e,me){
-  const u=cmU(e,me), bits=[`opportunity ${Math.round(MAP.basis==='pipe'?u.ou:e.O)}`];
+  const u=cmU(e,me), bits=[`opportunity ${Math.round(cmOpp(e,me))}`];
   bits.push(`relevance ${Math.round(e.rel)}`);
   if(e.df12) bits.push(`${e.df12} investment${e.df12>1?'s':''} in 12m`);
   if(e.coinv) bits.push(`co-invested ×${e.coinv}`);
@@ -1752,25 +1810,6 @@ function cmWhy(e,me){
   const best=me?cmBestOf(e,me):null;
   bits.push(best?`your best door: ${best.n} (${cmTierWord(best.r)} ${best.r}${best.last?`, ${fmtD(best.last)}`:''})`:(me?'you know no one here':''));
   return bits.filter(Boolean).join(' · ');
-}
-function cmL3(me){
-  const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);
-  if(!e) return '';
-  const ppl=(e.people||[]).slice(0,8);
-  const ints=[...new Set(ppl.flatMap(p=>Object.keys(p.r)))].sort((a,b)=>Math.max(...ppl.map(p=>p.r[b]||0))-Math.max(...ppl.map(p=>p.r[a]||0))).slice(0,6);
-  const H=Math.max(ppl.length,ints.length)*34+40;
-  const iy=i=>30+i*((H-40)/Math.max(ints.length-1,1)||0);
-  const py=i=>30+i*((H-40)/Math.max(ppl.length-1,1)||0);
-  const lines=ints.flatMap((u,ui)=>ppl.map((p,pi)=>{
-    const r=p.r[u]||0; if(r<10) return '';
-    return `<line x1="150" y1="${iy(ui)}" x2="310" y2="${py(pi)}" stroke="${CMTIER(r)}" stroke-width="${(0.6+r/40).toFixed(1)}" opacity="${u===me?0.95:0.35}"/>`;
-  })).join('');
-  return `<div class="cml3"><div class="cml3h"><b>${e.name}</b> — who holds the lines in<button class="minibtn" data-cmgo="l2" style="float:right">✕ close</button></div>
-    <svg width="460" height="${H}" viewBox="0 0 460 ${H}">
-      ${lines}
-      ${ints.map((u,i)=>`<text x="144" y="${iy(i)+4}" text-anchor="end" class="cml3t${u===me?' me':''}">${u}</text>`).join('')}
-      ${ppl.map((p,i)=>`<text x="316" y="${py(i)+4}" class="cml3t">${p.n}${p.sr?` · ${p.sr}`:''}</text>`).join('')}
-    </svg></div>`;
 }
 function cmAnimVB(svg,to){
   const from=svg.getAttribute('viewBox').split(' ').map(Number);
@@ -1783,11 +1822,16 @@ function cmAnimVB(svg,to){
   requestAnimationFrame(step);
 }
 function cmGo(lvl,cc,ent){
-  const svg=document.getElementById('cmsvg');
+  const wasMap=(MAP.lvl==='l0'||MAP.lvl==='l1')&&!MAP.ent, toMap=(lvl==='l0'||lvl==='l1')&&!ent;
   MAP.lvl=lvl; MAP.cc=cc||''; MAP.ent=ent||'';
-  const target=CM.vb[lvl==='l0'?'l0':lvl==='l1'?'nordics':MAP.cc]||CM.vb.l0;
-  if(svg){ cmAnimVB(svg,target); setTimeout(()=>{renderWork();updateHash();},300); }
+  const svg=document.getElementById('cmsvg');
+  if(svg&&wasMap&&toMap){ cmAnimVB(svg, CM.vb[lvl==='l0'?'l0':'nordics']); setTimeout(()=>{renderWork();updateHash();},300); }
   else { renderWork(); updateHash(); }
+}
+function cmBack(){
+  if(MAP.ent) cmGo('l2',MAP.cc,'');
+  else if(MAP.lvl==='l2') cmGo('l1','','');
+  else if(MAP.lvl==='l1') cmGo('l0','','');
 }
 function mapBind(body){
   const me=ap.who||'';
@@ -1795,41 +1839,68 @@ function mapBind(body){
   body.querySelectorAll('[data-cmbasis]').forEach(b=>b.addEventListener('click',()=>{MAP.basis=b.dataset.cmbasis;renderWork();}));
   const cb=body.querySelector('#cmallcb');
   if(cb) cb.addEventListener('change',()=>{MAP.all=cb.checked;renderWork();});
+  const bk=body.querySelector('[data-cmback]');
+  if(bk) bk.addEventListener('click',cmBack);
   body.querySelectorAll('[data-cmgo]').forEach(b=>b.addEventListener('click',()=>{
     const l=b.dataset.cmgo; cmGo(l, l==='l2'?MAP.cc:'', '');
   }));
-  body.querySelectorAll('[data-cmcc2]').forEach(g=>g.addEventListener('click',()=>cmGo('l2',g.dataset.cmcc2,'')));
+  body.querySelectorAll('[data-cmcc2]').forEach(g=>g.addEventListener('click',()=>{ if(!mapBind._dragged) cmGo('l2',g.dataset.cmcc2,''); }));
   body.querySelectorAll('path[data-cmcc]').forEach(p=>p.addEventListener('click',()=>{
-    if(MAP.lvl!=='l0'&&CM.areas[p.dataset.cmcc]) cmGo('l2',p.dataset.cmcc,'');
+    if(!mapBind._dragged && MAP.lvl!=='l0' && CM.areas[p.dataset.cmcc]) cmGo('l2',p.dataset.cmcc,'');
   }));
   body.querySelectorAll('[data-cmtrip]').forEach(b=>b.addEventListener('click',()=>goPage('geo',{city:b.dataset.cmtrip})));
+  body.querySelectorAll('[data-cment]').forEach(g=>g.addEventListener('click',()=>{
+    const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(!e) return;
+    cmGo(e.cc?'l3':MAP.lvl, e.cc||MAP.cc, g.dataset.cment);
+  }));
+  // drag to pan the map levels
+  const svg=body.querySelector('#cmsvg');
+  if(svg){
+    let drag=null;
+    svg.addEventListener('pointerdown',ev=>{
+      drag={x:ev.clientX,y:ev.clientY,id:ev.pointerId,cap:false,vb:svg.getAttribute('viewBox').split(' ').map(Number)};
+      mapBind._dragged=false;
+    });
+    svg.addEventListener('pointermove',ev=>{
+      if(!drag) return;
+      const sc=drag.vb[2]/svg.clientWidth;
+      const dx=(ev.clientX-drag.x)*sc, dy=(ev.clientY-drag.y)*sc;
+      if(Math.abs(ev.clientX-drag.x)+Math.abs(ev.clientY-drag.y)>4&&!drag.cap){
+        mapBind._dragged=true; drag.cap=true;
+        try{svg.setPointerCapture(drag.id);}catch(err){}  // capture only once a real drag starts, so plain clicks reach the bubbles
+      }
+      if(!drag.cap) return;
+      const L0=CM.vb.l0;
+      const nx=Math.max(L0[0]-L0[2]*0.25, Math.min(drag.vb[0]-dx, L0[0]+L0[2]*1.25-drag.vb[2]));
+      const ny=Math.max(L0[1]-L0[3]*0.25, Math.min(drag.vb[1]-dy, L0[1]+L0[3]*1.25-drag.vb[3]));
+      svg.setAttribute('viewBox', `${nx} ${ny} ${drag.vb[2]} ${drag.vb[3]}`);
+    });
+    const up=()=>{ drag=null; setTimeout(()=>{mapBind._dragged=false;},50); };
+    svg.addEventListener('pointerup',up); svg.addEventListener('pointercancel',up);
+    svg.style.cursor='grab';
+  }
   const hov=body.querySelector('#cmhover');
-  body.querySelectorAll('[data-cment]').forEach(g=>{
-    g.addEventListener('click',()=>{ if(MAP.lvl!=='l2'&&g.closest('.cmpanel')){ const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(e&&e.cc){ cmGo('l2',e.cc,g.dataset.cment); return; } }
-      MAP.ent=g.dataset.cment; renderWork(); updateHash(); });
-    g.addEventListener('mouseenter',ev=>{
-      const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(!e||!hov) return;
-      const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
-      hov.innerHTML=`<div class="cmcn"><b>${e.name}</b> <span class="cc">· ${e.cat||e.kind}${e.city?' · '+e.city:''}</span> <span class="cmst ${u.st}">${u.st}</span></div>
-        <div class="cmwhy">${cmWhy(e,me)}</div>
-        <div class="cmnums"><span>Opportunity <b>${Math.round(MAP.basis==='pipe'?u.ou:e.O)}</b></span><span>You <b>${Math.round(u.cu)}</b> ${cmTierWord(u.cu)}</span><span>Team <b>${Math.round(e.CT)}</b> ${cmTierWord(e.CT)}</span></div>
-        ${tb?`<div class="cmwhy">Team best: ${tb.u.split(' ')[0]} → ${tb.n} (${tb.r})</div>`:''}`;
-      hov.hidden=false;
+  if(hov) body.querySelectorAll('g[data-cment],g[data-cmcc2]').forEach(g=>{
+    g.addEventListener('mouseenter',()=>{
+      const cc=g.dataset.cmcc2;
+      if(cc){ const a=CM.areas[cc]; if(!a) return;
+        const covu=me&&a.u[me]?a.u[me].covu:0;
+        hov.innerHTML=`<div class="cmcn"><b>${CM.ccName[cc]}</b></div><div class="cmnums"><span>Opportunity share <b>${Math.round(a.opp)}</b></span><span>You <b>${Math.round(covu)}%</b></span><span>Team <b>${Math.round(a.covT)}%</b></span></div>`;
+        hov.hidden=false; }
     });
-    g.addEventListener('mousemove',ev=>{ if(!hov) return;
-      const wrap=body.querySelector('.cmmapwrap').getBoundingClientRect();
-      hov.style.left=Math.min(ev.clientX-wrap.left+14, wrap.width-300)+'px';
-      hov.style.top=Math.max(ev.clientY-wrap.top-10,4)+'px';
+    g.addEventListener('mousemove',ev=>{
+      const wrap=body.querySelector('.cmmapwrap'); if(!wrap) return;
+      const r=wrap.getBoundingClientRect();
+      hov.style.left=Math.min(ev.clientX-r.left+14, r.width-300)+'px';
+      hov.style.top=Math.max(ev.clientY-r.top-10,4)+'px';
     });
-    g.addEventListener('mouseleave',()=>{ if(hov) hov.hidden=true; });
+    g.addEventListener('mouseleave',()=>{ hov.hidden=true; });
   });
   if(!mapBind._esc){
     mapBind._esc=true;
     document.addEventListener('keydown',ev=>{
       if(ev.key!=='Escape'||state.page!=='map') return;
-      if(MAP.ent) cmGo('l2',MAP.cc,'');
-      else if(MAP.lvl==='l2') cmGo('l1','','');
-      else if(MAP.lvl==='l1') cmGo('l0','','');
+      cmBack();
     });
   }
 }
