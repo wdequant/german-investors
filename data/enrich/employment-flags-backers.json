@@ -31,6 +31,11 @@
   "Diogo Cunha": {
    "status": "moved",
    "now": "Stealth Company (Co-Founder & CEO)"
+  },
+  "Daniil Liaimer": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: 468 Capital role ended 2025-09-01"
   }
  },
  "4impact.vc": {
@@ -1960,6 +1965,11 @@
   "Donald Stalter": {
    "status": "unknown",
    "now": null
+  },
+  "Jennifer Phan": {
+   "status": "moved",
+   "now": "Passionfroot (Co-founder & CEO)",
+   "note": "Harmonic: Global Founders Capital role ended 2016-01-01"
   }
  },
  "goldenseeds.com": {
@@ -4494,6 +4504,67 @@
    "status": "moved",
    "now": "Parallel Web Systems (AI Natives Lead)",
    "note": "Harmonic: Kinnevik role ended 2025-11-01"
+  }
+ },
+ "earlybird.com": {
+  "Simon Wolff": {
+   "status": "moved",
+   "now": "caseflow (Software for the most profitable law firms.)",
+   "note": "Harmonic: Earlybird Venture Capital role ended 2014-01-01"
+  }
+ },
+ "picuscap.com": {
+  "Patrick Hermann": {
+   "status": "moved",
+   "now": "Fortino Capital (Partner & DACH VC Lead)",
+   "note": "Harmonic: Picus Capital role ended 2024-08-01"
+  }
+ },
+ "cherry.vc": {
+  "Thomas Lueke": {
+   "status": "moved",
+   "now": "futurepresent (Partner)",
+   "note": "Harmonic: Cherry Ventures role ended 2023-01-01"
+  },
+  "Max Brückner": {
+   "status": "moved",
+   "now": "Aretea Group (Geschäftsführer)",
+   "note": "Harmonic: Cherry Ventures role ended 2025-03-01"
+  }
+ },
+ "blueyard.com": {
+  "Christie Capper": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: BlueYard Capital role ended 2020-06-01"
+  }
+ },
+ "mig.ag": {
+  "Soren Hein": {
+   "status": "moved",
+   "now": "IQM Quantum Computers (COO and Deputy CEO)",
+   "note": "Harmonic: MIG Capital role ended 2026-07-01"
+  }
+ },
+ "actoncapital.com": {
+  "Isabel Rafeiner": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: Acton Capital role ended 2025-09-30"
+  }
+ },
+ "dtcp.capital": {
+  "Jonas Janssen": {
+   "status": "moved",
+   "now": "unknown",
+   "note": "Harmonic: DTCP role ended 2026-09-01"
+  }
+ },
+ "prptl.com": {
+  "Erik Rimaszombati": {
+   "status": "moved",
+   "now": "EMUN (Growth Equity & Venture Capital)",
+   "note": "Harmonic: Perpetual Investors role ended 2026-06-01"
   }
  }
 }

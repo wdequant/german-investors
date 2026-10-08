@@ -68,6 +68,11 @@
    "Diogo Cunha": {
     "status": "moved",
     "now": "Stealth Company (Co-Founder & CEO)"
+   },
+   "Daniil Liaimer": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: 468 Capital role ended 2025-09-01"
    }
   },
   "acton": {
@@ -110,6 +115,11 @@
    "Sebastian Wossagk": {
     "status": "current",
     "now": null
+   },
+   "Isabel Rafeiner": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Acton Capital role ended 2025-09-30"
    }
   },
   "alstin": {
@@ -210,6 +220,11 @@
    "Michael Wax": {
     "status": "current",
     "now": null
+   },
+   "Christie Capper": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: BlueYard Capital role ended 2020-06-01"
    }
   },
   "burda": {
@@ -326,8 +341,9 @@
     "now": "Ledger (Cathay Ledger Fund)"
    },
    "Max Brückner": {
-    "status": "unknown",
-    "now": null
+    "status": "moved",
+    "now": "Aretea Group (Geschäftsführer)",
+    "note": "Harmonic: Cherry Ventures role ended 2025-03-01"
    },
    "Nadja Reischel": {
     "status": "current",
@@ -344,6 +360,11 @@
    "Ricardo Sequerra": {
     "status": "moved",
     "now": "Point Nine (Partner)"
+   },
+   "Thomas Lueke": {
+    "status": "moved",
+    "now": "futurepresent (Partner)",
+    "note": "Harmonic: Cherry Ventures role ended 2023-01-01"
    }
   },
   "commerzventures": {
@@ -480,6 +501,11 @@
    "Vivian Spohr": {
     "status": "current",
     "now": null
+   },
+   "Simon Wolff": {
+    "status": "moved",
+    "now": "caseflow (Software for the most profitable law firms.)",
+    "note": "Harmonic: Earlybird Venture Capital role ended 2014-01-01"
    }
   },
   "gfc": {
@@ -502,6 +528,11 @@
    "Don Stalter": {
     "status": "current",
     "now": null
+   },
+   "Jennifer Phan": {
+    "status": "moved",
+    "now": "Passionfroot (Co-founder & CEO)",
+    "note": "Harmonic: Global Founders Capital role ended 2016-01-01"
    }
   },
   "htgf": {
@@ -710,8 +741,9 @@
     "now": null
    },
    "Patrick Hermann": {
-    "status": "unknown",
-    "now": null
+    "status": "moved",
+    "now": "Fortino Capital (Partner & DACH VC Lead)",
+    "note": "Harmonic: Picus Capital role ended 2024-08-01"
    },
    "Selina Zaglauer": {
     "status": "current",
@@ -910,6 +942,25 @@
    "Andreas Kastenbauer": {
     "status": "current",
     "now": null
+   },
+   "Soren Hein": {
+    "status": "moved",
+    "now": "IQM Quantum Computers (COO and Deputy CEO)",
+    "note": "Harmonic: MIG Capital role ended 2026-07-01"
+   }
+  },
+  "aff-dtcp": {
+   "Jonas Janssen": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: DTCP role ended 2026-09-01"
+   }
+  },
+  "aff-perpetualinvestors": {
+   "Erik Rimaszombati": {
+    "status": "moved",
+    "now": "EMUN (Growth Equity & Venture Capital)",
+    "note": "Harmonic: Perpetual Investors role ended 2026-06-01"
    }
   }
  },

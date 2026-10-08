@@ -242,7 +242,9 @@
  "alberto cresto": {
   "inv": true,
   "title": "General Partner",
-  "company": "Lunar Ventures"
+  "company": "Lunar Ventures",
+  "city": "Europe",
+  "src": "harmonic"
  },
  "alberto padilla-rivera": {
   "inv": true,
@@ -998,8 +1000,11 @@
   "company": "HV"
  },
  "anna schulte": {
-  "inv": null,
-  "company": "Armira"
+  "inv": true,
+  "company": "Armira",
+  "title": "Investment Manager",
+  "city": "Munich",
+  "src": "harmonic"
  },
  "anthony dann": {
   "inv": null,
@@ -2024,7 +2029,9 @@
  "christoph wirth": {
   "inv": true,
   "title": "Senior Investment Manager",
-  "company": "Bayern Kapital"
+  "company": "Bayern Kapital",
+  "city": "Bavaria",
+  "src": "harmonic"
  },
  "christophe poupinel": {
   "inv": true,
@@ -2548,7 +2555,9 @@
  "dirk meurer": {
   "inv": true,
   "title": "Managing Partner",
-  "company": "Vorwerk Ventures"
+  "company": "Vorwerk Ventures",
+  "city": "Berlin & Wuppertal",
+  "src": "harmonic"
  },
  "dmayfield": {
   "inv": true,
@@ -2689,16 +2698,22 @@
   "company": "Enterprise Ireland"
  },
  "donald stalter": {
-  "inv": null,
-  "company": "Global Founders Capital"
+  "inv": true,
+  "company": "Global Founders Capital",
+  "title": "Venture Partner",
+  "city": "San Francisco",
+  "src": "harmonic"
  },
  "du alexis": {
   "inv": null,
   "company": "XAnge"
  },
  "duc tran": {
-  "inv": null,
-  "company": "Dieter von Holtzbrinck Ventures"
+  "inv": true,
+  "company": "Dieter von Holtzbrinck Ventures",
+  "title": "Partner",
+  "city": "Berlin",
+  "src": "harmonic"
  },
  "ed lascelles": {
   "inv": true,
@@ -3019,8 +3034,11 @@
   "company": "Left Lane Capital"
  },
  "erik rimaszombati": {
-  "inv": null,
-  "company": "Perpetual"
+  "inv": true,
+  "company": "Perpetual",
+  "title": "Growth Equity & Venture Capital",
+  "city": "Prague",
+  "src": "harmonic"
  },
  "erik wiesner-mostenicky": {
   "inv": true,
@@ -4150,8 +4168,10 @@
   "company": "PENTLAND LIMITED"
  },
  "isabel rafeiner": {
-  "inv": null,
-  "company": "Acton Capital"
+  "inv": true,
+  "company": "Acton Capital",
+  "city": "Munich",
+  "src": "harmonic"
  },
  "isabel von stauffenberg": {
   "inv": true,
@@ -4458,7 +4478,8 @@
  "jason rees": {
   "inv": true,
   "title": "Venture Partner - UK & Ireland",
-  "company": "Vireo Ventures"
+  "company": "Vireo Ventures",
+  "src": "harmonic"
  },
  "jason schretter": {
   "inv": true,
@@ -4891,8 +4912,9 @@
   "company": "Moonfire"
  },
  "jonas janssen": {
-  "inv": null,
-  "company": "DTCP"
+  "inv": true,
+  "company": "DTCP",
+  "src": "harmonic"
  },
  "jonas mercier": {
   "inv": true,
@@ -5570,7 +5592,9 @@
  "laura elisabeth metzler": {
   "inv": true,
   "title": "Investment Management",
-  "company": "KfW"
+  "company": "KfW",
+  "city": "Germany",
+  "src": "harmonic"
  },
  "laura hilton": {
   "inv": null,
@@ -6687,8 +6711,11 @@
   "company": "Vitruvian Partners"
  },
  "maximilian ammon": {
-  "inv": null,
-  "company": "Armira"
+  "inv": true,
+  "company": "Armira",
+  "title": "Investment Professional",
+  "city": "Munich",
+  "src": "harmonic"
  },
  "maximilian kempken": {
   "inv": true,
@@ -6927,8 +6954,11 @@
   "company": "Brighton Park Capital"
  },
  "mike wax": {
-  "inv": null,
-  "company": "BlueYard Capital"
+  "inv": true,
+  "company": "BlueYard Capital",
+  "title": "General Partner",
+  "city": "Munich",
+  "src": "harmonic"
  },
  "mikko savolainen": {
   "inv": true,
@@ -6978,7 +7008,9 @@
  "mina mutafchieva": {
   "inv": true,
   "title": "Partner (Growth)",
-  "company": "HV"
+  "company": "HV",
+  "city": "United Kingdom",
+  "src": "harmonic"
  },
  "mina-niqole sandberg": {
   "inv": false,
@@ -7091,8 +7123,11 @@
   "company": "42CAP"
  },
  "moro francesco": {
-  "inv": null,
-  "company": "Hubert Burda Media"
+  "inv": true,
+  "company": "Hubert Burda Media",
+  "title": "Principal",
+  "city": "London",
+  "src": "harmonic"
  },
  "morven brown": {
   "inv": false,
@@ -7359,8 +7394,11 @@
   "company": "Verdane"
  },
  "nilufer ayangil": {
-  "inv": null,
-  "company": "Bek Ventures"
+  "inv": false,
+  "company": "Bek Ventures",
+  "title": "Executive Assistant",
+  "city": "Istanbul",
+  "src": "harmonic"
  },
  "nimay mehta": {
   "inv": null,
@@ -9270,8 +9308,11 @@
   "company": "Ventech"
  },
  "stephane roussel": {
-  "inv": null,
-  "company": "European Circular Bioeconomy Fund"
+  "inv": true,
+  "company": "European Circular Bioeconomy Fund",
+  "title": "Partner",
+  "city": "Lyon",
+  "src": "harmonic"
  },
  "stephen fahy": {
   "inv": true,
@@ -9535,8 +9576,11 @@
   "company": "Insight Partners"
  },
  "thomas preuß": {
-  "inv": null,
-  "company": "DTCP"
+  "inv": true,
+  "company": "DTCP",
+  "title": "Chief Investment Officer DTCP Liberty Defence",
+  "city": "Hamburg",
+  "src": "harmonic"
  },
  "thomas sancinena": {
   "inv": true,
@@ -9609,8 +9653,11 @@
   "company": "Hitachi Ventures"
  },
  "tobias jahn": {
-  "inv": null,
-  "company": "Hitachi Ventures"
+  "inv": true,
+  "company": "Hitachi Ventures",
+  "title": "Partner",
+  "city": "Munich",
+  "src": "harmonic"
  },
  "tobias reimann-dubbers": {
   "inv": true,
@@ -11139,6 +11186,1339 @@
   "title": "EA to CEO Erik Engellau-Nilsson & Founder Niklas Adalberth",
   "city": "Sundbyberg",
   "company": "Norrsken",
+  "src": "harmonic"
+ },
+ "don stalter": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "San Francisco",
+  "company": "Global Founders Capital",
+  "src": "harmonic"
+ },
+ "david sainteff": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Global Founders Capital",
+  "src": "harmonic"
+ },
+ "oliver samwer": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Munich",
+  "company": "Global Founders Capital",
+  "src": "harmonic"
+ },
+ "jennifer phan": {
+  "inv": true,
+  "title": "Co-founder & CEO",
+  "city": "New York",
+  "company": "Passionfroot",
+  "src": "harmonic"
+ },
+ "christian arndt": {
+  "inv": true,
+  "title": "Principal / Prokurist",
+  "city": "Munster",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "ulrich schmitt": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "johannes weber": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Hamburg",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "tobias schulz": {
+  "inv": true,
+  "title": "Principal/ Prokurist",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "yann fiebig": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "klaus lehmann": {
+  "inv": true,
+  "title": "Partner Future of Industry | Deep Tech | Climate Tech",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "marco winzer": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "dr. tanja emmerling": {
+  "inv": true,
+  "title": "Partner / Head HTGF Berlin",
+  "city": "Berlin",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "markus kreßmann": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "claudia raber": {
+  "inv": true,
+  "title": "Principal ESG",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "maren breuer": {
+  "inv": true,
+  "title": "Senior Relationship Manager",
+  "city": "Cologne",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "dr. ulrich schmitt": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "johannes dierkes": {
+  "inv": true,
+  "title": "Senior Investment Manager",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "daniela bach": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Bonn",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "romy schnelle": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "Cologne",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "daniel attallah": {
+  "inv": true,
+  "title": "Member Investment Board HTGF (e-commerce & Software)",
+  "city": "Cologne",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "curtis macdonald": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "San Francisco",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "thies wollesen": {
+  "inv": true,
+  "title": "Senior Investmentmanager",
+  "city": "Cologne",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "gregor haidl": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Munich",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "jan miczaika": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "lars langusch": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "barbod namini": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "fabian gruner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "dr. christian saller": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "martin weber": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "david kuczek": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "marie bos": {
+  "inv": true,
+  "title": "VP ESG & Public Affairs",
+  "city": "Berlin",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "christoph jung": {
+  "inv": true,
+  "title": "Member of the Supervisory Board FLIX SE",
+  "city": "Munich",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "manal belaouane": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "tilo bonow 博蒂洛": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Berlin",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "andre retterath": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "akash bajwa": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London Area",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "vivian spohr": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Berlin",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "tim rehder": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "stefano ribas": {
+  "inv": true,
+  "title": "Investment Team",
+  "city": "London",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "nina mayer": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "laura waldenstrom": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "paul klemm": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Bavaria",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "dr. christian nagel": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Berlin",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "roland manger": {
+  "inv": true,
+  "title": "Co-Founder",
+  "city": "Luxembourg",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "mehmet sel atici": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "stefano gonelle ribas": {
+  "inv": true,
+  "title": "Investment Team",
+  "city": "London",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "dr. andre retterath": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "dr. christoph massner": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "philipp semmer": {
+  "inv": true,
+  "title": "Earlybird-X Partner",
+  "city": "Berlin",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "elle muller": {
+  "inv": true,
+  "title": "Investor Relations",
+  "city": "London",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "ayush jain": {
+  "inv": true,
+  "title": "Partner, Growth Investments",
+  "city": "London Area",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "dr. hendrik brandis": {
+  "inv": true,
+  "title": "Co-Founder and Partner",
+  "city": "Munich",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "evren ucok": {
+  "inv": true,
+  "title": "Cofounder, Managing Partner (DEF1) and Senior Advisor - Digital East Funds (DEF)",
+  "city": "Monaco",
+  "company": "Earlybird Venture Capital",
+  "src": "harmonic"
+ },
+ "simon wolff": {
+  "inv": true,
+  "title": "Software for the most profitable law firms.",
+  "city": "Berlin",
+  "company": "caseflow",
+  "src": "harmonic"
+ },
+ "louis coppey": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Paris",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "christoph janz": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Los Altos",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "ricardo sequerra amram": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "ricardo sequerra": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "pawel chudzinski": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "rodrigo martinez": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Madrid",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "michael wolfe": {
+  "inv": true,
+  "title": "Portfolio Advisor",
+  "city": "San Francisco",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "seth dehart": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Portsmouth",
+  "company": "Point Nine",
+  "src": "harmonic"
+ },
+ "bardo d.": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "468 Capital",
+  "src": "harmonic"
+ },
+ "florian leibert": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "San Francisco",
+  "company": "468 Capital",
+  "src": "harmonic"
+ },
+ "daniil liaimer": {
+  "inv": true,
+  "city": "Berlin",
+  "src": "harmonic"
+ },
+ "robin godenrath": {
+  "inv": true,
+  "title": "Founder and Managing Director",
+  "city": "Munich",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "oliver heinrich": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Munich",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "florian reichert": {
+  "inv": true,
+  "title": "Partner & Managing Director",
+  "city": "Bavaria",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "jeremias heinrich": {
+  "inv": true,
+  "title": "Founder",
+  "city": "Munich",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "alexander limpert": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "Zurich",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "julius bolz": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "Berlin",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "benedikt knobloch": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "Cologne",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "nicolas stadtelmeyer": {
+  "inv": true,
+  "title": "Expert Partner",
+  "city": "Munich",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "stavros papadopoulos": {
+  "inv": true,
+  "title": "Venture Scout",
+  "city": "Berlin",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "marie ch. fabiunke": {
+  "inv": true,
+  "title": "Expert Partner, Advisor",
+  "city": "Berlin",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "patrick hermann": {
+  "inv": true,
+  "title": "Partner & DACH VC Lead",
+  "city": "Munich",
+  "company": "Fortino Capital",
+  "src": "harmonic"
+ },
+ "nadja reischel": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "dinika mahtani": {
+  "inv": true,
+  "title": "Partner",
+  "city": "London",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "christian meermann": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Berlin",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "filip felician dames": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Berlin",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "alexander langholz-baikousis": {
+  "inv": true,
+  "title": "Operating Partner & CFO",
+  "city": "Berlin",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "nadja carina reischel": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "lexi bicker": {
+  "inv": false,
+  "title": "Fund Operations Associate",
+  "city": "Berlin",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "thomas lueke": {
+  "inv": true,
+  "title": "Partner",
+  "city": "New York",
+  "company": "futurepresent",
+  "src": "harmonic"
+ },
+ "filip dames": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Berlin",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "james hunter": {
+  "inv": true,
+  "title": "VP Finance & Investor Relations",
+  "city": "Lisbon",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "patrick doran": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "christina kaess": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Berlin",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "florian zeidler": {
+  "inv": true,
+  "title": "Investmentmanager",
+  "city": "Landshut",
+  "company": "Bayern Kapital",
+  "src": "harmonic"
+ },
+ "andreas koenig": {
+  "inv": true,
+  "title": "Mitglied Beteiligungsausschuss ScaleUp-Fonds Bayern",
+  "city": "Munich",
+  "company": "Bayern Kapital",
+  "src": "harmonic"
+ },
+ "dr. bernd schafberger": {
+  "inv": true,
+  "title": "Head of Venture Capital Investments | Prokurist",
+  "city": "Regensburg",
+  "company": "Bayern Kapital",
+  "src": "harmonic"
+ },
+ "mathias matusek, cfa": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Landshut",
+  "company": "Bayern Kapital",
+  "src": "harmonic"
+ },
+ "anton waitz": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "Project A Ventures",
+  "src": "harmonic"
+ },
+ "florian heinemann": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Berlin",
+  "company": "Project A Ventures",
+  "src": "harmonic"
+ },
+ "uwe horstmann": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "Project A Ventures",
+  "src": "harmonic"
+ },
+ "ben fischer": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "Project A",
+  "src": "harmonic"
+ },
+ "thies sander": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Berlin",
+  "company": "Project A",
+  "src": "harmonic"
+ },
+ "hans-jürgen even": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Dusseldorf",
+  "company": "Project A Ventures",
+  "src": "harmonic"
+ },
+ "clemens kabel": {
+  "inv": true,
+  "title": "Investment Director / Prokurist",
+  "city": "Berlin",
+  "company": "IBB Ventures",
+  "src": "harmonic"
+ },
+ "christophe maire": {
+  "inv": true,
+  "title": "Founder & Managing Partner",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "carina hüls": {
+  "inv": false,
+  "title": "Executive Assistant to the Founding Partner",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "bastian bullmann": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "lukas erbguth": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "daniel niemi": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Helsinki",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "marc-olivier luecke": {
+  "inv": true,
+  "title": "General Partner & MD",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "quentin calleja": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "alice bardon catineau": {
+  "inv": true,
+  "title": "Early Stage VC",
+  "city": "Berlin",
+  "company": "Atlantic",
+  "src": "harmonic"
+ },
+ "christopher heymann": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Berlin",
+  "company": "1kx",
+  "src": "harmonic"
+ },
+ "lasse clausen": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Info",
+  "company": "1kx",
+  "src": "harmonic"
+ },
+ "oleg malenkov": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "London",
+  "company": "TA Ventures",
+  "src": "harmonic"
+ },
+ "andrew verbitsky": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Dubai",
+  "company": "TA Ventures",
+  "src": "harmonic"
+ },
+ "mikael myllymäki": {
+  "inv": true,
+  "title": "VC",
+  "city": "Helsinki",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "ben scheidt": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "moritz gillmair 🇺🇦": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Berlin",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "michael brehm": {
+  "inv": true,
+  "title": "General Partner & Founder",
+  "city": "Munich",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "richard würl": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "michael jackson": {
+  "inv": true,
+  "title": "Member of Advisory Board and Investment Committee, Quantum Fund",
+  "city": "Paris",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "antto piirainen": {
+  "inv": true,
+  "title": "VC Investor",
+  "city": "Helsinki",
+  "company": "Redstone",
+  "src": "harmonic"
+ },
+ "sascha fritz": {
+  "inv": true,
+  "title": "Investment Principal",
+  "city": "Stuttgart",
+  "company": "Bosch Ventures",
+  "src": "harmonic"
+ },
+ "heribert uhl": {
+  "inv": true,
+  "title": "Senior Investment Director",
+  "city": "Stuttgart",
+  "company": "Bosch Ventures",
+  "src": "harmonic"
+ },
+ "gitte bedford": {
+  "inv": true,
+  "title": "VP",
+  "city": "Stuttgart",
+  "company": "Bosch Ventures",
+  "src": "harmonic"
+ },
+ "ciarán o'leary": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "BlueYard Capital",
+  "src": "harmonic"
+ },
+ "david byrd": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Sooke",
+  "company": "BlueYard Capital",
+  "src": "harmonic"
+ },
+ "jason d. whitmire": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "New York",
+  "company": "BlueYard Capital",
+  "src": "harmonic"
+ },
+ "christie capper": {
+  "inv": true,
+  "city": "Berlin",
+  "src": "harmonic"
+ },
+ "christine fuchs": {
+  "inv": false,
+  "title": "Executive Assistant / Office Manager",
+  "city": "Munich",
+  "company": "BlueYard Capital",
+  "src": "harmonic"
+ },
+ "jason whitmire": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "New York",
+  "company": "BlueYard Capital",
+  "src": "harmonic"
+ },
+ "michael wax": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "BlueYard Capital",
+  "src": "harmonic"
+ },
+ "chris hitchen": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "Possible Ventures",
+  "src": "harmonic"
+ },
+ "thomas klews": {
+  "inv": true,
+  "title": "Venture Partner",
+  "city": "Munich",
+  "company": "Possible Ventures",
+  "src": "harmonic"
+ },
+ "johannis hatt": {
+  "inv": true,
+  "title": "Limited Partner",
+  "city": "Berlin",
+  "company": "Possible Ventures",
+  "src": "harmonic"
+ },
+ "niklas raberg": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Bonn",
+  "company": "Capnamic",
+  "src": "harmonic"
+ },
+ "christian knott": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Dusseldorf",
+  "company": "Capnamic",
+  "src": "harmonic"
+ },
+ "julien-david nitlech": {
+  "inv": true,
+  "title": "Member of the Investment Committee",
+  "city": "Paris",
+  "company": "Capnamic",
+  "src": "harmonic"
+ },
+ "marei v. fürstenberg": {
+  "inv": true,
+  "title": "Investment Analyst I Venture Capital",
+  "city": "Cologne",
+  "company": "Capnamic",
+  "src": "harmonic"
+ },
+ "renate fuhrich": {
+  "inv": true,
+  "title": "Team- und Eventmanagerin",
+  "city": "Munich",
+  "company": "UVC Partners",
+  "src": "harmonic"
+ },
+ "alexander kiltz": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "UVC Partners",
+  "src": "harmonic"
+ },
+ "benjamin erhart": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Garching an der Alz",
+  "company": "UVC Partners",
+  "src": "harmonic"
+ },
+ "johannes von borries": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "UVC Partners",
+  "src": "harmonic"
+ },
+ "oliver schoppe": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Munich",
+  "company": "UVC Partners",
+  "src": "harmonic"
+ },
+ "dr. ingo potthof": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Greater Munich Metropolitan Area",
+  "company": "UVC Partners",
+  "src": "harmonic"
+ },
+ "andreas kastenbauer": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Munich",
+  "company": "MIG Capital",
+  "src": "harmonic"
+ },
+ "soren hein": {
+  "inv": false,
+  "title": "COO and Deputy CEO",
+  "city": "Munich",
+  "company": "IQM Quantum Computers",
+  "src": "harmonic"
+ },
+ "julius lühr": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "christoph braun": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "dominik alvermann": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "benedikt sudbrock": {
+  "inv": false,
+  "title": "General Counsel",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "julius luehr": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "sebastian wossagk": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "jan-gisbert schultze": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "frank seehaus": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "leon buchholz": {
+  "inv": false,
+  "title": "Senior Finance Manager",
+  "city": "Munich",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "christina catania": {
+  "inv": true,
+  "title": "Acton Capital",
+  "city": "München",
+  "company": "Acton Capital",
+  "src": "harmonic"
+ },
+ "stefan walter": {
+  "inv": true,
+  "title": "Co-Founder & Managing Partner",
+  "city": "Berlin",
+  "company": "NAP",
+  "src": "harmonic"
+ },
+ "fabian krautwurst": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "NAP",
+  "src": "harmonic"
+ },
+ "jackie kroyer": {
+  "inv": true,
+  "title": "Vice President",
+  "city": "Berlin",
+  "company": "NAP",
+  "src": "harmonic"
+ },
+ "nico schoenenberger": {
+  "inv": true,
+  "title": "Early Stage Investor",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "julian wachtel": {
+  "inv": true,
+  "title": "Investor",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "jan becker": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "andreas etten": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "robert wuttke": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "felix haas": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "daniel ulman 👨🚀": {
+  "inv": true,
+  "title": "Fellow",
+  "city": "Munich",
+  "company": "10x Founders",
+  "src": "harmonic"
+ },
+ "duc quyen tran": {
+  "inv": true,
+  "title": "Partner",
+  "city": "Berlin",
+  "company": "Dieter von Holtzbrinck Ventures",
+  "src": "harmonic"
+ },
+ "peter richarz": {
+  "inv": true,
+  "title": "Founding Partner",
+  "city": "Cologne",
+  "company": "Dieter von Holtzbrinck Ventures",
+  "src": "harmonic"
+ },
+ "maximilian conrad": {
+  "inv": true,
+  "title": "Investment Associate | Venture Capital",
+  "city": "Berlin",
+  "company": "Dieter von Holtzbrinck Ventures",
+  "src": "harmonic"
+ },
+ "lise rechsteiner": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Metropolregion München",
+  "company": "Vsquared Ventures",
+  "src": "harmonic"
+ },
+ "benedikt von schoeler": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "Vsquared Ventures",
+  "src": "harmonic"
+ },
+ "michael jobst": {
+  "inv": true,
+  "title": "Investment Partner",
+  "city": "Munich",
+  "company": "Vsquared Ventures",
+  "src": "harmonic"
+ },
+ "herbert mangesius": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Munich",
+  "company": "Vsquared Ventures",
+  "src": "harmonic"
+ },
+ "lise rechsteiner, phd": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Metropolregion München",
+  "company": "Vsquared Ventures",
+  "src": "harmonic"
+ },
+ "gina krymalowski": {
+  "inv": false,
+  "title": "VP Platform & Communications",
+  "city": "London",
+  "company": "Vsquared Ventures",
+  "src": "harmonic"
+ },
+ "jasper masemann": {
+  "inv": true,
+  "title": "General Partner",
+  "city": "Berlin",
+  "company": "Discovery Ventures",
+  "src": "harmonic"
+ },
+ "natalie schmitke": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Burda Principal Investments",
+  "src": "harmonic"
+ },
+ "thomas juvin": {
+  "inv": true,
+  "title": "Managing Director",
+  "city": "London",
+  "company": "Burda Principal Investments",
+  "src": "harmonic"
+ },
+ "luisa düsberg": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Munich",
+  "company": "Burda Principal Investments",
+  "src": "harmonic"
+ },
+ "francesco moro": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "Burda Principal Investments",
+  "src": "harmonic"
+ },
+ "friedrich von wulffen": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Munich",
+  "company": "Burda Principal Investments",
+  "src": "harmonic"
+ },
+ "briac bombrun": {
+  "inv": true,
+  "title": "VC investor",
+  "city": "London Area",
+  "company": "Burda Principal Investments",
+  "src": "harmonic"
+ },
+ "heiko schwender": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Frankfurt",
+  "company": "CommerzVentures",
+  "src": "harmonic"
+ },
+ "stefan tirtey": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Munich",
+  "company": "CommerzVentures",
+  "src": "harmonic"
+ },
+ "paul morgenthaler": {
+  "inv": true,
+  "title": "Managing Partner",
+  "city": "Frankfurt",
+  "company": "CommerzVentures",
+  "src": "harmonic"
+ },
+ "judith vogel": {
+  "inv": true,
+  "title": "Principal",
+  "city": "London",
+  "company": "CommerzVentures",
+  "src": "harmonic"
+ },
+ "dr. andreas schenk": {
+  "inv": true,
+  "title": "Managing Partner & Geschäftsführer",
+  "city": "Munich",
+  "company": "Alstin Capital",
+  "src": "harmonic"
+ },
+ "selin daldal": {
+  "inv": true,
+  "title": "Investment Manager",
+  "city": "Munich",
+  "company": "Alstin Capital",
+  "src": "harmonic"
+ },
+ "martin möllmann": {
+  "inv": true,
+  "title": "Principal",
+  "city": "Berlin",
+  "company": "HTGF | High-Tech Gründerfonds",
+  "src": "harmonic"
+ },
+ "natalia uribe": {
+  "inv": true,
+  "title": "Deals and Valuation Manager",
+  "city": "Munich",
+  "company": "HV",
+  "src": "harmonic"
+ },
+ "selina zaglauer": {
+  "inv": false,
+  "title": "Executive Assistant",
+  "city": "Munich",
+  "company": "Picus Capital",
+  "src": "harmonic"
+ },
+ "max brückner": {
+  "inv": true,
+  "title": "Geschäftsführer",
+  "city": "Berlin",
+  "company": "Aretea Group",
+  "src": "harmonic"
+ },
+ "lily petherick": {
+  "inv": true,
+  "title": "Investor",
+  "city": "London",
+  "company": "Cherry Ventures",
+  "src": "harmonic"
+ },
+ "markus lehmann": {
+  "inv": true,
+  "title": "CEO",
+  "city": "Berlin",
+  "company": "IBB Ventures",
   "src": "harmonic"
  }
 }
