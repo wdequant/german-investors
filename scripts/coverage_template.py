@@ -734,6 +734,8 @@ body.mkmode{cursor:crosshair}
 .cmfcard{display:flex;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--hair);
   border-radius:12px;padding:10px 12px;cursor:pointer}
 .cmfcard:hover{border-color:var(--accent)}
+.cmfcard.aff{cursor:default;border-style:dashed;background:none}
+.cmfcard.aff:hover{border-color:var(--hair)}
 .cmfg{flex:none}
 .cmfi{min-width:0}
 .cmfn{font-weight:700;font-size:14.5px}
@@ -1591,7 +1593,7 @@ function cmU(e,me){
 }
 function cmEnts(){ return (CM.ents||[]).filter(e=>!e.tray); }
 function cmVisible(me){
-  return cmEnts().filter(e=>{ const u=cmU(e,me); return MAP.all || u.st==='build' || u.st==='maintain' || u.cu>=40; });
+  return cmEnts();
 }
 function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Weak':'Cold'; }
 function cmBestOf(e,who){
@@ -1642,10 +1644,10 @@ function apMap(){
   let main;
   if(MAP.ent) main=cmDetail(me);
   else if(isMapLvl) main=`<div class="cmmapwrap"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}</div>`;
-  else main=`<div class="cmcards">${cmCards(me)}</div>${cmPeopleIn(me)}`;
+  else main=`<div class="cmcards">${cmCards(me)}</div>${cmAffCards(me)}${cmPeopleIn(me)}`;
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
-      <label class="cmall"><input type="checkbox" id="cmallcb"${MAP.all?' checked':''}> show quiet funds</label>
+
     </div>
     ${cmLegend(me)}
     <div class="cmflex">
@@ -1707,6 +1709,24 @@ function cmCards(me){
         <div class="cmfm cmdoor">${door}</div>
       </div></div>`;
   }).join('');
+}
+function cmAffCards(me){
+  const sel=(CM.aff||[]).filter(e=>e.cc===MAP.cc)
+    .sort((a,b)=>((me&&b.cu[me])||0)-((me&&a.cu[me])||0)||b.CT-a.CT||a.name.localeCompare(b.name));
+  if(!sel.length) return '';
+  const known=sel.filter(e=>e.CT>0).length;
+  const cards=sel.map(e=>{
+    const cu=me?(e.cu[me]||0):0;
+    const best=e.people&&e.people[0];
+    return `<div class="cmfcard aff">
+      <div class="cmfi">
+        <div class="cmfn">${e.name} <span class="cmst">untracked</span></div>
+        <div class="cmfm">${e.city||'—'}${e.lc?` · last call ${fmtD(e.lc)}`:''}</div>
+        <div class="cmfm">${e.CT>0?`team <b>${Math.round(e.CT)}</b>${me&&cu?` · you <b style="color:${CMTIER(cu)}">${Math.round(cu)}</b>`:''}${best?` · via ${best.n}`:''}`:'no relationship logged'}</div>
+      </div></div>`;
+  }).join('');
+  return `<div class="apsec" style="margin-top:16px">Also in Affinity — every other ${CM.ccName[MAP.cc]}-based investor (${sel.length}, ${known} with a live relationship)</div>
+    <div class="cmcards">${cards}</div>`;
 }
 function cmPeopleIn(me){
   const by=(CM.peopleIn||{})[MAP.cc];
@@ -1807,8 +1827,9 @@ function cmPanel(me){
   return `<div class="cmhead">${topCity?`${topCity[0]} holds ${topCity[1]} of ${CM.ccName[cc]}'s ${builds.length} Build funds.`:`No Build funds in ${CM.ccName[cc]} right now.`} ${warm?`${warm} have a warm path through the team.`:''}</div>
     ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
     ${exp!=null?`<div class="dtsub">${Math.round(exp)}% of your Nordic pipeline sits here.</div>`:''}
+    ${(CM.aff||[]).filter(e=>e.cc===cc).length?`<div class="dtsub">+${(CM.aff||[]).filter(e=>e.cc===cc).length} more ${CM.ccName[cc]}-based investors in Affinity, shown below the tracked funds.</div>`:''}
     ${tripBtn}
-    <div class="apsec">Where to spend time</div>${cmTop5(me,sel.filter(e=>{const u=cmU(e,me);return MAP.all||u.st==='build'||u.st==='maintain';}))}`;
+    <div class="apsec">Where to spend time</div>${cmTop5(me,sel)}`;
 }
 function cmWhy(e,me){
   const u=cmU(e,me), bits=[`opportunity ${Math.round(cmOpp(e,me))}`];
@@ -1844,8 +1865,6 @@ function cmBack(){
 }
 function mapBind(body){
   const me=ap.who||'';
-  const cb=body.querySelector('#cmallcb');
-  if(cb) cb.addEventListener('change',()=>{MAP.all=cb.checked;renderWork();});
   const bk=body.querySelector('[data-cmback]');
   if(bk) bk.addEventListener('click',cmBack);
   body.querySelectorAll('[data-cmgo]').forEach(b=>b.addEventListener('click',()=>{

@@ -399,6 +399,49 @@ def build_covmap(regions, mynet, roster, load_json):
                 if share and u in areas[cc]["u"]:
                     areas[cc]["u"][u]["exp"] = share
 
+    # ---- Affinity completeness layer: every investor-kind company in the Nordics (Compass sweep) ----
+    import re as _re
+    _nrm = lambda x: _re.sub(r"[^a-z0-9]", "", (x or "").lower())
+    CNTRY_CC = {"Sweden": "SE", "Denmark": "DK", "Norway": "NO", "Finland": "FI", "Iceland": "IS"}
+    _curn, _curd = set(), set()
+    for _rk4, _reg4 in regions.items():
+        for _e6 in _reg4["entities"]:
+            _curn.add(_nrm(_e6["name"]))
+            _w6 = (_e6.get("website") or "").lower().replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0]
+            if _w6:
+                _curd.add(_w6)
+    _mnd, _mnn = {}, {}
+    for _u5, _lst5 in (mynet or {}).items():
+        for _mx5 in _lst5:
+            R5 = round(0.75 * (_mx5.get("p") or 0) + 25 * _rec(_mx5.get("l")), 1)
+            if _mx5.get("d"):
+                _mnd.setdefault(_mx5["d"].lower(), []).append((_u5, _mx5["n"], R5, _mx5.get("l")))
+            if _mx5.get("f"):
+                _mnn.setdefault(_nrm(_mx5["f"]), []).append((_u5, _mx5["n"], R5, _mx5.get("l")))
+    aff_ents = []
+    for _row in (load_json(f"{ROOT}/data/enrich/nordic-investors-affinity.json", []) or []):
+        if _nrm(_row["name"]) in _curn or (_row.get("domain") or "") in _curd:
+            continue
+        _cc5 = CNTRY_CC.get(_row.get("country"))
+        if not _cc5:
+            continue
+        _hits = (_mnd.get((_row.get("domain") or "").lower(), []) + _mnn.get(_nrm(_row["name"]), []))
+        _pp5, _cu5 = {}, {}
+        for _u6, _nm6, _r6, _l6 in _hits:
+            _p6 = _pp5.setdefault(_nm6, {"n": _nm6, "r": {}, "last": None})
+            _p6["r"][_u6] = max(_p6["r"].get(_u6, 0), _r6)
+            if _l6 and (not _p6["last"] or _l6 > _p6["last"]):
+                _p6["last"] = _l6
+        for _u6 in roster:
+            _it6 = [(_p6["r"].get(_u6, 0), 0.75) for _p6 in _pp5.values() if _p6["r"].get(_u6)]
+            if _it6:
+                _cu5[_u6] = _noisy_or(_it6)
+        _ct5 = _noisy_or([(max(_p6["r"].values(), default=0), 0.75) for _p6 in _pp5.values()])
+        aff_ents.append({"slug": "aff-" + _nrm(_row["name"])[:30], "name": _row["name"], "kind": "aff",
+                         "city": _row.get("city"), "cc": _cc5, "lc": _row.get("last_call"),
+                         "CT": _ct5, "cu": _cu5,
+                         "people": sorted(_pp5.values(), key=lambda p: -max(p["r"].values(), default=0))[:6]})
+
     _entnames = {e["name"].lower() for e in ents}
     _entppl = {p["n"].lower() for e in ents for p in e["people"]}
     people_in = {}
@@ -416,7 +459,7 @@ def build_covmap(regions, mynet, roster, load_json):
             people_in[_cc3][_u3] = sorted(people_in[_cc3][_u3], key=lambda x: -x["p"])[:30]
 
     return {
-        "vb": vbs, "peopleIn": people_in, "countries": countries, "regions": region_pts,
+        "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "countries": countries, "regions": region_pts,
         "ccent": {k: [round(v[0], 1), round(v[1], 1)] for k, v in ccent.items()},
         "cities": {c: [city_px[c][0], city_px[c][1]] for c in city_px},
         "zoomL1": round(zoom_l1, 2), "zoomL2": {k: round(v, 2) for k, v in zoom_l2.items()},
