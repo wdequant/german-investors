@@ -1138,5 +1138,805 @@
    }
   ],
   "headcount": 13
+ },
+ "inceptionfund.vc": {
+  "urn": "urn:harmonic:company:60998303",
+  "desc": "The company focuses on investing in early-stage AI companies, specifically targeting business-facing applications, infrastructure, foundation models, and deeptech solutions.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Oliver Molander",
+    "t": "Founder"
+   },
+   {
+    "n": "Caroline Cronstedt",
+    "t": "General Partner & CFO / COO"
+   }
+  ],
+  "headcount": 5
+ },
+ "j12ventures.com": {
+  "urn": "urn:harmonic:company:708608",
+  "desc": "The company focuses on supporting founders who develop software infrastructure aimed at enhancing data accessibility and creating AI applications across various sectors, including enterprise, consumer, and healthcare.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Luca Banderet",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Bo Mattsson",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Richard Thornton",
+    "t": "Operating Partner - GTM"
+   }
+  ],
+  "headcount": 10
+ },
+ "mudcake.com": {
+  "urn": "urn:harmonic:company:19152395",
+  "desc": "Mudcake focuses on investing in pre-seed startups that utilize science and technology to innovate within the food system, encompassing areas such as software, biotechnology, and climate technology.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Anna Ottosson",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 4
+ },
+ "nascent.se": {
+  "urn": "urn:harmonic:company:3100853",
+  "desc": "Nascent Invest is a specialized evergreen investor partnering with exceptional entrepreneurs in the nascent phases of their journeys.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Erik Gozzi",
+    "t": "Board member"
+   }
+  ],
+  "headcount": 2
+ },
+ "navigareventures.com": {
+  "urn": "urn:harmonic:company:4533084",
+  "desc": "Navigare Ventures focuses on investing in early-stage, science-driven companies, particularly in deep tech sectors such as advanced computing, quantum technologies, synthetic biology, and data-driven life sciences.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Alex Basu",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Fred Wallenberg",
+    "t": "Board Member"
+   },
+   {
+    "n": "David Sonnek",
+    "t": "Investment Director"
+   }
+  ],
+  "headcount": 10
+ },
+ "neptuniainvest.se": {
+  "urn": "urn:harmonic:company:3108375",
+  "desc": "Neptunia focuses on investments in sustainable and socially beneficial companies across sectors such as Real Estate, Finance, and Defence and Security, with a significant emphasis on real estate asset management and PropTech.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Johan Karlsson",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Gustav Niblaeus",
+    "t": "Acting CFO"
+   }
+  ],
+  "headcount": 7
+ },
+ "nordiccapital.com": {
+  "urn": "urn:harmonic:company:1528384",
+  "desc": "Nordic Capital specializes in private equity investments, focusing on operational improvement and long-term growth across sectors such as Healthcare, Technology & Payments, Financial Services, and Services & Industrial Tech.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Klas Tikkanen",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Jesper Söderberg",
+    "t": "Partner, Chief Financial Officer"
+   },
+   {
+    "n": "Mark Peacock",
+    "t": "Chief Technology Officer"
+   },
+   {
+    "n": "Victoria Janlow",
+    "t": "CFO Assistent"
+   },
+   {
+    "n": "Elin Ljung",
+    "t": "Chair"
+   },
+   {
+    "n": "Henrik Sandréus",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Martin Jacobsson",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Grant Eldred",
+    "t": "Partner, Chief Human Resources Officer"
+   },
+   {
+    "n": "Carmelo Coppola",
+    "t": null
+   },
+   {
+    "n": "Kanica Allagh",
+    "t": "SVP Finance"
+   }
+  ],
+  "headcount": 316
+ },
+ "rymdkapital.se": {
+  "urn": "urn:harmonic:company:10969595",
+  "desc": "Rymdkapital specializes in venture capital investments in space-related technologies and services, focusing on accelerating the commercialization of the space industry in the Nordic and European markets.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Ulf Palmnäs",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 3
+ },
+ "ssebl.com": {
+  "urn": "urn:harmonic:company:12785408",
+  "desc": "SSE Ventures operates as an early-stage venture capital fund that invests in startups through its Incubate program, providing them with capital, office space, and access to a network of investors and expertise.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Isabel Keulen",
+    "t": "Partner"
+   }
+  ],
+  "headcount": 11
+ },
+ "scania.com": {
+  "urn": "urn:harmonic:company:8130817",
+  "desc": "Scania's main product offerings include advanced powertrain systems for buses and trucks, such as the new 11-litre Super powertrain, which features plug-in hybrid capabilities and aims to achieve significant fuel savings and reduced emissions.",
+  "city": "Sodertalje",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Steve Coleman",
+    "t": "District General Manager"
+   },
+   {
+    "n": "Steve Lambert",
+    "t": "General Manager Used Bus & Coach (Scania Great Britain Ltd)"
+   },
+   {
+    "n": "Mark Wilson",
+    "t": "General Manager"
+   },
+   {
+    "n": "Anna Marie Pearson",
+    "t": "GM - Truck Rental"
+   },
+   {
+    "n": "Andy Gower",
+    "t": "General Manager"
+   },
+   {
+    "n": "Hans Hansson",
+    "t": "Senior vice president"
+   },
+   {
+    "n": "Andrea Mihalache",
+    "t": "CFO"
+   },
+   {
+    "n": "Robert Taylor",
+    "t": "General Manager - National Mining and Resources Division"
+   },
+   {
+    "n": "Johanna Lind",
+    "t": "Senior Vice President Head of Bus and Coach"
+   },
+   {
+    "n": "Christopher Podgorski",
+    "t": "Senior Vice President - Sales & Marketing - Trucks"
+   }
+  ],
+  "headcount": 23609
+ },
+ "sciety.com": {
+  "urn": "urn:harmonic:company:1537892",
+  "desc": "Sciety is a leading investment company, committed to supporting the growth of innovative life science and health tech companies in the Nordic region.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 22
+ },
+ "subvenioinvest.com": {
+  "urn": "urn:harmonic:company:9448925",
+  "desc": "Subvenio Invest is a venture capital firm investing in rapidly growing B2B software companies.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 6
+ },
+ "tigrim.com": {
+  "urn": "urn:harmonic:company:3327922",
+  "desc": "Tigrim is a statement, a feeling and a sense of belonging.",
+  "city": "Vaxjo",
+  "country": "Sweden",
+  "headcount": 3
+ },
+ "vnv.global": {
+  "urn": "urn:harmonic:company:687394",
+  "desc": "VNV Global focuses on investing in scalable technology companies that leverage network effects to create sustainable business models across various sectors, including marketplaces, mobility, and health and wellness.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Per Brilioth",
+    "t": "CEO"
+   },
+   {
+    "n": "Björn Von Sivers",
+    "t": "Senior Investment Director & CFO"
+   },
+   {
+    "n": "Anahita Zafari",
+    "t": "Interim Senior Financial Consultant"
+   },
+   {
+    "n": "Olga Golubeva",
+    "t": "University lecturer & researcher"
+   }
+  ],
+  "headcount": 16
+ },
+ "group.volvocars.com": {
+  "urn": "urn:harmonic:company:7879881",
+  "desc": "Volvo Cars focuses on developing a range of electric and hybrid vehicles, emphasizing safety, sustainability, and advanced mobility technologies.",
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "David Long",
+    "t": "General Manager"
+   },
+   {
+    "n": "Karin Thorn",
+    "t": "Vice President Vehicle Propulsion"
+   },
+   {
+    "n": "Viraj Thanissranont",
+    "t": "VP Commercial Operations"
+   },
+   {
+    "n": "Peter Horbury",
+    "t": "Vice President, Design"
+   },
+   {
+    "n": "Kazuo Takatori",
+    "t": "CFO"
+   },
+   {
+    "n": "Thomas Mengelkoch",
+    "t": "CFO, Deputy Managing Director"
+   },
+   {
+    "n": "Xingzhong Li",
+    "t": "Deputy General Manager"
+   },
+   {
+    "n": "Ingenlath Thomas",
+    "t": "Chief Design Officer Volvo Cars"
+   },
+   {
+    "n": "Harry Li",
+    "t": "Vice President, Procurement and Logistics, APAC"
+   },
+   {
+    "n": "Kjell-Åke Eriksson",
+    "t": "VP Purchasing, Indirect Material"
+   }
+  ],
+  "headcount": 31165
+ },
+ "wellstreet.se": {
+  "urn": "urn:harmonic:company:1543955",
+  "desc": "Wellstreet operates as an early-stage venture capital firm that focuses on supporting startups, particularly in the fintech sector, through resources and strategic partnerships.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Maria Lindholm",
+    "t": "Vice President, Management & Operations"
+   },
+   {
+    "n": "Maria Lindholm Isaksson",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Emma Torstenson",
+    "t": "Projektledare"
+   },
+   {
+    "n": "Evelina Anttila",
+    "t": "Founder & CEO"
+   },
+   {
+    "n": "Daniel Nowak",
+    "t": "Founder of FOR REAL! FOODS"
+   }
+  ],
+  "headcount": 17
+ },
+ "yanno.com": {
+  "urn": "urn:harmonic:company:52654157",
+  "desc": "The company specializes in investments across the Financial Services, Consumer Tech, and B2B Software sectors, focusing on scalable business models and sustainable business practices.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Nicklas Storåkers",
+    "t": "Member Board of Directors"
+   }
+  ],
+  "headcount": 4
+ },
+ "zenithvc.se": {
+  "urn": "urn:harmonic:company:1512761",
+  "desc": "Backing daring Nordic companies.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Caroline Cronstedt Fd. Nylund",
+    "t": "Co-founder & Head of Investments"
+   },
+   {
+    "n": "Caroline Cronstedt (Nee Nylund)",
+    "t": "Co-founder & Head of Investments"
+   },
+   {
+    "n": "Andreas Bladh",
+    "t": "Partner"
+   },
+   {
+    "n": "Erik Holmberg",
+    "t": "Consultant"
+   }
+  ],
+  "headcount": 9
+ },
+ "blqinvest.com": {
+  "urn": "urn:harmonic:company:3098267",
+  "desc": "BLQ Invest focuses on developing technology solutions aimed at supporting early-stage companies, particularly those navigating the challenges of the \"valley of death.\" Their approach involves a systematic refinement process to enhance the viability and profitability of these tech ventures.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 13
+ },
+ "askeladden.co": {
+  "urn": "urn:harmonic:company:3388498",
+  "desc": "Askeladden & Co develops a range of technology-driven solutions aimed at enhancing operational efficiency and accuracy for various industries, including an invoice verification tool that cross-references invoices with contracts and pricing history.",
+  "city": "Oslo",
+  "country": "Norway",
+  "team": [
+   {
+    "n": "Andreas Rokne",
+    "t": "Co-Founder and Partner"
+   },
+   {
+    "n": "Karl-Axel Hjorth Bauer",
+    "t": "Co-Founder and Chairman of the board"
+   },
+   {
+    "n": "Martin Schütt",
+    "t": "Co-founder & Managing Partner"
+   },
+   {
+    "n": "Martin Lycke",
+    "t": "CFO & Partner"
+   },
+   {
+    "n": "Frode Waage",
+    "t": "Sales Manager"
+   },
+   {
+    "n": "Lasse C. Smedsvig",
+    "t": "Co-Founder & Startup Manager"
+   }
+  ],
+  "headcount": 47
+ },
+ "agvinvest.se": {
+  "urn": "urn:harmonic:company:37056102",
+  "desc": "AGV Invest focuses on investing in real estate technology companies that aim to enhance sustainability and decarbonization within the industry, as well as improve net operating income.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Omid Noghabai",
+    "t": "Founder"
+   },
+   {
+    "n": "Felix Sandquist",
+    "t": "Chairman & Partner"
+   }
+  ],
+  "headcount": 3
+ },
+ "ampli.vc": {
+  "urn": "urn:harmonic:company:10982086",
+  "desc": "Our mission is to help the best SaaS teams in the Nordics to reach their full potential and contribute to the Nordics as a leading region for tomorrow's SaaS companies.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Hannah Meiton",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Adrian Iredahl",
+    "t": "Co-founder & Partner"
+   }
+  ],
+  "headcount": 3
+ },
+ "cninordic.com": {
+  "urn": "urn:harmonic:company:1490171",
+  "desc": "Growth investors since 2012.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Jin Siong Koay",
+    "t": "Vice President Operations"
+   },
+   {
+    "n": "Bruce Koblish",
+    "t": "CEO and Founder"
+   }
+  ],
+  "headcount": 18
+ },
+ "caddie.ventures": {
+  "urn": "urn:harmonic:company:3064133",
+  "desc": "Venture builders with a focus on scalable community-driven sports and lifestyle companies.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Anthony Ackenhoff",
+    "t": "Founder"
+   },
+   {
+    "n": "Mathew Cullen",
+    "t": "Venture Partner"
+   },
+   {
+    "n": "Andrew Clarke",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 2
+ },
+ "chalmersventures.com": {
+  "urn": "urn:harmonic:company:634319",
+  "desc": "Chalmers Ventures focuses on transforming breakthrough research into market-ready companies, primarily in the deep tech sector, by combining venture creation and investment.",
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Pontus Ottosson",
+    "t": "CEO & Head of Investments"
+   },
+   {
+    "n": "Jenny Dahlberg",
+    "t": "CFO"
+   },
+   {
+    "n": "Annica Anderson",
+    "t": "Chief Communications and Marketing Officer"
+   },
+   {
+    "n": "Gunnar Fernström",
+    "t": "Chairperson of the Board"
+   }
+  ],
+  "headcount": 30
+ },
+ "cc.vc": {
+  "urn": "urn:harmonic:company:4137142",
+  "desc": "Course Corrected VC is a venture capital firm that invests in early-stage companies developing climate-positive technologies, focusing on innovative solutions to combat climate change.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Christine Ahlstrand",
+    "t": "Founder and General Partner"
+   },
+   {
+    "n": "Katja Bergman",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 7
+ },
+ "dhsventurepartners.com": {
+  "urn": "urn:harmonic:company:1579545",
+  "desc": "We’re a group of 25 entrepreneurs, operators, and investors - collaborating as an angel group to empower founders early on.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Emmet King",
+    "t": "Co-founder"
+   },
+   {
+    "n": "Charlotte Strömberg",
+    "t": "Co Founder"
+   },
+   {
+    "n": "Caroline Rosén",
+    "t": "Co Founder, Venture Partner & Board Member"
+   },
+   {
+    "n": "Alexander Paterson Pochet",
+    "t": "Investment Manager"
+   },
+   {
+    "n": "Carl Klingberg",
+    "t": "Chairman of the Board"
+   },
+   {
+    "n": "Luca Banderet",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Lars Lindgren",
+    "t": "Investor"
+   }
+  ],
+  "headcount": 20
+ },
+ "e14invest.se": {
+  "urn": "urn:harmonic:company:59741417",
+  "desc": "E14 Invest operates as a co-investment company that targets scalable growth companies across Sweden, particularly in Norrland and along the E14 route, focusing on fostering entrepreneurship through sustainable investments.",
+  "city": "Are",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Kerstin Thun",
+    "t": "Medgrundare/Partner"
+   },
+   {
+    "n": "Christer Bois",
+    "t": "Board Member and Co-Founder"
+   },
+   {
+    "n": "Camilla Thunell",
+    "t": "Board Member & Co-founder"
+   },
+   {
+    "n": "Elisabeth Thand Ringqvist",
+    "t": "Co-Founder, member of board and investment committee"
+   }
+  ],
+  "headcount": 24
+ },
+ "easthillequity.com": {
+  "urn": "urn:harmonic:company:3102433",
+  "desc": "East Hill Equity focuses on investing in tech-enabled B2B solutions across various sectors, including mobility, industry, logistics, energy, and deep tech.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 5
+ },
+ "fairpoint.se": {
+  "urn": "urn:harmonic:company:1500917",
+  "desc": "Fairpoint Capital focuses on minority investments in early-stage B2B technology companies, emphasizing unique and scalable technologies across sectors such as AI, IoT, Cloud, Robotics, and Big Data.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Frederick Johansson",
+    "t": "CEO & Managing Partner"
+   },
+   {
+    "n": "Louise Pihl",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 9
+ },
+ "fasttrackmalmo.com": {
+  "urn": "urn:harmonic:company:673482",
+  "desc": "Fast Track Malmo provides a three-month accelerator program designed to assist startups in obtaining initial venture capital funding, offering €50k in investment as a convertible note.",
+  "city": "Malmo",
+  "country": "Sweden",
+  "headcount": 2
+ },
+ "flatcapital.com": {
+  "urn": "urn:harmonic:company:4070671",
+  "desc": "Flat Capital focuses on long-term investments in both public and private companies, utilizing a straightforward business model that emphasizes efficient capital allocation.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Nina Siemiatkowski",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Hanna Andreen (F.D Wachtmeister)",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Hanna Wachtmeister",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Antonio Melani",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Rickard El Tarzi",
+    "t": "CEO"
+   },
+   {
+    "n": "Björn Petersson",
+    "t": "CFO"
+   },
+   {
+    "n": "Hanna Andreen",
+    "t": "Investeringsansvarig"
+   }
+  ],
+  "headcount": 6
+ },
+ "florent.vc": {
+  "urn": "urn:harmonic:company:63607020",
+  "desc": "The company focuses on developing AI-driven solutions that enhance qualitative research through large-scale user interviews and employs patented technology to detect and mitigate fake content for various sectors, including government and enterprise.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Nolan Gray",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Mads Rydahl",
+    "t": "Partner and Chief Science Officer"
+   },
+   {
+    "n": "Christian Dorffer",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 7
+ },
+ "foundryventures.ai": {
+  "urn": "urn:harmonic:company:59402854",
+  "desc": "Early-Stage Investor | Focused on AI-Driven SaaS 2.0 | Partnering with Visionary Founders to Build Tomorrow's Critical Tech At Foundry, we are committed to identifying and backing visionary founders at the earliest stages of their journey.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 1
+ },
+ "framtid.tech": {
+  "urn": "urn:harmonic:company:6646818",
+  "desc": "Framtid is a collective of friends, entrepreneurs, investors and operators who are deeply passionate about building enduring companies.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Nick Dahl",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Kim Fai Kok",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Kim Fai Kok",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Dara Gill",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Zakaria Hersi",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Nick Dahl",
+    "t": "Director of Product"
+   }
+  ],
+  "headcount": 5
+ },
+ "greens.ventures": {
+  "urn": "urn:harmonic:company:4232928",
+  "desc": "Greens invests in Nordic pre-seed startups with founders who are alumni of Nordic Unicorns.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Simon Olson",
+    "t": "Founder and GP"
+   }
+  ],
+  "headcount": 1
+ },
+ "gungnir.vc": {
+  "urn": "urn:harmonic:company:63806959",
+  "desc": "Gungnir Capital focuses on investing in early-stage defence technologies, particularly in areas such as tactical autonomy, robotics, cyber and AI warfare, and intelligence, surveillance, and reconnaissance (ISR).",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Max Villman",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 6
+ },
+ "hmgroupventures.com": {
+  "urn": "urn:harmonic:company:3094518",
+  "desc": "H&M Group Ventures focuses on investing in startups and building joint ventures within the fashion industry, leveraging its expertise and global scale to enhance the growth of innovative ideas.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "headcount": 2
+ },
+ "healthcap.eu": {
+  "urn": "urn:harmonic:company:639953",
+  "desc": "HealthCap focuses on investing in and developing innovative therapies for diseases with high unmet medical needs, particularly in the areas of rare diseases, cancers, and genetic disorders.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Fabrice Bernhard",
+    "t": "General Manager"
+   },
+   {
+    "n": "Dale Hermes",
+    "t": "Director"
+   },
+   {
+    "n": "Billy Coleman",
+    "t": "Co-Founder - Partner"
+   }
+  ],
+  "headcount": 29
+ },
+ "inboxcap.com": {
+  "urn": "urn:harmonic:company:1516691",
+  "desc": "Inbox Capital is an investment company that focuses on financing and providing strategic advice to disruptive and fast-growing technology companies across various sectors, including Fintech, Medtech, E-sports, B2B SaaS, and Deep Social Networks.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "team": [
+   {
+    "n": "Markus Kitunen",
+    "t": "CEO"
+   }
+  ],
+  "headcount": 6
  }
 }
