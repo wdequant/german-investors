@@ -1,0 +1,1815 @@
+{
+ "10xfounders.com": {
+  "verdict": "fund",
+  "name": "10x Founders",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "10x.group": {
+  "verdict": "alias",
+  "alias_of": "10xfounders.com",
+  "note": "10x Group is the umbrella behind 10x Founders; the investing entity is 10x Founders"
+ },
+ "1kx.capital": {
+  "verdict": "fund",
+  "name": "1kx",
+  "type": "VC",
+  "stage": "Early",
+  "note": "crypto"
+ },
+ "22capital.vc": {
+  "verdict": "fund",
+  "name": "22 Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "single-GP entrepreneurial vehicle, pre-seed to Series B"
+ },
+ "42cap.com": {
+  "verdict": "fund",
+  "name": "42CAP",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "468cap.com": {
+  "verdict": "fund",
+  "name": "468 Capital",
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "abacon.capital": {
+  "verdict": "fund",
+  "name": "ABACON Capital",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Hamburg family office"
+ },
+ "actoncapital.com": {
+  "verdict": "fund",
+  "name": "Acton Capital",
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "adamwiggins.com": {
+  "verdict": "fund",
+  "name": "Adam Wiggins",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Heroku co-founder, active Berlin angel"
+ },
+ "adesso.vc": {
+  "verdict": "fund",
+  "name": "adesso ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "CVC of adesso SE"
+ },
+ "aenu.com": {
+  "verdict": "fund",
+  "name": "AENU",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate impact"
+ },
+ "ai-fund.vc": {
+  "verdict": "fund",
+  "name": "AI.FUND",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "careers.allianz.com": {
+  "verdict": "fund",
+  "name": "Allianz X",
+  "type": "CVC",
+  "stage": "Growth",
+  "note": "renamed from operating parent Allianz to its venture arm Allianz X"
+ },
+ "allygatr.com": {
+  "verdict": "fund",
+  "name": "allygatr",
+  "type": "VC",
+  "stage": "Early",
+  "note": "HR-tech operator VC"
+ },
+ "alpx-group.com": {
+  "verdict": "drop",
+  "note": "housing and renewables project developer, not an investing vehicle"
+ },
+ "alpinespace.vc": {
+  "verdict": "fund",
+  "name": "Alpine Space Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "space"
+ },
+ "alstin.capital": {
+  "verdict": "fund",
+  "name": "Alstin Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Carsten Maschmeyer"
+ },
+ "altitude-vc.com": {
+  "verdict": "fund",
+  "name": "āltitude",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "amathaon.com": {
+  "verdict": "fund",
+  "name": "Amathaon Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "agrifood"
+ },
+ "aminocollective.com": {
+  "verdict": "fund",
+  "name": "Amino Collective",
+  "type": "VC",
+  "stage": "Early",
+  "note": "health/bio"
+ },
+ "ananda.vc": {
+  "verdict": "fund",
+  "name": "Ananda Impact Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "angelinvest.ventures": {
+  "verdict": "fund",
+  "name": "Angel Invest",
+  "type": "VC",
+  "stage": "Early",
+  "note": "institutionalised angel fund, pre-seed"
+ },
+ "another.vc": {
+  "verdict": "fund",
+  "name": "another.vc",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "archimedesnewventures.de": {
+  "verdict": "fund",
+  "name": "Archimedes New Ventures",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Bielefeld family venture arm, early B2B/industrial"
+ },
+ "arise-accelerator.de": {
+  "verdict": "drop",
+  "note": "regional deep tech accelerator programme"
+ },
+ "armira.de": {
+  "verdict": "fund",
+  "name": "Armira",
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "arve.capital": {
+  "verdict": "fund",
+  "name": "Arve Capital",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "VC arm of a single family office, health focus"
+ },
+ "atlantic.vc": {
+  "verdict": "fund",
+  "name": "Atlantic Labs",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "atlantis-ventures.com": {
+  "verdict": "fund",
+  "name": "Atlantis Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "aurum-impact.de": {
+  "verdict": "fund",
+  "name": "Aurum Impact",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "impact vehicle of the Goldbeck family"
+ },
+ "auxxo.de": {
+  "verdict": "fund",
+  "name": "Auxxo Female Catalyst Fund",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "axelspringer.com": {
+  "verdict": "drop",
+  "note": "operating media parent; venture activity (APX) wound down, no active arm to map"
+ },
+ "basf.com": {
+  "verdict": "fund",
+  "name": "BASF Venture Capital",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "renamed from operating parent BASF to its venture arm"
+ },
+ "baybg.com": {
+  "verdict": "fund",
+  "name": "BayBG",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Bavarian Mittelstand and venture investor"
+ },
+ "bayernkapital.de": {
+  "verdict": "fund",
+  "name": "Bayern Kapital",
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "baystartup.de": {
+  "verdict": "drop",
+  "note": "startup network, business-plan competitions and angel network, not a fund"
+ },
+ "beiersdorfusa.com": {
+  "verdict": "alias",
+  "alias_of": "vc.beiersdorf.com",
+  "note": "Beiersdorf operating parent; venture arm Oscar & Paul has its own record"
+ },
+ "berlinangelfund.vc": {
+  "verdict": "fund",
+  "name": "Berlin Angel Fund",
+  "type": "Angel",
+  "stage": "Early"
+ },
+ "bertelsmann-investments.com": {
+  "verdict": "fund",
+  "name": "Bertelsmann Investments",
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "betterventures.io": {
+  "verdict": "fund",
+  "name": "better ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "impact"
+ },
+ "bitstone.capital": {
+  "verdict": "fund",
+  "name": "BitStone Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "proptech"
+ },
+ "blncapital.com": {
+  "verdict": "fund",
+  "name": "BLN Capital",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "directs of EUR 50-500k plus fund commitments"
+ },
+ "blockwall.vc": {
+  "verdict": "fund",
+  "name": "Blockwall",
+  "type": "VC",
+  "stage": "Early",
+  "note": "digital assets"
+ },
+ "blueimpact.de": {
+  "verdict": "fund",
+  "name": "Blue Impact",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate micro-fund"
+ },
+ "blueworld.group": {
+  "verdict": "fund",
+  "name": "blueworld.group",
+  "type": "Family Office",
+  "stage": "Growth"
+ },
+ "blueyard.com": {
+  "verdict": "fund",
+  "name": "BlueYard Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bm-t.de": {
+  "verdict": "fund",
+  "name": "bm-t",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Thuringia state investment manager"
+ },
+ "bmh-hessen.de": {
+  "verdict": "fund",
+  "name": "BMH Hessen",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "manages the Hessen Kapital funds"
+ },
+ "bonventure.de": {
+  "verdict": "fund",
+  "name": "BonVenture",
+  "type": "VC",
+  "stage": "Early",
+  "note": "social impact"
+ },
+ "booom.vc": {
+  "verdict": "fund",
+  "name": "BOOOM",
+  "type": "VC",
+  "stage": "Early",
+  "note": "pre-seed/seed B2B"
+ },
+ "bosch.com": {
+  "verdict": "alias",
+  "alias_of": "bosch.ventures",
+  "note": "Bosch operating parent; Bosch Ventures has its own record"
+ },
+ "bosch.ventures": {
+  "verdict": "fund",
+  "name": "Bosch Ventures",
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "bpo.vc": {
+  "verdict": "fund",
+  "name": "BPO Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "brandenburg-kapital.de": {
+  "verdict": "fund",
+  "name": "Brandenburg Kapital",
+  "type": "State",
+  "stage": "Early"
+ },
+ "bryck.com": {
+  "verdict": "drop",
+  "note": "RAG-Stiftung-backed startup hub and accelerator"
+ },
+ "buildery.vc": {
+  "verdict": "fund",
+  "name": "Buildery",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "pools angels into a single SPV per deal"
+ },
+ "burdaprincipalinvestments.com": {
+  "verdict": "fund",
+  "name": "Burda Principal Investments",
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "bacb.de": {
+  "verdict": "drop",
+  "note": "angel club (e.V.)"
+ },
+ "caesar.vc": {
+  "verdict": "fund",
+  "name": "caesar.",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "capacura.de": {
+  "verdict": "fund",
+  "name": "capacura",
+  "type": "VC",
+  "stage": "Early",
+  "note": "impact micro-tickets"
+ },
+ "cmont.vc": {
+  "verdict": "fund",
+  "name": "Capmont",
+  "type": "VC",
+  "stage": "Early",
+  "note": "DuMont family-backed"
+ },
+ "capnamic.com": {
+  "verdict": "fund",
+  "name": "Capnamic",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cdtm-ventures.com": {
+  "verdict": "fund",
+  "name": "CDTM Venture Fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "CDTM alumni micro-fund"
+ },
+ "cherry.vc": {
+  "verdict": "fund",
+  "name": "Cherry Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "collective-ventures.de": {
+  "verdict": "fund",
+  "name": "Collective Ventures",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "co-investment syndicate"
+ },
+ "combination.vc": {
+  "verdict": "fund",
+  "name": "Combination VC",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "commerzventures.com": {
+  "verdict": "fund",
+  "name": "CommerzVentures",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Commerzbank fintech CVC"
+ },
+ "companion-m.com": {
+  "verdict": "drop",
+  "note": "cross-asset management and personal-branding advisory; investing incidental"
+ },
+ "companisto.com": {
+  "verdict": "drop",
+  "note": "crowdinvesting platform and angel network, not a fund"
+ },
+ "cventures.vc": {
+  "verdict": "fund",
+  "name": "Contrarian Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate; HQ Vilnius with Berlin presence"
+ },
+ "coparion.vc": {
+  "verdict": "fund",
+  "name": "coparion",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "ERP/KfW co-investment fund"
+ },
+ "cuspcapital.com": {
+  "verdict": "fund",
+  "name": "Cusp Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "d11z.com": {
+  "verdict": "fund",
+  "name": "D11Z. Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "dbschenker.com": {
+  "verdict": "alias",
+  "alias_of": "schenker-ventures.com",
+  "note": "DB Schenker operating parent; Schenker Ventures has its own record"
+ },
+ "dtcf.de": {
+  "verdict": "fund",
+  "name": "DeepTech & Climate Fonds",
+  "type": "State",
+  "stage": "Growth",
+  "note": "federal fund, Series A+"
+ },
+ "db.com": {
+  "verdict": "drop",
+  "note": "operating bank; no dedicated venture arm record"
+ },
+ "deutsche-boerse.com": {
+  "verdict": "fund",
+  "name": "DB1 Ventures",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "renamed from operating parent Deutsche Börse to its CVC DB1 Ventures"
+ },
+ "telekom.com": {
+  "verdict": "alias",
+  "alias_of": "dtcp.capital",
+  "note": "per canonical mapping to DTCP; note DT's in-house arm T.Capital also has its own record"
+ },
+ "dvhventures.de": {
+  "verdict": "fund",
+  "name": "DvH Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "discovery-ventures.com": {
+  "verdict": "fund",
+  "name": "Discovery Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "dna-ventures.com": {
+  "verdict": "drop",
+  "note": "industrial tech advisory plus grant consulting; investing incidental"
+ },
+ "dtcp.capital": {
+  "verdict": "fund",
+  "name": "DTCP",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "spun out of Deutsche Telekom"
+ },
+ "earlybird.com": {
+  "verdict": "fund",
+  "name": "Earlybird Venture Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ecapital.vc": {
+  "verdict": "fund",
+  "name": "eCAPITAL",
+  "type": "VC",
+  "stage": "Early",
+  "note": "deep tech, Münster"
+ },
+ "ecbf.vc": {
+  "verdict": "fund",
+  "name": "ECBF",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "circular bioeconomy"
+ },
+ "eithealth.eu": {
+  "verdict": "drop",
+  "note": "EU institute programme, not a fund"
+ },
+ "env.vc": {
+  "verdict": "fund",
+  "name": "EnBW New Ventures",
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "encourage-ventures.com": {
+  "verdict": "drop",
+  "note": "female angel network (e.V.)"
+ },
+ "enjoyventure.vc": {
+  "verdict": "fund",
+  "name": "EnjoyVenture",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "enpulse.io": {
+  "verdict": "drop",
+  "note": "EnBW incubation unit; the fund is EnBW New Ventures (env.vc)"
+ },
+ "enugget-ventures.com": {
+  "verdict": "drop",
+  "note": "one-person SaaS coaching outfit"
+ },
+ "wahlforss.com": {
+  "verdict": "fund",
+  "name": "Eric Quidenus-Wahlforss",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "SoundCloud co-founder, active Berlin angel"
+ },
+ "esa-bic.de": {
+  "verdict": "drop",
+  "note": "ESA incubation programme"
+ },
+ "esor.investments": {
+  "verdict": "drop",
+  "note": "low-profile holding with a services arm; borderline personal holding page"
+ },
+ "ewor.com": {
+  "verdict": "fund",
+  "name": "EWOR",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "investing fellowship, writes six-figure cheques"
+ },
+ "exist.de": {
+  "verdict": "drop",
+  "note": "government grant scheme"
+ },
+ "expedite.ventures": {
+  "verdict": "fund",
+  "name": "Expedite Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "extantia.com": {
+  "verdict": "fund",
+  "name": "Extantia",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate"
+ },
+ "f-log.vc": {
+  "verdict": "fund",
+  "name": "F-LOG Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "FIEGE-backed logistics VC"
+ },
+ "fadelia.de": {
+  "verdict": "fund",
+  "name": "fadelia Investments",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "micro B2B SaaS vehicle, Leipzig"
+ },
+ "feast.ventures": {
+  "verdict": "fund",
+  "name": "Feast Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "agrifoodtech"
+ },
+ "bundeswirtschaftsministerium.de": {
+  "verdict": "drop",
+  "note": "federal ministry"
+ },
+ "fiege.com": {
+  "verdict": "alias",
+  "alias_of": "f-log.vc",
+  "note": "FIEGE operating parent; logistics venture arm F-LOG Ventures has its own record"
+ },
+ "finlab.de": {
+  "verdict": "alias",
+  "alias_of": "heliad.com",
+  "note": "FinLab merged into Heliad"
+ },
+ "firstmomentum.vc": {
+  "verdict": "fund",
+  "name": "First Momentum Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "deep tech pre-seed, Karlsruhe"
+ },
+ "flagshipfounders.com": {
+  "verdict": "fund",
+  "name": "Flagship Founders",
+  "type": "Other",
+  "stage": "Early",
+  "note": "maritime venture studio"
+ },
+ "flash.vc": {
+  "verdict": "fund",
+  "name": "Flash Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Rocket-affiliated studio fund"
+ },
+ "flixbus.com": {
+  "verdict": "drop",
+  "note": "operating mobility company, mis-kinded as investor"
+ },
+ "fly.vc": {
+  "verdict": "fund",
+  "name": "Fly Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "foodlabs.com": {
+  "verdict": "fund",
+  "name": "FoodLabs",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "foundamental.com": {
+  "verdict": "fund",
+  "name": "Foundamental",
+  "type": "VC",
+  "stage": "Early",
+  "note": "construction tech"
+ },
+ "founderlake.com": {
+  "verdict": "drop",
+  "note": "co-founder matching service, not a fund"
+ },
+ "freigeist.com": {
+  "verdict": "fund",
+  "name": "Freigeist Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Frank Thelen"
+ },
+ "fev.vc": {
+  "verdict": "fund",
+  "name": "Future Energy Ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "E.ON-anchored"
+ },
+ "futurycapital.vc": {
+  "verdict": "fund",
+  "name": "Futury Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "gfund.vc": {
+  "verdict": "fund",
+  "name": "G-FUND",
+  "type": "VC",
+  "stage": "Early",
+  "note": "consumer"
+ },
+ "germanaccelerator.com": {
+  "verdict": "drop",
+  "note": "government-backed accelerator programme"
+ },
+ "getfund.eu": {
+  "verdict": "fund",
+  "name": "GET Fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate deep tech"
+ },
+ "ggf.vc": {
+  "verdict": "fund",
+  "name": "Green Generation Fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "foodtech/greentech"
+ },
+ "gi-de.com": {
+  "verdict": "fund",
+  "name": "G+D Ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "renamed from operating parent Giesecke+Devrient to its CVC"
+ },
+ "globalfounderscapital.com": {
+  "verdict": "fund",
+  "name": "Global Founders Capital",
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "germanmediapool.com": {
+  "verdict": "fund",
+  "name": "GMPVC German Media Pool",
+  "type": "Other",
+  "stage": "Early",
+  "note": "media-for-equity fund"
+ },
+ "gnosis.io": {
+  "verdict": "drop",
+  "note": "operating crypto organisation; ecosystem investing only"
+ },
+ "goodface.capital": {
+  "verdict": "drop",
+  "note": "fundraising advisory and network, not a fund"
+ },
+ "gr.capital": {
+  "verdict": "fund",
+  "name": "GR Capital",
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "greenfieldcapital.com": {
+  "verdict": "fund",
+  "name": "Greenfield",
+  "type": "VC",
+  "stage": "Early",
+  "note": "crypto"
+ },
+ "gruenderfonds-ruhr.com": {
+  "verdict": "fund",
+  "name": "Gründerfonds Ruhr",
+  "type": "State",
+  "stage": "Early",
+  "note": "NRW regional seed fund"
+ },
+ "gvkommunikation.de": {
+  "verdict": "drop",
+  "note": "mis-mapped record: gvkommunikation.de is a communications agency, not GV/Google Ventures"
+ },
+ "ifbhh.de": {
+  "verdict": "alias",
+  "alias_of": "innovationsstarter.com",
+  "note": "IFB Hamburg state bank; VC arm IFB Innovationsstarter has its own record"
+ },
+ "haniel.de": {
+  "verdict": "fund",
+  "name": "Haniel",
+  "type": "Family Office",
+  "stage": "Growth",
+  "note": "family holding with direct growth investments"
+ },
+ "healcapital.com": {
+  "verdict": "fund",
+  "name": "Heal Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "healthtech, PKV-backed"
+ },
+ "heartfelt.vc": {
+  "verdict": "fund",
+  "name": "HEARTFELT_",
+  "type": "VC",
+  "stage": "Early",
+  "note": "pre-seed cheques of EUR 100-400k; Harmonic headcount polluted"
+ },
+ "heliad.com": {
+  "verdict": "fund",
+  "name": "Heliad",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "listed evergreen investor, absorbed FinLab"
+ },
+ "henkel.com": {
+  "verdict": "alias",
+  "alias_of": "henkel-ventures.com",
+  "note": "Henkel operating parent; Henkel Ventures has its own record"
+ },
+ "henkel-ventures.com": {
+  "verdict": "fund",
+  "name": "Henkel Ventures",
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "hessen-kapital.de": {
+  "verdict": "alias",
+  "alias_of": "bmh-hessen.de",
+  "note": "Hessen Kapital funds are managed by BMH"
+ },
+ "hitachi-ventures.com": {
+  "verdict": "fund",
+  "name": "Hitachi Ventures",
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "hpi.de": {
+  "verdict": "drop",
+  "note": "university institute programme (HPI Maker Universe)"
+ },
+ "hpiventures.com": {
+  "verdict": "fund",
+  "name": "HPI Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Hasso Plattner Institute-affiliated"
+ },
+ "htgf.de": {
+  "verdict": "fund",
+  "name": "HTGF",
+  "type": "State",
+  "stage": "Early",
+  "note": "public-private seed fund"
+ },
+ "burda.com": {
+  "verdict": "alias",
+  "alias_of": "burdaprincipalinvestments.com",
+  "note": "Hubert Burda Media operating parent; Burda Principal Investments has its own record"
+ },
+ "hvcapital.com": {
+  "verdict": "fund",
+  "name": "HV Capital",
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "ibbventures.de": {
+  "verdict": "fund",
+  "name": "IBB Ventures",
+  "type": "State",
+  "stage": "Early"
+ },
+ "ibg-vc.de": {
+  "verdict": "fund",
+  "name": "IBG Beteiligungsgesellschaft",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Saxony-Anhalt"
+ },
+ "innovationsstarter.com": {
+  "verdict": "fund",
+  "name": "IFB Innovationsstarter",
+  "type": "State",
+  "stage": "Early",
+  "note": "Hamburg seed fund"
+ },
+ "inflection.xyz": {
+  "verdict": "fund",
+  "name": "Inflection",
+  "type": "VC",
+  "stage": "Early",
+  "note": "crypto"
+ },
+ "industrialinnovators.eu": {
+  "verdict": "drop",
+  "note": "EIT programme"
+ },
+ "mb-styleguide.webfox01.net": {
+  "verdict": "drop",
+  "note": "Innogy Innovation Hub defunct (innogy absorbed by E.ON); junk domain"
+ },
+ "insurlab-germany.com": {
+  "verdict": "drop",
+  "note": "industry initiative and accelerator"
+ },
+ "interfacecap.com": {
+  "verdict": "fund",
+  "name": "Interface Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ibb.de": {
+  "verdict": "alias",
+  "alias_of": "ibbventures.de",
+  "note": "Investitionsbank Berlin state bank; IBB Ventures has its own record"
+ },
+ "ilb.de": {
+  "verdict": "alias",
+  "alias_of": "brandenburg-kapital.de",
+  "note": "ILB state bank; Brandenburg Kapital has its own record"
+ },
+ "jale.vc": {
+  "verdict": "fund",
+  "name": "JALE",
+  "type": "PE",
+  "stage": null,
+  "note": "digital turnaround and restructuring investor"
+ },
+ "join.capital": {
+  "verdict": "fund",
+  "name": "Join Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "july.fund": {
+  "verdict": "fund",
+  "name": "July Fund",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "june.fund": {
+  "verdict": "fund",
+  "name": "June Fund",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "kfw.de": {
+  "verdict": "fund",
+  "name": "KfW Capital",
+  "type": "State",
+  "stage": null,
+  "note": "renamed from parent KfW; fund-of-funds, directs run via coparion"
+ },
+ "kizoo.com": {
+  "verdict": "fund",
+  "name": "Kizoo Technology Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "longevity/rejuvenation"
+ },
+ "kopa.vc": {
+  "verdict": "fund",
+  "name": "kopa ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "l-bank.info": {
+  "verdict": "drop",
+  "note": "state development bank; venture exposure via MBG BW"
+ },
+ "lafamiglia.vc": {
+  "verdict": "fund",
+  "name": "La Famiglia",
+  "type": "VC",
+  "stage": "Early",
+  "note": "merged into General Catalyst in 2023"
+ },
+ "lbbw.de": {
+  "verdict": "alias",
+  "alias_of": "lbbwvc.de",
+  "note": "LBBW operating bank; LBBW Venture Capital has its own record"
+ },
+ "lbbwvc.de": {
+  "verdict": "fund",
+  "name": "LBBW Venture Capital",
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "leapartners.de": {
+  "verdict": "fund",
+  "name": "LEA Partners",
+  "type": "PE",
+  "stage": "Multi-Stage",
+  "note": "software PE with VC arm"
+ },
+ "leblon-capital.com": {
+  "verdict": "fund",
+  "name": "Leblon Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "sector-agnostic, deep tech leaning (Palantir, Zipline)"
+ },
+ "lightfield-equity.com": {
+  "verdict": "fund",
+  "name": "Lightfield Equity",
+  "type": "Family Office",
+  "stage": "Early"
+ },
+ "lindencapital.de": {
+  "verdict": "drop",
+  "note": "M&A and fundraising advisory, not a fund"
+ },
+ "lioncorncapital.com": {
+  "verdict": "fund",
+  "name": "LionCorn Capital",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Lisa Gradow and Daniel Reimann-Dubbers"
+ },
+ "loric.vc": {
+  "verdict": "fund",
+  "name": "Loric Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "solo micro VC"
+ },
+ "lucidcap.co": {
+  "verdict": "fund",
+  "name": "Lucid Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "lunar.vc": {
+  "verdict": "fund",
+  "name": "Lunar Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "deep tech"
+ },
+ "mgntc.com": {
+  "verdict": "fund",
+  "name": "Magnetic",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "maetch.vc": {
+  "verdict": "fund",
+  "name": "Mätch VC",
+  "type": "VC",
+  "stage": "Early",
+  "note": "backed by BW family businesses"
+ },
+ "matterwave.vc": {
+  "verdict": "fund",
+  "name": "Matterwave Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mayventures.vc": {
+  "verdict": "fund",
+  "name": "May Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mbg-bw.ermoeglicher.de": {
+  "verdict": "fund",
+  "name": "MBG Baden-Württemberg",
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "mig.ag": {
+  "verdict": "fund",
+  "name": "MIG Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mobility.fund": {
+  "verdict": "fund",
+  "name": "MobilityFund",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "monkfish-equity.com": {
+  "verdict": "fund",
+  "name": "Monkfish Equity",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "trivago founders' vehicle"
+ },
+ "muellerx.net": {
+  "verdict": "drop",
+  "note": "Müller Medien media services group, not a fund"
+ },
+ "nap.vc": {
+  "verdict": "fund",
+  "name": "NAP",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "naturalx.vc": {
+  "verdict": "fund",
+  "name": "naturalX Health Ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Schwabe Group"
+ },
+ "nca.vc": {
+  "verdict": "drop",
+  "note": "venture-client advisory connecting startups and corporates, not a fund"
+ },
+ "main-incubator.com": {
+  "verdict": "fund",
+  "name": "neosfer",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Commerzbank early-stage arm, separate from CommerzVentures"
+ },
+ "neoteq.de": {
+  "verdict": "fund",
+  "name": "neoteq ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "newforge.de": {
+  "verdict": "fund",
+  "name": "New Forge",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "next-mannheim.de": {
+  "verdict": "drop",
+  "note": "municipal startup support organisation"
+ },
+ "nextmobilitylabs.com": {
+  "verdict": "fund",
+  "name": "Next Mobility Labs",
+  "type": "Other",
+  "stage": "Early",
+  "note": "mobility venture studio"
+ },
+ "nordwindgrowth.de": {
+  "verdict": "fund",
+  "name": "Nordwind Growth",
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "nrwbank.de": {
+  "verdict": "fund",
+  "name": "NRW.BANK",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "state bank with direct venture funds"
+ },
+ "nucleus-capital.com": {
+  "verdict": "fund",
+  "name": "Nucleus Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "synbio/climate"
+ },
+ "occident.group": {
+  "verdict": "fund",
+  "name": "OCCIDENT",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "deep tech"
+ },
+ "ohb-vc.de": {
+  "verdict": "fund",
+  "name": "OHB Venture Capital",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "space"
+ },
+ "omr.com": {
+  "verdict": "drop",
+  "note": "media and events company"
+ },
+ "omrx.de": {
+  "verdict": "drop",
+  "note": "OMR startup media vertical, not a fund"
+ },
+ "vc.beiersdorf.com": {
+  "verdict": "fund",
+  "name": "Oscar & Paul (Beiersdorf Ventures)",
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "oysterbay.vc": {
+  "verdict": "fund",
+  "name": "Oyster Bay Venture Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "foodtech"
+ },
+ "paceventures.com": {
+  "verdict": "fund",
+  "name": "Pace Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "health and industrial tech"
+ },
+ "partners-in-clime.com": {
+  "verdict": "fund",
+  "name": "Partners in Clime",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "climate syndicate platform"
+ },
+ "prptl.com": {
+  "verdict": "fund",
+  "name": "Perpetual Investors",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "multi-family-office / advisory hybrid"
+ },
+ "pesca-equitypartners.com": {
+  "verdict": "fund",
+  "name": "Pesca Equity Partners",
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "picuscap.com": {
+  "verdict": "fund",
+  "name": "Picus Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "planet-a.com": {
+  "verdict": "fund",
+  "name": "Planet A Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate"
+ },
+ "pointnine.com": {
+  "verdict": "fund",
+  "name": "Point Nine",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "porsche.ventures": {
+  "verdict": "fund",
+  "name": "Porsche Ventures",
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "possible.ventures": {
+  "verdict": "fund",
+  "name": "Possible Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "prequelvc.com": {
+  "verdict": "fund",
+  "name": "Prequel Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "industrial operating system thesis"
+ },
+ "primepulse.com": {
+  "verdict": "fund",
+  "name": "PRIMEPULSE",
+  "type": "Family Office",
+  "stage": "Growth",
+  "note": "CANCOM founders' tech holding"
+ },
+ "princeville-capital.com": {
+  "verdict": "fund",
+  "name": "Princeville Capital",
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "project-a.vc": {
+  "verdict": "fund",
+  "name": "Project A",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "proveg.org": {
+  "verdict": "drop",
+  "note": "NGO with incubator programme"
+ },
+ "pt1.vc": {
+  "verdict": "fund",
+  "name": "PT1",
+  "type": "VC",
+  "stage": "Early",
+  "note": "proptech"
+ },
+ "purpleorange.com": {
+  "verdict": "fund",
+  "name": "Purple Orange Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "synbio"
+ },
+ "puzzle-ventures.com": {
+  "verdict": "fund",
+  "name": "Puzzle Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "EUR 21.5M B2B software fund"
+ },
+ "pwc.de": {
+  "verdict": "drop",
+  "note": "professional services firm"
+ },
+ "quickcoffee.vc": {
+  "verdict": "drop",
+  "note": "podcast, not a fund"
+ },
+ "realyzeventures.com": {
+  "verdict": "fund",
+  "name": "Realyze Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "proptech"
+ },
+ "redstone.vc": {
+  "verdict": "fund",
+  "name": "Redstone",
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "reimann-investors.com": {
+  "verdict": "fund",
+  "name": "Reimann Investors",
+  "type": "Family Office",
+  "stage": "Multi-Stage"
+ },
+ "rentenbank.de": {
+  "verdict": "drop",
+  "note": "agricultural development bank"
+ },
+ "rethinkventures.com": {
+  "verdict": "fund",
+  "name": "Rethink Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "mobility/logistics specialist"
+ },
+ "revent.vc": {
+  "verdict": "fund",
+  "name": "Revent",
+  "type": "VC",
+  "stage": "Early",
+  "note": "impact"
+ },
+ "rheingau-founders.com": {
+  "verdict": "fund",
+  "name": "Rheingau Founders",
+  "type": "VC",
+  "stage": "Early",
+  "note": "company builder"
+ },
+ "rvv.tv": {
+  "verdict": "drop",
+  "note": "one-person investment and advisory vehicle"
+ },
+ "rivuscapital.com": {
+  "verdict": "fund",
+  "name": "Rivus Capital",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "impact SME investor"
+ },
+ "robincap.com": {
+  "verdict": "fund",
+  "name": "Robin Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "solo GP (Robin Haak)"
+ },
+ "rocket-internet.com": {
+  "verdict": "fund",
+  "name": "Rocket Internet",
+  "type": "Other",
+  "stage": "Multi-Stage",
+  "note": "listed holding and venture builder"
+ },
+ "root.camp": {
+  "verdict": "drop",
+  "note": "agtech accelerator (SpinLab/K+S)"
+ },
+ "rtaventures.com": {
+  "verdict": "fund",
+  "name": "RTAventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "digital health"
+ },
+ "saasgarage.com": {
+  "verdict": "fund",
+  "name": "SaaSgarage",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "solo pre-seed SaaS angel fund"
+ },
+ "sb21.de": {
+  "verdict": "fund",
+  "name": "SB21",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Berlin founder angel collective"
+ },
+ "scalehouse-capital.com": {
+  "verdict": "fund",
+  "name": "SCALEHOUSE Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "B2B SaaS, Osnabrück"
+ },
+ "schaeffler.com": {
+  "verdict": "drop",
+  "note": "industrial parent, no prominent venture arm"
+ },
+ "schenker-ventures.com": {
+  "verdict": "fund",
+  "name": "Schenker Ventures",
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "jobs.schwarz": {
+  "verdict": "fund",
+  "name": "Schwarz Group",
+  "type": "CVC",
+  "stage": "Growth",
+  "note": "Lidl/Kaufland parent; large strategic balance-sheet investments (e.g. Aleph Alpha); record domain is its services entity"
+ },
+ "scne.io": {
+  "verdict": "drop",
+  "note": "Berlin community amplifier, no evident fund"
+ },
+ "seedandspeed.com": {
+  "verdict": "fund",
+  "name": "seed + speed Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Maschmeyer seed vehicle"
+ },
+ "seedsofbravery.eu": {
+  "verdict": "drop",
+  "note": "EU programme"
+ },
+ "segeniacapital.com": {
+  "verdict": "fund",
+  "name": "Segenia Capital",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "directs plus fund investments"
+ },
+ "senovo.vc": {
+  "verdict": "fund",
+  "name": "Senovo",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "shiocap.com": {
+  "verdict": "fund",
+  "name": "Shio Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "consumer and F&B"
+ },
+ "signals.vc": {
+  "verdict": "fund",
+  "name": "Signals Venture Capital",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "SIGNAL IDUNA"
+ },
+ "signatureventures.com": {
+  "verdict": "fund",
+  "name": "Signature Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "crypto/deep tech"
+ },
+ "siliconallee.com": {
+  "verdict": "drop",
+  "note": "community and media organisation"
+ },
+ "simoncapital.com": {
+  "verdict": "fund",
+  "name": "Simon Capital",
+  "type": "Family Office",
+  "stage": "Multi-Stage"
+ },
+ "sino.de": {
+  "verdict": "drop",
+  "note": "listed broker; Trade Republic stake incidental to operating business"
+ },
+ "siventures.de": {
+  "verdict": "fund",
+  "name": "SIVentures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Leipzig"
+ },
+ "spacefounders.eu": {
+  "verdict": "drop",
+  "note": "space accelerator programme"
+ },
+ "spacewalk.vc": {
+  "verdict": "fund",
+  "name": "Spacewalk VC",
+  "type": "VC",
+  "stage": "Early",
+  "note": "deep tech with in-house R&D"
+ },
+ "sparkasse-dortmund.de": {
+  "verdict": "drop",
+  "note": "savings bank"
+ },
+ "spinlab.co": {
+  "verdict": "drop",
+  "note": "accelerator"
+ },
+ "sprind.org": {
+  "verdict": "drop",
+  "note": "federal agency for breakthrough innovation; grant-based"
+ },
+ "springboardangels.com": {
+  "verdict": "drop",
+  "note": "angel club"
+ },
+ "squareone.vc": {
+  "verdict": "fund",
+  "name": "SquareOne",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "startupbw.de": {
+  "verdict": "drop",
+  "note": "state programme"
+ },
+ "statkraftventures.com": {
+  "verdict": "fund",
+  "name": "Statkraft Ventures",
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "summiteer.com": {
+  "verdict": "drop",
+  "note": "operating in-vehicle content company, mis-kinded as investor"
+ },
+ "sunfish-partners.com": {
+  "verdict": "fund",
+  "name": "Sunfish Partners",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Polish deep tech from Berlin"
+ },
+ "superangels.fund": {
+  "verdict": "fund",
+  "name": "superangels",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "angel co-investment fund"
+ },
+ "systemone.vc": {
+  "verdict": "fund",
+  "name": "System.One",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "t.capital": {
+  "verdict": "fund",
+  "name": "T.Capital",
+  "type": "CVC",
+  "stage": "Growth",
+  "note": "Deutsche Telekom's in-house arm; DTCP is separate"
+ },
+ "taventures.vc": {
+  "verdict": "fund",
+  "name": "TA Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "targetglobal.vc": {
+  "verdict": "fund",
+  "name": "Target Global",
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "techfounders.com": {
+  "verdict": "drop",
+  "note": "UnternehmerTUM accelerator programme"
+ },
+ "tengelmann-ventures.com": {
+  "verdict": "fund",
+  "name": "Tengelmann Ventures",
+  "type": "Family Office",
+  "stage": "Multi-Stage"
+ },
+ "thedelta.io": {
+  "verdict": "drop",
+  "note": "venture-studio-as-a-service, not a fund"
+ },
+ "tomcat.vc": {
+  "verdict": "fund",
+  "name": "TomCat Ventures",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "personal vehicle"
+ },
+ "truegrowth.de": {
+  "verdict": "fund",
+  "name": "True Growth Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "tickets of EUR 100-500k"
+ },
+ "tsventures.io": {
+  "verdict": "fund",
+  "name": "TS Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "fttf.vc": {
+  "verdict": "fund",
+  "name": "FTTF | Fraunhofer Technology Transfer Fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Fraunhofer spin-offs; CRM name TT49 / FTTF"
+ },
+ "tvf.vc": {
+  "verdict": "fund",
+  "name": "TVF TechVision Fonds",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Aachen/NRW regional"
+ },
+ "unifier.vc": {
+  "verdict": "drop",
+  "note": "Europe-Southeast Asia bridge platform, not a fund"
+ },
+ "unternehmertum.de": {
+  "verdict": "alias",
+  "alias_of": "uvcpartners.com",
+  "note": "UnternehmerTUM centre; its VC fund UVC Partners has its own record"
+ },
+ "accelerator.unternehmertum.de": {
+  "verdict": "drop",
+  "note": "accelerator programme (formerly XPRENEURS)"
+ },
+ "funding.unternehmertum.de": {
+  "verdict": "drop",
+  "note": "funding-support programme, not a fund"
+ },
+ "up2b.io": {
+  "verdict": "drop",
+  "note": "accelerator"
+ },
+ "uvcpartners.com": {
+  "verdict": "fund",
+  "name": "UVC Partners",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vanagon.vc": {
+  "verdict": "fund",
+  "name": "Vanagon",
+  "type": "VC",
+  "stage": "Early",
+  "note": "frontier tech"
+ },
+ "ascory-bank.de": {
+  "verdict": "drop",
+  "note": "operating bank (Varengold/Ascory)"
+ },
+ "vealoventures.com": {
+  "verdict": "fund",
+  "name": "Vealo Ventures",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "solo early-stage holding since 2014"
+ },
+ "vent.io": {
+  "verdict": "drop",
+  "note": "Deutsche Leasing digital subsidiary, not a fund"
+ },
+ "ventis.capital": {
+  "verdict": "fund",
+  "name": "VENTIS CAPITAL",
+  "type": "Family Office",
+  "stage": null,
+  "note": "low confidence: Harmonic domain record mis-mapped (shows INLEAP); small Ingolstadt vehicle"
+ },
+ "venture-stars.com": {
+  "verdict": "fund",
+  "name": "Venture Stars",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vireo.vc": {
+  "verdict": "fund",
+  "name": "Vireo Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "electrification"
+ },
+ "visionariesclub.vc": {
+  "verdict": "fund",
+  "name": "Visionaries Club",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "seed and growth vehicles"
+ },
+ "tomorrow.vc": {
+  "verdict": "alias",
+  "alias_of": "visionariesclub.vc",
+  "note": "Visionaries Tomorrow is Visionaries Club's deep tech vehicle"
+ },
+ "volkswagen-konzern.net": {
+  "verdict": "drop",
+  "note": "operating parent, no active CVC record"
+ },
+ "vorwerkventures.com": {
+  "verdict": "fund",
+  "name": "Vorwerk Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vr-ventures.vc": {
+  "verdict": "fund",
+  "name": "VR Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Redstone-managed, VR banks as LPs"
+ },
+ "vsquared.vc": {
+  "verdict": "fund",
+  "name": "Vsquared Ventures",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "w3.fund": {
+  "verdict": "fund",
+  "name": "w3.fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "web3"
+ },
+ "wellington-partners.com": {
+  "verdict": "fund",
+  "name": "Wellington Partners",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "life sciences"
+ },
+ "wenvest.capital": {
+  "verdict": "fund",
+  "name": "WENVEST Capital",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "wepa.eu": {
+  "verdict": "fund",
+  "name": "WEPA Ventures",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "renamed from operating parent WEPA to its venture arm"
+ },
+ "womentecheurope.eu": {
+  "verdict": "drop",
+  "note": "EU programme"
+ },
+ "worldfund.vc": {
+  "verdict": "fund",
+  "name": "World Fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "climate"
+ },
+ "xdeck.de": {
+  "verdict": "drop",
+  "note": "Cologne accelerator"
+ },
+ "xdeck.ac": {
+  "verdict": "alias",
+  "alias_of": "xdeck.de",
+  "note": "duplicate record of the xdeck accelerator (canonical record dropped)"
+ },
+ "xpress.ventures": {
+  "verdict": "fund",
+  "name": "XPRESS Ventures",
+  "type": "Other",
+  "stage": "Early",
+  "note": "FIEGE-backed venture builder"
+ },
+ "yabeo.de": {
+  "verdict": "fund",
+  "name": "yabeo",
+  "type": "VC",
+  "stage": "Early"
+ },
+ "yttrium.com": {
+  "verdict": "fund",
+  "name": "Yttrium",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "formerly Digital+ Partners"
+ },
+ "yzr-capital.com": {
+  "verdict": "fund",
+  "name": "YZR Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "healthcare"
+ },
+ "zf.com": {
+  "verdict": "drop",
+  "note": "industrial parent, no active venture arm record"
+ },
+ "zweipunkt7.com": {
+  "verdict": "fund",
+  "name": "zwei.7 Gruppe",
+  "type": "Family Office",
+  "stage": null,
+  "note": "owner-managed group: equity, real estate, art"
+ }
+}
