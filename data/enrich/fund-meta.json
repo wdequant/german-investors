@@ -1,0 +1,610 @@
+{
+ "global founders capital": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "htgf": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "hv capital": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "earlybird venture capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "point nine": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "468 capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "picus capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cherry ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bayern kapital": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "project a": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ibb ventures": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "atlantic labs": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "1kx": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ta ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "redstone": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "bosch ventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "blueyard capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "possible ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "capnamic": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "uvc partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "mig capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "acton capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "10x founders": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "dieter von holtzbrinck ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "vsquared ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "burda principal investments": {
+  "type": "CVC",
+  "stage": "Growth"
+ },
+ "commerzventures": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "alstin capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "almi": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "antler": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "northzone": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "creandum": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "lifeline ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "industrifonden": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "seed capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "psv": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "inventure": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "eqt ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "sting": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "investinor": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "icebreaker.vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "startuplab": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "innovestor": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "alliance vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "norrsken": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "byfounders": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "almi invest": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "accelerace": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "maki.vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "spintop ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "luminar ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "gorilla capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "first fellow partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "voima ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "superhero capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "skyfall ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "j12": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "heartcore": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "kima ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "eurazeo": {
+  "type": "PE",
+  "stage": "Multi-Stage"
+ },
+ "partech": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "aglaé ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "elaia": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "sofinnova partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "xange": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "alven": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "cathay innovation": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "newfund": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "founders future": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "motier ventures": {
+  "type": "Family Office",
+  "stage": "Early"
+ },
+ "serena": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "seventure partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "omnes": {
+  "type": "PE",
+  "stage": "Multi-Stage"
+ },
+ "demeter": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "daphni": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "financière saint james": {
+  "type": "Family Office",
+  "stage": "Early"
+ },
+ "50 partners": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "ventech": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "breega": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "go capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "evolem": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "bpifrance": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "singular": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "frst": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "isai": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "otium capital": {
+  "type": "Family Office",
+  "stage": "Multi-Stage"
+ },
+ "hexa": {
+  "type": "Other",
+  "stage": "Early"
+ },
+ "sequoia capital": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "andreessen horowitz": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "lightspeed venture partners": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "general catalyst": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "accel": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "bessemer venture partners": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "index ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "founders fund": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "khosla ventures": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "kleiner perkins": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "felicis": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "new enterprise associates (nea)": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "benchmark": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "crv": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "initialized capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "spark capital": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "union square ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "insight partners": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "y combinator": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "base10 partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "8vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "redpoint": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "anthropic": {
+  "type": "Other",
+  "stage": null
+ },
+ "columbia lake partners": {
+  "type": "Other",
+  "stage": null
+ },
+ "elephant": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ark kapital": {
+  "type": "Other",
+  "stage": null
+ },
+ "headline": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "illusian": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "ivp": {
+  "type": "VC",
+  "stage": "Late"
+ },
+ "j.p. morgan": {
+  "type": "Bank",
+  "stage": null
+ },
+ "red river west": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "tesi": {
+  "type": "State",
+  "stage": "Multi-Stage"
+ },
+ "british business investments": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "oxx": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "emblem": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "lazard": {
+  "type": "Bank",
+  "stage": null
+ },
+ "inreach ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "hpe growth": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "iqt": {
+  "type": "State",
+  "stage": "Early"
+ },
+ "macquarie group": {
+  "type": "Bank",
+  "stage": null
+ },
+ "national security strategic investment fund (nssif)": {
+  "type": "State",
+  "stage": null
+ },
+ "kkr": {
+  "type": "PE",
+  "stage": "Late"
+ },
+ "energize capital": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "bosch": {
+  "type": "CVC",
+  "stage": "Early"
+ },
+ "tempocap": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "83north": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "european investment fund (eif)": {
+  "type": "Sovereign/LP",
+  "stage": null
+ },
+ "ing": {
+  "type": "Bank",
+  "stage": null
+ },
+ "atomico": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "balderton": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
+ "j&t ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "ontario teachers pension plan": {
+  "type": "Sovereign/LP",
+  "stage": "Late"
+ },
+ "redrice ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "etf partners": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "five seasons ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "google": {
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "iconiq": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "lunar ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "nvidia": {
+  "type": "CVC",
+  "stage": "Multi-Stage"
+ },
+ "quantumlight": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "yttrium": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "expedition growth capital": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "plug and play": {
+  "type": "Accelerator",
+  "stage": "Early"
+ },
+ "infravia capital partners": {
+  "type": "PE",
+  "stage": "Growth"
+ },
+ "silversmith capital partners": {
+  "type": "PE",
+  "stage": "Growth"
+ }
+}
