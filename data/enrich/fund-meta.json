@@ -87,6 +87,10 @@
   "type": "VC",
   "stage": "Growth"
  },
+ "nap (new amsterdam partners)": {
+  "type": "VC",
+  "stage": null
+ },
  "10x founders": {
   "type": "VC",
   "stage": "Early"
@@ -96,6 +100,10 @@
   "stage": "Early"
  },
  "vsquared ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "discovery ventures": {
   "type": "VC",
   "stage": "Early"
  },
@@ -487,6 +495,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "raven partners llp": {
+  "type": "Other",
+  "stage": null
+ },
  "lazard": {
   "type": "Bank",
   "stage": null
@@ -607,6 +619,10 @@
   "type": "PE",
   "stage": "Growth"
  },
+ "noteus partners": {
+  "type": "VC",
+  "stage": "Late"
+ },
  "westcap": {
   "type": "PE",
   "stage": "Growth"
@@ -652,6 +668,14 @@
   "stage": "Early"
  },
  "cambridge innovation capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "evantic": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "expeditions": {
   "type": "VC",
   "stage": "Early"
  },
@@ -743,6 +767,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "sprints": {
+  "type": "PE",
+  "stage": "Growth"
+ },
  "lombard odier group": {
   "type": "Bank",
   "stage": null
@@ -773,6 +801,10 @@
  },
  "seb venture capital": {
   "type": "CVC",
+  "stage": "Early"
+ },
+ "radius capital ventures": {
+  "type": "VC",
   "stage": "Early"
  },
  "redalpine": {
@@ -843,6 +875,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "alanda capital management": {
+  "type": "VC",
+  "stage": "Growth"
+ },
  "speedinvest": {
   "type": "VC",
   "stage": "Early"
@@ -907,6 +943,10 @@
   "type": "State",
   "stage": null
  },
+ "pledge ventures": {
+  "type": "VC",
+  "stage": "Growth"
+ },
  "relationship investments inc": {
   "type": "Sovereign/LP",
   "stage": "Late"
@@ -955,6 +995,10 @@
   "type": "CVC",
   "stage": "Multi-Stage"
  },
+ "mercuri": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "hubert burda media": {
   "type": "Other",
   "stage": null
@@ -980,6 +1024,10 @@
   "stage": "Early"
  },
  "playground global": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "conviction": {
   "type": "VC",
   "stage": "Early"
  },
@@ -1051,6 +1099,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "solano partners": {
+  "type": "Advisor",
+  "stage": null
+ },
  "general atlantic": {
   "type": "PE",
   "stage": "Growth"
@@ -1083,6 +1135,10 @@
   "type": "Bank",
   "stage": null
  },
+ "nfront ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "energy impact partners": {
   "type": "VC",
   "stage": "Growth"
@@ -1094,6 +1150,10 @@
  "deeptech & climate fonds (dtcf)": {
   "type": "State",
   "stage": "Growth"
+ },
+ "another.vc": {
+  "type": "VC",
+  "stage": "Early"
  },
  "fidelity international strategic ventures": {
   "type": "CVC",
@@ -1128,6 +1188,10 @@
   "stage": "Growth"
  },
  "axeleo": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "fifth quarter ventures": {
   "type": "VC",
   "stage": "Early"
  },
@@ -1303,6 +1367,10 @@
   "type": "Accelerator",
   "stage": "Early"
  },
+ "secret chord ventures": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "axon partners group": {
   "type": "VC",
   "stage": "Growth"
@@ -1327,6 +1395,10 @@
   "type": "PE",
   "stage": "Growth"
  },
+ "hakiracapital.com": {
+  "type": "Other",
+  "stage": null
+ },
  "dtcp": {
   "type": "CVC",
   "stage": "Growth"
@@ -1338,6 +1410,10 @@
  "israel growth partners": {
   "type": "VC",
   "stage": "Growth"
+ },
+ "kivuko capital": {
+  "type": "PE",
+  "stage": null
  },
  "madrona": {
   "type": "VC",
@@ -1359,6 +1435,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "pesca equity partners gmbh": {
+  "type": "PE",
+  "stage": "Late"
+ },
  "teampact.ventures": {
   "type": "VC",
   "stage": "Early"
@@ -1368,6 +1448,10 @@
   "stage": null
  },
  "revo capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "yaday": {
   "type": "VC",
   "stage": "Early"
  },
@@ -1423,6 +1507,10 @@
   "type": "VC",
   "stage": "Growth"
  },
+ "aldridge capital partners": {
+  "type": "VC",
+  "stage": null
+ },
  "bridgepoint group": {
   "type": "PE",
   "stage": "Late"
@@ -1430,6 +1518,10 @@
  "begin capital": {
   "type": "VC",
   "stage": "Early"
+ },
+ "otf": {
+  "type": "VC",
+  "stage": null
  },
  "shilling capital partners": {
   "type": "VC",
@@ -1442,6 +1534,14 @@
  "acurio ventures": {
   "type": "VC",
   "stage": "Early"
+ },
+ "lts investments": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "etco.vc": {
+  "type": "Other",
+  "stage": null
  },
  "centerview partners": {
   "type": "Bank",
@@ -1516,6 +1616,10 @@
   "stage": "Early"
  },
  "illuminate financial": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "puzzle ventures": {
   "type": "VC",
   "stage": "Early"
  },
@@ -1711,6 +1815,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "blackwood": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "lvp": {
   "type": "VC",
   "stage": "Early"
@@ -1742,6 +1850,10 @@
  "etfs capital": {
   "type": "Family Office",
   "stage": null
+ },
+ "pathlight ventures": {
+  "type": "VC",
+  "stage": "Early"
  },
  "silicon valley bank": {
   "type": "Bank",
@@ -1799,9 +1911,17 @@
   "type": "VC",
   "stage": "Early"
  },
+ "sentinel global": {
+  "type": "VC",
+  "stage": "Multi-Stage"
+ },
  "outward vc": {
   "type": "VC",
   "stage": "Early"
+ },
+ "niva": {
+  "type": "VC",
+  "stage": null
  },
  "idékapital": {
   "type": "VC",
@@ -1814,6 +1934,10 @@
  "amundi alpha associates": {
   "type": "Sovereign/LP",
   "stage": null
+ },
+ "rerail": {
+  "type": "VC",
+  "stage": "Early"
  },
  "c capital": {
   "type": "VC",
@@ -1843,6 +1967,10 @@
   "type": "VC",
   "stage": "Multi-Stage"
  },
+ "unruly capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "smartfin": {
   "type": "VC",
   "stage": "Multi-Stage"
@@ -1859,6 +1987,10 @@
   "type": "PE",
   "stage": "Growth"
  },
+ "birchway": {
+  "type": "VC",
+  "stage": "Growth"
+ },
  "firstminute capital": {
   "type": "VC",
   "stage": "Early"
@@ -1866,6 +1998,10 @@
  "galdana ventures": {
   "type": "Sovereign/LP",
   "stage": null
+ },
+ "s2s ventures": {
+  "type": "VC",
+  "stage": "Early"
  },
  "blossom capital": {
   "type": "VC",
@@ -1890,6 +2026,14 @@
  "gohub ventures": {
   "type": "VC",
   "stage": "Early"
+ },
+ "runwayvc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "firedrop": {
+  "type": "Other",
+  "stage": null
  },
  "triplepoint capital": {
   "type": "Other",
@@ -1967,6 +2111,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "blue wire capital": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "systemiq capital": {
   "type": "VC",
   "stage": "Early"
@@ -1979,6 +2127,10 @@
   "type": "CVC",
   "stage": "Growth"
  },
+ "pxn group": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "autodesk": {
   "type": "Other",
   "stage": null
@@ -1988,6 +2140,14 @@
   "stage": "Early"
  },
  "backed vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "perpetual": {
+  "type": "Family Office",
+  "stage": null
+ },
+ "label capital": {
   "type": "VC",
   "stage": "Early"
  },
@@ -2043,6 +2203,10 @@
   "type": "VC",
   "stage": "Early"
  },
+ "lightbird": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "tapestry": {
   "type": "VC",
   "stage": "Early"
@@ -2071,9 +2235,17 @@
   "type": "VC",
   "stage": "Early"
  },
+ "inter invest capital": {
+  "type": "PE",
+  "stage": null
+ },
  "fdj united": {
   "type": "Other",
   "stage": null
+ },
+ "bnvt capital": {
+  "type": "VC",
+  "stage": "Early"
  },
  "coatue": {
   "type": "VC",
@@ -2085,6 +2257,10 @@
  },
  "station f": {
   "type": "Accelerator",
+  "stage": "Early"
+ },
+ "199 ventures": {
+  "type": "VC",
   "stage": "Early"
  },
  "evolution equity partners": {
@@ -2107,7 +2283,19 @@
   "type": "VC",
   "stage": "Early"
  },
+ "nickleby capital": {
+  "type": "Family Office",
+  "stage": "Early"
+ },
  "nordicninja vc": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "upside": {
+  "type": "VC",
+  "stage": "Early"
+ },
+ "atlantic": {
   "type": "VC",
   "stage": "Early"
  },
@@ -2123,8 +2311,16 @@
   "type": "VC",
   "stage": "Early"
  },
+ "yellow": {
+  "type": "VC",
+  "stage": "Early"
+ },
  "agoranov": {
   "type": "Accelerator",
+  "stage": "Early"
+ },
+ "varsity": {
+  "type": "VC",
   "stage": "Early"
  },
  "entourage ventures": {
@@ -2134,6 +2330,10 @@
  "vista equity partners": {
   "type": "PE",
   "stage": "Late"
+ },
+ "clover": {
+  "type": "CVC",
+  "stage": "Early"
  },
  "supernode global": {
   "type": "VC",
@@ -2211,6 +2411,10 @@
   "type": "Other",
   "stage": null
  },
+ "bonsai partners": {
+  "type": "Other",
+  "stage": null
+ },
  "alliance": {
   "type": "Other",
   "stage": null
@@ -2223,6 +2427,10 @@
   "type": "Other",
   "stage": null
  },
+ "osprey investors": {
+  "type": "Other",
+  "stage": null
+ },
  "msm fund (mustard seed maze)": {
   "type": "VC",
   "stage": "Early"
@@ -2232,7 +2440,7 @@
   "stage": "Early"
  },
  "ubon partners": {
-  "type": "VC",
+  "type": "Family Office",
   "stage": null
  },
  "twin path ventures": {
@@ -2242,6 +2450,14 @@
  "cmt digital": {
   "type": "VC",
   "stage": "Early"
+ },
+ "navigate ventures": {
+  "type": "VC",
+  "stage": "Growth"
+ },
+ "evantic capital": {
+  "type": "VC",
+  "stage": "Growth"
  },
  "seraphim space": {
   "type": "VC",
