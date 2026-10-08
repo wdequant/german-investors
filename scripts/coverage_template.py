@@ -1715,9 +1715,11 @@ function cmSvg(me){
     // contain-fit: px per map unit ≈ min(width/vbW, height/vbH); size everything off that
     const sEst=Math.min(1500/rvb[2], 680/rvb[3]);
     const maxo=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].opp:0),1);
+    const maxp=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].pw||0:0),1);
     layer=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
       const a=CM.areas[sb.id], covu=me&&a.u[me]?a.u[me].covu:0;
-      const R=(24+44*Math.sqrt(a.opp/maxo))/sEst, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const wgt=0.5*(a.opp/maxo)+0.5*((a.pw||0)/maxp);   // size = deal flow opportunity + the team's pipeline weight here
+      const R=(12+58*Math.sqrt(wgt))/sEst, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
       return `<g class="cmreg live" data-cmcc2="${sb.id}" transform="translate(${sb.x},${sb.y})">
         <circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>

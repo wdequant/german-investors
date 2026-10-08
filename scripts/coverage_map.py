@@ -450,7 +450,8 @@ def build_covmap(regions, mynet, roster, load_json):
     def rollup(sel):
         o_sum = sum(x["O"] for x in sel) or 1e-9
         covT = round(sum(x["O"] * x["CT"] for x in sel) / o_sum, 1)
-        out = {"covT": covT, "opp": round(o_sum, 1), "n": len(sel)}
+        out = {"covT": covT, "opp": round(o_sum, 1), "n": len(sel),
+               "pw": round(sum(sum((x.get("pu") or {}).values()) for x in sel), 1)}
         pu_users = {}
         for u in roster:
             covu = round(sum(x["O"] * x["cu"].get(u, 0) for x in sel) / o_sum, 1)
