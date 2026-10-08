@@ -782,6 +782,7 @@ body.mkmode{cursor:crosshair}
 #cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px}
 .cmpanel{flex:none;width:360px;background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px;overflow-y:auto;max-height:calc(100vh - 230px)}
 .cmbg{fill:var(--hair2);stroke:var(--bg);stroke-width:.6}
+.cmbg,.cmcty,.cmouter,.cmring2{vector-effect:non-scaling-stroke}
 .cmcty{fill:#e7e2d4;stroke:var(--bg);stroke-width:.7;cursor:pointer}
 .cmcty.on{stroke:#b9b2a0}
 .cmreg text{text-anchor:middle;font-size:12px;font-weight:700;fill:var(--ink2)}
@@ -1710,16 +1711,18 @@ function cmSvg(me){
     }).join('');
   } else {
     const subs=(CM.subsOf||{})[MAP.reg]||[];
-    const z=(CM.zoomReg||{})[MAP.reg]||CM.zoomL1||3;
+    const rvb=CM.vb[MAP.reg]||CM.vb.l0;
+    // contain-fit: px per map unit ≈ min(width/vbW, height/vbH); size everything off that
+    const sEst=Math.min(1500/rvb[2], 680/rvb[3]);
     const maxo=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].opp:0),1);
     layer=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
       const a=CM.areas[sb.id], covu=me&&a.u[me]?a.u[me].covu:0;
-      const R=(13+30*Math.sqrt(a.opp/maxo))/z, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const R=(24+44*Math.sqrt(a.opp/maxo))/sEst, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
       return `<g class="cmreg live" data-cmcc2="${sb.id}" transform="translate(${sb.x},${sb.y})">
         <circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
         ${rm>0.4?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
-        <text y="${(R+14/z).toFixed(1)}" style="font-size:${(14/z).toFixed(1)}px">${sb.name}${exp?' ⚑':''}</text></g>`;
+        <text y="${(sb.y>rvb[1]+rvb[3]*0.8?-(R+8/sEst):(R+16/sEst)).toFixed(1)}" style="font-size:${(14.5/sEst).toFixed(2)}px">${sb.name}${exp?' ⚑':''}</text></g>`;
     }).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
@@ -1827,7 +1830,7 @@ function cmCountryPage(me){
         <div class="apcard cmquiet">${over.slice(0,8).map(e=>`<div class="dpli" data-cment="${e.slug}"><b class="mbub low">${Math.round(cmU(e,me).cu)}</b><span class="nm">${e.name}</span><span class="how">strong relationship · little deal flow</span></div>`).join('')}</div>`:''}
       </div>
     </div>
-    <div style="margin-top:16px">${MAP.showAll?`${cmAffCards(me)}${cmPeopleIn(me)}`:`<button class="minibtn" data-cmshowall>Show all ${allN} investors in ${CM.ccName[cc]}</button>`}</div>`;
+    <div style="margin-top:16px">${MAP.showAll?`<button class="minibtn" data-cmhideall>Hide the long tail ↑</button>${cmAffCards(me)}${cmPeopleIn(me)}<div style="margin-top:10px"><button class="minibtn" data-cmhideall>Hide ↑</button></div>`:`<button class="minibtn" data-cmshowall>Show all ${allN} investors in ${CM.ccName[cc]}</button>`}</div>`;
 }
 function cmAffCards(me){
   const sel=(CM.aff||[]).filter(e=>e.cc===MAP.cc&&!e.sl)
@@ -1949,7 +1952,7 @@ function cmEgo(e,me){
     </svg>`;
 }
 function cmTray(){
-  const t=(CM.ents||[]).filter(e=>e.tray);
+  const t=(CM.ents||[]).filter(e=>e.tray&&e.rg===MAP.reg);
   if(!t.length||MAP.lvl==='l0') return '';
   return `<div class="cmtray">Outside the region: ${t.map(e=>`<b data-cment="${e.slug}" class="cmtl">${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
 }
@@ -2050,6 +2053,7 @@ function mapBind(body){
   body.querySelectorAll('[data-cmwho]').forEach(b=>b.addEventListener('click',()=>{MAP.whoTeam=b.dataset.cmwho==='team';renderWork();}));
   const sa=body.querySelector('[data-cmshowall]');
   if(sa) sa.addEventListener('click',()=>{MAP.showAll=true;renderWork();});
+  body.querySelectorAll('[data-cmhideall]').forEach(b=>b.addEventListener('click',()=>{MAP.showAll=false;renderWork();}));
   body.querySelectorAll('[data-cmgo]').forEach(b=>b.addEventListener('click',()=>{
     if(mapBind._dragged) return;
     const l=b.dataset.cmgo; cmGo(l, l==='l2'?MAP.cc:'', '', b.dataset.cmreg);

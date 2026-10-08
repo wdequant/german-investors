@@ -32,8 +32,8 @@ G_SUB = {"Berlin": "BER", "Potsdam": "BER", "Leipzig": "BER", "Erfurt": "BER", "
          "Munster": "CGN", "M\u00fcnster": "CGN", "Greven": "CGN", "Gutersloh": "CGN", "Mulheim": "CGN",
          "Bielefeld": "CGN", "Dortmund": "CGN", "Aachen": "CGN",
          "Hamburg": "HAM", "Bremen": "HAM", "Hannover": "HAM"}
-G_ANCHOR = {"BER": (13.40, 52.52), "MUC": (11.58, 48.14), "FRA": (8.68, 50.11),
-            "CGN": (7.00, 50.90), "HAM": (9.99, 53.55)}
+G_ANCHOR = {"BER": (13.40, 52.52), "MUC": (11.58, 48.25), "FRA": (8.95, 49.95),
+            "CGN": (6.55, 51.15), "HAM": (9.99, 53.55)}
 G_CITY_LL = {"Berlin": (13.40, 52.52), "Potsdam": (13.06, 52.39), "Leipzig": (12.37, 51.34),
              "Munich": (11.58, 48.14), "Landshut": (12.15, 48.54), "Pullach": (11.52, 48.06),
              "Nuremberg": (11.08, 49.45), "Stuttgart": (9.18, 48.78),
@@ -283,8 +283,13 @@ def build_covmap(regions, mynet, roster, load_json):
     _region_ents = [("nordics", e) for e in (regions.get("nordics") or {"entities": []})["entities"]] +                    [("germany", e) for e in (regions.get("germany") or {"entities": []})["entities"]]
     for _rgid, e in _region_ents:
         city_raw = FUND_CITY_OVERRIDE.get(e["slug"]) or (e.get("city") or "").split("·")[0].strip()
+        ANGEL_CITY = {"verena pausder": "Berlin", "christian reber": "Berlin", "hakan ko\u00e7": "Berlin",
+                      "philipp kl\u00f6ckner": "Berlin", "christian vollmann": "Berlin",
+                      "julius g\u00f6llner": "Berlin", "matthias hilpert": "Berlin",
+                      "hanno renner": "Munich", "mario g\u00f6tze": "Munich"}
         if not city_raw and e["kind"] == "angel":
-            city_raw = ((pm.get(e["name"].lower()) or {}).get("city") or "").strip()
+            city_raw = (((pm.get(e["name"].lower()) or {}).get("city") or "") or
+                        ANGEL_CITY.get(e["name"].lower(), "")).strip()
         if _rgid == "nordics":
             anchor = CITY_LL.get(city_raw)
             cc = anchor[0] if anchor else None
