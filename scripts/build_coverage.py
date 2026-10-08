@@ -551,9 +551,10 @@ for _k2 in _mynet:   # dedupe same contact tracked under two region entries, str
     _mynet[_k2] = sorted(_best.values(), key=lambda x: -x["p"])[:400]
 _movers, _mvseen = [], set()
 def _mv_add(name, from_name, info):
-    if name in _mvseen:
+    _nk = name.lower()   # "Omri BENAYOUN" and "Omri Benayoun" are one person
+    if _nk in _mvseen:
         return
-    _mvseen.add(name)
+    _mvseen.add(_nk)
     _md = _mvdates.get(name) or {}
     _movers.append({"n": name, "fr": from_name, "now": info.get("now"),
                     "since": _md.get("since"), "co": _md.get("company"),
