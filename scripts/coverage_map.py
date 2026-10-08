@@ -40,13 +40,14 @@ G_CITY_LL = {"Berlin": (13.40, 52.52), "Potsdam": (13.06, 52.39), "Leipzig": (12
              "Frankfurt": (8.68, 50.11), "Wiesbaden": (8.24, 50.08), "Heidelberg": (8.69, 49.40),
              "Karlsruhe": (8.40, 49.01), "Cologne": (6.96, 50.94), "Bonn": (7.10, 50.73),
              "Dusseldorf": (6.78, 51.23), "Essen": (7.01, 51.46), "Hamburg": (9.99, 53.55)}
-REGION_SUBS = {"nordics": ["SE", "DK", "NO", "FI"], "germany": ["BER", "MUC", "CGN", "FRA", "HAM"]}
-SUB_NAME = {"SE": "Sweden", "DK": "Denmark", "NO": "Norway", "FI": "Finland",
+REGION_SUBS = {"nordics": ["SE", "DK", "NO", "FI"], "germany": ["BER", "MUC", "CGN", "FRA", "HAM"],
+               "france": ["FR"]}
+SUB_NAME = {"SE": "Sweden", "DK": "Denmark", "NO": "Norway", "FI": "Finland", "FR": "France",
             "BER": "Berlin", "MUC": "Munich", "FRA": "Frankfurt", "CGN": "Cologne/Bonn", "HAM": "Hamburg"}
 REGIONS = [  # L0 bubbles; only nordics is live in M1
     {"id": "nordics", "name": "Nordics", "ll": (16.0, 62.5), "active": True},
     {"id": "germany", "name": "Germany", "ll": (10.3, 51.2), "active": True},
-    {"id": "france", "name": "France", "ll": (2.5, 46.8)},
+    {"id": "france", "name": "France", "ll": (2.5, 46.8), "active": True, "solo": "FR"},
     {"id": "benelux", "name": "Benelux", "ll": (5.0, 52.0)},
     {"id": "ukie", "name": "UK & Ireland", "ll": (-2.5, 53.5)},
     {"id": "south", "name": "Southern Europe", "ll": (3.0, 40.5)},
@@ -69,7 +70,7 @@ CITY_LL = {  # map anchor per city; suburbs fold into the metro
     "Fornebu": ("NO", 10.75, 59.91), "Stavanger": ("NO", 5.73, 58.97),
     "Tampere": ("FI", 23.76, 61.50),
 }
-CITY2CC = {"berlin": "BER", "potsdam": "BER", "munich": "MUC", "m\u00fcnchen": "MUC",
+CITY2CC = {"paris": "FR", "lyon": "FR", "berlin": "BER", "potsdam": "BER", "munich": "MUC", "m\u00fcnchen": "MUC",
            "frankfurt": "FRA", "hamburg": "HAM", "cologne": "CGN", "k\u00f6ln": "CGN",
            "bonn": "CGN", "dusseldorf": "CGN", "d\u00fcsseldorf": "CGN",
            "copenhagen": "DK", "aarhus": "DK", "odense": "DK", "aalborg": "DK",
@@ -224,7 +225,7 @@ def build_covmap(regions, mynet, roster, load_json):
 
     countries, cbounds = [], {}
     for nm, rings in shapes.items():
-        cc = COUNTRY_CC.get(nm) or ("DE" if nm == "Germany" else None)
+        cc = COUNTRY_CC.get(nm) or {"Germany": "DE", "France": "FR"}.get(nm)
         d = _path(rings, proj, tol=0.12 if nm in fine else 0.9, nd=2 if nm in fine else 1)
         if not d:
             continue
@@ -263,12 +264,16 @@ def build_covmap(regions, mynet, roster, load_json):
     vbs["nordics"] = vb(nx0, ny0, nx1, ny1, 0.14)
     if "DE" in cbounds:
         vbs["germany"] = vb(*cbounds["DE"], 0.16)
+    if "FR" in cbounds:
+        vbs["france"] = vb(*cbounds["FR"], 0.14)
+        vbs["FR"] = vbs["france"]
     for _gk, (_glon, _glat) in G_ANCHOR.items():
         _gx0, _gy0 = proj.px(_glon - 0.95, _glat + 0.55)
         _gx1, _gy1 = proj.px(_glon + 0.95, _glat - 0.55)
         vbs[_gk] = vb(_gx0, _gy0, _gx1, _gy1, 0.0)
 
     region_pts = [{"id": r["id"], "name": r["name"], "active": bool(r.get("active")),
+                   "solo": r.get("solo"),
                    "x": proj.px(*r["ll"])[0], "y": proj.px(*r["ll"])[1]} for r in REGIONS]
     city_px = {c: proj.px(lon, lat) for c, (cc, lon, lat) in CITY_LL.items()}
 
@@ -280,7 +285,8 @@ def build_covmap(regions, mynet, roster, load_json):
     import datetime
     cutoff = (datetime.date.today() - datetime.timedelta(days=365)).isoformat()
     FUND_CITY_OVERRIDE = {"northzone": "Stockholm"}   # London-HQ but a Nordic fund; belongs on this map
-    _region_ents = [("nordics", e) for e in (regions.get("nordics") or {"entities": []})["entities"]] +                    [("germany", e) for e in (regions.get("germany") or {"entities": []})["entities"]]
+    _region_ents = [(rg, e) for rg in ("nordics", "germany", "france")
+                    for e in (regions.get(rg) or {"entities": []})["entities"]]
     for _rgid, e in _region_ents:
         city_raw = FUND_CITY_OVERRIDE.get(e["slug"]) or (e.get("city") or "").split("·")[0].strip()
         ANGEL_CITY = {"verena pausder": "Berlin", "christian reber": "Berlin", "hakan ko\u00e7": "Berlin",
@@ -293,8 +299,10 @@ def build_covmap(regions, mynet, roster, load_json):
         if _rgid == "nordics":
             anchor = CITY_LL.get(city_raw)
             cc = anchor[0] if anchor else None
-        else:
+        elif _rgid == "germany":
             cc = G_SUB.get(city_raw)
+        else:   # france: one node, Paris in all but name
+            cc = "FR" if (e.get("city") or "").endswith("FR") or city_raw in ("Paris", "Lyon") or e["kind"] == "angel" and city_raw == "Paris" else ("FR" if city_raw in ("Saint-Jacques-de-la-Lande",) else None)
         tray = cc is None
         # people + R per user
         people, rmax = {}, {}
@@ -410,10 +418,13 @@ def build_covmap(regions, mynet, roster, load_json):
     # ---- bubble layout per level (map units; r chosen for that level's zoom) ----
     def rad(O, lvl_zoom, lo=7, hi=26):
         return round((lo + (hi - lo) * math.sqrt(max(O, 1) / 100.0)) / lvl_zoom, 2)
-    zoom_l2 = {k: W / vbs[k][2] for k in (REGION_SUBS["nordics"] + REGION_SUBS["germany"]) if k in vbs}
+    zoom_l2 = {k: W / vbs[k][2] for subs in REGION_SUBS.values() for k in subs if k in vbs}
     CITY_PT = dict(city_px)
     for _gc, (_glon2, _glat2) in G_CITY_LL.items():
         CITY_PT[_gc] = proj.px(_glon2, _glat2)
+    CITY_PT["Paris"] = proj.px(2.35, 48.86)
+    CITY_PT["Lyon"] = proj.px(4.84, 45.76)
+    CITY_PT["Saint-Jacques-de-la-Lande"] = proj.px(-1.72, 48.07)
     bycity = {}
     for e in ents:
         if e["tray"] or e["city"] not in CITY_PT:
@@ -440,6 +451,7 @@ def build_covmap(regions, mynet, roster, load_json):
     zoom_l1 = W / vbs["nordics"][2]
     _ANCHOR = {"SE": (15.3, 61.6), "DK": (9.3, 55.9), "NO": (8.2, 60.9), "FI": (26.0, 63.3)}
     _ANCHOR.update(G_ANCHOR)
+    _ANCHOR["FR"] = (2.35, 47.5)
     ccent = {k: proj.px(*_ANCHOR[k]) for k in _ANCHOR}
     subs_of = {rg: [{"id": k, "name": SUB_NAME[k], "x": ccent[k][0], "y": ccent[k][1]}
                     for k in subs] for rg, subs in REGION_SUBS.items()}
@@ -626,7 +638,7 @@ def build_covmap(regions, mynet, roster, load_json):
         _key9 = _e9.get("dom") or _nrm(_e9["name"])
         _e9["pin"] = 1 if (_key9 in _pins or _nrm(_e9["name"]) in _pins) else 0
         _e9["rm"] = 1 if (_e9["name"].lower() in _removes or _key9 in _removes) else 0
-    for _cc9 in (REGION_SUBS["nordics"] + REGION_SUBS["germany"]):
+    for _cc9 in [k for subs in REGION_SUBS.values() for k in subs]:
         _pool = [e for e in ents if e.get("cc") == _cc9 and not e.get("rm")]
         _poolA = [e for e in aff_ents if e.get("cc") == _cc9 and not e.get("rm")]
         _ranked = sorted(_pool, key=lambda e: (-e.get("dfw", 0), -e.get("rel", 0)))[:25]
@@ -694,7 +706,7 @@ def build_covmap(regions, mynet, roster, load_json):
     return {
         "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "who": who_in,
         "subsOf": subs_of, "regOf": reg_of, "zoomReg": zoom_reg,
-        "hl": {"nordics": REGION_SUBS["nordics"], "germany": ["DE"]}, "countries": countries, "regions": region_pts,
+        "hl": {"nordics": REGION_SUBS["nordics"], "germany": ["DE"], "france": ["FR"]}, "countries": countries, "regions": region_pts,
         "ccent": {k: [round(v[0], 1), round(v[1], 1)] for k, v in ccent.items()},
         "cities": {c: [city_px[c][0], city_px[c][1]] for c in city_px},
         "zoomL1": round(zoom_l1, 2), "zoomL2": {k: round(v, 2) for k, v in zoom_l2.items()},

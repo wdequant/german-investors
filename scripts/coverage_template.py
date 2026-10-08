@@ -1674,8 +1674,9 @@ function apMap(){
   if(!CM.ents) return '<div class="aphint">Coverage map data has not been built yet.</div>';
   const me=ap.who||'';
   const regName=(CM.regions.find(r=>r.id===MAP.reg)||{}).name||MAP.reg;
+  const solo=((CM.subsOf||{})[MAP.reg]||[]).length<=1;
   const crumbs=[`<button data-cmgo="l0"${MAP.lvl==='l0'?' disabled':''}>Map</button>`];
-  if(MAP.lvl!=='l0') crumbs.push(`<button data-cmgo="l1"${MAP.lvl==='l1'?' disabled':''}>${regName}</button>`);
+  if(MAP.lvl!=='l0'&&!solo) crumbs.push(`<button data-cmgo="l1"${MAP.lvl==='l1'?' disabled':''}>${regName}</button>`);
   if(MAP.cc) crumbs.push(`<button data-cmgo="l2"${!MAP.ent?' disabled':''}>${CM.ccName[MAP.cc]||MAP.cc}</button>`);
   if(MAP.ent){ const e=(CM.ents||[]).find(x=>x.slug===MAP.ent); if(e) crumbs.push(`<button disabled>${e.name}</button>`); }
   const back=MAP.lvl!=='l0'?`<button class="minibtn cmback" data-cmback>← Back</button>`:'';
@@ -1709,7 +1710,7 @@ function cmSvg(me){
       const w0=(0.5*a.opp+0.5*(a.pw||0))/maxW0;   // node weight = deal flow + team pipeline
       const R=(16+14*Math.sqrt(w0)), rb=(5+7*Math.sqrt(w0));
       const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
-      return `<g class="cmreg live cmregbtn" data-cmgo="l1" data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
+      return `<g class="cmreg live cmregbtn" ${r.solo?`data-cmcc2="${r.solo}"`:`data-cmgo="l1"`} data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
         <title>${r.name}</title>
         <g class="cmbtn"><circle r="${rb.toFixed(1)}" fill="${CMTIER(covu)}" stroke="#fff" stroke-width="1.4"/></g>
         <g class="cmdisc"><circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
@@ -2052,8 +2053,9 @@ function cmGo(lvl,cc,ent,reg){
   else { renderWork(); updateHash(); }
 }
 function cmBack(){
+  const solo=((CM.subsOf||{})[MAP.reg]||[]).length<=1;
   if(MAP.ent) cmGo('l2',MAP.cc,'');
-  else if(MAP.lvl==='l2') cmGo('l1','','');
+  else if(MAP.lvl==='l2') solo?cmGo('l0','',''):cmGo('l1','','');
   else if(MAP.lvl==='l1') cmGo('l0','','');
 }
 function mapBind(body){
@@ -2116,7 +2118,7 @@ function mapBind(body){
     },{passive:false});
   }
   const hov=body.querySelector('#cmhover');
-  if(hov) body.querySelectorAll('g.cmregbtn[data-cmgo]').forEach(g=>{
+  if(hov) body.querySelectorAll('g.cmregbtn').forEach(g=>{
     g.addEventListener('mouseenter',()=>{
       const rid=g.dataset.cmreg, a=CM.areas[rid]; if(!a) return;
       const covu=me&&a.u[me]?a.u[me].covu:0;
