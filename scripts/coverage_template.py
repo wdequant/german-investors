@@ -1594,8 +1594,8 @@ function apNet(){
   }).join('');
   // --- your tracked relationships (D.mynet) + recent moves (D.movers) ---
   const net=((D.mynet||{})[who]||[]);
-  const strong=net.filter(e=>e.p>=60), building=net.filter(e=>e.p>=20&&e.p<60);
-  const cold=net.filter(isCold).sort((a,b)=>b.p-a.p);
+  const cold=net.filter(isCold).sort((a,b)=>b.p-a.p);   // lapsed cadence trumps strength: one bucket per person
+  const strong=net.filter(e=>e.p>=60&&!isCold(e)), building=net.filter(e=>e.p>=20&&e.p<60&&!isCold(e));
   const moves=(D.movers||[])
     .filter(m=>(m.k||[]).includes(who)&&m.since&&moAgo(m.since)<=6)
     .sort((a,b)=>new Date(b.since)-new Date(a.since));
