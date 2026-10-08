@@ -483,11 +483,92 @@ if _base.get("entries") and (aff_dump or {}).get("entries"):
         if moves or added:
             print(f"  [{rk}] what's-changed: {len(moves)} funnel moves, {len(added)} new entries since {_base.get('fetched')}")
 
+# ---- per-person investor network (My People page) + recent movers feed ----
+import glob as _glob
+from coverage_common import _strip_emoji
+_slug2 = {}
+for _rk0, _reg0 in regions.items():
+    for _e0 in _reg0["entities"]:
+        if _e0["kind"] == "fund":
+            _slug2[_e0["slug"]] = (_e0["name"], _rk0)
+_bflags2 = load_json(f"{ROOT}/data/enrich/employment-flags-backers.json", {}) or {}
+_mvdates = load_json(f"{ROOT}/data/enrich/mover-dates.json", {}) or {}
+_bd2 = {}
+for _bn, _bm in (load_json(f"{ROOT}/data/enrich/backer-domains.json", {}) or {}).items():
+    _d0 = (_bm.get("domain") or "").lower().removeprefix("www.")
+    if _d0 and _d0 not in _bd2:
+        _bd2[_d0] = _bn
+_mynet, _knew = {}, {}
+def _net_add(intern, entry):
+    _mynet.setdefault(intern, []).append(entry)
+for _f0 in _glob.glob(f"{ROOT}/data/*/affinity/*.json"):
+    try:
+        _d1 = json.load(open(_f0))
+    except Exception:
+        continue
+    _sl = _d1.get("slug") or os.path.basename(_f0)[:-5]
+    if _sl not in _slug2:
+        continue
+    _fund, _rk1 = _slug2[_sl]
+    _fl1 = ((empflags or {}).get(_rk1, {}) or {}).get(_sl, {}) or {}
+    for _r1 in _d1.get("relationships") or []:
+        _in = _NM.get(_r1.get("internal"), _r1.get("internal"))
+        _ex = _strip_emoji(_r1.get("external") or "")
+        if not _ex or _in in _EX:
+            continue
+        _pc = round((_r1.get("score") or 0) * 100)
+        if _pc >= 40:
+            _knew.setdefault(_ex, set()).add(_in)
+        _st1 = (_fl1.get(_ex) or {}).get("status")
+        if _st1 == "moved" or _pc < 15:
+            continue
+        _net_add(_in, {"n": _ex, "f": _fund, "s": _sl, "g": _rk1, "p": _pc,
+                       "l": _r1.get("last"), "m": _r1.get("meet"),
+                       "e": _r1.get("externalEmail"), "v": _st1 == "current"})
+for _dm, _bv in (_brels or {}).items():
+    _bnm = _bd2.get(_dm, _dm)
+    _fl2 = (_bflags2.get(_dm) or {})
+    for _r2 in _bv.get("rels") or []:
+        _in = _NM.get(_r2.get("internal"), _r2.get("internal"))
+        _ex = _strip_emoji(_r2.get("external") or "")
+        if not _ex or _in in _EX:
+            continue
+        _pc = round((_r2.get("score") or 0) * 100)
+        if _pc >= 40:
+            _knew.setdefault(_ex, set()).add(_in)
+        _st2 = (_fl2.get(_ex) or {}).get("status")
+        if _st2 == "moved" or _pc < 15:
+            continue
+        _net_add(_in, {"n": _ex, "f": _bnm, "d": _dm, "p": _pc,
+                       "l": _r2.get("last"), "m": _r2.get("meet"),
+                       "e": _r2.get("externalEmail"), "v": _st2 == "current"})
+for _k2 in _mynet:   # strongest first, cap per person
+    _mynet[_k2] = sorted(_mynet[_k2], key=lambda x: -x["p"])[:400]
+_movers = []
+def _mv_add(name, from_name, info):
+    _md = _mvdates.get(name) or {}
+    _movers.append({"n": name, "fr": from_name, "now": info.get("now"),
+                    "since": _md.get("since"), "co": _md.get("company"),
+                    "ti": _md.get("title"),
+                    "k": sorted(_knew.get(name, []))})
+for _rk2, _sm in (empflags or {}).items():
+    for _sl2, _pp in (_sm or {}).items():
+        for _nm2, _vv in (_pp or {}).items():
+            if _vv.get("status") == "moved" and _sl2 in _slug2:
+                _mv_add(_nm2, _slug2[_sl2][0], _vv)
+for _dm2, _pp2 in _bflags2.items():
+    for _nm3, _vv2 in (_pp2 or {}).items():
+        if _vv2.get("status") == "moved":
+            _mv_add(_nm3, _bd2.get(_dm2, _dm2), _vv2)
+print(f"mynet: {sum(len(v) for v in _mynet.values())} edges across {len(_mynet)} people; "
+      f"movers: {len(_movers)} ({sum(1 for m in _movers if m['since'])} dated)")
+
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
            "affinityOrg": AFFINITY_ORG, "regions": regions, "xhtc": _xtra,
            "profiles": _profiles, "freshness": freshness,
            "changes": changes,
-           "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {}}
+           "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {},
+           "mynet": _mynet, "movers": _movers}
 from coverage_common import _strip_emoji
 _aff_ids = load_json(f"{ROOT}/data/enrich/untracked-affinity-ids.json", {}) or {}
 for _cid, _v in payload["untProfiles"].items():  # sanitize + join Affinity ids
