@@ -1530,7 +1530,7 @@ function cmEnts(){ return (CM.ents||[]).filter(e=>!e.tray); }
 function cmVisible(me){
   return cmEnts();
 }
-function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Weak':'Cold'; }
+function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Known':'Dormant'; }
 function cmBestOf(e,who){
   let best=null;
   (e.people||[]).forEach(p=>{ const r=who?(p.r[who]||0):Math.max(...Object.values(p.r),0);
@@ -1650,7 +1650,7 @@ function cmCards(me){
     const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
     const door=u.tag==='warm'&&tb?`ask ${tb.u.split(' ')[0]} → ${tb.n}`:
                best&&best.r>=15?`your door: ${best.n}`:
-               u.tag==='cold'?'cold start — nobody at Highland':'no path yet';
+               u.tag==='cold'?'first mover — nobody at Highland yet':'no path yet';
     return `<div class="cmfcard" data-cment="${e.slug}">
       <div class="cmfg">${cmGlyphSvg(e,me,64)}</div>
       <div class="cmfi">
@@ -1724,7 +1724,7 @@ function cmWhoRows(me){
   const restHtml=rest.length?(MAP.whoMore
     ?rest.map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm"><a href="${p.li||liSearch(p.n,p.org||'')}" target="_blank" rel="noopener">${p.n}</a></span><span class="how">${p.org||''}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('')+`<button class="minibtn" data-cmwhomore="0">Hide ↑</button>`
     :`<button class="minibtn" data-cmwhomore="1">+ ${rest.length} more</button>`):'';
-  return {html:(doors||`<div class="dtsub">${mine?'No one on your book here yet.':'No team edges here.'}</div>`)+restHtml, n:list.length};
+  return {html:(doors||`<div class="dtsub">${mine?'Open ground — the team\'s doors are your way in.':'No team edges here.'}</div>`)+restHtml, n:list.length};
 }
 function cmCountryPage(me){
   const cc=MAP.cc, A=CM.areas[cc]||{covT:0,u:{},known:{}};
@@ -1737,7 +1737,7 @@ function cmCountryPage(me){
   const short=[...sel,...forceIn];
   const who=cmWhoRows(me);
   const over=short.filter(e=>cmU(e,me).st==='over').sort((a,b)=>cmU(b,me).cu-cmU(a,me).cu);
-  const groups=[['build','Build'],['maintain','Maintain'],['over','Over-invested']].map(([st,label])=>{
+  const groups=[['build','Build'],['maintain','Maintain'],['over','Already strong']].map(([st,label])=>{
     const g=short.filter(e=>cmU(e,me).st===st);
     if(!g.length) return '';
     return `<div class="apsec">${label} — ${g.length}</div>${g.sort((a,b)=>cmU(b,me).gu-cmU(a,me).gu).map(e=>{
@@ -1757,11 +1757,15 @@ function cmCountryPage(me){
     });
     if(agg.e[2]<3||agg.g[2]<3) return '';
     const ce=agg.e[0]/agg.e[1], cg=agg.g[0]/agg.g[1];
-    if(cg-ce>=25) return ` At the growth funds here you are <b>${cmQualU(cg)[0]}</b> — the gap is early-stage volume.`;
-    if(ce-cg>=25) return ` Your strength here is early-stage — the gap is the growth funds.`;
+    if(cg-ce>=25) return ` At the growth funds here your network is <b>${cmQualU(cg)[0]}</b> — the early-stage volume funds are your open ground.`;
+    if(ce-cg>=25) return ` Early-stage is your strength here — the growth funds are your open ground.`;
     return '';
   })();
-  return `<div class="cmhead">${CM.ccName[cc]}: you are <b>${qu}</b> here, the team is ${qt}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>
+  const youBit=qu==='well covered'?`your network is <b>well covered</b>`
+    :qu==='building'?`your network is <b>building</b>`
+    :`<b>open ground</b> for you`;
+  const teamBit=A.covT>=55&&covu<50?`the team is <b>${qt}</b> — doors ready to borrow`:`the team is ${qt}`;
+  return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>
     <div class="cmv2grid">
       <div>
         ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
@@ -1776,7 +1780,7 @@ function cmCountryPage(me){
         <div class="apsec">Your doors in ${CM.ccName[cc]} <span class="aptog" style="margin-left:8px"><button data-cmwho="me"${!MAP.whoTeam?' class="on"':''}>Mine</button><button data-cmwho="team"${MAP.whoTeam?' class="on"':''}>Team</button></span></div>
         <div class="dtsub" style="margin:-2px 0 8px">Strongest first — relationship × how much the seat matters.</div>
         <div>${who.html}</div>
-        ${over.length?`<div class="apsec" style="margin-top:14px">Maintain lightly</div>
+        ${over.length?`<div class="apsec" style="margin-top:14px">Keep warm</div>
         <div class="apcard cmquiet">${over.slice(0,8).map(e=>`<div class="dpli" data-cment="${e.slug}"><b class="mbub low">${Math.round(cmU(e,me).cu)}</b><span class="nm">${e.name}</span><span class="how">strong relationship · little deal flow</span></div>`).join('')}</div>`:''}
       </div>
     </div>
@@ -1829,7 +1833,7 @@ function cmDetail(me){
   const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);
   if(!e) return '';
   const u=cmU(e,me), tb=cmTeamBest(e), tgt=cmTarget(e,me);
-  const state=u.st==='build'?(u.tag==='warm'?'Build · warm path':u.tag==='cold'?'Build · cold start':'Build'):u.st==='maintain'?'Maintain':u.st==='over'?'Over-invested':'Quiet';
+  const state=u.st==='build'?(u.tag==='warm'?'Build · warm path':u.tag==='cold'?'Build · cold start':'Build'):u.st==='maintain'?'Maintain':u.st==='over'?'Already strong':'Quiet';
   // why, as numbers, largest first
   const ORDER=[['lead','Lead'],['prelead','Pre-lead'],['awaiting','Awaiting lead'],['hard','Hard to crack'],['reachout','Reach out'],['portfolio','Portfolio']];
   const pipeAll=[]; ORDER.forEach(([bk,label])=>{(e.pipe&&e.pipe[bk]||[]).forEach(co=>pipeAll.push({n:co.n,st:label,mine:co.o&&co.o.includes(me)}));});
@@ -1906,8 +1910,14 @@ function cmTray(){
   if(!t.length||MAP.lvl==='l0') return '';
   return `<div class="cmtray">Outside the region: ${t.map(e=>`<b data-cment="${e.slug}" class="cmtl">${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
 }
-const cmQualU=v=>v<25?['underweight','#c2452f']:v<50?['light','#c98a1b']:['well covered','#2e7d4f'];
-const cmQualT=v=>v<25?['thin','#c2452f']:v<55?['patchy','#c98a1b']:['strong','#2e7d4f'];
+function cmYouLine(covu,covT){
+  const [qu]=cmQualU(covu), [qt]=cmQualT(covT);
+  if(covu>=50) return `Your network here is <b>${qu}</b>; the team's graph is ${qt}.`;
+  if(covT>=55) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — and the team's graph here is <b>strong</b>, ready to borrow.`;
+  return `<b>${qu==='building'?'Building':'Open ground'}</b> — for you and the team. First-mover territory.`;
+}
+const cmQualU=v=>v<25?['open ground','#3a6fa5']:v<50?['building','#c98a1b']:['well covered','#2e7d4f'];
+const cmQualT=v=>v<25?['early','#3a6fa5']:v<55?['growing','#c98a1b']:['strong','#2e7d4f'];
 function cmQualRow(covu,covT,me){
   const [qu,cu]=cmQualU(covu), [qt,ct]=cmQualT(covT);
   return `<div class="cmquals">${me?`<span class="cmqual" style="color:${cu};border-color:${cu}">You · ${qu}</span>`:''}<span class="cmqual" style="color:${ct};border-color:${ct}">Team · ${qt}</span></div>`;
@@ -1931,7 +1941,7 @@ function cmPanel(me){
   if(MAP.lvl==='l0'){
     const a=A[MAP.reg]||A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
     const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
-    return `<div class="cmhead">${who?`Your ${regName} network is <b>${qu}</b> relative to the deal flow there; the team's is ${qt}.`:`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
+    return `<div class="cmhead">${who?cmYouLine(covu,a.covT):`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
       ${cmQualRow(covu,a.covT,who)}`;
   }
   if(MAP.lvl==='l1'){
@@ -1940,7 +1950,10 @@ function cmPanel(me){
     const bcov=who&&A[biggest]&&A[biggest].u[who]?A[biggest].u[who].covu:0;
     const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
     const borrow=a.covT>=55&&covu<55;
-    return `<div class="cmhead">${who?`You are <b>${qu}</b> on network coverage in ${regName==='Germany'?'Germany':'the '+regName} relative to its deal flow and your pipeline.`:`The team's ${regName} coverage is <b>${qt}</b>.`} ${CM.ccName[biggest]||''} drives the most opportunity${who&&bcov<25?` and is where you are thinnest`:''}${borrow?` — the team holds doors you can borrow`:''}.</div>
+    return `<div class="cmhead">${who?(covu>=50
+        ?`Your ${regName} network is <b>well covered</b>. ${CM.ccName[biggest]||''} drives the most opportunity here.`
+        :`${regName==='Germany'?'Germany':'The '+regName} is where your network has the most room to grow: ${CM.ccName[biggest]||''} drives the most opportunity${borrow?` — and the team already holds doors you can borrow`:''}.`)
+      :`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
       ${cmQualRow(covu,a.covT,who)}`;
   }
   const cc=MAP.cc, a=A[cc]||{covT:0,u:{}};
@@ -2062,7 +2075,7 @@ function mapBind(body){
       const covu=me&&a.u[me]?a.u[me].covu:0;
       const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
       hov.innerHTML=`<div class="cmcn"><b>${(CM.regions.find(r=>r.id===rid)||{}).name||rid}</b></div>
-        <div class="cmwhy">${me?`Your network here is <b>${qu}</b> relative to the deal flow; the team's is ${qt}.`:`Team coverage is <b>${qt}</b>.`}</div>`;
+        <div class="cmwhy">${me?cmYouLine(covu,a.covT):`Team coverage is <b>${qt}</b>.`}</div>`;
       hov.hidden=false;
     });
     g.addEventListener('mousemove',ev=>{
