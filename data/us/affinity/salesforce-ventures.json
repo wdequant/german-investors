@@ -1,0 +1,40 @@
+{
+ "slug": "salesforce-ventures",
+ "affinity_domain": "salesforceventures.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Kartik Gupta",
+   "externalEmail": "kartik@salesforceventures.com",
+   "score": 1.0,
+   "last": "2026-08-13",
+   "meet": "2026-08-13"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Samuel Ackah-Yensu",
+   "externalEmail": "sam@salesforceventures.com",
+   "score": 1.0,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Samuel Ackah-Yensu",
+   "externalEmail": "sam@salesforceventures.com",
+   "score": 0.99,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Jessica Bartos",
+   "externalEmail": "jess@salesforceventures.com",
+   "score": 0.62,
+   "last": "2025-04-26",
+   "meet": "2024-07-11"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

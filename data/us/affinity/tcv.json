@@ -1,0 +1,328 @@
+{
+ "slug": "tcv",
+ "affinity_domain": "tcv.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Tyrone Tee",
+   "external": "Archie Jones",
+   "externalEmail": "ajones@tcv.com",
+   "score": 1.0,
+   "last": "2026-09-29",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Tyrone Tee",
+   "external": "Kai O'Donobhan",
+   "externalEmail": "kodonobhan@tcv.com",
+   "score": 1.0,
+   "last": "2026-09-11",
+   "meet": "2026-09-11"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Will O'Callaghan",
+   "externalEmail": "wocallaghan@tcv.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Will O'Callaghan",
+   "externalEmail": "wocallaghan@tcv.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Amy Rees-Ku",
+   "externalEmail": "areesku@tcv.com",
+   "score": 1.0,
+   "last": "2026-06-02",
+   "meet": "2025-03-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Amy Rees-Ku",
+   "externalEmail": "areesku@tcv.com",
+   "score": 1.0,
+   "last": "2026-06-02",
+   "meet": "2025-03-24"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Mikko Savolainen",
+   "externalEmail": "msavolainen@tcv.com",
+   "score": 1.0,
+   "last": "2026-07-23",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Jonathan Poffley",
+   "externalEmail": "jpoffley@tcv.com",
+   "score": 1.0,
+   "last": "2026-09-15",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Marta Estebanez",
+   "externalEmail": "msuarez@tcv.com",
+   "score": 1.0,
+   "last": "2026-07-08",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Manavi Mehra",
+   "externalEmail": "mmehra@tcv.com",
+   "score": 1.0,
+   "last": "2026-10-06",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "John Doran",
+   "externalEmail": "jdoran@tcv.com",
+   "score": 1.0,
+   "last": "2026-05-28",
+   "meet": "2025-07-17"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "John Rosenberg",
+   "externalEmail": "jrosenberg@tcv.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Muz Ashraf",
+   "externalEmail": "mashraf@tcv.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Muz Ashraf",
+   "externalEmail": "mashraf@tcv.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Muz Ashraf",
+   "externalEmail": "mashraf@tcv.com",
+   "score": 1.0,
+   "last": "2026-10-05",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Will O'Callaghan",
+   "externalEmail": "wocallaghan@tcv.com",
+   "score": 0.99,
+   "last": "2026-09-03",
+   "meet": "2026-09-03"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Amy Rees-Ku",
+   "externalEmail": "areesku@tcv.com",
+   "score": 0.99,
+   "last": "2026-06-02",
+   "meet": "2025-03-24"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Amy Rees-Ku",
+   "externalEmail": "areesku@tcv.com",
+   "score": 0.99,
+   "last": "2026-06-02",
+   "meet": "2025-03-24"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Mikko Savolainen",
+   "externalEmail": "msavolainen@tcv.com",
+   "score": 0.99,
+   "last": "2026-07-23",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Jonathan Poffley",
+   "externalEmail": "jpoffley@tcv.com",
+   "score": 0.99,
+   "last": "2026-09-15",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Jonathan Poffley",
+   "externalEmail": "jpoffley@tcv.com",
+   "score": 0.99,
+   "last": "2026-09-15",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "John Doran",
+   "externalEmail": "jdoran@tcv.com",
+   "score": 0.99,
+   "last": "2026-05-28",
+   "meet": "2025-07-17"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Muz Ashraf",
+   "externalEmail": "mashraf@tcv.com",
+   "score": 0.99,
+   "last": "2026-10-05",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "John Rosenberg",
+   "externalEmail": "jrosenberg@tcv.com",
+   "score": 0.98,
+   "last": "2026-10-01",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Karol Cieśluk",
+   "externalEmail": "kciesluk@tcv.com",
+   "score": 0.97,
+   "last": "2026-07-31",
+   "meet": "2026-07-31"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Mikko Savolainen",
+   "externalEmail": "msavolainen@tcv.com",
+   "score": 0.97,
+   "last": "2026-07-23",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Rafael Birnbaum",
+   "externalEmail": "rbirnbaum@tcv.com",
+   "score": 0.96,
+   "last": "2026-05-28",
+   "meet": "2026-05-28"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Manavi Mehra",
+   "externalEmail": "mmehra@tcv.com",
+   "score": 0.96,
+   "last": "2026-10-06",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Isabella Smith",
+   "externalEmail": "ismith@tcv.com",
+   "score": 0.95,
+   "last": "2026-05-28",
+   "meet": "2026-05-28"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Amy Rees-Ku",
+   "externalEmail": "areesku@tcv.com",
+   "score": 0.95,
+   "last": "2026-06-02",
+   "meet": "2025-03-24"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Mikko Savolainen",
+   "externalEmail": "msavolainen@tcv.com",
+   "score": 0.95,
+   "last": "2026-07-23",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Gloria Baeuerlein",
+   "externalEmail": "gbaeuerlein@tcv.com",
+   "score": 1.0,
+   "last": "2026-03-10",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Gloria Baeuerlein",
+   "externalEmail": "gbaeuerlein@tcv.com",
+   "score": 1.0,
+   "last": "2026-03-10",
+   "meet": "2026-02-09"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Elie Privat de Fressenel",
+   "externalEmail": "edefressenel@tcv.com",
+   "score": 0.99,
+   "last": "2026-01-28",
+   "meet": "2026-01-28"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Anjali Solanqui",
+   "externalEmail": "asolanqui@tcv.com",
+   "score": 0.95,
+   "last": "2026-02-12",
+   "meet": "2026-02-12"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Wissam Nasreddine",
+   "externalEmail": "wnasreddine@tcv.com",
+   "score": 0.8,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Mikko Savolainen",
+   "externalEmail": "msavolainen@tcv.com",
+   "score": 0.7,
+   "last": "2026-07-23",
+   "meet": "2025-10-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Manavi Mehra",
+   "externalEmail": "mmehra@tcv.com",
+   "score": 0.56,
+   "last": "2026-10-06",
+   "meet": "2026-09-24"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Faris Nathoo",
+   "externalEmail": "fnathoo@tcv.com",
+   "score": 1.0,
+   "last": "2025-07-09",
+   "meet": "2025-07-09"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Muz Ashraf",
+   "externalEmail": "mashraf@tcv.com",
+   "score": 0.5,
+   "last": "2026-10-05",
+   "meet": "2026-09-24"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

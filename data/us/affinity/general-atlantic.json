@@ -1,0 +1,328 @@
+{
+ "slug": "general-atlantic",
+ "affinity_domain": "generalatlantic.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Harry Mahadevan",
+   "externalEmail": "hmahadevan@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-08-10",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Jon Galitzer",
+   "externalEmail": "jgalitzer@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2025-10-28"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Caroline Woodworth",
+   "externalEmail": "cwoodworth@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Guy Cheney",
+   "externalEmail": "gcheney@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-09-16",
+   "meet": "2026-09-16"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Andrea Calabro",
+   "externalEmail": "acalabro@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-09-09",
+   "meet": "2026-09-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Mohit Daryanani",
+   "externalEmail": "mdaryanani@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Mohit Daryanani",
+   "externalEmail": "mdaryanani@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Mohit Daryanani",
+   "externalEmail": "mdaryanani@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Melis Akar",
+   "externalEmail": "makar@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-09-03",
+   "meet": "2026-04-02"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Lauren Browne",
+   "externalEmail": "lmarles-browne@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Caroline Woodworth",
+   "externalEmail": "cwoodworth@generalatlantic.com",
+   "score": 0.99,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jas Rajput",
+   "externalEmail": "jrajput@generalatlantic.com",
+   "score": 0.99,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Asheque Shams",
+   "externalEmail": "ashams@generalatlantic.com",
+   "score": 0.99,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Nicholette Albo",
+   "externalEmail": "nalbo@generalatlantic.com",
+   "score": 0.98,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Jennifer Barsky",
+   "externalEmail": "jbarsky@generalatlantic.com",
+   "score": 0.98,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Kemi Odusan",
+   "externalEmail": "kodusan@generalatlantic.com",
+   "score": 0.98,
+   "last": "2026-06-23",
+   "meet": "2026-06-23"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Jas Rajput",
+   "externalEmail": "jrajput@generalatlantic.com",
+   "score": 0.98,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Lauren Browne",
+   "externalEmail": "lmarles-browne@generalatlantic.com",
+   "score": 0.98,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Nicholette Albo",
+   "externalEmail": "nalbo@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Jennifer Barsky",
+   "externalEmail": "jbarsky@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Lauren Austin-Harvey",
+   "externalEmail": "laustinharvey@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-07-22",
+   "meet": "2025-09-04"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Caroline Woodworth",
+   "externalEmail": "cwoodworth@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Mohit Daryanani",
+   "externalEmail": "mdaryanani@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Jas Rajput",
+   "externalEmail": "jrajput@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Lauren Browne",
+   "externalEmail": "lmarles-browne@generalatlantic.com",
+   "score": 0.97,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Jon Galitzer",
+   "externalEmail": "jgalitzer@generalatlantic.com",
+   "score": 0.96,
+   "last": "2026-10-08",
+   "meet": "2025-10-28"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Lauren Austin-Harvey",
+   "externalEmail": "laustinharvey@generalatlantic.com",
+   "score": 0.95,
+   "last": "2026-07-22",
+   "meet": "2025-09-04"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Andrea Calabro",
+   "externalEmail": "acalabro@generalatlantic.com",
+   "score": 0.95,
+   "last": "2026-09-09",
+   "meet": "2026-09-09"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Asheque Shams",
+   "externalEmail": "ashams@generalatlantic.com",
+   "score": 0.95,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "John Bernstein",
+   "externalEmail": "jbernstein@generalatlantic.com",
+   "score": 0.92,
+   "last": "2026-09-21",
+   "meet": "2024-01-17"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Nicholette Albo",
+   "externalEmail": "nalbo@generalatlantic.com",
+   "score": 0.91,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Jennifer Barsky",
+   "externalEmail": "jbarsky@generalatlantic.com",
+   "score": 0.91,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Jas Rajput",
+   "externalEmail": "jrajput@generalatlantic.com",
+   "score": 0.91,
+   "last": "2026-06-30",
+   "meet": "2026-06-30"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Bella Silk",
+   "externalEmail": "bsilk@generalatlantic.com",
+   "score": 1.0,
+   "last": "2025-10-28",
+   "meet": "2025-10-28"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Bat Green",
+   "externalEmail": "bgreen@generalatlantic.com",
+   "score": 1.0,
+   "last": "2025-10-28",
+   "meet": "2025-10-28"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Alex Crisses",
+   "externalEmail": "acrisses@generalatlantic.com",
+   "score": 1.0,
+   "last": "2026-01-08",
+   "meet": "2026-01-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "James Whittington",
+   "externalEmail": "jwhittington@generalatlantic.com",
+   "score": 0.99,
+   "last": "2025-10-23",
+   "meet": "2025-10-14"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Alex Crisses",
+   "externalEmail": "acrisses@generalatlantic.com",
+   "score": 0.99,
+   "last": "2026-01-08",
+   "meet": "2026-01-08"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "James Whittington",
+   "externalEmail": "jwhittington@generalatlantic.com",
+   "score": 0.98,
+   "last": "2025-10-23",
+   "meet": "2025-10-14"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "James Whittington",
+   "externalEmail": "jwhittington@generalatlantic.com",
+   "score": 0.98,
+   "last": "2025-10-23",
+   "meet": "2025-10-14"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,64 @@
+{
+ "slug": "great-hill-partners",
+ "affinity_domain": "greathillpartners.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Nathaniel Myers",
+   "externalEmail": "nmyers@greathillpartners.com",
+   "score": 0.97,
+   "last": "2026-01-21",
+   "meet": "2026-01-21"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Chris Wilson",
+   "externalEmail": "cwilson@greathillpartners.com",
+   "score": 0.98,
+   "last": "2025-02-19",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Mats Heimes",
+   "externalEmail": "mheimes@greathillpartners.com",
+   "score": 0.53,
+   "last": "2025-11-26",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Douglas Wigley",
+   "externalEmail": "dwigley@greathillpartners.com",
+   "score": 1.0,
+   "last": "2024-02-15",
+   "meet": "2024-02-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Douglas Wigley",
+   "externalEmail": "dwigley@greathillpartners.com",
+   "score": 0.98,
+   "last": "2024-02-15",
+   "meet": "2024-02-15"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Leslie Fasulo",
+   "externalEmail": "lfasulo@greathillpartners.com",
+   "score": 0.63,
+   "last": "2024-05-14",
+   "meet": "2024-05-14"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Douglas Wigley",
+   "externalEmail": "dwigley@greathillpartners.com",
+   "score": 0.46,
+   "last": "2024-02-15",
+   "meet": "2024-02-15"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

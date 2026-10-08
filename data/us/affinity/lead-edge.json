@@ -1,0 +1,104 @@
+{
+ "slug": "lead-edge",
+ "affinity_domain": "leadedge.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Minda Lising-Afriyie",
+   "externalEmail": "minda.lising-afriyie@leadedge.com",
+   "score": 1.0,
+   "last": "2026-07-28",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Alex Gaulkin",
+   "externalEmail": "alex@leadedge.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Hari Badale",
+   "externalEmail": "hari@leadedge.com",
+   "score": 1.0,
+   "last": "2026-07-28",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Brian Lobdell",
+   "externalEmail": "brian.lobdell@leadedge.com",
+   "score": 0.97,
+   "last": "2026-05-27",
+   "meet": "2025-09-10"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Nimay Mehta",
+   "externalEmail": "nimay@leadedge.com",
+   "score": 1.0,
+   "last": "2026-03-11",
+   "meet": "2026-03-11"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Nimay Mehta",
+   "externalEmail": "nimay@leadedge.com",
+   "score": 1.0,
+   "last": "2026-03-11",
+   "meet": "2026-03-11"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Hari Badale",
+   "externalEmail": "hari@leadedge.com",
+   "score": 0.83,
+   "last": "2026-07-28",
+   "meet": "2026-07-28"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Alex Gaulkin",
+   "externalEmail": "alex@leadedge.com",
+   "score": 0.74,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Alan Gordon",
+   "externalEmail": "alan.gordon@leadedge.com",
+   "score": 0.97,
+   "last": "2025-07-03",
+   "meet": "2025-07-03"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Steven Munsie",
+   "externalEmail": "steven.munsie@leadedge.com",
+   "score": 0.95,
+   "last": "2025-06-26",
+   "meet": "2025-06-26"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Kelly Murphy",
+   "externalEmail": "kelly@leadedge.com",
+   "score": 0.51,
+   "last": "2025-10-07",
+   "meet": null
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Sydney Nelson",
+   "externalEmail": "sydney.nelson@leadedge.com",
+   "score": 0.1,
+   "last": "2025-02-18",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

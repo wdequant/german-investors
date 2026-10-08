@@ -1,0 +1,40 @@
+{
+ "slug": "coatue",
+ "affinity_domain": "coatue.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Andre Woon",
+   "externalEmail": "awoon@coatue.com",
+   "score": 0.99,
+   "last": "2026-02-27",
+   "meet": "2026-02-27"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Chase Packard",
+   "externalEmail": "cpackard@coatue.com",
+   "score": 0.7,
+   "last": "2024-06-06",
+   "meet": "2024-06-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jared Schulman",
+   "externalEmail": "jschulman@coatue.com",
+   "score": 0.1,
+   "last": "2025-08-27",
+   "meet": "2023-05-12"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Angelica Costa",
+   "externalEmail": "acosta@coatue.com",
+   "score": 0.1,
+   "last": "2025-08-27",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

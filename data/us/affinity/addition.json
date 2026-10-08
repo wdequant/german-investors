@@ -1,0 +1,96 @@
+{
+ "slug": "addition",
+ "affinity_domain": "addition.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Julie Paik",
+   "externalEmail": "julie@addition.com",
+   "score": 1.0,
+   "last": "2025-10-22",
+   "meet": "2025-10-22"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Roshni Chandwani",
+   "externalEmail": "roshni@addition.com",
+   "score": 1.0,
+   "last": "2026-02-18",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Roshni Chandwani",
+   "externalEmail": "roshni@addition.com",
+   "score": 0.99,
+   "last": "2026-02-18",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Kiki Lucia",
+   "externalEmail": "kiki@addition.com",
+   "score": 0.98,
+   "last": "2026-02-06",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Roshni Chandwani",
+   "externalEmail": "roshni@addition.com",
+   "score": 0.82,
+   "last": "2026-02-18",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Julie Paik",
+   "externalEmail": "julie@addition.com",
+   "score": 0.8,
+   "last": "2025-10-22",
+   "meet": "2025-10-22"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Julie Paik",
+   "externalEmail": "julie@addition.com",
+   "score": 0.7,
+   "last": "2025-10-22",
+   "meet": "2025-10-22"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Allison Pecchia",
+   "externalEmail": "allison@addition.com",
+   "score": 1.0,
+   "last": "2024-11-19",
+   "meet": "2024-11-08"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Todd Arfman",
+   "externalEmail": "todd@addition.com",
+   "score": 1.0,
+   "last": "2024-11-19",
+   "meet": "2024-11-08"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Andrew Miskiewicz",
+   "externalEmail": "andrew@addition.com",
+   "score": 0.99,
+   "last": "2024-10-25",
+   "meet": "2024-10-25"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Lee Fixel",
+   "externalEmail": "lee@addition.com",
+   "score": 0.1,
+   "last": "2026-03-16",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,80 @@
+{
+ "slug": "psg",
+ "affinity_domain": "psgequity.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Paul Russ",
+   "externalEmail": "paul.russ@psgequity.com",
+   "score": 1.0,
+   "last": "2025-12-02",
+   "meet": "2025-12-02"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Paul Russ",
+   "externalEmail": "paul.russ@psgequity.com",
+   "score": 0.84,
+   "last": "2025-12-02",
+   "meet": "2025-12-02"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Anna Grigoryeva",
+   "externalEmail": "anna.grigoryeva@psgequity.com",
+   "score": 0.65,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Paul Russ",
+   "externalEmail": "paul.russ@psgequity.com",
+   "score": 0.7,
+   "last": "2025-12-02",
+   "meet": "2025-12-02"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Anna Grigoryeva",
+   "externalEmail": "anna.grigoryeva@psgequity.com",
+   "score": 0.5,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Asaf Joffe",
+   "externalEmail": "asaf.joffe@psgequity.com",
+   "score": 0.38,
+   "last": "2026-07-08",
+   "meet": "2023-02-06"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Anna Grigoryeva",
+   "externalEmail": "anna.grigoryeva@psgequity.com",
+   "score": 0.3,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Rotem Shacham",
+   "externalEmail": "rotem.shacham@psgequity.com",
+   "score": 0.1,
+   "last": "2026-07-08",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Emely Baez",
+   "externalEmail": "emely.baez@psgequity.com",
+   "score": 0.1,
+   "last": "2025-11-06",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

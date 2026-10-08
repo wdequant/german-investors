@@ -1,0 +1,256 @@
+{
+ "slug": "iconiq",
+ "affinity_domain": "iconiqcapital.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Amine Athamena",
+   "externalEmail": "aathamena@iconiqcapital.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-10-05"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Shruti Tournatory",
+   "externalEmail": "stournatory@iconiqcapital.com",
+   "score": 0.97,
+   "last": "2026-06-24",
+   "meet": "2025-10-14"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Shruti Tournatory",
+   "externalEmail": "stournatory@iconiqcapital.com",
+   "score": 0.95,
+   "last": "2026-06-24",
+   "meet": "2025-10-14"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Zuzanna Czapinska",
+   "externalEmail": "zczapinska@iconiqcapital.com",
+   "score": 0.99,
+   "last": "2026-03-10",
+   "meet": "2026-03-10"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Mariam Abbott",
+   "externalEmail": "mabbott@iconiqcapital.com",
+   "score": 0.87,
+   "last": "2025-10-28",
+   "meet": "2024-11-28"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Calvin Yeoh",
+   "externalEmail": "cyeoh@iconiqcapital.com",
+   "score": 0.87,
+   "last": "2025-12-22",
+   "meet": "2025-12-18"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Prit Boggavaram",
+   "externalEmail": "pboggavaram@iconiqcapital.com",
+   "score": 0.78,
+   "last": "2026-07-21",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Prit Boggavaram",
+   "externalEmail": "pboggavaram@iconiqcapital.com",
+   "score": 0.76,
+   "last": "2026-07-21",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Sarah Stebbins",
+   "externalEmail": "sstebbins@iconiqcapital.com",
+   "score": 0.61,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ritika Pai",
+   "externalEmail": "rpai@iconiqcapital.com",
+   "score": 0.61,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Mariam Abbott",
+   "externalEmail": "mabbott@iconiqcapital.com",
+   "score": 0.59,
+   "last": "2025-10-28",
+   "meet": "2024-11-28"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Seth Pierrepont",
+   "externalEmail": "spierrepont@iconiqcapital.com",
+   "score": 1.0,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Marie-Louise O'Callaghan",
+   "externalEmail": "mlocallaghan@iconiqcapital.com",
+   "score": 0.97,
+   "last": "2025-02-19",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Calvin Yeoh",
+   "externalEmail": "sbinks@iconiqcapital.com",
+   "score": 0.95,
+   "last": "2025-04-16",
+   "meet": "2025-04-16"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Marie-Louise O'Callaghan",
+   "externalEmail": "mlocallaghan@iconiqcapital.com",
+   "score": 0.88,
+   "last": "2025-02-19",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Calvin Yeoh",
+   "externalEmail": "cyeoh@iconiqcapital.com",
+   "score": 0.43,
+   "last": "2025-12-22",
+   "meet": "2025-12-18"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Calvin Yeoh",
+   "externalEmail": "sbinks@iconiqcapital.com",
+   "score": 0.77,
+   "last": "2025-04-16",
+   "meet": "2025-04-16"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Marie-Louise O'Callaghan",
+   "externalEmail": "mlocallaghan@iconiqcapital.com",
+   "score": 0.74,
+   "last": "2025-02-19",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Marie-Louise O'Callaghan",
+   "externalEmail": "mlocallaghan@iconiqcapital.com",
+   "score": 0.65,
+   "last": "2025-02-19",
+   "meet": "2025-02-19"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Austin Liang",
+   "externalEmail": "aliang@iconiqcapital.com",
+   "score": 0.99,
+   "last": "2024-02-05",
+   "meet": "2024-02-05"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Alison Brill",
+   "externalEmail": "abrill@iconiqcapital.com",
+   "score": 0.99,
+   "last": "2024-09-13",
+   "meet": "2024-09-13"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Greg Stanger",
+   "externalEmail": "gstanger@iconiqcapital.com",
+   "score": 0.99,
+   "last": "2024-09-13",
+   "meet": "2024-09-13"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Calvin Yeoh",
+   "externalEmail": "sbinks@iconiqcapital.com",
+   "score": 0.54,
+   "last": "2025-04-16",
+   "meet": "2025-04-16"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Louise Staite",
+   "externalEmail": "lstaite@iconiqcapital.com",
+   "score": 0.81,
+   "last": "2024-09-25",
+   "meet": "2023-10-11"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Seth Pierrepont",
+   "externalEmail": "spierrepont@iconiqcapital.com",
+   "score": 0.43,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Clara Power",
+   "externalEmail": "cpower@iconiqcapital.com",
+   "score": 0.51,
+   "last": "2025-09-24",
+   "meet": null
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Sophia Fernyhough",
+   "externalEmail": "sfernyhough@iconiqcapital.com",
+   "score": 0.43,
+   "last": "2024-11-25",
+   "meet": null
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Sarah Stebbins",
+   "externalEmail": "sstebbins@iconiqcapital.com",
+   "score": 0.1,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Ritika Pai",
+   "externalEmail": "rpai@iconiqcapital.com",
+   "score": 0.1,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Ritika Pai",
+   "externalEmail": "rpai@iconiqcapital.com",
+   "score": 0.1,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Adam Alfi",
+   "externalEmail": "aalfi@iconiqcapital.com",
+   "score": 0.1,
+   "last": "2025-01-28",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

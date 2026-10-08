@@ -1,0 +1,16 @@
+{
+ "slug": "tiger-global",
+ "affinity_domain": "tigerglobal.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Harry Williams",
+   "external": "Lee Fixel",
+   "externalEmail": "lee@tigerglobal.com",
+   "score": 0.1,
+   "last": "2026-03-16",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

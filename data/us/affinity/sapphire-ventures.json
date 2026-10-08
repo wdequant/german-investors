@@ -1,0 +1,312 @@
+{
+ "slug": "sapphire-ventures",
+ "affinity_domain": "sapphireventures.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Elizabeth Patterson",
+   "externalEmail": "elizabeth@sapphireventures.com",
+   "score": 1.0,
+   "last": "2026-08-18",
+   "meet": "2026-05-07"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Derek Asbun",
+   "externalEmail": "derek@sapphireventures.com",
+   "score": 1.0,
+   "last": "2026-10-01",
+   "meet": "2026-10-01"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Shruti Tournatory",
+   "externalEmail": "shruti@sapphireventures.com",
+   "score": 0.97,
+   "last": "2026-06-24",
+   "meet": "2025-10-14"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Shruti Tournatory",
+   "externalEmail": "shruti@sapphireventures.com",
+   "score": 0.95,
+   "last": "2026-06-24",
+   "meet": "2025-10-14"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Anya Rajani",
+   "externalEmail": "anya@sapphireventures.com",
+   "score": 0.99,
+   "last": "2026-02-24",
+   "meet": "2026-02-24"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Anya Rajani",
+   "externalEmail": "anya@sapphireventures.com",
+   "score": 0.77,
+   "last": "2026-02-24",
+   "meet": "2026-02-24"
+  },
+  {
+   "internal": "Rachel Marcinek",
+   "external": "Tiffany Chandra",
+   "externalEmail": "tiffany@sapphireventures.com",
+   "score": 0.61,
+   "last": "2026-03-19",
+   "meet": "2025-05-20"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Georgina Davies",
+   "externalEmail": "georgie@sapphireventures.com",
+   "score": 1.0,
+   "last": "2024-11-08",
+   "meet": "2024-11-08"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Georgina Davies",
+   "externalEmail": "georgie@sapphireventures.com",
+   "score": 1.0,
+   "last": "2024-11-08",
+   "meet": "2024-11-08"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Imogen Mulliner",
+   "externalEmail": "imogen@sapphireventures.com",
+   "score": 1.0,
+   "last": "2024-12-11",
+   "meet": "2024-12-11"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Imogen Mulliner",
+   "externalEmail": "imogen@sapphireventures.com",
+   "score": 1.0,
+   "last": "2024-12-11",
+   "meet": "2024-12-11"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Andreas Weiskam",
+   "externalEmail": "andreas@sapphireventures.com",
+   "score": 0.94,
+   "last": "2025-07-30",
+   "meet": "2023-10-10"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Tiffany Chandra",
+   "externalEmail": "tiffany@sapphireventures.com",
+   "score": 0.48,
+   "last": "2026-03-19",
+   "meet": "2025-05-20"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Georgina Davies",
+   "externalEmail": "georgie@sapphireventures.com",
+   "score": 0.79,
+   "last": "2024-11-08",
+   "meet": "2024-11-08"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Annalise Dragic",
+   "externalEmail": "annalise@sapphireventures.com",
+   "score": 0.38,
+   "last": "2026-05-19",
+   "meet": "2023-05-03"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Rosie Tersigni",
+   "externalEmail": "rosie@sapphireventures.com",
+   "score": 1.0,
+   "last": "2024-06-20",
+   "meet": "2024-06-07"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Xiaoping Feng",
+   "externalEmail": "xiaoping@sapphireventures.com",
+   "score": 0.38,
+   "last": "2026-08-12",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Elizabeth Miller",
+   "externalEmail": "lizzy@sapphireventures.com",
+   "score": 0.38,
+   "last": "2026-05-05",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Krupa Vankayala",
+   "externalEmail": "krupa@sapphireventures.com",
+   "score": 0.43,
+   "last": "2025-08-12",
+   "meet": "2023-11-16"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Imogen Mulliner",
+   "externalEmail": "imogen@sapphireventures.com",
+   "score": 0.43,
+   "last": "2024-12-11",
+   "meet": "2024-12-11"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Andreas Weiskam",
+   "externalEmail": "andreas@sapphireventures.com",
+   "score": 0.43,
+   "last": "2025-07-30",
+   "meet": "2023-10-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Georgina Davies",
+   "externalEmail": "georgie@sapphireventures.com",
+   "score": 0.38,
+   "last": "2024-11-08",
+   "meet": "2024-11-08"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Andreas Weiskam",
+   "externalEmail": "andreas@sapphireventures.com",
+   "score": 0.34,
+   "last": "2025-07-30",
+   "meet": "2023-10-10"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Andreas Weiskam",
+   "externalEmail": "andreas@sapphireventures.com",
+   "score": 0.33,
+   "last": "2025-07-30",
+   "meet": "2023-10-10"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Hannah Cohn",
+   "externalEmail": "hannah@sapphireventures.com",
+   "score": 0.54,
+   "last": "2024-08-22",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "David Carter",
+   "externalEmail": "carter@sapphireventures.com",
+   "score": 0.38,
+   "last": "2024-10-07",
+   "meet": "2022-03-16"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Cathy Gao",
+   "externalEmail": "cathy@sapphireventures.com",
+   "score": 0.49,
+   "last": "2024-06-26",
+   "meet": null
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Annalise Dragic",
+   "externalEmail": "annalise@sapphireventures.com",
+   "score": 0.1,
+   "last": "2026-05-19",
+   "meet": "2023-05-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Steve Abbott",
+   "externalEmail": "steve@sapphireventures.com",
+   "score": 0.1,
+   "last": "2026-08-12",
+   "meet": null
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Rebecca Lynn",
+   "externalEmail": "rlynn@sapphireventures.com",
+   "score": 0.1,
+   "last": "2025-10-29",
+   "meet": null
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Nicole Torres",
+   "externalEmail": "nicole@sapphireventures.com",
+   "score": 0.1,
+   "last": "2025-10-28",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Nicole Torres",
+   "externalEmail": "nicole@sapphireventures.com",
+   "score": 0.1,
+   "last": "2025-10-28",
+   "meet": null
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Anders Ranum",
+   "externalEmail": "anders@sapphireventures.com",
+   "score": 0.1,
+   "last": "2025-09-09",
+   "meet": "2023-06-01"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Imogen Mulliner",
+   "externalEmail": "imogen@sapphireventures.com",
+   "score": 0.1,
+   "last": "2024-12-11",
+   "meet": "2024-12-11"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Andreas Weiskam",
+   "externalEmail": "andreas@sapphireventures.com",
+   "score": 0.1,
+   "last": "2025-07-30",
+   "meet": "2023-10-10"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sophie Hyde",
+   "externalEmail": "shyde@sapphireventures.com",
+   "score": 0.1,
+   "last": "2025-09-17",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Rosie Tersigni",
+   "externalEmail": "rosie@sapphireventures.com",
+   "score": 0.1,
+   "last": "2024-06-20",
+   "meet": "2024-06-07"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Rosie Tersigni",
+   "externalEmail": "rosie@sapphireventures.com",
+   "score": 0.1,
+   "last": "2024-06-20",
+   "meet": "2024-06-07"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

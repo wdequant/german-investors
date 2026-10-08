@@ -1,0 +1,80 @@
+{
+ "slug": "stripes",
+ "affinity_domain": "stripes.co",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Helena Richardson",
+   "external": "James Sincavage",
+   "externalEmail": "jim@stripes.co",
+   "score": 0.98,
+   "last": "2026-10-06",
+   "meet": "2026-02-25"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Melissa Fulenwider",
+   "externalEmail": "melissa@stripes.co",
+   "score": 1.0,
+   "last": "2026-01-19",
+   "meet": "2026-01-19"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Samuel Nicklin",
+   "externalEmail": "sam.nicklin@stripes.co",
+   "score": 0.7,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Melissa Fulenwider",
+   "externalEmail": "melissa@stripes.co",
+   "score": 0.6,
+   "last": "2026-01-19",
+   "meet": "2026-01-19"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Melissa Fulenwider",
+   "externalEmail": "melissa@stripes.co",
+   "score": 0.57,
+   "last": "2026-01-19",
+   "meet": "2026-01-19"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Gabby Cabeza",
+   "externalEmail": "gabby@stripes.co",
+   "score": 0.63,
+   "last": "2026-10-07",
+   "meet": null
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Samuel Nicklin",
+   "externalEmail": "sam.nicklin@stripes.co",
+   "score": 0.38,
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Lucy Stenovec",
+   "externalEmail": "lucy@stripes.co",
+   "score": 0.1,
+   "last": "2026-10-02",
+   "meet": "2024-11-12"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Karen Kenworthy",
+   "externalEmail": "karen@stripes.co",
+   "score": 0.38,
+   "last": "2024-10-02",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

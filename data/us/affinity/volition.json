@@ -1,0 +1,72 @@
+{
+ "slug": "volition",
+ "affinity_domain": "volitioncapital.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Isabelle Tashima",
+   "externalEmail": "isabellet@volitioncapital.com",
+   "score": 0.98,
+   "last": "2026-01-30",
+   "meet": "2026-01-30"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Steve Achatz",
+   "externalEmail": "stevea@volitioncapital.com",
+   "score": 0.98,
+   "last": "2026-01-30",
+   "meet": "2026-01-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Isabelle Tashima",
+   "externalEmail": "isabellet@volitioncapital.com",
+   "score": 0.97,
+   "last": "2026-01-30",
+   "meet": "2026-01-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Steve Achatz",
+   "externalEmail": "stevea@volitioncapital.com",
+   "score": 0.97,
+   "last": "2026-01-30",
+   "meet": "2026-01-30"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Aimee Tashjian",
+   "externalEmail": "aimee@volitioncapital.com",
+   "score": 0.1,
+   "last": "2026-01-28",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Aimee Tashjian",
+   "externalEmail": "aimee@volitioncapital.com",
+   "score": 0.1,
+   "last": "2026-01-28",
+   "meet": null
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Larry Cheng",
+   "externalEmail": "larry@volitioncapital.com",
+   "score": 0.1,
+   "last": "2026-01-28",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Larry Cheng",
+   "externalEmail": "larry@volitioncapital.com",
+   "score": 0.1,
+   "last": "2026-01-28",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

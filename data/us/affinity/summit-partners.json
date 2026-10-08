@@ -1,0 +1,328 @@
+{
+ "slug": "summit-partners",
+ "affinity_domain": "summitpartners.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Joshua Rothkugel",
+   "externalEmail": "jrothkugel@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-09-29",
+   "meet": "2026-09-29"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Nik Ohri",
+   "externalEmail": "nohri@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-08-18",
+   "meet": "2026-08-18"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "John Doran",
+   "externalEmail": "jdoran@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-05-28",
+   "meet": "2025-07-17"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Nicolas Slim",
+   "externalEmail": "nslim@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-09-15",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Kirk Lepke",
+   "externalEmail": "klepke@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Kirk Lepke",
+   "externalEmail": "klepke@summitpartners.com",
+   "score": 1.0,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Nik Ohri",
+   "externalEmail": "nohri@summitpartners.com",
+   "score": 0.99,
+   "last": "2026-08-18",
+   "meet": "2026-08-18"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Steven Twomey",
+   "externalEmail": "stwomey@summitpartners.com",
+   "score": 0.99,
+   "last": "2026-05-06",
+   "meet": "2026-05-05"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Steffan Peyer",
+   "externalEmail": "speyer@summitpartners.com",
+   "score": 0.99,
+   "last": "2026-07-03",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "John Doran",
+   "externalEmail": "jdoran@summitpartners.com",
+   "score": 0.99,
+   "last": "2026-05-28",
+   "meet": "2025-07-17"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@summitpartners.com",
+   "score": 0.99,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Kirk Lepke",
+   "externalEmail": "klepke@summitpartners.com",
+   "score": 0.95,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Nicolas Slim",
+   "externalEmail": "nslim@summitpartners.com",
+   "score": 0.94,
+   "last": "2026-09-15",
+   "meet": "2026-07-21"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.93,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Sunkyu Han",
+   "externalEmail": "shan@summitpartners.com",
+   "score": 0.98,
+   "last": "2026-02-06",
+   "meet": "2026-02-06"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Lidija Massenko",
+   "externalEmail": "lmassenko@summitpartners.com",
+   "score": 0.98,
+   "last": "2026-04-02",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.79,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Nik Ohri",
+   "externalEmail": "nohri@summitpartners.com",
+   "score": 0.65,
+   "last": "2026-08-18",
+   "meet": "2026-08-18"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Lidija Massenko",
+   "externalEmail": "lmassenko@summitpartners.com",
+   "score": 0.54,
+   "last": "2026-04-02",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Mats Heimes",
+   "externalEmail": "mheimes@summitpartners.com",
+   "score": 0.53,
+   "last": "2025-11-26",
+   "meet": "2025-11-26"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Kirk Lepke",
+   "externalEmail": "klepke@summitpartners.com",
+   "score": 0.45,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Will Sheldon",
+   "externalEmail": "wsheldon@summitpartners.com",
+   "score": 0.43,
+   "last": "2026-04-16",
+   "meet": "2026-04-15"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Kirk Lepke",
+   "externalEmail": "klepke@summitpartners.com",
+   "score": 0.43,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Oriane Donnadieu",
+   "externalEmail": "odonnadieu@summitpartners.com",
+   "score": 0.35,
+   "last": "2025-12-09",
+   "meet": "2025-12-09"
+  },
+  {
+   "internal": "Anna Faulkner",
+   "external": "Alysha Zimmermann",
+   "externalEmail": "azimmermann@summitpartners.com",
+   "score": 0.61,
+   "last": "2025-02-27",
+   "meet": "2025-02-27"
+  },
+  {
+   "internal": "Emily Tan",
+   "external": "Peder Nerseth",
+   "externalEmail": "pnerseth@summitpartners.com",
+   "score": 1.0,
+   "last": "2024-02-22",
+   "meet": "2024-02-22"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Antony Clavel",
+   "externalEmail": "aclavel@summitpartners.com",
+   "score": 0.43,
+   "last": "2025-09-22",
+   "meet": "2020-01-14"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Marc Vangerven",
+   "externalEmail": "mvangerven@summitpartners.com",
+   "score": 0.7,
+   "last": "2023-12-20",
+   "meet": "2023-12-20"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Irina Müller",
+   "externalEmail": "imueller@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-05-12",
+   "meet": "2026-05-12"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Steven Twomey",
+   "externalEmail": "stwomey@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-05-06",
+   "meet": "2026-05-05"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Stan Laurent",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Vincent Lambert",
+   "externalEmail": "vlambert@summitpartners.com",
+   "score": 0.1,
+   "last": "2026-09-17",
+   "meet": "2026-08-10"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

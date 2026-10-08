@@ -1,0 +1,32 @@
+{
+ "slug": "thrive",
+ "affinity_domain": "thrivecap.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Anna Vershebeniuk",
+   "externalEmail": "anna@thrivecap.com",
+   "score": 1.0,
+   "last": "2025-06-04",
+   "meet": "2024-02-13"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Anna Vershebeniuk",
+   "externalEmail": "anna@thrivecap.com",
+   "score": 0.84,
+   "last": "2025-06-04",
+   "meet": "2024-02-13"
+  },
+  {
+   "internal": "Jean Tardy-Joubert",
+   "external": "Anna Vershebeniuk",
+   "externalEmail": "anna@thrivecap.com",
+   "score": 0.43,
+   "last": "2025-06-04",
+   "meet": "2024-02-13"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

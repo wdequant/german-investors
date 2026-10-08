@@ -1,0 +1,80 @@
+{
+ "slug": "bond",
+ "affinity_domain": "bondcap.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Harry Williams",
+   "external": "Cole Pergament",
+   "externalEmail": "cole@bondcap.com",
+   "score": 0.51,
+   "last": "2024-07-30",
+   "meet": "2021-03-09"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Katie Denton",
+   "externalEmail": "katie@bondcap.com",
+   "score": 0.38,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Mood Rowghani",
+   "externalEmail": "mood@bondcap.com",
+   "score": 0.38,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Cameron Deatsch",
+   "externalEmail": "cameron@bondcap.com",
+   "score": 0.33,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Daegwon Chae",
+   "externalEmail": "daegwon@bondcap.com",
+   "score": 0.33,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Mood Rowghani",
+   "externalEmail": "mood@bondcap.com",
+   "score": 0.33,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Salise Ramsay",
+   "externalEmail": "salise@bondcap.com",
+   "score": 0.1,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Katie Denton",
+   "externalEmail": "katie@bondcap.com",
+   "score": 0.1,
+   "last": "2025-07-31",
+   "meet": null
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Cameron Deatsch",
+   "externalEmail": "cameron@bondcap.com",
+   "score": 0.1,
+   "last": "2025-07-31",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

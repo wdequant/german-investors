@@ -1,0 +1,128 @@
+{
+ "slug": "meritech",
+ "affinity_domain": "meritechcapital.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Anthony DeCamillo",
+   "externalEmail": "anthony@meritechcapital.com",
+   "score": 1.0,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Arsham Memarzadeh",
+   "externalEmail": "am@meritechcapital.com",
+   "score": 0.99,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Paul Madera",
+   "externalEmail": "pmadera@meritechcapital.com",
+   "score": 0.99,
+   "last": "2026-09-17",
+   "meet": "2026-09-17"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Anthony DeCamillo",
+   "externalEmail": "anthony@meritechcapital.com",
+   "score": 0.95,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Tanner Bhonslay",
+   "externalEmail": "tanner@meritechcapital.com",
+   "score": 0.96,
+   "last": "2025-05-20",
+   "meet": "2025-05-20"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Annalisa Nielsen",
+   "externalEmail": "annalisa@meritechcapital.com",
+   "score": 0.47,
+   "last": "2025-10-15",
+   "meet": null
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Stephanie Parr",
+   "externalEmail": "sparr@meritechcapital.com",
+   "score": 0.31,
+   "last": "2026-08-20",
+   "meet": null
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Christina Canady",
+   "externalEmail": "christina@meritechcapital.com",
+   "score": 0.41,
+   "last": "2024-12-11",
+   "meet": null
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Arsham Memarzadeh",
+   "externalEmail": "am@meritechcapital.com",
+   "score": 0.1,
+   "last": "2026-09-25",
+   "meet": "2026-07-23"
+  },
+  {
+   "internal": "Eoghan Dorman",
+   "external": "Anthony DeCamillo",
+   "externalEmail": "anthony@meritechcapital.com",
+   "score": 0.1,
+   "last": "2026-07-15",
+   "meet": "2026-07-15"
+  },
+  {
+   "internal": "Ronan Shally",
+   "external": "Stephanie Parr",
+   "externalEmail": "sparr@meritechcapital.com",
+   "score": 0.1,
+   "last": "2026-08-20",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Tanner Bhonslay",
+   "externalEmail": "tanner@meritechcapital.com",
+   "score": 0.1,
+   "last": "2025-05-20",
+   "meet": "2025-05-20"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Daria Kosmynina",
+   "externalEmail": "daria@meritechcapital.com",
+   "score": 0.1,
+   "last": "2025-05-15",
+   "meet": null
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Alex Kurland",
+   "externalEmail": "ak@meritechcapital.com",
+   "score": 0.1,
+   "last": "2025-05-15",
+   "meet": null
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Alex Kurland",
+   "externalEmail": "ak@meritechcapital.com",
+   "score": 0.1,
+   "last": "2025-05-15",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "bain-capital-ventures",
+ "affinity_domain": "baincapitalventures.com",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "David Blyghton",
+   "external": "Matthew Brennan",
+   "externalEmail": "mbrennan@baincapitalventures.com",
+   "score": 0.99,
+   "last": "2024-06-19",
+   "meet": "2023-11-15"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Matthew Brennan",
+   "externalEmail": "mbrennan@baincapitalventures.com",
+   "score": 0.95,
+   "last": "2024-06-19",
+   "meet": "2023-11-15"
+  }
+ ],
+ "rels_fetched": "2026-10-08"
+}
