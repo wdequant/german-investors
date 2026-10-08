@@ -2105,12 +2105,8 @@ function mapBind(body){
       const rid=g.dataset.cmreg, a=CM.areas[rid]; if(!a) return;
       const covu=me&&a.u[me]?a.u[me].covu:0;
       const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
-      const rsubs=((CM.subsOf||{})[rid]||[]).map(sb=>sb.id);
-      const top3=[...cmVisible(me)].filter(e=>rsubs.includes(e.cc)).sort((x,y)=>cmU(y,me).m-cmU(x,me).m).slice(0,3);
       hov.innerHTML=`<div class="cmcn"><b>${(CM.regions.find(r=>r.id===rid)||{}).name||rid}</b></div>
-        <div class="cmwhy">${me?`Your network here is <b>${qu}</b> relative to the deal flow; the team's is ${qt}.`:`Team coverage is <b>${qt}</b>.`}</div>
-        <div class="cmwhy">${top3.map(e=>{const tb=cmTeamBest(e);return `<b>${e.name}</b>${cmU(e,me).tag==='warm'&&tb?` — ask ${tb.u.split(' ')[0]}`:''}`;}).join(' · ')}</div>
-        <div class="cmwhy cc">Click to open</div>`;
+        <div class="cmwhy">${me?`Your network here is <b>${qu}</b> relative to the deal flow; the team's is ${qt}.`:`Team coverage is <b>${qt}</b>.`}</div>`;
       hov.hidden=false;
     });
     g.addEventListener('mousemove',ev=>{
