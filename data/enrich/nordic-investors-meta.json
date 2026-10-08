@@ -1,0 +1,293 @@
+{
+ "apmoller.com": {
+  "verdict": "fund",
+  "name": "APMH Invest",
+  "type": "Family Office",
+  "stage": "Late",
+  "note": "A.P. Moller Holding's direct investment arm (APMH Invest) writes large growth/buyout cheques; the venture vehicle is Maersk Growth, tracked separately (growth.maersk.com)."
+ },
+ "scanabc.com": {
+  "verdict": "drop",
+  "note": "Aakkoset Oy is a Finnish cybersecurity operating company (Harmonic), not an investor; mislabeled in Affinity."
+ },
+ "accelerace.io": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Danish accelerator that writes real pre-seed cheques via Accelerace Invest."
+ },
+ "agvinvest.se": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Swedish investment firm focused on proptech and real-estate decarbonisation (Harmonic)."
+ },
+ "akerasa.com": {
+  "verdict": "drop",
+  "note": "Industrial investment holding; startup exposure runs through Runway VC (ex-RunwayFBU, separate record) and internal ventures, not direct cheques under the Aker ASA name."
+ },
+ "alliance.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian early-stage VC."
+ },
+ "almi.se": {
+  "verdict": "alias",
+  "name": "Almi Invest",
+  "note": "Parent agency of Almi Invest; keep almiinvest.se as the investing record."
+ },
+ "almiinvest.se": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Early",
+  "note": "Sweden's most active state-backed seed investor."
+ },
+ "ampli.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm evergreen (~EUR 30m), Nordic B2B SaaS, seed/Series A."
+ },
+ "arkwrightx.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Venture arm of Arkwright; Oslo, early-stage."
+ },
+ "askeladden.co": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Oslo venture studio; funds its own companies at creation rather than writing external cheques."
+ },
+ "bii.dk": {
+  "verdict": "fund",
+  "name": "BioInnovation Institute",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Novo Nordisk Foundation-backed; deploys convertible loans and equity into life-science startups, not just grants."
+ },
+ "blackwood.vc": {
+  "verdict": "fund",
+  "name": "BlackWood Ventures",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Copenhagen-based early-stage VC (Harmonic investor record)."
+ },
+ "blqinvest.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm B2B software seed investor."
+ },
+ "businessfinland.fi": {
+  "verdict": "drop",
+  "note": "Grants and soft loans; its VC arm is a fund-of-funds. Direct Finnish state equity is Tesi (separate record, stays)."
+ },
+ "butterfly.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish seed VC (Oulu/Helsinki), deep tech."
+ },
+ "byfounders.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Nordic/Baltic seed VC, Copenhagen."
+ },
+ "caddie.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm micro-VC, B2B software (Harmonic investor record)."
+ },
+ "cbsstartup.dk": {
+  "verdict": "drop",
+  "note": "Copenhagen Business School student incubator; no equity cheque."
+ },
+ "chalmersventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "University-linked but a real investor: runs funds and writes deep-tech seed cheques, unlike a TTO."
+ },
+ "augustinusfabrikker.dk": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Growth",
+  "note": "Evergreen family holding (Augustinus Foundation); direct long-term investments in Danish companies. Venture-adjacent at best."
+ },
+ "climentum.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish climate VC."
+ },
+ "cninordic.com": {
+  "verdict": "fund",
+  "name": "CNI (Club Network Investments)",
+  "type": "Angel",
+  "stage": "Early",
+  "note": "Stockholm investment club / angel network writing collective cheques."
+ },
+ "cc.vc": {
+  "verdict": "fund",
+  "name": "Course Corrected",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm climate VC."
+ },
+ "creandum.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": ""
+ },
+ "crowberrycapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Icelandic/Nordic seed VC."
+ },
+ "cvx.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish venture collective; pooled angel capital plus fund vehicles."
+ },
+ "danskebank.com": {
+  "verdict": "drop",
+  "note": "Retail/commercial bank; no active venture vehicle (Danske Bank Growth is an advisory programme, not a fund)."
+ },
+ "dhsventurepartners.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm family-backed VC."
+ },
+ "dnb.no": {
+  "verdict": "drop",
+  "note": "Bank; no active CVC writing startup cheques."
+ },
+ "dreamcraft.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish early-stage VC."
+ },
+ "e14invest.se": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Growth",
+  "note": "Regional Swedish co-investment company (Jamtland / E14 corridor) backing scalable growth companies."
+ },
+ "easthillequity.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Stockholm industrial-tech investor; also manages Scania Growth Capital (see scania.com record)."
+ },
+ "eifo.dk": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Denmark's Export and Investment Fund; absorbed Vaekstfonden and VF Venture (both aliases of this record)."
+ },
+ "eqtgroup.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Real PE/infrastructure firm in its own right (also houses EQT Growth); distinct from EQT Ventures, which is tracked separately."
+ },
+ "eqtventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": ""
+ },
+ "elise-ai.eu": {
+  "verdict": "drop",
+  "note": "EU AI research network (ELISE), not an investor."
+ },
+ "ventures.eviny.no": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Early",
+  "note": "Venture arm of Norwegian energy group Eviny."
+ },
+ "egp.fi": {
+  "verdict": "fund",
+  "name": "Evli Growth Partners",
+  "type": "VC",
+  "stage": "Growth",
+  "note": ""
+ },
+ "failup.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish early-stage investor, AI/productivity focus (Harmonic)."
+ },
+ "fairpoint.se": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm early-stage B2B VC."
+ },
+ "farvatn.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Bergen family office with a venture arm (Farvatn Venture)."
+ },
+ "fasttrackmalmo.com": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Accelerator writing small pre-seed cheques."
+ },
+ "finalfrontier.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish defence/space/cyber VC (Harmonic)."
+ },
+ "firda.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Geir Forre's investment company (exits: Energy Micro, Chipcon, Prox Dynamics); Norwegian deep tech."
+ },
+ "firstfellow.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Finnish entrepreneurs' investment firm, Helsinki."
+ },
+ "flatcapital.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Multi-Stage",
+  "note": "Listed investment company of the Siemiatkowski family (Klarna)."
+ },
+ "florent.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "AI-native pre-seed/seed fund for Northern Europe; EUR 50m target debut fund (2025), Christian Dorffer/Lars Rasmussen."
+ },
+ "founderment.dk": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Danish venture builder; Harmonic lists it as an investor; limited public info."
+ },
+ "founders.as": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Copenhagen venture studio (Founders A/S); first cheques go into its own spinouts."
+ }
+}
