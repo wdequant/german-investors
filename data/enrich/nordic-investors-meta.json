@@ -35,7 +35,8 @@
  "almi.se": {
   "verdict": "alias",
   "name": "Almi Invest",
-  "note": "Parent agency of Almi Invest; keep almiinvest.se as the investing record."
+  "note": "Parent agency of Almi Invest; keep almiinvest.se as the investing record.",
+  "alias_of": "almiinvest.se"
  },
  "almiinvest.se": {
   "verdict": "fund",
@@ -196,10 +197,10 @@
   "note": "Denmark's Export and Investment Fund; absorbed Vaekstfonden and VF Venture (both aliases of this record)."
  },
  "eqtgroup.com": {
-  "verdict": "fund",
-  "type": "PE",
-  "stage": "Late",
-  "note": "Real PE/infrastructure firm in its own right (also houses EQT Growth); distinct from EQT Ventures, which is tracked separately."
+  "verdict": "alias",
+  "name": "EQT Ventures",
+  "alias_of": "eqtventures.com",
+  "note": "Per v2 spec: EQT Group's people and dealflow belong to the EQT Ventures card; the PE business is not a separate map card. (It is a real PE firm in its own right - revisit if EQT Growth earns its own card.)"
  },
  "eqtventures.com": {
   "verdict": "fund",
@@ -634,7 +635,8 @@
  "norrsken.org": {
   "verdict": "alias",
   "name": "Norrsken VC",
-  "note": "Norrsken Foundation parent record; the investing vehicles are Norrsken VC (norrsken.vc) and Norrsken Evolve (norrskenevolve.vc), both kept."
+  "note": "Norrsken Foundation parent record; the investing vehicles are Norrsken VC (norrsken.vc) and Norrsken Evolve (norrskenevolve.vc), both kept.",
+  "alias_of": "norrsken.vc"
  },
  "norrskenevolve.vc": {
   "verdict": "fund",
@@ -734,7 +736,8 @@
  "runwayfbu.com": {
   "verdict": "alias",
   "name": "Runway VC",
-  "note": "RunwayFBU rebranded to Runway VC (runway.vc) - same Rokke/Baekkelund fund; keep the runway.vc record."
+  "note": "RunwayFBU rebranded to Runway VC (runway.vc) - same Rokke/Baekkelund fund; keep the runway.vc record.",
+  "alias_of": "runway.vc"
  },
  "runway.vc": {
   "verdict": "fund",
@@ -973,7 +976,8 @@
  "vf.dk": {
   "verdict": "alias",
   "name": "EIFO",
-  "note": "Vaekstfonden merged into EIFO (2023); keep eifo.dk."
+  "note": "Vaekstfonden merged into EIFO (2023); keep eifo.dk.",
+  "alias_of": "eifo.dk"
  },
  "varma.fi": {
   "verdict": "drop",
@@ -995,7 +999,8 @@
  "vfventure.com": {
   "verdict": "alias",
   "name": "EIFO",
-  "note": "VF Venture (Vaekstfonden's direct arm) merged into EIFO; keep eifo.dk."
+  "note": "VF Venture (Vaekstfonden's direct arm) merged into EIFO; keep eifo.dk.",
+  "alias_of": "eifo.dk"
  },
  "vikinggrowth.com": {
   "verdict": "fund",
