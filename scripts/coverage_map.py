@@ -260,15 +260,9 @@ def build_covmap(regions, mynet, roster, load_json):
     for cc in NORDIC_CC:
         if cc in cbounds:
             vbs[cc] = vb(*cbounds[cc], 0.12)
-    def widen(box, aspect=2.2):
-        x0, y0, w, h = box
-        if w / h < aspect:
-            nw = h * aspect
-            return [round(x0 - (nw - w) / 2, 1), y0, round(nw, 1), h]
-        return box
-    vbs["nordics"] = widen(vbs["nordics"])
+    vbs["nordics"] = vb(nx0, ny0, nx1, ny1, 0.14)
     if "DE" in cbounds:
-        vbs["germany"] = widen(vb(*cbounds["DE"], 0.10))
+        vbs["germany"] = vb(*cbounds["DE"], 0.16)
     for _gk, (_glon, _glat) in G_ANCHOR.items():
         _gx0, _gy0 = proj.px(_glon - 0.95, _glat + 0.55)
         _gx1, _gy1 = proj.px(_glon + 0.95, _glat - 0.55)

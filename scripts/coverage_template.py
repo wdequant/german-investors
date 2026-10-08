@@ -1679,7 +1679,7 @@ function apMap(){
   const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
   let main;
   if(MAP.ent) main=cmDetail(me);
-  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.reg]||CM.vb.l0).join(' ')}" preserveAspectRatio="xMidYMid slice">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
+  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.reg]||CM.vb.l0).join(' ')}" preserveAspectRatio="${MAP.lvl==='l0'?'xMidYMid slice':'xMidYMid meet'}">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
   else main=cmCountryPage(me);
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
