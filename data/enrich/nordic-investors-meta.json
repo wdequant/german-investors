@@ -871,5 +871,195 @@
   "type": "CVC",
   "stage": "Early",
   "note": "Statkraft is the utility; the investing arm is Statkraft Ventures - this is the record the Norwegian view should show."
+ },
+ "sting.co": {
+  "verdict": "fund",
+  "type": "Accelerator",
+  "stage": "Early",
+  "note": "Stockholm incubator investing via Propel Capital / Sting funds."
+ },
+ "subvenioinvest.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish B2B-software VC investing with a network of independent investors."
+ },
+ "summaequity.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Late",
+  "note": "Impact buyout/growth firm."
+ },
+ "supercell.com": {
+  "verdict": "fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Operating company, but writes large direct cheques into game studios under its own name (Metacore, Trailmix); kept for gaming dealflow."
+ },
+ "superherocapital.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish seed VC."
+ },
+ "svea.com": {
+  "verdict": "drop",
+  "note": "Banking/financial services group; not a venture investor."
+ },
+ "swedbankrobur.se": {
+  "verdict": "drop",
+  "note": "Public-markets fund manager (incl. Ny Teknik); not venture dealflow."
+ },
+ "energimyndigheten.se": {
+  "verdict": "drop",
+  "note": "Swedish Energy Agency: grants, no equity cheque."
+ },
+ "synerleap.com": {
+  "verdict": "drop",
+  "note": "ABB's accelerator; no equity cheque (ABB's CVC, ABB Technology Ventures, is a different entity not on this list)."
+ },
+ "tdveen.no": {
+  "verdict": "fund",
+  "name": "TD Veen",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Stavanger family office, active in startups."
+ },
+ "tekes.fi": {
+  "verdict": "drop",
+  "note": "Defunct: merged into Business Finland in 2018; was a grant agency anyway."
+ },
+ "tesi.fi": {
+  "verdict": "fund",
+  "type": "State",
+  "stage": "Multi-Stage",
+  "note": "Finnish state investment company; direct equity and fund investments."
+ },
+ "thefootprintfirm.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "stage": "Early",
+  "note": "Copenhagen impact venture studio/advisory with direct investments; borderline keep."
+ },
+ "thenordicweb.vc": {
+  "verdict": "drop",
+  "note": "Neil Murray's micro angel fund; inactive for years."
+ },
+ "tigrim.com": {
+  "verdict": "fund",
+  "type": "Family Office",
+  "stage": "Early",
+  "note": "Harmonic lists it as an investor; limited public info. Kept; verify."
+ },
+ "uglyduckling.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish pre-seed VC."
+ },
+ "unconventional.vc": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Nordic impact/diversity pre-seed VC."
+ },
+ "upfin.io": {
+  "verdict": "fund",
+  "name": "Upfin",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Danish fintech seed VC."
+ },
+ "vf.dk": {
+  "verdict": "alias",
+  "name": "EIFO",
+  "note": "Vaekstfonden merged into EIFO (2023); keep eifo.dk."
+ },
+ "varma.fi": {
+  "verdict": "drop",
+  "note": "Finnish pension company; LP in funds, not a direct venture investor."
+ },
+ "vendep.com": {
+  "verdict": "fund",
+  "name": "Vendep Capital",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish SaaS seed VC."
+ },
+ "verdane.com": {
+  "verdict": "fund",
+  "type": "PE",
+  "stage": "Growth",
+  "note": "Growth equity; direct secondaries and minority/majority growth deals."
+ },
+ "vfventure.com": {
+  "verdict": "alias",
+  "name": "EIFO",
+  "note": "VF Venture (Vaekstfonden's direct arm) merged into EIFO; keep eifo.dk."
+ },
+ "vikinggrowth.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Formerly Viking Venture; Trondheim B2B software growth investor, NOK 4.4bn AUM."
+ },
+ "vinnova.se": {
+  "verdict": "drop",
+  "note": "Swedish innovation agency: grants, no equity cheque."
+ },
+ "vnv.global": {
+  "verdict": "fund",
+  "name": "VNV Global",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "note": "Listed evergreen investor (ex-Vostok New Ventures); marketplaces and network effects."
+ },
+ "voimaventures.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Finnish deep-tech VC."
+ },
+ "group.volvocars.com": {
+  "verdict": "fund",
+  "name": "Volvo Cars Tech Fund",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "note": "Volvo Cars is the OEM; the Tech Fund is its active CVC and the record that matters."
+ },
+ "wave.ventures": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Student-run pre-seed fund out of Aaltoes (Helsinki); small but real cheques."
+ },
+ "wellstreet.se": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Stockholm venture builder and early-stage investor."
+ },
+ "wiski.no": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Norwegian seed/early-growth tech investor."
+ },
+ "yanno.com": {
+  "verdict": "fund",
+  "type": "Other",
+  "note": "Harmonic lists it as an investor; minimal public info. Kept so a possibly real fund is not hidden; verify."
+ },
+ "zenithvc.se": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Early",
+  "note": "Swedish early-stage fund (Harmonic investor record); limited public info."
+ },
+ "zobito.com": {
+  "verdict": "fund",
+  "type": "VC",
+  "stage": "Growth",
+  "note": "Lund-based B2B software growth investor (ex-Qlik leadership)."
  }
 }
