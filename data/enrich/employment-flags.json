@@ -3573,8 +3573,9 @@
     "now": null
    },
    "Jackie Chen": {
-    "status": "unknown",
-    "now": null
+    "status": "moved",
+    "now": "Stealth Company (Jackie Chen) (CEO and Co-Founder)",
+    "note": "Harmonic: Base10 Partners role ended 2025-06-01"
    },
    "Rexhep Dollaku": {
     "status": "current",
@@ -3583,6 +3584,11 @@
    "Rexhi Dollaku": {
     "status": "current",
     "now": null
+   },
+   "Jackie Chen 🦦": {
+    "status": "moved",
+    "now": "Stealth Company (Jackie Chen) (CEO and Co-Founder)",
+    "note": "Harmonic: Base10 Partners role ended 2025-06-01"
    }
   },
   "8vc": {
@@ -3623,6 +3629,92 @@
    "Timothy Haley": {
     "status": "current",
     "now": null
+   },
+   "Vivek Ramaswami": {
+    "status": "moved",
+    "now": "Madrona (Partner)",
+    "note": "Harmonic: Redpoint role ended 2020-01-01"
+   }
+  },
+  "iconiq": {
+   "Calvin Yeoh": {
+    "status": "moved",
+    "now": "Stealth Company (Calvin Yeoh) (Something new)",
+    "note": "Harmonic: ICONIQ role ended 2026-08-01"
+   },
+   "Arnav Bimbhet": {
+    "status": "moved",
+    "now": "FirstMark (Partner)",
+    "note": "Harmonic: ICONIQ role ended 2024-01-01"
+   }
+  },
+  "coatue": {
+   "Jared Schulman": {
+    "status": "moved",
+    "now": "Neuralink (Lead, Strategic Finance)",
+    "note": "Harmonic: Coatue role ended 2025-01-01"
+   },
+   "Angelica Costa": {
+    "status": "moved",
+    "now": "Mighty Capital (Operations)",
+    "note": "Harmonic: Coatue role ended 2023-09-01"
+   }
+  },
+  "greenoaks": {
+   "Josh Cho": {
+    "status": "moved",
+    "now": "Coupang (Vice President, Coupang Eats)",
+    "note": "Harmonic: Greenoaks role ended 2022-01-01"
+   }
+  },
+  "general-atlantic": {
+   "Laura Gallagher": {
+    "status": "moved",
+    "now": "Sunday Finest Jewellery (Co-Founder)",
+    "note": "Harmonic: General Atlantic role ended 2025-12-01"
+   }
+  },
+  "meritech": {
+   "Hannah Biser": {
+    "status": "moved",
+    "now": "Heartflow (Medical Affairs Specialist)",
+    "note": "Harmonic: Meritech role ended 2018-10-01"
+   },
+   "Christina Canady": {
+    "status": "moved",
+    "now": "J.P. Morgan (Vice President, Director Advisory Services)",
+    "note": "Harmonic: Meritech role ended 2025-01-01"
+   },
+   "Anthony Decamillo": {
+    "status": "moved",
+    "now": "Citadel Securities (Head of Growth Investing)",
+    "note": "Harmonic: Meritech role ended 2026-04-01"
+   }
+  },
+  "lead-edge": {
+   "Steven Munsie": {
+    "status": "moved",
+    "now": "Lightspeed Venture Partners (Partner)",
+    "note": "Harmonic: Lead Edge Capital role ended 2026-04-01"
+   },
+   "Olivia Tulkoff": {
+    "status": "moved",
+    "now": "AirMax Hospitality (Chief of Staff)",
+    "note": "Harmonic: Lead Edge Capital role ended 2025-04-01"
+   }
+  },
+  "stripes": {
+   "Melissa Fulenwider": {
+    "status": "moved",
+    "now": "Sideline Group (Principal)",
+    "note": "Harmonic: Stripes role ended 2025-11-01"
+   }
+  },
+  "volition": {
+   "Isabelle Tashima": {
+    "status": "moved",
+    "now": "unknown",
+    "note": "Harmonic: Volition Capital role ended 2026-08-01"
    }
   }
  },

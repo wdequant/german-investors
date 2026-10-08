@@ -3581,6 +3581,11 @@
   "Mary Stern": {
    "status": "current",
    "now": null
+  },
+  "Vivek Ramaswami": {
+   "status": "moved",
+   "now": "Madrona (Partner)",
+   "note": "Harmonic: Redpoint role ended 2020-01-01"
   }
  },
  "redseed.vc": {
@@ -4594,6 +4599,18 @@
    "status": "moved",
    "now": "Najar (Chief of Staff)",
    "note": "Harmonic: Partech role ended 2024-05-01"
+  }
+ },
+ "base10.vc": {
+  "Jackie Chen": {
+   "status": "moved",
+   "now": "Stealth Company (Jackie Chen) (CEO and Co-Founder)",
+   "note": "Harmonic: Base10 Partners role ended 2025-06-01"
+  },
+  "Jackie Chen 🦦": {
+   "status": "moved",
+   "now": "Stealth Company (Jackie Chen) (CEO and Co-Founder)",
+   "note": "Harmonic: Base10 Partners role ended 2025-06-01"
   }
  }
 }
