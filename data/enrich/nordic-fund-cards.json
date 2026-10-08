@@ -3175,5 +3175,2551 @@
    }
   ],
   "headcount": 42
+ },
+ "22capital.vc": {
+  "urn": "urn:harmonic:company:47355352",
+  "desc": "We are taking decisions more from an entrepreneurial than an investment perspective We are focussing on early stage investments but can also be strong investment partner up to Series B We are proven supporter with our expertise, network and resources, depending on the needs",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Alexander Von Tschirnhaus",
+    "t": "Founder & Managing Director"
+   }
+  ],
+  "headcount": 1
+ },
+ "42cap.com": {
+  "urn": "urn:harmonic:company:648290",
+  "desc": "42CAP focuses on investing in seed-stage, technology-driven B2B software companies, emphasizing data intelligence and sustainable business models.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 11
+ },
+ "abacon.capital": {
+  "urn": "urn:harmonic:company:3318357",
+  "desc": "ABACON CAPITAL is a family-owned investment firm focussed on Sustainable Energy Transition, New Age Mobility, Deep Tech, and Real Estate.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Sven Rossmann",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Tobias Britsch",
+    "t": "Portfolio Manager for European Equities"
+   },
+   {
+    "n": "Felix Haessig",
+    "t": "Chief Operating Officer"
+   }
+  ],
+  "headcount": 9
+ },
+ "adamwiggins.com": {
+  "urn": "urn:harmonic:company:3093496",
+  "desc": "Let’s work on improving software and the internet.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": null
+ },
+ "adesso.vc": {
+  "urn": "urn:harmonic:company:11114221",
+  "desc": "adesso ventures focuses on investing in early-stage startups that develop vertical software and solutions throughout the software development process, particularly in enterprise technology and digital health.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 5
+ },
+ "ai-fund.vc": {
+  "urn": "urn:harmonic:company:2252335",
+  "desc": "We invest in the most promising early-stage, AI-first startups in Europe and Israel which put AI at the heart of their impactful solution.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Petra Vorsteher",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Fabian J. G. Westerheide",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 19
+ },
+ "allygatr.com": {
+  "urn": "urn:harmonic:company:10520635",
+  "desc": "The main product is an HR Tech ecosystem that automates various HR workflows, aimed at improving the efficiency of small HR teams through tailored IT solutions.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Daniel Heitzer",
+    "t": "Regional Manager, Originals | Central Europe"
+   }
+  ],
+  "headcount": 13
+ },
+ "alpinespace.vc": {
+  "urn": "urn:harmonic:company:2076591",
+  "desc": "Alpine Space Ventures focuses on investing in early-stage companies within the space sector, supporting technologies such as high-capacity ground infrastructure for seamless data transfer, large satellite platforms that reduce launch costs, and optimized satellite design processes for rapid deployment.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Christina Kotzur, Cfa",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 10
+ },
+ "altitude-vc.com": {
+  "urn": "urn:harmonic:company:37157123",
+  "desc": "The company focuses on investing in early-stage B2B software startups that cater to the digital transformation needs of small and medium enterprises (SMEs) across Europe.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Videesha Boeckle",
+    "t": "Co-Founding/General Partner - SME Tech Investor"
+   }
+  ],
+  "headcount": 14
+ },
+ "amathaon.com": {
+  "urn": "urn:harmonic:company:3063229",
+  "desc": "Amathaon Capital invests in AgBioTech and AgTech solutions, focusing on biological innovations, software for computational agriculture, and sensing and IoT technologies.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 3
+ },
+ "ananda.vc": {
+  "urn": "urn:harmonic:company:746315",
+  "desc": "Ananda Impact Ventures focuses on investing in early-stage, technology-driven startups that address significant social and environmental challenges, utilizing a range of technologies including space-based data collection for environmental monitoring, personalized medicine solutions, and biodiversity assessment tools.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Florian Erber",
+    "t": "Founder / General Partner"
+   },
+   {
+    "n": "Johannes Weber",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 20
+ },
+ "archimedesnewventures.de": {
+  "urn": "urn:harmonic:company:3217585",
+  "desc": "The company provides early-stage B2B solutions that leverage advanced technologies such as artificial intelligence and data management to enhance logistics, procurement, and robotics, thereby improving manufacturing and supply chain efficiency.",
+  "city": "Bielefeld",
+  "country": "Germany",
+  "team": [],
+  "headcount": 4
+ },
+ "armira.de": {
+  "urn": "urn:harmonic:company:1967293",
+  "desc": "Armira specializes in providing flexible capital solutions for entrepreneur-led and family-owned businesses, focusing on both minority growth and majority investments across various sectors, including health, life sciences, and technology.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Joern Werner",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Bjoern-Eric Foerster",
+    "t": "Group CFO/CRO"
+   },
+   {
+    "n": "Peter Behner",
+    "t": "Operating Partner Healthcare"
+   },
+   {
+    "n": "Gregor Hufenreuter",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Desiree Ball",
+    "t": "Partner & Chief People Officer"
+   },
+   {
+    "n": "Thomas Oel",
+    "t": "Investment Manager (VP)"
+   },
+   {
+    "n": "Manfred Vaillancourt",
+    "t": "Founder, MD"
+   },
+   {
+    "n": "Christiane Uhl",
+    "t": "Aufsichtsratsmitglied"
+   }
+  ],
+  "headcount": 95
+ },
+ "arve.capital": {
+  "urn": "urn:harmonic:company:45070388",
+  "desc": "Arve Capital is the venture capital arm of a German single family office with an investment focus on early-stage technology companies in the area of health and well-being.",
+  "city": "Heidelberg",
+  "country": "Germany",
+  "team": [],
+  "headcount": 3
+ },
+ "atlantis-ventures.com": {
+  "urn": "urn:harmonic:company:10433609",
+  "desc": "Early stage startup investments and venture capital.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Finn Wentzler",
+    "t": "Founder and CEO"
+   }
+  ],
+  "headcount": 4
+ },
+ "aurum-impact.de": {
+  "urn": "urn:harmonic:company:21516128",
+  "desc": "Aurum Impact focuses on impact investing, providing patient and flexible capital to support startups and funds that address social and environmental challenges, particularly in areas like circularity, renewable energy, and ecosystem preservation.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 9
+ },
+ "auxxo.de": {
+  "urn": "urn:harmonic:company:4082664",
+  "desc": "Auxxo focuses on investing in pre-seed and seed stage startups founded by women in Europe, supporting a range of innovative technologies across various sectors.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Bettine Schmitz",
+    "t": "General Partner"
+   },
+   {
+    "n": "Dr. Gesa Miczaika",
+    "t": "General Partner"
+   },
+   {
+    "n": "Melanie Higgs",
+    "t": "CFO & Operating Partner"
+   },
+   {
+    "n": "Melanie Higgs",
+    "t": "CFO & Operating Partner"
+   }
+  ],
+  "headcount": 14
+ },
+ "baybg.com": {
+  "urn": "urn:harmonic:company:1491719",
+  "desc": "BayBG provides investment capital primarily through silent and open participations, venture capital, and flexible financing solutions tailored for small and medium-sized enterprises in Bavaria.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Frane Crnjak",
+    "t": "Chief Technology Officer"
+   }
+  ],
+  "headcount": 46
+ },
+ "berlinangelfund.vc": {
+  "urn": "urn:harmonic:company:12255280",
+  "desc": "The primary service offered is personalized support and guidance for startups, utilizing a network of over 100 Business Angels to provide access to expertise and resources within the German startup ecosystem.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 14
+ },
+ "betterventures.io": {
+  "urn": "urn:harmonic:company:4343171",
+  "desc": "At better ventures, we believe that purpose-driven entrepreneurs will change our world for the better.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Dr. Cedric Duvinage",
+    "t": "Founder & MD"
+   },
+   {
+    "n": "Tina Dreimann",
+    "t": "Founder & Co-CEO"
+   },
+   {
+    "n": "Christoph Behn",
+    "t": "Executive Chairman & Co-Founder"
+   },
+   {
+    "n": "Moritz Vohler",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Alexey Kovtunets",
+    "t": "Chief Technology Officer"
+   },
+   {
+    "n": "Steffen Behn",
+    "t": "Co-CEO"
+   }
+  ],
+  "headcount": 12
+ },
+ "bitstone.capital": {
+  "urn": "urn:harmonic:company:3264909",
+  "desc": "BitStone Capital focuses on real estate technology, encompassing various business models that enhance the digitalization and technological advancement of construction processes, from planning to completion.",
+  "city": "Cologne",
+  "country": "Germany",
+  "team": [],
+  "headcount": 8
+ },
+ "blncapital.com": {
+  "urn": "urn:harmonic:company:3670737",
+  "desc": "BLN Capital operates as an investment firm specializing in venture capital and private equity, focusing on early-stage investments in technology and gaming sectors primarily in Europe and the US. The firm employs a strategy of direct investments, committing between €50k and €500k to innovative companies, while also diversifying its portfolio through investments in private equity and venture capital funds, with individual commitments ranging from €200k to €2M.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Janosch  Kühn",
+    "t": "Founder"
+   },
+   {
+    "n": "Oliver Löffler",
+    "t": "Founder"
+   },
+   {
+    "n": "Janosch Sadowski",
+    "t": "Founder"
+   },
+   {
+    "n": "Daniel Stammler",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 8
+ },
+ "blockwall.vc": {
+  "urn": "urn:harmonic:company:1509436",
+  "desc": "Blockwall focuses on investing in early-stage Web3 ventures, with a particular emphasis on decentralized finance solutions that simplify user access to financial services through self-custodial architectures.",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Nikos Choulidis",
+    "t": "Co-Founder & Managing Partner"
+   },
+   {
+    "n": "Dominic Briggs",
+    "t": "Co-Founder & General Partner"
+   },
+   {
+    "n": "Laurenz Apiarius",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 15
+ },
+ "blueimpact.de": {
+  "urn": "urn:harmonic:company:2012286",
+  "desc": "Blue Impact Ventures invests in technologies aimed at addressing climate change, including AI-driven predictive inventory planning, sustainable green-methanol for transportation, and the integration of AI and IoT for improved building sustainability.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Lawrence Leuschner",
+    "t": "CEO & Founder"
+   }
+  ],
+  "headcount": 3
+ },
+ "blueworld.group": {
+  "urn": "urn:harmonic:company:1582598",
+  "desc": "entrepreneurship.",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [],
+  "headcount": 6
+ },
+ "bm-t.de": {
+  "urn": "urn:harmonic:company:1730121",
+  "desc": "The company specializes in venture capital and private equity, focusing on innovative and growth-oriented businesses within the State of Thuringia, Germany.",
+  "city": "Erfurt",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Katja Butzmann",
+    "t": "Chief Executive Officer"
+   },
+   {
+    "n": "Kevin Reeder, Cfa",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 17
+ },
+ "bmh-hessen.de": {
+  "urn": "urn:harmonic:company:1636808",
+  "desc": "BMH Beteiligungs-Managementgesellschaft Hessen mbH focuses on providing investment and venture capital services to early-stage, growth, and medium-sized companies across various sectors, including software and IT, life sciences, and e-commerce.",
+  "city": "Wiesbaden",
+  "country": "Germany",
+  "team": [],
+  "headcount": 20
+ },
+ "bonventure.de": {
+  "urn": "urn:harmonic:company:699733",
+  "desc": "BONVENTURE focuses on impact venture capital, investing in scalable companies that address social and environmental challenges through sustainable business models.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 17
+ },
+ "booom.vc": {
+  "urn": "urn:harmonic:company:47932187",
+  "desc": "The company offers a venture capital service focused on supporting early-stage B2B startups, providing financial backing in the form of pre-seed and seed investments.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 12
+ },
+ "bpo.vc": {
+  "urn": "urn:harmonic:company:1508493",
+  "desc": "Founded in 2014, BPO Capital is a venture capital investment firm based in Hamburg, Germany.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [],
+  "headcount": null
+ },
+ "brandenburg-kapital.de": {
+  "urn": "urn:harmonic:company:634304",
+  "desc": "As an active investor, we have put more than 165 companies on the road to success with venture capital and entrepreneurial know-how.",
+  "city": "Potsdam",
+  "country": "Germany",
+  "team": [],
+  "headcount": 13
+ },
+ "buildery.vc": {
+  "urn": "urn:harmonic:company:36962916",
+  "desc": "Buildery offers a funding solution for startups by consolidating multiple angel investors into a single investment vehicle, which simplifies the capitalization table process.",
+  "city": "Pullach",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jan B.",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Matthias Möller",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Dr. Sophie Ahrens-Gruber",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Dr. Andreas Franz",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Rupert Schaefer",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 5
+ },
+ "caesar.vc": {
+  "urn": "urn:harmonic:company:12461340",
+  "desc": "Caesar Ventures offers early-stage funding for technology-driven solutions aimed at solving real-world challenges, emphasizing sustainable business models.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jonathan D. Cordero",
+    "t": "Co-Founder & Venture Partner"
+   },
+   {
+    "n": "Sebastian Büchte",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Dr. Carolin Gabor",
+    "t": "Co-Founder & Managing Partner"
+   }
+  ],
+  "headcount": 25
+ },
+ "capacura.de": {
+  "urn": "urn:harmonic:company:1775577",
+  "desc": "The main product of the company is a platform that enables investments in impact startups focused on education, health, and environmental sectors, allowing users to create personalized investment portfolios starting from €1,000.",
+  "city": "Cologne",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Ina Dahm",
+    "t": "Founder, CCO, Mitglied der Geschäftsleitung"
+   }
+  ],
+  "headcount": 25
+ },
+ "cdtm-ventures.com": {
+  "urn": "urn:harmonic:company:59741046",
+  "desc": "The CDTM Venture Fund provides early-stage capital to startups founded by alumni of the Center for Digital Technology & Management, focusing on (pre)seed investments.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 5
+ },
+ "collective-ventures.de": {
+  "urn": "urn:harmonic:company:3579793",
+  "desc": "collective ventures has unique access to high-quality, early-stage deal flow.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 3
+ },
+ "combination.vc": {
+  "urn": "urn:harmonic:company:37072208",
+  "desc": "We are an early stage venture capital firm that supports the most ambitious product-focused founders with an angel like approach.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Marius Obiegala",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Johannes Sass",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 3
+ },
+ "cventures.vc": {
+  "urn": "urn:harmonic:company:638731",
+  "desc": "The company offers a platform designed to support early-stage climate technology ventures, facilitating connections and resources for startups focused on innovative energy solutions.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Marc Wesselink",
+    "t": "Co-founder"
+   },
+   {
+    "n": "Rokas P.",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Iohan Dessard",
+    "t": "CFO"
+   }
+  ],
+  "headcount": 24
+ },
+ "coparion.vc": {
+  "urn": "urn:harmonic:company:624773",
+  "desc": "Coparion operates as a venture capital fund focused on supporting young technology companies in Germany, leveraging a fund size of EUR 275 million to facilitate their growth.",
+  "city": "Cologne",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Sabina Bley",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Tobias Temmen",
+    "t": "Ambassador"
+   },
+   {
+    "n": "Christian Stein",
+    "t": "Partner"
+   }
+  ],
+  "headcount": 13
+ },
+ "dtcf.de": {
+  "urn": "urn:harmonic:company:12413977",
+  "desc": "The DeepTech & Climate Fund (DTCF) focuses on investing in companies that develop future technologies aimed at addressing climate challenges, providing significant financial support for long-term growth.",
+  "city": "Bonn",
+  "country": "Germany",
+  "team": [],
+  "headcount": 21
+ },
+ "dtcp.capital": {
+  "urn": "urn:harmonic:company:681203",
+  "desc": "DTCP focuses on investment strategies in digital infrastructure, enterprise software, and defense technology, emphasizing the development and operation of essential assets such as data centers, mobile towers, and fiber networks.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Vicente Vento",
+    "t": "Founder and CEO"
+   },
+   {
+    "n": "Thomas Preuss",
+    "t": "Chief Investment Officer DTCP Liberty Defence"
+   },
+   {
+    "n": "Martin Klima",
+    "t": "CFO"
+   },
+   {
+    "n": "Martin Klima",
+    "t": "CFO"
+   },
+   {
+    "n": "Yan Bieger",
+    "t": "Vice President, VC (Series A/B+)"
+   },
+   {
+    "n": "Claudius Laskawy",
+    "t": "VP"
+   },
+   {
+    "n": "Zahl Limbuwala",
+    "t": "Operating Partner"
+   },
+   {
+    "n": "Christoph Steffens",
+    "t": "Operating Partner - Value Creation & Scaling"
+   },
+   {
+    "n": "Jessica Boyens",
+    "t": "Vice President"
+   },
+   {
+    "n": "Julius Carle",
+    "t": "Vice President"
+   }
+  ],
+  "headcount": 133
+ },
+ "ecapital.vc": {
+  "urn": "urn:harmonic:company:644282",
+  "desc": "eCAPITAL focuses on investing in technology companies across various sectors, including cybersecurity, where it supports solutions designed to predict and prevent cyberattacks for financial institutions.",
+  "city": "Munster",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Dr. Antonia Berenice Knuth",
+    "t": "CFO"
+   },
+   {
+    "n": "Dirk K.",
+    "t": "Expert Advisor to C-Level Executive Management Teams"
+   }
+  ],
+  "headcount": 23
+ },
+ "ecbf.vc": {
+  "urn": "urn:harmonic:company:3112148",
+  "desc": "The company specializes in venture capital investments focused on the bioeconomy, supporting innovative businesses that aim to transition from fossil-based to circular bio-based solutions across various industries, including food and industrial applications.",
+  "city": "Bonn",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Dirk Saßmannshausen",
+    "t": "CFO"
+   }
+  ],
+  "headcount": 24
+ },
+ "env.vc": {
+  "urn": "urn:harmonic:company:1508278",
+  "desc": "EnBW New Ventures focuses on investing in European startups that are transforming infrastructure to support a digital and electric future, particularly in areas such as renewable energy, battery technology, electrification of transport, and power grid solutions.",
+  "city": "Karlsruhe",
+  "country": "Germany",
+  "team": [],
+  "headcount": 13
+ },
+ "enjoyventure.vc": {
+  "urn": "urn:harmonic:company:11313717",
+  "desc": "EnjoyVenture GmbH operates as a venture capital firm, focusing on investments in technology startups, particularly those in the Seed or Series A funding stages.",
+  "city": "Dusseldorf",
+  "country": "Germany",
+  "team": [],
+  "headcount": 4
+ },
+ "wahlforss.com": {
+  "urn": "urn:harmonic:company:3096807",
+  "desc": "Mr.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": null
+ },
+ "ewor.com": {
+  "urn": "urn:harmonic:company:3860562",
+  "desc": "EWOR is a fellowship for outlier founders building transformative tech.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Pascal Weinberger",
+    "t": "Co-Founder (non operational)"
+   },
+   {
+    "n": "Alexander Grots",
+    "t": "Chief Creative Officer (CCO)"
+   },
+   {
+    "n": "Daniel W. Dippold",
+    "t": "Founder & CEO"
+   },
+   {
+    "n": "Florian Huber",
+    "t": "Co-Founder and Chief Investment Officer"
+   },
+   {
+    "n": "Simon (Bobby)  Dussart",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Gigi Brett",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Berna Epik",
+    "t": "Founding Board Member"
+   },
+   {
+    "n": "Berna Epik",
+    "t": "Founding Board Member"
+   }
+  ],
+  "headcount": 350
+ },
+ "expedite.ventures": {
+  "urn": "urn:harmonic:company:3185150",
+  "desc": "Expedite Ventures focuses on investing in technology-driven startups, particularly in areas such as AI-assisted graphic design, innovative development frameworks like Flutter, and collaborative tools for developers.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 8
+ },
+ "extantia.com": {
+  "urn": "urn:harmonic:company:3075302",
+  "desc": "Extantia operates as a venture capital fund that invests in companies focused on energy and resource systems, industrial transformation, and resilient infrastructure solutions, utilizing advanced scientific and technological insights.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Oliver Schwarzer",
+    "t": "Co-Founder/CFO"
+   },
+   {
+    "n": "Joern-Carlos Kuntze",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Sebastian Heitmann",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 27
+ },
+ "f-log.vc": {
+  "urn": "urn:harmonic:company:1522768",
+  "desc": "The company operates as a venture capital fund focused on early-stage investments in startups that aim to innovate within the logistics sector, particularly through the application of technologies such as applied AI for operational decision-making, robotics and automation for warehouse and logistics operations, and energy solutions to enhance supply chain efficiency.",
+  "city": "Greven",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Andreas Pott",
+    "t": "Co-Founder & Managing Partner F-LOG Ventures"
+   },
+   {
+    "n": "Matthias Friese",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Adrian Graf",
+    "t": "Managing Partner"
+   }
+  ],
+  "headcount": 10
+ },
+ "fadelia.de": {
+  "urn": "urn:harmonic:company:57141654",
+  "desc": "Fadelia GmbH focuses on investing in B2B Software-as-a-Service (SaaS) solutions, emphasizing the development of technological infrastructure that supports modern businesses.",
+  "city": "Leipzig",
+  "country": "Germany",
+  "team": [],
+  "headcount": 2
+ },
+ "feast.ventures": {
+  "urn": "urn:harmonic:company:8716249",
+  "desc": "Feast Ventures focuses on early-stage investments in the agrifoodtech sector, emphasizing technology-enabled B2B solutions that integrate food, health, and agriculture.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 10
+ },
+ "firstmomentum.vc": {
+  "urn": "urn:harmonic:company:735456",
+  "desc": "The company focuses on investing in Pre-Seed deep tech startups across various sectors, including climate and energy, manufacturing, robotics, and AI. Their approach leverages technical expertise in complex technologies such as quantum sensing, industrial machine learning, and edge AI compilers to support the commercialization of innovative products.",
+  "city": "Karlsruhe",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Benedikt Stolz",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 92
+ },
+ "flagshipfounders.com": {
+  "urn": "urn:harmonic:company:3184937",
+  "desc": "The company focuses on developing maritime technology ventures that leverage digital transformation and artificial intelligence to address the unique challenges of the shipping industry.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Malte Cherdron",
+    "t": "Co-Founder & MD"
+   },
+   {
+    "n": "Lucius Bunk",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Felix Kaiser",
+    "t": "Co-Founder and Advisor"
+   },
+   {
+    "n": "Henning Bublies",
+    "t": "Managing Director / COO"
+   }
+  ],
+  "headcount": 9
+ },
+ "flash.vc": {
+  "urn": "urn:harmonic:company:1508140",
+  "desc": "Flash Ventures is a day 0 investor that empowers remarkable founders to build the future.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Hugo Nogueira",
+    "t": "CPTO"
+   },
+   {
+    "n": "Johann Nordhus Westarp",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 8
+ },
+ "freigeist.com": {
+  "urn": "urn:harmonic:company:1499307",
+  "desc": "Freigeist Capital is a privately-owned investment fund working with visionary founders to build disruptive technology companies.",
+  "city": "Bonn",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Frank Thelen",
+    "t": "Founder & CEO"
+   },
+   {
+    "n": "Marc Sieberger",
+    "t": "Founder & Partner"
+   },
+   {
+    "n": "Alex Koch",
+    "t": "Co-Founder & CTO"
+   }
+  ],
+  "headcount": 55
+ },
+ "fev.vc": {
+  "urn": "urn:harmonic:company:2141382",
+  "desc": "Future Energy Ventures focuses on investing in technologies that facilitate the transition to an electrified and software-defined energy system, emphasizing the integration of renewable energy across various sectors such as transport, buildings, and industry.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Veronique Hördemann",
+    "t": "Managing Partner & CFO"
+   },
+   {
+    "n": "Parsia Tayyebi",
+    "t": "Global Head of Digital & CX"
+   },
+   {
+    "n": "Albert Malaty, Mba",
+    "t": "Chief Executive Officer"
+   }
+  ],
+  "headcount": 20
+ },
+ "futurycapital.vc": {
+  "urn": "urn:harmonic:company:1554048",
+  "desc": "Futury Capital focuses on investing in technology companies across various stages, emphasizing sectors such as data and artificial intelligence, robotics, and green technology.",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [],
+  "headcount": 6
+ },
+ "gfund.vc": {
+  "urn": "urn:harmonic:company:10893382",
+  "desc": "The company focuses on investing in next-generation consumer businesses across various sectors, including nutrition and food, digital health and wellness, clean beauty, sustainable fashion, and digital education.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Christof Wahl",
+    "t": "Founder and Partner at G-FUND"
+   }
+  ],
+  "headcount": 4
+ },
+ "getfund.eu": {
+  "urn": "urn:harmonic:company:25873094",
+  "desc": "GET Fund focuses on supporting European startups that develop transformative technologies across various sectors, including energy, food and agriculture, manufacturing, buildings, and mobility.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Michael Sailer",
+    "t": "Partner/CFO"
+   }
+  ],
+  "headcount": 11
+ },
+ "ggf.vc": {
+  "urn": "urn:harmonic:company:3639191",
+  "desc": "The company focuses on investing in early-stage technologies within the food tech and energy tech sectors, emphasizing scientific breakthroughs and university spinouts in areas such as energy, robotics, and synthetic biology.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Janna Ensthaler",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Stefan Peters",
+    "t": "Chief Investment Officer"
+   }
+  ],
+  "headcount": 14
+ },
+ "germanmediapool.com": {
+  "urn": "urn:harmonic:company:2213209",
+  "desc": "German Media Pool specializes in media for equity investments, providing consumer-facing start-ups with access to various media channels including TV, radio, out of home, print, and social media to enhance their market presence.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 6
+ },
+ "gr.capital": {
+  "urn": "urn:harmonic:company:706343",
+  "desc": "GR Capital is a venture fund that invests in technology companies across sectors such as health, wealth, housing, and mobility, focusing on those with established teams and scalable business models.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Julia Bakharieva",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Max Filippov",
+    "t": "Managing Partner"
+   },
+   {
+    "n": "Nadiia Ivanytsia",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Roman Ivaniuk",
+    "t": "Member of the Advisory Board"
+   },
+   {
+    "n": "Julia Bright",
+    "t": "Group Head of Finance"
+   },
+   {
+    "n": "Olena Petrenko",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 11
+ },
+ "greenfieldcapital.com": {
+  "urn": "urn:harmonic:company:49204139",
+  "desc": "Greenfield Capital focuses on investing in early developer teams that are creating technologies aimed at establishing an open and decentralized web architecture.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jascha Samadi",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Sebastian Blum",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Marie Hanowski",
+    "t": "Vice President People"
+   },
+   {
+    "n": "Markus Hujara",
+    "t": "VP Marketing & Communication"
+   },
+   {
+    "n": "Andrzej Dzius",
+    "t": "Partner & CTO"
+   },
+   {
+    "n": "Florian Peter",
+    "t": "Head of Capital Markets"
+   }
+  ],
+  "headcount": 23
+ },
+ "gruenderfonds-ruhr.com": {
+  "urn": "urn:harmonic:company:1522716",
+  "desc": "Gründerfonds Ruhr is a venture capital fund that invests in early-stage B2B startups across various sectors, including chemicals, energy, life sciences, logistics, and the digital economy, focusing on innovative technologies.",
+  "city": "Essen",
+  "country": "Germany",
+  "team": [],
+  "headcount": 11
+ },
+ "haniel.de": {
+  "urn": "urn:harmonic:company:1524455",
+  "desc": "Haniel manages a portfolio of companies that focus on sustainability, utilizing a framework known as the Haniel Operating Way (HOW) to guide investments in business services and cleantech solutions.",
+  "city": "Duisburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Julia Dudenko",
+    "t": "Group CISO"
+   },
+   {
+    "n": "Axel Berger",
+    "t": "Chief Digital & Sustainability Officer"
+   },
+   {
+    "n": "Henk Derksen",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Joachim Drees",
+    "t": "CEO"
+   },
+   {
+    "n": "Anabel Fall",
+    "t": "Group Chief People Officer"
+   },
+   {
+    "n": "Dr. Alexandra Albrecht-Baba",
+    "t": "Chief Legal & GRC Officer"
+   },
+   {
+    "n": "Bjorn Hansen",
+    "t": "Group CISO"
+   },
+   {
+    "n": "Dietmar Bochert",
+    "t": "Kuratoriumsmitglied"
+   },
+   {
+    "n": "Peter Schüller",
+    "t": "Global Leader Technology Compliance"
+   },
+   {
+    "n": "Katharina Peterwerth",
+    "t": "Board Member, Board of Directors"
+   }
+  ],
+  "headcount": 264
+ },
+ "healcapital.com": {
+  "urn": "urn:harmonic:company:700751",
+  "desc": "Heal Capital focuses on investing in HealthTech startups that leverage digital health, artificial intelligence, and software technologies to enhance care delivery, develop patient applications, and improve health system infrastructure.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Cecilia Von Oldershausen",
+    "t": "CFO / COO"
+   }
+  ],
+  "headcount": 13
+ },
+ "heartfelt.vc": {
+  "urn": "urn:harmonic:company:19390457",
+  "desc": "HEARTFELT operates as a cheque fund that focuses on early-stage investments, primarily targeting pre-seed startups in Europe and among European founders abroad.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Robert Martin",
+    "t": "Vice President"
+   },
+   {
+    "n": "Rasa Gentvilaitė Žiemienė",
+    "t": "Co-Founder Dogo"
+   },
+   {
+    "n": "Melanie Higgs",
+    "t": "CFO & Operating Partner"
+   },
+   {
+    "n": "Melanie Higgs",
+    "t": "CFO & Operating Partner"
+   }
+  ],
+  "headcount": 97
+ },
+ "henkel-ventures.com": {
+  "urn": "urn:harmonic:company:36795053",
+  "desc": "Henkel Ventures is Henkel’s corporate venture capital engagement, combing all venture activities across the company’s three business units (Adhesive Technologies, Beauty Care and Laundry & Home Care).",
+  "city": "Dusseldorf",
+  "country": "Germany",
+  "team": [],
+  "headcount": null
+ },
+ "hpiventures.com": {
+  "urn": "urn:harmonic:company:4303432",
+  "desc": "HPI Seed is the Tech-Startup-Cultivator within the HPI Entrepreneurship Ecosystem.",
+  "city": "Potsdam",
+  "country": "Germany",
+  "team": [],
+  "headcount": 9
+ },
+ "ibg-vc.de": {
+  "urn": "urn:harmonic:company:669149",
+  "desc": "IBG Beteiligungsgesellschaft Sachsen-Anhalt is a venture capital firm that makes investments in territories such as Germany and Denmark.",
+  "city": "Magdeburg",
+  "country": "Germany",
+  "team": [],
+  "headcount": 1
+ },
+ "innovationsstarter.com": {
+  "urn": "urn:harmonic:company:724723",
+  "desc": "As IFB Innovationsstarter GmbH, we promote technology-oriented start-ups and young, innovative companies in Hamburg to provide financial support for promising companies and strengthen the local start-up scene.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [],
+  "headcount": 41
+ },
+ "interfacecap.com": {
+  "urn": "urn:harmonic:company:4137574",
+  "desc": "Venture capital and a community of entrepreneurs to build and invest in iconic technology companies.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Christian Reber",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Niklas Jansen",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Michael Kuntz",
+    "t": "Interim VP Finance & Legal"
+   }
+  ],
+  "headcount": 8
+ },
+ "jale.vc": {
+  "urn": "urn:harmonic:company:1723979",
+  "desc": "JALE specializes in the investment and restructuring of digital companies, focusing on providing financial resources, establishing new management, and restructuring sales processes to enhance operational success.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Björn Jopen",
+    "t": "Founder / Managing Director"
+   }
+  ],
+  "headcount": 12
+ },
+ "join.capital": {
+  "urn": "urn:harmonic:company:614656",
+  "desc": "The company focuses on developing advanced technologies including reusable spacecraft, quantum computing, and AI-driven cybersecurity systems, with applications primarily in the automotive and aerospace sectors.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Manuel Effenberg, Ph.D.",
+    "t": "CFO"
+   }
+  ],
+  "headcount": 16
+ },
+ "july.fund": {
+  "urn": "urn:harmonic:company:10776001",
+  "desc": "We invest in people that we like, trust, admire, and who have set out to build iconic organizations in the most fundamental categories.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jonathan Jasper",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Florian Schindler",
+    "t": "Founder and Managing Partner"
+   }
+  ],
+  "headcount": 3
+ },
+ "june.fund": {
+  "urn": "urn:harmonic:company:54925330",
+  "desc": "June manages a series of funds.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "David Rosskamp",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Florian Schindler",
+    "t": "Founder and Managing Partner"
+   }
+  ],
+  "headcount": 4
+ },
+ "kizoo.com": {
+  "urn": "urn:harmonic:company:1514924",
+  "desc": "Excited about our exponential future, with a current focus on Rejuvenation Biotech.",
+  "city": "Karlsruhe",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Frank Schueler",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Heiko Schneefeld",
+    "t": "General Manager (former CTO until 01/2013)"
+   },
+   {
+    "n": "Michael Greve",
+    "t": "Founder & CEO"
+   },
+   {
+    "n": "Matthias Hornberger",
+    "t": "Member of the Board of Investors"
+   }
+  ],
+  "headcount": 3
+ },
+ "lafamiglia.vc": {
+  "urn": "urn:harmonic:company:681041",
+  "desc": "La Famiglia operates as a venture capital fund focused on investing in technology companies that aim to enable or disrupt significant industries.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Christian Miele",
+    "t": "Investor"
+   },
+   {
+    "n": "Marius Groke",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 77
+ },
+ "lbbwvc.de": {
+  "urn": "urn:harmonic:company:1500851",
+  "desc": "LBBW Venture Capital focuses on investing in early-stage disruptive companies in the IT and life sciences sectors, emphasizing software-driven solutions in areas such as Enterprise IT, IoT, Industry 4.0, AI/ML, and Big Data & Analytics.",
+  "city": "Stuttgart",
+  "country": "Germany",
+  "team": [],
+  "headcount": 12
+ },
+ "leapartners.de": {
+  "urn": "urn:harmonic:company:3239687",
+  "desc": "LEVERAGING ENTREPRENEURIAL AMBITION As an entrepreneurial-minded multi-stage private equity and venture capital firm LEA Partners funds and supports ambitious B2B Tech founders and executives by leveraging them with practical, hands-on growth expertise to achieve market leadership.",
+  "city": "Karlsruhe",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Nicole Kerschl",
+    "t": "Chief People Officer"
+   },
+   {
+    "n": "Cristian Nicoara",
+    "t": "Field CTO"
+   }
+  ],
+  "headcount": 47
+ },
+ "leblon-capital.com": {
+  "urn": "urn:harmonic:company:3684060",
+  "desc": "We invest in mission-driven founders, not companies.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Andrej Henkler",
+    "t": "Founder & CEO"
+   }
+  ],
+  "headcount": 3
+ },
+ "lightfield-equity.com": {
+  "urn": "urn:harmonic:company:72400620",
+  "desc": "Lightfield Equity is an entrepreneurial-led family office investing its own capital in innovative startups.",
+  "city": "Heilbronn",
+  "country": "Germany",
+  "team": [],
+  "headcount": 2
+ },
+ "lioncorncapital.com": {
+  "urn": "urn:harmonic:company:6261540",
+  "desc": "LionCorn Capital is a Heidelberg-based investment company run by Lisa Gradow and Daniel Reimann-Dubbers.",
+  "city": "Heidelberg",
+  "country": "Germany",
+  "team": [],
+  "headcount": 2
+ },
+ "loric.vc": {
+  "urn": "urn:harmonic:company:1491057",
+  "desc": "Founded in 2016, Loric Ventures is a venture capital firm based in Berlin, Germany.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 1
+ },
+ "lucidcap.co": {
+  "urn": "urn:harmonic:company:41778439",
+  "desc": "Backing obsessive founders to go from 0 to 1, and beyond.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Johann Nordhus Westarp",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 12
+ },
+ "mgntc.com": {
+  "urn": "urn:harmonic:company:4590801",
+  "desc": "Magnetic is a venture capital firm that invests in transformative technology companies across critical industries, focusing on areas such as financial technologies, the compute-energy stack, security, and physical economy systems.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Maike Haase",
+    "t": "Partner & COO"
+   },
+   {
+    "n": "David Rosskamp",
+    "t": "Founder & GP"
+   }
+  ],
+  "headcount": 4
+ },
+ "maetch.vc": {
+  "urn": "urn:harmonic:company:12513208",
+  "desc": "Mätch VC is a team of 91 family businesses and entrepreneurs.",
+  "city": "Stuttgart",
+  "country": "Germany",
+  "team": [],
+  "headcount": 11
+ },
+ "mayventures.vc": {
+  "urn": "urn:harmonic:company:64013384",
+  "desc": "The company focuses on early-stage venture capital investments in sectors such as artificial intelligence and industry innovation, targeting pre-seed and seed stages with initial investments ranging from €500,000 to €1,000,000.",
+  "city": "Munster",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Maximilian Derpa",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Dominik Lohle",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 8
+ },
+ "mbg-bw.ermoeglicher.de": {
+  "urn": "urn:harmonic:company:2243272",
+  "desc": "MBG Baden-Württemberg offers a financial service that provides mezzanine capital and venture capital to startups and medium-sized enterprises, focusing on improving their financing situations.",
+  "city": "Stuttgart",
+  "country": "Germany",
+  "team": [],
+  "headcount": 28
+ },
+ "mobility.fund": {
+  "urn": "urn:harmonic:company:59816927",
+  "desc": "MobilityFund focuses on investing in technologies that are transforming mobility, particularly in electrification and automation across various transportation sectors, including road, rail, air, and sea.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jan-Christoph Rickers",
+    "t": "Managing Director & Co-Founder"
+   }
+  ],
+  "headcount": 5
+ },
+ "monkfish-equity.com": {
+  "urn": "urn:harmonic:company:1491289",
+  "desc": "We know what life is like.",
+  "city": "Leipzig",
+  "country": "Germany",
+  "team": [],
+  "headcount": 1
+ },
+ "naturalx.vc": {
+  "urn": "urn:harmonic:company:40342566",
+  "desc": "naturalX Health Ventures operates as a venture capital fund that invests in consumer health companies, focusing on scientifically-backed products and solutions that promote proactive health, including areas such as prevention, nutrition, digital therapeutics, and mental health.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 5
+ },
+ "main-incubator.com": {
+  "urn": "urn:harmonic:company:9718773",
+  "desc": "The main product is a Prototyping Lab that develops innovative solutions for the Financial Services sector, employing technologies such as Additive Manufacturing, Internet of Things (IoT), Artificial Intelligence (AI), Quantum Computing, Robotics, and Virtual Reality (XR).",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Kai Werner",
+    "t": "Founder und Geschäftsführer"
+   },
+   {
+    "n": "Birgit Storz",
+    "t": "Co-Leader Financial Services Practice Group and FinTech Segment Leader Germany"
+   },
+   {
+    "n": "Michael F. Spitz (He/Him)",
+    "t": "Founder and Co-CEO"
+   },
+   {
+    "n": "Christian Hoppe",
+    "t": "Co-General Manager SVB Germany"
+   },
+   {
+    "n": "Michael F. Spitz",
+    "t": "Founder and Co-CEO"
+   }
+  ],
+  "headcount": 12
+ },
+ "neoteq.de": {
+  "urn": "urn:harmonic:company:2031117",
+  "desc": "Neoteq Ventures provides venture capital specifically to early-stage technology companies that are focused on digitalization and tech-driven business models.",
+  "city": "Cologne",
+  "country": "Germany",
+  "team": [],
+  "headcount": 8
+ },
+ "newforge.de": {
+  "urn": "urn:harmonic:company:1524379",
+  "desc": "New Forge focuses on supporting early-stage B2B tech startups by providing investment and resources to accelerate product development and market entry.",
+  "city": "Solingen",
+  "country": "Germany",
+  "team": [],
+  "headcount": 4
+ },
+ "nextmobilitylabs.com": {
+  "urn": "urn:harmonic:company:2207340",
+  "desc": "Next Mobility Labs operates as a venture studio focused on developing and scaling startups in the mobility sector, utilizing a model that emphasizes co-founding and validating innovative ideas before external investment.",
+  "city": "Mainz",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Göran Göhring",
+    "t": "CEO"
+   }
+  ],
+  "headcount": 4
+ },
+ "nordwindgrowth.de": {
+  "urn": "urn:harmonic:company:10741071",
+  "desc": "Nordwind Growth is a private equity firm that invests in technology companies in the DACH region, emphasizing scalable business models and technology-driven competitive advantages across various sectors, including software, hardware, tech-enabled services, and e-commerce.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Christian Plangger",
+    "t": "Partner and Co-Founder"
+   },
+   {
+    "n": "Dr. Tom Harder",
+    "t": "Partner and Co-Founder"
+   },
+   {
+    "n": "Johannes Erhardt",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 11
+ },
+ "nrwbank.de": {
+  "urn": "urn:harmonic:company:1504536",
+  "desc": "NRW.BANK provides a range of financial products and services focused on supporting economic development, housing, and infrastructure within North Rhine-Westphalia, integrating funding programs from state, federal, and EU sources with its own equity and debt offerings.",
+  "city": "Dusseldorf",
+  "country": "Germany",
+  "team": [],
+  "headcount": 837
+ },
+ "nucleus-capital.com": {
+  "urn": "urn:harmonic:company:3067151",
+  "desc": "The company focuses on investing in and supporting entrepreneurs developing technologies in programmable biology, food technology, and industrial decarbonization.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Maximilian Schwarz",
+    "t": "Founder & GP"
+   },
+   {
+    "n": "Maximilian A. Bade",
+    "t": "Founder & GP"
+   },
+   {
+    "n": "Dr. Isabella Fandrych",
+    "t": "Co-Founder and General Partner"
+   }
+  ],
+  "headcount": 13
+ },
+ "ohb-vc.de": {
+  "urn": "urn:harmonic:company:2110206",
+  "desc": "The company specializes in investing in cutting-edge space technology start-ups globally, with a focus on supporting innovation in the space sector.",
+  "city": "Bremen",
+  "country": "Germany",
+  "team": [],
+  "headcount": 1
+ },
+ "vc.beiersdorf.com": {
+  "urn": "urn:harmonic:company:54225151",
+  "desc": "We want to build better ways to make people feel good in their skin.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [],
+  "headcount": null
+ },
+ "oysterbay.vc": {
+  "urn": "urn:harmonic:company:1601813",
+  "desc": "As one of the first VCs in the European food industry, we invest in impact driven start-ups such as Oatly!, Air Up, Peas of Heaven and GoodBytz.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [],
+  "headcount": 12
+ },
+ "paceventures.com": {
+  "urn": "urn:harmonic:company:11088381",
+  "desc": "The company focuses on investing in health-tech and industrial-tech startups, primarily at the pre-seed and seed stages, targeting innovations that address health and climate challenges.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 4
+ },
+ "partners-in-clime.com": {
+  "urn": "urn:harmonic:company:30322143",
+  "desc": "The company provides a platform for investing in early-stage climate startups, focusing on green technology and sustainable solutions.",
+  "city": "Stuttgart",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Kai Blisch",
+    "t": "Founding & Managing Partner"
+   },
+   {
+    "n": "Till Augner",
+    "t": "Founding Partner"
+   },
+   {
+    "n": "Tobias Rieker",
+    "t": "Founding & General Partner"
+   }
+  ],
+  "headcount": 13
+ },
+ "prptl.com": {
+  "urn": "urn:harmonic:company:1729468",
+  "desc": "Perpetual Investors is a proprietary investment and consulting firm offering solutions and services specially tailored for an international group of institutional and private Investors.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Dr. Christian Wiehenkamp",
+    "t": "Chief Investment Officer"
+   }
+  ],
+  "headcount": 21
+ },
+ "pesca-equitypartners.com": {
+  "urn": "urn:harmonic:company:65700245",
+  "desc": "null",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 2
+ },
+ "planet-a.com": {
+  "urn": "urn:harmonic:company:2160446",
+  "desc": "Planet A focuses on investing in early-stage companies that are addressing significant systemic challenges through sustainable production technologies.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Fridtjof Detzner",
+    "t": "Co-Founder / General Partner"
+   },
+   {
+    "n": "Tobias Seikel",
+    "t": "Venture Parter"
+   },
+   {
+    "n": "Christian Schad",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Helmut Söhler",
+    "t": "Co-Founder and Venture Partner"
+   },
+   {
+    "n": "Nick De La Forge",
+    "t": "Co-Founder / General Partner"
+   },
+   {
+    "n": "Lena Thiede",
+    "t": "Co-Founder/ General Partner | Scientific Impact Assessment"
+   },
+   {
+    "n": "Jan Boris Wintzenburg",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Jan Boris Wintzenburg",
+    "t": "Co-Founder"
+   },
+   {
+    "n": "Alexander Seel",
+    "t": "Chief Financial Officer"
+   }
+  ],
+  "headcount": 41
+ },
+ "prequelvc.com": {
+  "urn": "urn:harmonic:company:10661704",
+  "desc": "The company focuses on developing technologies for an Industrial Operating System, emphasizing AI-driven supply chain intelligence, autonomous production systems, and platforms that enhance revenue generation while ensuring supply chain resilience and transparency.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Markus Börner",
+    "t": "General Partner & Co-Founder"
+   }
+  ],
+  "headcount": 11
+ },
+ "primepulse.com": {
+  "urn": "urn:harmonic:company:1637631",
+  "desc": "PRIMEPULSE specializes in investing in and developing digital technologies for medium-sized B2B deep-tech companies, focusing on AI-enabled IT services, cloud solutions, IoT platforms, and advanced image processing systems.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Klaus Weinmann",
+    "t": "CEO and Co-Founder"
+   },
+   {
+    "n": "Dr. Benjamin Klein",
+    "t": "CFO"
+   },
+   {
+    "n": "Stefan Fritz",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Sascha Siegert",
+    "t": "Vice President Corporate Accounting"
+   },
+   {
+    "n": "Michael Adrian",
+    "t": "Director Digital Strategy / CISO"
+   },
+   {
+    "n": "Dr. Raimo Reese",
+    "t": "CFO"
+   }
+  ],
+  "headcount": 41
+ },
+ "princeville-capital.com": {
+  "urn": "urn:harmonic:company:635745",
+  "desc": "Princeville Capital focuses on investing in technology companies that leverage artificial intelligence to transform various industries, with a particular emphasis on software and internet sectors.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Emmanuel Desousa",
+    "t": "Managing Partner and Co-Founder"
+   },
+   {
+    "n": "Cilia Sze",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Martin Steinweg",
+    "t": "Vice President"
+   },
+   {
+    "n": "Saloni Gupta",
+    "t": "Vice President"
+   },
+   {
+    "n": "Sulaiman Amin",
+    "t": "Vice President, Head of UAE"
+   },
+   {
+    "n": "Billy Stetson",
+    "t": "Sr Product Workload Finance Lead"
+   },
+   {
+    "n": "Luca Harrichhausen",
+    "t": "Managing Director"
+   },
+   {
+    "n": "Kyle Li",
+    "t": "VP of Strategy & Investment | Chief of Staff to the Chairman"
+   },
+   {
+    "n": "Matt Krna",
+    "t": "Member Board of Directors"
+   }
+  ],
+  "headcount": 61
+ },
+ "pt1.vc": {
+  "urn": "urn:harmonic:company:1684597",
+  "desc": "PT1 Ventures focuses on investing in early-stage technologies that enhance the physical world, particularly in electrification, energy transition, AI and automation for the built environment, and climate resilience.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Daniel Hoepfner",
+    "t": "Founder and MD at peruya.com | Blockchain Investments"
+   },
+   {
+    "n": "Mischa Wetzel",
+    "t": "Managing Partner"
+   }
+  ],
+  "headcount": 27
+ },
+ "purpleorange.com": {
+  "urn": "urn:harmonic:company:1499448",
+  "desc": "Purple Orange Ventures focuses on investing in early-stage companies that develop alternative proteins and cellular agriculture technologies, including cultivated meat using serum-free media and scalable scaffolding.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Gary Lin",
+    "t": "Founder & Managing Director"
+   }
+  ],
+  "headcount": 4
+ },
+ "puzzle-ventures.com": {
+  "urn": "urn:harmonic:company:54594712",
+  "desc": "Puzzle Ventures is a €21.5M early-stage venture fund that partners with exceptional European entrepreneurs building transformational B2B software businesses.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 5
+ },
+ "realyzeventures.com": {
+  "urn": "urn:harmonic:company:41652404",
+  "desc": "Realyze Ventures focuses on investing in innovative solutions within the construction and real estate sectors, particularly those that address process inefficiencies, decarbonization, and the integration of validated technologies into existing value chains.",
+  "city": "Cologne",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Michael Stephan",
+    "t": "Founding Venture Partner"
+   }
+  ],
+  "headcount": 18
+ },
+ "rethinkventures.com": {
+  "urn": "urn:harmonic:company:12473623",
+  "desc": "Rethink Ventures focuses on investing in technology-driven startups that aim to innovate within the transportation, logistics, and supply chain sectors.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jens-Philipp Klein",
+    "t": "Co-Founder and General Partner"
+   }
+  ],
+  "headcount": 11
+ },
+ "revent.vc": {
+  "urn": "urn:harmonic:company:1687397",
+  "desc": "The company focuses on investing in products and services that enhance health and wellbeing, economic empowerment, and sustainability, utilizing scalable technologies to drive significant improvements in these areas.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Julia Riedl",
+    "t": "VP Finance & Operations"
+   },
+   {
+    "n": "Helena Pabst",
+    "t": "VP Brand & Communications (fractional, freelance)"
+   },
+   {
+    "n": "Florian Stapelfeldt",
+    "t": null
+   },
+   {
+    "n": "Aidar Galimov",
+    "t": null
+   }
+  ],
+  "headcount": 41
+ },
+ "rheingau-founders.com": {
+  "urn": "urn:harmonic:company:696616",
+  "desc": "Rheingau Founders is a venture capital firm that invests in early-stage start-ups across various B2B sectors, including healthcare, marketplaces, SaaS, and platforms, with a focus on those capable of disrupting traditional processes and value chains.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Tobias Johann",
+    "t": "Founder & Managing Partner"
+   },
+   {
+    "n": "Dr. Tobias Johann-Walzel Von Wiesentreu",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 344
+ },
+ "rivuscapital.com": {
+  "urn": "urn:harmonic:company:10558069",
+  "desc": "Rivus Capital focuses on impact investing, directing its capital towards medium-sized firms that contribute to sustainable health and environmental solutions.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Michael Peter",
+    "t": "Founder & Chairman"
+   },
+   {
+    "n": "Jannis R.",
+    "t": "VP Global New Business"
+   },
+   {
+    "n": "Maximilian Haupter-Maier",
+    "t": "Managing Partner"
+   }
+  ],
+  "headcount": 5
+ },
+ "robincap.com": {
+  "urn": "urn:harmonic:company:16228013",
+  "desc": "The company focuses on investing in mid-market and enterprise-driven software and technology solutions, emphasizing areas such as Software 3.0, artificial intelligence, and deeptech, including robotics and space technology.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Robin Haak",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 8
+ },
+ "rtaventures.com": {
+  "urn": "urn:harmonic:company:1501517",
+  "desc": "Venture capital fund focused on healthcare and new technologies (being either online or mobile businesses).",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 2
+ },
+ "saasgarage.com": {
+  "urn": "urn:harmonic:company:1498544",
+  "desc": "SaaSgarage provides a Pre-Seed Angel Fund specifically for SaaS startups in Europe, focusing on early-stage financing and advisory services to help founders develop their business models and secure initial funding.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Alexander Bruehl",
+    "t": "Founder & Owner"
+   }
+  ],
+  "headcount": 1
+ },
+ "scalehouse-capital.com": {
+  "urn": "urn:harmonic:company:11070498",
+  "desc": "Lower Saxony is the industrial powerhouse of the agriculture, food and automotive industries.",
+  "city": "Osnabruck",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jesse Jeng",
+    "t": "Co-Founder I Managing Partner"
+   },
+   {
+    "n": "Tobias Eismann",
+    "t": "Co-Founder & Partner"
+   },
+   {
+    "n": "Catrin Graf",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 7
+ },
+ "schenker-ventures.com": {
+  "urn": "urn:harmonic:company:4304864",
+  "desc": "Schenker Ventures specializes in providing venture capital and studio services for early-stage logistics and supply chain startups, utilizing technologies such as AI for customs declaration workflows, logistics optimization, vendor management, and autonomous robotics to improve operational efficiency and compliance.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 22
+ },
+ "seedandspeed.com": {
+  "urn": "urn:harmonic:company:1512127",
+  "desc": "The company specializes in providing early-stage investment for B2B software startups, focusing on scalable software and software-driven hardware solutions.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Carsten Maschmeyer",
+    "t": "Founder"
+   }
+  ],
+  "headcount": 15
+ },
+ "segeniacapital.com": {
+  "urn": "urn:harmonic:company:640081",
+  "desc": "Segenia Capital offers a service that provides tailored access to venture capital, enabling direct investments in technology companies and venture capital funds, particularly in Europe and Silicon Valley.",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [],
+  "headcount": 3
+ },
+ "shiocap.com": {
+  "urn": "urn:harmonic:company:3073531",
+  "desc": "Leveraging entrepreneurial and financial experience to identify opportunities in the Food, Beverage and Consumer Goods space.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Alex Sood",
+    "t": "Founder and Managing Director at Shio Capital"
+   }
+  ],
+  "headcount": 5
+ },
+ "signals.vc": {
+  "urn": "urn:harmonic:company:1497151",
+  "desc": "Signals Venture Capital specializes in nurturing early-stage enterprise software and tech companies, particularly focusing on B2B software-centric business models across various enterprise segments in Europe.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 4
+ },
+ "signatureventures.com": {
+  "urn": "urn:harmonic:company:1562847",
+  "desc": "The main product leverages blockchain and distributed ledger technologies to establish secure and privacy-focused digital identities and decentralized systems.",
+  "city": "Aying",
+  "country": "Germany",
+  "team": [],
+  "headcount": 11
+ },
+ "siventures.de": {
+  "urn": "urn:harmonic:company:34705596",
+  "desc": "SIVentures - Backing ambitious tech founders from day one.",
+  "city": "Leipzig",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Bjoern Bauermeister, Cfa",
+    "t": "Co-Founder & General Partner"
+   },
+   {
+    "n": "Eric Weber",
+    "t": "Co-Founder & Venture Partner"
+   },
+   {
+    "n": "Dirk Frohnert, Cfa",
+    "t": "Co-Founder & General Partner"
+   }
+  ],
+  "headcount": 14
+ },
+ "spacewalk.vc": {
+  "urn": "urn:harmonic:company:35843474",
+  "desc": "Spacewalk operates as a venture capital fund with an integrated R&D company that focuses on deep tech innovations across various industries.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Zied Bahrouni",
+    "t": "Founder"
+   },
+   {
+    "n": "Daniel Michael Weiss",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 12
+ },
+ "statkraftventures.com": {
+  "urn": "urn:harmonic:company:60102477",
+  "desc": "SK Ventures is a leading venture capital investor focused on the energy transition and climate tech.",
+  "city": "Dusseldorf",
+  "country": "Germany",
+  "team": [],
+  "headcount": 10
+ },
+ "sunfish-partners.com": {
+  "urn": "urn:harmonic:company:1526455",
+  "desc": "Sunfish Partners focuses on investing in early-stage startups within the space and defense sectors in Central and Eastern Europe, emphasizing technologies such as AI, drones, and digital twins.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Artur Karczykowski",
+    "t": "Foundig Partner"
+   },
+   {
+    "n": "Paweł Lipkowski",
+    "t": "CFO and Operating Partner"
+   }
+  ],
+  "headcount": 10
+ },
+ "superangels.fund": {
+  "urn": "urn:harmonic:company:55120702",
+  "desc": "The company operates as a co-investment fund that focuses on early-stage technology companies, leveraging a network of experienced business angels to enhance investment opportunities.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Alexander Brand",
+    "t": "Founding Partner"
+   }
+  ],
+  "headcount": 14
+ },
+ "t.capital": {
+  "urn": "urn:harmonic:company:54462002",
+  "desc": "T.Capital focuses on investing in technology companies, particularly in areas such as AI, Cybersecurity, Connectivity, and IoT, leveraging Deutsche Telekom's global infrastructure and market reach to enhance commercial scalability.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Julian Primer",
+    "t": "Vice President"
+   },
+   {
+    "n": "Onat C. Derebek-Molnár",
+    "t": "Vice President"
+   },
+   {
+    "n": "Andrew John Miszerak",
+    "t": "Non-executive Director"
+   },
+   {
+    "n": "Florent-Aurélien Couturier-Crouzillac",
+    "t": "Venture Partner"
+   },
+   {
+    "n": "Florent-Aurélien Couturier-Crouzillac",
+    "t": "Venture Partner"
+   }
+  ],
+  "headcount": 20
+ },
+ "targetglobal.vc": {
+  "urn": "urn:harmonic:company:635327",
+  "desc": "Since 2015, Target Global has partnered with bold founders building category-defining companies including Revolut, Delivery Hero, Auto1, Flo Health, Fresha, TravelPerk, Copper and Rapyd.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Yaron Valler",
+    "t": "Founder & Partner"
+   },
+   {
+    "n": "Alexander Pavlov",
+    "t": "Vice President"
+   },
+   {
+    "n": "Joshua Stein",
+    "t": "Vice President | Investment Team"
+   },
+   {
+    "n": "Eugene Goncharov",
+    "t": "CTO (Consulting Agreement)"
+   },
+   {
+    "n": "Peter Roos",
+    "t": "Partner and Chief Financial Officer (CFO)"
+   },
+   {
+    "n": "Vasiliki Papacharalampous",
+    "t": "Chief Operating Officer"
+   },
+   {
+    "n": "Alex Pavlov",
+    "t": "Angel Investor"
+   },
+   {
+    "n": "Mike Lobanov",
+    "t": null
+   },
+   {
+    "n": "Artyom Rukhlin",
+    "t": "CFO / Vice President Finance"
+   },
+   {
+    "n": "Alexander A. Frolov",
+    "t": null
+   }
+  ],
+  "headcount": 69
+ },
+ "tengelmann-ventures.com": {
+  "urn": "urn:harmonic:company:10815774",
+  "desc": "Tengelmann Ventures is an early-stage Venture Capital firm focused on empowering the next generation of entrepreneurs on their mission to (i) preserve life and environment, (ii) simplify everyday life and (iii) individualize products and services to changing needs.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Andreas Guldin",
+    "t": "Member of Executive Management Board"
+   }
+  ],
+  "headcount": 5
+ },
+ "tomcat.vc": {
+  "urn": "urn:harmonic:company:2066494",
+  "desc": "TomCat Ventures focuses on investing in early-stage technology-driven businesses across sectors such as mobile, media & entertainment, AI, and SaaS. Their portfolio includes solutions like productivity apps that organize information, platforms for live e-commerce events, subscription models for physical products, and digital tools for mental wellness.",
+  "city": "Haan",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Catrin Gruederich",
+    "t": "Co-Founder and Managing Director"
+   }
+  ],
+  "headcount": 2
+ },
+ "truegrowth.de": {
+  "urn": "urn:harmonic:company:1718381",
+  "desc": "True Growth Capital focuses on early-stage investments, providing financial support ranging from €100,000 to €500,000 for business models that exhibit strong economic fundamentals and significant founder control.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 7
+ },
+ "tsventures.io": {
+  "urn": "urn:harmonic:company:1504697",
+  "desc": "TS Ventures focuses on investing in early-stage companies developing technologies in AI, SaaS, DevTools, and B2B infrastructure.",
+  "city": "Cologne",
+  "country": "Germany",
+  "team": [],
+  "headcount": 3
+ },
+ "fttf.vc": {
+  "urn": "urn:harmonic:company:1590776",
+  "desc": "The company provides venture capital specifically for startups utilizing technologies developed by the Fraunhofer Institutes, focusing on deep tech innovations.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Ole Moritz",
+    "t": "COO - Chief of Operations | Investment Team"
+   }
+  ],
+  "headcount": 2
+ },
+ "tvf.vc": {
+  "urn": "urn:harmonic:company:1561505",
+  "desc": "TechVision Fonds specializes in early-stage venture capital investments, primarily targeting technology startups with the potential to disrupt major industries.",
+  "city": "Aachen",
+  "country": "Germany",
+  "team": [],
+  "headcount": 14
+ },
+ "vanagon.vc": {
+  "urn": "urn:harmonic:company:10446694",
+  "desc": "Vanagon focuses on investing in early-stage companies that leverage advanced technologies in sectors such as artificial intelligence, advanced manufacturing, and geospatial intelligence.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Sandro Stark",
+    "t": "General Partner"
+   },
+   {
+    "n": "Axel Roitzsch",
+    "t": "General Partner and Co-Founder"
+   },
+   {
+    "n": "Susanne Fromm",
+    "t": "General Partner and Co-Founder"
+   }
+  ],
+  "headcount": 12
+ },
+ "vealoventures.com": {
+  "urn": "urn:harmonic:company:5136724",
+  "desc": "Vealo Ventures - early stage funding of future market leaders.",
+  "city": "Nuremberg",
+  "country": "Germany",
+  "team": [],
+  "headcount": 1
+ },
+ "venture-stars.com": {
+  "urn": "urn:harmonic:company:1516661",
+  "desc": "Venture Stars is a venture capital firm that focuses on early-stage investments in innovative digital B2C and B2B business models, utilizing a hands-on approach to support founders in strategy, growth, and operational scaling.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Ayesheh-Colette Carta",
+    "t": "Founding Network Member I Senior Expert"
+   },
+   {
+    "n": "Barry Krein",
+    "t": "Chief Strategy Officer (CSO)"
+   }
+  ],
+  "headcount": 6
+ },
+ "vireo.vc": {
+  "urn": "urn:harmonic:company:2097842",
+  "desc": "The company focuses on investing in early-stage technologies that aim to transform energy generation, management, and usage, emphasizing the integration of physical and digital infrastructures.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 28
+ },
+ "visionariesclub.vc": {
+  "urn": "urn:harmonic:company:691840",
+  "desc": "Visionaries is a European early-stage venture capital firm built for a new era where hungry beats big.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Justus Hagebölling",
+    "t": "VP Finance & Operations"
+   },
+   {
+    "n": "Roland Geeraedts",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Katy Sexton Darby",
+    "t": "Vice President, Communications"
+   },
+   {
+    "n": "Betty Lu",
+    "t": "VP Platform and Growth"
+   },
+   {
+    "n": "Tim Oliver Pietsch",
+    "t": "Venture Partner"
+   },
+   {
+    "n": "Robert Matthew B.",
+    "t": "Finance & Legal Lead"
+   }
+  ],
+  "headcount": 25
+ },
+ "vr-ventures.vc": {
+  "urn": "urn:harmonic:company:1508533",
+  "desc": "VR Ventures focuses on investing in technology companies within the FinTech, PropTech, and B2B SaaS sectors, emphasizing early-stage innovations that enhance the financial and real estate economies.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [],
+  "headcount": 5
+ },
+ "w3.fund": {
+  "urn": "urn:harmonic:company:4152408",
+  "desc": "The company offers a liquid token fund that employs a hybrid investment strategy, integrating fundamental analysis with market responsiveness to capitalize on opportunities in the Web3 ecosystem.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jonathan Kuhl",
+    "t": "Co-Founder & Digital Asset Expert"
+   }
+  ],
+  "headcount": 21
+ },
+ "wellington-partners.com": {
+  "urn": "urn:harmonic:company:732544",
+  "desc": "Wellington Partners focuses on investing in early- and growth-stage life science companies across various sectors, including therapeutics, medical devices, diagnostics, digital health, and industrial biotechnology.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Rolf Christof Dienst",
+    "t": "Partner Emeritus"
+   }
+  ],
+  "headcount": 24
+ },
+ "wenvest.capital": {
+  "urn": "urn:harmonic:company:1522634",
+  "desc": "WENVEST Capital focuses on early-stage investments in B2B software companies, primarily within the DACH region, utilizing a model that supports Seed and occasionally Pre-Seed or Series A funding stages.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [],
+  "headcount": 4
+ },
+ "xpress.ventures": {
+  "urn": "urn:harmonic:company:4183037",
+  "desc": "XPRESS Ventures focuses on developing technology-driven solutions to enhance operational efficiency and connectivity in the logistics sector, utilizing the expertise and infrastructure of established logistics providers.",
+  "city": "Berlin",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Matthias Friese",
+    "t": "Co-Founder"
+   }
+  ],
+  "headcount": 5
+ },
+ "yabeo.de": {
+  "urn": "urn:harmonic:company:1491006",
+  "desc": "The company focuses on investing in technology startups that aim to transform various industries, including healthcare and insurance, by leveraging innovative solutions.",
+  "city": "Pullach im Isartal",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Martin Große Frie",
+    "t": "CFO & Vorstand - yabeo Impact AG"
+   },
+   {
+    "n": "Daniel Pflaum",
+    "t": "Director"
+   }
+  ],
+  "headcount": 13
+ },
+ "yttrium.com": {
+  "urn": "urn:harmonic:company:6255363",
+  "desc": "Yttrium provides B2B technology solutions that encompass end-to-end reality capture, indoor mapping, and spatial intelligence, aimed at enhancing operational efficiency for enterprises.",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Dr. Felix Freudenberg",
+    "t": "Partner / CFO / COO"
+   },
+   {
+    "n": "Ralf Rauch",
+    "t": "Chief Risk Officer (CRO)"
+   },
+   {
+    "n": "Thomas  Jetter",
+    "t": "Member of the Board"
+   },
+   {
+    "n": "Matthias Hoff",
+    "t": "Chief Human Resources Officer"
+   },
+   {
+    "n": "Nicole Schneider",
+    "t": "Executive Advisor, Consultant & Coach for companies, founders, executives and investors"
+   }
+  ],
+  "headcount": 11
+ },
+ "gi-de.com": {
+  "urn": "urn:harmonic:company:8717175",
+  "desc": "Giesecke+Devrient provides SecurityTech solutions that include digital security, financial platforms, and currency technology, focusing on secure payment transactions and identity protection.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Thomas Schmid",
+    "t": "Group Vice President Order Processing"
+   },
+   {
+    "n": "Martin Bauer",
+    "t": "VP, Commercial Markets"
+   },
+   {
+    "n": "Ganesh Jha",
+    "t": "Asst. Vice President – Supply Chain & Logistics"
+   },
+   {
+    "n": "Suresh M S",
+    "t": "Vice President - Head of Sales"
+   },
+   {
+    "n": "Rahim Ladhani",
+    "t": "Regional CFO MEA"
+   },
+   {
+    "n": "Puneet Gulati",
+    "t": "Asst. Vice President-Sales"
+   },
+   {
+    "n": "Parijat K Bhanu",
+    "t": "Asst. Vice President - Sales"
+   },
+   {
+    "n": "Werner Reisch",
+    "t": "Global VP Sales Banknotes + Security Features"
+   },
+   {
+    "n": "Dino Ferrari",
+    "t": "Vice President U.S. Mobile Security Commercial Banks and Transit"
+   },
+   {
+    "n": "Federico Gomez Schumacher",
+    "t": "VP of Sales and Business Development for Northern LATAM"
+   }
+  ],
+  "headcount": 8936
+ },
+ "careers.allianz.com": {
+  "urn": "urn:harmonic:company:1684299",
+  "desc": "Allianz X focuses on investing in digital companies within the insurance and asset management sectors, facilitating partnerships that drive innovation and growth.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Dr. Nazim Cetin",
+    "t": "CEO"
+   },
+   {
+    "n": "Carsten Middendorf",
+    "t": "Chief Investment Officer"
+   },
+   {
+    "n": "Irene Guertler, Cfe",
+    "t": "Functional Head Compliance - Allianz Holding/SE"
+   },
+   {
+    "n": "Albert Stepanyan",
+    "t": "Co-Founder and CEO"
+   },
+   {
+    "n": "Evelina Von R.",
+    "t": "Designer"
+   },
+   {
+    "n": "Florian Waubke",
+    "t": "CEO"
+   },
+   {
+    "n": "Alexander De Kegel",
+    "t": "Head of Growth Investments"
+   },
+   {
+    "n": "Joseph Engelhart",
+    "t": "Member of The Supervisory Board"
+   },
+   {
+    "n": "Jens Riewe",
+    "t": "Managing Partner & Founder"
+   },
+   {
+    "n": "Peter Borchers",
+    "t": "Member of the Board of Advisors"
+   }
+  ],
+  "headcount": 36
+ },
+ "basf.com": {
+  "urn": "urn:harmonic:company:57038668",
+  "desc": "BASF Venture Capital GmbH invests in early-stage companies and funds that focus on technologies related to decarbonization, circular economy, AgTech, new materials, and digitalization.",
+  "city": "Ludwigshafen",
+  "country": "Germany",
+  "team": [],
+  "headcount": 3
+ },
+ "kfw.de": {
+  "urn": "urn:harmonic:company:4005123",
+  "desc": "KfW Capital primarily focuses on investing in venture capital and venture debt funds to enhance the capital base of technology-oriented growth companies in Germany and Europe.",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Jörg Goschin",
+    "t": "CEO"
+   },
+   {
+    "n": "Richard Eisenbach",
+    "t": "Chief Financial Officer"
+   },
+   {
+    "n": "Cassandra Fischer",
+    "t": "Senior Analytics Consultant"
+   }
+  ],
+  "headcount": 113
+ },
+ "jobs.schwarz": {
+  "urn": "urn:harmonic:company:40760619",
+  "desc": "How the companies of Schwarz Group are acting ahead and developing innovative solutions in the areas of production, trade, recycling and digitalization.",
+  "city": null,
+  "country": null,
+  "team": [],
+  "headcount": null
+ },
+ "deutsche-boerse.com": {
+  "urn": "urn:harmonic:company:1722090",
+  "desc": "Founded in 2016, DB1 Ventures is the corporate venture capital arm of Deutsche Börse Group based in Frankfurt, Germany.",
+  "city": "Eschborn",
+  "country": "Germany",
+  "team": [],
+  "headcount": null
+ },
+ "yzr-capital.com": {
+  "urn": "urn:harmonic:company:56675276",
+  "desc": "YZR Capital focuses on investing in innovative healthcare companies across Europe, aiming to enhance patient care and improve operational efficiencies within the healthcare sector.",
+  "city": "Munich",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Reinhard Meier",
+    "t": "Founder & Managing Partner"
+   }
+  ],
+  "headcount": 10
+ },
+ "zweipunkt7.com": {
+  "urn": "urn:harmonic:company:3934566",
+  "desc": "The zwei.7 Group is an owner-managed company that deals with three divisions.",
+  "city": "Osnabruck",
+  "country": "Germany",
+  "team": [
+   {
+    "n": "Olaf Bock",
+    "t": "CEO zwei.7 Equity"
+   },
+   {
+    "n": "Karsten Wulf",
+    "t": "Founder and CEO"
+   }
+  ],
+  "headcount": 10
  }
 }
