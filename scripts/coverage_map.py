@@ -53,27 +53,16 @@ SCORING = {
     "df_funnel_hot": {"Lead", "Qualified Lead", "Deal", "Hard to crack"},
     "o_thresh": 50, "c_thresh": 50,
 }
-W, H = 1000.0, 1120.0
-_L0, _P1 = math.radians(10.0), math.radians(52.0)
-
-
-def _laea(lon, lat):
-    lam, phi = math.radians(lon), math.radians(lat)
-    d = 1 + math.sin(_P1) * math.sin(phi) + math.cos(_P1) * math.cos(phi) * math.cos(lam - _L0)
-    if d <= 1e-9:
-        d = 1e-9
-    k = math.sqrt(2.0 / d)
-    return (k * math.cos(phi) * math.sin(lam - _L0),
-            k * (math.cos(_P1) * math.sin(phi) - math.sin(_P1) * math.cos(phi) * math.cos(lam - _L0)))
+W = 1440.0   # world width in map units; Web Mercator, the map everyone knows
 
 
 class _Proj:
-    def __init__(self, scale, cx, cy):
-        self.s, self.cx, self.cy = scale, cx, cy
-
-    def px(self, lon, lat):
-        x, y = _laea(lon, lat)
-        return (round(self.cx + self.s * x, 1), round(self.cy - self.s * y, 1))
+    """Web Mercator at fixed world scale: the flat world map, zoomable to street level."""
+    def px(self, lon, lat, nd=1):
+        lat = max(min(lat, 84.0), -84.0)
+        x = (lon + 180.0) / 360.0 * W
+        y = (1 - math.log(math.tan(math.pi / 4 + math.radians(lat) / 2)) / math.pi) / 2 * W
+        return (round(x, nd), round(y, nd))
 
 
 def _decode_topo(topo, names):
@@ -99,7 +88,7 @@ def _decode_topo(topo, names):
     res = {}
     for g in topo["objects"]["countries"]["geometries"]:
         nm = (g.get("properties") or {}).get("name")
-        if nm not in names:
+        if (names is not None and nm not in names) or nm == "Antarctica":
             continue
         polys = g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]]
         rings = []
@@ -119,16 +108,31 @@ def _keep_ring(r, loose=False):
     return -26 <= lon <= 45 and 34 <= lat <= 71.5
 
 
-def _path(rings, proj, loose=False):
+def _unwrap(r):
+    """Rings crossing the antimeridian smear across the map; shift them to one side."""
+    lons = [p[0] for p in r]
+    if max(lons) - min(lons) <= 180:
+        return r
+    east = sum(1 for l in lons if l > 90)
+    west = sum(1 for l in lons if l < -90)
+    if east >= west:
+        return [(lon + 360 if lon < 0 else lon, lat) for lon, lat in r]
+    return [(lon - 360 if lon > 0 else lon, lat) for lon, lat in r]
+
+
+def _path(rings, proj, tol=0.9, nd=1):
     out = []
     for r in rings:
-        if len(r) < 4 or not _keep_ring(r, loose):
+        if len(r) < 4:
             continue
-        pts = [proj.px(lon, lat) for lon, lat in r]
-        # light simplification: skip points closer than 0.7px to the last kept one
+        r = _unwrap(r)
+        pts = [proj.px(lon, lat, nd) for lon, lat in r]
+        xs = [p[0] for p in pts]; ys = [p[1] for p in pts]
+        if max(xs) - min(xs) < tol * 2 and max(ys) - min(ys) < tol * 2:
+            continue   # ring smaller than the pen
         kept = [pts[0]]
         for p in pts[1:]:
-            if abs(p[0] - kept[-1][0]) + abs(p[1] - kept[-1][1]) >= 0.7:
+            if abs(p[0] - kept[-1][0]) + abs(p[1] - kept[-1][1]) >= tol:
                 kept.append(p)
         if len(kept) < 3:
             continue
@@ -183,49 +187,45 @@ def build_covmap(regions, mynet, roster, load_json):
     pm = load_json(f"{ROOT}/data/enrich/person-meta.json", {}) or {}
     topo_path = TOPO if os.path.exists(TOPO) else TOPO_FALLBACK
     topo = json.load(open(topo_path))
-    names = set(CC_NAME.values()) | set(EURO_BG)
-    shapes = _decode_topo(topo, names)
-    extra_shapes = _decode_topo(topo, set(EXTRA_BG))
+    shapes = _decode_topo(topo, None)   # the whole world
+    proj = _Proj()
+    fine = set(CC_NAME.values()) | set(EURO_BG)
 
-    # fit projection to the shapes we keep, centred in the frame
-    p0 = _Proj(1.0, 0.0, 0.0)
-    x0, y0, x1, y1 = _bounds_of(shapes.values(), p0)
-    s = min((W - 30) / (x1 - x0), (H - 30) / (y1 - y0))
-    proj = _Proj(s, 0.0, 0.0)
-    bx0, by0, bx1, by1 = _bounds_of(shapes.values(), proj)
-    proj = _Proj(s, (W - (bx1 - bx0)) / 2 - bx0, (H - (by1 - by0)) / 2 - by0)
-
-    countries = []
-    cbounds = {}
+    countries, cbounds = [], {}
     for nm, rings in shapes.items():
         cc = COUNTRY_CC.get(nm)
-        d = _path(rings, proj)
+        d = _path(rings, proj, tol=0.12 if nm in fine else 0.9, nd=2 if nm in fine else 1)
         if not d:
             continue
         ent = {"d": d}
         if cc:
             ent["id"] = cc
             ent["name"] = nm
-            xs0, ys0, xs1, ys1 = _bounds_of([rings], proj)
-            cbounds[cc] = (xs0, ys0, xs1, ys1)
+            # vb bounds from the European mainland only (no Svalbard stretch)
+            core = [r for r in rings if _keep_ring(r)]
+            xs, ys = [], []
+            for r in core:
+                for lon, lat in r:
+                    x, y = proj.px(lon, lat)
+                    xs.append(x); ys.append(y)
+            if xs:
+                cbounds[cc] = (min(xs), min(ys), max(xs), max(ys))
         else:
             ent["bg"] = 1
         countries.append(ent)
-    for nm, rings in extra_shapes.items():   # world context beyond the frame; visible when zooming out/panning
-        d = _path(rings, proj, loose=True)
-        if d:
-            countries.append({"d": d, "bg": 1})
 
     # viewboxes per level, padded
     def vb(x0, y0, x1, y1, pad):
         w, h = x1 - x0, y1 - y0
         return [round(x0 - w * pad, 1), round(y0 - h * pad, 1),
                 round(w * (1 + 2 * pad), 1), round(h * (1 + 2 * pad), 1)]
+    wx0, wy0 = proj.px(-169, 83.6)
+    wx1, wy1 = proj.px(190, -55.8)
     nx0 = min(cbounds[c][0] for c in NORDIC_CC if c in cbounds)
     ny0 = min(cbounds[c][1] for c in NORDIC_CC if c in cbounds)
     nx1 = max(cbounds[c][2] for c in NORDIC_CC if c in cbounds)
     ny1 = max(cbounds[c][3] for c in NORDIC_CC if c in cbounds)
-    vbs = {"l0": [0, 0, W, H], "nordics": vb(nx0, ny0, nx1, ny1, 0.06)}
+    vbs = {"l0": vb(wx0, wy0, wx1, wy1, 0.0), "nordics": vb(nx0, ny0, nx1, ny1, 0.06)}
     for cc in NORDIC_CC:
         if cc in cbounds:
             vbs[cc] = vb(*cbounds[cc], 0.12)
@@ -381,9 +381,8 @@ def build_covmap(regions, mynet, roster, load_json):
             e["x"], e["y"], e["r2"] = round(x, 1), round(y, 1), r
     # country bubble geometry at L1
     zoom_l1 = W / vbs["nordics"][2]
-    ccent = {cc: ((cbounds[cc][0] + cbounds[cc][2]) / 2, (cbounds[cc][1] + cbounds[cc][3]) / 2)
-             for cc in NORDIC_CC if cc in cbounds}
-    ccent["DK"] = (ccent["DK"][0] - 6, ccent["DK"][1])  # nudge off Sweden's coast
+    _ANCHOR = {"SE": (15.3, 61.6), "DK": (9.3, 55.9), "NO": (8.2, 60.9), "FI": (26.0, 63.3), "IS": (-18.8, 64.9)}
+    ccent = {cc: proj.px(*_ANCHOR[cc]) for cc in NORDIC_CC if cc in cbounds}
 
     # ---- area roll-ups per user + team ----
     def rollup(sel):

@@ -781,6 +781,8 @@ body.mkmode{cursor:crosshair}
 .cmnums{display:flex;gap:12px;font-size:11px;color:var(--muted);margin-top:7px}
 .cmnums b{font-size:14px;color:var(--ink);display:block}
 .cmhead{font-size:14.5px;line-height:1.5;margin-bottom:12px}
+.cmquals{display:flex;gap:7px;margin:4px 0 10px}
+.cmqual{font-size:11px;font-weight:700;letter-spacing:.03em;border:1px solid;border-radius:999px;padding:3px 10px}
 .cmg{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px}
 .cmg .cmgl{width:36px;color:var(--muted)}
 .cmgbar{flex:1;height:8px;background:var(--hair2);border-radius:5px;overflow:hidden}
@@ -788,6 +790,7 @@ body.mkmode{cursor:crosshair}
 .cml3t{font-size:11px;fill:var(--ink2)}
 .cml3t.me{font-weight:700;fill:var(--accent-ink)}
 body[data-page=map] #aprail{display:none}
+body[data-page=map] .wrap{max-width:none}
 body[data-page=map] #apmain{max-width:none}
 @media(max-width:1000px){ .cmflex{flex-direction:column} .cmpanel{width:auto;max-height:none} #cmsvg{height:52vh;min-height:360px} }
 
@@ -1648,7 +1651,7 @@ function apMap(){
   const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
   let main;
   if(MAP.ent) main=cmDetail(me);
-  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div></div>`;
+  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid slice">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div></div>`;
   else main=`<div class="cmcards">${cmCards(me)}</div>${cmAffCards(me)}${cmPeopleIn(me)}`;
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
@@ -1672,7 +1675,7 @@ function cmSvg(me){
   let layer='';
   if(MAP.lvl==='l0'){
     layer=CM.regions.map(r=>{
-      if(!r.active) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><circle r="20"/><text y="3">${r.name}</text><text y="14" class="cmsoon">M2</text></g>`;
+      if(!r.active) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><title>${r.name} — live in M2</title><circle r="4.5"/></g>`;
       const a=CM.areas.nordics, covu=me&&a.u[me]?a.u[me].covu:0;
       const R=36, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       return `<g class="cmreg live" data-cmgo="l1" transform="translate(${r.x},${r.y})">
@@ -1802,6 +1805,12 @@ function cmTray(){
   if(!t.length||MAP.lvl==='l0') return '';
   return `<div class="cmtray">Outside the region: ${t.map(e=>`<b data-cment="${e.slug}" class="cmtl">${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
 }
+const cmQualU=v=>v<25?['underweight','#c2452f']:v<55?['light','#c98a1b']:['well covered','#2e7d4f'];
+const cmQualT=v=>v<25?['thin','#c2452f']:v<55?['patchy','#c98a1b']:['strong','#2e7d4f'];
+function cmQualRow(covu,covT,me){
+  const [qu,cu]=cmQualU(covu), [qt,ct]=cmQualT(covT);
+  return `<div class="cmquals">${me?`<span class="cmqual" style="color:${cu};border-color:${cu}">You · ${qu}</span>`:''}<span class="cmqual" style="color:${ct};border-color:${ct}">Team · ${qt}</span></div>`;
+}
 function cmGauge(lbl,v,col){
   return `<div class="cmg"><span class="cmgl">${lbl}</span><span class="cmgbar"><i style="width:${Math.min(v,100)}%;background:${col||CMTIER(v)}"></i></span><b>${Math.round(v)}%</b></div>`;
 }
@@ -1816,21 +1825,21 @@ function cmTop5(me,pool){
 function cmPanel(me){
   const A=CM.areas, who=me||null;
   if(MAP.lvl==='l0'){
-    const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:null;
-    return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of Nordic opportunity; the team covers <b>${a.covT}%</b>.`:`The team covers <b>${a.covT}%</b> of Nordic opportunity.`} Other regions go live in M2.</div>
-      ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
-      <div class="dtsub cmexpl">The % = how strongly you hold the funds that matter here, weighted by how much each one matters. 100% would mean a strong, senior door into every fund that drives deal flow — knowing a few small funds well moves it less than one big gap closed.</div>
-      <div class="apsec">Where to spend time</div>${cmTop5(me,cmVisible(me))}`;
+    const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
+    const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
+    return `<div class="cmhead">${who?`Your Nordic network is <b>${qu}</b> relative to the deal flow there; the team's is ${qt}.`:`The team's Nordic coverage is <b>${qt}</b>.`} Other regions go live in M2.</div>
+      ${cmQualRow(covu,a.covT,who)}
+      <div class="apsec">How to improve it</div>${cmTop5(me,cmVisible(me))}`;
   }
   if(MAP.lvl==='l1'){
     const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
     const biggest=CM.nordics.filter(c=>A[c]).sort((x,y)=>A[y].opp-A[x].opp)[0];
-    const share=Math.round(100*A[biggest].opp/CM.nordics.reduce((t,c)=>t+(A[c]?A[c].opp:0),0));
     const bcov=who&&A[biggest].u[who]?A[biggest].u[who].covu:0;
-    return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of the Nordics (team ${a.covT}%).`:`Team covers <b>${a.covT}%</b> of the Nordics.`} ${CM.ccName[biggest]} is ${share}% of the opportunity${who?` and you cover ${bcov}% of it`:''}.</div>
-      ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
-      <div class="dtsub cmexpl">The % weighs each fund by how much it matters: closing one big gap (EQT Ventures) moves it far more than knowing several small funds.</div>
-      <div class="apsec">Where to spend time</div>${cmTop5(me,cmVisible(me))}`;
+    const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
+    const borrow=a.covT>=55&&covu<55;
+    return `<div class="cmhead">${who?`You are <b>${qu}</b> on network coverage in the Nordics relative to its deal flow and your pipeline.`:`The team's Nordic coverage is <b>${qt}</b>.`} ${CM.ccName[biggest]} drives the most opportunity${who&&bcov<25?` and is where you are thinnest`:''}${borrow?` — the team holds doors you can borrow`:''}.</div>
+      ${cmQualRow(covu,a.covT,who)}
+      <div class="apsec">How to improve it</div>${cmTop5(me,cmVisible(me))}`;
   }
   const cc=MAP.cc, a=A[cc]||{covT:0,u:{}};
   const sel=cmEnts().filter(e=>e.cc===cc);
@@ -1840,8 +1849,9 @@ function cmPanel(me){
   const topCity=Object.entries(cities).sort((x,y)=>y[1]-x[1])[0];
   const covu=who&&a.u[who]?a.u[who].covu:0, exp=who&&a.u[who]?a.u[who].exp:null;
   const tripBtn=(typeof TRIPS!=='undefined'&&topCity&&TRIPS[topCity[0]])?`<button class="minibtn" data-cmtrip="${topCity[0]}">Plan a ${topCity[0]} trip →</button>`:'';
-  return `<div class="cmhead">${topCity?`${topCity[0]} holds ${topCity[1]} of ${CM.ccName[cc]}'s ${builds.length} Build funds.`:`No Build funds in ${CM.ccName[cc]} right now.`} ${warm?`${warm} have a warm path through the team.`:''}</div>
-    ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
+  const [qu2]=cmQualU(covu), [qt2]=cmQualT(a.covT);
+  return `<div class="cmhead">${who?`${CM.ccName[cc]}: your coverage is <b>${qu2}</b>; the team's is ${qt2}.`:`${CM.ccName[cc]}: team coverage is <b>${qt2}</b>.`} ${topCity?`${topCity[0]} holds ${topCity[1]} of the ${builds.length} funds worth building.`:''} ${warm?`${warm} have a warm path through the team.`:''}</div>
+    ${cmQualRow(covu,a.covT,who)}
     ${exp!=null?`<div class="dtsub">${Math.round(exp)}% of your Nordic pipeline sits here.</div>`:''}
     ${(CM.aff||[]).filter(e=>e.cc===cc).length?`<div class="dtsub">+${(CM.aff||[]).filter(e=>e.cc===cc).length} more ${CM.ccName[cc]}-based investors in Affinity, shown below the tracked funds.</div>`:''}
     ${tripBtn}
