@@ -1623,7 +1623,7 @@ function cmGlyphSvg(e,me,px){
 }
 function cmLegend(me){
   return `<div class="cmlegend">
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/></svg>size = how much it matters${MAP.basis==='pipe'?' to your pipeline':' to Highland'}</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/></svg>size = how much the fund matters (your pipeline + Highland deal flow)</span>
     <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/></svg>pale disc = team coverage</span>
     <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" fill="#2e7d4f"/></svg>solid centre = ${me?'your':'my'} coverage</span>
     <span class="cmlgi">${['#c2452f','#d96a2b','#c98a1b','#2e7d4f'].map(c=>`<i class="cmdot" style="background:${c}"></i>`).join('')}cold → strong</span>
@@ -1645,8 +1645,6 @@ function apMap(){
   else main=`<div class="cmcards">${cmCards(me)}</div>`;
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
-      <span class="aptog cmlens">${[['both','Me vs team'],['me','Me only'],['team','Team only'],['warm','Warm paths']].map(([k,l])=>`<button data-cmlens="${k}"${MAP.lens===k?' class="on"':''}>${l}</button>`).join('')}</span>
-      <span class="aptog">${[['pipe','My pipeline'],['hl','Highland deal flow']].map(([k,l])=>`<button data-cmbasis="${k}"${MAP.basis===k?' class="on"':''}>${l}</button>`).join('')}</span>
       <label class="cmall"><input type="checkbox" id="cmallcb"${MAP.all?' checked':''}> show quiet funds</label>
     </div>
     ${cmLegend(me)}
@@ -1835,8 +1833,6 @@ function cmBack(){
 }
 function mapBind(body){
   const me=ap.who||'';
-  body.querySelectorAll('[data-cmlens]').forEach(b=>b.addEventListener('click',()=>{MAP.lens=b.dataset.cmlens;renderWork();}));
-  body.querySelectorAll('[data-cmbasis]').forEach(b=>b.addEventListener('click',()=>{MAP.basis=b.dataset.cmbasis;renderWork();}));
   const cb=body.querySelector('#cmallcb');
   if(cb) cb.addEventListener('change',()=>{MAP.all=cb.checked;renderWork();});
   const bk=body.querySelector('[data-cmback]');
