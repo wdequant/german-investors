@@ -1,0 +1,370 @@
+{
+ "sequoiacap.com": {
+  "name": "Sequoia Capital",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 90,
+  "note": "London office since 2021 and 38 European deals in 24 months; the highest-signal US name on any European cap table."
+ },
+ "a16z.com": {
+  "name": "Andreessen Horowitz",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 78,
+  "note": "Largest US venture franchise; European activity is rising fast off a small base and skews AI and crypto."
+ },
+ "lsvp.com": {
+  "name": "Lightspeed Venture Partners",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 76,
+  "note": "Dedicated European team out of London and Berlin; a regular lead in the AI and enterprise rounds Highland tracks."
+ },
+ "generalcatalyst.com": {
+  "name": "General Catalyst",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 84,
+  "note": "Absorbed La Famiglia and runs real London and Berlin teams; 10 percent of the portfolio is already European."
+ },
+ "accel.com": {
+  "name": "Accel",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 88,
+  "note": "US mothership of the deepest European Series A franchise; 15.6 percent of deals are European, the richest Highland-stage feeder."
+ },
+ "bvp.com": {
+  "name": "Bessemer Venture Partners",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 72,
+  "note": "London office since 2021; European expansion-stage SaaS coverage overlaps Highland's entry point directly."
+ },
+ "indexventures.com": {
+  "name": "Index Ventures",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 86,
+  "note": "SF seat of the London-born franchise; a third of the portfolio is European and it feeds Highland at A and B."
+ },
+ "foundersfund.com": {
+  "name": "Founders Fund",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 58,
+  "note": "Rare in Europe but decisive when present; defence and frontier-tech bets like Helsing set valuation benchmarks."
+ },
+ "khoslaventures.com": {
+  "name": "Khosla Ventures",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 50,
+  "note": "Deep-tech and AI conviction investor; under 4 percent European, so a signal not a co-investor."
+ },
+ "kleinerperkins.com": {
+  "name": "Kleiner Perkins",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 54,
+  "note": "Storied franchise rebuilt around enterprise AI; European exposure stays thin at 4 percent of deals."
+ },
+ "felicis.com": {
+  "name": "Felicis",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 50,
+  "note": "Prolific early-stage AI and infra picker; European names are few but tend to be good ones."
+ },
+ "nea.com": {
+  "name": "New Enterprise Associates (NEA)",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 50,
+  "note": "One of the largest US venture balance sheets; Europe is under 5 percent of activity and opportunistic."
+ },
+ "benchmark.com": {
+  "name": "Benchmark",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 62,
+  "note": "Small, concentrated and rarely in Europe, but a Benchmark seat on a European board is the strongest early signal there is."
+ },
+ "crv.com": {
+  "name": "CRV",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 40,
+  "note": "Early-stage enterprise and dev-tools specialist; barely 2 percent European, mostly a US signal."
+ },
+ "initialized.com": {
+  "name": "Initialized Capital",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 35,
+  "note": "Seed-stage generalist from the YC diaspora; negligible European footprint."
+ },
+ "sparkcapital.com": {
+  "name": "Spark Capital",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 62,
+  "note": "Growth fund with a taste for category-defining consumer and infra; near 9 percent European including Klarna heritage."
+ },
+ "usv.com": {
+  "name": "Union Square Ventures",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 55,
+  "note": "Thesis-driven NYC firm; roughly 10 percent European with a long networks-and-fintech memory."
+ },
+ "insightpartners.com": {
+  "name": "Insight Partners",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 82,
+  "note": "Software growth at industrial scale; 200 European portfolio companies and the buyer Highland meets in every process."
+ },
+ "ycombinator.com": {
+  "name": "Y Combinator",
+  "sub": "SF",
+  "type": "Accelerator",
+  "stage": "Early",
+  "rel": 70,
+  "note": "660 European companies through the program; the single biggest upstream source of Highland-stage US-flavoured European startups."
+ },
+ "base10.vc": {
+  "name": "Base10 Partners",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 58,
+  "note": "Automation-of-the-real-economy thesis with 13 percent of deals European; punches above its size in Highland-relevant sectors."
+ },
+ "8vc.com": {
+  "name": "8VC",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 42,
+  "note": "Lonsdale's firm, HQ moved to Austin in 2020 with the SF office retained; defence and logistics tilt, thin in Europe."
+ },
+ "redpoint.com": {
+  "name": "Redpoint",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 45,
+  "note": "Solid mid-size franchise across early and growth; under 3 percent European."
+ },
+ "ivp.com": {
+  "name": "IVP",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Late",
+  "rel": 70,
+  "note": "Late-stage venture with a London office since 2023; cheques above Highland's entry but a strong downstream signal."
+ },
+ "iconiqcapital.com": {
+  "name": "ICONIQ",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 74,
+  "note": "ICONIQ Growth's B2B software machine; 9 percent European and climbing, with a London presence and Highland-stage overlap."
+ },
+ "coatue.com": {
+  "name": "Coatue",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 76,
+  "note": "Crossover fund back on offence; 10 percent European and consistently prices the AI and fintech rounds above Highland."
+ },
+ "thrivecap.com": {
+  "name": "Thrive Capital",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 72,
+  "note": "Josh Kushner's concentrated franchise; few European deals but each one (Monzo, Lovable) resets the market."
+ },
+ "greenoaks.com": {
+  "name": "Greenoaks",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 70,
+  "note": "Concentrated growth bets with 11 percent of the book European; moves early and large when conviction lands."
+ },
+ "tcv.com": {
+  "name": "TCV",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 78,
+  "note": "London office since 2012; Revolut, Mollie and Trade Republic make it the US growth firm most embedded in European software."
+ },
+ "sapphireventures.com": {
+  "name": "Sapphire Ventures",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 62,
+  "note": "Enterprise software growth with an SAP-anchored LP base and a London office since 2020; co-invests at Highland's stage."
+ },
+ "battery.com": {
+  "name": "Battery Ventures",
+  "sub": "BOS",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 74,
+  "note": "Boston HQ with a London office since 2016; capital-efficient European software and industrial tech is core Battery territory."
+ },
+ "summitpartners.com": {
+  "name": "Summit Partners",
+  "sub": "BOS",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 70,
+  "note": "Boston growth equity with a dedicated Europe fund run from London; hunts the same capital-efficient software Highland does."
+ },
+ "leftlanecapital.com": {
+  "name": "Left Lane Capital",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 68,
+  "note": "Brooklyn growth firm with a real London seat; internet and consumer subscription growth, nearly a quarter of deals European."
+ },
+ "generalatlantic.com": {
+  "name": "General Atlantic",
+  "sub": "NYC",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 80,
+  "note": "Global growth equity with 88 European portfolio companies and a large London office; the classic exit-round buyer above Highland."
+ },
+ "tigerglobal.com": {
+  "name": "Tiger Global",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 64,
+  "note": "Slower than the 2021 blitz but still 84 European positions; when it re-accelerates it moves whole price levels."
+ },
+ "addition.com": {
+  "name": "Addition",
+  "sub": "NYC",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 62,
+  "note": "Lee Fixel's fund; 13 percent European with a quiet, fast-moving style that preempts rounds Highland would want."
+ },
+ "greylock.com": {
+  "name": "Greylock",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Early",
+  "rel": 48,
+  "note": "Enterprise and security royalty; under 4 percent European, relevant as signal rather than co-investor."
+ },
+ "meritechcapital.com": {
+  "name": "Meritech",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Late",
+  "rel": 58,
+  "note": "Late-stage software specialist (UiPath history); small team, sharp benchmarks, 7 percent European."
+ },
+ "baincapitalventures.com": {
+  "name": "Bain Capital Ventures (BCV)",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Multi-Stage",
+  "rel": 46,
+  "note": "Bain's venture arm, now run from San Francisco; fintech and infra depth but under 4 percent European."
+ },
+ "salesforceventures.com": {
+  "name": "Salesforce Ventures",
+  "sub": "SF",
+  "type": "CVC",
+  "stage": "Multi-Stage",
+  "rel": 64,
+  "note": "The most active CVC in European SaaS; 88 European positions and a frequent co-investor at Highland's stage."
+ },
+ "bondcap.com": {
+  "name": "BOND",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Growth",
+  "rel": 56,
+  "note": "Mary Meeker's growth fund; close to 10 percent European with a consumer-internet and marketplace tilt."
+ },
+ "leadedge.com": {
+  "name": "Lead Edge Capital",
+  "sub": "NYC",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 58,
+  "note": "LP-network-driven growth equity; 10 percent European and shops exactly Highland's capital-efficient software profile."
+ },
+ "stripes.co": {
+  "name": "Stripes",
+  "sub": "NYC",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 48,
+  "note": "NYC growth equity across software and consumer; European activity is light at 5 percent of deals."
+ },
+ "volitioncapital.com": {
+  "name": "Volition Capital",
+  "sub": "BOS",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 32,
+  "note": "Boston growth equity for bootstrapped software; thesis rhymes with Highland but only 2 of 100 deals are European."
+ },
+ "dragoneer.com": {
+  "name": "Dragoneer Investment Group",
+  "sub": "SF",
+  "type": "VC",
+  "stage": "Late",
+  "rel": 54,
+  "note": "Public-private crossover; 9 percent European, shows up late and large in the best software names."
+ },
+ "psgequity.com": {
+  "name": "PSG",
+  "sub": "BOS",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 72,
+  "note": "Providence's growth arm with a dedicated PSG Europe fund out of London and Madrid; 21 percent of deals are European."
+ },
+ "greathillpartners.com": {
+  "name": "Great Hill Partners",
+  "sub": "BOS",
+  "type": "PE",
+  "stage": "Growth",
+  "rel": 48,
+  "note": "Boston growth buyout for mid-market software and internet; 10 percent European, buys the companies Highland exits."
+ }
+}
