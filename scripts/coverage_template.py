@@ -745,6 +745,16 @@ body.mkmode{cursor:crosshair}
 .cmv2grid{display:grid;grid-template-columns:7fr 5fr;gap:18px;align-items:start;margin-top:4px}
 @media(max-width:1000px){.cmv2grid{grid-template-columns:1fr}}
 .cmspend{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.cmspend.go{cursor:pointer;transition:border-color .12s, box-shadow .12s}
+.cmspend.go:hover{border-color:var(--accent);box-shadow:0 3px 14px rgba(39,51,240,.08)}
+.cmbigs{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}
+.cmbig{font-size:14px;font-weight:800;letter-spacing:.01em;padding:6px 12px;border-radius:9px;background:var(--hair2);color:var(--ink2)}
+.cmbig.warm{background:#e4efe6;color:#2e6b44}
+.cmbig.cold{background:#fbe9e2;color:#9c3c1e}
+.cmbig.df{background:#eceafd;color:#3b36a8}
+.cmbig.pipe{background:#fdf3dc;color:#8a6116}
+.nettab td.nmc a,.dpli .nm a{color:inherit;text-decoration:none;border-bottom:1px dashed var(--hair)}
+.nettab td.nmc a:hover,.dpli .nm a:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
 .cmspend .cmfn{font-size:15px}
 .cmask{color:var(--ink);margin-top:5px}
 .cmquiet{opacity:.72}
@@ -1668,7 +1678,7 @@ function apMap(){
   const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
   let main;
   if(MAP.ent) main=cmDetail(me);
-  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid slice">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div></div>`;
+  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid slice">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
   else main=cmCountryPage(me);
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
@@ -1696,7 +1706,7 @@ function cmSvg(me){
         <g class="cmbtn"><circle r="9" fill="${CMTIER(covu)}" stroke="#fff" stroke-width="1.4"/></g>
         <g class="cmdisc"><circle r="${R}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
           ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}</g>
-        <text y="${R+13}">${r.name}${me?` ${Math.round(covu)}%`:''}</text></g>`;
+        <text y="${R+13}">${r.name}</text></g>`;
     }).join('');
   } else {
     const z=CM.zoomL1;
@@ -1755,20 +1765,20 @@ function cmSpendCards(me,sel){
   const cards=[...sel].sort((a,b)=>cmU(b,me).m-cmU(a,me).m)
     .filter(e=>{const u=cmU(e,me);return u.st==='build'||u.st==='maintain';}).slice(0,8)
     .map(e=>{
-      const u=cmU(e,me), tb=cmTeamBest(e), tgt=cmTarget(e,me);
-      const state=u.st==='build'?(u.tag==='warm'?'Build · warm path':u.tag==='cold'?'Build · cold start':'Build'):'Re-engage';
-      const reasons=cmReasons(e,me);
-      const ask=u.tag==='warm'&&tb?`Ask <b>${tb.u.split(' ')[0]}</b> for an intro to ${tb.n}`:
-                tgt?`Approach <b>${tgt.n}</b>${tgt.sr?` <span class="cc">(${tgt.sr})</span>`:''} directly`:'No people mapped yet';
-      return `<div class="cmspend">
+      const u=cmU(e,me);
+      const state=u.st==='build'?'Build':'Re-engage';
+      const myN=(()=>{let n=0;Object.entries(e.pipe||{}).forEach(([bk,v])=>{if(bk!=='portfolio')v.forEach(co=>{if(co.o&&co.o.includes(me))n++;});});return n;})();
+      const h2cN=((e.pipe||{}).hard||[]).length;
+      const chips=[];
+      if(u.tag==='warm') chips.push(['warm','Warm path']);
+      if(u.tag==='cold') chips.push(['cold','Cold start']);
+      if((e.df12||0)>=6) chips.push(['df','High deal flow']);
+      if(myN>0) chips.push(['pipe','Active in your pipe']);
+      else if(h2cN>0) chips.push(['pipe',`Backs ${h2cN} H2C${h2cN>1?'s':''}`]);
+      return `<div class="cmspend go" data-cment="${e.slug}" tabindex="0">
         <div class="cmfn">${e.name} <span class="cmst ${u.st}">${state}</span></div>
-        ${reasons.map(r=>`<div class="cmfm">${r}</div>`).join('')||'<div class="cmfm cc">Relevant by deal flow ranking</div>'}
-        <div class="cmfm cmask">${ask}</div>
-        <div class="apacts">
-          ${u.tag==='warm'&&tb?`<a href="mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — could you introduce me to '+tb.n+' at '+e.name+'? The coverage map says you hold our strongest line in. — '+(me||'').split(' ')[0])}">✉ Draft intro request</a>`:''}
-          ${tgt?`<a href="${liSearch(tgt.n,e.name)}" target="_blank" rel="noopener">Draft outreach ↗</a>`:''}
-          <button class="minibtn" data-cment="${e.slug}">Open fund page</button>
-        </div></div>`;
+        <div class="cmbigs">${chips.slice(0,3).map(([k,l])=>`<span class="cmbig ${k}">${l}</span>`).join('')||'<span class="cmbig">Top deal flow here</span>'}</div>
+      </div>`;
     }).join('');
   return cards||'<div class="aphint">Nothing to build here.</div>';
 }
@@ -1781,7 +1791,7 @@ function cmWhoRows(me){
     if(r<15) return null;
     return {p, r, holder: mine?null:(best?best[0]:null)};
   }).filter(Boolean).sort((a,b)=>b.r-a.r);
-  const html=list.slice(0,18).map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm">${p.n}</span><span class="how">${p.org||''} · ${cmTierWord(r)}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('');
+  const html=list.slice(0,18).map(({p,r,holder})=>`<div class="dpli"><b class="mbub ${r>=70?'strong':r>=40?'medium':'low'}">${Math.round(r)}</b><span class="nm"><a href="${p.li||liSearch(p.n,p.org||'')}" target="_blank" rel="noopener">${p.n}</a></span><span class="how">${p.org||''} · ${cmTierWord(r)}${holder?` · via ${holder.split(' ')[0]}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`).join('');
   return {html: html||`<div class="dtsub">${mine?'No one on your book here yet.':'No team edges here.'}</div>`, n:list.length};
 }
 function cmCountryPage(me){
@@ -1817,21 +1827,7 @@ function cmCountryPage(me){
         <div class="apcard cmquiet">${over.slice(0,8).map(e=>`<div class="dpli" data-cment="${e.slug}"><b class="mbub low">${Math.round(cmU(e,me).cu)}</b><span class="nm">${e.name}</span><span class="how">strong relationship · little deal flow</span></div>`).join('')}</div>`:''}
       </div>
     </div>
-    <div class="apsec" style="margin-top:16px">On the map — shortlisted investors</div>
-    <div class="cmminimap"><svg viewBox="${(CM.vb[cc]||CM.vb.nordics).join(' ')}" preserveAspectRatio="xMidYMid meet">
-      <g>${CM.countries.map(c=>c.bg?'':`<path d="${c.d}" class="cmcty${c.id===cc?' on':''}"/>`).join('')}</g>
-      <g>${short.concat(selAff).filter(e=>e.x!=null).map(e=>{
-        const u=cmU(e,me), z=CM.zoomL2[cc]||6, r=e.r2||8/z;
-        const rt=r*Math.sqrt(Math.min(e.CT,100)/100), rm=r*Math.sqrt(Math.min(u.cu,100)/100);
-        const fade=u.st==='over'?' opacity="0.35"':u.st==='maintain'?' opacity="0.7"':'';
-        return `<g transform="translate(${e.x},${e.y})"${fade} class="cment" data-cment="${e.slug}">
-          <circle r="${r}" class="cmouter"/><circle r="${rt.toFixed(2)}" class="cmteam"/>
-          ${rm>0.4?`<circle r="${rm.toFixed(2)}" fill="${CMTIER(u.cu)}" class="cmme"/>`:''}</g>`+
-          (u.st==='build'?`<text class="cmlab" x="${e.x}" y="${(e.y-r-3/z).toFixed(1)}" style="font-size:${(10.5/z).toFixed(2)}px">${e.name}</text>`:'');
-      }).join('')}</g>
-    </svg></div>
-    <div style="margin-top:14px">${groups}</div>
-    <div style="margin-top:12px">${MAP.showAll?`${cmAffCards(me)}${cmPeopleIn(me)}`:`<button class="minibtn" data-cmshowall>Show all ${allN} investors in ${CM.ccName[cc]}</button>`}</div>`;
+    <div style="margin-top:16px">${MAP.showAll?`${cmAffCards(me)}${cmPeopleIn(me)}`:`<button class="minibtn" data-cmshowall>Show all ${allN} investors in ${CM.ccName[cc]}</button>`}</div>`;
 }
 function cmAffCards(me){
   const sel=(CM.aff||[]).filter(e=>e.cc===MAP.cc&&!e.sl)
@@ -1885,15 +1881,15 @@ function cmDetail(me){
   const rows=ppl.map(p=>{
     const mr=me?Math.round(p.r[me]||0):0, bt=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
     return `<tr><td><b class="mbub ${mr>=70?'strong':mr>=40?'medium':mr>=15?'low':'weak'}">${mr}</b></td>
-      <td class="nmc">${p.n}</td><td>${p.sr||'—'}</td>
+      <td class="nmc"><a href="${p.li||liSearch(p.n,e.name)}" target="_blank" rel="noopener">${p.n}</a></td><td>${p.sr||'—'}</td>
       <td>${bt?`${cmTierWord(bt[1])} · ${bt[0].split(' ')[0]}`:'—'}</td>
-      <td class="lt">${p.last?fmtD(p.last):'—'}</td>
-      <td><a href="${liSearch(p.n,e.name)}" target="_blank" rel="noopener">↗</a></td></tr>`;
+      <td class="lt">${p.last?fmtD(p.last):'—'}</td></tr>`;
   }).join('');
   const untracked=(e.dfl||[]).filter(d=>!d.aid);
   const others=pipeAll.filter(c=>['Reach out','Portfolio'].includes(c.st));
   const acc=(id,label,n,body,open)=>n?`<details class="cmacc"${open?' open':''}><summary>${label} <b>${n}</b></summary>${body}</details>`:'';
-  const pipeRows=bk=>((e.pipe&&e.pipe[bk])||[]).map(co=>`<div class="dpli"><span class="nm">${co.o&&co.o.includes(me)?`<b>${co.n}</b>`:co.n}</span><span class="how">${(co.o||[]).map(x=>x.split(' ')[0]).join(', ')}</span></div>`).join('');
+  const lnk=(txt,aid)=>aid?`<a href="${affURL(aid)}" target="_blank" rel="noopener">${txt}</a>`:txt;
+  const pipeRows=bk=>((e.pipe&&e.pipe[bk])||[]).map(co=>`<div class="dpli"><span class="nm">${lnk(co.o&&co.o.includes(me)?`<b>${co.n}</b>`:co.n,co.aid)}</span><span class="how">${(co.o||[]).map(x=>x.split(' ')[0]).join(', ')}</span></div>`).join('');
   const topReason=why[0]||'';
   const openKey=topReason.includes('pipeline')?'pipe':topReason.includes('deals')?'df':topReason.includes('hard')?'h2c':'df';
   return `<div class="cmdet">
@@ -1907,12 +1903,12 @@ function cmDetail(me){
     <div class="cmv2grid">
       <div>
         <div class="apsec">People</div>
-        <table class="nettab cmdett"><thead><tr><th>You</th><th>Name</th><th>Role</th><th>Team best</th><th>Last touch</th><th></th></tr></thead>
+        <table class="nettab cmdett"><thead><tr><th>You</th><th>Name</th><th>Role</th><th>Team best</th><th>Last touch</th></tr></thead>
         <tbody>${rows||`<tr><td colspan="6" class="lt" style="padding:12px">No people mapped yet.</td></tr>`}</tbody></table>
       </div>
       <div>${cmEgo(e,me)}</div>
     </div>
-    ${acc('df','Recent deal flow',(e.dfl||[]).length,(e.dfl||[]).map(d=>`<div class="dpli"><span class="nm">${d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.fu?`in pipeline: ${d.fu}`:null].filter(Boolean).join(' · ')}</span></div>`).join(''),openKey==='df')}
+    ${acc('df','Recent deal flow',(e.dfl||[]).length,(e.dfl||[]).map(d=>`<div class="dpli"><span class="nm">${d.aid?`<a href="${affURL(d.aid)}" target="_blank" rel="noopener">${d.n}</a>`:d.n}</span><span class="how">${[d.r||null,d.d?fmtD(d.d):null,d.fu?`in pipeline: ${d.fu}`:null].filter(Boolean).join(' · ')}</span></div>`).join(''),openKey==='df')}
     ${acc('pl','Pre-lead',((e.pipe||{}).prelead||[]).length,pipeRows('prelead'),openKey==='pipe')}
     ${acc('aw','Awaiting lead',((e.pipe||{}).awaiting||[]).length,pipeRows('awaiting'),false)}
     ${acc('h2','Hard to crack portfolio',h2cN,pipeRows('hard'),openKey==='h2c')}
@@ -2043,7 +2039,8 @@ function mapBind(body){
     if(!mapBind._dragged && MAP.lvl!=='l0' && CM.areas[p.dataset.cmcc]) cmGo('l2',p.dataset.cmcc,'');
   }));
   body.querySelectorAll('[data-cmtrip]').forEach(b=>b.addEventListener('click',()=>goPage('geo',{city:b.dataset.cmtrip})));
-  body.querySelectorAll('[data-cment]').forEach(g=>g.addEventListener('click',()=>{
+  body.querySelectorAll('[data-cment]').forEach(g=>g.addEventListener('click',ev=>{
+    if(ev.target.closest('a')||ev.target.closest('button:not([data-cment])')) return;
     const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(!e) return;
     cmGo(e.cc?'l3':MAP.lvl, e.cc||MAP.cc, g.dataset.cment);
   }));
@@ -2084,6 +2081,25 @@ function mapBind(body){
     },{passive:false});
   }
   const hov=body.querySelector('#cmhover');
+  if(hov) body.querySelectorAll('g.cmregbtn[data-cmgo]').forEach(g=>{
+    g.addEventListener('mouseenter',()=>{
+      const a=CM.areas.nordics, covu=me&&a.u[me]?a.u[me].covu:0;
+      const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
+      const top3=[...cmVisible(me)].sort((x,y)=>cmU(y,me).m-cmU(x,me).m).slice(0,3);
+      hov.innerHTML=`<div class="cmcn"><b>Nordics</b></div>
+        <div class="cmwhy">${me?`Your Nordic network is <b>${qu}</b> relative to the deal flow there; the team's is ${qt}.`:`Team coverage is <b>${qt}</b>.`}</div>
+        <div class="cmwhy">${top3.map(e=>{const tb=cmTeamBest(e);return `<b>${e.name}</b>${cmU(e,me).tag==='warm'&&tb?` — ask ${tb.u.split(' ')[0]}`:''}`;}).join(' · ')}</div>
+        <div class="cmwhy cc">Click to open</div>`;
+      hov.hidden=false;
+    });
+    g.addEventListener('mousemove',ev=>{
+      const wrap=body.querySelector('.cmmapwrap'); if(!wrap) return;
+      const r=wrap.getBoundingClientRect();
+      hov.style.left=Math.min(ev.clientX-r.left+16, r.width-310)+'px';
+      hov.style.top=Math.max(ev.clientY-r.top-10,4)+'px';
+    });
+    g.addEventListener('mouseleave',()=>{ hov.hidden=true; });
+  });
   if(hov) body.querySelectorAll('g[data-cment],g[data-cmcc2]').forEach(g=>{
     g.addEventListener('mouseenter',()=>{
       const cc=g.dataset.cmcc2;

@@ -12,8 +12,8 @@ TOPO = f"{ROOT}/data/geo/countries-50m.json"
 TOPO_FALLBACK = TOPO
 
 # ---- config (spec: config/regions.ts + config/scoring.ts) ----
-NORDIC_CC = ["SE", "DK", "NO", "FI", "IS"]
-CC_NAME = {"SE": "Sweden", "DK": "Denmark", "NO": "Norway", "FI": "Finland", "IS": "Iceland"}
+NORDIC_CC = ["SE", "DK", "NO", "FI"]
+CC_NAME = {"SE": "Sweden", "DK": "Denmark", "NO": "Norway", "FI": "Finland"}
 COUNTRY_CC = {v: k for k, v in CC_NAME.items()}
 EURO_BG = ["Germany", "Austria", "Switzerland", "France", "Netherlands", "Belgium",
            "Luxembourg", "United Kingdom", "Ireland", "Spain", "Portugal", "Italy",
@@ -250,8 +250,9 @@ def build_covmap(regions, mynet, roster, load_json):
     ents, df_raws, pu_raws = [], [], {u: [] for u in roster}
     import datetime
     cutoff = (datetime.date.today() - datetime.timedelta(days=365)).isoformat()
+    FUND_CITY_OVERRIDE = {"northzone": "Stockholm"}   # London-HQ but a Nordic fund; belongs on this map
     for e in nreg["entities"]:
-        city_raw = (e.get("city") or "").split("·")[0].strip()
+        city_raw = FUND_CITY_OVERRIDE.get(e["slug"]) or (e.get("city") or "").split("·")[0].strip()
         anchor = CITY_LL.get(city_raw)
         cc = anchor[0] if anchor else None
         tray = cc is None
@@ -268,6 +269,8 @@ def build_covmap(regions, mynet, roster, load_json):
                 R = round(0.75 * (c.get("pct") or 0) + 25 * _rec(c.get("last")), 1)
                 p = people.setdefault(nm, {"n": nm, "r": {}, "last": None})
                 p["r"][u] = max(p["r"].get(u, 0), R)
+                if c.get("linkedin") and not p.get("li"):
+                    p["li"] = c["linkedin"]
                 if c.get("last") and (not p["last"] or c["last"] > p["last"]):
                     p["last"] = c["last"]
                 rmax[nm] = max(rmax.get(nm, 0), R)
@@ -320,7 +323,8 @@ def build_covmap(regions, mynet, roster, load_json):
         _dfl = [{"n": _d7.get("name"), "r": (_d7.get("round") or "").replace("_", " ").title(),
                  "d": _d7.get("date"), "fu": _d7.get("funnel"), "do": _d7.get("domain"),
                  "aid": _d7.get("affinity_id")} for _d7 in (e.get("dealflow") or [])[:12]]
-        _pipe = {bk: [{"n": co.get("name"), "o": [u for u in (co.get("own") or []) if u in roster]}
+        _pipe = {bk: [{"n": co.get("name"), "aid": co.get("id"),
+                       "o": [u for u in (co.get("own") or []) if u in roster]}
                       for co in v[:8]]
                  for bk, v in (e.get("buckets") or {}).items() if v}
         _dom = (e.get("website") or "").lower().replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0]
@@ -391,7 +395,7 @@ def build_covmap(regions, mynet, roster, load_json):
             e["x"], e["y"], e["r2"] = round(x, 1), round(y, 1), r
     # country bubble geometry at L1
     zoom_l1 = W / vbs["nordics"][2]
-    _ANCHOR = {"SE": (15.3, 61.6), "DK": (9.3, 55.9), "NO": (8.2, 60.9), "FI": (26.0, 63.3), "IS": (-18.8, 64.9)}
+    _ANCHOR = {"SE": (15.3, 61.6), "DK": (9.3, 55.9), "NO": (8.2, 60.9), "FI": (26.0, 63.3)}
     ccent = {cc: proj.px(*_ANCHOR[cc]) for cc in NORDIC_CC if cc in cbounds}
 
     # ---- area roll-ups per user + team ----
@@ -426,7 +430,7 @@ def build_covmap(regions, mynet, roster, load_json):
     # ---- Affinity completeness layer: every investor-kind company in the Nordics (Compass sweep) ----
     import re as _re
     _nrm = lambda x: _re.sub(r"[^a-z0-9]", "", (x or "").lower())
-    CNTRY_CC = {"Sweden": "SE", "Denmark": "DK", "Norway": "NO", "Finland": "FI", "Iceland": "IS"}
+    CNTRY_CC = {"Sweden": "SE", "Denmark": "DK", "Norway": "NO", "Finland": "FI"}
     _curn, _curd = set(), set()
     for _rk4, _reg4 in regions.items():
         for _e6 in _reg4["entities"]:
@@ -596,7 +600,7 @@ def build_covmap(regions, mynet, roster, load_json):
 
     # ---- "Who do you know in <country>": every edge with a person there ----
     who_in = {}
-    for _e10 in ents:
+    for _e10 in ents + aff_ents:
         if not _e10.get("cc"):
             continue
         for _p10 in _e10.get("people") or []:
