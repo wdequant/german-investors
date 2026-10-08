@@ -1,0 +1,3092 @@
+{
+"global founders capital": {
+"name": "Global Founders Capital",
+"cat": "vc",
+"tracked": true
+},
+"htgf": {
+"name": "HTGF",
+"cat": "state",
+"tracked": true
+},
+"hv capital": {
+"name": "HV Capital",
+"cat": "vc",
+"tracked": true
+},
+"earlybird venture capital": {
+"name": "Earlybird Venture Capital",
+"cat": "vc",
+"tracked": true
+},
+"point nine": {
+"name": "Point Nine",
+"cat": "vc",
+"tracked": true
+},
+"468 capital": {
+"name": "468 Capital",
+"cat": "vc",
+"tracked": true
+},
+"picus capital": {
+"name": "Picus Capital",
+"cat": "vc",
+"tracked": true
+},
+"cherry ventures": {
+"name": "Cherry Ventures",
+"cat": "vc",
+"tracked": true
+},
+"bayern kapital": {
+"name": "Bayern Kapital",
+"cat": "state",
+"tracked": true
+},
+"project a": {
+"name": "Project A",
+"cat": "vc",
+"tracked": true
+},
+"ibb ventures": {
+"name": "IBB Ventures",
+"cat": "state",
+"tracked": true
+},
+"atlantic labs": {
+"name": "Atlantic Labs",
+"cat": "vc",
+"tracked": true
+},
+"1kx": {
+"name": "1kx",
+"cat": "vc",
+"tracked": true
+},
+"ta ventures": {
+"name": "TA Ventures",
+"cat": "vc",
+"tracked": true
+},
+"redstone": {
+"name": "Redstone",
+"cat": "vc",
+"tracked": true
+},
+"bosch ventures": {
+"name": "Bosch Ventures",
+"cat": "cvc",
+"tracked": true
+},
+"blueyard capital": {
+"name": "BlueYard Capital",
+"cat": "vc",
+"tracked": true
+},
+"possible ventures": {
+"name": "Possible Ventures",
+"cat": "vc",
+"tracked": true
+},
+"capnamic": {
+"name": "Capnamic",
+"cat": "vc",
+"tracked": true
+},
+"uvc partners": {
+"name": "UVC Partners",
+"cat": "vc",
+"tracked": true
+},
+"mig capital": {
+"name": "MIG Capital",
+"cat": "vc",
+"tracked": true
+},
+"acton capital": {
+"name": "Acton Capital",
+"cat": "vc",
+"tracked": true
+},
+"nap (new amsterdam partners)": {
+"name": "NAP (New Amsterdam Partners)",
+"cat": "vc",
+"tracked": true
+},
+"10x founders": {
+"name": "10x Founders",
+"cat": "vc",
+"tracked": true
+},
+"dieter von holtzbrinck ventures": {
+"name": "Dieter von Holtzbrinck Ventures",
+"cat": "vc",
+"tracked": true
+},
+"vsquared ventures": {
+"name": "Vsquared Ventures",
+"cat": "vc",
+"tracked": true
+},
+"discovery ventures": {
+"name": "Discovery Ventures",
+"cat": "vc",
+"tracked": true
+},
+"burda principal investments": {
+"name": "Burda Principal Investments",
+"cat": "cvc",
+"tracked": true
+},
+"commerzventures": {
+"name": "CommerzVentures",
+"cat": "cvc",
+"tracked": true
+},
+"alstin capital": {
+"name": "Alstin Capital",
+"cat": "vc",
+"tracked": true
+},
+"almi": {
+"name": "Almi",
+"cat": "state",
+"tracked": true
+},
+"antler": {
+"name": "Antler",
+"cat": "accelerator",
+"tracked": true
+},
+"northzone": {
+"name": "Northzone",
+"cat": "vc",
+"tracked": true
+},
+"creandum": {
+"name": "Creandum",
+"cat": "vc",
+"tracked": true
+},
+"lifeline ventures": {
+"name": "Lifeline Ventures",
+"cat": "vc",
+"tracked": true
+},
+"industrifonden": {
+"name": "Industrifonden",
+"cat": "vc",
+"tracked": true
+},
+"seed capital": {
+"name": "Seed Capital",
+"cat": "vc",
+"tracked": true
+},
+"psv": {
+"name": "PSV",
+"cat": "vc",
+"tracked": true
+},
+"inventure": {
+"name": "Inventure",
+"cat": "vc",
+"tracked": true
+},
+"eqt ventures": {
+"name": "EQT Ventures",
+"cat": "vc",
+"tracked": true
+},
+"sting": {
+"name": "Sting",
+"cat": "accelerator",
+"tracked": true
+},
+"investinor": {
+"name": "Investinor",
+"cat": "state",
+"tracked": true
+},
+"icebreaker.vc": {
+"name": "Icebreaker.vc",
+"cat": "vc",
+"tracked": true
+},
+"startuplab": {
+"name": "Startuplab",
+"cat": "accelerator",
+"tracked": true
+},
+"innovestor": {
+"name": "Innovestor",
+"cat": "vc",
+"tracked": true
+},
+"alliance vc": {
+"name": "Alliance VC",
+"cat": "vc",
+"tracked": true
+},
+"norrsken": {
+"name": "Norrsken",
+"cat": "vc",
+"tracked": true
+},
+"byfounders": {
+"name": "byFounders",
+"cat": "vc",
+"tracked": true
+},
+"almi invest": {
+"name": "Almi Invest",
+"cat": "state",
+"tracked": true
+},
+"accelerace": {
+"name": "Accelerace",
+"cat": "accelerator",
+"tracked": true
+},
+"maki.vc": {
+"name": "Maki.vc",
+"cat": "vc",
+"tracked": true
+},
+"spintop ventures": {
+"name": "Spintop Ventures",
+"cat": "vc",
+"tracked": true
+},
+"luminar ventures": {
+"name": "Luminar Ventures",
+"cat": "vc",
+"tracked": true
+},
+"gorilla capital": {
+"name": "Gorilla Capital",
+"cat": "vc",
+"tracked": true
+},
+"first fellow partners": {
+"name": "First Fellow Partners",
+"cat": "vc",
+"tracked": true
+},
+"voima ventures": {
+"name": "Voima Ventures",
+"cat": "vc",
+"tracked": true
+},
+"superhero capital": {
+"name": "Superhero Capital",
+"cat": "vc",
+"tracked": true
+},
+"skyfall ventures": {
+"name": "Skyfall Ventures",
+"cat": "vc",
+"tracked": true
+},
+"j12": {
+"name": "J12",
+"cat": "vc",
+"tracked": true
+},
+"heartcore": {
+"name": "Heartcore",
+"cat": "vc",
+"tracked": true
+},
+"kima ventures": {
+"name": "Kima Ventures",
+"cat": "vc",
+"tracked": true
+},
+"eurazeo": {
+"name": "Eurazeo",
+"cat": "growth",
+"tracked": true
+},
+"partech": {
+"name": "Partech",
+"cat": "vc",
+"tracked": true
+},
+"aglaé ventures": {
+"name": "Aglaé Ventures",
+"cat": "vc",
+"tracked": true
+},
+"elaia": {
+"name": "Elaia",
+"cat": "vc",
+"tracked": true
+},
+"sofinnova partners": {
+"name": "Sofinnova Partners",
+"cat": "vc",
+"tracked": true
+},
+"xange": {
+"name": "XAnge",
+"cat": "vc",
+"tracked": true
+},
+"alven": {
+"name": "Alven",
+"cat": "vc",
+"tracked": true
+},
+"cathay innovation": {
+"name": "Cathay Innovation",
+"cat": "vc",
+"tracked": true
+},
+"newfund": {
+"name": "Newfund",
+"cat": "vc",
+"tracked": true
+},
+"founders future": {
+"name": "Founders Future",
+"cat": "vc",
+"tracked": true
+},
+"motier ventures": {
+"name": "Motier Ventures",
+"cat": "fo",
+"tracked": true
+},
+"serena": {
+"name": "Serena",
+"cat": "vc",
+"tracked": true
+},
+"seventure partners": {
+"name": "Seventure Partners",
+"cat": "vc",
+"tracked": true
+},
+"omnes": {
+"name": "Omnes",
+"cat": "pe",
+"tracked": true
+},
+"demeter": {
+"name": "Demeter",
+"cat": "vc",
+"tracked": true
+},
+"daphni": {
+"name": "Daphni",
+"cat": "vc",
+"tracked": true
+},
+"financière saint james": {
+"name": "Financière Saint James",
+"cat": "fo",
+"tracked": true
+},
+"50 partners": {
+"name": "50 Partners",
+"cat": "accel",
+"tracked": true
+},
+"ventech": {
+"name": "Ventech",
+"cat": "vc",
+"tracked": true
+},
+"breega": {
+"name": "BREEGA",
+"cat": "vc",
+"tracked": true
+},
+"go capital": {
+"name": "GO Capital",
+"cat": "vc",
+"tracked": true
+},
+"evolem": {
+"name": "Evolem",
+"cat": "fo",
+"tracked": true
+},
+"bpifrance": {
+"name": "Bpifrance",
+"cat": "state",
+"tracked": true
+},
+"singular": {
+"name": "Singular",
+"cat": "vc",
+"tracked": true
+},
+"frst": {
+"name": "Frst",
+"cat": "vc",
+"tracked": true
+},
+"isai": {
+"name": "ISAI",
+"cat": "vc",
+"tracked": true
+},
+"otium capital": {
+"name": "Otium Capital",
+"cat": "fo",
+"tracked": true
+},
+"hexa": {
+"name": "Hexa",
+"cat": "studio",
+"tracked": true
+},
+"sequoia capital": {
+"name": "Sequoia Capital",
+"cat": "vc",
+"tracked": true
+},
+"andreessen horowitz": {
+"name": "Andreessen Horowitz",
+"cat": "vc",
+"tracked": true
+},
+"lightspeed venture partners": {
+"name": "Lightspeed Venture Partners",
+"cat": "vc",
+"tracked": true
+},
+"general catalyst": {
+"name": "General Catalyst",
+"cat": "vc",
+"tracked": true
+},
+"accel": {
+"name": "Accel",
+"cat": "vc",
+"tracked": true
+},
+"bessemer venture partners": {
+"name": "Bessemer Venture Partners",
+"cat": "vc",
+"tracked": true
+},
+"index ventures": {
+"name": "Index Ventures",
+"cat": "vc",
+"tracked": true
+},
+"founders fund": {
+"name": "Founders Fund",
+"cat": "vc",
+"tracked": true
+},
+"khosla ventures": {
+"name": "Khosla Ventures",
+"cat": "vc",
+"tracked": true
+},
+"kleiner perkins": {
+"name": "Kleiner Perkins",
+"cat": "vc",
+"tracked": true
+},
+"felicis": {
+"name": "Felicis",
+"cat": "vc",
+"tracked": true
+},
+"new enterprise associates (nea)": {
+"name": "New Enterprise Associates (NEA)",
+"cat": "vc",
+"tracked": true
+},
+"benchmark": {
+"name": "Benchmark",
+"cat": "vc",
+"tracked": true
+},
+"crv": {
+"name": "CRV",
+"cat": "vc",
+"tracked": true
+},
+"initialized capital": {
+"name": "Initialized Capital",
+"cat": "vc",
+"tracked": true
+},
+"spark capital": {
+"name": "Spark Capital",
+"cat": "vc",
+"tracked": true
+},
+"union square ventures": {
+"name": "Union Square Ventures",
+"cat": "vc",
+"tracked": true
+},
+"insight partners": {
+"name": "Insight Partners",
+"cat": "vc",
+"tracked": true
+},
+"y combinator": {
+"name": "Y Combinator",
+"cat": "accelerator",
+"tracked": true
+},
+"base10 partners": {
+"name": "Base10 Partners",
+"cat": "vc",
+"tracked": true
+},
+"8vc": {
+"name": "8VC",
+"cat": "vc",
+"tracked": true
+},
+"redpoint": {
+"name": "Redpoint",
+"cat": "vc",
+"tracked": true
+},
+"anthropic": {
+"name": "Anthropic",
+"domain": "anthropic.com",
+"tracked": false
+},
+"columbia lake partners": {
+"name": "Columbia Lake Partners",
+"domain": "clpgrowth.com",
+"tracked": false
+},
+"elephant": {
+"name": "Elephant",
+"domain": "elephantvc.com",
+"tracked": false
+},
+"ark kapital": {
+"name": "ArK Kapital",
+"domain": "gilion.com",
+"tracked": false
+},
+"headline": {
+"name": "Headline",
+"domain": "headline.com",
+"tracked": false
+},
+"illusian": {
+"name": "Illusian",
+"domain": "illusian.org",
+"tracked": false
+},
+"ivp": {
+"name": "IVP",
+"domain": "ivp.com",
+"tracked": false
+},
+"j.p. morgan": {
+"name": "J.P. Morgan",
+"domain": "jpmorgan.com",
+"tracked": false
+},
+"red river west": {
+"name": "Red River West",
+"domain": "redriverwest.com",
+"tracked": false
+},
+"tesi": {
+"name": "Tesi",
+"domain": "tesi.fi",
+"tracked": false
+},
+"british business investments": {
+"name": "British Business Investments",
+"domain": "british-business-bank.co.uk",
+"tracked": false
+},
+"oxx": {
+"name": "Oxx",
+"domain": "oxx.vc",
+"tracked": false
+},
+"emblem": {
+"name": "Emblem",
+"domain": "emblem.vc",
+"tracked": false
+},
+"raven partners llp": {
+"name": "Raven Partners LLP",
+"domain": "ravenpartners.com",
+"tracked": false
+},
+"lazard": {
+"name": "Lazard",
+"domain": "lazard.com",
+"tracked": false
+},
+"inreach ventures": {
+"name": "InReach Ventures",
+"domain": "inreachventures.com",
+"tracked": false
+},
+"hpe growth": {
+"name": "HPE Growth",
+"domain": "hpegrowth.com",
+"tracked": false
+},
+"iqt": {
+"name": "IQT",
+"domain": "iqt.org",
+"tracked": false
+},
+"macquarie group": {
+"name": "Macquarie Group",
+"domain": "macquarie.com",
+"tracked": false
+},
+"national security strategic investment fund (nssif)": {
+"name": "National Security Strategic Investment Fund (NSSIF)",
+"domain": "nssif.gov.uk",
+"tracked": false
+},
+"kkr": {
+"name": "KKR",
+"domain": "kkr.com",
+"tracked": false
+},
+"energize capital": {
+"name": "Energize Capital",
+"domain": "energizecap.com",
+"tracked": false
+},
+"bosch": {
+"name": "Bosch",
+"domain": "de.bosch.com",
+"tracked": false
+},
+"tempocap": {
+"name": "TempoCap",
+"domain": "tempocap.com",
+"tracked": false
+},
+"83north": {
+"name": "83NORTH",
+"domain": "83north.com",
+"tracked": false
+},
+"european investment fund (eif)": {
+"name": "European Investment Fund (EIF)",
+"domain": "eif.org",
+"tracked": false
+},
+"ing": {
+"name": "ING",
+"domain": "ing.com",
+"tracked": false
+},
+"atomico": {
+"name": "Atomico",
+"domain": "atomico.com",
+"tracked": false
+},
+"balderton": {
+"name": "Balderton",
+"domain": "balderton.com",
+"tracked": false
+},
+"j&t ventures": {
+"name": "J&T Ventures",
+"domain": "jtventures.cz",
+"tracked": false
+},
+"ontario teachers pension plan": {
+"name": "Ontario Teachers Pension Plan",
+"domain": "otpp.com",
+"tracked": false
+},
+"redrice ventures": {
+"name": "Redrice Ventures",
+"domain": "redriceventures.com",
+"tracked": false
+},
+"etf partners": {
+"name": "ETF Partners",
+"domain": "etfpartners.capital",
+"tracked": false
+},
+"five seasons ventures": {
+"name": "Five Seasons Ventures",
+"domain": "fiveseasons.vc",
+"tracked": false
+},
+"google": {
+"name": "Google",
+"domain": "google.com",
+"tracked": false
+},
+"iconiq": {
+"name": "ICONIQ",
+"domain": "iconiqcapital.com",
+"tracked": false
+},
+"lunar ventures": {
+"name": "Lunar Ventures",
+"domain": "lunar.vc",
+"tracked": false
+},
+"nvidia": {
+"name": "NVIDIA",
+"domain": "nvidia.com",
+"tracked": false
+},
+"quantumlight": {
+"name": "QuantumLight",
+"domain": "quantumlightcapital.com",
+"tracked": false
+},
+"yttrium": {
+"name": "Yttrium",
+"domain": "yttrium.com",
+"tracked": false
+},
+"expedition growth capital": {
+"name": "Expedition Growth Capital",
+"domain": "expedition.capital",
+"tracked": false
+},
+"plug and play": {
+"name": "Plug and Play",
+"domain": "pnptc.com",
+"tracked": false
+},
+"infravia capital partners": {
+"name": "InfraVia Capital Partners",
+"domain": "infraviacapital.com",
+"tracked": false
+},
+"silversmith capital partners": {
+"name": "Silversmith Capital Partners",
+"domain": "silversmith.com",
+"tracked": false
+},
+"noteus partners": {
+"name": "Noteus Partners",
+"domain": "noteus.com",
+"tracked": false
+},
+"westcap": {
+"name": "WestCap",
+"domain": "westcap.com",
+"tracked": false
+},
+"brighton park capital": {
+"name": "Brighton Park Capital",
+"domain": "bpc.com",
+"tracked": false
+},
+"investec": {
+"name": "Investec",
+"domain": "investec.com",
+"tracked": false
+},
+"softbank group corp.": {
+"name": "SoftBank Group Corp.",
+"domain": "softbank.com",
+"tracked": false
+},
+"ardian": {
+"name": "Ardian",
+"domain": "ardian.com",
+"tracked": false
+},
+"triple point": {
+"name": "Triple Point",
+"domain": "triplepoint.vc",
+"tracked": false
+},
+"cipio partners": {
+"name": "Cipio Partners",
+"domain": "cipiopartners.com",
+"tracked": false
+},
+"lakestar": {
+"name": "Lakestar",
+"domain": "lakestar.com",
+"tracked": false
+},
+"motive partners": {
+"name": "Motive Partners",
+"domain": "motivepartners.com",
+"tracked": false
+},
+"cardumen capital": {
+"name": "Cardumen Capital",
+"domain": "cardumencapital.com",
+"tracked": false
+},
+"blackfinch group": {
+"name": "Blackfinch Group",
+"domain": "blackfinch.com",
+"tracked": false
+},
+"cambridge innovation capital": {
+"name": "Cambridge Innovation Capital",
+"domain": "cic.vc",
+"tracked": false
+},
+"evantic": {
+"name": "Evantic",
+"domain": "evantic.ai",
+"tracked": false
+},
+"expeditions": {
+"name": "Expeditions",
+"domain": "expeditionsfund.com",
+"tracked": false
+},
+"tiny supercomputer investment company": {
+"name": "Tiny Supercomputer Investment Company",
+"domain": "tiny.vc",
+"tracked": false
+},
+"bek ventures": {
+"name": "Bek Ventures",
+"domain": "bekventures.com",
+"tracked": false
+},
+"cambridge judge business school": {
+"name": "Cambridge Judge Business School",
+"domain": "cam.ac.uk",
+"tracked": false
+},
+"crane venture partners": {
+"name": "Crane Venture Partners",
+"domain": "crane.vc",
+"tracked": false
+},
+"dawn capital": {
+"name": "Dawn Capital",
+"domain": "dawncapital.com",
+"tracked": false
+},
+"common magic": {
+"name": "Common Magic",
+"domain": "commonmagic.xyz",
+"tracked": false
+},
+"hummingbird": {
+"name": "Hummingbird",
+"domain": "hummingbird.vc",
+"tracked": false
+},
+"moonfire": {
+"name": "Moonfire",
+"domain": "moonfire.com",
+"tracked": false
+},
+"nea": {
+"name": "NEA",
+"domain": "nea.com",
+"tracked": false
+},
+"revent": {
+"name": "Revent",
+"domain": "revent.vc",
+"tracked": false
+},
+"the raine": {
+"name": "The Raine",
+"domain": "raine.com",
+"tracked": false
+},
+"microsoft": {
+"name": "Microsoft",
+"domain": "microsoft.com",
+"tracked": false
+},
+"verdane": {
+"name": "Verdane",
+"domain": "verdane.com",
+"tracked": false
+},
+"iris": {
+"name": "IRIS",
+"domain": "iris.vc",
+"tracked": false
+},
+"finch capital": {
+"name": "Finch Capital",
+"domain": "finchcapital.com",
+"tracked": false
+},
+"sixth street": {
+"name": "Sixth Street",
+"domain": "sixthstreet.com",
+"tracked": false
+},
+"endeit capital": {
+"name": "Endeit Capital",
+"domain": "endeit.com",
+"tracked": false
+},
+"translink capital": {
+"name": "Translink Capital",
+"domain": "translinkcapital.com",
+"tracked": false
+},
+"inovo vc": {
+"name": "Inovo VC",
+"domain": "inovo.vc",
+"tracked": false
+},
+"left lane capital": {
+"name": "Left Lane Capital",
+"domain": "leftlanecap.com",
+"tracked": false
+},
+"parkwalk": {
+"name": "Parkwalk",
+"domain": "parkwalkadvisors.com",
+"tracked": false
+},
+"seaya": {
+"name": "Seaya",
+"domain": "seaya.vc",
+"tracked": false
+},
+"sprints": {
+"name": "Sprints",
+"domain": "sprints.com",
+"tracked": false
+},
+"lombard odier group": {
+"name": "Lombard Odier Group",
+"domain": "lombardodier.com",
+"tracked": false
+},
+"oak hc/ft": {
+"name": "Oak HC/FT",
+"domain": "oakhcft.com",
+"tracked": false
+},
+"schroders": {
+"name": "Schroders",
+"domain": "schroders.com",
+"tracked": false
+},
+"eqt group": {
+"name": "EQT Group",
+"domain": "eqtpartners.com",
+"tracked": false
+},
+"octopus ventures": {
+"name": "Octopus Ventures",
+"domain": "octopusventures.com",
+"tracked": false
+},
+"otb ventures": {
+"name": "OTB Ventures",
+"domain": "otb.vc",
+"tracked": false
+},
+"eifo": {
+"name": "EIFO",
+"domain": "eifo.dk",
+"tracked": false
+},
+"seb venture capital": {
+"name": "SEB Venture Capital",
+"domain": "seb.se",
+"tracked": false
+},
+"radius capital ventures": {
+"name": "Radius Capital Ventures",
+"domain": "radius.capital",
+"tracked": false
+},
+"redalpine": {
+"name": "redalpine",
+"domain": "redalpine.com",
+"tracked": false
+},
+"armira": {
+"name": "Armira",
+"domain": "armira.de",
+"tracked": false
+},
+"highland capital partners": {
+"name": "Highland Capital Partners",
+"domain": "hcp.com",
+"tracked": false
+},
+"marlin equity partners": {
+"name": "Marlin Equity Partners",
+"domain": "marlinequity.com",
+"tracked": false
+},
+"searchlight capital partners": {
+"name": "Searchlight Capital Partners",
+"domain": "searchlightcap.com",
+"tracked": false
+},
+"forestay capital": {
+"name": "Forestay Capital",
+"domain": "forestay.vc",
+"tracked": false
+},
+"allianz": {
+"name": "Allianz",
+"domain": "allianz.com",
+"tracked": false
+},
+"morgan stanley": {
+"name": "Morgan Stanley",
+"domain": "morganstanley.com",
+"tracked": false
+},
+"nato innovation fund (nif)": {
+"name": "NATO Innovation Fund (NIF)",
+"domain": "nif.fund",
+"tracked": false
+},
+"chemistry": {
+"name": "Chemistry",
+"domain": "chemistry.vc",
+"tracked": false
+},
+"sav (scale asia ventures)": {
+"name": "SAV (Scale Asia Ventures)",
+"domain": "sav.vc",
+"tracked": false
+},
+"smash capital": {
+"name": "Smash Capital",
+"domain": "smashcap.com",
+"tracked": false
+},
+"greyhound capital": {
+"name": "Greyhound Capital",
+"domain": "greyhoundcapital.com",
+"tracked": false
+},
+"tpg": {
+"name": "TPG",
+"domain": "tpg.com",
+"tracked": false
+},
+"openocean": {
+"name": "OpenOcean",
+"domain": "openocean.vc",
+"tracked": false
+},
+"hg": {
+"name": "Hg",
+"domain": "hgcapital.com",
+"tracked": false
+},
+"contrarian ventures": {
+"name": "Contrarian Ventures",
+"domain": "cventures.vc",
+"tracked": false
+},
+"alanda capital management": {
+"name": "Alanda Capital Management",
+"domain": "alandacapital.com",
+"tracked": false
+},
+"speedinvest": {
+"name": "Speedinvest",
+"domain": "speedinvest.com",
+"tracked": false
+},
+"nesta": {
+"name": "Nesta",
+"domain": "nesta.org.uk",
+"tracked": false
+},
+"kennet partners": {
+"name": "Kennet Partners",
+"domain": "kennet.com",
+"tracked": false
+},
+"educapital": {
+"name": "Educapital",
+"domain": "educapitalvc.com",
+"tracked": false
+},
+"venturefriends": {
+"name": "VentureFriends",
+"domain": "venturefriends.vc",
+"tracked": false
+},
+"capitalg": {
+"name": "CapitalG",
+"domain": "capitalg.com",
+"tracked": false
+},
+"ftv capital": {
+"name": "FTV Capital",
+"domain": "ftvcapital.com",
+"tracked": false
+},
+"lightrock": {
+"name": "Lightrock",
+"domain": "lightrock.com",
+"tracked": false
+},
+"baybg bayerische beteiligungsgesellschaft mbh": {
+"name": "BayBG Bayerische Beteiligungsgesellschaft mbH",
+"domain": "baybg.de",
+"tracked": false
+},
+"fintech collective": {
+"name": "FinTech Collective",
+"domain": "fintech.io",
+"tracked": false
+},
+"susquehanna growth equity (sge)": {
+"name": "Susquehanna Growth Equity (SGE)",
+"domain": "sgep.com",
+"tracked": false
+},
+"liontree": {
+"name": "LionTree",
+"domain": "liontree.com",
+"tracked": false
+},
+"sapphire ventures": {
+"name": "Sapphire Ventures",
+"domain": "sapphireventures.com",
+"tracked": false
+},
+"calculus capital": {
+"name": "Calculus Capital",
+"domain": "calculuscapital.com",
+"tracked": false
+},
+"mishcon de reya llp": {
+"name": "Mishcon de Reya LLP",
+"domain": "mishcon.com",
+"tracked": false
+},
+"business finland": {
+"name": "Business Finland",
+"domain": "businessfinland.fi",
+"tracked": false
+},
+"pledge ventures": {
+"name": "Pledge Ventures",
+"domain": "pledgeventures.vc",
+"tracked": false
+},
+"relationship investments inc": {
+"name": "Relationship Investments Inc",
+"domain": "cppib.com",
+"tracked": false
+},
+"horizon capital": {
+"name": "Horizon Capital",
+"domain": "horizoncapital.com.ua",
+"tracked": false
+},
+"accenture": {
+"name": "Accenture",
+"domain": "accenture.com",
+"tracked": false
+},
+"activate capital": {
+"name": "Activate Capital",
+"domain": "activatecap.com",
+"tracked": false
+},
+"blackstone": {
+"name": "Blackstone",
+"domain": "blackstone.com",
+"tracked": false
+},
+"mercia asset management plc": {
+"name": "Mercia Asset Management PLC",
+"domain": "mercia.co.uk",
+"tracked": false
+},
+"blackrock": {
+"name": "BlackRock",
+"domain": "blackrock.com",
+"tracked": false
+},
+"kfw": {
+"name": "KfW",
+"domain": "kfw.de",
+"tracked": false
+},
+"psgequity.co.uk": {
+"name": "psgequity.co.uk",
+"domain": "psgequity.co.uk",
+"tracked": false
+},
+"generation investment management": {
+"name": "Generation Investment Management",
+"domain": "generationim.com",
+"tracked": false
+},
+"deeptech labs": {
+"name": "Deeptech Labs",
+"domain": "dtl.vc",
+"tracked": false
+},
+"amazon": {
+"name": "Amazon",
+"domain": "amazon.com",
+"tracked": false
+},
+"mercuri": {
+"name": "Mercuri",
+"domain": "mercuri.vc",
+"tracked": false
+},
+"hubert burda media": {
+"name": "Hubert Burda Media",
+"domain": "burda.com",
+"tracked": false
+},
+"apax": {
+"name": "Apax",
+"domain": "apax.com",
+"tracked": false
+},
+"l catterton": {
+"name": "L Catterton",
+"domain": "lcatterton.com",
+"tracked": false
+},
+"satgana": {
+"name": "Satgana",
+"domain": "vilcap.com",
+"tracked": false
+},
+"qed investors": {
+"name": "QED Investors",
+"domain": "qedinvestors.com",
+"tracked": false
+},
+"expansion ventures": {
+"name": "Expansion Ventures",
+"domain": "expansion-vc.eu",
+"tracked": false
+},
+"playground global": {
+"name": "Playground Global",
+"domain": "playground.global",
+"tracked": false
+},
+"conviction": {
+"name": "Conviction",
+"domain": "conviction-vc.com",
+"tracked": false
+},
+"palatine": {
+"name": "Palatine",
+"domain": "palatinepe.com",
+"tracked": false
+},
+"zinal growth": {
+"name": "Zinal Growth",
+"domain": "zinal.com",
+"tracked": false
+},
+"saas consortium": {
+"name": "SaaS Consortium",
+"domain": "israeltrade.gov.il",
+"tracked": false
+},
+"lead edge capital": {
+"name": "Lead Edge Capital",
+"domain": "leadedge.com",
+"tracked": false
+},
+"pumagp.co.uk": {
+"name": "pumagp.co.uk",
+"domain": "pumagp.co.uk",
+"tracked": false
+},
+"7percent ventures": {
+"name": "7percent Ventures",
+"domain": "7pc.vc",
+"tracked": false
+},
+"fuel ventures 🚀": {
+"name": "Fuel Ventures 🚀",
+"domain": "fuel.ventures",
+"tracked": false
+},
+"national wealth fund": {
+"name": "National Wealth Fund",
+"domain": "nationalwealthfund.org.uk",
+"tracked": false
+},
+"harbourvest partners": {
+"name": "HarbourVest Partners",
+"domain": "harbourvest.com",
+"tracked": false
+},
+"truesight ventures": {
+"name": "TrueSight Ventures",
+"domain": "truesight.vc",
+"tracked": false
+},
+"hoxton ventures": {
+"name": "Hoxton Ventures",
+"domain": "hoxtonventures.com",
+"tracked": false
+},
+"susquehanna international group, llp (sig)": {
+"name": "Susquehanna International Group, LLP (SIG)",
+"domain": "softwareimprovementgroup.com",
+"tracked": false
+},
+"vitruvian partners": {
+"name": "Vitruvian Partners",
+"domain": "vitruvianpartners.com",
+"tracked": false
+},
+"pi labs": {
+"name": "Pi Labs",
+"domain": "pilabs.vc",
+"tracked": false
+},
+"wellington management": {
+"name": "Wellington Management",
+"domain": "wellington.com",
+"tracked": false
+},
+"amadeus capital partners": {
+"name": "Amadeus Capital Partners",
+"domain": "amadeuscapital.com",
+"tracked": false
+},
+"eos ventures": {
+"name": "Eos Ventures",
+"domain": "eosvc.com",
+"tracked": false
+},
+"solano partners": {
+"name": "Solano Partners",
+"domain": "solanopartners.com",
+"tracked": false
+},
+"general atlantic": {
+"name": "General Atlantic",
+"domain": "generalatlantic.com",
+"tracked": false
+},
+"white star capital": {
+"name": "White Star Capital",
+"domain": "whitestarcapital.com",
+"tracked": false
+},
+"focus capital partners": {
+"name": "FOCUS Capital Partners",
+"domain": "focuscapital.ie",
+"tracked": false
+},
+"fifth wall": {
+"name": "Fifth Wall",
+"domain": "fifthwall.com",
+"tracked": false
+},
+"addition": {
+"name": "Addition",
+"domain": "addition.com",
+"tracked": false
+},
+"portage": {
+"name": "Portage",
+"domain": "portagevc.com",
+"tracked": false
+},
+"transition ventures": {
+"name": "Transition Ventures",
+"domain": "transition.vc",
+"tracked": false
+},
+"natwest": {
+"name": "NatWest",
+"domain": "natwest.com",
+"tracked": false
+},
+"nfront ventures": {
+"name": "nFront Ventures",
+"domain": "nfrontventures.com",
+"tracked": false
+},
+"energy impact partners": {
+"name": "Energy Impact Partners",
+"domain": "energyimpactpartners.com",
+"tracked": false
+},
+"elevator ventures": {
+"name": "Elevator Ventures",
+"domain": "elevator-ventures.com",
+"tracked": false
+},
+"deeptech & climate fonds (dtcf)": {
+"name": "DeepTech & Climate Fonds (DTCF)",
+"domain": "dtcf.de",
+"tracked": false
+},
+"another.vc": {
+"name": "another.vc",
+"domain": "another.vc",
+"tracked": false
+},
+"fidelity international strategic ventures": {
+"name": "Fidelity International Strategic Ventures",
+"domain": "fisv.com",
+"tracked": false
+},
+"iq capital": {
+"name": "IQ Capital",
+"domain": "iqcapital.vc",
+"tracked": false
+},
+"13books capital": {
+"name": "13books Capital",
+"domain": "13bookscapital.com",
+"tracked": false
+},
+"inven capital": {
+"name": "Inven Capital",
+"domain": "invencapital.cz",
+"tracked": false
+},
+"spectrum equity": {
+"name": "Spectrum Equity",
+"domain": "spectrumequity.com",
+"tracked": false
+},
+"arkwright x": {
+"name": "Arkwright X",
+"domain": "arkwrightx.no",
+"tracked": false
+},
+"etf partners - the environmental technologies fund": {
+"name": "ETF Partners - The Environmental Technologies Fund",
+"domain": "etfpartners.capital",
+"tracked": false
+},
+"psg": {
+"name": "PSG",
+"domain": "psgequity.com",
+"tracked": false
+},
+"axeleo": {
+"name": "Axeleo",
+"domain": "axc.vc",
+"tracked": false
+},
+"fifth quarter ventures": {
+"name": "Fifth Quarter Ventures",
+"domain": "fifthquarter.vc",
+"tracked": false
+},
+"astanor": {
+"name": "Astanor",
+"domain": "astanor.com",
+"tracked": false
+},
+"bain capital": {
+"name": "Bain Capital",
+"domain": "baincapital.com",
+"tracked": false
+},
+"fintop": {
+"name": "FINTOP",
+"domain": "fintopcapital.com",
+"tracked": false
+},
+"sofina": {
+"name": "Sofina",
+"domain": "sofinagroup.com",
+"tracked": false
+},
+"valo ventures": {
+"name": "Valo Ventures",
+"domain": "valoventures.org",
+"tracked": false
+},
+"inovia capital": {
+"name": "Inovia Capital",
+"domain": "inovia.vc",
+"tracked": false
+},
+"vendep capital": {
+"name": "Vendep Capital",
+"domain": "vendep.com",
+"tracked": false
+},
+"hiro capital": {
+"name": "Hiro Capital",
+"domain": "hiro.capital",
+"tracked": false
+},
+"kinnevik": {
+"name": "Kinnevik",
+"domain": "kinnevik.com",
+"tracked": false
+},
+"curiosity vc": {
+"name": "Curiosity VC",
+"domain": "curiosityvc.com",
+"tracked": false
+},
+"summit partners": {
+"name": "Summit Partners",
+"domain": "summitpartners.com",
+"tracked": false
+},
+"stripe": {
+"name": "Stripe",
+"domain": "alphasights.com",
+"tracked": false
+},
+"blume equity": {
+"name": "Blume Equity",
+"domain": "blumeequity.com",
+"tracked": false
+},
+"avp": {
+"name": "AVP",
+"domain": "avpcap.com",
+"tracked": false
+},
+"heal capital": {
+"name": "Heal Capital",
+"domain": "healcapital.com",
+"tracked": false
+},
+"visionaries": {
+"name": "Visionaries",
+"domain": "visionariesclub.vc",
+"tracked": false
+},
+"gradient": {
+"name": "Gradient",
+"domain": "gradient.com",
+"tracked": false
+},
+"orbit capital": {
+"name": "Orbit Capital",
+"domain": "orbitcapital.com",
+"tracked": false
+},
+"giant ventures": {
+"name": "Giant Ventures",
+"domain": "giant.vc",
+"tracked": false
+},
+"felix capital": {
+"name": "Felix Capital",
+"domain": "felixcap.com",
+"tracked": false
+},
+"heartcore capital": {
+"name": "Heartcore Capital",
+"domain": "heartcore.com",
+"tracked": false
+},
+"oprtrs club": {
+"name": "OPRTRS CLUB",
+"domain": "oprtrs.club",
+"tracked": false
+},
+"m&g": {
+"name": "M&G",
+"domain": "mandg.com",
+"tracked": false
+},
+"revaia": {
+"name": "Revaia",
+"domain": "gaiacap.co",
+"tracked": false
+},
+"hitachi ventures": {
+"name": "Hitachi Ventures",
+"domain": "hitachi-ventures.com",
+"tracked": false
+},
+"seedcamp": {
+"name": "Seedcamp",
+"domain": "seedcamp.com",
+"tracked": false
+},
+"episode 1": {
+"name": "EPISODE 1",
+"domain": "episode1.com",
+"tracked": false
+},
+"greenfield partners": {
+"name": "Greenfield Partners",
+"domain": "greenfield-growth.com",
+"tracked": false
+},
+"creator collective capital (c3 vc)": {
+"name": "Creator Collective Capital (C3 VC)",
+"domain": "creator.ventures",
+"tracked": false
+},
+"shorooq": {
+"name": "Shorooq",
+"domain": "shorooq.com",
+"tracked": false
+},
+"mcwin.partners": {
+"name": "mcwin.partners",
+"domain": "mcwin.fund",
+"tracked": false
+},
+"princeville capital": {
+"name": "Princeville Capital",
+"domain": "princeville-capital.com",
+"tracked": false
+},
+"battery ventures": {
+"name": "Battery Ventures",
+"domain": "battery.com",
+"tracked": false
+},
+"nauta": {
+"name": "Nauta",
+"domain": "nautacapital.com",
+"tracked": false
+},
+"iron nation fund": {
+"name": "Iron Nation Fund",
+"domain": "ironnation.org",
+"tracked": false
+},
+"ten eleven ventures": {
+"name": "Ten Eleven Ventures",
+"domain": "1011vc.com",
+"tracked": false
+},
+"databricks": {
+"name": "Databricks",
+"domain": "databricks.com",
+"tracked": false
+},
+"zürcher kantonalbank": {
+"name": "Zürcher Kantonalbank",
+"domain": "zkb.ch",
+"tracked": false
+},
+"spore.bio": {
+"name": "Spore.Bio",
+"domain": "spore.bio",
+"tracked": false
+},
+"3vc": {
+"name": "3VC",
+"domain": "three.vc",
+"tracked": false
+},
+"tcv": {
+"name": "TCV",
+"domain": "tcv.com",
+"tracked": false
+},
+"cyberstarts": {
+"name": "Cyberstarts",
+"domain": "cyberstarts.com",
+"tracked": false
+},
+"entrepreneur first": {
+"name": "Entrepreneur First",
+"domain": "joinef.com",
+"tracked": false
+},
+"secret chord ventures": {
+"name": "Secret Chord Ventures",
+"domain": "secretchord.vc",
+"tracked": false
+},
+"axon partners group": {
+"name": "Axon Partners Group",
+"domain": "axonpartnersgroup.com",
+"tracked": false
+},
+"paypal": {
+"name": "PayPal",
+"domain": "paypal.com",
+"tracked": false
+},
+"yara latinoamérica": {
+"name": "Yara Latinoamérica",
+"domain": "yara.com",
+"tracked": false
+},
+"dnbcarnegie.no": {
+"name": "dnbcarnegie.no",
+"domain": "dnbcarnegie.no",
+"tracked": false
+},
+"hv": {
+"name": "HV",
+"domain": "hvcapital.com",
+"tracked": false
+},
+"one peak": {
+"name": "One Peak",
+"domain": "onepeak.tech",
+"tracked": false
+},
+"hakiracapital.com": {
+"name": "hakiracapital.com",
+"domain": "hakiracapital.com",
+"tracked": false
+},
+"dtcp": {
+"name": "DTCP",
+"domain": "dtcp.capital",
+"tracked": false
+},
+"smedvig ventures": {
+"name": "Smedvig Ventures",
+"domain": "smedvig.vc",
+"tracked": false
+},
+"israel growth partners": {
+"name": "Israel Growth Partners",
+"domain": "igpcapital.com",
+"tracked": false
+},
+"kivuko capital": {
+"name": "Kivuko Capital",
+"domain": "kivukocap.com",
+"tracked": false
+},
+"madrona": {
+"name": "Madrona",
+"domain": "madrona.com",
+"tracked": false
+},
+"pictet group": {
+"name": "Pictet Group",
+"domain": "paa.pictet",
+"tracked": false
+},
+"presto ventures": {
+"name": "Presto Ventures",
+"domain": "prestoventures.com",
+"tracked": false
+},
+"episode 1 ventures": {
+"name": "Episode 1 Ventures",
+"domain": "episode1.com",
+"tracked": false
+},
+"kompas vc": {
+"name": "KOMPAS VC",
+"domain": "kompas.vc",
+"tracked": false
+},
+"pesca equity partners gmbh": {
+"name": "Pesca Equity Partners GmbH",
+"domain": "pesca-equitypartners.com",
+"tracked": false
+},
+"teampact.ventures": {
+"name": "Teampact.ventures",
+"domain": "teampact.ventures",
+"tracked": false
+},
+"mandatum asset management": {
+"name": "Mandatum Asset Management",
+"domain": "mandatumam.com",
+"tracked": false
+},
+"revo capital": {
+"name": "Revo Capital",
+"domain": "revo.vc",
+"tracked": false
+},
+"yaday": {
+"name": "YADAY",
+"domain": "yaday.vc",
+"tracked": false
+},
+"concept ventures": {
+"name": "Concept Ventures",
+"domain": "conceptventures.vc",
+"tracked": false
+},
+"vela partners": {
+"name": "Vela Partners",
+"domain": "vela.partners",
+"tracked": false
+},
+"albion ventures": {
+"name": "Albion Ventures",
+"domain": "albion.vc",
+"tracked": false
+},
+"european circular bioeconomy fund": {
+"name": "European Circular Bioeconomy Fund",
+"domain": "ecbf.vc",
+"tracked": false
+},
+"founderpath": {
+"name": "Founderpath",
+"domain": "founderpath.com",
+"tracked": false
+},
+"lea partners": {
+"name": "LEA Partners",
+"domain": "leapartners.de",
+"tracked": false
+},
+"localglobe": {
+"name": "LocalGlobe",
+"domain": "localglobe.vc",
+"tracked": false
+},
+"plural": {
+"name": "Plural",
+"domain": "pluralplatform.com",
+"tracked": false
+},
+"rtp global": {
+"name": "RTP Global",
+"domain": "rtp.vc",
+"tracked": false
+},
+"sap": {
+"name": "SAP",
+"domain": "sap.com",
+"tracked": false
+},
+"mustard seed": {
+"name": "Mustard Seed",
+"domain": "mustardseed.vc",
+"tracked": false
+},
+"kibo ventures": {
+"name": "Kibo Ventures",
+"domain": "kiboventures.com",
+"tracked": false
+},
+"move capital fund i": {
+"name": "Move Capital Fund I",
+"domain": "move-capital.com",
+"tracked": false
+},
+"aldridge capital partners": {
+"name": "Aldridge Capital Partners",
+"domain": "aldridgecapital.com",
+"tracked": false
+},
+"bridgepoint group": {
+"name": "Bridgepoint Group",
+"domain": "bridgepoint.eu",
+"tracked": false
+},
+"begin capital": {
+"name": "Begin Capital",
+"domain": "begincl.com",
+"tracked": false
+},
+"otf": {
+"name": "OTF",
+"domain": "otf.vc",
+"tracked": false
+},
+"shilling capital partners": {
+"name": "Shilling Capital Partners",
+"domain": "shilling.vc",
+"tracked": false
+},
+"apis partners": {
+"name": "Apis Partners",
+"domain": "apis.pe",
+"tracked": false
+},
+"acurio ventures": {
+"name": "Acurio Ventures",
+"domain": "acurio.vc",
+"tracked": false
+},
+"lts investments": {
+"name": "LTS Investments",
+"domain": "lts-investments.com",
+"tracked": false
+},
+"etco.vc": {
+"name": "etco.vc",
+"domain": "etco.vc",
+"tracked": false
+},
+"centerview partners": {
+"name": "Centerview Partners",
+"domain": "centerview.com",
+"tracked": false
+},
+"playfair": {
+"name": "Playfair",
+"domain": "playfair.vc",
+"tracked": false
+},
+"cathay capital": {
+"name": "Cathay Capital",
+"domain": "cathay.fr",
+"tracked": false
+},
+"luxinnovation gie": {
+"name": "Luxinnovation GIE",
+"domain": "luxinnovation.lu",
+"tracked": false
+},
+"cusp capital": {
+"name": "Cusp Capital",
+"domain": "cuspcapital.com",
+"tracked": false
+},
+"concentric": {
+"name": "Concentric",
+"domain": "concentric.vc",
+"tracked": false
+},
+"eniac ventures": {
+"name": "Eniac Ventures",
+"domain": "eniac.vc",
+"tracked": false
+},
+"chausson partners": {
+"name": "Chausson Partners",
+"domain": "chaussonfinance.com",
+"tracked": false
+},
+"zobito ab": {
+"name": "Zobito AB",
+"domain": "zobito.com",
+"tracked": false
+},
+"system.one": {
+"name": "System.One",
+"domain": "systemone.vc",
+"tracked": false
+},
+"42cap": {
+"name": "42CAP",
+"domain": "42cap.com",
+"tracked": false
+},
+"the nordic web ventures": {
+"name": "The Nordic Web Ventures",
+"domain": "thenordicweb.com",
+"tracked": false
+},
+"armilar": {
+"name": "Armilar",
+"domain": "armilar.com",
+"tracked": false
+},
+"amity ventures": {
+"name": "Amity Ventures",
+"domain": "amity.vc",
+"tracked": false
+},
+"adara ventures": {
+"name": "Adara Ventures",
+"domain": "adara.vc",
+"tracked": false
+},
+"645 ventures": {
+"name": "645 Ventures",
+"domain": "645ventures.com",
+"tracked": false
+},
+"4impact capital": {
+"name": "4impact capital",
+"domain": "4impact.vc",
+"tracked": false
+},
+"connect ventures": {
+"name": "Connect Ventures",
+"domain": "connectventures.co",
+"tracked": false
+},
+"illuminate financial": {
+"name": "Illuminate Financial",
+"domain": "illuminatefinancial.com",
+"tracked": false
+},
+"puzzle ventures": {
+"name": "Puzzle Ventures",
+"domain": "puzzle-ventures.com",
+"tracked": false
+},
+"target global": {
+"name": "Target Global",
+"domain": "targetglobal.vc",
+"tracked": false
+},
+"kindred capital": {
+"name": "Kindred Capital",
+"domain": "kindredcapital.vc",
+"tracked": false
+},
+"calm storm": {
+"name": "Calm Storm",
+"domain": "calmstorm.vc",
+"tracked": false
+},
+"radical ventures": {
+"name": "Radical Ventures",
+"domain": "radical.vc",
+"tracked": false
+},
+"alpine space ventures": {
+"name": "Alpine Space Ventures",
+"domain": "alpinespace.vc",
+"tracked": false
+},
+"flexstone partners": {
+"name": "Flexstone Partners",
+"domain": "flexstonepartners.com",
+"tracked": false
+},
+"imaginary": {
+"name": "Imaginary",
+"domain": "imaginary.co",
+"tracked": false
+},
+"deutsche bank": {
+"name": "Deutsche Bank",
+"domain": "db.com",
+"tracked": false
+},
+"samos investments": {
+"name": "Samos Investments",
+"domain": "samos.vc",
+"tracked": false
+},
+"stepstone": {
+"name": "StepStone",
+"domain": "stepstonegroup.com",
+"tracked": false
+},
+"frontline ventures": {
+"name": "Frontline Ventures",
+"domain": "frontline.vc",
+"tracked": false
+},
+"korys": {
+"name": "Korys",
+"domain": "korys.be",
+"tracked": false
+},
+"mangrove capital partners": {
+"name": "Mangrove Capital Partners",
+"domain": "mangrove.vc",
+"tracked": false
+},
+"20vc": {
+"name": "20VC",
+"domain": "thetwentyminutevc.com",
+"tracked": false
+},
+"anthemis": {
+"name": "Anthemis",
+"domain": "anthemis.com",
+"tracked": false
+},
+"chalfen ventures": {
+"name": "Chalfen Ventures",
+"domain": "chalfenventures.com",
+"tracked": false
+},
+"crédit agricole cib": {
+"name": "Crédit Agricole CIB",
+"domain": "ca-cib.com",
+"tracked": false
+},
+"camber partners": {
+"name": "Camber Partners",
+"domain": "camber.io",
+"tracked": false
+},
+"ledger": {
+"name": "Ledger",
+"domain": "ledger.com",
+"tracked": false
+},
+"cdp venture capital": {
+"name": "CDP Venture Capital",
+"domain": "cdpventurecapital.it",
+"tracked": false
+},
+"gresham house": {
+"name": "Gresham House",
+"domain": "greshamhouse.com",
+"tracked": false
+},
+"deel": {
+"name": "Deel",
+"domain": "deel.com",
+"tracked": false
+},
+"mastercard": {
+"name": "Mastercard",
+"domain": "mastercard.com",
+"tracked": false
+},
+"atlassian": {
+"name": "Atlassian",
+"domain": "atlassian.com",
+"tracked": false
+},
+"zf group": {
+"name": "ZF Group",
+"domain": "zf.com",
+"tracked": false
+},
+"techstars": {
+"name": "Techstars",
+"domain": "techstars.com",
+"tracked": false
+},
+"vireo ventures": {
+"name": "Vireo Ventures",
+"domain": "vireo.vc",
+"tracked": false
+},
+"resurgens technology partners": {
+"name": "Resurgens Technology Partners",
+"domain": "resurgenstech.com",
+"tracked": false
+},
+"celonis": {
+"name": "Celonis",
+"domain": "celonis.com",
+"tracked": false
+},
+"drysdale ventures": {
+"name": "Drysdale Ventures",
+"domain": "drysdale.vc",
+"tracked": false
+},
+"south park commons": {
+"name": "South Park Commons",
+"domain": "southparkcommons.com",
+"tracked": false
+},
+"kaya": {
+"name": "KAYA",
+"domain": "kaya.vc",
+"tracked": false
+},
+"dn capital": {
+"name": "DN Capital",
+"domain": "dncapital.com",
+"tracked": false
+},
+"claret capital partners": {
+"name": "Claret Capital Partners",
+"domain": "claret-capital.com",
+"tracked": false
+},
+"beringea": {
+"name": "Beringea",
+"domain": "beringea.co.uk",
+"tracked": false
+},
+"swisscom services ag": {
+"name": "Swisscom Services AG",
+"domain": "swisscom.com",
+"tracked": false
+},
+"flyer one ventures": {
+"name": "Flyer One Ventures",
+"domain": "flyerone.vc",
+"tracked": false
+},
+"ace ventures": {
+"name": "ACE Ventures",
+"domain": "aceventures.vc",
+"tracked": false
+},
+"notion capital": {
+"name": "Notion Capital",
+"domain": "notioncapital.com",
+"tracked": false
+},
+"hedosophia": {
+"name": "Hedosophia",
+"domain": "hedosophia.com",
+"tracked": false
+},
+"mouro capital": {
+"name": "Mouro Capital",
+"domain": "mourocapital.com",
+"tracked": false
+},
+"maven capital partners": {
+"name": "Maven Capital Partners",
+"domain": "mavencp.com",
+"tracked": false
+},
+"apollo global management, inc.": {
+"name": "Apollo Global Management, Inc.",
+"domain": "apollo.com",
+"tracked": false
+},
+"norrsken vc": {
+"name": "Norrsken VC",
+"domain": "norrsken.vc",
+"tracked": false
+},
+"eka ventures": {
+"name": "Eka Ventures",
+"domain": "ekavc.com",
+"tracked": false
+},
+"mmc ventures": {
+"name": "MMC Ventures",
+"domain": "mmc.vc",
+"tracked": false
+},
+"visionaries tomorrow": {
+"name": "Visionaries Tomorrow",
+"domain": "tomorrow.vc",
+"tracked": false
+},
+"ip group plc": {
+"name": "IP Group plc",
+"domain": "ipgroupplc.com",
+"tracked": false
+},
+"blackwood": {
+"name": "BlackWood",
+"domain": "blackwood.vc",
+"tracked": false
+},
+"lvp": {
+"name": "Lvp",
+"domain": "londonvp.com",
+"tracked": false
+},
+"credo ventures": {
+"name": "Credo Ventures",
+"domain": "credoventures.com",
+"tracked": false
+},
+"xtx markets": {
+"name": "XTX Markets",
+"domain": "xtxmarkets.com",
+"tracked": false
+},
+"giesecke+devrient": {
+"name": "Giesecke+Devrient",
+"domain": "gi-de.com",
+"tracked": false
+},
+"valar ventures": {
+"name": "Valar Ventures",
+"domain": "valar.com",
+"tracked": false
+},
+"brightcap ventures": {
+"name": "BrightCap Ventures",
+"domain": "brightcap.vc",
+"tracked": false
+},
+"european commission": {
+"name": "European Commission",
+"domain": "ec.europa.eu",
+"tracked": false
+},
+"etfs capital": {
+"name": "ETFS Capital",
+"domain": "etfscapital.com",
+"tracked": false
+},
+"pathlight ventures": {
+"name": "Pathlight Ventures",
+"domain": "pathlight.vc",
+"tracked": false
+},
+"silicon valley bank": {
+"name": "Silicon Valley Bank",
+"domain": "svb.com",
+"tracked": false
+},
+"team8": {
+"name": "Team8",
+"domain": "team8.vc",
+"tracked": false
+},
+"angular ventures": {
+"name": "Angular Ventures",
+"domain": "angularventures.com",
+"tracked": false
+},
+"datadog": {
+"name": "Datadog",
+"domain": "datadoghq.com",
+"tracked": false
+},
+"k fund": {
+"name": "K Fund",
+"domain": "kfund.vc",
+"tracked": false
+},
+"united ventures": {
+"name": "United Ventures",
+"domain": "unitedventures.com",
+"tracked": false
+},
+"newion": {
+"name": "Newion",
+"domain": "newion.com",
+"tracked": false
+},
+"enterprise ireland": {
+"name": "Enterprise Ireland",
+"domain": "enterprise-ireland.com",
+"tracked": false
+},
+"futury capital": {
+"name": "Futury Capital",
+"domain": "futurycapital.vc",
+"tracked": false
+},
+"peak": {
+"name": "Peak",
+"domain": "peak.capital",
+"tracked": false
+},
+"btov partners": {
+"name": "BTOV Partners",
+"domain": "b2venture.vc",
+"tracked": false
+},
+"future energy ventures": {
+"name": "Future Energy Ventures",
+"domain": "fev.vc",
+"tracked": false
+},
+"vorwerk ventures": {
+"name": "Vorwerk Ventures",
+"domain": "vorwerkventures.com",
+"tracked": false
+},
+"act venture capital": {
+"name": "Act Venture Capital",
+"domain": "actvc.ie",
+"tracked": false
+},
+"sentinel global": {
+"name": "Sentinel Global",
+"domain": "sentinelglobal.xyz",
+"tracked": false
+},
+"outward vc": {
+"name": "Outward VC",
+"domain": "outwardvc.com",
+"tracked": false
+},
+"niva": {
+"name": "Niva",
+"domain": "niva.vc",
+"tracked": false
+},
+"idékapital": {
+"name": "Idékapital",
+"domain": "idekapital.com",
+"tracked": false
+},
+"firstpick": {
+"name": "FIRSTPICK",
+"domain": "firstpick.vc",
+"tracked": false
+},
+"amundi alpha associates": {
+"name": "Amundi Alpha Associates",
+"domain": "alpha-associates.ch",
+"tracked": false
+},
+"rerail": {
+"name": "Rerail",
+"domain": "rerail.vc",
+"tracked": false
+},
+"c capital": {
+"name": "C Capital",
+"domain": "c.capital",
+"tracked": false
+},
+"htgf | high-tech gründerfonds": {
+"name": "HTGF | High-Tech Gründerfonds",
+"domain": "htgf.de",
+"tracked": false
+},
+"first momentum ventures": {
+"name": "First Momentum Ventures",
+"domain": "firstmomentum.vc",
+"tracked": false
+},
+"founderment": {
+"name": "Founderment",
+"domain": "founderment.dk",
+"tracked": false
+},
+"yzr capital": {
+"name": "YZR Capital",
+"domain": "yzr-capital.com",
+"tracked": false
+},
+"nextalia": {
+"name": "Nextalia",
+"domain": "nextaliasgr.com",
+"tracked": false
+},
+"fortino capital": {
+"name": "Fortino Capital",
+"domain": "fortino.vc",
+"tracked": false
+},
+"unruly capital": {
+"name": "Unruly Capital",
+"domain": "unrulycap.com",
+"tracked": false
+},
+"smartfin": {
+"name": "Smartfin",
+"domain": "smartfinvc.com",
+"tracked": false
+},
+"volition capital": {
+"name": "Volition Capital",
+"domain": "volitioncapital.com",
+"tracked": false
+},
+"yfm equity partners": {
+"name": "YFM Equity Partners",
+"domain": "yfmep.com",
+"tracked": false
+},
+"peakspan capital": {
+"name": "PeakSpan Capital",
+"domain": "peakspancapital.com",
+"tracked": false
+},
+"birchway": {
+"name": "Birchway",
+"domain": "birchwaycapital.com",
+"tracked": false
+},
+"firstminute capital": {
+"name": "firstminute capital",
+"domain": "firstminute.capital",
+"tracked": false
+},
+"galdana ventures": {
+"name": "Galdana Ventures",
+"domain": "galdanaventures.com",
+"tracked": false
+},
+"s2s ventures": {
+"name": "S2S Ventures",
+"domain": "s2s.vc",
+"tracked": false
+},
+"blossom capital": {
+"name": "Blossom Capital",
+"domain": "blossomcap.com",
+"tracked": false
+},
+"thoma bravo": {
+"name": "Thoma Bravo",
+"domain": "thomabravo.com",
+"tracked": false
+},
+"henq": {
+"name": "henQ",
+"domain": "henq.nl",
+"tracked": false
+},
+"senovo": {
+"name": "Senovo",
+"domain": "senovo.vc",
+"tracked": false
+},
+"permira": {
+"name": "Permira",
+"domain": "permira.com",
+"tracked": false
+},
+"gohub ventures": {
+"name": "GoHub Ventures",
+"domain": "gohub.vc",
+"tracked": false
+},
+"runwayvc": {
+"name": "RunwayVC",
+"domain": "runway.vc",
+"tracked": false
+},
+"firedrop": {
+"name": "firedrop",
+"domain": "firedrop.vc",
+"tracked": false
+},
+"triplepoint capital": {
+"name": "TriplePoint Capital",
+"domain": "triplepointcapital.com",
+"tracked": false
+},
+"salesforce ventures": {
+"name": "Salesforce Ventures",
+"domain": "salesforceventures.com",
+"tracked": false
+},
+"shilling vc": {
+"name": "Shilling VC",
+"domain": "shilling.vc",
+"tracked": false
+},
+"portugal ventures": {
+"name": "Portugal Ventures",
+"domain": "portugalventures.pt",
+"tracked": false
+},
+"dynamo ventures": {
+"name": "Dynamo Ventures",
+"domain": "dynamo.vc",
+"tracked": false
+},
+"cambridge enterprise": {
+"name": "Cambridge Enterprise",
+"domain": "enterprise.cam.ac.uk",
+"tracked": false
+},
+"european investment bank (eib)": {
+"name": "European Investment Bank (EIB)",
+"domain": "eib.org",
+"tracked": false
+},
+"ttp plc": {
+"name": "TTP plc",
+"domain": "ttp.com",
+"tracked": false
+},
+"pitango": {
+"name": "Pitango",
+"domain": "pitango.com",
+"tracked": false
+},
+"martlet": {
+"name": "Martlet",
+"domain": "martletcap.com",
+"tracked": false
+},
+"bgf": {
+"name": "BGF",
+"domain": "bgf.co.uk",
+"tracked": false
+},
+"nybc ventures": {
+"name": "NYBC Ventures",
+"domain": "nybcventures.com",
+"tracked": false
+},
+"lighthouse ventures": {
+"name": "Lighthouse Ventures",
+"domain": "lhv.vc",
+"tracked": false
+},
+"cibc innovation banking": {
+"name": "CIBC Innovation Banking",
+"domain": "cibc.com",
+"tracked": false
+},
+"active partners": {
+"name": "Active Partners",
+"domain": "active.partners",
+"tracked": false
+},
+"jamjar investments": {
+"name": "JamJar Investments",
+"domain": "jamjarinvestments.com",
+"tracked": false
+},
+"edge": {
+"name": "Edge",
+"domain": "alphasights.com",
+"tracked": false
+},
+"true.": {
+"name": "True.",
+"domain": "true.global",
+"tracked": false
+},
+"pembroke vct": {
+"name": "Pembroke VCT",
+"domain": "pembrokevct.com",
+"tracked": false
+},
+"blue wire capital": {
+"name": "Blue Wire Capital",
+"domain": "bluewirecapital.com",
+"tracked": false
+},
+"systemiq capital": {
+"name": "Systemiq Capital",
+"domain": "systemiqcapital.earth",
+"tracked": false
+},
+"firstmark": {
+"name": "FirstMark",
+"domain": "firstmark.com",
+"tracked": false
+},
+"bp": {
+"name": "bp",
+"domain": "bp.com",
+"tracked": false
+},
+"pxn group": {
+"name": "PXN Group",
+"domain": "pxngroup.co.uk",
+"tracked": false
+},
+"autodesk": {
+"name": "Autodesk",
+"domain": "alphasights.com",
+"tracked": false
+},
+"mosaic ventures": {
+"name": "Mosaic Ventures",
+"domain": "mosaicventures.com",
+"tracked": false
+},
+"backed vc": {
+"name": "BACKED VC",
+"domain": "backed.vc",
+"tracked": false
+},
+"perpetual": {
+"name": "Perpetual",
+"domain": "prptl.com",
+"tracked": false
+},
+"label capital": {
+"name": "Label Capital",
+"domain": "label-capital.com",
+"tracked": false
+},
+"squareone venture capital": {
+"name": "SquareOne Venture Capital",
+"domain": "squareone.vc",
+"tracked": false
+},
+"pentland limited": {
+"name": "PENTLAND LIMITED",
+"domain": "venrex.com",
+"tracked": false
+},
+"market one capital": {
+"name": "Market One Capital",
+"domain": "moc.vc",
+"tracked": false
+},
+"vi partners": {
+"name": "Vi Partners",
+"domain": "vipartners.ch",
+"tracked": false
+},
+"collaborative fund": {
+"name": "Collaborative Fund",
+"domain": "collabfund.com",
+"tracked": false
+},
+"intel": {
+"name": "Intel",
+"domain": "intel.com",
+"tracked": false
+},
+"planet a": {
+"name": "Planet A",
+"domain": "planet-a.com",
+"tracked": false
+},
+"salica investments": {
+"name": "Salica Investments",
+"domain": "salicainvest.com",
+"tracked": false
+},
+"souter investments": {
+"name": "Souter Investments",
+"domain": "souterinvestments.com",
+"tracked": false
+},
+"dmg ventures": {
+"name": "dmg ventures",
+"domain": "dmgventures.co.uk",
+"tracked": false
+},
+"love ventures": {
+"name": "Love Ventures",
+"domain": "loveventures.co.uk",
+"tracked": false
+},
+"angel invest": {
+"name": "Angel Invest",
+"domain": "angelinvest.ventures",
+"tracked": false
+},
+"glilot capital": {
+"name": "Glilot Capital",
+"domain": "glilotcapital.com",
+"tracked": false
+},
+"lightbird": {
+"name": "Lightbird",
+"domain": "lightbird.vc",
+"tracked": false
+},
+"tapestry": {
+"name": "Tapestry",
+"domain": "tapestry.vc",
+"tracked": false
+},
+"eight roads": {
+"name": "Eight Roads",
+"domain": "eightroads.com",
+"tracked": false
+},
+"junction growth investors": {
+"name": "Junction Growth Investors",
+"domain": "junctiongrowthinvestors.com",
+"tracked": false
+},
+"blackbird": {
+"name": "Blackbird",
+"domain": "blackbird.vc",
+"tracked": false
+},
+"marathon venture capital": {
+"name": "Marathon Venture Capital",
+"domain": "marathon.vc",
+"tracked": false
+},
+"adams street partners": {
+"name": "Adams Street Partners",
+"domain": "adamsstreetpartners.com",
+"tracked": false
+},
+"la famiglia": {
+"name": "La Famiglia",
+"domain": "lafamiglia.vc",
+"tracked": false
+},
+"inter invest capital": {
+"name": "Inter Invest Capital",
+"domain": "elevation-cp.com",
+"tracked": false
+},
+"fdj united": {
+"name": "FDJ UNITED",
+"domain": "fdjunited.com",
+"tracked": false
+},
+"bnvt capital": {
+"name": "BNVT Capital",
+"domain": "bnvtcapital.com",
+"tracked": false
+},
+"coatue": {
+"name": "Coatue",
+"domain": "coatue.com",
+"tracked": false
+},
+"forto": {
+"name": "Forto",
+"domain": "forto.com",
+"tracked": false
+},
+"station f": {
+"name": "Station F",
+"domain": "stationf.co",
+"tracked": false
+},
+"199 ventures": {
+"name": "199 Ventures",
+"domain": "199.vc",
+"tracked": false
+},
+"evolution equity partners": {
+"name": "Evolution Equity Partners",
+"domain": "evolutionequity.com",
+"tracked": false
+},
+"orange": {
+"name": "Orange",
+"domain": "orange.com",
+"tracked": false
+},
+"pioneer fund": {
+"name": "Pioneer Fund",
+"domain": "pioneerfund.vc",
+"tracked": false
+},
+"xt group": {
+"name": "XT Group",
+"domain": "xtholdings.com",
+"tracked": false
+},
+"auriga partners": {
+"name": "Auriga Partners",
+"domain": "aurigapartners.com",
+"tracked": false
+},
+"nickleby capital": {
+"name": "Nickleby Capital",
+"domain": "nicklebycapital.com",
+"tracked": false
+},
+"nordicninja vc": {
+"name": "NordicNinja VC",
+"domain": "nordicninja.com",
+"tracked": false
+},
+"upside": {
+"name": "Upside",
+"domain": "upsd.vc",
+"tracked": false
+},
+"atlantic": {
+"name": "Atlantic",
+"domain": "atlantic.vc",
+"tracked": false
+},
+"frenchfounders": {
+"name": "Frenchfounders",
+"domain": "frenchfounders.com",
+"tracked": false
+},
+"coatue management": {
+"name": "Coatue Management",
+"domain": "coatue.com",
+"tracked": false
+},
+"branded hospitality": {
+"name": "Branded Hospitality",
+"domain": "brandedstrategic.com",
+"tracked": false
+},
+"yellow": {
+"name": "Yellow",
+"domain": "yellow.vc",
+"tracked": false
+},
+"agoranov": {
+"name": "Agoranov",
+"domain": "agoranov.com",
+"tracked": false
+},
+"varsity": {
+"name": "Varsity",
+"domain": "varsity.vc",
+"tracked": false
+},
+"entourage ventures": {
+"name": "Entourage Ventures",
+"domain": "entourage.io",
+"tracked": false
+},
+"vista equity partners": {
+"name": "Vista Equity Partners",
+"domain": "vistaequitypartners.com",
+"tracked": false
+},
+"clover": {
+"name": "Clover",
+"domain": "cloverfund.vc",
+"tracked": false
+},
+"supernode global": {
+"name": "Supernode Global",
+"domain": "supernodeglobal.com",
+"tracked": false
+},
+"unbound": {
+"name": "Unbound",
+"domain": "un-bound.com",
+"tracked": false
+},
+"maor investments": {
+"name": "Maor Investments",
+"domain": "maorinvestments.com",
+"tracked": false
+},
+"qumra capital": {
+"name": "Qumra Capital",
+"domain": "qumracapital.com",
+"tracked": false
+},
+"quadrille capital": {
+"name": "Quadrille Capital",
+"domain": "quadrillecapital.com",
+"tracked": false
+},
+"ui investissement": {
+"name": "UI Investissement",
+"domain": "ui-investissement.fr",
+"tracked": false
+},
+"blackfin capital partners": {
+"name": "BlackFin Capital Partners",
+"domain": "blackfin.com",
+"tracked": false
+},
+"canaan": {
+"name": "Canaan",
+"domain": "canaan.com",
+"tracked": false
+},
+"matrix partners": {
+"name": "Matrix Partners",
+"domain": "matrix.vc",
+"tracked": false
+},
+"innovacom": {
+"name": "INNOVACOM",
+"domain": "innovacom.com",
+"tracked": false
+},
+"five elms capital": {
+"name": "Five Elms Capital",
+"domain": "fiveelms.com",
+"tracked": false
+},
+"cogito capital partners": {
+"name": "Cogito Capital Partners",
+"domain": "cogitocap.com",
+"tracked": false
+},
+"galaxy": {
+"name": "Galaxy",
+"domain": "galaxy.com",
+"tracked": false
+},
+"pivot investment partners": {
+"name": "Pivot Investment Partners",
+"domain": "pivotinvestment.com",
+"tracked": false
+},
+"scale capital": {
+"name": "Scale Capital",
+"domain": "scalecapital.com",
+"tracked": false
+},
+"activant capital": {
+"name": "Activant Capital",
+"domain": "activantcapital.com",
+"tracked": false
+},
+"backbone ventures": {
+"name": "BackBone Ventures",
+"domain": "backbone.vc",
+"tracked": false
+},
+"ebrd": {
+"name": "EBRD",
+"domain": "ebrd.com",
+"tracked": false
+},
+"healthcare": {
+"name": "Healthcare",
+"domain": "alphasights.com",
+"tracked": false
+},
+"bonsai partners": {
+"name": "Bonsai Partners",
+"domain": "bonsaipartners.eu",
+"tracked": false
+},
+"alliance": {
+"name": "Alliance",
+"domain": "alphasights.com",
+"tracked": false
+},
+"cdp venture capital sgr": {
+"name": "CDP Venture Capital SGR",
+"domain": "cdpventurecapital.it",
+"tracked": false
+},
+"uipath": {
+"name": "UiPath",
+"domain": "uipath.com",
+"tracked": false
+},
+"osprey investors": {
+"name": "Osprey Investors",
+"domain": "osprey-investors.com",
+"tracked": false
+},
+"msm fund (mustard seed maze)": {
+"name": "MSM fund (Mustard Seed Maze)",
+"domain": "msm.vc",
+"tracked": false
+},
+"golden seeds": {
+"name": "Golden Seeds",
+"domain": "goldenseeds.com",
+"tracked": false
+},
+"ubon partners": {
+"name": "UBON PARTNERS",
+"domain": "ubonpartners.com",
+"tracked": false
+},
+"twin path ventures": {
+"name": "Twin Path Ventures",
+"domain": "twinpath.vc",
+"tracked": false
+},
+"cmt digital": {
+"name": "CMT Digital",
+"domain": "cmt.digital",
+"tracked": false
+},
+"navigate ventures": {
+"name": "Navigate Ventures",
+"domain": "navigatevc.com",
+"tracked": false
+},
+"evantic capital": {
+"name": "Evantic Capital",
+"domain": "evantic.ai",
+"tracked": false
+},
+"seraphim space": {
+"name": "Seraphim Space",
+"domain": "seraphim.vc",
+"tracked": false
+},
+"aquiline": {
+"name": "Aquiline",
+"domain": "aquiline.com",
+"tracked": false
+},
+"mountside ventures": {
+"name": "Mountside Ventures",
+"domain": "mountsideventures.com",
+"tracked": false
+}
+}
