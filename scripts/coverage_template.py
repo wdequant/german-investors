@@ -1591,7 +1591,7 @@ function cmU(e,me){
 }
 function cmEnts(){ return (CM.ents||[]).filter(e=>!e.tray); }
 function cmVisible(me){
-  return cmEnts().filter(e=>{ const u=cmU(e,me); return MAP.all || u.st==='build' || u.st==='maintain'; });
+  return cmEnts().filter(e=>{ const u=cmU(e,me); return MAP.all || u.st==='build' || u.st==='maintain' || u.cu>=40; });
 }
 function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Weak':'Cold'; }
 function cmBestOf(e,who){
@@ -1642,7 +1642,7 @@ function apMap(){
   let main;
   if(MAP.ent) main=cmDetail(me);
   else if(isMapLvl) main=`<div class="cmmapwrap"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':'nordics']).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${cmTray()}</div>`;
-  else main=`<div class="cmcards">${cmCards(me)}</div>`;
+  else main=`<div class="cmcards">${cmCards(me)}</div>${cmPeopleIn(me)}`;
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
       <label class="cmall"><input type="checkbox" id="cmallcb"${MAP.all?' checked':''}> show quiet funds</label>
@@ -1707,6 +1707,17 @@ function cmCards(me){
         <div class="cmfm cmdoor">${door}</div>
       </div></div>`;
   }).join('');
+}
+function cmPeopleIn(me){
+  const by=(CM.peopleIn||{})[MAP.cc];
+  if(!by) return '';
+  const mine=me?(by[me]||[]):[];
+  const teamN=new Set(Object.values(by).flat().map(p=>p.n)).size;
+  if(!mine.length&&!teamN) return '';
+  const rows=mine.map(p=>`<div class="dpli"><b class="mbub ${p.p>=70?'strong':p.p>=40?'medium':'low'}">${p.p}</b><span class="nm">${p.n}</span><span class="how">${p.f||''}${p.c?' · '+p.c:''}</span></div>`).join('');
+  return `<div class="apsec" style="margin-top:16px">People you know in ${CM.ccName[MAP.cc]} — beyond the tracked funds</div>
+    <div class="apcard">${rows||`<div class="dtsub">None on your own book.</div>`}
+    <div class="dtsub" style="margin-top:6px">${teamN} ${CM.ccName[MAP.cc]}-based investors known across the team — sourced from each person's live Harmonic location.</div></div>`;
 }
 function cmDetail(me){
   const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);

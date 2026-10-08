@@ -39,6 +39,12 @@ CITY_LL = {  # map anchor per city; suburbs fold into the metro
     "Helsinki": ("FI", 24.94, 60.17), "Espoo": ("FI", 24.94, 60.17), "Oulu": ("FI", 25.47, 65.01),
     "Reykjavik": ("IS", -21.94, 64.15), "Reykjavík": ("IS", -21.94, 64.15),
 }
+CITY2CC = {"copenhagen": "DK", "aarhus": "DK", "odense": "DK", "aalborg": "DK",
+           "kongens lyngby": "DK", "hellerup": "DK", "frederiksberg": "DK",
+           "stockholm": "SE", "gothenburg": "SE", "malmo": "SE", "malm\u00f6": "SE", "uppsala": "SE", "lund": "SE",
+           "oslo": "NO", "bergen": "NO", "trondheim": "NO",
+           "helsinki": "FI", "espoo": "FI", "tampere": "FI", "oulu": "FI",
+           "reykjavik": "IS", "reykjav\u00edk": "IS"}
 SCORING = {
     "sr_w": {"Partner": 0.95, "Director": 0.75, "Associate": 0.40, None: 0.55},
     "stage_w": {"prelead": 1, "reachout": 1, "awaiting": 2, "lead": 3, "hard": 2, "portfolio": 0},
@@ -220,6 +226,9 @@ def build_covmap(regions, mynet, roster, load_json):
     city_px = {c: proj.px(lon, lat) for c, (cc, lon, lat) in CITY_LL.items()}
 
     # ---- entities: nordic funds + angels ----
+    _mnidx = {}   # user -> contact name lower -> mynet edge (person-level Affinity/calendar score)
+    for _u0, _lst0 in (mynet or {}).items():
+        _mnidx[_u0] = {x["n"].lower(): x for x in _lst0}
     nreg = regions.get("nordics") or {"entities": []}
     ents, df_raws, pu_raws = [], [], {u: [] for u in roster}
     import datetime
@@ -245,6 +254,19 @@ def build_covmap(regions, mynet, roster, load_json):
                 if c.get("last") and (not p["last"] or c["last"] > p["last"]):
                     p["last"] = c["last"]
                 rmax[nm] = max(rmax.get(nm, 0), R)
+        # person-level scores beat entity-level ones, and mynet adds contacts top_people missed
+        _enl = e["name"].lower()
+        for _u1, _byn in _mnidx.items():
+            for _k1, _mx in _byn.items():
+                if (_mx.get("f") or "").lower() != _enl and _k1 != _enl:
+                    continue
+                nm1 = _mx["n"]
+                R2 = round(0.75 * (_mx.get("p") or 0) + 25 * _rec(_mx.get("l")), 1)
+                p1 = people.setdefault(nm1, {"n": nm1, "r": {}, "last": None})
+                if R2 > p1["r"].get(_u1, 0):
+                    p1["r"][_u1] = R2
+                if _mx.get("l") and (not p1["last"] or _mx["l"] > p1["last"]):
+                    p1["last"] = _mx["l"]
         for p in people.values():
             meta = pm.get(p["n"].lower()) or {}
             p["sr"] = "Partner" if e["kind"] == "angel" else _sr_from_title(meta.get("title"))
@@ -377,8 +399,24 @@ def build_covmap(regions, mynet, roster, load_json):
                 if share and u in areas[cc]["u"]:
                     areas[cc]["u"][u]["exp"] = share
 
+    _entnames = {e["name"].lower() for e in ents}
+    _entppl = {p["n"].lower() for e in ents for p in e["people"]}
+    people_in = {}
+    for _u2, _lst2 in (mynet or {}).items():
+        for _mx in _lst2:
+            _cc2 = CITY2CC.get((_mx.get("c") or "").lower())
+            if not _cc2 or (_mx.get("p") or 0) < 30:
+                continue
+            if (_mx.get("f") or "").lower() in _entnames or _mx["n"].lower() in _entppl:
+                continue   # already counted on the map
+            people_in.setdefault(_cc2, {}).setdefault(_u2, []).append(
+                {"n": _mx["n"], "f": _mx.get("f"), "p": _mx["p"], "c": _mx.get("c")})
+    for _cc3 in people_in:
+        for _u3 in people_in[_cc3]:
+            people_in[_cc3][_u3] = sorted(people_in[_cc3][_u3], key=lambda x: -x["p"])[:30]
+
     return {
-        "vb": vbs, "countries": countries, "regions": region_pts,
+        "vb": vbs, "peopleIn": people_in, "countries": countries, "regions": region_pts,
         "ccent": {k: [round(v[0], 1), round(v[1], 1)] for k, v in ccent.items()},
         "cities": {c: [city_px[c][0], city_px[c][1]] for c in city_px},
         "zoomL1": round(zoom_l1, 2), "zoomL2": {k: round(v, 2) for k, v in zoom_l2.items()},
