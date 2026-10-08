@@ -717,6 +717,55 @@ body.mkmode{cursor:crosshair}
   #viewseg{order:2}
   #q{order:3;flex-basis:100%;max-width:none;margin-left:0}
 }
+
+/* ===== Coverage Map ===== */
+.cmtop{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.cmcrumb button{border:0;background:none;color:var(--accent-ink);font-weight:600;cursor:pointer;font-size:13.5px;padding:2px 2px;font-family:inherit}
+.cmcrumb button[disabled]{color:var(--ink);cursor:default}
+.cmall{font-size:12px;color:var(--muted);margin-left:auto;display:flex;gap:5px;align-items:center}
+.cmflex{display:flex;gap:14px;align-items:stretch}
+.cmmapwrap{flex:1;min-width:0;position:relative;background:var(--surface);border:1px solid var(--hair);border-radius:14px;overflow:hidden}
+#cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px}
+.cmpanel{flex:none;width:360px;background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px;overflow-y:auto;max-height:calc(100vh - 230px)}
+.cmbg{fill:var(--hair2);stroke:var(--bg);stroke-width:.6}
+.cmcty{fill:#e7e2d4;stroke:var(--bg);stroke-width:.7;cursor:pointer}
+.cmcty.on{stroke:#b9b2a0}
+.cmreg text{text-anchor:middle;font-size:12px;font-weight:700;fill:var(--ink2)}
+.cmreg.off circle{fill:var(--hair2);stroke:var(--hair)}
+.cmreg.off text{fill:var(--muted);font-weight:600}
+.cmreg .cmsoon{font-size:8px;letter-spacing:.08em}
+.cmreg.live{cursor:pointer}
+.cmouter{fill:rgba(255,255,255,.55);stroke:#8b8578;stroke-width:1}
+.cmteam{fill:#8a86c9;fill-opacity:.35}
+.cmme{fill-opacity:.92}
+.cment{cursor:pointer}
+.cment:hover .cmouter{stroke:var(--accent);stroke-width:1.6}
+.cmdim{opacity:.18}
+.cmring2{fill:none;stroke:#c2452f;stroke-width:.7}
+.cmbadge{font-size:7px;font-weight:800;fill:var(--ink2)}
+.cmlab{text-anchor:middle;font-weight:600;fill:var(--ink);paint-order:stroke;stroke:#fcfbf6;stroke-width:2.4px}
+.cmtray{position:absolute;left:10px;bottom:10px;font-size:11.5px;color:var(--muted);background:rgba(252,251,246,.92);border:1px solid var(--hair);border-radius:9px;padding:6px 10px;max-width:70%}
+.cmcard{position:absolute;width:290px;background:var(--surface);border:1px solid var(--hair);border-radius:11px;box-shadow:0 6px 22px rgba(0,0,0,.13);padding:11px 13px;pointer-events:none;z-index:5}
+.cmcn{font-size:13.5px}
+.cmst{font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:1px 6px;border-radius:7px;background:var(--hair2);color:var(--ink2)}
+.cmst.build{background:#fbe9e2;color:#9c3c1e}
+.cmst.maintain{background:#e4efe6;color:#2e6b44}
+.cmwhy{font-size:11.5px;color:var(--ink2);margin-top:5px;line-height:1.45}
+.cmnums{display:flex;gap:12px;font-size:11px;color:var(--muted);margin-top:7px}
+.cmnums b{font-size:14px;color:var(--ink);display:block}
+.cmhead{font-size:14.5px;line-height:1.5;margin-bottom:12px}
+.cmg{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px}
+.cmg .cmgl{width:36px;color:var(--muted)}
+.cmgbar{flex:1;height:8px;background:var(--hair2);border-radius:5px;overflow:hidden}
+.cmgbar i{display:block;height:100%;border-radius:5px}
+.cml3{position:absolute;inset:14px;background:rgba(252,251,246,.97);border:1px solid var(--hair);border-radius:12px;padding:14px 16px;overflow:auto;z-index:4}
+.cml3h{font-size:14px;margin-bottom:8px}
+.cml3t{font-size:11px;fill:var(--ink2)}
+.cml3t.me{font-weight:700;fill:var(--accent-ink)}
+body[data-page=map] #aprail{display:none}
+body[data-page=map] #apmain{max-width:none}
+@media(max-width:1000px){ .cmflex{flex-direction:column} .cmpanel{width:auto;max-height:none} #cmsvg{height:52vh;min-height:360px} }
+
 /* My Network: segment bar, one-line people rows, cadence chips */
 .segbar{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 14px}
 .segbar button{border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
@@ -800,6 +849,7 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
   <div class="slabel" style="margin-top:14px">Workflows</div>
   <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
   <a class="sitem" data-page="net"><span class="si">⇗</span>My Network</a>
+  <a class="sitem" data-page="map" id="simap" hidden><span class="si">◍</span>Coverage Map</a>
   <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
 </nav>
 <main id="content">
@@ -1214,7 +1264,7 @@ async function sendAsk(q){
   saveChat(); ASK.busy=false; renderAskLog();
 }
 
-const PAGES={dash:'dashpage',cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage'};
+const PAGES={dash:'dashpage',cov:'covpage',h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
 function renderDash(){
   const w=document.getElementById('dashwrap'); if(!w) return;
   const me=state.person||'', fn=me?me.split(' ')[0]:'';
@@ -1351,7 +1401,7 @@ function goPage(p, opts){
   document.querySelectorAll('#side .sitem').forEach(a=>a.classList.toggle('on', a.dataset.page===p));
   const onItem=document.querySelector('#side .sitem.on');
   if(onItem&&matchMedia('(max-width:860px)').matches) onItem.scrollIntoView({block:'nearest',inline:'center'});
-  if(p==='h2c'||p==='net'||p==='geo'){
+  if(p==='h2c'||p==='net'||p==='geo'||p==='map'){
     ap.mode=p==='h2c'?'htc':p;
     if(ap.who==='' && !ap.whoTouched) ap.who=state.person||'';
     if(opts&&opts.city) ap.city=opts.city;
@@ -1367,7 +1417,7 @@ function refresh(){  // re-render whatever page is active
   else renderWork();
 }
 function renderWork(){
-  const titles={htc:'Solve my Hard to Cracks', net:'My Network', geo:'Plan a City Trip'};
+  const titles={htc:'Solve my Hard to Cracks', net:'My Network', geo:'Plan a City Trip', map:'Coverage Map'};
   document.getElementById('worktitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
   ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
@@ -1380,7 +1430,8 @@ function renderWork(){
   if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderWork();updateHash();});
   ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderWork();}));
   const body=document.getElementById('apbody');
-  body.innerHTML = ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
+  body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
+  if(ap.mode==='map') mapBind(body);
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
     navigator.clipboard?.writeText(decodeURIComponent(b.dataset.copy)); toast('Copied');}));
   body.querySelectorAll('[data-draft]').forEach(b=>b.addEventListener('click',()=>{
@@ -1510,6 +1561,280 @@ function rewarmMail(e,who){
   const body=`Hi ${e.n.split(' ')[0]} — been too long since we last caught up. Would love to hear what you are seeing at ${e.f} at the moment — coffee or a call in the next couple of weeks? — ${wf}`;
   return `mailto:${e.e}?subject=${encodeURIComponent('Catching up')}&body=${encodeURIComponent(body)}`;
 }
+
+/* ===== Coverage Map (flag: coverageMap) — spec docs/coverage-map/ ===== */
+var CM = D.covmap||{};
+var MAP = {lvl:'l0', cc:'', ent:'', lens:'both', basis:'pipe', all:false};
+const CMTIER = v=>v>=70?'#2e7d4f':v>=40?'#c98a1b':v>=15?'#d96a2b':'#c2452f';
+function cmU(e,me){
+  if(me && e.u && e.u[me]) return e.u[me];
+  const ou=Math.round(e.O*0.5*10)/10;
+  return {cu:0, ou, gu:ou, g:e.O, m:Math.round(ou*(1+0.5*e.CT/100)*10)/10, st: e.O>=50?'build':'ignore', tag: e.O>=50?(e.CT>=60?'warm':e.CT<30?'cold':null):null};
+}
+function cmEnts(){ return (CM.ents||[]).filter(e=>!e.tray); }
+function cmVisible(me){
+  return cmEnts().filter(e=>{ const u=cmU(e,me); return MAP.all || u.st==='build' || u.st==='maintain'; });
+}
+function cmTierWord(v){ return v>=70?'Strong':v>=40?'Warm':v>=15?'Weak':'Cold'; }
+function cmBestOf(e,who){
+  let best=null;
+  (e.people||[]).forEach(p=>{ const r=who?(p.r[who]||0):Math.max(...Object.values(p.r),0);
+    if(r>0&&(!best||r>best.r)) best={n:p.n, r:Math.round(r), sr:p.sr, last:p.last}; });
+  return best;
+}
+function cmTeamBest(e){
+  let best=null;
+  (e.people||[]).forEach(p=>Object.entries(p.r).forEach(([u,r])=>{ if(!best||r>best.r) best={u, n:p.n, r:Math.round(r)}; }));
+  return best;
+}
+function cmRadius(e,me){
+  const u=cmU(e,me), base=e.r2||2;
+  if(MAP.basis!=='pipe') return base;
+  return Math.max(base*Math.sqrt(Math.max(u.ou,2)/Math.max(e.O,2)), (e.r2||2)*0.45);
+}
+function cmGlyph(e,me){
+  const u=cmU(e,me), r=cmRadius(e,me);
+  const rt=r*Math.sqrt(Math.min(e.CT,100)/100), rm=r*Math.sqrt(Math.min(u.cu,100)/100);
+  const col=CMTIER(u.cu), lens=MAP.lens;
+  const showT=lens==='both'||lens==='team'||lens==='warm', showM=lens==='both'||lens==='me'||lens==='warm';
+  const dim=lens==='warm'&&!(e.CT-u.cu>=30);
+  const ring=u.tag==='warm'?`stroke-dasharray="${(r/4).toFixed(1)} ${(r/6).toFixed(1)}"`:'';
+  const dbl=u.tag==='cold'?`<circle r="${(r*1.22).toFixed(2)}" class="cmring2"/>`:'';
+  const badge=u.st==='build'?'B':u.st==='maintain'?'M':u.st==='over'?'O':'';
+  const shape=e.kind==='angel'
+    ? `<rect x="${-r}" y="${-r}" width="${2*r}" height="${2*r}" transform="rotate(45)" class="cmouter" ${ring}/>`
+    : `<circle r="${r}" class="cmouter" ${ring}/>`;
+  return `<g class="cment${dim?' cmdim':''}" data-cment="${e.slug}" transform="translate(${e.x},${e.y})">
+    ${dbl}${shape}
+    ${showT?`<circle r="${rt.toFixed(2)}" class="cmteam"/>`:''}
+    ${showM&&rm>0.4?`<circle r="${rm.toFixed(2)}" fill="${col}" class="cmme"/>`:''}
+    ${badge?`<text class="cmbadge" x="${(r*0.95).toFixed(1)}" y="${(-r*0.8).toFixed(1)}">${badge}</text>`:''}
+  </g>`;
+}
+function apMap(){
+  if(!CM.ents) return '<div class="aphint">Coverage map data has not been built yet.</div>';
+  const me=ap.who||'';
+  const crumbs=[`<button data-cmgo="l0">Europe</button>`];
+  if(MAP.lvl!=='l0') crumbs.push(`<button data-cmgo="l1">Nordics</button>`);
+  if(MAP.cc) crumbs.push(`<button data-cmgo="l2">${CM.ccName[MAP.cc]||MAP.cc}</button>`);
+  if(MAP.ent){ const e=(CM.ents||[]).find(x=>x.slug===MAP.ent); if(e) crumbs.push(`<button disabled>${e.name}</button>`); }
+  return `<div class="cmtop">
+      <span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
+      <span class="aptog cmlens">${[['both','Me vs team'],['me','Me only'],['team','Team only'],['warm','Warm paths']].map(([k,l])=>`<button data-cmlens="${k}"${MAP.lens===k?' class="on"':''}>${l}</button>`).join('')}</span>
+      <span class="aptog">${[['pipe','My pipeline'],['hl','Highland deal flow']].map(([k,l])=>`<button data-cmbasis="${k}"${MAP.basis===k?' class="on"':''}>${l}</button>`).join('')}</span>
+      <label class="cmall"><input type="checkbox" id="cmallcb"${MAP.all?' checked':''}> show quiet funds</label>
+    </div>
+    <div class="cmflex">
+      <div class="cmmapwrap">
+        <svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.lvl==='l1'?'nordics':MAP.cc]||CM.vb.l0).join(' ')}" preserveAspectRatio="xMidYMid meet">${cmSvg(me)}</svg>
+        <div id="cmhover" class="cmcard" hidden></div>
+        ${MAP.ent?cmL3(me):''}
+        ${cmTray()}
+      </div>
+      <div class="cmpanel" id="cmpanel">${cmPanel(me)}</div>
+    </div>`;
+}
+function cmSvg(me){
+  const nordic=new Set(CM.nordics);
+  const base=CM.countries.map(c=>{
+    if(c.bg) return `<path d="${c.d}" class="cmbg"/>`;
+    const a=CM.areas[c.id], covu=a&&me&&a.u[me]?a.u[me].covu:0, covT=a?a.covT:0;
+    const v=MAP.lens==='team'?covT:covu;
+    const on=(MAP.lvl!=='l0')&&nordic.has(c.id);
+    return `<path d="${c.d}" class="cmcty${on?' on':''}" data-cmcc="${c.id}" style="${on?`fill:${CMTIER(v)};fill-opacity:.14`:''}"/>`;
+  }).join('');
+  let layer='';
+  if(MAP.lvl==='l0'){
+    layer=CM.regions.map(r=>{
+      if(!r.active) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><circle r="20"/><text y="3">${r.name}</text><text y="14" class="cmsoon">M2</text></g>`;
+      const a=CM.areas.nordics, covu=me&&a.u[me]?a.u[me].covu:0;
+      const R=36, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      return `<g class="cmreg live" data-cmgo="l1" transform="translate(${r.x},${r.y})">
+        <circle r="${R}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
+        ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
+        <text y="${R+14}">${r.name}</text></g>`;
+    }).join('');
+  } else if(MAP.lvl==='l1'){
+    const z=CM.zoomL1;
+    layer=CM.nordics.filter(cc=>CM.areas[cc]).map(cc=>{
+      const a=CM.areas[cc], covu=me&&a.u[me]?a.u[me].covu:0;
+      const maxo=Math.max(...CM.nordics.map(k=>CM.areas[k]?CM.areas[k].opp:0));
+      const R=(13+30*Math.sqrt(a.opp/maxo))/z, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const [cx,cy]=CM.ccent[cc];
+      const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
+      return `<g class="cmreg live" data-cmcc2="${cc}" transform="translate(${cx},${cy})">
+        <circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
+        ${rm>0.4?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}
+        <text y="${(R+14/z).toFixed(1)}" style="font-size:${(14/z).toFixed(1)}px">${CM.ccName[cc]}${exp?' ⚑':''}</text></g>`;
+    }).join('');
+  } else {
+    const z=CM.zoomL2[MAP.cc]||6, vis=cmVisible(me).filter(e=>e.cc===MAP.cc);
+    const byO=[...vis].sort((a,b)=>cmU(b,me).ou-cmU(a,me).ou);
+    const lab=new Set(byO.slice(0,8).map(e=>e.slug));
+    layer=vis.map(e=>cmGlyph(e,me)).join('')+
+      byO.filter(e=>lab.has(e.slug)).map(e=>`<text class="cmlab" x="${e.x}" y="${(e.y-cmRadius(e,me)-3/z).toFixed(1)}" style="font-size:${(10.5/z).toFixed(2)}px">${e.name}</text>`).join('');
+  }
+  return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
+}
+function cmTray(){
+  const t=(CM.ents||[]).filter(e=>e.tray);
+  if(!t.length||MAP.lvl==='l0') return '';
+  return `<div class="cmtray">Outside the region: ${t.map(e=>`<b>${e.name}</b> (${e.city||'location unknown'})`).join(' · ')}</div>`;
+}
+function cmGauge(lbl,v,col){
+  return `<div class="cmg"><span class="cmgl">${lbl}</span><span class="cmgbar"><i style="width:${Math.min(v,100)}%;background:${col||CMTIER(v)}"></i></span><b>${Math.round(v)}%</b></div>`;
+}
+function cmTop5(me,pool){
+  const rows=[...pool].sort((a,b)=>cmU(b,me).m-cmU(a,me).m).slice(0,5).map(e=>{
+    const u=cmU(e,me), tb=cmTeamBest(e);
+    const how=u.tag==='warm'&&tb?`ask ${tb.u.split(' ')[0]} → ${tb.n}`:u.tag==='cold'?'cold start':u.st==='maintain'?'keep warm':'build';
+    return `<div class="dpli" data-cment="${e.slug}"><b class="mbub ${u.cu>=70?'strong':u.cu>=40?'medium':u.cu>=15?'low':'weak'}">${Math.round(u.cu)}</b><span class="nm">${e.name}</span><span class="how">${e.city||''} · ${how}</span></div>`;
+  }).join('');
+  return rows||'<div class="dtsub">Nothing to build here.</div>';
+}
+function cmPanel(me){
+  const A=CM.areas, who=me||null;
+  if(MAP.ent){ const e=(CM.ents||[]).find(x=>x.slug===MAP.ent); if(e) return cmEntPanel(e,me); }
+  if(MAP.lvl==='l0'){
+    const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:null;
+    return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of Nordic opportunity; the team covers <b>${a.covT}%</b>.`:`The team covers <b>${a.covT}%</b> of Nordic opportunity.`} Other regions go live in M2.</div>
+      ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
+      <div class="apsec">Where to spend time</div>${cmTop5(me,cmEnts())}`;
+  }
+  if(MAP.lvl==='l1'){
+    const a=A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
+    const biggest=CM.nordics.filter(c=>A[c]).sort((x,y)=>A[y].opp-A[x].opp)[0];
+    const share=Math.round(100*A[biggest].opp/CM.nordics.reduce((t,c)=>t+(A[c]?A[c].opp:0),0));
+    const bcov=who&&A[biggest].u[who]?A[biggest].u[who].covu:0;
+    return `<div class="cmhead">${who?`You cover <b>${covu}%</b> of the Nordics (team ${a.covT}%).`:`Team covers <b>${a.covT}%</b> of the Nordics.`} ${CM.ccName[biggest]} is ${share}% of the opportunity${who?` and you cover ${bcov}% of it`:''}.</div>
+      ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
+      <div class="apsec">Where to spend time</div>${cmTop5(me,cmEnts())}`;
+  }
+  const cc=MAP.cc, a=A[cc]||{covT:0,u:{}};
+  const sel=cmEnts().filter(e=>e.cc===cc);
+  const builds=sel.filter(e=>cmU(e,me).st==='build');
+  const warm=builds.filter(e=>cmU(e,me).tag==='warm').length;
+  const cities={}; builds.forEach(e=>{cities[e.city]=(cities[e.city]||0)+1;});
+  const topCity=Object.entries(cities).sort((x,y)=>y[1]-x[1])[0];
+  const covu=who&&a.u[who]?a.u[who].covu:0, exp=who&&a.u[who]?a.u[who].exp:null;
+  const rows=[...sel].sort((x,y)=>cmU(y,me).gu-cmU(x,me).gu).map(e=>{
+    const u=cmU(e,me);
+    return `<div class="dpli" data-cment="${e.slug}"><b class="mbub ${u.cu>=70?'strong':u.cu>=40?'medium':u.cu>=15?'low':'weak'}">${Math.round(u.cu)}</b><span class="nm">${e.name}</span><span class="how">${u.st}${u.tag?' · '+(u.tag==='warm'?'warm path':'cold start'):''} · team ${Math.round(e.CT)}</span></div>`;
+  }).join('');
+  const tripBtn=(typeof TRIPS!=='undefined'&&topCity&&TRIPS[topCity[0]])?`<button class="minibtn" data-cmtrip="${topCity[0]}">Plan a ${topCity[0]} trip →</button>`:'';
+  return `<div class="cmhead">${topCity?`${topCity[0]} holds ${topCity[1]} of ${CM.ccName[cc]}'s ${builds.length} Build funds.`:`No Build funds in ${CM.ccName[cc]} right now.`} ${warm?`${warm} have a warm path through the team.`:''}</div>
+    ${who?cmGauge('You',covu):''}${cmGauge('Team',a.covT,'#8a86c9')}
+    ${exp!=null?`<div class="dtsub">${Math.round(exp)}% of your Nordic pipeline sits here.</div>`:''}
+    ${tripBtn}
+    <div class="apsec">All funds — biggest gap first</div>${rows||'<div class="dtsub">No tracked funds.</div>'}`;
+}
+function cmEntPanel(e,me){
+  const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
+  return `<div class="cmhead"><b>${e.name}</b> · ${e.city||'—'} · ${u.st}${u.tag?' ('+(u.tag==='warm'?'warm path':'cold start')+')':''}</div>
+    <div class="dtsub">${cmWhy(e,me)}</div>
+    ${me?cmGauge('You',u.cu):''}${cmGauge('Team',e.CT,'#8a86c9')}
+    <div class="apsec">People</div>
+    ${(e.people||[]).map(p=>{
+      const mr=me?Math.round(p.r[me]||0):0, bt=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];
+      return `<div class="dpli"><b class="mbub ${mr>=70?'strong':mr>=40?'medium':mr>=15?'low':'weak'}">${mr}</b><span class="nm">${p.n}${p.sr?` <span class="cc">· ${p.sr}</span>`:''}</span><span class="how">${bt?`best: ${bt[0].split(' ')[0]} ${Math.round(bt[1])}`:''}${p.last?` · ${fmtD(p.last)}`:''}</span></div>`;
+    }).join('')||'<div class="dtsub">No contacts mapped yet.</div>'}
+    <div class="apacts" style="margin-top:10px">
+      ${u.tag==='warm'&&tb?`<a href="mailto:${hlMail(tb.u)}?subject=${encodeURIComponent('Intro to '+tb.n+' ('+e.name+')?')}&body=${encodeURIComponent('Hey '+tb.u.split(' ')[0]+' — the coverage map says you hold our strongest line into '+e.name+' ('+tb.n+'). Could you bring me in or make an intro? — '+(me||'').split(' ')[0])}">✉ Ask ${tb.u.split(' ')[0]}</a>`:''}
+      <a href="${liSearch(e.name,'')}" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>`;
+}
+function cmWhy(e,me){
+  const u=cmU(e,me), bits=[`opportunity ${Math.round(MAP.basis==='pipe'?u.ou:e.O)}`];
+  bits.push(`relevance ${Math.round(e.rel)}`);
+  if(e.df12) bits.push(`${e.df12} investment${e.df12>1?'s':''} in 12m`);
+  if(e.coinv) bits.push(`co-invested ×${e.coinv}`);
+  if(u.pu) bits.push(`linked to your pipeline (${u.pu} pts)`);
+  const best=me?cmBestOf(e,me):null;
+  bits.push(best?`your best door: ${best.n} (${cmTierWord(best.r)} ${best.r}${best.last?`, ${fmtD(best.last)}`:''})`:(me?'you know no one here':''));
+  return bits.filter(Boolean).join(' · ');
+}
+function cmL3(me){
+  const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);
+  if(!e) return '';
+  const ppl=(e.people||[]).slice(0,8);
+  const ints=[...new Set(ppl.flatMap(p=>Object.keys(p.r)))].sort((a,b)=>Math.max(...ppl.map(p=>p.r[b]||0))-Math.max(...ppl.map(p=>p.r[a]||0))).slice(0,6);
+  const H=Math.max(ppl.length,ints.length)*34+40;
+  const iy=i=>30+i*((H-40)/Math.max(ints.length-1,1)||0);
+  const py=i=>30+i*((H-40)/Math.max(ppl.length-1,1)||0);
+  const lines=ints.flatMap((u,ui)=>ppl.map((p,pi)=>{
+    const r=p.r[u]||0; if(r<10) return '';
+    return `<line x1="150" y1="${iy(ui)}" x2="310" y2="${py(pi)}" stroke="${CMTIER(r)}" stroke-width="${(0.6+r/40).toFixed(1)}" opacity="${u===me?0.95:0.35}"/>`;
+  })).join('');
+  return `<div class="cml3"><div class="cml3h"><b>${e.name}</b> — who holds the lines in<button class="minibtn" data-cmgo="l2" style="float:right">✕ close</button></div>
+    <svg width="460" height="${H}" viewBox="0 0 460 ${H}">
+      ${lines}
+      ${ints.map((u,i)=>`<text x="144" y="${iy(i)+4}" text-anchor="end" class="cml3t${u===me?' me':''}">${u}</text>`).join('')}
+      ${ppl.map((p,i)=>`<text x="316" y="${py(i)+4}" class="cml3t">${p.n}${p.sr?` · ${p.sr}`:''}</text>`).join('')}
+    </svg></div>`;
+}
+function cmAnimVB(svg,to){
+  const from=svg.getAttribute('viewBox').split(' ').map(Number);
+  const t0=performance.now(), dur=550;
+  const step=t=>{
+    const k=Math.min((t-t0)/dur,1), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+    svg.setAttribute('viewBox', from.map((v,i)=>v+(to[i]-v)*e).join(' '));
+    if(k<1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+function cmGo(lvl,cc,ent){
+  const svg=document.getElementById('cmsvg');
+  MAP.lvl=lvl; MAP.cc=cc||''; MAP.ent=ent||'';
+  const target=CM.vb[lvl==='l0'?'l0':lvl==='l1'?'nordics':MAP.cc]||CM.vb.l0;
+  if(svg){ cmAnimVB(svg,target); setTimeout(()=>{renderWork();updateHash();},300); }
+  else { renderWork(); updateHash(); }
+}
+function mapBind(body){
+  const me=ap.who||'';
+  body.querySelectorAll('[data-cmlens]').forEach(b=>b.addEventListener('click',()=>{MAP.lens=b.dataset.cmlens;renderWork();}));
+  body.querySelectorAll('[data-cmbasis]').forEach(b=>b.addEventListener('click',()=>{MAP.basis=b.dataset.cmbasis;renderWork();}));
+  const cb=body.querySelector('#cmallcb');
+  if(cb) cb.addEventListener('change',()=>{MAP.all=cb.checked;renderWork();});
+  body.querySelectorAll('[data-cmgo]').forEach(b=>b.addEventListener('click',()=>{
+    const l=b.dataset.cmgo; cmGo(l, l==='l2'?MAP.cc:'', '');
+  }));
+  body.querySelectorAll('[data-cmcc2]').forEach(g=>g.addEventListener('click',()=>cmGo('l2',g.dataset.cmcc2,'')));
+  body.querySelectorAll('path[data-cmcc]').forEach(p=>p.addEventListener('click',()=>{
+    if(MAP.lvl!=='l0'&&CM.areas[p.dataset.cmcc]) cmGo('l2',p.dataset.cmcc,'');
+  }));
+  body.querySelectorAll('[data-cmtrip]').forEach(b=>b.addEventListener('click',()=>goPage('geo',{city:b.dataset.cmtrip})));
+  const hov=body.querySelector('#cmhover');
+  body.querySelectorAll('[data-cment]').forEach(g=>{
+    g.addEventListener('click',()=>{ if(MAP.lvl!=='l2'&&g.closest('.cmpanel')){ const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(e&&e.cc){ cmGo('l2',e.cc,g.dataset.cment); return; } }
+      MAP.ent=g.dataset.cment; renderWork(); updateHash(); });
+    g.addEventListener('mouseenter',ev=>{
+      const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(!e||!hov) return;
+      const u=cmU(e,me), best=me?cmBestOf(e,me):null, tb=cmTeamBest(e);
+      hov.innerHTML=`<div class="cmcn"><b>${e.name}</b> <span class="cc">· ${e.cat||e.kind}${e.city?' · '+e.city:''}</span> <span class="cmst ${u.st}">${u.st}</span></div>
+        <div class="cmwhy">${cmWhy(e,me)}</div>
+        <div class="cmnums"><span>Opportunity <b>${Math.round(MAP.basis==='pipe'?u.ou:e.O)}</b></span><span>You <b>${Math.round(u.cu)}</b> ${cmTierWord(u.cu)}</span><span>Team <b>${Math.round(e.CT)}</b> ${cmTierWord(e.CT)}</span></div>
+        ${tb?`<div class="cmwhy">Team best: ${tb.u.split(' ')[0]} → ${tb.n} (${tb.r})</div>`:''}`;
+      hov.hidden=false;
+    });
+    g.addEventListener('mousemove',ev=>{ if(!hov) return;
+      const wrap=body.querySelector('.cmmapwrap').getBoundingClientRect();
+      hov.style.left=Math.min(ev.clientX-wrap.left+14, wrap.width-300)+'px';
+      hov.style.top=Math.max(ev.clientY-wrap.top-10,4)+'px';
+    });
+    g.addEventListener('mouseleave',()=>{ if(hov) hov.hidden=true; });
+  });
+  if(!mapBind._esc){
+    mapBind._esc=true;
+    document.addEventListener('keydown',ev=>{
+      if(ev.key!=='Escape'||state.page!=='map') return;
+      if(MAP.ent) cmGo('l2',MAP.cc,'');
+      else if(MAP.lvl==='l2') cmGo('l1','','');
+      else if(MAP.lvl==='l1') cmGo('l0','','');
+    });
+  }
+}
+try{ if((localStorage.getItem('sonar_flags')||'').includes('coverageMap')){ const si=document.getElementById('simap'); if(si) si.hidden=false; } }catch(err){}
+
 function netApply(list){
   const F=ap.nf, q=(F.q||'').trim().toLowerCase();
   return list.filter(e=>(!q||e.n.toLowerCase().includes(q)||(e.f||'').toLowerCase().includes(q))
@@ -2627,6 +2952,7 @@ function updateHash(){
   else if(state.page==='h2c') h='#h2c';
   else if(state.page==='net') h='#net';
   else if(state.page==='geo') h='#geo'+(ap.city?'/'+encodeURIComponent(ap.city):'');
+  else if(state.page==='map') h='#map'+(MAP.lvl==='l1'?'/nordics':MAP.cc?'/'+MAP.cc+(MAP.ent?'/'+MAP.ent:''):'');
   else{
     h = '#'+state.region;
     if(state.view==='unt') h+='/unt';
@@ -2644,6 +2970,13 @@ function readHash(){
   if(head==='h2c'){ state.page='h2c'; return; }
   if(head==='net'){ state.page='net'; return; }
   if(head==='geo'){ state.page='geo'; if(m[2]) ap.city=decodeURIComponent(m[2]); return; }
+  if(head==='map'){ state.page='map';
+    try{ const fl=localStorage.getItem('sonar_flags')||''; if(!fl.includes('coverageMap')) localStorage.setItem('sonar_flags', fl+',coverageMap'); const si=document.getElementById('simap'); if(si) si.hidden=false; }catch(err){}
+    const p2=m[2], p3=(location.hash.split('/')[2]||'');
+    if(p2==='nordics'){ MAP.lvl='l1'; MAP.cc=''; MAP.ent=''; }
+    else if(p2&&CM.ccName&&CM.ccName[p2.toUpperCase?p2.toUpperCase():p2]){ MAP.lvl=p3?'l3':'l2'; MAP.cc=p2.toUpperCase(); MAP.ent=p3||''; }
+    else { MAP.lvl='l0'; MAP.cc=''; MAP.ent=''; }
+    return; }
   if(REGIONS.includes(head)){
     state.page='cov'; state.region=head;
     if(m[2]==='htc') state.page='h2c';           // legacy deep link

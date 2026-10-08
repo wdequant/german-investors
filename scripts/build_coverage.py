@@ -639,12 +639,16 @@ for _dm2, _pp2 in _bflags2.items():
 print(f"mynet: {sum(len(v) for v in _mynet.values())} edges across {len(_mynet)} people; "
       f"movers: {len(_movers)} ({sum(1 for m in _movers if m['since'])} dated)")
 
+from coverage_map import build_covmap
+_covmap = build_covmap(regions, _mynet, roster, load_json)
+print(f"covmap: {len(_covmap['ents'])} nordic entities, {len(_covmap['countries'])} country shapes, "
+      f"{len(json.dumps(_covmap))//1024} KB")
 payload = {"generated": TODAY.strftime("%d %b %Y"), "team": team, "roster": roster,
            "affinityOrg": AFFINITY_ORG, "regions": regions, "xhtc": _xtra,
            "profiles": _profiles, "freshness": freshness,
            "changes": changes,
            "untProfiles": load_json(f"{ROOT}/data/enrich/untracked-profiles.json", {}) or {},
-           "mynet": _mynet, "movers": _movers}
+           "mynet": _mynet, "movers": _movers, "covmap": _covmap}
 from coverage_common import _strip_emoji
 _aff_ids = load_json(f"{ROOT}/data/enrich/untracked-affinity-ids.json", {}) or {}
 for _cid, _v in payload["untProfiles"].items():  # sanitize + join Affinity ids
