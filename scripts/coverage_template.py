@@ -1837,7 +1837,7 @@ function cmAffCards(me){
   const cards=sel.map(e=>{
     const cu=me?(e.cu[me]||0):0;
     const best=e.people&&e.people[0];
-    return `<div class="cmfcard aff">
+    return `<div class="cmfcard aff go" data-cment="${e.slug}">
       <div class="cmfi">
         <div class="cmfn">${e.name} <span class="cmst">untracked</span></div>
         <div class="cmfm">${e.city||'—'}${e.lc?` · last call ${fmtD(e.lc)}`:''}</div>
@@ -1859,6 +1859,20 @@ function cmPeopleIn(me){
     <div class="dtsub" style="margin-top:6px">${teamN} ${CM.ccName[MAP.cc]}-based investors known across the team — sourced from each person's live Harmonic location.</div></div>`;
 }
 function cmDetail(me){
+  const A=(CM.aff||[]).find(x=>x.slug===MAP.ent);
+  if(A&&!(CM.ents||[]).find(x=>x.slug===MAP.ent)){
+    return `<div class="cmdet">
+      <div class="cmdeth"><div style="min-width:0">
+        <div class="cmdetn">${A.name} <span class="cmst">In Affinity · untracked</span></div>
+        <div class="cmfm">${A.city||'—'}${A.ft?' · '+A.ft:''}${A.fs?' · '+A.fs:''}${A.lc?` · last Highland contact ${fmtD(A.lc)}`:''}</div>
+        ${A.desc?`<div class="cmwhy">${A.desc}</div>`:''}
+      </div></div>
+      <div class="apsec">Team — from Harmonic</div>
+      ${(A.team||[]).map(t=>`<div class="dpli"><span class="nm"><a href="${liSearch(t.n,A.name)}" target="_blank" rel="noopener">${t.n}</a></span><span class="how">${t.t||''}</span></div>`).join('')||'<div class="dtsub">No people mapped yet.</div>'}
+      ${(A.people||[]).length?`<div class="apsec">Highland edges</div>${A.people.map(p=>{const bt=Object.entries(p.r).sort((x,y)=>y[1]-x[1])[0];return `<div class="dpli"><b class="mbub ${bt[1]>=70?'strong':bt[1]>=40?'medium':'low'}">${Math.round(bt[1])}</b><span class="nm">${p.n}</span><span class="how">via ${bt[0].split(' ')[0]}</span></div>`;}).join('')}`:''}
+      <div class="dtsub" style="margin-top:10px">Not yet a tracked fund — relationship data here comes from the network graph alone.</div>
+    </div>`;
+  }
   const e=(CM.ents||[]).find(x=>x.slug===MAP.ent);
   if(!e) return '';
   const u=cmU(e,me), tb=cmTeamBest(e), tgt=cmTarget(e,me);
@@ -2041,8 +2055,9 @@ function mapBind(body){
   body.querySelectorAll('[data-cmtrip]').forEach(b=>b.addEventListener('click',()=>goPage('geo',{city:b.dataset.cmtrip})));
   body.querySelectorAll('[data-cment]').forEach(g=>g.addEventListener('click',ev=>{
     if(ev.target.closest('a')||ev.target.closest('button:not([data-cment])')) return;
-    const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment); if(!e) return;
-    cmGo(e.cc?'l3':MAP.lvl, e.cc||MAP.cc, g.dataset.cment);
+    const e=(CM.ents||[]).find(x=>x.slug===g.dataset.cment)||(CM.aff||[]).find(x=>x.slug===g.dataset.cment);
+    if(!e) return;
+    cmGo('l3', e.cc||MAP.cc, g.dataset.cment);
   }));
   // drag to pan the map levels
   const svg=body.querySelector('#cmsvg');
