@@ -1,982 +1,1217 @@
 {
-"Omar Hedeya": {
-"since": "2026-01-01",
-"company": "Project A Ventures",
-"title": "Investment Team"
-},
-"Diana Biggs": {
-"since": "2025-10-01",
-"company": "Nausicaa",
-"title": "Founder & Principal"
-},
-"Alexander Kudlich": {
-"since": "2026-06-01",
-"company": "row capital",
-"title": "GP"
-},
-"Diogo Cunha": {
-"since": "2026-08-01",
-"company": "Stealth Company",
-"title": "Co-Founder & CEO"
-},
-"Lukas Bennemann": {
-"since": "2024-01-01",
-"company": "Wunderland Capital",
-"title": "Founding Partner"
-},
-"Markus Ferres": {
-"since": "2025-07-01",
-"company": "Bain & Company",
-"title": "Manager"
-},
-"Dorothea Gotthardt": {
-"since": "2022-11-01",
-"company": "QuantPi",
-"title": "COO"
-},
-"Franz Diekmann": {
-"since": "2026-01-01",
-"company": "Basic Ventures",
-"title": "Partner"
-},
-"Lukas Vogt": {
-"since": "2022-03-01",
-"company": "Sunhat",
-"title": "Co-Founder & CEO"
-},
-"Thorben Rothe": {
-"since": "2018-04-01",
-"company": "IRIS",
-"title": "Partner - Head of Early Stage Germany"
-},
-"Alexander Schmitt": {
-"since": "2022-01-01",
-"company": "Lightspeed Venture Partners",
-"title": "Partner"
-},
-"Leonor Landeau": {
-"since": "2026-04-01",
-"company": "Elaia",
-"title": "Investment Manager"
-},
-"Marguerite Tavernost": {
-"since": "2022-08-01",
-"company": "Ledger",
-"title": "Cathay Ledger Fund"
-},
-"Patrick Mayr": {
-"since": "2025-03-01",
-"company": "Prelude",
-"title": "Co-Founder"
-},
-"Ricardo Sequerra": {
-"since": "2019-08-01",
-"company": "Point Nine",
-"title": "Partner"
-},
-"Alexandre Moreillon": {
-"since": "2025-01-01",
-"company": "FiveT Hydrogen AG",
-"title": "Investment Director"
-},
-"Finn Weise": {
-"since": "2025-11-01",
-"company": "Thrivo Wealth Partners",
-"title": "Geschäftsführer"
-},
-"Charlotte Küppers": {
-"since": "2025-08-01",
-"company": "LOOSH",
-"title": "Co-Founder & CMO"
-},
-"Moritz von Klot": {
-"since": "2026-03-01",
-"company": "Edmund",
-"title": "Investor"
-},
-"Mehmet Atici": {
-"since": "2013-03-01",
-"company": "Bek Ventures",
-"title": "Managing Partner"
-},
-"Laurin Class": {
-"since": "2026-01-01",
-"company": "OpenAI",
-"title": "Member of Go To Market Staff"
-},
-"Natalia Ahmadian": {
-"since": "2023-12-01",
-"company": "Stage Two",
-"title": "Project Lead"
-},
-"Niels Sharman": {
-"since": "2026-03-01",
-"company": "shiftingbio",
-"title": "Founder"
-},
-"Chiara Sommer": {
-"since": "2026-03-01",
-"company": "Independent investor",
-"title": "Tech Investing & Ecosystem"
-},
-"Alex Von Frankenberg": {
-"since": "2025-10-01",
-"company": "May Ventures",
-"title": "Venture Partner"
-},
-"Alex von Frankenberg": {
-"since": "2025-10-01",
-"company": "May Ventures",
-"title": "Venture Partner"
-},
-"Benjamin Erhart": {
-"since": "2017-08-01",
-"company": "UVC Partners",
-"title": "General Partner"
-},
-"Alexander Joel-Carbonell": {
-"since": "2026-02-01",
-"company": "AMI - Advanced Machine Intelligence",
-"title": "Co-Lead / Investor"
-},
-"Zuzanna Czapinska": {
-"since": "2025-01-01",
-"company": "ICONIQ",
-"title": "Investor"
-},
-"Nina Neumann": {
-"since": "2025-01-01",
-"company": "Female Invest",
-"title": "Organic Growth Lead"
-},
-"Julia Morrongiello": {
-"since": "2025-08-01",
-"company": "BVNK",
-"title": "VP Corporate Development & Strategy"
-},
-"Alex George": {
-"since": "2025-02-01",
-"company": "ElevenLabs",
-"title": "Localization"
-},
-"Oana Botez": {
-"since": "2025-02-01",
-"company": "Revent",
-"title": "Head of Community"
-},
-"Enrico Mellis": {
-"since": "2025-11-01",
-"company": "Animal Syndication Company",
-"title": "Founder"
-},
-"Francesca Baillieu": {
-"since": "2025-08-01",
-"company": "Scout",
-"title": "Founder"
-},
-"Holger Witte": {
-"since": "2019-04-01",
-"company": "Witte Ventures",
-"title": "Managing Director"
-},
-"Moritz Gillmair": {
-"since": "2026-06-01",
-"company": "Waniwani",
-"title": "Investor"
-},
-"Marc Kühn": {
-"since": "2025-11-01",
-"company": "Lakestar",
-"title": "Deep Tech Investor"
-},
-"Rita Cherradi": {
-"since": "2023-12-01",
-"company": "Sie Ventures",
-"title": "Investor"
-},
-"Adriana Beattie": {
-"since": "2026-09-01",
-"company": "Deloitte",
-"title": "Analyst"
-},
-"Lea Bajc": {
-"since": "2024-10-01",
-"company": "Marlow Capital",
-"title": "Venture Partner"
-},
-"Ollie Purdue": {
-"since": "2023-10-01",
-"company": "Shuffle",
-"title": "CEO & Co-founder"
-},
-"Caroline Frantl-Larsson": {
-"since": "2025-01-01",
-"company": "Canute by Thursday",
-"title": "Head of Networks - Founders Growth Club"
-},
-"Nathaniel Stummann": {
-"since": "2026-01-01",
-"company": "Fload",
-"title": "Chief of Staff"
-},
-"Ellen Lee": {
-"since": "2026-04-01",
-"company": "Modal",
-"title": "Member of GTM Staff"
-},
-"Einar Sandell": {
-"since": "2025-12-01",
-"company": "Hansen Advokatbyrå",
-"title": "Senior Associate"
-},
-"Gemma Bloemen": {
-"since": "2026-01-01",
-"company": "Systemiq Capital",
-"title": "Venture Partner"
-},
-"Lauri Lehtmaa": {
-"since": "2024-01-01",
-"company": "Fundra",
-"title": "Founder"
-},
-"Alastair Mitchell": {
-"since": "2025-09-01",
-"company": "Odyssey Ventures",
-"title": "Managing Partner"
-},
-"Ashley Lundström": {
-"since": "2026-01-01",
-"company": "Stealth Company",
-"title": "Co-Founder"
-},
-"Bartosz Jakubowski": {
-"since": "2025-11-01",
-"company": "Alven",
-"title": "Venture Partner"
-},
-"Lucy Wimmer": {
-"since": "2025-12-01",
-"company": "Accel",
-"title": "Senior Vice President Marketing"
-},
-"Natasha Niksic": {
-"since": "2026-08-01",
-"company": "Constellation",
-"title": "Executive Assistant"
-},
-"Naza Metghalchi": {
-"since": "2026-04-01",
-"company": "Heartcore Capital",
-"title": "Partner"
-},
-"Riccardo Bruni": {
-"since": "2020-08-01",
-"company": "Heroes",
-"title": "Co-founder"
-},
-"Tunde Adekeye": {
-"since": "2025-11-01",
-"company": "Novee",
-"title": "Chief of Staff"
-},
-"Tuomas Rekonen": {
-"since": "2024-06-01",
-"company": "Endeit Capital",
-"title": "Investment Manager"
-},
-"Tatiana Shalalvand": {
-"since": "2026-10-01",
-"company": "Cherry Ventures",
-"title": "Partner"
-},
-"Kevin Lösch": {
-"since": "2026-01-01",
-"company": "Enlace Labs",
-"title": "Co-Founder"
-},
-"Johan Gjesdahl": {
-"since": "2014-06-01",
-"company": "Alliance VC",
-"title": "Managing Partner"
-},
-"Ella Eskelinen": {
-"since": "2025-12-01",
-"company": "Verda",
-"title": "Chief of Staff"
-},
-"Estelle Kulow": {
-"since": "2026-07-01",
-"company": "Dryft",
-"title": "Chief of Staff"
-},
-"Gareth Jefferies": {
-"since": "2020-11-01",
-"company": "RTP Global",
-"title": "Partner"
-},
-"Kilian Pender": {
-"since": "2024-01-01",
-"company": "Birchway",
-"title": "Founding Partner"
-},
-"Anjum Rangwala": {
-"since": "2025-01-01",
-"company": "EQT Foundation",
-"title": "Vice President"
-},
-"Deepka Rana": {
-"since": "2026-08-01",
-"company": "Stealth Company",
-"title": "Building"
-},
-"Georgia Stevenson": {
-"since": "2019-09-01",
-"company": "Index Ventures",
-"title": "Partner"
-},
-"Henrik Grim": {
-"since": "2023-01-01",
-"company": "Mimo",
-"title": "CEO & Co-founder"
-},
-"Markus Gleim": {
-"since": "2026-06-01",
-"company": "HSG",
-"title": "Managing Director"
-},
-"Maxine Rior": {
-"since": "2026-03-01",
-"company": "Stealth Company",
-"title": "Building something new"
-},
-"Peter Egehoved": {
-"since": "2025-05-01",
-"company": "Dreamdata",
-"title": "CFO / COO"
-},
-"Julie Roze": {
-"since": "2023-06-01",
-"company": "Korelya Capital",
-"title": "Partner"
-},
-"Thomas Cuvelier": {
-"since": "2025-02-01",
-"company": "RTP Global",
-"title": "Partner, North America and Europe"
-},
-"Jeremy Uzan": {
-"since": "2020-01-01",
-"company": "Singular",
-"title": "General Partner, Co-Founder"
-},
-"Margaux Gregoir": {
-"since": "2025-10-01",
-"company": "Serena",
-"title": "Partner"
-},
-"Raffi KAMBER": {
-"since": "2020-01-01",
-"company": "Singular",
-"title": "General Partner, Founder"
-},
-"Ugo Varrasso": {
-"since": "2026-09-01",
-"company": "BREEGA",
-"title": "Principal"
-},
-"Maxence Drummond": {
-"since": "2023-10-01",
-"company": "malibou",
-"title": "Co-Founder & CEO"
-},
-"Stanislas Lot": {
-"since": "2026-03-01",
-"company": "AMI - Advanced Machine Intelligence",
-"title": "Investor"
-},
-"Kyang Yung": {
-"since": "2022-10-01",
-"company": "Coalition Capital",
-"title": "Co-Founder and General Partner"
-},
-"Marie Ekeland": {
-"since": "2020-07-01",
-"company": "2050",
-"title": "Founder & CEO"
-},
-"Gabriel Levy": {
-"since": "2023-04-01",
-"company": "Datadog",
-"title": "Senior Corpdev, Head of EMEA, Security"
-},
-"Abigail Raymond": {
-"since": "2024-07-01",
-"company": "Noteus Partners",
-"title": "Office Manager"
-},
-"Dylan Gokani": {
-"since": "2024-05-01",
-"company": "Noteus Partners",
-"title": "Vice President"
-},
-"Giulia Marchegiani": {
-"since": "2026-05-01",
-"company": "Balderton",
-"title": "Investor"
-},
-"Guillaume d'Audiffret": {
-"since": "2024-02-01",
-"company": "Noteus Partners",
-"title": "General Partner"
-},
-"Nathalie Bruehls": {
-"since": "2024-02-01",
-"company": "Noteus Partners",
-"title": "General Partner"
-},
-"Yoan Pashov": {
-"since": "2024-05-01",
-"company": "Noteus Partners",
-"title": "Principal"
-},
-"Paul Varasso": {
-"since": "2025-05-01",
-"company": "Axeleo",
-"title": "Principal"
-},
-"Jean de La Rochebrochard": {
-"since": "2025-01-01",
-"company": "CASSIUS",
-"title": "General Partner"
-},
-"Pierre Menard": {
-"since": "2024-03-01",
-"company": "Montyon Capital",
-"title": "Partner & Co-Founder"
-},
-"André François-Poncet": {
-"since": "2026-09-01",
-"company": "Aletheon Investments",
-"title": "Co-founder and General Partner"
-},
-"Elena Moneta": {
-"since": "2026-07-01",
-"company": "Balderton",
-"title": "Managing Director"
-},
-"Henrik Hokamp": {
-"since": "2021-02-01",
-"company": "Revent",
-"title": "Partner"
-},
-"Mohamed Damak": {
-"since": "2026-09-01",
-"company": "Aletheon Investments",
-"title": "Principal"
-},
-"Omri BENAYOUN": {
-"since": "2026-09-01",
-"company": "Aletheon Investments",
-"title": "Founding and General Partner"
-},
-"Omri Benayoun": {
-"since": "2026-09-01",
-"company": "Aletheon Investments",
-"title": "Founding and General Partner"
-},
-"Marie Brayer": {
-"since": "2026-02-01",
-"company": "Stealth Company",
-"title": "Co-Founder"
-},
-"Nahu Ghebremichael": {
-"since": "2024-01-01",
-"company": "Verene Advisory",
-"title": "Senior Advisor"
-},
-"Nicolas Autret": {
-"since": "2021-11-01",
-"company": "Walden Catalyst Ventures",
-"title": "Partner"
-},
-"Alessio Beverina": {
-"since": "2015-01-01",
-"company": "Panakes Partners",
-"title": "Co-Founder & General Partner"
-},
-"Victor Jolly": {
-"since": "2024-09-01",
-"company": "Atomico",
-"title": "VC Investor"
-},
-"Rodolphe Menegaux": {
-"since": "2015-06-01",
-"company": "Alven",
-"title": "Managing Partner"
-},
-"Moulle-berteaux Astrid": {
-"since": "2026-07-01",
-"company": "Headline",
-"title": "Principal"
-},
-"Will Sheldon": {
-"since": "2023-01-01",
-"company": "Expedition Growth Capital",
-"title": "Partner"
-},
-"Avid Larizadeh": {
-"since": "2021-09-01",
-"company": "Ontario Teachers' Pension Plan",
-"title": "Senior Managing Director - Teachers' Venture Growth"
-},
-"Candice du Fretay": {
-"since": "2026-02-01",
-"company": "Perceptic",
-"title": "Investor (seed)"
-},
-"Michiel Kotting": {
-"since": "2016-03-01",
-"company": "Northzone",
-"title": "Partner"
-},
-"Pia d'Iribarne": {
-"since": "2025-11-01",
-"company": "Main Object",
-"title": "Founder & Managing Partner"
-},
-"Richard Kotite": {
-"since": "2026-01-01",
-"company": "Radical Ventures",
-"title": "Partner"
-},
-"Robert Sternberg": {
-"since": "2025-01-01",
-"company": "EQT Group",
-"title": "Director"
-},
-"Luciana Lixandru": {
-"since": "2020-09-01",
-"company": "Sequoia Capital",
-"title": "Partner"
-},
-"Duncan Tennant": {
-"since": "2026-08-01",
-"company": "Bloxii",
-"title": "Co-Founder"
-},
-"Gili Raanan": {
-"since": "2018-04-01",
-"company": "Cyberstarts",
-"title": "Founder"
-},
-"Matt Miller": {
-"since": "2025-03-01",
-"company": "Evantic Capital",
-"title": "Founder & Managing Partner"
-},
-"Adrian Radu": {
-"since": "2025-11-01",
-"company": "Khosla Ventures",
-"title": "Partner"
-},
-"Julie Kainz": {
-"since": "2025-09-01",
-"company": "Lean Technologies",
-"title": "Corp Dev"
-},
-"Rytis Vitkauskas": {
-"since": "2022-09-01",
-"company": "DIG Ventures",
-"title": "General Partner"
-},
-"Shan Shan": {
-"since": "2024-07-01",
-"company": "Baillie Gifford",
-"title": "Investment Manager, Private Companies"
-},
-"Adam Valkin": {
-"since": "2025-07-01",
-"company": "Vine Ventures",
-"title": "Partner"
-},
-"Josephine Kinney": {
-"since": "2024-06-01",
-"company": "Pinegrove Opportunity Partners",
-"title": "Executive Assistant"
-},
-"Juliet Bailin": {
-"since": "2025-07-01",
-"company": "Kindred Capital VC",
-"title": "Venture Partner"
-},
-"Aditya Nidmarti": {
-"since": "2025-08-01",
-"company": "Unannounced",
-"title": "Co-Founder & Executive Chair"
-},
-"Andrew Schmitt": {
-"since": "2025-01-01",
-"company": "Builders VC",
-"title": "Principal"
-},
-"David Rimer": {
-"since": "2020-12-01",
-"company": "The StoryBoard Collective",
-"title": "Founder"
-},
-"Gloria Baeuerlein": {
-"since": "2022-08-01",
-"company": "Puzzle Ventures",
-"title": "Founding Partner"
-},
-"Jimena Nowack": {
-"since": "2025-06-01",
-"company": "IVP",
-"title": "Partner"
-},
-"Leonard Picardo": {
-"since": "2024-01-01",
-"company": "HeliosX Group",
-"title": "Non Executive Director"
-},
-"Ophelia Brown": {
-"since": "2018-02-01",
-"company": "Blossom Capital",
-"title": "Founder, Managing Partner"
-},
-"Sayula Kirby": {
-"since": "2016-01-01",
-"company": "Burlington PR",
-"title": "Director"
-},
-"Timm Schipporeit": {
-"since": "2022-02-01",
-"company": "Perella Weinberg",
-"title": "Partner - FinTech & Tech"
-},
-"Molly Alter": {
-"since": "2024-06-01",
-"company": "Northzone",
-"title": "Partner"
-},
-"Katrina Guanzon": {
-"since": "2025-12-01",
-"company": "Project PEARLS",
-"title": "Executive Assistant & Workplace Experience Manager"
-},
-"Ryan Isono": {
-"since": "2025-01-01",
-"company": "Maverick Ventures",
-"title": "Managing Director"
-},
-"Kemi Odusan": {
-"since": "2026-08-01",
-"company": "spektr",
-"title": "Head of Growth"
-},
-"Connor Mullaney": {
-"since": "2026-01-01",
-"company": "Lingotto",
-"title": "Partner, Innovation Strategy"
-},
-"Hanseul Nam": {
-"since": "2026-05-01",
-"company": "Coatue Management",
-"title": "Partner"
-},
-"Vinny Pujji": {
-"since": "2019-08-01",
-"company": "Left Lane Capital",
-"title": "Managing Partner, Co-founder"
-},
-"Andrea Gurnari": {
-"since": "2026-02-01",
-"company": "Moonfire",
-"title": "Partner"
-},
-"Philip Chopin": {
-"since": "2022-10-01",
-"company": "New Enterprise Associates (NEA)",
-"title": "Managing Director, Head of Europe"
-},
-"Aman Ghei": {
-"since": "2017-01-01",
-"company": "Finch Capital",
-"title": "General Partner"
-},
-"Fred Destin": {
-"since": "2017-09-01",
-"company": "Stride.VC",
-"title": "Founder"
-},
-"Varun Purandare": {
-"since": "2024-01-01",
-"company": "Marcho Partners",
-"title": "Investor"
-},
-"Jessica Bartos": {
-"since": "2025-09-01",
-"company": "Notion Capital",
-"title": "Partner - Growth Investments"
-},
-"Sophie Winwood": {
-"since": "2022-04-01",
-"company": "unlock VC",
-"title": "Co-Founder & CEO"
-},
-"Ruth Blader": {
-"since": "2026-01-01",
-"company": "Citrine Venture Partners",
-"title": "Co-Founder & Managing Partner"
-},
-"Zeynep Ozdemir": {
-"since": "2026-05-01",
-"company": "Legora",
-"title": "Chief Marketing Officer"
-},
-"Alex Harrison-Spain": {
-"since": "2019-09-01",
-"company": "Stream",
-"title": "VP Product"
-},
-"Paddy Lambros": {
-"since": "2025-02-01",
-"company": "Dex",
-"title": "Founder"
-},
-"Mattias Ljungman": {
-"since": "2019-07-01",
-"company": "Moonfire",
-"title": "Founder"
-},
-"Damian Zaker": {
-"since": "2021-11-01",
-"company": "Visionaries",
-"title": "Investment Analyst"
-},
-"Jochen Gutbrod": {
-"since": "2010-05-01",
-"company": "Raffay & Cie.GmbH",
-"title": "Founder"
-},
-"Michael Lavner": {
-"since": "2025-06-01",
-"company": "Never Lift",
-"title": "General Partner"
-},
-"Magda Lukaszewicz": {
-"since": "2025-03-01",
-"company": "Inventure",
-"title": "Partner"
-},
-"Kaan Polat": {
-"since": "2026-04-01",
-"company": "Grand Games",
-"title": "Chief of Staff"
-},
-"Aitor Almendros": {
-"since": "2025-09-01",
-"company": "Renascentia AI",
-"title": "Partner"
-},
-"Ryan Cherry": {
-"since": "2026-08-01",
-"company": "Crestline",
-"title": "Investment Associate"
-},
-"Chase Packard": {
-"since": "2025-04-01",
-"company": "Marathon Management Partners",
-"title": "Founding Partner"
-},
-"Jared Schulman": {
-"since": "2025-11-01",
-"company": "Neuralink",
-"title": "Lead, Strategic Finance"
-},
-"Angelica Costa": {
-"since": "2026-04-01",
-"company": "Mighty Capital",
-"title": "Operations"
-},
-"Mathias Pastor": {
-"since": "2025-01-01",
-"company": "HodlCo",
-"title": "Director"
-},
-"Varun Mohapatra": {
-"since": "2026-06-01",
-"company": "Tracebit",
-"title": "Product"
-},
-"Robie Evangelista": {
-"since": "2025-11-01",
-"company": "Cantorna Creative",
-"title": "Executive Business Partner"
-},
-"Mina Mutafchieva": {
-"since": "2025-03-01",
-"company": "HV Capital",
-"title": "Partner (Growth)"
-},
-"Andrea Garcia": {
-"since": "2025-01-01",
-"company": "Nauta",
-"title": "Principal"
-},
-"Ties Boukema": {
-"since": "2026-08-01",
-"company": "Hg",
-"title": "Head of internal AI"
-},
-"Grace Cassy": {
-"since": "2026-01-01",
-"company": "Ten Eleven Ventures",
-"title": "Partner"
-},
-"Roman Lobas": {
-"since": "2026-02-01",
-"company": "Icebreaker Agency",
-"title": "Co-founder & Partner"
-},
-"Mathias Lorenz": {
-"since": "2025-08-01",
-"company": "Delphinus Venture Capital",
-"title": "Managing Partner & CEO"
-},
-"MARCINKOWSKI Maud": {
-"since": "2026-02-01",
-"company": "European Investment Bank",
-"title": "Senior Operational Assistant"
-},
-"Tamina Fogelberg": {
-"since": "2025-01-01",
-"company": "Nothing",
-"title": "Director of Global Strategy & Corporate Development"
-},
-"Martin Ericsson": {
-"since": "2026-01-01",
-"company": "Priori Capital",
-"title": "Founder & CEO"
-},
-"Helena Barman": {
-"since": "2024-04-01",
-"company": "Antler",
-"title": "VC Investor, Antler Elevate"
-},
-"Louis Frach": {
-"since": "2025-01-01",
-"company": "Left Lane Capital",
-"title": "Investor"
-},
-"Daniel Benjamin": {
-"since": "2024-01-01",
-"company": "Eon",
-"title": "Seed Investor"
-},
-"Ilan Goudsmit": {
-"since": "2024-06-01",
-"company": "Goldsmith Ventures",
-"title": "Founder & Strategic Advisor"
-},
-"Niclas Englert": {
-"since": "2026-08-01",
-"company": "London Business School",
-"title": "MBA Candidate"
-},
-"Anne Dobree": {
-"since": "2024-06-01",
-"company": "Parkwalk",
-"title": "Investment Director"
-},
-"Carina Namih": {
-"since": "2022-01-01",
-"company": "Plural",
-"title": "Partner"
-},
-"Elisabeth Kuester": {
-"since": "2026-08-01",
-"company": "Deliveroo",
-"title": "Finance & Strategy Senior Manager"
-},
-"Isobel Sprules": {
-"since": "2026-03-01",
-"company": "Plural",
-"title": "Executive Assistant to Partner"
-},
-"Chloe Barlass": {
-"since": "2025-08-01",
-"company": "Fundment",
-"title": "Head of Business Administration"
-},
-"Peony Li": {
-"since": "2020-10-01",
-"company": "Jude",
-"title": "Founder and CEO"
-},
-"Soheil Mirpour": {
-"since": "2024-01-01",
-"company": "Melotech",
-"title": "Founder"
-},
-"Tom Lambert": {
-"since": "2019-03-01",
-"company": "LocalGlobe",
-"title": "Partner"
-},
-"Nick Stocks": {
-"since": "2014-06-01",
-"company": "Personal",
-"title": "Angel, LP, and more"
-},
-"Nishu Lahoti": {
-"since": "2022-10-01",
-"company": "Nonlinear Labs",
-"title": "Founder"
-},
-"Avid Duggan": {
-"since": "2019-06-01",
-"company": "The Operator Network",
-"title": "Partner & Co-Founder"
-},
-"Jon Koplin": {
-"since": "2017-01-01",
-"company": "Cisco Investments",
-"title": "Managing Director EMEA, Cisco Investments and Corporate Development"
-},
-"Isabel Wrubel": {
-"since": "2026-06-01",
-"company": "Hyde",
-"title": "AI Strategist"
-},
-"Nikita Andersson": {
-"since": "2021-01-01",
-"company": "Independent angel investor",
-"title": "Angel"
-},
-"Lola Wajskop": {
-"since": "2025-01-01",
-"company": "Asylum Ventures",
-"title": "Partner"
-},
-"Patrick Mollard": {
-"since": "2022-06-01",
-"company": "Fipto",
-"title": "Co-Founder & CEO"
-},
-"Calvin Yeoh": {
-"since": "2026-08-01",
-"company": "Stealth Company",
-"title": "Something new"
-},
-"Tim Boer": {
-"since": "2023-09-01",
-"company": "AXECO",
-"title": "Partner"
-},
-"Hugo Hazon": {
-"since": "2026-05-01",
-"company": "Concept Ventures",
-"title": "Principal"
-}
+ "Omar Hedeya": {
+  "since": "2026-01-01",
+  "company": "Project A Ventures",
+  "title": "Investment Team"
+ },
+ "Diana Biggs": {
+  "since": "2025-10-01",
+  "company": "Nausicaa",
+  "title": "Founder & Principal"
+ },
+ "Alexander Kudlich": {
+  "since": "2026-06-01",
+  "company": "row capital",
+  "title": "GP"
+ },
+ "Diogo Cunha": {
+  "since": "2026-08-01",
+  "company": "Stealth Company",
+  "title": "Co-Founder & CEO"
+ },
+ "Lukas Bennemann": {
+  "since": "2024-01-01",
+  "company": "Wunderland Capital",
+  "title": "Founding Partner"
+ },
+ "Markus Ferres": {
+  "since": "2025-07-01",
+  "company": "Bain & Company",
+  "title": "Manager"
+ },
+ "Dorothea Gotthardt": {
+  "since": "2022-11-01",
+  "company": "QuantPi",
+  "title": "COO"
+ },
+ "Franz Diekmann": {
+  "since": "2026-01-01",
+  "company": "Basic Ventures",
+  "title": "Partner"
+ },
+ "Lukas Vogt": {
+  "since": "2022-03-01",
+  "company": "Sunhat",
+  "title": "Co-Founder & CEO"
+ },
+ "Thorben Rothe": {
+  "since": "2018-04-01",
+  "company": "IRIS",
+  "title": "Partner - Head of Early Stage Germany"
+ },
+ "Alexander Schmitt": {
+  "since": "2022-01-01",
+  "company": "Lightspeed Venture Partners",
+  "title": "Partner"
+ },
+ "Leonor Landeau": {
+  "since": "2026-04-01",
+  "company": "Elaia",
+  "title": "Investment Manager"
+ },
+ "Marguerite Tavernost": {
+  "since": "2022-08-01",
+  "company": "Ledger",
+  "title": "Cathay Ledger Fund"
+ },
+ "Patrick Mayr": {
+  "since": "2025-03-01",
+  "company": "Prelude",
+  "title": "Co-Founder"
+ },
+ "Ricardo Sequerra": {
+  "since": "2019-08-01",
+  "company": "Point Nine",
+  "title": "Partner"
+ },
+ "Alexandre Moreillon": {
+  "since": "2025-01-01",
+  "company": "FiveT Hydrogen AG",
+  "title": "Investment Director"
+ },
+ "Finn Weise": {
+  "since": "2025-11-01",
+  "company": "Thrivo Wealth Partners",
+  "title": "Geschäftsführer"
+ },
+ "Charlotte Küppers": {
+  "since": "2025-08-01",
+  "company": "LOOSH",
+  "title": "Co-Founder & CMO"
+ },
+ "Moritz von Klot": {
+  "since": "2026-03-01",
+  "company": "Edmund",
+  "title": "Investor"
+ },
+ "Mehmet Atici": {
+  "since": "2013-03-01",
+  "company": "Bek Ventures",
+  "title": "Managing Partner"
+ },
+ "Laurin Class": {
+  "since": "2026-01-01",
+  "company": "OpenAI",
+  "title": "Member of Go To Market Staff"
+ },
+ "Natalia Ahmadian": {
+  "since": "2023-12-01",
+  "company": "Stage Two",
+  "title": "Project Lead"
+ },
+ "Niels Sharman": {
+  "since": "2026-03-01",
+  "company": "shiftingbio",
+  "title": "Founder"
+ },
+ "Chiara Sommer": {
+  "since": "2026-03-01",
+  "company": "Independent investor",
+  "title": "Tech Investing & Ecosystem"
+ },
+ "Alex Von Frankenberg": {
+  "since": "2025-10-01",
+  "company": "May Ventures",
+  "title": "Venture Partner"
+ },
+ "Alex von Frankenberg": {
+  "since": "2025-10-01",
+  "company": "May Ventures",
+  "title": "Venture Partner"
+ },
+ "Benjamin Erhart": {
+  "since": "2017-08-01",
+  "company": "UVC Partners",
+  "title": "General Partner"
+ },
+ "Alexander Joel-Carbonell": {
+  "since": "2026-02-01",
+  "company": "AMI - Advanced Machine Intelligence",
+  "title": "Co-Lead / Investor"
+ },
+ "Zuzanna Czapinska": {
+  "since": "2025-01-01",
+  "company": "ICONIQ",
+  "title": "Investor"
+ },
+ "Nina Neumann": {
+  "since": "2025-01-01",
+  "company": "Female Invest",
+  "title": "Organic Growth Lead"
+ },
+ "Julia Morrongiello": {
+  "since": "2025-08-01",
+  "company": "BVNK",
+  "title": "VP Corporate Development & Strategy"
+ },
+ "Alex George": {
+  "since": "2025-02-01",
+  "company": "ElevenLabs",
+  "title": "Localization"
+ },
+ "Oana Botez": {
+  "since": "2025-02-01",
+  "company": "Revent",
+  "title": "Head of Community"
+ },
+ "Enrico Mellis": {
+  "since": "2025-11-01",
+  "company": "Animal Syndication Company",
+  "title": "Founder"
+ },
+ "Francesca Baillieu": {
+  "since": "2025-08-01",
+  "company": "Scout",
+  "title": "Founder"
+ },
+ "Holger Witte": {
+  "since": "2019-04-01",
+  "company": "Witte Ventures",
+  "title": "Managing Director"
+ },
+ "Moritz Gillmair": {
+  "since": "2026-06-01",
+  "company": "Waniwani",
+  "title": "Investor"
+ },
+ "Marc Kühn": {
+  "since": "2025-11-01",
+  "company": "Lakestar",
+  "title": "Deep Tech Investor"
+ },
+ "Rita Cherradi": {
+  "since": "2023-12-01",
+  "company": "Sie Ventures",
+  "title": "Investor"
+ },
+ "Adriana Beattie": {
+  "since": "2026-09-01",
+  "company": "Deloitte",
+  "title": "Analyst"
+ },
+ "Lea Bajc": {
+  "since": "2024-10-01",
+  "company": "Marlow Capital",
+  "title": "Venture Partner"
+ },
+ "Ollie Purdue": {
+  "since": "2023-10-01",
+  "company": "Shuffle",
+  "title": "CEO & Co-founder"
+ },
+ "Caroline Frantl-Larsson": {
+  "since": "2025-01-01",
+  "company": "Canute by Thursday",
+  "title": "Head of Networks - Founders Growth Club"
+ },
+ "Nathaniel Stummann": {
+  "since": "2026-01-01",
+  "company": "Fload",
+  "title": "Chief of Staff"
+ },
+ "Ellen Lee": {
+  "since": "2026-04-01",
+  "company": "Modal",
+  "title": "Member of GTM Staff"
+ },
+ "Einar Sandell": {
+  "since": "2025-12-01",
+  "company": "Hansen Advokatbyrå",
+  "title": "Senior Associate"
+ },
+ "Gemma Bloemen": {
+  "since": "2026-01-01",
+  "company": "Systemiq Capital",
+  "title": "Venture Partner"
+ },
+ "Lauri Lehtmaa": {
+  "since": "2024-01-01",
+  "company": "Fundra",
+  "title": "Founder"
+ },
+ "Alastair Mitchell": {
+  "since": "2025-09-01",
+  "company": "Odyssey Ventures",
+  "title": "Managing Partner"
+ },
+ "Ashley Lundström": {
+  "since": "2026-01-01",
+  "company": "Stealth Company",
+  "title": "Co-Founder"
+ },
+ "Bartosz Jakubowski": {
+  "since": "2025-11-01",
+  "company": "Alven",
+  "title": "Venture Partner"
+ },
+ "Lucy Wimmer": {
+  "since": "2025-12-01",
+  "company": "Accel",
+  "title": "Senior Vice President Marketing"
+ },
+ "Natasha Niksic": {
+  "since": "2026-08-01",
+  "company": "Constellation",
+  "title": "Executive Assistant"
+ },
+ "Naza Metghalchi": {
+  "since": "2026-04-01",
+  "company": "Heartcore Capital",
+  "title": "Partner"
+ },
+ "Riccardo Bruni": {
+  "since": "2020-08-01",
+  "company": "Heroes",
+  "title": "Co-founder"
+ },
+ "Tunde Adekeye": {
+  "since": "2025-11-01",
+  "company": "Novee",
+  "title": "Chief of Staff"
+ },
+ "Tuomas Rekonen": {
+  "since": "2024-06-01",
+  "company": "Endeit Capital",
+  "title": "Investment Manager"
+ },
+ "Tatiana Shalalvand": {
+  "since": "2026-10-01",
+  "company": "Cherry Ventures",
+  "title": "Partner"
+ },
+ "Kevin Lösch": {
+  "since": "2026-01-01",
+  "company": "Enlace Labs",
+  "title": "Co-Founder"
+ },
+ "Johan Gjesdahl": {
+  "since": "2014-06-01",
+  "company": "Alliance VC",
+  "title": "Managing Partner"
+ },
+ "Ella Eskelinen": {
+  "since": "2025-12-01",
+  "company": "Verda",
+  "title": "Chief of Staff"
+ },
+ "Estelle Kulow": {
+  "since": "2026-07-01",
+  "company": "Dryft",
+  "title": "Chief of Staff"
+ },
+ "Gareth Jefferies": {
+  "since": "2020-11-01",
+  "company": "RTP Global",
+  "title": "Partner"
+ },
+ "Kilian Pender": {
+  "since": "2024-01-01",
+  "company": "Birchway",
+  "title": "Founding Partner"
+ },
+ "Anjum Rangwala": {
+  "since": "2025-01-01",
+  "company": "EQT Foundation",
+  "title": "Vice President"
+ },
+ "Deepka Rana": {
+  "since": "2026-08-01",
+  "company": "Stealth Company",
+  "title": "Building"
+ },
+ "Georgia Stevenson": {
+  "since": "2019-09-01",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "Henrik Grim": {
+  "since": "2023-01-01",
+  "company": "Mimo",
+  "title": "CEO & Co-founder"
+ },
+ "Markus Gleim": {
+  "since": "2026-06-01",
+  "company": "HSG",
+  "title": "Managing Director"
+ },
+ "Maxine Rior": {
+  "since": "2026-03-01",
+  "company": "Stealth Company",
+  "title": "Building something new"
+ },
+ "Peter Egehoved": {
+  "since": "2025-05-01",
+  "company": "Dreamdata",
+  "title": "CFO / COO"
+ },
+ "Julie Roze": {
+  "since": "2023-06-01",
+  "company": "Korelya Capital",
+  "title": "Partner"
+ },
+ "Thomas Cuvelier": {
+  "since": "2025-02-01",
+  "company": "RTP Global",
+  "title": "Partner, North America and Europe"
+ },
+ "Jeremy Uzan": {
+  "since": "2020-01-01",
+  "company": "Singular",
+  "title": "General Partner, Co-Founder"
+ },
+ "Margaux Gregoir": {
+  "since": "2025-10-01",
+  "company": "Serena",
+  "title": "Partner"
+ },
+ "Raffi KAMBER": {
+  "since": "2020-01-01",
+  "company": "Singular",
+  "title": "General Partner, Founder"
+ },
+ "Ugo Varrasso": {
+  "since": "2026-09-01",
+  "company": "BREEGA",
+  "title": "Principal"
+ },
+ "Maxence Drummond": {
+  "since": "2023-10-01",
+  "company": "malibou",
+  "title": "Co-Founder & CEO"
+ },
+ "Stanislas Lot": {
+  "since": "2026-03-01",
+  "company": "AMI - Advanced Machine Intelligence",
+  "title": "Investor"
+ },
+ "Kyang Yung": {
+  "since": "2022-10-01",
+  "company": "Coalition Capital",
+  "title": "Co-Founder and General Partner"
+ },
+ "Marie Ekeland": {
+  "since": "2020-07-01",
+  "company": "2050",
+  "title": "Founder & CEO"
+ },
+ "Gabriel Levy": {
+  "since": "2023-04-01",
+  "company": "Datadog",
+  "title": "Senior Corpdev, Head of EMEA, Security"
+ },
+ "Abigail Raymond": {
+  "since": "2024-07-01",
+  "company": "Noteus Partners",
+  "title": "Office Manager"
+ },
+ "Dylan Gokani": {
+  "since": "2024-05-01",
+  "company": "Noteus Partners",
+  "title": "Vice President"
+ },
+ "Giulia Marchegiani": {
+  "since": "2026-05-01",
+  "company": "Balderton",
+  "title": "Investor"
+ },
+ "Guillaume d'Audiffret": {
+  "since": "2024-02-01",
+  "company": "Noteus Partners",
+  "title": "General Partner"
+ },
+ "Nathalie Bruehls": {
+  "since": "2024-02-01",
+  "company": "Noteus Partners",
+  "title": "General Partner"
+ },
+ "Yoan Pashov": {
+  "since": "2024-05-01",
+  "company": "Noteus Partners",
+  "title": "Principal"
+ },
+ "Paul Varasso": {
+  "since": "2025-05-01",
+  "company": "Axeleo",
+  "title": "Principal"
+ },
+ "Jean de La Rochebrochard": {
+  "since": "2025-01-01",
+  "company": "CASSIUS",
+  "title": "General Partner"
+ },
+ "Pierre Menard": {
+  "since": "2024-03-01",
+  "company": "Montyon Capital",
+  "title": "Partner & Co-Founder"
+ },
+ "André François-Poncet": {
+  "since": "2026-09-01",
+  "company": "Aletheon Investments",
+  "title": "Co-founder and General Partner"
+ },
+ "Elena Moneta": {
+  "since": "2026-07-01",
+  "company": "Balderton",
+  "title": "Managing Director"
+ },
+ "Henrik Hokamp": {
+  "since": "2021-02-01",
+  "company": "Revent",
+  "title": "Partner"
+ },
+ "Mohamed Damak": {
+  "since": "2026-09-01",
+  "company": "Aletheon Investments",
+  "title": "Principal"
+ },
+ "Omri BENAYOUN": {
+  "since": "2026-09-01",
+  "company": "Aletheon Investments",
+  "title": "Founding and General Partner"
+ },
+ "Omri Benayoun": {
+  "since": "2026-09-01",
+  "company": "Aletheon Investments",
+  "title": "Founding and General Partner"
+ },
+ "Marie Brayer": {
+  "since": "2026-02-01",
+  "company": "Stealth Company",
+  "title": "Co-Founder"
+ },
+ "Nahu Ghebremichael": {
+  "since": "2024-01-01",
+  "company": "Verene Advisory",
+  "title": "Senior Advisor"
+ },
+ "Nicolas Autret": {
+  "since": "2021-11-01",
+  "company": "Walden Catalyst Ventures",
+  "title": "Partner"
+ },
+ "Alessio Beverina": {
+  "since": "2015-01-01",
+  "company": "Panakes Partners",
+  "title": "Co-Founder & General Partner"
+ },
+ "Victor Jolly": {
+  "since": "2024-09-01",
+  "company": "Atomico",
+  "title": "VC Investor"
+ },
+ "Rodolphe Menegaux": {
+  "since": "2015-06-01",
+  "company": "Alven",
+  "title": "Managing Partner"
+ },
+ "Moulle-berteaux Astrid": {
+  "since": "2026-07-01",
+  "company": "Headline",
+  "title": "Principal"
+ },
+ "Will Sheldon": {
+  "since": "2023-01-01",
+  "company": "Expedition Growth Capital",
+  "title": "Partner"
+ },
+ "Avid Larizadeh": {
+  "since": "2021-09-01",
+  "company": "Ontario Teachers' Pension Plan",
+  "title": "Senior Managing Director - Teachers' Venture Growth"
+ },
+ "Candice du Fretay": {
+  "since": "2026-02-01",
+  "company": "Perceptic",
+  "title": "Investor (seed)"
+ },
+ "Michiel Kotting": {
+  "since": "2016-03-01",
+  "company": "Northzone",
+  "title": "Partner"
+ },
+ "Pia d'Iribarne": {
+  "since": "2025-11-01",
+  "company": "Main Object",
+  "title": "Founder & Managing Partner"
+ },
+ "Richard Kotite": {
+  "since": "2026-01-01",
+  "company": "Radical Ventures",
+  "title": "Partner"
+ },
+ "Robert Sternberg": {
+  "since": "2025-01-01",
+  "company": "EQT Group",
+  "title": "Director"
+ },
+ "Luciana Lixandru": {
+  "since": "2020-09-01",
+  "company": "Sequoia Capital",
+  "title": "Partner"
+ },
+ "Duncan Tennant": {
+  "since": "2026-08-01",
+  "company": "Bloxii",
+  "title": "Co-Founder"
+ },
+ "Gili Raanan": {
+  "since": "2018-04-01",
+  "company": "Cyberstarts",
+  "title": "Founder"
+ },
+ "Matt Miller": {
+  "since": "2025-03-01",
+  "company": "Evantic Capital",
+  "title": "Founder & Managing Partner"
+ },
+ "Adrian Radu": {
+  "since": "2025-11-01",
+  "company": "Khosla Ventures",
+  "title": "Partner"
+ },
+ "Julie Kainz": {
+  "since": "2025-09-01",
+  "company": "Lean Technologies",
+  "title": "Corp Dev"
+ },
+ "Rytis Vitkauskas": {
+  "since": "2022-09-01",
+  "company": "DIG Ventures",
+  "title": "General Partner"
+ },
+ "Shan Shan": {
+  "since": "2024-07-01",
+  "company": "Baillie Gifford",
+  "title": "Investment Manager, Private Companies"
+ },
+ "Adam Valkin": {
+  "since": "2025-07-01",
+  "company": "Vine Ventures",
+  "title": "Partner"
+ },
+ "Josephine Kinney": {
+  "since": "2024-06-01",
+  "company": "Pinegrove Opportunity Partners",
+  "title": "Executive Assistant"
+ },
+ "Juliet Bailin": {
+  "since": "2025-07-01",
+  "company": "Kindred Capital VC",
+  "title": "Venture Partner"
+ },
+ "Aditya Nidmarti": {
+  "since": "2025-08-01",
+  "company": "Unannounced",
+  "title": "Co-Founder & Executive Chair"
+ },
+ "Andrew Schmitt": {
+  "since": "2025-01-01",
+  "company": "Builders VC",
+  "title": "Principal"
+ },
+ "David Rimer": {
+  "since": "2020-12-01",
+  "company": "The StoryBoard Collective",
+  "title": "Founder"
+ },
+ "Gloria Baeuerlein": {
+  "since": "2022-08-01",
+  "company": "Puzzle Ventures",
+  "title": "Founding Partner"
+ },
+ "Jimena Nowack": {
+  "since": "2025-06-01",
+  "company": "IVP",
+  "title": "Partner"
+ },
+ "Leonard Picardo": {
+  "since": "2024-01-01",
+  "company": "HeliosX Group",
+  "title": "Non Executive Director"
+ },
+ "Ophelia Brown": {
+  "since": "2018-02-01",
+  "company": "Blossom Capital",
+  "title": "Founder, Managing Partner"
+ },
+ "Sayula Kirby": {
+  "since": "2016-01-01",
+  "company": "Burlington PR",
+  "title": "Director"
+ },
+ "Timm Schipporeit": {
+  "since": "2022-02-01",
+  "company": "Perella Weinberg",
+  "title": "Partner - FinTech & Tech"
+ },
+ "Molly Alter": {
+  "since": "2024-06-01",
+  "company": "Northzone",
+  "title": "Partner"
+ },
+ "Katrina Guanzon": {
+  "since": "2025-12-01",
+  "company": "Project PEARLS",
+  "title": "Executive Assistant & Workplace Experience Manager"
+ },
+ "Ryan Isono": {
+  "since": "2025-01-01",
+  "company": "Maverick Ventures",
+  "title": "Managing Director"
+ },
+ "Kemi Odusan": {
+  "since": "2026-08-01",
+  "company": "spektr",
+  "title": "Head of Growth"
+ },
+ "Connor Mullaney": {
+  "since": "2026-01-01",
+  "company": "Lingotto",
+  "title": "Partner, Innovation Strategy"
+ },
+ "Hanseul Nam": {
+  "since": "2026-05-01",
+  "company": "Coatue Management",
+  "title": "Partner"
+ },
+ "Vinny Pujji": {
+  "since": "2019-08-01",
+  "company": "Left Lane Capital",
+  "title": "Managing Partner, Co-founder"
+ },
+ "Andrea Gurnari": {
+  "since": "2026-02-01",
+  "company": "Moonfire",
+  "title": "Partner"
+ },
+ "Philip Chopin": {
+  "since": "2022-10-01",
+  "company": "New Enterprise Associates (NEA)",
+  "title": "Managing Director, Head of Europe"
+ },
+ "Aman Ghei": {
+  "since": "2017-01-01",
+  "company": "Finch Capital",
+  "title": "General Partner"
+ },
+ "Fred Destin": {
+  "since": "2017-09-01",
+  "company": "Stride.VC",
+  "title": "Founder"
+ },
+ "Varun Purandare": {
+  "since": "2024-01-01",
+  "company": "Marcho Partners",
+  "title": "Investor"
+ },
+ "Jessica Bartos": {
+  "since": "2025-09-01",
+  "company": "Notion Capital",
+  "title": "Partner - Growth Investments"
+ },
+ "Sophie Winwood": {
+  "since": "2022-04-01",
+  "company": "unlock VC",
+  "title": "Co-Founder & CEO"
+ },
+ "Ruth Blader": {
+  "since": "2026-01-01",
+  "company": "Citrine Venture Partners",
+  "title": "Co-Founder & Managing Partner"
+ },
+ "Zeynep Ozdemir": {
+  "since": "2026-05-01",
+  "company": "Legora",
+  "title": "Chief Marketing Officer"
+ },
+ "Alex Harrison-Spain": {
+  "since": "2019-09-01",
+  "company": "Stream",
+  "title": "VP Product"
+ },
+ "Paddy Lambros": {
+  "since": "2025-02-01",
+  "company": "Dex",
+  "title": "Founder"
+ },
+ "Mattias Ljungman": {
+  "since": "2019-07-01",
+  "company": "Moonfire",
+  "title": "Founder"
+ },
+ "Damian Zaker": {
+  "since": "2021-11-01",
+  "company": "Visionaries",
+  "title": "Investment Analyst"
+ },
+ "Jochen Gutbrod": {
+  "since": "2010-05-01",
+  "company": "Raffay & Cie.GmbH",
+  "title": "Founder"
+ },
+ "Michael Lavner": {
+  "since": "2025-06-01",
+  "company": "Never Lift",
+  "title": "General Partner"
+ },
+ "Magda Lukaszewicz": {
+  "since": "2025-03-01",
+  "company": "Inventure",
+  "title": "Partner"
+ },
+ "Kaan Polat": {
+  "since": "2026-04-01",
+  "company": "Grand Games",
+  "title": "Chief of Staff"
+ },
+ "Aitor Almendros": {
+  "since": "2025-09-01",
+  "company": "Renascentia AI",
+  "title": "Partner"
+ },
+ "Ryan Cherry": {
+  "since": "2026-08-01",
+  "company": "Crestline",
+  "title": "Investment Associate"
+ },
+ "Chase Packard": {
+  "since": "2025-04-01",
+  "company": "Marathon Management Partners",
+  "title": "Founding Partner"
+ },
+ "Jared Schulman": {
+  "since": "2025-11-01",
+  "company": "Neuralink",
+  "title": "Lead, Strategic Finance"
+ },
+ "Angelica Costa": {
+  "since": "2026-04-01",
+  "company": "Mighty Capital",
+  "title": "Operations"
+ },
+ "Mathias Pastor": {
+  "since": "2025-01-01",
+  "company": "HodlCo",
+  "title": "Director"
+ },
+ "Varun Mohapatra": {
+  "since": "2026-06-01",
+  "company": "Tracebit",
+  "title": "Product"
+ },
+ "Robie Evangelista": {
+  "since": "2025-11-01",
+  "company": "Cantorna Creative",
+  "title": "Executive Business Partner"
+ },
+ "Mina Mutafchieva": {
+  "since": "2025-03-01",
+  "company": "HV Capital",
+  "title": "Partner (Growth)"
+ },
+ "Andrea Garcia": {
+  "since": "2025-01-01",
+  "company": "Nauta",
+  "title": "Principal"
+ },
+ "Ties Boukema": {
+  "since": "2026-08-01",
+  "company": "Hg",
+  "title": "Head of internal AI"
+ },
+ "Grace Cassy": {
+  "since": "2026-01-01",
+  "company": "Ten Eleven Ventures",
+  "title": "Partner"
+ },
+ "Roman Lobas": {
+  "since": "2026-02-01",
+  "company": "Icebreaker Agency",
+  "title": "Co-founder & Partner"
+ },
+ "Mathias Lorenz": {
+  "since": "2025-08-01",
+  "company": "Delphinus Venture Capital",
+  "title": "Managing Partner & CEO"
+ },
+ "MARCINKOWSKI Maud": {
+  "since": "2026-02-01",
+  "company": "European Investment Bank",
+  "title": "Senior Operational Assistant"
+ },
+ "Tamina Fogelberg": {
+  "since": "2025-01-01",
+  "company": "Nothing",
+  "title": "Director of Global Strategy & Corporate Development"
+ },
+ "Martin Ericsson": {
+  "since": "2026-01-01",
+  "company": "Priori Capital",
+  "title": "Founder & CEO"
+ },
+ "Helena Barman": {
+  "since": "2024-04-01",
+  "company": "Antler",
+  "title": "VC Investor, Antler Elevate"
+ },
+ "Louis Frach": {
+  "since": "2025-01-01",
+  "company": "Left Lane Capital",
+  "title": "Investor"
+ },
+ "Daniel Benjamin": {
+  "since": "2024-01-01",
+  "company": "Eon",
+  "title": "Seed Investor"
+ },
+ "Ilan Goudsmit": {
+  "since": "2024-06-01",
+  "company": "Goldsmith Ventures",
+  "title": "Founder & Strategic Advisor"
+ },
+ "Niclas Englert": {
+  "since": "2026-08-01",
+  "company": "London Business School",
+  "title": "MBA Candidate"
+ },
+ "Anne Dobree": {
+  "since": "2024-06-01",
+  "company": "Parkwalk",
+  "title": "Investment Director"
+ },
+ "Carina Namih": {
+  "since": "2022-01-01",
+  "company": "Plural",
+  "title": "Partner"
+ },
+ "Elisabeth Kuester": {
+  "since": "2026-08-01",
+  "company": "Deliveroo",
+  "title": "Finance & Strategy Senior Manager"
+ },
+ "Isobel Sprules": {
+  "since": "2026-03-01",
+  "company": "Plural",
+  "title": "Executive Assistant to Partner"
+ },
+ "Chloe Barlass": {
+  "since": "2025-08-01",
+  "company": "Fundment",
+  "title": "Head of Business Administration"
+ },
+ "Peony Li": {
+  "since": "2020-10-01",
+  "company": "Jude",
+  "title": "Founder and CEO"
+ },
+ "Soheil Mirpour": {
+  "since": "2024-01-01",
+  "company": "Melotech",
+  "title": "Founder"
+ },
+ "Tom Lambert": {
+  "since": "2019-03-01",
+  "company": "LocalGlobe",
+  "title": "Partner"
+ },
+ "Nick Stocks": {
+  "since": "2014-06-01",
+  "company": "Personal",
+  "title": "Angel, LP, and more"
+ },
+ "Nishu Lahoti": {
+  "since": "2022-10-01",
+  "company": "Nonlinear Labs",
+  "title": "Founder"
+ },
+ "Avid Duggan": {
+  "since": "2019-06-01",
+  "company": "The Operator Network",
+  "title": "Partner & Co-Founder"
+ },
+ "Jon Koplin": {
+  "since": "2017-01-01",
+  "company": "Cisco Investments",
+  "title": "Managing Director EMEA, Cisco Investments and Corporate Development"
+ },
+ "Isabel Wrubel": {
+  "since": "2026-06-01",
+  "company": "Hyde",
+  "title": "AI Strategist"
+ },
+ "Nikita Andersson": {
+  "since": "2021-01-01",
+  "company": "Independent angel investor",
+  "title": "Angel"
+ },
+ "Lola Wajskop": {
+  "since": "2025-01-01",
+  "company": "Asylum Ventures",
+  "title": "Partner"
+ },
+ "Patrick Mollard": {
+  "since": "2022-06-01",
+  "company": "Fipto",
+  "title": "Co-Founder & CEO"
+ },
+ "Calvin Yeoh": {
+  "since": "2026-08-01",
+  "company": "Stealth Company",
+  "title": "Something new"
+ },
+ "Tim Boer": {
+  "since": "2023-09-01",
+  "company": "AXECO",
+  "title": "Partner"
+ },
+ "Hugo Hazon": {
+  "since": "2026-05-01",
+  "company": "Concept Ventures",
+  "title": "Principal"
+ },
+ "Zimola Jakub": {
+  "since": "2026-09-01",
+  "company": "Miton",
+  "title": "New Ventures"
+ },
+ "Cliff Worley": {
+  "since": "2022-11-01",
+  "company": "Automate First",
+  "title": "Founder & AI Consultant"
+ },
+ "Jannis Fett": {
+  "since": "2021-02-01",
+  "company": "HV",
+  "title": "Principal"
+ },
+ "Andrea Serra": {
+  "since": "2026-07-01",
+  "company": "poolside",
+  "title": "Director of Partnerships and Business Operations"
+ },
+ "Nina Cardelus": {
+  "since": "2022-05-01",
+  "company": "Lightrock",
+  "title": "Vice President"
+ },
+ "Thierry François": {
+  "since": "2010-12-01",
+  "company": "magenta tree",
+  "title": "Managing Director"
+ },
+ "Simba Deu": {
+  "since": "2026-05-01",
+  "company": "Prima Beta",
+  "title": "Investing with mates"
+ },
+ "Alexandros Bottenbruch": {
+  "since": "2023-11-01",
+  "company": "Founder-first Angel",
+  "title": "Angel Investor"
+ },
+ "Judith Dada": {
+  "since": "2026-09-01",
+  "company": "Langdock",
+  "title": "Co-CEO"
+ },
+ "Marius Groke": {
+  "since": "2025-08-01",
+  "company": "Mav9",
+  "title": "Co-Founder"
+ },
+ "Saana Sairanen": {
+  "since": "2026-05-01",
+  "company": "Vipps MobilePay",
+  "title": "Account Manager"
+ },
+ "Mikko Vesterinen": {
+  "since": "2025-03-01",
+  "company": "Canatu",
+  "title": "Chief Financial Officer"
+ },
+ "Bhrigu Bali": {
+  "since": "2021-12-01",
+  "company": "noa",
+  "title": "CFO/COO"
+ },
+ "Suzanne Ashman": {
+  "since": "2026-05-01",
+  "company": "Sovereign AI",
+  "title": "Managing Partner"
+ },
+ "Guillaume DURAO": {
+  "since": "2023-03-01",
+  "company": "Emblem",
+  "title": "Founder & General Partner"
+ },
+ "Nagraj Kashyap": {
+  "since": "2023-03-01",
+  "company": "Touring Capital",
+  "title": "Co-Founder and General Partner"
+ },
+ "Itxaso del Palacio": {
+  "since": "2018-11-01",
+  "company": "Notion Capital",
+  "title": "General Partner"
+ },
+ "Leslie Feinzaig": {
+  "since": "2021-10-01",
+  "company": "Graham & Walker VC",
+  "title": "Founder & General Partner"
+ },
+ "Manuel Miguez": {
+  "since": "2026-07-01",
+  "company": "HappyRobot",
+  "title": "Head of Sales - South Europe"
+ },
+ "Hitoshi Yoshida": {
+  "since": "2022-01-01",
+  "company": "ixi",
+  "title": "Chief Executive Officer"
+ },
+ "Inês Delgado": {
+  "since": "2026-06-01",
+  "company": "iCapital",
+  "title": "Strategic Expansion & Product Development, Vice President"
+ },
+ "Josh Trup": {
+  "since": "2024-01-01",
+  "company": "Greenfield Partners",
+  "title": "Principal"
+ },
+ "Marcel Rafart": {
+  "since": "2015-03-01",
+  "company": "Galdana Ventures",
+  "title": "Founder and Chairman"
+ },
+ "Alexander Krespi": {
+  "since": "2025-06-01",
+  "company": "Paladin Capital Group",
+  "title": "Venture Investor"
+ },
+ "Rocio Hodaly": {
+  "since": "2015-09-01",
+  "company": "Galdana Ventures",
+  "title": "Executive Assistant to Managing Director"
+ },
+ "Zaya Kadyrova": {
+  "since": "2026-01-01",
+  "company": "Aspire11",
+  "title": "Co-Founder and Managing Partner"
+ },
+ "Lisa Coble": {
+  "since": "2022-08-01",
+  "company": "Jefferies",
+  "title": "Executive Assistant"
+ },
+ "Phoebe Kitchen": {
+  "since": "2025-09-01",
+  "company": "Molten Ventures",
+  "title": "Principal"
+ },
+ "Ashna Ahmad": {
+  "since": "2026-01-01",
+  "company": "Galdera",
+  "title": "Founding Engineer"
+ },
+ "Archit Rathi": {
+  "since": "2023-10-01",
+  "company": "Atlabs AI",
+  "title": "Co-Founder"
+ },
+ "Toby Lywood": {
+  "since": "2026-03-01",
+  "company": "10xHumans",
+  "title": "Corp Dev Lead"
+ },
+ "Ashish Aggarwal": {
+  "since": "2025-01-01",
+  "company": "Endeavor",
+  "title": "Mentor"
+ },
+ "Elisabeth Granger": {
+  "since": "2025-08-01",
+  "company": "Pebl",
+  "title": "VP, Finance - Strategy & Operations"
+ },
+ "Daniel Tarver": {
+  "since": "2025-04-01",
+  "company": "Trioak Capital",
+  "title": "Partner"
+ },
+ "James Popplewell": {
+  "since": "2024-03-01",
+  "company": "Brookfield",
+  "title": "Senior Vice President"
+ },
+ "Héléna Cavell": {
+  "since": "2026-01-01",
+  "company": "Jibe Ventures",
+  "title": "Partner"
+ },
+ "Simon Pastor": {
+  "since": "2026-04-01",
+  "company": "Index Ventures",
+  "title": "Partner"
+ },
+ "Andres Gonzales": {
+  "since": "2025-08-01",
+  "company": "The Bicester Collection",
+  "title": "Business Planning Manager - Guest Knowledge & Insights"
+ },
+ "Chloé Merlet": {
+  "since": "2026-09-01",
+  "company": "Hg",
+  "title": "Investor"
+ },
+ "Rebecca Brill": {
+  "since": "2026-01-01",
+  "company": "Career break",
+  "title": "Personal goal pursuit"
+ },
+ "Millan Suri": {
+  "since": "2025-04-01",
+  "company": "Episode 1 Ventures",
+  "title": "Principal"
+ },
+ "Philipp Moehring": {
+  "since": "2017-01-01",
+  "company": "Tiny Supercomputer Investment Company",
+  "title": "Partner"
+ },
+ "Kate McGinn": {
+  "since": "2026-01-01",
+  "company": "[tbd]",
+  "title": "talent & investing"
+ },
+ "Dina Gainullina": {
+  "since": "2026-06-01",
+  "company": "Daya Ventures",
+  "title": "Limited Partner"
+ },
+ "Christine Schöneweis": {
+  "since": "2026-01-01",
+  "company": "Phoenix Contact",
+  "title": "Mitglied des Beirats"
+ },
+ "Sali Elagab": {
+  "since": "2026-07-01",
+  "company": "First Abu Dhabi Bank",
+  "title": "AVP, Business Intelligence, AI Innovation Hub"
+ },
+ "Maria Frère": {
+  "since": "2026-04-01",
+  "company": "Semapa Next",
+  "title": "Marketing and Community Manager"
+ }
 }
