@@ -542,10 +542,18 @@ for _dm, _bv in (_brels or {}).items():
         _net_add(_in, {"n": _ex, "f": _bnm, "d": _dm, "p": _pc,
                        "l": _r2.get("last"), "m": _r2.get("meet"),
                        "e": _r2.get("externalEmail"), "v": _st2 == "current"})
-for _k2 in _mynet:   # strongest first, cap per person
-    _mynet[_k2] = sorted(_mynet[_k2], key=lambda x: -x["p"])[:400]
-_movers = []
+for _k2 in _mynet:   # dedupe same contact tracked under two region entries, strongest first, cap
+    _best = {}
+    for _e3 in _mynet[_k2]:
+        _old = _best.get(_e3["n"])
+        if _old is None or (_e3["v"], _e3["p"], _e3.get("l") or "") > (_old["v"], _old["p"], _old.get("l") or ""):
+            _best[_e3["n"]] = _e3
+    _mynet[_k2] = sorted(_best.values(), key=lambda x: -x["p"])[:400]
+_movers, _mvseen = [], set()
 def _mv_add(name, from_name, info):
+    if name in _mvseen:
+        return
+    _mvseen.add(name)
     _md = _mvdates.get(name) or {}
     _movers.append({"n": name, "fr": from_name, "now": info.get("now"),
                     "since": _md.get("since"), "co": _md.get("company"),

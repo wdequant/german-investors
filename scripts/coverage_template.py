@@ -717,6 +717,29 @@ body.mkmode{cursor:crosshair}
   #viewseg{order:2}
   #q{order:3;flex-basis:100%;max-width:none;margin-left:0}
 }
+/* My Network: segment bar, one-line people rows, cadence chips */
+.segbar{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 14px}
+.segbar button{border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
+  border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer;font-family:inherit}
+.segbar button b{font-weight:700;margin-left:4px}
+.segbar button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.nrow{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--hair2);font-size:14.5px}
+.nrow:last-child{border-bottom:0}
+.nrow .nm{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nrow .nf{color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+.nrow .nl{color:var(--muted);font-size:12.5px;white-space:nowrap;flex:none}
+.nrow .nmail{flex:none;text-decoration:none}
+.cadchip{flex:none;border:1px solid var(--hair);background:none;color:var(--muted);border-radius:999px;
+  padding:2px 9px;font-size:11px;cursor:pointer;font-family:inherit}
+.cadchip.on{color:var(--ink2);border-color:var(--ink2)}
+.nrow.cold .nl{color:var(--gap-ink);font-weight:600}
+.t3row{display:flex;align-items:baseline;gap:8px;padding:7px 0;font-size:15px;flex-wrap:wrap}
+.t3row .t3what{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;flex:none;width:96px}
+@media(max-width:700px){
+  .nrow{flex-wrap:wrap;row-gap:2px}
+  .nrow .nf{flex-basis:100%;padding-left:36px}
+  .t3row .t3what{width:auto;flex-basis:100%}
+}
 </style>
 
 <div class="appbar"><div class="in">
@@ -746,7 +769,7 @@ body.mkmode{cursor:crosshair}
   <a class="sitem" data-page="cov"><span class="si">▦</span>Coverage by Region</a>
   <div class="slabel" style="margin-top:14px">Workflows</div>
   <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
-  <a class="sitem" data-page="net"><span class="si">⇗</span>Build my Network</a>
+  <a class="sitem" data-page="net"><span class="si">⇗</span>My Network</a>
   <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
 </nav>
 <main id="content">
@@ -1010,7 +1033,7 @@ const htcPaths=(c,who)=>{
   return {all, team, self};
 };
 const metroOf = c => METRO[c]||c;
-const ap = {mode:'', who:'', city:'', hsort:'ease'};
+const ap = {mode:'', who:'', city:'', hsort:'ease', nseg:'target'};
 // ---------- shortlist: star anything in a workflow into a persistent "earmarked" rail ----------
 let SHORT = [];
 try{ SHORT = JSON.parse(localStorage.getItem('sonar_shortlist')||'[]'); }catch(err){}
@@ -1263,7 +1286,7 @@ function renderDash(){
         </div>
       </div>
       <div class="dtile go" data-go-page="net">
-        <div class="dtlabel">Build ${fn?fn+"'s":'the'} network</div>
+        <div class="dtlabel">${fn?fn+"'s":'Our'} network</div>
         <div class="dsplit">
           <div class="dtduo">${bub(borrow.length, borrow.length?'medium':'strong', 'intros the team can make you', true)}</div>
           <div class="dprev"><div class="dph">Start with</div>
@@ -1313,7 +1336,7 @@ function refresh(){  // re-render whatever page is active
   else renderWork();
 }
 function renderWork(){
-  const titles={htc:'Solve my Hard to Cracks', net:'Build my Network', geo:'Plan a City Trip'};
+  const titles={htc:'Solve my Hard to Cracks', net:'My Network', geo:'Plan a City Trip'};
   document.getElementById('worktitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
   ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
@@ -1333,6 +1356,11 @@ function renderWork(){
     const [kind,r,slug]=b.dataset.draft.split(':'); draftWidget(kind,r,slug);}));
   body.querySelectorAll('[data-gocity]').forEach(b=>b.addEventListener('click',()=>{
     ap.city=b.dataset.gocity; renderWork();
+  }));
+  body.querySelectorAll('[data-nseg]').forEach(b=>b.addEventListener('click',()=>{ap.nseg=b.dataset.nseg;renderWork();}));
+  body.querySelectorAll('[data-cad]').forEach(b=>b.addEventListener('click',()=>{
+    const k=decodeURIComponent(b.dataset.cad), cur=+b.dataset.cur||0;
+    CAD[k]={0:4,4:6,6:12,12:0}[cur]??4; saveCad(); renderWork();
   }));
   bindStars(body);
   renderRail();
@@ -1422,6 +1450,28 @@ function keepWarm(who){
   });
   return out.sort((a,b)=>b.pct-a.pct||b.mo-a.mo);
 }
+// per-contact cadence (localStorage): how often you want to touch each relationship
+const CAD=(()=>{try{return JSON.parse(localStorage.getItem('sonar_cadence')||'{}');}catch(err){return {};}})();
+function saveCad(){try{localStorage.setItem('sonar_cadence',JSON.stringify(CAD));}catch(err){}}
+const moAgo=d=>d?(Date.now()-new Date(d).getTime())/26298e5:null;
+const cadOf=e=>{const v=CAD[e.n+'|'+e.f]; return v!=null?v:(e.p>=60?4:0);};
+const isCold=e=>{const c=cadOf(e), m=moAgo(e.l); return c>0&&m!=null&&m>c&&m<=24;};
+function rewarmMail(e,who){
+  const wf=(who||'').split(' ')[0];
+  const body=`Hi ${e.n.split(' ')[0]} — been too long since we last caught up. Would love to hear what you are seeing at ${e.f} at the moment — coffee or a call in the next couple of weeks? — ${wf}`;
+  return `mailto:${e.e}?subject=${encodeURIComponent('Catching up')}&body=${encodeURIComponent(body)}`;
+}
+function netRow(e,who){
+  const cad=cadOf(e), cold=isCold(e), mo=moAgo(e.l);
+  return `<div class="nrow${cold?' cold':''}">
+    <b class="mbub ${easeTierOf(e.p)}">${e.p}</b>
+    <span class="nm">${e.n}</span>${everTag({ever:e.v})}
+    <span class="nf">${e.f}</span>
+    <span class="nl">${e.l?`${fmtD(e.l)}${cold?` · ${Math.round(mo)} mo`:''}`:'no touch logged'}</span>
+    <button class="cadchip${cad?' on':''}" data-cad="${encodeURIComponent(e.n+'|'+e.f)}" data-cur="${cad}" title="How often you want to touch this relationship — click to change">${cad?`every ${cad}mo`:'no cadence'}</button>
+    ${e.e?`<a class="nmail" href="${rewarmMail(e,who)}" title="Email ${e.n.split(' ')[0]}">✉</a>`:''}
+  </div>`;
+}
 function netAskBody(who,e,p){
   const wf=who.split(' ')[0];
   return `Hey ${p.internal.split(' ')[0]} — I'm trying to build my own line into ${e.name} and you hold our strongest path (${p.external}${p.pct!=null?`, ${p.pct}%`:''}). Could you intro me or bring me along next time? Thanks! — ${wf}`;
@@ -1463,17 +1513,44 @@ function apNet(){
         ${(e.bridges||[]).length?`<span class="cc" style="align-self:center">or bridge via ${e.bridges[0].name} (${e.bridges[0].internal.split(' ')[0]})</span>`:''}</div>
       <div class="apdraftwrap" id="dw-${e.slug}"></div></div>`;
   }).join('');
-  const warm=keepWarm(who).slice(0,8);
-  const wf=who.split(' ')[0];
-  const wRows=warm.map(w=>{
-    const body=`Hi ${w.person.split(' ')[0]} — been too long since we last caught up. Would love to hear what you're seeing at ${w.fund} at the moment — coffee or a call in the next couple of weeks? — ${wf}`;
-    return `<div class="appath"><b>${w.person}</b> <span class="via">· ${w.fund} · ${w.pct}% · last touch ${fmtD(w.last)} (${w.mo} mo ago)</span>
-      ${w.email?`<a href="mailto:${w.email}?subject=${encodeURIComponent('Catching up')}&body=${encodeURIComponent(body)}" style="margin-left:8px">✉ Re-warm</a>`:''}</div>`;
-  }).join('');
-  return `${warm.length?`<div class="apsec">Keep warm — strong doors going cold</div>
-    <div class="apcard">${wRows}</div>`:''}
-    <div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
+  // --- your tracked relationships (D.mynet) + recent moves (D.movers) ---
+  const net=((D.mynet||{})[who]||[]);
+  const strong=net.filter(e=>e.p>=60), building=net.filter(e=>e.p>=20&&e.p<60);
+  const cold=net.filter(isCold).sort((a,b)=>b.p-a.p);
+  const moves=(D.movers||[])
+    .filter(m=>(m.k||[]).includes(who)&&m.since&&moAgo(m.since)<=6)
+    .sort((a,b)=>new Date(b.since)-new Date(a.since));
+  // Your 3 today — one re-warm, one congratulation, one borrow ask
+  const t1=cold.find(e=>e.v)||cold[0], t2=moves[0], t3=borrow[0];
+  const todayRows=[
+    t1?`<div class="t3row"><span class="t3what">Re-warm</span><b>${t1.n}</b>${everTag({ever:t1.v})} <span class="via">· ${t1.f} · ${t1.p}% · last touch ${fmtD(t1.l)}</span>
+      ${t1.e?`<a href="${rewarmMail(t1,who)}">✉ Re-warm</a>`:''}</div>`:'',
+    t2?`<div class="t3row"><span class="t3what">Congratulate</span><b>${t2.n}</b> <span class="via">· just joined ${t2.co||t2.now||'a new firm'}${t2.ti?` as ${t2.ti}`:''} (from ${t2.fr})</span>
+      <a href="${liSearch(t2.n,t2.co||t2.now||'')}" target="_blank" rel="noopener">Congratulate ↗</a></div>`:'',
+    t3?`<div class="t3row"><span class="t3what">Ask</span><b>${t3.e.points[0].internal.split(' ')[0]}</b> <span class="via">to open ${t3.e.name} — their door: ${t3.e.points[0].external||'a contact'}${t3.e.points[0].pct!=null?` · ${t3.e.points[0].pct}%`:''}</span>
+      <a href="mailto:${hlMail(t3.e.points[0].internal)}?subject=${encodeURIComponent('Intro to '+(t3.e.points[0].external||t3.e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,t3.e,t3.e.points[0]))}">✉ Ask</a></div>`:''
+  ].filter(Boolean);
+  // Moves in your network (viewer-filtered, hidden when empty)
+  const mvRows=moves.slice(0,8).map(m=>`<div class="nrow mv">
+    <span class="nm">${m.n}</span>
+    <span class="nf">${m.fr} → <b>${m.co||m.now||'?'}</b>${m.ti?` (${m.ti})`:''}</span>
+    <span class="nl">${fmtD(m.since)}</span>
+    <a class="nmail" href="${liSearch(m.n,m.co||m.now||'')}" target="_blank" rel="noopener" title="Find on LinkedIn">↗</a></div>`).join('');
+  // Segment bar filters the content below
+  const seg=ap.nseg||'target';
+  const segs=[['target','Target',borrow.length+ground.length],['building','Building',building.length],
+              ['strong','Strong',strong.length],['cold','Going cold',cold.length]];
+  const segBar=`<div class="segbar">${segs.map(([k,lab,n])=>`<button data-nseg="${k}"${seg===k?' class="on"':''}>${lab}<b>${n}</b></button>`).join('')}</div>`;
+  const rows=list=>list.length?`<div class="apcard">${list.slice(0,120).map(e=>netRow(e,who)).join('')}</div>`:'<div class="aphint">No one here yet.</div>';
+  let segBody='';
+  if(seg==='target') segBody=`<div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
     <div class="apsec">Open new ground — relevant funds no one at Highland covers</div>${gCards||'<div class="aphint">None.</div>'}`;
+  else if(seg==='building') segBody=rows(building.sort((a,b)=>b.p-a.p));
+  else if(seg==='strong') segBody=rows(strong.sort((a,b)=>b.p-a.p));
+  else segBody=cold.length?rows(cold):'<div class="aphint">No one is going cold — every relationship with a cadence has been touched in time.</div>';
+  return `${todayRows.length?`<div class="apsec">Your ${todayRows.length===1?'1':todayRows.length} today</div><div class="apcard">${todayRows.join('')}</div>`:''}
+    ${mvRows?`<div class="apsec">Moves in your network — people you know in new seats</div><div class="apcard">${mvRows}</div>`:''}
+    ${segBar}${segBody}`;
 }
 
 function draftWidget(kind,r,slug){
@@ -1944,7 +2021,7 @@ let MARKS=[]; try{ MARKS=JSON.parse(localStorage.getItem('sonar_marks')||'[]'); 
 const MK={on:false, el:null, kind:'kill'};
 const mkPersist=()=>{ try{ localStorage.setItem('sonar_marks', JSON.stringify(MARKS)); }catch(e0){} };
 const mkPage=()=>({dash:'Dashboard',cov:'Coverage · '+((D.regions[state.region]||{}).label||''),
-  h2c:'Solve my H2Cs',net:'Build my Network',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
+  h2c:'Solve my H2Cs',net:'My Network',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
 function mkLabel(el){
   for(const sel of ['.fname','.dtlabel','.dlh','.dsec','.apsec','.sechead h2','.covcap','.th','h1','h2','summary']){
     const n=el.querySelector(sel)||el.closest(sel);
