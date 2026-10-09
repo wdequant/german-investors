@@ -1677,6 +1677,9 @@ function cmCountryPage(me){
         <div class="apcard cmquiet">${over.slice(0,8).map(e=>`<div class="dpli" data-cment="${e.slug}"><b class="mbub low">${Math.round(cmU(e,me).cu)}</b><span class="nm">${e.name}</span><span class="how">strong relationship · little deal flow</span></div>`).join('')}</div>`:''}
       </div>
     </div>
+    ${(()=>{const pinned=((CM.pinsIn||{})[cc]||[]);if(!pinned.length)return '';
+      return `<div class="apsec" style="margin-top:16px">Also in ${CM.ccName[cc]} — teams based elsewhere with investors on the ground</div>
+      <div class="apcard cmquiet">${pinned.slice(0,12).map(p=>`<div class="dpli"><span class="nm"><a href="#" data-gofund="${p.slug}">${p.name}</a></span><span class="how">${p.ppl.join(', ')} · HQ ${CM.ccName[p.cc]||p.cc}</span></div>`).join('')}</div>`;})()}
     <div style="margin-top:16px">${MAP.showAll?`<button class="minibtn" data-cmhideall>Hide the long tail ↑</button>${cmAffCards(me)}${cmPeopleIn(me)}<div style="margin-top:10px"><button class="minibtn" data-cmhideall>Hide ↑</button></div>`:`<button class="minibtn" data-cmshowall>Show all ${allN} investors in ${CM.ccName[cc]}</button>`}</div>`;
 }
 function cmAffCards(me){

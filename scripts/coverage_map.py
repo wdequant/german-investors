@@ -95,7 +95,11 @@ CITY2CC = {"paris": "FR", "lyon": "FR", "berlin": "BER", "potsdam": "BER", "muni
            "london": "LON", "cambridge": "CAM", "oxford": "OXF",
            "edinburgh": "EDI", "glasgow": "EDI", "manchester": "MAN",
            "san francisco": "SF", "menlo park": "SF", "palo alto": "SF",
-           "mountain view": "SF", "new york": "NYC", "boston": "BOS"}
+           "mountain view": "SF", "new york": "NYC", "boston": "BOS",
+           "marseille": "FR", "toulouse": "FR", "bordeaux": "FR", "nantes": "FR", "lille": "FR",
+           "stuttgart": "FRA", "leipzig": "BER", "nuremberg": "MUC", "dresden": "BER",
+           "brooklyn": "NYC", "oakland": "SF", "san mateo": "SF", "redwood city": "SF",
+           "cambridge, ma": "BOS", "somerville": "BOS"}
 SCORING = {
     "sr_w": {"Partner": 0.95, "Director": 0.75, "Associate": 0.40, None: 0.55},
     "stage_w": {"prelead": 1, "reachout": 1, "awaiting": 2, "lead": 3, "hard": 2, "portfolio": 0},
@@ -456,10 +460,16 @@ def build_covmap(regions, mynet, roster, load_json):
         })
 
     # ---- O, O_u, G, M, states ----
-    dfp = _pctile(df_raws)
+    # deal-flow percentile WITHIN each region: the regions' deal counts come from
+    # different measurement regimes (Affinity-observed vs Harmonic pulls), so a
+    # global percentile would flatter whichever regime runs richer (scoring.md wart #1)
+    _dfw_by_rg = {}
+    for e in ents:
+        _dfw_by_rg.setdefault(e.get("rg"), []).append(e["dfw"])
+    dfp_rg = {rg: _pctile(v) for rg, v in _dfw_by_rg.items()}
     pup = {u: _pctile(v or [0]) for u, v in pu_raws.items()}
     for i, e in enumerate(ents):
-        e["O"] = round(0.5 * e["rel"] + 0.5 * dfp(e["dfw"]), 1)
+        e["O"] = round(0.5 * e["rel"] + 0.5 * dfp_rg[e.get("rg")](e["dfw"]), 1)
         U = {}
         for u in roster:
             Cu = e["cu"].get(u, 0)
@@ -739,23 +749,33 @@ def build_covmap(regions, mynet, roster, load_json):
 
     # ---- "Who do you know in <country>": every edge with a person there ----
     _pcs = load_json(f"{ROOT}/data/us/people-cities.json", {}) or {}
+    _METRO_CC = {"SF": "SF", "NYC": "NYC", "BOS": "BOS", "LON": "LON"}
     def _person_cc(e, nm):
-        """US funds pin people where they actually sit (Harmonic office), so a
-        London-based Sequoia partner files under London, not SF."""
-        if e.get("rg") != "us":
-            return e["cc"]
-        _m = ((_pcs.get((nm or "").lower()) or {}).get("metro") or "")
-        if _m in ("SF", "NYC", "BOS", "LON"):
-            return _m
-        return CITY2CC.get(_m.lower()) or e["cc"]
+        """People file under the sub-area where they actually sit (Harmonic-verified
+        city), for every region: a London-based Sequoia partner belongs to London,
+        a Stockholm-based Northzone partner to Stockholm. Unknown city -> the
+        fund's own area; a known city outside the map keeps them off city lists."""
+        _k = (nm or "").lower()
+        _city = ((pm.get(_k) or {}).get("city") or "")
+        _cc = CITY2CC.get(_city.lower())
+        if _cc:
+            return _cc
+        _m = ((_pcs.get(_k) or {}).get("metro") or "")
+        _cc = _METRO_CC.get(_m) or CITY2CC.get(_m.lower())
+        if _cc:
+            return _cc
+        if _city and e.get("rg") == "us":
+            return None   # verified city off the map: not a door in any mapped metro
+        return e["cc"]
     who_in = {}
     for _e10 in ents + aff_ents:
         if not _e10.get("cc"):
             continue
         for _p10 in _e10.get("people") or []:
             _r10 = {u: r for u, r in _p10["r"].items() if r >= 15}
-            if _r10:
-                _w10 = who_in.setdefault(_person_cc(_e10, _p10["n"]), {}).setdefault(_p10["n"], {
+            _cc10x = _person_cc(_e10, _p10["n"]) if _r10 else None
+            if _r10 and _cc10x:
+                _w10 = who_in.setdefault(_cc10x, {}).setdefault(_p10["n"], {
                     "n": _p10["n"], "org": _e10["name"], "last": _p10.get("last"), "r": {}})
                 _w10["r"].update(_r10)
                 for _k10 in ("sr", "t", "li"):
@@ -781,6 +801,30 @@ def build_covmap(regions, mynet, roster, load_json):
             keep.update(id(x) for x in mine)
         return [x for x in ranked if id(x) in keep]
     who_in = {cc: _who_cap(list(v.values())) for cc, v in who_in.items()}
+
+    # ---- multi-pin: a fund also appears wherever its current team verifiably sits ----
+    pins_in = {}
+    for _e12 in ents:
+        if not _e12.get("cc") or _e12.get("kind") == "angel":
+            continue
+        _locs12 = {}
+        for _p12 in _e12.get("people") or []:
+            _c12 = _person_cc(_e12, _p12["n"])
+            if _c12 and _c12 != _e12["cc"] and _c12 in SUB_NAME:
+                _locs12.setdefault(_c12, []).append(_p12["n"])
+        for _c12, _nms12 in _locs12.items():
+            # same human under two spellings (token-subset match): keep the fuller name
+            import unicodedata as _ud12
+            _tok12 = lambda n: {t for t in _ud12.normalize("NFKD", n.lower()).encode("ascii", "ignore").decode().split() if len(t) > 1}
+            _kept12 = []
+            for _n12 in sorted(set(_nms12), key=len, reverse=True):
+                _t12 = _tok12(_n12)
+                if not any(_t12 <= _tok12(k) or _tok12(k) <= _t12 for k in _kept12):
+                    _kept12.append(_n12)
+            pins_in.setdefault(_c12, []).append({"slug": _e12["slug"], "name": _e12["name"],
+                                                 "cc": _e12["cc"], "ppl": _kept12[:4]})
+    for _c12 in pins_in:
+        pins_in[_c12].sort(key=lambda x: -len(x["ppl"]))
 
     # shortlist-based roll-ups replace the raw ones (a long tail cannot drag the number)
     for _cc11 in list(areas.keys()):
@@ -808,7 +852,7 @@ def build_covmap(regions, mynet, roster, load_json):
 
     return {
         "vb": vbs, "peopleIn": people_in, "aff": aff_ents, "who": who_in,
-        "subsOf": subs_of, "regOf": reg_of, "zoomReg": zoom_reg,
+        "subsOf": subs_of, "regOf": reg_of, "zoomReg": zoom_reg, "pinsIn": pins_in,
         "hl": {"nordics": REGION_SUBS["nordics"], "germany": ["DE"], "france": ["FR"], "uk": ["GB"], "us": ["US"]}, "countries": countries, "regions": region_pts,
         "ccent": {k: [round(v[0], 1), round(v[1], 1)] for k, v in ccent.items()},
         "cities": {c: [city_px[c][0], city_px[c][1]] for c in city_px},
