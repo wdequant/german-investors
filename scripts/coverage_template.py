@@ -1572,6 +1572,12 @@ function cmSpendList(me,list){
       const myN=(()=>{let n=0;Object.entries(e.pipe||{}).forEach(([bk,v])=>{if(bk!=='portfolio')v.forEach(co=>{if(co.o&&co.o.includes(me))n++;});});return n;})();
       const h2cN=((e.pipe||{}).hard||[]).length;
       const chips=[];
+      if(u.st==='maintain'||u.st==='over'){
+        const bl=(e.people||[]).filter(p=>me&&p.r[me]).map(p=>p.last||'').sort().pop()||'';
+        const days=bl?Math.round((Date.now()-new Date(bl))/864e5):9e9;
+        chips.push(days<=150?['warm',`Strong${bl?' · '+fmtD(bl):''}`]
+                            :['cold',`Going quiet${bl?' · '+fmtD(bl):''}`]);
+      }
       if(u.tag==='warm') chips.push(['warm','Warm path']);
       if(u.tag==='cold') chips.push(['cold','Cold start']);
       if((e.df12||0)>=6) chips.push(['df','High deal flow']);
@@ -1666,7 +1672,7 @@ function cmCountryPage(me){
           const reng=all.filter(e=>cmU(e,me).st==='maintain').slice(0,6);
           return `<div class="cmspendcols">
             <div><div class="apsec">Build</div>${cmSpendList(me,builds)}</div>
-            <div><div class="apsec">Re-engage</div>${cmSpendList(me,reng)}</div>
+            <div><div class="apsec">Keep close</div>${cmSpendList(me,reng)}</div>
           </div>`;})()}
       </div>
       <div>
