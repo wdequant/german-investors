@@ -3405,5 +3405,20 @@
   "recent_untracked_eu": [],
   "recent_total": 17,
   "recent_eu": 13
+ },
+ "emblem": {
+  "website": "emblem.vc",
+  "partners": [
+   {
+    "name": "Guillaume Durao",
+    "title": "Founder & General Partner",
+    "linkedin": "https://linkedin.com/in/guillaumedurao"
+   },
+   {
+    "name": "Bénédicte De Raphélis Soissan",
+    "title": "Founder & General Partner",
+    "linkedin": "https://linkedin.com/in/benedictederaphelissoissan"
+   }
+  ]
  }
 }

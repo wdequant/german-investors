@@ -3792,7 +3792,8 @@
   "inv": true,
   "title": "Founder & General Partner",
   "city": "Paris",
-  "company": "Emblem"
+  "company": "Emblem",
+  "src": "harmonic"
  },
  "guillaume waser": {
   "inv": true,
@@ -8218,7 +8219,8 @@
   "inv": true,
   "title": "VC",
   "city": "Paris",
-  "company": "Emblem"
+  "company": "Emblem",
+  "src": "harmonic"
  },
  "pierre margeat": {
   "inv": true,
@@ -19988,5 +19990,19 @@
   "inv": false,
   "src": "harmonic-sweep",
   "note": "meeting room, not a person"
+ },
+ "bénédicte de raphélis soissan": {
+  "inv": true,
+  "title": "Founder & General Partner",
+  "city": "Paris",
+  "company": "Emblem",
+  "src": "harmonic"
+ },
+ "pierre frouin": {
+  "inv": true,
+  "title": "Investor / LP",
+  "company": "Emblem",
+  "src": "harmonic",
+  "note": "LP in the fund, not investment staff"
  }
 }

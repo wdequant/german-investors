@@ -17,7 +17,7 @@ SLUG = {
     "Ventech": "ventech", "BREEGA": "breega", "Breega": "breega",
     "GO Capital": "go-capital", "Evolem": "evolem", "Bpifrance": "bpifrance",
     "Singular": "singular", "Frst": "frst", "ISAI": "isai",
-    "Otium Capital": "otium", "Hexa": "hexa",
+    "Otium Capital": "otium", "Hexa": "hexa", "Emblem": "emblem",
     "Xavier Niel": "xavier-niel", "Thibaud Elziere": "thibaud-elziere",
     "Fabrice Grinda": "fabrice-grinda", "Edward Lando": "edward-lando",
     "Eduardo Ronzano": "eduardo-ronzano",

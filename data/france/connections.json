@@ -7444,5 +7444,260 @@
     ]
    }
   ]
+ },
+ "39333808": {
+  "id": 39333808,
+  "name": "Emblem",
+  "connections": [
+   {
+    "person": "Guillaume Durao",
+    "title": "Founder & General Partner",
+    "linkedin": "https://linkedin.com/in/guillaumedurao",
+    "via": [
+     {
+      "user": "Lucinda Maxwell",
+      "sources": [
+       "EMAIL"
+      ],
+      "last": "2025-11-25"
+     },
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-22"
+     },
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-22"
+     },
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-22"
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-08"
+     },
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Jean Tardy-Joubert",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Bénédicte De Raphélis Soissan",
+    "title": "Founder & General Partner",
+    "linkedin": "https://linkedin.com/in/benedictederaphelissoissan",
+    "via": [
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Pierre Frouin",
+    "title": "Investor / LP",
+    "linkedin": "https://linkedin.com/in/pierrefrouin",
+    "via": [
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-22"
+     },
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-22"
+     },
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-22"
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-04-08"
+     },
+     {
+      "user": "Aude Flecchia",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "person": "Pierre Ljubic",
+    "title": "VC",
+    "linkedin": "https://linkedin.com/in/pierre-ljubic-645620204",
+    "via": [
+     {
+      "user": "Helena Richardson",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Aude Flecchia",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Ulrik Bo Larsen",
+    "title": "Limited Partner",
+    "linkedin": "https://linkedin.com/in/ulrikbolarsen",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Sam Brooks",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Bjorn Andersen",
+    "title": "Investor / LP",
+    "linkedin": "https://linkedin.com/in/bjoernandersen",
+    "via": [
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Betina Nygaard",
+    "title": "Investor / LP",
+    "linkedin": "https://linkedin.com/in/betina-nygaard-63448a2",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Philippe Gelis",
+    "title": "Investor / LP",
+    "linkedin": "https://linkedin.com/in/philippegelis",
+    "via": [
+     {
+      "user": "Stan",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Tony Zappala",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   }
+  ]
  }
 }

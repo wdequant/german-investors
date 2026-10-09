@@ -1,0 +1,128 @@
+{
+ "slug": "emblem",
+ "affinity_domain": "emblem.vc",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Aude Flecchia",
+   "external": "Pierre Ljubic",
+   "externalEmail": "pierre@emblem.vc",
+   "score": 1.0,
+   "last": "2026-08-24",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.69,
+   "last": "2026-10-06",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.64,
+   "last": "2026-10-06",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.57,
+   "last": "2026-10-06",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.5,
+   "last": "2026-10-06",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.42,
+   "last": "2026-10-06",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Pierre Ljubic",
+   "externalEmail": "pierre@emblem.vc",
+   "score": 0.39,
+   "last": "2026-08-24",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Pierre Ljubic",
+   "externalEmail": "pierre@emblem.vc",
+   "score": 0.32,
+   "last": "2026-08-24",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.32,
+   "last": "2026-10-06",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Antoine Pruvot",
+   "externalEmail": "antoine@emblem.vc",
+   "score": 0.41,
+   "last": "2026-08-31",
+   "meet": null
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Pierre Ljubic",
+   "externalEmail": "pierre@emblem.vc",
+   "score": 0.1,
+   "last": "2026-08-24",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Pierre Ljubic",
+   "externalEmail": "pierre@emblem.vc",
+   "score": 0.1,
+   "last": "2026-08-24",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "Abhishek Lahoti",
+   "external": "Pierre Ljubic",
+   "externalEmail": "pierre@emblem.vc",
+   "score": 0.1,
+   "last": "2026-08-24",
+   "meet": "2026-07-03"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Bénédicte de Raphélis Soissan",
+   "externalEmail": "benedicte@emblem.vc",
+   "score": 0.1,
+   "last": "2026-08-24",
+   "meet": null
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Bénédicte de Raphélis Soissan",
+   "externalEmail": "benedicte@emblem.vc",
+   "score": 0.1,
+   "last": "2026-08-24",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-09"
+}

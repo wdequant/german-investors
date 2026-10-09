@@ -361,7 +361,7 @@ def build_covmap(regions, mynet, roster, load_json):
                 if not nm or (pm.get(nm.lower()) or {}).get("inv") is False:
                     continue   # assistants/ops never count toward coverage
                 R = round(0.75 * (c.get("pct") or 0) + 25 * _rec(c.get("last")), 1)
-                p = people.setdefault(nm, {"n": nm, "r": {}, "last": None})
+                p = people.setdefault(nm.lower(), {"n": nm, "r": {}, "last": None})
                 p["r"][u] = max(p["r"].get(u, 0), R)
                 if c.get("linkedin") and not p.get("li"):
                     p["li"] = c["linkedin"]
@@ -376,7 +376,7 @@ def build_covmap(regions, mynet, roster, load_json):
                     continue
                 nm1 = _mx["n"]
                 R2 = round(0.75 * (_mx.get("p") or 0) + 25 * _rec(_mx.get("l")), 1)
-                p1 = people.setdefault(nm1, {"n": nm1, "r": {}, "last": None})
+                p1 = people.setdefault(nm1.lower(), {"n": nm1, "r": {}, "last": None})
                 if R2 > p1["r"].get(_u1, 0):
                     p1["r"][_u1] = R2
                 if _mx.get("l") and (not p1["last"] or _mx["l"] > p1["last"]):
@@ -408,7 +408,7 @@ def build_covmap(regions, mynet, roster, load_json):
                     R7 = 38.0
                 else:
                     R7 = 28.0
-                _p7 = people.setdefault(_nm7, {"n": _nm7, "r": {}, "last": None})
+                _p7 = people.setdefault(_nm7.lower(), {"n": _nm7, "r": {}, "last": None})
                 if R7 > _p7["r"].get(_u7, 0):
                     _p7["r"][_u7] = R7
                 if _last7 and (not _p7["last"] or _last7 > _p7["last"]):
@@ -893,6 +893,8 @@ def _sr_from_title(title):
     t = (title or "").lower()
     if not t:
         return None
+    if re.search(r"\blimited partner\b|investor\s*/\s*lp|\blp\b", t):
+        return None   # an LP backs the fund but is not investment staff
     if (any(k in t for k in ("partner", "managing director", "head of", "chief", "founder", "cio", "ceo"))
             or re.search(r"\bgp\b", t)):
         return "Partner"

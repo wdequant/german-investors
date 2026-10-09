@@ -834,5 +834,24 @@
   "last_investment": "2026-07-21",
   "europe_share": 28.0,
   "linkedin": "https://linkedin.com/in/clementdelangue"
+ },
+ {
+  "urn": "urn:harmonic:investor:147918",
+  "name": "Emblem",
+  "kind": "fund",
+  "category": "vc",
+  "cc": "FR",
+  "company_id": 39333808,
+  "person_id": null,
+  "city": "Paris",
+  "country": "France",
+  "entry_stage_focus": "PRE_SEED",
+  "sector_focus": "Communications & Information Technology",
+  "num_investments": 20,
+  "num_unicorns": 1,
+  "follow_on_rate": 0.3333333333333333,
+  "last_investment": "2026-08-11",
+  "europe_share": 94.4,
+  "linkedin": "https://linkedin.com/company/emblemvc"
  }
 ]

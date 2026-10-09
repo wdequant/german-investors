@@ -4093,5 +4093,106 @@
    "valuation_usd": 3000000,
    "valuation_est": true
   }
+ ],
+ "emblem": [
+  {
+   "name": "Palette",
+   "domain": "palette.team",
+   "harmonic_company_id": 62024115,
+   "country": "Denmark",
+   "date": "2026-08-11",
+   "round": "PRE_SEED",
+   "round_size_usd": 3462612,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Pivot",
+   "domain": "pivotapp.ai",
+   "harmonic_company_id": 76062086,
+   "country": "France",
+   "date": "2026-05-21",
+   "round": "SERIES_B",
+   "round_size_usd": 40000000,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Pillar",
+   "domain": "pillar.it",
+   "harmonic_company_id": 35326725,
+   "country": "Italy",
+   "date": "2026-05-12",
+   "round": "SEED",
+   "round_size_usd": 14082192,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Atech",
+   "domain": "atech.dev",
+   "harmonic_company_id": 69679876,
+   "country": "Denmark",
+   "date": "2026-04-27",
+   "round": "PRE_SEED",
+   "round_size_usd": 798827,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Skye",
+   "domain": "skye.energy",
+   "harmonic_company_id": 62010805,
+   "country": "Sweden",
+   "date": "2025-12-17",
+   "round": "SEED",
+   "round_size_usd": 11285925,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Volta Software",
+   "domain": "voltasoftware.com",
+   "harmonic_company_id": 57310098,
+   "country": "Italy",
+   "date": "2025-10-22",
+   "round": "SEED",
+   "round_size_usd": 5806055,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Pillar",
+   "domain": "pillar.it",
+   "harmonic_company_id": 35326725,
+   "country": "Italy",
+   "date": "2025-09-23",
+   "round": "PRE_SEED",
+   "round_size_usd": 3775500,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Opper AI",
+   "domain": "opper.ai",
+   "harmonic_company_id": 43845484,
+   "country": "Sweden",
+   "date": "2025-07-14",
+   "round": "PRE_SEED",
+   "round_size_usd": 2921415,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  },
+  {
+   "name": "Veliu",
+   "domain": null,
+   "harmonic_company_id": 60313737,
+   "country": "Italy",
+   "date": "2025-06-30",
+   "round": "PRE_SEED",
+   "round_size_usd": 5200000,
+   "total_funding_usd": null,
+   "valuation_usd": null
+  }
  ]
 }
