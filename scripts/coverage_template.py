@@ -2187,8 +2187,22 @@ function buildDeck(who){
       sub:`${D.regions[r].label} · relevance ${e.relevance?.total??'—'} · nobody at Highland has a line in — you'd be first${pk?` · door: <b>${pk.name}</b>${pk.title?' ('+pk.title+')':''}`:''}`,
       href:pk?(pk.linkedin||liSearch(pk.name,e.name)):liSearch(e.name,''),
       hlabel:pk?`Find ${pk.name.split(' ')[0]} on LinkedIn ↗`:'Find on LinkedIn ↗', ext:true};});
-  // interleave the four kinds so the deck stays varied
-  const pools=[mv,rw,iv,co], deck=[];
+  // 5 — partners only: funds the team "covers" but only below partner level.
+  // Lucinda knowing an associate there is real coverage for her book, not a GP line —
+  // from the partnership's perspective that fund is still white space.
+  let gp=[];
+  if(partner){
+    const gpKnown=new Set((CM.ents||[]).filter(e=>(e.people||[]).some(p=>p.sr==='Partner'&&Object.values(p.r||{}).some(v=>v>=40))).map(e=>e.slug));
+    gp=funds.filter(x=>x.e.connectivity>=22&&(x.e.relevance?.total||0)>=55&&!gpKnown.has(x.e.slug))
+      .sort(byRel).slice(0,8)
+      .map(({r,e})=>{const pk=(e.partners_unknown||[])[0], p0=(e.points||[])[0];
+        return {id:'gp:'+e.slug, verb:'Open a partner line into', name:e.name,
+        sub:`${D.regions[r].label} · relevance ${e.relevance?.total??'—'} · the team knows them, but below partner level — no GP relationship yet${p0?` (current line: ${p0.internal.split(' ')[0]} ↔ ${p0.external||'a contact'})`:''}${pk?` · their GP: <b>${pk.name}</b>`:''}`,
+        href:pk?(pk.linkedin||liSearch(pk.name,e.name)):liSearch(e.name,''),
+        hlabel:pk?`Find ${pk.name.split(' ')[0]} on LinkedIn ↗`:'Find on LinkedIn ↗', ext:true};});
+  }
+  // interleave the kinds so the deck stays varied
+  const pools=[mv,rw,iv,co,gp], deck=[];
   for(let i=0,more=true;more;i++){ more=false; pools.forEach(p=>{ if(p[i]){deck.push(p[i]); more=true;} }); }
   return deck.filter(c=>!actGone(c.id));
 }
