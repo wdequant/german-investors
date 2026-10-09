@@ -718,7 +718,7 @@ body.mkmode{cursor:crosshair}
 @media(max-width:860px){
   /* sidebar becomes a horizontal nav strip — phones keep full navigation */
   #shell{display:block}
-  #side{position:static;width:auto;height:auto;display:flex;align-items:center;gap:4px;
+  #side{position:static;width:auto;height:auto;display:flex;flex-direction:row;align-items:center;gap:4px;
     overflow-x:auto;-webkit-overflow-scrolling:touch;padding:8px 12px;border-right:0;
     border-bottom:1px solid var(--hair)}
   #side .slabel{display:none}
@@ -812,7 +812,7 @@ body.mkmode{cursor:crosshair}
 .cmexpl{line-height:1.5;margin:8px 0 2px}
 @media(max-width:1000px){ .cmpanel.float{position:static;width:auto;max-height:none;margin-top:10px;box-shadow:none} }
 .cmmapwrap{position:relative;background:var(--surface);border:1px solid var(--hair);border-radius:14px;overflow:hidden}
-#cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px}
+#cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px;touch-action:none}
 .cmpanel{flex:none;width:360px;background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px;overflow-y:auto;max-height:calc(100vh - 230px)}
 .cmbg{fill:var(--hair2);stroke:var(--bg);stroke-width:.6}
 .cmbg,.cmcty,.cmouter,.cmring2,.cmnode{vector-effect:non-scaling-stroke}
@@ -854,6 +854,7 @@ body[data-page=map] #aprail{display:none}
 body[data-page=map] .wrap{max-width:none}
 body[data-page=map] #apmain{max-width:none}
 @media(max-width:1000px){ .cmflex{flex-direction:column} .cmpanel{width:auto;max-height:none} #cmsvg{height:52vh;min-height:360px} }
+@media(max-width:700px){ .cmlhov{display:none} #cmsvg{height:58vh;min-height:400px} .cmmapwrap.full #cmsvg{height:58vh;min-height:400px} }
 
 /* Daily Network Actions: one recommendation at a time — action it or move on */
 .ndkwrap{max-width:620px;margin:6px auto 0}
@@ -1560,7 +1561,7 @@ function cmGlyphSvg(e,me,px){
 function cmLegend(me){
   return `<div class="cmlegend">
     <span class="cmlgi"><svg width="16" height="26" viewBox="0 0 16 26"><circle cx="8" cy="13" r="5" class="cmnode"/></svg><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmnode"/></svg>bigger = more of Highland's deal flow and pipeline runs through this area</span>
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" style="fill:var(--accent-ink)"/></svg>hover: pale ring = team coverage · solid centre = ${me?'yours':'mine'}</span>
+    <span class="cmlgi cmlhov"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" style="fill:var(--accent-ink)"/></svg>hover: pale ring = team coverage · solid centre = ${me?'yours':'mine'}</span>
   </div>`;
 }
 function apMap(){
@@ -1576,7 +1577,19 @@ function apMap(){
   const isMapLvl=MAP.lvl==='l0'||MAP.lvl==='l1';
   let main;
   if(MAP.ent) main=cmDetail(me);
-  else if(isMapLvl) main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${(CM.vb[MAP.lvl==='l0'?'l0':MAP.reg]||CM.vb.l0).join(' ')}" preserveAspectRatio="${MAP.lvl==='l0'?'xMidYMid slice':'xMidYMid meet'}">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
+  else if(isMapLvl){
+    // phones get their own opening frame: fitted to the US/Europe node cluster, whole thing visible
+    let vb0=CM.vb[MAP.lvl==='l0'?'l0':MAP.reg]||CM.vb.l0, par=MAP.lvl==='l0'?'xMidYMid slice':'xMidYMid meet';
+    if(MAP.lvl==='l0'&&isMobile()){
+      const pts=(CM.regions||[]).filter(r=>r.x!=null);
+      if(pts.length){
+        const xs=pts.map(r=>r.x), ys=pts.map(r=>r.y);
+        const x0=Math.min(...xs)-30, x1=Math.max(...xs)+30, y0=Math.min(...ys)-34, y1=Math.max(...ys)+44;
+        vb0=[x0,y0,x1-x0,y1-y0]; par='xMidYMid meet';
+      }
+    }
+    main=`<div class="cmmapwrap full"><svg id="cmsvg" viewBox="${vb0.join(' ')}" preserveAspectRatio="${par}">${cmSvg(me)}</svg><div id="cmhover" class="cmcard" hidden></div>${MAP.lvl==='l1'?`<div class="cmpanel float" id="cmpanel">${cmPanel(me)}</div>`:''}</div>`;
+  }
   else main=cmCountryPage(me);
   return `<div class="cmtop">
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
@@ -1598,11 +1611,12 @@ function cmSvg(me){
     const liveR=CM.regions.filter(r=>r.active&&CM.areas[r.id]);
     const maxW0=Math.max(...liveR.map(r=>0.5*CM.areas[r.id].opp+0.5*(CM.areas[r.id].pw||0)),1);
     layer=CM.regions.map(r=>{
-      if(!r.active||!CM.areas[r.id]) return `<g class="cmreg soon" data-cmsoon="${r.name}" transform="translate(${r.x},${r.y})"><circle r="7" class="cmsoonnode"/></g>`;
+      const MSC=isMobile()?2:1;   // phones: fitted frame is zoomed out, so nodes scale up to stay tappable
+      if(!r.active||!CM.areas[r.id]) return `<g class="cmreg soon" data-cmsoon="${r.name}" transform="translate(${r.x},${r.y})"><circle r="${7*MSC}" class="cmsoonnode"/></g>`;
       const a=CM.areas[r.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const w0=(0.5*a.opp+0.5*(a.pw||0))/maxW0;   // node weight = deal flow + team pipeline
       // one colour, size = how much the area matters; hover breaks out team ring + your centre
-      const rb=(4+9*Math.sqrt(w0)), R=(16+13*Math.sqrt(w0));
+      const rb=(4+9*Math.sqrt(w0))*MSC, R=(16+13*Math.sqrt(w0))*MSC;
       const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       return `<g class="cmreg live cmregbtn cmswap" ${r.solo?`data-cmcc2="${r.solo}"`:`data-cmgo="l1"`} data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
         <title>${r.name}</title>
@@ -1613,14 +1627,17 @@ function cmSvg(me){
   } else {
     const subs=(CM.subsOf||{})[MAP.reg]||[];
     const rvb=CM.vb[MAP.reg]||CM.vb.l0;
-    // contain-fit: px per map unit ≈ min(width/vbW, height/vbH); size everything off that
-    const sEst=Math.min(1500/rvb[2], 680/rvb[3]);
+    // contain-fit: px per map unit ≈ min(width/vbW, height/vbH); size everything off that.
+    // on phones use the real canvas, so nodes and labels render at touch size instead of desktop scale
+    const sEst=isMobile()
+      ? Math.min(Math.max(innerWidth-40,320)/rvb[2], (innerHeight*0.5)/rvb[3])
+      : Math.min(1500/rvb[2], 680/rvb[3]);
     const maxo=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].opp:0),1);
     const maxp=Math.max(...subs.map(sb=>CM.areas[sb.id]?CM.areas[sb.id].pw||0:0),1);
     const nodes=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
       const a=CM.areas[sb.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const wgt=0.5*(a.opp/maxo)+0.5*((a.pw||0)/maxp);   // size = deal flow opportunity + the team's pipeline weight here
-      const R=(12+50*Math.sqrt(wgt))/sEst, rb=(8+28*Math.sqrt(wgt))/sEst;
+      const R=((isMobile()?10:12)+(isMobile()?36:50)*Math.sqrt(wgt))/sEst, rb=((isMobile()?6:8)+(isMobile()?20:28)*Math.sqrt(wgt))/sEst;
       const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
       return {sb,a,covu,R,rb,rt,rm,exp,x:sb.x,y:sb.y};
@@ -1637,7 +1654,7 @@ function cmSvg(me){
         <g class="cmbtn"><circle r="${n.rb.toFixed(1)}" class="cmnode"/></g>
         <g class="cmdisc"><circle r="${n.R.toFixed(1)}" class="cmouter"/><circle r="${n.rt.toFixed(1)}" class="cmteam"/>
           ${n.rm>0.4?`<circle r="${n.rm.toFixed(1)}" class="cmme" style="fill:var(--accent-ink)"/>`:''}</g>
-        <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(n.R+8/sEst):(n.R+16/sEst)).toFixed(1)}" style="font-size:${(14.5/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}</text></g>`).join('');
+        <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(n.R+8/sEst):(n.R+16/sEst)).toFixed(1)}" style="font-size:${((isMobile()?11.5:14.5)/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}</text></g>`).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
 }
@@ -2013,16 +2030,38 @@ function mapBind(body){
     if(!e) return;
     cmGo('l3', e.cc||MAP.cc, g.dataset.cment);
   }));
-  // drag to pan the map levels
+  // drag to pan the map levels; two fingers pinch-zoom (phones get the full map-app feel)
   const svg=body.querySelector('#cmsvg');
   if(svg){
-    let drag=null;
+    let drag=null, pinch=null;
+    svg.addEventListener('touchstart',ev=>{
+      if(ev.touches.length===2){
+        drag=null; mapBind._dragged=true;   // two fingers = zoom, and the tap that follows is not a click
+        const [a,b]=ev.touches;
+        pinch={d0:Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY)||1,
+               vb:svg.getAttribute('viewBox').split(' ').map(Number),
+               mx:(a.clientX+b.clientX)/2, my:(a.clientY+b.clientY)/2};
+      }
+    },{passive:true});
+    svg.addEventListener('touchmove',ev=>{
+      if(!pinch||ev.touches.length!==2) return;
+      ev.preventDefault();
+      const [a,b]=ev.touches;
+      const d1=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY)||1;
+      const vb=pinch.vb, L0=CM.vb.l0, k=pinch.d0/d1;
+      const nw=Math.min(Math.max(vb[2]*k, L0[2]/20), L0[2]*2.2), nh=vb[3]*(nw/vb[2]);
+      const r=svg.getBoundingClientRect();
+      const px=vb[0]+(pinch.mx-r.left)/r.width*vb[2], py=vb[1]+(pinch.my-r.top)/r.height*vb[3];
+      svg.setAttribute('viewBox', `${(px-(px-vb[0])*(nw/vb[2])).toFixed(1)} ${(py-(py-vb[1])*(nh/vb[3])).toFixed(1)} ${nw.toFixed(1)} ${nh.toFixed(1)}`);
+    },{passive:false});
+    svg.addEventListener('touchend',ev=>{ if(ev.touches.length<2) pinch=null; },{passive:true});
     svg.addEventListener('pointerdown',ev=>{
+      if(pinch) return;
       drag={x:ev.clientX,y:ev.clientY,id:ev.pointerId,cap:false,vb:svg.getAttribute('viewBox').split(' ').map(Number)};
       mapBind._dragged=false;
     });
     svg.addEventListener('pointermove',ev=>{
-      if(!drag) return;
+      if(!drag||pinch) return;
       const sc=drag.vb[2]/svg.clientWidth;
       const dx=(ev.clientX-drag.x)*sc, dy=(ev.clientY-drag.y)*sc;
       if(Math.abs(ev.clientX-drag.x)+Math.abs(ev.clientY-drag.y)>4&&!drag.cap){
