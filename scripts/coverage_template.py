@@ -819,9 +819,9 @@ body.mkmode{cursor:crosshair}
 .cmcty{fill:#e7e2d4;stroke:var(--bg);stroke-width:.7;cursor:pointer}
 .cmcty.on{stroke:#b9b2a0}
 .cmreg text{text-anchor:middle;font-size:12px;font-weight:700;fill:var(--ink2)}
-.cmreg.off circle{fill:var(--hair2);stroke:var(--hair)}
-.cmreg.off text{fill:var(--muted);font-weight:600}
-.cmreg .cmsoon{font-size:8px;letter-spacing:.08em}
+.cmsoonnode{fill:var(--accent);fill-opacity:.09;stroke:var(--accent);stroke-opacity:.3;stroke-width:1;vector-effect:non-scaling-stroke}
+.cmreg.soon{cursor:default}
+.cmreg.soon:hover .cmsoonnode{fill-opacity:.18;stroke-opacity:.5}
 .cmreg.live{cursor:pointer}
 .cmouter{fill:rgba(255,255,255,.55);stroke:#8b8578;stroke-width:1}
 .cmteam{fill:#8a86c9;fill-opacity:.35}
@@ -1598,7 +1598,7 @@ function cmSvg(me){
     const liveR=CM.regions.filter(r=>r.active&&CM.areas[r.id]);
     const maxW0=Math.max(...liveR.map(r=>0.5*CM.areas[r.id].opp+0.5*(CM.areas[r.id].pw||0)),1);
     layer=CM.regions.map(r=>{
-      if(!r.active||!CM.areas[r.id]) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><title>${r.name} — coming soon</title><circle r="4.5"/></g>`;
+      if(!r.active||!CM.areas[r.id]) return `<g class="cmreg soon" data-cmsoon="${r.name}" transform="translate(${r.x},${r.y})"><circle r="7" class="cmsoonnode"/></g>`;
       const a=CM.areas[r.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const w0=(0.5*a.opp+0.5*(a.pw||0))/maxW0;   // node weight = deal flow + team pipeline
       // one colour, size = how much the area matters; hover breaks out team ring + your centre
@@ -2045,6 +2045,19 @@ function mapBind(body){
       const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
       hov.innerHTML=`<div class="cmcn"><b>${(CM.regions.find(r=>r.id===rid)||{}).name||rid}</b></div>
         <div class="cmwhy">${me?cmYouLine(covu,a.covT):`Team coverage is <b>${qt}</b>.`}</div>`;
+      hov.hidden=false;
+    });
+    g.addEventListener('mousemove',ev=>{
+      const wrap=body.querySelector('.cmmapwrap'); if(!wrap) return;
+      const r=wrap.getBoundingClientRect();
+      hov.style.left=Math.min(ev.clientX-r.left+16, r.width-310)+'px';
+      hov.style.top=Math.max(ev.clientY-r.top-10,4)+'px';
+    });
+    g.addEventListener('mouseleave',()=>{ hov.hidden=true; });
+  });
+  if(hov) body.querySelectorAll('g[data-cmsoon]').forEach(g=>{
+    g.addEventListener('mouseenter',()=>{
+      hov.innerHTML=`<div class="cmcn"><b>${g.dataset.cmsoon}</b></div><div class="cmwhy">Coming soon.</div>`;
       hov.hidden=false;
     });
     g.addEventListener('mousemove',ev=>{

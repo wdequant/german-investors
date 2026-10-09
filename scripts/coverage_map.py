@@ -56,8 +56,9 @@ REGIONS = [  # L0 bubbles; only nordics is live in M1
     {"id": "uk", "name": "UK", "ll": (-1.5, 52.8), "active": True},
     {"id": "us", "name": "US tier-1", "ll": (-91.0, 40.0), "active": True},
     {"id": "benelux", "name": "Benelux", "ll": (5.0, 52.0)},
-    {"id": "south", "name": "Southern Europe", "ll": (3.0, 40.5)},
-    {"id": "cee", "name": "CEE & Baltics", "ll": (21.0, 51.5)},
+    {"id": "iberia", "name": "Iberia", "ll": (-4.5, 40.3)},
+    {"id": "israel", "name": "Israel", "ll": (34.8, 32.0)},
+    {"id": "baltics", "name": "Baltics", "ll": (24.7, 57.3)},
 ]
 CITY_LL = {  # map anchor per city; suburbs fold into the metro
     "Stockholm": ("SE", 18.07, 59.33), "Norrmalm": ("SE", 18.07, 59.33),
