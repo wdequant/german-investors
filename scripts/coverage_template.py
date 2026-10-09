@@ -1736,10 +1736,18 @@ function cmCountryPage(me){
     if(ce-cg>=25) return ` Early-stage is your strength here — the growth funds are your open ground.`;
     return '';
   })();
-  const youBit=qu==='well covered'?`your network is <b>well covered</b>`
+  // partners read this page as "engage & maintain"; associates as "build".
+  const pnr=!!me&&isPartner(me);
+  let strongN=0, quietN=0;
+  if(pnr) cmEnts().filter(e=>e.cc===cc).forEach(e=>(e.people||[]).forEach(p=>{
+    const r=(p.r||{})[me]||0; if(r<60) return; strongN++;
+    const d=p.last?Math.round((Date.now()-new Date(p.last))/864e5):9e9; if(d>150) quietN++;
+  }));
+  const youBit=pnr&&strongN?`you hold <b>${strongN}</b> strong line${strongN===1?'':'s'} here${quietN?` — <b>${quietN}</b> going quiet`:', all warm'}`
+    :qu==='well covered'?`your network is <b>well covered</b>`
     :qu==='building'?`your network is <b>building</b>`
     :`<b>open ground</b> for you`;
-  const teamBit=A.covT>=50&&covu<50?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
+  const teamBit=(!pnr&&A.covT>=50&&covu<50)?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
   const tripBit=(()=>{
     const CITY_OF={SE:'Stockholm',DK:'Copenhagen',NO:'Oslo',FI:'Helsinki',FR:'Paris',BER:'Berlin',MUC:'Munich',CGN:'Cologne & Bonn',FRA:'Frankfurt',HAM:'Hamburg',LON:'London',CAM:'Cambridge',OXF:'Oxford',EDI:'Edinburgh',MAN:'Manchester',SF:'SF Bay Area',NYC:'New York',BOS:'Boston'};
     const tc=CITY_OF[cc]; if(!tc||typeof cityScores!=='function') return '';
@@ -1752,7 +1760,10 @@ function cmCountryPage(me){
         ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
           const builds=all.filter(e=>cmU(e,me).st==='build').slice(0,6);
           const reng=all.filter(e=>cmU(e,me).st==='maintain').slice(0,6);
-          return `<div class="cmspendcols">
+          return pnr?`<div class="cmspendcols">
+            <div><div class="apsec">Keep close</div>${cmSpendList(me,reng)}</div>
+            <div><div class="apsec">New ground</div>${cmSpendList(me,builds)}</div>
+          </div>`:`<div class="cmspendcols">
             <div><div class="apsec">Build</div>${cmSpendList(me,builds)}</div>
             <div><div class="apsec">Keep close</div>${cmSpendList(me,reng)}</div>
           </div>`;})()}
@@ -1890,10 +1901,11 @@ function cmEgo(e,me){
     </svg>`;
 }
 
-function cmYouLine(covu,covT){
+function cmYouLine(covu,covT,me){
+  const pnr=!!me&&isPartner(me);
   const [qu]=cmQualU(covu), [qt]=cmQualT(covT);
-  if(covu>=50) return `Your network here is <b>${qu}</b>; the team's graph is ${qt}.`;
-  if(covT>=50) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — the team's network here is <b>strong</b>, and the intros are one ask away.`;
+  if(covu>=50) return `Your network here is <b>${qu}</b>${pnr?' — keep it engaged':''}; the team's graph is ${qt}.`;
+  if(covT>=50) return `<b>${qu==='building'?'Building':'Open ground'}</b> for you — the team's network here is <b>strong</b>${pnr?'; worth partner-level lines of your own':', and the intros are one ask away'}.`;
   return `<b>${qu==='building'?'Building':'Open ground'}</b> — for you and the team. First-mover territory.`;
 }
 const cmQualU=v=>v<25?['open ground','#3a6fa5']:v<50?['building','#c98a1b']:['well covered','#2e7d4f'];
@@ -1919,7 +1931,7 @@ function cmPanel(me){
   if(MAP.lvl==='l0'){
     const a=A[MAP.reg]||A.nordics, covu=who&&a.u[who]?a.u[who].covu:0;
     const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
-    return `<div class="cmhead">${who?cmYouLine(covu,a.covT):`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
+    return `<div class="cmhead">${who?cmYouLine(covu,a.covT,who):`The team's ${regName} coverage is <b>${qt}</b>.`}</div>
       ${cmQualRow(covu,a.covT,who)}`;
   }
   if(MAP.lvl==='l1'){
@@ -2044,7 +2056,7 @@ function mapBind(body){
       const covu=me&&a.u[me]?a.u[me].covu:0;
       const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
       hov.innerHTML=`<div class="cmcn"><b>${(CM.regions.find(r=>r.id===rid)||{}).name||rid}</b></div>
-        <div class="cmwhy">${me?cmYouLine(covu,a.covT):`Team coverage is <b>${qt}</b>.`}</div>`;
+        <div class="cmwhy">${me?cmYouLine(covu,a.covT,me):`Team coverage is <b>${qt}</b>.`}</div>`;
       hov.hidden=false;
     });
     g.addEventListener('mousemove',ev=>{
