@@ -768,10 +768,8 @@ body.mkmode{cursor:crosshair}
 .cmacc summary b{color:var(--ink);margin-left:4px}
 .cmacc[open] summary{border-bottom:1px solid var(--hair2)}
 .cmacc .dpli{padding:6px 0}
-.cmregbtn .cmdisc{opacity:0;transition:opacity .2s}
-.cmregbtn .cmbtn{transition:opacity .2s}
-.cmregbtn:hover .cmdisc,.cmregbtn:focus .cmdisc{opacity:1}
-.cmregbtn:hover .cmbtn,.cmregbtn:focus .cmbtn{opacity:0}
+.cmnode{fill:var(--accent);stroke:#fff;stroke-width:1.2}
+.cmreg.live:hover .cmnode,.cmreg.live:focus .cmnode{fill:var(--accent-ink)}
 .cmdeth{display:flex;gap:14px;align-items:center;margin-bottom:12px}
 .cmdetn{font-size:17px;font-weight:700}
 .cmdett{margin-top:4px}
@@ -785,7 +783,7 @@ body.mkmode{cursor:crosshair}
 #cmsvg{display:block;width:100%;height:calc(100vh - 230px);min-height:460px}
 .cmpanel{flex:none;width:360px;background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:16px 18px;overflow-y:auto;max-height:calc(100vh - 230px)}
 .cmbg{fill:var(--hair2);stroke:var(--bg);stroke-width:.6}
-.cmbg,.cmcty,.cmouter,.cmring2{vector-effect:non-scaling-stroke}
+.cmbg,.cmcty,.cmouter,.cmring2,.cmnode{vector-effect:non-scaling-stroke}
 .cmcty{fill:#e7e2d4;stroke:var(--bg);stroke-width:.7;cursor:pointer}
 .cmcty.on{stroke:#b9b2a0}
 .cmreg text{text-anchor:middle;font-size:12px;font-weight:700;fill:var(--ink2)}
@@ -824,6 +822,29 @@ body[data-page=map] #aprail{display:none}
 body[data-page=map] .wrap{max-width:none}
 body[data-page=map] #apmain{max-width:none}
 @media(max-width:1000px){ .cmflex{flex-direction:column} .cmpanel{width:auto;max-height:none} #cmsvg{height:52vh;min-height:360px} }
+
+/* Daily Network Actions: one recommendation at a time — action it or move on */
+.ndkwrap{max-width:620px;margin:6px auto 0}
+.ndkcount{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;
+  margin-bottom:12px;text-align:center}
+.ndkstack{position:relative;padding-bottom:20px}
+.ndkghost{position:absolute;left:0;right:0;height:100%;background:var(--surface);border:1px solid var(--hair);border-radius:16px}
+.ndkghost.g1{top:9px;transform:scale(.97)}
+.ndkghost.g2{top:18px;transform:scale(.94)}
+.ndkcard{position:relative;border-radius:16px;padding:32px 34px 26px;text-align:center}
+.ndkverb{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink);font-weight:750;margin-bottom:10px}
+.ndkname{font-size:30px;font-weight:700;letter-spacing:-.02em;font-family:var(--display);line-height:1.15}
+.ndksub{color:var(--ink2);font-size:14px;margin-top:11px;line-height:1.6;max-width:460px;margin-left:auto;margin-right:auto}
+.ndkacts{margin-top:22px}
+.ndkmain{display:inline-block;background:var(--accent);color:#fff;border-radius:10px;padding:11px 26px;
+  font-size:14px;font-weight:650;text-decoration:none}
+.ndkmain:hover{background:var(--accent-ink)}
+.ndkskips{display:flex;justify-content:center;gap:8px;margin-top:18px}
+.ndkskips button{background:transparent;border:1px solid var(--hair);color:var(--ink2);border-radius:8px;
+  padding:7px 14px;font-size:12.5px;cursor:pointer;font-family:inherit}
+.ndkskips button:hover{border-color:var(--accent);color:var(--accent-ink)}
+.ndkdone{text-align:center;padding:38px 24px}
+.ndkbig{font-size:24px;font-weight:700;font-family:var(--display);margin-bottom:8px}
 
 /* My Network: segment bar, one-line people rows, cadence chips */
 .segbar{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 14px}
@@ -904,7 +925,7 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 <nav id="side">
   <div class="slabel">Sonar</div>
   <a class="sitem" data-page="map" id="simap"><span class="si">◍</span>Coverage Map</a>
-  <a class="sitem" data-page="net"><span class="si">⇗</span>My Network</a>
+  <a class="sitem" data-page="net"><span class="si">⇗</span>Network Actions</a>
   <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
   <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
 </nav>
@@ -1295,7 +1316,7 @@ function goPage(p, opts){
 }
 function refresh(){ renderWork(); }  // re-render whatever page is active
 function renderWork(){
-  const titles={htc:'Solve my Hard to Cracks', net:'My Network', geo:'Plan a City Trip', map:'Coverage Map'};
+  const titles={htc:'Solve my Hard to Cracks', net:'Daily Network Actions', geo:'Plan a City Trip', map:'Coverage Map'};
   document.getElementById('worktitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
   ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
@@ -1310,7 +1331,7 @@ function renderWork(){
   const body=document.getElementById('apbody');
   body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet()+askCard():apGeo();
   if(ap.mode==='map') mapBind(body);
-  if(ap.mode==='net') bindAsk(body);
+  if(ap.mode==='net'){ bindAsk(body); bindDeck(body); }
   body.querySelectorAll('[data-gofund]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();goFund(a.dataset.gofund);}));
   body.querySelectorAll('[data-goh2c]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();goPage('h2c');}));
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
@@ -1477,11 +1498,7 @@ function cmGlyphSvg(e,me,px){
 }
 function cmLegend(me){
   return `<div class="cmlegend">
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/></svg>size = how much the ${(MAP.lvl==='l0'||MAP.lvl==='l1')?'area matters (deal flow + team pipeline)':'fund matters (your pipeline + Highland deal flow)'}</span>
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/></svg>pale disc = team coverage</span>
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" fill="#2e7d4f"/></svg>solid centre = ${me?'your':'my'} coverage</span>
-    <span class="cmlgi">${['#c2452f','#d96a2b','#c98a1b','#2e7d4f'].map(c=>`<i class="cmdot" style="background:${c}"></i>`).join('')}cold → strong</span>
-    <span class="cmlgi"><svg width="22" height="22" viewBox="0 0 26 26"><rect x="4" y="4" width="18" height="18" transform="rotate(45 13 13)" class="cmouter"/></svg>angel</span>
+    <span class="cmlgi"><svg width="16" height="26" viewBox="0 0 16 26"><circle cx="8" cy="13" r="5" class="cmnode"/></svg><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmnode"/></svg>bigger = more of Highland's deal flow and pipeline runs through this area</span>
   </div>`;
 }
 function apMap(){
@@ -1512,7 +1529,7 @@ function cmSvg(me){
     if(c.bg) return `<path d="${c.d}" class="cmbg"/>`;
     const a=CM.areas[c.id], covu=a&&me&&a.u[me]?a.u[me].covu:0;
     const on=(MAP.lvl!=='l0')&&hl.has(c.id);
-    return `<path d="${c.d}" class="cmcty${on?' on':''}" data-cmcc="${c.id}" style="${on&&a?`fill:${CMTIER(covu)};fill-opacity:.1`:''}"/>`;
+    return `<path d="${c.d}" class="cmcty${on?' on':''}" data-cmcc="${c.id}" style="${on&&a?'fill:var(--accent);fill-opacity:.07':''}"/>`;
   }).join('');
   let layer='';
   if(MAP.lvl==='l0'){
@@ -1520,15 +1537,12 @@ function cmSvg(me){
     const maxW0=Math.max(...liveR.map(r=>0.5*CM.areas[r.id].opp+0.5*(CM.areas[r.id].pw||0)),1);
     layer=CM.regions.map(r=>{
       if(!r.active||!CM.areas[r.id]) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><title>${r.name} — coming soon</title><circle r="4.5"/></g>`;
-      const a=CM.areas[r.id], covu=me&&a.u[me]?a.u[me].covu:0;
+      const a=CM.areas[r.id];
       const w0=(0.5*a.opp+0.5*(a.pw||0))/maxW0;   // node weight = deal flow + team pipeline
-      const R=(16+14*Math.sqrt(w0)), rb=(5+7*Math.sqrt(w0));
-      const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const R=(6+15*Math.sqrt(w0));   // one colour everywhere — size alone says how much this area matters
       return `<g class="cmreg live cmregbtn" ${r.solo?`data-cmcc2="${r.solo}"`:`data-cmgo="l1"`} data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
         <title>${r.name}</title>
-        <g class="cmbtn"><circle r="${rb.toFixed(1)}" fill="${CMTIER(covu)}" stroke="#fff" stroke-width="1.4"/></g>
-        <g class="cmdisc"><circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
-          ${rm>1?`<circle r="${rm.toFixed(1)}" fill="${CMTIER(covu)}" class="cmme"/>`:''}</g></g>`;
+        <circle r="${R.toFixed(1)}" class="cmnode"/></g>`;
     }).join('');
   } else {
     const subs=(CM.subsOf||{})[MAP.reg]||[];
@@ -1540,9 +1554,9 @@ function cmSvg(me){
     const nodes=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
       const a=CM.areas[sb.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const wgt=0.5*(a.opp/maxo)+0.5*((a.pw||0)/maxp);   // size = deal flow opportunity + the team's pipeline weight here
-      const R=(12+58*Math.sqrt(wgt))/sEst, rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const R=(12+58*Math.sqrt(wgt))/sEst;
       const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
-      return {sb,a,covu,R,rt,rm,exp,x:sb.x,y:sb.y};
+      return {sb,a,covu,R,exp,x:sb.x,y:sb.y};
     });
     // satellite cities can sit inside a giant neighbour's disc (Cambridge/Oxford vs London):
     // push the smaller node out along the joining axis until the discs clear
@@ -1553,8 +1567,7 @@ function cmSvg(me){
         s.x+=dx/d*push*dir; s.y+=dy/d*push*dir; }
     }
     layer=nodes.map(n=>`<g class="cmreg live" data-cmcc2="${n.sb.id}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})">
-        <circle r="${n.R.toFixed(1)}" class="cmouter"/><circle r="${n.rt.toFixed(1)}" class="cmteam"/>
-        ${n.rm>0.4?`<circle r="${n.rm.toFixed(1)}" fill="${CMTIER(n.covu)}" class="cmme"/>`:''}
+        <circle r="${n.R.toFixed(1)}" class="cmnode"/>
         <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(n.R+8/sEst):(n.R+16/sEst)).toFixed(1)}" style="font-size:${(14.5/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}</text></g>`).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
@@ -2044,81 +2057,97 @@ function netAskBody(who,e,p){
   const wf=who.split(' ')[0];
   return `Hey ${p.internal.split(' ')[0]} — I'm trying to build my own line into ${e.name} and you hold our strongest path (${p.external}${p.pct!=null?`, ${p.pct}%`:''}). Could you intro me or bring me along next time? Thanks! — ${wf}`;
 }
-function apNet(){
-  const relT=v=>v>=70?'strong':v>=55?'medium':'low';
-  const who=ap.who;
-  if(!who) return `<div class="aphint">Pick who you are above — this view is personal by design.</div>`;
+// --- Daily Network Actions: a deck of single recommendations — action each one or move on.
+// Decisions persist per browser (localStorage): done/not-relevant never return, snooze hides for a week, skip is session-only.
+let NDECK=[], NDI=0;
+const ACTS=(()=>{try{return JSON.parse(localStorage.getItem('sonar_acts')||'{}');}catch(err){return {};}})();
+function saveActs(){try{localStorage.setItem('sonar_acts',JSON.stringify(ACTS));}catch(err){}}
+function actGone(id){
+  const a=ACTS[id]; if(!a) return false;
+  if(a.s==='snooze'){ if(a.until&&Date.now()>a.until){ delete ACTS[id]; saveActs(); return false; } return true; }
+  return true;
+}
+function buildDeck(who){
   const funds=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]);
   const byRel=(a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0);
-  const borrow=funds.filter(x=>personCov(x.e,who)<30&&x.e.connectivity>=50&&(x.e.points||[]).length).sort(byRel).slice(0,14);
-  const ground=funds.filter(x=>x.e.connectivity<22).sort(byRel).slice(0,10);
-  const bCards=borrow.map(({r,e})=>{
-    const p=e.points[0];
-    const ev=evidence(p);
-    const t0=e.uf&&(e.uf.top||[])[0], you=personCov(e,who);
-    const metaLine=[e.uf&&e.uf.high?`backs ${e.uf.high} high-prio co${e.uf.high>1?'s':''}${t0?` — top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:''}`:(t0?`top: ${t0.name}${t0.score?' '+Math.round(t0.score):''}`:null),
-      (e.coinvest||[]).length?`co-invested ×${e.coinvest.length}`:null].filter(Boolean).join('<span class="psep">|</span>');
-    const pipeChips=BUCKETS.map(([k,label])=>{
-      const n=e.buckets[k].filter(x=>(x.own||[]).includes(who)).length;
-      return n?`<span class="chip ${k}"><b>${n}</b> ${label}</span>`:'';
-    }).join('');
-    return `<div class="apcard ncard"><div class="aph2"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
-      <div class="apstats">${bub(e.relevance?.total??null, relT(e.relevance?.total||0), 'relevance')}${bub(you, easeTierOf(you), `you · team ${e.connectivity}`)}</div></div>
-      ${metaLine?`<div class="apmeta hmeta">${metaLine}</div>`:''}
-      ${pipeChips?`<div class="apmeta nchips"><span class="cc">Your pipeline with them:</span> <span class="chips">${pipeChips}</span></div>`:''}
-      <div class="appath"><b>${p.internal}</b> holds <a href="${p.linkedin||liSearch(p.external||'',e.name)}" target="_blank" rel="noopener">${p.external||'a contact'}</a>${p.pct!=null?` <span class="via">· ${p.pct}%</span>`:''}${ev?` <span class="via">· ${ev}</span>`:''}${everTag(p)}</div>
-      <div class="apacts">
-        <a href="mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}">✉ Ask ${p.internal.split(' ')[0]}</a>
-        ${(p.email||p.linkedin)?`<button data-draft="b:${r}:${e.slug}">Draft direct outreach</button>`:''}
-      </div><div class="apdraftwrap" id="dw-${e.slug}"></div></div>`;
-  }).join('');
-  const gCards=ground.map(({r,e})=>{
-    const pk=(e.partners_unknown||[])[0];
-    return `<div class="apcard ncard"><div class="fname ${e.tier}"><span class="tdot"></span>${starBtn('fund',e.name,D.regions[r].label)}${e.name} <span class="cc">· ${D.regions[r].label}</span></div>
-      <div class="apmeta hmeta">${[`relevance ${e.relevance?.total??'—'}`,`team coverage ${e.connectivity}`].join('<span class="psep">|</span>')}</div>
-      ${pk?`<div class="appath">Door: <b>${pk.name}</b>${pk.title?` <span class="via">· ${pk.title}</span>`:''}</div>`:''}
-      <div class="apacts">${pk?`<button data-draft="g:${r}:${e.slug}">Draft outreach</button>`:''}
-        ${(e.bridges||[]).length?`<span class="cc" style="align-self:center">or bridge via ${e.bridges[0].name} (${e.bridges[0].internal.split(' ')[0]})</span>`:''}</div>
-      <div class="apdraftwrap" id="dw-${e.slug}"></div></div>`;
-  }).join('');
-  // --- your tracked relationships (D.mynet) + recent moves (D.movers) ---
   const net=((D.mynet||{})[who]||[]);
-  const cold=net.filter(isCold).sort((a,b)=>b.p-a.p);   // lapsed cadence trumps strength: one bucket per person
-  const strong=net.filter(e=>e.p>=60&&!isCold(e)), building=net.filter(e=>e.p>=20&&e.p<60&&!isCold(e));
-  const moves=(D.movers||[])
-    .filter(m=>(m.k||[]).includes(who)&&m.since&&moAgo(m.since)<=6)
-    .sort((a,b)=>new Date(b.since)-new Date(a.since));
-  // Your 3 today — one re-warm, one congratulation, one borrow ask
-  const t1=cold.find(e=>e.v)||cold[0], t2=moves[0], t3=borrow[0];
-  const todayRows=[
-    t1?`<div class="t3row"><span class="t3what">Re-warm</span><b>${t1.n}</b>${everTag({ever:t1.v})} <span class="via">· ${t1.f} · ${t1.p}% · last touch ${fmtD(t1.l)}</span>
-      ${t1.e?`<a href="${rewarmMail(t1,who)}">✉ Re-warm</a>`:''}</div>`:'',
-    t2?`<div class="t3row"><span class="t3what">Congratulate</span><b>${t2.n}</b> <span class="via">· just joined ${t2.co||t2.now||'a new firm'}${t2.ti?` as ${t2.ti}`:''} (from ${t2.fr})</span>
-      <a href="${liSearch(t2.n,t2.co||t2.now||'')}" target="_blank" rel="noopener">Congratulate ↗</a></div>`:'',
-    t3?`<div class="t3row"><span class="t3what">Ask</span><b>${t3.e.points[0].internal.split(' ')[0]}</b> <span class="via">to open ${t3.e.name} — their door: ${t3.e.points[0].external||'a contact'}${t3.e.points[0].pct!=null?` · ${t3.e.points[0].pct}%`:''}</span>
-      <a href="mailto:${hlMail(t3.e.points[0].internal)}?subject=${encodeURIComponent('Intro to '+(t3.e.points[0].external||t3.e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,t3.e,t3.e.points[0]))}">✉ Ask</a></div>`:''
-  ].filter(Boolean);
-  // Moves in your network (viewer-filtered, hidden when empty)
-  const mvRows=moves.slice(0,8).map(m=>`<div class="nrow mv">
-    <span class="nm">${m.n}</span>
-    <span class="nf">${m.fr} → <b>${m.co||m.now||'?'}</b>${m.ti?` (${m.ti})`:''}</span>
-    <span class="nl">${fmtD(m.since)}</span>
-    <a class="nmail" href="${liSearch(m.n,m.co||m.now||'')}" target="_blank" rel="noopener" title="Find on LinkedIn">↗</a></div>`).join('');
-  // Segment bar filters the content below
-  const seg=ap.nseg||'target';
-  const segs=[['target','Target',borrow.length+ground.length],['building','Building',building.length],
-              ['strong','Strong',strong.length],['cold','Going cold',cold.length]];
-  const segBar=`<div class="segbar">${segs.map(([k,lab,n])=>`<button data-nseg="${k}"${seg===k?' class="on"':''}>${lab}<b>${n}</b></button>`).join('')}</div>`;
-  const tbl=list=>list.length?netTable(list,who):'<div class="aphint">No one here yet.</div>';
-  let segBody='';
-  if(seg==='target') segBody=`<div class="apsec">Raise your coverage — relevant funds the team can open for you</div>${bCards||'<div class="aphint">Nothing — your coverage already matches the team everywhere it matters.</div>'}
-    <div class="apsec">Open new ground — relevant funds no one at Highland covers</div>${gCards||'<div class="aphint">None.</div>'}`;
-  else if(seg==='building') segBody=tbl(building);
-  else if(seg==='strong') segBody=tbl(strong);
-  else segBody=cold.length?tbl(cold):'<div class="aphint">No one is going cold — every relationship with a cadence has been touched in time.</div>';
-  return `${todayRows.length?`<div class="apsec">Your ${todayRows.length===1?'1':todayRows.length} today</div><div class="apcard">${todayRows.join('')}</div>`:''}
-    ${mvRows?`<div class="apsec">Moves in your network — people you know in new seats</div><div class="apcard">${mvRows}</div>`:''}
-    ${segBar}${segBody}`;
+  // 1 — congratulate: people you know who moved seats in the last 3 months
+  const mv=(D.movers||[]).filter(m=>(m.k||[]).includes(who)&&m.since&&moAgo(m.since)<=3)
+    .sort((a,b)=>new Date(b.since)-new Date(a.since))
+    .map(m=>{const co=m.co||m.now||'a new firm';return {id:'mv:'+m.n, verb:'Congratulate', name:m.n,
+      sub:`Just joined <b>${co}</b>${m.ti?` as ${m.ti}`:''} — moved from ${m.fr} · ${fmtD(m.since)}`,
+      href:liSearch(m.n,co), hlabel:'Say congrats on LinkedIn ↗', ext:true};});
+  // 2 — reconnect: relationships past their cadence, strongest first
+  const rw=net.filter(isCold).sort((a,b)=>b.p-a.p).slice(0,12)
+    .map(e=>({id:'rw:'+e.n+'|'+(e.f||''), verb:'Reconnect with', name:e.n,
+      sub:`${e.f||'—'}${e.sr?' · '+e.sr:''} · strength ${e.p} · last touch ${fmtD(e.l)} (${Math.round(moAgo(e.l))} mo ago)`,
+      href:e.e?rewarmMail(e,who):liSearch(e.n,e.f||''),
+      hlabel:e.e?'✉ Email '+e.n.split(' ')[0]:'Find on LinkedIn ↗', ext:!e.e}));
+  // 3 — team intro asks: relevant funds the team already covers but you don't
+  const iv=funds.filter(x=>personCov(x.e,who)<30&&x.e.connectivity>=50&&(x.e.points||[]).length)
+    .sort(byRel).slice(0,12)
+    .map(({r,e})=>{const p=e.points[0], f=p.internal.split(' ')[0];
+      return {id:'in:'+e.slug, verb:`Ask ${f} for an intro to`, name:e.name,
+      sub:`${p.internal} holds <b>${p.external||'a contact'}</b>${p.pct!=null?` (${p.pct}%)`:''} · ${D.regions[r].label} · relevance ${e.relevance?.total??'—'} · the intro is one ask away`,
+      href:`mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}`,
+      hlabel:'✉ Ask '+f};});
+  // 4 — first-mover: relevant funds nobody at Highland covers yet
+  const co=funds.filter(x=>x.e.connectivity<22&&(x.e.relevance?.total||0)>=55).sort(byRel).slice(0,8)
+    .map(({r,e})=>{const pk=(e.partners_unknown||[])[0];
+      return {id:'co:'+e.slug, verb:'Reach out cold to', name:e.name,
+      sub:`${D.regions[r].label} · relevance ${e.relevance?.total??'—'} · nobody at Highland has a line in — you'd be first${pk?` · door: <b>${pk.name}</b>${pk.title?' ('+pk.title+')':''}`:''}`,
+      href:pk?(pk.linkedin||liSearch(pk.name,e.name)):liSearch(e.name,''),
+      hlabel:pk?`Find ${pk.name.split(' ')[0]} on LinkedIn ↗`:'Find on LinkedIn ↗', ext:true};});
+  // interleave the four kinds so the deck stays varied
+  const pools=[mv,rw,iv,co], deck=[];
+  for(let i=0,more=true;more;i++){ more=false; pools.forEach(p=>{ if(p[i]){deck.push(p[i]); more=true;} }); }
+  return deck.filter(c=>!actGone(c.id));
+}
+function deckCard(){
+  const n=NDECK.length;
+  if(!n) return `<div class="apcard ndkdone"><div class="ndkbig">All caught up.</div>
+    <div class="aphint">No moves, lapsed relationships or intro asks waiting. Check back tomorrow.</div></div>`;
+  if(NDI>=n){
+    const done=NDECK.filter(c=>ACTS[c.id]&&ACTS[c.id].s==='done').length;
+    return `<div class="apcard ndkdone"><div class="ndkbig">That's the deck.</div>
+      <div class="aphint">${done} actioned · ${n-done} skipped for another day.</div>
+      <div class="ndkskips" style="margin-top:14px"><button data-ndk="restart">Go through the skipped ones again</button></div></div>`;
+  }
+  const c=NDECK[NDI];
+  return `<div class="ndkwrap"><div class="ndkcount">${NDI+1} of ${n}</div>
+    <div class="ndkstack">
+      ${NDI<n-2?'<div class="ndkghost g2"></div>':''}${NDI<n-1?'<div class="ndkghost g1"></div>':''}
+      <div class="apcard ndkcard">
+        <div class="ndkverb">${c.verb}</div>
+        <div class="ndkname">${c.name}</div>
+        <div class="ndksub">${c.sub}</div>
+        <div class="ndkacts"><a class="ndkmain" href="${c.href}"${c.ext?' target="_blank" rel="noopener"':''} data-ndk="done">${c.hlabel}</a></div>
+        <div class="ndkskips">
+          <button data-ndk="skip" title="Come back to this another day">Skip →</button>
+          <button data-ndk="snooze" title="Hide for a week">Snooze</button>
+          <button data-ndk="never" title="Never suggest this again">Not relevant</button>
+        </div>
+      </div></div></div>`;
+}
+function bindDeck(root){
+  const d=root.querySelector('#ndeck'); if(!d) return;
+  d.addEventListener('click',ev=>{
+    const b=ev.target.closest('[data-ndk]'); if(!b) return;
+    const act=b.dataset.ndk;
+    if(act==='restart'){ NDECK=NDECK.filter(c=>!actGone(c.id)); NDI=0; d.innerHTML=deckCard(); return; }
+    const c=NDECK[NDI]; if(!c) return;
+    if(act==='done'){ ACTS[c.id]={s:'done',t:Date.now()}; saveActs(); }
+    else if(act==='snooze'){ ACTS[c.id]={s:'snooze',until:Date.now()+7*864e5}; saveActs(); toast('Snoozed for a week'); }
+    else if(act==='never'){ ACTS[c.id]={s:'never',t:Date.now()}; saveActs(); toast('Gone — this one will not come back'); }
+    NDI++;
+    d.innerHTML=deckCard();
+  });
+}
+function apNet(){
+  const who=ap.who;
+  if(!who) return `<div class="aphint">Pick who you are above — this view is personal by design.</div>`;
+  NDECK=buildDeck(who); NDI=0;
+  return `<div id="ndeck">${deckCard()}</div>`;
 }
 
 function draftWidget(kind,r,slug){
@@ -2399,7 +2428,7 @@ let MARKS=[]; try{ MARKS=JSON.parse(localStorage.getItem('sonar_marks')||'[]'); 
 const MK={on:false, el:null, kind:'kill'};
 const mkPersist=()=>{ try{ localStorage.setItem('sonar_marks', JSON.stringify(MARKS)); }catch(e0){} };
 const mkPage=()=>({map:'Coverage Map',
-  h2c:'Solve my H2Cs',net:'My Network',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
+  h2c:'Solve my H2Cs',net:'Network Actions',geo:'City Trip'+(ap.city?' · '+ap.city:'')}[state.page]||state.page);
 function mkLabel(el){
   for(const sel of ['.fname','.dtlabel','.dlh','.dsec','.apsec','.sechead h2','.covcap','.th','h1','h2','summary']){
     const n=el.querySelector(sel)||el.closest(sel);
