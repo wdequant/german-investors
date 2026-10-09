@@ -394,13 +394,24 @@ def build_covmap(regions, mynet, roster, load_json):
                 continue   # left this fund (Harmonic-verified): not a door into it
             if _nr.get("t") and _NETJUNK.search(_nr["t"]):
                 continue
-            for _u7, _srcs7 in (_nr.get("via") or {}).items():
+            for _u7, _vi7 in (_nr.get("via") or {}).items():
                 if _u7 not in roster:
                     continue
-                R7 = 38.0 if ({"EMAIL", "CALENDAR"} & set(_srcs7 or [])) else 28.0
+                _srcs7 = _vi7.get("s") if isinstance(_vi7, dict) else _vi7
+                _last7 = _vi7.get("l") if isinstance(_vi7, dict) else None
+                _li7 = "LINKEDIN" in set(_srcs7 or [])
+                if _last7:   # dated edge: strength follows actual activity (22..50);
+                    # a standing LinkedIn connection floors it at the LinkedIn-only 28
+                    R7 = max(28.0 if _li7 else 20.0, min(50.0, round(22 + 28 * _rec(_last7), 1)))
+                elif {"EMAIL", "CALENDAR"} & set(_srcs7 or []):
+                    R7 = 38.0
+                else:
+                    R7 = 28.0
                 _p7 = people.setdefault(_nm7, {"n": _nm7, "r": {}, "last": None})
                 if R7 > _p7["r"].get(_u7, 0):
                     _p7["r"][_u7] = R7
+                if _last7 and (not _p7["last"] or _last7 > _p7["last"]):
+                    _p7["last"] = _last7
                 if _nr.get("li") and not _p7.get("li"):
                     _p7["li"] = _nr["li"]
                 if _nr.get("t") and not _p7.get("t"):

@@ -307,7 +307,8 @@ def harmonic_cells(conn, team_order):
                 cells[u]["contacts"].append({
                     "person": c.get("person") or "(unnamed)", "title": c.get("title") or "—",
                     "external": bool(c.get("external")), "linkedin": c.get("linkedin"),
-                    "sources": via.get("sources") or [], "w": round(cw * sw, 1)})
+                    "sources": via.get("sources") or [], "last": via.get("last"),
+                    "w": round(cw * sw, 1)})
     for u in cells:
         cells[u]["score"] = round(cells[u]["score"], 1)
         cells[u]["contacts"].sort(key=lambda x: -x["w"])
@@ -333,7 +334,7 @@ def net_from_cells(cells):
                 continue
             r = rows.setdefault(k["person"], {"n": k["person"], "t": k.get("title"),
                                               "li": k.get("linkedin"), "via": {}})
-            r["via"][u] = k.get("sources") or []
+            r["via"][u] = {"s": k.get("sources") or [], "l": k.get("last")}
     return list(rows.values())
 
 
