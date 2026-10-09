@@ -239,6 +239,7 @@ def _pctile(vals):
 def build_covmap(regions, mynet, roster, load_json):
     pm = load_json(f"{ROOT}/data/enrich/person-meta.json", {}) or {}
     _EMPF = load_json(f"{ROOT}/data/enrich/employment-flags.json", {}) or {}
+    _COVR = load_json(f"{ROOT}/data/enrich/contact-overrides.json", {}) or {}
     # stage focus per curated fund (uk-funds for the UK; fund-meta for firms it knows)
     _FS_BY_SLUG = {}
     _ukf = load_json(f"{ROOT}/data/enrich/uk-funds.json", {}) or {}
@@ -416,6 +417,22 @@ def build_covmap(regions, mynet, roster, load_json):
                     _p7["li"] = _nr["li"]
                 if _nr.get("t") and not _p7.get("t"):
                     _p7["t"] = _nr["t"]
+        # user-attested contact overrides (WhatsApp/Signal threads no connector sees):
+        # the attested date feeds the same dated-edge formula, never a free-form score
+        for _u8, _m8 in _COVR.items():
+            if _u8 not in roster:
+                continue
+            for _nm8, _o8 in _m8.items():
+                if _o8.get("firm") and _o8["firm"].lower() not in e["name"].lower():
+                    continue   # same name at another firm is a different relationship (or person)
+                _p8 = next((p for p in people.values() if p["n"].lower() == _nm8.lower()), None)
+                if not _p8 or not _o8.get("last"):
+                    continue
+                R8 = round(22 + 28 * _rec(_o8["last"]), 1)
+                if R8 > _p8["r"].get(_u8, 0):
+                    _p8["r"][_u8] = R8
+                if not _p8["last"] or _o8["last"] > _p8["last"]:
+                    _p8["last"] = _o8["last"]
         for p in people.values():
             meta = pm.get(p["n"].lower()) or {}
             p["sr"] = ("Partner" if e["kind"] == "angel"

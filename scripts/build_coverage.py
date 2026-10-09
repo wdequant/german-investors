@@ -590,6 +590,14 @@ for _in4, _ces in (load_json(f"{ROOT}/data/enrich/compass-network.json", {}) or 
                             "e": _ce.get("e"), "v": False, "src": "cal"})
             if _ce["p"] >= 40:
                 _knew.setdefault(_ce["n"], set()).add(_in4)
+_covr9 = load_json(f"{ROOT}/data/enrich/contact-overrides.json", {}) or {}
+for _u9, _m9 in _covr9.items():
+    for _e9 in _mynet.get(_u9, []):
+        _o9 = _m9.get(_e9["n"])
+        if _o9 and _o9.get("firm") and _o9["firm"].lower() not in (_e9.get("f") or "").lower():
+            continue
+        if _o9 and _o9.get("last") and (_o9["last"] > (_e9.get("l") or "")):
+            _e9["l"] = _o9["last"]
 for _k2 in _mynet:   # dedupe same contact tracked under two region entries, strongest first, cap
     _best = {}
     for _e3 in _mynet[_k2]:
