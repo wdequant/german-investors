@@ -185,5 +185,5 @@
   }
  ],
  "notes": "Ambiguity guard applied: keyword B (36) re-run with investors field; kept 27 entries whose investors clearly name Maki VC/Maki.vc/Maki Ventures. Dropped 9 false positives: Archy Dental, MAKIINA, Blify (investor is 'Maki People'), Makin' 3D, wiiisdom, Maki People (company itself), MAK IT, Kano Computing, MakieLab. Guard added Ever, Sera, Disior ('MAKI Ventures Oy'), CarbonCloud over strict-filter A (23). Note: top relationship contact Ella Eskelinen's primary email is @datacrunch.io (Affinity associates her with the Maki.vc org).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

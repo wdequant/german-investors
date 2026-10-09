@@ -92,14 +92,6 @@
    "meet": "2024-11-28"
   },
   {
-   "internal": "David Blyghton",
-   "external": "Seth Pierrepont",
-   "externalEmail": "spierrepont@iconiqcapital.com",
-   "score": 1.0,
-   "last": "2024-10-08",
-   "meet": "2024-10-08"
-  },
-  {
    "internal": "Eoghan Dorman",
    "external": "Marie-Louise O'Callaghan",
    "externalEmail": "mlocallaghan@iconiqcapital.com",
@@ -156,6 +148,14 @@
    "meet": "2025-02-19"
   },
   {
+   "internal": "David Blyghton",
+   "external": "Seth Pierrepont",
+   "externalEmail": "spierrepont@iconiqcapital.com",
+   "score": 1.0,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
+  },
+  {
    "internal": "Abhishek Lahoti",
    "external": "Austin Liang",
    "externalEmail": "aliang@iconiqcapital.com",
@@ -196,14 +196,6 @@
    "meet": "2023-10-11"
   },
   {
-   "internal": "Isabel Wright",
-   "external": "Seth Pierrepont",
-   "externalEmail": "spierrepont@iconiqcapital.com",
-   "score": 0.43,
-   "last": "2024-10-08",
-   "meet": "2024-10-08"
-  },
-  {
    "internal": "Helena Richardson",
    "external": "Clara Power",
    "externalEmail": "cpower@iconiqcapital.com",
@@ -218,6 +210,14 @@
    "score": 0.43,
    "last": "2024-11-25",
    "meet": null
+  },
+  {
+   "internal": "Isabel Wright",
+   "external": "Seth Pierrepont",
+   "externalEmail": "spierrepont@iconiqcapital.com",
+   "score": 0.43,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
   },
   {
    "internal": "Helena Richardson",
@@ -252,5 +252,5 @@
    "meet": null
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

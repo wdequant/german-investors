@@ -76,14 +76,6 @@
    "meet": "2026-03-31"
   },
   {
-   "internal": "Stan Laurent",
-   "external": "Big Room",
-   "externalEmail": "bigroom@kennet.com",
-   "score": 0.98,
-   "last": "2025-02-11",
-   "meet": "2025-02-11"
-  },
-  {
    "internal": "Sam Brooks",
    "external": "Anila Repaj",
    "externalEmail": "arepaj@kennet.com",
@@ -204,5 +196,5 @@
    "meet": "2022-06-30"
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

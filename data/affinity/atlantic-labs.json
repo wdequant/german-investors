@@ -438,14 +438,6 @@
    "meet": "2021-03-25"
   },
   {
-   "internal": "Gajan Rajanathan",
-   "external": "Marc-Olivier Luecke",
-   "externalEmail": "marc@atlanticlabs.de",
-   "score": 0.34,
-   "last": "2025-10-07",
-   "meet": null
-  },
-  {
    "internal": "Helena Richardson",
    "external": "Markus Ferres",
    "externalEmail": "markus@atlanticlabs.de",
@@ -460,6 +452,14 @@
    "score": 0.34,
    "last": "2025-01-23",
    "meet": "2025-01-23"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Marc-Olivier Luecke",
+   "externalEmail": "marc@atlanticlabs.de",
+   "score": 0.34,
+   "last": "2025-10-07",
+   "meet": null
   },
   {
    "internal": "Helena Richardson",
@@ -511,22 +511,6 @@
   },
   {
    "internal": "Fergal Mullen",
-   "external": "Marc-Olivier Luecke",
-   "externalEmail": "marc@atlanticlabs.de",
-   "score": 0.1,
-   "last": "2025-10-07",
-   "meet": null
-  },
-  {
-   "internal": "Tom Neuberger",
-   "external": "Marc-Olivier Luecke",
-   "externalEmail": "marc@atlanticlabs.de",
-   "score": 0.1,
-   "last": "2025-10-07",
-   "meet": null
-  },
-  {
-   "internal": "Fergal Mullen",
    "external": "Sophie Rowe",
    "externalEmail": "sophie@atlanticlabs.de",
    "score": 0.1,
@@ -556,7 +540,23 @@
    "score": 0.1,
    "last": "2025-05-29",
    "meet": "2021-03-25"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Marc-Olivier Luecke",
+   "externalEmail": "marc@atlanticlabs.de",
+   "score": 0.1,
+   "last": "2025-10-07",
+   "meet": null
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Marc-Olivier Luecke",
+   "externalEmail": "marc@atlanticlabs.de",
+   "score": 0.1,
+   "last": "2025-10-07",
+   "meet": null
   }
  ],
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

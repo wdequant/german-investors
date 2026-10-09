@@ -346,24 +346,40 @@
    "external": "Robin Godenrath",
    "externalEmail": "robin.godenrath@picuscap.com",
    "score": 1.0,
-   "last": "2026-09-25",
-   "meet": "2024-10-09"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "David Blyghton",
    "external": "Robin Godenrath",
    "externalEmail": "robin.godenrath@picuscap.com",
    "score": 0.65,
-   "last": "2026-09-25",
-   "meet": "2024-10-09"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Harry Williams",
    "external": "Robin Godenrath",
    "externalEmail": "robin.godenrath@picuscap.com",
    "score": 0.43,
-   "last": "2026-09-25",
-   "meet": "2024-10-09"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Florian Reichert",
+   "externalEmail": "florian.reichert@picuscap.com",
+   "score": 0.33,
+   "last": "2026-10-08",
+   "meet": null
+  },
+  {
+   "internal": "Gajan Rajanathan",
+   "external": "Darius Kahlert",
+   "externalEmail": "darius.kahlert@picuscap.com",
+   "score": 0.33,
+   "last": "2026-10-08",
+   "meet": null
   },
   {
    "internal": "Anna Faulkner",
@@ -380,6 +396,14 @@
    "score": 0.51,
    "last": "2024-07-09",
    "meet": "2023-09-06"
+  },
+  {
+   "internal": "Aude Flecchia",
+   "external": "Robin Godenrath",
+   "externalEmail": "robin.godenrath@picuscap.com",
+   "score": 0.1,
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Eoghan Dorman",
@@ -423,5 +447,5 @@
   }
  ],
  "notes": "Pipeline: 45 list entries, 44 unique companies (CASAVO appeared twice; kept highest funnel rank 'Passed').",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

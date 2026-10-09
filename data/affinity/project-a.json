@@ -490,7 +490,7 @@
    "external": "Anton Waitz",
    "externalEmail": "anton.waitz@project-a.com",
    "score": 1.0,
-   "last": "2026-09-09",
+   "last": "2026-10-07",
    "meet": "2026-09-09"
   },
   {
@@ -498,8 +498,8 @@
    "external": "Francesca Baillieu",
    "externalEmail": "francesca.baillieu@project-a.com",
    "score": 0.99,
-   "last": "2026-09-24",
-   "meet": "2026-02-05"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Jacob Bernstein",
@@ -514,8 +514,8 @@
    "external": "Francesca Baillieu",
    "externalEmail": "francesca.baillieu@project-a.com",
    "score": 0.53,
-   "last": "2026-09-24",
-   "meet": "2026-02-05"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Stan Laurent",
@@ -538,7 +538,7 @@
    "external": "Anton Waitz",
    "externalEmail": "anton.waitz@project-a.com",
    "score": 0.33,
-   "last": "2026-09-09",
+   "last": "2026-10-07",
    "meet": "2026-09-09"
   },
   {
@@ -562,7 +562,7 @@
    "external": "Anton Waitz",
    "externalEmail": "anton.waitz@project-a.com",
    "score": 0.1,
-   "last": "2026-09-09",
+   "last": "2026-10-07",
    "meet": "2026-09-09"
   },
   {
@@ -570,7 +570,7 @@
    "external": "Anton Waitz",
    "externalEmail": "anton.waitz@project-a.com",
    "score": 0.1,
-   "last": "2026-09-09",
+   "last": "2026-10-07",
    "meet": "2026-09-09"
   },
   {
@@ -583,5 +583,5 @@
   }
  ],
  "notes": "Pipeline: 74 list entries, 73 unique companies (CASAVO appeared twice; kept highest funnel rank 'Passed'). Two distinct DeepDrive entity records both kept.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

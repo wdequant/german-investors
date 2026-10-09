@@ -204,14 +204,6 @@
    "meet": null
   },
   {
-   "internal": "David Blyghton",
-   "external": "Seth Pierrepont",
-   "externalEmail": "slp@accel.com",
-   "score": 1.0,
-   "last": "2024-10-08",
-   "meet": "2024-10-08"
-  },
-  {
    "internal": "Emily Tan",
    "external": "Kelly Kung",
    "externalEmail": "kkung@accel.com",
@@ -308,6 +300,14 @@
    "meet": "2024-07-23"
   },
   {
+   "internal": "David Blyghton",
+   "external": "Seth Pierrepont",
+   "externalEmail": "slp@accel.com",
+   "score": 1.0,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
+  },
+  {
    "internal": "Jean Tardy-Joubert",
    "external": "Jonathan Turner",
    "externalEmail": "jturner@accel.com",
@@ -324,5 +324,5 @@
    "meet": "2023-11-29"
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

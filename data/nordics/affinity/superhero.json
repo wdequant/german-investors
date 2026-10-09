@@ -173,5 +173,5 @@
   }
  ],
  "notes": "Ambiguity guard applied (B=25 vs A=1): all 25 keyword-B entries have an investor value explicitly naming 'SuperHero Capital'/'Superhero Capital' - the strict A filter missed the camel-case 'SuperHero Capital' spelling used by enrichment. One relationship row excluded per instructions (internal: Emily Tan).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

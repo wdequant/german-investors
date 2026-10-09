@@ -184,16 +184,16 @@
    "external": "Andrei Brasoveanu",
    "externalEmail": "abrasoveanu@accel.com",
    "score": 0.83,
-   "last": "2026-09-11",
-   "meet": "2026-04-22"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "David Blyghton",
    "external": "Andrei Brasoveanu",
    "externalEmail": "abrasoveanu@accel.com",
-   "score": 0.81,
-   "last": "2026-09-11",
-   "meet": "2026-04-22"
+   "score": 0.58,
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Fergal Mullen",
@@ -202,14 +202,6 @@
    "score": 0.73,
    "last": "2026-08-05",
    "meet": null
-  },
-  {
-   "internal": "David Blyghton",
-   "external": "Seth Pierrepont",
-   "externalEmail": "slp@accel.com",
-   "score": 1.0,
-   "last": "2024-10-08",
-   "meet": "2024-10-08"
   },
   {
    "internal": "Emily Tan",
@@ -224,8 +216,8 @@
    "external": "Andrei Brasoveanu",
    "externalEmail": "abrasoveanu@accel.com",
    "score": 0.44,
-   "last": "2026-09-11",
-   "meet": "2026-04-22"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Aude Flecchia",
@@ -308,6 +300,14 @@
    "meet": "2024-07-23"
   },
   {
+   "internal": "David Blyghton",
+   "external": "Seth Pierrepont",
+   "externalEmail": "slp@accel.com",
+   "score": 1.0,
+   "last": "2024-10-08",
+   "meet": "2024-10-08"
+  },
+  {
    "internal": "Jean Tardy-Joubert",
    "external": "Jonathan Turner",
    "externalEmail": "jturner@accel.com",
@@ -324,5 +324,5 @@
    "meet": "2023-11-29"
   }
  ],
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

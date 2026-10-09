@@ -307,6 +307,14 @@
  ],
  "relationships": [
   {
+   "internal": "William De Quant",
+   "external": "Pierre-Yves Meerschman",
+   "externalEmail": "pym@daphni.com",
+   "score": 1.0,
+   "last": "2026-10-09",
+   "meet": "2024-06-12"
+  },
+  {
    "internal": "Irena Goldenberg",
    "external": "Jonas Simonin",
    "externalEmail": "jonas@daphni.com",
@@ -331,19 +339,11 @@
    "meet": "2026-09-29"
   },
   {
-   "internal": "William De Quant",
-   "external": "Pierre-Yves Meerschman",
-   "externalEmail": "pym@daphni.com",
-   "score": 0.98,
-   "last": "2026-10-06",
-   "meet": "2024-06-12"
-  },
-  {
    "internal": "Jean Tardy-Joubert",
    "external": "Pierre-Yves Meerschman",
    "externalEmail": "pym@daphni.com",
    "score": 0.95,
-   "last": "2026-10-06",
+   "last": "2026-10-09",
    "meet": "2024-06-12"
   },
   {
@@ -423,7 +423,7 @@
    "external": "Pierre-Yves Meerschman",
    "externalEmail": "pym@daphni.com",
    "score": 0.1,
-   "last": "2026-10-06",
+   "last": "2026-10-09",
    "meet": "2024-06-12"
   },
   {
@@ -431,7 +431,7 @@
    "external": "Pierre-Yves Meerschman",
    "externalEmail": "pym@daphni.com",
    "score": 0.1,
-   "last": "2026-10-06",
+   "last": "2026-10-09",
    "meet": "2024-06-12"
   },
   {
@@ -469,5 +469,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on alias Daphni (incl. 'Daphni SAS', 'Daphni And Motier Ventures' co-investor strings). Affinity company Daphni (daphni.com). Top 10 of 12 qualifying relationships kept after dropping Emily Tan and Anna Faulkner rows; Kyang Yung now at Coalition (ex-daphni contact on record). Live: last contact 2026-06-16 meeting (Irena Goldenberg/Tom Neuberger with Pierre-Eric Leibovici, Jonas Simonin).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

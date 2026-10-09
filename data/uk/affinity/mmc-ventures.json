@@ -36,6 +36,14 @@
    "meet": "2026-09-07"
   },
   {
+   "internal": "Lucinda Maxwell",
+   "external": "Emily Tsen",
+   "externalEmail": "emily@mmc.vc",
+   "score": 0.94,
+   "last": "2026-10-08",
+   "meet": "2024-06-26"
+  },
+  {
    "internal": "Jacob Bernstein",
    "external": "Lina Estlind",
    "externalEmail": "lina@mmc.vc",
@@ -58,14 +66,6 @@
    "score": 0.99,
    "last": "2026-01-13",
    "meet": "2026-01-13"
-  },
-  {
-   "internal": "Lucinda Maxwell",
-   "external": "Emily Tsen",
-   "externalEmail": "emily@mmc.vc",
-   "score": 0.67,
-   "last": "2026-10-08",
-   "meet": "2024-06-26"
   },
   {
    "internal": "Tony Zappala",
@@ -284,5 +284,5 @@
    "meet": "2022-05-24"
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

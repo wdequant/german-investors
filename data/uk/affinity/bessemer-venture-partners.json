@@ -108,14 +108,6 @@
    "meet": "2025-07-10"
   },
   {
-   "internal": "William De Quant",
-   "external": "NoName Conf-ldn-bondst@bvp.com",
-   "externalEmail": "conf-ldn-bondst@bvp.com",
-   "score": 0.98,
-   "last": "2024-06-25",
-   "meet": "2024-06-25"
-  },
-  {
    "internal": "Ronan Shally",
    "external": "Nancy Straface",
    "externalEmail": "nancyn@bvp.com",
@@ -220,5 +212,5 @@
    "meet": "2023-10-30"
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

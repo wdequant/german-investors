@@ -1281,7 +1281,7 @@
    "external": "Maxime Browaeys",
    "externalEmail": "maxime.lotigie@bpifrance.fr",
    "score": 0.99,
-   "last": "2026-07-09",
+   "last": "2026-10-08",
    "meet": "2026-07-09"
   },
   {
@@ -1333,6 +1333,14 @@
    "meet": "2026-09-23"
   },
   {
+   "internal": "Aude Flecchia",
+   "external": "Maxime Browaeys",
+   "externalEmail": "maxime.lotigie@bpifrance.fr",
+   "score": 0.78,
+   "last": "2026-10-08",
+   "meet": "2026-07-09"
+  },
+  {
    "internal": "Tom Neuberger",
    "external": "Cindy Ung",
    "externalEmail": "cindy.ung@bpifrance.fr",
@@ -1345,7 +1353,7 @@
    "external": "Maxime Browaeys",
    "externalEmail": "maxime.lotigie@bpifrance.fr",
    "score": 0.7,
-   "last": "2026-07-09",
+   "last": "2026-10-08",
    "meet": "2026-07-09"
   },
   {
@@ -1449,7 +1457,7 @@
    "external": "Maxime Browaeys",
    "externalEmail": "maxime.lotigie@bpifrance.fr",
    "score": 0.1,
-   "last": "2026-07-09",
+   "last": "2026-10-08",
    "meet": "2026-07-09"
   },
   {
@@ -1535,5 +1543,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on aliases Bpifrance/BPI France/Large Venture etc. (177 companies, largest of group). Affinity company Bpifrance (bpifrance.fr). Top 10 of 30+ relationships kept after dropping Isabel Wright rows. Live: last contact 2026-08-14 (Abhishek Lahoti email to Joel Bentolila).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

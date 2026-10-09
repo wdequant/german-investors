@@ -108,14 +108,6 @@
    "meet": "2026-06-09"
   },
   {
-   "internal": "David Blyghton",
-   "external": "Room 22",
-   "externalEmail": "sflarge@ivp.com",
-   "score": 0.99,
-   "last": "2025-05-14",
-   "meet": "2025-05-14"
-  },
-  {
    "internal": "Isabel Wright",
    "external": "Alex Lim",
    "externalEmail": "alex@ivp.com",
@@ -324,5 +316,5 @@
    "meet": null
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

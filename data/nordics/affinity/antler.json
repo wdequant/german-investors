@@ -814,14 +814,6 @@
   },
   {
    "internal": "Aude Flecchia",
-   "external": "Antler Conference",
-   "externalEmail": "efc@antler.co",
-   "score": 0.1,
-   "last": "2026-09-09",
-   "meet": null
-  },
-  {
-   "internal": "Aude Flecchia",
    "external": "Jack Davies",
    "externalEmail": "jack.davies@antler.co",
    "score": 0.1,
@@ -878,5 +870,5 @@
   }
  ],
  "notes": "Query A (exact investor Antler) totalCount 87; Query B keyword totalCount 90. Antler guard applied: kept entries with an investor value exactly Antler or starting with Antler (89 kept); dropped siliXon whose only match was Helloworld.vc And Antler. All Query A entries confirmed within union.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

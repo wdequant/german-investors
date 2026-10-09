@@ -81,5 +81,5 @@
   "context": "Affinity company record exists (evolem.com) but has zero interaction history: no emails, no events, no last-contact and no team relationships recorded."
  },
  "notes": "Pipeline matched on alias Evolem (incl. 'Evolem Funds', 'Evolem Start'). Affinity company Evolem (evolem.com) exists but is a bare record: no interactions or relationships ever logged, hence dormant with no internal owner or date.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

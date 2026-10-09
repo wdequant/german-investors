@@ -90,5 +90,5 @@
  ],
  "relationships": [],
  "notes": "get_company_relationships for bosch ventures (Affinity company 297975510, bosch.ventures) returned no relationships. This was the only Affinity match for 'Bosch Ventures' (no bosch-ventures.com entry found).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

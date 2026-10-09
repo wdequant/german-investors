@@ -252,14 +252,6 @@
    "meet": "2024-12-12"
   },
   {
-   "internal": "Abhishek Lahoti",
-   "external": "Meeting Room 3 London",
-   "externalEmail": "meetingroom3london@nautacapital.com",
-   "score": 0.91,
-   "last": "2024-12-12",
-   "meet": "2024-12-12"
-  },
-  {
    "internal": "Anna Faulkner",
    "external": "Josh Trup",
    "externalEmail": "joshua.trup@nautacapital.com",
@@ -322,7 +314,15 @@
    "score": 1.0,
    "last": "2024-05-20",
    "meet": "2024-05-20"
+  },
+  {
+   "internal": "Tony Zappala",
+   "external": "Oriol Juncosa",
+   "externalEmail": "oriol.juncosa@nautacapital.com",
+   "score": 0.53,
+   "last": "2025-09-01",
+   "meet": "2025-07-29"
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

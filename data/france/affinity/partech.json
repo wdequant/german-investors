@@ -1105,6 +1105,14 @@
  ],
  "relationships": [
   {
+   "internal": "Aude Flecchia",
+   "external": "Julia Najman",
+   "externalEmail": "jnajman@partechpartners.com",
+   "score": 1.0,
+   "last": "2026-10-07",
+   "meet": "2026-09-23"
+  },
+  {
    "internal": "Efosa Ayanru",
    "external": "Mohamed Damak",
    "externalEmail": "mdamak@partechpartners.com",
@@ -1117,15 +1125,15 @@
    "external": "Aya Murr",
    "externalEmail": "amurr@partechpartners.com",
    "score": 1.0,
-   "last": "2026-07-16",
-   "meet": "2026-07-16"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Abhishek Lahoti",
    "external": "Keji Mustapha",
    "externalEmail": "kmustapha@partechpartners.com",
    "score": 1.0,
-   "last": "2026-10-06",
+   "last": "2026-10-07",
    "meet": "2026-10-05"
   },
   {
@@ -1153,14 +1161,6 @@
    "meet": "2026-04-10"
   },
   {
-   "internal": "Aude Flecchia",
-   "external": "Julia Najman",
-   "externalEmail": "jnajman@partechpartners.com",
-   "score": 0.99,
-   "last": "2026-10-07",
-   "meet": "2026-09-23"
-  },
-  {
    "internal": "William De Quant",
    "external": "Elena Moneta",
    "externalEmail": "emoneta@partechpartners.com",
@@ -1181,8 +1181,8 @@
    "external": "Aya Murr",
    "externalEmail": "amurr@partechpartners.com",
    "score": 0.98,
-   "last": "2026-07-16",
-   "meet": "2026-07-16"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "William De Quant",
@@ -1277,15 +1277,15 @@
    "external": "Keji Mustapha",
    "externalEmail": "kmustapha@partechpartners.com",
    "score": 0.81,
-   "last": "2026-10-06",
+   "last": "2026-10-07",
    "meet": "2026-10-05"
   },
   {
    "internal": "Helena Richardson",
    "external": "Keji Mustapha",
    "externalEmail": "kmustapha@partechpartners.com",
-   "score": 0.71,
-   "last": "2026-10-06",
+   "score": 0.72,
+   "last": "2026-10-07",
    "meet": "2026-10-05"
   },
   {
@@ -1293,16 +1293,16 @@
    "external": "Aya Murr",
    "externalEmail": "amurr@partechpartners.com",
    "score": 0.64,
-   "last": "2026-07-16",
-   "meet": "2026-07-16"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Emily Tan",
    "external": "Aya Murr",
    "externalEmail": "amurr@partechpartners.com",
    "score": 0.59,
-   "last": "2026-07-16",
-   "meet": "2026-07-16"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Harry Williams",
@@ -1401,31 +1401,31 @@
    "meet": "2024-06-04"
   },
   {
-   "internal": "William De Quant",
-   "external": "Embarcadero Room",
-   "externalEmail": "embarcaderomeetingroom@partechpartners.com",
-   "score": 0.98,
-   "last": "2024-06-12",
-   "meet": "2024-06-12"
-  },
-  {
-   "internal": "Jean Tardy-Joubert",
-   "external": "Embarcadero Room",
-   "externalEmail": "embarcaderomeetingroom@partechpartners.com",
-   "score": 0.95,
-   "last": "2024-06-12",
-   "meet": "2024-06-12"
-  },
-  {
    "internal": "Efosa Ayanru",
    "external": "Klaudyna Augler",
    "externalEmail": "kaugler@partechpartners.com",
    "score": 0.53,
    "last": "2025-04-28",
    "meet": "2024-09-18"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Victor Huberson",
+   "externalEmail": "vhuberson@partechpartners.com",
+   "score": 0.76,
+   "last": "2024-04-26",
+   "meet": "2024-04-26"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Finn Weise",
+   "externalEmail": "fweise@partechpartners.com",
+   "score": 0.72,
+   "last": "2024-06-04",
+   "meet": "2024-06-04"
   }
  ],
  "dormant": null,
  "notes": "Company 1514268 (partechpartners.com + partechventures.com). Top 10 of 20+ relationships kept; some externals are alumni now elsewhere (Balderton, fly.vc, Singular). Pipeline matched 'Partech' (157) plus Partech Africa/partners variants (3).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

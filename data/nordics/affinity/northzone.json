@@ -1006,5 +1006,5 @@
   }
  ],
  "notes": "Query A (exact investor Northzone/Northzone Ventures) totalCount 1 (Infogrid, contained in B); Query B keyword totalCount 99. Union deduped to 97 unique companies (Klarna and Universal Avenue each had two list entries; kept latest createdAt, both same funnel). All entries verified to carry a Northzone-token investor value.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

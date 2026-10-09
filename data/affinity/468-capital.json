@@ -291,5 +291,5 @@
   }
  ],
  "notes": "Pipeline: 36 list entries, 36 unique companies (two distinct 'arive' entity records both kept). Relationships: only 6 exist in Affinity for this company.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

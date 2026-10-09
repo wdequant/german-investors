@@ -157,14 +157,6 @@
   },
   {
    "internal": "Harry Williams",
-   "external": "Kuran Malhotra",
-   "externalEmail": "kmalhotra@insightpartners.com",
-   "score": 0.87,
-   "last": "2025-10-08",
-   "meet": "2025-10-08"
-  },
-  {
-   "internal": "Harry Williams",
    "external": "Rohan Sinha",
    "externalEmail": "rsinha@insightpartners.com",
    "score": 0.76,
@@ -184,7 +176,7 @@
    "external": "Nnamdi Okike",
    "externalEmail": "nokike@insightpartners.com",
    "score": 0.7,
-   "last": "2026-10-07",
+   "last": "2026-10-08",
    "meet": "2018-10-02"
   },
   {
@@ -268,6 +260,14 @@
    "meet": "2025-06-11"
   },
   {
+   "internal": "Harry Williams",
+   "external": "Kuran Malhotra",
+   "externalEmail": "kmalhotra@insightpartners.com",
+   "score": 0.87,
+   "last": "2025-10-08",
+   "meet": "2025-10-08"
+  },
+  {
    "internal": "Abhishek Lahoti",
    "external": "Suneel Mudaliar",
    "externalEmail": "smudaliar@insightpartners.com",
@@ -324,5 +324,5 @@
    "meet": "2026-09-16"
   }
  ],
- "rels_fetched": "2026-10-08"
+ "rels_fetched": "2026-10-09"
 }

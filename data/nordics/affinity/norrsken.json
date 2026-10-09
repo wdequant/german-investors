@@ -306,7 +306,7 @@
    "external": "Cecilia Ma",
    "externalEmail": "cecilia@norrsken.vc",
    "score": 1.0,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2025-02-17"
   },
   {
@@ -322,7 +322,7 @@
    "external": "Agate Freimane",
    "externalEmail": "agate@norrsken.vc",
    "score": 0.97,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2026-09-10"
   },
   {
@@ -338,7 +338,7 @@
    "external": "Cecilia Ma",
    "externalEmail": "cecilia@norrsken.vc",
    "score": 0.81,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2025-02-17"
   },
   {
@@ -354,7 +354,7 @@
    "external": "Cecilia Ma",
    "externalEmail": "cecilia@norrsken.vc",
    "score": 0.51,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2025-02-17"
   },
   {
@@ -370,7 +370,7 @@
    "external": "Cecilia Ma",
    "externalEmail": "cecilia@norrsken.vc",
    "score": 0.39,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2025-02-17"
   },
   {
@@ -378,7 +378,7 @@
    "external": "Cecilia Ma",
    "externalEmail": "cecilia@norrsken.vc",
    "score": 0.37,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2025-02-17"
   },
   {
@@ -386,7 +386,7 @@
    "external": "Agate Freimane",
    "externalEmail": "agate@norrsken.vc",
    "score": 0.35,
-   "last": "2026-10-01",
+   "last": "2026-10-07",
    "meet": "2026-09-10"
   },
   {
@@ -407,5 +407,5 @@
   }
  ],
  "notes": "Picked org 281060985 (norrsken.vc) as the VC entity: it holds all team relationships; org 39078982 (norrsken.org, also labelled 'Norrsken VC') has none. Excluded ex-staff rows for Anna Faulkner and Emily Tan. Keyword union includes some Norrsken22 (Africa fund) portfolio (Raenest, Smile ID, Stitch Money, NALA); guard threshold not met (B=48 < 3xA=96).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

@@ -324,5 +324,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on exact alias 'Singular' only (no prefix matching) to avoid Singular Ventures/SingularDTV false positives; portfolio spot-check (Qobra, tinybird, Homa Games, Resilience, moka.care) confirms the Paris fund. Affinity company Singular (singular.vc). Top 10 kept after dropping Emily Tan row; Jeremy Uzan and Raffi Kamber both present. Live: last contact 2026-08-10 (Tony Zappala x Raffi Kamber re Tsuga).",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

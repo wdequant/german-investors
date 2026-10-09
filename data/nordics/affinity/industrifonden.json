@@ -261,5 +261,5 @@
   }
  ],
  "notes": "Query A totalCount 41; Query B keyword totalCount 41 (identical sets). 41 unique companies; Foap AB has a null funnel value. A second Industrifonden org exists in Affinity (id 291831679, industrifonden.se); primary industrifonden.com org used.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

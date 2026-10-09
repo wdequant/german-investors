@@ -220,24 +220,24 @@
    "external": "Julius Lühr",
    "externalEmail": "jl@actoncapital.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Gajan Rajanathan",
    "external": "Julius Lühr",
    "externalEmail": "jl@actoncapital.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Harry Williams",
    "external": "Joseph Hefele",
    "externalEmail": "jh@actoncapital.com",
    "score": 1.0,
-   "last": "2026-09-11",
-   "meet": "2026-09-11"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Helena Richardson",
@@ -252,24 +252,24 @@
    "external": "Christoph Braun",
    "externalEmail": "cb@actoncapital.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Gajan Rajanathan",
    "external": "Christoph Braun",
    "externalEmail": "cb@actoncapital.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Irena Goldenberg",
    "external": "Julius Lühr",
    "externalEmail": "jl@actoncapital.com",
    "score": 0.99,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Sam Brooks",
@@ -300,40 +300,40 @@
    "external": "Christoph Braun",
    "externalEmail": "cb@actoncapital.com",
    "score": 0.58,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Emily Tan",
    "external": "Julius Lühr",
    "externalEmail": "jl@actoncapital.com",
    "score": 0.43,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-08",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Jacob Bernstein",
    "external": "Joseph Hefele",
    "externalEmail": "jh@actoncapital.com",
    "score": 0.43,
-   "last": "2026-09-11",
-   "meet": "2026-09-11"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Fergal Mullen",
    "external": "Joseph Hefele",
    "externalEmail": "jh@actoncapital.com",
    "score": 0.1,
-   "last": "2026-09-11",
-   "meet": "2026-09-11"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "Tyrone Tee",
    "external": "Joseph Hefele",
    "externalEmail": "jh@actoncapital.com",
    "score": 0.1,
-   "last": "2026-09-11",
-   "meet": "2026-09-11"
+   "last": "2026-10-08",
+   "meet": "2026-10-08"
   },
   {
    "internal": "David Blyghton",
@@ -356,16 +356,16 @@
    "external": "Christoph Braun",
    "externalEmail": "cb@actoncapital.com",
    "score": 0.1,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "Stan Laurent",
    "external": "Christoph Braun",
    "externalEmail": "cb@actoncapital.com",
    "score": 0.1,
-   "last": "2026-10-06",
-   "meet": "2026-09-23"
+   "last": "2026-10-07",
+   "meet": "2026-10-07"
   },
   {
    "internal": "David Blyghton",
@@ -384,5 +384,5 @@
    "meet": null
   }
  ],
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

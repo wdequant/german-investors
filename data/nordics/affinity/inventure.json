@@ -306,20 +306,20 @@
  ],
  "relationships": [
   {
-   "internal": "Helena Richardson",
-   "external": "Tatiana Shalalvand",
-   "externalEmail": "tatiana@inventure.vc",
-   "score": 1.0,
-   "last": "2026-04-10",
-   "meet": "2025-05-21"
-  },
-  {
    "internal": "Jacob Bernstein",
    "external": "Linus Dahg",
    "externalEmail": "linus@inventure.vc",
    "score": 1.0,
    "last": "2026-09-23",
    "meet": "2026-09-23"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Tatiana Shalalvand",
+   "externalEmail": "tatiana@inventure.vc",
+   "score": 1.0,
+   "last": "2026-04-10",
+   "meet": "2025-05-21"
   },
   {
    "internal": "Harry Williams",
@@ -339,5 +339,5 @@
   }
  ],
  "notes": "Query A totalCount 44; Query B keyword totalCount 62. Of the 18 keyword-only extras, 6 genuine Inventure (Nordic fund) variants kept (Samphire Neuroscience, Reveel, ReOrbit, Algorithmiq, Zaver, Jobbatical - values Inventure VC / inventure / Inventure Vc); 12 dropped as other funds: Inventures Collective (Edgeless Systems, CitizenLab, OncoDNA, Cognigy, APROPLAN), InVenture/Inventure Partners (refurbed, MILES, CHRONEXT, Ometria), InVentures/INventures/Inventures (Monite, edrone, VirtuOz). Union = 50.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

@@ -132,5 +132,5 @@
  ],
  "relationships": [],
  "notes": "Pipeline deduplicated: Cello (entity 291408660) appeared on two list entries, both with funnel Lead; kept one. 21 unique companies from 22 list entries. get_company_relationships for Possible Ventures (Affinity company 283327459, possible.ventures) returned no relationships.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }

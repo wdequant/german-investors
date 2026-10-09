@@ -111,5 +111,5 @@
   }
  ],
  "notes": "Ambiguity guard applied (marked): all 16 keyword-B entries have investor values naming 'Skyfall'/'Skyfall Ventures'; guard added Hive Autonomy, Stendr, Sonair, Optio Incentives, GamerPay over strict-filter A (11). Affinity org record is skyfall.vc (domains include skyfallventures.no) - the Norwegian fund; expected skyfallventures.com not present in CRM.",
- "rels_fetched": "2026-10-07"
+ "rels_fetched": "2026-10-09"
 }
