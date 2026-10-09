@@ -81,7 +81,18 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .abtn:hover{background:var(--ink);color:var(--surface);border-color:var(--ink)}
 #shell{display:flex;align-items:flex-start}
 #side{width:218px;flex:none;position:sticky;top:53px;height:calc(100vh - 53px);
-  border-right:1px solid var(--hair);background:var(--surface);padding:16px 10px;box-sizing:border-box}
+  border-right:1px solid var(--hair);background:var(--surface);padding:16px 10px;box-sizing:border-box;
+  overflow-y:auto;display:flex;flex-direction:column}
+/* Ask Sonar: compact callout at the bottom of the left bar */
+#sideask{margin-top:auto;padding-top:14px}
+#sideask .askcard{margin:0;padding:12px;border-radius:12px}
+#sideask .askrow{flex-direction:column;gap:6px}
+#sideask .askrow input{font-size:12px;padding:8px 10px;min-width:0}
+#sideask .askrow button{padding:7px 10px;font-size:12px}
+#sideask .asklog{max-height:240px;margin:0 0 10px;font-size:12px}
+#sideask .askchips{margin-top:8px;gap:5px}
+#sideask .askchips button{font-size:10.5px;padding:4px 9px;text-align:left}
+@media(max-width:860px){ #sideask{display:none} }
 .slabel{font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
   padding:0 12px;margin:4px 0 6px}
 .sitem{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;font-size:13.5px;
@@ -768,8 +779,11 @@ body.mkmode{cursor:crosshair}
 .cmacc summary b{color:var(--ink);margin-left:4px}
 .cmacc[open] summary{border-bottom:1px solid var(--hair2)}
 .cmacc .dpli{padding:6px 0}
-.cmnode{fill:var(--accent);stroke:#fff;stroke-width:1.2}
-.cmreg.live:hover .cmnode,.cmreg.live:focus .cmnode{fill:var(--accent-ink)}
+.cmnode{fill:var(--accent);fill-opacity:.72;stroke:#fff;stroke-width:1.2}
+.cmswap .cmdisc{opacity:0;transition:opacity .2s}
+.cmswap .cmbtn{transition:opacity .2s}
+.cmswap:hover .cmdisc,.cmswap:focus .cmdisc{opacity:1}
+.cmswap:hover .cmbtn,.cmswap:focus .cmbtn{opacity:0}
 .cmdeth{display:flex;gap:14px;align-items:center;margin-bottom:12px}
 .cmdetn{font-size:17px;font-weight:700}
 .cmdett{margin-top:4px}
@@ -925,9 +939,10 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 <nav id="side">
   <div class="slabel">Sonar</div>
   <a class="sitem" data-page="map" id="simap"><span class="si">◍</span>Coverage Map</a>
-  <a class="sitem" data-page="net"><span class="si">⇗</span>Network Actions</a>
   <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
   <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
+  <a class="sitem" data-page="net"><span class="si">⇗</span>Network Actions</a>
+  <div id="sideask"></div>
 </nav>
 <main id="content">
 
@@ -1275,12 +1290,12 @@ async function sendAsk(q){
 
 const PAGES={h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
 function askCard(){
-  return `<div class="askcard" style="margin-top:20px">
+  return `<div class="askcard">
       <div class="dph" style="margin-bottom:10px;display:flex;justify-content:space-between;align-items:center">\u2726 Ask Sonar
         <button type="button" id="askclear" hidden title="Clear this conversation">\u21ba clear</button></div>
       <div class="asklog" id="asklog" hidden></div>
       <form class="askrow" id="askform">
-        <input id="askin" placeholder="Ask about your network \u2014 paths in, intros, where to focus" autocomplete="off">
+        <input id="askin" placeholder="Ask about your network\u2026" autocomplete="off">
         <button type="submit" id="askgo">Ask</button>
       </form>
       <div class="askchips">${['Who should I build a relationship with next?',
@@ -1329,9 +1344,9 @@ function renderWork(){
   if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderWork();updateHash();});
   ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderWork();}));
   const body=document.getElementById('apbody');
-  body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet()+askCard():apGeo();
+  body.innerHTML = ap.mode==='map'?apMap():ap.mode==='htc'?apHtc():ap.mode==='net'?apNet():apGeo();
   if(ap.mode==='map') mapBind(body);
-  if(ap.mode==='net'){ bindAsk(body); bindDeck(body); }
+  if(ap.mode==='net') bindDeck(body);
   body.querySelectorAll('[data-gofund]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();goFund(a.dataset.gofund);}));
   body.querySelectorAll('[data-goh2c]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();goPage('h2c');}));
   body.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
@@ -1499,6 +1514,7 @@ function cmGlyphSvg(e,me,px){
 function cmLegend(me){
   return `<div class="cmlegend">
     <span class="cmlgi"><svg width="16" height="26" viewBox="0 0 16 26"><circle cx="8" cy="13" r="5" class="cmnode"/></svg><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmnode"/></svg>bigger = more of Highland's deal flow and pipeline runs through this area</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" style="fill:var(--accent-ink)"/></svg>hover: pale ring = team coverage · solid centre = ${me?'yours':'mine'}</span>
   </div>`;
 }
 function apMap(){
@@ -1537,12 +1553,16 @@ function cmSvg(me){
     const maxW0=Math.max(...liveR.map(r=>0.5*CM.areas[r.id].opp+0.5*(CM.areas[r.id].pw||0)),1);
     layer=CM.regions.map(r=>{
       if(!r.active||!CM.areas[r.id]) return `<g class="cmreg off" transform="translate(${r.x},${r.y})"><title>${r.name} — coming soon</title><circle r="4.5"/></g>`;
-      const a=CM.areas[r.id];
+      const a=CM.areas[r.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const w0=(0.5*a.opp+0.5*(a.pw||0))/maxW0;   // node weight = deal flow + team pipeline
-      const R=(6+15*Math.sqrt(w0));   // one colour everywhere — size alone says how much this area matters
-      return `<g class="cmreg live cmregbtn" ${r.solo?`data-cmcc2="${r.solo}"`:`data-cmgo="l1"`} data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
+      // one colour, size = how much the area matters; hover breaks out team ring + your centre
+      const rb=(4+9*Math.sqrt(w0)), R=(16+13*Math.sqrt(w0));
+      const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      return `<g class="cmreg live cmregbtn cmswap" ${r.solo?`data-cmcc2="${r.solo}"`:`data-cmgo="l1"`} data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
         <title>${r.name}</title>
-        <circle r="${R.toFixed(1)}" class="cmnode"/></g>`;
+        <g class="cmbtn"><circle r="${rb.toFixed(1)}" class="cmnode"/></g>
+        <g class="cmdisc"><circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
+          ${rm>1?`<circle r="${rm.toFixed(1)}" class="cmme" style="fill:var(--accent-ink)"/>`:''}</g></g>`;
     }).join('');
   } else {
     const subs=(CM.subsOf||{})[MAP.reg]||[];
@@ -1554,9 +1574,10 @@ function cmSvg(me){
     const nodes=subs.filter(sb=>CM.areas[sb.id]).map(sb=>{
       const a=CM.areas[sb.id], covu=me&&a.u[me]?a.u[me].covu:0;
       const wgt=0.5*(a.opp/maxo)+0.5*((a.pw||0)/maxp);   // size = deal flow opportunity + the team's pipeline weight here
-      const R=(12+58*Math.sqrt(wgt))/sEst;
+      const R=(12+50*Math.sqrt(wgt))/sEst, rb=(8+28*Math.sqrt(wgt))/sEst;
+      const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
       const exp=me&&a.u[me]&&a.u[me].exp>=15&&covu<50;
-      return {sb,a,covu,R,exp,x:sb.x,y:sb.y};
+      return {sb,a,covu,R,rb,rt,rm,exp,x:sb.x,y:sb.y};
     });
     // satellite cities can sit inside a giant neighbour's disc (Cambridge/Oxford vs London):
     // push the smaller node out along the joining axis until the discs clear
@@ -1566,8 +1587,10 @@ function cmSvg(me){
       if(d<need){ const s=A.R>=B.R?B:A, dir=s===B?1:-1, push=need-d;
         s.x+=dx/d*push*dir; s.y+=dy/d*push*dir; }
     }
-    layer=nodes.map(n=>`<g class="cmreg live" data-cmcc2="${n.sb.id}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})">
-        <circle r="${n.R.toFixed(1)}" class="cmnode"/>
+    layer=nodes.map(n=>`<g class="cmreg live cmswap" data-cmcc2="${n.sb.id}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})">
+        <g class="cmbtn"><circle r="${n.rb.toFixed(1)}" class="cmnode"/></g>
+        <g class="cmdisc"><circle r="${n.R.toFixed(1)}" class="cmouter"/><circle r="${n.rt.toFixed(1)}" class="cmteam"/>
+          ${n.rm>0.4?`<circle r="${n.rm.toFixed(1)}" class="cmme" style="fill:var(--accent-ink)"/>`:''}</g>
         <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(n.R+8/sEst):(n.R+16/sEst)).toFixed(1)}" style="font-size:${(14.5/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}</text></g>`).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
@@ -2784,6 +2807,9 @@ if (window.claude && window.claude.downloads){
     }
   });
 }
+// Ask Sonar lives in the left bar — rendered once, follows you across pages
+const _sa=document.getElementById('sideask');
+if(_sa){ _sa.innerHTML=askCard(); bindAsk(_sa); }
 goPage(state.page||'map');
 </script>
 """
