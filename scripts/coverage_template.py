@@ -79,20 +79,15 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 .abtn{background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-ink);border-radius:9px;
   padding:9px 16px;font-size:13px;font-weight:650;cursor:pointer;letter-spacing:-.01em}
 .abtn:hover{background:var(--ink);color:var(--surface);border-color:var(--ink)}
-#shell{display:flex;align-items:flex-start}
-#side{width:218px;flex:none;position:sticky;top:53px;height:calc(100vh - 53px);
-  border-right:1px solid var(--hair);background:var(--surface);padding:16px 10px;box-sizing:border-box;
-  overflow-y:auto;display:flex;flex-direction:column}
-/* Ask Sonar: compact callout at the bottom of the left bar */
-#sideask{margin-top:auto;padding-top:14px}
-#sideask .askcard{margin:0;padding:12px;border-radius:12px}
-#sideask .askrow{flex-direction:column;gap:6px}
-#sideask .askrow input{font-size:12px;padding:8px 10px;min-width:0}
-#sideask .askrow button{padding:7px 10px;font-size:12px}
-#sideask .asklog{max-height:240px;margin:0 0 10px;font-size:12px}
-#sideask .askchips{margin-top:8px;gap:5px}
-#sideask .askchips button{font-size:10.5px;padding:4px 9px;text-align:left}
-@media(max-width:860px){ #sideask{display:none} }
+#shell{display:block}
+/* feature bar: one fixed horizontal strip under the app bar */
+#side{position:sticky;top:53px;z-index:15;display:flex;flex-direction:row;align-items:center;gap:6px;
+  overflow-x:auto;-webkit-overflow-scrolling:touch;padding:8px 22px;box-sizing:border-box;
+  background:var(--surface);border-bottom:1px solid var(--hair)}
+#siask{margin-left:auto;color:var(--accent-ink)}
+#siask:hover{background:var(--accent-soft)}
+/* the Ask Sonar card parks here, invisible, whenever the big view is closed — history intact */
+#sideask{display:none}
 /* Ask Sonar big view: the same conversation, three-quarters of the screen */
 #askmodal{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center}
 #askmodal[hidden]{display:none}
@@ -112,10 +107,8 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 #askbig{background:transparent;border:0;color:var(--muted);cursor:pointer;font-size:13px;padding:0 4px}
 #askbig:hover{color:var(--ink)}
 @media(max-width:860px){ .ambox{width:94vw;height:88vh;padding:14px} }
-.slabel{font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
-  padding:0 12px;margin:4px 0 6px}
-.sitem{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;font-size:13.5px;
-  font-weight:600;color:var(--ink2);cursor:pointer;margin-bottom:2px;user-select:none}
+.sitem{display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;font-size:13.5px;
+  font-weight:600;color:var(--ink2);cursor:pointer;user-select:none;flex:none;white-space:nowrap}
 .sitem:hover{background:var(--hair2);color:var(--ink)}
 .sitem.on{background:var(--accent-soft);color:var(--accent-ink)}
 .sitem .si{width:18px;text-align:center;flex:none}
@@ -716,13 +709,9 @@ body.mkmode{cursor:crosshair}
   .namecell,.fname{overflow-wrap:anywhere}
 }
 @media(max-width:860px){
-  /* sidebar becomes a horizontal nav strip — phones keep full navigation */
-  #shell{display:block}
-  #side{position:static;width:auto;height:auto;display:flex;flex-direction:row;align-items:center;gap:4px;
-    overflow-x:auto;-webkit-overflow-scrolling:touch;padding:8px 12px;border-right:0;
-    border-bottom:1px solid var(--hair)}
-  #side .slabel{display:none}
-  .sitem{flex:none;margin-bottom:0;padding:7px 12px;font-size:12.5px;white-space:nowrap}
+  /* the feature bar scrolls with the page on phones (the app bar can wrap to two rows) */
+  #side{position:static;gap:4px;padding:8px 12px}
+  .sitem{padding:7px 12px;font-size:12.5px}
 }
 @media(max-width:700px){
   .score{flex-wrap:wrap;gap:10px 0;width:100%}
@@ -960,11 +949,11 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 
 <div id="shell">
 <nav id="side">
-  <div class="slabel">Sonar</div>
   <a class="sitem" data-page="map" id="simap"><span class="si">◍</span>Coverage Map</a>
   <a class="sitem" data-page="h2c"><span class="si">⚡</span>Solve my Hard to Cracks</a>
   <a class="sitem" data-page="geo"><span class="si">✈</span>Plan a City Trip</a>
   <a class="sitem" data-page="net"><span class="si">⇗</span>Network Actions</a>
+  <a class="sitem" id="siask"><span class="si">✦</span>Ask Sonar</a>
   <div id="sideask"></div>
 </nav>
 <main id="content">
@@ -2832,7 +2821,9 @@ if(!state.person){  // hash may already carry a person; otherwise use the rememb
 }
 whoChip();
 if(!state.person || !D.roster.includes(state.person)) openWho();
-document.querySelectorAll('#side .sitem').forEach(a=>a.addEventListener('click',()=>goPage(a.dataset.page)));
+document.querySelectorAll('#side .sitem[data-page]').forEach(a=>a.addEventListener('click',()=>goPage(a.dataset.page)));
+const _sia=document.getElementById('siask');
+if(_sia) _sia.addEventListener('click',askBig);
 const tip = document.createElement('div'); tip.id='tip'; document.body.appendChild(tip);
 function showTip(target, html){
   tip.innerHTML = html; tip.classList.add('show');
