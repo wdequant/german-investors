@@ -2149,7 +2149,11 @@ function actGone(id){
   if(a.s==='snooze'){ if(a.until&&Date.now()>a.until){ delete ACTS[id]; saveActs(); return false; } return true; }
   return true;
 }
+const ROLE_OF=(()=>{const m={};(D.team||[]).forEach(t=>{m[t.full||t.name]=t.role;});
+  m['Fergal Mullen']='partner'; m['Laurence Garrett']='partner'; return m;})();
+const isPartner=n=>ROLE_OF[n]==='partner';
 function buildDeck(who){
+  const partner=isPartner(who);
   const funds=ALLE.filter(x=>x.e.kind==='fund'&&!ACCELCAT[x.e.category]);
   const byRel=(a,b)=>(b.e.relevance?.total||0)-(a.e.relevance?.total||0);
   const net=((D.mynet||{})[who]||[]);
@@ -2165,16 +2169,19 @@ function buildDeck(who){
       sub:`${e.f||'—'}${e.sr?' · '+e.sr:''} · strength ${e.p} · last touch ${fmtD(e.l)} (${Math.round(moAgo(e.l))} mo ago)`,
       href:e.e?rewarmMail(e,who):liSearch(e.n,e.f||''),
       hlabel:e.e?'✉ Email '+e.n.split(' ')[0]:'Find on LinkedIn ↗', ext:!e.e}));
-  // 3 — team intro asks: relevant funds the team already covers but you don't
-  const iv=funds.filter(x=>personCov(x.e,who)<30&&x.e.connectivity>=50&&(x.e.points||[]).length)
-    .sort(byRel).slice(0,12)
+  // 3 — team intro asks: relevant funds the team already covers but you don't.
+  // Associates borrow the team's doors; partners don't replicate coverage a teammate
+  // already holds, so this pool is theirs alone.
+  const iv=(partner?[]:funds.filter(x=>personCov(x.e,who)<30&&x.e.connectivity>=50&&(x.e.points||[]).length)
+    .sort(byRel).slice(0,12))
     .map(({r,e})=>{const p=e.points[0], f=p.internal.split(' ')[0];
       return {id:'in:'+e.slug, verb:`Ask ${f} for an intro to`, name:e.name,
       sub:`${p.internal} holds <b>${p.external||'a contact'}</b>${p.pct!=null?` (${p.pct}%)`:''} · ${D.regions[r].label} · relevance ${e.relevance?.total??'—'} · the intro is one ask away`,
       href:`mailto:${hlMail(p.internal)}?subject=${encodeURIComponent('Intro to '+(p.external||e.name)+'?')}&body=${encodeURIComponent(netAskBody(who,e,p))}`,
       hlabel:'✉ Ask '+f};});
-  // 4 — first-mover: relevant funds nobody at Highland covers yet
-  const co=funds.filter(x=>x.e.connectivity<22&&(x.e.relevance?.total||0)>=55).sort(byRel).slice(0,8)
+  // 4 — first-mover: relevant funds nobody at Highland covers yet.
+  // For partners this is the whole game — the firm's collective white space — so it gets more room.
+  const co=funds.filter(x=>x.e.connectivity<22&&(x.e.relevance?.total||0)>=(partner?50:55)).sort(byRel).slice(0,partner?16:8)
     .map(({r,e})=>{const pk=(e.partners_unknown||[])[0];
       return {id:'co:'+e.slug, verb:'Reach out cold to', name:e.name,
       sub:`${D.regions[r].label} · relevance ${e.relevance?.total??'—'} · nobody at Highland has a line in — you'd be first${pk?` · door: <b>${pk.name}</b>${pk.title?' ('+pk.title+')':''}`:''}`,
