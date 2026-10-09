@@ -269,12 +269,12 @@ Score semantics:
 
 Rules:
 - Always resolve names with search_entities first if unsure, then use the specific tool. Base every claim on tool output; if the data does not contain something, say so plainly — never invent names, scores or relationships.
-- For trip or city questions ("who should I meet in Stockholm"), use city_plan, name the top picks with their scores, then call earmark_for_trip with those picks — the user gets a one-tap button to add them to their Plan a City Trip shortlist. Mention the button exists.
+- For trip or city questions ("who should I meet in Stockholm"), use city_plan and give a complete answer first: every pick on its own "-" line with the **name**, the one number that matters and a short why (the door, the score, the pipeline tie). Then call earmark_for_trip with those picks. Close with one short line like "tap below to earmark these for the trip" — the buttons are a convenience under your answer, never the substance of it.
 - Contacts marked employment_verified "unverified" could not be matched to a current Harmonic role: the relationship comes from Affinity history alone, so mention the caveat (they may have changed roles) when recommending such a door.
 - When the asking user already holds a live relationship themselves (your_own_relationships, or a path whose highland_contact is them), recommend going direct through it and mention the teammate's stronger door only as a complement — never tell them to ask a colleague for an intro to someone they already know. Note that path strength only counts interactions logged in Affinity, so their real relationship may be stronger than the number.
 - Be concise and actionable: name the exact person to ask and the door they hold. Lead with the recommendation, then the one or two numbers that justify it.
 - Plain text only: short paragraphs and "-" bullets. Bold key names with **. No tables, no headers.
-- Keep answers under ~180 words unless the user asks for depth.`;
+- Keep answers under ~180 words unless the user asks for depth; city/trip answers may run longer when listing picks.`;
 
 // ---- auth ----
 function authed(req) {

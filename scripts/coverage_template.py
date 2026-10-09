@@ -93,6 +93,25 @@ h1{font-size:30px;font-weight:600;letter-spacing:-.015em;text-wrap:balance;font-
 #sideask .askchips{margin-top:8px;gap:5px}
 #sideask .askchips button{font-size:10.5px;padding:4px 9px;text-align:left}
 @media(max-width:860px){ #sideask{display:none} }
+/* Ask Sonar big view: the same conversation, three-quarters of the screen */
+#askmodal{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center}
+#askmodal[hidden]{display:none}
+.amback{position:absolute;inset:0;background:rgba(24,21,14,.42)}
+.ambox{position:relative;width:min(1080px,80vw);height:min(760px,82vh);background:var(--raise);
+  border:1px solid var(--hair);border-radius:18px;box-shadow:var(--shadow);padding:18px 22px;
+  display:flex;flex-direction:column}
+.amclose{position:absolute;top:14px;right:16px;background:transparent;border:1px solid var(--hair);
+  border-radius:8px;color:var(--ink2);padding:5px 11px;font-size:12px;cursor:pointer;z-index:2;font-family:inherit}
+.amclose:hover{border-color:var(--ink);color:var(--ink)}
+.ambody{flex:1;min-height:0;display:flex}
+#askmodal .askcard{flex:1;display:flex;flex-direction:column;margin:0;border:0;background:transparent;
+  padding:2px 4px;min-height:0}
+#askmodal .asklog{flex:1;max-height:none;font-size:14px}
+#askmodal .askrow input{font-size:14px}
+#askmodal #askbig{display:none}
+#askbig{background:transparent;border:0;color:var(--muted);cursor:pointer;font-size:13px;padding:0 4px}
+#askbig:hover{color:var(--ink)}
+@media(max-width:860px){ .ambox{width:94vw;height:88vh;padding:14px} }
 .slabel{font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
   padding:0 12px;margin:4px 0 6px}
 .sitem{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;font-size:13.5px;
@@ -720,10 +739,9 @@ body.mkmode{cursor:crosshair}
   .dpli .how{flex-basis:100%;white-space:normal;overflow:visible;text-overflow:clip;padding-left:36px}
   .chgsec summary{flex-wrap:wrap}
   #method{padding:0 2px}
-  /* app bar: brand + identity + feedback on one row, toggle next, filter last */
+  /* app bar: brand + identity + feedback on one row */
   .appbar .in{row-gap:8px}
   #fb{order:1;margin-left:auto}
-  #q{order:3;flex-basis:100%;max-width:none;margin-left:0}
 }
 
 /* ===== Coverage Map ===== */
@@ -918,7 +936,6 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
 <div class="appbar"><div class="in">
   <span class="brand"><span class="mark"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="5.5" fill="#2733f0"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.7"><path d="M7 12.8 A4.2 4.2 0 0 1 11.2 17"/><path d="M7 9.3 A7.7 7.7 0 0 1 14.7 17" opacity=".72"/><path d="M7 5.8 A11.2 11.2 0 0 1 18.2 17" opacity=".45"/></g><circle cx="7" cy="17" r="1.8" fill="#fff"/><circle cx="15.2" cy="8.8" r="1.5" fill="#fff"/></svg></span><span>Sonar<span class="by">Highland Europe</span></span></span>
   <button class="btn ghost" id="whoami" title="Sonar is personalised to you — click to switch">👤</button>
-  <input type="search" id="q" placeholder="Filter…">
   <button class="btn ghost" id="fb" title="Feedback & requests">💬 Feedback</button>
   <button class="btn" id="export" hidden>Export CSV</button>
   <div id="fbpop" hidden>
@@ -933,6 +950,11 @@ table.nettab{width:100%;border-collapse:collapse;font-size:13.5px}
     <button class="minibtn prep" id="mkstart" type="button">✎ Start markup mode</button>
     <button class="minibtn" id="fbclose">Got it</button>
   </div>
+</div></div>
+
+<div id="askmodal" hidden><div class="amback" data-amclose></div><div class="ambox">
+  <button class="amclose" data-amclose title="Close (Esc) — the conversation stays">✕ close</button>
+  <div class="ambody"></div>
 </div></div>
 
 <div id="shell">
@@ -1061,7 +1083,9 @@ function nextMove(e){
 const METRO = {"Norrmalm":"Stockholm","Kongens Lyngby":"Copenhagen","Landshut":"Munich",
   "Bonn":"Cologne & Bonn","Cologne":"Cologne & Bonn","Saint-Jacques-de-la-Lande":"Rennes",
   "San Francisco":"SF Bay Area","Menlo Park":"SF Bay Area","Palo Alto":"SF Bay Area",
-  "Mountain View":"SF Bay Area","Woodside":"SF Bay Area"};
+  "Mountain View":"SF Bay Area","Woodside":"SF Bay Area","Oakland":"SF Bay Area","Berkeley":"SF Bay Area",
+  "San Jose":"SF Bay Area","Redwood City":"SF Bay Area","Sunnyvale":"SF Bay Area","Santa Clara":"SF Bay Area",
+  "South San Francisco":"SF Bay Area","Cupertino":"SF Bay Area","Brooklyn":"New York"};
 const cityOf = e => { const c=(e.city||'').split('·')[0].trim(); return METRO[c]||c; };
 // cities ranked by open pipeline x network strength x dealflow weight (shared: dashboard + trip launcher)
 function cityScores(me){
@@ -1265,11 +1289,13 @@ function renderAskLog(){
     toast(`${a.items.length} earmarked — open Plan a City Trip to see them`);
   }));
   log.querySelectorAll('[data-actopen]').forEach(bt=>bt.addEventListener('click',()=>{
+    askSmall();
     ap.city=bt.dataset.actopen; goPage('geo',{city:bt.dataset.actopen});
   }));
 }
 async function sendAsk(q){
   if(ASK.busy) return;
+  askBig();   // a real conversation deserves the big view; Esc shrinks it back, history stays
   CHAT.push({role:'user',text:q}); saveChat(); ASK.busy=true; renderAskLog();
   const inp=document.getElementById('askin'); if(inp) inp.value='';
   let ans, err;
@@ -1292,7 +1318,7 @@ const PAGES={h2c:'workpage',net:'workpage',geo:'workpage',map:'workpage'};
 function askCard(){
   return `<div class="askcard">
       <div class="dph" style="margin-bottom:10px;display:flex;justify-content:space-between;align-items:center">\u2726 Ask Sonar
-        <button type="button" id="askclear" hidden title="Clear this conversation">\u21ba clear</button></div>
+        <span><button type="button" id="askbig" title="Open big view">\u2922</button><button type="button" id="askclear" hidden title="Clear this conversation">\u21ba clear</button></span></div>
       <div class="asklog" id="asklog" hidden></div>
       <form class="askrow" id="askform">
         <input id="askin" placeholder="Ask about your network\u2026" autocomplete="off">
@@ -1311,8 +1337,31 @@ function bindAsk(root){
   root.querySelectorAll('.askchips button').forEach(b=>b.addEventListener('click',()=>sendAsk(b.dataset.q)));
   const cl=root.querySelector('#askclear');
   if(cl) cl.addEventListener('click',()=>{ CHAT=[]; saveChat(); renderAskLog(); });
+  const bg=root.querySelector('#askbig');
+  if(bg) bg.addEventListener('click',askBig);
   renderAskLog();
 }
+// the ask card lives in the sidebar; askBig moves it into a 3/4-screen overlay and askSmall puts it back.
+// same DOM node either way, so the conversation (sessionStorage-backed) is never lost.
+function askBig(){
+  const am=document.getElementById('askmodal'), sa=document.getElementById('sideask');
+  if(!am||!am.hidden||!sa) return;
+  const card=sa.querySelector('.askcard'); if(!card) return;
+  am.querySelector('.ambody').appendChild(card);
+  am.hidden=false; renderAskLog();
+  const i=document.getElementById('askin'); if(i) i.focus();
+}
+function askSmall(){
+  const am=document.getElementById('askmodal'), sa=document.getElementById('sideask');
+  if(!am||am.hidden) return;
+  const card=am.querySelector('.askcard'); if(card&&sa) sa.appendChild(card);
+  am.hidden=true; renderAskLog();
+}
+document.querySelectorAll('#askmodal [data-amclose]').forEach(b=>b.addEventListener('click',askSmall));
+document.addEventListener('keydown',ev=>{
+  const am=document.getElementById('askmodal');
+  if(ev.key==='Escape'&&am&&!am.hidden){ ev.stopPropagation(); askSmall(); }
+},true);
 
 function goPage(p, opts){
   if(!PAGES[p]) p='map';
@@ -1323,7 +1372,6 @@ function goPage(p, opts){
   const onItem=document.querySelector('#side .sitem.on');
   if(onItem&&matchMedia('(max-width:860px)').matches) onItem.scrollIntoView({block:'nearest',inline:'center'});
   ap.mode=p==='h2c'?'htc':p;
-  if(ap.who==='' && !ap.whoTouched) ap.who=state.person||'';
   if(opts&&opts.city) ap.city=opts.city;
   renderWork();
   updateHash();
@@ -1334,12 +1382,10 @@ function renderWork(){
   const titles={htc:'Solve my Hard to Cracks', net:'Daily Network Actions', geo:'Plan a City Trip', map:'Coverage Map'};
   document.getElementById('worktitle').textContent=titles[ap.mode]||'';
   const ctx=document.getElementById('apctx');
-  ctx.innerHTML=`Acting as <select id="apwho"><option value="">All of Highland</option>`+
-    D.roster.map(n=>`<option${ap.who===n?' selected':''}>${n}</option>`).join('')+`</select>`+
-    (ap.mode==='geo'?` City <select id="apcity"><option value="">choose…</option>`+
+  ap.who=state.person||'';   // one identity source: the picker in the app bar
+  ctx.innerHTML=(ap.mode==='geo'?` City <select id="apcity"><option value="">choose…</option>`+
       Object.keys(TRIPS).sort().map(c=>`<option${ap.city===c?' selected':''}>${c}</option>`).join('')+`</select>`:'')+
     (ap.mode==='htc'?` Sort <span class="aptog"><button data-hs="uf"${ap.hsort==='uf'?' class="on"':''}>Unframe priority</button><button data-hs="ease"${ap.hsort==='ease'?' class="on"':''}>Ease of access</button></span>`:'');
-  ctx.querySelector('#apwho').addEventListener('change',ev=>{ap.who=ev.target.value;ap.whoTouched=true;renderWork();});
   const cs=ctx.querySelector('#apcity');
   if(cs) cs.addEventListener('change',ev=>{ap.city=ev.target.value;renderWork();updateHash();});
   ctx.querySelectorAll('[data-hs]').forEach(b=>b.addEventListener('click',()=>{ap.hsort=b.dataset.hs;renderWork();}));
@@ -1695,10 +1741,10 @@ function cmCountryPage(me){
     :`<b>open ground</b> for you`;
   const teamBit=A.covT>=50&&covu<50?`the team is <b>${qt}</b> — ask for the intros`:`the team is ${qt}`;
   const tripBit=(()=>{
-    const CITY_OF={SE:'Stockholm',DK:'Copenhagen',NO:'Oslo',FI:'Helsinki',FR:'Paris',BER:'Berlin',MUC:'Munich',CGN:'Cologne',FRA:'Frankfurt',HAM:'Hamburg',LON:'London',CAM:'Cambridge',OXF:'Oxford',EDI:'Edinburgh',MAN:'Manchester',SF:'San Francisco',NYC:'New York',BOS:'Boston'};
+    const CITY_OF={SE:'Stockholm',DK:'Copenhagen',NO:'Oslo',FI:'Helsinki',FR:'Paris',BER:'Berlin',MUC:'Munich',CGN:'Cologne & Bonn',FRA:'Frankfurt',HAM:'Hamburg',LON:'London',CAM:'Cambridge',OXF:'Oxford',EDI:'Edinburgh',MAN:'Manchester',SF:'SF Bay Area',NYC:'New York',BOS:'Boston'};
     const tc=CITY_OF[cc]; if(!tc||typeof cityScores!=='function') return '';
     try{ if(!cityScores(me).some(x=>x.city===tc)) return ''; }catch(err){ return ''; }
-    return `<div style="margin:8px 0 2px"><button class="minibtn" data-cmtrip="${tc}">\u2708 Plan a ${tc} trip</button></div>`;
+    return `<div style="margin:8px 0 2px"><button class="minibtn" data-cmtrip="${tc}">\u2708 Plan a${tc==='SF Bay Area'?'n SF':' '+tc} trip</button></div>`;
   })();
   return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>${tripBit}
     <div class="cmv2grid">
@@ -2621,11 +2667,6 @@ function rerenderOpen(e){
 
 // ---------- render ----------
 
-function visible(){
-  return E().filter(e=>(!state.q||e.name.toLowerCase().includes(state.q))
-    && (!state.cat || e.kind!=='fund' || e.category===state.cat)
-    && (!state.cc || e.kind!=='fund' || (e.city||'').endsWith(state.cc)));
-}
 
 
 
@@ -2687,7 +2728,7 @@ function setWho(n, rerender){
   try{ localStorage.setItem('sonar_who', n); }catch(err){}
   whoChip();
   document.getElementById('whoback').classList.remove('open');
-  ap.who=n; ap.whoTouched=false;
+  ap.who=n;
   if(rerender) refresh();
 }
 function openWho(){
