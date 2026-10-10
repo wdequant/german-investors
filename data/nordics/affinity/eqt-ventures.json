@@ -919,5 +919,5 @@
   }
  ],
  "notes": "Query A totalCount 97 (exact investor EQT Ventures); Query B keyword totalCount 99, adding evroc (Eqt Ventures And Norrsken Vc) and Parloa (EQT Ventures with leading whitespace) - both genuine. Union deduped 99 to 96 unique companies (PaymentSense, Baller League, Syntetica each had two list entries; kept latest createdAt with non-null funnel - Baller League resolves to Qualified Lead).",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

@@ -164,6 +164,14 @@
    "meet": "2026-01-29"
   },
   {
+   "internal": "Jacob Bernstein",
+   "external": "Henry Mason",
+   "externalEmail": "henry@dawncapital.com",
+   "score": 0.62,
+   "last": "2026-10-09",
+   "meet": "2025-11-27"
+  },
+  {
    "internal": "Abhishek Lahoti",
    "external": "Ties Boukema",
    "externalEmail": "ties@dawncapital.com",
@@ -210,14 +218,6 @@
    "score": 0.51,
    "last": "2026-06-15",
    "meet": "2026-01-29"
-  },
-  {
-   "internal": "Jacob Bernstein",
-   "external": "Henry Mason",
-   "externalEmail": "henry@dawncapital.com",
-   "score": 0.51,
-   "last": "2026-10-08",
-   "meet": "2025-11-27"
   },
   {
    "internal": "Tom Neuberger",
@@ -296,7 +296,7 @@
    "external": "Henry Mason",
    "externalEmail": "henry@dawncapital.com",
    "score": 0.43,
-   "last": "2026-10-08",
+   "last": "2026-10-09",
    "meet": "2025-11-27"
   },
   {
@@ -324,5 +324,5 @@
    "meet": "2025-06-18"
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

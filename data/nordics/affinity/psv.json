@@ -109,5 +109,5 @@
   "context": "RE: PHONE CALL: Anders Kjaer (PreSeed) / Gajan Rajanathan (Highland Europe)"
  },
  "notes": "Query A totalCount 15; Query B keyword totalCount 16. Union = 16 (B adds Serverpod via combined-string investor value Greens Ventures And Preseed Ventures). Spektr also lists Psv Tech as investor. No current relationships; last contact Feb 2020 with Anders Kjaer (ak@preseedventures.dk).",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

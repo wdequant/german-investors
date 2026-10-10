@@ -322,6 +322,14 @@
    "meet": "2026-09-16"
   },
   {
+   "internal": "Tyrone Tee",
+   "external": "Maxence Drummond",
+   "externalEmail": "maxence.drummond@breega.com",
+   "score": 0.52,
+   "last": "2026-10-09",
+   "meet": "2022-11-24"
+  },
+  {
    "internal": "David Blyghton",
    "external": "Dan Shellard",
    "externalEmail": "dan.shellard@breega.com",
@@ -378,14 +386,6 @@
    "meet": "2026-02-25"
   },
   {
-   "internal": "Tyrone Tee",
-   "external": "Maxence Drummond",
-   "externalEmail": "maxence.drummond@breega.com",
-   "score": 0.1,
-   "last": "2026-07-29",
-   "meet": "2022-11-24"
-  },
-  {
    "internal": "Ronan Shally",
    "external": "Pauline Chau",
    "externalEmail": "pauline.chau@breega.com",
@@ -412,5 +412,5 @@
  ],
  "dormant": null,
  "notes": "Pipeline matched on aliases Breega/Breega Capital (incl. 'Breega And Supernova Invest'). Affinity company Breega (breega.com). Top 10 kept after dropping Anna Faulkner rows; Augustin Blanchard (Tikehau) appears on the Breega record via shared deal threads. Live: last contact 2026-07-31 (011h/Fond-ICO co-investor email thread incl. Sam Brooks, Ronan Shally).",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

@@ -16,7 +16,15 @@
    "external": "Guillaume DURAO",
    "externalEmail": "guillaume@emblem.vc",
    "score": 0.69,
-   "last": "2026-10-06",
+   "last": "2026-10-10",
+   "meet": "2026-04-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Guillaume DURAO",
+   "externalEmail": "guillaume@emblem.vc",
+   "score": 0.65,
+   "last": "2026-10-10",
    "meet": "2026-04-07"
   },
   {
@@ -24,23 +32,15 @@
    "external": "Guillaume DURAO",
    "externalEmail": "guillaume@emblem.vc",
    "score": 0.64,
-   "last": "2026-10-06",
-   "meet": "2026-04-07"
-  },
-  {
-   "internal": "William De Quant",
-   "external": "Guillaume DURAO",
-   "externalEmail": "guillaume@emblem.vc",
-   "score": 0.57,
-   "last": "2026-10-06",
+   "last": "2026-10-10",
    "meet": "2026-04-07"
   },
   {
    "internal": "Irena Goldenberg",
    "external": "Guillaume DURAO",
    "externalEmail": "guillaume@emblem.vc",
-   "score": 0.5,
-   "last": "2026-10-06",
+   "score": 0.58,
+   "last": "2026-10-10",
    "meet": "2026-04-07"
   },
   {
@@ -48,7 +48,7 @@
    "external": "Guillaume DURAO",
    "externalEmail": "guillaume@emblem.vc",
    "score": 0.42,
-   "last": "2026-10-06",
+   "last": "2026-10-10",
    "meet": "2026-04-07"
   },
   {
@@ -72,7 +72,7 @@
    "external": "Guillaume DURAO",
    "externalEmail": "guillaume@emblem.vc",
    "score": 0.32,
-   "last": "2026-10-06",
+   "last": "2026-10-10",
    "meet": "2026-04-07"
   },
   {
@@ -124,5 +124,5 @@
    "meet": null
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

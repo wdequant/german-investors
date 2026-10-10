@@ -583,5 +583,5 @@
   }
  ],
  "notes": "Pipeline: 74 list entries, 73 unique companies (CASAVO appeared twice; kept highest funnel rank 'Passed'). Two distinct DeepDrive entity records both kept.",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

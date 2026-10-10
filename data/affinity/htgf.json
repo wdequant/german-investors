@@ -1147,5 +1147,5 @@
   }
  ],
  "notes": "Pipeline: 170 list entries, 165 unique companies (duplicates deduped keeping highest funnel rank: Materials Nexus -> Lead, Bettzeit Group -> Passed, PressMatrix -> Passed, Heartbeat Medical and Trademob had identical duplicate stages).",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

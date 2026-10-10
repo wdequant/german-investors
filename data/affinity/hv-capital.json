@@ -730,8 +730,8 @@
    "external": "Rainer Märkle",
    "externalEmail": "rainer@hvcapital.com",
    "score": 1.0,
-   "last": "2026-09-22",
-   "meet": "2026-01-19"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "David Blyghton",
@@ -802,8 +802,8 @@
    "external": "Kasey Davies",
    "externalEmail": "kasey.davies@hvcapital.com",
    "score": 0.94,
-   "last": "2026-09-22",
-   "meet": "2025-08-07"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Tony Zappala",
@@ -874,24 +874,24 @@
    "external": "Rainer Märkle",
    "externalEmail": "rainer@hvcapital.com",
    "score": 0.6,
-   "last": "2026-09-22",
-   "meet": "2026-01-19"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Laurence Garrett",
    "external": "Rainer Märkle",
    "externalEmail": "rainer@hvcapital.com",
    "score": 0.55,
-   "last": "2026-09-22",
-   "meet": "2026-01-19"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Isabel Wright",
    "external": "Kasey Davies",
    "externalEmail": "kasey.davies@hvcapital.com",
    "score": 0.53,
-   "last": "2026-09-22",
-   "meet": "2025-08-07"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Isabel Wright",
@@ -906,8 +906,8 @@
    "external": "Rainer Märkle",
    "externalEmail": "rainer@hvcapital.com",
    "score": 0.42,
-   "last": "2026-09-22",
-   "meet": "2026-01-19"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "David Blyghton",
@@ -975,5 +975,5 @@
   }
  ],
  "notes": "Pipeline: 108 list entries, 103 unique companies (Qontext AI appeared 3x, Instant Commerce 2x, Heartbeat Medical 2x with identical stages; Qunomedical 2x kept highest rank 'Passed').",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

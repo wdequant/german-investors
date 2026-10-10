@@ -299,5 +299,5 @@
   }
  ],
  "notes": "Pipeline deduplicated: Tausendkind (entity 289764920) appeared on two list entries (Lead rank 5 and Passed rank 10); kept the higher-ranked Passed value. 30 unique companies from 31 list entries.",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

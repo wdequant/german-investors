@@ -417,8 +417,8 @@
    "external": "Marc Fournier",
    "externalEmail": "marc@serena.vc",
    "score": 0.36,
-   "last": "2026-09-26",
-   "meet": "2025-06-17"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Jacob Bernstein",
@@ -441,16 +441,16 @@
    "external": "Marc Fournier",
    "externalEmail": "marc@serena.vc",
    "score": 0.33,
-   "last": "2026-09-26",
-   "meet": "2025-06-17"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Abhishek Lahoti",
    "external": "Heba Hitti",
    "externalEmail": "heba@serena.vc",
    "score": 0.32,
-   "last": "2026-09-22",
-   "meet": "2025-09-12"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Jean Tardy-Joubert",
@@ -481,8 +481,8 @@
    "external": "Heba Hitti",
    "externalEmail": "heba@serena.vc",
    "score": 0.1,
-   "last": "2026-09-22",
-   "meet": "2025-09-12"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Aude Flecchia",
@@ -505,8 +505,8 @@
    "external": "Marc Fournier",
    "externalEmail": "marc@serena.vc",
    "score": 0.1,
-   "last": "2026-09-26",
-   "meet": "2025-06-17"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Hannah Meehan",
@@ -567,5 +567,5 @@
  ],
  "dormant": null,
  "notes": "Company 1534996 (serena.vc + serenacapital.com); stray duplicate 291898907. Top 10 of 15 kept. Pipeline: kept 'Serena Capital' (25), 'Serena Data Ventures' (2), 'Serena Vc' (1) and bare 'Serena' on non-US companies plus known French-Serena US-tagged portfolio (Dataiku, Odaseva, Implicity, DeepIP); excluded 'Serena Williams', 'Serena Ventures' (US fund) and bare 'Serena' on Bestmile (US-tagged, unverified).",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

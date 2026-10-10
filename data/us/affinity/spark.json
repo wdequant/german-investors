@@ -60,20 +60,20 @@
    "meet": "2025-07-07"
   },
   {
-   "internal": "Helena Richardson",
-   "external": "Nabeel Hyatt",
-   "externalEmail": "nabeel@sparkcapital.com",
-   "score": 0.41,
-   "last": "2025-10-09",
-   "meet": null
-  },
-  {
    "internal": "Fergal Mullen",
    "external": "Hanseul Nam",
    "externalEmail": "hanseul@sparkcapital.com",
    "score": 0.48,
    "last": "2025-07-07",
    "meet": "2025-07-07"
+  },
+  {
+   "internal": "Helena Richardson",
+   "external": "Nabeel Hyatt",
+   "externalEmail": "nabeel@sparkcapital.com",
+   "score": 0.41,
+   "last": "2025-10-09",
+   "meet": null
   },
   {
    "internal": "Fergal Mullen",
@@ -132,5 +132,5 @@
    "meet": "2026-07-15"
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

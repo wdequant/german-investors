@@ -309,20 +309,20 @@
   },
   {
    "internal": "Sam Brooks",
-   "external": "Cian Cotter",
-   "externalEmail": "ccotter@insightpartners.com",
-   "score": 0.44,
-   "last": "2025-10-09",
-   "meet": "2021-09-15"
-  },
-  {
-   "internal": "Sam Brooks",
    "external": "Rachel Geller",
    "externalEmail": "rgeller@insightpartners.com",
    "score": 0.38,
    "last": "2026-10-06",
    "meet": "2026-09-16"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Sabrina Goldsman",
+   "externalEmail": "sgoldsman@insightpartners.com",
+   "score": 0.35,
+   "last": "2026-09-23",
+   "meet": "2026-07-15"
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

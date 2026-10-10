@@ -40,7 +40,7 @@
    "external": "Ed Lascelles",
    "externalEmail": "ed@albion.vc",
    "score": 1.0,
-   "last": "2026-03-05",
+   "last": "2026-10-09",
    "meet": "2025-01-22"
   },
   {
@@ -84,6 +84,14 @@
    "meet": "2026-06-30"
   },
   {
+   "internal": "Isabel Wright",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.48,
+   "last": "2026-10-09",
+   "meet": "2025-01-22"
+  },
+  {
    "internal": "Abhishek Lahoti",
    "external": "Rosie Samuels",
    "externalEmail": "rosie@albion.vc",
@@ -108,11 +116,19 @@
    "meet": "2025-03-26"
   },
   {
-   "internal": "Isabel Wright",
+   "internal": "Laurence Garrett",
    "external": "Ed Lascelles",
    "externalEmail": "ed@albion.vc",
-   "score": 0.48,
-   "last": "2026-03-05",
+   "score": 0.44,
+   "last": "2026-10-09",
+   "meet": "2025-01-22"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Ed Lascelles",
+   "externalEmail": "ed@albion.vc",
+   "score": 0.37,
+   "last": "2026-10-09",
    "meet": "2025-01-22"
   },
   {
@@ -132,11 +148,11 @@
    "meet": "2025-09-24"
   },
   {
-   "internal": "Jacob Bernstein",
+   "internal": "Tom Neuberger",
    "external": "Ed Lascelles",
    "externalEmail": "ed@albion.vc",
-   "score": 0.37,
-   "last": "2026-03-05",
+   "score": 0.32,
+   "last": "2026-10-09",
    "meet": "2025-01-22"
   },
   {
@@ -146,14 +162,6 @@
    "score": 0.62,
    "last": "2025-04-26",
    "meet": "2024-07-11"
-  },
-  {
-   "internal": "Tom Neuberger",
-   "external": "Ed Lascelles",
-   "externalEmail": "ed@albion.vc",
-   "score": 0.32,
-   "last": "2026-03-05",
-   "meet": "2025-01-22"
   },
   {
    "internal": "Aude Flecchia",
@@ -216,7 +224,7 @@
    "external": "Ed Lascelles",
    "externalEmail": "ed@albion.vc",
    "score": 0.1,
-   "last": "2026-03-05",
+   "last": "2026-10-09",
    "meet": "2025-01-22"
   },
   {
@@ -224,7 +232,7 @@
    "external": "Ed Lascelles",
    "externalEmail": "ed@albion.vc",
    "score": 0.1,
-   "last": "2026-03-05",
+   "last": "2026-10-09",
    "meet": "2025-01-22"
   },
   {
@@ -244,5 +252,5 @@
    "meet": "2025-01-22"
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

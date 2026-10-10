@@ -80,8 +80,8 @@
    "external": "Manavi Mehra",
    "externalEmail": "mmehra@tcv.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-24"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Sam Brooks",
@@ -224,8 +224,8 @@
    "external": "Manavi Mehra",
    "externalEmail": "mmehra@tcv.com",
    "score": 0.96,
-   "last": "2026-10-06",
-   "meet": "2026-09-24"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Tony Zappala",
@@ -303,9 +303,9 @@
    "internal": "Jacob Bernstein",
    "external": "Manavi Mehra",
    "externalEmail": "mmehra@tcv.com",
-   "score": 0.56,
-   "last": "2026-10-06",
-   "meet": "2026-09-24"
+   "score": 0.58,
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Jacob Bernstein",
@@ -324,5 +324,5 @@
    "meet": "2026-09-24"
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

@@ -721,8 +721,8 @@
    "external": "Sanjot Malhi",
    "externalEmail": "sanjot@northzone.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-03"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "David Blyghton",
@@ -737,8 +737,8 @@
    "external": "Manavi Mehra",
    "externalEmail": "manavi@northzone.com",
    "score": 1.0,
-   "last": "2026-10-06",
-   "meet": "2026-09-24"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Jacob Bernstein",
@@ -777,8 +777,8 @@
    "external": "Manavi Mehra",
    "externalEmail": "manavi@northzone.com",
    "score": 0.96,
-   "last": "2026-10-06",
-   "meet": "2026-09-24"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Jacob Bernstein",
@@ -827,14 +827,6 @@
    "score": 0.92,
    "last": "2026-09-29",
    "meet": "2026-05-07"
-  },
-  {
-   "internal": "William De Quant",
-   "external": "Maxine Rior",
-   "externalEmail": "maxine@northzone.com",
-   "score": 1.0,
-   "last": "2025-10-09",
-   "meet": "2025-10-09"
   },
   {
    "internal": "Helena Richardson",
@@ -912,17 +904,17 @@
    "internal": "Jacob Bernstein",
    "external": "Manavi Mehra",
    "externalEmail": "manavi@northzone.com",
-   "score": 0.56,
-   "last": "2026-10-06",
-   "meet": "2026-09-24"
+   "score": 0.58,
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Jacob Bernstein",
    "external": "Sanjot Malhi",
    "externalEmail": "sanjot@northzone.com",
    "score": 0.55,
-   "last": "2026-10-06",
-   "meet": "2026-09-03"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Emily Tan",
@@ -931,6 +923,14 @@
    "score": 0.51,
    "last": "2026-06-02",
    "meet": "2026-03-31"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Maxine Rior",
+   "externalEmail": "maxine@northzone.com",
+   "score": 1.0,
+   "last": "2025-10-09",
+   "meet": "2025-10-09"
   },
   {
    "internal": "David Blyghton",
@@ -997,14 +997,14 @@
    "meet": "2026-07-21"
   },
   {
-   "internal": "Helena Richardson",
-   "external": "Maxine Rior",
-   "externalEmail": "maxine@northzone.com",
-   "score": 0.38,
-   "last": "2025-10-09",
-   "meet": "2025-10-09"
+   "internal": "Abhishek Lahoti",
+   "external": "Sanjot Malhi",
+   "externalEmail": "sanjot@northzone.com",
+   "score": 0.34,
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   }
  ],
  "notes": "Query A (exact investor Northzone/Northzone Ventures) totalCount 1 (Infogrid, contained in B); Query B keyword totalCount 99. Union deduped to 97 unique companies (Klarna and Universal Avenue each had two list entries; kept latest createdAt, both same funnel). All entries verified to carry a Northzone-token investor value.",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

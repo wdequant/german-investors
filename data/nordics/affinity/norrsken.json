@@ -407,5 +407,5 @@
   }
  ],
  "notes": "Picked org 281060985 (norrsken.vc) as the VC entity: it holds all team relationships; org 39078982 (norrsken.org, also labelled 'Norrsken VC') has none. Excluded ex-staff rows for Anna Faulkner and Emily Tan. Keyword union includes some Norrsken22 (Africa fund) portfolio (Raenest, Smile ID, Stitch Money, NALA); guard threshold not met (B=48 < 3xA=96).",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

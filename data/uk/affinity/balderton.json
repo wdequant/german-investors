@@ -72,8 +72,8 @@
    "external": "Michael Lavner",
    "externalEmail": "michael@balderton.com",
    "score": 0.98,
-   "last": "2026-10-08",
-   "meet": "2024-04-09"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Harry Williams",
@@ -224,8 +224,8 @@
    "external": "Michael Lavner",
    "externalEmail": "michael@balderton.com",
    "score": 0.43,
-   "last": "2026-10-08",
-   "meet": "2024-04-09"
+   "last": "2026-10-09",
+   "meet": "2026-10-09"
   },
   {
    "internal": "Irena Goldenberg",
@@ -324,5 +324,5 @@
    "meet": "2026-09-23"
   }
  ],
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

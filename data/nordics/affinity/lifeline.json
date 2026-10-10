@@ -343,5 +343,5 @@
   }
  ],
  "notes": "Query A totalCount 36; Query B keyword totalCount 40. All A entries contained in B; the 4 keyword-only extras (Proteins.1, Ovido, Metacore, Risk Ledger) all carry genuine Lifeline Ventures investor mentions (combined-string or case variants). No duplicate entities.",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }

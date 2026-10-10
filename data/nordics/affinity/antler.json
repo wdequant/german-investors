@@ -870,5 +870,5 @@
   }
  ],
  "notes": "Query A (exact investor Antler) totalCount 87; Query B keyword totalCount 90. Antler guard applied: kept entries with an investor value exactly Antler or starting with Antler (89 kept); dropped siliXon whose only match was Helloworld.vc And Antler. All Query A entries confirmed within union.",
- "rels_fetched": "2026-10-09"
+ "rels_fetched": "2026-10-10"
 }
