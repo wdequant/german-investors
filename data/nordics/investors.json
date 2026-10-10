@@ -834,5 +834,24 @@
   "last_investment": "2025-06-26",
   "europe_share": 92.3,
   "linkedin": "https://www.linkedin.com/in/tommyahlers/"
+ },
+ {
+  "urn": "urn:harmonic:investor:129685",
+  "name": "Tesi",
+  "kind": "fund",
+  "category": "vc",
+  "cc": "FI",
+  "company_id": 1497051,
+  "person_id": null,
+  "city": "Helsinki",
+  "country": "Finland",
+  "entry_stage_focus": "SERIES_A",
+  "sector_focus": "Communications & Information Technology,Energy & Utilities,Social Impact,Government & Public Sector",
+  "num_investments": 147,
+  "num_unicorns": 4,
+  "follow_on_rate": 0.2844036697247707,
+  "last_investment": "2026-09-24",
+  "europe_share": 85.4,
+  "linkedin": "https://linkedin.com/company/finnish-industry-investment-ltd"
  }
 ]

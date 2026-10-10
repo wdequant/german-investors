@@ -8,6 +8,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SLUG = {
     "Almi": "almi", "Antler": "antler", "Northzone": "northzone", "Creandum": "creandum",
+    "Tesi": "tesi",
     "Lifeline Ventures": "lifeline", "Industrifonden": "industrifonden",
     "Seed Capital": "seed-capital", "PSV": "psv", "Inventure": "inventure",
     "EQT Ventures": "eqt-ventures", "Sting": "sting", "Investinor": "investinor",

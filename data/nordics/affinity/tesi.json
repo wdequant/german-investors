@@ -1,0 +1,287 @@
+{
+ "affinity_domain": "tesi.fi",
+ "pipeline": [],
+ "relationships": [
+  {
+   "internal": "Laurence Garrett",
+   "external": "Juha Lehtola",
+   "externalEmail": "juha.lehtola@tesi.fi",
+   "score": 1.0,
+   "last": "2026-09-18",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Juha Lehtola",
+   "externalEmail": "juha.lehtola@tesi.fi",
+   "score": 0.99,
+   "last": "2026-09-18",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "Jacob Bernstein",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.96,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Annukka Käsnänen",
+   "externalEmail": "annukka.kasnanen@tesi.fi",
+   "score": 1.0,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Tomi Salo",
+   "externalEmail": "tomi.salo@tesi.fi",
+   "score": 1.0,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Tomi Salo",
+   "externalEmail": "tomi.salo@tesi.fi",
+   "score": 1.0,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Klaus Majanen",
+   "externalEmail": "klaus.majanen@tesi.fi",
+   "score": 1.0,
+   "last": "2025-12-03",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Pia Lemmetty",
+   "externalEmail": "pia.lemmetty@tesi.fi",
+   "score": 1.0,
+   "last": "2025-12-08",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Pia Lemmetty",
+   "externalEmail": "pia.lemmetty@tesi.fi",
+   "score": 1.0,
+   "last": "2025-12-08",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Pia Lemmetty",
+   "externalEmail": "pia.lemmetty@tesi.fi",
+   "score": 1.0,
+   "last": "2025-12-08",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Keith Bonnici",
+   "externalEmail": "keith.bonnici@tesi.fi",
+   "score": 1.0,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Keith Bonnici",
+   "externalEmail": "keith.bonnici@tesi.fi",
+   "score": 1.0,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Klaus Majanen",
+   "externalEmail": "klaus.majanen@tesi.fi",
+   "score": 0.99,
+   "last": "2025-12-03",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "William De Quant",
+   "external": "Pia Lemmetty",
+   "externalEmail": "pia.lemmetty@tesi.fi",
+   "score": 0.99,
+   "last": "2025-12-08",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Tomi Salo",
+   "externalEmail": "tomi.salo@tesi.fi",
+   "score": 0.98,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Laurence Garrett",
+   "external": "Keith Bonnici",
+   "externalEmail": "keith.bonnici@tesi.fi",
+   "score": 0.98,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.86,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Jan-Patrick Haikkola",
+   "externalEmail": "jan-patrick.haikkola@tesi.fi",
+   "score": 0.83,
+   "last": "2025-12-03",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Annukka Käsnänen",
+   "externalEmail": "annukka.kasnanen@tesi.fi",
+   "score": 0.8,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Klaus Majanen",
+   "externalEmail": "klaus.majanen@tesi.fi",
+   "score": 0.8,
+   "last": "2025-12-03",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Efosa Ayanru",
+   "external": "Asseri Lehtiniemi",
+   "externalEmail": "asseri.lehtiniemi@tesi.fi",
+   "score": 0.76,
+   "last": "2025-10-16",
+   "meet": "2025-10-16"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Juha Lehtola",
+   "externalEmail": "juha.lehtola@tesi.fi",
+   "score": 0.34,
+   "last": "2026-09-18",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Juha Lehtola",
+   "externalEmail": "juha.lehtola@tesi.fi",
+   "score": 0.32,
+   "last": "2026-09-18",
+   "meet": "2026-09-15"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Tuomas Rekonen",
+   "externalEmail": "tuomas.rekonen@tesi.fi",
+   "score": 0.76,
+   "last": "2024-06-27",
+   "meet": "2024-06-27"
+  },
+  {
+   "internal": "David Blyghton",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.1,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Fergal Mullen",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.1,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.1,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Sam Brooks",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.1,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Tom Neuberger",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.1,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Lucinda Maxwell",
+   "external": "Tony Nysten",
+   "externalEmail": "tony.nysten@tesi.fi",
+   "score": 0.1,
+   "last": "2026-05-14",
+   "meet": "2026-05-14"
+  },
+  {
+   "internal": "Irena Goldenberg",
+   "external": "Jan-Patrick Haikkola",
+   "externalEmail": "jan-patrick.haikkola@tesi.fi",
+   "score": 0.1,
+   "last": "2025-12-03",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Hannah Meehan",
+   "external": "Tomi Salo",
+   "externalEmail": "tomi.salo@tesi.fi",
+   "score": 0.1,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Hannah Meehan",
+   "external": "Pia Lemmetty",
+   "externalEmail": "pia.lemmetty@tesi.fi",
+   "score": 0.1,
+   "last": "2025-12-08",
+   "meet": "2025-12-03"
+  },
+  {
+   "internal": "Hannah Meehan",
+   "external": "Keith Bonnici",
+   "externalEmail": "keith.bonnici@tesi.fi",
+   "score": 0.1,
+   "last": "2025-11-07",
+   "meet": "2025-11-07"
+  },
+  {
+   "internal": "Harry Williams",
+   "external": "Selja Ryöppy",
+   "externalEmail": "selja.ryoppy@tesi.fi",
+   "score": 0.1,
+   "last": "2025-06-17",
+   "meet": null
+  }
+ ],
+ "rels_fetched": "2026-10-10"
+}

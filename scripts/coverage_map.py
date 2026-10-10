@@ -590,13 +590,17 @@ def build_covmap(regions, mynet, roster, load_json):
             areas[cc] = rollup([e for e in ents if e["cc"] == cc])
         for u in roster:   # pipeline exposure: share of the user's stage-weighted regional pipeline
             tot = sum(e["pu"].get(u, 0) for e in ents if e.get("rg") == _rg) or 0
+            totg = sum(e["pu"].get(u, 0) for e in ents if not e["tray"]) or 0
             if not tot:
                 continue
             for cc in _subs:
                 if cc in areas:
-                    share = round(100 * sum(e["pu"].get(u, 0) for e in ents if e["cc"] == cc) / tot, 1)
+                    here = sum(e["pu"].get(u, 0) for e in ents if e["cc"] == cc)
+                    share = round(100 * here / tot, 1)
                     if share and u in areas[cc]["u"]:
                         areas[cc]["u"][u]["exp"] = share
+                        if totg:   # and the same slice of the user's GLOBAL open pipeline
+                            areas[cc]["u"][u]["expg"] = round(100 * here / totg, 1)
 
     # ---- Affinity completeness layer: every investor-kind company in the Nordics (Compass sweep) ----
     import re as _re
@@ -870,8 +874,9 @@ def build_covmap(regions, mynet, roster, load_json):
                         if _subs11 else
                         {u: len([1 for p in who_in.get(_cc11, []) if p["r"].get(u)]) for u in roster})
         for _u11 in list(areas[_cc11].get("u") or {}):
-            if _u11 in _ru["u"] and "exp" in areas[_cc11]["u"][_u11]:
-                _ru["u"][_u11]["exp"] = areas[_cc11]["u"][_u11]["exp"]
+            for _k11 in ("exp", "expg"):
+                if _u11 in _ru["u"] and _k11 in areas[_cc11]["u"][_u11]:
+                    _ru["u"][_u11][_k11] = areas[_cc11]["u"][_u11][_k11]
         areas[_cc11] = _ru
 
     # the full network rows were only needed for scoring — keep them out of the payload

@@ -1557,7 +1557,7 @@ function cmLegend(me){
   const pnr=!!me&&isPartner(me);
   return `<div class="cmlegend">
     <span class="cmlgi"><svg width="16" height="26" viewBox="0 0 16 26"><circle cx="8" cy="13" r="5" class="cmnode"/></svg><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmnode"/></svg>bigger = more of Highland's deal flow and pipeline runs through this area</span>
-    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="8" class="cmnode"/><circle cx="13" cy="13" r="11.5" class="cmringtrack"/><circle cx="13" cy="13" r="11.5" class="cmring" pathLength="100" stroke-dasharray="62 100" transform="rotate(-90 13 13)"/></svg>the ring closes as ${pnr?'the firm\'s partner-level lines cover it':'your network covers what the place demands'}</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="8" class="cmnode"/><circle cx="13" cy="13" r="11.5" class="cmringtrack"/><circle cx="13" cy="13" r="11.5" class="cmring" pathLength="100" stroke-dasharray="62 100" transform="rotate(-90 13 13)"/></svg>the ring closes as ${pnr?'the firm\'s partner-level lines cover it':'your network covers what the place demands'} — an open arc is ground still to take</span>
   </div>`;
 }
 // role-aware coverage fraction for a map node: juniors read their own O-weighted coverage,
@@ -1698,13 +1698,19 @@ function cmSvg(me){
       return {sb,a,covu,R,rb,rt,rm,exp,x:sb.x,y:sb.y};
     });
     // satellite cities can sit inside a giant neighbour's disc (Cambridge/Oxford vs London):
-    // push the smaller node out along the joining axis until the discs clear
+    // nudge the smaller node out just far enough to be seen — partial overlap is fine now the
+    // rings carry the signal, and nothing may leave the region frame (Cambridge stays on the map)
     for(let it=0;it<3;it++) for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){
       const A=nodes[i],B=nodes[j];
-      const dx=B.x-A.x, dy=B.y-A.y, d=Math.hypot(dx,dy)||0.01, need=A.R+B.R+10/sEst;
+      const dx=B.x-A.x, dy=B.y-A.y, d=Math.hypot(dx,dy)||0.01, need=Math.max(A.R,B.R)+Math.min(A.R,B.R)*0.4+6/sEst;
       if(d<need){ const s=A.R>=B.R?B:A, dir=s===B?1:-1, push=need-d;
         s.x+=dx/d*push*dir; s.y+=dy/d*push*dir; }
     }
+    nodes.forEach(n=>{
+      n.x=Math.min(Math.max(n.x, rvb[0]+n.R+4/sEst), rvb[0]+rvb[2]-n.R-4/sEst);
+      n.y=Math.min(Math.max(n.y, rvb[1]+n.R+4/sEst), rvb[1]+rvb[3]-n.R-4/sEst);
+    });
+    nodes.sort((a,b)=>b.R-a.R);   // draw big discs first so overlapped satellites stay on top
     layer=nodes.map(n=>{
       const frac=cmRoleFrac(n.sb.id,true,n.a,n.covu,me), rr=n.rb+5/sEst;
       // the verdict word needs elbow room: suppress it when its label strip would run into a
@@ -1838,7 +1844,8 @@ function cmCountryPage(me){
     try{ if(!cityScores(me).some(x=>x.city===tc)) return ''; }catch(err){ return ''; }
     return `<div style="margin:8px 0 2px"><button class="minibtn" data-cmtrip="${tc}">\u2708 Plan a${tc==='SF Bay Area'?'n SF':' '+tc} trip</button></div>`;
   })();
-  return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${exp!=null?` ${Math.round(exp)}% of your pipeline in this region sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>${tripBit}
+  const expg=me&&A.u[me]?A.u[me].expg:null;
+  return `<div class="cmhead">${CM.ccName[cc]}: ${youBit}, ${teamBit}.${expg!=null?` <b>${Math.round(expg)}%</b> of your global open pipeline sits here.`:''} You know <b>${known}</b> people here.${stageLine}</div>${tripBit}
     <div class="cmv2grid">
       <div>
         ${(()=>{const all=[...short,...selAff].sort((a,b)=>cmU(b,me).m-cmU(a,me).m);
@@ -2192,7 +2199,10 @@ function mapBind(body){
       const cc=g.dataset.cmcc2;
       if(cc){ const a=CM.areas[cc]; if(!a) return;
         const covu=me&&a.u[me]?a.u[me].covu:0, kn=me&&a.known?a.known[me]||0:0;
-        hov.innerHTML=`<div class="cmcn"><b>${CM.ccName[cc]}</b></div><div class="cmnums"><span>Shortlisted funds <b>${a.sln||0}</b></span><span>You know <b>${kn}</b></span><span>Team <b>${Math.round(a.covT)}%</b></span></div>`;
+        const frac=cmRoleFrac(cc,true,a,covu,me);
+        hov.innerHTML=`<div class="cmcn"><b>${CM.ccName[cc]}</b></div>
+          <div class="cmwhy">Ring <b>${Math.round(frac*100)}%</b> closed — ${cmNodeWord(frac,me)}. The open arc is ground still to take.</div>
+          <div class="cmnums"><span>Shortlisted funds <b>${a.sln||0}</b></span><span>You know <b>${kn}</b></span><span>Team <b>${Math.round(a.covT)}%</b></span></div>`;
         hov.hidden=false; }
     });
     g.addEventListener('mousemove',ev=>{

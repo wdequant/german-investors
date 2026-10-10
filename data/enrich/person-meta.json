@@ -20004,5 +20004,11 @@
   "company": "Emblem",
   "src": "harmonic",
   "note": "LP in the fund, not investment staff"
+ },
+ "antti ritala": {
+  "inv": true,
+  "title": "Investment Director",
+  "city": "Helsinki",
+  "company": "Tesi"
  }
 }

@@ -6268,5 +6268,222 @@
     ]
    }
   ]
+ },
+ "1497051": {
+  "id": 1497051,
+  "name": "Tesi",
+  "connections": [
+   {
+    "person": "Juha Lehtola",
+    "title": "Director, Head of VC and Growth Investments",
+    "linkedin": "https://linkedin.com/in/juha-lehtola-1765b",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "CALENDAR",
+       "EMAIL",
+       "LINKEDIN"
+      ],
+      "last": "2026-04-09"
+     },
+     {
+      "user": "Gaj Rajanathan",
+      "sources": [
+       "CALENDAR",
+       "EMAIL",
+       "LINKEDIN"
+      ],
+      "last": "2023-06-01"
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ],
+      "last": "2025-03-19"
+     },
+     {
+      "user": "Isabel Wright",
+      "sources": [
+       "EMAIL"
+      ],
+      "last": "2019-05-17"
+     }
+    ]
+   },
+   {
+    "person": "Keith Bonnici",
+    "title": "Investment Director",
+    "linkedin": "https://linkedin.com/in/keithbonnici",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "CALENDAR",
+       "EMAIL",
+       "LINKEDIN"
+      ],
+      "last": "2025-11-07"
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Asseri Lehtiniemi",
+    "title": "Investment Director",
+    "linkedin": "https://linkedin.com/in/asserilehtiniemi",
+    "via": [
+     {
+      "user": "Efosa Ayanru",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2025-10-16"
+     }
+    ]
+   },
+   {
+    "person": "Klaus Majanen",
+    "title": "Investment Associate",
+    "linkedin": "https://linkedin.com/in/klaus-majanen-74a199184",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "CALENDAR",
+       "EMAIL"
+      ],
+      "last": "2025-06-24"
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "CALENDAR"
+      ],
+      "last": "2025-12-03"
+     }
+    ]
+   },
+   {
+    "person": "Tomi Salo",
+    "title": "Investment Manager",
+    "linkedin": "https://linkedin.com/in/tomi-salo-80274b113",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "CALENDAR",
+       "EMAIL",
+       "LINKEDIN"
+      ],
+      "last": "2025-11-07"
+     }
+    ]
+   },
+   {
+    "person": "Jan-Patrick Haikkola",
+    "title": "Investment Manager, Venture Capital",
+    "linkedin": "https://linkedin.com/in/jphaikkola",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "CALENDAR",
+       "LINKEDIN"
+      ],
+      "last": "2025-12-03"
+     }
+    ]
+   },
+   {
+    "person": "Samppa Sirvio",
+    "title": "Investment Manager, Venture Capital",
+    "linkedin": "https://linkedin.com/in/samppa-sirvio",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "CALENDAR",
+       "EMAIL",
+       "LINKEDIN"
+      ],
+      "last": "2022-11-14"
+     }
+    ]
+   },
+   {
+    "person": "Antti Ritala",
+    "title": "Investment Director",
+    "linkedin": "https://linkedin.com/in/antti-ritala-8897514",
+    "via": [
+     {
+      "user": "Abhishek Lahoti",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Pia Lemmetty-Tarasiuk",
+    "title": "Director - Venture Scale Up & Growth",
+    "linkedin": "https://linkedin.com/in/pia-johanna-lemmetty-tarasiuk",
+    "via": [
+     {
+      "user": "Will de Quant",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "LINKEDIN"
+      ]
+     },
+     {
+      "user": "Irena Goldenberg",
+      "sources": [
+       "LINKEDIN"
+      ]
+     }
+    ]
+   },
+   {
+    "person": "Annukka Kasnanen",
+    "title": "Senior Legal Counsel",
+    "linkedin": "https://linkedin.com/in/annukka-k%C3%A4sn%C3%A4nen-07838b90",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "CALENDAR"
+      ],
+      "last": "2025-11-07"
+     }
+    ]
+   },
+   {
+    "person": "Selja Ryoppy",
+    "title": "Sustainability Manager",
+    "linkedin": "https://linkedin.com/in/selja-ryoppy",
+    "via": [
+     {
+      "user": "Harry Williams",
+      "sources": [
+       "EMAIL"
+      ],
+      "last": "2025-06-18"
+     }
+    ]
+   }
+  ]
  }
 }
