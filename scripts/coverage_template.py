@@ -694,7 +694,6 @@ body.mkmode{cursor:crosshair}
   .chips.mini{max-width:170px}
 }
 @media(max-width:1140px){
-  #side{width:164px;padding:14px 10px}
   .covcard{width:auto;min-width:104px;padding:11px 12px 9px}
   .covrow{display:none}             /* score only — full stage split lives in the expanded row */
   .covhead{margin-bottom:0;flex-direction:column;gap:3px;align-items:flex-start}
@@ -813,7 +812,12 @@ body.mkmode{cursor:crosshair}
 .cmvword{fill:var(--muted);font-weight:600}
 .cmfocus{display:flex;align-items:center;gap:12px;margin:0 0 10px;padding:10px 14px;background:var(--accent-soft);
   border:1px solid var(--accent);border-radius:11px;font-size:13.5px;color:var(--ink)}
+.cmfocus span{flex:1;min-width:0;line-height:1.45}
 .cmfocus .minibtn{margin-left:auto;flex:none}
+@media(max-width:700px){
+  .cmfocus{flex-wrap:wrap;font-size:13px;padding:10px 12px}
+  .cmfocus .minibtn{margin-left:0}
+}
 .cmsoonnode{fill:var(--accent);fill-opacity:.09;stroke:var(--accent);stroke-opacity:.3;stroke-width:1;vector-effect:non-scaling-stroke}
 .cmreg.soon{cursor:default}
 .cmreg.soon:hover .cmsoonnode{fill-opacity:.18;stroke-opacity:.5}
@@ -1593,7 +1597,7 @@ function cmFocus(me){
     if(!best||gap>best.gap) best={gap,r,frac};
   });
   if(!best||best.frac>=0.5) return '';
-  return `<div class="cmfocus">${pnr?"The firm's biggest gap":'Your biggest gap'}: <b>${best.r.name}</b> — high deal flow, ${cmNodeWord(best.frac,me)}.
+  return `<div class="cmfocus"><span>${pnr?"The firm's biggest gap":'Your biggest gap'}: <b>${best.r.name}</b> — high deal flow, ${cmNodeWord(best.frac,me)}.</span>
     <button class="minibtn" ${best.r.solo?`data-cmcc2="${best.r.solo}"`:'data-cmgo="l1"'} data-cmreg="${best.r.id}">Look closer →</button></div>`;
 }
 // one action sentence for the hover card — node-level guidance that ends in a verb
