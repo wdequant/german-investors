@@ -808,6 +808,12 @@ body.mkmode{cursor:crosshair}
 .cmcty{fill:#e7e2d4;stroke:var(--bg);stroke-width:.7;cursor:pointer}
 .cmcty.on{stroke:#b9b2a0}
 .cmreg text{text-anchor:middle;font-size:12px;font-weight:700;fill:var(--ink2)}
+.cmringtrack{fill:none;stroke:var(--accent);stroke-opacity:.16;stroke-width:2.4;vector-effect:non-scaling-stroke}
+.cmring{fill:none;stroke:var(--accent-ink);stroke-width:2.4;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.cmvword{fill:var(--muted);font-weight:600}
+.cmfocus{display:flex;align-items:center;gap:12px;margin:0 0 10px;padding:10px 14px;background:var(--accent-soft);
+  border:1px solid var(--accent);border-radius:11px;font-size:13.5px;color:var(--ink)}
+.cmfocus .minibtn{margin-left:auto;flex:none}
 .cmsoonnode{fill:var(--accent);fill-opacity:.09;stroke:var(--accent);stroke-opacity:.3;stroke-width:1;vector-effect:non-scaling-stroke}
 .cmreg.soon{cursor:default}
 .cmreg.soon:hover .cmsoonnode{fill-opacity:.18;stroke-opacity:.5}
@@ -1548,10 +1554,66 @@ function cmGlyphSvg(e,me,px){
     ${rm>0.6?`<circle cx="${px/2}" cy="${px/2}" r="${rm.toFixed(1)}" fill="${CMTIER(u.cu)}" class="cmme"/>`:''}</svg>`;
 }
 function cmLegend(me){
+  const pnr=!!me&&isPartner(me);
   return `<div class="cmlegend">
     <span class="cmlgi"><svg width="16" height="26" viewBox="0 0 16 26"><circle cx="8" cy="13" r="5" class="cmnode"/></svg><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmnode"/></svg>bigger = more of Highland's deal flow and pipeline runs through this area</span>
-    <span class="cmlgi cmlhov"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="11" class="cmouter"/><circle cx="13" cy="13" r="8.5" class="cmteam"/><circle cx="13" cy="13" r="5.5" style="fill:var(--accent-ink)"/></svg>hover: pale ring = team coverage · solid centre = ${me?'yours':'mine'}</span>
+    <span class="cmlgi"><svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="8" class="cmnode"/><circle cx="13" cy="13" r="11.5" class="cmringtrack"/><circle cx="13" cy="13" r="11.5" class="cmring" pathLength="100" stroke-dasharray="62 100" transform="rotate(-90 13 13)"/></svg>the ring closes as ${pnr?'the firm\'s partner-level lines cover it':'your network covers what the place demands'}</span>
   </div>`;
+}
+// role-aware coverage fraction for a map node: juniors read their own O-weighted coverage,
+// partners read the firm's PARTNER-GRADE coverage (GP-to-GP lines only — junior lines don't close the ring)
+function cmRoleFrac(scopeId,isCC,a,covu,me){
+  if(!me) return (a?a.covT:0)/100;
+  if(!isPartner(me)) return Math.min(covu,100)/100;
+  const inScope=e=>isCC?e.cc===scopeId:((CM.regOf||{})[e.cc]===scopeId);
+  let num=0,den=0;
+  cmEnts().forEach(e=>{
+    if(!inScope(e)||!e.sl||e.rm) return;
+    const gp=Math.max(0,...(e.people||[]).filter(p=>p.sr==='Partner').map(p=>Math.max(0,...Object.values(p.r||{}))));
+    num+=(e.O||0)*Math.min(gp,100)/100; den+=(e.O||0);
+  });
+  return den?num/den:0;
+}
+function cmNodeWord(frac,me){
+  return (!!me&&isPartner(me))?cmQualT(frac*100)[0]:cmQualU(frac*100)[0];
+}
+// the one-line answer to "so what": the viewer's single biggest demand-vs-coverage gap
+function cmFocus(me){
+  if(!me) return '';
+  const pnr=isPartner(me);
+  let best=null;
+  const live=CM.regions.filter(r=>r.active&&CM.areas[r.id]);
+  const maxW=Math.max(...live.map(r=>0.5*CM.areas[r.id].opp+0.5*(CM.areas[r.id].pw||0)),1);
+  live.forEach(r=>{
+    const a=CM.areas[r.id];
+    const w=(0.5*a.opp+0.5*(a.pw||0))/maxW;
+    const covu=a.u[me]?a.u[me].covu:0;
+    const frac=cmRoleFrac(r.id,false,a,covu,me);
+    const gap=w*(1-frac);
+    if(!best||gap>best.gap) best={gap,r,frac};
+  });
+  if(!best||best.frac>=0.5) return '';
+  return `<div class="cmfocus">${pnr?"The firm's biggest gap":'Your biggest gap'}: <b>${best.r.name}</b> — high deal flow, ${cmNodeWord(best.frac,me)}.
+    <button class="minibtn" ${best.r.solo?`data-cmcc2="${best.r.solo}"`:'data-cmgo="l1"'} data-cmreg="${best.r.id}">Look closer →</button></div>`;
+}
+// one action sentence for the hover card — node-level guidance that ends in a verb
+function cmHovAct(rid,me){
+  if(!me) return '';
+  const pnr=isPartner(me);
+  const inReg=e=>((CM.regOf||{})[e.cc]===rid)||e.cc===rid;
+  let n=0;
+  cmEnts().forEach(e=>{
+    if(!inReg(e)||!e.sl||e.rm) return;
+    if(pnr){
+      const gp=Math.max(0,...(e.people||[]).filter(p=>p.sr==='Partner').map(p=>Math.max(0,...Object.values(p.r||{}))));
+      if((e.O||0)>=50&&gp<40) n++;
+    } else {
+      const cu=(e.u&&e.u[me]?e.u[me].cu:0);
+      if(e.CT>=50&&cu<30) n++;
+    }
+  });
+  if(!n) return '';
+  return `<div class="cmwhy" style="margin-top:4px">${pnr?`<b>${n}</b> relevant funds here have no GP line — the firm's white space`:`the team can already open <b>${n}</b> funds for you here`}</div>`;
 }
 function apMap(){
   if(!CM.ents) return '<div class="aphint">Coverage map data has not been built yet.</div>';
@@ -1584,6 +1646,7 @@ function apMap(){
       ${back}<span class="cmcrumb">${crumbs.join('<span class="psep">›</span>')}</span>
 
     </div>
+    ${MAP.lvl==='l0'&&!MAP.ent?cmFocus(me):''}
     ${isMapLvl&&!MAP.ent?cmLegend(me):''}
     ${main}`;
 }
@@ -1607,9 +1670,12 @@ function cmSvg(me){
       // one colour, size = how much the area matters; hover breaks out team ring + your centre
       const rb=(4+9*Math.sqrt(w0))*MSC, R=(16+13*Math.sqrt(w0))*MSC;
       const rt=R*Math.sqrt(a.covT/100), rm=R*Math.sqrt(covu/100);
+      const frac=cmRoleFrac(r.id,false,a,covu,me), rr=rb+4.5*MSC;
       return `<g class="cmreg live cmregbtn cmswap" ${r.solo?`data-cmcc2="${r.solo}"`:`data-cmgo="l1"`} data-cmreg="${r.id}" transform="translate(${r.x},${r.y})">
         <title>${r.name}</title>
-        <g class="cmbtn"><circle r="${rb.toFixed(1)}" class="cmnode"/></g>
+        <g class="cmbtn"><circle r="${rb.toFixed(1)}" class="cmnode"/>
+          <circle r="${rr.toFixed(1)}" class="cmringtrack"/>
+          ${frac>0.01?`<circle r="${rr.toFixed(1)}" class="cmring" pathLength="100" stroke-dasharray="${(frac*100).toFixed(0)} 100" transform="rotate(-90)"/>`:''}</g>
         <g class="cmdisc"><circle r="${R.toFixed(1)}" class="cmouter"/><circle r="${rt.toFixed(1)}" class="cmteam"/>
           ${rm>1?`<circle r="${rm.toFixed(1)}" class="cmme" style="fill:var(--accent-ink)"/>`:''}</g></g>`;
     }).join('');
@@ -1639,11 +1705,23 @@ function cmSvg(me){
       if(d<need){ const s=A.R>=B.R?B:A, dir=s===B?1:-1, push=need-d;
         s.x+=dx/d*push*dir; s.y+=dy/d*push*dir; }
     }
-    layer=nodes.map(n=>`<g class="cmreg live cmswap" data-cmcc2="${n.sb.id}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})">
-        <g class="cmbtn"><circle r="${n.rb.toFixed(1)}" class="cmnode"/></g>
+    layer=nodes.map(n=>{
+      const frac=cmRoleFrac(n.sb.id,true,n.a,n.covu,me), rr=n.rb+5/sEst;
+      // the verdict word needs elbow room: suppress it when its label strip would run into a
+      // neighbour's label or disc (post collision-push positions — what actually renders)
+      const ly=o=>o.y+((o.y>rvb[1]+rvb[3]*0.8)?-(o.rb+13/sEst):(o.rb+21/sEst));
+      const hw=90/sEst, bandH=20/sEst;
+      const clash=nodes.some(o=>o!==n&&(
+        (Math.abs(ly(o)-ly(n))<bandH && Math.abs(o.x-n.x)<2*hw) ||
+        (Math.abs(ly(n)-o.y)<o.R+bandH*0.6 && Math.abs(n.x-o.x)<o.R+hw)));
+      const word=clash?'':cmNodeWord(frac,me);
+      return `<g class="cmreg live cmswap" data-cmcc2="${n.sb.id}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})">
+        <g class="cmbtn"><circle r="${n.rb.toFixed(1)}" class="cmnode"/>
+          <circle r="${rr.toFixed(1)}" class="cmringtrack"/>
+          ${frac>0.01?`<circle r="${rr.toFixed(1)}" class="cmring" pathLength="100" stroke-dasharray="${(frac*100).toFixed(0)} 100" transform="rotate(-90)"/>`:''}</g>
         <g class="cmdisc"><circle r="${n.R.toFixed(1)}" class="cmouter"/><circle r="${n.rt.toFixed(1)}" class="cmteam"/>
           ${n.rm>0.4?`<circle r="${n.rm.toFixed(1)}" class="cmme" style="fill:var(--accent-ink)"/>`:''}</g>
-        <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(n.R+8/sEst):(n.R+16/sEst)).toFixed(1)}" style="font-size:${((isMobile()?11.5:14.5)/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}</text></g>`).join('');
+        <text y="${(n.y>rvb[1]+rvb[3]*0.8?-(rr+8/sEst):(rr+16/sEst)).toFixed(1)}" style="font-size:${((isMobile()?11.5:14.5)/sEst).toFixed(2)}px">${n.sb.name}${n.exp?' ⚑':''}${word?`<tspan class="cmvword" style="font-size:${((isMobile()?9:11)/sEst).toFixed(2)}px"> · ${word}</tspan>`:''}</text></g>`;}).join('');
   }
   return `<g class="cmbaseg">${base}</g><g class="cmlayer">${layer}</g>`;
 }
@@ -2084,7 +2162,7 @@ function mapBind(body){
       const covu=me&&a.u[me]?a.u[me].covu:0;
       const [qu]=cmQualU(covu), [qt]=cmQualT(a.covT);
       hov.innerHTML=`<div class="cmcn"><b>${(CM.regions.find(r=>r.id===rid)||{}).name||rid}</b></div>
-        <div class="cmwhy">${me?cmYouLine(covu,a.covT,me):`Team coverage is <b>${qt}</b>.`}</div>`;
+        <div class="cmwhy">${me?cmYouLine(covu,a.covT,me):`Team coverage is <b>${qt}</b>.`}</div>${cmHovAct(rid,me)}`;
       hov.hidden=false;
     });
     g.addEventListener('mousemove',ev=>{
